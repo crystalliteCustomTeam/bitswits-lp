@@ -8,7 +8,7 @@ import NewHomeHear from '@/components/NewHomeHear'
 import Technologieswe from '@/components/Technologieswe';
 import Homenextproject from '@/components/Homenextproject';
 import Capabilities2d from '@/components/Capabilities2d';
-import Faqs from '@/components/NewhomeFaqs';
+import NewAndroidFaqs from '@/components/NewAndroidFaqs';
 import NewBanner from '@/components/NewBanner';
 import AndriodMaintainlogo from '@/components/AndriodMaintainlogo';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
@@ -87,7 +87,7 @@ export default function gamedevelopmentcompany() {
             <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject />
-            <Faqs />
+            <NewAndroidFaqs />
             <HomeLocation />
 
 
