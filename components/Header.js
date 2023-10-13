@@ -447,7 +447,7 @@ const Header = () => {
                                 OUR WORK
                                 <FaAngleDown />
                             </Link>
-                            <div className={megamenu4 ? `${styles.megaMenu4} ${styles.opnMenu4}` : `${styles.megaMenu4}`}>
+                            {/* <div className={megamenu4 ? `${styles.megaMenu4} ${styles.opnMenu4}` : `${styles.megaMenu4}`}>
                                 <div className={styles.backArrow}>
                                     <Image alt="bitswits"
                                         src={backarrow}
@@ -613,7 +613,7 @@ const Header = () => {
                                         </div>
                                     </Col>
                                 </Row>
-                            </div>
+                            </div> */}
                         </li>
                         <li className={`${styles.megaList4} ${styles.navList}`} onClick={handleMenu}>
                             <Link href='/about-us' className={styles.megaLink}>
