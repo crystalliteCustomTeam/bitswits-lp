@@ -9,7 +9,7 @@ import Newsuccess from '@/components/NewMblSuccess';
 import HybridBanner from '@/components/HybridBanner';
 import NewHybridServices from '@/components/NewHybridServices';
 import NewHybridWho from '@/components/NewHybridWho';
-import NewHybridPortfolio from './NewHybridPortfolio';
+import NewHybridPortfolio from '@/components/NewHybridPortfolio';
 import HomeLocation from '@/components/HomeLocation';
 import NativeBanner from '@/components/NativeBanner';
 import NewNativeServices from '@/components/NewNativeServices';
