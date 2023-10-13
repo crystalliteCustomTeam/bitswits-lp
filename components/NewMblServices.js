@@ -94,7 +94,7 @@ const NewMblServices = () => {
                             <h1 className='text-white font55 font-bold text-center pb-5'>Maintaining digital quality with<br></br>
                                 our collection of customizable services</h1>
                         </Col>
-                        <Col lg={4}>
+                        <Col md={6} lg={4}>
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font22 font-bold text-center'>IOS Application Development</h3>
@@ -102,7 +102,7 @@ const NewMblServices = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={4}>
+                        <Col md={6} lg={4}>
                             <div className={styles.app1}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white f-22 font-bold text-center'>Android Application Development</h3>
@@ -138,7 +138,7 @@ const NewMblServices = () => {
                                 </Row>
                             </div>
                         </Col>
-                        <Col xl={6}>
+                        <Col md={6} xl={6}>
                             <div className={styles.app4}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white f-22 font-bold text-center'>React Native App Development</h3>
@@ -146,7 +146,7 @@ const NewMblServices = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col xl={6}>
+                        <Col md={6} xl={6}>
                             <div className={styles.app5}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white f-22 font-bold text-center'>Cross Platform App Development</h3>
@@ -154,26 +154,6 @@ const NewMblServices = () => {
                                 </div>
                             </div>
                         </Col>
-                        {/* <Col xl={8}>
-                            <div className={styles.app6}>
-                                <div className={styles.pick}>
-                                    <div className={styles.power}>
-                                        <h3 className='text-white f-20 font-bold'>AR/VR</h3>
-                                        <p className='text-white f-16'>Harness the power of AI to enhance automated interactions, create personalized experiences, and provide predictive insights for improved engagement with technology and data.</p>
-                                    </div>
-                                    <div>
-                                        <div id="lottie-arvrapp"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col xl={4}>
-                            <div className={styles.app7}>
-                                <h3 className='text-white f-20 font-bold text-center'>Internet of Things</h3>
-                                <p className={styles.para2}>We stand for developing custom Blockchain Solutions that drive enterprise growth and efficiency through blockchain technology.</p>
-                                <div id="lottie-internetapp"></div>
-                            </div>
-                        </Col> */}
                     </Row>
                 </Container>
             </section>

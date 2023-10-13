@@ -45,7 +45,7 @@ export default function HybridMobile() {
                 <Newsuccess />
             </div>
             <section className='spacingtb1'>
-            <Technologieswe />
+                <Technologieswe />
             </section>
             <NewHomeGlobal />
             <NewHomeSlider />
