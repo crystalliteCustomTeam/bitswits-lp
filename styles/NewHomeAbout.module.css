@@ -1047,7 +1047,7 @@
     background-color: #ff000000;
     width: 98px;
     height: 67px;
-    left: 44%;
+    left: 43%;
     top: 42%;
     cursor: pointer;
     transform: rotate(359deg);
@@ -1062,7 +1062,7 @@
     background-color: #ff000000;
     width: 140px;
     height: 72px;
-    left: 34%;
+    left: 32%;
     top: 35%;
     cursor: pointer;
     transform: rotate(359deg);
@@ -1077,7 +1077,7 @@
     background-color: #ff000000;
     width: 140px;
     height: 72px;
-    left: 20%;
+    left: 17%;
     top: 53%;
     top: 54%;
     transform: rotate(61deg);
@@ -1092,9 +1092,8 @@
     background-color: #ff000000;
     width: 96px;
     height: 71px;
-    left: 23%;
+    left: 20%;
     top: 38%;
-    top: 39%;
     transform: rotate(14deg);
 
   }
