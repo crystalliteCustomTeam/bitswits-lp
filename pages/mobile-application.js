@@ -19,6 +19,16 @@ import NewHomeGlobal from "@/components/NewHomeGlobal";
 import NewHomeSlider from "@/components/NewHomeSlider";
 import Technologieswe from "@/components/NewMblTechnologiesWe";
 import Homenextproject from "@/components/Homenextproject";
+import NewMblWhy from "@/components/NewMblWhy";
+
+//Icons 
+
+import icon23 from '../public/images/fymobile/1.png'
+import icon24 from '../public/images/fymobile/2.png'
+import icon25 from '../public/images/fymobile/3.png'
+import icon26 from '../public/images/fymobile/4.png'
+import icon27 from '../public/images/fymobile/5.png'
+import icon28 from '../public/images/fymobile/6.png'
 
 export default function mobileApplication() {
   return (
@@ -91,6 +101,25 @@ export default function mobileApplication() {
       <Justbuildit />
       <NewHomeHear />
       <NewMblServices />
+      <NewMblWhy
+        iconOne={icon23}
+        iconTwo={icon24}
+        iconThree={icon25}
+        iconFour={icon26}
+        iconFive={icon27}
+        iconSix={icon28}
+        titleOne="Greater Customer Reach"
+        titleTwo="Simplified Payments"
+        titleThree="Drive Sales"
+        titleFour={<>Customer <br /> Loyalty</>}
+        titleFive="Competitive Advantage"
+        titleSix="Improved Customer Service"
+        paraOne="Mobile apps allow you to connect with customers anywhere and anytime worldwide."
+        paraTwo="Mobile applications allow users to instantly pay, donate, and order without any hassle."
+        paraThree="Mobile applications provide a convenient way for customers to purchase your products and services on the go."
+        paraFour="Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences."
+        paraFive="Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue."
+        paraSix="Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction." />
       <NewMblPortFolio />
 
       <Capabilities />

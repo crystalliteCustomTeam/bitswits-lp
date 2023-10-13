@@ -4,25 +4,18 @@ import Link from 'next/link';
 import styles from "@/styles/Newgamemaintain.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
 //
-import CardOne from "@/public/newHomePageImages/card.png"
-import lap from "@/public/newHomePageImages/lap.png"
-import cool from "@/public/newHomePageImages/cool.png"
-import lum from "@/public/newHomePageImages/lum.png"
-import dem from "@/public/newHomePageImages/dem.png"
-import World from "@/public/newHomePageImages/world.png"
-import WhatImage from "@/public/newHomePageImages/what_Image.png"
 import { useEffect, useRef } from "react";
 import lottie from 'lottie-web';
 
-import mobileapp from '../public/mobileapp.json';
-import game from '../public/game.json';
-import blockchain from '../public/blockchain.json';
-import ai from '../public/artificial.json';
+// import mobileapp from '../public/mobileapp.json';
+// import game from '../public/game.json';
+// import blockchain from '../public/blockchain.json';
+// import ai from '../public/artificial.json';
 
-import web from '../public/webapp.json';
-import uiux from '../public/uiuxapp.json';
-import arvrapp from '../public/arvr.json';
-import internetapp from '../public/internetofthings.json';
+// import web from '../public/webapp.json';
+// import uiux from '../public/uiuxapp.json';
+// import arvrapp from '../public/arvr.json';
+// import internetapp from '../public/internetofthings.json';
 
 
 
@@ -30,77 +23,73 @@ import internetapp from '../public/internetofthings.json';
 const Newgamemaintain = () => {
     const anime = useRef(null);
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        lottie.loadAnimation({
-            container: document.getElementById('lottie'),
-            animationData: game,
-            loop: true,
-            autoplay: true,
-        });
+    //     lottie.loadAnimation({
+    //         container: document.getElementById('lottie'),
+    //         animationData: game,
+    //         loop: true,
+    //         autoplay: true,
+    //     });
 
-        lottie.loadAnimation({
-            container: document.getElementById('blockchain'),
-            animationData: blockchain,
-            loop: true,
-            autoplay: true,
-        });
-        lottie.loadAnimation({
-            container: document.getElementById('artifical'),
-            animationData: ai,
-            loop: true,
-            autoplay: true,
-            renderer: "svg",
-        });
-
-
-
-        lottie.loadAnimation({
-            container: document.getElementById('lottie-container'),
-            renderer: "svg",
-            loop: true,
-            autoplay: true,
-            animationData: mobileapp,
-        });
-
-        lottie.loadAnimation({
-            container: document.getElementById('lottie-web'),
-            renderer: "svg",
-            loop: true,
-            autoplay: true,
-            animationData: web,
-        });
-        lottie.loadAnimation({
-            container: document.getElementById('lottie-uiux'),
-            renderer: "svg",
-            loop: true,
-            autoplay: true,
-            animationData: uiux,
-        });
-        lottie.loadAnimation({
-            container: document.getElementById('lottie-arvrapp'),
-            renderer: "svg",
-            loop: true,
-            autoplay: true,
-            animationData: arvrapp,
-        });
-        lottie.loadAnimation({
-            container: document.getElementById('lottie-internetapp'),
-            renderer: "svg",
-            loop: true,
-            autoplay: true,
-            animationData: internetapp,
-        });
+    //     lottie.loadAnimation({
+    //         container: document.getElementById('blockchain'),
+    //         animationData: blockchain,
+    //         loop: true,
+    //         autoplay: true,
+    //     });
+    //     lottie.loadAnimation({
+    //         container: document.getElementById('artifical'),
+    //         animationData: ai,
+    //         loop: true,
+    //         autoplay: true,
+    //         renderer: "svg",
+    //     });
 
 
 
+    //     lottie.loadAnimation({
+    //         container: document.getElementById('lottie-container'),
+    //         renderer: "svg",
+    //         loop: true,
+    //         autoplay: true,
+    //         animationData: mobileapp,
+    //     });
 
-
-    }, []);
+    //     lottie.loadAnimation({
+    //         container: document.getElementById('lottie-web'),
+    //         renderer: "svg",
+    //         loop: true,
+    //         autoplay: true,
+    //         animationData: web,
+    //     });
+    //     lottie.loadAnimation({
+    //         container: document.getElementById('lottie-uiux'),
+    //         renderer: "svg",
+    //         loop: true,
+    //         autoplay: true,
+    //         animationData: uiux,
+    //     });
+    //     lottie.loadAnimation({
+    //         container: document.getElementById('lottie-arvrapp'),
+    //         renderer: "svg",
+    //         loop: true,
+    //         autoplay: true,
+    //         animationData: arvrapp,
+    //     });
+    //     lottie.loadAnimation({
+    //         container: document.getElementById('lottie-internetapp'),
+    //         renderer: "svg",
+    //         loop: true,
+    //         autoplay: true,
+    //         animationData: internetapp,
+    //     });
 
 
 
 
+
+    // }, []);
 
     return (
         <>
@@ -120,41 +109,33 @@ const Newgamemaintain = () => {
                         <Col lg={4}>
                             <div className={styles.app}>
                                 <div>
-                                    <h3 className='text-white f-20 font-bold text-center'>Unity 3D Games</h3>
+                                    <h3 className='text-white f-20 font-bold '>Unity 3D Games</h3>
                                     <p className={styles.para}>
                                         We work with Unity 3D technology to foster unforgettable gaming experiences that push the boundaries of what's possible. Whether you want an action-packed shooter or a more peaceful puzzle title, we can ensure your game is a success and tends to become a revenue-generating machine!
                                     </p>
                                 </div>
 
-                                <div id="lottie-container"></div>
-
-
+                                {/* <div id="lottie-container"></div> */}
                             </div>
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app1}>
                                 <div>
-                                    <h3 className='text-white f-20 font-bold text-center'>VR game development</h3>
+                                    <h3 className='text-white f-20 font-bold '>Unity 3D Games</h3>
                                     <p className={styles.para}>
                                         Producing immersive and mind-blowing virtual reality experiences for gamers and businesses alike. Our games are designed with the player's experience in mind and feature intuitive controls, immersive soundscapes, and realistic visuals that transport players into another world. Get ready to hook your gamers and urge them to return for more!
                                     </p>
                                 </div>
-
-                                <div id="lottie"></div>
-
                             </div>
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app2}>
                                 <div>
-                                    <h3 className='text-black f-20 font-bold text-center'>3D Game Development</h3>
+                                    <h3 className='text-white f-20 font-bold'>3D Game Development</h3>
                                     <p className={styles.para}>
-                                        BitsWits masters the art of creating stunning 3D games, harnessing the power of cutting-edge technology and state-of-the-art tools. We know that a successful 3D game requires more than just great visuals – it's also about a compelling gameplay experience. Hence, we ensure games that are balanced, entertaining, and mesmerizing for players of all ages! Believe it or not, we are the perfect place to get your next gaming project off the ground!
+                                        Producing immersive and mind-blowing virtual reality experiences for gamers and businesses alike. Our games are designed with the player's experience in mind and feature intuitive controls, immersive soundscapes, and realistic visuals that transport players into another world. Get ready to hook your gamers and urge them to return for more!
                                     </p>
                                 </div>
-
-                                <div id="blockchain"></div>
-
                             </div>
                         </Col>
 
@@ -173,7 +154,7 @@ const Newgamemaintain = () => {
                                         </div>
                                     </Col>
                                     <Col xl={4}>
-                                        <div id='artifical' ></div>
+                                        {/* <div id='artifical' ></div> */}
                                     </Col>
                                 </Row>
 
@@ -183,13 +164,12 @@ const Newgamemaintain = () => {
                         <Col xl={6}>
                             <div className={styles.app4}>
                                 <div>
-                                    <h3 className='text-white f-20 font-bold text-center'>AR Game Development</h3>
+                                    <h3 className='text-white f-20 font-bold '>AR Game Development</h3>
                                     <p className={styles.possibilities}>
                                         BitsWits helps you unlock a world of dazzling possibilities and experience the ultimate gaming entertainment with its sheer expertise in building AR games. With cutting-edge technologies such as 3D scanning, game engine creation, and cloud-based storage, we provide innovative solutions built to stand the test of time!
                                     </p>
                                 </div>
-                                <div id="lottie-web"></div>
-
+                                {/* <div id="lottie-web"></div> */}
                             </div>
 
                         </Col>
@@ -201,9 +181,7 @@ const Newgamemaintain = () => {
                                         BitsWits create technology-advanced VR games using the latest 3D graphics, motion capture systems, and robust gaming engines. From intense battles, realistic racing simulators, exciting open-world exploration, and highly interactive first-person shooters to interactive puzzles, there is nothing our gaming maestros don't excel at. Time to leave your gamers gasping for more; after all, this is what we always ensure!
                                     </p>
                                 </div>
-                                <div id="lottie-uiux"></div>
-
-
+                                {/* <div id="lottie-uiux"></div> */}
                             </div>
                         </Col>
                         <Col xl={8}>
@@ -215,8 +193,7 @@ const Newgamemaintain = () => {
                                         <p className='text-white f-16'>Unleashing the potential of Unreal Engine Technology, BitsWits create games that push the boundaries of what's possible in gaming and transport players into new worlds with breathtaking visuals and engaging gameplay. Let your imagination run wild with the one-of-a-kind gaming studio, BitsWits!!!</p>
                                     </div>
                                     <div>
-                                        <div id="lottie-arvrapp"></div>
-
+                                        {/* <div id="lottie-arvrapp"></div> */}
                                     </div>
 
                                 </div>
@@ -227,12 +204,12 @@ const Newgamemaintain = () => {
                         <Col xl={4}>
                             <div className={styles.app7}>
                                 <div>
-                                    <h3 className='text-white f-20 font-bold text-center'>Buildbox Game
+                                    <h3 className='text-white f-20 font-bold '>Buildbox Game
                                         Development</h3>
                                     <p className={styles.para9}>BitsWits cashes in on the Buildbox platform and creates beautiful 3D worlds, physics-based levels, mind-bending puzzles, heart-pumping action games, side-scrolling runners, and whatnot. Tap into the power of this ground-breaking space with our world-class game developers, and let your rivals be knocked out of the competition!</p>
                                 </div>
 
-                                <div id="lottie-internetapp"></div>
+                                {/* <div id="lottie-internetapp"></div> */}
                             </div>
 
                         </Col>
