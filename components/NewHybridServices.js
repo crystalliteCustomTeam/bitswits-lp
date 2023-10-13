@@ -112,7 +112,7 @@ const NewHybridServices = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col sm={6} lg={4} className={styles.earn}>
+                        <Col lg={4} className={styles.earn}>
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white f-22 font-bold '>Ionic</h3>

@@ -50,7 +50,7 @@ export default function HybridMobile() {
             <Justbuildit />
             <NewHybridWho />
             <NewMblWhat />
-            <NewMblWhy 
+            <NewMblWhy
                 iconOne={icon23}
                 iconTwo={icon24}
                 iconThree={icon25}
@@ -60,9 +60,9 @@ export default function HybridMobile() {
                 titleOne="Cross-Platform Apps"
                 titleTwo="Expressive and Impressive UI"
                 titleThree="Native Performance"
-                titleFour="Cost Savings"
+                titleFour={<> Cost <br /> Savings </>}
                 titleFive="Rapid Development"
-                titleSix="Vast Plugins"
+                titleSix={<>Vast <br /> Plugins </>}
                 paraOne="Flutter allows app deployment to both iOS and Android platforms, saving time and cost for development."
                 paraTwo="Flutter widgets and composition models help Flutter app developers quickly build intuitive and high-quality UI/UX on each platform."
                 paraThree="Flutter app development agency builds fast-performing apps by compiling directly to native ARM code rather than JavaScript."
@@ -72,10 +72,10 @@ export default function HybridMobile() {
             />
             <NewHybridPortfolio />
             <div className='status'>
-           <Newsuccess />
-           </div>
+                <Newsuccess />
+            </div>
             <section className='spacingtb1'>
-            <Technologieswe />
+                <Technologieswe />
             </section>
             <NewHomeGlobal />
             <NewHomeSlider />

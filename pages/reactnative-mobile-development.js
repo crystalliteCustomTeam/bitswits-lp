@@ -3,19 +3,12 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 //components
 import NewMblWhat from '@/components/NewMblWhat';
-import NewMblGlobal from '@/components/NewMblGlobal';
-import NewMblSlider from '@/components/NewMblSlider';
-import NewMblTechnologiesWe from '@/components/NewMblTechnologiesWe';
 import NewMblNextProject from '@/components/NewMblNextProject';
-import Capabilities from '@/components/Capabilities';
 import Faqs from '@/components/NewhomeFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
-import FlutterBanner from '@/components/FlutterBanner';
-import NewHybridServices from '@/components/NewHybridServices';
 import NewHybridWho from '@/components/NewHybridWho';
 import NewHybridPortfolio from './NewHybridPortfolio';
 import HomeLocation from '@/components/HomeLocation';
-import FlutterMaintain from '@/components/FlutterMaintain';
 import ReactNativeBanner from '@/components/ReactNativeBanner';
 import ReactnativeMaintain from '@/components/ReactnativeMaintain';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
@@ -53,7 +46,7 @@ export default function ReactNativeMobile() {
             <Justbuildit />
             <NewHybridWho />
             <NewMblWhat />
-            <NewMblWhy 
+            <NewMblWhy
                 iconOne={icon23}
                 iconTwo={icon24}
                 iconThree={icon25}
@@ -63,9 +56,9 @@ export default function ReactNativeMobile() {
                 titleOne="Cross-Platform Saves Cost and Time"
                 titleTwo="Better and Native Performance"
                 titleThree="Reusability"
-                titleFour="Live Reloading"
+                titleFour={<>Live <br /> Reloading</>}
                 titleFive="Open-Source Framework"
-                titleSix="Corporate Backed"
+                titleSix={<>Corporate <br /> Backed</>}
                 paraOne="React native apps allow building one application that runs on both iOS and Android from a single JavaScript codebase."
                 paraTwo="For near-native performance, React Native compiles native code. It doesn’t have hybrid lag like other cross-platform options"
                 paraThree="Development is accelerated by the ability to reuse a significant amount of code, such as business logic and APIs, between iOS and Android."
@@ -74,11 +67,11 @@ export default function ReactNativeMobile() {
                 paraSix="Developed and backed by talented individuals in the field, including Facebook, Microsoft, Shopify, and others."
             />
             <NewHybridPortfolio />
-           <div className='status'>
-           <Newsuccess />
-           </div>
+            <div className='status'>
+                <Newsuccess />
+            </div>
             <section className='spacingtb1'>
-            <Technologieswe />
+                <Technologieswe />
             </section>
             <NewHomeGlobal />
             <NewHomeSlider />

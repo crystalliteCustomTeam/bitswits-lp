@@ -31,11 +31,11 @@
 .app {
     background-image: url(../public/newMobilePageImages/card1.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;
-    height: 440px;
+    height: 530px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,11 +54,11 @@
 .app1 {
     background-image: url(../public/newMobilePageImages/card2.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;
-    height: 440px;
+    height: 530px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,11 +75,11 @@
 .app2 {
     background-image: url(../public/newMobilePageImages/card3.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;
-    height: 440px;
+    height: 530px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,11 +93,11 @@
 .app3 {
     background-image: url(../public/newMobilePageImages/card4.png);
     background-position: right;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;
-    height: 440px;
+    height: 431px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -147,15 +147,14 @@
 .app4 {
     background-image: url(../public/newMobilePageImages/card5.png);
     background-position: right;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 430px;
-
+    height: 531px;
 }
 
 .app7 {
@@ -195,15 +194,14 @@
 .app5 {
     background-image: url(../public/newMobilePageImages/card6.png);
     background-position: right;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 420px;
-
+    height: 531px;
 }
 
 
@@ -257,7 +255,7 @@
 
     .app4,
     .app5 {
-        height: 560px;
+        height: 531px;
     }
 
     .custom {
@@ -268,6 +266,24 @@
 
 }
 
+
+@media only screen and (max-width: 1399px) {
+
+    .app,
+    .app1,
+    .app2 {
+        height: 456px;
+    }
+
+    .app3 {
+        height: 371px;
+    }
+
+    .app4,
+    .app5 {
+        height: 457px;
+    }
+}
 
 @media screen and (max-width: 1200px) {
 
@@ -305,20 +321,26 @@
         -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
         padding-top: 50px;
         padding-bottom: 0px;
-        height: 440px;
+        height: 428px;
     }
 
     .app2 {
-        height: 440px;
+        height: 878px;
     }
 
     .app4 {
-        height: 440px;
+        height: 282px;
+        align-items: flex-start;
         background-size: cover
     }
 
+    .app3 {
+        height: 231px;
+    }
+
     .app5 {
-        height: 440px;
+        height: 282px;
+        align-items: flex-start;
         background-size: cover
     }
 
@@ -393,6 +415,24 @@
 
 
 @media screen and (max-width: 480px) {
+
+    .app,
+    .app1,
+    .app2,
+    .app3,
+    .app4 {
+        height: auto;
+        border: 3px solid #4A78EF;
+        padding: 30px 10px;
+        border-radius: 20px;
+    }
+
+    .app5 {
+        height: 360px;
+        margin-top: 91px;
+        border-radius: 20px;
+        border: 3px solid #4A78EF;
+    }
 
     .book,
     .about {

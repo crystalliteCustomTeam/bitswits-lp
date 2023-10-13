@@ -358,12 +358,12 @@
     .app4,
     .app5 {
         height: 456px;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
 
     .app3 {
-        background-size: contain;
+        background-size: cover;
         padding: 30px 28px 9px 33px;
     }
 
@@ -407,10 +407,9 @@
     .app4,
     .app5 {
         height: auto;
-        border: 2px solid;
+        border: 3px solid;
         border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
         border-radius: 3px;
-        background-image: none;
         text-align: center;
     }
 
@@ -424,32 +423,28 @@
 
         padding-top: 50px;
         padding-bottom: 0px;
-        height: auto;
+        height: 428px;
+        border: 0;
     }
 
     .app2 {
-        height: auto;
+        height: 878px;
         border-radius: 24px;
     }
 
     .app3 {
-        height: auto;
+        height: 231px;
+        border: 0;
     }
-
-
 
     .app4,
     .app5 {
-        height: auto;
-    }
-
-    .app6 {
-        height: auto;
+        height: 282px;
+        border: 0;
     }
 
     .app7 {
         height: auto;
-        background-image: none;
         border: 3px solid #f32f53;
         border-radius: 22px;
     }
@@ -564,29 +559,26 @@
     .app4,
     .app5 {
         height: auto;
-        border: 2px solid;
+        border: 3px solid;
         border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
         border-radius: 3px;
-        background-image: none;
     }
 
     .app6,
     .app7 {
         height: auto;
-        border: 2px solid;
+        border: 3px solid;
         border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
         border-radius: 3px;
-        background-image: none;
     }
 
     .app1,
     .app,
     .app2 {
         height: auto;
-        border: 2px solid;
+        border: 3px solid;
         border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
         border-radius: 3px;
-        background-image: none;
     }
 
     .newHomeBg h1 {
@@ -603,9 +595,8 @@
 
     .app3 {
         height: auto;
-        border: 2px solid;
+        border: 3px solid;
         border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
         border-radius: 3px;
-        background-image: none;
     }
 }

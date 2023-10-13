@@ -131,7 +131,7 @@ const FlutterMaintain = () => {
                         <Col lg={4} className={styles.earn}>
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>Flutter Development
+                                    <h3 className='text-white font25 font-bold'>Flutter Development <br className='d-lg-block d-none'></br>
                                         For IOS & Android</h3>
                                     <p className={styles.para}>
                                         We make stellar Flutter apps that work on both iOS and Android platforms. We aim to make your application stand out in the industry with our Flutter app development service. Trust our expert flutter developers to deliver seamless user experience and robust functionality.
@@ -143,7 +143,7 @@ const FlutterMaintain = () => {
                         <Col lg={12} className={styles.earn}>
                             <div className={styles.app3}>
                                 <Row className='align-items-center'>
-                                    <Col xl={7}>
+                                    <Col xl={6}>
                                         <div className={styles.paraThreeContent}>
                                             <h3 className='text-white f-25 font-bold '>Customized Flutter Development Solutions</h3>
                                             <p className={styles.para1}>
@@ -173,8 +173,8 @@ const FlutterMaintain = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app5}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Maintenance & Support Services
-                                        For Flutter Apps</h3>
+                                    <h3 className='text-white f-25 font-bold text-center'>Maintenance & Support Services <br ></br>
+                                        For Flutter Apps</h3> 
                                     <p className={styles.possibilities}>
                                         BitsWits offers maintenance and support services to keep your Flutter applications running smoothly after launch. Our experts provide top-notch services to ensure your applications remain in excellent condition for the long term, giving you peace of mind and ensuring the success of your business.
                                     </p>

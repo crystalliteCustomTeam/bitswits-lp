@@ -102,8 +102,8 @@ const ReactnativeMaintain = () => {
                         <Col lg={12}>
                             <p className={` f-20 font-bold text-white text-center mb-0`}>Go Beyond Expectations With
                             </p>
-                            <h1 className='text-white f-55  font-bold text-center pb-3'>React Native App Development In A Whole
-                                New Way - Access Unique Services &
+                            <h1 className='text-white f-55  font-bold text-center pb-3'>React Native App Development In A Whole <br></br>
+                                New Way - Access Unique Services & <br></br>
                                 Solutions!</h1>
                         </Col>
                         <Col sm={6} lg={4} className={styles.earn}>
