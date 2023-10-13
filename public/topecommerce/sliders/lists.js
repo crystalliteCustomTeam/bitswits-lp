@@ -1,1 +1,0 @@
-768>$(window).width()&&$(".__lists").slick({dots:!1,arrows:!1,infinite:!1,slidesToShow:2,slidesToScroll:2,autoplay:!0,autoplaySpeed:1e3,infinite:!0,loop:!0,responsive:[{breakpoint:576,settings:{slidesToShow:1,slidesToScroll:1}}]});

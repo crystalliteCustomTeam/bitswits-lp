@@ -1,1 +1,0 @@
-1300>$(window).width()&&$(".__expendingCards").slick({dots:!1,arrows:!1,infinite:!1,slidesToShow:3,slidesToScroll:3,autoplay:!0,autoplaySpeed:1e3,infinite:!0,loop:!0,responsive:[{breakpoint:992,settings:{slidesToShow:2,slidesToScroll:2}},{breakpoint:768,settings:{slidesToShow:1,slidesToScroll:1}}]});
