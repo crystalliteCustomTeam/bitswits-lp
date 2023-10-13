@@ -1030,10 +1030,10 @@
 
     position: absolute;
     content: '';
-   background-color: #ff000000;
+    background-color: #ff000000;
     width: 67px;
     height: 67px;
-    left: 61%;
+    left: 60%;
     top: 44%;
     cursor: pointer;
     transform: rotate(359deg);
@@ -1044,10 +1044,10 @@
 
     position: absolute;
     content: '';
-background-color: #ff000000;
+    background-color: #ff000000;
     width: 98px;
     height: 67px;
-    left: 43%;
+    left: 44%;
     top: 42%;
     cursor: pointer;
     transform: rotate(359deg);
@@ -1059,10 +1059,10 @@ background-color: #ff000000;
 
     position: absolute;
     content: '';
-background-color: #ff000000;
+    background-color: #ff000000;
     width: 140px;
     height: 72px;
-    left: 33%;
+    left: 34%;
     top: 35%;
     cursor: pointer;
     transform: rotate(359deg);
@@ -1074,11 +1074,11 @@ background-color: #ff000000;
 
     position: absolute;
     content: '';
-background-color: #ff000000;
+    background-color: #ff000000;
     width: 140px;
     height: 72px;
     left: 20%;
-    top: 38%;
+    top: 53%;
     top: 54%;
     transform: rotate(61deg);
 
@@ -1089,16 +1089,15 @@ background-color: #ff000000;
 
     position: absolute;
     content: '';
-background-color: #ff000000;
+    background-color: #ff000000;
     width: 96px;
     height: 71px;
-    left: 22%;
+    left: 23%;
     top: 38%;
     top: 39%;
     transform: rotate(14deg);
 
   }
-
 
 }
 
