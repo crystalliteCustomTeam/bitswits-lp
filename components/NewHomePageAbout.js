@@ -154,6 +154,13 @@ const NewHomeAbout = () => {
                                     <h5 className='mt-4'>Natasha Z.</h5>
                                 </div>
 
+                                <div onMouseEnter={() => fun1('active14')}
+                                    onMouseLeave={() => fun2('secImage15')} className={isHovered == 'active14' ? styles.active14 : styles.secImage15}>
+                                    <Image src={comma} className='img-fluid' />
+                                    <h4>"Our enterprise needed a robust BI solution, and Bitswits delivered! It's transformed the way we view our business metrics." <Image src={comma} className='img-fluid' /></h4>
+                                    <h5 className='mt-4'>Ivan F.</h5>
+                                </div>
+
 
                             </div >
 
@@ -223,6 +230,11 @@ const NewHomeAbout = () => {
                             <div onMouseEnter={() => fun1('active13')}
                                 onMouseLeave={() => fun2('secImage14')}
                                 className={styles.james13}></div>
+
+
+                            <div onMouseEnter={() => fun1('active14')}
+                                onMouseLeave={() => fun2('secImage15')}
+                                className={styles.james14}></div>
 
                         </Col>
                     </Row>
