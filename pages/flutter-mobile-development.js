@@ -8,7 +8,7 @@ import NewMblSlider from '@/components/NewMblSlider';
 import NewMblTechnologiesWe from '@/components/NewMblTechnologiesWe';
 import NewMblNextProject from '@/components/NewMblNextProject';
 import Capabilities from '@/components/Capabilities';
-import Faqs from '@/components/NewhomeFaqs';
+import NewFlutterFaqs from '@/components/NewFlutterFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
 import FlutterBanner from '@/components/FlutterBanner';
 import NewHybridServices from '@/components/NewHybridServices';
@@ -136,7 +136,7 @@ export default function HybridMobile() {
             <NewHomeGlobal />
             <NewHomeSlider />
             <NewMblNextProject />
-            <Faqs />
+            <NewFlutterFaqs />
             <HomeLocation />
 
         </>

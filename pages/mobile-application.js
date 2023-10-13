@@ -8,7 +8,7 @@ import NewMblWho from '@/components/NewMblWho';
 import NewMblWhat from '@/components/NewMblWhat';
 import NewHomeHear from '@/components/NewHomeHear';
 import Capabilities from '@/components/Capabilities';
-import Faqs from '@/components/NewhomeFaqs';
+import NewMobileFaqs from '@/components/NewMobileFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
 import NewMblPortFolio from '@/components/NewMblPortFolio';
 import NewMblServices from '@/components/NewMblServices';
