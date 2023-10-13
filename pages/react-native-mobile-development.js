@@ -16,6 +16,8 @@ import NewHybridWho from '@/components/NewHybridWho';
 import NewHybridPortfolio from '@/components/NewHybridPortfolio';
 import HomeLocation from '@/components/HomeLocation';
 import FlutterMaintain from '@/components/FlutterMaintain';
+import ReactNativeBanner from '@/components/ReactNativeBanner';
+import ReactnativeMaintain from '@/components/ReactnativeMaintain';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 import NewHomeAbout from '@/components/NewHomePageAbout';
 import NewMblWhy from '@/components/NewMblWhy';
@@ -26,27 +28,28 @@ import NewHomeSlider from '@/components/NewHomeSlider';
 
 //Icons 
 
-import icon23 from '../public/images/fyiconsflutter/1.png'
-import icon24 from '../public/images/fyiconsflutter/2.png'
-import icon25 from '../public/images/fyiconsflutter/3.png'
-import icon26 from '../public/images/fyiconsflutter/4.png'
-import icon27 from '../public/images/fyiconsflutter/5.png'
-import icon28 from '../public/images/fyiconsflutter/6.png'
+import icon23 from '../public/images/fynative/1.png'
+import icon24 from '../public/images/fynative/2.png'
+import icon25 from '../public/images/fynative/3.png'
+import icon26 from '../public/images/fynative/4.png'
+import icon27 from '../public/images/fynative/5.png'
+import icon28 from '../public/images/fynative/6.png'
 
-export default function HybridMobile() {
+
+export default function ReactNativeMobile() {
 
     return (
         <>
             <Head>
-                <title>Hybrid Mobile App Development Company - BitsWits</title>
+                <title>React Native Mobile App Development Company - BitsWits</title>
                 <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
-            <FlutterBanner />
+            <ReactNativeBanner />
             <NewHomeAbout />
-            <FlutterMaintain />
+            <ReactnativeMaintain />
             <Justbuildit />
             <NewHybridWho />
             <NewMblWhat />
@@ -57,21 +60,21 @@ export default function HybridMobile() {
                 iconFour={icon26}
                 iconFive={icon27}
                 iconSix={icon28}
-                titleOne="Cross-Platform Apps"
-                titleTwo="Expressive and Impressive UI"
-                titleThree="Native Performance"
-                titleFour="Cost Savings"
-                titleFive="Rapid Development"
-                titleSix="Vast Plugins"
-                paraOne="Flutter allows app deployment to both iOS and Android platforms, saving time and cost for development."
-                paraTwo="Flutter widgets and composition models help Flutter app developers quickly build intuitive and high-quality UI/UX on each platform."
-                paraThree="Flutter app development agency builds fast-performing apps by compiling directly to native ARM code rather than JavaScript."
-                paraFour="Flutter app developers use a single codebase that reduces development and maintenance costs. No need for a separate iOS and Android codebase."
-                paraFive="The hot reload feature allows Flutter app developers to see code changes reflected immediately without recompiling or accelerating the process."
-                paraSix="To add features without writing repetitive code, BitsWits have created an extensive network of high-quality plugins for Flutter."
+                titleOne="Cross-Platform Saves Cost and Time"
+                titleTwo="Better and Native Performance"
+                titleThree="Reusability"
+                titleFour="Live Reloading"
+                titleFive="Open-Source Framework"
+                titleSix="Corporate Backed"
+                paraOne="React native apps allow building one application that runs on both iOS and Android from a single JavaScript codebase."
+                paraTwo="For near-native performance, React Native compiles native code. It doesn’t have hybrid lag like other cross-platform options"
+                paraThree="Development is accelerated by the ability to reuse a significant amount of code, such as business logic and APIs, between iOS and Android."
+                paraFour="Live reloading speeds the development process by allowing code updates to be made instantly"
+                paraFive="At BitsWits, our team utilizes the active open source React Native framework to build applications without bugs."
+                paraSix="Developed and backed by talented individuals in the field, including Facebook, Microsoft, Shopify, and others."
             />
             <NewHybridPortfolio />
-            <div className='status'>
+           <div className='status'>
            <Newsuccess />
            </div>
             <section className='spacingtb1'>

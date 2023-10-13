@@ -51,7 +51,7 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/artificial-intelligence'
     || router.pathname == '/cross-platform-app-development'
     || router.pathname == '/web-app-development'
-    || router.pathname == '/reactnative-mobile-development'
+    || router.pathname == '/react-native-mobile-development'
     || router.pathname == '/hybrid-mobile-apps-development'
     || router.pathname == '/custom-mobile-development'
     || router.pathname == '/native-mobile-development'
