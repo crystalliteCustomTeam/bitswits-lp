@@ -126,14 +126,14 @@ const Footerlp = () => {
 
 
 
-                      <li> <Link href="/ios-app-development-company">Ios App Development</Link></li>
-                      <li> <Link href="/mobile-app-development">Mobile App Development</Link></li>
-                      <li> <Link href="/android-app-development-company">Android App Development</Link></li>
-                      <li> <Link href="/flutter-app-development-company">Flutter App Development</Link></li>
-                      <li> <Link href="/react-native-app-development-company">React Native App Development</Link></li>
-                      <li> <Link href="/wearable-app-development-company">Wearable App Development</Link></li>
-                      <li> <Link href="/cross-platform-app-development-company">Cross Platform App Development</Link></li>
-                      <li> <Link href="/web-app-development-company">Web App Development</Link></li>
+                      <li> <Link href="/ios-app-development">Ios App Development</Link></li>
+                      <li> <Link href="/mobile-application">Mobile App Development</Link></li>
+                      <li> <Link href="/android-application-development">Android App Development</Link></li>
+                      <li> <Link href="/flutter-mobile-development">Flutter App Development</Link></li>
+                      <li> <Link href="/react-native-mobile-development">React Native App Development</Link></li>
+                      <li> <Link href="/hybrid-mobile-apps-development">Hybrid Mobile Apps Development</Link></li>
+                      <li> <Link href="/cross-platform-app-development">Cross Platform App Development</Link></li>
+                      <li> <Link href="/web-app-development">Web App Development</Link></li>
 
 
                     </ul>
@@ -142,11 +142,11 @@ const Footerlp = () => {
                     <ul className='p-0'>
 
 
-                      <li><Link href="/web-development">Web Development</Link>  </li>
-                      <li><Link href="/php-development-service">Php Development Services</Link>  </li>
-                      <li><Link href="/e-commerence-development">ECommerce Development</Link>  </li>
-                      <li><Link href="/enterprise-portal-solution">Enterprise Portal Solution</Link>  </li>
-                      <li><Link href="/magento-enterprise-solution">Magento Enterprise Solution</Link>  </li>
+                      <li><Link href="#">Augmented Reality Apps Development</Link>  </li>
+                      <li><Link href="/custom-mobile-development">Custom Mobile Development</Link>  </li>
+                      <li><Link href="#">ECommerce Development</Link>  </li>
+                      <li><Link href="#">Enterprise Portal Solution</Link>  </li>
+                      <li><Link href="#">Magento Enterprise Solution</Link>  </li>
 
 
 
@@ -163,12 +163,12 @@ const Footerlp = () => {
                     <ul className='p-0 mb-0'>
 
 
-                      <li>  <Link href="/game-app-development-company-lp" className="modal-toggle">  Game App Development</Link> </li>
-                      <li>  <Link href="/2d-game-development-company-lp" className="modal-toggle">  2D Game Development </Link> </li>
-                      <li>  <Link href="/3d-game-development-company-lp" className="modal-toggle">  3D Game Development </Link> </li>
-                      <li>  <Link href="/nft-game-development-company-lp" className="modal-toggle">  NFT Game Development </Link> </li>
-                      <li>  <Link href="/blockchain-game-development-company-lp" className="modal-toggle">  Blockchain Game Development </Link> </li>
-                      <li>  <Link href="/game-app-development-company-lp" className="modal-toggle">  Game Development </Link> </li>
+                      <li>  <Link href="/game-application-development" className="modal-toggle">  Game App Development</Link> </li>
+                      <li>  <Link href="/2d-game-development-company" className="modal-toggle">  2D Game Development </Link> </li>
+                      <li>  <Link href="/3d-game-development-company" className="modal-toggle">  3D Game Development </Link> </li>
+                      <li>  <Link href="/nft-game-development" className="modal-toggle">  NFT Game Development </Link> </li>
+                      <li>  <Link href="/blockchain-game-development" className="modal-toggle">  Blockchain Game Development </Link> </li>
+                      <li>  <Link href="#" className="modal-toggle">  Game Development </Link> </li>
                       <li>  <Link href="#" className="modal-toggle">  2D Art </Link> </li>
                       <li>  <Link href="#" className="modal-toggle">  3D Art </Link> </li>
 
@@ -180,6 +180,7 @@ const Footerlp = () => {
                     <ul className='p-0'>
                       <li>
                         <Link href="/blockchain-development-lp" className="modal-toggle">Blockchain Development</Link>
+                        <Link href="/artificial-intelligence" className="modal-toggle">Artificial Intelligence</Link>
                       </li>
                     
                     </ul>

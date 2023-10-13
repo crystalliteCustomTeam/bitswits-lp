@@ -97,7 +97,7 @@ const NewHomeMaintain = () => {
                             <h1 className='text-white f-55 font-bold text-center pb-5'>Maintaining digital quality with
                                 our collection of customizable services</h1>
                         </Col>
-                        <Col lg={4}>
+                        <Col md={6} lg={4}>
                             <div className={styles.app}>
                                 <h3 className='text-white f-20 font-bold text-center'>IOS Application Development</h3>
                                 <p className={styles.para}>The mobile apps developed by app developers at BitsWits are captivating, interactive, and help improve the user experience from planning to execution.</p>
@@ -105,7 +105,7 @@ const NewHomeMaintain = () => {
                                 <div id="lottie-container"></div>
                             </div>
                         </Col>
-                        <Col lg={4}>
+                        <Col md={6} lg={4}>
                             <div className={styles.app1}>
                                 <h3 className='text-white f-20 font-bold text-center'>Android Application Development</h3>
                                 <p className={styles.para}>Use our fascinating game development solutions to transport your audience to spellbound virtual worlds.</p>
@@ -140,40 +140,20 @@ const NewHomeMaintain = () => {
                                 </Row>
                             </div>
                         </Col>
-                        <Col xl={6}>
+                        <Col md={6} xl={6}>
                             <div className={styles.app4}>
                                 <h3 className='text-white f-20 font-bold text-center'>React Native App Development</h3>
                                 <p className={styles.para2}>Our top app developers excel in web app development, offering top-tier expertise ensuring client satisfaction and on-time delivery.</p>
                                 <div id="lottie-web"></div>
                             </div>
                         </Col>
-                        <Col xl={6}>
+                        <Col md={6} xl={6}>
                             <div className={styles.app5}>
                                 <h3 className='text-black f-20 font-bold text-center'>Cross Platform App Development</h3>
                                 <p className={styles.para3}>Our team of professional UI/UX app designers help develop designs that guide users towards meaningful interactions and impactful user experience.</p>
                                 <div id="lottie-uiux"></div>
                             </div>
                         </Col>
-                        {/* <Col xl={8}>
-                            <div className={styles.app6}>
-                                <div className={styles.pick}>
-                                    <div className={styles.power}>
-                                        <h3 className='text-white f-20 font-bold'>AR/VR</h3>
-                                        <p className='text-white f-16'>Harness the power of AI to enhance automated interactions, create personalized experiences, and provide predictive insights for improved engagement with technology and data.</p>
-                                    </div>
-                                    <div>
-                                        <div id="lottie-arvrapp"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col xl={4}>
-                            <div className={styles.app7}>
-                                <h3 className='text-white f-20 font-bold text-center'>Internet of Things</h3>
-                                <p className={styles.para2}>We stand for developing custom Blockchain Solutions that drive enterprise growth and efficiency through blockchain technology.</p>
-                                <div id="lottie-internetapp"></div>
-                            </div>
-                        </Col> */}
                     </Row>
                 </Container>
             </section>

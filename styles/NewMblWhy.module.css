@@ -13,6 +13,10 @@
   height: 350px;
 }
 
+.whyBox .max_width {
+  max-width: 230px;
+}
+
 .whyBox .whyImg {
   position: absolute;
   top: -15px;
