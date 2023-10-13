@@ -18,6 +18,7 @@ import phone8 from '../public/images/aboutslider/phone8.svg'
 import phone9 from '../public/images/aboutslider/phone9.svg'
 
 
+
 const AboutUsSec = () => {
 
     var phoneSlider = {

@@ -159,9 +159,9 @@ const Header = () => {
                                                                         </Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link onClick={handleMenu} href='/hybrid-mobile-apps-development'>
+                                                                        <Link onClick={handleMenu} href='#'>
                                                                             <FaAngleRight />
-                                                                            <span>Hybird Mpbile App Development</span>
+                                                                            <span>Hybird Mobile App Development</span>
                                                                         </Link>
                                                                     </li>
                                                                     <li>

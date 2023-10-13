@@ -117,6 +117,50 @@ const NewHomeAbout = () => {
                                     <h5 className='mt-4'>Natasha Z.</h5>
                                 </div>
 
+                                <div onMouseEnter={() => fun1('active9')}
+                                    onMouseLeave={() => fun2('secImage10')} className={isHovered == 'active9' ? styles.active9 : styles.secImage10}>
+                                    <Image src={comma} className='img-fluid' />
+                                    <h4>"Bitswits's blockchain development app has revolutionized our financial transactions. Secure, fast, and reliable!" <Image src={comma} className='img-fluid' /></h4>
+                                    <h5 className='mt-4'>Chen W.</h5>
+                                </div>
+
+                                <div onMouseEnter={() => fun1('active10')}
+                                    onMouseLeave={() => fun2('secImage11')} className={isHovered == 'active10' ? styles.active10 : styles.secImage11}>
+                                    <Image src={comma} className='img-fluid' />
+                                    <h4>"Kudos to Bitswits for creating a groundbreaking social media platform. The features are unique, and the design is sleek." <Image src={comma} className='img-fluid' /></h4>
+                                    <h5 className='mt-4'>Emily P</h5>
+                                </div>
+
+                                <div onMouseEnter={() => fun1('active11')}
+                                    onMouseLeave={() => fun2('secImage12')} className={isHovered == 'active11' ? styles.active11 : styles.secImage12}>
+                                    <Image src={comma} className='img-fluid' />
+                                    <h4>"As a fitness enthusiast, I've tried countless apps. The fitness app by Bitswits is by far the best – intuitive, comprehensive, and motivating." <Image src={comma} className='img-fluid' /></h4>
+                                    <h5 className='mt-4'>Ben S</h5>
+                                </div>
+
+
+                                <div onMouseEnter={() => fun1('active12')}
+                                    onMouseLeave={() => fun2('secImage13')} className={isHovered == 'active12' ? styles.active12 : styles.secImage13}>
+                                    <Image src={comma} className='img-fluid' />
+                                    <h4>"As a personal trainer, the fitness app by Bitswits is my go-to for clients. Its features and user experience are unparalleled." <Image src={comma} className='img-fluid' /></h4>
+                                    <h5 className='mt-4'>Isabelle Q</h5>
+                                </div>
+
+
+                                <div onMouseEnter={() => fun1('active13')}
+                                    onMouseLeave={() => fun2('secImage14')} className={isHovered == 'active13' ? styles.active13 : styles.secImage14}>
+                                    <Image src={comma} className='img-fluid' />
+                                    <h4>"The social media app developed by Bitswits stands out in a crowded market. Fresh features and a user-centric approach!" <Image src={comma} className='img-fluid' /></h4>
+                                    <h5 className='mt-4'>Natasha Z.</h5>
+                                </div>
+
+                                <div onMouseEnter={() => fun1('active14')}
+                                    onMouseLeave={() => fun2('secImage15')} className={isHovered == 'active14' ? styles.active14 : styles.secImage15}>
+                                    <Image src={comma} className='img-fluid' />
+                                    <h4>"Our enterprise needed a robust BI solution, and Bitswits delivered! It's transformed the way we view our business metrics." <Image src={comma} className='img-fluid' /></h4>
+                                    <h5 className='mt-4'>Ivan F.</h5>
+                                </div>
+
 
                             </div >
 
@@ -164,6 +208,33 @@ const NewHomeAbout = () => {
                             <div onMouseEnter={() => fun1('active8')}
                                 onMouseLeave={() => fun2('secImage9')}
                                 className={styles.james8}></div>
+
+                            <div onMouseEnter={() => fun1('active9')}
+                                onMouseLeave={() => fun2('secImage10')}
+                                className={styles.james9}></div>
+
+
+                            <div onMouseEnter={() => fun1('active10')}
+                                onMouseLeave={() => fun2('secImage11')}
+                                className={styles.james10}></div>
+
+
+                            <div onMouseEnter={() => fun1('active11')}
+                                onMouseLeave={() => fun2('secImage12')}
+                                className={styles.james11}></div>
+
+                            <div onMouseEnter={() => fun1('active12')}
+                                onMouseLeave={() => fun2('secImage13')}
+                                className={styles.james12}></div>
+
+                            <div onMouseEnter={() => fun1('active13')}
+                                onMouseLeave={() => fun2('secImage14')}
+                                className={styles.james13}></div>
+
+
+                            <div onMouseEnter={() => fun1('active14')}
+                                onMouseLeave={() => fun2('secImage15')}
+                                className={styles.james14}></div>
 
                         </Col>
                     </Row>
