@@ -1,0 +1,44 @@
+.Offer{
+    padding: 100px;
+    padding-bottom: 50px;
+    background-color: #fff0f0;
+}
+
+.help{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.into{
+    position: relative;
+}
+.into:after {
+    position: absolute;
+    content: '';
+    background-color: #c7c8c9;
+    width: 1px;
+    height: 65px;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 991px) { 
+
+    .into:after{
+        display: none;
+    }
+
+
+}
+@media screen and (max-width: 480px) { 
+
+    .Offer {
+        padding: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+  
+    }
+
+
+}

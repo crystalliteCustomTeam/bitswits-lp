@@ -1,0 +1,78 @@
+.markBanner {
+  background-image: url(../public/images/case-mark-place/banner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0 60px;
+}
+
+.heading h1 {
+  padding-bottom: 250px;
+}
+
+.heading h1 span {
+  margin-left: -15px;
+}
+
+.contnt {
+  margin-top: -165px;
+}
+
+/* ========================= */
+
+@media screen and (max-width: 1024px) {
+  .heading h1 span {
+    margin-left: -10px;
+  }
+
+  .markBanner h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .heading h1 {
+    padding-bottom: 165px;
+  }
+
+  .contnt {
+    margin-top: -100px;
+  }
+
+  .contnt p {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .markBanner {
+    background-image: unset;
+    padding: 50px 0 20px;
+  }
+
+  .heading h1 span {
+    margin-left: -2px;
+  }
+
+  .heading h1 {
+    padding-bottom: 0;
+  }
+
+  .contnt {
+    margin-top: 10px;
+  }
+
+  .markBanner h2 {
+    font-size: 28px;
+    line-height: 35px;
+    color: #000;
+  }
+
+  .markBanner h2 br {
+    display: none;
+  }
+
+  .contnt p {
+    width: 100%;
+    color: #000;
+  }
+}

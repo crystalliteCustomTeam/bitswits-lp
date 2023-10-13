@@ -1,0 +1,16 @@
+.count {
+  background-color: #000;
+}
+.counterBox {
+  text-align: center;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+/* ================== Media Query ================== */
+
+

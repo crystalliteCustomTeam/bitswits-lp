@@ -1,0 +1,44 @@
+.portal {
+  padding: 50px 0;
+  background-color: #f6f7f9;
+}
+
+.portRow{
+    align-items: center;
+}
+
+.portal h3 {
+  color: hsl(0, 0%, 0%);
+}
+
+.portal ul {
+  padding: 0;
+  margin: 0;
+}
+
+.portal ul li {
+  font-size: 18px;
+  line-height: 40px;
+  background-image: url(../public/images/etpSolutions/sharepoints.png);
+  background-repeat: no-repeat;
+  background-position: 0 10px;
+  padding-left: 35px;
+}
+
+@media screen and (max-width: 991px) {
+  .portal {
+    padding: 50px 0;
+  }
+
+  .portal h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .portal h3 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}

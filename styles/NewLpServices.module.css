@@ -1,0 +1,101 @@
+.newHomeBg {
+    background-image: url(../public/newlppage/service-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 120px 0;
+}
+
+
+.newHomeBg h3,
+.newHomeBg p {
+    color: white;
+}
+
+.card {
+    background: white;
+    transition: 1s;
+    padding: 10px;
+}
+
+
+.card:hover {
+    background: #000;
+    transition: 1s;
+}
+
+.card p {
+    color: black;
+}
+
+
+.card:hover h4 {
+    color: white;
+}
+
+.card:hover p {
+    color: white;
+}
+
+
+.card:hover .btn a {
+    color: white;
+}
+
+.card:hover .btn a {
+    color: white;
+}
+
+.card:hover .btn a span img {
+    filter: grayscale(1);
+    opacity: .5;
+}
+
+.card:hover .btn a::before {
+    background-image: url(../public/newlppage/right-arrow.png);
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn a {
+    color: black;
+    position: relative;
+
+}
+
+.btn a::before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    right: -21px;
+    background-image: url(../public/newlppage/service_arrow.png);
+    width: 14px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.pont {
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+.book {
+    width: 300px;
+    height: 45px;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

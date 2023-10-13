@@ -1,0 +1,81 @@
+.result{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.see{
+  border-style: solid;
+    border-width: 4px 4px 15px 4px;
+    border-image: linear-gradient(90deg,#f32f5e,#4a78ef) 30;
+    border-style: solid;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 15px 15px 15px 15px;
+    --e-column-margin-right: 15px;
+    --e-column-margin-left: 15px;
+    padding: 50px 40px 40px 40px;
+    height: 380px;
+}
+
+.see:hover{
+  cursor: pointer;
+  border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    border-image: linear-gradient(90deg,#f32f5e,#4a78ef) 30;
+    border-style: solid;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 15px 15px 15px 15px;
+    --e-column-margin-right: 15px;
+    --e-column-margin-left: 15px;
+    padding: 50px 40px 40px 40px;
+}
+
+.approch{
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+margin-bottom: 20px;
+}
+
+.see p{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 991px) {
+
+  .see {
+    border-style: solid;
+    border-width: 4px 4px 15px 4px;
+    border-image: linear-gradient(90deg,#f32f5e,#4a78ef) 30;
+    border-style: solid;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 15px 15px 15px 15px;
+    --e-column-margin-right: 15px;
+    --e-column-margin-left: 15px;
+    padding: 14px!important;
+    height: 380px;
+    width: 100%;
+}
+
+ }
+
+
+ @media screen and (max-width: 767px) {
+
+
+  .see {
+    width: auto;
+    height: auto;
+  }
+
+  .engineering h2 {
+    font-size: 30px;
+    letter-spacing: unset;
+    margin-bottom: 4%;
+}
+
+
+  }
+
+  

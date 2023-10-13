@@ -1,0 +1,186 @@
+.myExpertise {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: hidden;
+  background-color: #f6f7f9;
+}
+
+.mongo {
+  border-left: 1px solid #cccccc;
+}
+
+.bttns1 {
+  background-color: transparent;
+  width: 100%;
+  height: 45px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #000;
+}
+
+.bttns1:hover {
+  transition: background-color 2s;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+.soluRow .soluCol {
+  padding: 0;
+  /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+  display: flex;
+  text-align: center;
+  margin: 0 0;
+}
+
+.soluCard {
+  padding: 35px;
+  border-radius: 12px;
+  height: 100%;
+  transition: 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  cursor: pointer;
+  border-bottom: 1px solid #252323;
+  border-right: 1px solid #252323;
+  border-radius: 0;
+  background: #000;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.soluCard.soluCardJstCntr {
+  justify-content: center;
+}
+
+.soluCardBB {
+  border-bottom: 0;
+}
+
+.soluCardBR {
+  border-right: 0;
+}
+
+.imgBox {
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgBox img {
+  filter: brightness(500);
+  width: 500px;
+}
+
+
+
+.soluCard a img {
+  filter: grayscale();
+}
+
+.soluCard a:hover {
+  color: #5275e9;
+}
+
+.soluCard a span {
+  color: #5275e9;
+  transition: all .5s ease-in-out;
+}
+
+.soluCard a:hover span {
+  margin-right: 10px;
+  transition: all .5s ease-in-out;
+}
+
+.soluCard h5 {
+  margin-bottom: 10px;
+  letter-spacing: -1px;
+  color: #a7a7a7;
+}
+
+
+
+.soluCard p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #9f9999;
+}
+
+.soluCard ul {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.soluCard ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.borderleft {
+  border-left: 1px solid #e5e5e5;
+}
+
+.borderright {
+  border-right: 1px solid #e5e5e5;
+}
+
+.borderbottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* ===============Media Queries================ */
+
+@media screen and (max-width: 991px) {
+  .myExpertise {
+    padding: 50px 0;
+  }
+
+  .soluCard h5 {
+    font-size: 18px;
+  }
+
+  .soluCardBR {
+    border-right: 1px solid #ccc;
+  }
+
+  .mblR {
+    border-right: 0px;
+  }
+
+  .mblBr {
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .myExpertise h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .soluRow {
+    margin-top: 0px !important;
+  }
+
+}

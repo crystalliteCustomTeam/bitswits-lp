@@ -1,0 +1,134 @@
+.tesla {
+  background-color: black;
+  background: #000;
+  background-image: url(../public/newHomePageImages/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 250px;
+}
+
+.after {
+  margin-bottom: 5%;
+}
+
+.after h3 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+
+}
+
+.after h2 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  line-height: 1;
+}
+
+.after p {
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
+
+.desigh h3 {
+
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+
+}
+
+.desigh p {
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+}
+
+.desigh {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  height: auto;
+  width: 100%;
+  border-image: linear-gradient(0deg, #ffffff00, #f32f5ed6, #4a78ef) 30;
+  border-width: 2px;
+  border-style: solid;
+  border-bottom: 0px;
+  position: relative;
+
+}
+
+.desigh a {
+  background: linear-gradient(to right, #EB335B 35%, #4A78EF 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 1700px) {
+
+  .tesla {
+
+    padding-bottom: 350px;
+  }
+
+
+}
+@media screen and (max-width: 767px) {
+
+  .tesla {
+    background-color: black;
+    background-image: unset;
+    padding-bottom: 0px;
+}
+
+    .after h2 {
+
+    font-size: 30px;
+
+  }
+
+  .desigh h3 {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+
+
+ 
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+
+  .after h2 {
+
+    font-size: 30px;
+    line-height: 1.3;
+
+  }
+  .after h3{
+    font-size: 15px;
+  }
+
+  .desigh h3 {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+  }
+
+
+ 
+
+
+
+
+
+}

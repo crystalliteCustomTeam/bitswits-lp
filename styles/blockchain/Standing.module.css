@@ -1,0 +1,77 @@
+.secPad {
+    padding-top: 250px;
+}
+
+.feature {
+    /* padding: 40px; */
+    margin-bottom: 20px;
+}
+
+.feature {
+    /* background-image: url(../public/images/shadows.png); */
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+    /* height:286.29px;
+    width: 286.29px; */
+    /* background-position: 50% 100%; */
+    transition: all 1s;
+    margin: 20px 20px 0px 20px;
+    filter: drop-shadow(0 0 3rem rgb(255, 72, 209));
+}
+
+.feature img {
+    transition: all 1s ease;
+    width: 100%;
+}
+
+.feature img:hover {
+    filter: grayscale(1);
+}
+
+.feature span {
+    text-align: center;
+    color: #676767;
+}
+
+/* .feature span:hover{
+    color: var(--mry);
+}
+.feature h4:hover{
+    color: var(--mry);
+} */
+.gap2 {
+    padding-left: 2rem;
+    padding-right: 1.2rem;
+}
+
+.feature:hover span {
+    color: var(--mry);
+}
+
+.standing h4:hover {
+    color: var(--mry);
+}
+
+.br1 {
+    border-right: 1px solid #676767;
+}
+
+.bb1 {
+    border-bottom: 1px solid #676767;
+}
+
+@media (max-width:768px) {
+
+    .br1,
+    .bb1 {
+        border: none;
+    }
+}
+
+@media (max-width:1028px) {
+
+    .br1,
+    .bb1 {
+        border: none;
+    }
+}

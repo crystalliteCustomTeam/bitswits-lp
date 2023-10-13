@@ -1,0 +1,84 @@
+.caseOverView {
+  padding: 100px 0 50px;
+}
+
+.rideOverView,
+.foodOverView {
+  padding: 50px 0;
+}
+
+.heading {
+  background-image: url(../public/images/case-icon.svg);
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  position: relative;
+}
+
+.caseOverView h5 {
+  position: absolute;
+  bottom: -75px;
+}
+
+.headBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading svg {
+  font-size: 30px;
+}
+
+.contnt {
+  margin-top: 50px;
+}
+
+.contnt a {
+  color: #000;
+  font-weight: 800;
+}
+
+.foldImg {
+  text-align: center;
+}
+
+.foldImg img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+/* ============================================= */
+
+@media screen and (max-width: 991px) {
+  .heading {
+    background-image: unset;
+    padding: 0;
+  }
+
+  .heading svg {
+    display: none;
+  }
+
+  .caseOverView {
+    padding: 50px 0;
+  }
+
+  .contnt {
+    margin-top: 0px;
+  }
+
+  .caseOverView h5 {
+    position: unset;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .caseOverView,
+  .rideOverView,
+  .foodOverView {
+    padding: 25px 0;
+  }
+}

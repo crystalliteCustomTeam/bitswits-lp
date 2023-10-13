@@ -1,0 +1,68 @@
+.integration {
+    background: black;
+    color: white;
+    padding: 100px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+.integrtxt {
+    text-align: center;
+}
+.integration h3 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.sbtn {
+    padding: 15px 20px;
+    border: 2px solid white;
+   
+}
+.sbtn {
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+@media screen and (max-width: 1920px) {
+
+    .integrtxt h2 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+
+ }
+
+
+ 
+
+
+  @media screen and (max-width: 991px) {
+
+    .integrtxt h2 {
+        font-size: 40px;
+        line-height: 50px;
+      }
+
+   }
+
+
+
+
+@media screen and (max-width: 480px) { 
+
+    .sbtn {
+        padding: 15px 15px;
+        font-size: 13px;
+       
+    }
+    .integrtxt h2 {
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 700;
+    }
+
+}

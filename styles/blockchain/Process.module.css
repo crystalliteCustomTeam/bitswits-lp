@@ -1,0 +1,60 @@
+.process {
+  padding-top: 250px;
+}
+
+.feature {
+  text-align: left;
+  /* padding: 40px;
+    margin-bottom: 10px; */
+}
+.feature {
+  background-image: url(../../public/blockchain/images/card.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 258px;
+  width: 100%;
+  /* background-position: 50% 100%; */
+  transition: all 1s;
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.feature:hover {
+  background-image: url(../../public/blockchain/images/card-1.png);
+}
+
+.feature span {
+  text-align: center;
+  color: #676767;
+}
+.gap2 {
+  padding-left: 2rem;
+  padding-right: 1.2rem;
+}
+
+.feature:hover span {
+  color: var(--mry);
+}
+
+@media (max-width: 1028px) {
+  .feature {
+    width: 525px;
+    margin: auto;
+  }
+  .gap2 {
+    padding: 0px;
+  }
+
+}
+@media (max-width: 991px) {
+  .feature {
+    width: 100%;
+    height: 180px;
+  }
+  .gaps {
+    padding: 20px !important;
+  }
+  .gap2 {
+    padding: 0px;
+  }
+}

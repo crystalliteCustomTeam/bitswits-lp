@@ -1,0 +1,142 @@
+.coverage {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.bttns1 {
+  background-color: transparent;
+  width: 100%;
+  height: 45px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #000;
+}
+
+.bttns1:hover {
+  transition: background-color 2s;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+.servcsList {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.servcsList a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.servcsList a::after {
+  content: url(/images/icons/arrow.png);
+  width: 0px;
+  height: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.servcsList a:hover {
+  color: #f32f53;
+}
+
+.servcsList a:hover::after {
+  content: url(/images/icons/arrowhovr.png);
+}
+
+/* ===============Media Queries================ */
+
+@media screen and (max-width: 767px) {
+  .servcsList a::after {
+    width: 25px;
+  }
+}
+
+.forminput {
+  display: block;
+  width: 100%;
+  padding: 0.675rem 0.75rem;
+  font-size: 1rem;
+  line-height: 0;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  margin-bottom: 13px;
+}
+
+.formarea {
+  padding: 0.675rem 0.75rem;
+  min-height: 120px;
+  resize: vertical;
+  height: auto;
+  height: 44px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+}
+
+.contactform {
+  background: #fff;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 3px 35px rgba(0, 0, 0, 32%);
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.notice {
+  background-color: #272727;
+  width: 100%;
+  height: 45px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 0px;
+}
+
+.notice:hover {
+  transition: background-color 2s;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.cardImage {
+  margin-left: 61px;
+  width: 113px !important;
+  object-fit: contain;
+}
+
+.cardImageTwo {
+  margin-left: 33px;
+  width: 113px !important;
+  object-fit: contain;
+}

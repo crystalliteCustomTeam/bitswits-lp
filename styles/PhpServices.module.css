@@ -1,0 +1,173 @@
+.phpServices {
+  padding: 50px 0;
+}
+
+.servicesBox {
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: 0.8s;
+  width: 48%;
+  margin-bottom: 25px;
+  background: url(../public/images/phpdev/phpdev-1.png) center/cover no-repeat;
+}
+
+.servicesBox:nth-child(2) {
+  background: url(../public/images/phpdev/phpdev-2.png) center/cover no-repeat;
+}
+
+.servicesBox:nth-child(3) {
+  background: url(../public/images/phpdev/phpdev-3.png) center/cover no-repeat;
+}
+
+.servicesBox:nth-child(4) {
+  background: url(../public/images/phpdev/phpdev-4.png) center/cover no-repeat;
+}
+
+.servicesBox:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(0 0 0/75%);
+}
+
+.servicesBox:nth-child(odd) {
+  top: 30px;
+}
+
+.servicesTtl {
+  z-index: 1;
+  position: relative;
+  color: #fff;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 0;
+  font-weight: 600;
+  transition: 0.4s ease-in-out;
+}
+
+.serviceDetails {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #000000a6 0, rgb(0 76 158/63%) 100%);
+  top: 350px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  transition: 0.4s ease-in-out;
+}
+
+.subtitle {
+  padding: 0 0 8px;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.servicesBox:hover .serviceDetails {
+  top: 0;
+  z-index: 1;
+}
+
+.servicesBox:hover .servicesTtl {
+  opacity: 0;
+}
+
+.servicesBox:hover p {
+  color: #fff;
+}
+
+.secondHalf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+/* ================================= */
+
+.right {
+  gap: 15px;
+}
+
+.right .servicesBox:nth-child(odd) {
+  top: 0px;
+}
+
+.right .servicesBox {
+  width: 32%;
+  margin-bottom: 0;
+}
+
+.leftArm {
+  background: #000;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px 0 20px;
+  height: 100%;
+}
+
+.leftArm :after {
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-right: 40px solid #fff;
+  content: "";
+  top: 50%;
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .phpServices {
+    padding: 50px 0;
+  }
+
+  .servicesBox,
+  .right .servicesBox {
+    width: 48%;
+  }
+
+  .right {
+    margin-top: 30px;
+  }
+
+  .leftArm :after {
+    display: none;
+  }
+
+  .left {
+    padding: 20px;
+  }
+
+  .servicesBox:nth-child(odd) {
+    top: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .servicesBox,
+  .right .servicesBox {
+    width: 100%;
+  }
+}

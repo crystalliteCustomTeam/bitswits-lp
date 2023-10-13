@@ -1,0 +1,110 @@
+.opp{
+    padding: 50px 0;
+}
+.bount {
+    text-align: center;
+}
+
+.bount h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.appcardleft {
+    width: 30%;
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.appcardcenter {
+    width: 40%;
+    flex: 40%;
+}
+.appcardright {
+    width: 30%;
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.appcardmain {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.appcardleft {
+    text-align: end;
+}
+.appcardcenter {
+    padding: 0px 4rem 0px 4rem;
+}
+.apptxt button {
+    background-color: #f69110;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 30px;
+}
+.apptxt button a {
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.apptxt {
+    margin-bottom: 30px;
+}
+.apptxt p {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.apptxt h3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+}
+.apptxt button i {
+    padding-right: 25px;
+}
+
+.yellowBtn{
+    background-color: transparent;
+    width: 100%;
+    height: 50px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-family: "Montserrat";
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+    .appcardmain {
+        flex-direction: column;
+    }
+    .appcardmain img {
+       display: none;
+    }
+
+    .appcardleft {
+        width: 100%;
+        text-align: left;
+       
+    }
+    .appcardright {
+        width: 100%;
+       
+    }
+
+ }

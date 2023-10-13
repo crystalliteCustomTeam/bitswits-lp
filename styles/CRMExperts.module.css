@@ -1,0 +1,88 @@
+.crmExperts {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.soluRow .soluCol {
+  padding: 0;
+}
+
+.soluCard {
+  min-height: 100px;
+  padding: 50px 30px;
+  border-radius: 12px;
+  height: 100%;
+  transition: 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  cursor: pointer;
+  border-bottom: solid 1px #ccc;
+  border-right: solid 1px #ccc;
+  border-radius: 0;
+  background-color: #f6f7f9;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.soluCardBB {
+  border-bottom: 0;
+}
+
+.soluCardBR {
+  border-right: 0;
+}
+
+.imgBox {
+  margin-bottom: 0;
+  width: 10%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.soluCard p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 0;
+  width: 90%;
+}
+
+.sizImg .imgBox {
+  width: 20%;
+}
+
+.sizImg{
+  align-items: center;
+}
+
+/* ===============Media Queries================ */
+
+@media screen and (max-width: 991px) {
+  .crmExperts {
+    padding: 50px 0;
+  }
+
+  .soluCardBR {
+    border-right: 1px solid #ccc;
+  }
+
+  .mblR {
+    border-right: 0px;
+  }
+
+  .mblBr {
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .crmExperts h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .soluRow {
+    margin-top: 0px !important;
+  }
+}

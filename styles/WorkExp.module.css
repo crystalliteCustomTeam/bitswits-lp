@@ -1,0 +1,158 @@
+.myExpertise {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    background-color: #f6f7f9;
+  }
+
+  .bgcolor{
+    padding-top: 50px;
+  }
+  
+  .bttns1 {
+    background-color: transparent;
+    width: 100%;
+    height: 45px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-family: "Montserrat";
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #000;
+  }
+  
+  .bttns1:hover {
+    transition: background-color 2s;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+  }
+  
+  .soluRow .soluCol {
+    padding: 0;
+  }
+  
+  .soluCard {
+    padding: 35px;
+    border-radius: 12px;
+    height: 100%;
+    transition: 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+    cursor: pointer;
+    border-right: 1px solid #ccc;
+    border-radius: 0;
+  }
+
+  .soluCardBL {
+    border-bottom: 0;
+  }
+  
+  .soluCardBB {
+    border-bottom: 0;
+  }
+  
+  .soluCardBR {
+    border-right: 0;
+  }
+  
+  .imgBox {
+    margin-bottom: 10px;
+    width: 74px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .soluCard h5 {
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+  }
+  
+  .soluCard p {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+  
+  .soluCard ul {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .soluCard ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .phpdev .imgBox {
+    width: auto;
+    height: auto;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  /* ===============Media Queries================ */
+  
+  @media screen and (max-width: 991px) {
+    .myExpertise {
+      padding: 50px 0;
+    }
+  
+    .soluCard h5 {
+      font-size: 18px;
+    }
+  
+    .soluCardBR {
+      border-right: 1px solid #ccc;
+    }
+  
+    .mblR {
+      border-right: 0px;
+    }
+  
+    .mblBr {
+      border-bottom: 1px solid #ccc;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .myExpertise h2 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+
+    .soluRow {
+      margin-top: 0px !important;
+    }
+  }
+  .mobdev img{
+    padding: 15px;
+    background: #000000;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    width: 25px;
+    height: 25px;
+    margin: 0 15px 0 0;
+}
+
+.gameimg{
+  position: absolute;
+  right: -5vw;
+  bottom: -20%;
+  z-index: 2;
+  width: 20vw;
+}
+.expclasse{
+  background: #fff !important;
+}

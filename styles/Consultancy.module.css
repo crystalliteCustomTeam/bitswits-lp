@@ -1,0 +1,66 @@
+.bottomform{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.name{
+    border: 0;
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 25px;
+    background-color: white;
+    height: 40px;
+    padding: 0 1rem;
+    width: 25%;
+}
+.name::placeholder{
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+}
+
+.pont{
+    background-color: #f2f2f2;
+    padding: 45px 0 55px;
+}
+
+.butsave{
+    background-color: transparent;
+    width: 20%;
+    height: 38px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-family: "Montserrat";
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #000;
+}
+
+@media screen and (max-width: 991px) {
+
+    .bottomform {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .name {
+       
+        width: 100%;
+    }
+
+    .butsave {
+        background-color: transparent;
+        width: 50%;
+        height: 45px;
+    }
+
+ }

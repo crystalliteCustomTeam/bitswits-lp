@@ -1,0 +1,124 @@
+.whyy {
+    background: url(../../public/artificialIntelligence/Images/why.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 100%;
+}
+
+.whyy:hover {
+    background: url(../../public/artificialIntelligence/Images/whyh.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 100%;
+}
+
+.border12 {
+    border-right: 4px dashed #484848;
+    border-bottom: 4px dashed #484848;
+    padding: 10px 10px;
+    /* margin: 10px 10px; */
+}
+
+.border13 {
+    border-bottom: 4px dashed #484848;
+    padding: 10px 10px;
+}
+
+.border14 {
+    border-right: 4px dashed #484848;
+    padding: 10px 10px;
+}
+
+.border15 {
+    /* border-right: 4px dashed #484848; */
+    padding: 10px 10px;
+}
+
+.Aibusiness {
+    padding-bottom: 200px;
+
+}
+
+.img11 {
+    text-align: center;
+    padding-top: 20%;
+}
+
+@media only screen and (max-width: 991px) {
+    .whyy {
+        height: 100%;
+        width: 100%;
+        max-width: 310px;
+        min-height: 337px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .whyy:hover {
+        height: 100%;
+        width: 100%;
+        max-width: 310px;
+        min-height: 337px;
+        display: flex;
+    }
+
+    .img11 {
+        padding-top: 0%;
+    }
+}
+
+@media (max-width:768px) {
+    aibusiness11.row {
+        display: none;
+    }
+
+    .whyy {
+        height: 400px;
+        width: 100%;
+    }
+
+    .whyy:hover {
+        height: 400px;
+        width: 100%;
+    }
+
+    .Aibusiness {
+        padding-bottom: 100px;
+
+    }
+
+    .img11 {
+        text-align: center;
+        padding: 30%;
+    }
+}
+
+@media (max-width:500px) {
+    .whyy {
+        height: 290px;
+        width: 100%;
+    }
+
+    .f50 {
+        font-size: 30px;
+    }
+
+    .whyy:hover {
+        height: 290px;
+        width: 100%;
+    }
+
+    .Aibusiness {
+        padding-bottom: 25px;
+
+    }
+
+    .img11 {
+        text-align: center;
+        padding: 30%;
+    }
+}

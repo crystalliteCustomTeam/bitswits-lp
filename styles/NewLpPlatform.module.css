@@ -1,0 +1,16 @@
+.newPlatform {
+  padding: 50px 0;
+  background-color: #eeeeee;
+}
+
+.newPlatform img {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 991px) {
+  .newPlatform img {
+    width: 100%;
+    height: auto;
+  }
+}

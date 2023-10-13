@@ -1,0 +1,95 @@
+.devtop h2 {
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.devtop {
+    text-align: center;
+}
+.devtop p {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 150px;
+    color: black;
+}
+.devminicard h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    font-family: "Montserrat", sans-serif;
+}
+.devminicard p {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+.devminicard {
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    padding: 30px 25px;
+    margin-bottom: 25px;
+}
+.devminiimg {
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 1920px) {
+
+    .devtop h2 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+
+ }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+
+ 
+    .devcard{
+        text-align: center;
+    }
+    .leftside{
+        margin-bottom: 5%;
+    }
+ }
+
+
+ @media screen and (max-width: 767px) {
+
+    .devtop h2 {
+        font-size: 44px;
+        line-height: 54px;
+      }
+
+    .devtop p {
+       
+        padding:unset; 
+     
+    }
+
+  }
+ @media screen and (max-width: 480px) {
+
+    .devtop h2 {
+        font-size: 30px;
+        line-height: 35px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+    }
+
+  }

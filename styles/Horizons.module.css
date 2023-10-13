@@ -1,0 +1,32 @@
+.soulHorizons {
+  padding: 50px 0;
+}
+
+.heading {
+  background-image: url(../public/images/case-icon.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contnt a {
+  color: #000;
+  font-weight: 800;
+}
+
+/* ============================================= */
+
+
+@media screen and (max-width: 991px) {
+  .heading {
+    background-image: unset;
+  }
+
+  .heading svg {
+    display: none;
+  }
+}

@@ -1,0 +1,71 @@
+.readySec {
+    padding: 90px 0;
+    background-image: url(../public/newlppage/readybg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.readySec form {
+    margin-top: 40px;
+}
+
+.readySec form input {
+    background: transparent;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #515151;
+    padding: 6px 10px 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.readySec form input::placeholder {
+    color: #515151;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.readySec form label {
+    color: #515151;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    margin: 20px 0 8px;
+}
+
+.readySec form textarea {
+    background: transparent;
+    width: 100%;
+    border: 1px solid #515151;
+    padding: 6px 10px;
+    color: white;
+    resize: none;
+}
+
+.readySec .secBtn {
+    width: 100%;
+    height: 45px;
+    background: linear-gradient(180deg, rgba(116, 25, 227, 1) 0%, rgba(243, 47, 92, 1) 100%) !important;
+    color: #fff !important;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 480px)  {
+    .readySec .secBtn {
+        font-size: 10px;
+        margin-top: 40px;
+    }
+}

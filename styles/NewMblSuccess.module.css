@@ -1,0 +1,136 @@
+.happens {
+  background-color: black;
+  padding: 50px 0 100px;
+}
+
+.befImg {
+  position: absolute;
+  top: -2%;
+  right: 3%;
+  z-index: 2;
+}
+
+.happens h2 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.happens h5 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.mainBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.sucssBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 20px;
+  height: 335px;
+  border: 1px solid #fff;
+  width: 30%;
+}
+
+.sucssBtn {
+  width: 198px;
+  height: 45px;
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1400px) {
+  .befImg {
+    width: 93%;
+    height: 365px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .happens {
+    background-color: black;
+    padding-bottom: 50px;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .befImg {
+    display: none;
+  }
+
+  .mainBox {
+    justify-content: flex-start;
+  }
+
+  .sucssBox {
+    width: 33.3%;
+    justify-content: space-evenly;
+    gap: 0;
+    height: 300px;
+  }
+
+  .sucssBox span:nth-child(1) {
+    font-size: 40px;
+  }
+
+  .sucssBox span:nth-child(2) {
+    font-size: 18px;
+  }
+
+  .box2 span:nth-child(3) {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .happens h5 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .happens h2 {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  .mainBox {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .sucssBox {
+    width: 100%;
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 767px) 
+{
+  .happens {
+    background-color: black;
+    padding: 0px 0 0px;
+  }
+}

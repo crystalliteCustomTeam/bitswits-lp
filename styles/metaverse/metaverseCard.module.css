@@ -1,0 +1,285 @@
+.f28 {
+    font-size: 28px;
+}
+
+.paddingTop {
+    padding-top: 250px;
+}
+
+.card {
+    background: transparent;
+    background-image: url(../../public/metaverse/images/cardBg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 20px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    max-width: 600px;
+    min-height: 288px;
+}
+
+.grediantBtn {
+    background-image: linear-gradient(to right, #EB335B, #4A78EF);
+    font-size: 14px;
+    padding: 13px 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.relative {
+    position: relative;
+}
+
+.cardImage {
+    max-width: 500px;
+}
+
+.cardImage img {
+    position: absolute;
+    top: -52px;
+    right: 57px;
+    max-width: 230px;
+    max-height: 329px;
+}
+
+.cardImageTwo img {
+    position: absolute;
+    right: 6px;
+    top: -52px;
+    max-height: 326px;
+    max-width: 292px;
+}
+
+.cardImageFour img {
+    position: absolute;
+    right: 48px;
+    max-width: 242px;
+    min-height: 330px;
+    top: -62px;
+    max-height: 257px;
+}
+
+.cardContent {
+    max-width: 330px;
+    margin-top: 43px;
+}
+
+.br1 {
+    border-right: 1px dashed #f32f5a45;
+}
+
+.bb1 {
+    border-bottom: 1px dashed #f32f5a45;
+}
+
+.cardPosition {
+    position: relative;
+}
+
+.metaDot img {
+    position: absolute;
+    left: 48%;
+    top: 46%;
+    z-index: 99999;
+}
+
+.cardpara {
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1399px) {
+    .cardImage img {
+        top: -19%;
+        right: 10%;
+        max-width: 185px;
+        max-height: 284px;
+    }
+
+    .cardImageTwo img {
+        right: 4.3%;
+        max-height: 292px;
+        max-width: 221px;
+    }
+
+    .cardImageFour img {
+        right: 9%;
+        max-width: 215px;
+        min-height: 296px;
+        top: -22%;
+        max-height: 218px;
+    }
+
+    .metaDot img {
+        left: 47%;
+        top: 46%;
+        transform: translateX(7px);
+    }
+
+    .cardContent {
+        max-width: 290px;
+        margin-top: 16px;
+    }
+
+    .card {
+        min-width: 517px;
+        min-height: 249px;
+        max-width: 500px;
+    }
+
+    .cardpara {
+        padding-bottom: 0px;
+    }
+
+    .f28 {
+        font-size: 24px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1199px) {
+    .card {
+        min-width: 426px;
+        max-width: 454px;
+        min-height: 219px;
+    }
+
+    .cardImage img {
+        top: -22%;
+        right: 10%;
+        max-width: 160px;
+        max-height: 258px;
+    }
+
+    .cardContent {
+        margin-top: -3px;
+        max-width: 258px;
+    }
+
+    .cardImageTwo img {
+        right: 4%;
+        top: -20%;
+        max-height: 255px;
+        max-width: 190px;
+    }
+
+    .cardImageFour img {
+        right: 8.5%;
+        max-width: 188px;
+        min-height: 265px;
+        top: -24%;
+        max-height: 228px;
+    }
+
+    .metaDot img {
+        left: 46%;
+        top: 45%;
+        transform: translateX(12px);
+    }
+
+    .f28 {
+        font-size: 22px;
+    }
+
+    .paddingTop {
+        padding-top: 125px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .card {
+        max-width: 100%;
+        min-height: 338px;
+        max-height: 234px;
+    }
+
+    .card img {
+        top: -14%;
+        right: 10.7%;
+        max-width: 240px;
+        max-height: 444px;
+    }
+
+    .cardContent {
+        margin-top: 57px;
+        max-width: 350px;
+    }
+
+    .cardpara {
+        padding-bottom: 12px;
+        font-size: 13px;
+    }
+
+    .cardImageTwo img {
+        top: -14%;
+        right: 7%;
+        max-width: 271px;
+        max-height: 444px;
+    }
+
+    .cardContent {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card img {
+        top: -55px;
+        right: 45px;
+        max-width: 210px;
+        max-height: 292px;
+    }
+
+    .card {
+        max-width: 100%;
+        min-height: 250px;
+        max-height: 210px;
+    }
+
+    .cardContent {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .paddingTop {
+        padding: 0px 0;
+    }
+
+    .card img {
+        display: none;
+    }
+
+    .cardContent {
+        max-width: 100%;
+    }
+
+    .card {
+        min-height: 100%;
+        max-height: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        background-position: inherit;
+        background-size: cover;
+    }
+
+    .cardContent {
+        margin-top: 5px;
+    }
+
+    .grediantBtn {
+        font-size: 12px;
+        padding: 11px 17px;
+        border-radius: 12px;
+    }
+
+    .paddingTop {
+        padding: 40px 0;
+    }
+
+    .metaDot img {
+        display: none;
+    }
+}
