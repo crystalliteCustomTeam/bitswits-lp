@@ -8,7 +8,7 @@ import NewMblSlider from '@/components/NewMblSlider';
 import NewMblTechnologiesWe from '@/components/NewMblTechnologiesWe';
 import NewMblNextProject from '@/components/NewMblNextProject';
 import Capabilities from '@/components/Capabilities';
-import Faqs from '@/components/NewhomeFaqs';
+import Faqs from '@/components/NewhomeFaqsreactnative';
 import Newsuccess from '@/components/NewMblSuccess';
 import FlutterBanner from '@/components/FlutterBanner';
 import NewHybridServices from '@/components/NewHybridServices';
@@ -41,9 +41,34 @@ export default function ReactNativeMobile() {
     return (
         <>
             <Head>
-                <title>React Native Mobile App Development Company - BitsWits</title>
-                <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta charset="UTF-8" />
+                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta charset="UTF-8" />
+                <title>Visionary React Native App Development Company - Bitswits</title>
+                <meta name="description" content="Want a team of experienced React Native App Developers? We've got them! Whether you're a start-up or an established business, our developers are equipped." />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="Visionary React Native App Development Company - Bitswits" />
+                <meta property="og:description" content="Want a team of experienced React Native App Developers? We've got them! Whether you're a start-up or an established business, our developers are equipped." />
+                <meta property="og:url" content="https://bitswits.co/react-native-app-development-company/" />
+                <meta property="og:site_name" content="Visionary React Native App Development Company - Bitswits" />
+                <link rel="canonical" href="https://bitswits.co/react-native-app-development-company/" />
+                <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
+                <meta name="DC.title" content="react native app development company, react native mobile app developers, react native app developer" />
+                <meta name="geo.region" content="US-CA" />
+                <meta name="geo.placename" content="Los Angeles" />
+                <meta name="geo.position" content="36.701463;-118.755997" />
+                <meta name="ICBM" content="36.701463, -118.755997" />
+                <meta name="DC.title" content="react native app development company, react native mobile app developers, react native app developer" />
+                <meta name="geo.region" content="US-DE" />
+                <meta name="geo.placename" content="Dover" />
+                <meta name="geo.position" content="38.692045;-75.401331" />
+                <meta name="ICBM" content="38.692045, -75.401331" />
+                <meta name="DC.title" content="react native app development company, react native mobile app developers, react native app developer" />
+                <meta name="geo.region" content="US" />
+                <meta name="geo.position" content="39.78373;-100.445882" />
+                <meta name="ICBM" content="39.78373, -100.445882" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
@@ -53,7 +78,7 @@ export default function ReactNativeMobile() {
             <Justbuildit />
             <NewHybridWho />
             <NewMblWhat />
-            <NewMblWhy 
+            <NewMblWhy
                 iconOne={icon23}
                 iconTwo={icon24}
                 iconThree={icon25}
@@ -74,11 +99,11 @@ export default function ReactNativeMobile() {
                 paraSix="Developed and backed by talented individuals in the field, including Facebook, Microsoft, Shopify, and others."
             />
             <NewHybridPortfolio />
-           <div className='status'>
-           <Newsuccess />
-           </div>
+            <div className='status'>
+                <Newsuccess />
+            </div>
             <section className='spacingtb1'>
-            <Technologieswe />
+                <Technologieswe />
             </section>
             <NewHomeGlobal />
             <NewHomeSlider />
