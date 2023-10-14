@@ -3,8 +3,8 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 //components
 import NewMblWhat from '@/components/NewMblWhat';
-import NewMblNextProject from '@/components/NewMblNextProject';
-import NewReactFaqs from '@/components/NewReactFaqs';
+import Homenextproject from '@/components/Homenextproject';
+import Faqs from '@/components/NewhomeFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
 import NewHybridWho from '@/components/NewHybridWho';
 import NewHybridPortfolio from '@/components/NewHybridPortfolio';
@@ -100,8 +100,8 @@ export default function ReactNativeMobile() {
             </section>
             <NewHomeGlobal />
             <NewHomeSlider />
-            <NewMblNextProject />
-            <NewReactFaqs />
+            <Homenextproject />
+            <Faqs />
             <HomeLocation />
 
         </>

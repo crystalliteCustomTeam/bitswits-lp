@@ -140,7 +140,7 @@ const New3dMaintain = () => {
                                 <Row className='align-items-center mt-5'>
                                     <Col xl={8}>
                                         <div className={styles.paraThreeContent}>
-                                            <h3 className='text-white f-25 font-bold mt-5'>3D Game App Integration</h3>
+                                            <h3 className='text-white f-25 font-bold mt-2 mt-lg-5'>3D Game App Integration</h3>
                                             <p className={styles.para1}>
                                                 BitsWits allow you to quickly and easily add 3D gaming experiences to your existing apps so that you can play high-end games without extra coding or hardware configurations. With our services, you can also easily and quickly integrate a virtual reality (VR) or augmented reality (AR) game into your project.
                                             </p>

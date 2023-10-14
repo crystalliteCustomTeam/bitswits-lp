@@ -324,6 +324,10 @@
     height: 457px;
   }
 
+  .app3 {
+    height: 385px;
+  }
+
   .app5 {
     height: 457px;
   }
@@ -355,12 +359,12 @@
   .app4,
   .app5 {
     height: 456px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
   .app3 {
-    background-size: contain;
+    background-size: cover;
     padding: 30px 28px 9px 33px;
   }
 
@@ -387,21 +391,28 @@
 }
 
 @media screen and (max-width: 991px) {
-  
 
-  .para{
+
+  .para {
     max-width: unset;
   }
 
 
-  .app1, .app, .app2, .app11, .app22, .app33, .app3, .app4, .app5 {
+  .app1,
+  .app,
+  .app2,
+  .app11,
+  .app22,
+  .app33,
+  .app3,
+  .app4,
+  .app5 {
     height: auto;
-    border: 2px solid;
+    border: 3px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
     border-radius: 3px;
-    background-image: none;
     text-align: center;
-}
+  }
 
 
   .app1,
@@ -438,7 +449,6 @@
 
   .app7 {
     height: auto;
-    background-image: none;
     border: 3px solid #f32f53;
     border-radius: 22px;
   }
@@ -455,21 +465,24 @@
 @media screen and (max-width: 767px) {
 
 
-  .earn, .map{
+  .earn,
+  .map {
     width: 100%;
     text-align: center;
   }
+
   .app1 .para {
     max-width: unset;
-  
+
   }
-   .para {
+
+  .para {
     text-overflow: unset;
-    display:unset;
-  
+    display: unset;
+
   }
-  
-  .possibilities{
+
+  .possibilities {
     height: auto;
   }
 
@@ -532,46 +545,46 @@
 }
 
 @media screen and (max-width: 480px) {
+
   .book,
   .about {
     font-size: 10px !important;
   }
 
   .app,
+  .app1,
+  .app3,
   .app4,
   .app6,
   .app2,
   .app5,
   .app7 {
-    padding: 30px 28px 9px 33px;
+    padding: 30px 15px 9px 15px;
   }
 
   .app4,
   .app5 {
     height: auto;
-    border: 2px solid;
+    border: 3px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
     border-radius: 3px;
-    background-image: none;
   }
 
   .app6,
   .app7 {
     height: auto;
-    border: 2px solid;
+    border: 3px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
     border-radius: 3px;
-    background-image: none;
   }
 
   .app1,
   .app,
   .app2 {
     height: auto;
-    border: 2px solid;
+    border: 3px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
     border-radius: 3px;
-    background-image: none;
   }
 
   .newHomeBg h1 {
@@ -588,9 +601,8 @@
 
   .app3 {
     height: auto;
-    border: 2px solid;
+    border: 3px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
     border-radius: 3px;
-    background-image: none;
   }
 }
