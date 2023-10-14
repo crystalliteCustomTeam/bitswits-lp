@@ -136,7 +136,7 @@ export default function HybridMobile() {
             <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject />
-            <NewhomeFaqsflutter />
+            <NewFlutterFaqs />
             <HomeLocation />
 
         </>
