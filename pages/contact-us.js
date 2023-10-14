@@ -68,7 +68,7 @@ export default function ContactUs() {
                                                 </Col>
                                                 <Col className="mt-3 d-flex gap-5">
                                                     <p className='white font16'>We take your privacy <br /> seriously. Read our <span className='font-bold'>Privacy</span></p>
-                                                    <button id="savebtns" type="submit" className={styles.bttns1}>SEND INQUERY</button>
+                                                    <button id="savebtns" type="submit" className={styles.bttns1}>Submit</button>
                                                 </Col>
                                             </Row>
                                         </form>

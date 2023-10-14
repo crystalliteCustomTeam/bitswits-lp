@@ -61,7 +61,7 @@
 
 .bttns1 {
   background: linear-gradient(to right, #eb335b 35%, #4a78ef 65%);
-  width: 270px;
+  width: 200px;
   height: 45px;
   display: flex;
   flex-direction: row;
