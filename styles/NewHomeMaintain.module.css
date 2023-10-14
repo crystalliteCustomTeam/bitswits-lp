@@ -384,6 +384,7 @@
 }
 
 @media screen and (max-width: 991px) {
+
   .app1,
   .app {
     -webkit-mask: linear-gradient(#fff 0 0) padding-box,
@@ -489,6 +490,7 @@
 }
 
 @media screen and (max-width: 480px) {
+
   .book,
   .about {
     font-size: 10px !important;

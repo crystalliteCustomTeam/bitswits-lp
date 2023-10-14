@@ -310,6 +310,10 @@
         height: 456px;
     }
 
+    .app3 {
+        height: 390px;
+    }
+
     .app2 {
         height: 456px;
         border-radius: 24px;
@@ -355,7 +359,7 @@
     }
 
     .app3 {
-        background-size: contain;
+        background-size: cover;
         padding: 30px 28px 9px 33px;
     }
 
@@ -393,13 +397,13 @@
     }
 
     .app2 {
-        height: 456px;
+        height: 878px;
         background-size: cover;
         border-radius: 24px;
     }
 
     .app3 {
-        height: 270px;
+        height: 232px;
     }
 
     .paraThreeContent {
@@ -408,8 +412,13 @@
 
     .app4,
     .app5 {
-        height: 382px;
+        height: 284px;
         background-size: cover;
+    }
+
+    .app5 {
+        height: 279px;
+        padding: 50px 3px 20px 3px;
     }
 
     .app6 {
@@ -512,7 +521,7 @@
     .app4,
     .app5 {
         height: 304px;
-        border: 2px solid;
+        border: 3px solid;
         border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
         border-radius: 3px;
     }
@@ -520,7 +529,7 @@
     .app6,
     .app7 {
         height: 300px;
-        border: 2px solid;
+        border: 3px solid;
         border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
         border-radius: 3px;
     }
@@ -529,7 +538,7 @@
     .app,
     .app2 {
         height: 300px;
-        border: 2px solid;
+        border: 3px solid;
         border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
         border-radius: 3px;
     }
@@ -548,7 +557,7 @@
 
     .app3 {
         height: 340px;
-        border: 2px solid;
+        border: 3px solid;
         border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
         border-radius: 3px;
     }

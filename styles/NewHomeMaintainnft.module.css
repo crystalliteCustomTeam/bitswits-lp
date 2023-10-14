@@ -271,14 +271,16 @@
   width: 75%;
 }
 
-.app11, .app22, .app33 {
+.app11,
+.app22,
+.app33 {
   height: 456px;
   display: flex;
-    flex-direction: column-reverse;
-    gap: 40px;
-    padding: 0 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
+  flex-direction: column-reverse;
+  gap: 40px;
+  padding: 0 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
@@ -309,9 +311,9 @@
   height: 531px;
 }
 
-@media screen and (min-width: 1400px) { 
+@media screen and (min-width: 1400px) {
 
-  .map{
+  .map {
     margin-top: 2.5%;
   }
 
@@ -354,6 +356,10 @@
     height: 456px;
   }
 
+  .app3 {
+    height: 390px;
+  }
+
   .app2 {
     height: 456px;
     border-radius: 24px;
@@ -375,6 +381,12 @@
     height: 457px;
   }
 
+  .app22,
+  .app11,
+  .app33 {
+    height: 478px;
+  }
+
   .app7 .appImage {
     max-width: 357px;
   }
@@ -382,11 +394,13 @@
 
 @media screen and (max-width: 1200px) {
 
-.app11, .app22, .app33 {
-  height: 456px;
-    background-size: contain;
+  .app11,
+  .app22,
+  .app33 {
+    height: 456px;
+    background-size: cover;
     background-repeat: no-repeat;
-}
+  }
 
   .newHomeBg {
     padding-bottom: 50px;
@@ -401,12 +415,12 @@
   .app4,
   .app5 {
     height: 456px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
   .app3 {
-    background-size: contain;
+    background-size: cover;
     padding: 30px 28px 9px 33px;
   }
 
@@ -434,19 +448,9 @@
 
 @media screen and (max-width: 991px) {
 
-  .para{
+  .para {
     max-width: unset;
   }
-
-
-  .app1, .app, .app2, .app11, .app22, .app33, .app3, .app4, .app5 {
-    height: auto;
-    border: 2px solid;
-    border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
-    border-radius: 3px;
-    background-image: none;
-    text-align: center;
-}
 
 
   .app1,
@@ -454,27 +458,47 @@
   .app2,
   .app11,
   .app22,
-  .app33 {
+  .app33,
+  .app3,
+  .app4,
+  .app5 {
+    height: auto;
+    border: 3px solid;
+    border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
+    border-radius: 3px;
+    text-align: center;
+  }
 
+  .app1,
+  .app,
+  .app2,
+  .app11,
+  .app22 {
     padding-top: 50px;
     padding-bottom: 0px;
-    height: auto;
+    height: 428px;
+    border: 0;
+  }
+
+  .app33 {
+    border: 0;
+    height: 876px;
   }
 
   .app2 {
-    height: auto;
+    height: 878px;
     border-radius: 24px;
   }
 
   .app3 {
-    height: auto;
+    height: 231px;
+    border: 0;
   }
-
-
 
   .app4,
   .app5 {
     height: 282px;
+    border: 0;
   }
 
   .app6 {
@@ -483,7 +507,6 @@
 
   .app7 {
     height: 485px;
-    background-image: none;
     border: 3px solid #f32f53;
     border-radius: 22px;
   }
@@ -497,23 +520,26 @@
 
 @media screen and (max-width: 767px) {
 
-.earn, .map{
-  width: 100%;
-  text-align: center;
-}
-.app1 .para {
-  max-width: unset;
+  .earn,
+  .map {
+    width: 100%;
+    text-align: center;
+  }
 
-}
- .para {
-  text-overflow: unset;
-  display:unset;
+  .app1 .para {
+    max-width: unset;
 
-}
+  }
 
-.possibilities{
-  height: auto;
-}
+  .para {
+    text-overflow: unset;
+    display: unset;
+
+  }
+
+  .possibilities {
+    height: auto;
+  }
 
   .newHomeBg {
     padding-top: 50px;
@@ -575,15 +601,13 @@
 
 @media screen and (max-width: 480px) {
 
-  .cardContent{
-    text-align: center;
-  }
-  .paraThreeContent{
+  .cardContent {
     text-align: center;
   }
 
-
-
+  .paraThreeContent {
+    text-align: center;
+  }
 
   .book,
   .about {
@@ -602,19 +626,17 @@
   .app4,
   .app5 {
     height: 304px;
-    border: 2px solid;
+    border: 3px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
     border-radius: 3px;
-    background-image: none;
   }
 
   .app6,
   .app7 {
     height: 300px;
-    border: 2px solid;
+    border: 3px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
     border-radius: 3px;
-    background-image: none;
   }
 
   .app1,
@@ -624,10 +646,21 @@
   .app22,
   .app33 {
     height: 300px;
-    border: 2px solid;
+    border: 3px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
-    border-radius: 3px;
-    background-image: none;
+    border-radius: 10px;
+    padding: 20px 10px;
+  }
+
+
+  .app11,
+  .app22,
+  .app33 {
+    height: 456px;
+    display: flex;
+    flex-direction: unset;
+    align-items: center;
+    border-radius: 20px;
   }
 
   .newHomeBg h1 {
@@ -644,9 +677,8 @@
 
   .app3 {
     height: 340px;
-    border: 2px solid;
+    border: 3px solid;
     border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
     border-radius: 3px;
-    background-image: none;
   }
 }

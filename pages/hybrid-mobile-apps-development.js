@@ -6,7 +6,7 @@ import NewMblWhat from '@/components/NewMblWhat';
 import NewMblGlobal from '@/components/NewMblGlobal';
 import NewMblSlider from '@/components/NewMblSlider';
 import NewMblTechnologiesWe from '@/components/NewMblTechnologiesWe';
-import NewMblNextProject from '@/components/NewMblNextProject';
+import Homenextproject from '@/components/Homenextproject';
 import Capabilities from '@/components/Capabilities';
 import Faqs from '@/components/NewhomeFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
@@ -49,7 +49,7 @@ export default function HybridMobile() {
             </section>
             <NewHomeGlobal />
             <NewHomeSlider />
-            <NewMblNextProject />
+            <Homenextproject />
             <Faqs />
             <HomeLocation />
 
