@@ -8,7 +8,7 @@ import NewMblSlider from '@/components/NewMblSlider';
 import NewMblTechnologiesWe from '@/components/NewMblTechnologiesWe';
 import Homenextproject from '@/components/Homenextproject';
 import Capabilities from '@/components/Capabilities';
-import NewhomeFaqsflutter from '@/components/NewhomeFaqsflutter';
+import NewFlutterFaqs from '@/components/NewFlutterFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
 import FlutterBanner from '@/components/FlutterBanner';
 import NewHybridServices from '@/components/NewHybridServices';
