@@ -54,7 +54,7 @@ export default function ContactUs() {
                                                     <input type="email" name="email" id="email" placeholder="Email Address" required="" />
                                                 </Col>
                                                 <Col lg={6}>
-                                                    <input type="phone" name="phone" id="phone" placeholder="Phone" required="" minlength="7" maxlength="15" onkeypress="return /[0-9]/i.test(event.key)" />
+                                                    <input type="phone" name="phone" id="phone" placeholder="Phone" required="" minLength="7" maxlength="15" onkeypress="return /[0-9]/i.test(event.key)" />
                                                 </Col>
                                                 <Col lg={6}>
                                                     <input type="text" className="" name="budget" id="budget" placeholder="Budget (in USD)" required="" />
