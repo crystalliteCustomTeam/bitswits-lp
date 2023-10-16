@@ -121,6 +121,15 @@
 
 @media screen and (max-width: 1600px) {
 
+  .creative2 {
+    background: #000;
+    padding-bottom: 150px;
+    background-image: url(../public/newHomePageImages/bg-image_done.png);
+    background-position: 140% 10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
   .tested img {
     position: absolute;
     width: 889px;
