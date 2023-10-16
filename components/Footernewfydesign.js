@@ -71,7 +71,7 @@ const Footerlp = () => {
           <Row className={styles.project}>
                         <Col lg={12}>
                             <h2 className='font30 fontf font-bold white mb-0 text-center'>
-                                <span className='grdiant'>Our Partnerships </span> <br />
+                                <span className='grdiant'>Our Partnerships </span>
                                 and Appraisals!
                             </h2>
                         </Col>

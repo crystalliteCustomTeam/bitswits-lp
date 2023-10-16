@@ -20,7 +20,7 @@ const Capabilities = () => {
 
     var awardslogo = {
         dots: true,
-        arrows: false,
+        arrows: true,
         loop: true,
         autoplay: false,
         infinite: true,
@@ -38,13 +38,13 @@ const Capabilities = () => {
             <section className={styles.home}>
                 <Container className='qtech'>
                     <Row className={styles.posttext}>
-                        <Col xl={12}>
+                        {/* <Col xl={12}>
                             <h3>Process</h3>
-                        </Col>
+                        </Col> */}
                         <Col xl={12}>
                             <div className={styles.build}>
-                                <h2>Our App Development Blueprint</h2>
-                                <Link className={styles.about} href="#">Connect Now!</Link>
+                                <h2>Our App Development Process</h2>
+                                {/* <Link className={styles.about} href="#">Connect Now!</Link> */}
                             </div>
                         </Col>
                     </Row>
@@ -70,8 +70,8 @@ const Capabilities = () => {
                                 <Row>
                                     <Col xl={6}>
                                         <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
+                                            <p className={styles.research}>Research</p>
+                                            <p className={styles.research}>Analytic</p>
                                         </div>
 
                                         <div className={styles.deter}>
@@ -106,8 +106,8 @@ const Capabilities = () => {
                                 <Row>
                                     <Col xl={6}>
                                         <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
+                                            <p className={styles.research}>Research</p>
+                                            <p className={styles.research}>Analytic</p>
                                         </div>
                                         <div className={styles.deter}>
                                             <h3>Planning and Strategy</h3>
@@ -141,8 +141,8 @@ const Capabilities = () => {
                                 <Row>
                                     <Col xl={6}>
                                         <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
+                                            <p className={styles.research}>Research</p>
+                                            <p className={styles.research}>Analytic</p>
                                         </div>
                                         <div className={styles.deter}>
                                             <h3>Design and Wireframing</h3>
@@ -176,8 +176,8 @@ const Capabilities = () => {
                                 <Row>
                                     <Col xl={6}>
                                         <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
+                                            <p className={styles.research}>Research</p>
+                                            <p className={styles.research}>Analytic</p>
                                         </div>
                                         <div className={styles.deter}>
                                             <h3>Development and Coding</h3>
@@ -210,8 +210,8 @@ const Capabilities = () => {
                                 <Row>
                                     <Col xl={6}>
                                         <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
+                                            <p className={styles.research}>Research</p>
+                                            <p className={styles.research}>Analytic</p>
                                         </div>
                                         <div className={styles.deter}>
                                             <h3>Testing and Quality Assurance</h3>
@@ -223,7 +223,7 @@ const Capabilities = () => {
                                             </p>
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Conduct User Acceptance Testing 
+                                                Conduct User Acceptance Testing
                                             </p>
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
@@ -244,8 +244,8 @@ const Capabilities = () => {
                                 <Row>
                                     <Col xl={6}>
                                         <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
+                                            <p className={styles.research}>Research</p>
+                                            <p className={styles.research}>Analytic</p>
                                         </div>
                                         <div className={styles.deter}>
                                             <h3>Launch and Deployment</h3>
@@ -261,7 +261,7 @@ const Capabilities = () => {
                                             </p>
                                             <p className={styles.cen}>
                                                 <Image quality={75} src={close} className='img-fluid' />
-                                                Monitor Post-Launch Performance 
+                                                Monitor Post-Launch Performance
                                             </p>
                                         </div>
                                     </Col>

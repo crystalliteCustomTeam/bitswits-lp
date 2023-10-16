@@ -103,17 +103,17 @@ const IosMaintainlogo = () => {
                             <p className={` f-20 font-bold text-white text-center mb-0`}> iOS App Development Services
                             </p>
                             <h3 className='text-white font65 font-bold text-center mb-0'>Craft Incredible Apps</h3>
-                            <h2 className='grdiant font70 font-bold text-center pb-4'>Hire iOS App Developer!</h2>
+                            <h2 className='grdiant font70 font-bold text-center pb-4'>Hire an iOS App Developer!</h2>
 
-<p className='white center'>As a premier iOS app development company, our iOS developers create eye-catching and user-friendly iPhone and iPad apps that capture attention immediately. To develop customized applications that are appropriate for Apple devices, our professional iOS developers and designers make use of the newest iOS capabilities.</p>
+                            <p className='white center'>As a premier iOS app development company, our iOS developers create eye-catching and user-friendly iPhone and iPad apps that capture attention immediately. To develop customized applications that are appropriate for Apple devices, our professional iOS developers and designers make use of the newest iOS capabilities.</p>
                         </Col>
                         <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>Custom iOS
-App Development</h3>
+                                        App Development</h3>
                                     <p className={styles.para}>
-                                    Our custom iOS app development solutions got you covered when it comes to developing your iOS app. From the initial idea to the final design and development stages, we provide customized iOS app solutions tailored to your needs.
+                                        Our custom iOS app development solutions got you covered when it comes to developing your iOS app. From the initial idea to the final design and development stages, we provide customized iOS app solutions tailored to your needs.
                                     </p>
                                 </div>
                             </div>
@@ -121,9 +121,9 @@ App Development</h3>
                         <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app1}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>iPhone App Development</h3>
+                                    <h3 className='text-white font25 font-bold'>iPhone App <br /> Development</h3>
                                     <p className={styles.para}>
-                                    We turn app ideas into reality with fast and efficient iPhone app development services. No idea is too complex or ambitious for us. We help you take your idea from concept to launch in no time.
+                                        We turn app ideas into reality with fast and efficient iPhone app development services. No idea is too complex or ambitious for us. We help you take your idea from concept to launch in no time.
                                     </p>
                                 </div>
                             </div>
@@ -133,7 +133,7 @@ App Development</h3>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>Apple Watch Development</h3>
                                     <p className={styles.para}>
-                                    Our team of expert iOS developers creates exceptional Apple Watch apps that flawlessly blend with advanced technology and coding standards. We prioritize maximizing battery efficiency and exceeding user expectations with superb performance.
+                                        Our team of expert iOS developers creates exceptional Apple Watch apps that flawlessly blend with advanced technology and coding standards. We prioritize maximizing battery efficiency and exceeding user expectations with superb performance.
                                     </p>
                                 </div>
                             </div>
@@ -146,7 +146,7 @@ App Development</h3>
                                         <div className={styles.paraThreeContent}>
                                             <h3 className='text-white f-25 font-bold '>Apple TV App Development</h3>
                                             <p className={styles.para1}>
-                                            Our team specializes in developing custom apps for Apple TV with impeccable design and performance. We also offer iPhone compatibility consultations. Let's turn your app ideas into reality!
+                                                Our team specializes in developing custom apps for Apple TV with impeccable design and performance. We also offer iPhone compatibility consultations. Let's turn your app ideas into reality!
                                             </p>
                                         </div>
                                     </Col>
@@ -163,7 +163,7 @@ App Development</h3>
                                 <div>
                                     <h3 className='text-white f-25 font-bold text-center'>iPhone App Designing</h3>
                                     <p className={styles.possibilities}>
-                                    Our team creates custom iPhone apps to streamline workflow processes, improve customer engagement, and enhance their experience with innovative and intuitive designs.
+                                        Our team creates custom iPhone apps to streamline workflow processes, improve customer engagement, and enhance their experience with innovative and intuitive designs.
                                     </p>
                                 </div>
                             </div>
@@ -174,13 +174,13 @@ App Development</h3>
                                 <div>
                                     <h3 className='text-white f-25 font-bold text-center'>Hybrid iPhone App Development</h3>
                                     <p className={styles.possibilities}>
-                                    Boost your business with our hybrid iPhone app development services. Run your applications seamlessly across platforms to increase productivity and efficiency. Contact us now to learn more.
+                                        Boost your business with our hybrid iPhone app development services. Run your applications seamlessly across platforms to increase productivity and efficiency. Contact us now to learn more.
                                     </p>
                                 </div>
                             </div>
 
                         </Col>
-                     
+
                     </Row>
 
                 </Container>

@@ -21,8 +21,9 @@
   align-items: center;
   margin-bottom: 0px;
 }
+
 .about{
-  width: 198px;
+  width: 250px;
   height: 45px;
   background-image: linear-gradient(to right, #F32F53, #F32FC2, #4A78EF);
   color: white!important;
@@ -34,13 +35,11 @@
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-left: auto;
-  
-
+  margin: 80px auto 0;  
 }
+
 .heading {
   border-image: linear-gradient(90deg, #f32fc261, #4A78EF) 10;
-  
   border-width: 4px;
   border-style: solid;
   padding: 10px 20px;

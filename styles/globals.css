@@ -3,9 +3,11 @@
   --white: #fff;
   --primary: #f32f53;
   --mry: #f32f53;
-  --gradient: linear-gradient(90deg,
-      rgba(116, 25, 227, 0.5) 0%,
-      rgba(243, 47, 92, 0.5) 100%);
+  --gradient: linear-gradient(
+    90deg,
+    rgba(116, 25, 227, 0.5) 0%,
+    rgba(243, 47, 92, 0.5) 100%
+  );
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
@@ -951,6 +953,19 @@ a {
   bottom: -45px;
 }
 
+.prohome .slick-prev:before,
+.prohome .slick-next:before {
+  font-size: 35px;
+}
+
+.prohome .slick-prev {
+  left: -50px;
+}
+
+.prohome .slick-next {
+  right: -50px;
+}
+
 .prohome .slick-dots,
 .startposition .slick-dots,
 .ourarrows2 .slick-dots {
@@ -1836,7 +1851,6 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 480px) {
-
   .font70 {
     font-size: 50px;
   }
@@ -2014,7 +2028,7 @@ li {
   line-height: 23px;
 }
 
-.f-25{
+.f-25 {
   font-size: 25px;
 }
 

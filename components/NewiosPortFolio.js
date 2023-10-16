@@ -26,7 +26,6 @@ const NewiosPortFolio = () => {
 
                     <Row className='g-3'>
                         <Col lg={12}>
-                            <p className={` f-20 font-bold text-white text-center`}>Portfolio</p>
                             <h1 className='text-white f-55 font-bold text-center pb-5'>
                                 Showcasing Our <span className='grdiant'>Creative Vision</span>
                             </h1>
@@ -36,7 +35,7 @@ const NewiosPortFolio = () => {
                             <div className={`${styles.poliBox} ${styles.poliBox3}`}>
                                 <Image quality={75} src={folio3} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
-                                    <span className='font25 font-bold white mb-2'>Bliss Travel Case Study</span>
+                                    <span className='font25 font-bold white mb-2'>Bliss Travel App</span>
                                     <Link href="#" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
@@ -45,7 +44,7 @@ const NewiosPortFolio = () => {
                             <div className={`${styles.poliBox} ${styles.poliBox2}`}>
                                 <Image quality={75} src={folio2} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
-                                    <span className='font25 font-bold white mb-2'>Find Food Case Study</span>
+                                    <span className='font25 font-bold white mb-2'>Find Food App</span>
                                     <Link href="#" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
@@ -54,7 +53,7 @@ const NewiosPortFolio = () => {
                         <div className={`${styles.poliBox} ${styles.poliBox1}`}>
                                 <Image quality={75} src={folio1} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
-                                    <span className='font25 font-bold white mb-2'>Germ Guard Case Study</span>
+                                    <span className='font25 font-bold white mb-2'>Germ Guard App</span>
                                     <Link href="#" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
@@ -63,7 +62,7 @@ const NewiosPortFolio = () => {
                             <div className={`${styles.poliBox} ${styles.poliBox4}`}>
                                 <Image quality={75} src={folio4} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
-                                    <span className='font25 font-bold white mb-2'>Soul Sound Case Study</span>
+                                    <span className='font25 font-bold white mb-2'>Soul Sound App</span>
                                     <Link href="#" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
@@ -72,7 +71,7 @@ const NewiosPortFolio = () => {
                             <div className={`${styles.poliBox} ${styles.poliBox5}`}>
                                 <Image quality={75} src={folio5} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
-                                    <span className='font25 font-bold white mb-2'>eride Case Study</span>
+                                    <span className='font25 font-bold white mb-2'>Eride App</span>
                                     <Link href="#" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
@@ -81,7 +80,7 @@ const NewiosPortFolio = () => {
                             <div className={`${styles.poliBox} ${styles.poliBox6}`}>
                                 <Image quality={75} src={folio6} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
-                                    <span className='font25 font-bold white mb-2'>PRO Health Case Study</span>
+                                    <span className='font25 font-bold white mb-2'>PRO Health App</span>
                                     <Link href="#" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
