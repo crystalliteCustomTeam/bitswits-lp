@@ -923,12 +923,13 @@
     position: absolute;
     content: '';
    background-color: #ff000000;
-    width: 98px;
-    height: 73px;
-    left: 22%;
-    top: 31.5%;
-    cursor: pointer;
-    transform: rotate(8deg);
+   width: 109px;
+   height: 137px;
+   left: 28%;
+   border-radius: -38px;
+   top: 60%;
+   cursor: pointer;
+   transform: rotate(9deg);
   }
 
   .james1::after {
@@ -951,12 +952,12 @@
     position: absolute;
     content: '';
    background-color: #ff000000;
-    width: 106px;
-    height: 116px;
-    left: 65%;
-    border-radius: 50px;
-    top: 64%;
-    cursor: pointer;
+   width: 106px;
+   height: 116px;
+   left: 63%;
+   border-radius: 50px;
+   top: 68%;
+   cursor: pointer;
 
   }
 
@@ -967,12 +968,12 @@
     position: absolute;
     content: '';
    background-color: #ff000000;
-    width: 85px;
-    height: 110px;
-    left: 75%;
-    border-radius: 50px;
-    top: 39%;
-    cursor: pointer;
+   width: 85px;
+   height: 110px;
+   left: 75%;
+   border-radius: 50px;
+   top: 24%;
+   cursor: pointer;
 
 
   }
@@ -983,13 +984,13 @@
     position: absolute;
     content: '';
    background-color: #ff000000;
-    width: 131px;
-    height: 98px;
-    left: 33%;
-    border-radius: unset;
-    top: 43%;
-    cursor: pointer;
-    transform: rotate(8deg);
+   width: 131px;
+   height: 98px;
+   left: 34%;
+   border-radius: unset;
+   top: 38%;
+   cursor: pointer;
+   transform: rotate(8deg);
 
   }
 
@@ -998,13 +999,13 @@
     position: absolute;
     content: '';
    background-color: #ff000000;
-    width: 220px;
-    height: 173px;
-    left: 40%;
-    border-radius: 129px;
-    top: 66%;
-    cursor: pointer;
-    transform: rotate(15deg);
+   width: 220px;
+   height: 173px;
+   left: 40%;
+   border-radius: 129px;
+   top: 74%;
+   cursor: pointer;
+   transform: rotate(15deg);
 
   }
 
@@ -1030,12 +1031,12 @@
     position: absolute;
     content: '';
    background-color: #ff000000;
-    width: 91px;
-    height: 103px;
-    left: 55%;
-    border-radius: unset;
-    top: 40%;
-    cursor: pointer;
+   width: 91px;
+   height: 103px;
+   left: 54%;
+   border-radius: unset;
+   top: 33%;
+   cursor: pointer;
 
   }
 
@@ -1045,12 +1046,12 @@
     position: absolute;
     content: '';
    background-color: #ff000000;
-    width: 121px;
-    height: 67px;
-    left: 67%;
-    border-radius: unset;
-    top: 54%;
-    cursor: pointer;
+   width: 105px;
+   height: 67px;
+   left: 69%;
+   border-radius: unset;
+   top: 54%;
+   cursor: pointer;
 
   }
 
@@ -1062,8 +1063,8 @@
     background-color: #ff000000;
     width: 67px;
     height: 67px;
-    left: 60%;
-    top: 44%;
+    left: 64%;
+    top: 48%;
     cursor: pointer;
     transform: rotate(359deg);
 
@@ -1074,10 +1075,10 @@
     position: absolute;
     content: '';
     background-color: #ff000000;
-    width: 98px;
+     width: 98px;
     height: 67px;
     left: 43%;
-    top: 42%;
+    top: 46%;
     cursor: pointer;
     transform: rotate(359deg);
 
@@ -1092,9 +1093,10 @@
     width: 140px;
     height: 72px;
     left: 32%;
-    top: 35%;
+    top: 26%;
     cursor: pointer;
-    transform: rotate(359deg);
+    transform: rotate(9deg);
+
 
   }
 
@@ -1106,10 +1108,11 @@
     background-color: #ff000000;
     width: 140px;
     height: 72px;
-    left: 17%;
+    left: 18%;
     top: 53%;
-    top: 54%;
+    top: 51%;
     transform: rotate(61deg);
+
 
   }
 
@@ -1121,8 +1124,8 @@
     background-color: #ff000000;
     width: 96px;
     height: 71px;
-    left: 20%;
-    top: 38%;
+    left: 21%;
+    top: 31%;
     transform: rotate(14deg);
 
   }
@@ -1135,8 +1138,8 @@
     background-color: #ff000000;
     width: 78px;
     height: 71px;
-    right: 27%;
-    top: 76%;
+    right: 28%;
+    top: 84%;
     transform: rotate(61deg);
 
   }
