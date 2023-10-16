@@ -94,7 +94,7 @@ const GamingServices = () => {
                             <h1 className='text-white font50 font-bold text-center pb-2'>Blockchain Gaming Engineering Services</h1>
                             <p className={`f-14 text-white text-center pb-0 pb-md-5`}>From creating multiplayer games to providing secure in-game asset exchange options, BitsWits leverages blockchain technology for game development. Our services <br />include creating next-generation games using the latest technology and tools, such as Unity 3D engine for VR/AR gaming experiences, Augmented Reality (AR)<br /> support for games, low-latency gameplay features, HoloLens integration, and blockchain-backed matchmaking.</p>
                         </Col>
-                        <Col lg={4} md={12}>
+                        <Col md={6} lg={4}>
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font22 font-bold'>Ethereum Dapp Game <br />
@@ -103,7 +103,7 @@ const GamingServices = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={4} md={12}>
+                        <Col md={6} lg={4}>
                             <div className={styles.app1}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white f-22 font-bold'>Polygon Game <br /> Development</h3>
@@ -111,7 +111,7 @@ const GamingServices = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={4} md={12}>
+                        <Col lg={4}>
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white f-22 font-bold'>Solana Blockchain Game <br /> Development</h3>
