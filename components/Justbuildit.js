@@ -45,11 +45,10 @@ const Justbuildit = () => {
                     <Row>
                         <Col xl={12}>
                             <h2 className={styles.just}>Build Your App</h2>
-                            <h3 className={styles.develop}>BitsWits to Hire, Watch Your App Ideas Aspire!</h3>
+                            <h3 className={styles.develop}>Hire BitsWits & Watch Your App Ideas Aspire!</h3>
 
                             <div className={styles.pont}>
-                            <Link className={styles.book} href="#">Book A Call</Link>
-                            <Link className={styles.about} href="#">Live Chat</Link>
+                            <Link className={styles.about} href="tel:+1 833 500 6007">LET'S CONNECT</Link>
                         </div>
                         </Col>
                     </Row>

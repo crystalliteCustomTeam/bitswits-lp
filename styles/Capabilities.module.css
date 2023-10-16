@@ -1,7 +1,7 @@
 .about {
   width: 198px;
   height: 45px;
-  background-image: linear-gradient(to right, #F32F53, #F32FC2, #4A78EF);
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
   color: white;
   display: flex;
   align-items: center;
@@ -13,7 +13,7 @@
   letter-spacing: 2px;
 }
 
-.cen{
+.cen {
   margin-bottom: 5px;
 }
 
@@ -24,9 +24,8 @@
 
 .build {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
-
 
 .deter p {
   font-size: 16px;
@@ -46,7 +45,7 @@
 }
 
 .home h2 {
-  font-size: 45px;
+  font-size: 65px;
   font-weight: bold;
   color: white;
 }
@@ -61,7 +60,7 @@
   border-radius: 50px;
   color: #707070;
   font-size: 19px;
-
+  margin-bottom: 0;
 }
 
 .solved {
@@ -96,7 +95,7 @@
 
 .line1::after {
   position: absolute;
-  content: '';
+  content: "";
   background-color: gray;
   width: 1px;
   height: 25px;
@@ -116,7 +115,7 @@
 
 .line2::after {
   position: absolute;
-  content: '';
+  content: "";
   background-color: gray;
   width: 1px;
   height: 25px;
@@ -136,7 +135,7 @@
 
 .line3::after {
   position: absolute;
-  content: '';
+  content: "";
   background-color: gray;
   width: 1px;
   height: 25px;
@@ -156,7 +155,7 @@
 
 .line4::after {
   position: absolute;
-  content: '';
+  content: "";
   background-color: gray;
   width: 1px;
   height: 25px;
@@ -176,7 +175,7 @@
 
 .line5::after {
   position: absolute;
-  content: '';
+  content: "";
   background-color: gray;
   width: 1px;
   height: 25px;
@@ -196,7 +195,7 @@
 
 .line6::after {
   position: absolute;
-  content: '';
+  content: "";
   background-color: gray;
   width: 1px;
   height: 25px;
@@ -209,10 +208,7 @@
   border-top: 1px solid gray;
 }
 
-
 @media screen and (min-width: 1400px) {
-
-
   .line1::before {
     content: "01";
     position: absolute;
@@ -225,7 +221,7 @@
 
   .line1::after {
     position: absolute;
-    content: '';
+    content: "";
     background-color: gray;
     width: 1px;
     height: 25px;
@@ -245,7 +241,7 @@
 
   .line2::after {
     position: absolute;
-    content: '';
+    content: "";
     background-color: gray;
     width: 1px;
     height: 25px;
@@ -265,7 +261,7 @@
 
   .line3::after {
     position: absolute;
-    content: '';
+    content: "";
     background-color: gray;
     width: 1px;
     height: 25px;
@@ -285,7 +281,7 @@
 
   .line4::after {
     position: absolute;
-    content: '';
+    content: "";
     background-color: gray;
     width: 1px;
     height: 25px;
@@ -305,7 +301,7 @@
 
   .line5::after {
     position: absolute;
-    content: '';
+    content: "";
     background-color: gray;
     width: 1px;
     height: 25px;
@@ -325,22 +321,16 @@
 
   .line6::after {
     position: absolute;
-    content: '';
+    content: "";
     background-color: gray;
     width: 1px;
     height: 25px;
     top: -47px;
     left: -3%;
   }
-
-
-
 }
 
-
 @media screen and (max-width: 1199px) {
-
-
   .line1::before {
     content: "01";
     position: absolute;
@@ -353,7 +343,7 @@
 
   .line1::after {
     position: absolute;
-    content: '';
+    content: "";
     background-color: gray;
     width: 1px;
     height: 25px;
@@ -373,7 +363,7 @@
 
   .line2::after {
     position: absolute;
-    content: '';
+    content: "";
     background-color: gray;
     width: 1px;
     height: 25px;
@@ -393,7 +383,7 @@
 
   .line3::after {
     position: absolute;
-    content: '';
+    content: "";
     background-color: gray;
     width: 1px;
     height: 25px;
@@ -413,7 +403,7 @@
 
   .line4::after {
     position: absolute;
-    content: '';
+    content: "";
     background-color: gray;
     width: 1px;
     height: 25px;
@@ -433,7 +423,7 @@
 
   .line5::after {
     position: absolute;
-    content: '';
+    content: "";
     background-color: gray;
     width: 1px;
     height: 25px;
@@ -453,23 +443,16 @@
 
   .line6::after {
     position: absolute;
-    content: '';
+    content: "";
     background-color: gray;
     width: 1px;
     height: 25px;
     top: -47px;
     left: -13%;
   }
-
-
-
-
 }
 
-
 @media screen and (max-width: 991px) {
-
-
   .about {
     width: 300px;
   }
@@ -486,7 +469,7 @@
 
   .line1::after {
     position: absolute;
-    content: '';
+    content: "";
     background-color: gray;
     width: 1px;
     height: 25px;
@@ -506,7 +489,7 @@
 
   .line2::after {
     position: absolute;
-    content: '';
+    content: "";
     background-color: gray;
     width: 1px;
     height: 25px;
@@ -526,7 +509,7 @@
 
   .line3::after {
     position: absolute;
-    content: '';
+    content: "";
     background-color: gray;
     width: 1px;
     height: 25px;
@@ -546,7 +529,7 @@
 
   .line4::after {
     position: absolute;
-    content: '';
+    content: "";
     background-color: gray;
     width: 1px;
     height: 25px;
@@ -566,7 +549,7 @@
 
   .line5::after {
     position: absolute;
-    content: '';
+    content: "";
     background-color: gray;
     width: 1px;
     height: 25px;
@@ -586,24 +569,19 @@
 
   .line6::after {
     position: absolute;
-    content: '';
+    content: "";
     background-color: gray;
     width: 1px;
     height: 25px;
     top: -47px;
     left: 85%;
   }
-
-
 }
 
-
 @media screen and (max-width: 767px) {
-
-  .connsct{
+  .connsct {
     display: none;
   }
-
 
   .home h2 {
     font-size: 30px;
@@ -618,9 +596,7 @@
   }
 
   .about {
-
     font-size: 12px;
-
   }
 
   .line1::before {
@@ -631,92 +607,77 @@
     display: block;
     color: #707070;
     font-size: 18px;
+  }
+
+  .line2::before {
+    content: "02";
+    position: absolute;
+    left: 105px;
+    top: -14px;
+    display: block;
+    color: #707070;
+    font-size: 18px;
+  }
+
+  .line3::before {
+    content: "03";
+    position: absolute;
+    left: 175px;
+    top: -14px;
+    display: block;
+    color: #707070;
+    font-size: 18px;
+  }
+
+  .line4::before {
+    content: "04";
+    position: absolute;
+    left: 245px;
+    top: -14px;
+    display: block;
+    color: #707070;
+    font-size: 18px;
+  }
+
+  .line5::before {
+    content: "05";
+    position: absolute;
+    left: 315px;
+    top: -14px;
+    display: block;
+    color: #707070;
+    font-size: 18px;
+  }
+
+  .line6::before {
+    content: "06";
+    position: absolute;
+    left: 385px;
+    top: -14px;
+    display: block;
+    color: #707070;
+    font-size: 18px;
+  }
 }
 
-
-.line2::before {
-  content: "02";
-  position: absolute;
-  left: 105px;
-  top: -14px;
-  display: block;
-  color: #707070;
-  font-size: 18px;
-}
-
-.line3::before {
-  content: "03";
-  position: absolute;
-  left: 175px;
-  top: -14px;
-  display: block;
-  color: #707070;
-  font-size: 18px;
-}
-
-.line4::before {
-  content: "04";
-  position: absolute;
-  left: 245px;
-  top: -14px;
-  display: block;
-  color: #707070;
-  font-size: 18px;
-}
-
-.line5::before {
-  content: "05";
-  position: absolute;
-  left: 315px;
-  top: -14px;
-  display: block;
-  color: #707070;
-  font-size: 18px;
-}
-
-.line6::before {
-  content: "06";
-  position: absolute;
-  left: 385px;
-  top: -14px;
-  display: block;
-  color: #707070;
-  font-size: 18px;
-}
-
-
-}
-
-
-@media screen and (max-width: 767px) { 
-
+@media screen and (max-width: 767px) {
   .home {
     background-color: black;
     padding-top: 50px;
-}
-
-
+  }
 }
 @media screen and (max-width: 480px) {
-
-
-  .solved{
+  .solved {
     margin-bottom: 10%;
   }
 
-  .build h2{
+  .build h2 {
     margin-bottom: 6%;
   }
-
 
   .build {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+  }
 }
-
-
-
- }
-
-

@@ -15,7 +15,11 @@
   border-right: 0;
 }
 
-.header.trans{
+.header.trans {
+  background-color: transparent;
+}
+
+.header.trans .inqBtn a {
   background-color: transparent;
 }
 

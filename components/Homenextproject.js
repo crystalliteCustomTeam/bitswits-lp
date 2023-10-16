@@ -63,10 +63,9 @@ const Homenextproject = () => {
               <div className={styles.closing}>
                 <div>
                   <h3>Brace yourself for an App-venture! </h3>
-                  <h2 className='grdiant'>Contact Us Now. </h2>
                 </div>
                 <div>
-                  <Link href='telto:(833) 500-6007'>(833) 500-6007</Link>
+                  <Link href='tel:(833) 500-6007'>LET'S CONNECT</Link>
                 </div>
               </div>
 
@@ -76,30 +75,30 @@ const Homenextproject = () => {
         </Container>
 
         <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-5`}>
-                
-                <div className={styles.strpImg}>
-                  <Image  alt="bitswits"      src={icon2} className="img-fluid w-50" />
-                </div>
-                <div className={styles.strpImg}>
-                  <Image  alt="bitswits"      src={icon3} className="img-fluid w-50" />
-                </div>
-                <div className={styles.strpImg}>
-                  <Image  alt="bitswits"      src={icon4} className="img-fluid w-50" />
-                </div>
-                <div className={styles.strpImg}>
-                  <Image  alt="bitswits"      src={icon5} className="img-fluid w-50" />
-                </div>
-                <div className={styles.strpImg}>
-                  <Image  alt="bitswits"      src={icon6} className="img-fluid w-50" />
-                </div>
-                <div className={`${styles.strpImg} ${styles.minImg}`}>
-                  <Image  alt="bitswits"      src={icon7} className="img-fluid w-50" />
-                </div>
-                <div className={styles.strpImg}>
-                  <Image  alt="bitswits"      src={icon8} className="img-fluid w-50" />
-                </div>
-              
-              </Slider>
+
+          <div className={styles.strpImg}>
+            <Image alt="bitswits" src={icon2} className="img-fluid w-50" />
+          </div>
+          <div className={styles.strpImg}>
+            <Image alt="bitswits" src={icon3} className="img-fluid w-50" />
+          </div>
+          <div className={styles.strpImg}>
+            <Image alt="bitswits" src={icon4} className="img-fluid w-50" />
+          </div>
+          <div className={styles.strpImg}>
+            <Image alt="bitswits" src={icon5} className="img-fluid w-50" />
+          </div>
+          <div className={styles.strpImg}>
+            <Image alt="bitswits" src={icon6} className="img-fluid w-50" />
+          </div>
+          <div className={`${styles.strpImg} ${styles.minImg}`}>
+            <Image alt="bitswits" src={icon7} className="img-fluid w-50" />
+          </div>
+          <div className={styles.strpImg}>
+            <Image alt="bitswits" src={icon8} className="img-fluid w-50" />
+          </div>
+
+        </Slider>
 
 
       </section>

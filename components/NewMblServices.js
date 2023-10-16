@@ -89,8 +89,6 @@ const NewMblServices = () => {
                 <Container>
                     <Row className='g-3'>
                         <Col lg={12}>
-                            <p className={`f-20 font-bold text-white text-center`}>Services
-                            </p>
                             <h1 className='text-white font55 font-bold text-center pb-5'>Maintaining digital quality with<br></br>
                                 our collection of customizable services</h1>
                         </Col>
@@ -114,7 +112,7 @@ const NewMblServices = () => {
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white f-22 font-bold text-center'>Web App Development</h3>
-                                    <p className={styles.para}>We offer end-to-end web app development company. Our team of skilled web app developers utilizes the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today!</p>
+                                    <p className={styles.para}>We offer end-to-end web app development services. Our team of skilled web app developers utilizes the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today!</p>
                                 </div>
                             </div>
                         </Col>
@@ -124,12 +122,7 @@ const NewMblServices = () => {
                                 <Row className='align-items-center'>
                                     <Col xl={7}>
                                         <h3 className='text-white f-22 font-bold '>Flutter App Development</h3>
-                                        <p className={styles.para1}>Our team of expert Flutter app developers at Bitswits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs. From ideation to deployment, we ensure a smooth and efficient development process.</p>
-
-                                        <div className={styles.pont}>
-                                            <Link className={styles.book} href="/new-home-page#">Book A Call</Link>
-                                            <Link className={styles.about} href="/new-home-page#">Live Chat</Link>
-                                        </div>
+                                        <p className={`${styles.para1}`}>Our team of expert Flutter app developers at Bitswits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs. From ideation to deployment, we ensure a smooth and efficient development process.</p>
                                     </Col>
                                     <Col xl={4}>
 

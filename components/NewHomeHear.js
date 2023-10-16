@@ -24,7 +24,7 @@ const NewHomeHear = () => {
 
                     <Row>
                         <Col lg={12}>
-                            <p className=' f-20 font-bold text-white'>Mobile app development company </p>
+                            <p className=' f-20 font-bold text-white'>Mobile App Development Company </p>
                             <h2 className={`${styles.headContent} text-white f-60 font-bold`}>Your Project, Our Expertise <br></br> – A Winning Combination
                             </h2>
                             <div className={styles.sec_btn}>

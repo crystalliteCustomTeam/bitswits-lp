@@ -22,8 +22,7 @@ const NewMaintain = () => {
                             </p>
                             <h1 className='text-white f-55 font-bold text-center'>Trusted Development Company For Tech Solutions</h1>
                             <p className='m-0 text-white text-center'>We, at BitsWits, are dedicated to being innovative and making our clients happy. </p>
-                            <p className='text-white text-center pb-3'>We specialize in customizing services for digital business evolution,
-                                We bring the following services to the table…
+                            <p className='text-white text-center pb-3'>We specialize in customizing services for digital business evolution and bring the following services to the table…
                             </p>
                         </Col>
                         <Col sm={6} lg={4}>
@@ -64,7 +63,7 @@ const NewMaintain = () => {
                                         <div className={styles.paraThreeContent}>
                                             <h3 className='text-white f-25 font-bold '>Artificial Intelligence (Ai)</h3>
                                             <p className={styles.para1}>
-                                                Hire BitsWits as your trusted ally for AI development, and experience the revolution of your project through artificial intelligence that raises its potential.
+                                                Hire BitsWits as your trusted ally for AI development, and experience the revolution of your project through Artificial Intelligence that raises its potential.
                                             </p>
                                         </div>
                                     </Col>
@@ -105,7 +104,7 @@ const NewMaintain = () => {
                                     <div className={styles.power}>
                                         <h3 className='text-white font25 font-bold'>AR/VR</h3>
                                         <p className={`text-white f-16 ${styles.contentPara}`}>
-                                            BitsWits serves as your AR/VR portal, we specialize in creating imaginative concepts into compelling digital realities that captivate, entertain, and inspire your audience.
+                                            BitsWits serves as your AR/VR portal. We specialize in creating imaginative concepts into compelling digital realities that captivate, entertain, and inspire your audience.
                                         </p>
                                     </div>
                                 </div>

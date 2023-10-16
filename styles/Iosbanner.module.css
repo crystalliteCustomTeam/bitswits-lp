@@ -85,7 +85,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   text-fill-color: transparent;
-  font-size: 10px;
+  font-size: 14px;
   background: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -147,10 +147,9 @@
 } */
 
 .about {
-  width: 198px;
-  height: 45px;
+  width: 260px;
+  height: 50px;
   background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
-
   color: white;
   display: flex;
   align-items: center;
@@ -160,6 +159,8 @@
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
+  border: 2px solid #fff;
+  transition: all 0.5s ease-in-out;
 }
 
 .pont {
