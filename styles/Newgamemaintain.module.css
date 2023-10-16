@@ -40,6 +40,7 @@
   background-image: url(../public/newHomePage/images/game1.png);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 50px;
   padding-bottom: 60px;
   height: 531px;
@@ -49,6 +50,7 @@
   border-radius: 15px;
   background-image: url(../public/newHomePage/images/game2.png);
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   padding-top: 50px;
   padding-bottom: 60px;
@@ -421,7 +423,7 @@
   .app2,
   .app7 {
     padding: 30px 28px 20px 33px;
-    height: 441px;
+    height: 467px;
     background-size: contain;
   }
 
@@ -433,14 +435,14 @@
 
   .app4,
   .app5 {
-    height: 293px;
+    height: 305px;
     background-size: contain;
     border: none;
   }
 
   .app6 {
     padding: 45px 12px 20px 7px;
-    height: 224px;
+    height: 227px;
     background-size: contain;
   }
 
