@@ -543,10 +543,8 @@
 
   .app4,
   .app5 {
-    height: auto;
-    border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
-    border-radius: 3px;
-    border: 3px solid #4a78ef;
+    height: 305px;
+    background-size: contain;
   }
 
   .app6,
@@ -560,10 +558,8 @@
   .app1,
   .app,
   .app2 {
-    height: auto;
-    border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
-    border-radius: 3px;
-    border: 3px solid #4a78ef;
+    height: 460px;
+    background-size: contain;
   }
 
   .newHomeBg h1 {
@@ -580,8 +576,7 @@
 
   .app3 {
     height: auto;
-    border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
-    border-radius: 3px;
+    border-radius: 16px;
     border: 3px solid #4a78ef;
   }
 }

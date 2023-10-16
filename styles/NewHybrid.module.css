@@ -413,6 +413,21 @@
 
 @media screen and (max-width: 480px) {
 
+    .app,
+    .app1,
+    .app2 {
+        height: 442px;
+        border: 0;
+        background-size: contain;
+        padding: 0 10px;
+    }
+
+    .app3 {
+        height: 203px;
+        border: 3px solid #4A78EF;
+        border-radius: 16px;
+    }
+
     .book,
     .about {
         font-size: 12px;
