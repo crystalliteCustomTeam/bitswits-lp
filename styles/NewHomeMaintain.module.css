@@ -252,12 +252,6 @@
 }
 
 .app6 {
-  /* border-radius: 15px;
-    border: 4px solid;
-    border-image: linear-gradient(#f32f53, #f32fc2, #4a78ef) 10;
-    -webkit-mask:
-        linear-gradient(#fff 0 0) padding-box,
-        linear-gradient(#fff 0 0); */
   background-image: url(../public/newHomePage/images/newMaintain8.png);
   background-position: right;
   background-size: cover;
@@ -508,26 +502,24 @@
   .app4,
   .app5 {
     height: 304px;
-    border: 2px solid;
-    border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
-    border-radius: 3px;
   }
 
   .app6,
   .app7 {
     height: 300px;
-    border: 2px solid;
-    border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
-    border-radius: 3px;
+    border: 2px solid #4a78ef;
+    border-radius: 15px;
+  }
+
+  .app6 {
+    background-image: url(../public/newHomePage/images/maintain8_bg.png);
   }
 
   .app1,
   .app,
   .app2 {
-    height: 300px;
-    border: 2px solid;
-    border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
-    border-radius: 3px;
+    height: 460px;
+    background-size: contain;
   }
 
   .newHomeBg h1 {
@@ -539,13 +531,16 @@
   }
 
   .app7 {
+    background-image: url(../public/newHomePage/images/newMaintain9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     flex-direction: inherit;
   }
 
   .app3 {
     height: 340px;
-    border: 2px solid;
-    border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
-    border-radius: 3px;
+    border: 2px solid #4a78ef;
+    border-radius: 15px;
   }
 }

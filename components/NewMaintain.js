@@ -5,91 +5,9 @@ import styles from "@/styles/NewHomeMaintain.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
 //
 import cardNine from '../public/newHomePage/images/newMaintain9.png'
-import { useEffect, useRef } from "react";
-import lottie from 'lottie-web';
-
-import mobileapp from '../public/mobileapp.json';
-import game from '../public/game.json';
-import blockchain from '../public/blockchain.json';
-import ai from '../public/artificial.json';
-import web from '../public/webapp.json';
-import uiux from '../public/uiuxapp.json';
-import arvrapp from '../public/arvr.json';
-import internetapp from '../public/internetofthings.json';
-
-
 
 
 const NewMaintain = () => {
-    const anime = useRef(null);
-
-    useEffect(() => {
-
-        lottie.loadAnimation({
-            container: document.getElementById('lottie'),
-            animationData: game,
-            loop: true,
-            autoplay: true,
-        });
-
-        lottie.loadAnimation({
-            container: document.getElementById('blockchain'),
-            animationData: blockchain,
-            loop: true,
-            autoplay: true,
-        });
-        lottie.loadAnimation({
-            container: document.getElementById('artifical'),
-            animationData: ai,
-            loop: true,
-            autoplay: true,
-            renderer: "svg",
-        });
-
-
-
-        lottie.loadAnimation({
-            container: document.getElementById('lottie-container'),
-            renderer: "svg",
-            loop: true,
-            autoplay: true,
-            animationData: mobileapp,
-        });
-
-        lottie.loadAnimation({
-            container: document.getElementById('lottie-web'),
-            renderer: "svg",
-            loop: true,
-            autoplay: true,
-            animationData: web,
-        });
-        lottie.loadAnimation({
-            container: document.getElementById('lottie-uiux'),
-            renderer: "svg",
-            loop: true,
-            autoplay: true,
-            animationData: uiux,
-        });
-        lottie.loadAnimation({
-            container: document.getElementById('lottie-arvrapp'),
-            renderer: "svg",
-            loop: true,
-            autoplay: true,
-            animationData: arvrapp,
-        });
-        lottie.loadAnimation({
-            container: document.getElementById('lottie-internetapp'),
-            renderer: "svg",
-            loop: true,
-            autoplay: true,
-            animationData: internetapp,
-        });
-
-
-
-
-
-    }, []);
 
     return (
         <>

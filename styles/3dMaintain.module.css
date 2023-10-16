@@ -518,29 +518,26 @@
         padding: 30px 28px 9px 33px;
     }
 
-    .app4,
-    .app5 {
-        height: 304px;
-        border: 3px solid;
-        border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
-        border-radius: 3px;
+    .app4 {
+        height: 218px;
+        background-size: contain;
+    }
+
+    .app5{
+        height: 435px;
+        background-size: contain;
     }
 
     .app6,
     .app7 {
         height: 300px;
-        border: 3px solid;
-        border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
-        border-radius: 3px;
     }
 
     .app1,
     .app,
     .app2 {
-        height: 300px;
-        border: 3px solid;
-        border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
-        border-radius: 3px;
+        height: 442px;
+        background-size: contain;
     }
 
     .newHomeBg h1 {
@@ -556,9 +553,8 @@
     }
 
     .app3 {
+        border: 3px solid #4a78ef;
+        border-radius: 14px;
         height: 340px;
-        border: 3px solid;
-        border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
-        border-radius: 3px;
     }
 }

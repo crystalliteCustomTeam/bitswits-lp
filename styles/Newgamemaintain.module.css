@@ -418,15 +418,30 @@
 
   .app,
   .app1,
-  .app3,
-  .app4,
-  .app6,
   .app2,
-  .app5,
   .app7 {
     padding: 30px 28px 20px 33px;
-    height: auto;
+    height: 441px;
+    background-size: contain;
+  }
+
+  .app3 {
+    height: 360px;
     border: 3px solid #4a78ef;
+    border-radius: 14px;
+  }
+
+  .app4,
+  .app5 {
+    height: 293px;
+    background-size: contain;
+    border: none;
+  }
+
+  .app6 {
+    padding: 45px 12px 20px 7px;
+    height: 224px;
+    background-size: contain;
   }
 
   .newHomeBg h1 {

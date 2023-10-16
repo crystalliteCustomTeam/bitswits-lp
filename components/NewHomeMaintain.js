@@ -114,16 +114,16 @@ const NewHomeMaintain = () => {
                             </p>
                             <h1 className='text-white f-55 font-bold text-center'>Trusted Development Company For Tech Solutions</h1>
                             <p className='m-0 text-white text-center'>We, at BitsWits, are dedicated to being innovative and making our clients happy. </p>
-                            <p className='text-white text-center pb-3'>We specialize in customizing services for digital business evolution, 
-We bring the following services to the table…
-</p>
+                            <p className='text-white text-center pb-3'>We specialize in customizing services for digital business evolution,
+                                We bring the following services to the table…
+                            </p>
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app}>
                                 <div>
                                     <h3 className='text-white f-20 font-bold text-center'>Mobile App Development</h3>
                                     <p className={styles.para}>
-                                    We develop custom mobile apps from initial consultation to deployment, driving business growth across various industries.
+                                        We develop custom mobile apps from initial consultation to deployment, driving business growth across various industries.
                                     </p>
                                 </div>
 
@@ -137,7 +137,7 @@ We bring the following services to the table…
                                 <div>
                                     <h3 className='text-white f-20 font-bold text-center'>Game Development</h3>
                                     <p className={styles.para}>
-                                    Hire our game development company to captivate your audience and transport them to thrilling virtual worlds.
+                                        Hire our game development company to captivate your audience and transport them to thrilling virtual worlds.
                                     </p>
                                 </div>
 
@@ -150,7 +150,7 @@ We bring the following services to the table…
                                 <div>
                                     <h3 className='text-black f-20 font-bold text-center'>Blockchain Development</h3>
                                     <p className={styles.para}>
-                                    We specialize in developing solutions that fuels enterprise growth and efficiency through blockchain technology.
+                                        We specialize in developing solutions that fuels enterprise growth and efficiency through blockchain technology.
                                     </p>
                                 </div>
 
@@ -165,7 +165,7 @@ We bring the following services to the table…
                                     <Col xl={8}>
                                         <h3 className='text-white f-20 font-bold '>Artificial Intelligence (Ai)</h3>
                                         <p className={styles.para1}>
-                                        Hire BitsWits as your trusted ally for AI development, and experience the revolution of your project through artificial intelligence that raises its potential.
+                                            Hire BitsWits as your trusted ally for AI development, and experience the revolution of your project through artificial intelligence that raises its potential.
                                         </p>
 
                                         <div className={styles.pont}>
@@ -186,7 +186,7 @@ We bring the following services to the table…
                                 <div>
                                     <h3 className='text-white f-20 font-bold text-center'>Web App Development</h3>
                                     <p className={styles.possibilities}>
-                                    Our top app developers excel in web app development, showcasing expert skills to ensure client satisfaction and punctual project delivery.
+                                        Our top app developers excel in web app development, showcasing expert skills to ensure client satisfaction and punctual project delivery.
                                     </p>
                                 </div>
                                 <div id="lottie-web"></div>
@@ -199,7 +199,7 @@ We bring the following services to the table…
                                 <div>
                                     <h3 className='text-black f-20 font-bold text-center'>UI/UX App Design</h3>
                                     <p className={styles.para3}>
-                                    Our team comprises professional responsive app designers who develop prototypes aimed at guiding users to meaningful interactions and achieving impactful user experiences. 
+                                        Our team comprises professional responsive app designers who develop prototypes aimed at guiding users to meaningful interactions and achieving impactful user experiences.
                                     </p>
                                 </div>
                                 <div id="lottie-uiux"></div>
