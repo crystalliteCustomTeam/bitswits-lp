@@ -3,6 +3,17 @@
   background-color: #000;
 }
 
+.newHomeOvrly {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
 .polt {
   position: absolute;
   top: 25%;
@@ -31,7 +42,6 @@
     left: 2%;
   }
 }
-
 
 @media screen and (max-width: 767px) {
   .polt {

@@ -82,6 +82,7 @@ const NewCrossFaqs = () => {
                             </h2>
                         </Col>
                     </Row>
+
                     <Row>
 
                         <Col lg={12}>

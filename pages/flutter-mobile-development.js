@@ -3,15 +3,10 @@ import React from "react";
 import dynamic from "next/dynamic";
 //components
 import NewMblWhat from '@/components/NewMblWhat';
-import NewMblGlobal from '@/components/NewMblGlobal';
-import NewMblSlider from '@/components/NewMblSlider';
-import NewMblTechnologiesWe from '@/components/NewMblTechnologiesWe';
 import Homenextproject from '@/components/Homenextproject';
-import Capabilities from '@/components/Capabilities';
 import NewFlutterFaqs from '@/components/NewFlutterFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
 import FlutterBanner from '@/components/FlutterBanner';
-import NewHybridServices from '@/components/NewHybridServices';
 import NewHybridWho from '@/components/NewHybridWho';
 import NewiosPortFolio from '@/components/NewiosPortFolio';
 import HomeLocation from '@/components/HomeLocation';
@@ -41,13 +36,11 @@ export default function HybridMobile() {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8" />
-
         <title>Trusted Flutter App Development Company - Bitswits!</title>
         <meta
           name="description"
           content="Don't settle for mediocre apps! Our flutter app developers deliver cutting-edge solutions that are designed to make a lasting impression on your users."
         />
-
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta
@@ -66,14 +59,11 @@ export default function HybridMobile() {
           property="og:site_name"
           content="Trusted Flutter App Development Company - Bitswits!"
         />
-
         {/* <link
           rel="canonical"
           href="https://bitswits.co/flutter-app-development-company/"
         /> */}
-
         <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
-
         <meta
           name="DC.title"
           content="flutter app development company, flutter app developers, hire flutter app developers"
@@ -90,7 +80,6 @@ export default function HybridMobile() {
         <meta name="geo.placename" content="Dover" />
         <meta name="geo.position" content="38.692045;-75.401331" />
         <meta name="ICBM" content="38.692045, -75.401331" />
-
         <meta
           name="DC.title"
           content="flutter app development company, flutter app developers, hire flutter app developers"
@@ -98,6 +87,7 @@ export default function HybridMobile() {
         <meta name="geo.region" content="US" />
         <meta name="geo.position" content="39.78373;-100.445882" />
         <meta name="ICBM" content="39.78373, -100.445882" />
+        <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 
             <FlutterBanner />

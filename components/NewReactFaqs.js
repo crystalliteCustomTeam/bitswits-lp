@@ -79,6 +79,7 @@ const NewReactFaqs = () => {
               </h2>
             </Col>
           </Row>
+
           <Row>
             <Col lg={12}>
               <div className={`${faq1show ? "touch" : ""} mb-4 mb-lg-0 mt-5`}>

@@ -14,11 +14,6 @@
   font-size: 14px;
   max-width: 375px;
   color: #fff;
-  overflow: auto;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
 }
 
 .contentPara {
@@ -233,8 +228,6 @@
   margin: 0 auto;
   text-align: center;
   color: white;
-  height: 65px;
-  overflow: auto;
 }
 
 .app5 {

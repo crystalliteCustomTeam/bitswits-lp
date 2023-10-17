@@ -70,9 +70,8 @@ const New3dBanner = () => {
                             <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>We deliver great results, on time and on budget. Contact usto start talking about your project today!</p>
 
                             <div className={styles.pont}>
-                                <Link className={styles.book} href="#">Book A Call</Link>
-                                <Link className={styles.about} href="#">Live Chat</Link>
-                            </div>
+                                    <Link className={styles.about} href="tel:+1 833 500 6007">LET'S CONNECT</Link>
+                                </div>
 
                             <div className={styles.secImage}>
                                 <Image quality={75} src={BannerImage} className={`${styles.bannerImage} img-fluid`} />

@@ -23,7 +23,7 @@ const Wealth = () => {
                                 Today</h2>
                             <p>Our team brings a wealth of expertise to the table. We celebrate a team of experts in game design, programming, and art direction, ensuring your vision for a video game comes to life with precision and accuracy.</p>
 
-                            <Link href='#'>Consult A Gaming Expert To Begin</Link>
+                            <Link href='#'>LET'S CONNECT</Link>
                         </Col>
                         <Col xl={6} className={styles.game}>
 

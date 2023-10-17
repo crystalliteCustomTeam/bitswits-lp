@@ -33,10 +33,10 @@
 }
 
 .about {
-  width: 198px;
+  width: 250px;
   height: 45px;
   background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
-
+  border: 2px solid #fff;
   color: white;
   display: flex;
   align-items: center;

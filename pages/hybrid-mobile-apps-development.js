@@ -13,7 +13,7 @@ import Newsuccess from '@/components/NewMblSuccess';
 import HybridBanner from '@/components/HybridBanner';
 import NewHybridServices from '@/components/NewHybridServices';
 import NewHybridWho from '@/components/NewHybridWho';
-import NewHybridPortfolio from '@/components/NewHybridPortfolio';
+import NewiosPortFolio from '@/components/NewiosPortFolio';
 import HomeLocation from '@/components/HomeLocation';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 import NewHomeAbout from '@/components/NewHomePageAbout';
@@ -40,7 +40,7 @@ export default function HybridMobile() {
             <NewHybridWho />
             <NewMblWhat />
             {/* <NewMblWhy /> */}
-            <NewHybridPortfolio />
+             <NewiosPortFolio />
             <div className='status'>
                 <Newsuccess />
             </div>
