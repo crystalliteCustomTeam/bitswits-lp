@@ -22,6 +22,7 @@ import Technologieswe from '@/components/Technologieswe';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
 import NewHybridWhat from '@/components/NewHybridWhat';
+import NewHybridPortfolio from '@/components/NewHybridPortfolio';
 
 export default function HybridMobile() {
 
