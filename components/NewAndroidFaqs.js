@@ -73,18 +73,10 @@ const NewAndroidFaqs = () => {
       <section className={`${styles.faqs} newfaqsgloble`}>
         <Container>
           <Row className={styles.comfort}>
-            <Col lg={2}>
-              <h2 className="white f-20 f-500 left mt-3">
-                Android App Development
+            <Col lg={12}>
+              <h2 className="white f-60 f-700">
+                FAQs
               </h2>
-            </Col>
-            <Col lg={6}>
-              <h2 className="white f-50 f-700 left">FAQs</h2>
-            </Col>
-            <Col lg={4}>
-              <Link className={styles.about} href="#">
-                Connect Now
-              </Link>
             </Col>
           </Row>
           <Row>
@@ -92,7 +84,7 @@ const NewAndroidFaqs = () => {
               <div className={`${faq1show ? "touch" : ""} mb-4 mb-lg-0 mt-5`}>
                 <div onClick={faq1} className={styles.heading}>
                   <h3>
-                    What Is Best Language for Android App Development?{" "}
+                    What is best language for android app development?{" "}
                     {faq1show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -138,7 +130,7 @@ const NewAndroidFaqs = () => {
               <div className={`${faq2show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq2} className={styles.heading}>
                   <h3>
-                    What Is Android Development?{" "}
+                    What is android development?{" "}
                     {faq2show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -192,7 +184,7 @@ const NewAndroidFaqs = () => {
               <div className={`${faq3show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq3} className={styles.heading}>
                   <h3>
-                    How Much Does It Cost to Design an Android App?{" "}
+                    How much does it cost to design an android app?{" "}
                     {faq3show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -243,7 +235,7 @@ const NewAndroidFaqs = () => {
               <div className={`${faq4show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq4} className={styles.heading}>
                   <h3>
-                    Who Is the Google Android App Developer?{" "}
+                    Who is the google android app developer?{" "}
                     {faq4show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -292,7 +284,7 @@ const NewAndroidFaqs = () => {
               <div className={`${faq5show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq5} className={styles.heading}>
                   <h3>
-                    What Is Android App Development Using Python?{" "}
+                    What is android app development using python?{" "}
                     {faq5show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -348,7 +340,7 @@ const NewAndroidFaqs = () => {
               <div className={faq6show ? "touch" : ""}>
                 <div onClick={faq6} className={styles.heading}>
                   <h3>
-                    How Much Does It Cost to Hire an App Developer?{" "}
+                    How much does it cost to hire an app developer?{" "}
                     {faq6show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -398,6 +390,11 @@ const NewAndroidFaqs = () => {
               </div>
             </Col>
           </Row>
+          <Row>
+                        <Col lg={12}>
+                            <Link className={styles.about} href="#">LET'S CONNECT</Link>
+                        </Col>
+                    </Row>
         </Container>
       </section>
     </>

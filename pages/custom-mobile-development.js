@@ -12,7 +12,7 @@ import Newsuccess from '@/components/NewMblSuccess';
 import FlutterBanner from '@/components/FlutterBanner';
 import NewHybridServices from '@/components/NewHybridServices';
 import NewHybridWho from '@/components/NewHybridWho';
-import NewHybridPortfolio from '@/components/NewHybridPortfolio';
+import NewiosPortFolio from '@/components/NewiosPortFolio';
 import HomeLocation from '@/components/HomeLocation';
 import FlutterMaintain from '@/components/FlutterMaintain';
 import ReactNativeBanner from '@/components/ReactNativeBanner';
@@ -44,8 +44,8 @@ export default function CustomMobile() {
             <NewHybridWho />
             <NewMblWhat />
             {/* <NewMblWhy /> */}
-            <NewHybridPortfolio />
-            <div className='status'>
+            <NewiosPortFolio />
+            <div className=''>
                 <Newsuccess />
             </div>
             <section className='spacingtb1'>

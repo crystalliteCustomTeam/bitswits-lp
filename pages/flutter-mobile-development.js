@@ -13,7 +13,7 @@ import Newsuccess from '@/components/NewMblSuccess';
 import FlutterBanner from '@/components/FlutterBanner';
 import NewHybridServices from '@/components/NewHybridServices';
 import NewHybridWho from '@/components/NewHybridWho';
-import NewHybridPortfolio from '@/components/NewHybridPortfolio';
+import NewiosPortFolio from '@/components/NewiosPortFolio';
 import HomeLocation from '@/components/HomeLocation';
 import FlutterMaintain from '@/components/FlutterMaintain';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
@@ -126,8 +126,8 @@ export default function HybridMobile() {
                 paraFive="The hot reload feature allows Flutter app developers to see code changes reflected immediately without recompiling or accelerating the process."
                 paraSix="To add features without writing repetitive code, BitsWits have created an extensive network of high-quality plugins for Flutter."
             />
-            <NewHybridPortfolio />
-            <div className='status'>
+            <NewiosPortFolio />
+            <div className=''>
                 <Newsuccess />
             </div>
             <section className='spacingtb1'>
