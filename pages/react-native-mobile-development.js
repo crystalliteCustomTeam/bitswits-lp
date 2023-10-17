@@ -7,7 +7,7 @@ import Homenextproject from '@/components/Homenextproject';
 import Faqs from '@/components/NewhomeFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
 import NewHybridWho from '@/components/NewHybridWho';
-import NewHybridPortfolio from '@/components/NewHybridPortfolio';
+import NewiosPortFolio from '@/components/NewiosPortFolio';
 import HomeLocation from '@/components/HomeLocation';
 import ReactNativeBanner from '@/components/ReactNativeBanner';
 import ReactnativeMaintain from '@/components/ReactnativeMaintain';
@@ -91,8 +91,8 @@ export default function ReactNativeMobile() {
                 paraFive="At BitsWits, our team utilizes the active open source React Native framework to build applications without bugs."
                 paraSix="Developed and backed by talented individuals in the field, including Facebook, Microsoft, Shopify, and others."
             />
-            <NewHybridPortfolio />
-            <div className='status'>
+             <NewiosPortFolio />
+            <div className=''>
                 <Newsuccess />
             </div>
             <section className='spacingtb1'>

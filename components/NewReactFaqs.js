@@ -73,18 +73,10 @@ const NewReactFaqs = () => {
       <section className={`${styles.faqs} newfaqsgloble`}>
         <Container>
           <Row className={styles.comfort}>
-            <Col lg={2}>
-              <h2 className="white f-20 f-500 left mt-3">
-                ReactNative App Development
+            <Col lg={12}>
+              <h2 className="white f-60 f-700">
+                FAQs
               </h2>
-            </Col>
-            <Col lg={6}>
-              <h2 className="white f-50 f-700 left">FAQs</h2>
-            </Col>
-            <Col lg={4}>
-              <Link className={styles.about} href="#">
-                Connect Now
-              </Link>
             </Col>
           </Row>
           <Row>
@@ -92,7 +84,7 @@ const NewReactFaqs = () => {
               <div className={`${faq1show ? "touch" : ""} mb-4 mb-lg-0 mt-5`}>
                 <div onClick={faq1} className={styles.heading}>
                   <h3>
-                    Is React Native Good for Mobile Apps Development?{" "}
+                    Is react native good for mobile apps development?{" "}
                     {faq1show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -143,7 +135,7 @@ const NewReactFaqs = () => {
               <div className={`${faq2show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq2} className={styles.heading}>
                   <h3>
-                    How To Make React App Mobile Friendly?{" "}
+                    How to make react app mobile friendly?{" "}
                     {faq2show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -192,7 +184,7 @@ const NewReactFaqs = () => {
               <div className={`${faq3show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq3} className={styles.heading}>
                   <h3>
-                    How Do You Create a Simple Mobile App Using React Native?{" "}
+                    How do you create a simple mobile app using react native?{" "}
                     {faq3show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -251,7 +243,7 @@ const NewReactFaqs = () => {
               <div className={`${faq4show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq4} className={styles.heading}>
                   <h3>
-                    What Does a React Native App Developer Do?{" "}
+                    What does a react native app developer do?{" "}
                     {faq4show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -303,7 +295,7 @@ const NewReactFaqs = () => {
               <div className={`${faq5show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq5} className={styles.heading}>
                   <h3>
-                    Can We Convert React Web App to Mobile App?{" "}
+                    Can we convert react web app to mobile app?{" "}
                     {faq5show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -353,8 +345,7 @@ const NewReactFaqs = () => {
               <div className={faq6show ? "touch" : ""}>
                 <div onClick={faq6} className={styles.heading}>
                   <h3>
-                    Why Is It Necessary to Hire React Native App Developers for
-                    Businesses?{" "}
+                  Why is it necessary to hire react native app developers for businesses?{" "}
                     {faq6show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -402,6 +393,11 @@ const NewReactFaqs = () => {
                   </div>
                 </div>
               </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col lg={12}>
+              <Link className={styles.about} href="#">LET'S CONNECT</Link>
             </Col>
           </Row>
         </Container>

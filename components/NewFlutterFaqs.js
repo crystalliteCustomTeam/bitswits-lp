@@ -73,18 +73,10 @@ const NewFlutterFaqs = () => {
       <section className={`${styles.faqs} newfaqsgloble`}>
         <Container>
           <Row className={styles.comfort}>
-            <Col lg={2}>
-              <h2 className="white f-20 f-500 left mt-3">
-                Flutter App Development
+            <Col lg={12}>
+              <h2 className="white f-60 f-700">
+                FAQs
               </h2>
-            </Col>
-            <Col lg={6}>
-              <h2 className="white f-50 f-700 left">FAQs</h2>
-            </Col>
-            <Col lg={4}>
-              <Link className={styles.about} href="#">
-                Connect Now
-              </Link>
             </Col>
           </Row>
           <Row>
@@ -356,7 +348,7 @@ const NewFlutterFaqs = () => {
               <div className={faq6show ? "touch" : ""}>
                 <div onClick={faq6} className={styles.heading}>
                   <h3>
-                  What Does Flutter Firebase Do?{" "}
+                    What Does Flutter Firebase Do?{" "}
                     {faq6show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -381,7 +373,7 @@ const NewFlutterFaqs = () => {
 
                 <div className={faq6show ? "d-block" : "d-none"}>
                   <p>
-                  Flutter Firebase is a mobile development platform that combines the power of Flutter, Google's UI toolkit for building beautiful apps, with the robustness and scalability of Firebase. It offers a wide range of features like cloud storage, authentication, analytics, messaging, and much more. With Flutter Firebase, you can create powerful and dynamic mobile apps with ease. With the help of its extensive framework, developers can quickly and easily create beautiful user interfaces and powerful backends, enabling a smooth user experience. It also allows you to build complex data structures without having to write complicated code, making it perfect for quickly prototyping ideas and building highly-functional applications.
+                    Flutter Firebase is a mobile development platform that combines the power of Flutter, Google's UI toolkit for building beautiful apps, with the robustness and scalability of Firebase. It offers a wide range of features like cloud storage, authentication, analytics, messaging, and much more. With Flutter Firebase, you can create powerful and dynamic mobile apps with ease. With the help of its extensive framework, developers can quickly and easily create beautiful user interfaces and powerful backends, enabling a smooth user experience. It also allows you to build complex data structures without having to write complicated code, making it perfect for quickly prototyping ideas and building highly-functional applications.
                   </p>
                   <div className="mt-2">
                     <Link href="#">
@@ -391,6 +383,11 @@ const NewFlutterFaqs = () => {
                   </div>
                 </div>
               </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col lg={12}>
+              <Link className={styles.about} href="#">LET'S CONNECT</Link>
             </Col>
           </Row>
         </Container>
