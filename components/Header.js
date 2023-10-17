@@ -94,12 +94,12 @@ const Header = () => {
                             </Link>
                         </div>
                         <li className={`${styles.megaList4} ${styles.navList}`} onClick={handleMenu}>
-                            <Link href='/' className={styles.megaLink}>
+                            <Link href='/' className={`${styles.megaLink} ${styles.befLink}`}>
                                 Home
                             </Link>
                         </li>
                         <li className={`${styles.megaList3} ${styles.navList}`} onClick={handleMegaMenu3}>
-                            <Link href='#' className={styles.megaLink}>
+                            <Link href='#' className={`${styles.megaLink} ${styles.befLink}`}>
                                 SERVICES
                                 <FaAngleDown />
                             </Link>
@@ -364,7 +364,7 @@ const Header = () => {
                             </div>
                         </li>
                         <li className={`${styles.megaList2} ${styles.navList}`} onClick={handleMegaMenu2}>
-                            <Link href='#' className={styles.megaLink}>
+                            <Link href='#' className={`${styles.megaLink} ${styles.befLink}`}>
                                 OUR COMPANY
                                 <FaAngleDown />
                             </Link>
@@ -443,7 +443,7 @@ const Header = () => {
                             </div>
                         </li>
                         <li className={`${styles.megaList4} ${styles.navList}`} onClick={handleMegaMenu4}>
-                            <Link href='#' className={styles.megaLink}>
+                            <Link href='#' className={`${styles.megaLink} ${styles.befLink}`}>
                                 OUR WORK
                                 <FaAngleDown />
                             </Link>
@@ -616,17 +616,17 @@ const Header = () => {
                             </div> */}
                         </li>
                         <li className={`${styles.megaList4} ${styles.navList}`} onClick={handleMenu}>
-                            <Link href='/about-us' className={styles.megaLink}>
+                            <Link href='/about-us' className={`${styles.megaLink} ${styles.befLink}`}>
                                 About
                             </Link>
                         </li>
                         <li className={`${styles.megaList4} ${styles.navList}`} onClick={handleMenu}>
-                            <Link href='/contact-us' className={styles.megaLink}>
+                            <Link href='/contact-us' className={`${styles.megaLink} ${styles.befLink}`}>
                                 Contact
                             </Link>
                         </li>
                         <li className={`${styles.navList} ${styles.inqBtn}`} onClick={modal}>
-                            <Link href='#'>ENQUIRE NOW</Link>
+                            <Link href='#' className={styles.befLink}>GET A QUOTE</Link>
                         </li>
                         <li>
                             <div className={styles.mbInq}>

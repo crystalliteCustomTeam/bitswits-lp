@@ -22,7 +22,7 @@ import icon60 from '../public/newHomePageImages/nexticon/6.png'
 import icon70 from '../public/newHomePageImages/nexticon/7.png'
 import icon80 from '../public/newHomePageImages/nexticon/8.png'
 import NewAddress from './NewAddress';
- 
+
 
 
 const AndriodBanner = () => {
@@ -64,20 +64,19 @@ const AndriodBanner = () => {
 
                 <Container>
 
-                   <Row>
+                    <Row>
                         <Col xl={12}>
-                            <p className={`${styles.just} text-center f-16 font-medium mb-0`}>Revolutionizing & Creating Smarter Future</p>
+                            <p className={`${styles.just} text-center f-16 font-medium mb-0`}>Revolutionizing & Creating A Smarter Future</p>
                             <h3 className={`${styles.develop} text-center f-50 font-bold mb-2`}>
-                            Android App <br></br>
-Development Company
+                                Android App <br></br>
+                                Development Company
                             </h3>
 
-                            <p className='white center mb-4'>BitsWits, we specialize in creating custom-crafted Android applications that meet our customer's <br></br> needs. Our android app development company firmly believes that no two businesses are the same, <br></br> and neither should their apps be.</p>
+                            <p className='white center mb-4'>At BitsWits, we specialize in creating custom-crafted Android applications that meet our customer's <br></br> needs. Our android app development team firmly believes that no two businesses are the same, <br></br> and neither should their apps be.</p>
 
 
                             <div className={styles.pont}>
-                                <Link className={styles.book} href="#">Book A Call</Link>
-                                <Link className={styles.about} href="#">Live Chat</Link>
+                                <Link className={styles.about} href="#">LET'S CONNECT</Link>
                             </div>
 
                             <div className='mt-5 center'>
@@ -88,7 +87,7 @@ Development Company
                     </Row>
                 </Container>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
-                <NewAddress />
+                    <NewAddress />
                 </div>
 
                 <div>
@@ -115,7 +114,7 @@ Development Company
                         <div className={`${styles.strpImg} ${styles.minImg}`}>
                             <Image alt="bitswits" src={icon70} className="img-fluid w-25" />
                         </div>
-                       
+
                     </Slider>
                 </div>
             </section>

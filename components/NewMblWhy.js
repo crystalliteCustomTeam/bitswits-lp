@@ -17,7 +17,7 @@ const NewMblWhy = (props) => {
                     <Row>
                         <Col lg={11} className='mx-auto'>
                             <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4>
-                            <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection</h2>
+                            <h2 className='grdiant f-80 font-bold text-center'>Precision, Performance <br /> & Perfection.</h2>
                             <p className={`f-20 text-white font-bold text-center`}>
                                 Why Do You Require Our iOS Applications?
                             </p>
@@ -85,11 +85,8 @@ const NewMblWhy = (props) => {
                         </Col>
                         <Col lg={10} className='mx-auto mt-5'>
                             <div className={styles.sec_btn}>
-                                <Link href='javascript:;' className={`${styles.btn1} ${styles.btn} font-extrabold`}>
-                                    Book A Call
-                                </Link>
-                                <Link href='javascript:;' className={`${styles.btn2} ${styles.btn} font-extrabold`}>
-                                    Live Chat
+                                <Link href="tel:+1 833 500 6007" className={`${styles.btn2} ${styles.btn} font-extrabold`}>
+                                    LET'S CONNECT
                                 </Link>
                             </div>
                         </Col>

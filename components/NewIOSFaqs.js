@@ -73,16 +73,10 @@ const NewIOSFaqs = () => {
       <section className={`${styles.faqs} newfaqsgloble`}>
         <Container>
           <Row className={styles.comfort}>
-            <Col lg={2}>
-              <h2 className="white f-20 f-500 left mt-3">iOS App Development</h2>
-            </Col>
-            <Col lg={6}>
-              <h2 className="white f-50 f-700 left">FAQs</h2>
-            </Col>
-            <Col lg={4}>
-              <Link className={styles.about} href="#">
-                Connect Now
-              </Link>
+            <Col lg={12}>
+              <h2 className="white f-60 f-700">
+                FAQs
+              </h2>
             </Col>
           </Row>
           <Row>
@@ -90,8 +84,7 @@ const NewIOSFaqs = () => {
               <div className={`${faq1show ? "touch" : ""} mb-4 mb-lg-0 mt-5`}>
                 <div onClick={faq1} className={styles.heading}>
                   <h3>
-                    What Are the Stages Of iOS Development and Is iOS App
-                    Development Cost?{" "}
+                    What are the stages and costs involved in iOS app development?{" "}
                     {faq1show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -140,7 +133,7 @@ const NewIOSFaqs = () => {
               <div className={`${faq2show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq2} className={styles.heading}>
                   <h3>
-                    What Are the Types Of iOS Development?{" "}
+                    What are the types of iOS development?{" "}
                     {faq2show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -210,8 +203,7 @@ const NewIOSFaqs = () => {
               <div className={`${faq3show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq3} className={styles.heading}>
                   <h3>
-                    Why You Should Consider Investing In iOS App Development
-                    Company?{" "}
+                    Why you should consider investing in iOS app development?{" "}
                     {faq3show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -276,7 +268,7 @@ const NewIOSFaqs = () => {
               <div className={`${faq4show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq4} className={styles.heading}>
                   <h3>
-                    What Are the Programming Language(s) for iOS Development?{" "}
+                    What are the programming language(s) for iOS development?{" "}
                     {faq4show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -327,7 +319,7 @@ const NewIOSFaqs = () => {
               <div className={`${faq5show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq5} className={styles.heading}>
                   <h3>
-                    What Is Swift iOS App Development?{" "}
+                    What is Swift iOS app development?{" "}
                     {faq5show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -376,7 +368,7 @@ const NewIOSFaqs = () => {
               <div className={faq6show ? "touch" : ""}>
                 <div onClick={faq6} className={styles.heading}>
                   <h3>
-                    What Are iOS App Development Services?{" "}
+                    What are iOS app development services?{" "}
                     {faq6show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -421,6 +413,12 @@ const NewIOSFaqs = () => {
                   </div>
                 </div>
               </div>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col lg={12}>
+              <Link className={styles.about} href="#">LET'S CONNECT</Link>
             </Col>
           </Row>
         </Container>

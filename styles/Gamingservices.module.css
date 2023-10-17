@@ -366,18 +366,27 @@
 @media screen and (max-width: 991px) {
 
   .app,
-  .app1,
-  .app2 {
+  .app1 {
     -webkit-mask: linear-gradient(#fff 0 0) padding-box,
       linear-gradient(#fff 0 0);
     padding-top: 50px;
     padding-bottom: 0px;
-    height: 875px;
+    height: 431px;
+    border: 3px solid #4a78ef;
+    border-radius: 26px;
+  }
+
+  .cardContent {
+    margin-bottom: -25%;
+  }
+
+  .app2 {
+    height: 878px;
   }
 
   .app3 {
     background-size: cover;
-    height: 265px;
+    height: 232px;
   }
 
   .para1 {
@@ -386,7 +395,7 @@
 
   .app4,
   .app5 {
-    height: 100%;
+    height: 282px;
   }
 
   .app4 p,
@@ -398,7 +407,7 @@
 
   .app6,
   .app7 {
-    height: 450px;
+    height: 431px;
     background-size: cover;
   }
 
@@ -406,9 +415,16 @@
     background-size: cover;
     height: 875px;
   }
+
+  .app9,
+  .app10 {
+    background-size: contain;
+    height: 601px;
+  }
 }
 
 @media screen and (max-width: 767px) {
+
   .newHomeBg {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -491,25 +507,34 @@
 
   .app,
   .app1,
-  .app2,
-  .app3,
+  .app2 {
+    height: 454px;
+    background-size: contain;
+    margin-bottom: 0;
+  }
+
+  .app6 {
+    height: 461px;
+  }
+
   .app4,
   .app5,
-  .app6,
-  .app7,
-  .app8,
   .app9,
   .app10 {
-    padding: 20px 28px 20px 33px;
-    height: auto;
+    height: 309px;
+    background-size: contain;
+  }
+
+  .app3 {
+    background-size: cover;
+    height: 265px;
     border: 3px solid #4a78ef;
-    margin-bottom: 0;
-    border-radius: 0;
+    border-radius: 23px;
   }
 
   .app1 .para,
   .para2,
-  .para3  {
+  .para3 {
     height: unset;
   }
 

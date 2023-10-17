@@ -61,16 +61,16 @@ const Technologieswe = () => {
                 <Container>
                     <Row>
                         <Col xl={12}>
-                            <h2 className={styles.work}><span className='grdiant'>Technologies </span>we work with</h2>
+                            <h2 className={styles.work}><span className='grdiant'>Technologies </span>We Work With</h2>
                         </Col>
                         <Col xl={12} className='mb-5'>
                             <div className={styles.analpost}>
                                 <div className={activeTab1 == 'tab1' ? styles.active : ''} onClick={() => fun1('tab1')} href="#">Mobile</div>
-                                <div className={activeTab1 == 'tab2' ? styles.active : ''} onClick={() => fun1('tab2')} href="#">Front end</div>
+                                <div className={activeTab1 == 'tab2' ? styles.active : ''} onClick={() => fun1('tab2')} href="#">Front-End</div>
                                 <div className={activeTab1 == 'tab3' ? styles.active : ''} onClick={() => fun1('tab3')} href="#">Database</div>
-                                <div className={activeTab1 == 'tab4' ? styles.active : ''} onClick={() => fun1('tab4')} href="#">Backend</div>
+                                <div className={activeTab1 == 'tab4' ? styles.active : ''} onClick={() => fun1('tab4')} href="#">Back-End</div>
                                 <div className={activeTab1 == 'tab5' ? styles.active : ''} onClick={() => fun1('tab5')} href="#">CMS</div>
-                                <div className={activeTab1 == 'tab6' ? styles.active : ''} onClick={() => fun1('tab6')} href="#">Infra and devops</div>
+                                <div className={activeTab1 == 'tab6' ? styles.active : ''} onClick={() => fun1('tab6')} href="#">Infra and DevOps</div>
                             </div>
 
                         </Col>
@@ -85,7 +85,7 @@ const Technologieswe = () => {
 
                                     <div>
                                         <Image quality={75} src={icon1} className='img-fluid' />
-                                        <p>Ios</p>
+                                        <p>iOS</p>
                                     </div>
                                     <div>
                                         <Image quality={75} src={icon2} className='img-fluid' />
@@ -93,7 +93,7 @@ const Technologieswe = () => {
                                     </div>
                                     <div>
                                         <Image quality={75} src={icon3} className='img-fluid' />
-                                        <p>React native</p>
+                                        <p>React Native</p>
                                     </div>
                                     <div>
                                         <Image quality={75} src={icon4} className='img-fluid' />
@@ -114,7 +114,7 @@ const Technologieswe = () => {
                                     </div>
                                     <div>
                                         <Image quality={75} src={icon8} className='img-fluid' />
-                                        <p>Objectivec</p>
+                                        <p>Objective C</p>
                                     </div>
 
 
@@ -132,11 +132,11 @@ const Technologieswe = () => {
 
                                     <div>
                                         <Image quality={75} src={frontend1} className='img-fluid' />
-                                        <p>Angular js</p>
+                                        <p>Angular JS</p>
                                     </div>
                                     <div>
                                         <Image quality={75} src={frontend2} className='img-fluid' />
-                                        <p>React js</p>
+                                        <p>React JS</p>
                                     </div>
                                     <div>
                                         <Image quality={75} src={frontend3} className='img-fluid' />
@@ -148,12 +148,12 @@ const Technologieswe = () => {
                                     </div>
                                     <div>
                                         <Image quality={75} src={frontend5} className='img-fluid' />
-                                        <p>Wpf</p>
+                                        <p>WPF</p>
                                     </div>
 
                                     <div>
                                         <Image quality={75} src={frontend6} className='img-fluid' />
-                                        <p>Html5</p>
+                                        <p>HTML5</p>
                                     </div>
                                  
 
@@ -168,15 +168,15 @@ const Technologieswe = () => {
 
                                     <div>
                                         <Image quality={75} src={database1} className='img-fluid' />
-                                        <p>Mongo db</p>
+                                        <p>MongoDB</p>
                                     </div>
                                     <div>
                                         <Image quality={75} src={database2} className='img-fluid' />
-                                        <p>Mysql</p>
+                                        <p>MySQL</p>
                                     </div>
                                     <div>
                                         <Image quality={75} src={database3} className='img-fluid' />
-                                        <p>Mssql</p>
+                                        <p>MsSQL</p>
                                     </div>
                                     <div>
                                         <Image quality={75} src={database4} className='img-fluid' />
@@ -184,7 +184,7 @@ const Technologieswe = () => {
                                     </div>
                                     <div>
                                         <Image quality={75} src={database5} className='img-fluid' />
-                                        <p>Dynamodb</p>
+                                        <p>DynamoDB</p>
                                     </div>
 
                                     <div>
@@ -206,7 +206,7 @@ const Technologieswe = () => {
 
                                     <div>
                                         <Image quality={75} src={php1} className='img-fluid' />
-                                        <p>Php</p>
+                                        <p>PHP</p>
                                     </div>
                                     <div>
                                         <Image quality={75} src={php2} className='img-fluid' />
@@ -214,7 +214,7 @@ const Technologieswe = () => {
                                     </div>
                                     <div>
                                         <Image quality={75} src={php3} className='img-fluid' />
-                                        <p>Node .js</p>
+                                        <p>Node.JS</p>
                                     </div>
                                    
 
@@ -229,7 +229,7 @@ const Technologieswe = () => {
 
                                     <div>
                                         <Image quality={75} src={cms1} className='img-fluid' />
-                                        <p>Wordpress</p>
+                                        <p>WordPress</p>
                                     </div>
                                     <div>
                                         <Image quality={75} src={cms2} className='img-fluid' />
@@ -252,7 +252,7 @@ const Technologieswe = () => {
 
                                     <div>
                                         <Image quality={75} src={dev1} className='img-fluid' />
-                                        <p>Aws</p>
+                                        <p>AWS</p>
                                     </div>
                                     <div>
                                         <Image quality={75} src={dev2} className='img-fluid' />
@@ -277,7 +277,7 @@ const Technologieswe = () => {
                                     </div>
                                     <div>
                                         <Image quality={75} src={dev7} className='img-fluid' />
-                                        <p>Digital ocean</p>
+                                        <p>Digital Ocean</p>
                                     </div>
                                     <div>
                                         <Image quality={75} src={dev8} className='img-fluid' />

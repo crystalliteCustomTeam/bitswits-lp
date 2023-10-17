@@ -2,6 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 50px;
 }
 
 .texkp {
@@ -24,10 +27,10 @@
 }
 
 .closing a {
-  width: 370px;
+  width: 300px;
   height: 63px;
   background-image: linear-gradient(to right, #f32f5e, #4a78ef);
-  font-size: 37px;
+  font-size: 24px;
   font-weight: bold;
   text-align: center;
   color: white;

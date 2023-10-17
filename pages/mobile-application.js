@@ -6,15 +6,12 @@ import NewMblBanner from '@/components/NewMblBanner';
 import NewHomeAbout from '@/components/NewHomePageAbout';
 import NewMblWho from '@/components/NewMblWho';
 import NewMblWhat from '@/components/NewMblWhat';
-import NewHomeHear from '@/components/NewHomeHear';
 import Capabilities from '@/components/Capabilities';
 import NewMobileFaqs from '@/components/NewMobileFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
-import NewMblPortFolio from '@/components/NewMblPortFolio';
+import NewiosPortFolio from '@/components/NewiosPortFolio';
 import NewMblServices from '@/components/NewMblServices';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
-
-import GameCapabilities from "@/components/GameCapabilities";
 import NewHomeGlobal from "@/components/NewHomeGlobal";
 import NewHomeSlider from "@/components/NewHomeSlider";
 import Technologieswe from "@/components/NewMblTechnologiesWe";
@@ -99,7 +96,6 @@ export default function mobileApplication() {
       <NewMblWho />
       <NewMblWhat />
       <Justbuildit />
-      <NewHomeHear />
       <NewMblServices />
       <NewMblWhy
         iconOne={icon23}
@@ -120,13 +116,11 @@ export default function mobileApplication() {
         paraFour="Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences."
         paraFive="Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue."
         paraSix="Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction." />
-      <NewMblPortFolio />
-
+       <NewiosPortFolio />
       <Capabilities />
       <div className="status2">
         <Newsuccess />
       </div>
-
       <NewHomeGlobal />
       <NewHomeSlider />
       <Technologieswe />

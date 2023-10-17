@@ -46,11 +46,10 @@ const NewAddress = () => {
                             <Col lg={7}>
                                 <div className={`mb-lg-4`}>
                                     <h4 className='font28 grdiant2 font-bold'>Ready For Success?</h4>
-                                    <h5 className='font20 font-bold text-white'>Get your free 30 minutes strategy session with an experienced digital marketer valued at</h5>
-                                    <h6 className='font28 grdiant2 font-bold'>$300USD.</h6>
+                                    <h5 className='font20 font-bold text-white'>Schedule a complimentary strategy session now with our experienced product strategists.</h5>
                                     <div className={styles.menu}>
                                         <Link className={`${styles.book} ${styles.book2}`} href="#">
-                                            Get My Free 30 Min Strategy Session
+                                        Avail My Free Session.
                                             <Image alt="bitswits" src={arrow} className='img-fluid ms-2' />
                                         </Link>
                                     </div>
