@@ -100,8 +100,6 @@ const NewMaintainlogo = () => {
 
                     <Row className='g-3'>
                         <Col lg={12}>
-                            <p className={` f-20 font-bold text-white text-center mb-3`}>Features
-                            </p>
                             <h1 className='text-white f-55 font-bold text-center pb-4'>Unlock Treasure Troves of Fun with <br></br> Play-to-Earn NFT Games!</h1>
                         <p className='white center mb-5'>Are you ready to take your gaming experience to the next level? With play-to-earn NFT games, the possibilities are endless! Whether you're a hardcore collector or just looking for some extra cash, these interactive experiences can offer you something special. Explore the features of play-to-earn games, and get the ball rolled today!</p>
                         

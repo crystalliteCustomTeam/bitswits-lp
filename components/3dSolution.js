@@ -21,7 +21,7 @@ const New3dSolutions = () => {
                                 Studio!</h2>
                             <p className='text-white f-16 pb-2'>BitsWits creates highly interactive and immersive 3D games that take players on an unforgettable journey into a thrilling world of realism. Our services feature designing complex characters, environments, objects, and textures, animating scenes, creating realistic physics for game objects to interact with each other, and integrating user controls and interfaces. From designing and developing 3D models to producing and integrating game logic, we provide end-to-end solutions for creating cutting-edge gaming experiences.
                             </p>
-                            <Link className={styles.about} href="#">Consult A Gaming Expert To Begin</Link>
+                            <Link className={styles.about} href="#">LET's CONNECT</Link>
                         </Col>
                         <Col lg={6}>
                             <Image quality={75} src={Solution} className='img-fluid mt-5 mt-lg-0'/>

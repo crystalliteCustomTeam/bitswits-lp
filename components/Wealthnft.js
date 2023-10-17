@@ -21,7 +21,7 @@ const Wealth = () => {
                             <h2>Be at the Forefront of Blockchain Technology  and Utilize NFT Games for Big Wins</h2>
                             <p>With our games, users have the power to create their own custom story and journey through the world of NFTs. To cut a long story short, we strive to marry our artistic vision with the latest technologies, allowing us to create stunning visuals and immersive experiences while maintaining excellent performance on all platforms.</p>
 
-                            <Link href='#'>Consult A Gaming Expert To Begin</Link>
+                            <Link href='#'>LET'S CONNECT</Link>
                         </Col>
                         <Col xl={6} >
 

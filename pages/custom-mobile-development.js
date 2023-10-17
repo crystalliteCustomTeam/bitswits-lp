@@ -4,7 +4,8 @@ import dynamic from 'next/dynamic';
 //components
 import NewMblWhat from '@/components/NewMblWhat';
 import Homenextproject from '@/components/Homenextproject';
-import Faqs from '@/components/NewhomeFaqs';
+import Capabilities from '@/components/Capabilities';
+import NewMobileFaqs from '@/components/NewMobileFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
 import NewHybridWho from '@/components/NewHybridWho';
 import NewiosPortFolio from '@/components/NewiosPortFolio';
@@ -46,7 +47,7 @@ export default function CustomMobile() {
             <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject />
-            <Faqs />
+            <NewMobileFaqs />
             <HomeLocation />
 
         </>

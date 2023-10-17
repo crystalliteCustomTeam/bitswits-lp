@@ -64,7 +64,7 @@ const Partnercross = () => {
                                 <Image quality={75} src={hybird} className='img-fluid mt-2 mb-5' />
 
                                 <Link href="#" className={styles.arrowBtn}>
-                                    <span className="f-poppins f-600 f-capitalize">Talk To Our Experts</span>
+                                    <span className="f-poppins f-600 f-capitalize">LET'S CONNECT</span>
 
                                 </Link>
 
@@ -87,7 +87,7 @@ const Partnercross = () => {
 
                                 <Image quality={75} src={native} className='img-fluid mt-2 mb-5' />
                                 <Link href="#" className={styles.arrowBtn}>
-                                    <span className="f-poppins f-600 f-capitalize">Talk To Our Experts</span>
+                                    <span className="f-poppins f-600 f-capitalize">LET'S CONNECT</span>
 
                                 </Link>
 

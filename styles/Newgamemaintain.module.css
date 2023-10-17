@@ -13,12 +13,6 @@
   max-width: 300px;
   margin: 0 auto;
   color: #fff;
-  height: 65px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
 }
 
 .para1 {

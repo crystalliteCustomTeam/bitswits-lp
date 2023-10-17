@@ -71,8 +71,7 @@ const FlutterBanner = () => {
                             <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>BitsWits is an expert Flutter app development agency with years of experience creating innovative, powerful apps for businesses of all sizes. From startups to established corporate entities, we have the expertise and technology to turn your ideas into amazing apps.</p>
 
                             <div className={styles.pont}>
-                                <Link className={styles.book} href="#">Book A Call</Link>
-                                <Link className={styles.about} href="#">Live Chat</Link>
+                                <Link className={styles.about} href="tel:+1 833 500 6007">LET'S CONNECT</Link>
                             </div>
 
                             <div className={styles.secImage}>
@@ -83,7 +82,7 @@ const FlutterBanner = () => {
                     </Row>
                 </Container>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
-                <NewAddress />
+                    <NewAddress />
                 </div>
                 <div>
                     <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-5`}>
@@ -109,7 +108,7 @@ const FlutterBanner = () => {
                         <div className={`${styles.strpImg} ${styles.minImg}`}>
                             <Image alt="bitswits" src={icon70} className="img-fluid w-25" />
                         </div>
-                       
+
                     </Slider>
                 </div>
             </section>

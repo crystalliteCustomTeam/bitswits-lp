@@ -22,7 +22,7 @@ const Wealth = () => {
                                 Games Is Here – & We're Leading The Charge!</h2>
                             <p>Our 2D game developers use a combination of vibrant colors, intuitive controls, and engaging storylines to create something truly unique and always captivating. Our 2D game development services include concept creation, level design, character design, animation, asset integration, dynamic UI/UX design, programming, and debugging</p>
 
-                            <Link href='#'>Consult A Gaming Expert To Begin</Link>
+                            <Link href='#'>LET'S CONNECT</Link>
                         </Col>
                         <Col xl={6} className={styles.game}>
 

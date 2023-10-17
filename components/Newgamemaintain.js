@@ -147,11 +147,6 @@ const Newgamemaintain = () => {
                                         <p className={styles.para1}>
                                             Unleashing the potential of Unreal Engine Technology, BitsWits create games that push the boundaries of what's possible in gaming and transport players into new worlds with breathtaking visuals and engaging gameplay. Let your imagination run wild with the one-of-a-kind gaming studio, BitsWits!!!
                                         </p>
-
-                                        <div className={styles.pont}>
-                                            {/* <Link className={styles.book} href="/new-home-page#">Book A Call</Link> */}
-                                            <Link className={styles.about} href="/new-home-page#">Let's Connect</Link>
-                                        </div>
                                     </Col>
                                 </Row>
 

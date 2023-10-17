@@ -119,7 +119,7 @@ const AndriodMaintainlogo = () => {
                         <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app1}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>Android App Integration</h3>
+                                    <h3 className='text-white font25 font-bold'>Android App <br /> Integration</h3>
                                     <p className={styles.para}>
                                         Need help integrating your Android app with other software systems and APIs? Look no further. Our expert Android developers’ team is here to assist you in streamlining the process, ensuring your users have a seamless experience with enhanced functionality. Let us help take your app to the next level.
                                     </p>

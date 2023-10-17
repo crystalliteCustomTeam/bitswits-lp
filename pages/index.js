@@ -15,7 +15,7 @@ import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
 import HomeLocation from '@/components/HomeLocation';
 //components
-const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
+const Justbuildit = dynamic(() => import('@/components/Justbuildit')); 
 
 
 export default function Home() {

@@ -100,19 +100,15 @@ const AndriodMaintainlogo = () => {
 
                     <Row className='g-3'>
                         <Col lg={12}>
-                            <p className={` f-20 font-bold text-white text-center mb-0`}> What We Do
-                            </p>
                             <h1 className='text-white f-55 font-bold text-center pb-4'> <span className='grdiant f-50'>Cross-Platform App Development</span> <br></br> One Codebase,Multiple Platforms, Infinite Possibilities </h1>
-
-
                         </Col>
                         <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>Custom Cross-Platform
-Development</h3>
+                                        Development</h3>
                                     <p className={styles.para}>
-                                    Premier provider of custom multi-platform app development services, BitsWits employs the latest technologies, including web services, databases, user experience design, development frameworks, and testing tools, to ensure that your app is optimized for all devices, from iPhones to Android phones.
+                                        Premier provider of custom multi-platform app development services, BitsWits employs the latest technologies, including web services, databases, user experience design, development frameworks, and testing tools, to ensure that your app is optimized for all devices, from iPhones to Android phones.
                                     </p>
                                 </div>
                             </div>
@@ -121,9 +117,9 @@ Development</h3>
                             <div className={styles.app1}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>Wearable Cross-Platform
-Apps</h3>
+                                        Apps</h3>
                                     <p className={styles.para}>
-                                    Our team specializes in developing state-of-the-art wearable apps that seamlessly integrate with cameras and sensors across various platforms. Let us enhance your user experience with our expertise.
+                                        Our team specializes in developing state-of-the-art wearable apps that seamlessly integrate with cameras and sensors across various platforms. Let us enhance your user experience with our expertise.
                                     </p>
                                 </div>
                             </div>
@@ -132,9 +128,9 @@ Apps</h3>
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'> Cross-Platform
-UI/UX Design Services</h3>
+                                        UI/UX Design Services</h3>
                                     <p className={styles.para}>
-                                    Our cross-platform UI/UX design services provide a seamless user experience across all devices & operating systems. Our experts deliver visually stunning & user-friendly interfaces that keep users engaged & satisfied.
+                                        Our cross-platform UI/UX design services provide a seamless user experience across all devices & operating systems. Our experts deliver visually stunning & user-friendly interfaces that keep users engaged & satisfied.
                                     </p>
                                 </div>
                             </div>
@@ -147,7 +143,7 @@ UI/UX Design Services</h3>
                                         <div className={styles.paraThreeContent}>
                                             <h3 className='text-white f-25 font-bold '>Web-Based Cross-Platform Apps</h3>
                                             <p className={styles.para1}>
-                                            We provide a variety of options for cross-platform web app development, from cross-platform games to enterprise-level software solutions. Our cross-platform app development products are designed to be secure, user-friendly & highly adaptive.
+                                                We provide a variety of options for cross-platform web app development, from cross-platform games to enterprise-level software solutions. Our cross-platform app development products are designed to be secure, user-friendly & highly adaptive.
                                             </p>
                                         </div>
                                     </Col>
@@ -164,7 +160,7 @@ UI/UX Design Services</h3>
                                 <div>
                                     <h3 className='text-white f-25 font-bold text-center'>AI Integrated Cross Platforms Apps</h3>
                                     <p className={styles.possibilities}>
-                                    BitsWits specializes in creating custom applications that utilize the power of artificial intelligence. Our AI-integrated cross-platform application development services offer innovative and intuitive solutions that leverage the latest AI technologies to automate tasks, streamline processes, and reduce costs for your business.
+                                        BitsWits specializes in creating custom applications that utilize the power of artificial intelligence. Our AI-integrated cross-platform application development services offer innovative and intuitive solutions that leverage the latest AI technologies to automate tasks, streamline processes, and reduce costs for your business.
                                     </p>
                                 </div>
                             </div>
@@ -175,13 +171,13 @@ UI/UX Design Services</h3>
                                 <div>
                                     <h3 className='text-white f-25 font-bold text-center'>Cross Platforms Apps Consulting</h3>
                                     <p className={styles.possibilities}>
-                                    Our team of cross-platform app developers actively listen to your ideas and craft custom plans to precisely meet your unique requirements. We highly value every project and strive to provide exceptional services that exceed your expectations.
+                                        Our team of cross-platform app developers actively listen to your ideas and craft custom plans to precisely meet your unique requirements. We highly value every project and strive to provide exceptional services that exceed your expectations.
                                     </p>
                                 </div>
                             </div>
 
                         </Col>
-                     
+
                     </Row>
 
                 </Container>

@@ -68,9 +68,8 @@ const ReactNativeBanner = () => {
                             <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>With our React Native experts, you can effortlessly create powerful, engaging mobile applications that perform optimally across multiple platforms. Our developers focus on leveraging the best of both worlds - the SPEED and AGILITY of native development with the flexibility</p>
 
                             <div className={styles.pont}>
-                                <Link className={styles.book} href="#">Book A Call</Link>
-                                <Link className={styles.about} href="#">Live Chat</Link>
-                            </div>
+                                    <Link className={styles.about} href="tel:+1 833 500 6007">LET'S CONNECT</Link>
+                                </div>
 
                             <div className={styles.secImage}>
                                 <Image quality={75} src={BannerImage} className={`img-fluid`} />

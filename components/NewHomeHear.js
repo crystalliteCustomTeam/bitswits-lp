@@ -13,33 +13,29 @@ const NewHomeHear = () => {
 
             <section className={styles.newHomeBg}>
 
-
                 <div className={styles.videobackground}>
-
-                    <video  width="100%" autoPlay loop muted src="/girls.mp4" type="video/mp4"></video>
+                    <video width="100%" autoPlay loop muted src="/homevideo.mp4" type="video/mp4"></video>
                 </div>
 
-
-                <Container className={styles.polt}>
-
-                    <Row>
-                        <Col lg={12}>
-                            <p className=' f-20 font-bold text-white'>Mobile App Development Company </p>
-                            <h2 className={`${styles.headContent} text-white f-60 font-bold`}>Your Project, Our Expertise <br></br> – A Winning Combination
-                            </h2>
-                            <div className={styles.sec_btn}>
-                                <Link href='javascript:;' className={`${styles.btn_txt} font-extrabold`}>
-                                Contact us now
-                                    <span>
-                                        <Image quality={75} src={ButtonIcon} width={15} height={15} />
-                                    </span>
-                                </Link>
-                            </div>
-                        </Col>
-                    </Row>
-
-                </Container>
-
+                <div className={styles.newHomeOvrly}>
+                    <Container className={styles.polt}>
+                        <Row>
+                            <Col lg={12}>
+                                <p className=' f-20 font-bold text-white'>Mobile App Development Company </p>
+                                <h2 className={`${styles.headContent} text-white f-60 font-bold`}>Your Project, Our Expertise <br></br> – A Winning Combination
+                                </h2>
+                                <div className={styles.sec_btn}>
+                                    <Link href='javascript:;' className={`${styles.btn_txt} font-extrabold`}>
+                                        Contact us now
+                                        <span>
+                                            <Image quality={75} src={ButtonIcon} width={15} height={15} />
+                                        </span>
+                                    </Link>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>
             </section>
 
 

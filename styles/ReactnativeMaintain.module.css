@@ -13,11 +13,6 @@
     font-size: 14px;
     max-width: 375px;
     color: #fff;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
 }
 
 .contentPara {

@@ -6,7 +6,9 @@ import NewMblWho from '@/components/NewMblWho';
 import NewMblWhat from '@/components/NewMblWhat';
 import Technologieswe from '@/components/Technologieswe';
 import Homenextproject from '@/components/Homenextproject';
-import Faqs from '@/components/NewhomeFaqs';
+import Capabilities2d from '@/components/Capabilities2d';
+import NewAIFaqs from '@/components/NewAIFaqs';
+import NewBanner from '@/components/NewBanner';
 import AiMaintainlogo from '@/components/AiMaintainlogo';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
@@ -47,7 +49,7 @@ export default function gamedevelopmentcompany() {
             <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject />
-            <Faqs />
+            <NewAIFaqs />
             <HomeLocation />
 
 

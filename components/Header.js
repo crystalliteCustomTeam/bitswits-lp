@@ -71,12 +71,12 @@ const Header = () => {
 
     const router = useRouter();
     const currentRoute = router.pathname;
-    const path = currentRoute === "/3d-game-development-company"
+    const path = currentRoute
 
 
     return (
         <>
-            <header className={path ? `${styles.header} ${styles.trans}` : `${styles.header} header`}>
+            <header className={path ? `${styles.header}` : `${styles.header} header`}>
                 <div className={styles.navLogo}>
                     <Link href="/">
                         <Image alt="bitswits" className='img-fluid'
@@ -159,7 +159,7 @@ const Header = () => {
                                                                         </Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link onClick={handleMenu} href='#'>
+                                                                        <Link onClick={handleMenu} href='hybrid-mobile-apps-development'>
                                                                             <FaAngleRight />
                                                                             <span>Hybird Mobile App Development</span>
                                                                         </Link>

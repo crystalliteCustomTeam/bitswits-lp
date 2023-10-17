@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic';
 import NewHomeAbout from '@/components/NewHomePageAbout';
 import Technologieswe from '@/components/Technologieswe';
 import Homenextproject from '@/components/Homenextproject';
-import NewReactFaqs from '@/components/NewReactFaqs';
+import NewwebappFaqs from '@/components/NewwebappFaqs';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
 import HomeLocation from '@/components/HomeLocation';
@@ -109,7 +109,7 @@ export default function gamedevelopmentcompany() {
             <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject />
-            <NewReactFaqs />
+            <NewwebappFaqs />
             <HomeLocation />
 
 

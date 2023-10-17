@@ -4,12 +4,12 @@ import dynamic from 'next/dynamic';
 //components
 import NewMblWhat from '@/components/NewMblWhat';
 import Homenextproject from '@/components/Homenextproject';
-import Faqs from '@/components/NewhomeFaqs';
+import NewReactFaqs from '@/components/NewReactFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
 import HybridBanner from '@/components/HybridBanner';
 import NewHybridServices from '@/components/NewHybridServices';
 import NewHybridWho from '@/components/NewHybridWho';
-import NewHybridPortfolio from '@/components/NewHybridPortfolio';
+import NewiosPortFolio from '@/components/NewiosPortFolio';
 import HomeLocation from '@/components/HomeLocation';
 import NativeBanner from '@/components/NativeBanner';
 import NewNativeServices from '@/components/NewNativeServices';
@@ -38,7 +38,7 @@ export default function nativeMobile() {
             <NewHybridWho />
             <NewMblWhat />
             {/* <NewMblWhy /> */}
-            <NewHybridPortfolio />
+             <NewiosPortFolio />
             <div className='status'>
                 <Newsuccess />
             </div>
@@ -48,7 +48,7 @@ export default function nativeMobile() {
             <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject />
-            <Faqs />
+            <NewReactFaqs />
             <HomeLocation />
 
         </>

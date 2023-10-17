@@ -18,7 +18,6 @@ const Dedicated = () => {
                 <Container>
                     <Row>
                         <Col>
-                            <h3 className='f-20 f-700 white t-center mb-0'>WHAT WE DO</h3>
                             <h2 className='f-50  f-700 white t-center'>Full-service <span className='grdiant'>Web Development<br></br>  Company</span> Dedicated 
                                 To Unlocking Your<br></br> Business Potential</h2>
                             <p className='f-13 t-center white f-500'>BitsWits leave no stone unturned when it comes to developing websites that celebrate marketing features, customization, and robustness that add value to your business. When partnering with us, you knock the opportunity to outweigh the marketing investment you made initially. From developing B2B and B2C to B2E websites, there is nothing our industry-trained developers can't build.</p>
@@ -34,7 +33,7 @@ const Dedicated = () => {
                                     <Image quality={75} src={right2} className="img-fluid" />
                                     <Image quality={75} src={right3} className="img-fluid" />
                                 </div>
-                                <Link className={styles.get} href='#'>CLICK TO GET STARTED</Link>
+                                <Link className={styles.get} href='#'>LET'S CONNECT</Link>
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -46,7 +45,7 @@ const Dedicated = () => {
                                     <Image quality={75} src={right5} className="img-fluid" />
                                     <Image quality={75} src={right6} className="img-fluid" />
                                 </div>
-                                <Link className={styles.get} href='#'>CLICK TO GET STARTED</Link>
+                                <Link className={styles.get} href='#'>LET'S CONNECT</Link>
                             </div>
                         </Col>
 
