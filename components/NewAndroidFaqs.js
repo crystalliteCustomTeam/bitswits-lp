@@ -84,7 +84,7 @@ const NewAndroidFaqs = () => {
               <div className={`${faq1show ? "touch" : ""} mb-4 mb-lg-0 mt-5`}>
                 <div onClick={faq1} className={styles.heading}>
                   <h3>
-                    What is best language for android app development?{" "}
+                    What is best language for Android app development?{" "}
                     {faq1show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -130,7 +130,7 @@ const NewAndroidFaqs = () => {
               <div className={`${faq2show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq2} className={styles.heading}>
                   <h3>
-                    What is android development?{" "}
+                    What is Android development?{" "}
                     {faq2show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -184,7 +184,7 @@ const NewAndroidFaqs = () => {
               <div className={`${faq3show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq3} className={styles.heading}>
                   <h3>
-                    How much does it cost to design an android app?{" "}
+                    How much does it cost to develop an Android app?{" "}
                     {faq3show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -235,7 +235,7 @@ const NewAndroidFaqs = () => {
               <div className={`${faq4show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq4} className={styles.heading}>
                   <h3>
-                    Who is the google android app developer?{" "}
+                    Who is a Google Android app developer?{" "}
                     {faq4show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -284,7 +284,7 @@ const NewAndroidFaqs = () => {
               <div className={`${faq5show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq5} className={styles.heading}>
                   <h3>
-                    What is android app development using python?{" "}
+                    What is Android app development using Python?{" "}
                     {faq5show ? (
                       <span className={styles.plus}>
                         {" "}

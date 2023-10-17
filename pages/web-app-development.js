@@ -6,7 +6,7 @@ import NewMblWho from '@/components/NewMblWho';
 import NewMblWhat from '@/components/NewMblWhat';
 import Technologieswe from '@/components/Technologieswe';
 import Homenextproject from '@/components/Homenextproject';
-import NewWebFaqs from '@/components/NewWebFaqs';
+import NewwebappFaqs from '@/components/NewwebappFaqs';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
 import HomeLocation from '@/components/HomeLocation';
@@ -109,7 +109,7 @@ export default function gamedevelopmentcompany() {
             <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject />
-            <NewWebFaqs />
+            <NewwebappFaqs />
             <HomeLocation />
 
 

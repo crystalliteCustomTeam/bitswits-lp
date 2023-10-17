@@ -8,7 +8,7 @@ import NewHomeHear from '@/components/NewHomeHear'
 import Technologieswe from '@/components/Technologieswe';
 import Homenextproject from '@/components/Homenextproject';
 import Capabilities2d from '@/components/Capabilities2d';
-import Faqs from '@/components/NewhomeFaqs';
+import NewAIFaqs from '@/components/NewAIFaqs';
 import NewBanner from '@/components/NewBanner';
 import AiMaintainlogo from '@/components/AiMaintainlogo';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
@@ -58,7 +58,7 @@ export default function gamedevelopmentcompany() {
             <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject />
-            <Faqs />
+            <NewAIFaqs />
             <HomeLocation />
 
 

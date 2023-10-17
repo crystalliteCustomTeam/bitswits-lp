@@ -8,7 +8,7 @@ import Newslider from '@/components/Newslider';
 import Technologieswe from '@/components/Technologieswe';
 import Homenextproject from '@/components/Homenextproject';
 import Capabilities from '@/components/Capabilities';
-import Faqs from '@/components/NewhomeFaqs';
+import NewgameappdevFaqs from '@/components/NewgameappdevFaqs';
 import Bulletproofgame from '@/components/Bulletproofgame';
 import Targetaudience from '@/components/Targetaudience';
 import Newgamemaintain from '@/components/Newgamemaintain';
@@ -50,7 +50,7 @@ export default function Gameapplicationdevelopment() {
             <Newslider />
             <Technologieswe/>
             <Homenextproject/>
-            <Faqs />
+            <NewgameappdevFaqs />
             
 
 

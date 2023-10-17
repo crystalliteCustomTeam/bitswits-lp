@@ -7,7 +7,7 @@ import NewMblGlobal from '@/components/NewMblGlobal';
 import NewMblSlider from '@/components/NewMblSlider';
 import Homenextproject from '@/components/Homenextproject';
 import Capabilities from '@/components/Capabilities';
-import Faqs from '@/components/NewhomeFaqs';
+import NewMobileFaqs from '@/components/NewMobileFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
 import FlutterBanner from '@/components/FlutterBanner';
 import NewHybridServices from '@/components/NewHybridServices';
@@ -54,7 +54,7 @@ export default function CustomMobile() {
             <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject />
-            <Faqs />
+            <NewMobileFaqs />
             <HomeLocation />
 
         </>
