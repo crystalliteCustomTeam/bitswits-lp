@@ -84,7 +84,7 @@ const NewFlutterFaqs = () => {
               <div className={`${faq1show ? "touch" : ""} mb-4 mb-lg-0 mt-5`}>
                 <div onClick={faq1} className={styles.heading}>
                   <h3>
-                    How Much Does Flutter App Development Cost?{" "}
+                  How much does flutter app development cost?{" "}
                     {faq1show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -133,7 +133,7 @@ const NewFlutterFaqs = () => {
               <div className={`${faq2show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq2} className={styles.heading}>
                   <h3>
-                    What Is Flutter App Development?{" "}
+                  What is flutter app development?{" "}
                     {faq2show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -181,7 +181,7 @@ const NewFlutterFaqs = () => {
               <div className={`${faq3show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq3} className={styles.heading}>
                   <h3>
-                    Why Should I Choose Flutter for App Development?{" "}
+                    Why should i choose flutter for app development?{" "}
                     {faq3show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -227,7 +227,7 @@ const NewFlutterFaqs = () => {
               <div className={`${faq4show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq4} className={styles.heading}>
                   <h3>
-                    Is Flutter Good for Mobile App Development?{" "}
+                    Is flutter good for mobile app development?{" "}
                     {faq4show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -275,7 +275,7 @@ const NewFlutterFaqs = () => {
               <div className={`${faq5show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq5} className={styles.heading}>
                   <h3>
-                    What Are the Six 6 Advantages of Flutter?{" "}
+                    What are the six 6 advantages of flutter?{" "}
                     {faq5show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -348,7 +348,7 @@ const NewFlutterFaqs = () => {
               <div className={faq6show ? "touch" : ""}>
                 <div onClick={faq6} className={styles.heading}>
                   <h3>
-                    What Does Flutter Firebase Do?{" "}
+                    What does flutter firebase do?{" "}
                     {faq6show ? (
                       <span className={styles.plus}>
                         {" "}
