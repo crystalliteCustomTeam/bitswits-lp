@@ -6,7 +6,6 @@ import NewMblWhat from '@/components/NewMblWhat';
 import Homenextproject from '@/components/Homenextproject';
 import Faqs from '@/components/NewhomeFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
-import NewHybridWho from '@/components/NewHybridWho';
 import NewiosPortFolio from '@/components/NewiosPortFolio';
 import HomeLocation from '@/components/HomeLocation';
 import ReactNativeBanner from '@/components/ReactNativeBanner';
@@ -27,6 +26,8 @@ import icon25 from '../public/images/fynative/3.png'
 import icon26 from '../public/images/fynative/4.png'
 import icon27 from '../public/images/fynative/5.png'
 import icon28 from '../public/images/fynative/6.png'
+import NewReactWho from '@/components/NewReactnativeWho';
+import NewReactWhat from '@/components/NewReactnativeWhat';
 
 
 export default function ReactNativeMobile() {
@@ -69,8 +70,8 @@ export default function ReactNativeMobile() {
             <NewHomeAbout />
             <ReactnativeMaintain />
             <Justbuildit />
-            <NewHybridWho />
-            <NewMblWhat />
+            <NewReactWho />
+            <NewReactWhat />
             <NewMblWhy
                 iconOne={icon23}
                 iconTwo={icon24}
@@ -91,7 +92,7 @@ export default function ReactNativeMobile() {
                 paraFive="At BitsWits, our team utilizes the active open source React Native framework to build applications without bugs."
                 paraSix="Developed and backed by talented individuals in the field, including Facebook, Microsoft, Shopify, and others."
             />
-             <NewiosPortFolio />
+            <NewiosPortFolio />
             <div className=''>
                 <Newsuccess />
             </div>

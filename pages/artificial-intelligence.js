@@ -4,34 +4,24 @@ import dynamic from 'next/dynamic';
 import NewHomeAbout from '@/components/NewHomePageAbout';
 import NewMblWho from '@/components/NewMblWho';
 import NewMblWhat from '@/components/NewMblWhat';
-import NewHomeHear from '@/components/NewHomeHear'
 import Technologieswe from '@/components/Technologieswe';
 import Homenextproject from '@/components/Homenextproject';
-import Capabilities2d from '@/components/Capabilities2d';
 import Faqs from '@/components/NewhomeFaqs';
-import NewBanner from '@/components/NewBanner';
 import AiMaintainlogo from '@/components/AiMaintainlogo';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
 import HomeLocation from '@/components/HomeLocation';
 import AiBanner from '@/components/AiBanner';
-import Bullet2dproofgame from '@/components/Bullet2dproofgame';
-import Genreof2dgames from '@/components/Genreof2dgames';
-import Engage2d from '@/components/Engage2d';
 import Newsuccess from '@/components/NewMblSuccess';
-import Technologieswe2dgame from '@/components/Technologieswe2dgame';
-import Wealth2d from '@/components/Wealth2d';
 import NewiosPortFolio from '@/components/NewiosPortFolio';
-import NewMblWhy from '@/components/NewMblWhy';
+import NewaiWho from '@/components/NewaiWho';
+import NewaiWhat from '@/components/NewaiWhat';
 
 //components
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 
 
 export default function gamedevelopmentcompany() {
-
-
-
 
     return (
         <>
@@ -47,13 +37,12 @@ export default function gamedevelopmentcompany() {
             <NewHomeAbout />
             <AiMaintainlogo />
             <Justbuildit />
-            <NewMblWho />
-            <NewMblWhat />
-            {/* <NewMblWhy /> */}
+            <NewaiWho />
+            <NewaiWhat />
             <NewiosPortFolio />
             <Newsuccess />
             <section className='spacingtb1'>
-            <Technologieswe />
+                <Technologieswe />
             </section>
             <NewHomeGlobal />
             <NewHomeSlider />

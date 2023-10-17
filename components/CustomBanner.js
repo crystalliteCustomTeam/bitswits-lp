@@ -1,14 +1,10 @@
 import React from 'react'
-import styles from "@/styles/HybridBanner.module.css";
+import styles from "@/styles/CustomBanner.module.css";
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 //
 import BannerImage from "@/public/custommobiledevelopment/banner_image.png"
-import icon11 from '../public/newMobilePageImages/city1.png'
-import icon12 from '../public/newMobilePageImages/city2.png'
-import icon13 from '../public/newMobilePageImages/city4.png'
-import icon14 from '../public/newMobilePageImages/city3.png'
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -59,13 +55,12 @@ const CustomBanner = () => {
 
     return (
         <>
-
             <section className={styles.newHomeBg}>
                 <Container>
                     <Row>
                         <Col xl={12}>
                             <p className='text-center text-white f-16 font-bold mb-0'>Bitswits Is Your One-Stop Shop For</p>
-                            <h3 className={`${styles.develop} text-center f-50 font-bold mb-1`}>
+                            <h3 className={`${styles.develop} text-center f-50 font-bold mb-1 text-white`}>
                                 <span className='d-block'>Custom Mobile Application </span>
                                 <span className='d-block'>Development for Business</span>
                             </h3>

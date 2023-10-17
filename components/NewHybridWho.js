@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 
 //
-import WhoImage from "@/public/newMobilePageImages/who_image.png"
+import WhoImage from "@/public/hybridmbldevelopment/who_image.png"
 import ButtonIcon from "@/public/newHomePageImages/home_btn.png"
 
 
@@ -41,7 +41,7 @@ const NewHybridWho = () => {
 
                         <Col lg={10}>
                             <div className={`${styles.secImagebg} text-center pt-4`}>
-                                <Image quality={75} src={WhoImage} className={`${styles.secImage} img-fluid`} />
+                                <Image quality={75} src={WhoImage}  height="550" className={`${styles.secImage} img-fluid`} />
                             </div>
                         </Col>
                     </Row>

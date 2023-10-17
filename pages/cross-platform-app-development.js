@@ -2,25 +2,16 @@ import Head from "next/head";
 import React from "react";
 import dynamic from "next/dynamic";
 import NewHomeAbout from "@/components/NewHomePageAbout";
-import NewMblWho from "@/components/NewMblWho";
 import NewMblWhat from "@/components/NewMblWhat";
-import NewHomeHear from "@/components/NewHomeHear";
 import Technologieswe from "@/components/Technologieswe";
 import Homenextproject from "@/components/Homenextproject";
-import Capabilities2d from "@/components/Capabilities2d";
 import NewCrossFaqs from "@/components/NewCrossFaqs";
-import NewBanner from "@/components/NewBanner";
 import CrossMaintainlogo from "@/components/CrossMaintainlogo";
 import NewHomeGlobal from "@/components/NewHomeGlobal";
 import NewHomeSlider from "@/components/NewHomeSlider";
 import HomeLocation from "@/components/HomeLocation";
 import CrossBanner from "@/components/CrossBanner";
-import Bullet2dproofgame from "@/components/Bullet2dproofgame";
-import Genreof2dgames from "@/components/Genreof2dgames";
-import Engage2d from "@/components/Engage2d";
 import Newsuccess from "@/components/NewMblSuccess";
-import Technologieswe2dgame from "@/components/Technologieswe2dgame";
-import Wealth2d from "@/components/Wealth2d";
 import NewiosPortFolio from "@/components/NewiosPortFolio";
 import Partnercross from "@/components/Partnercross";
 import NewMblWhy from "@/components/NewMblWhy";
@@ -32,6 +23,8 @@ import icon25 from "../public/images/fyicons/21.png";
 import icon26 from "../public/images/fyicons/22.png";
 import icon27 from "../public/images/fyicons/23.png";
 import icon28 from "../public/images/fyicons/24.png";
+import NewcrossWho from "@/components/NewcrossWho";
+import NewCrossWhat from "@/components/NewCrossWhat";
 
 //components
 const Justbuildit = dynamic(() => import("@/components/Justbuildit"));
@@ -103,8 +96,8 @@ export default function gamedevelopmentcompany() {
       <Partnercross />
       <CrossMaintainlogo />
       <Justbuildit />
-      <NewMblWho />
-      <NewMblWhat />
+      <NewcrossWho />
+      <NewCrossWhat />
       <NewMblWhy
         iconOne={icon23}
         iconTwo={icon24}

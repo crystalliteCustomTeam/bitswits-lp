@@ -32,6 +32,9 @@ import icon25 from "../public/images/fyiconsflutter/3.png";
 import icon26 from "../public/images/fyiconsflutter/4.png";
 import icon27 from "../public/images/fyiconsflutter/5.png";
 import icon28 from "../public/images/fyiconsflutter/6.png";
+import NewReactWho from "@/components/NewReactnativeWho";
+import NewFlutterWho from "@/components/NewFlutterWho";
+import NewFlutterWhat from "@/components/NewFlutterWhat";
 
 export default function HybridMobile() {
   return (
@@ -100,45 +103,45 @@ export default function HybridMobile() {
         <meta name="ICBM" content="39.78373, -100.445882" />
       </Head>
 
-            <FlutterBanner />
-            <NewHomeAbout />
-            <FlutterMaintain />
-            <Justbuildit />
-            <NewHybridWho />
-            <NewMblWhat />
-            <NewMblWhy
-                iconOne={icon23}
-                iconTwo={icon24}
-                iconThree={icon25}
-                iconFour={icon26}
-                iconFive={icon27}
-                iconSix={icon28}
-                titleOne="Cross-Platform Apps"
-                titleTwo="Expressive and Impressive UI"
-                titleThree="Native Performance"
-                titleFour={<> Cost <br /> Savings </>}
-                titleFive="Rapid Development"
-                titleSix={<>Vast <br /> Plugins </>}
-                paraOne="Flutter allows app deployment to both iOS and Android platforms, saving time and cost for development."
-                paraTwo="Flutter widgets and composition models help Flutter app developers quickly build intuitive and high-quality UI/UX on each platform."
-                paraThree="Flutter app development agency builds fast-performing apps by compiling directly to native ARM code rather than JavaScript."
-                paraFour="Flutter app developers use a single codebase that reduces development and maintenance costs. No need for a separate iOS and Android codebase."
-                paraFive="The hot reload feature allows Flutter app developers to see code changes reflected immediately without recompiling or accelerating the process."
-                paraSix="To add features without writing repetitive code, BitsWits have created an extensive network of high-quality plugins for Flutter."
-            />
-            <NewiosPortFolio />
-            <div className=''>
-                <Newsuccess />
-            </div>
-            <section className='spacingtb1'>
-                <Technologieswe />
-            </section>
-            <NewHomeGlobal />
-            <NewHomeSlider />
-            <Homenextproject />
-            <NewFlutterFaqs />
-            <HomeLocation />
+      <FlutterBanner />
+      <NewHomeAbout />
+      <FlutterMaintain />
+      <Justbuildit />
+      <NewFlutterWho />
+      <NewFlutterWhat />
+      <NewMblWhy
+        iconOne={icon23}
+        iconTwo={icon24}
+        iconThree={icon25}
+        iconFour={icon26}
+        iconFive={icon27}
+        iconSix={icon28}
+        titleOne="Cross-Platform Apps"
+        titleTwo="Expressive and Impressive UI"
+        titleThree="Native Performance"
+        titleFour={<> Cost <br /> Savings </>}
+        titleFive="Rapid Development"
+        titleSix={<>Vast <br /> Plugins </>}
+        paraOne="Flutter allows app deployment to both iOS and Android platforms, saving time and cost for development."
+        paraTwo="Flutter widgets and composition models help Flutter app developers quickly build intuitive and high-quality UI/UX on each platform."
+        paraThree="Flutter app development agency builds fast-performing apps by compiling directly to native ARM code rather than JavaScript."
+        paraFour="Flutter app developers use a single codebase that reduces development and maintenance costs. No need for a separate iOS and Android codebase."
+        paraFive="The hot reload feature allows Flutter app developers to see code changes reflected immediately without recompiling or accelerating the process."
+        paraSix="To add features without writing repetitive code, BitsWits have created an extensive network of high-quality plugins for Flutter."
+      />
+      <NewiosPortFolio />
+      <div className=''>
+        <Newsuccess />
+      </div>
+      <section className='spacingtb1'>
+        <Technologieswe />
+      </section>
+      <NewHomeGlobal />
+      <NewHomeSlider />
+      <Homenextproject />
+      <NewFlutterFaqs />
+      <HomeLocation />
 
-        </>
-    )
+    </>
+  )
 }

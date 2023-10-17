@@ -4,11 +4,7 @@ import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 //
-import BannerImage from "@/public/images/iosbanner/crossplatform.png"
-import icon11 from '../public/newMobilePageImages/city1.png'
-import icon12 from '../public/newMobilePageImages/city2.png'
-import icon13 from '../public/newMobilePageImages/city4.png'
-import icon14 from '../public/newMobilePageImages/city3.png'
+import BannerImage from "@/public/images/cross/crossplatform.png"
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -22,7 +18,7 @@ import icon60 from '../public/newHomePageImages/nexticon/6.png'
 import icon70 from '../public/newHomePageImages/nexticon/7.png'
 import icon80 from '../public/newHomePageImages/nexticon/8.png'
 import NewAddress from './NewAddress';
- 
+
 
 
 const CrossBanner = () => {
@@ -64,16 +60,16 @@ const CrossBanner = () => {
 
                 <Container>
 
-                   <Row>
+                    <Row>
                         <Col xl={12}>
                             <p className={`${styles.just} text-center f-16 font-medium mb-0`}>Create The Future With Our</p>
                             <h3 className={`${styles.develop} text-center f-50 font-bold mb-2`}>
-                            Cross Platform Apps <br></br>
-Development
+                                Cross Platform Apps <br></br>
+                                Development
                             </h3>
 
                             <p className='white center mb-4'>
-                            With our cross-platform app development services, you can easily create apps that are compatible <br></br> across multiple platforms. No more worrying about developing an app for every operating system; <br></br> now you can develop  and deploy one single app for both Android and iOS!
+                                With our cross-platform app development services, you can easily create apps that are compatible <br></br> across multiple platforms. No more worrying about developing an app for every operating system; <br></br> now you can develop  and deploy one single app for both Android and iOS!
 
                             </p>
 
@@ -91,7 +87,7 @@ Development
                     </Row>
                 </Container>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
-                <NewAddress />
+                    <NewAddress />
                 </div>
                 <div>
                     <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-5`}>
@@ -117,7 +113,7 @@ Development
                         <div className={`${styles.strpImg} ${styles.minImg}`}>
                             <Image alt="bitswits" src={icon70} className="img-fluid w-25" />
                         </div>
-                      
+
                     </Slider>
                 </div>
             </section>

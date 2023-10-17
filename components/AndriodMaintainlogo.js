@@ -4,7 +4,6 @@ import styles from "@/styles/NewandriodMaintainlogo.module.css";
 
 import { Container, Row, Col } from 'react-bootstrap'
 //
-import cardNine from '../public/newHomePage/images/newMaintain9.png'
 import { useEffect, useRef } from "react";
 import lottie from 'lottie-web';
 
