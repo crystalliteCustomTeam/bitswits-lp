@@ -143,7 +143,7 @@ const FlutterMaintain = () => {
                                 <Row className='align-items-center'>
                                     <Col xl={6}>
                                         <div className={styles.paraThreeContent}>
-                                            <h3 className='text-white f-25 font-bold '>Customized Flutter Development Solutions</h3>
+                                            <h3 className='text-white font25 font-bold '>Customized Flutter Development Solutions</h3>
                                             <p className={styles.para1}>
                                                 Flutter app developers at BitsWits can make customized powerful apps that help your business grow and reach more people. Hire top-rated Flutter development services and skyrocket your business growth.
                                             </p>
@@ -160,7 +160,7 @@ const FlutterMaintain = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app4}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Testing & Quality Assurance</h3>
+                                    <h3 className='text-white font25 font-bold text-center'>Testing & Quality Assurance</h3>
                                     <p className={styles.possibilities}>
                                         Our Flutter mobile app developers, quality analysts, and testers, collaborate seamlessly to ensure your app is free of bugs during development. We guarantee you a dependable, top-notch final product that meets your expectations.
                                     </p>
@@ -171,7 +171,7 @@ const FlutterMaintain = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app5}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Maintenance & Support Services <br ></br>
+                                    <h3 className='text-white font25 font-bold text-center'>Maintenance & Support Services
                                         For Flutter Apps</h3> 
                                     <p className={styles.possibilities}>
                                         BitsWits offers maintenance and support services to keep your Flutter applications running smoothly after launch. Our experts provide top-notch services to ensure your applications remain in excellent condition for the long term, giving you peace of mind and ensuring the success of your business.

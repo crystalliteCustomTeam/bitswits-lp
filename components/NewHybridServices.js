@@ -97,7 +97,7 @@ const NewHybridServices = () => {
                         <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font22 font-bold '>Flutter</h3>
+                                    <h3 className='text-white font25 font-bold '>Flutter</h3>
                                     <p className={styles.para}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
                                 </div>
                             </div>
@@ -105,7 +105,7 @@ const NewHybridServices = () => {
                         <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app1}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white f-22 font-bold '>React</h3>
+                                    <h3 className='text-white font25 font-bold '>React</h3>
                                     <p className={styles.para}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
                                 </div>
                             </div>
@@ -113,7 +113,7 @@ const NewHybridServices = () => {
                         <Col lg={4} className={styles.earn}>
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white f-22 font-bold '>Ionic</h3>
+                                    <h3 className='text-white font25 font-bold '>Ionic</h3>
                                     <p className={styles.para}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
                                 </div>
                             </div>
@@ -123,7 +123,7 @@ const NewHybridServices = () => {
                             <div className={`${styles.app3} mt-3`}>
                                 <Row className='align-items-center'>
                                     <Col xl={7}>
-                                        <h3 className='text-white f-22 font-bold '>Xamarin</h3>
+                                        <h3 className='text-white font25 font-bold '>Xamarin</h3>
                                         <p className={styles.para1}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br></br> Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                     </Col>
                                     <Col xl={4}>

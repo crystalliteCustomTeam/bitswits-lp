@@ -145,7 +145,7 @@ const ReactnativeMaintain = () => {
                                 <Row className='align-items-center'>
                                     <Col xl={7}>
                                         <div className={styles.paraThreeContent}>
-                                            <h3 className='text-white f-25 font-bold '>Hybrid Mobile App with React Native</h3>
+                                            <h3 className='text-white font25 font-bold '>Hybrid Mobile App with React Native</h3>
                                             <p className={styles.para1}>
                                                 Our React Native, hybrid mobile app development services combine the benefits of both native and web-based apps. This approach allows for faster development, cost-effectiveness, & cross-platform compatibility.
                                             </p>
@@ -162,7 +162,7 @@ const ReactnativeMaintain = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app4}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Custom React Plugin<br></br>
+                                    <h3 className='text-white font25 font-bold text-center'>Custom React Plugin<br></br>
                                         Development for Apps</h3>
                                     <p className={styles.possibilities}>
                                         Our React Native plugin development services allow you to integrate custom features into your app. We create customized plugins that enhance your app's functionality and provide a unique user experience.
@@ -174,7 +174,7 @@ const ReactnativeMaintain = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app5}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Custom React Native UI/UX <br></br>
+                                    <h3 className='text-white font25 font-bold text-center'>Custom React Native UI/UX <br></br>
                                         Design for Apps</h3>
                                     <p className={styles.possibilities}>
                                         Our React Native UI/UX design services ensures your app has an intuitive, user-friendly interface with stunning visuals. We create customized designs for your app that look great and provide a seamless user experience.

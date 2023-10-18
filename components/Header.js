@@ -200,7 +200,7 @@ const Header = () => {
                                                                     </div>
 
                                                                     <li>
-                                                                        <Link onClick={handleMenu} href='#'>
+                                                                        <Link onClick={handleMenu} href='/augmented-reality-apps-development'>
                                                                             <FaAngleRight />
                                                                             <span>Augmented Reality App Development</span>
                                                                         </Link>
@@ -217,7 +217,7 @@ const Header = () => {
                                                                             <span>Artificial Intelligence</span>
                                                                         </Link>
                                                                     </li>
-                                                                    <li>
+                                                                    {/* <li>
                                                                         <Link onClick={handleMenu} href='#'>
                                                                             <FaAngleRight />
                                                                             <span>Enterprise Portal Solution</span>
@@ -228,7 +228,7 @@ const Header = () => {
                                                                             <FaAngleRight />
                                                                             <span>Magento Enterprise Solution</span>
                                                                         </Link>
-                                                                    </li>
+                                                                    </li> */}
 
 
                                                                     <div className={`${styles.listHeading} mt-3 pt-1`}>
@@ -306,7 +306,7 @@ const Header = () => {
                                                                                             <span>Blockchain Game Development</span>
                                                                                         </Link>
                                                                                     </li>
-                                                                                    <li>
+                                                                                    {/* <li>
                                                                                         <Link onClick={handleMenu} href='#'>
                                                                                             <FaAngleRight />
                                                                                             <span>Game Development</span>
@@ -323,7 +323,7 @@ const Header = () => {
                                                                                             <FaAngleRight />
                                                                                             <span>3D Art</span>
                                                                                         </Link>
-                                                                                    </li>
+                                                                                    </li> */}
                                                                                 </ul>
                                                                             </Col>
                                                                         </Row>

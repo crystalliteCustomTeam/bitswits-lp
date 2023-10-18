@@ -141,7 +141,7 @@ const AndriodMaintainlogo = () => {
                                 <Row className='align-items-center'>
                                     <Col xl={5}>
                                         <div className={styles.paraThreeContent}>
-                                            <h3 className='text-white f-25 font-bold '>Web-Based Cross-Platform Apps</h3>
+                                            <h3 className='text-white font25 font-bold '>Web-Based Cross-Platform Apps</h3>
                                             <p className={styles.para1}>
                                                 We provide a variety of options for cross-platform web app development, from cross-platform games to enterprise-level software solutions. Our cross-platform app development products are designed to be secure, user-friendly & highly adaptive.
                                             </p>
@@ -158,7 +158,7 @@ const AndriodMaintainlogo = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app4}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>AI Integrated Cross Platforms Apps</h3>
+                                    <h3 className='text-white font25 font-bold text-center'>AI Integrated Cross Platforms Apps</h3>
                                     <p className={styles.possibilities}>
                                         BitsWits specializes in creating custom applications that utilize the power of artificial intelligence. Our AI-integrated cross-platform application development services offer innovative and intuitive solutions that leverage the latest AI technologies to automate tasks, streamline processes, and reduce costs for your business.
                                     </p>
@@ -169,7 +169,7 @@ const AndriodMaintainlogo = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app5}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Cross Platforms Apps Consulting</h3>
+                                    <h3 className='text-white font25 font-bold text-center'>Cross Platforms Apps Consulting</h3>
                                     <p className={styles.possibilities}>
                                         Our team of cross-platform app developers actively listen to your ideas and craft custom plans to precisely meet your unique requirements. We highly value every project and strive to provide exceptional services that exceed your expectations.
                                     </p>

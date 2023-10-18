@@ -190,9 +190,9 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     height: 531px;
 }
 
@@ -242,9 +242,9 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     height: 531px;
 }
 
