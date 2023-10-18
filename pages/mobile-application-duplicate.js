@@ -2,7 +2,7 @@ import Head from "next/head";
 import React from "react";
 import dynamic from "next/dynamic";
 //components
-import NewMblBanner from '@/components/NewMblBanner';
+import NewMblBannerduplicate from '@/components/NewMblBannerduplicate';
 import NewHomeAbout from '@/components/NewHomePageAbout';
 import NewMblWho from '@/components/NewMblWho';
 import NewMblWhat from '@/components/NewMblWhat';
@@ -17,7 +17,9 @@ import NewHomeSlider from "@/components/NewHomeSlider";
 import Technologieswe from "@/components/NewMblTechnologiesWe";
 import Homenextproject from "@/components/Homenextproject";
 import NewMblWhy from "@/components/NewMblWhy";
-
+import ClientsThink2 from "@/components/ClientsThink2";
+import Nextproject2 from "@/components/Nextproject2";
+import Contact2 from "@/components/Contact2";
 //Icons 
 
 import icon23 from '../public/images/fymobile/1.png'
@@ -91,7 +93,7 @@ export default function mobileApplication() {
         <meta name="ICBM" content="39.78373, -100.445882" />
       </Head>
 
-      <NewMblBanner />
+      <NewMblBannerduplicate />
       <NewHomeAbout />
       <NewMblWho />
       <NewMblWhat />
@@ -122,14 +124,17 @@ export default function mobileApplication() {
         paraSix="Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction." />
        <NewiosPortFolio />
       <Capabilities />
-      <div className="status2">
+      <div className="status">
         <Newsuccess />
       </div>
       <NewHomeGlobal />
-      <NewHomeSlider />
+      {/* <NewHomeSlider /> */}
+      <ClientsThink2 />
+      <Nextproject2 />
       <Technologieswe />
       <Homenextproject />
       <NewMobileFaqs />
+      <Contact2 />
     </>
   );
 }

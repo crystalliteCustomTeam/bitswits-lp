@@ -52,6 +52,10 @@ export default function gamedevelopmentcompany() {
             <NewAndriodWho />
             <NewAndriodWhat />
             <NewMblWhy
+             title = { <> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </> }
+             subtitle = { <> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </> }
+             sub1 = "Why is There a Need for Android Applications?"
+             sub2 = "Achieve a competitive edge, boost revenue, and engage customers effectively with an Android app. BitsWits excels in creating personalized, future-ready apps to expand your market reach."
                 iconOne={icon23}
                 iconTwo={icon24}
                 iconThree={icon25}

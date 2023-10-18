@@ -14,10 +14,11 @@ import team4 from '../public/newHomePageImages/4.png'
 import team5 from '../public/newHomePageImages/5.png'
 import team6 from '../public/newHomePageImages/6.png'
 import close from '../public/newHomePageImages/close.png'
+import { useRouter } from "next/router";
 
 const Capabilities = () => {
 
-
+    const router = useRouter();
     var awardslogo = {
         dots: true,
         arrows: true,
@@ -35,7 +36,7 @@ const Capabilities = () => {
     return (
         <>
 
-            <section className={styles.home}>
+            <section className={ router.pathname == '/mobile-application-duplicate' ? styles.home1 : styles.home }>
                 <Container className='qtech'>
                     <Row className={styles.posttext}>
                         {/* <Col xl={12}>

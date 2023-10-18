@@ -99,6 +99,10 @@ export default function gamedevelopmentcompany() {
       <NewcrossWho />
       <NewCrossWhat />
       <NewMblWhy
+      title = { <> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </> }
+      subtitle = { <> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </> }
+      sub1 = "Why Hire Cross-Platform App Developers at BitsWits for Top-Quality Apps?"
+      sub2 = "Cross-platform app development services at BitsWits, allow us to efficiently reach more users across multiple devices while providing a persistent brand experience."
         iconOne={icon23}
         iconTwo={icon24}
         iconThree={icon25}

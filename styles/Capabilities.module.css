@@ -21,6 +21,9 @@
   background-color: black;
   padding-top: 200px;
 }
+.home1 {
+  background-color: black;
+}
 
 .build {
   display: flex;
@@ -49,7 +52,11 @@
   font-weight: bold;
   color: white;
 }
-
+.home1 h2 {
+  font-size: 65px;
+  font-weight: bold;
+  color: white;
+}
 .research {
   width: 200px;
   height: 50px;

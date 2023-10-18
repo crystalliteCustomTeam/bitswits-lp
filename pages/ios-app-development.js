@@ -54,6 +54,10 @@ export default function gamedevelopmentcompany() {
             <NewIosWho />
             <NewIosWhat />
             <NewMblWhy 
+                title = { <> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </> }
+                subtitle = { <> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </> }
+                sub1 = "Why Do You Require Our iOS Applications?"
+                sub2 = "Building your mobile app acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape the trajectory of your business."
                 iconOne={icon23}
                 iconTwo={icon24}
                 iconThree={icon25}

@@ -15,8 +15,12 @@ import banImg2 from '../public/images/banner/bannerImg2.png'
 import banImg3 from '../public/images/banner/bannerImg1.png'
 import banImg4 from '../public/images/banner/bannerImg2.png'
 import banImg5 from '../public/images/banner/bannerImg1.png'
+import { useRouter } from "next/router";
 
 const Justbuildit = () => {
+
+
+    const router = useRouter();
 
 
     var bannerslider = {
@@ -38,7 +42,7 @@ const Justbuildit = () => {
     return (
         <>
 
-            <section className={styles.slide}>
+            <section className={ router.pathname == '/mobile-application-duplicate' ? styles.slide1 : styles.slide }>
 
                 <Container>
 

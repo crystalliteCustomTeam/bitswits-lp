@@ -1,10 +1,11 @@
 import React from 'react'
-import styles from "@/styles/NewMblBanner.module.css";
+import styles from "@/styles/NewMblBannerdulicate.module.css";
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 //
-import BannerImage from "@/public/newMobilePageImages/banner_image.png"
+
+import BannerImage from "@/public/andriodapplication/andriod.png"
 import icon11 from '../public/newMobilePageImages/city1.png'
 import icon12 from '../public/newMobilePageImages/city2.png'
 import icon13 from '../public/newMobilePageImages/city4.png'
@@ -22,6 +23,7 @@ import icon60 from '../public/newHomePageImages/nexticon/6.png'
 import icon70 from '../public/newHomePageImages/nexticon/7.png'
 import icon80 from '../public/newHomePageImages/nexticon/8.png'
 import NewAddress from './NewAddress';
+import HomeBannerSlider from './HomeBannerSlider';
 
 
 
@@ -81,13 +83,21 @@ const NewHomeBanner = () => {
                                 <Image quality={75} src={BannerImage} className={`img-fluid`} />
                             </div>
 
+                            
+
                         </Col>
                     </Row>
+                   
                 </Container>
+               <br></br> <br></br> <br></br> <br></br> <br></br>
+                <div className='mt-5'>
+                <HomeBannerSlider />
+                </div>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
+               
                     <NewAddress />
                 </div>
-                <div>
+                {/* <div>
                     <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-5`}>
 
                         <div className={styles.strpImg}>
@@ -113,7 +123,7 @@ const NewHomeBanner = () => {
                         </div>
                       
                     </Slider>
-                </div>
+                </div> */}
             </section>
         </>
     )

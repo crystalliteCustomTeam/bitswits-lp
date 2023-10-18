@@ -82,6 +82,10 @@ export default function gamedevelopmentcompany() {
             <NewWebWho />
             <NewWebWhat />
             <NewMblWhy
+                title={<> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </>}
+                subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </>}
+                sub1="Work Smarter and Convert Faster with Web Apps at BitsWits!"
+                sub2="Web app development services at BitsWits, allows you to build better and faster web applications globally."
                 iconOne={icon23}
                 iconTwo={icon24}
                 iconThree={icon25}

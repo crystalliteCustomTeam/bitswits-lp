@@ -100,6 +100,10 @@ export default function HybridMobile() {
       <NewFlutterWho />
       <NewFlutterWhat />
       <NewMblWhy
+       title = { <> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </> }
+       subtitle = { <> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </> }
+       sub1 = "Why Does Your Business Require Flutter Applications?"
+       sub2 = "Flutter app development services act like an optimal framework for app development as it allows building high-quality, native-feeling applications for both iOS and Android from a single codebase that saves time and costs."
         iconOne={icon23}
         iconTwo={icon24}
         iconThree={icon25}

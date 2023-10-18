@@ -16,14 +16,21 @@ const NewMblWhy = (props) => {
 
                     <Row>
                         <Col lg={11} className='mx-auto'>
-                            <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4>
-                            <h2 className='grdiant f-80 font-bold text-center'>Precision, Performance <br /> & Perfection.</h2>
-                            <p className={`f-20 text-white font-bold text-center`}>
-                                Why Do You Require Our iOS Applications?
-                            </p>
-                            <p className={`text-center font16 text-white`}>
-                                Building your mobile app acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape the trajectory of your business.
-                            </p>
+                            {props.title}
+                            {props.subtitle}
+
+                            {props.sub1 &&
+                                <p className={`f-20 text-white font-bold text-center`}>
+                                    {props.sub1}
+                                </p>
+                            }
+
+                            {props.sub2 &&
+                                <p className={`text-center font16 text-white`}>
+                                    {props.sub2}
+                                </p>
+
+                            }
                         </Col>
                         <Col lg={12} className='mt-5'>
                             <Row className='gy-5'>

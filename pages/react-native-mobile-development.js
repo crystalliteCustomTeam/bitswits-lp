@@ -73,6 +73,10 @@ export default function ReactNativeMobile() {
             <NewReactWho />
             <NewReactWhat />
             <NewMblWhy
+            title = { <> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </> }
+            subtitle = { <> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </> }
+            sub1 = "Why is There a Need for React Native Apps?"
+            sub2 = "React Native app development services provide substantial savings in terms of development time, effort, and cost and enable the building of high-quality Android and iOS apps."
                 iconOne={icon23}
                 iconTwo={icon24}
                 iconThree={icon25}
