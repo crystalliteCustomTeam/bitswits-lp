@@ -958,7 +958,7 @@ a {
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  gap: 100px;
+  gap: 40px;
 }
 
 .contactSlider .slick-dots {

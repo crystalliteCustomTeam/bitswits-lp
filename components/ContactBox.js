@@ -34,10 +34,23 @@ const ContactBox = () => {
                                         <div className="locBox">
                                             <div className={styles.locTxt}>
                                                 <h2 className="font30 font-bold white mb-0">USA</h2>
-                                                <p className="font16 font-medium white my-3">
-                                                    502 W 7th ST STE 100 Erie, PA 16502
+
+                                                <br></br>
+
+                                                <h3 className="font16 font-500 white mb-0">DELAWARE</h3>
+                                                <p className="font13 font-medium white">
+                                                8 The Green STE 300, Dover DE 19901.
                                                 </p>
-                                                <Link href="#" className={styles.locBtn}>View Location</Link>
+                                              
+                                                <h3 className="font16 font-500 white mb-0">CALIFORNIA</h3>
+                                                <p className="font13 font-medium white">
+                                                350 South Grand Avenue, Los Angeles, CA 90071
+                                                </p>
+                                                <Link className='white' href='tel:+1 833 500 6007'>+1 833 500 6007</Link>
+                                               
+                                              
+
+                                                {/* <Link href="#" className={styles.locBtn}>View Location</Link> */}
                                             </div>
                                             <div className={styles.locImg}>
                                                 <Image src={usa} alt='Location' className='img-fluid' />
@@ -46,10 +59,13 @@ const ContactBox = () => {
                                         <div className="locBox">
                                             <div className={styles.locTxt}>
                                                 <h2 className="font30 font-bold white mb-0">Middle East</h2>
-                                                <p className="font16 font-medium white my-3">
-                                                    502 W 7th ST STE 100 Erie, PA 16502
+                                                <h3 className="font16 font-500 white mb-0 mt-3">SHARJAH</h3>
+                                                <p className="font15 font-medium white mt-3">
+                                                Office #101, 32 Street, Al Mujarrah, Sharjah
                                                 </p>
-                                                <Link href="#" className={styles.locBtn}>View Location</Link>
+
+                                                <Link className='white' href='tel:+97 155 503 1266'>+97 155 503 1266</Link>
+                                                {/* <Link href="#" className={styles.locBtn}>View Location</Link> */}
                                             </div>
                                             <div className={styles.locImg}>
                                                 <Image src={middleEast} alt='Location' className='img-fluid' />
@@ -58,10 +74,16 @@ const ContactBox = () => {
                                         <div className="locBox">
                                             <div className={styles.locTxt}>
                                                 <h2 className="font30 font-bold white mb-0">Asia</h2>
-                                                <p className="font16 font-medium white my-3">
-                                                    502 W 7th ST STE 100 Erie, PA 16502
+                                                <h3 className="font16 font-500 white mb-0 mt-3">MALAYSIA</h3>
+                                                <p className="font13 font-medium white">
+                                                Unit Level 13 A, Financial Park, Labuan, Jalan Merdeka, 87000, Malaysia
                                                 </p>
-                                                <Link href="#" className={styles.locBtn}>View Location</Link>
+                                              
+                                                <h3 className="font16 font-500 white mb-0">PAKISTAN</h3>
+                                                <p className="font13 font-medium white">
+                                                12th Floor Caesar's Tower, Karachi, Pakistan
+                                                </p>
+                                                {/* <Link href="#" className={styles.locBtn}>View Location</Link> */}
                                             </div>
                                             <div className={styles.locImg}>
                                                 <Image src={asia} alt='Location' className='img-fluid' />
