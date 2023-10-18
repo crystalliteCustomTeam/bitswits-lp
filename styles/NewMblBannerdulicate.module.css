@@ -7,6 +7,11 @@
   background-size: contain;
 }
 
+.postnuture{
+  margin-top: 12%;
+}
+
+
 .just {
   color: white;
 }
@@ -301,6 +306,11 @@
 }
 
 @media screen and (max-width: 767px) {
+
+  .postnuture{
+    margin-top: 55%;
+  }
+
   .newHomeBg h3 {
     font-size: 25px;
     line-height: 30px;

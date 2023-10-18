@@ -89,8 +89,8 @@ const NewHomeBanner = () => {
                     </Row>
                    
                 </Container>
-               <br></br> <br></br> <br></br> <br></br> <br></br>
-                <div className='mt-5'>
+              
+                <div className={styles.postnuture}>
                 <HomeBannerSlider />
                 </div>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
