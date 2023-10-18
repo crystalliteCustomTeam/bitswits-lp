@@ -5,7 +5,7 @@ import NewHomeAbout from '@/components/NewHomePageAbout';
 import Technologieswe from '@/components/Technologieswe';
 import Homenextproject from '@/components/Homenextproject';
 import Capabilitiesnft from '@/components/Capabilitiesnft';
-import Faqs from '@/components/NewhomeFaqs';
+import GameNftFaqs from '@/components/GameNftFaqs';
 import NewMaintainnft from '@/components/NewMaintainnft';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
@@ -50,7 +50,7 @@ export default function gamedevelopmentcompany() {
             <NewHomeSlider />
             <Technologieswe />
             <Homenextproject />
-            <Faqs />
+            <GameNftFaqs />
             <HomeLocation />
 
 

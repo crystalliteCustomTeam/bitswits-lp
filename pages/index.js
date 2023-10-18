@@ -1,21 +1,21 @@
 import Head from 'next/head'
 import React from 'react';
 import dynamic from 'next/dynamic';
+//components
+import NewBanner from '@/components/NewBanner';
 import NewHomeAbout from '@/components/NewHomePageAbout';
 import NewHomeWho from '@/components/NewHomeWho';
+const Justbuildit = dynamic(() => import('@/components/Justbuildit')); 
 import NewHomeWhat from '@/components/NewHomeWhat';
 import NewHomeHear from '@/components/NewHomeHear'
-import Technologieswe from '@/components/Technologieswe';
-import Homenextproject from '@/components/Homenextproject';
-import Capabilities from '@/components/Capabilities';
-import Faqs from '@/components/NewhomeFaqs';
-import NewBanner from '@/components/NewBanner';
 import NewMaintain from '@/components/NewMaintain';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
+import Capabilities from '@/components/Capabilities';
 import NewHomeSlider from '@/components/NewHomeSlider';
+import Technologieswe from '@/components/Technologieswe';
+import Homenextproject from '@/components/Homenextproject';
+import Faqs from '@/components/NewhomeFaqs';
 import HomeLocation from '@/components/HomeLocation';
-//components
-const Justbuildit = dynamic(() => import('@/components/Justbuildit')); 
 
 
 export default function Home() {
@@ -31,7 +31,6 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
-
 
             <NewBanner />
             <NewHomeAbout />

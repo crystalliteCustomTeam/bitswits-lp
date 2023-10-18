@@ -3,6 +3,11 @@
   background-color: #000;
 }
 
+.videobackground{
+  height: 750px;
+  overflow: hidden;
+}
+
 .newHomeOvrly {
   position: absolute;
   top: 0;

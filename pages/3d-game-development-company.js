@@ -3,7 +3,7 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 //components
 import NewHomeAbout from '@/components/NewHomePageAbout';
-import Faqs from '@/components/NewhomeFaqs';
+import Game3dFaqs from '@/components/Game3dFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
 import New3dBanner from '@/components/3dBanner';
 import New3dAdvantage from '@/components/3dAdvantage';
@@ -46,7 +46,7 @@ const mobileApplication = () => {
             <NewHomeSlider />
             <Technologieswe />
             <Homenextproject />
-            <Faqs />
+            <Game3dFaqs />
 
         </>
     )

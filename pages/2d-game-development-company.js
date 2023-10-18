@@ -1,15 +1,12 @@
 import Head from 'next/head'
 import React from 'react';
 import dynamic from 'next/dynamic';
+//components
 import NewHomeAbout from '@/components/NewHomePageAbout';
-import NewHomeWho from '@/components/NewHomeWho';
-import NewHomeWhat from '@/components/NewHomeWhat';
-import NewHomeHear from '@/components/NewHomeHear'
 import Technologieswe from '@/components/Technologieswe';
 import Homenextproject from '@/components/Homenextproject';
 import Capabilities2d from '@/components/Capabilities2d';
-import Faqs from '@/components/NewhomeFaqs';
-import NewBanner from '@/components/NewBanner';
+import Game2dFaqs from '@/components/Game2dFaqs';
 import NewMaintainlogo from '@/components/NewMaintainlogo';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
@@ -21,10 +18,6 @@ import Engage2d from '@/components/Engage2d';
 import Newsuccess from '@/components/NewMblSuccess';
 import Technologieswe2dgame from '@/components/Technologieswe2dgame';
 import Wealth2d from '@/components/Wealth2d';
-
-
-//components
-const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 
 
 export default function gamedevelopmentcompany() {
@@ -56,7 +49,7 @@ export default function gamedevelopmentcompany() {
             <NewHomeSlider />
             <Technologieswe />
             <Homenextproject />
-            <Faqs />
+            <Game2dFaqs />
             <HomeLocation />
 
 

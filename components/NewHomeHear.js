@@ -14,7 +14,7 @@ const NewHomeHear = () => {
             <section className={styles.newHomeBg}>
 
                 <div className={styles.videobackground}>
-                    <video width="100%" autoPlay loop muted src="/homevideo.mp4" type="video/mp4"></video>
+                    <video width="100%" autoPlay loop muted src="https://player.vimeo.com/progressive_redirect/playback/875311008/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d5c1966ef82208d885f6995333dfa1a93ac2c200fa509a9544e39f5fc6539054" type="video/mp4"></video>
                 </div>
 
                 <div className={styles.newHomeOvrly}>

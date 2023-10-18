@@ -3,7 +3,7 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 //components
 import NewHomeAbout from '@/components/NewHomePageAbout';
-import Faqs from '@/components/NewhomeFaqs';
+import GameBlckChnFaqs from '@/components/GameBlckChnFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
 import GamedevelopmentBanner from '@/components/GamedevelopmentBanner';
 import GameAdvantages from '@/components/blockchainadvantages';
@@ -42,7 +42,7 @@ export default function mobileApplication() {
             <NewHomeSlider />
             <Technologieswe />
             <Homenextproject />
-            <Faqs />
+            <GameBlckChnFaqs />
 
         </>
     )
