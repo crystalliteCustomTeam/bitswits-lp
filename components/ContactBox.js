@@ -19,7 +19,7 @@ const ContactBox = () => {
         arrows: false,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1, 
+        slidesToScroll: 1,
     };
 
     return (
@@ -30,27 +30,24 @@ const ContactBox = () => {
                         <Row className='align-items-center cntctRow'>
                             <Col lg={6}>
                                 <div className={styles.locSlider}>
+                                    <div className={styles.line1}></div>
+                                    <div className={styles.line2}></div>
+                                    <div className={styles.line3}></div>
                                     <Slider {...contactSlider} className='contactSlider'>
                                         <div className="locBox">
                                             <div className={styles.locTxt}>
-                                                <h2 className="font30 font-bold white mb-0">USA</h2>
-
-                                                <br></br>
-
-                                                <h3 className="font16 font-500 white mb-0">DELAWARE</h3>
-                                                <p className="font13 font-medium white">
-                                                8 The Green STE 300, Dover DE 19901.
+                                                <h2 className="font30 font-bold white mb-3 text-center">USA</h2>
+                                                <h3 className="font16 font-bold white mb-0 text-center">DELAWARE</h3>
+                                                <p className="font13 font-medium white mb-1 text-center">
+                                                    8 The Green STE 300, Dover DE 19901.
                                                 </p>
-                                              
-                                                <h3 className="font16 font-500 white mb-0">CALIFORNIA</h3>
-                                                <p className="font13 font-medium white">
-                                                350 South Grand Avenue, Los Angeles, CA 90071
-                                                </p>
-                                                <Link className='white' href='tel:+1 833 500 6007'>+1 833 500 6007</Link>
-                                               
-                                              
+                                                <Link className='white text-center' href='tel:+1 833 500 6007'>+1 833 500 6007</Link>
 
-                                                {/* <Link href="#" className={styles.locBtn}>View Location</Link> */}
+                                                <h3 className="font16 font-bold white mb-0 mt-3 text-center">HOUSTON</h3>
+                                                <p className="font13 font-medium white mb-1 text-center">
+                                                    Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100 Houston, TX 77056
+                                                </p>
+                                                <Link className='white text-center' href='tel:+1 713 565 7656'>+1 713 565 7656</Link>
                                             </div>
                                             <div className={styles.locImg}>
                                                 <Image src={usa} alt='Location' className='img-fluid' />
@@ -58,14 +55,13 @@ const ContactBox = () => {
                                         </div>
                                         <div className="locBox">
                                             <div className={styles.locTxt}>
-                                                <h2 className="font30 font-bold white mb-0">Middle East</h2>
-                                                <h3 className="font16 font-500 white mb-0 mt-3">SHARJAH</h3>
-                                                <p className="font15 font-medium white mt-3">
-                                                Office #101, 32 Street, Al Mujarrah, Sharjah
+                                                <h2 className="font30 font-bold white mb-3 text-center">Middle East</h2>
+                                                <h3 className="font16 font-bold white mb-0 text-center">SHARJAH</h3>
+                                                <p className="font15 font-medium white mb-1 text-center">
+                                                    Office #101, 32 Street, Al Mujarrah, Sharjah
                                                 </p>
-
-                                                <Link className='white' href='tel:+97 155 503 1266'>+97 155 503 1266</Link>
-                                                {/* <Link href="#" className={styles.locBtn}>View Location</Link> */}
+                                                <Link className='white text-center' href='tel:+97 155 503 1266'>+97 155 503 1266</Link>
+                                                <Link className='white text-center' href='tel:+971 551 659060'>+971 551 659060</Link>
                                             </div>
                                             <div className={styles.locImg}>
                                                 <Image src={middleEast} alt='Location' className='img-fluid' />
@@ -73,26 +69,22 @@ const ContactBox = () => {
                                         </div>
                                         <div className="locBox">
                                             <div className={styles.locTxt}>
-                                                <h2 className="font30 font-bold white mb-0">Asia</h2>
-                                                <h3 className="font16 font-500 white mb-0 mt-3">MALAYSIA</h3>
-                                                <p className="font13 font-medium white">
-                                                Unit Level 13 A, Financial Park, Labuan, Jalan Merdeka, 87000, Malaysia
+                                                <h2 className="font30 font-bold white mb-3 text-center">Asia</h2>
+                                                <h3 className="font16 font-bold white mb-0 text-center">MALAYSIA</h3>
+                                                <p className="font13 font-medium white text-center">
+                                                    Unit Level 13 A, Financial Park, Labuan, Jalan Merdeka, 87000, Malaysia
                                                 </p>
-                                              
-                                                <h3 className="font16 font-500 white mb-0">PAKISTAN</h3>
-                                                <p className="font13 font-medium white">
-                                                12th Floor Caesar's Tower, Karachi, Pakistan
+
+                                                <h3 className="font16 font-bold white mb-0 text-center">PAKISTAN</h3>
+                                                <p className="font13 font-medium white text-center">
+                                                    12th Floor Caesar's Tower, Karachi, Pakistan
                                                 </p>
-                                                {/* <Link href="#" className={styles.locBtn}>View Location</Link> */}
                                             </div>
                                             <div className={styles.locImg}>
                                                 <Image src={asia} alt='Location' className='img-fluid' />
                                             </div>
                                         </div>
                                     </Slider>
-                                    <div className={styles.line1}></div>
-                                    <div className={styles.line2}></div>
-                                    <div className={styles.line3}></div>
                                 </div>
                             </Col>
                             <Col lg={6}>
@@ -101,12 +93,12 @@ const ContactBox = () => {
                                     Let’s make headlines together! We’re excited to collaborate with you on your fantastic project.
                                 </p>
                                 <h3 className="font30 font-bold f-s mb-2 white">
-                                    For Work <span className="grdiant">Inquiry</span>
+                                    For Work Inquiry
                                 </h3>
                                 <p className="font14 font-medium white mb-4">
                                     Whether you need a mobile app or a particular game solution, every venture starts with a
                                     simple email or phone call. Fill in the following information and we will get in touch.
-                                    
+
                                 </p>
 
                                 <form id="contactusform1" >
@@ -121,14 +113,16 @@ const ContactBox = () => {
                                             <input type="phone" name="phone" id="phone" placeholder="Phone" required="" minLength="7" maxlength="15" onkeypress="return /[0-9]/i.test(event.key)" />
                                         </Col>
                                         <Col lg={6}>
-                                        <input type="email" name="email" id="email" placeholder="Email Address" required="" />
+                                            <input type="email" name="email" id="email" placeholder="Email Address" required="" />
                                         </Col>
                                         <Col lg={12}>
                                             <textarea type="textarea" className="" name="comments" id="comments" placeholder="Comments" required="" />
                                         </Col>
-                                        <Col className="mt-3 d-flex gap-5">
-                                            <p className='white font16'>We take your privacy seriously. <br /> Read our <span className='font-bold'> <Link className='white' href='/privacy-policy'>Privacy Policy</Link> .</span></p>
-                                            <button id="savebtns" type="submit" className={styles.bttns1}>Submit</button>
+                                        <Col>
+                                            <div className={styles.notic}>
+                                                <p className='white font16'>We take your privacy seriously. <br /> Read our <span className='font-bold'> <Link className='white' href='/privacy-policy'>Privacy Policy</Link> .</span></p>
+                                                <button id="savebtns" type="submit" className={styles.bttns1}>Submit</button>
+                                            </div>
                                         </Col>
                                     </Row>
                                 </form>
