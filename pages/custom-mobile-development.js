@@ -3,28 +3,22 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 //components
 import NewMblWhat from '@/components/NewMblWhat';
-import NewMblGlobal from '@/components/NewMblGlobal';
-import NewMblSlider from '@/components/NewMblSlider';
 import Homenextproject from '@/components/Homenextproject';
 import Capabilities from '@/components/Capabilities';
 import NewMobileFaqs from '@/components/NewMobileFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
-import FlutterBanner from '@/components/FlutterBanner';
-import NewHybridServices from '@/components/NewHybridServices';
 import NewHybridWho from '@/components/NewHybridWho';
 import NewiosPortFolio from '@/components/NewiosPortFolio';
 import HomeLocation from '@/components/HomeLocation';
-import FlutterMaintain from '@/components/FlutterMaintain';
-import ReactNativeBanner from '@/components/ReactNativeBanner';
-import ReactnativeMaintain from '@/components/ReactnativeMaintain';
 import CustomBanner from '@/components/CustomBanner';
 import CustomMaintain from '@/components/CustomMaintain';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 import NewHomeAbout from '@/components/NewHomePageAbout';
-import NewMblWhy from '@/components/NewMblWhy';
 import Technologieswe from '@/components/Technologieswe';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
+import NewCustomWho from '@/components/NewCustomWho';
+import NewCustomWhat from '@/components/NewCustomWhat';
 
 export default function CustomMobile() {
 
@@ -41,9 +35,8 @@ export default function CustomMobile() {
             <NewHomeAbout />
             <CustomMaintain />
             <Justbuildit />
-            <NewHybridWho />
-            <NewMblWhat />
-            {/* <NewMblWhy /> */}
+            <NewCustomWho />
+            <NewCustomWhat />
             <NewiosPortFolio />
             <div className=''>
                 <Newsuccess />

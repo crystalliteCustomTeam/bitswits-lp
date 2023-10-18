@@ -21,6 +21,8 @@ import NewMblWhy from '@/components/NewMblWhy';
 import Technologieswe from '@/components/Technologieswe';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
+import NewHybridWhat from '@/components/NewHybridWhat';
+import NewHybridPortfolio from '@/components/NewHybridPortfolio';
 
 export default function HybridMobile() {
 
@@ -36,11 +38,10 @@ export default function HybridMobile() {
             <HybridBanner />
             <NewHomeAbout />
             <NewHybridServices />
-            <Justbuildit />
             <NewHybridWho />
-            <NewMblWhat />
-            {/* <NewMblWhy /> */}
-             <NewiosPortFolio />
+            <Justbuildit />
+            <NewHybridWhat />
+            <NewHybridPortfolio />
             <div className='status'>
                 <Newsuccess />
             </div>

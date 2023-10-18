@@ -4,11 +4,7 @@ import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 //
-import BannerImage from "@/public/images/iosbanner/ios.png"
-import icon11 from '../public/newMobilePageImages/city1.png'
-import icon12 from '../public/newMobilePageImages/city2.png'
-import icon13 from '../public/newMobilePageImages/city4.png'
-import icon14 from '../public/newMobilePageImages/city3.png'
+import BannerImage from "@/public/andriodapplication/andriod.png"
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";

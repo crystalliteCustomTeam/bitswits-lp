@@ -3,8 +3,8 @@ import Image from 'next/image';
 import styles from "@/styles/NewaugmentedMaintainlogo.module.css";
 
 import { Container, Row, Col } from 'react-bootstrap'
-//
-import cardNine from '../public/newHomePage/images/newMaintain9.png'
+
+// ------------- //
 import { useEffect, useRef } from "react";
 import lottie from 'lottie-web';
 
@@ -21,6 +21,7 @@ import internetapp from '../public/internetofthings.json';
 
 
 const AugmentedMaintainlogo = () => {
+
     const anime = useRef(null);
 
     useEffect(() => {
@@ -136,10 +137,6 @@ const AugmentedMaintainlogo = () => {
                             </div>
 
                         </Col>
-
-
-
-
                         <Col lg={12} className={styles.earn}>
                             <div className={styles.app3}>
                                 <Row className='align-items-center'>
@@ -183,11 +180,8 @@ const AugmentedMaintainlogo = () => {
                                     </p>
                                 </div>
                             </div>
-
                         </Col>
-
                     </Row>
-
                 </Container>
 
             </section>

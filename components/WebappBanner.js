@@ -4,15 +4,9 @@ import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 //
-import BannerImage from "@/public/images/iosbanner/webapp.png"
-import icon11 from '../public/newMobilePageImages/city1.png'
-import icon12 from '../public/newMobilePageImages/city2.png'
-import icon13 from '../public/newMobilePageImages/city4.png'
-import icon14 from '../public/newMobilePageImages/city3.png'
+import BannerImage from "@/public/images/webapp/webapp.png"
 //
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 import icon20 from '../public/newHomePageImages/nexticon/1.png'
 import icon30 from '../public/newHomePageImages/nexticon/2.png'
@@ -66,7 +60,7 @@ const CrossBanner = () => {
 
                     <Row>
                         <Col xl={12}>
-                            <p className={`${styles.just} text-center f-16 font-medium mb-0`}>Top-Notch Web Development Company</p>
+                            <p className={`${styles.just} text-center f-16 font-medium mb-0 `}>Top-Notch Web Development Company</p>
                             <h3 className={`${styles.develop} text-center f-50 font-bold mb-2`}>
                                 Where Imagination Meets <br></br>
                                 Creativity

@@ -28,6 +28,8 @@ import icon25 from '../public/images/fyios/3.png'
 import icon26 from '../public/images/fyios/4.png'
 import icon27 from '../public/images/fyios/5.png'
 import icon28 from '../public/images/fyios/6.png'
+import NewIosWho from '@/components/NewIosWho';
+import NewIosWhat from '@/components/NewIosWhat';
 
 
 export default function gamedevelopmentcompany() {
@@ -49,8 +51,8 @@ export default function gamedevelopmentcompany() {
             <NewHomeAbout />
             <IosMaintainlogo />
             <Justbuildit />
-            <NewMblWho />
-            <NewMblWhat />
+            <NewIosWho />
+            <NewIosWhat />
             <NewMblWhy 
                 iconOne={icon23}
                 iconTwo={icon24}

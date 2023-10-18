@@ -4,35 +4,22 @@ import dynamic from 'next/dynamic';
 import NewHomeAbout from '@/components/NewHomePageAbout';
 import NewMblWho from '@/components/NewMblWho';
 import NewMblWhat from '@/components/NewMblWhat';
-import NewHomeHear from '@/components/NewHomeHear'
 import Technologieswe from '@/components/Technologieswe';
 import Homenextproject from '@/components/Homenextproject';
-import Capabilities2d from '@/components/Capabilities2d';
 import Faqs from '@/components/NewhomeFaqs';
-import NewBanner from '@/components/NewBanner';
 import AugmentedMaintainlogo from '@/components/AugmentedMaintainlogo';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
 import HomeLocation from '@/components/HomeLocation';
 import Augmentebanner from '@/components/Augmentebanner';
-import Bullet2dproofgame from '@/components/Bullet2dproofgame';
-import Genreof2dgames from '@/components/Genreof2dgames';
-import Engage2d from '@/components/Engage2d';
 import Newsuccess from '@/components/NewMblSuccess';
-import Technologieswe2dgame from '@/components/Technologieswe2dgame';
-import Wealth2d from '@/components/Wealth2d';
 import NewiosPortFolio from '@/components/NewiosPortFolio';
-import NewMblWhy from '@/components/NewMblWhy';
 
 //components
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 
 
 export default function augmentedrealityappsdevelopment() {
-
-
-
-
     return (
         <>
             <Head>
@@ -41,19 +28,16 @@ export default function augmentedrealityappsdevelopment() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
-
-
             <Augmentebanner />
             <NewHomeAbout />
             <AugmentedMaintainlogo />
             <Justbuildit />
             <NewMblWho />
             <NewMblWhat />
-            {/* <NewMblWhy /> */}
             <NewiosPortFolio />
             <Newsuccess />
             <section className='spacingtb1'>
-            <Technologieswe />
+                <Technologieswe />
             </section>
             <NewHomeGlobal />
             <NewHomeSlider />
