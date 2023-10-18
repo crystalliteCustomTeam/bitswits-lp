@@ -10,11 +10,13 @@
 }
 
 .para {
+
   font-size: 14px;
-  max-width: 390px;
-  margin: 0 auto;
-  color: white;
-  /* height: 75px; */
+    max-width: 330px;
+    color: #fff;
+    height: 57px;
+    overflow: auto;
+    padding-right: 7px;
 }
 
 .para1 {
@@ -68,16 +70,10 @@
   background-position: center;
   background-size: cover;
   padding-top: 4px;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
 }
 
-.app1 .para {
-  height: 105px;
-}
 
-.app2 .para {
-  height: 125px;
-}
 
 .app2 {
   background-image: url(../public/newMobilePageImages/card3.png);
@@ -87,7 +83,7 @@
   background-position: center;
   background-size: cover;
   padding-top: 4px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   
 }
 .cardContent {
@@ -233,7 +229,7 @@
 @media screen and (min-width: 1400px) {
 
 .app{
-  padding-bottom: 20px!important;
+  padding-bottom: 0px!important;
 }
 .app5{
   padding-top: 155px!important;

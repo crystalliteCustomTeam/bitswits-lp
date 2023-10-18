@@ -951,6 +951,7 @@ a {
 
 .contactSlider .slick-slide img {
   margin: 0 auto;
+  width: 90%;
 }
 
 .contactSlider .slick-slide .locBox {
@@ -962,7 +963,8 @@ a {
 }
 
 .contactSlider .slick-dots {
-  bottom: -90px;
+  bottom: auto;
+  top: -85px;
   display: flex !important;
   align-items: center;
   justify-content: center;
@@ -1618,6 +1620,9 @@ input::-webkit-inner-spin-button {
 
   .font25 {
     font-size: 31px;
+  }
+  .combo .font25 {
+    font-size: 25px;
   }
 
   .sidenew .slick-current {
@@ -2739,7 +2744,7 @@ button {
 
 @media screen and (max-width: 991px) {
   .cntctRow {
-    row-gap: 175px;
+    row-gap: 90px;
   }
 
   .qtechcap .slick-dots li button:before {
@@ -2764,6 +2769,19 @@ button {
 }
 
 @media screen and (max-width: 767px) {
+  .cntctRow {
+    row-gap: 70px;
+  }
+
+  .contactSlider .slick-dots {
+    display: block !important;
+    top: -115px;
+  }
+
+  .contactSlider .slick-dots li {
+    margin-bottom: 10px;
+  }
+
   .qtech .slick-dots li {
     display: none;
     width: 60px;

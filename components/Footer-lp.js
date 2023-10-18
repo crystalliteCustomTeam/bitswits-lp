@@ -236,10 +236,10 @@ const Footerlp = () => {
                                         <Link href="#">Testimonials</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">Privacy Policy</Link>
+                                        <Link href="/privacy-policy">Privacy Policy</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">Terms & Conditions</Link>
+                                        <Link href="/term-and-condition">Terms & Conditions</Link>
                                     </li>
                                 </ul>
                                 <ul className={`${styles.contacts} ${styles.myLinks} p-0`}>

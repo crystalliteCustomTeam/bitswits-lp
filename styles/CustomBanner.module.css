@@ -35,10 +35,9 @@
 }
 
 .about {
-    width: 198px;
+    width: 250px;
     height: 45px;
     background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
-
     color: white;
     display: flex;
     align-items: center;
@@ -48,6 +47,7 @@
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+    border: 2px solid #fff;
 }
 
 .pont {
@@ -60,7 +60,6 @@
 .secImage {
     width: 100%;
     margin-left: 10px;
-    margin-top: 115px;
     text-align: center;
 }
 
@@ -73,7 +72,7 @@
 .bannerform {
     height: 100%;
     width: 95%;
-    margin: 50px auto;
+    margin: 0 auto;
     border-image: linear-gradient(0deg, #f32f5e, #4a78ef) 30;
     border-width: 2px;
     border-style: solid;

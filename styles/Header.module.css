@@ -48,6 +48,10 @@
   display: flex;
 }
 
+.megpost li{
+  height: 6.5%;
+}
+
 .menu li a {
   color: #fff;
   height: 100%;

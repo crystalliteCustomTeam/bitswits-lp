@@ -11,9 +11,14 @@
 }
 
 .para {
+
+
   font-size: 14px;
-  max-width: 375px;
-  color: #fff;
+    max-width: 330px;
+    color: #fff;
+    height: 57px;
+    overflow: auto;
+    padding-right: 7px;
 }
 
 .contentPara {
@@ -80,9 +85,7 @@
   gap: 40px;
 }
 
-.app1 .para {
-  max-width: 295px;
-}
+
 
 .app6 {
   display: flex;
@@ -190,9 +193,9 @@
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   height: 531px;
 }
 
@@ -237,9 +240,9 @@
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   height: 531px;
 }
 
@@ -300,6 +303,12 @@
 }
 
 @media only screen and (max-width: 1399px) {
+
+
+  .font25{
+    font-size: 25px;
+  }
+
   .app {
     height: 456px;
   }

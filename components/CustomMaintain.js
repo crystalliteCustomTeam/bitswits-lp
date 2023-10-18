@@ -94,7 +94,7 @@ const CustomMaintain = () => {
     return (
         <>
 
-            <section className={styles.newHomeBg}>
+            <section className={`${styles.newHomeBg} combo`}>
 
                 <Container>
 
@@ -108,7 +108,7 @@ const CustomMaintain = () => {
                         <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white f-22 font-bold'>App Design</h3>
+                                    <h3 className='text-white font25 font-bold'>App <br></br> Design</h3>
                                     <p className={styles.para}>
                                         Create an exceptional app with an attractive design, intuitive interface, and convenient user experience.
                                     </p>
@@ -118,7 +118,7 @@ const CustomMaintain = () => {
                         <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app1}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white f-22 font-bold'>Android App Development</h3>
+                                    <h3 className='text-white font25 font-bold'>Android App Development</h3>
                                     <p className={styles.para}>
                                         Develop high-performing, scalable and native looking apps for Android devices with Kotlin and Java.
                                     </p>
@@ -128,7 +128,7 @@ const CustomMaintain = () => {
                         <Col lg={4} className={styles.earn}>
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white f-22 font-bold'>iOS App Development</h3>
+                                    <h3 className='text-white font25 font-bold'>iOS App Development</h3>
                                     <p className={styles.para}>
                                         Make intuitive mobile apps with rich functionality for Apple mobile devices with Swift and Objective-C.
                                     </p>
@@ -141,7 +141,7 @@ const CustomMaintain = () => {
                                 <Row className='align-items-center'>
                                     <Col xl={10}>
                                         <div className={styles.paraThreeContent}>
-                                            <h3 className='text-white f-25 font-bold '>Cross-Platform Mobile Development</h3>
+                                            <h3 className='text-white font25 font-bold '>Cross-Platform Mobile Development</h3>
                                             <p className={styles.para1}>
                                                 Build an app that runs across multiple platforms using the same codebase with Flutter or React Native.
                                             </p>
@@ -155,7 +155,7 @@ const CustomMaintain = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app4}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Mobile Server-Side
+                                    <h3 className='text-white font25 font-bold text-center'>Mobile Server-Side
                                         <br></br>
                                         Development</h3>
                                     <p className={styles.possibilities}>
@@ -168,7 +168,7 @@ const CustomMaintain = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app5}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Legacy Application
+                                    <h3 className='text-white font25 font-bold text-center'>Legacy Application
                                         <br></br>
                                         Modernization</h3>
                                     <p className={styles.possibilities}>

@@ -69,50 +69,50 @@ const Footerlp = () => {
         <Container>
 
           <Row className={styles.project}>
-                        <Col lg={12}>
-                            <h2 className='font30 fontf font-bold white mb-0 text-center'>
-                                <span className='grdiant'>Our Partnerships </span>
-                                and Appraisals!
-                            </h2>
-                        </Col>
-                        <Col lg={12} className={styles.trstCol}>
-                            <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-4`}>
-                                <div className={styles.strpImg}>
-                                    <Image alt="bitswits" src={icon1} className="img-fluid" />
-                                </div>
-                                <div className={styles.strpImg}>
-                                    <Image alt="bitswits" src={icon2} className="img-fluid" />
-                                </div>
-                                <div className={styles.strpImg}>
-                                    <Image alt="bitswits" src={icon3} className="img-fluid" />
-                                </div>
-                                <div className={styles.strpImg}>
-                                    <Image alt="bitswits" src={icon4} className="img-fluid" />
-                                </div>
-                                <div className={styles.strpImg}>
-                                    <Image alt="bitswits" src={icon5} className="img-fluid" />
-                                </div>
-                                <div className={styles.strpImg}>
-                                    <Image alt="bitswits" src={icon6} className="img-fluid" />
-                                </div>
-                                <div className={`${styles.strpImg} ${styles.minImg}`}>
-                                    <Image alt="bitswits" src={icon7} className="img-fluid" />
-                                </div>
-                                <div className={styles.strpImg}>
-                                    <Image alt="bitswits" src={icon8} className="img-fluid" />
-                                </div>
-                                <div className={styles.strpImg}>
-                                    <Image alt="bitswits" src={icon9} className="img-fluid" />
-                                </div>
-                                <div className={styles.strpImg}>
-                                    <Image alt="bitswits" src={icon10} className="img-fluid" />
-                                </div>
-                                <div className={styles.strpImg}>
-                                    <Image alt="bitswits" src={icon11} className="img-fluid" />
-                                </div>
-                            </Slider>
-                        </Col>
-                    </Row>
+            <Col lg={12}>
+              <h2 className='font30 fontf font-bold white mb-0 text-center'>
+                <span className='grdiant'>Our Partnerships </span>
+                and Appraisals!
+              </h2>
+            </Col>
+            <Col lg={12} className={styles.trstCol}>
+              <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-4`}>
+                <div className={styles.strpImg}>
+                  <Image alt="bitswits" src={icon1} className="img-fluid" />
+                </div>
+                <div className={styles.strpImg}>
+                  <Image alt="bitswits" src={icon2} className="img-fluid" />
+                </div>
+                <div className={styles.strpImg}>
+                  <Image alt="bitswits" src={icon3} className="img-fluid" />
+                </div>
+                <div className={styles.strpImg}>
+                  <Image alt="bitswits" src={icon4} className="img-fluid" />
+                </div>
+                <div className={styles.strpImg}>
+                  <Image alt="bitswits" src={icon5} className="img-fluid" />
+                </div>
+                <div className={styles.strpImg}>
+                  <Image alt="bitswits" src={icon6} className="img-fluid" />
+                </div>
+                <div className={`${styles.strpImg} ${styles.minImg}`}>
+                  <Image alt="bitswits" src={icon7} className="img-fluid" />
+                </div>
+                <div className={styles.strpImg}>
+                  <Image alt="bitswits" src={icon8} className="img-fluid" />
+                </div>
+                <div className={styles.strpImg}>
+                  <Image alt="bitswits" src={icon9} className="img-fluid" />
+                </div>
+                <div className={styles.strpImg}>
+                  <Image alt="bitswits" src={icon10} className="img-fluid" />
+                </div>
+                <div className={styles.strpImg}>
+                  <Image alt="bitswits" src={icon11} className="img-fluid" />
+                </div>
+              </Slider>
+            </Col>
+          </Row>
 
           <div className={styles.footerNav}>
             <Row>
@@ -182,7 +182,7 @@ const Footerlp = () => {
                         <Link href="/blockchain-development-lp" className="modal-toggle">Blockchain Development</Link>
                         <Link href="/artificial-intelligence" className="modal-toggle">Artificial Intelligence</Link>
                       </li>
-                    
+
                     </ul>
                   </Col>
                 </Row>
@@ -205,10 +205,10 @@ const Footerlp = () => {
                     <Link href="#">Testimonials</Link>
                   </li>
                   <li>
-                    <Link href="#">Privacy Policy</Link>
+                    <Link href="/privacy-policy">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link href="#">Terms & Conditions</Link>
+                    <Link href="/term-and-condition">Terms & Conditions</Link>
                   </li>
                 </ul>
                 <ul className={`${styles.contacts} ${styles.myLinks} p-0`}>

@@ -11,9 +11,11 @@
 
 .para {
   font-size: 14px;
-  color: white;
-  margin-bottom: 0;
-  /* height: 75px; */
+  max-width: 330px;
+  color: #fff;
+  height: 57px;
+  overflow: auto;
+  padding-right: 7px;
 }
 
 .para1 {
@@ -43,21 +45,18 @@
 .app {
   border-radius: 30px;
   background-image: url(../public/blockchaindevelopment/images/gaming1.png);
-  background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   height: 435px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-start;
   margin-bottom: 20px;
 }
 
-.cardContent {
-  margin-bottom: -45%;
-}
+
 
 .app10 .cardContent {
   margin-bottom: 0%;
@@ -77,36 +76,30 @@
 
 .app1 {
   background-image: url(../public/blockchaindevelopment/images/gaming2.png);
-  background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   padding-top: 50px;
-  padding-bottom: 20px;
-  height: 525px;
+  padding-bottom: 50px;
+  height: 435px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-bottom: 20px;
 }
 
-.app1 .para {
-  height: 105px;
-}
 
-.app2 .para {
-  height: 125px;
-}
 
 .app2 {
   background-image: url(../public/blockchaindevelopment/images/gaming3.png);
-  background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   padding-top: 50px;
-  padding-bottom: 20px;
-  height: 525px;
+  padding-bottom: 50px;
+  height: 435px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-bottom: 20px;
 }
 
 .app2 .para {
@@ -116,7 +109,7 @@
 .app3 {
   background-image: url(../public/blockchaindevelopment/images/gaming4.png);
   background-position: right;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   padding-top: 50px;
   padding-bottom: 20px;
@@ -165,39 +158,39 @@
 
 .app7 {
   background-image: url(../public/blockchaindevelopment/images/gaming8.png);
-  background-position: right;
-  background-size: cover;
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
   padding-top: 50px;
-  padding-bottom: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-bottom: 50px;
   height: 533px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .app8 {
   background-image: url(../public/blockchaindevelopment/images/gaming9.png);
-  background-position: right;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 531px;
+  background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 533px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .app9 {
   background-image: url(../public/blockchaindevelopment/images/gaming10.png);
   background-position: right;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   height: 457px;
 }
@@ -205,12 +198,12 @@
 .app10 {
   background-image: url(../public/blockchaindevelopment/images/gaming11.png);
   background-position: right;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   height: 457px;
 }
@@ -218,12 +211,12 @@
 .app4 {
   background-image: url(../public/blockchaindevelopment/images/gaming5.png);
   background-position: right;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   height: 457px;
 }
@@ -239,7 +232,6 @@
 
 .para3 {
   font-size: 14px;
-  max-width: 400px;
   margin: 0 auto;
   text-align: center;
   color: white;
@@ -249,12 +241,12 @@
 .app5 {
   background-image: url(../public/blockchaindevelopment/images/gaming6.png);
   background-position: right;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   height: 457px;
 }
@@ -262,13 +254,13 @@
 .app6 {
   background-image: url(../public/blockchaindevelopment/images/gaming7.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   height: 533px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
 
@@ -349,7 +341,7 @@
   }
 
   .app3 {
-    background-size: cover;
+    background-size: contain;
     padding: 30px 28px 9px 33px;
   }
 
@@ -385,7 +377,7 @@
   }
 
   .app3 {
-    background-size: cover;
+    background-size: contain;
     height: 232px;
   }
 
@@ -408,11 +400,11 @@
   .app6,
   .app7 {
     height: 431px;
-    background-size: cover;
+    background-size: contain;
   }
 
   .app8 {
-    background-size: cover;
+    background-size: contain;
     height: 875px;
   }
 
@@ -494,7 +486,7 @@
   }
 
   .app3 {
-    background-size: cover;
+    background-size: contain;
     height: 265px;
   }
 
@@ -527,7 +519,7 @@
   }
 
   .app3 {
-    background-size: cover;
+    background-size: contain;
     height: 265px;
     border: 3px solid #4a78ef;
     border-radius: 23px;

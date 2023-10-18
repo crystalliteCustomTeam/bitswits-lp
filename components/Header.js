@@ -188,7 +188,7 @@ const Header = () => {
                                                     <div className={styles.listBody}>
                                                         <Row>
                                                             <Col md={12}>
-                                                                <ul className='mb-0 mt-0'>
+                                                                <ul className={` ${styles.megpost} mb-0 mt-0 `}>
 
                                                                     <div className={styles.listHeading}>
                                                                         <div className={styles.megaIcon}>
@@ -261,7 +261,8 @@ const Header = () => {
                                                                     <div className={styles.listBody}>
                                                                         <Row>
                                                                             <Col md={12}>
-                                                                                <ul className='mb-0 mt-0'>
+                                                                               
+                                                                                <ul className={` ${styles.megpost} mb-0 mt-0 `}>
 
                                                                                     <div className={styles.listHeading}>
                                                                                         <div className={styles.megaIcon}>

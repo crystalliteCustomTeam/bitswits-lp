@@ -2,12 +2,9 @@ import Head from 'next/head'
 import React from 'react';
 import dynamic from 'next/dynamic';
 //components
-import NewMblWhat from '@/components/NewMblWhat';
 import Homenextproject from '@/components/Homenextproject';
-import Capabilities from '@/components/Capabilities';
 import NewMobileFaqs from '@/components/NewMobileFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
-import NewHybridWho from '@/components/NewHybridWho';
 import NewiosPortFolio from '@/components/NewiosPortFolio';
 import HomeLocation from '@/components/HomeLocation';
 import CustomBanner from '@/components/CustomBanner';
@@ -25,7 +22,7 @@ export default function CustomMobile() {
     return (
         <>
             <Head>
-                <title>React Native Mobile App Development Company - BitsWits</title>
+                <title>Custom Mobile App Development Company - BitsWits</title>
                 <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />

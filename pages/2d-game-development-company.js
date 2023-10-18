@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import React from 'react';
-import dynamic from 'next/dynamic';
 //components
+import Gamer2dBanner from '@/components/Gamer2dBanner';
 import NewHomeAbout from '@/components/NewHomePageAbout';
+import Bullet2dproofgame from '@/components/Bullet2dproofgame';
 import Technologieswe from '@/components/Technologieswe';
 import Homenextproject from '@/components/Homenextproject';
 import Capabilities2d from '@/components/Capabilities2d';
@@ -11,8 +12,6 @@ import NewMaintainlogo from '@/components/NewMaintainlogo';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
 import HomeLocation from '@/components/HomeLocation';
-import Gamer2dBanner from '@/components/Gamer2dBanner';
-import Bullet2dproofgame from '@/components/Bullet2dproofgame';
 import Genreof2dgames from '@/components/Genreof2dgames';
 import Engage2d from '@/components/Engage2d';
 import Newsuccess from '@/components/NewMblSuccess';

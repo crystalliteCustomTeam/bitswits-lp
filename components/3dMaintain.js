@@ -89,7 +89,7 @@ const New3dMaintain = () => {
     return (
         <>
 
-            <section className={styles.newHomeBg}>
+            <section className={ `${styles.newHomeBg} combo`}>
 
                 <Container>
 
@@ -97,14 +97,14 @@ const New3dMaintain = () => {
                         <Col lg={12}>
                             <h3 className={` f-20 font-bold text-white text-center mb-0`}>The Work We Undertake
                             </h3>
-                            <h1 className='text-white font55 font-bold text-center '>The Genres Of Games We Develop</h1>
+                            <h1 className='text-white f-55 font-bold text-center pb-4'>The Genres Of Games We Develop</h1>
                             <p className={` f-16 text-white text-center pb-4`}>We are famous for creating immersive game experiences with engaging storylines, stunning visuals, and innovative gameplay mechanics.<br></br>
                                 Here's an exciting rundown of what we bring to the table…</p>
                         </Col>
                         <Col sm={6} lg={4}>
                             <div className={styles.app}>
-                                <div className={`${styles.cardContent} text-center`}>
-                                    <h3 className='text-white font22 font-bold'>3D Game Concept Art</h3>
+                                <div className={`${styles.cardContent}`}>
+                                    <h3 className='text-white font25 font-bold'>3D Game Concept <br></br> Art</h3>
                                     <p className={styles.para}>
                                         Our design and 3D game development team have extensive experience crafting vibrant and immersive artwork for various gaming applications. From characters and environmental designs to UI/UX, we can help define the visual identity of any game.
                                     </p>
@@ -113,8 +113,8 @@ const New3dMaintain = () => {
                         </Col>
                         <Col sm={6} lg={4}>
                             <div className={styles.app1}>
-                                <div className={`${styles.cardContent} text-center`}>
-                                    <h3 className='text-white font22 font-bold'>3D Web and App Development</h3>
+                                <div className={`${styles.cardContent}`}>
+                                    <h3 className='text-white font25 font-bold'>3D Web and App Development</h3>
                                     <p className={styles.para}>
                                         BitsWits offers world-class solutions for both web and mobile platforms. We are specialized in creating stunning 3D apps with modern technologies such as Augmented Reality, Virtual Reality, 3D Modeling and Animation, WebGL, HTML5/CSS3, etc.
                                     </p>
@@ -123,8 +123,8 @@ const New3dMaintain = () => {
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app2}>
-                                <div className={`${styles.cardContent} text-center`}>
-                                    <h3 className='text-white font25 fontfont22bold'>Advanced 3D Videos</h3>
+                                <div className={`${styles.cardContent}`}>
+                                    <h3 className='text-white font25 font-bold'>Advanced 3D <br></br> Videos</h3>
                                     <p className={styles.para}>
                                         With our state-of-the-art technology, we can turn your
                                         ideas into fully rendered 3D game videos with stunning
@@ -140,7 +140,7 @@ const New3dMaintain = () => {
                                 <Row className='align-items-center mt-5'>
                                     <Col xl={8}>
                                         <div className={styles.paraThreeContent}>
-                                            <h3 className='text-white f-25 font-bold mt-2 mt-lg-5'>3D Game App Integration</h3>
+                                            <h3 className='text-white font25 font-bold'>3D Game App Integration</h3>
                                             <p className={styles.para1}>
                                                 BitsWits allow you to quickly and easily add 3D gaming experiences to your existing apps so that you can play high-end games without extra coding or hardware configurations. With our services, you can also easily and quickly integrate a virtual reality (VR) or augmented reality (AR) game into your project.
                                             </p>
@@ -157,9 +157,9 @@ const New3dMaintain = () => {
                         <Col md={8}>
                             <div className={styles.app4}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold'>3D Imagining Art</h3>
+                                    <h3 className='text-white font25 font-bold'>3D Imagining Art</h3>
                                     <p className={styles.possibilities}>
-                                        Our team of experienced 3D artists and engineers can turn your ideas into reality with stunning visuals that will wow <br></br>your players. We specialize in creating engaging worlds with realistic landscapes, characters, and environments.
+                                        Our team of experienced 3D artists and engineers can turn your ideas into reality with stunning visuals that will wow your players. We specialize in creating engaging worlds with realistic landscapes, characters, and environments.
                                     </p>
                                 </div>
                             </div>
@@ -168,8 +168,8 @@ const New3dMaintain = () => {
                         <Col md={4}>
                             <div className={styles.app5}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Support and Maintenance</h3>
-                                    <p className={`${styles.possibilities} text-center`}>
+                                    <h3 className='text-white font25 font-bold'>Support and Maintenance</h3>
+                                    <p className={`${styles.possibilities} ${styles.possibilities1}`}>
                                         BitsWits recognizes that the game development journey doesn't end with its launch. That's why we provide our clients with comprehensive support and maintenance services to ensure their games remain attractive, immersive, and up-to-date with the latest trends.
                                     </p>
                                 </div>

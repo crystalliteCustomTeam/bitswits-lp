@@ -64,13 +64,13 @@ const CustomBanner = () => {
                                 <span className='d-block'>Custom Mobile Application </span>
                                 <span className='d-block'>Development for Business</span>
                             </h3>
-                            <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived </p>
+                            <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
 
                             <div className={styles.pont}>
-                                    <Link className={styles.about} href="tel:+1 833 500 6007">LET'S CONNECT</Link>
-                                </div>
+                                <Link className={styles.about} href="tel:+1 833 500 6007">LET'S CONNECT</Link>
+                            </div>
 
-                            <div className={styles.secImage}>
+                            <div className={` ${styles.secImage} mt-2`}>
                                 <Image quality={75} src={BannerImage} className={`img-fluid`} />
                             </div>
 
@@ -78,7 +78,7 @@ const CustomBanner = () => {
                     </Row>
                 </Container>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
-                <NewAddress />
+                    <NewAddress />
                 </div>
 
                 <div>
@@ -105,7 +105,7 @@ const CustomBanner = () => {
                         <div className={`${styles.strpImg} ${styles.minImg}`}>
                             <Image alt="bitswits" src={icon70} className="img-fluid w-25" />
                         </div>
-                        
+
                     </Slider>
                 </div>
             </section>

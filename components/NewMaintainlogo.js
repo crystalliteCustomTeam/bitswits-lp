@@ -94,7 +94,7 @@ const NewMaintainlogo = () => {
     return (
         <>
 
-            <section className={styles.newHomeBg}>
+            <section className={`${styles.newHomeBg} combo` }>
 
                 <Container>
 
@@ -118,7 +118,7 @@ const NewMaintainlogo = () => {
                         <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app1}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>Single Player Games</h3>
+                                    <h3 className='text-white font25 font-bold'>Single Player <br></br> Games</h3>
                                     <p className={styles.para}>
                                         Our team is well versed in various technologies such as C++, Unity, Unreal Engine, HTML5, and more to provide a seamless single-player gaming experience across different platforms. BitsWits guarantee bug-free code, easy navigation, intuitive controls, and perfect performance in our games so players can enjoy their experience without frustration. Whether you're looking for a complex 2D game or an old-school classic side-scroller, our 2D game developers can make it happen.
                                     </p>
@@ -141,7 +141,7 @@ const NewMaintainlogo = () => {
                                 <Row className='align-items-center'>
                                     <Col xl={5}>
                                         <div className={styles.paraThreeContent}>
-                                            <h3 className='text-white f-25 font-bold '>Multiplayer Games</h3>
+                                            <h3 className='text-white font25 font-bold '>Multiplayer Games</h3>
                                             <p className={styles.para1}>
                                                 Whether you're looking to build a complex, engaging multiplayer game from the ground up or optimize an existing project with cutting-edge technology, we have you covered! From first-person shooters and RPGs to strategic board games and party games, we foster multiplayer gaming experiences for businesses to help them make huge bucks.
                                             </p>
@@ -158,7 +158,7 @@ const NewMaintainlogo = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app4}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>UI/UX Graphics</h3>
+                                    <h3 className='text-white font25 font-bold text-center'>UI/UX Graphics</h3>
                                     <p className={styles.possibilities}>
                                         Our UI/UX Graphics services greatly enhance the player experience, making it more immersive and enjoyable. We focus on creating engaging visuals through color palette selection, typography choice, and iconography, as well as developing an easy-to-navigate layout to keep your players engaged with the game.
                                     </p>
@@ -169,7 +169,7 @@ const NewMaintainlogo = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app5}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Storyboarding</h3>
+                                    <h3 className='text-white font25 font-bold text-center'>Storyboarding</h3>
                                     <p className={styles.possibilities}>
                                         With our team of expert animators, you can watch your characters come alive and see your story unfold in vivid detail. Our 2D animation and storyboard services allow you to visually represent what is happening in your script or story before it gets animated. This ensures that all elements are in place for a successful storyboard.
                                     </p>
