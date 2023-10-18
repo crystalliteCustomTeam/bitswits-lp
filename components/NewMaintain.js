@@ -61,7 +61,7 @@ const NewMaintain = () => {
                                 <Row className='align-items-center'>
                                     <Col xl={5}>
                                         <div className={styles.paraThreeContent}>
-                                            <h3 className='text-white f-25 font-bold '>Artificial Intelligence (Ai)</h3>
+                                            <h3 className='text-white font25 font-bold '>Artificial Intelligence (Ai)</h3>
                                             <p className={styles.para1}>
                                                 Hire BitsWits as your trusted ally for AI development, and experience the revolution of your project through Artificial Intelligence that raises its potential.
                                             </p>
@@ -78,7 +78,7 @@ const NewMaintain = () => {
                         <Col sm={6}>
                             <div className={styles.app4}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Web App Development</h3>
+                                    <h3 className='text-white font25 font-bold text-center'>Web App Development</h3>
                                     <p className={styles.possibilities}>
                                         Our top app developers excel in web app development, showcasing expert skills to ensure client satisfaction and punctual project delivery.
                                     </p>
@@ -89,7 +89,7 @@ const NewMaintain = () => {
                         <Col sm={6}>
                             <div className={styles.app5}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>UI/UX App Design</h3>
+                                    <h3 className='text-white font25 font-bold text-center'>UI/UX App Design</h3>
                                     <p className={styles.possibilities}>
                                         Our team comprises professional responsive app designers who develop prototypes aimed at guiding users to meaningful interactions and achieving impactful user experiences.
                                     </p>
@@ -115,7 +115,7 @@ const NewMaintain = () => {
                             <div className={styles.app7}>
                                 <Image quality={75} src={cardNine} className={`${styles.appImage}`} />
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Internet of Things</h3>
+                                    <h3 className='text-white font25 font-bold text-center'>Internet of Things</h3>
                                     <p className={styles.para9}>
                                         We lead in IoT innovation delivering smart, connected solutions drive automation, efficiency, and connectivity across industries.
                                     </p>
