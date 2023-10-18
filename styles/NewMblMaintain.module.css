@@ -70,7 +70,7 @@
   background-position: center;
   background-size: cover;
   padding-top: 4px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 
 
@@ -83,7 +83,7 @@
   background-position: center;
   background-size: cover;
   padding-top: 4px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   
 }
 .cardContent {
@@ -229,7 +229,7 @@
 @media screen and (min-width: 1400px) {
 
 .app{
-  padding-bottom: 20px!important;
+  padding-bottom: 0px!important;
 }
 .app5{
   padding-top: 155px!important;

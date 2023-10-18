@@ -94,7 +94,7 @@ const FlutterMaintain = () => {
     return (
         <>
 
-            <section className={styles.newHomeBg}>
+            <section className={ ` ${styles.newHomeBg} combo`}>
 
                 <Container>
 
@@ -160,7 +160,7 @@ const FlutterMaintain = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app4}>
                                 <div>
-                                    <h3 className='text-white font25 font-bold text-center'>Testing & Quality Assurance</h3>
+                                    <h3 className='text-white font25 font-bold text-center'>Testing & Quality <br></br> Assurance</h3>
                                     <p className={styles.possibilities}>
                                         Our Flutter mobile app developers, quality analysts, and testers, collaborate seamlessly to ensure your app is free of bugs during development. We guarantee you a dependable, top-notch final product that meets your expectations.
                                     </p>

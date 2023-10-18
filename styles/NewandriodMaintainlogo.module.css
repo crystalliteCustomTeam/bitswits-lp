@@ -12,8 +12,11 @@
 
 .para {
   font-size: 14px;
-  max-width: 375px;
+  max-width: 330px;
   color: #fff;
+  height: 57px;
+  overflow: auto;
+  padding-right: 7px;
 }
 
 .contentPara {

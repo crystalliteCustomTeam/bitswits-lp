@@ -94,7 +94,7 @@ const NewMaintainlogo = () => {
     return (
         <>
 
-            <section className={styles.newHomeBg}>
+            <section className={`${styles.newHomeBg} combo` }>
 
                 <Container>
 
@@ -118,7 +118,7 @@ const NewMaintainlogo = () => {
                         <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app1}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>Single Player Games</h3>
+                                    <h3 className='text-white font25 font-bold'>Single Player <br></br> Games</h3>
                                     <p className={styles.para}>
                                         Our team is well versed in various technologies such as C++, Unity, Unreal Engine, HTML5, and more to provide a seamless single-player gaming experience across different platforms. BitsWits guarantee bug-free code, easy navigation, intuitive controls, and perfect performance in our games so players can enjoy their experience without frustration. Whether you're looking for a complex 2D game or an old-school classic side-scroller, our 2D game developers can make it happen.
                                     </p>

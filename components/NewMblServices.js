@@ -85,7 +85,7 @@ const NewMblServices = () => {
 
     return (
         <>
-            <section className={styles.newHomeBg}>
+            <section className={`${styles.newHomeBg} combo`}>
                 <Container>
                     <Row className='g-3'>
                         <Col lg={12}>
