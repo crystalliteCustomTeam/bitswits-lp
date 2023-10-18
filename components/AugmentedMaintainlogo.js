@@ -115,7 +115,7 @@ const AugmentedMaintainlogo = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app44}>
                                 <div>
-                                    <h3 className='text-white font25 font-bold text-center'>AR, Game Development
+                                    <h3 className='text-white font25 font-bold'>AR, Game Development
                                         2D, 3D and Isometric Games</h3>
                                     <p className={styles.possibilities}>
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -127,7 +127,7 @@ const AugmentedMaintainlogo = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app55}>
                                 <div>
-                                    <h3 className='text-white font25 font-bold text-center'>Education
+                                    <h3 className='text-white font25 font-bold'>Education
                                         3D Visual Animations |
                                         Interactions & Clicks</h3>
                                     <p className={styles.possibilities}>

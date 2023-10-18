@@ -32,6 +32,16 @@
   -webkit-mask-composite: xor;
 }
 
+@-moz-document url-prefix(){
+
+
+  .dev:before{
+    -webkit-mask-composite: exclude;
+  }
+  
+  
+}
+
 .get {
   background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
   width: 85%;
