@@ -128,7 +128,7 @@ const Newgamemaintain = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={4}>
+                        <Col md={6} lg={4}>
                             <div className={styles.app2}>
                                 <div>
                                     <h3 className='text-white font25 font-bold'>3D Game Development</h3>
@@ -154,7 +154,7 @@ const Newgamemaintain = () => {
                         </Col>
 
                         <Col md={6}>
-                            <div className={`${styles.app4} d-flex align-items-center justify-content-center`}>
+                            <div className={`${styles.app4} d-flex align-items-end justify-content-center pb-5`}>
                                 <div>
                                     <h3 className='text-white font25 font-bold text-center'>AR Game Development</h3>
                                     <p className={styles.possibilities}>
@@ -165,7 +165,7 @@ const Newgamemaintain = () => {
 
                         </Col>
                         <Col md={6}>
-                            <div className={`${styles.app5} d-flex align-items-center justify-content-center`}>
+                            <div className={`${styles.app5} d-flex align-items-end justify-content-center pb-5`}>
                                 <div>
                                     <h3 className='text-white font25 font-bold text-center'>MR Game Development</h3>
                                     <p className={styles.para3}>
@@ -175,7 +175,7 @@ const Newgamemaintain = () => {
                             </div>
                         </Col>
                         <Col xl={8}>
-                            <div className={styles.app6}>
+                            <div className={` ${styles.app6} d-flex align-items-start justify-content-end pb-5 pl-5`}>
                                 <div className={styles.pick}>
                                     <div className={styles.power}>
                                         <h3 className='text-white font25 font-bold'>Cross-platform Game <br></br>
@@ -186,9 +186,9 @@ const Newgamemaintain = () => {
                             </div>
                         </Col>
                         <Col xl={4}>
-                            <div className={`${styles.app7} d-flex align-items-center justify-content-center`}>
+                            <div className={`${styles.app7} d-flex align-items-end justify-content-center pb-5`}>
                                 <div>
-                                    <h3 className='text-white font25 font-bold text-center'>Buildbox Game <br></br>
+                                    <h3 className='text-white font25 font-bold'>Buildbox Game <br></br>
                                         Development</h3>
                                     <p className={styles.para9}>BitsWits cashes in on the Buildbox platform and creates beautiful 3D worlds, physics-based levels, mind-bending puzzles, heart-pumping action games, side-scrolling runners, and whatnot. Tap into the power of this ground-breaking space with our world-class game developers, and let your rivals be knocked out of the competition!</p>
                                 </div>

@@ -159,7 +159,7 @@ const AndriodMaintainlogo = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app4}>
                                 <div>
-                                    <h3 className='text-white font25 font-bold'>Enterprise Android Apps</h3>
+                                    <h3 className='text-white font25 font-bold text-center'>Enterprise Android Apps</h3>
                                     <p className={styles.possibilities}>
                                         We can help streamline your business operations with our enterprise Android app development services. Our solutions cover all aspects, from employee communication and data management to workflow optimization. Contact us to learn more.
                                     </p>
@@ -170,7 +170,7 @@ const AndriodMaintainlogo = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app5}>
                                 <div>
-                                    <h3 className='text-white font25 font-bold'>Android UI/UX Design</h3>
+                                    <h3 className='text-white font25 font-bold text-center'>Android UI/UX Design</h3>
                                     <p className={styles.possibilities}>
                                         Our team of experienced Android designers can assist you in crafting visually appealing and user-friendly interfaces for your Android app. With our expertise, we can enhance user engagement and ensure a seamless user experience.
                                     </p>

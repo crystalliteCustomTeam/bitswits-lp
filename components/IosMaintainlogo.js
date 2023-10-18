@@ -144,7 +144,7 @@ const IosMaintainlogo = () => {
                                 <Row className='align-items-center'>
                                     <Col xl={5}>
                                         <div className={styles.paraThreeContent}>
-                                            <h3 className='text-white f-25 font-bold '>Apple TV App Development</h3>
+                                            <h3 className='text-white font25 font-bold '>Apple TV App Development</h3>
                                             <p className={styles.para1}>
                                                 Our team specializes in developing custom apps for Apple TV with impeccable design and performance. We also offer iPhone compatibility consultations. Let's turn your app ideas into reality!
                                             </p>
@@ -161,7 +161,7 @@ const IosMaintainlogo = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app4}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>iPhone App Designing</h3>
+                                    <h3 className='text-white font25 font-bold text-center'>iPhone App Designing</h3>
                                     <p className={styles.possibilities}>
                                         Our team creates custom iPhone apps to streamline workflow processes, improve customer engagement, and enhance their experience with innovative and intuitive designs.
                                     </p>
@@ -172,7 +172,7 @@ const IosMaintainlogo = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app5}>
                                 <div>
-                                    <h3 className='text-white f-25 font-bold text-center'>Hybrid iPhone App Development</h3>
+                                    <h3 className='text-white font25 font-bold text-center'>Hybrid iPhone App Development</h3>
                                     <p className={styles.possibilities}>
                                         Boost your business with our hybrid iPhone app development services. Run your applications seamlessly across platforms to increase productivity and efficiency. Contact us now to learn more.
                                     </p>

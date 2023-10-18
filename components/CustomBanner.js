@@ -64,14 +64,14 @@ const CustomBanner = () => {
                                 <span className='d-block'>Custom Mobile Application </span>
                                 <span className='d-block'>Development for Business</span>
                             </h3>
-                            <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived </p>
+                            <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
 
                             <div className={styles.pont}>
                                     <Link className={styles.about} href="tel:+1 833 500 6007">LET'S CONNECT</Link>
                                 </div>
 
-                            <div className={styles.secImage}>
-                                <Image quality={75} src={BannerImage} className={`img-fluid`} />
+                            <div className={` ${styles.secImage} mt-2`}>
+                                <Image quality={75} src={BannerImage} className={`img-fluid mt-5`} />
                             </div>
 
                         </Col>
