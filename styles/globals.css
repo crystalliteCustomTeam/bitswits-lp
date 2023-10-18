@@ -1621,6 +1621,9 @@ input::-webkit-inner-spin-button {
   .font25 {
     font-size: 31px;
   }
+  .combo .font25 {
+    font-size: 25px;
+  }
 
   .sidenew .slick-current {
     background-color: #565656;

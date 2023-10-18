@@ -111,7 +111,7 @@ const NewMblServices = () => {
                         <Col lg={4}>
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>Web App Development</h3>
+                                    <h3 className='text-white font25 font-bold'>Web App <br></br> Development</h3>
                                     <p className={styles.para}>We offer end-to-end web app development services. Our team of skilled web app developers utilizes the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today!</p>
                                 </div>
                             </div>

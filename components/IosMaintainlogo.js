@@ -94,7 +94,7 @@ const IosMaintainlogo = () => {
     return (
         <>
 
-            <section className={styles.newHomeBg}>
+            <section className={ ` ${styles.newHomeBg} combo` }>
 
                 <Container>
 
