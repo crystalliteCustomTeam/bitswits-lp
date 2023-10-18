@@ -2,23 +2,22 @@ import Head from "next/head";
 import React from "react";
 import dynamic from "next/dynamic";
 //components
-import NewMblBannerduplicate from '@/components/NewMblBannerduplicate';
+import NewMblBanner from '@/components/NewMblBanner';
 import NewHomeAbout from '@/components/NewHomePageAbout';
 import NewMblWho from '@/components/NewMblWho';
 import NewMblWhat from '@/components/NewMblWhat';
-const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
-import NewMblServices from '@/components/NewMblServices';
-import NewMblWhy from "@/components/NewMblWhy";
-import NewiosPortFolio from '@/components/NewiosPortFolio';
 import Capabilities from '@/components/Capabilities';
-import Newsuccess from '@/components/NewMblSuccess';
-import NewHomeGlobal from "@/components/NewHomeGlobal";
-import ClientsThink2 from "@/components/ClientsThink2";
-import Homenextproject from "@/components/Homenextproject";
-import Technologieswe from "@/components/NewMblTechnologiesWe";
-import Nextproject2 from "@/components/Nextproject2";
 import NewMobileFaqs from '@/components/NewMobileFaqs';
-import Contact2 from "@/components/Contact2";
+import Newsuccess from '@/components/NewMblSuccess';
+import NewiosPortFolio from '@/components/NewiosPortFolio';
+import NewMblServices from '@/components/NewMblServices';
+const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
+import NewHomeGlobal from "@/components/NewHomeGlobal";
+import NewHomeSlider from "@/components/NewHomeSlider";
+import Technologieswe from "@/components/NewMblTechnologiesWe";
+import Homenextproject from "@/components/Homenextproject";
+import NewMblWhy from "@/components/NewMblWhy";
+
 //Icons 
 
 import icon23 from '../public/images/fymobile/1.png'
@@ -92,17 +91,17 @@ export default function mobileApplication() {
         <meta name="ICBM" content="39.78373, -100.445882" />
       </Head>
 
-      <NewMblBannerduplicate />
+      <NewMblBanner />
       <NewHomeAbout />
       <NewMblWho />
       <NewMblWhat />
       <Justbuildit />
       <NewMblServices />
       <NewMblWhy
-        title={<> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </>}
-        subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </>}
-        sub1="Why Choose BitsWits for Building Mobile Applications?"
-        sub2="Building your mobile app acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape its trajectory."
+      title = { <> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </> }
+      subtitle = { <> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </> }
+      sub1 = "Why Choose BitsWits for Building Mobile Applications?"
+      sub2 = "Building your mobile app acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape its trajectory."
         iconOne={icon23}
         iconTwo={icon24}
         iconThree={icon25}
@@ -121,18 +120,16 @@ export default function mobileApplication() {
         paraFour="Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences."
         paraFive="Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue."
         paraSix="Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction." />
-      <NewiosPortFolio />
+       <NewiosPortFolio />
       <Capabilities />
-      <div className="status">
+      <div className="status2">
         <Newsuccess />
       </div>
       <NewHomeGlobal />
-      <ClientsThink2 />
-      <Nextproject2 />
+      <NewHomeSlider />
       <Technologieswe />
       <Homenextproject />
       <NewMobileFaqs />
-      <Contact2 />
     </>
   );
 }

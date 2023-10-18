@@ -22,7 +22,7 @@ export default function CustomMobile() {
     return (
         <>
             <Head>
-                <title>React Native Mobile App Development Company - BitsWits</title>
+                <title>Custom Mobile App Development Company - BitsWits</title>
                 <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
