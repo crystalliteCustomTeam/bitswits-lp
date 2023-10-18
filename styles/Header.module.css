@@ -292,7 +292,7 @@
   background-color: #1c1c1cc2;
   padding: 20px;
   border-radius: 10px;
-  height: 365px;
+  /* height: 365px; */
 }
 
 .workBox {
@@ -429,9 +429,12 @@
 @media screen and (min-width: 1440px) {
   .megaMenu1,
   .megaMenu2,
-  .megaMenu3,
-  .megaMenu4 {
+  .megaMenu3{
     height: auto;
+  }
+
+  .megaMenu4 {
+    height: 650px;
   }
 }
 

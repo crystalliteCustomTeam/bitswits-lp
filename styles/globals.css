@@ -201,12 +201,12 @@ div {
 }
 
 .font60 {
-  font-size: 40px;
+  font-size: 60px;
   line-height: 50px;
 }
 
 .font65 {
-  font-size: 60px;
+  font-size: 65px;
   line-height: 65px;
 }
 
@@ -2772,6 +2772,10 @@ button {
 
   .btnclas {
     font-size: 11px;
+  }
+
+  .line50{
+    line-height: 50px;
   }
 
   .line60 {

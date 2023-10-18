@@ -1,0 +1,139 @@
+.gaurd {
+  margin-top: 5%;
+  background-image: url(../public/images/case-becteria/banner.svg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+
+.gaurd h1 {
+  font-size: 170px;
+  line-height: 180px;
+  text-align: center;
+}
+
+.gaurd h3 {
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.gaurd p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.gaurd .banImg {
+  margin-top: -100px;
+  width: 780px;
+  position: absolute;
+}
+
+/* ============================================= */
+
+@media screen and (max-width: 1600px) {
+  .gaurd h1 {
+    font-size: 150px;
+  }
+
+  .gaurd .banImg {
+    right: 70px;
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .gaurd h1 {
+    font-size: 150px;
+  }
+
+  .gaurd h3 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .gaurd p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .gaurd {
+    padding-bottom: 0px;
+  }
+
+  .gaurd .banImg {
+    right: 70px;
+    width: 620px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .gaurd h1 {
+    font-size: 140px;
+  }
+
+  .gaurd .banImg {
+    width: 580px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .gaurd h1 {
+    font-size: 100px;
+    line-height: 125px;
+  }
+
+  .gaurd h3 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .gaurd .banImg {
+    margin-top: 0px;
+    width: 460px;
+    top: 180px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .gaurd {
+    margin-top: 10%;
+    background-position: bottom center;
+  }
+
+  .gaurd h1 {
+    font-size: 90px;
+    line-height: 55px;
+    margin-bottom: 30px;
+  }
+
+  .gaurd h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .gaurd .banImg {
+    position: unset;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .gaurd{
+    padding-bottom: 30px;
+  }
+
+  .gaurd h1 {
+    font-size: 80px;
+    line-height: 70px;
+    margin-bottom: 20px;
+  }
+
+  .gaurd h3 {
+    line-height: 35px;
+  }
+}

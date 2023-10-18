@@ -1,0 +1,85 @@
+.caseOverView {
+  padding: 100px 0 50px;
+}
+
+.rideOverView,
+.foodOverView {
+  padding: 200px 0 50px;
+  background: #000;
+}
+
+.heading {
+  background-image: url(../public/images/case-icon.svg);
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+  position: relative;
+}
+
+.caseOverView h5 {
+  position: absolute;
+  bottom: -75px;
+}
+
+.headBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.heading svg {
+  font-size: 30px;
+  color: white;
+}
+
+.contnt {
+  margin-top: 50px;
+}
+
+.contnt a {
+  font-weight: 800;
+}
+
+.foldImg {
+  text-align: center;
+}
+
+.foldImg img {
+  width: 100%;
+  margin-top: 150px;
+}
+
+/* ============================================= */
+
+@media screen and (max-width: 991px) {
+  .heading {
+    background-image: unset;
+    padding: 0;
+  }
+
+  .heading svg {
+    display: none;
+  }
+
+  .caseOverView {
+    padding: 50px 0;
+  }
+
+  .contnt {
+    margin-top: 0px;
+  }
+
+  .caseOverView h5 {
+    position: unset;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .caseOverView,
+  .rideOverView,
+  .foodOverView {
+    padding: 25px 0;
+  }
+}
