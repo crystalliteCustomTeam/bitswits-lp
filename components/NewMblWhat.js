@@ -4,7 +4,7 @@ import Link from 'next/link';
 import styles from "@/styles/NewMblWhat.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
 //
-import WhatImage from "@/public/images/augmentapp/what_Image.png"
+import WhatImage from "@/public/newMobilePageImages/what_Image.png"
 import ButtonIcon from "@/public/newHomePageImages/home_btn.png"
 
 const NewHomeWhat = () => {

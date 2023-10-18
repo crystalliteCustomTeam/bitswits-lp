@@ -67,18 +67,18 @@ const CustomBanner = () => {
                             <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
 
                             <div className={styles.pont}>
-                                    <Link className={styles.about} href="tel:+1 833 500 6007">LET'S CONNECT</Link>
-                                </div>
+                                <Link className={styles.about} href="tel:+1 833 500 6007">LET'S CONNECT</Link>
+                            </div>
 
                             <div className={` ${styles.secImage} mt-2`}>
-                                <Image quality={75} src={BannerImage} className={`img-fluid mt-5`} />
+                                <Image quality={75} src={BannerImage} className={`img-fluid`} />
                             </div>
 
                         </Col>
                     </Row>
                 </Container>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
-                <NewAddress />
+                    <NewAddress />
                 </div>
 
                 <div>
@@ -105,7 +105,7 @@ const CustomBanner = () => {
                         <div className={`${styles.strpImg} ${styles.minImg}`}>
                             <Image alt="bitswits" src={icon70} className="img-fluid w-25" />
                         </div>
-                        
+
                     </Slider>
                 </div>
             </section>
