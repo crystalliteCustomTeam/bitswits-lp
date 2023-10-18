@@ -33,7 +33,7 @@
 .app {
   background-image: url(../public/newHomePageImages/appnft.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   padding-top: 4px;
   padding-bottom: 20px;
   height: 531px;
@@ -46,7 +46,7 @@
 .app1 {
   background-image: url(../public/newHomePageImages/appnft1.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   padding-top: 4px;
   padding-bottom: 20px;
   height: 531px;
@@ -55,7 +55,7 @@
 .app2 {
   background-image: url(../public/newHomePageImages/appnft2.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   padding-top: 4px;
   padding-bottom: 20px;
   height: 531px;
@@ -137,7 +137,7 @@
 .app3 {
   background-image: url(../public/newHomePageImages/appnft3.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 30px 28px 9px 33px;
@@ -186,20 +186,20 @@
 .app4 {
   background-image: url(../public/newHomePageImages/appnft4.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   height: 531px;
 }
 
 .app7 {
   background-image: url(../public/newHomePageImages/appnft5.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   padding-top: 50px;
   /* padding-bottom: 20px; */
@@ -233,13 +233,13 @@
 .app5 {
   background-image: url(../public/newHomePageImages/appnft5.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   height: 531px;
 }
 
@@ -247,7 +247,7 @@
 
   background-image: url(../public/newHomePage/images/newMaintain8.png);
   background-position: right;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   padding-bottom: 20px;
   height: 531px;
@@ -272,7 +272,7 @@
   flex-direction: column-reverse;
   gap: 40px;
   padding: 0 40px;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -391,7 +391,7 @@
   .app22,
   .app33 {
     height: 456px;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
   }
 
@@ -408,12 +408,12 @@
   .app4,
   .app5 {
     height: 456px;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
   }
 
   .app3 {
-    background-size: cover;
+    background-size: contain;
     padding: 30px 28px 9px 33px;
   }
 
@@ -568,7 +568,7 @@
   .app6 {
     background-image: url(../public/newHomePage/images/newMaintain10.png);
     background-position: right;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
   }
 

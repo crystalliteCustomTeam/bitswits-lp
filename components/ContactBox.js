@@ -105,8 +105,8 @@ const ContactBox = () => {
                                 </h3>
                                 <p className="font14 font-medium white mb-4">
                                     Whether you need a mobile app or a particular game solution, every venture starts with a
-                                    simple email or phone call. Fill in the following information and we will get in touch
-                                    within 1 business day.
+                                    simple email or phone call. Fill in the following information and we will get in touch.
+                                    
                                 </p>
 
                                 <form id="contactusform1" >
@@ -115,19 +115,19 @@ const ContactBox = () => {
                                             <input type="text" className="" name="name" id="name" placeholder="Full Name" required="" />
                                         </Col>
                                         <Col lg={6}>
-                                            <input type="email" name="email" id="email" placeholder="Email Address" required="" />
+                                            <input type="text" name="email" id="email" placeholder="Last Name" required="" />
                                         </Col>
                                         <Col lg={6}>
                                             <input type="phone" name="phone" id="phone" placeholder="Phone" required="" minLength="7" maxlength="15" onkeypress="return /[0-9]/i.test(event.key)" />
                                         </Col>
                                         <Col lg={6}>
-                                            <input type="text" className="" name="budget" id="budget" placeholder="Budget (in USD)" required="" />
+                                        <input type="email" name="email" id="email" placeholder="Email Address" required="" />
                                         </Col>
                                         <Col lg={12}>
                                             <textarea type="textarea" className="" name="comments" id="comments" placeholder="Comments" required="" />
                                         </Col>
                                         <Col className="mt-3 d-flex gap-5">
-                                            <p className='white font16'>We take your privacy seriously. <br /> Read our <span className='font-bold'>Privacy Notice.</span></p>
+                                            <p className='white font16'>We take your privacy seriously. <br /> Read our <span className='font-bold'> <Link className='white' href='/privacy-policy'>Privacy Policy</Link> .</span></p>
                                             <button id="savebtns" type="submit" className={styles.bttns1}>Submit</button>
                                         </Col>
                                     </Row>
