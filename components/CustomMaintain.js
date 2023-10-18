@@ -94,7 +94,7 @@ const CustomMaintain = () => {
     return (
         <>
 
-            <section className={styles.newHomeBg}>
+            <section className={`${styles.newHomeBg} combo`}>
 
                 <Container>
 
@@ -108,7 +108,7 @@ const CustomMaintain = () => {
                         <Col sm={6} lg={4} className={styles.earn}>
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>App Design</h3>
+                                    <h3 className='text-white font25 font-bold'>App <br></br> Design</h3>
                                     <p className={styles.para}>
                                         Create an exceptional app with an attractive design, intuitive interface, and convenient user experience.
                                     </p>

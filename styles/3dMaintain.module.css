@@ -242,6 +242,8 @@
 .app5 .possibilities {
     max-width: 373px;
     margin: 0 auto;
+    height: 60px;
+    overflow: auto;
 }
 
 .app6 {

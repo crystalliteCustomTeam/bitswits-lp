@@ -89,7 +89,7 @@ const New3dMaintain = () => {
     return (
         <>
 
-            <section className={styles.newHomeBg}>
+            <section className={ `${styles.newHomeBg} combo`}>
 
                 <Container>
 
@@ -104,7 +104,7 @@ const New3dMaintain = () => {
                         <Col sm={6} lg={4}>
                             <div className={styles.app}>
                                 <div className={`${styles.cardContent}`}>
-                                    <h3 className='text-white font25 font-bold'>3D Game Concept Art</h3>
+                                    <h3 className='text-white font25 font-bold'>3D Game Concept <br></br> Art</h3>
                                     <p className={styles.para}>
                                         Our design and 3D game development team have extensive experience crafting vibrant and immersive artwork for various gaming applications. From characters and environmental designs to UI/UX, we can help define the visual identity of any game.
                                     </p>
@@ -124,7 +124,7 @@ const New3dMaintain = () => {
                         <Col lg={4}>
                             <div className={styles.app2}>
                                 <div className={`${styles.cardContent}`}>
-                                    <h3 className='text-white font25 font-bold'>Advanced 3D Videos</h3>
+                                    <h3 className='text-white font25 font-bold'>Advanced 3D <br></br> Videos</h3>
                                     <p className={styles.para}>
                                         With our state-of-the-art technology, we can turn your
                                         ideas into fully rendered 3D game videos with stunning
@@ -169,7 +169,7 @@ const New3dMaintain = () => {
                             <div className={styles.app5}>
                                 <div>
                                     <h3 className='text-white font25 font-bold'>Support and Maintenance</h3>
-                                    <p className={`${styles.possibilities}`}>
+                                    <p className={`${styles.possibilities} ${styles.possibilities1}`}>
                                         BitsWits recognizes that the game development journey doesn't end with its launch. That's why we provide our clients with comprehensive support and maintenance services to ensure their games remain attractive, immersive, and up-to-date with the latest trends.
                                     </p>
                                 </div>

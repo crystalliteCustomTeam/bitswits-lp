@@ -85,7 +85,7 @@ const GamingServices = () => {
 
     return (
         <>
-            <section className={styles.newHomeBg}>
+            <section className={`${styles.newHomeBg} combo` }>
                 <Container>
                     <Row className='g-3'>
                         <Col lg={12}>
@@ -139,7 +139,7 @@ const GamingServices = () => {
                             <div className={styles.app4}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold text-center'>Metaverse Blockchain Game Development</h3>
-                                    <p className={styles.para2}>Using blockchain and cutting-edge technology, we deploy metaverse projects with features such as distributed storage and processing, zero-knowledge transactions, and non-fungible tokens (NFTs). Build next-generation titles with us!</p>
+                                    <p className={styles.para2}>Using blockchain and cutting-edge technology, we deploy metaverse projects with features such as distributed storage and processing, zero-knowledge transactions, and non-fungible tokens (NFTs). <br></br> Build next-generation titles with us!</p>
                                 </div>
                             </div>
                         </Col>

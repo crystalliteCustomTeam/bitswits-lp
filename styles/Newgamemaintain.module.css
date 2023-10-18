@@ -10,9 +10,11 @@
 
 .para {
   font-size: 14px;
-  max-width: 300px;
-  margin: 0 auto;
+  max-width: 330px;
   color: #fff;
+  height: 57px;
+  overflow: auto;
+  padding-right: 7px;
 }
 
 .para1 {
@@ -32,7 +34,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 50px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   height: 531px;
 }
 
@@ -43,7 +45,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 50px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   height: 531px;
   /*3*/
   -webkit-mask:
@@ -95,9 +97,7 @@
 
 }
 
-.app2 .para {
-  height: 125px;
-}
+
 
 .app2 {
   border-radius: 15px;
@@ -105,22 +105,15 @@
   background-position: center;
   background-size: cover;
   padding-top: 50px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   height: 531px;
   overflow: hidden;
   background-repeat: no-repeat;
-  padding: 30px 28px 62px 33px;
+  padding: 30px 28px 42px 33px;
   
 }
 
-.app2 .para {
-  color: white;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-}
+
 
 .app3 {
   background-image: url(../public/newHomePage/images/game4.png);
