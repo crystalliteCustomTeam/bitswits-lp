@@ -230,7 +230,20 @@
   width: 75%;
 }
 
+@media screen and (min-width: 1400px) {
+
+.app{
+  padding-bottom: 20px!important;
+}
+.app5{
+  padding-top: 155px!important;
+}
+
+ }
+
 @media screen and (min-width: 1500px) {
+
+
   .app3 {
     padding: 30px 28px 9px 33px;
   }
@@ -256,7 +269,7 @@
   }
 
   .app4{
-    padding-bottom: 105px;
+    padding-bottom: 70px;
   }
   .custom {
     width: 65%;
