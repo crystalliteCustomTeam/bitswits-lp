@@ -2,12 +2,12 @@ import React from 'react'
 import styles from '@/styles/Homenextproject.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Image from 'next/image'
-import icon1 from '../public/newHomePageImages/tech/1.png'
 import Link from 'next/link'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import icon1 from '../public/newHomePageImages/tech/1.png'
 import icon2 from '../public/newHomePageImages/nexticon/1.png'
 import icon3 from '../public/newHomePageImages/nexticon/2.png'
 import icon4 from '../public/newHomePageImages/nexticon/3.png'
@@ -77,10 +77,10 @@ const Homenextproject = () => {
         <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-5`}>
 
           <div className={styles.strpImg}>
-            <Image alt="bitswits" src={icon2} className="img-fluid w-50" />
+            <Image alt="bitswits" src={icon3} className="img-fluid w-50" />
           </div>
           <div className={styles.strpImg}>
-            <Image alt="bitswits" src={icon3} className="img-fluid w-50" />
+            <Image alt="bitswits" src={icon8} className="img-fluid w-50" />
           </div>
           <div className={styles.strpImg}>
             <Image alt="bitswits" src={icon4} className="img-fluid w-50" />
@@ -95,7 +95,7 @@ const Homenextproject = () => {
             <Image alt="bitswits" src={icon7} className="img-fluid w-50" />
           </div>
           <div className={styles.strpImg}>
-            <Image alt="bitswits" src={icon8} className="img-fluid w-50" />
+            <Image alt="bitswits" src={icon2} className="img-fluid w-50" />
           </div>
 
         </Slider>

@@ -7,16 +7,15 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //
-import icon1 from '../public/CapablitiesImgs/2dgame/icon1.png'
-import icon2 from '../public/CapablitiesImgs/2dgame/icon2.png'
-import icon3 from '../public/CapablitiesImgs/2dgame/icon3.png'
-import icon4 from '../public/CapablitiesImgs/2dgame/icon4.png'
-import icon5 from '../public/CapablitiesImgs/2dgame/icon5.png'
-import icon6 from '../public/CapablitiesImgs/2dgame/icon6.png'
-import icon7 from '../public/CapablitiesImgs/2dgame/icon7.png'
-import icon8 from '../public/CapablitiesImgs/2dgame/icon8.png'
-import icon9 from '../public/CapablitiesImgs/2dgame/icon9.png'
-
+import icon1 from '../public/CapablitiesImgs/2Dgame/icon1.png'
+import icon2 from '../public/CapablitiesImgs/2Dgame/icon2.png'
+import icon3 from '../public/CapablitiesImgs/2Dgame/icon3.png'
+import icon4 from '../public/CapablitiesImgs/2Dgame/icon4.png'
+import icon5 from '../public/CapablitiesImgs/2Dgame/icon5.png'
+import icon6 from '../public/CapablitiesImgs/2Dgame/icon6.png'
+import icon7 from '../public/CapablitiesImgs/2Dgame/icon7.png'
+import icon8 from '../public/CapablitiesImgs/2Dgame/icon8.png'
+import icon9 from '../public/CapablitiesImgs/2Dgame/icon9.png'
 
 const Capabilities2d = () => {
 
@@ -56,20 +55,17 @@ const Capabilities2d = () => {
                     </Row>
                     <Row>
 
-                        <div className={styles.connsct}>
+                        <div className={`${styles.connsct} ${styles.connsct3d}`}>
                             <Row className={` ${styles.bor}  mt-5 mb-5 `}>
-
-
-                                <Col lg={2}><div className={styles.line1}></div></Col>
-                                <Col lg={2}><div className={styles.line2}></div></Col>
-                                <Col lg={2}><div className={styles.line3}></div></Col>
-                                <Col lg={2}><div className={styles.line4}></div></Col>
-                                <Col lg={2}><div className={styles.line5}></div></Col>
-                                <Col lg={2}><div className={styles.line6}></div></Col>
-                                <Col lg={2}><div className={styles.line7}></div></Col>
-                                <Col lg={2}><div className={styles.line8}></div></Col>
-                                <Col lg={2}><div className={styles.line9}></div></Col>
-
+                                <Col lg={2}><div className={`${styles.line1} line3d`}></div></Col>
+                                <Col lg={2}><div className={`${styles.line2} line3d`}></div></Col>
+                                <Col lg={2}><div className={`${styles.line3} line3d`}></div></Col>
+                                <Col lg={2}><div className={`${styles.line4} line3d`}></div></Col>
+                                <Col lg={2}><div className={`${styles.line5} line3d`}></div></Col>
+                                <Col lg={2}><div className={`${styles.line6} line3d`}></div></Col>
+                                <Col lg={2}><div className={`${styles.line7} line3d`}></div></Col>
+                                <Col lg={2}><div className={`${styles.line8} line3d`}></div></Col>
+                                <Col lg={2}><div className={`${styles.line9} line3d`}></div></Col>
 
                             </Row>
                         </div>
@@ -190,9 +186,6 @@ const Capabilities2d = () => {
 
                 </Container>
             </section>
-
-
-
         </>
     )
 }

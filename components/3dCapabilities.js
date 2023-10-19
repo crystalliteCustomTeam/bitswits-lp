@@ -7,15 +7,15 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //
-import icon1 from '../public/CapablitiesImgs/3dgame/icon1.png'
-import icon2 from '../public/CapablitiesImgs/3dgame/icon2.png'
-import icon3 from '../public/CapablitiesImgs/3dgame/icon3.png'
-import icon4 from '../public/CapablitiesImgs/3dgame/icon4.png'
-import icon5 from '../public/CapablitiesImgs/3dgame/icon5.png'
-import icon6 from '../public/CapablitiesImgs/3dgame/icon6.png'
-import icon7 from '../public/CapablitiesImgs/3dgame/icon7.png'
-import icon8 from '../public/CapablitiesImgs/3dgame/icon8.png'
-import icon9 from '../public/CapablitiesImgs/3dgame/icon9.png'
+import icon1 from '../public/CapablitiesImgs/3Dgame/icon1.png'
+import icon2 from '../public/CapablitiesImgs/3Dgame/icon2.png'
+import icon3 from '../public/CapablitiesImgs/3Dgame/icon3.png'
+import icon4 from '../public/CapablitiesImgs/3Dgame/icon4.png'
+import icon5 from '../public/CapablitiesImgs/3Dgame/icon5.png'
+import icon6 from '../public/CapablitiesImgs/3Dgame/icon6.png'
+import icon7 from '../public/CapablitiesImgs/3Dgame/icon7.png'
+import icon8 from '../public/CapablitiesImgs/3Dgame/icon8.png'
+import icon9 from '../public/CapablitiesImgs/3Dgame/icon9.png'
 
 const Capabilities3d = () => {
 
