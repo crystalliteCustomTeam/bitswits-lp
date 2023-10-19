@@ -161,6 +161,20 @@ const NewHomeAbout = () => {
                                     <h5 className='mt-4'>Ivan F.</h5>
                                 </div>
 
+                                <div onMouseEnter={() => fun1('active15')}
+                                    onMouseLeave={() => fun2('secImage16')} className={isHovered == 'active15' ? styles.active15 : styles.secImage16}>
+                                    <Image src={comma} className='img-fluid' />
+                                    <h4>I run a cab service, and the rider app from Bitswits has boosted our user engagement tremendously. It's a game-changer <Image src={comma} className='img-fluid' /></h4>
+                                    <h5 className='mt-4'>Fernando M</h5>
+                                </div>
+
+                                <div onMouseEnter={() => fun1('active16')}
+                                    onMouseLeave={() => fun2('secImage17')} className={isHovered == 'active16' ? styles.active16 : styles.secImage17}>
+                                    <Image src={comma} className='img-fluid' />
+                                    <h4>I've been blown away by Bitswits's commitment to quality. The blockchain development app is top-notch and user-friendly <Image src={comma} className='img-fluid' /></h4>
+                                    <h5 className='mt-4'>Amir B</h5>
+                                </div>
+
 
                             </div >
 
@@ -235,6 +249,14 @@ const NewHomeAbout = () => {
                             <div onMouseEnter={() => fun1('active14')}
                                 onMouseLeave={() => fun2('secImage15')}
                                 className={styles.james14}></div>
+
+                            <div onMouseEnter={() => fun1('active15')}
+                                onMouseLeave={() => fun2('secImage16')}
+                                className={styles.james15}></div>
+
+                            <div onMouseEnter={() => fun1('active16')}
+                                onMouseLeave={() => fun2('secImage17')}
+                                className={styles.james16}></div>
 
                         </Col>
                     </Row>

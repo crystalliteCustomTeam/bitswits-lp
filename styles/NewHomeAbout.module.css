@@ -27,7 +27,11 @@
 .active13 h4,
 .active13 h5,
 .active14 h4,
-.active14 h5
+.active14 h5,
+.active15 h4,
+.active15 h5,
+.active16 h4,
+.active16 h5
  {
   font-size: 16px;
   color: white;
@@ -50,7 +54,9 @@
 .active11 h4,
 .active12 h4,
 .active13 h4,
-.active14 h4
+.active14 h4,
+.active15 h4,
+.active16 h4
 {
   padding-right: 10px;
 }
@@ -69,7 +75,9 @@
 .secImage12 h5,
 .secImage13 h5,
 .secImage14 h5,
-.secImage15 h5
+.secImage15 h5,
+.secImage16 h5,
+.secImage17 h5
 {
   margin-bottom: 0;
 }
@@ -88,7 +96,9 @@
 .secImage12 p,
 .secImage13 p,
 .secImage14 p,
-.secImage15 p
+.secImage15 p,
+.secImage16 p,
+.secImage17 p
 {
   font-style: italic;
   font-size: 10px;
@@ -110,7 +120,10 @@
 .active11 h5,
 .active12 h5,
 .active13 h5,
-.active14 h5
+.active14 h5,
+.active15 h5,
+.active16 h5
+
 {
   margin-bottom: 0;
 }
@@ -129,7 +142,9 @@
 .active11 p,
 .active12 p,
 .active13 p,
-.active14 p
+.active14 p,
+.active15 p,
+.active16 p
 {
   font-style: italic;
   font-size: 10px;
@@ -155,7 +170,9 @@
 .secImage12,
 .secImage13,
 .secImage14,
-.secImage15
+.secImage15,
+.secImage16,
+.secImage17
 {
 
   display: none;
@@ -176,7 +193,9 @@
 .active11 h4,
 .active12 h4,
 .active13 h4,
-.active14 h4
+.active14 h4,
+.active15 h4,
+.active16 h4
 
 {
   height: 100px;
@@ -471,6 +490,44 @@
   text-align: left;
 }
 
+.active15 {
+  display: block;
+  border: 2px solid #4A78EF;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  margin-left: 35%;
+  width: 35%;
+  text-align: left;
+}
+
+
+.active16 {
+  display: block;
+  border: 2px solid #4A78EF;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  margin-left: 35%;
+  width: 35%;
+  text-align: left;
+}
 
 .client {
   cursor: pointer;
@@ -925,7 +982,7 @@
    background-color: #ff000000;
     width: 98px;
     height: 73px;
-    left: 22%;
+    left: 23%;
     top: 31.5%;
     cursor: pointer;
     transform: rotate(8deg);
@@ -937,7 +994,7 @@
    background-color: #ff000000;
     width: 109px;
     height: 137px;
-    left: 27%;
+    left: 28%;
     border-radius: -38px;
     top: 59%;
     cursor: pointer;
@@ -1138,6 +1195,32 @@
     right: 27%;
     top: 76%;
     transform: rotate(61deg);
+
+  }
+
+  .james15::after {
+
+    position: absolute;
+    content: '';
+    background-color: #ff0000;
+    width: 62px;
+    height: 75px;
+    right: 36%;
+    top: 66%;
+    transform: rotate(356deg);
+
+  }
+
+  .james16::after {
+
+    position: absolute;
+    content: '';
+    background-color: #ff0000;
+    width: 62px;
+    height: 75px;
+    right: 40%;
+    top: 51%;
+    transform: rotate(356deg);
 
   }
 

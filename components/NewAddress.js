@@ -15,33 +15,7 @@ const NewAddress = () => {
         <>
             <Container className={styles.appios}>
                 <Row className='align-items-start'>
-                    <Col lg={7}>
-                        <div className={styles.make}>
-                            <form className={styles.formsbanner}>
-                                <Row>
-                                    <Col lg={6}>
-                                        <div>
-                                            <input type='text' className={styles.forminput} placeholder='Your Name' />
-                                            <input type='email' className={styles.forminput} placeholder='Email Address' />
-                                            <input type='number' className={styles.forminput} placeholder='Phone Number' />
-                                            <textarea className={`${styles.formarea} d-block d-lg-none`} placeholder='How can we help you?' ></textarea>
-                                            <div className={`${styles.take} d-flex`}>
-                                                <p className='font12 font-semibold fontf m-0'>We take your privacy seriously. Read our <span>Privacy</span></p>
-                                            </div>
-                                            <input type='Submit' className={`${styles.notice} d-block d-lg-none my-3`} />
-                                        </div>
-                                    </Col>
-                                    <Col lg={6} className='d-none d-lg-block'>
-                                        <div>
-                                            <textarea className={styles.formarea} placeholder='How can we help you?' ></textarea>
-                                            <input type='Submit' className={styles.notice} />
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </form>
-                        </div>
-                    </Col>
-                    <Col lg={5}>
+                <Col lg={5}>
                         <Row>
                             <Col lg={7}>
                                 <div className={`mb-lg-4`}>
@@ -101,6 +75,33 @@ const NewAddress = () => {
                             </Col>
                         </Row>
                     </Col>
+                    <Col lg={7}>
+                        <div className={styles.make}>
+                            <form className={styles.formsbanner}>
+                                <Row>
+                                    <Col lg={6}>
+                                        <div>
+                                            <input type='text' className={styles.forminput} placeholder='Your Name' />
+                                            <input type='email' className={styles.forminput} placeholder='Email Address' />
+                                            <input type='number' className={styles.forminput} placeholder='Phone Number' />
+                                            <textarea className={`${styles.formarea} d-block d-lg-none`} placeholder='How can we help you?' ></textarea>
+                                            <div className={`${styles.take} d-flex`}>
+                                                <p className='font12 font-semibold fontf m-0'>We take your privacy seriously. Read our <span>Privacy</span></p>
+                                            </div>
+                                            <input type='Submit' className={`${styles.notice} d-block d-lg-none my-3`} />
+                                        </div>
+                                    </Col>
+                                    <Col lg={6} className='d-none d-lg-block'>
+                                        <div>
+                                            <textarea className={styles.formarea} placeholder='How can we help you?' ></textarea>
+                                            <input type='Submit' className={styles.notice} />
+                                        </div>
+                                    </Col>
+                                </Row>
+                            </form>
+                        </div>
+                    </Col>
+                   
                 </Row>
             </Container>
         </>
