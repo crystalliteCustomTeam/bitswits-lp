@@ -186,7 +186,7 @@ const Header = () => {
                                                 <div className={styles.listMain}>
 
                                                     <div className={styles.listBody}>
-                                                        <Row>
+                                                        <Row className={styles.network}>
                                                             <Col md={12}>
                                                                 <ul className={` ${styles.megpost} mb-0 mt-0 `}>
 
@@ -217,21 +217,10 @@ const Header = () => {
                                                                             <span>Artificial Intelligence</span>
                                                                         </Link>
                                                                     </li>
-                                                                    {/* <li>
-                                                                        <Link onClick={handleMenu} href='#'>
-                                                                            <FaAngleRight />
-                                                                            <span>Enterprise Portal Solution</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='#'>
-                                                                            <FaAngleRight />
-                                                                            <span>Magento Enterprise Solution</span>
-                                                                        </Link>
-                                                                    </li> */}
+                                                                    
 
 
-                                                                    <div className={`${styles.listHeading}`}>
+                                                                    <div className={`${styles.listHeading} ${styles.neuport}`}>
                                                                         <div className={styles.megaIcon}>
                                                                             <Image alt="bitswits" className='img-fluid'
                                                                                 src={hosting}
@@ -246,33 +235,9 @@ const Header = () => {
                                                                             <span>Blockchain Development</span>
                                                                         </Link>
                                                                     </li>
-                                                                    <div className={styles.listHeading}>
-                                                                        <div className={styles.megaIcon}>
-                                                                            <Image alt="bitswits" className='img-fluid'
-                                                                                src={games}
-                                                                            />
-                                                                        </div>
-                                                                        <h5 className='font14 fontf font-semibold mb-0'>GAME</h5>
-                                                                    </div>
-                                                                    <li>
-                                                                                        <Link onClick={handleMenu} href='/game-application-development'>
-                                                                                            <FaAngleRight />
-                                                                                            <span>Game App Development</span>
-                                                                                        </Link>
-                                                                                    </li>
+                                                                    
 
-                                                                                    <li>
-                                                                                        <Link onClick={handleMenu} href='/2d-game-development-company'>
-                                                                                            <FaAngleRight />
-                                                                                            <span>2D Game Development</span>
-                                                                                        </Link>
-                                                                                    </li>
-                                                                                    <li>
-                                                                                        <Link onClick={handleMenu} href='/3d-game-development-company'>
-                                                                                            <FaAngleRight />
-                                                                                            <span>3D Game Development</span>
-                                                                                        </Link>
-                                                                                    </li>
+                                                                    
                                                                 </ul>
 
                                                             </Col>
@@ -292,18 +257,18 @@ const Header = () => {
 
                                                                                 <ul className={` ${styles.megpost} mb-0 mt-0 `}>
 
-                                                                                    {/* <div className={styles.listHeading}>
+                                                                                    <div className={styles.listHeading}>
                                                                                         <div className={styles.megaIcon}>
                                                                                             <Image alt="bitswits" className='img-fluid'
                                                                                                 src={games}
                                                                                             />
                                                                                         </div>
                                                                                         <h5 className='font14 fontf font-semibold mb-0'>GAME</h5>
-                                                                                    </div> */}
+                                                                                    </div>
 
 
 
-                                                                                    {/* <li>
+                                                                                    <li>
                                                                                         <Link onClick={handleMenu} href='/game-application-development'>
                                                                                             <FaAngleRight />
                                                                                             <span>Game App Development</span>
@@ -321,7 +286,7 @@ const Header = () => {
                                                                                             <FaAngleRight />
                                                                                             <span>3D Game Development</span>
                                                                                         </Link>
-                                                                                    </li> */}
+                                                                                    </li>
 
                                                                                     <li>
                                                                                         <Link onClick={handleMenu} href='/nft-game-development'>

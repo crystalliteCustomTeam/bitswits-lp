@@ -15,6 +15,9 @@
   border-right: 0;
 }
 
+.neuport{
+  margin-top: 55%;
+}
 .header.trans {
   background-color: transparent;
 }
@@ -420,6 +423,12 @@
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 1600px) {
+
+
+  .neuport{
+    margin-top: 35%;
+  }
+
   .listBody ul {
     height: 415px;
   }
@@ -445,7 +454,7 @@
 @media screen and (max-width: 1440px) {
   .listBody ul {
     height: 370px;
-    overflow: auto;
+
   }
 
   .listImg,
