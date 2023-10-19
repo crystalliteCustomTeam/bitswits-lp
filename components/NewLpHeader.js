@@ -599,7 +599,7 @@ const Header = () => {
                                                             <BsFillTelephoneFill size={25} className={styles.email} />
                                                         </div>
                                                         <div>
-                                                            <Link className='font15 font-medium white fontf' href="tel:+1 833 500 6007" onClick={handleMenu}>
+                                                            <Link className='font15 font-medium white fontf' href="tel:+18335006007" onClick={handleMenu}>
                                                                 +1 833 500 6007
                                                             </Link>
                                                         </div>
@@ -657,7 +657,7 @@ const Header = () => {
                                             <BsFillTelephoneFill size={25} className={styles.email} />
                                         </div>
                                         <div>
-                                            <Link className='font15 font-medium white fontf' href="tel:+1 833 500 6007" onClick={handleMenu}>
+                                            <Link className='font15 font-medium white fontf' href="tel:+18335006007" onClick={handleMenu}>
                                                 +1 833 500 6007
                                             </Link>
                                         </div>

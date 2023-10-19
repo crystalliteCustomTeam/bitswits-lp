@@ -41,13 +41,13 @@ const ContactBox = () => {
                                                 <p className="font13 font-medium white mb-1 text-center">
                                                     8 The Green STE 300, Dover DE 19901.
                                                 </p>
-                                                <Link className='white text-center' href='tel:+1 833 500 6007'>+1 833 500 6007</Link>
+                                                <Link className='white text-center' href='tel:+18335006007'>+1 833 500 6007</Link>
 
                                                 <h3 className="font16 font-bold white mb-0 mt-3 text-center">HOUSTON</h3>
                                                 <p className="font13 font-medium white mb-1 text-center">
                                                     Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100 Houston, TX 77056
                                                 </p>
-                                                <Link className='white text-center' href='tel:+1 713 565 7656'>+1 713 565 7656</Link>
+                                                <Link className='white text-center' href='tel:+17135657656'>+1 713 565 7656</Link>
                                             </div>
                                             <div className={styles.locImg}>
                                                 <Image src={usa} alt='Location' className='img-fluid' />
@@ -60,8 +60,8 @@ const ContactBox = () => {
                                                 <p className="font15 font-medium white mb-1 text-center">
                                                     Office #101, 32 Street, Al Mujarrah, Sharjah
                                                 </p>
-                                                <Link className='white text-center' href='tel:+97 155 503 1266'>+97 155 503 1266</Link>
-                                                <Link className='white text-center' href='tel:+971 551 659060'>+971 551 659060</Link>
+                                                <Link className='white text-center' href='tel:+971555031266'>+971 555 031266</Link>
+                                                <Link className='white text-center' href='tel:+971551659060'>+971 551 659060</Link>
                                             </div>
                                             <div className={styles.locImg}>
                                                 <Image src={middleEast} alt='Location' className='img-fluid' />
@@ -76,9 +76,10 @@ const ContactBox = () => {
                                                 </p>
 
                                                 <h3 className="font16 font-bold white mb-0 text-center">PAKISTAN</h3>
-                                                <p className="font13 font-medium white text-center">
+                                                <p className="font13 font-medium white text-center mb-1">
                                                     12th Floor Caesar's Tower, Karachi, Pakistan
                                                 </p>
+                                                <Link className='white text-center' href='tel:+923468280101'>+92 346 828 0101</Link>
                                             </div>
                                             <div className={styles.locImg}>
                                                 <Image src={asia} alt='Location' className='img-fluid' />

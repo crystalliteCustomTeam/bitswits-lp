@@ -52,7 +52,7 @@ const Justbuildit = () => {
                             <h3 className={styles.develop}>Hire BitsWits & Watch Your App Ideas Aspire!</h3>
 
                             <div className={styles.pont}>
-                            <Link className={styles.about} href="tel:+1 833 500 6007">LET'S CONNECT</Link>
+                            <Link className={styles.about} href="tel:+18335006007">LET'S CONNECT</Link>
                         </div>
                         </Col>
                     </Row>

@@ -67,7 +67,7 @@ const CustomBanner = () => {
                             <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
 
                             <div className={styles.pont}>
-                                <Link className={styles.about} href="tel:+1 833 500 6007">LET'S CONNECT</Link>
+                                <Link className={styles.about} href="tel:+18335006007">LET'S CONNECT</Link>
                             </div>
 
                             <div className={` ${styles.secImage} mt-2`}>

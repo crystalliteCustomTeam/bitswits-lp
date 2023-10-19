@@ -9,7 +9,7 @@ const TravelBanner = () => {
     return (
         <>
             <section className={styles.people}>
-                <Container className='mt-4'>
+                <Container className=''>
                     <Row>
                         <Col lg={12}>
                             <div className={styles.stock}>

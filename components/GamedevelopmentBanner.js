@@ -73,7 +73,7 @@ const GamedevelopmentBanner = () => {
                             <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>BitsWits is an up-and-coming blockchain game development company that produces cutting-edge blockchain games for the global gaming market. We create next-generation games based on distributed ledger technology (DLT).</p>
 
                             <div className={styles.pont}>
-                                    <Link className={styles.about} href="tel:+1 833 500 6007">LET'S CONNECT</Link>
+                                    <Link className={styles.about} href="tel:+18335006007">LET'S CONNECT</Link>
                                 </div>
 
                             <div className={styles.secImage}>

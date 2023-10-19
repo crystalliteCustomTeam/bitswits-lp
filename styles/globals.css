@@ -863,6 +863,8 @@ a {
   z-index: 999;
 }
 
+
+
 .newproject .slick-prev::before,
 .newproject .slick-next::before {
   opacity: 1;
@@ -1146,6 +1148,10 @@ input::-webkit-inner-spin-button {
   font-weight: 700;
   font-family: "Montserrat";
   text-transform: capitalize;
+}
+
+.newfinder{
+  justify-content: center;
 }
 
 .proisting .form-check {
@@ -1560,6 +1566,18 @@ input::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 1600px) {
+
+  .demono2{
+    width: 38%!important;
+  }
+
+  .newfire {
+    width: 22%!important;
+}
+  .star{
+    justify-content: flex-end;
+  }
+
   .services {
     font-size: 20px;
     line-height: 35px;
@@ -1585,6 +1603,15 @@ input::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 1440px) {
+
+  .demono2 {
+    width: 38%!important;
+}
+
+  .newfire {
+    width: 23%!important;
+}
+
   .font60 {
     font-size: 35px;
     line-height: 45px;

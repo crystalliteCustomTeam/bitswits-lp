@@ -235,7 +235,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <Link className='font15 font-medium white fontf' href="tel:+1 312 379 5987">+1 312 379 5987</Link> <br></br>
-                  <Link className='font15 font-medium white fontf' href="tel:+1 833 500 6007">+1 833 500 6007</Link>
+                  <Link className='font15 font-medium white fontf' href="tel:+18335006007">+1 833 500 6007</Link>
                 </div>
               </div>
               <div className={styles.socialicons}>

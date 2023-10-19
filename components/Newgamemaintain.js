@@ -102,7 +102,7 @@ const Newgamemaintain = () => {
                         <Col lg={12}>
                             <p className={` f-20 font-bold text-white text-center mb-0`}>The Work We Undertake
                             </p>
-                            <h1 className='text-white f-55 font-bold text-center'>The Genres Of Games We Develop</h1>
+                            <h1 className='text-white f-55 font-bold text-center'>The Genres Of <span className='grdiant'>Games</span> We Develop</h1>
                             <p className='m-0 text-white text-center'>We are famous for creating immersive game experiences with engaging storylines, <br></br> stunning visuals, and innovative gameplay mechanics.</p>
                             <p className='text-white text-center pb-3'>Here's an exciting rundown of what we bring to the table…</p>
                         </Col>

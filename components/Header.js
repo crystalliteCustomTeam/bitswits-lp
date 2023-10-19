@@ -186,7 +186,7 @@ const Header = () => {
                                                 <div className={styles.listMain}>
 
                                                     <div className={styles.listBody}>
-                                                        <Row>
+                                                        <Row className={styles.network}>
                                                             <Col md={12}>
                                                                 <ul className={` ${styles.megpost} mb-0 mt-0 `}>
 
@@ -217,21 +217,10 @@ const Header = () => {
                                                                             <span>Artificial Intelligence</span>
                                                                         </Link>
                                                                     </li>
-                                                                    {/* <li>
-                                                                        <Link onClick={handleMenu} href='#'>
-                                                                            <FaAngleRight />
-                                                                            <span>Enterprise Portal Solution</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='#'>
-                                                                            <FaAngleRight />
-                                                                            <span>Magento Enterprise Solution</span>
-                                                                        </Link>
-                                                                    </li> */}
+                                                                    
 
 
-                                                                    <div className={`${styles.listHeading} mt-3 pt-1`}>
+                                                                    <div className={`${styles.listHeading} ${styles.neuport}`}>
                                                                         <div className={styles.megaIcon}>
                                                                             <Image alt="bitswits" className='img-fluid'
                                                                                 src={hosting}
@@ -246,7 +235,11 @@ const Header = () => {
                                                                             <span>Blockchain Development</span>
                                                                         </Link>
                                                                     </li>
+                                                                    
+
+                                                                    
                                                                 </ul>
+
                                                             </Col>
                                                         </Row>
                                                     </div>
@@ -261,7 +254,7 @@ const Header = () => {
                                                                     <div className={styles.listBody}>
                                                                         <Row>
                                                                             <Col md={12}>
-                                                                               
+
                                                                                 <ul className={` ${styles.megpost} mb-0 mt-0 `}>
 
                                                                                     <div className={styles.listHeading}>
@@ -688,7 +681,7 @@ const Header = () => {
                                                             <BsFillTelephoneFill size={25} className={styles.email} />
                                                         </div>
                                                         <div>
-                                                            <Link className='font15 font-medium white fontf' href="tel:+1 833 500 6007" onClick={handleMenu}>
+                                                            <Link className='font15 font-medium white fontf' href="tel:+18335006007" onClick={handleMenu}>
                                                                 +1 833 500 6007
                                                             </Link>
                                                         </div>
@@ -741,7 +734,7 @@ const Header = () => {
                                             <BsFillTelephoneFill size={25} className={styles.email} />
                                         </div>
                                         <div>
-                                            <Link className='font15 font-medium white fontf' href="tel:+1 833 500 6007" onClick={handleMenu}>
+                                            <Link className='font15 font-medium white fontf' href="tel:+18335006007" onClick={handleMenu}>
                                                 +1 833 500 6007
                                             </Link>
                                         </div>

@@ -10,7 +10,13 @@ import Profilecreation from '@/components/Profilecreation'
 import ColorHarmony from '@/components/ColorHarmony';
 import Horizons from '@/components/Horizons';
 import SoulCTA from '@/components/SoulCTA';
-  
+import NewHomeGlobal from '@/components/NewHomeGlobal';
+import Capabilities from '@/components/Capabilities';
+import NewHomeSlider from '@/components/NewHomeSlider';
+import Technologieswe from '@/components/Technologieswe';
+import Homenextproject from '@/components/Homenextproject';
+import Faqs from '@/components/NewhomeFaqs';
+import HomeLocation from '@/components/HomeLocation';
 //images
 import foldImg from '../public/images/case-travel/beats.png'
 import foldImg00 from '../public/images/case-travel/horizons.svg'
@@ -63,18 +69,18 @@ export default function travelapp() {
     }
   ]
 
-  const demo = <h4 className='font30 fontf font-bold'>Montserrat</h4>
-  const demo1 = <p className='font14 fontf font-medium mt-1 mb-0'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
+  const demo = <h4 className='font30 fontf font-bold white'>Montserrat</h4>
+  const demo1 = <p className='font14 fontf font-medium mt-1 mb-0 white'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
 
-  const profile = <h4 className='font30 fontf font-bold '>Color Harmony</h4>
-  const profile1 = <p className='font14 fontf font-medium  mt-1 mb-0'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
+  const profile = <h4 className='font30 fontf font-bold white '>Color Harmony</h4>
+  const profile1 = <p className='font14 fontf font-medium  mt-1 mb-0 white'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
 
-  const uncovered = <h2 className='font65 black fontf font-bold line60'>
+  const uncovered = <h2 className='font65 white fontf font-bold line60'>
 
     The Process of <br /> Elevation:
   </h2>
 
-  const data = <p className='font16 black fontf font-medium line30 mt-3'>
+  const data = <p className='font16 white fontf font-medium line30 mt-3'>
 
     <b>From Vision to Design Crafting appealing UI Designs</b>  <br />
 
@@ -90,7 +96,7 @@ export default function travelapp() {
 
   const code1 = <span className={styles.left}>#55BAAA</span>
   const code2 = <div className={styles.travel}> <span className={styles.right}>#081213</span>  </div>
-  const heading12 = <h3 className='fontf font50 black center font-bold'>Color Harmony</h3>
+  const heading12 = <h3 className='fontf font50 white center font-bold'>Color Harmony</h3>
 
   return (
     <>
@@ -160,7 +166,13 @@ export default function travelapp() {
         headfire={headfire}
         soulCta='posy'
       />
-
+      <NewHomeGlobal />
+      <Capabilities />
+      <NewHomeSlider />
+      <Technologieswe />
+      <Homenextproject />
+      <Faqs />
+      <HomeLocation />
 
 
     </>

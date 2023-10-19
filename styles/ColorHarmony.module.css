@@ -40,6 +40,7 @@
 
 .soulHarmony .right {
   background-color: #000000;
+  border: 2px solid white;
   color: #fff;
 }
 
@@ -89,6 +90,7 @@
 
 .health .mid {
   background-color: #000000;
+  border: 2px solid white;
   color: #fff;
 }
 
@@ -118,6 +120,7 @@
 
 .bacteria .right {
   background-color: #000000;
+  border: 2px solid white;
   color: #fff;
 }
 

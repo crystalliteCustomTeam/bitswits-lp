@@ -71,7 +71,7 @@ const FlutterBanner = () => {
                             <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>BitsWits is an expert Flutter app development agency with years of experience creating innovative, powerful apps for businesses of all sizes. From startups to established corporate entities, we have the expertise and technology to turn your ideas into amazing apps.</p>
 
                             <div className={styles.pont}>
-                                <Link className={styles.about} href="tel:+1 833 500 6007">LET'S CONNECT</Link>
+                                <Link className={styles.about} href="tel:+18335006007">LET'S CONNECT</Link>
                             </div>
 
                             <div className={styles.secImage}>

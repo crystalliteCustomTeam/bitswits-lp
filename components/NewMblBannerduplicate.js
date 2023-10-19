@@ -6,7 +6,7 @@ import Link from 'next/link'
 //
 import BannerImage from "@/public/andriodapplication/andriod.png"
 //
-import NewAddress from './NewAddress';
+import NewAddress2 from './NewAddress2';
 import HomeBannerSlider from './HomeBannerSlider';
 
 
@@ -26,7 +26,7 @@ const NewHomeBanner = () => {
                             </h3>
                             <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>We deliver great results, on time and on budget. Contact us to start talking about your project today!</p>
                             <div className={styles.pont}>
-                                <Link className={styles.about} href="tel:+1 833 500 6007">LET'S CONNECT</Link>
+                                <Link className={styles.about} href="tel:+18335006007">LET'S CONNECT</Link>
                             </div>
                             <div className={styles.secImage}>
                                 <Image quality={75} src={BannerImage} className={`img-fluid`} />
@@ -38,7 +38,7 @@ const NewHomeBanner = () => {
                     <HomeBannerSlider />
                 </div>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
-                    <NewAddress />
+                    <NewAddress2 />
                 </div>
             </section>
         </>

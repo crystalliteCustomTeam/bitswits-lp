@@ -10,7 +10,13 @@ import Profilecreation from '@/components/Profilecreation'
 import ColorHarmony from '@/components/ColorHarmony';
 import Horizons from '@/components/Horizons';
 import SoulCTA from '@/components/SoulCTA';
-  
+import NewHomeGlobal from '@/components/NewHomeGlobal';
+import Capabilities from '@/components/Capabilities';
+import NewHomeSlider from '@/components/NewHomeSlider';
+import Technologieswe from '@/components/Technologieswe';
+import Homenextproject from '@/components/Homenextproject';
+import Faqs from '@/components/NewhomeFaqs';
+import HomeLocation from '@/components/HomeLocation';
 //images
 import foldImg from '../public/images/case-mark-place/foldimg.png'
 import foldImg00 from '../public/images/case-mark-place/horizons.png'
@@ -60,22 +66,22 @@ export default function MarkPlace() {
         }
     ]
 
-    const demo = <h4 className='font30 fontf font-bold'>Montserrat</h4>
-    const demo1 = <p className='font14 fontf font-medium mt-1 mb-0'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
-    const profile = <h4 className='font30 fontf font-bold '>Color Harmony</h4>
-    const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
+    const demo = <h4 className='font30 fontf font-bold white'>Montserrat</h4>
+    const demo1 = <p className='font14 fontf font-medium mt-1 mb-0 white'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
+    const profile = <h4 className='font30 fontf font-bold white '>Color Harmony</h4>
+    const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0 white'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
 
-    const heading = <h2 className='font50 black fontf font-bold line60 text-center mx-auto'>
+    const heading = <h2 className='font50 white fontf font-bold line60 text-center mx-auto'>
         Color Harmony
     </h2>
     const left = <div className={styles.left}>#81CCC8</div>
     const mid = <div className={styles.mid}>#A5D1CD</div>
     const right = <div className={styles.right}>#EFEFEF</div>
 
-    const uncovered = <h2 className='font65 black fontf font-bold line60'>
+    const uncovered = <h2 className='font65 white fontf font-bold line60'>
         The Process of <br></br> Elevation:
     </h2>
-    const data = <p className='font16 black fontf font-medium line30 mt-4'>
+    const data = <p className='font16 white fontf font-medium line30 mt-4'>
         <b>From Vision to Design Crafting appealing UI Designs</b> <br></br>
         One of the primary challenges was to ensure that the music app performs exceptionally well on all platforms, i.e., Android and iOS. The client wished the app would be accessible to a broad range of users; thus, they asked us to create an app that works on all devices. The client also requested to add a feature that provides personalized recommendations based on listening habits.
     </p>
@@ -158,7 +164,13 @@ export default function MarkPlace() {
                 headfire={headfire}
                 soulCta='soulmark'
             />
-
+            <NewHomeGlobal />
+            <Capabilities />
+            <NewHomeSlider />
+            <Technologieswe />
+            <Homenextproject />
+            <Faqs />
+            <HomeLocation />
         </>
     )
 }

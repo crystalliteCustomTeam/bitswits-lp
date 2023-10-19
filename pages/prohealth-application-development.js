@@ -11,7 +11,13 @@ import Profilecreation from '@/components/Profilecreation'
 import ColorHarmony from '@/components/ColorHarmony';
 import Horizons from '@/components/Horizons';
 import SoulCTA from '@/components/SoulCTA';
-  
+import NewHomeGlobal from '@/components/NewHomeGlobal';
+import Capabilities from '@/components/Capabilities';
+import NewHomeSlider from '@/components/NewHomeSlider';
+import Technologieswe from '@/components/Technologieswe';
+import Homenextproject from '@/components/Homenextproject';
+import Faqs from '@/components/NewhomeFaqs';
+import HomeLocation from '@/components/HomeLocation';
 //images
 import foldImg from '../public/images/case-health/foldimg.png'
 import foldImg00 from '../public/images/case-health/horizons.png'
@@ -61,29 +67,29 @@ export default function prohealth() {
     }
   ]
 
-  const demo = <h4 className='font30 fontf font-bold'>Sign In</h4>
-  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>To make food ordering a breeze, the professionals at BitsWits devised sign-in and sign-up options that offer customers expedited access to their contact information. Furthermore, the app is designed with quick navigation features so customers can find what they are looking for effortlessly. With this simple setup, updating customer details whenever desired has never been easier.</p>
+  const demo = <h4 className='font30 fontf font-bold white'>Sign In</h4>
+  const demo1 = <p className='font16 fontf white font-medium mt-1 mb-0'>To make food ordering a breeze, the professionals at BitsWits devised sign-in and sign-up options that offer customers expedited access to their contact information. Furthermore, the app is designed with quick navigation features so customers can find what they are looking for effortlessly. With this simple setup, updating customer details whenever desired has never been easier.</p>
 
-  const profile = <h4 className='font30 fontf font-bold '>Coupon</h4>
-  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>We incorporated discounts and vouchers into customer profiles and website headers. The original price is no longer presented on any page, while the current prices are highlighted in bold red for an eye-catching effect. Plus, customers who no longer wish to take advantage of these deals can opt-out at their convenience.</p>
+  const profile = <h4 className='font30 fontf font-bold white '>Coupon</h4>
+  const profile1 = <p className='font16 fontf white font-medium  mt-1 mb-0'>We incorporated discounts and vouchers into customer profiles and website headers. The original price is no longer presented on any page, while the current prices are highlighted in bold red for an eye-catching effect. Plus, customers who no longer wish to take advantage of these deals can opt-out at their convenience.</p>
 
-  const push = <h4 className='font30 fontf font-bold '>Secure Payment Method</h4>
-  const push1 = <p className='font16 fontf font-medium  mt-1 mb-0'>We incorporated discounts and vouchers into customer profiles and website headers. The original price is no longer presented on any page, while the current prices are highlighted in bold red for an eye-catching effect. Plus, customers who no longer wish to take advantage of these deals can opt-out at their convenience.</p>
+  const push = <h4 className='font30 fontf font-bold white '>Secure Payment Method</h4>
+  const push1 = <p className='font16 fontf white font-medium  mt-1 mb-0'>We incorporated discounts and vouchers into customer profiles and website headers. The original price is no longer presented on any page, while the current prices are highlighted in bold red for an eye-catching effect. Plus, customers who no longer wish to take advantage of these deals can opt-out at their convenience.</p>
 
-  const media = <h4 className='font30 fontf font-bold '>Reviews And Ratings</h4>
-  const media1 = <p className='font16 fontf font-medium  mt-1 mb-0'>By introducing the review and rating feature on the app, customers can now conveniently assess different restaurants based on the items listed. This way, they will reap all the benefits from simply providing valuable feedback.</p>
+  const media = <h4 className='font30 fontf font-bold white '>Reviews And Ratings</h4>
+  const media1 = <p className='font16 fontf white font-medium  mt-1 mb-0'>By introducing the review and rating feature on the app, customers can now conveniently assess different restaurants based on the items listed. This way, they will reap all the benefits from simply providing valuable feedback.</p>
 
-  const heading = <h2 className='font50 black fontf font-bold line60 text-center mx-auto'>
+  const heading = <h2 className='font50 white fontf font-bold line60 text-center mx-auto'>
     Color Harmony
   </h2>
   const left = <div className={styles.left}>#7586D4</div>
   const mid = <div className={styles.mid}>#000000</div>
   const right = <div className={styles.right}>#EDEFF5</div>
 
-  const uncovered = <h2 className='font65 black fontf font-bold line60'>
+  const uncovered = <h2 className='font65 white fontf font-bold line60'>
     BitsWits Helped <br /> Put Medicine <br /> Within Reach!
   </h2>
-  const data2 = <p className='font16 black fontf font-medium line30'>
+  const data2 = <p className='font16 white fontf font-medium line30'>
     The launch of the newly-made pharma mobile application was a success, with millions of people downloading the app within the first few months. The app received positive customer reviews, most praising its user-friendly design and helpful features. As a result, BitsWits made it possible for Pro Health to broaden its reach and reach a broad range of audiences through the app...<Link href="#"> Read More</Link>
   </p>
 
@@ -169,7 +175,14 @@ export default function prohealth() {
         soulCta='health'
       />
 
- 
+      <NewHomeGlobal />
+      <Capabilities />
+      <NewHomeSlider />
+      <Technologieswe />
+      <Homenextproject />
+      <Faqs />
+      <HomeLocation />
+
     </>
   )
 }

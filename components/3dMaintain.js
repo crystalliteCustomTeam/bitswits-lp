@@ -97,7 +97,7 @@ const New3dMaintain = () => {
                         <Col lg={12}>
                             <h3 className={` f-20 font-bold text-white text-center mb-0`}>The Work We Undertake
                             </h3>
-                            <h1 className='text-white f-55 font-bold text-center pb-4'>The Genres Of Games We Develop</h1>
+                            <h1 className='text-white f-55 font-bold text-center pb-4'>The Genres Of <span className='grdiant'>Games</span> We Develop</h1>
                             <p className={` f-16 text-white text-center pb-4`}>We are famous for creating immersive game experiences with engaging storylines, stunning visuals, and innovative gameplay mechanics.<br></br>
                                 Here's an exciting rundown of what we bring to the table…</p>
                         </Col>
