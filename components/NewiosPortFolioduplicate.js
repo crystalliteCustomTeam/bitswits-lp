@@ -36,7 +36,7 @@ const NewiosPortFolio = () => {
                                 <Image quality={75} src={folio3} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>Bliss Travel App</span>
-                                    <Link href="#" className={styles.sucssBtn}>View case study</Link>
+                                    <Link href="/travel-app-development" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
                         </Col>
@@ -45,7 +45,7 @@ const NewiosPortFolio = () => {
                                 <Image quality={75} src={folio2} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>Find Food App</span>
-                                    <Link href="#" className={styles.sucssBtn}>View case study</Link>
+                                    <Link href="/food-delivery-app-development" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
                         </Col>
@@ -54,7 +54,7 @@ const NewiosPortFolio = () => {
                                 <Image quality={75} src={folio1} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>Germ Guard App</span>
-                                    <Link href="#" className={styles.sucssBtn}>View case study</Link>
+                                    <Link href="/bacteria-app-development" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
                         </Col>
@@ -63,7 +63,7 @@ const NewiosPortFolio = () => {
                                 <Image quality={75} src={folio4} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>Soul Sound App</span>
-                                    <Link href="#" className={styles.sucssBtn}>View case study</Link>
+                                    <Link href="/music-streaming-app-development" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
                         </Col>
@@ -72,7 +72,7 @@ const NewiosPortFolio = () => {
                                 <Image quality={75} src={folio5} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>Eride App</span>
-                                    <Link href="#" className={styles.sucssBtn}>View case study</Link>
+                                    <Link href="/ez-ride" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
                         </Col>
@@ -81,7 +81,7 @@ const NewiosPortFolio = () => {
                                 <Image quality={75} src={folio6} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>PRO Health App</span>
-                                    <Link href="#" className={styles.sucssBtn}>View case study</Link>
+                                    <Link href="/prohealth-application-development" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
                         </Col>
@@ -91,7 +91,7 @@ const NewiosPortFolio = () => {
                                <Image quality={75} src={folio3} alt='BitsWits' className={`img-fluid`} />
                                <div className={styles.polioTxt}>
                                    <span className='font25 font-bold white mb-2'>Scribe App</span>
-                                   <Link href="#" className={styles.sucssBtn}>View case study</Link>
+                                   <Link href="/soul-scribe" className={styles.sucssBtn}>View case study</Link>
                                </div>
                            </div>
                        </Col>
@@ -100,7 +100,7 @@ const NewiosPortFolio = () => {
                                <Image quality={75} src={folio2} alt='BitsWits' className={`img-fluid`} />
                                <div className={styles.polioTxt}>
                                    <span className='font25 font-bold white mb-2'>Grease App</span>
-                                   <Link href="#" className={styles.sucssBtn}>View case study</Link>
+                                   <Link href="/greace-monkey" className={styles.sucssBtn}>View case study</Link>
                                </div>
                            </div>
                        </Col>
@@ -109,7 +109,7 @@ const NewiosPortFolio = () => {
                                <Image quality={75} src={folio1} alt='BitsWits' className={`img-fluid`} />
                                <div className={styles.polioTxt}>
                                    <span className='font25 font-bold white mb-2'>Crave App</span>
-                                   <Link href="#" className={styles.sucssBtn}>View case study</Link>
+                                   <Link href="/food-delivery-app-development" className={styles.sucssBtn}>View case study</Link>
                                </div>
                            </div>
                        </Col>
@@ -118,7 +118,7 @@ const NewiosPortFolio = () => {
                                <Image quality={75} src={folio4} alt='BitsWits' className={`img-fluid`} />
                                <div className={styles.polioTxt}>
                                    <span className='font25 font-bold white mb-2'>Sponsord App</span>
-                                   <Link href="#" className={styles.sucssBtn}>View case study</Link>
+                                   <Link href="/sponsord" className={styles.sucssBtn}>View case study</Link>
                                </div>
                            </div>
                        </Col>
@@ -127,7 +127,7 @@ const NewiosPortFolio = () => {
                                <Image quality={75} src={folio5} alt='BitsWits' className={`img-fluid`} />
                                <div className={styles.polioTxt}>
                                    <span className='font25 font-bold white mb-2'>Ready App</span>
-                                   <Link href="#" className={styles.sucssBtn}>View case study</Link>
+                                   <Link href="/ready-app" className={styles.sucssBtn}>View case study</Link>
                                </div>
                            </div>
                        </Col>
@@ -136,7 +136,7 @@ const NewiosPortFolio = () => {
                                <Image quality={75} src={folio6} alt='BitsWits' className={`img-fluid`} />
                                <div className={styles.polioTxt}>
                                    <span className='font25 font-bold white mb-2'>Homeconnect App</span>
-                                   <Link href="#" className={styles.sucssBtn}>View case study</Link>
+                                   <Link href="/home-connect-pro" className={styles.sucssBtn}>View case study</Link>
                                </div>
                            </div>
                        </Col>
@@ -145,7 +145,7 @@ const NewiosPortFolio = () => {
                                <Image quality={75} src={folio5} alt='BitsWits' className={`img-fluid`} />
                                <div className={styles.polioTxt}>
                                    <span className='font25 font-bold white mb-2'>Game App</span>
-                                   <Link href="#" className={styles.sucssBtn}>View case study</Link>
+                                   <Link href="/game-app-development" className={styles.sucssBtn}>View case study</Link>
                                </div>
                            </div>
                        </Col>
@@ -154,7 +154,7 @@ const NewiosPortFolio = () => {
                                <Image quality={75} src={folio6} alt='BitsWits' className={`img-fluid`} />
                                <div className={styles.polioTxt}>
                                    <span className='font25 font-bold white mb-2'>Real Estate App</span>
-                                   <Link href="#" className={styles.sucssBtn}>View case study</Link>
+                                   <Link href="/real-estate-app-development-solutions" className={styles.sucssBtn}>View case study</Link>
                                </div>
                            </div>
                        </Col>
