@@ -70,8 +70,7 @@ const Capabilities = () => {
                                 <Row>
                                     <Col xl={6}>
                                         <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
+                                            
                                         </div>
 
                                         <div className={styles.deter}>
@@ -106,8 +105,7 @@ const Capabilities = () => {
                                 <Row>
                                     <Col xl={6}>
                                         <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
+                                            
                                         </div>
                                         <div className={styles.deter}>
                                             <h3>Planning and Strategy</h3>
@@ -141,8 +139,7 @@ const Capabilities = () => {
                                 <Row>
                                     <Col xl={6}>
                                         <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
+                                            
                                         </div>
                                         <div className={styles.deter}>
                                             <h3>Design and Wireframing</h3>
@@ -176,8 +173,7 @@ const Capabilities = () => {
                                 <Row>
                                     <Col xl={6}>
                                         <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
+                                            
                                         </div>
                                         <div className={styles.deter}>
                                             <h3>Development and Coding</h3>
@@ -210,8 +206,7 @@ const Capabilities = () => {
                                 <Row>
                                     <Col xl={6}>
                                         <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
+                                            
                                         </div>
                                         <div className={styles.deter}>
                                             <h3>Testing and Quality Assurance</h3>
@@ -244,8 +239,7 @@ const Capabilities = () => {
                                 <Row>
                                     <Col xl={6}>
                                         <div className={styles.solved}>
-                                            <Link href='#' className={styles.research}>Research</Link>
-                                            <Link href='#' className={styles.research}>Analytic</Link>
+                                            
                                         </div>
                                         <div className={styles.deter}>
                                             <h3>Launch and Deployment</h3>
