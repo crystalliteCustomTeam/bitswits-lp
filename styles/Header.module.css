@@ -445,11 +445,13 @@
 @media screen and (max-width: 1440px) {
   .listBody ul {
     height: 370px;
+    overflow: auto;
   }
 
   .listImg,
   .megaMenu2 .listBody ul {
     height: 300px;
+    
   }
 
   .megaMenu2 {

@@ -231,7 +231,7 @@ const Header = () => {
                                                                     </li> */}
 
 
-                                                                    <div className={`${styles.listHeading} mt-3 pt-1`}>
+                                                                    <div className={`${styles.listHeading}`}>
                                                                         <div className={styles.megaIcon}>
                                                                             <Image alt="bitswits" className='img-fluid'
                                                                                 src={hosting}
@@ -246,36 +246,15 @@ const Header = () => {
                                                                             <span>Blockchain Development</span>
                                                                         </Link>
                                                                     </li>
-                                                                </ul>
-                                                            </Col>
-                                                        </Row>
-                                                    </div>
-                                                </div>
-                                            </Col>
-                                            <Col lg={3}>
-                                                <div className={`${styles.listMain} mt-0`}>
-                                                    <div className={styles.listBody}>
-                                                        <Row>
-                                                            <Col md={12}>
-                                                                <div className={`${styles.listMain} ${styles.resList} mt-0`}>
-                                                                    <div className={styles.listBody}>
-                                                                        <Row>
-                                                                            <Col md={12}>
-                                                                               
-                                                                                <ul className={` ${styles.megpost} mb-0 mt-0 `}>
-
-                                                                                    <div className={styles.listHeading}>
-                                                                                        <div className={styles.megaIcon}>
-                                                                                            <Image alt="bitswits" className='img-fluid'
-                                                                                                src={games}
-                                                                                            />
-                                                                                        </div>
-                                                                                        <h5 className='font14 fontf font-semibold mb-0'>GAME</h5>
-                                                                                    </div>
-
-
-
-                                                                                    <li>
+                                                                    <div className={styles.listHeading}>
+                                                                        <div className={styles.megaIcon}>
+                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                                src={games}
+                                                                            />
+                                                                        </div>
+                                                                        <h5 className='font14 fontf font-semibold mb-0'>GAME</h5>
+                                                                    </div>
+                                                                    <li>
                                                                                         <Link onClick={handleMenu} href='/game-application-development'>
                                                                                             <FaAngleRight />
                                                                                             <span>Game App Development</span>
@@ -294,6 +273,55 @@ const Header = () => {
                                                                                             <span>3D Game Development</span>
                                                                                         </Link>
                                                                                     </li>
+                                                                </ul>
+
+                                                            </Col>
+                                                        </Row>
+                                                    </div>
+                                                </div>
+                                            </Col>
+                                            <Col lg={3}>
+                                                <div className={`${styles.listMain} mt-0`}>
+                                                    <div className={styles.listBody}>
+                                                        <Row>
+                                                            <Col md={12}>
+                                                                <div className={`${styles.listMain} ${styles.resList} mt-0`}>
+                                                                    <div className={styles.listBody}>
+                                                                        <Row>
+                                                                            <Col md={12}>
+
+                                                                                <ul className={` ${styles.megpost} mb-0 mt-0 `}>
+
+                                                                                    {/* <div className={styles.listHeading}>
+                                                                                        <div className={styles.megaIcon}>
+                                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                                                src={games}
+                                                                                            />
+                                                                                        </div>
+                                                                                        <h5 className='font14 fontf font-semibold mb-0'>GAME</h5>
+                                                                                    </div> */}
+
+
+
+                                                                                    {/* <li>
+                                                                                        <Link onClick={handleMenu} href='/game-application-development'>
+                                                                                            <FaAngleRight />
+                                                                                            <span>Game App Development</span>
+                                                                                        </Link>
+                                                                                    </li>
+
+                                                                                    <li>
+                                                                                        <Link onClick={handleMenu} href='/2d-game-development-company'>
+                                                                                            <FaAngleRight />
+                                                                                            <span>2D Game Development</span>
+                                                                                        </Link>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <Link onClick={handleMenu} href='/3d-game-development-company'>
+                                                                                            <FaAngleRight />
+                                                                                            <span>3D Game Development</span>
+                                                                                        </Link>
+                                                                                    </li> */}
 
                                                                                     <li>
                                                                                         <Link onClick={handleMenu} href='/nft-game-development'>
