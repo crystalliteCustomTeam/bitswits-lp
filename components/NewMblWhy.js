@@ -92,7 +92,7 @@ const NewMblWhy = (props) => {
                         </Col>
                         <Col lg={10} className='mx-auto mt-5'>
                             <div className={styles.sec_btn}>
-                                <Link href="tel:+1 833 500 6007" className={`${styles.btn2} ${styles.btn} font-extrabold`}>
+                                <Link href="tel:+18335006007" className={`${styles.btn2} ${styles.btn} font-extrabold`}>
                                     LET'S CONNECT
                                 </Link>
                             </div>

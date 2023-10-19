@@ -73,7 +73,7 @@ const NewHomeBanner = () => {
 
 
                             <div className={styles.pont}>
-                                    <Link className={styles.about} href="tel:+1 833 500 6007">LET'S CONNECT</Link>
+                                    <Link className={styles.about} href="tel:+18335006007">LET'S CONNECT</Link>
                                 </div>
 
                             <div className='mt-5 text-center'>

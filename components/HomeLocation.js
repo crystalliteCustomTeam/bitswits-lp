@@ -70,7 +70,7 @@ const HomeLocation = () => {
                                                         </p>
                                                         <p className="f-14 f-500 f-montserrat white mb-0">Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100 Houston, TX 77056</p>
                                                         <Link className="f-16 f-500 white"
-                                                            href="tel:+1 713 565 7656">
+                                                            href="tel:+17135657656">
                                                             +1 713 565 7656
                                                         </Link><br />
                                                     </div>
@@ -88,10 +88,10 @@ const HomeLocation = () => {
                                                         </p>
                                                         <Link className="f-16 f-500 white"
                                                             href="tel:+971555031266">
-                                                            +97 155 503 1266
+                                                            +971 555 031266
                                                         </Link> <br />
                                                         <Link className="f-16 f-500 white"
-                                                            href="tel:+971 551 659060">
+                                                            href="tel:+971551659060">
                                                             +971 551 659060
                                                         </Link>
                                                     </div>

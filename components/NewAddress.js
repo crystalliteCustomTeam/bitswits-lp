@@ -70,7 +70,7 @@ const NewAddress = () => {
                                         </div>
                                         <div className={styles.subInner}>
                                             <p className='font12 font-bold fontf mb-0'>USA</p>
-                                            <Link href="tel:+1 833 500 6007" className='font12 font-regular fontf white texdocration'>
+                                            <Link href="tel:+18335006007" className='font12 font-regular fontf white texdocration'>
                                                 +1 833 500 6007
                                             </Link>
                                         </div>
@@ -92,7 +92,7 @@ const NewAddress = () => {
                                         </div>
                                         <div className={styles.subInner}>
                                             <p className='font12 font-bold fontf mb-0'>Asia</p>
-                                            <Link href="tel:+92 346 828 0101" className='font12 font-regular fontf white texdocration'>
+                                            <Link href="tel:+923468280101" className='font12 font-regular fontf white texdocration'>
                                                 +92 346 828 0101
                                             </Link>
                                         </div>
