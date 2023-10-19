@@ -6,16 +6,16 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-
-import blog212 from '../public/3d-game-development/images/blog1.png'
-import blogModels from '../public/3d-game-development/images/3D-MODELS.png'
-import blogCharacter from '../public/3d-game-development/images/CHARACTER-DESIGN.png'
-import blogBackground from '../public/3d-game-development/images/2D-BACKGROUND-ART.png'
-import blogUIUX from '../public/nftslider/uiux.png'
-import blogDesign from '../public/3d-game-development/images/CHARACTER-DESIGN.png'
-import blogGames from '../public/3d-game-development/images/Slots-Games-Concept.png'
-import blogHidden from '../public/3d-game-development/images/Hidden-Objects.png'
+//
+import icon1 from '../public/CapablitiesImgs/3Dgame/icon1.png'
+import icon2 from '../public/CapablitiesImgs/3Dgame/icon2.png'
+import icon3 from '../public/CapablitiesImgs/3Dgame/icon3.png'
+import icon4 from '../public/CapablitiesImgs/3Dgame/icon4.png'
+import icon5 from '../public/CapablitiesImgs/3Dgame/icon5.png'
+import icon6 from '../public/CapablitiesImgs/3Dgame/icon6.png'
+import icon7 from '../public/CapablitiesImgs/3Dgame/icon7.png'
+import icon8 from '../public/CapablitiesImgs/3Dgame/icon8.png'
+import icon9 from '../public/CapablitiesImgs/3Dgame/icon9.png'
 
 const Capabilities3d = () => {
 
@@ -67,7 +67,6 @@ const Capabilities3d = () => {
                                 <Col lg={2}><div className={`${styles.line7} line3d`}></div></Col>
                                 <Col lg={2}><div className={`${styles.line8} line3d`}></div></Col>
                                 <Col lg={2}><div className={`${styles.line9} line3d`}></div></Col>
-                                <Col lg={2}><div className={`${styles.line10} line3d`}></div></Col>
 
                             </Row>
                         </div>
@@ -77,7 +76,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon1} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -89,7 +88,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blogModels} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon2} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -101,7 +100,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blogCharacter} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon3} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -113,7 +112,21 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blogBackground} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon4} alt='bitswits' className='img-fluid' />
+                                        </div>
+                                    </Col>
+
+
+                                </Row>
+                            </div>
+
+
+
+                            <div className={styles.high}>
+                                <Row>
+                                    <Col xl={12}>
+                                        <div>
+                                            <Image quality={75} src={icon5} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -125,7 +138,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blogUIUX} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon6} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -137,7 +150,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blogDesign} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon7} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -149,7 +162,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon8} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -161,31 +174,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
-                                        </div>
-                                    </Col>
-
-
-                                </Row>
-                            </div>
-
-                            <div className={styles.high}>
-                                <Row>
-                                    <Col xl={12}>
-                                        <div>
-                                            <Image quality={75} src={blogGames} alt='bitswits' className='img-fluid' />
-                                        </div>
-                                    </Col>
-
-
-                                </Row>
-                            </div>
-
-                            <div className={styles.high}>
-                                <Row>
-                                    <Col xl={12}>
-                                        <div>
-                                            <Image quality={75} src={blogHidden} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon9} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
