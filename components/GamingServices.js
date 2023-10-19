@@ -91,7 +91,7 @@ const GamingServices = () => {
                         <Col lg={12}>
                             <p className={`f-20 font-bold text-white text-center mb-0`}>Our Services Are Where Innovation Meets Play
                             </p>
-                            <h1 className='text-white font50 font-bold text-center pb-2'>Blockchain Gaming Engineering Services</h1>
+                            <h1 className='grdiant font50 font-bold text-center pb-2'>Blockchain Gaming Engineering Services</h1>
                             <p className={`f-14 text-white text-center pb-0 pb-md-5`}>From creating multiplayer games to providing secure in-game asset exchange options, BitsWits leverages blockchain technology for game development. Our services <br />include creating next-generation games using the latest technology and tools, such as Unity 3D engine for VR/AR gaming experiences, Augmented Reality (AR)<br /> support for games, low-latency gameplay features, HoloLens integration, and blockchain-backed matchmaking.</p>
                         </Col>
                         <Col md={6} lg={4}>

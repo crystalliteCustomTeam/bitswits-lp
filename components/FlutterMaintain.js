@@ -100,8 +100,8 @@ const FlutterMaintain = () => {
 
                     <Row className='g-3'>
                         <Col lg={12}>
-                            <h1 className='text-white f-55 font-bold text-center pb-3'>No Challenge Too Great For Our Flutter <br></br>
-                                App Development Company!</h1>
+                            <h1 className='text-white f-55 font-bold text-center pb-3'>No Challenge Too Great For Our <span className='grdiant'>Flutter <br></br>
+                                App Development Company!</span> </h1>
                             <p className='text-center text-white f-15 pb-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
                         </Col>
                         <Col sm={6} lg={4} className={styles.earn}>

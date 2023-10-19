@@ -102,7 +102,7 @@ const CustomMaintain = () => {
                         <Col lg={12}>
                             <p className={` f-20 font-bold text-white text-center mb-0`}>Go Beyond Expectations With
                             </p>
-                            <h1 className='text-white f-60 font-bold text-center pb-3'>Custom Mobile Application <br></br>
+                            <h1 className='grdiant f-60 font-bold text-center pb-3'>Custom Mobile Application <br></br>
                                 Development Services</h1>
                         </Col>
                         <Col sm={6} lg={4} className={styles.earn}>

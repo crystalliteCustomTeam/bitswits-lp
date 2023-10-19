@@ -89,7 +89,7 @@ const NewHybridServices = () => {
                 <Container>
                     <Row className='g-3'>
                         <Col lg={12}>
-                            <h1 className='text-white font55 font-bold text-center pb-3'>Hybrid App Development Services</h1>
+                            <h1 className='grdiant font55 font-bold text-center pb-3'>Hybrid App Development Services</h1>
                             <p className='text-white text-center pb-5'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the<br></br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
                         </Col>
 
