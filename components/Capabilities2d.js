@@ -1,29 +1,21 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
-import styles from '@/styles/Capabilities2d.module.css'
+import styles from '@/styles/Capabilities3d.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //
-import team1 from '../public/newHomePageImages/1.png'
-import team2 from '../public/newHomePageImages/2.png'
-import team3 from '../public/newHomePageImages/3.png'
-import team4 from '../public/newHomePageImages/4.png'
-import team5 from '../public/newHomePageImages/5.png'
-import team6 from '../public/newHomePageImages/6.png'
-import close from '../public/newHomePageImages/close.png'
-
-
-import blog212 from '../public/newHomePageImages/blog1.png'
-
-import dcharacter from '../public/nftslider/2dcharacter.png'
-import casualart from '../public/nftslider/casualart.png'
-import characterdesign from '../public/nftslider/characterdesign.png'
-import hiddenobjects from '../public/nftslider/hiddenobjects.png'
-import slotsgamesconceptart from '../public/nftslider/slotsgamesconceptart.png'
-import uiux from '../public/nftslider/uiux.png'
+import icon1 from '../public/CapablitiesImgs/2dgame/icon1.png'
+import icon2 from '../public/CapablitiesImgs/2dgame/icon2.png'
+import icon3 from '../public/CapablitiesImgs/2dgame/icon3.png'
+import icon4 from '../public/CapablitiesImgs/2dgame/icon4.png'
+import icon5 from '../public/CapablitiesImgs/2dgame/icon5.png'
+import icon6 from '../public/CapablitiesImgs/2dgame/icon6.png'
+import icon7 from '../public/CapablitiesImgs/2dgame/icon7.png'
+import icon8 from '../public/CapablitiesImgs/2dgame/icon8.png'
+import icon9 from '../public/CapablitiesImgs/2dgame/icon9.png'
 
 
 const Capabilities2d = () => {
@@ -81,13 +73,13 @@ const Capabilities2d = () => {
 
                             </Row>
                         </div>
-                        <Slider {...awardslogo} className={` ${styles.nextalign1} prohome mt-4 mb-4`}>
+                        <Slider {...awardslogo} className={` ${styles.nextalign1} prohome prohome1 mt-4 mb-4`}>
 
                             <div className={styles.high}>
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon1} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -99,7 +91,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon2} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -111,7 +103,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={dcharacter} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon3} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -123,7 +115,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={blog212} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon4} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -137,7 +129,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={uiux} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon5} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -149,7 +141,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={characterdesign} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon6} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -161,7 +153,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={casualart} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon7} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -173,7 +165,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={slotsgamesconceptart} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon8} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -185,7 +177,7 @@ const Capabilities2d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={hiddenobjects} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon9} alt='bitswits' className='img-fluid' />
                                         </div>
                                     </Col>
 
