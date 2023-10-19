@@ -11,7 +11,13 @@ import Profilecreation from '@/components/Profilecreation'
 import ColorHarmony from '@/components/ColorHarmony';
 import Horizons from '@/components/Horizons';
 import SoulCTA from '@/components/SoulCTA';
-  
+import NewHomeGlobal from '@/components/NewHomeGlobal';
+import Capabilities from '@/components/Capabilities';
+import NewHomeSlider from '@/components/NewHomeSlider';
+import Technologieswe from '@/components/Technologieswe';
+import Homenextproject from '@/components/Homenextproject';
+import Faqs from '@/components/NewhomeFaqs';
+import HomeLocation from '@/components/HomeLocation';
 //images
 import foldImg from '../public/images/case-ride/foldimg.png'
 import foldImg00 from '../public/images/case-ride/horizons.png'
@@ -167,9 +173,13 @@ export default function ezride() {
         headfire={headfire}
         soulCta='ride'
       />
-
-
- 
+      <NewHomeGlobal />
+      <Capabilities />
+      <NewHomeSlider />
+      <Technologieswe />
+      <Homenextproject />
+      <Faqs />
+      <HomeLocation />
     </>
   )
 }

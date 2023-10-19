@@ -10,7 +10,13 @@ import Profilecreation from '@/components/Profilecreation'
 import ColorHarmony from '@/components/ColorHarmony';
 import Horizons from '@/components/Horizons';
 import SoulCTA from '@/components/SoulCTA';
-  
+import NewHomeGlobal from '@/components/NewHomeGlobal';
+import Capabilities from '@/components/Capabilities';
+import NewHomeSlider from '@/components/NewHomeSlider';
+import Technologieswe from '@/components/Technologieswe';
+import Homenextproject from '@/components/Homenextproject';
+import Faqs from '@/components/NewhomeFaqs';
+import HomeLocation from '@/components/HomeLocation';
 //images
 import foldImg from '../public/images/case-mark-place/foldimg.png'
 import foldImg00 from '../public/images/case-mark-place/horizons.png'
@@ -158,7 +164,13 @@ export default function MarkPlace() {
                 headfire={headfire}
                 soulCta='soulmark'
             />
-
+            <NewHomeGlobal />
+            <Capabilities />
+            <NewHomeSlider />
+            <Technologieswe />
+            <Homenextproject />
+            <Faqs />
+            <HomeLocation />
         </>
     )
 }

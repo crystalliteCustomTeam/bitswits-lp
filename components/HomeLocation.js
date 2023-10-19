@@ -66,18 +66,13 @@ const HomeLocation = () => {
                                                     </div>
                                                     <div className={`${styles.detail}`}>
                                                         <p className="f-18 f-700 f-montserrat mb-1 f-uppercase text-white">
-                                                            California
+                                                            HOUSTON
                                                         </p>
-                                                        <p className="f-14 f-500 f-montserrat white mb-0">350 South Grand Avenue, Los Angeles,
-                                                            CA 90071</p>
+                                                        <p className="f-14 f-500 f-montserrat white mb-0">Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100 Houston, TX 77056</p>
                                                         <Link className="f-16 f-500 white"
-                                                            href="tel:+13123795987">
-                                                            +1 312 379 5987
+                                                            href="tel:+1 713 565 7656">
+                                                            +1 713 565 7656
                                                         </Link><br />
-                                                        <Link className="f-16 f-500 white"
-                                                            href="tel:+18335006007">
-                                                            +1 833 500 6007
-                                                        </Link>
                                                     </div>
                                                 </div>
                                                 <div className={`${styles.loctnDetls} ${styles.two}`}>
@@ -94,6 +89,10 @@ const HomeLocation = () => {
                                                         <Link className="f-16 f-500 white"
                                                             href="tel:+971555031266">
                                                             +97 155 503 1266
+                                                        </Link> <br />
+                                                        <Link className="f-16 f-500 white"
+                                                            href="tel:+971 551 659060">
+                                                            +971 551 659060
                                                         </Link>
                                                     </div>
                                                 </div>
@@ -228,7 +227,7 @@ const HomeLocation = () => {
                                 </div>
                             </Col>
                             <Col lg={5} className={`d-lg-block d-none ${styles.positionDiv}`}>
-                                <Image quality={75} src={LocationWorld} className={styles.locationImage}/>
+                                <Image quality={75} src={LocationWorld} className={styles.locationImage} />
                             </Col>
                         </Row>
                     </Container>

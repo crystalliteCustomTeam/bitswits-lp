@@ -76,9 +76,10 @@ const ContactBox = () => {
                                                 </p>
 
                                                 <h3 className="font16 font-bold white mb-0 text-center">PAKISTAN</h3>
-                                                <p className="font13 font-medium white text-center">
+                                                <p className="font13 font-medium white text-center mb-1">
                                                     12th Floor Caesar's Tower, Karachi, Pakistan
                                                 </p>
+                                                <Link className='white text-center' href='tel:+92 346 828 0101'>+92 346 828 0101</Link>
                                             </div>
                                             <div className={styles.locImg}>
                                                 <Image src={asia} alt='Location' className='img-fluid' />
