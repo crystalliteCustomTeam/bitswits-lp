@@ -31,7 +31,15 @@
 .active15 h4,
 .active15 h5,
 .active16 h4,
-.active16 h5
+.active16 h5,
+.active17 h4,
+.active17 h5,
+.active18 h4,
+.active18 h5,
+.active19 h4,
+.active19 h5,
+.active20 h4,
+.active20 h5
  {
   font-size: 16px;
   color: white;
@@ -56,7 +64,11 @@
 .active13 h4,
 .active14 h4,
 .active15 h4,
-.active16 h4
+.active16 h4,
+.active17 h4,
+.active18 h4,
+.active19 h4,
+.active20 h4
 {
   padding-right: 10px;
 }
@@ -77,7 +89,11 @@
 .secImage14 h5,
 .secImage15 h5,
 .secImage16 h5,
-.secImage17 h5
+.secImage17 h5,
+.secImage18 h5,
+.secImage19 h5,
+.secImage20 h5,
+.secImage21 h5
 {
   margin-bottom: 0;
 }
@@ -98,7 +114,11 @@
 .secImage14 p,
 .secImage15 p,
 .secImage16 p,
-.secImage17 p
+.secImage17 p,
+.secImage18 p,
+.secImage19 p,
+.secImage20 p,
+.secImage21 p
 {
   font-style: italic;
   font-size: 10px;
@@ -122,7 +142,11 @@
 .active13 h5,
 .active14 h5,
 .active15 h5,
-.active16 h5
+.active16 h5,
+.active17 h5,
+.active18 h5,
+.active19 h5,
+.active20 h5
 
 {
   margin-bottom: 0;
@@ -144,7 +168,11 @@
 .active13 p,
 .active14 p,
 .active15 p,
-.active16 p
+.active16 p,
+.active17 p,
+.active18 p,
+.active19 p,
+.active20 p
 {
   font-style: italic;
   font-size: 10px;
@@ -172,7 +200,11 @@
 .secImage14,
 .secImage15,
 .secImage16,
-.secImage17
+.secImage17,
+.secImage18,
+.secImage19,
+.secImage20,
+.secImage21
 {
 
   display: none;
@@ -195,7 +227,11 @@
 .active13 h4,
 .active14 h4,
 .active15 h4,
-.active16 h4
+.active16 h4,
+.active17 h4,
+.active18 h4,
+.active19 h4,
+.active20 h4
 
 {
   height: 100px;
@@ -511,6 +547,84 @@
 
 
 .active16 {
+  display: block;
+  border: 2px solid #4A78EF;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  margin-left: 35%;
+  width: 35%;
+  text-align: left;
+}
+
+.active17 {
+  display: block;
+  border: 2px solid #4A78EF;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  margin-left: 35%;
+  width: 35%;
+  text-align: left;
+}
+
+
+.active18 {
+  display: block;
+  border: 2px solid #4A78EF;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  margin-left: 35%;
+  width: 35%;
+  text-align: left;
+}
+
+
+.active19 {
+  display: block;
+  border: 2px solid #4A78EF;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  margin-left: 35%;
+  width: 35%;
+  text-align: left;
+}
+
+.active20 {
   display: block;
   border: 2px solid #4A78EF;
   width: fit-content;
@@ -991,14 +1105,14 @@
   .james1::after {
     position: absolute;
     content: '';
-   background-color: #ff000000;
-    width: 109px;
-    height: 137px;
-    left: 28%;
-    border-radius: -38px;
-    top: 59%;
+    background-color: #ff000000;
+    width: 85px;
+    height: 91px;
+    left: 28.5%;
+    border-radius: unset;
+    top: 61%;
     cursor: pointer;
-    transform: rotate(2deg);
+    transform: rotate(6deg);
 
   }
 
@@ -1007,12 +1121,12 @@
 
     position: absolute;
     content: '';
-   background-color: #ff000000;
-    width: 106px;
-    height: 116px;
+    background-color: #ff000000;
+    width: 49px;
+    height: 46px;
     left: 65%;
-    border-radius: 50px;
-    top: 64%;
+    border-radius: unset;
+    top: 68%;
     cursor: pointer;
 
   }
@@ -1039,12 +1153,12 @@
 
     position: absolute;
     content: '';
-   background-color: #ff000000;
-    width: 131px;
-    height: 98px;
-    left: 33%;
+    background-color: #ff000000;
+    width: 94px;
+    height: 77px;
+    left: 35%;
     border-radius: unset;
-    top: 43%;
+    top: 44%;
     cursor: pointer;
     transform: rotate(8deg);
 
@@ -1054,14 +1168,14 @@
 
     position: absolute;
     content: '';
-   background-color: #ff000000;
-    width: 220px;
-    height: 173px;
-    left: 40%;
-    border-radius: 129px;
-    top: 66%;
+    background-color: #ff000000;
+    width: 120px;
+    height: 73px;
+    left: 43%;
+    border-radius: unset;
+    top: 70%;
     cursor: pointer;
-    transform: rotate(15deg);
+    transform: rotate(0deg);
 
   }
 
@@ -1086,9 +1200,9 @@
 
     position: absolute;
     content: '';
-   background-color: #ff000000;
-    width: 91px;
-    height: 103px;
+    background-color: #ff000000;
+    width: 65px;
+    height: 73px;
     left: 55%;
     border-radius: unset;
     top: 40%;
@@ -1202,7 +1316,7 @@
 
     position: absolute;
     content: '';
-    background-color: #ff0000;
+    background-color: #ff000000;
     width: 62px;
     height: 75px;
     right: 36%;
@@ -1215,12 +1329,62 @@
 
     position: absolute;
     content: '';
-    background-color: #ff0000;
+    background-color: #ff000000;
     width: 62px;
     height: 75px;
     right: 40%;
     top: 51%;
     transform: rotate(356deg);
+
+  }
+  .james17::after {
+
+    position: absolute;
+    content: '';
+    background-color: #ff000000;
+    width: 62px;
+    height: 57px;
+    right: 43%;
+    top: 64%;
+    transform: rotate(356deg);
+
+  }
+
+  .james18::after {
+
+    position: absolute;
+    content: '';
+    background-color: #ff000000;
+    width: 62px;
+    height: 57px;
+    right: 59%;
+    top: 54%;
+    transform: rotate(6deg);
+
+  }
+
+  .james19::after {
+
+    position: absolute;
+    content: '';
+    background-color: #ff000000;
+    width: 55px;
+    height: 57px;
+    right: 45%;
+    top: 48%;
+    transform: rotate(355deg);
+
+  }
+  .james20::after {
+
+    position: absolute;
+    content: '';
+    background-color: #ff000000;
+    width: 55px;
+    height: 48px;
+    right: 34%;
+    top: 57%;
+    transform: rotate(355deg);
 
   }
 

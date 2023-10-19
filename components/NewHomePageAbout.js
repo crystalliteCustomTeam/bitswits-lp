@@ -175,6 +175,34 @@ const NewHomeAbout = () => {
                                     <h5 className='mt-4'>Amir B</h5>
                                 </div>
 
+                                <div onMouseEnter={() => fun1('active17')}
+                                    onMouseLeave={() => fun2('secImage18')} className={isHovered == 'active17' ? styles.active17 : styles.secImage18}>
+                                    <Image src={comma} className='img-fluid' />
+                                    <h4>"Ever since our company ventured into blockchain technology, Bitswits has been our trusted partner in mobile app development. The interface is seamless and the features robust!" <Image src={comma} className='img-fluid' /></h4>
+                                    <h5 className='mt-4'>Jamie L</h5>
+                                </div>
+
+                                <div onMouseEnter={() => fun1('active18')}
+                                    onMouseLeave={() => fun2('secImage19')} className={isHovered == 'active18' ? styles.active18 : styles.secImage19}>
+                                    <Image src={comma} className='img-fluid' />
+                                    <h4>"I've been searching for a top-tier social media app and Bitswits delivered! User-friendly and innovative. Highly recommended." <Image src={comma} className='img-fluid' /></h4>
+                                    <h5 className='mt-4'>Maria G</h5>
+                                </div>
+
+                                <div onMouseEnter={() => fun1('active19')}
+                                    onMouseLeave={() => fun2('secImage20')} className={isHovered == 'active19' ? styles.active19 : styles.secImage20}>
+                                    <Image src={comma} className='img-fluid' />
+                                    <h4>"The fitness app is a daily companion in my health journey. Kudos to Bitswits for such an impeccable design and features." <Image src={comma} className='img-fluid' /></h4>
+                                    <h5 className='mt-4'>Layla D</h5>
+                                </div>
+
+                                <div onMouseEnter={() => fun1('active20')}
+                                    onMouseLeave={() => fun2('secImage21')} className={isHovered == 'active20' ? styles.active20 : styles.secImage21}>
+                                    <Image src={comma} className='img-fluid' />
+                                    <h4>"The rider app has made my daily commute so much easier. Booking a ride has never been more efficient. Thank you, Bitswits!" <Image src={comma} className='img-fluid' /></h4>
+                                    <h5 className='mt-4'>Diego V</h5>
+                                </div>
+
 
                             </div >
 
@@ -257,6 +285,22 @@ const NewHomeAbout = () => {
                             <div onMouseEnter={() => fun1('active16')}
                                 onMouseLeave={() => fun2('secImage17')}
                                 className={styles.james16}></div>
+
+                            <div onMouseEnter={() => fun1('active17')}
+                                onMouseLeave={() => fun2('secImage18')}
+                                className={styles.james17}></div>
+
+                            <div onMouseEnter={() => fun1('active18')}
+                                onMouseLeave={() => fun2('secImage19')}
+                                className={styles.james18}></div>
+
+                            <div onMouseEnter={() => fun1('active19')}
+                                onMouseLeave={() => fun2('secImage20')}
+                                className={styles.james19}></div>
+
+                            <div onMouseEnter={() => fun1('active20')}
+                                onMouseLeave={() => fun2('secImage21')}
+                                className={styles.james20}></div>
 
                         </Col>
                     </Row>
