@@ -93,7 +93,7 @@ export default function gamedevelopmentcompany() {
                 iconFive={icon27}
                 iconSix={icon28}
                 titleOne="Booming Accessibility"
-                titleTwo="Better Customer Engagement"
+                titleTwo="Better Engagement"
                 titleThree="Uncomplicated Business Processes"
                 titleFour="A Boost in Productivity"
                 titleFive="Better Data Insights"

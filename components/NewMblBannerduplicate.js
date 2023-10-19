@@ -6,7 +6,7 @@ import Link from 'next/link'
 //
 import BannerImage from "@/public/andriodapplication/andriod.png"
 //
-import NewAddress from './NewAddress';
+import NewAddress2 from './NewAddress2';
 import HomeBannerSlider from './HomeBannerSlider';
 
 
@@ -38,7 +38,7 @@ const NewHomeBanner = () => {
                     <HomeBannerSlider />
                 </div>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
-                    <NewAddress />
+                    <NewAddress2 />
                 </div>
             </section>
         </>

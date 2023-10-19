@@ -60,7 +60,7 @@ const CrossBanner = () => {
 
                     <Row>
                         <Col xl={12}>
-                            <p className={`${styles.just} text-center f-16 font-medium mb-0 `}>Top-Notch Web Development Company</p>
+                            <p className={`${styles.just} text-center f-16 font-medium mb-0 `}>Top-Notch Web App Development Company</p>
                             <h3 className={`${styles.develop} text-center f-50 font-bold mb-2`}>
                                 Where Imagination Meets <br></br>
                                 Creativity
