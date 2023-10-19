@@ -4,6 +4,7 @@
   background-position: bottom center;
   background-repeat: no-repeat;
   padding: 600px 0 80px;
+  background: #000;
 }
 
 .heading {
@@ -22,6 +23,7 @@
 
 .contnt p {
   padding-left: 105px;
+  color: white;
 }
 
 .mblImg {

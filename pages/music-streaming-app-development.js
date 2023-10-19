@@ -42,7 +42,7 @@ export default function SoulSound() {
 
   const newspan = <span>The <br /> Challenge</span>
 
-  const heading12 = <h3 className='fontf font50 black center font-bold'>Choose the no. of features as <br></br> per your requirements.</h3>
+  const heading12 = <h3 className='fontf font50 white center font-bold'>Choose the no. of features as <br></br> per your requirements.</h3>
 
   const CaseChallengs = [
     {
@@ -63,29 +63,29 @@ export default function SoulSound() {
     }
   ]
 
-  const demo = <h4 className='font30 fontf font-bold'>Profile <br></br> Creation</h4>
-  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>This feature allows users to create a personalized profile containing the music they love and their preferences, allowing them to quickly find the perfect song or artist to listen to each time they open the app.</p>
+  const demo = <h4 className='font30 fontf font-bold white'>Profile <br></br> Creation</h4>
+  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0 white'>This feature allows users to create a personalized profile containing the music they love and their preferences, allowing them to quickly find the perfect song or artist to listen to each time they open the app.</p>
 
-  const profile = <h4 className='font30 fontf font-bold '>Music <br></br> Recommendation</h4>
-  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>This feature lets customers quickly find the perfect songs for their mood or occasion. The music recommendation feature also increases user engagement, as it keeps users returning to the app by regularly providing fresh content.</p>
+  const profile = <h4 className='font30 fontf font-bold white '>Music <br></br> Recommendation</h4>
+  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0 white'>This feature lets customers quickly find the perfect songs for their mood or occasion. The music recommendation feature also increases user engagement, as it keeps users returning to the app by regularly providing fresh content.</p>
 
-  const push = <h4 className='font30 fontf font-bold '>Push <br></br> Notifications</h4>
-  const push1 = <p className='font16 fontf font-medium  mt-1 mb-0'>With the help of this feature, Soul Sound can send highly customized messages for various scenarios. And this, in turn, can help increase user engagement and retention.</p>
+  const push = <h4 className='font30 fontf font-bold white '>Push <br></br> Notifications</h4>
+  const push1 = <p className='font16 fontf font-medium  mt-1 mb-0 white'>With the help of this feature, Soul Sound can send highly customized messages for various scenarios. And this, in turn, can help increase user engagement and retention.</p>
 
-  const media = <h4 className='font30 fontf font-bold '>Social <br></br> Media Integration</h4>
-  const media1 = <p className='font16 fontf font-medium  mt-1 mb-0'>This innovative feature allows users to easily share their favorite songs and albums with friends, family, and the public. It helps promote their favorite music or artist to a broader audience.</p>
+  const media = <h4 className='font30 fontf font-bold white '>Social <br></br> Media Integration</h4>
+  const media1 = <p className='font16 fontf font-medium  mt-1 mb-0 white'>This innovative feature allows users to easily share their favorite songs and albums with friends, family, and the public. It helps promote their favorite music or artist to a broader audience.</p>
 
-  const music = <p className='font20 fontf font-bold black mb-4'>The following are some features we incorporated during the music app development:</p>
+  const music = <p className='font20 fontf font-bold white mb-4'>The following are some features we incorporated during the music app development:</p>
 
 
-  const uncovered = <h2 className='font65 black fontf font-bold line60'>
+  const uncovered = <h2 className='font65 white fontf font-bold line60'>
     BitsWits <br />
     Uncovered <br />
     New Musical <br />
     Horizons!
   </h2>
 
-  const data = <p className='font16 black fontf font-medium line30'>
+  const data = <p className='font16 white fontf font-medium line30'>
     The experienced team working at BitsWits assisted Soul Sound in music streaming app development. We developed wireframes and prototypes that enabled us to test potential solutions quickly and iteratively. Not only this, but we also came up with a feature for users to create and save custom playlists from resolving the concern regarding limited customization options. Additionally, Soul Sound now includes a curated music library that can be filtered and sorted according to genre, artist, or other criteria. It helps users find the perfect music for any occasion.
   </p>
 
@@ -108,10 +108,6 @@ export default function SoulSound() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
-      {/* {showComponent && (
-        <Rated />
-      )} */}
 
       <Banner />
 

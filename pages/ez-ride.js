@@ -63,28 +63,28 @@ export default function ezride() {
     }
   ]
 
-  const demo = <h4 className='font30 fontf font-bold'>Montserrat</h4>
-  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
+  const demo = <h4 className='font30 fontf font-bold white'>Montserrat</h4>
+  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0 white'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
 
-  const profile = <h4 className='font30 fontf font-bold '>Color Harmony</h4>
-  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
+  const profile = <h4 className='font30 fontf font-bold white '>Color Harmony</h4>
+  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0 white'>The biggest challenge was probably creating a social networking platform that stands out from other platforms like Instagram,</p>
 
-  const heading = <h2 className='font50 black fontf font-bold line60 text-center mx-auto'>
+  const heading = <h2 className='font50 white fontf font-bold line60 text-center mx-auto'>
     Color Harmony
   </h2>
 
   const left = <div className={styles.left}>#FF6600</div>
   const right = <div className={styles.right}>#303439</div>
 
-  const uncovered = <h2 className='font65 black fontf font-bold line60'>
+  const uncovered = <h2 className='font65 white fontf font-bold line60'>
     The Process of <br /> Elevation:
   </h2>
 
-  const covered = <h5 className='font20 black fontf font-bold line30'>
+  const covered = <h5 className='font20 white fontf font-bold line30'>
     From Vision to Design Crafting appealing UI Designs
   </h5>
 
-  const data2 = <p className='font16 black fontf font-medium line30'>
+  const data2 = <p className='font16 white fontf font-medium line30'>
     The ride hailing service app Easy Ride by BitsWits has revolutionized the way people move around by providing an affordable, convenient, and safe mode of transport. The app offers users a range of different vehicles to choose from including...<Link href="#"> Read More</Link>
   </p>
 

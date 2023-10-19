@@ -1,27 +1,31 @@
 .gaurd {
-  margin-top: 5%;
+  padding-top: 5%;
   background-image: url(../public/images/case-becteria/banner.svg);
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 50px;
+  background: #000;
 }
 
 .gaurd h1 {
   font-size: 170px;
   line-height: 180px;
   text-align: center;
+  color: white;
 }
 
 .gaurd h3 {
   font-size: 50px;
   line-height: 60px;
+  color: white;
 }
 
 .gaurd p {
   font-size: 20px;
   line-height: 30px;
   margin-top: 20px;
+  color: white;
 }
 
 .gaurd .banImg {

@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 const ColorHarmony = (props) => {
     return (
         <>
-            <section className={styles[props.caseHarmony]}>
+            <section className={`${styles[props.caseHarmony] } bg-black`} >
                 <Container>
                     <Row className='align-items-center gy-4'>
                         <Col lg={12}>

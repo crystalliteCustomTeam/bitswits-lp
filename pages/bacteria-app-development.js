@@ -30,9 +30,9 @@ export default function bacteriaapp() {
   }, []);
 
 
-  const headingbanner = <h1 className='black fontf font-bold'>GERM-GUARD</h1>
-  const para1 = <h3 className='black fontf font-bold'>Bacteria-Free Living <br /> Made Possible With <br /> Our Shield App!.</h3>
-  const para2 = <p className='black fontf font-medium'>BitsWits created a scalable and personalized cleaning services application with effortless appointment scheduling, booking, and payment integration. The instant reservation management feature has enhanced the brand image and increased customer loyalty – Germ-Guard reported an astonishing 70% in progress within just days of launching the app!</p>
+  const headingbanner = <h1 className='white fontf font-bold'>GERM-GUARD</h1>
+  const para1 = <h3 className='white fontf font-bold'>Bacteria-Free Living <br /> Made Possible With <br /> Our Shield App!.</h3>
+  const para2 = <p className='white fontf font-medium'>BitsWits created a scalable and personalized cleaning services application with effortless appointment scheduling, booking, and payment integration. The instant reservation management feature has enhanced the brand image and increased customer loyalty – Germ-Guard reported an astonishing 70% in progress within just days of launching the app!</p>
 
   const CaseOverView = [
     {
@@ -63,26 +63,26 @@ export default function bacteriaapp() {
     }
   ]
 
-  const demo = <h4 className='font30 fontf font-bold'>One-Tap Booking</h4>
-  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0'>With this feature, customers can easily book a cleaning service at any time of day or night without having to go through the hassle of calling multiple companies and comparing prices. Customers can also select from services such as deep cleaning, carpet cleaning, and area rug cleaning.</p>
+  const demo = <h4 className='font30 fontf font-bold white'>One-Tap Booking</h4>
+  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0 white'>With this feature, customers can easily book a cleaning service at any time of day or night without having to go through the hassle of calling multiple companies and comparing prices. Customers can also select from services such as deep cleaning, carpet cleaning, and area rug cleaning.</p>
 
-  const profile = <h4 className='font30 fontf font-bold '>Check Cleaner Availability</h4>
-  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0'>With this feature, users can check the availability of different cleaners in their area quickly and easily. It helps to ensure they get the best service at the most convenient time. It helps customers save time by allowing them to identify the best-suited cleaners for their needs quickly.</p>
+  const profile = <h4 className='font30 fontf font-bold white '>Check Cleaner Availability</h4>
+  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0 white'>With this feature, users can check the availability of different cleaners in their area quickly and easily. It helps to ensure they get the best service at the most convenient time. It helps customers save time by allowing them to identify the best-suited cleaners for their needs quickly.</p>
 
-  const push = <h4 className='font30 fontf font-bold '>View Bookings</h4>
-  const push1 = <p className='font16 fontf font-medium  mt-1 mb-0'>The view bookings feature is an excellent advantage for those who need to schedule their cleaning services in advance, as it eliminates the need for phone calls or emails. This way, customers can select the date and time of their appointment, view available options for the service, and even make changes if needed.</p>
+  const push = <h4 className='font30 fontf font-bold white '>View Bookings</h4>
+  const push1 = <p className='font16 fontf font-medium  mt-1 mb-0 white'>The view bookings feature is an excellent advantage for those who need to schedule their cleaning services in advance, as it eliminates the need for phone calls or emails. This way, customers can select the date and time of their appointment, view available options for the service, and even make changes if needed.</p>
 
-  const media = <h4 className='font30 fontf font-bold '>Secure Payments</h4>
-  const media1 = <p className='font16 fontf font-medium  mt-1 mb-0'>With secure payments, customer data such as credit card numbers and other personal information are encrypted so that unauthorized third parties cannot access them. It helps protect customers from potentially fraudulent activity while also giving businesses the peace of mind that their data is safe and secure.</p>
+  const media = <h4 className='font30 fontf font-bold white '>Secure Payments</h4>
+  const media1 = <p className='font16 fontf font-medium  mt-1 mb-0 white'>With secure payments, customer data such as credit card numbers and other personal information are encrypted so that unauthorized third parties cannot access them. It helps protect customers from potentially fraudulent activity while also giving businesses the peace of mind that their data is safe and secure.</p>
 
-  const uncovered = <h2 className='font65 black fontf font-bold line60'>
+  const uncovered = <h2 className='font65 white fontf font-bold line60'>
     BitsWits <br />
     Swept Away  <br />
     The Stress Of  <br />
     Housekeeping!
   </h2>
 
-  const data = <p className='font16 black fontf font-medium line30'>
+  const data = <p className='font16 white fontf font-medium line30'>
     Germ-Guard is a revolutionary new cleaning app developed by BitsWits that makes housekeeping a breeze. With Germ-Guard, users can easily keep track of their cleaning schedule and tasks with a click of a button. The user-friendly interface navigates, making it perfect for busy households...
   </p>
 
@@ -95,7 +95,7 @@ export default function bacteriaapp() {
 
   const code1 = <div> <span className={styles.left}>#B266FE</span> </div>
   const code2 = <div> <span className={styles.right}>#000000</span>  </div>
-  const heading12 = <h3 className='fontf font50 black center font-bold'>Color Harmony</h3>
+  const heading12 = <h3 className='fontf font50 white center font-bold'>Color Harmony</h3>
 
 
   return (
@@ -106,10 +106,6 @@ export default function bacteriaapp() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
-      {/* {showComponent && (
-        <Rated />
-      )} */}
 
       <Banner
         title={headingbanner}
