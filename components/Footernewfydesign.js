@@ -193,10 +193,10 @@ const Footerlp = () => {
                 </div>
                 <ul className='p-0 mb-lg-1'>
                   <li>
-                    <Link href="#">Contact Us</Link>
+                    <Link href="/contact-us">Contact Us</Link>
                   </li>
                   <li>
-                    <Link href="#">About Us</Link>
+                    <Link href="/about-us">About Us</Link>
                   </li>
                   <li>
                     <Link href="#">Works</Link>
