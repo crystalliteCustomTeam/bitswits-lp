@@ -311,12 +311,12 @@ const Footerlp = () => {
                 <div className={styles.termsMain}>
                   <ul className={`${styles.termsCo} p-0 mb-0`}>
                     <li>
-                      <Link href="#">Terms of Use</Link>
+                      <Link href="/term-and-condition">Terms of Use</Link>
                     </li>
                     <li>
                       <p className="f-montserrat f-12 white f-500 mb-0 white"> | </p></li>
                     <li>
-                      <Link href="#">Privacy Policy</Link>
+                      <Link href="/privacy-policy">Privacy Policy</Link>
                     </li>
                   </ul>
                 </div>
