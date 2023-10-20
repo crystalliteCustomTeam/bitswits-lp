@@ -26,7 +26,7 @@ function Banners() {
                 </div>
 
                 <Container>
-                    <Row className='gy-3'>
+                    <Row className={` ${style.mood} gy-3`}>
                         <Col lg={6}>
                             <div className='point zindx'>
                                 <div className={style.Lcontent}>
