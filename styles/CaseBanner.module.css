@@ -1,0 +1,33 @@
+.banner {
+  background: #000;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0 100px;
+}
+
+.banSec {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banSec h1 {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* =============================== */
+
+.graceMonkey {
+  background-image: url(../public/images/case-monkey/banner-bg.png);
+}
+
+@media screen and (max-width: 767px) {
+  .banner {
+    padding: 50px 0 50px;
+  }
+}

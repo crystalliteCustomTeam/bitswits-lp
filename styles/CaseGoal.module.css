@@ -1,0 +1,49 @@
+.goal {
+  background: #000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.goal h3 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.secImg {
+  margin-top: -80px;
+}
+
+/* ============================= */
+
+.graceMonkey {
+  background-image: url(../public/images/case-monkey/goal-bg.png);
+}
+
+@media screen and (max-width: 991px) {
+  .goal {
+    padding: 50px 0 0;
+  }
+
+  .goalRow {
+    flex-direction: column-reverse;
+  }
+
+  .secImg {
+    margin-top: 20px;
+  }
+
+  .goal h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .goal h3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
