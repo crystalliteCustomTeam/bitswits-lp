@@ -60,7 +60,7 @@ export default function GreaceMonkey() {
             <CaseGlamic
                 title={<> About Glamic:For </>}
                 text1={<> A platform that offers beauty services and earning opportunities all under one roof. Glow and grow with the Glamic app offering an incredible user experience. </>}
-                text2={<> Cubix shakes hands with Glamic to create a business-to-consumer Android and iOS app-based platform where pro beauticians and stylists are crowded and can list their services through the service provider interface. </>}
+                text2={<> BitsWits shakes hands with Glamic to create a business-to-consumer Android and iOS app-based platform where pro beauticians and stylists are crowded and can list their services through the service provider interface. </>}
                 subtitle={<> Looking for <br /> something similar? </>}
                 subtext={<> Our consultants are ready to hear your idea. Request a free consultation with our app experts and transform it into a digital reality. </>}
                 foldImg={glamicImg}
@@ -70,7 +70,7 @@ export default function GreaceMonkey() {
                 title3={<> Where We Started: </>}
                 text5={<> The idea behind the Glamic app is to create a pooled connection and link fashion experts and consumers in Canada. The excessive consumption of time, fuel, and impersonal efforts were the main reasons for the emergence of the Glamic app. </>}
                 text6={<> However, things have changed a lot after Glamic stepped in; individuals can now avail the services from nearby fashion experts right away by just tapping on the Glamic app to find the listed service providers. A hassle-free journey for consumers and service providers. </>}
-                text7={<> The client approached Cubix with this idea, and as usual, Cubix initiated the pre-development phase of Glamic right from scratch by strictly sticking up to the core concept of the client. As the client wanted the app for both the Android and Apple stores, the best option is to opt for the native ground, and so the expert team of Cubix did by choosing React Native as a tech for the front end and Node.js for the backend of the app. </>}
+                text7={<> The client approached BitsWits with this idea, and as usual, BitsWits initiated the pre-development phase of Glamic right from scratch by strictly sticking up to the core concept of the client. As the client wanted the app for both the Android and Apple stores, the best option is to opt for the native ground, and so the expert team of BitsWits did by choosing React Native as a tech for the front end and Node.js for the backend of the app. </>}
             />
 
             <CaseWants
@@ -84,14 +84,14 @@ export default function GreaceMonkey() {
                 text7={<> Real-time chat connection between consumers and service providers </>}
                 text8={<> An efficient Payment Module with diverse options </>}
 
-                title2={<> The Challenges Cubix Faces During This Project </>}
+                title2={<> The Challenges BitsWits Faces During This Project </>}
                 text9={<> A functional Native App (Android + iOS) </>}
                 text10={<> Stunning App Interface </>}
                 text11={<> Consumer and Service Provider Profiles </>}
                 text12={<> Onboarding of Authorized Service Provider Professionals </>}
                 text13={<> Easy consumer accessibility to the service provider listings </>}
 
-                title3={<> Cubix' Role: </>}
+                title3={<> BitsWits' Role: </>}
                 text14={<> A functional Native App (Android + iOS) </>}
                 text15={<> Stunning App Interface </>}
                 text16={<> Consumer and Service Provider Profiles </>}
@@ -100,7 +100,7 @@ export default function GreaceMonkey() {
                 text19={<> A Super Admin Panel that manages all kinds of queries/ appointments/ payments </>}
                 text20={<> Real-time chat connection between consumers and service providers </>}
                 text21={<> An efficient Payment Module with diverse options </>}
-                para={<> Glamic opted for Cubix as they wanted a development partner who understood their goals and shared the same business values. Cubix's role in the development sector was not different; the team of Cubix expressed all that they got in their pace to make this Glamic project shine. </>}
+                para={<> Glamic opted for BitsWits as they wanted a development partner who understood their goals and shared the same business values. BitsWits's role in the development sector was not different; the team of BitsWits expressed all that they got in their pace to make this Glamic project shine. </>}
                 wantsClass='graceMonkey'
             />
 
@@ -112,17 +112,17 @@ export default function GreaceMonkey() {
 
             <CaseOvercoming
                 title1={<> Overcoming the Challenges: </>}
-                text1={<> As among the top-tier app development firms, Cubix always has a magic wand in the guise of competent developers that wows the clients with the greatest outcomes. </>}
+                text1={<> As among the top-tier app development firms, BitsWits always has a magic wand in the guise of competent developers that wows the clients with the greatest outcomes. </>}
                 title2={<> Hybrid Development Approach </>}
-                text2={<> Instead of sticking to a linear development approach, Cubix used a Hybrid approach that includes a Waterfall Approach to target the project end date as well as an Agile approach to accept changes and mold the project in any direction at any phase of development. </>}
+                text2={<> Instead of sticking to a linear development approach, BitsWits used a Hybrid approach that includes a Waterfall Approach to target the project end date as well as an Agile approach to accept changes and mold the project in any direction at any phase of development. </>}
                 title3={<> Tackling Time-zone Clashes </>}
                 text3={<> The core challenge was managing time zones throughout the app to enable millions of users from diverse parts of Canada to view their services and availability periods. To address this, developers created an effective model that instructs the system to display the service providers' available hours according to time zone and integrated the Google Map API for geolocation-related issues. </>}
                 title4={<> Bridging Communication Gap </>}
-                text4={<> Cubix integrated Rocket Chat as a one-on-one end-to-end encrypted chat resource for consumers and service providers, offering chat confidentiality and mitigating misinterpretation to bridge the communication gap. </>}
+                text4={<> BitsWits integrated Rocket Chat as a one-on-one end-to-end encrypted chat resource for consumers and service providers, offering chat confidentiality and mitigating misinterpretation to bridge the communication gap. </>}
                 title5={<> Payment Disputes </>}
-                text5={<> Cubix used the Stripe payment method to manage all types of transactions that took place within the application and created an automated dispute portal to deal with the concerns of payment disputes. Cubix proceeded with a profile-based criterion to provide consumer reviews and ratings to address the trust issues. </>}
+                text5={<> BitsWits used the Stripe payment method to manage all types of transactions that took place within the application and created an automated dispute portal to deal with the concerns of payment disputes. BitsWits proceeded with a profile-based criterion to provide consumer reviews and ratings to address the trust issues. </>}
                 title6={<> What We Delivered </>}
-                text6={<> The end product was a devastating native application with a plethora of high-end features, like pre-appointment, personalized schedules, freelancer profiles, online payment facility, in-app real-time chat, admin/consumer/service provider interfaces, reviews, and ratings, making it easy to rely on and recommend. The client was truly enamored and expressed heartfelt kudos to the committed staff at Cubix for their exceptional job. </>}
+                text6={<> The end product was a devastating native application with a plethora of high-end features, like pre-appointment, personalized schedules, freelancer profiles, online payment facility, in-app real-time chat, admin/consumer/service provider interfaces, reviews, and ratings, making it easy to rely on and recommend. The client was truly enamored and expressed heartfelt kudos to the committed staff at BitsWits for their exceptional job. </>}
             />
 
             <CaseAnimate
