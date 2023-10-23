@@ -1,7 +1,7 @@
 .wants {
   padding: 100px 0 250px;
   background: #000;
-  background-size: 60%;
+  background-size: 50%;
   background-position: 1230px 140px;
   background-repeat: no-repeat;
 }
@@ -32,23 +32,233 @@
   background-image: url(../public/images/case-monkey/want-bg.png);
 }
 
-@media screen and (max-width: 1600px) {
+.cravecourier {
+  background-image: url(../public/images/case-crave/want-bg.png);
+  background-position: 1170px 335px;
+  background-size: 50%;
+}
+
+.homepro {
+  background-image: url(../public/images/case-homepro/want-bg.png);
+  background-position: 1310px 145px;
+  background-size: 50%;
+}
+
+.readyApp {
+  background-image: url(../public/images/case-ready/want-bg.png);
+  background-position: 1220px 350px;
+  background-size: 50%;
+}
+
+.soulscribe {
+  background-image: url(../public/images/case-scribe/want-bg.png);
+  background-position: 1350px 150px;
+  background-size: 50%;
+}
+
+.fitnow {
+  background-image: url(../public/images/case-fitnow/want-bg.png);
+  background-position: 1200px 550px;
+  background-size: 45%;
+}
+
+.beats {
+  background-image: url(../public/images/case-beats/want-bg.png);
+  background-position: 1170px 435px;
+  background-size: 70%;
+}
+
+/* ========================================== */
+
+@media screen and (max-width: 1690px) {
   .wants {
     background-size: 60%;
-    background-position: 900px 140px;
+    background-position: 950px 140px;
+  }
+
+  .cravecourier {
+    background-position: 1000px 355px;
+    background-size: 50%;
+  }
+
+  .homepro {
+    background-position: 1095px 250px;
+    background-size: 45%;
+  }
+
+  .readyApp {
+    background-position: 1020px 350px;
+    background-size: 50%;
+  }
+
+  .soulscribe {
+    background-position: 1130px 160px;
+    background-size: 50%;
+  }
+
+  .fitnow {
+    background-position: 1000px 550px;
+    background-size: 45%;
+  }
+
+  .beats {
+    background-position: 970px 435px;
+    background-size: 70%;
   }
 }
 
-@media screen and (max-width: 1390px) {
+/* ========================================== */
+
+@media screen and (max-width: 1590px) {
   .wants {
     background-size: 60%;
-    background-position: 900px 180px;
+    background-position: 950px 140px;
+  }
+
+  .cravecourier {
+    background-position: 1000px 355px;
+    background-size: 50%;
+  }
+
+  .homepro {
+    background-position: 1095px 250px;
+    background-size: 45%;
+  }
+
+  .readyApp {
+    background-position: 980px 350px;
+    background-size: 50%;
+  }
+
+  .soulscribe {
+    background-position: 1090px 260px;
+    background-size: 50%;
+  }
+
+  .fitnow {
+    background-position: 960px 550px;
+    background-size: 45%;
+  }
+
+  .beats {
+    background-position: 1020px 435px;
+    background-size: 60%;
   }
 }
+
+/* ========================================== */
+
+@media screen and (max-width: 1440px) {
+  .wants {
+    background-size: 60%;
+    background-position: 950px 140px;
+  }
+
+  .cravecourier {
+    background-position: 900px 335px;
+    background-size: 50%;
+  }
+
+  .homepro {
+    background-position: 1000px 250px;
+    background-size: 50%;
+  }
+
+  .readyApp {
+    background-position: 910px 350px;
+    background-size: 50%;
+  }
+
+  .soulscribe {
+    background-position: 1020px 300px;
+    background-size: 50%;
+  }
+
+  .fitnow {
+    background-position: 900px 550px;
+    background-size: 45%;
+  }
+
+  .beats {
+    background-position: 950px 435px;
+    background-size: 60%;
+  }
+}
+
+/* ========================================== */
+
+@media screen and (max-width: 1390px) {
+  .wants {
+    background-size: 55%;
+    background-position: 900px 250px;
+  }
+
+  .cravecourier {
+    background-position: 900px 335px;
+    background-size: 50%;
+  }
+
+  .readyApp {
+    background-position: 970px 450px;
+    background-size: 40%;
+  }
+
+  .soulscribe {
+    background-position: 1050px 400px;
+    background-size: 40%;
+  }
+
+  .fitnow {
+    background-position: 910px 550px;
+    background-size: 40%;
+  }
+
+  .beats {
+    background-position: 900px 450px;
+    background-size: 60%;
+  }
+}
+
+/* ========================================== */
+
+@media screen and (max-width: 1290px) {
+  .wants {
+    background-size: 40%;
+    background-position: 900px 340px;
+  }
+
+  .cravecourier {
+    background-position: 850px 335px;
+    background-size: 45%;
+  }
+
+  .readyApp {
+    background-position: 900px 450px;
+    background-size: 40%;
+  }
+
+  .soulscribe {
+    background-position: 900px 400px;
+    background-size: 50%;
+  }
+
+  .fitnow {
+    background-position: 850px 600px;
+    background-size: 40%;
+  }
+
+  .beats {
+    background-position: 880px 450px;
+    background-size: 55%;
+  }
+}
+
+/* ========================================== */
 
 @media screen and (max-width: 991px) {
   .wants {
     padding: 50px 0 150px;
+    background-image: none;
   }
 
   .wants h3 {
@@ -56,6 +266,8 @@
     line-height: 50px;
   }
 }
+
+/* ========================================== */
 
 @media screen and (max-width: 767px) {
   .wants {

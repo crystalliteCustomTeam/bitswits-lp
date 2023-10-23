@@ -15,7 +15,7 @@
   border-right: 0;
 }
 
-.neuport{
+.neuport {
   margin-top: 55%;
 }
 .header.trans {
@@ -51,7 +51,7 @@
   display: flex;
 }
 
-.megpost li{
+.megpost li {
   height: 6.5%;
 }
 
@@ -299,7 +299,7 @@
   background-color: #1c1c1cc2;
   padding: 20px;
   border-radius: 10px;
-  /* height: 365px; */
+  height: 100%;
 }
 
 .workBox {
@@ -423,9 +423,7 @@
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 1600px) {
-
-
-  .neuport{
+  .neuport {
     margin-top: 35%;
   }
 
@@ -442,29 +440,23 @@
 @media screen and (min-width: 1440px) {
   .megaMenu1,
   .megaMenu2,
-  .megaMenu3{
+  .megaMenu3 {
     height: auto;
-  }
-
-  .megaMenu4 {
-    height: 650px;
   }
 }
 
 @media screen and (max-width: 1440px) {
   .listBody ul {
     height: 370px;
-
   }
 
   .listImg,
   .megaMenu2 .listBody ul {
     height: 300px;
-    
   }
 
-  .megaMenu2 {
-    height: 60vh;
+  .megaMenu4 {
+    padding: 30px 20px;
   }
 }
 
@@ -477,9 +469,9 @@
     height: 70vh;
   }
 
-  .megaMenu4 {
+  /* .megaMenu4 {
     height: 70vh;
-  }
+  } */
 }
 
 @media screen and (max-width: 1280px) {

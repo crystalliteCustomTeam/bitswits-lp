@@ -1,15 +1,13 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
-import styles from '@/styles/ColorHarmony.module.css'
 //components
-import Banner from '@/components/SoulBanner'
-import OverView from '@/components/OverView'
-import Challenge from '@/components/Challenge';
-import Solutions from '@/components/Solutions';
-import Profilecreation from '@/components/Profilecreation'
-import ColorHarmony from '@/components/ColorHarmony';
-import Horizons from '@/components/Horizons';
-import SoulCTA from '@/components/SoulCTA';
+import Banner from '@/components/CaseBanner'
+import CaseGlamic from '@/components/CaseGlamic';
+import CaseWants from '@/components/CaseWants';
+import CaseGoal from '@/components/CaseGoal';
+import CaseOvercoming from '@/components/CaseOvercoming';
+import CaseAnimate from '@/components/CaseAnimate';
+import CaseServices from '@/components/CaseServices';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import Capabilities from '@/components/Capabilities';
 import NewHomeSlider from '@/components/NewHomeSlider';
@@ -18,8 +16,14 @@ import Homenextproject from '@/components/Homenextproject';
 import Faqs from '@/components/NewhomeFaqs';
 import HomeLocation from '@/components/HomeLocation';
 //images
-import foldImg from '../public/images/case-soul-sound/beats.png'
-import foldImg00 from '../public/images/case-soul-sound/horizons.svg'
+import banLogo from '../public/images/case-monkey/banner-logo.png'
+import banImg from '../public/images/case-monkey/banner-img.png'
+import glamicImg from '../public/images/case-monkey/glamic.png'
+import goalImg from '../public/images/case-monkey/goal.png'
+import animiImg1 from '../public/images/case-monkey/animi1.png'
+import animiImg2 from '../public/images/case-monkey/animi2.png'
+import animiImg3 from '../public/images/case-monkey/animi3.png'
+import servImg from '../public/images/case-monkey/services.png'
 
 
 export default function SoulSound() {
@@ -37,75 +41,6 @@ export default function SoulSound() {
   }, []);
 
 
-  const CaseOverView = [
-    {
-      title: 'Overview',
-      text: 'Music-streaming mobile applications have been one of the most popular categories in the world of apps in recent years. This growing inclination towards music streaming is driven by the shift in music consumption behavior, where users prefer to listen to their favorite tracks on the go...',
-      imagefold: foldImg,
-      caseOverView: 'caseOverView'
-    }
-  ]
-
-  const newspan = <span>The <br /> Challenge</span>
-
-  const heading12 = <h3 className='fontf font50 white center font-bold'>Choose the no. of features as <br></br> per your requirements.</h3>
-
-  const CaseChallengs = [
-    {
-      title: newspan,
-      subtitle: 'Developed A Music Streaming App For Music Lovers To Listen To Millions Of Track.',
-      text: 'One of the primary challenges was to ensure that the music app performs exceptionally well on all platforms, i.e., Android and iOS. The client wished the app would be accessible to a broad range of users; thus, they asked us to create an app that works on all devices. The client also requested to add a feature that provides personalized recommendations based on listening habits.',
-      caseChallengs: 'caseChallengs'
-    }
-  ]
-
-  const newspan2 = <span>The <br /> Solutions</span>
-
-  const CaseSolutions = [
-    {
-      title: newspan2,
-      text: 'BitsWits utilized its intellect to address and contend with the challenges head-on. We conducted extensive research into user behavior and preferences to create a music app explicitly tailored to user`s needs and goals. We analyzed data on how best to interact with each user.',
-      caseSolution: 'caseSolution'
-    }
-  ]
-
-  const demo = <h4 className='font30 fontf font-bold white'>Profile <br></br> Creation</h4>
-  const demo1 = <p className='font16 fontf font-medium mt-1 mb-0 white'>This feature allows users to create a personalized profile containing the music they love and their preferences, allowing them to quickly find the perfect song or artist to listen to each time they open the app.</p>
-
-  const profile = <h4 className='font30 fontf font-bold white '>Music <br></br> Recommendation</h4>
-  const profile1 = <p className='font16 fontf font-medium  mt-1 mb-0 white'>This feature lets customers quickly find the perfect songs for their mood or occasion. The music recommendation feature also increases user engagement, as it keeps users returning to the app by regularly providing fresh content.</p>
-
-  const push = <h4 className='font30 fontf font-bold white '>Push <br></br> Notifications</h4>
-  const push1 = <p className='font16 fontf font-medium  mt-1 mb-0 white'>With the help of this feature, Soul Sound can send highly customized messages for various scenarios. And this, in turn, can help increase user engagement and retention.</p>
-
-  const media = <h4 className='font30 fontf font-bold white '>Social <br></br> Media Integration</h4>
-  const media1 = <p className='font16 fontf font-medium  mt-1 mb-0 white'>This innovative feature allows users to easily share their favorite songs and albums with friends, family, and the public. It helps promote their favorite music or artist to a broader audience.</p>
-
-  const music = <p className='font20 fontf font-bold white mb-4'>The following are some features we incorporated during the music app development:</p>
-
-
-  const uncovered = <h2 className='font65 white fontf font-bold line60'>
-    BitsWits <br />
-    Uncovered <br />
-    New Musical <br />
-    Horizons!
-  </h2>
-
-  const data = <p className='font16 white fontf font-medium line30'>
-    The experienced team working at BitsWits assisted Soul Sound in music streaming app development. We developed wireframes and prototypes that enabled us to test potential solutions quickly and iteratively. Not only this, but we also came up with a feature for users to create and save custom playlists from resolving the concern regarding limited customization options. Additionally, Soul Sound now includes a curated music library that can be filtered and sorted according to genre, artist, or other criteria. It helps users find the perfect music for any occasion.
-  </p>
-
-  const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
-    BitsWits <br />
-    Uncovered <br />
-    New Musical <br />
-    Horizons!
-  </h2>
-
-  const code1 = <div className={styles.soulHarmony}> <span className={styles.left}>#E4F81E</span> </div>
-  const code2 = <div className={styles.soulHarmony}> <span className={styles.right}>#000000</span> </div>
-
-
   return (
     <>
       <Head>
@@ -115,66 +50,95 @@ export default function SoulSound() {
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 
-      <Banner />
-
-      {CaseOverView.map((item, i) =>
-        <OverView key={i}
-          title={item.title}
-          text={item.text}
-          imagefold={item.imagefold}
-          caseOverView={item.caseOverView}
-        />
-      )}
-
-      {CaseChallengs.map((item, i) =>
-        <Challenge key={i}
-          title={item.title}
-          text={item.text}
-          caseChallengs={item.caseChallengs}
-        />
-      )}
-
-      {CaseSolutions.map((item, i) =>
-        <Solutions key={i}
-          title={item.title}
-          text={item.text}
-          caseSolution={item.caseSolution}
-        />
-      )}
-
-      <Profilecreation
-        demo={demo}
-        demo1={demo1}
-        profile={profile}
-        profile1={profile1}
-        push={push}
-        push1={push1}
-        media={media}
-        media1={media1}
-        part='true'
-        part1='true'
-        music={music}
+      <Banner
+        banLogo={banLogo}
+        title={<> Quality Repairs, Lasting Results. </>}
+        banImg={banImg}
+        bannerClass='graceMonkey'
       />
 
-
-      <ColorHarmony
-        heading={heading12}
-        colorbx1='true'
-        left={code1}
-        right={code2}
+      <CaseGlamic
+        title={<> About Glamic:For </>}
+        text1={<> A platform that offers beauty services and earning opportunities all under one roof. Glow and grow with the Glamic app offering an incredible user experience. </>}
+        text2={<> BitsWits shakes hands with Glamic to create a business-to-consumer Android and iOS app-based platform where pro beauticians and stylists are crowded and can list their services through the service provider interface. </>}
+        subtitle={<> Looking for <br /> something similar? </>}
+        subtext={<> Our consultants are ready to hear your idea. Request a free consultation with our app experts and transform it into a digital reality. </>}
+        foldImg={glamicImg}
+        title2={<> Be Glamorous and Gorgeous Always! - Glamic </>}
+        text3={<> Glamic is a mobile application that offers an independent platform to search instantly and conveniently book appointments with trusted freelance makeup artists, hairdressers, stylists, beauty specialists, etc., nearby their location. </>}
+        text4={<> The app provides an opportunity for beauty professionals to promote their services seamlessly by setting up their professional profiles on the service provider interface. The app has three user personas: the consumer interface, the service provider interface, and the App admin panel (web). </>}
+        title3={<> Where We Started: </>}
+        text5={<> The idea behind the Glamic app is to create a pooled connection and link fashion experts and consumers in Canada. The excessive consumption of time, fuel, and impersonal efforts were the main reasons for the emergence of the Glamic app. </>}
+        text6={<> However, things have changed a lot after Glamic stepped in; individuals can now avail the services from nearby fashion experts right away by just tapping on the Glamic app to find the listed service providers. A hassle-free journey for consumers and service providers. </>}
+        text7={<> The client approached BitsWits with this idea, and as usual, BitsWits initiated the pre-development phase of Glamic right from scratch by strictly sticking up to the core concept of the client. As the client wanted the app for both the Android and Apple stores, the best option is to opt for the native ground, and so the expert team of BitsWits did by choosing React Native as a tech for the front end and Node.js for the backend of the app. </>}
       />
 
+      <CaseWants
+        title={<> What Client Wants: </>}
+        text1={<> A functional Native App (Android + iOS) </>}
+        text2={<> Stunning App Interface </>}
+        text3={<> Consumer and Service Provider Profiles </>}
+        text4={<> Onboarding of Authorized Service Provider Professionals </>}
+        text5={<> Easy consumer accessibility to the service provider listings </>}
+        text6={<> A Super Admin Panel that manages all kinds of queries/ appointments/ payments </>}
+        text7={<> Real-time chat connection between consumers and service providers </>}
+        text8={<> An efficient Payment Module with diverse options </>}
 
-      <Horizons
-        uncovered={uncovered}
-        foldImg00={foldImg00}
-        data={data}
+        title2={<> The Challenges BitsWits Faces During This Project </>}
+        text9={<> A functional Native App (Android + iOS) </>}
+        text10={<> Stunning App Interface </>}
+        text11={<> Consumer and Service Provider Profiles </>}
+        text12={<> Onboarding of Authorized Service Provider Professionals </>}
+        text13={<> Easy consumer accessibility to the service provider listings </>}
+
+        title3={<> BitsWits' Role: </>}
+        text14={<> A functional Native App (Android + iOS) </>}
+        text15={<> Stunning App Interface </>}
+        text16={<> Consumer and Service Provider Profiles </>}
+        text17={<> Onboarding of Authorized Service Provider Professionals </>}
+        text18={<> Easy consumer accessibility to the service provider listings </>}
+        text19={<> A Super Admin Panel that manages all kinds of queries/ appointments/ payments </>}
+        text20={<> Real-time chat connection between consumers and service providers </>}
+        text21={<> An efficient Payment Module with diverse options </>}
+        para={<> Glamic opted for BitsWits as they wanted a development partner who understood their goals and shared the same business values. BitsWits's role in the development sector was not different; the team of BitsWits expressed all that they got in their pace to make this Glamic project shine. </>}
+        wantsClass='graceMonkey'
       />
 
-      <SoulCTA
-        headfire={headfire}
-        soulCta='soulCta'
+      <CaseGoal
+        golImg={goalImg}
+        title={<> Take a step toward your beauty goals from the comfort of your couch with just a few taps on our app! </>}
+        goalClass='graceMonkey'
       />
+
+      <CaseOvercoming
+        title1={<> Overcoming the Challenges: </>}
+        text1={<> As among the top-tier app development firms, BitsWits always has a magic wand in the guise of competent developers that wows the clients with the greatest outcomes. </>}
+        title2={<> Hybrid Development Approach </>}
+        text2={<> Instead of sticking to a linear development approach, BitsWits used a Hybrid approach that includes a Waterfall Approach to target the project end date as well as an Agile approach to accept changes and mold the project in any direction at any phase of development. </>}
+        title3={<> Tackling Time-zone Clashes </>}
+        text3={<> The core challenge was managing time zones throughout the app to enable millions of users from diverse parts of Canada to view their services and availability periods. To address this, developers created an effective model that instructs the system to display the service providers' available hours according to time zone and integrated the Google Map API for geolocation-related issues. </>}
+        title4={<> Bridging Communication Gap </>}
+        text4={<> BitsWits integrated Rocket Chat as a one-on-one end-to-end encrypted chat resource for consumers and service providers, offering chat confidentiality and mitigating misinterpretation to bridge the communication gap. </>}
+        title5={<> Payment Disputes </>}
+        text5={<> BitsWits used the Stripe payment method to manage all types of transactions that took place within the application and created an automated dispute portal to deal with the concerns of payment disputes. BitsWits proceeded with a profile-based criterion to provide consumer reviews and ratings to address the trust issues. </>}
+        title6={<> What We Delivered </>}
+        text6={<> The end product was a devastating native application with a plethora of high-end features, like pre-appointment, personalized schedules, freelancer profiles, online payment facility, in-app real-time chat, admin/consumer/service provider interfaces, reviews, and ratings, making it easy to rely on and recommend. The client was truly enamored and expressed heartfelt kudos to the committed staff at BitsWits for their exceptional job. </>}
+      />
+
+      <CaseAnimate
+        animiImg1={animiImg1}
+        animiImg2={animiImg2}
+        animiImg3={animiImg3}
+      />
+
+      <CaseServices
+        title={<> Services:For </>}
+        text1={<> Native Mobile App Development </>}
+        text2={<> Stunning UI/UX Design </>}
+        text3={<> Consumer/ Service Provider Interface </>}
+        servImg={servImg}
+      />
+
       <NewHomeGlobal />
       <Capabilities />
       <NewHomeSlider />
@@ -182,6 +146,7 @@ export default function SoulSound() {
       <Homenextproject />
       <Faqs />
       <HomeLocation />
+
     </>
   )
 }

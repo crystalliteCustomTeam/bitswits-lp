@@ -3,9 +3,10 @@
   padding-bottom: 100px;
 }
 
-.secImg2{
-    margin-top: -50px;
+.imgBox{
+  text-align: center;
 }
+
 
 @media screen and (max-width: 767px) {
   .animate {

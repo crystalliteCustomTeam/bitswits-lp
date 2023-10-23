@@ -1,16 +1,13 @@
 import Head from 'next/head'
-import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
-import styles from '@/styles/ColorHarmony.module.css'
 //components
-import Banner from '@/components/HealthBanner'
-import OverView from '@/components/OverView'
-import Challenge from '@/components/Challenge';
-import Solutions from '@/components/Solutions';
-import Profilecreation from '@/components/Profilecreation'
-import ColorHarmony from '@/components/ColorHarmony';
-import Horizons from '@/components/Horizons';
-import SoulCTA from '@/components/SoulCTA';
+import Banner from '@/components/CaseBanner'
+import CaseGlamic from '@/components/CaseGlamic';
+import CaseWants from '@/components/CaseWants';
+import CaseGoal from '@/components/CaseGoal';
+import CaseOvercoming from '@/components/CaseOvercoming';
+import CaseAnimate from '@/components/CaseAnimate';
+import CaseServices from '@/components/CaseServices';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import Capabilities from '@/components/Capabilities';
 import NewHomeSlider from '@/components/NewHomeSlider';
@@ -19,8 +16,14 @@ import Homenextproject from '@/components/Homenextproject';
 import Faqs from '@/components/NewhomeFaqs';
 import HomeLocation from '@/components/HomeLocation';
 //images
-import foldImg from '../public/images/case-health/foldimg.png'
-import foldImg00 from '../public/images/case-health/horizons.png'
+import banLogo from '../public/images/case-monkey/banner-logo.png'
+import banImg from '../public/images/case-monkey/banner-img.png'
+import glamicImg from '../public/images/case-monkey/glamic.png'
+import goalImg from '../public/images/case-monkey/goal.png'
+import animiImg1 from '../public/images/case-monkey/animi1.png'
+import animiImg2 from '../public/images/case-monkey/animi2.png'
+import animiImg3 from '../public/images/case-monkey/animi3.png'
+import servImg from '../public/images/case-monkey/services.png'
 
 
 export default function prohealth() {
@@ -38,69 +41,6 @@ export default function prohealth() {
   }, []);
 
 
-  const CaseOverView = [
-    {
-      title: 'Overview',
-      text: 'Pro Health has been operating as a local pharmacy in the USA since 1965. The company takes great pleasure in providing timely service and giving patients a one-stop shop for their medication requirements. Among the many services offered by Pro Health, some of the most common are terminal illness care services, medication synchronization, and drug flavoring.',
-      imagefold: foldImg,
-      caseOverView: 'caseOverView'
-    }
-  ]
-
-  const newspan = <span>The <br /> Problem</span>
-
-  const CaseChallengs = [
-    {
-      title: newspan,
-      text2: 'Many pharmaceutical applications usually take a "one-and-done" method, meaning: they create an app but don`t continue to maintain it or make it user-friendly. The same was the case with Pro Health. Though the company launched the app but failed to keep the app updated according to the modern developments in the pharmaceutical sector.',
-      caseChallengs: 'caseChallengs'
-    }
-  ]
-
-  const newspan2 = <span>The <br /> Solutions</span>
-
-  const CaseSolutions = [
-    {
-      title: newspan2,
-      text: 'The professionals of BitsWits accepted this challenged and poured in a lot of hard work to build a responsive and user-friendly pharma app that complies with the relevant laws. Our pharma mobile app developers have spent years creating cutting-edge mobile apps for consumers in the retail and pharmaceutical industries. We deployed the following features to ensure a well-functioning app:',
-      caseSolution: 'caseSolution'
-    }
-  ]
-
-  const demo = <h4 className='font30 fontf font-bold white'>Sign In</h4>
-  const demo1 = <p className='font16 fontf white font-medium mt-1 mb-0'>To make food ordering a breeze, the professionals at BitsWits devised sign-in and sign-up options that offer customers expedited access to their contact information. Furthermore, the app is designed with quick navigation features so customers can find what they are looking for effortlessly. With this simple setup, updating customer details whenever desired has never been easier.</p>
-
-  const profile = <h4 className='font30 fontf font-bold white '>Coupon</h4>
-  const profile1 = <p className='font16 fontf white font-medium  mt-1 mb-0'>We incorporated discounts and vouchers into customer profiles and website headers. The original price is no longer presented on any page, while the current prices are highlighted in bold red for an eye-catching effect. Plus, customers who no longer wish to take advantage of these deals can opt-out at their convenience.</p>
-
-  const push = <h4 className='font30 fontf font-bold white '>Secure Payment Method</h4>
-  const push1 = <p className='font16 fontf white font-medium  mt-1 mb-0'>We incorporated discounts and vouchers into customer profiles and website headers. The original price is no longer presented on any page, while the current prices are highlighted in bold red for an eye-catching effect. Plus, customers who no longer wish to take advantage of these deals can opt-out at their convenience.</p>
-
-  const media = <h4 className='font30 fontf font-bold white '>Reviews And Ratings</h4>
-  const media1 = <p className='font16 fontf white font-medium  mt-1 mb-0'>By introducing the review and rating feature on the app, customers can now conveniently assess different restaurants based on the items listed. This way, they will reap all the benefits from simply providing valuable feedback.</p>
-
-  const heading = <h2 className='font50 white fontf font-bold line60 text-center mx-auto'>
-    Color Harmony
-  </h2>
-  const left = <div className={styles.left}>#7586D4</div>
-  const mid = <div className={styles.mid}>#000000</div>
-  const right = <div className={styles.right}>#EDEFF5</div>
-
-  const uncovered = <h2 className='font65 white fontf font-bold line60'>
-    BitsWits Helped <br /> Put Medicine <br /> Within Reach!
-  </h2>
-  const data2 = <p className='font16 white fontf font-medium line30'>
-    The launch of the newly-made pharma mobile application was a success, with millions of people downloading the app within the first few months. The app received positive customer reviews, most praising its user-friendly design and helpful features. As a result, BitsWits made it possible for Pro Health to broaden its reach and reach a broad range of audiences through the app...<Link href="#"> Read More</Link>
-  </p>
-
-  const headfire = <h2 className='font50 white fontN font-bold line60 mb-0'>
-    BitsWits <br />
-    Uncovered <br />
-    New Musical <br />
-    Horizons!
-  </h2>
-
-
   return (
     <>
       <Head>
@@ -110,69 +50,93 @@ export default function prohealth() {
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 
-      {/* {showComponent && (
-        <Rated />
-      )} */}
-
-      <Banner />
-
-      {CaseOverView.map((item, i) =>
-        <OverView key={i}
-          title={item.title}
-          text={item.text}
-          imagefold={item.imagefold}
-          caseOverView={item.caseOverView}
-        />
-      )}
-
-      {CaseChallengs.map((item, i) =>
-        <Challenge key={i}
-          title={item.title}
-          text2={item.text2}
-          caseChallengs={item.caseChallengs}
-        />
-      )}
-
-      {CaseSolutions.map((item, i) =>
-        <Solutions key={i}
-          title={item.title}
-          text={item.text}
-          caseSolution={item.caseSolution}
-        />
-      )}
-
-      <Profilecreation
-        demo={demo}
-        demo1={demo1}
-        profile={profile}
-        profile1={profile1}
-        push={push}
-        push1={push1}
-        media={media}
-        media1={media1}
-        part='true'
-        part1='true'
+      <Banner
+        banLogo={banLogo}
+        title={<> Quality Repairs, Lasting Results. </>}
+        banImg={banImg}
+        bannerClass='graceMonkey'
       />
 
-      <ColorHarmony
-        heading={heading}
-        left={left}
-        mid={mid}
-        right={right}
-        colorbx1=''
-        colorbx2='true'
-        caseHarmony='health'
+      <CaseGlamic
+        title={<> About Glamic:For </>}
+        text1={<> A platform that offers beauty services and earning opportunities all under one roof. Glow and grow with the Glamic app offering an incredible user experience. </>}
+        text2={<> BitsWits shakes hands with Glamic to create a business-to-consumer Android and iOS app-based platform where pro beauticians and stylists are crowded and can list their services through the service provider interface. </>}
+        subtitle={<> Looking for <br /> something similar? </>}
+        subtext={<> Our consultants are ready to hear your idea. Request a free consultation with our app experts and transform it into a digital reality. </>}
+        foldImg={glamicImg}
+        title2={<> Be Glamorous and Gorgeous Always! - Glamic </>}
+        text3={<> Glamic is a mobile application that offers an independent platform to search instantly and conveniently book appointments with trusted freelance makeup artists, hairdressers, stylists, beauty specialists, etc., nearby their location. </>}
+        text4={<> The app provides an opportunity for beauty professionals to promote their services seamlessly by setting up their professional profiles on the service provider interface. The app has three user personas: the consumer interface, the service provider interface, and the App admin panel (web). </>}
+        title3={<> Where We Started: </>}
+        text5={<> The idea behind the Glamic app is to create a pooled connection and link fashion experts and consumers in Canada. The excessive consumption of time, fuel, and impersonal efforts were the main reasons for the emergence of the Glamic app. </>}
+        text6={<> However, things have changed a lot after Glamic stepped in; individuals can now avail the services from nearby fashion experts right away by just tapping on the Glamic app to find the listed service providers. A hassle-free journey for consumers and service providers. </>}
+        text7={<> The client approached BitsWits with this idea, and as usual, BitsWits initiated the pre-development phase of Glamic right from scratch by strictly sticking up to the core concept of the client. As the client wanted the app for both the Android and Apple stores, the best option is to opt for the native ground, and so the expert team of BitsWits did by choosing React Native as a tech for the front end and Node.js for the backend of the app. </>}
       />
 
-      <Horizons
-        uncovered={uncovered}
-        foldImg00={foldImg00}
-        data2={data2}
+      <CaseWants
+        title={<> What Client Wants: </>}
+        text1={<> A functional Native App (Android + iOS) </>}
+        text2={<> Stunning App Interface </>}
+        text3={<> Consumer and Service Provider Profiles </>}
+        text4={<> Onboarding of Authorized Service Provider Professionals </>}
+        text5={<> Easy consumer accessibility to the service provider listings </>}
+        text6={<> A Super Admin Panel that manages all kinds of queries/ appointments/ payments </>}
+        text7={<> Real-time chat connection between consumers and service providers </>}
+        text8={<> An efficient Payment Module with diverse options </>}
+
+        title2={<> The Challenges BitsWits Faces During This Project </>}
+        text9={<> A functional Native App (Android + iOS) </>}
+        text10={<> Stunning App Interface </>}
+        text11={<> Consumer and Service Provider Profiles </>}
+        text12={<> Onboarding of Authorized Service Provider Professionals </>}
+        text13={<> Easy consumer accessibility to the service provider listings </>}
+
+        title3={<> BitsWits' Role: </>}
+        text14={<> A functional Native App (Android + iOS) </>}
+        text15={<> Stunning App Interface </>}
+        text16={<> Consumer and Service Provider Profiles </>}
+        text17={<> Onboarding of Authorized Service Provider Professionals </>}
+        text18={<> Easy consumer accessibility to the service provider listings </>}
+        text19={<> A Super Admin Panel that manages all kinds of queries/ appointments/ payments </>}
+        text20={<> Real-time chat connection between consumers and service providers </>}
+        text21={<> An efficient Payment Module with diverse options </>}
+        para={<> Glamic opted for BitsWits as they wanted a development partner who understood their goals and shared the same business values. BitsWits's role in the development sector was not different; the team of BitsWits expressed all that they got in their pace to make this Glamic project shine. </>}
+        wantsClass='graceMonkey'
       />
 
-      <SoulCTA
-        headfire={headfire}
-        soulCta='health'
+      <CaseGoal
+        golImg={goalImg}
+        title={<> Take a step toward your beauty goals from the comfort of your couch with just a few taps on our app! </>}
+        goalClass='graceMonkey'
+      />
+
+      <CaseOvercoming
+        title1={<> Overcoming the Challenges: </>}
+        text1={<> As among the top-tier app development firms, BitsWits always has a magic wand in the guise of competent developers that wows the clients with the greatest outcomes. </>}
+        title2={<> Hybrid Development Approach </>}
+        text2={<> Instead of sticking to a linear development approach, BitsWits used a Hybrid approach that includes a Waterfall Approach to target the project end date as well as an Agile approach to accept changes and mold the project in any direction at any phase of development. </>}
+        title3={<> Tackling Time-zone Clashes </>}
+        text3={<> The core challenge was managing time zones throughout the app to enable millions of users from diverse parts of Canada to view their services and availability periods. To address this, developers created an effective model that instructs the system to display the service providers' available hours according to time zone and integrated the Google Map API for geolocation-related issues. </>}
+        title4={<> Bridging Communication Gap </>}
+        text4={<> BitsWits integrated Rocket Chat as a one-on-one end-to-end encrypted chat resource for consumers and service providers, offering chat confidentiality and mitigating misinterpretation to bridge the communication gap. </>}
+        title5={<> Payment Disputes </>}
+        text5={<> BitsWits used the Stripe payment method to manage all types of transactions that took place within the application and created an automated dispute portal to deal with the concerns of payment disputes. BitsWits proceeded with a profile-based criterion to provide consumer reviews and ratings to address the trust issues. </>}
+        title6={<> What We Delivered </>}
+        text6={<> The end product was a devastating native application with a plethora of high-end features, like pre-appointment, personalized schedules, freelancer profiles, online payment facility, in-app real-time chat, admin/consumer/service provider interfaces, reviews, and ratings, making it easy to rely on and recommend. The client was truly enamored and expressed heartfelt kudos to the committed staff at BitsWits for their exceptional job. </>}
+      />
+
+      <CaseAnimate
+        animiImg1={animiImg1}
+        animiImg2={animiImg2}
+        animiImg3={animiImg3}
+      />
+
+      <CaseServices
+        title={<> Services:For </>}
+        text1={<> Native Mobile App Development </>}
+        text2={<> Stunning UI/UX Design </>}
+        text3={<> Consumer/ Service Provider Interface </>}
+        servImg={servImg}
       />
 
       <NewHomeGlobal />
