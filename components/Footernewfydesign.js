@@ -180,7 +180,7 @@ const Footerlp = () => {
                     <ul className='p-0'>
                       <li>
                         <Link href="/blockchain-development-lp" className="modal-toggle">Blockchain Development</Link>
-                        <Link href="/artificial-intelligence" className="modal-toggle">Artificial Intelligence</Link>
+                        <Link href="/artificial-intelligence-development-company" className="modal-toggle">Artificial Intelligence</Link>
                       </li>
 
                     </ul>
