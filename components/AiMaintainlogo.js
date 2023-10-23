@@ -100,9 +100,9 @@ const AndriodMaintainlogo = () => {
 
                     <Row className='g-3'>
                         <Col lg={12}>
-                            <p className={` f-20 font-bold text-white text-center mb-0`}> Go Beyond Expectations With
+                            <p className={` f-20 font-bold text-white text-center mb-0`}> Go an Extra Mile with
                             </p>
-                            <h1 className='text-white f-55 font-bold text-center pb-4'>Shaping the Future with Cutting-Edge <br></br><span className='grdiant f-50'> Artificial Intelligence  Development </span><br></br> Services</h1>
+                            <h1 className='text-white f-55 font-bold text-center pb-4'>Our Advanced  <br></br><span className='grdiant f-50'> Artificial Intelligence Development  </span><br></br> Services </h1>
 
 
                         </Col>
@@ -111,7 +111,7 @@ const AndriodMaintainlogo = () => {
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>Smart Systems</h3>
                                     <p className={styles.para}>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+                                    We create clever systems that can do tasks automatically for your business, can understand information, learn from it, and help make your work easier and faster. 
                                     </p>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@ const AndriodMaintainlogo = () => {
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>Gesture Recognition</h3>
                                     <p className={styles.para}>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+                                    BitsWits specializes in creating technology that can recognize and respond to your movements. Our systems understand gestures like hand waves or nods, allowing you to control devices effortlessly through simple motions.
                                     </p>
                                 </div>
                             </div>
@@ -129,9 +129,9 @@ const AndriodMaintainlogo = () => {
                         <Col lg={4} className={styles.earn}>
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'> Facial Recognition</h3>
+                                    <h3 className='text-white font25 font-bold'>Facial Recognition</h3>
                                     <p className={styles.para}>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+                                    Hire us to build technology that can recognize your face, just like a key unlocks a door. Our systems use your unique features to grant access and make interactions easier and more secure.
                                     </p>
                                 </div>
                             </div>
@@ -144,7 +144,7 @@ const AndriodMaintainlogo = () => {
                                         <div className={styles.paraThreeContent}>
                                             <h3 className='text-white font25 font-bold '>Location Tracking</h3>
                                             <p className={styles.para1}>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+                                            We develop location tracking technology using intelligent AI algorithms to monitor the whereabouts of people or things. Our system predicts movement patterns, assisting businesses in effectively managing their assets and making informed decisions.
                                             </p>
                                         </div>
                                     </Col>
@@ -161,7 +161,7 @@ const AndriodMaintainlogo = () => {
                                 <div>
                                     <h3 className='text-white font25 font-bold text-center'>Motion Sensing</h3>
                                     <p className={styles.possibilities}>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+                                    we merge AI algorithms with motion sensors, enabling high-precision motion detection. Our model training and optimization ensure smooth integration for real-time and reliable motion sensing capabilities.
                                     </p>
                                 </div>
                             </div>
@@ -170,9 +170,9 @@ const AndriodMaintainlogo = () => {
                         <Col sm={6} className={styles.earn}>
                             <div className={styles.app5}>
                                 <div>
-                                    <h3 className='text-white font25 font-bold text-center'>Web Conferencing</h3>
+                                    <h3 className='text-white font25 font-bold text-center'>Web Conferencing </h3>
                                     <p className={styles.possibilities}>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+                                    At BitsWits, we use smart technology to make online meetings better. Our system has features like automatic note-taking, language translation, and clear video, making virtual meetings easier and more effective.
                                     </p>
                                 </div>
                             </div>

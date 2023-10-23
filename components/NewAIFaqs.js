@@ -84,7 +84,7 @@ const NewReactFaqs = () => {
               <div className={`${faq1show ? "touch" : ""} mb-4 mb-lg-0 mt-5`}>
                 <div onClick={faq1} className={styles.heading}>
                   <h3>
-                  What is Artificial Intelligence (AI)?{" "}
+                  What AI services does BitsWits offer? {" "}
                     {faq1show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -109,7 +109,7 @@ const NewReactFaqs = () => {
 
                 <div className={faq1show ? "d-block" : "d-none"}>
                   <p>
-                  Artificial Intelligence is a branch of computer science that focuses on creating systems capable of performing tasks that typically require human intelligence. These tasks can include learning, reasoning, problem-solving, perception, and language understanding.
+                  BitsWits provides AI consulting, custom AI solutions development, and AI integration services.
 
                   </p>
                   <div className="mt-2">
@@ -124,7 +124,7 @@ const NewReactFaqs = () => {
               <div className={`${faq2show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq2} className={styles.heading}>
                   <h3>
-                  What programming languages are commonly used for AI development?{" "}
+                  How long does AI development with BitsWits usually take?{" "}
                     {faq2show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -149,7 +149,7 @@ const NewReactFaqs = () => {
 
                 <div className={faq2show ? "d-block" : "d-none"}>
                   <p>
-                  Python is the most commonly used programming language for AI development due to its simplicity, flexibility, and a rich ecosystem of AI libraries and frameworks. Other languages like R, Java, and C++ are also used in specific AI applications.
+                  The timeline depends on the project's complexity but typically ranges from a few months to a year.
                   </p>
                   <div className="mt-2">
                     <Link href="#">
@@ -163,7 +163,7 @@ const NewReactFaqs = () => {
               <div className={`${faq3show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq3} className={styles.heading}>
                   <h3>
-                  What are the main types of AI?{" "}
+                  What kind of support does BitsWits offer post-deployment?{" "}
                     {faq3show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -188,9 +188,7 @@ const NewReactFaqs = () => {
 
                 <div className={faq3show ? "d-block" : "d-none"}>
                   <p>
-                  There are typically three main types of AI:Narrow AI (Weak AI): Designed to perform a specific task, like facial recognition or language translation. <br></br>
-General AI (Strong AI): Capable of performing any intellectual task that a human can do. <br></br>
-Artificial Superintelligence: Exceeds human intelligence in all aspects.
+                  BitsWits provides ongoing support and maintenance to ensure the smooth functioning and optimal performance of AI solutions.
                   </p>
                   <div className="mt-2">
                     <Link href="#">
@@ -204,7 +202,7 @@ Artificial Superintelligence: Exceeds human intelligence in all aspects.
               <div className={`${faq4show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq4} className={styles.heading}>
                   <h3>
-                  What are some popular AI libraries and frameworks?{" "}
+                  What industries does BitsWits specialize in for AI development? {" "}
                     {faq4show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -229,7 +227,7 @@ Artificial Superintelligence: Exceeds human intelligence in all aspects.
 
                 <div className={faq4show ? "d-block" : "d-none"}>
                   <p>
-                  Some popular AI libraries and frameworks include TensorFlow, PyTorch, Keras, scikit-learn, and OpenCV. These tools provide pre-built modules and algorithms for various AI tasks.
+                  BitsWits has extensive experience in providing AI solutions for industries such as healthcare, finance, retail, and manufacturing, among others.
                   </p>
                   <div className="mt-2">
                     <Link href="#">
@@ -243,7 +241,7 @@ Artificial Superintelligence: Exceeds human intelligence in all aspects.
               <div className={`${faq5show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq5} className={styles.heading}>
                   <h3>
-                  What is machine learning and how does it relate to AI?{" "}
+                  Does BitsWits offer AI maintenance services after the project is completed?{" "}
                     {faq5show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -268,7 +266,7 @@ Artificial Superintelligence: Exceeds human intelligence in all aspects.
 
                 <div className={faq5show ? "d-block" : "d-none"}>
                   <p>
-                  Machine learning is a subset of AI that focuses on the development of algorithms that allow systems to learn and make predictions or decisions based on data. It's a crucial component of many AI applications.
+                  Yes, BitsWits provides ongoing AI maintenance services, including updates and optimizations for continued performance.
                   </p>
                   <div className="mt-2">
                     <Link href="#">
@@ -282,7 +280,7 @@ Artificial Superintelligence: Exceeds human intelligence in all aspects.
               <div className={faq6show ? "touch" : ""}>
                 <div onClick={faq6} className={styles.heading}>
                   <h3>
-                  What is the difference between supervised and unsupervised learning?{" "}
+                  Can BitsWits help in the integration of AI-driven analytics for data insights?{" "}
                     {faq6show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -307,7 +305,7 @@ Artificial Superintelligence: Exceeds human intelligence in all aspects.
 
                 <div className={faq6show ? "d-block" : "d-none"}>
                   <p>
-                  In supervised learning, the model is trained on labeled data, meaning the input data is paired with the correct output. The model learns to make predictions based on this labeled data. In unsupervised learning, the model is given unlabeled data and is tasked with finding patterns or structures within the data.
+                  Absolutely, BitsWits specializes in integrating AI-driven analytics to provide valuable data insights for informed decision-making and improved business strategies.
                   </p>
                   <div className="mt-2">
                     <Link href="#">

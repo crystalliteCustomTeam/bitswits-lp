@@ -212,7 +212,7 @@ const Header = () => {
                                                                         </Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link onClick={handleMenu} href='/artificial-intelligence'>
+                                                                        <Link onClick={handleMenu} href='/artificial-intelligence-development-company'>
                                                                             <FaAngleRight />
                                                                             <span>Artificial Intelligence</span>
                                                                         </Link>

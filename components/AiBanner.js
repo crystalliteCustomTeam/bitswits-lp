@@ -21,7 +21,7 @@ import icon50 from '../public/newHomePageImages/nexticon/5.png'
 import icon60 from '../public/newHomePageImages/nexticon/6.png'
 import icon70 from '../public/newHomePageImages/nexticon/7.png'
 import icon80 from '../public/newHomePageImages/nexticon/8.png'
-import NewAddress from './NewAddress';
+import NewAddressprops from './NewAddressprops';
  
 
 
@@ -66,15 +66,13 @@ const AndriodBanner = () => {
 
                    <Row>
                         <Col xl={12}>
-                            <p className={`${styles.just} text-center f-16 font-medium mb-0`}>Bitswits Is Your One-Stop Shop For</p>
+                            <p className={`${styles.just} text-center f-16 font-medium mb-0`}>BitsWits is a Home to All Your Demands Regarding</p>
                             <h3 className={`${styles.develop} text-center f-50 font-bold mb-2`}>
-                            Innovative Artificial Intelligence <br></br> Development
+                            Artificial Intelligence Development and Advancement
                             </h3>
 
                             <p className='white center mb-4'>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  <br></br>
-industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and  <br></br>
-scrambled it to make a type specimen book. It has survived 
+                            BitsWits welcomes you to the one-stop destination for innovative mobile  applications development with <br></br> artificial intelligence. Our skilled developers and designers provide forward-thinking <br></br> solutions for all your AI development and integration requirements.
 
                             </p>
 
@@ -91,7 +89,11 @@ scrambled it to make a type specimen book. It has survived
                     </Row>
                 </Container>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
-                <NewAddress />
+                <NewAddressprops
+                ready = 'A Road to AI Victory!'
+                titl = 'Book a Free consultation with our AI experts, and lead the way in your industry with artificial intelligence.'
+                btnp = 'Avail a Free Session Today'
+                />
                 </div>
 
                 <div>
