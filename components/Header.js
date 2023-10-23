@@ -170,12 +170,12 @@ const Header = () => {
                                                                             <span>Cross Platform App Development</span>
                                                                         </Link>
                                                                     </li>
-                                                                    <li>
+                                                                    {/* <li>
                                                                         <Link onClick={handleMenu} href='/web-app-development'>
                                                                             <FaAngleRight />
                                                                             <span>Web App Development</span>
                                                                         </Link>
-                                                                    </li>
+                                                                    </li> */}
                                                                 </ul>
                                                             </Col>
                                                         </Row>
@@ -215,6 +215,13 @@ const Header = () => {
                                                                         <Link onClick={handleMenu} href='/artificial-intelligence-development-company'>
                                                                             <FaAngleRight />
                                                                             <span>Artificial Intelligence</span>
+                                                                        </Link>
+                                                                    </li>
+
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/web-app-development'>
+                                                                            <FaAngleRight />
+                                                                            <span>Web App Development</span>
                                                                         </Link>
                                                                     </li>
                                                                     
