@@ -3,7 +3,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 50px 0 100px;
+  padding: 50px 0 50px;
 }
 
 .banSec {
@@ -51,9 +51,32 @@
   background-position: 40px -200px;
 }
 
+.healthcare {
+  background-image: url(../public/images/case-health/banner-bg.png);
+}
 
-@media screen and (max-width: 767px) {
+.dreamhome {
+  background-image: url(../public/images/case-dreamhome/banner-bg.png);
+}
+
+.rideme {
+  background-image: url(../public/images/case-ride/banner-bg.png);
+}
+
+.tourista {
+  background-image: url(../public/images/case-travel/banner-bg.png);
+}
+
+.sponsord {
+  background-image: url(../public/images/case-sponsord/banner-bg.png);
+}
+
+/* =========================================== */
+
+@media screen and (max-width: 991px) {
   .banner {
-    padding: 50px 0 50px;
+    padding: 50px 0 0px;
+    background-image: none;
   }
 }
+

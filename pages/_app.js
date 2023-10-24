@@ -28,7 +28,20 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/2d-game-development-company'
     || router.pathname == '/3d-game-development-company'
     || router.pathname == '/blockchain-game-development'
-    || router.pathname == '/mobile-application-duplicate';
+    || router.pathname == '/mobile-application-duplicate'
+    || router.pathname == '/travel-app-development'
+    || router.pathname == '/dream-home-app-development'
+    || router.pathname == '/bacteria-app-development'
+    || router.pathname == '/soul-scribe-app-development'
+    || router.pathname == '/greace-monkey-app-development'
+    || router.pathname == '/sponsord-app-development'
+    || router.pathname == '/health-care-app-development'
+    || router.pathname == '/ride-me-app-development'
+    || router.pathname == '/fitnow-app-development'
+    || router.pathname == '/ready-app-development'
+    || router.pathname == '/beats-app-development'
+    || router.pathname == '/home-pro-connect-app-development'
+    || router.pathname == '/crave-courier-app-development'
 
 
   return (

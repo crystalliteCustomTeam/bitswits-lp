@@ -60,8 +60,8 @@ const NewiosPortFolio = (props) => {
                             <div className={`${styles.poliBox} ${styles.poliBox4}`}>
                                 <Image quality={75} src={folio4} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
-                                    <span className='font25 font-bold white mb-2'>Soul Sound App</span>
-                                    <Link href="/music-streaming-app-development" className={styles.sucssBtn}>View case study</Link>
+                                    <span className='font25 font-bold white mb-2'>Soul Sponsord App</span>
+                                    <Link href="/sponsord-app-development" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
                         </Col>
@@ -70,7 +70,7 @@ const NewiosPortFolio = (props) => {
                                 <Image quality={75} src={folio5} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>Ezride App</span>
-                                    <Link href="/ez-ride" className={styles.sucssBtn}>View case study</Link>
+                                    <Link href="/ride-me-app-development" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
                         </Col>
@@ -79,7 +79,7 @@ const NewiosPortFolio = (props) => {
                                 <Image quality={75} src={folio6} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>PRO Health App</span>
-                                    <Link href="/prohealth-application-development" className={styles.sucssBtn}>View case study</Link>
+                                    <Link href="/health-care-app-development" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
                         </Col>

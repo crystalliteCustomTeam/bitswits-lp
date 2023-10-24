@@ -68,6 +68,36 @@
   background-size: 70%;
 }
 
+.healthcare {
+  background-image: url(../public/images/case-health/want-bg.png);
+  background-position: 1400px 235px;
+  background-size: 40%;
+}
+
+.dreamhome {
+  background-image: url(../public/images/case-dreamhome/want-bg.png);
+  background-position: 1440px 180px;
+  background-size: 35%;
+}
+
+.rideme {
+  background-image: url(../public/images/case-ride/want-bg.png);
+  background-position: right 350px;
+  background-size: 30%;
+}
+
+.tourista {
+  background-image: url(../public/images/case-travel/want-bg.png);
+  background-position: 1250px 450px;
+  background-size: 40%;
+}
+
+.sponsord {
+  background-image: url(../public/images/case-sponsord/want-bg.png);
+  background-position: 1360px 225px;
+  background-size: 40%;
+}
+
 /* ========================================== */
 
 @media screen and (max-width: 1690px) {
@@ -104,6 +134,31 @@
   .beats {
     background-position: 970px 435px;
     background-size: 70%;
+  }
+
+  .healthcare {
+    background-position: 1165px 275px;
+    background-size: 40%;
+  }
+
+  .dreamhome {
+    background-position: 1200px 250px;
+    background-size: 35%;
+  }
+
+  .rideme {
+    background-position: right 350px;
+    background-size: 30%;
+  }
+
+  .tourista {
+    background-position: 1050px 450px;
+    background-size: 40%;
+  }
+
+  .sponsord {
+    background-position: 1135px 275px;
+    background-size: 40%;
   }
 }
 
@@ -144,6 +199,31 @@
     background-position: 1020px 435px;
     background-size: 60%;
   }
+
+  .healthcare {
+    background-position: 1060px 275px;
+    background-size: 45%;
+  }
+
+  .dreamhome {
+    background-position: 1150px 250px;
+    background-size: 35%;
+  }
+
+  .rideme {
+    background-position: right 400px;
+    background-size: 30%;
+  }
+
+  .tourista {
+    background-position: 1000px 450px;
+    background-size: 40%;
+  }
+
+  .sponsord {
+    background-position: 1090px 275px;
+    background-size: 40%;
+  }
 }
 
 /* ========================================== */
@@ -183,6 +263,31 @@
     background-position: 950px 435px;
     background-size: 60%;
   }
+
+  .healthcare {
+    background-position: 1045px 300px;
+    background-size: 40%;
+  }
+
+  .dreamhome {
+    background-position: 1080px 250px;
+    background-size: 35%;
+  }
+
+  .rideme {
+    background-position: right 450px;
+    background-size: 30%;
+  }
+
+  .tourista {
+    background-position: 950px 450px;
+    background-size: 40%;
+  }
+
+  .sponsord {
+    background-position: 980px 275px;
+    background-size: 45%;
+  }
 }
 
 /* ========================================== */
@@ -216,6 +321,31 @@
   .beats {
     background-position: 900px 450px;
     background-size: 60%;
+  }
+
+  .healthcare {
+    background-position: 990px 400px;
+    background-size: 40%;
+  }
+
+  .dreamhome {
+    background-position: 1020px 300px;
+    background-size: 35%;
+  }
+
+  .rideme {
+    background-position: right 450px;
+    background-size: 30%;
+  }
+
+  .tourista {
+    background-position: 900px 450px;
+    background-size: 40%;
+  }
+
+  .sponsord {
+    background-position: 975px 300px;
+    background-size: 40%;
   }
 }
 
@@ -251,6 +381,31 @@
     background-position: 880px 450px;
     background-size: 55%;
   }
+
+  .healthcare {
+    background-position: 885px 400px;
+    background-size: 45%;
+  }
+
+  .dreamhome {
+    background-position: 960px 400px;
+    background-size: 35%;
+  }
+
+  .rideme {
+    background-position: right 500px;
+    background-size: 30%;
+  }
+
+  .tourista {
+    background-position: 900px 500px;
+    background-size: 35%;
+  }
+
+  .sponsord {
+    background-position: 910px 350px;
+    background-size: 40%;
+  }
 }
 
 /* ========================================== */
@@ -265,6 +420,10 @@
     font-size: 40px;
     line-height: 50px;
   }
+
+  .wants p {
+    margin-bottom: 10px;
+  }
 }
 
 /* ========================================== */
@@ -277,5 +436,13 @@
   .wants h3 {
     font-size: 30px;
     line-height: 40px;
+  }
+
+  .wants p {
+    align-items: flex-start;
+  }
+
+  .wants img{
+    margin-top: 6px;
   }
 }

@@ -478,7 +478,7 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/real-estate-app-development-solutions" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/dream-home-app-development" onClick={handleMenu}>
                                                         Real Estate App
                                                     </Link>
                                                     <span className={styles.realDummy}>
@@ -538,11 +538,11 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/music-streaming-app-development" onClick={handleMenu}>
-                                                        Sound App
+                                                    <Link className={styles.workTitle} href="/sponsord-app-development" onClick={handleMenu}>
+                                                        Sponsord App
                                                     </Link>
                                                     <span className={styles.realDummy}>
-                                                        Developed A Music Streaming...
+                                                        Developed A Sponsord App...
                                                     </span>
                                                 </div>
                                             </div>
@@ -552,8 +552,8 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/prohealth-application-development" onClick={handleMenu}>
-                                                        PROHealth App
+                                                    <Link className={styles.workTitle} href="/health-care-app-development" onClick={handleMenu}>
+                                                        Health Care App
                                                     </Link>
                                                     <span className={styles.realDummy}>
                                                         AS Medicare - A Pharmacy...
@@ -566,7 +566,7 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/ez-ride" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/ride-me-app-development" onClick={handleMenu}>
                                                         Rider App
                                                     </Link>
                                                     <span className={styles.realDummy}>

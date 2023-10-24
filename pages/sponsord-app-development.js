@@ -16,17 +16,17 @@ import Homenextproject from '@/components/Homenextproject';
 import Faqs from '@/components/NewhomeFaqs';
 import HomeLocation from '@/components/HomeLocation';
 //images
-import banLogo from '../public/images/case-travel/banner-logo.png'
-import banImg from '../public/images/case-travel/banner-img.png'
-import glamicImg from '../public/images/case-travel/glamic.png'
-import goalImg from '../public/images/case-travel/goal.png'
-import animiImg1 from '../public/images/case-travel/animi1.png'
-import animiImg2 from '../public/images/case-travel/animi2.png'
-import animiImg3 from '../public/images/case-travel/animi3.png'
-import servImg from '../public/images/case-travel/services.png'
+import banLogo from '../public/images/case-sponsord/banner-logo.png'
+import banImg from '../public/images/case-sponsord/banner-img.png'
+import glamicImg from '../public/images/case-sponsord/glamic.png'
+import goalImg from '../public/images/case-sponsord/goal.png'
+import animiImg1 from '../public/images/case-sponsord/animi1.png'
+import animiImg2 from '../public/images/case-sponsord/animi2.png'
+import animiImg3 from '../public/images/case-sponsord/animi3.png'
+import servImg from '../public/images/case-sponsord/services.png'
 
 
-export default function TravelApp() {
+export default function SoulSound() {
 
   const [showComponent, setShowComponent] = useState(false);
 
@@ -54,7 +54,7 @@ export default function TravelApp() {
         banLogo={banLogo}
         title={<> Quality Repairs, Lasting Results. </>}
         banImg={banImg}
-        bannerClass='tourista'
+        bannerClass='sponsord'
       />
 
       <CaseGlamic
@@ -101,13 +101,13 @@ export default function TravelApp() {
         text20={<> Real-time chat connection between consumers and service providers </>}
         text21={<> An efficient Payment Module with diverse options </>}
         para={<> Glamic opted for BitsWits as they wanted a development partner who understood their goals and shared the same business values. BitsWits's role in the development sector was not different; the team of BitsWits expressed all that they got in their pace to make this Glamic project shine. </>}
-        wantsClass='tourista'
+        wantsClass='sponsord'
       />
 
       <CaseGoal
         golImg={goalImg}
         title={<> Take a step toward your beauty goals from the comfort of your couch with just a few taps on our app! </>}
-        goalClass='tourista'
+        goalClass='sponsord'
       />
 
       <CaseOvercoming

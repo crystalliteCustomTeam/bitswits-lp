@@ -29,7 +29,7 @@
 body {
   box-sizing: border-box;
   padding: 0;
-  margin: 0; 
+  margin: 0;
 }
 
 img,
@@ -863,8 +863,6 @@ a {
   z-index: 999;
 }
 
-
-
 .newproject .slick-prev::before,
 .newproject .slick-next::before {
   opacity: 1;
@@ -1150,7 +1148,7 @@ input::-webkit-inner-spin-button {
   text-transform: capitalize;
 }
 
-.newfinder{
+.newfinder {
   justify-content: center;
 }
 
@@ -1566,15 +1564,14 @@ input::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 1600px) {
-
-  .demono2{
-    width: 38%!important;
+  .demono2 {
+    width: 38% !important;
   }
 
   .newfire {
-    width: 22%!important;
-}
-  .star{
+    width: 22% !important;
+  }
+  .star {
     justify-content: flex-end;
   }
 
@@ -1603,14 +1600,13 @@ input::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 1440px) {
-
   .demono2 {
-    width: 38%!important;
-}
+    width: 38% !important;
+  }
 
   .newfire {
-    width: 23%!important;
-}
+    width: 23% !important;
+  }
 
   .font60 {
     font-size: 35px;
@@ -1840,6 +1836,28 @@ input::-webkit-inner-spin-button {
   .crmSlider .slick-next {
     right: 0px;
     top: 0;
+  }
+
+  img,
+  svg,
+  i,
+  a,
+  ul,
+  li,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  div {
+    z-index: 3;
+  }
+
+  .cursor {
+    display: none;
   }
 }
 
@@ -2819,7 +2837,7 @@ button {
     font-size: 11px;
   }
 
-  .line50{
+  .line50 {
     line-height: 50px;
   }
 

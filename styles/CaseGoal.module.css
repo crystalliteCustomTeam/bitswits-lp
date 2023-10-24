@@ -46,6 +46,26 @@
   background-image: url(../public/images/case-beats/goal-bg.png);
 }
 
+.healthcare {
+  background-image: url(../public/images/case-health/goal-bg.png);
+}
+
+.dreamhome {
+  background-image: url(../public/images/case-dreamhome/goal-bg.png);
+}
+
+.rideme {
+  background-image: url(../public/images/case-ride/goal-bg.png);
+}
+
+.tourista {
+  background-image: url(../public/images/case-travel/goal-bg.png);
+}
+
+.sponsord {
+  background-image: url(../public/images/case-sponsord/goal-bg.png);
+}
+
 @media screen and (max-width: 991px) {
   .goal {
     padding: 50px 0 0;
