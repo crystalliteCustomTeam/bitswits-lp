@@ -25,6 +25,13 @@ import backarrow from '../public/images/icons/back-arrow.webp'
 import music from '../public/images/icons/music.png'
 import ride from '../public/images/icons/ride.png'
 import bactria from '../public/images/icons/bactria.png'
+import fit from '../public/images/icons/fit.png'
+import grease from '../public/images/icons/grease.png'
+import homeconnect from '../public/images/icons/homeconnect.png'
+import ready from '../public/images/icons/ready.png'
+import scribe from '../public/images/icons/scribe.png'
+import sponsord from '../public/images/icons/sponsord.png'
+//
 import Modal from 'react-bootstrap/Modal';
 import Bitswitspopup from '../components/Bitswitspopup'
 import { RxCross2 } from 'react-icons/rx'
@@ -502,7 +509,7 @@ const Header = () => {
                                             </div>
                                             <div className={styles.workBox}>
                                                 <Image alt="bitswits"
-                                                    src={bactria}
+                                                    src={scribe}
 
                                                 />
                                                 <div className={styles.ourWork}>
@@ -516,7 +523,7 @@ const Header = () => {
                                             </div>
                                             <div className={`${styles.workBox} ${styles.lastBox}`}>
                                                 <Image alt="bitswits"
-                                                    src={bactria}
+                                                    src={grease}
 
                                                 />
                                                 <div className={styles.ourWork}>
@@ -534,7 +541,7 @@ const Header = () => {
                                         <div className={styles.boxSpace}>
                                             <div className={styles.workBox}>
                                                 <Image alt="bitswits"
-                                                    src={music}
+                                                    src={sponsord}
 
                                                 />
                                                 <div className={styles.ourWork}>
@@ -576,7 +583,7 @@ const Header = () => {
                                             </div>
                                             <div className={styles.workBox}>
                                                 <Image alt="bitswits"
-                                                    src={music}
+                                                    src={fit}
 
                                                 />
                                                 <div className={styles.ourWork}>
@@ -590,7 +597,7 @@ const Header = () => {
                                             </div>
                                             <div className={`${styles.workBox} ${styles.lastBox}`}>
                                                 <Image alt="bitswits"
-                                                    src={ride}
+                                                    src={ready}
 
                                                 />
                                                 <div className={styles.ourWork}>
@@ -622,7 +629,7 @@ const Header = () => {
                                             </div>
                                             <div className={styles.workBox}>
                                                 <Image alt="bitswits"
-                                                    src={health}
+                                                    src={homeconnect}
 
                                                 />
                                                 <div className={styles.ourWork}>
@@ -634,9 +641,9 @@ const Header = () => {
                                                     </span>
                                                 </div>
                                             </div>
-                                            <div className={`${styles.workBox} ${styles.gameApp}`}>
+                                            <div className={`${styles.workBox}`}>
                                                 <Image alt="bitswits"
-                                                    src={games}
+                                                    src={music}
                                                 />
                                                 <div className={styles.ourWork}>
                                                     <Link className={styles.workTitle} href="/beats-app-development" onClick={handleMenu}>
