@@ -26,6 +26,32 @@
   background-image: url(../public/images/case-monkey/banner-bg.png);
 }
 
+.cravecourier {
+  background-image: url(../public/images/case-crave/banner-bg.png);
+}
+
+.homepro {
+  background-image: url(../public/images/case-homepro/banner-bg.png);
+}
+
+.readyApp {
+  background-image: url(../public/images/case-ready/banner-bg.png);
+}
+
+.soulscribe {
+  background-image: url(../public/images/case-scribe/banner-bg.png);
+}
+
+.fitnow {
+  background-image: url(../public/images/case-fitnow/banner-bg.png);
+}
+
+.beats {
+  background-image: url(../public/images/case-beats/banner-bg.png);
+  background-position: 40px -200px;
+}
+
+
 @media screen and (max-width: 767px) {
   .banner {
     padding: 50px 0 50px;

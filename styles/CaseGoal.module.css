@@ -22,6 +22,30 @@
   background-image: url(../public/images/case-monkey/goal-bg.png);
 }
 
+.cravecourier {
+  background-image: url(../public/images/case-crave/goal-bg.png);
+}
+
+.homepro {
+  background-image: url(../public/images/case-homepro/goal-bg.png);
+}
+
+.readyApp {
+  background-image: url(../public/images/case-ready/goal-bg.png);
+}
+
+.soulscribe {
+  background-image: url(../public/images/case-scribe/goal-bg.png);
+}
+
+.fitnow {
+  background-image: url(../public/images/case-fitnow/goal-bg.png);
+}
+
+.beats {
+  background-image: url(../public/images/case-beats/goal-bg.png);
+}
+
 @media screen and (max-width: 991px) {
   .goal {
     padding: 50px 0 0;

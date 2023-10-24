@@ -9,7 +9,7 @@ const CaseAnimate = (props) => {
         <>
             <section className={`${styles.animate}`}>
                 <Container>
-                    <Row>
+                    <Row className='align-items-end'>
                         <Col md={4} className='px-md-0'>
                             <div className={styles.imgBox}>
                                 <Image src={props.animiImg1} alt="bitswits" className={`${styles.secImg} img-fluid`} />

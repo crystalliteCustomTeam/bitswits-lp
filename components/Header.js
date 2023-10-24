@@ -506,7 +506,7 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/soul-scribe" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/soul-scribe-app-development" onClick={handleMenu}>
                                                         Scribe App
                                                     </Link>
                                                     <span className={styles.realDummy}>
@@ -514,31 +514,17 @@ const Header = () => {
                                                     </span>
                                                 </div>
                                             </div>
-                                            <div className={styles.workBox}>
+                                            <div className={`${styles.workBox} ${styles.lastBox}`}>
                                                 <Image alt="bitswits"
                                                     src={bactria}
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/greace-monkey" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/greace-monkey-app-development" onClick={handleMenu}>
                                                         Grease App
                                                     </Link>
                                                     <span className={styles.realDummy}>
                                                         Monkey Grease - Cleaning...
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div className={styles.workBox}>
-                                                <Image alt="bitswits"
-                                                    src={foods}
-
-                                                />
-                                                <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/food-delivery-app-development" onClick={handleMenu}>
-                                                        Crave App
-                                                    </Link>
-                                                    <span className={styles.realDummy}>
-                                                        Crave Courier - Food...
                                                     </span>
                                                 </div>
                                             </div>
@@ -594,25 +580,43 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/sponsord" onClick={handleMenu}>
-                                                        Sponsord App
+                                                    <Link className={styles.workTitle} href="/fitnow-app-development" onClick={handleMenu}>
+                                                        Fitnow App
                                                     </Link>
                                                     <span className={styles.realDummy}>
-                                                        Sponsord two-sided...
+                                                        Fitnow two-sided...
                                                     </span>
                                                 </div>
                                             </div>
-                                            <div className={styles.workBox}>
+                                            <div className={`${styles.workBox} ${styles.lastBox}`}>
                                                 <Image alt="bitswits"
                                                     src={ride}
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/ready-app" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/ready-app-development" onClick={handleMenu}>
                                                         Ready App
                                                     </Link>
                                                     <span className={styles.realDummy}>
                                                         Ready App market...
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col lg={4}>
+                                        <div className={styles.boxSpace}>
+                                        <div className={styles.workBox}>
+                                                <Image alt="bitswits"
+                                                    src={foods}
+
+                                                />
+                                                <div className={styles.ourWork}>
+                                                    <Link className={styles.workTitle} href="/crave-courier-app-development" onClick={handleMenu}>
+                                                        Crave App
+                                                    </Link>
+                                                    <span className={styles.realDummy}>
+                                                        Crave Courier - Food...
                                                     </span>
                                                 </div>
                                             </div>
@@ -622,29 +626,11 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/home-connect-pro" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/home-pro-connect-app-development" onClick={handleMenu}>
                                                         Homeconnect Pro
                                                     </Link>
                                                     <span className={styles.realDummy}>
                                                         Home connect...
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col lg={4}>
-                                        <div className={styles.boxSpace}>
-                                            <div className={styles.workBox}>
-                                                <Image alt="bitswits"
-                                                    src={foods}
-
-                                                />
-                                                <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/food-delivery-app-development" onClick={handleMenu}>
-                                                        Food App
-                                                    </Link>
-                                                    <span className={styles.realDummy}>
-                                                        Food Delivery Services That...
                                                     </span>
                                                 </div>
                                             </div>
@@ -653,8 +639,8 @@ const Header = () => {
                                                     src={games}
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/game-app-development" onClick={handleMenu}>
-                                                        Game App
+                                                    <Link className={styles.workTitle} href="/beats-app-development" onClick={handleMenu}>
+                                                        Beats App
                                                     </Link>
                                                     <span className={styles.realDummy}>
                                                         Ios And Android Games...
