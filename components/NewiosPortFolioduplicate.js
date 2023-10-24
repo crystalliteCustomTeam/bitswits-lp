@@ -44,8 +44,8 @@ const NewiosPortFolio = () => {
                             <div className={`${styles.poliBox} ${styles.poliBox2}`}>
                                 <Image quality={75} src={folio2} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
-                                    <span className='font25 font-bold white mb-2'>Find Food App</span>
-                                    <Link href="/food-delivery-app-development" className={styles.sucssBtn}>View case study</Link>
+                                <span className='font25 font-bold white mb-2'>Crave Courier App</span>
+                                    <Link href="/crave-courier-app-development" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
                         </Col>
@@ -71,7 +71,7 @@ const NewiosPortFolio = () => {
                             <div className={`${styles.poliBox} ${styles.poliBox5}`}>
                                 <Image quality={75} src={folio5} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
-                                    <span className='font25 font-bold white mb-2'>Eride App</span>
+                                    <span className='font25 font-bold white mb-2'>Ezride App</span>
                                     <Link href="/ez-ride" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
@@ -117,7 +117,7 @@ const NewiosPortFolio = () => {
                            <div className={`${styles.poliBox} ${styles.poliBox4}`}>
                                <Image quality={75} src={folio4} alt='BitsWits' className={`img-fluid`} />
                                <div className={styles.polioTxt}>
-                                   <span className='font25 font-bold white mb-2'>fitnow-app-development App</span>
+                                   <span className='font25 font-bold white mb-2'>Fitnow App</span>
                                    <Link href="/fitnow-app-development" className={styles.sucssBtn}>View case study</Link>
                                </div>
                            </div>
@@ -135,7 +135,7 @@ const NewiosPortFolio = () => {
                            <div className={`${styles.poliBox} ${styles.poliBox6}`}>
                                <Image quality={75} src={folio6} alt='BitsWits' className={`img-fluid`} />
                                <div className={styles.polioTxt}>
-                                   <span className='font25 font-bold white mb-2'>Homeconnect App</span>
+                                   <span className='font25 font-bold white mb-2'>Home Connect App</span>
                                    <Link href="/home-pro-connect-app-development" className={styles.sucssBtn}>View case study</Link>
                                </div>
                            </div>
@@ -145,7 +145,7 @@ const NewiosPortFolio = () => {
                                <Image quality={75} src={folio5} alt='BitsWits' className={`img-fluid`} />
                                <div className={styles.polioTxt}>
                                    <span className='font25 font-bold white mb-2'>Game App</span>
-                                   <Link href="/game-app-development" className={styles.sucssBtn}>View case study</Link>
+                                   <Link href="/beats-app-development" className={styles.sucssBtn}>View case study</Link>
                                </div>
                            </div>
                        </Col>

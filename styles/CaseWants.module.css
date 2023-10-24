@@ -111,12 +111,12 @@
 
 @media screen and (max-width: 1590px) {
   .wants {
-    background-size: 60%;
-    background-position: 950px 140px;
+    background-size: 55%;
+    background-position: 950px 200px;
   }
 
   .cravecourier {
-    background-position: 1000px 355px;
+    background-position: 980px 355px;
     background-size: 50%;
   }
 

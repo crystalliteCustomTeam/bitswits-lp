@@ -632,8 +632,8 @@ const Header = () => {
                                                     src={games}
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/game-app-development" onClick={handleMenu}>
-                                                        Game App
+                                                    <Link className={styles.workTitle} href="/beats-app-development" onClick={handleMenu}>
+                                                        Beats App
                                                     </Link>
                                                     <span className={styles.realDummy}>
                                                         Ios And Android Games...
