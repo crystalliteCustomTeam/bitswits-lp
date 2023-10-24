@@ -200,7 +200,7 @@ const Header = () => {
                                                                     </div>
 
                                                                     <li>
-                                                                        <Link onClick={handleMenu} href='/augmented-reality-apps-development'>
+                                                                        <Link onClick={handleMenu} href='/augmented-reality-apps-development-company'>
                                                                             <FaAngleRight />
                                                                             <span>Augmented Reality App Development</span>
                                                                         </Link>
