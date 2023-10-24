@@ -17,7 +17,7 @@ import icon50 from '../public/newHomePageImages/nexticon/5.png'
 import icon60 from '../public/newHomePageImages/nexticon/6.png'
 import icon70 from '../public/newHomePageImages/nexticon/7.png'
 import icon80 from '../public/newHomePageImages/nexticon/8.png'
-import NewAddress from './NewAddress';
+import NewAddressprops from './NewAddressprops';
 
 
 
@@ -62,16 +62,13 @@ const Augmentebanner = () => {
 
                     <Row>
                         <Col xl={12}>
-                            <p className={`${styles.just} text-center f-16 font-medium mb-0`}>Bitswits Is Your One-Stop Shop For</p>
+                            <p className={`${styles.just} text-center f-16 font-medium mb-0`}>Empower Your Business with</p>
                             <h3 className={`${styles.develop} text-center f-50 font-bold mb-2`}>
-                                Customized Augmented <br></br>
-                                Reality Apps Development Solutions
+                            Top <span className='grdiant'>Augmented Reality <br></br> Apps Development Company</span>
                             </h3>
 
                             <p className='white center mb-4'>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  <br></br>
-                                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and  <br></br>
-                                scrambled it to make a type specimen book. It has survived
+                            BitsWits is your ultimate destination for augmented reality app development. <br></br> Our developers deliver dynamic AR experiences that set your business apart from the rest.
                             </p>
 
 
@@ -87,7 +84,11 @@ const Augmentebanner = () => {
                     </Row>
                 </Container>
                 <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
-                <NewAddress />
+                <NewAddressprops
+                ready = 'AR: Your Reality Upgrade!'
+                titl = 'Reach out to us for custom augmented reality development and schedule a free consultancy session now. '
+                btnp = 'Avail a Free Session Today'
+                />
                 </div>
 
                 <div>

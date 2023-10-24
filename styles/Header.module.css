@@ -16,7 +16,7 @@
 }
 
 .neuport {
-  margin-top: 55%;
+  margin-top: 30%;
 }
 .header.trans {
   background-color: transparent;
@@ -424,7 +424,7 @@
 
 @media screen and (max-width: 1600px) {
   .neuport {
-    margin-top: 35%;
+    margin-top: 19%;
   }
 
   .listBody ul {

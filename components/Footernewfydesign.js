@@ -142,7 +142,7 @@ const Footerlp = () => {
                     <ul className='p-0'>
 
 
-                      <li><Link href="#">Augmented Reality Apps Development</Link>  </li>
+                      <li><Link href="/augmented-reality-apps-development-company">Augmented Reality Apps Development</Link>  </li>
                       <li><Link href="/custom-mobile-development">Custom Mobile Development</Link>  </li>
                       <li><Link href="#">ECommerce Development</Link>  </li>
                       <li><Link href="#">Enterprise Portal Solution</Link>  </li>

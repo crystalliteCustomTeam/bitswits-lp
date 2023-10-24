@@ -68,7 +68,7 @@ const AndriodBanner = () => {
                         <Col xl={12}>
                             <p className={`${styles.just} text-center f-16 font-medium mb-0`}>BitsWits is a Home to All Your Demands Regarding</p>
                             <h3 className={`${styles.develop} text-center f-50 font-bold mb-2`}>
-                            Artificial Intelligence Development and Advancement
+                           <span className='grdiant'> Artificial Intelligence</span> Development and Advancement
                             </h3>
 
                             <p className='white center mb-4'>
