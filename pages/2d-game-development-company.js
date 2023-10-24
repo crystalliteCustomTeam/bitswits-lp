@@ -17,6 +17,7 @@ import Engage2d from '@/components/Engage2d';
 import Newsuccess from '@/components/NewMblSuccess';
 import Technologieswe2dgame from '@/components/Technologieswe2dgame';
 import Wealth2d from '@/components/Wealth2d';
+import NewAddress from '@/components/NewAddress';
 
 
 export default function gamedevelopmentcompany() {
@@ -38,6 +39,9 @@ export default function gamedevelopmentcompany() {
             <NewHomeAbout />
             <Bullet2dproofgame />
             <NewMaintainlogo />
+            <NewAddress
+                addresClass="address2d"
+            />
             <Technologieswe2dgame />
             <Genreof2dgames />
             <Capabilities2d />

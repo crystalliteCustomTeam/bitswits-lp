@@ -26,6 +26,7 @@ import icon25 from '../public/images/fymobile/3.png'
 import icon26 from '../public/images/fymobile/4.png'
 import icon27 from '../public/images/fymobile/5.png'
 import icon28 from '../public/images/fymobile/6.png'
+import NewAddress from "@/components/NewAddress";
 
 export default function mobileApplication() {
   return (
@@ -97,6 +98,7 @@ export default function mobileApplication() {
       <NewMblWhat />
       <Justbuildit />
       <NewMblServices />
+      <NewAddress />
       <NewMblWhy
       title = { <> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </> }
       subtitle = { <> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </> }

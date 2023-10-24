@@ -26,6 +26,7 @@ import icon25 from '../public/images/fymobile/3.png'
 import icon26 from '../public/images/fymobile/4.png'
 import icon27 from '../public/images/fymobile/5.png'
 import icon28 from '../public/images/fymobile/6.png'
+import NewAddress from "@/components/NewAddress";
 
 export default function mobileApplication() {
   return (
@@ -97,11 +98,12 @@ export default function mobileApplication() {
       <NewMblWhat />
       <Justbuildit />
       <NewMblServices />
+      <NewAddress />
       <NewMblWhy
-      title = { <> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </> }
-      subtitle = { <> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </> }
-      sub1 = "Why Choose BitsWits for Building Mobile Applications?"
-      sub2 = "Building your mobile app acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape its trajectory."
+        title={<> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </>}
+        subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </>}
+        sub1="Why Choose BitsWits for Building Mobile Applications?"
+        sub2="Building your mobile app acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape its trajectory."
         iconOne={icon23}
         iconTwo={icon24}
         iconThree={icon25}
@@ -120,7 +122,7 @@ export default function mobileApplication() {
         paraFour="Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences."
         paraFive="Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue."
         paraSix="Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction." />
-       <NewiosPortFolio />
+      <NewiosPortFolio />
       <Capabilities />
       <div className="status2">
         <Newsuccess />

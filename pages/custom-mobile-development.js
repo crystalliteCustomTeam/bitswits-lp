@@ -16,6 +16,7 @@ import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
 import NewCustomWho from '@/components/NewCustomWho';
 import NewCustomWhat from '@/components/NewCustomWhat';
+import NewAddress from '@/components/NewAddress';
 
 export default function CustomMobile() {
 
@@ -31,6 +32,7 @@ export default function CustomMobile() {
             <CustomBanner />
             <NewHomeAbout />
             <CustomMaintain />
+            <NewAddress />
             <Justbuildit />
             <NewCustomWho />
             <NewCustomWhat />

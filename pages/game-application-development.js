@@ -16,6 +16,7 @@ import Wealth from '@/components/Wealth';
 import Genreofgames from '@/components/Genreofgames';
 import Engage from '@/components/Engage';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
+import NewAddress from '@/components/NewAddress';
 
 //components
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
@@ -41,6 +42,7 @@ export default function Gameapplicationdevelopment() {
             <Bulletproofgame />
             <Targetaudience />
             <Newgamemaintain />
+            <NewAddress />
             <Wealth />
             <Genreofgames/>
             <Engage />

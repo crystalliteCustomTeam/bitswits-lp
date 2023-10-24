@@ -32,7 +32,6 @@
   letter-spacing: 2px;
 }
 
-
 .post h5 {
   line-height: 1.2;
 }
@@ -70,8 +69,6 @@
   letter-spacing: unset;
   cursor: pointer;
 }
-
-
 
 .about {
   width: 260px;
@@ -132,6 +129,7 @@
   margin-top: 0;
 }
 
+/* 
 .bannerform::before {
   content: "";
   position: absolute;
@@ -152,7 +150,7 @@
   height: 50px;
   width: 50px;
   background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
-}
+} */
 
 .discuss {
   justify-content: space-between;
@@ -310,6 +308,23 @@
   }
 }
 
+.newAddress {
+  background-color: #000;
+  padding-bottom: 150px;
+}
+
+.address2d {
+  padding-bottom: 0px;
+  padding-top: 150px;
+}
+
+.appios {
+  border-image: linear-gradient(0deg, #f32f5e, #4a78ef) 30;
+  border-width: 2px;
+  border-style: solid;
+  padding: 40px 40px 20px;
+}
+
 /* =========================================== */
 
 @media screen and (max-width: 1920px) {
@@ -377,6 +392,19 @@
   .locations .locInner {
     justify-content: center;
   }
+
+  .appios {
+    max-width: 720px;
+  }
+
+  .newAddress {
+    padding-bottom: 50px;
+  }
+
+  .address2d {
+    padding-bottom: 0px;
+    padding-top: 50px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -425,5 +453,10 @@
   .locations .locInner {
     justify-content: flex-start;
     gap: 10px;
+  }
+
+  .appios {
+    max-width: 370px;
+    padding: 40px 25px;
   }
 }

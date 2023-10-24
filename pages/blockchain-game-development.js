@@ -16,6 +16,7 @@ import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
 import Technologieswe from '@/components/NewMblTechnologiesWe';
 import Homenextproject from '@/components/Homenextproject';
+import NewAddress from '@/components/NewAddress';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 
 
@@ -33,6 +34,7 @@ export default function mobileApplication() {
             <NewHomeAbout />
             <GameAdvantages />
             <GamingServices />
+            <NewAddress />
             <GameTechnologies />
             <GameCapabilities />
             <Solutions />

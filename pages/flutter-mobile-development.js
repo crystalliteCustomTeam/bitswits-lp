@@ -30,6 +30,7 @@ import icon28 from "../public/images/fyiconsflutter/6.png";
 import NewReactWho from "@/components/NewReactnativeWho";
 import NewFlutterWho from "@/components/NewFlutterWho";
 import NewFlutterWhat from "@/components/NewFlutterWhat";
+import NewAddress from "@/components/NewAddress";
 
 export default function HybridMobile() {
   return (
@@ -96,6 +97,7 @@ export default function HybridMobile() {
       <FlutterBanner />
       <NewHomeAbout />
       <FlutterMaintain />
+      <NewAddress />
       <Justbuildit />
       <NewFlutterWho />
       <NewFlutterWhat />

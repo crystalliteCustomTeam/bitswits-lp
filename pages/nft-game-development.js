@@ -16,6 +16,7 @@ import Genreof2dgamesnft from '@/components/Genreof2dgamesnft';
 import Engagenft from '@/components/Engagenft';
 import Newsuccess from '@/components/NewMblSuccess';
 import Wealthnft from '@/components/Wealthnft';
+import NewAddress from '@/components/NewAddress';
 
 
 //components
@@ -41,6 +42,7 @@ export default function gamedevelopmentcompany() {
             <NewHomeAbout />
             <Bullet2ddiscovergame />
             <NewMaintainnft />
+            <NewAddress />
             <Genreof2dgamesnft />
             <Capabilitiesnft />
             <Wealthnft />

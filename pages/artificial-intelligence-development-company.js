@@ -20,6 +20,7 @@ import NewaiWho from '@/components/NewaiWhoprops';
 import NewaiWhat from '@/components/NewaiWhatprops';
 import Link from 'next/link'
 import styles from "@/styles/NewMblSuccess.module.css";
+import NewAddress from '@/components/NewAddress';
 //components
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 
@@ -42,6 +43,7 @@ export default function gamedevelopmentcompany() {
                 para='Hear It from Them'
             />
             <AiMaintainlogo />
+            <NewAddress />
             <Justbuildit />
             <NewaiWho
                 title='Our Value Proposition'

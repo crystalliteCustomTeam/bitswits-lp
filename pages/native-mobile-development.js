@@ -19,6 +19,7 @@ import Technologieswe from '@/components/Technologieswe';
 import NewHomeAbout from '@/components/NewHomePageAbout';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
+import NewAddress from '@/components/NewAddress';
 
 export default function nativeMobile() {
 
@@ -34,6 +35,7 @@ export default function nativeMobile() {
             <NativeBanner />
             <NewHomeAbout />
             <NewNativeServices />
+            <NewAddress />
             <Justbuildit />
             <NewHybridWho />
             <NewMblWhat />

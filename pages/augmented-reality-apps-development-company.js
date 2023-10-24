@@ -16,6 +16,7 @@ import Newsuccess from '@/components/NewMblSuccessprops';
 import NewiosPortFolio from '@/components/NewiosPortFolioprops';
 import Link from 'next/link';
 import styles from "@/styles/NewMblSuccess.module.css";
+import NewAddress from '@/components/NewAddress';
 
 //components
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
@@ -36,6 +37,7 @@ export default function augmentedrealityappsdevelopment() {
                 para='Hear It from Them'
             />
             <AugmentedMaintainlogo />
+            <NewAddress />
             <Justbuildit />
             <NewaiWho
                 title='Our Value Proposition'
@@ -54,31 +56,31 @@ export default function augmentedrealityappsdevelopment() {
 
                 tilte={
                     <h1 className='text-white f-55 font-bold text-center pb-5'>
-                       Showcasing Our   <span className='grdiant'>Augmented Reality </span> Creations
+                        Showcasing Our   <span className='grdiant'>Augmented Reality </span> Creations
                     </h1>
 
                 }
 
             />
-             <Newsuccess
+            <Newsuccess
                 tilte={<>  <h5 className='grdiant'>Ready for Success? </h5> </>}
                 subtitle={<>
                     <h2 className='f-80 font-bold white center mb-5'>Accelerate Your Growth With <br></br> Augmented Reality Apps</h2>
-                </> }
-                num1 = '01'
-                title1 = 'Consult Our Specialists'
-                text1 = 'Reach out to our specialists without any hesitation via email or call to attain a free consultation.'
-                btn1 = { <> <Link href="#" className={styles.sucssBtn}>Connect Now</Link> </> }
+                </>}
+                num1='01'
+                title1='Consult Our Specialists'
+                text1='Reach out to our specialists without any hesitation via email or call to attain a free consultation.'
+                btn1={<> <Link href="#" className={styles.sucssBtn}>Connect Now</Link> </>}
 
-                num2 = '02'
-                title2 = { <> Request a <br></br> Quote </> }
-                text2 = { <> Get a detailed cost breakdown for your app development project. </> }
-                btn2 = { <> <Link href="#" className={styles.sucssBtn}>Chat Now</Link> </> }
+                num2='02'
+                title2={<> Request a <br></br> Quote </>}
+                text2={<> Get a detailed cost breakdown for your app development project. </>}
+                btn2={<> <Link href="#" className={styles.sucssBtn}>Chat Now</Link> </>}
 
-                num3 = '03'
-                title3 = 'Kickstart with an MVP'
-                text3 = 'Start your app development journey with no-obligation consultation via email and phone.'
-                btn3 = { <> <Link href="#" className={styles.sucssBtn}>Call Now</Link> </> }
+                num3='03'
+                title3='Kickstart with an MVP'
+                text3='Start your app development journey with no-obligation consultation via email and phone.'
+                btn3={<> <Link href="#" className={styles.sucssBtn}>Call Now</Link> </>}
 
             />
             <section className='spacingtb1'>
@@ -87,25 +89,25 @@ export default function augmentedrealityappsdevelopment() {
             <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject
-            title = 'Experience AR Brilliance With BitsWits'
+                title='Experience AR Brilliance With BitsWits'
             />
             <Faqs
-            
-            title1 = { `What's the typical timeline for an AR project with BitsWits?` }
-            para1 = 'Project timeline varies but usually ranges from a few weeks to a few months.'
-            title2 = 'Do you offer AR app development, and can it be integrated into existing apps?'
-            para2 = 'Yes, we develop AR applications and can integrate them with existing ones.'
-            title3 = 'What hardware or devices are required for end-users to access AR experiences developed by BitsWits?'
-            para3 = 'Commonly used devices like smartphones or AR glasses can access our AR experiences.'
-            title4 = 'Are there any hidden or additional costs that we should be aware of in the AR development process with BitsWits?'
-            para4 = 'We maintain transparency in our pricing, and there are no hidden costs. Any additional expenses will be communicated and agreed upon in advance.'
-            title5 = 'Does BitsWits provide 24/7 technical support for critical AR applications?'
-            para5 = 'Yes, we offer 24/7 support for mission-critical applications.'
-            title6 = { `Are there examples or case studies of successful AR projects you've completed?` }
-            para6 = 'Yes, we can provide case studies showcasing our work. Sign up now, and our customer support team will be in touch with you. '
-         
 
-            
+                title1={`What's the typical timeline for an AR project with BitsWits?`}
+                para1='Project timeline varies but usually ranges from a few weeks to a few months.'
+                title2='Do you offer AR app development, and can it be integrated into existing apps?'
+                para2='Yes, we develop AR applications and can integrate them with existing ones.'
+                title3='What hardware or devices are required for end-users to access AR experiences developed by BitsWits?'
+                para3='Commonly used devices like smartphones or AR glasses can access our AR experiences.'
+                title4='Are there any hidden or additional costs that we should be aware of in the AR development process with BitsWits?'
+                para4='We maintain transparency in our pricing, and there are no hidden costs. Any additional expenses will be communicated and agreed upon in advance.'
+                title5='Does BitsWits provide 24/7 technical support for critical AR applications?'
+                para5='Yes, we offer 24/7 support for mission-critical applications.'
+                title6={`Are there examples or case studies of successful AR projects you've completed?`}
+                para6='Yes, we can provide case studies showcasing our work. Sign up now, and our customer support team will be in touch with you. '
+
+
+
             />
             <HomeLocation />
 

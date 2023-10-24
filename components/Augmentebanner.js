@@ -17,7 +17,6 @@ import icon50 from '../public/newHomePageImages/nexticon/5.png'
 import icon60 from '../public/newHomePageImages/nexticon/6.png'
 import icon70 from '../public/newHomePageImages/nexticon/7.png'
 import icon80 from '../public/newHomePageImages/nexticon/8.png'
-import NewAddressprops from './NewAddressprops';
 
 
 
@@ -83,13 +82,6 @@ const Augmentebanner = () => {
                         </Col>
                     </Row>
                 </Container>
-                <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
-                <NewAddressprops
-                ready = 'AR: Your Reality Upgrade!'
-                titl = 'Reach out to us for custom augmented reality development and schedule a free consultancy session now. '
-                btnp = 'Avail a Free Session Today'
-                />
-                </div>
 
                 <div>
                     <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-5`}>

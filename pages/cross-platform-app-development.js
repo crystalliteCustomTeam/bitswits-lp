@@ -25,6 +25,7 @@ import icon27 from "../public/images/fyicons/23.png";
 import icon28 from "../public/images/fyicons/24.png";
 import NewcrossWho from "@/components/NewcrossWho";
 import NewCrossWhat from "@/components/NewCrossWhat";
+import NewAddress from "@/components/NewAddress";
 
 //components
 const Justbuildit = dynamic(() => import("@/components/Justbuildit"));
@@ -95,14 +96,15 @@ export default function gamedevelopmentcompany() {
       <NewHomeAbout />
       <Partnercross />
       <CrossMaintainlogo />
+      <NewAddress />
       <Justbuildit />
       <NewcrossWho />
       <NewCrossWhat />
       <NewMblWhy
-      title = { <> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </> }
-      subtitle = { <> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </> }
-      sub1 = "Why Hire Cross-Platform App Developers at BitsWits for Top-Quality Apps?"
-      sub2 = "Cross-platform app development services at BitsWits, allow us to efficiently reach more users across multiple devices while providing a persistent brand experience."
+        title={<> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </>}
+        subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </>}
+        sub1="Why Hire Cross-Platform App Developers at BitsWits for Top-Quality Apps?"
+        sub2="Cross-platform app development services at BitsWits, allow us to efficiently reach more users across multiple devices while providing a persistent brand experience."
         iconOne={icon23}
         iconTwo={icon24}
         iconThree={icon25}

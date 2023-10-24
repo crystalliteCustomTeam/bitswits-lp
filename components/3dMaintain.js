@@ -89,7 +89,7 @@ const New3dMaintain = () => {
     return (
         <>
 
-            <section className={ `${styles.newHomeBg} combo`}>
+            <section className={`${styles.newHomeBg} combo`}>
 
                 <Container>
 

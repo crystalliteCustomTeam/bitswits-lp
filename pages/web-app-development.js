@@ -24,6 +24,7 @@ import icon27 from '../public/images/fyicons/86.png'
 import icon28 from '../public/images/fyicons/87.png'
 import NewWebWho from '@/components/NewWebWho';
 import NewWebWhat from '@/components/NewWebWhat';
+import NewAddress from '@/components/NewAddress';
 
 //components
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
@@ -74,10 +75,10 @@ export default function gamedevelopmentcompany() {
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
-
             <WebappBanner />
             <NewHomeAbout />
             <Dedicatedweb />
+            <NewAddress />
             <Justbuildit />
             <NewWebWho />
             <NewWebWhat />

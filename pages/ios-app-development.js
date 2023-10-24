@@ -30,6 +30,7 @@ import icon27 from '../public/images/fyios/5.png'
 import icon28 from '../public/images/fyios/6.png'
 import NewIosWho from '@/components/NewIosWho';
 import NewIosWhat from '@/components/NewIosWhat';
+import NewAddress from '@/components/NewAddress';
 
 
 export default function gamedevelopmentcompany() {
@@ -46,10 +47,10 @@ export default function gamedevelopmentcompany() {
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
-
             <Iosbanner />
             <NewHomeAbout />
             <IosMaintainlogo />
+            <NewAddress />
             <Justbuildit />
             <NewIosWho />
             <NewIosWhat />

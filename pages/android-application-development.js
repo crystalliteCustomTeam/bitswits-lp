@@ -24,6 +24,7 @@ import icon27 from '../public/images/fyicons/14.png'
 import icon28 from '../public/images/fyicons/15.png'
 import NewAndriodWho from '@/components/NewAndriodWho';
 import NewAndriodWhat from '@/components/NewAndriodWhat';
+import NewAddress from '@/components/NewAddress';
 
 
 //components
@@ -48,6 +49,7 @@ export default function gamedevelopmentcompany() {
             <AndriodBanner />
             <NewHomeAbout />
             <AndriodMaintainlogo />
+            <NewAddress />
             <Justbuildit />
             <NewAndriodWho />
             <NewAndriodWhat />

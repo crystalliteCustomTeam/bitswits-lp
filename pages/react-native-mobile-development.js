@@ -28,6 +28,7 @@ import icon27 from '../public/images/fynative/5.png'
 import icon28 from '../public/images/fynative/6.png'
 import NewReactWho from '@/components/NewReactnativeWho';
 import NewReactWhat from '@/components/NewReactnativeWhat';
+import NewAddress from '@/components/NewAddress';
 
 
 export default function ReactNativeMobile() {
@@ -69,6 +70,7 @@ export default function ReactNativeMobile() {
             <ReactNativeBanner />
             <NewHomeAbout />
             <ReactnativeMaintain />
+            <NewAddress />
             <Justbuildit />
             <NewReactWho />
             <NewReactWhat />
