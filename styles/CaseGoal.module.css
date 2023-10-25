@@ -66,6 +66,12 @@
   background-image: url(../public/images/case-sponsord/goal-bg.png);
 }
 
+.wisu {
+  background-image: url(../public/images/case-wisu/goal-bg.png);
+}
+
+/* =========================================== */
+
 @media screen and (max-width: 991px) {
   .goal {
     padding: 50px 0 0;

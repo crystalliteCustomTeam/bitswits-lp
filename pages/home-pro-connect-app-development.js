@@ -52,7 +52,7 @@ export default function HomeConnect() {
 
             <Banner
                 banLogo={banLogo}
-                title={<> Quality Repairs, Lasting Results. </>}
+                title={<> Home Services at Your Fingertips. </>}
                 banImg={banImg}
                 bannerClass='homepro'
             />

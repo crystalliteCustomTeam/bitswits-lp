@@ -67,7 +67,7 @@ const HybridBanner = () => {
                                 <span className='d-block'>Hybrid Mobile Apps</span>
                                 <span className='d-block'>Development Company In USA</span>
                             </h3>
-                            <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+                            <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>Bitswits is the go-to hub for all your hybrid mobile app development needs in the USA. We are a leading technology company that excels in creating cost-effective and efficient hybrid mobile applications for businesses.</p>
 
                             <div className={styles.pont}>
                                     <Link className={styles.about} href="tel:+18335006007">LET'S CONNECT</Link>

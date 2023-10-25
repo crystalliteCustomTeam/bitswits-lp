@@ -71,6 +71,10 @@
   background-image: url(../public/images/case-sponsord/banner-bg.png);
 }
 
+.wisu {
+  background-image: url(../public/images/case-wisu/banner-bg.png);
+}
+
 /* =========================================== */
 
 @media screen and (max-width: 991px) {

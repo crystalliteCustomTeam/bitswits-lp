@@ -63,7 +63,7 @@ const CustomBanner = () => {
                                 <span className='d-block'>Custom Mobile Application </span>
                                 <span className='d-block'>Development for Business</span>
                             </h3>
-                            <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
+                            <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>Bitswits is your ultimate destination for custom mobile application development for businesses. We provide comprehensive solutions for companies seeking tailored mobile apps to boost their operations and customer engagement.</p>
 
                             <div className={styles.pont}>
                                 <Link className={styles.about} href="tel:+18335006007">LET'S CONNECT</Link>

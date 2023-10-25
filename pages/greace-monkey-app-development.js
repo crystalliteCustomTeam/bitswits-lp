@@ -52,7 +52,7 @@ export default function GreaceMonkey() {
 
             <Banner
                 banLogo={banLogo}
-                title={<> Quality Repairs, Lasting Results. </>}
+                title={<> Quality Repairs, Lasting Results. </>} 
                 banImg={banImg}
                 bannerClass='graceMonkey'
             />

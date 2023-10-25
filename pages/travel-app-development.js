@@ -52,7 +52,7 @@ export default function TravelApp() {
 
       <Banner
         banLogo={banLogo}
-        title={<> Quality Repairs, Lasting Results. </>}
+        title={<> Explore the World, One Click at a Time </>}
         banImg={banImg}
         bannerClass='tourista'
       />

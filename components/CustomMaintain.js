@@ -128,7 +128,7 @@ const CustomMaintain = () => {
                         <Col lg={4} className={styles.earn}>
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>iOS App Development</h3>
+                                    <h3 className='text-white font25 font-bold'>iOS App <br></br> Development</h3>
                                     <p className={styles.para}>
                                         Make intuitive mobile apps with rich functionality for Apple mobile devices with Swift and Objective-C.
                                     </p>

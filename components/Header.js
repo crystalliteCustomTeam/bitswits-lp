@@ -24,7 +24,7 @@ import foods from '../public/images/icons/foods.png'
 import backarrow from '../public/images/icons/back-arrow.webp'
 import music from '../public/images/icons/music.png'
 import ride from '../public/images/icons/ride.png'
-import bactria from '../public/images/icons/bactria.png'
+import wisu from '../public/images/icons/wisu.png'
 import fit from '../public/images/icons/fit.png'
 import grease from '../public/images/icons/grease.png'
 import homeconnect from '../public/images/icons/homeconnect.png'
@@ -495,15 +495,15 @@ const Header = () => {
                                             </div>
                                             <div className={styles.workBox}>
                                                 <Image alt="bitswits"
-                                                    src={bactria}
+                                                    src={wisu}
 
                                                 />
                                                 <div className={styles.ourWork}>
                                                     <Link className={styles.workTitle} href="/bacteria-app-development" onClick={handleMenu}>
-                                                        Bacteria App
+                                                        Ecommerce App
                                                     </Link>
                                                     <span className={styles.realDummy}>
-                                                        Bacteria Shield - Cleaning...
+                                                        Ecommerce - E-Store...
                                                     </span>
                                                 </div>
                                             </div>

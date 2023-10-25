@@ -89,13 +89,13 @@ const NewNativeServices = () => {
                         <Col lg={12}>
                             
                             <h1 className='text-white font55 font-bold text-center pb-3'>Native App Development Services</h1>
-                            <p className='text-white text-center pb-5'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+                            <p className='text-white text-center pb-5'>Native App Development Services - We craft bespoke, high-performance mobile applications tailored to your unique needs. Our expert team uses native development languages to deliver seamless, platform-specific apps for exceptional user experiences.</p>
                         </Col>
                         <Col lg={6}>
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white f-30 font-bold text-center'>Ios </h3>
-                                    <p className={styles.para}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+                                    <p className={styles.para}>iOS native mobile development is the art of creating powerful, high-performance applications exclusively for Apple's ecosystem. With Swift as the primary programming language, developers craft user-centric apps for iPhone and iPad, ensuring a seamless and immersive user experience.</p>
                                 </div>
                             </div>
                         </Col>
@@ -103,7 +103,7 @@ const NewNativeServices = () => {
                             <div className={styles.app1}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white f-30 font-bold text-center'>Android</h3>
-                                    <p className={styles.para}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+                                    <p className={styles.para}>Native Android mobile development is the process of building bespoke, high-performance applications tailored specifically for the Android operating system. Using Java or Kotlin, developers create apps that harness the full capabilities of Android devices, offering users a seamless and responsive experience.</p>
                                 </div>
                             </div>
                         </Col>

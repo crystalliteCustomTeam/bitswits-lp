@@ -52,7 +52,7 @@ export default function SoulSound() {
 
       <Banner
         banLogo={banLogo}
-        title={<> Quality Repairs, Lasting Results. </>}
+        title={<> Elevate Your Experience with Sponsor'd App </>}
         banImg={banImg}
         bannerClass='sponsord'
       />

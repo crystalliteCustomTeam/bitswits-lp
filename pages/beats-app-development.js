@@ -52,7 +52,7 @@ export default function beats() {
 
             <Banner
                 banLogo={banLogo}
-                title={<> Quality Repairs, Lasting Results. </>}
+                title={<> Play It Loud, Play It Proud </>}
                 banImg={banImg}
                 bannerClass='beats'
             />

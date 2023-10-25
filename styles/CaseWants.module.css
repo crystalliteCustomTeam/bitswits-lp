@@ -98,6 +98,12 @@
   background-size: 40%;
 }
 
+.wisu {
+  background-image: url(../public/images/case-wisu/want-bg.png);
+  background-position: 1200px 150px;
+  background-size: 40%;
+}
+
 /* ========================================== */
 
 @media screen and (max-width: 1690px) {
@@ -158,6 +164,11 @@
 
   .sponsord {
     background-position: 1135px 275px;
+    background-size: 40%;
+  }
+
+  .wisu {
+    background-position: 1000px 200px;
     background-size: 40%;
   }
 }
@@ -224,6 +235,11 @@
     background-position: 1090px 275px;
     background-size: 40%;
   }
+
+  .wisu {
+    background-position: 890px 200px;
+    background-size: 45%;
+  }
 }
 
 /* ========================================== */
@@ -288,6 +304,11 @@
     background-position: 980px 275px;
     background-size: 45%;
   }
+
+  .wisu {
+    background-position: 830px 200px;
+    background-size: 45%;
+  }
 }
 
 /* ========================================== */
@@ -346,6 +367,11 @@
   .sponsord {
     background-position: 975px 300px;
     background-size: 40%;
+  }
+
+  .wisu {
+    background-position: 790px 200px;
+    background-size: 45%;
   }
 }
 
@@ -406,6 +432,11 @@
     background-position: 910px 350px;
     background-size: 40%;
   }
+
+  .wisu {
+    background-position: 740px 250px;
+    background-size: 45%;
+  }
 }
 
 /* ========================================== */
@@ -442,7 +473,7 @@
     align-items: flex-start;
   }
 
-  .wants img{
+  .wants img {
     margin-top: 6px;
   }
 }

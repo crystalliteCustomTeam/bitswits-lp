@@ -52,7 +52,7 @@ export default function ezride() {
 
       <Banner
         banLogo={banLogo}
-        title={<> Quality Repairs, Lasting Results. </>}
+        title={<> Taking You Where You Need to Be </>}
         banImg={banImg}
         bannerClass='rideme'
       />

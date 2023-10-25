@@ -16,14 +16,14 @@ import Homenextproject from '@/components/Homenextproject';
 import Faqs from '@/components/NewhomeFaqs';
 import HomeLocation from '@/components/HomeLocation';
 //images
-import banLogo from '../public/images/case-monkey/banner-logo.png'
-import banImg from '../public/images/case-monkey/banner-img.png'
-import glamicImg from '../public/images/case-monkey/glamic.png'
-import goalImg from '../public/images/case-monkey/goal.png'
-import animiImg1 from '../public/images/case-monkey/animi1.png'
-import animiImg2 from '../public/images/case-monkey/animi2.png'
-import animiImg3 from '../public/images/case-monkey/animi3.png'
-import servImg from '../public/images/case-monkey/services.png'
+import banLogo from '../public/images/case-wisu/banner-logo.png'
+import banImg from '../public/images/case-wisu/banner-img.png'
+import glamicImg from '../public/images/case-wisu/glamic.png'
+import goalImg from '../public/images/case-wisu/goal.png'
+import animiImg1 from '../public/images/case-wisu/animi1.png'
+import animiImg2 from '../public/images/case-wisu/animi2.png'
+import animiImg3 from '../public/images/case-wisu/animi3.png'
+import servImg from '../public/images/case-wisu/services.png'
 
 
 export default function bacteriaapp() {
@@ -52,9 +52,9 @@ export default function bacteriaapp() {
 
       <Banner
         banLogo={banLogo}
-        title={<> Quality Repairs, Lasting Results. </>}
+        title={<> Stay in Style, Always a Swipe Away! </>}
         banImg={banImg}
-        bannerClass='graceMonkey'
+        bannerClass='wisu'
       />
 
       <CaseGlamic
@@ -101,13 +101,13 @@ export default function bacteriaapp() {
         text20={<> Real-time chat connection between consumers and service providers </>}
         text21={<> An efficient Payment Module with diverse options </>}
         para={<> Glamic opted for BitsWits as they wanted a development partner who understood their goals and shared the same business values. BitsWits's role in the development sector was not different; the team of BitsWits expressed all that they got in their pace to make this Glamic project shine. </>}
-        wantsClass='graceMonkey'
+        wantsClass='wisu'
       />
 
       <CaseGoal
         golImg={goalImg}
         title={<> Take a step toward your beauty goals from the comfort of your couch with just a few taps on our app! </>}
-        goalClass='graceMonkey'
+        goalClass='wisu'
       />
 
       <CaseOvercoming

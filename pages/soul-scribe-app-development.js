@@ -52,7 +52,7 @@ export default function soulScribe() {
 
             <Banner
                 banLogo={banLogo}
-                title={<> Quality Repairs, Lasting Results. </>}
+                title={<> Share Your Favorite Memories </>}
                 banImg={banImg}
                 bannerClass='soulscribe'
             />

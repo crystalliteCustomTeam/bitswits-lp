@@ -52,7 +52,7 @@ export default function fooddelivery() {
 
       <Banner
         banLogo={banLogo}
-        title={<> Quality Repairs, Lasting Results. </>}
+        title={<> Feeding Your Hunger, One Order at a Time. </>}
         banImg={banImg}
         bannerClass='cravecourier'
       />

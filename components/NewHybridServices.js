@@ -98,7 +98,7 @@ const NewHybridServices = () => {
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold '>Flutter</h3>
-                                    <p className={styles.para}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+                                    <p className={styles.para}>Flutter is a popular framework for hybrid mobile app development that allows you to build high-quality, native-like mobile applications for both Android and iOS using a single codebase.</p>
                                 </div>
                             </div>
                         </Col>
@@ -106,7 +106,7 @@ const NewHybridServices = () => {
                             <div className={styles.app1}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold '>React</h3>
-                                    <p className={styles.para}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+                                    <p className={styles.para}>React is a popular framework for hybrid mobile app development that allows you to build mobile applications for both Android and iOS using a single codebase.</p>
                                 </div>
                             </div>
                         </Col>
@@ -114,7 +114,7 @@ const NewHybridServices = () => {
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold '>Ionic</h3>
-                                    <p className={styles.para}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+                                    <p className={styles.para}>Ionic is a popular framework for hybrid mobile app development that enables you to build mobile applications for various platforms, including Android, iOS, and the Web.</p>
                                 </div>
                             </div>
                         </Col>
@@ -124,7 +124,7 @@ const NewHybridServices = () => {
                                 <Row className='align-items-center'>
                                     <Col xl={7}>
                                         <h3 className='text-white font25 font-bold '>Xamarin</h3>
-                                        <p className={styles.para1}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br></br> Ipsum has been the industry's standard dummy text ever since the Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                        <p className={`${styles.para1} w-75`}>Xamarin is a popular framework for hybrid mobile app development that allows you to build mobile applications for iOS and Android using C# and .NET.</p>
                                     </Col>
                                     <Col xl={4}>
 

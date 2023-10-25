@@ -52,7 +52,7 @@ export default function RealState() {
 
             <Banner
                 banLogo={banLogo}
-                title={<> Quality Repairs, Lasting Results. </>}
+                title={<> our Dream Home, One Tap Away </>}
                 banImg={banImg}
                 bannerClass='dreamhome'
             />

@@ -52,7 +52,7 @@ export default function prohealth() {
 
       <Banner
         banLogo={banLogo}
-        title={<> Quality Repairs, Lasting Results. </>}
+        title={<> Empowering Health, One Click at a Time </>}
         banImg={banImg}
         bannerClass='healthcare'
       />

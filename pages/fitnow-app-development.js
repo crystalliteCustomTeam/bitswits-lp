@@ -52,7 +52,7 @@ export default function FitNow() {
 
             <Banner
                 banLogo={banLogo}
-                title={<> Quality Repairs, Lasting Results. </>}
+                title={<> Achieve Your Fitness Goals, Anywhere, Anytime. </>}
                 banImg={banImg}
                 bannerClass='fitnow'
             />

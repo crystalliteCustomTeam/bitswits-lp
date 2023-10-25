@@ -316,7 +316,8 @@
 }
 
 .workBox img {
-  filter: invert(1);
+  width: 40px;
+  height: 40px;
 }
 
 .ourWork {

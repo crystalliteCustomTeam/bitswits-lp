@@ -52,7 +52,7 @@ export default function ReadyApp() {
 
             <Banner
                 banLogo={banLogo}
-                title={<> Quality Repairs, Lasting Results. </>}
+                title={<> Onboarding Made Simple! </>}
                 banImg={banImg}
                 bannerClass='readyApp'
             />
