@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "@/styles/Iosbanner.module.css";
+import styles from "@/styles/address2.module.css";
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
