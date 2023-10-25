@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic';
 import NewBanner from '@/components/NewBanner';
 import NewHomeAbout from '@/components/NewHomePageAbout';
 import NewHomeWho from '@/components/NewHomeWho';
-const Justbuildit = dynamic(() => import('@/components/Justbuildit')); 
+const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 import NewHomeWhat from '@/components/NewHomeWhat';
 import NewHomeHear from '@/components/NewHomeHear'
 import NewMaintain from '@/components/NewMaintain';
