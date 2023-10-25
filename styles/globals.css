@@ -271,6 +271,9 @@ div {
 .line2 {
   line-height: 1.2;
 }
+.line3 {
+  line-height: 1.5;
+}
 
 /* colors */
 .black {
