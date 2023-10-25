@@ -3,6 +3,13 @@
   background-color: black;
 }
 
+.newHomeBg h2{
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 700;
+  color: #fff;
+}
+
 .fill {
   display: flex;
   gap: 40px;

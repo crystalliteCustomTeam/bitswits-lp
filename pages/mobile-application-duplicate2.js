@@ -4,30 +4,24 @@ import dynamic from "next/dynamic";
 //components
 import NewMblBannerduplicatejump from '@/components/NewMblBannerduplicatejump';
 import NewHomeAbout from '@/components/NewHomePageAbout';
-import NewMblWho from '@/components/NewMblWho';
-import NewMblWhat from '@/components/NewMblWhat';
-const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
-import NewMblServices from '@/components/NewMblServices';
+import NewMblServices2 from '@/components/NewMblServices2';
 import NewMblWhy from "@/components/NewMblWhy";
 import NewiosPortFolioduplicate from '@/components/NewiosPortFolioduplicate';
-import Capabilities from '@/components/Capabilities';
 import Newsuccess from '@/components/NewMblSuccess';
 import NewHomeGlobal from "@/components/NewHomeGlobal";
-import ClientsThink2 from "@/components/ClientsThink2";
-import Homenextproject from "@/components/Homenextproject";
+import Homenextproject2 from "@/components/Homenextproject2";
 import Technologieswe from "@/components/NewMblTechnologiesWe";
-import Nextproject2 from "@/components/Nextproject2";
 import NewMobileFaqs from '@/components/NewMobileFaqs';
 import Contact2 from "@/components/Contact2";
 import Awards from "@/components/Awards";
 //Icons 
-
 import icon23 from '../public/images/fymobile/1.png'
 import icon24 from '../public/images/fymobile/2.png'
 import icon25 from '../public/images/fymobile/3.png'
 import icon26 from '../public/images/fymobile/4.png'
 import icon27 from '../public/images/fymobile/5.png'
 import icon28 from '../public/images/fymobile/6.png'
+
 
 export default function mobileApplication() {
   return (
@@ -96,10 +90,8 @@ export default function mobileApplication() {
       <NewMblBannerduplicatejump />
       <Awards />
       <NewHomeAbout />
-      <NewMblWho />
-      <NewMblWhat />
-      <Justbuildit />
-      <NewMblServices />
+      <NewMblServices2 />
+      <Technologieswe />
       <NewMblWhy
         title={<> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </>}
         subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </>}
@@ -123,16 +115,12 @@ export default function mobileApplication() {
         paraFour="Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences."
         paraFive="Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue."
         paraSix="Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction." />
+      <NewHomeGlobal />
       <NewiosPortFolioduplicate />
-      <Capabilities />
-      <div className="status">
+      <div className="status3">
         <Newsuccess />
       </div>
-      <NewHomeGlobal />
-      <ClientsThink2 />
-      <Nextproject2 />
-      <Technologieswe />
-      <Homenextproject />
+      <Homenextproject2 />
       <NewMobileFaqs />
       <Contact2 />
     </>

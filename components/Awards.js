@@ -16,7 +16,7 @@ const Awards = () => {
 
 
 
-    return (
+    return ( 
         <>
 
             <section className={styles.newHomeBg}>
@@ -24,7 +24,7 @@ const Awards = () => {
                 <Container className={styles.col1}>
 
                     <Row>
-                        <h2 className='white font30 center mb-5 line3 f-600'> <span className='grdiant'>Results</span> that speak for themselves</h2>
+                        <h2 className='center mb-5'> <span className='grdiant'>Results</span> that speak for themselves</h2>
                         <div className={styles.fill}>
                             <div>
                                 <Image src={icon23} className='img-fluid' />
