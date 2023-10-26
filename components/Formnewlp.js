@@ -18,9 +18,9 @@ const Formnewlp = () => {
                     <Row className='align-items-center'>
                         <Col xl={6}>
                             <div className={styles.star}>
-                                <h3 className='font20 white fw300'>30 Minutes Strategy Session</h3>
-                                <h2 className='font30 white fw500'> <span className='fw600'>Get Your</span> Free 30 Minute <br></br> <span className='fw600'>Strategy Session With An <br></br>
-                                    Experienced </span> App Experts <br></br> <span className='fw600'>Valued</span> At $300</h2>
+                                <h3 className='font20 white fw800'>30 Minutes Strategy Session</h3>
+                                <h2 className='font40 white fw600'> Get Your<span className='fw800 f45'> Free 30 Minute </span>  <br></br>  <span className='fw600'>Strategy Session With An <br></br>
+                                    Experienced </span>  <span className='fw800 f45'> App Experts </span> <br></br> <span className='fw600'>Valued</span> At  <span className='fw800 f45'> $300 </span></h2>
                             </div>
 
                         </Col>
