@@ -33,12 +33,12 @@ const CaseGlamic = (props) => {
                         </Col>
                     </Row>
                     <Row className='justify-content-between mt-md-5 pt-4'>
-                        <Col lg={6}>
+                        <Col lg={12}>
                             <div className={styles.leftText}>
                                 <h3>{props.title2}</h3>
                             </div>
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={12}>
                             <div className={styles.rightText}>
                                 <p>{props.text3}</p>
                                 <p>{props.text4}</p>
@@ -46,16 +46,15 @@ const CaseGlamic = (props) => {
                         </Col>
                     </Row>
                     <Row className='justify-content-between mt-3 mt-md-5'>
-                        <Col lg={6}>
+                        <Col lg={12}>
                             <div className={styles.leftText}>
                                 <h3>{props.title3}</h3>
                             </div>
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={12}>
                             <div className={styles.rightText}>
                                 <p>{props.text5}</p>
                                 <p>{props.text6}</p>
-                                <p>{props.text7}</p>
                             </div>
                         </Col>
                     </Row>

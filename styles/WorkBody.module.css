@@ -1,0 +1,208 @@
+.workBg {
+  height: 100vh;
+  padding: 500px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../public/images/case-monkey/bg-image.png);
+}
+
+.workBg .workText {
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  padding: 35px 80px 50px 50px;
+}
+
+.workBg.travel .workText {
+  background-image: url(/images/ourwork/FindFoods.jpg);
+}
+
+.workBg.estate .workText {
+  background-image: url(/images/ourwork/SoulSound.jpg);
+}
+
+.workBg.ecommerce .workText {
+  background-image: url(/images/ourwork/PROhealth.jpg);
+}
+
+.workBg.scribe .workText {
+  background-image: url(/images/ourwork/EZRide.jpg);
+}
+
+.workBg.grease .workText {
+  background-image: url(/images/ourwork/Bliss.jpg);
+}
+
+.workBg.sponsord .workText {
+  background-image: url(/images/ourwork/market-place.jpg);
+}
+
+.workBg.health .workText {
+  background-image: url(/images/ourwork/FindFoods.jpg);
+}
+
+.workBg.ride .workText {
+  background-image: url(/images/ourwork/SoulSound.jpg);
+}
+
+.workBg.fit .workText {
+  background-image: url(/images/ourwork/PROhealth.jpg);
+}
+
+.workBg.ready .workText {
+  background-image: url(/images/ourwork/EZRide.jpg);
+}
+
+.workBg.crave .workText {
+  background-image: url(/images/ourwork/Bliss.jpg);
+}
+
+.workBg.home .workText {
+  background-image: url(/images/ourwork/market-place.jpg);
+}
+
+.workBg.beats .workText {
+  background-image: url(/images/ourwork/FindFoods.jpg);
+}
+
+.workImg {
+  margin-left: -35px;
+  margin-top: 23px;
+}
+
+.workImg2 {
+  margin-left: 0px;
+  margin-right: -35px;
+}
+
+.workImg3 {
+  margin-left: 0px;
+  margin-right: -25px;
+}
+
+.workBg h4 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.workBg p {
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+}
+
+.btns {
+  width: 50%;
+  height: 45px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+}
+
+.workBg.travel .btns {
+  background-color: #d7a62c;
+}
+
+.workBg.estate .btns {
+  background-color: #4ba9a8;
+}
+
+.workBg.ecommerce .btns {
+  background-color: #473c99;
+}
+
+.workBg.scribe .btns {
+  background-color: #cab84a;
+}
+
+.workBg.grease .btns {
+  background-color: #1d6358;
+}
+
+.workBg.sponsord .btns {
+  background-color: #3b9a8b;
+}
+
+.workBg.health .btns {
+  background-color: #d7a62c;
+}
+
+.workBg.ride .btns {
+  background-color: #4ba9a8;
+}
+
+.workBg.fit .btns {
+  background-color: #473c99;
+}
+
+.workBg.ready .btns {
+  background-color: #cab84a;
+}
+
+.workBg.crave .btns {
+  background-color: #1d6358;
+}
+
+.workBg.home .btns {
+  background-color: #3b9a8b;
+}
+
+.workBg.beats .btns {
+  background-color: #d7a62c;
+}
+
+/* ===================================== */
+
+@media screen and (max-width: 1390px) {
+  .workBg p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .workBg {
+    height: auto;
+    padding: 50px;
+  }
+
+  .workImg {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .workBg .workText {
+    padding: 35px 20px;
+    background-position: unset;
+  }
+
+  .workRow {
+    flex-direction: column-reverse;
+  }
+}

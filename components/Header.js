@@ -451,7 +451,7 @@ const Header = () => {
                             </div>
                         </li>
                         <li className={`${styles.megaList4} ${styles.navList}`} onClick={handleMegaMenu4}>
-                            <Link href='#' className={`${styles.megaLink} ${styles.befLink}`}>
+                            <Link href='/our-work' className={`${styles.megaLink} ${styles.befLink}`}>
                                 OUR WORK
                                 <FaAngleDown />
                             </Link>

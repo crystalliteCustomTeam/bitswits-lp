@@ -10,10 +10,14 @@
   font-size: 50px;
   line-height: 60px;
   font-weight: 700;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.wants h3 span {
   background: linear-gradient(to right, #eb335b 35%, #4a78ef 65%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 25px;
 }
 
 .wants p {
@@ -23,7 +27,6 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  margin-bottom: 0;
 }
 
 /* ============================= */
@@ -207,7 +210,7 @@
   }
 
   .beats {
-    background-position: 1020px 435px;
+    background-position: 1020px 535px;
     background-size: 60%;
   }
 
@@ -450,10 +453,6 @@
   .wants h3 {
     font-size: 40px;
     line-height: 50px;
-  }
-
-  .wants p {
-    margin-bottom: 10px;
   }
 }
 

@@ -13,26 +13,6 @@ const CaseServices = (props) => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                            <div>
-                                <h3>{props.title}</h3>
-                                <p>
-                                    <Image src={tick} width={20} alt="bitswits" className={`img-fluid`} />
-                                    <span>{props.text1}</span>
-                                </p>
-                                <p>
-                                    <Image src={tick} width={20} alt="bitswits" className={`img-fluid`} />
-                                    <span>{props.text2}</span>
-                                </p>
-                                <p>
-                                    <Image src={tick} width={20} alt="bitswits" className={`img-fluid`} />
-                                    <span>{props.text3}</span>
-                                </p>
-                            </div>
-                        </Col>
-                    </Row>
-
-                    <Row>
-                        <Col lg={12}>
                             <div className='mt-lg-5 mt-3 pt-3'>
                                 <Image src={props.servImg} alt="bitswits" className={`${styles.secImg} img-fluid`} />
                             </div>

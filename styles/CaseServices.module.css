@@ -1,5 +1,5 @@
 .services {
-  padding: 150px 0;
+  padding: 0 0 150px;
   background: #000;
   background-size: cover;
   background-position: top center;
@@ -15,6 +15,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 25px;
+  width: 20%;
 }
 
 .services p {
@@ -24,7 +25,6 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  margin-bottom: 5px;
 }
 
 @media screen and (max-width: 991px) {
@@ -38,5 +38,6 @@
     font-size: 30px;
     line-height: 40px;
     margin-bottom: 20px;
+    width: 100%;
   }
 }
