@@ -1,11 +1,10 @@
 .workBg {
-  height: 100vh;
-  padding: 500px 0;
+  padding: 75px 0;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #000;
-  background-size: cover;
+  background-size: 65%;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(../public/images/case-monkey/bg-image.png);
