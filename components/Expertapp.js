@@ -23,10 +23,10 @@ export default function Expertapp(props) {
                 <Container>
                     <Row className='align-items-center g-2'>
 
-                        <Col lg={12}>
+                        <Col lg={12} >
                             <h3 className='white f-30 f-500 center'>Expert App Solutions</h3>
                             <h2 className='white f-60 f-700 center'>Mobile App Development Services</h2>
-                            <p className='white font16 f-400 center'>Revolutionize Your Business With A Mobile App Development Firm Dedicated To Providing You With The Most Innovative Apps. Take Advantage Of Their Extensive Offerings For Essential Platforms Like Ios, And Android For Maximum Impact.</p>
+                            <p className={`${styles.appno} white font16 f-400 center`}>Revolutionize Your Business With A Mobile App Development Firm Dedicated To Providing You With The Most Innovative Apps. Take Advantage Of Their Extensive Offerings For Essential Platforms Like Ios, And Android For Maximum Impact.</p>
 
                         </Col>
 
