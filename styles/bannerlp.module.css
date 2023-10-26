@@ -8,13 +8,20 @@
   background-size: inherit;
 }
 
-.newHomeBg img:hover{
+/* .newHomeBg img:hover{
   transform: scale(1.2);
   transition: all 1s ease-out;
-}
+} */
 .newHomeBg img{
 
   transition: all 1s ease-out;
+  animation: mymove 5s;
+  transform: scale(1.3);
+}
+
+@keyframes mymove {
+  from {transform: scale(.5); transition: all 1s ease-out;}
+  to {transform: scale(1.3); transition: all 1s ease-out;}
 }
 
 .just {
