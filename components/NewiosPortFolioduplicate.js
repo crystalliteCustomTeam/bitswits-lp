@@ -45,7 +45,7 @@ const NewiosPortFolio = () => {
                                 <Image quality={75} src={folio2} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                 <span className='font25 font-bold white mb-2'>Crave Courier App</span>
-                                    <Link href="/crave-courier-app-development" className={styles.sucssBtn}>View case study</Link>
+                                    <Link href="/food-delivery-app-development-case-study" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
                         </Col>
@@ -136,7 +136,7 @@ const NewiosPortFolio = () => {
                                <Image quality={75} src={folio6} alt='BitsWits' className={`img-fluid`} />
                                <div className={styles.polioTxt}>
                                    <span className='font25 font-bold white mb-2'>Home Connect App</span>
-                                   <Link href="/home-pro-connect-app-development" className={styles.sucssBtn}>View case study</Link>
+                                   <Link href="/handyman-on-demand-app-development-case-study" className={styles.sucssBtn}>View case study</Link>
                                </div>
                            </div>
                        </Col>

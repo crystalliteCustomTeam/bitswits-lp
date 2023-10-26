@@ -619,7 +619,7 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/crave-courier-app-development" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/food-delivery-app-development-case-study" onClick={handleMenu}>
                                                         Crave App
                                                     </Link>
                                                     <span className={styles.realDummy}>
@@ -633,7 +633,7 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/home-pro-connect-app-development" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/handyman-on-demand-app-development-case-study" onClick={handleMenu}>
                                                         Homeconnect Pro
                                                     </Link>
                                                     <span className={styles.realDummy}>

@@ -11,20 +11,25 @@ const CaseGlamic = (props) => {
                 <Container>
                     <Row className='justify-content-between'>
                         <Col lg={6}>
-                            <div className={styles.left}>
-                                <h2>{props.title}</h2>
-                                <p>{props.text1}</p>
-                                <p>{props.text2}</p>
-                            </div>
+                            {props.textArray1.map((item, index) => (
+                                <div className={styles.left} key={index}>
+                                    <h2>{item.title}</h2>
+                                    {item.text.map((text, pIndex) => (
+                                        <p key={pIndex}>{text}</p>
+                                    ))}
+                                </div>
+                            ))}
                         </Col>
                         <Col lg={5}>
-                            <div className={styles.right}>
-                                <h3>{props.subtitle}</h3>
-                                <p>{props.subtext}</p>
-                                <div className={styles.caseBtn}>
-                                    <Link href='#'>BOOK A CALL</Link>
+                            {props.textArray2.map((item, index) => (
+                                <div className={styles.right} key={index}>
+                                    <h3>{item.title}</h3>
+                                    <p>{item.text}</p>
+                                    <div className={styles.caseBtn}>
+                                        <Link href='#'>BOOK A CALL</Link>
+                                    </div>
                                 </div>
-                            </div>
+                            ))}
                         </Col>
                         <Col lg={12}>
                             <div className={styles.SecImg}>
@@ -34,28 +39,14 @@ const CaseGlamic = (props) => {
                     </Row>
                     <Row className='justify-content-between mt-md-5 pt-4'>
                         <Col lg={12}>
-                            <div className={styles.leftText}>
-                                <h3>{props.title2}</h3>
-                            </div>
-                        </Col>
-                        <Col lg={12}>
-                            <div className={styles.rightText}>
-                                <p>{props.text3}</p>
-                                <p>{props.text4}</p>
-                            </div>
-                        </Col>
-                    </Row>
-                    <Row className='justify-content-between mt-3 mt-md-5'>
-                        <Col lg={12}>
-                            <div className={styles.leftText}>
-                                <h3>{props.title3}</h3>
-                            </div>
-                        </Col>
-                        <Col lg={12}>
-                            <div className={styles.rightText}>
-                                <p>{props.text5}</p>
-                                <p>{props.text6}</p>
-                            </div>
+                            {props.textArray3.map((item, index) => (
+                                <div className={styles.leftText} key={index}>
+                                    <h3>{item.title}</h3>
+                                    {item.text.map((para, pIndex) => (
+                                        <p key={pIndex}>{para}</p>
+                                    ))}
+                                </div>
+                            ))}
                         </Col>
                     </Row>
                 </Container>
@@ -64,4 +55,4 @@ const CaseGlamic = (props) => {
     )
 }
 
-export default CaseGlamic
+export default CaseGlamic;

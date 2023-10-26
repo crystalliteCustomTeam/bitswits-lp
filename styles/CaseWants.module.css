@@ -6,12 +6,16 @@
   background-repeat: no-repeat;
 }
 
+.content {
+  margin-bottom: 40px;
+}
+
 .wants h3 {
   font-size: 50px;
   line-height: 60px;
   font-weight: 700;
   color: #fff;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .wants h3 span {
@@ -185,7 +189,7 @@
   }
 
   .cravecourier {
-    background-position: 980px 355px;
+    background-position: 980px 455px;
     background-size: 50%;
   }
 

@@ -1,6 +1,6 @@
 .newHomeBg {
   background-color: #000;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
   padding-top: 50px;
 }
 
@@ -36,6 +36,34 @@
   background-image: url(../public/newMobilePageImages/portfolio/folio6.png);
 }
 
+.poliBox7 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio7.png);
+}
+
+.poliBox8 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio8.png);
+}
+
+.poliBox9 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio9.png);
+}
+
+.poliBox10 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio10.png);
+}
+
+.poliBox11 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio11.png);
+}
+
+.poliBox12 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio12.png);
+}
+
+.poliBox13 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio13.png);
+}
+
 .polioTxt {
   position: absolute;
   left: 0;
@@ -63,13 +91,16 @@
   border: 2px solid #fff;
 }
 
+.sucssBtn2 {
+  width: 350px;
+  height: 50px;
+}
+
 .poliBox img {
   width: 100%;
 }
 
-
 @media screen and (max-width: 480px) {
-
   .newHomeBg {
     background-color: #000;
     padding-bottom: 100px;

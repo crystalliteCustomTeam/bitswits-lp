@@ -42,10 +42,6 @@
   font-weight: 600;
 }
 
-.rightText p{
-  text-align: center;
-}
-
 .caseBtn {
   background-color: #fff;
 }
@@ -68,19 +64,27 @@
   margin-top: 80px;
 }
 
+.leftText {
+  margin-bottom: 50px;
+}
+
 .leftText h3 {
   font-size: 50px;
   line-height: 60px;
   font-weight: 700;
   color: #fff;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .leftText h3 span {
   background: linear-gradient(to right, #eb335b 35%, #4a78ef 65%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.leftText p {
+  text-align: center;
 }
 
 @media screen and (max-width: 991px) {

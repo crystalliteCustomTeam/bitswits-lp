@@ -22,7 +22,6 @@ import Technologieswe from '@/components/Technologieswe';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
 import NewHybridWhat from '@/components/NewHybridWhat';
-import NewHybridPortfolio from '@/components/NewHybridPortfolio';
 import NewAddress from '@/components/NewAddress';
 
 export default function HybridMobile() {
@@ -43,7 +42,7 @@ export default function HybridMobile() {
             <NewHybridWho />
             <Justbuildit />
             <NewHybridWhat />
-            <NewHybridPortfolio />
+            <NewiosPortFolio />
             <div className='status'>
                 <Newsuccess />
             </div>

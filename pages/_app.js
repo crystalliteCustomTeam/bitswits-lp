@@ -40,8 +40,8 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/fitnow-app-development'
     || router.pathname == '/ready-app-development'
     || router.pathname == '/beats-app-development'
-    || router.pathname == '/home-pro-connect-app-development'
-    || router.pathname == '/crave-courier-app-development'
+    || router.pathname == '/handyman-on-demand-app-development-case-study'
+    || router.pathname == '/food-delivery-app-development-case-study'
 
 
   return (
