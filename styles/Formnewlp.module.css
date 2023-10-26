@@ -79,3 +79,14 @@
     padding-left: 20px;
     padding-top: 10px;
 }
+
+@media (max-width:1400px)  { 
+
+.star h2{
+    font-size: 34px!important;
+}
+.star h2 span{
+    font-size: 34px!important;
+}
+
+ }
