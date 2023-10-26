@@ -3,11 +3,9 @@
   --white: #fff;
   --primary: #f32f53;
   --mry: #f32f53;
-  --gradient: linear-gradient(
-    90deg,
-    rgba(116, 25, 227, 0.5) 0%,
-    rgba(243, 47, 92, 0.5) 100%
-  );
+  --gradient: linear-gradient(90deg,
+      rgba(116, 25, 227, 0.5) 0%,
+      rgba(243, 47, 92, 0.5) 100%);
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
@@ -271,6 +269,7 @@ div {
 .line2 {
   line-height: 1.2;
 }
+
 .line3 {
   line-height: 1.5;
 }
@@ -1459,6 +1458,42 @@ input::-webkit-inner-spin-button {
   width: 100%;
 } */
 
+
+.newfoldlp .slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 15px;
+  line-height: 20px;
+  position: absolute;
+  top: -13px;
+  left: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: 1;
+  color: #292929;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.newfoldlp .slick-dots li.slick-active button:before {
+  color: #F32F53;
+}
+
+.newfoldlp .slick-dots {
+  position: absolute;
+  bottom: -37px;
+}
+
+.newfoldlp .slick-dots li {
+  margin: 0 0px;
+}
+
+.newfoldlp .slick-dots {
+  text-align: right;
+}
+
 .qtechcap.blckchn .slick-dots li {
   width: 215px;
   height: 5px;
@@ -1580,6 +1615,7 @@ input::-webkit-inner-spin-button {
   .newfire {
     width: 22% !important;
   }
+
   .star {
     justify-content: flex-end;
   }
@@ -1653,6 +1689,7 @@ input::-webkit-inner-spin-button {
   .font25 {
     font-size: 31px;
   }
+
   .combo .font25 {
     font-size: 25px;
   }

@@ -1,0 +1,36 @@
+.people{
+  background-color: black;
+}
+.comple{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.comple3{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.comple1{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.comple5{
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+
+
+}
+.comple1 p, .comple5 p{
+  color: white;
+  font-size: 14px;
+}
+.flot{
+  display: flex;
+  justify-content: space-between;
+}

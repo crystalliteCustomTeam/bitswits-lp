@@ -1,5 +1,7 @@
 import Header from '@/components/Header';
+import Headerlp from '@/components/Headerlp';
 import Footernewfy from '@/components/Footernewfydesign';
+import Footernewlp from '@/components/Footernewlp';
 import Cursor from "@/components/Cursor";
 import { useRouter } from "next/router";
 import '@/styles/globals.css'
@@ -43,11 +45,21 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/handyman-on-demand-app-development-case-study'
     || router.pathname == '/food-delivery-app-development-case-study'
 
+  const newlps = router.pathname == '/mobile-app-development-company-lp'
+
 
   return (
     <>
 
-      <Header />
+
+      {newlps ?
+
+        <Headerlp />
+
+        :
+        <Header />
+      }
+
 
 
       {mouse &&
@@ -57,8 +69,11 @@ export default function App({ Component, pageProps }) {
 
       <Component {...pageProps} />
 
-
-      <Footernewfy />
+      {newlps ?
+        <Footernewlp />
+        :
+        <Footernewfy />
+      }
 
     </>
   )
