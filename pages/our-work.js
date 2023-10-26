@@ -36,7 +36,7 @@ export default function OurWork() {
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
-            <WorkBanner/>
+            <WorkBanner />
             <WorkBody />
             <NewHomeGlobal />
             <Capabilities />
