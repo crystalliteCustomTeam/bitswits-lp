@@ -1,0 +1,23 @@
+.wework{
+  background-color: black;
+}
+
+.wework h2 span{
+color: #F32F53;
+}
+
+.dem{
+  border: 1px solid #373636;
+  padding: 45px;
+  border-radius: 20px;
+  border-bottom-right-radius: 50px;
+}
+
+.dem h4{
+  font-size: 23px;
+  color: white;
+}
+.dem p{
+  font-size: 15px;
+  color: #91999E;
+}

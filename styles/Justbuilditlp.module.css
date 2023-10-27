@@ -1,7 +1,12 @@
 .slide1 {
   background-color: black;
 }
-
+.slide2 {
+  background-color: black;
+}
+.slide2 a{
+  border-radius: 10px;
+}
 
 .just {
   font-size: 130px;

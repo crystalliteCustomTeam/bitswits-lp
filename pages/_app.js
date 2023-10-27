@@ -45,7 +45,7 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/handyman-on-demand-app-development-case-study'
     || router.pathname == '/food-delivery-app-development-case-study'
 
-  const newlps = router.pathname == '/mobile-app-development-company-lp'
+  const newlps = router.pathname == '/mobile-app-development-company-lp' || router.pathname == '/mobile-app-development-company-lp2'
 
 
   return (

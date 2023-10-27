@@ -124,8 +124,12 @@
 }
 
 @media screen and (max-width: 480px) {
+
+
+  
   .BannerSlider {
     margin-top: -145px;
+    display: none;
   }
 
   .just {
