@@ -50,9 +50,26 @@
     height: 48px;
     width: 30%;
   }
-  .formalign{
+
+  .formalign {
     display: flex;
     justify-content: space-around;
     gap: 15px;
+  }
 }
+
+@media screen and (max-width: 480px) {
+
+  .formalign {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .formalign input {
+    height: 48px;
+    width: 100%;
+  }
+
 }

@@ -99,3 +99,21 @@
   }
 
 }
+
+
+@media screen and (max-width: 480px) { 
+  .cart {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 2%;
+    flex-direction: column;
+}
+
+.post {
+  
+  width: 100%;
+ 
+}
+
+}

@@ -55,7 +55,7 @@
 @media screen and (min-width: 1400px) {
 
 
-  .nothing {
+  .nothing1 {
     background-position: 953px center;
   }
 
@@ -64,8 +64,8 @@
 @media screen and (min-width: 1600px) {
 
 
-  .nothing {
-    background-position: 1053px center;
+  .nothing1 {
+    background-position: 1153px center;
   }
 
 }

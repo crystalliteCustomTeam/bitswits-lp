@@ -93,3 +93,14 @@
 }
 
  }
+
+ @media (max-width:480px)  {
+
+    .your {
+       
+        margin-top: 5%;
+    }
+    
+
+
+   }
