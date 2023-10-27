@@ -16,14 +16,14 @@ import Homenextproject from '@/components/Homenextproject';
 import Faqs from '@/components/NewhomeFaqs';
 import HomeLocation from '@/components/HomeLocation';
 //images
-import banLogo from '../public/images/case-fitnow/banner-logo.png'
-import banImg from '../public/images/case-fitnow/banner-img.png'
-import glamicImg from '../public/images/case-fitnow/glamic.png'
-import goalImg from '../public/images/case-fitnow/goal.png'
-import animiImg1 from '../public/images/case-fitnow/animi1.png'
-import animiImg2 from '../public/images/case-fitnow/animi2.png'
-import animiImg3 from '../public/images/case-fitnow/animi3.png'
-import servImg from '../public/images/case-fitnow/services.png'
+import banLogo from '../public/images/case-sponsord/banner-logo.png'
+import banImg from '../public/images/case-sponsord/banner-img.png'
+import glamicImg from '../public/images/case-sponsord/glamic.png'
+import goalImg from '../public/images/case-sponsord/goal.png'
+import animiImg1 from '../public/images/case-sponsord/animi1.png'
+import animiImg2 from '../public/images/case-sponsord/animi2.png'
+import animiImg3 from '../public/images/case-sponsord/animi3.png'
+import servImg from '../public/images/case-sponsord/services.png'
 //Icons 
 import icon1 from '../public/images/fymobile/1.png'
 import icon2 from '../public/images/fymobile/2.png'
@@ -33,7 +33,7 @@ import icon5 from '../public/images/fymobile/5.png'
 import icon6 from '../public/images/fymobile/6.png'
 
 
-export default function FitNow() {
+export default function SoulSound() {
 
   const [showComponent, setShowComponent] = useState(false);
 
@@ -59,21 +59,21 @@ export default function FitNow() {
 
       <Banner
         banLogo={banLogo}
-        title={<> Achieve Your Fitness Goals, Anywhere, Anytime. </>}
+        title={<> Where Creativity Meets Connectivity! </>}
         banImg={banImg}
-        bannerClass='fitnow'
+        bannerClass='sponsord'
       />
 
       <CaseGlamic
         textArray1={[
           {
-            title: <>Food Delivery <span>Solution</span></>,
+            title: <>Marketing <br /> <span>Partnership App</span></>,
             text: [
               <>
-                <i>Crave Courier</i>, a BitsWits creation, is a food delivery app. It streamlines the process: select from local eateries, place your order, and savor restaurant-quality dishes brought straight to you. A convenient, fuss-free solution for your dining desires.
+                <i>Sponsor'D</i> is a platform that connects brands, businesses, and creators for mutually beneficial collaborations. Our main goal is to reinvent influencer marketing and foster healthy collaborations. 
               </>,
               <>
-                With a user-friendly interface and the ability to save preferred meal choices, we've created an efficient platform for a superior eating experience.
+                It's a platform made to help marketing firms and content producers alike find exciting sponsorship possibilities. Creators find themselves linked with businesses that share their vision.
               </>
             ]
           },
@@ -93,14 +93,16 @@ export default function FitNow() {
             title: <>Why Trust BitsWits with <span>App Development?</span></>,
             text: [
               <>We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions.</>,
+
               <>Our track record of delivering on time and within budget, coupled with a commitment to staying ahead of industry trends, sets us apart as the best partner for mobile app development.</>,
             ],
           },
           {
             title: <>The <span>Starting</span> Point</>,
             text: [
-              <>Crave Courier began when a group of food lovers saw how busy life can be in a big city. They wanted to make it easy for people to enjoy delicious food from local restaurants without the hassle. So, they came up with the idea of an app that lets you pick what you want to eat, place your order, and have it delivered right to your door.</>,
-              <>To create a user-friendly and highly convenient app for an average person, the founders of Crave Courier recognized the need for professional expertise and they wisely brought BitsWits into the fold, for design, development, and the integration of AI technology.</>,
+              <>With the goal of bringing together companies and innovators in a unique manner, Sponsor'D was envisioned. It's a platform made to assist content creators and marketing agencies in finding exciting sponsorship possibilities.</>,
+
+              <>Ideas are shared openly, collaborations grow, and digital marketing efforts enthrall their target audience with a single tap within its in-app chat system. The platform Sponsor'D connects companies, brands, and creators for profitable partnerships.</>,
             ],
           },
         ]}
@@ -113,48 +115,50 @@ export default function FitNow() {
       <CaseWants
         sections={[
           {
-            title: <> App-etizers & Main <span>Features</span> </>,
+            title: <> The Exceptional Selling <span>Points and Features</span> </>,
             textArray: [
-              'Restaurant listings',
-              'Personalized user profiles',
-              'Live order tracking',
-              'Voice-activated order placement',
-              'Highly functional native app',
-              'Instant chat support',
-              'Secure and diverse payment methods',
-              'AI-powered route optimization',
-              'AI-driven smart search and recommendations',
+              'Find a Company and Talent',
+              'Unlocking Achievements',
+              'In-App Chat',
+              'Dispute Resolution',
+              'Task Creation',
+              'Contract Signing Within the App',
+              'Task Creation',
+              'Talent Profiles',
+              'Reports and Analytics',
+              'Membership Levels',
+              'Affiliate Sponsorship',
             ],
           },
           {
             title: <> A Closer Look at Project <span>Challenges We Faced</span> </>,
             textArray: [
-              'Feedback Loop Implementation',
-              'Ensuring high voice recognition accuracy',
-              'Responsiveness of real-time chat support',
-              'Computational complexities in AI algorithms',
-              'Database management while maintaining efficient performance',
+              'Balancing Supply and Demand',
+              'Legal and Contractual Matters',
+              'Community Management',
+              'Competition and Market Saturation',
+              'Scaling Responsibility',
             ],
           },
           {
             title: <> Trouble <span>Tackling</span> </>,
             textArray: [
-              'Established a dedicated feedback mechanism for users to report issues',
-              'Implemented load balancing to distribute server load effectively',
-              'Utilized parallel processing to enhance AI algorithm efficiency',
-              'Implemented data caching strategies to reduce database load',
-              'Invested in advanced voice recognition technology and speech-to-text conversion',
+              'Implement a membership system that matches creators and businesses based on their engagement level',
+              'Offer template contracts and legal resources for users to produce agreements with clarity.',
+              'Appoint community managers to resolve conflicts and ethical guidelines.',
+              'Focus on unique selling points such as niche partnership opportunities.',
+              'Invest in scalable infrastructure and technology to accommodate growth and expansion.',
             ],
           },
         ]}
-        para={<> BitsWits' proactive approach to problem solving and constant commitment to technology refinement played an important role in ensuring the efficiency and user satisfaction. Through our vigilant problem-solving mindset, we promptly sought solutions and made sure Crave Courier stands as a leading app in the food delivery industry. </>}
-        wantsClass='fitnow'
+        para={<> BitsWits' proactive approach to problem solving and constant commitment to technology refinement played an important role in ensuring the efficiency and user satisfaction. Through our vigilant problem-solving mindset, we promptly sought solutions and made sure Sponsor’D stands as a leading app in the marketing industry. </>}
+        wantsClass='sponsord'
       />
 
       <CaseGoal
         golImg={goalImg}
-        title={<> Take a step toward your beauty goals from the comfort of your couch with just a few taps on our app! </>}
-        goalClass='fitnow'
+        title={<> Start your app development journey effortlessly; let BitsWits be your savior with a quick tap! </>}
+        goalClass='sponsord'
       />
 
       <CaseOvercoming

@@ -16,14 +16,14 @@ import Homenextproject from '@/components/Homenextproject';
 import Faqs from '@/components/NewhomeFaqs';
 import HomeLocation from '@/components/HomeLocation';
 //images
-import banLogo from '../public/images/case-travel/banner-logo.png'
-import banImg from '../public/images/case-travel/banner-img.png'
-import glamicImg from '../public/images/case-travel/glamic.png'
-import goalImg from '../public/images/case-travel/goal.png'
-import animiImg1 from '../public/images/case-travel/animi1.png'
-import animiImg2 from '../public/images/case-travel/animi2.png'
-import animiImg3 from '../public/images/case-travel/animi3.png'
-import servImg from '../public/images/case-travel/services.png'
+import banLogo from '../public/images/case-wisu/banner-logo.png'
+import banImg from '../public/images/case-wisu/banner-img.png'
+import glamicImg from '../public/images/case-wisu/glamic.png'
+import goalImg from '../public/images/case-wisu/goal.png'
+import animiImg1 from '../public/images/case-wisu/animi1.png'
+import animiImg2 from '../public/images/case-wisu/animi2.png'
+import animiImg3 from '../public/images/case-wisu/animi3.png'
+import servImg from '../public/images/case-wisu/services.png'
 //Icons 
 import icon1 from '../public/images/fymobile/1.png'
 import icon2 from '../public/images/fymobile/2.png'
@@ -33,7 +33,7 @@ import icon5 from '../public/images/fymobile/5.png'
 import icon6 from '../public/images/fymobile/6.png'
 
 
-export default function TravelApp() {
+export default function bacteriaapp() {
 
   const [showComponent, setShowComponent] = useState(false);
 
@@ -59,21 +59,21 @@ export default function TravelApp() {
 
       <Banner
         banLogo={banLogo}
-        title={<> Explore the World, One Click at a Time </>}
+        title={<> Stay in Style, Always a Swipe Away! </>}
         banImg={banImg}
-        bannerClass='tourista'
+        bannerClass='wisu'
       />
 
       <CaseGlamic
         textArray1={[
           {
-            title: <>Food Delivery <span>Solution</span></>,
+            title: <>Clothing Marketplace <span>App Development</span></>,
             text: [
               <>
-                <i>Crave Courier</i>, a BitsWits creation, is a food delivery app. It streamlines the process: select from local eateries, place your order, and savor restaurant-quality dishes brought straight to you. A convenient, fuss-free solution for your dining desires.
+                <i>Wisu</i> Clothing Marketplace App is your one-stop destination for fashion enthusiasts. This sleek and intuitive platform connects you to an extensive array of clothing, offering both top brands and independent designers. Wisu's smart recommendation system ensures that your style preferences are catered to ensuring confident fashion choices. 
               </>,
               <>
-                With a user-friendly interface and the ability to save preferred meal choices, we've created an efficient platform for a superior eating experience.
+                With user-generated reviews, secure payment options, and an emphasis on sustainability, Wisu simplifies the fashion shopping experience. Plus, if you're looking to declutter, you can effortlessly sell your preloved fashion items on the platform.
               </>
             ]
           },
@@ -99,8 +99,8 @@ export default function TravelApp() {
           {
             title: <>The <span>Starting</span> Point</>,
             text: [
-              <>Crave Courier began when a group of food lovers saw how busy life can be in a big city. They wanted to make it easy for people to enjoy delicious food from local restaurants without the hassle. So, they came up with the idea of an app that lets you pick what you want to eat, place your order, and have it delivered right to your door.</>,
-              <>To create a user-friendly and highly convenient app for an average person, the founders of Crave Courier recognized the need for professional expertise and they wisely brought BitsWits into the fold, for design, development, and the integration of AI technology.</>,
+              <>Our client's vision for Wisu was born out of a desire to revolutionize the fashion industry. They aimed to create a platform that seamlessly connects fashion enthusiasts with diverse, sustainable, and stylish choices.</>,
+              <>Wisu represents a commitment to promoting individual expression, reducing fashion waste, and making high-quality fashion accessible to all. The goal is to empower users to make informed fashion choices, express their unique style, and contribute to a more sustainable future.</>,
             ],
           },
         ]}
@@ -113,48 +113,45 @@ export default function TravelApp() {
       <CaseWants
         sections={[
           {
-            title: <> App-etizers & Main <span>Features</span> </>,
+            title: <> Main <span>Features</span> </>,
             textArray: [
-              'Restaurant listings',
-              'Personalized user profiles',
-              'Live order tracking',
-              'Voice-activated order placement',
-              'Highly functional native app',
-              'Instant chat support',
-              'Secure and diverse payment methods',
-              'AI-powered route optimization',
-              'AI-driven smart search and recommendations',
+              'Access a wide variety of clothing.',
+              'Discover clothing items tailored to your unique style preferences.',
+              'Benefit from real-world experiences shared by fellow fashion enthusiasts.',
+              'Enjoy secure payments, order tracking, and easy return options.',
+              'Easily list and sell pre-loved fashion items to a broad audience.',
+              'Explore eco-friendly and ethically-made fashion choices.',
+              'Stay updated with curated collections, style guides, and trends.',
+              'Navigate effortlessly through a sleek and intuitive design.',
             ],
           },
           {
-            title: <> A Closer Look at Project <span>Challenges We Faced</span> </>,
+            title: <> Challenges <span>We Faced</span> </>,
             textArray: [
-              'Feedback Loop Implementation',
-              'Ensuring high voice recognition accuracy',
-              'Responsiveness of real-time chat support',
-              'Computational complexities in AI algorithms',
-              'Database management while maintaining efficient performance',
+              'Managing a vast inventory of clothes was challenging.',
+              'Ensuring security measures to protect user data and transactions.',
+              'Sourcing and verifying sustainable and ethical clothings.',
+              'Maintaining user engagement and trust in a competitive fashion marketplace industry',
             ],
           },
           {
             title: <> Trouble <span>Tackling</span> </>,
             textArray: [
-              'Established a dedicated feedback mechanism for users to report issues',
-              'Implemented load balancing to distribute server load effectively',
-              'Utilized parallel processing to enhance AI algorithm efficiency',
-              'Implemented data caching strategies to reduce database load',
-              'Invested in advanced voice recognition technology and speech-to-text conversion',
+              'Utilized scalable cloud infrastructure.',
+              'Implemented state-of-the-art encryption and compliance standards.',
+              'Collaborated with certified sustainable brands.',
+              'Integrated personalized notifications to boost user engagement.',
             ],
           },
         ]}
-        para={<> BitsWits' proactive approach to problem solving and constant commitment to technology refinement played an important role in ensuring the efficiency and user satisfaction. Through our vigilant problem-solving mindset, we promptly sought solutions and made sure Crave Courier stands as a leading app in the food delivery industry. </>}
-        wantsClass='tourista'
+        para={<> BitsWits brought the Wisu app to life by assembling a dedicated team of fashion-tech experts. Through rigorous testing, agile development methodologies, and a deep commitment to user satisfaction, BitsWits created a platform that seamlessly connects fashion enthusiasts with their style desires while prioritizing security and sustainability. </>}
+        wantsClass='wisu'
       />
 
       <CaseGoal
         golImg={goalImg}
-        title={<> Take a step toward your beauty goals from the comfort of your couch with just a few taps on our app! </>}
-        goalClass='tourista'
+        title={<> Start your app development journey effortlessly; let BitsWits be your savior with a quick tap! </>}
+        goalClass='wisu'
       />
 
       <CaseOvercoming

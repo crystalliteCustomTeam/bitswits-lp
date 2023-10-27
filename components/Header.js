@@ -471,7 +471,7 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/travel-app-development" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/travel-app-development-case-study" onClick={handleMenu}>
                                                         Travel App
                                                     </Link>
                                                     <span className={styles.realDummy}>
@@ -499,7 +499,7 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/bacteria-app-development" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/clothing-marketplace-app-development-case-study" onClick={handleMenu}>
                                                         Ecommerce App
                                                     </Link>
                                                     <span className={styles.realDummy}>
@@ -513,7 +513,7 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/soul-scribe-app-development" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/social-app-development-case-study" onClick={handleMenu}>
                                                         Scribe App
                                                     </Link>
                                                     <span className={styles.realDummy}>
@@ -527,7 +527,7 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/greace-monkey-app-development" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/automobile-repair-app-development-case-study" onClick={handleMenu}>
                                                         Grease App
                                                     </Link>
                                                     <span className={styles.realDummy}>
@@ -545,7 +545,7 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/sponsord-app-development" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/marketing-partnership-app-development-case-study" onClick={handleMenu}>
                                                         Sponsord App
                                                     </Link>
                                                     <span className={styles.realDummy}>
@@ -559,7 +559,7 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/health-care-app-development" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/healthcare-app-development-case-study" onClick={handleMenu}>
                                                         Health Care App
                                                     </Link>
                                                     <span className={styles.realDummy}>
@@ -573,7 +573,7 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/ride-me-app-development" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/ride-app-development-case-study" onClick={handleMenu}>
                                                         Rider App
                                                     </Link>
                                                     <span className={styles.realDummy}>
@@ -587,7 +587,7 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/fitnow-app-development" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/fitness-app-development-case-study" onClick={handleMenu}>
                                                         Fitnow App
                                                     </Link>
                                                     <span className={styles.realDummy}>
@@ -601,7 +601,7 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/ready-app-development" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/hiring-app-development-case-study" onClick={handleMenu}>
                                                         Ready App
                                                     </Link>
                                                     <span className={styles.realDummy}>

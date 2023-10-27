@@ -16,14 +16,14 @@ import Homenextproject from '@/components/Homenextproject';
 import Faqs from '@/components/NewhomeFaqs';
 import HomeLocation from '@/components/HomeLocation';
 //images
-import banLogo from '../public/images/case-wisu/banner-logo.png'
-import banImg from '../public/images/case-wisu/banner-img.png'
-import glamicImg from '../public/images/case-wisu/glamic.png'
-import goalImg from '../public/images/case-wisu/goal.png'
-import animiImg1 from '../public/images/case-wisu/animi1.png'
-import animiImg2 from '../public/images/case-wisu/animi2.png'
-import animiImg3 from '../public/images/case-wisu/animi3.png'
-import servImg from '../public/images/case-wisu/services.png'
+import banLogo from '../public/images/case-fitnow/banner-logo.png'
+import banImg from '../public/images/case-fitnow/banner-img.png'
+import glamicImg from '../public/images/case-fitnow/glamic.png'
+import goalImg from '../public/images/case-fitnow/goal.png'
+import animiImg1 from '../public/images/case-fitnow/animi1.png'
+import animiImg2 from '../public/images/case-fitnow/animi2.png'
+import animiImg3 from '../public/images/case-fitnow/animi3.png'
+import servImg from '../public/images/case-fitnow/services.png'
 //Icons 
 import icon1 from '../public/images/fymobile/1.png'
 import icon2 from '../public/images/fymobile/2.png'
@@ -33,7 +33,7 @@ import icon5 from '../public/images/fymobile/5.png'
 import icon6 from '../public/images/fymobile/6.png'
 
 
-export default function bacteriaapp() {
+export default function FitNow() {
 
   const [showComponent, setShowComponent] = useState(false);
 
@@ -59,21 +59,21 @@ export default function bacteriaapp() {
 
       <Banner
         banLogo={banLogo}
-        title={<> Stay in Style, Always a Swipe Away! </>}
+        title={<> Work hard, Sweat More, and Slay Forever! </>}
         banImg={banImg}
-        bannerClass='wisu'
+        bannerClass='fitnow'
       />
 
       <CaseGlamic
         textArray1={[
           {
-            title: <>Food Delivery <span>Solution</span></>,
+            title: <>Fitness Goals <span>Solution</span></>,
             text: [
               <>
-                <i>Crave Courier</i>, a BitsWits creation, is a food delivery app. It streamlines the process: select from local eateries, place your order, and savor restaurant-quality dishes brought straight to you. A convenient, fuss-free solution for your dining desires.
+                <i>Fitnow</i> is the most effective fitness app available, a product of hard work and creativity. We've made the process easy: select your workout, establish your goals, and work for them under the direction of renowned fitness experts. It's a simple, easy way to achieve your fitness goals.
               </>,
               <>
-                With a user-friendly interface and the ability to save preferred meal choices, we've created an efficient platform for a superior eating experience.
+                Start your fitness journey with our user-friendly user interface. Plus, we've created a productive platform for an exceptional fitness experience that allows you customize your routines and monitor your progress.
               </>
             ]
           },
@@ -93,14 +93,18 @@ export default function bacteriaapp() {
             title: <>Why Trust BitsWits with <span>App Development?</span></>,
             text: [
               <>We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions.</>,
+
               <>Our track record of delivering on time and within budget, coupled with a commitment to staying ahead of industry trends, sets us apart as the best partner for mobile app development.</>,
             ],
           },
           {
             title: <>The <span>Starting</span> Point</>,
             text: [
-              <>Crave Courier began when a group of food lovers saw how busy life can be in a big city. They wanted to make it easy for people to enjoy delicious food from local restaurants without the hassle. So, they came up with the idea of an app that lets you pick what you want to eat, place your order, and have it delivered right to your door.</>,
-              <>To create a user-friendly and highly convenient app for an average person, the founders of Crave Courier recognized the need for professional expertise and they wisely brought BitsWits into the fold, for design, development, and the integration of AI technology.</>,
+              <>Fitnow was founded by a group of fitness fanatics who realized how difficult it was to maintain a healthy lifestyle in the hectic world of today. They had an idea for an app that would simplify your goals to getting fit, whether you want to get leaner or gain muscle.</>,
+
+              <>From the comfort of your device, Fitnow enables you to select your workout, establish your fitness objectives, and commit to professional-guided programs to develop or lose muscle.
+                They forged a strategic alliance with leading fitness instructors and developers, utilizing AI technology to provide you customized exercise regimens and tracking features.
+              </>,
             ],
           },
         ]}
@@ -113,48 +117,48 @@ export default function bacteriaapp() {
       <CaseWants
         sections={[
           {
-            title: <> App-etizers & Main <span>Features</span> </>,
+            title: <> Get Leaner and Gain More Muscle: <span>The Features</span> </>,
             textArray: [
-              'Restaurant listings',
-              'Personalized user profiles',
-              'Live order tracking',
-              'Voice-activated order placement',
-              'Highly functional native app',
-              'Instant chat support',
-              'Secure and diverse payment methods',
-              'AI-powered route optimization',
-              'AI-driven smart search and recommendations',
+              'Customized Workout Plans',
+              'Customized Diet Plans for Muscle Mass and Fat Loss',
+              'Communication and Consultation with Certified Fitness Trainers',
+              'Information Chat Support',
+              'Progress Tracking',
+              'Workout Library',
+              'Community Support',
+              'Videos of Workouts and the Muscles it Each Exercise Targets',
+              'Performance Analytics',
             ],
           },
           {
             title: <> A Closer Look at Project <span>Challenges We Faced</span> </>,
             textArray: [
-              'Feedback Loop Implementation',
-              'Ensuring high voice recognition accuracy',
-              'Responsiveness of real-time chat support',
-              'Computational complexities in AI algorithms',
-              'Database management while maintaining efficient performance',
+              'Workout Intensity and Slower Progress',
+              'Staying Motivated',
+              'The Proper Form of Exercise and Risk of Injury',
+              'Nutrition Compliance',
+              'Technical Issues and Complications',
             ],
           },
           {
             title: <> Trouble <span>Tackling</span> </>,
             textArray: [
-              'Established a dedicated feedback mechanism for users to report issues',
-              'Implemented load balancing to distribute server load effectively',
-              'Utilized parallel processing to enhance AI algorithm efficiency',
-              'Implemented data caching strategies to reduce database load',
-              'Invested in advanced voice recognition technology and speech-to-text conversion',
+              'Users can find it challenging to select the right workout intensity.',
+              'Maintaining motivation through adding motivational quotes and videos.',
+              'Include instructional videos and highlight proper form and technique.',
+              'Include a food tracking feature to monitor daily calorie intake.',
+              'Regularly update the app to fix bugs and improve user experience.',
             ],
           },
         ]}
-        para={<> BitsWits' proactive approach to problem solving and constant commitment to technology refinement played an important role in ensuring the efficiency and user satisfaction. Through our vigilant problem-solving mindset, we promptly sought solutions and made sure Crave Courier stands as a leading app in the food delivery industry. </>}
-        wantsClass='wisu'
+        para={<> BitsWits' proactive approach to problem solving and constant commitment to technology refinement played an important role in ensuring the efficiency and user satisfaction. Through our vigilant problem-solving mindset, we promptly sought solutions and made sure Fitnow stands as a leading app in the fitness industry. </>}
+        wantsClass='fitnow'
       />
 
       <CaseGoal
         golImg={goalImg}
-        title={<> Take a step toward your beauty goals from the comfort of your couch with just a few taps on our app! </>}
-        goalClass='wisu'
+        title={<> Start your app development journey effortlessly; let BitsWits be your savior with a quick tap! </>}
+        goalClass='fitnow'
       />
 
       <CaseOvercoming

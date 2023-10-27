@@ -67,13 +67,13 @@ export default function prohealth() {
       <CaseGlamic
         textArray1={[
           {
-            title: <>Food Delivery <span>Solution</span></>,
+            title: <>Health App <span>Development</span></>,
             text: [
               <>
-                <i>Crave Courier</i>, a BitsWits creation, is a food delivery app. It streamlines the process: select from local eateries, place your order, and savor restaurant-quality dishes brought straight to you. A convenient, fuss-free solution for your dining desires.
+                <i>Health Care</i>, an innovative app designed to empower individuals to take control of their health and well-being. This innovative mobile application offers a user-friendly platform for tracking, managing, and optimizing your health, all in one place. Health Care, your path to a healthier you start here.
               </>,
               <>
-                With a user-friendly interface and the ability to save preferred meal choices, we've created an efficient platform for a superior eating experience.
+                With Health Care, you can monitor vital health metrics, schedule appointments, access medical records, and receive personalized health recommendations - all at your fingertips.
               </>
             ]
           },
@@ -93,14 +93,16 @@ export default function prohealth() {
             title: <>Why Trust BitsWits with <span>App Development?</span></>,
             text: [
               <>We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions.</>,
+
               <>Our track record of delivering on time and within budget, coupled with a commitment to staying ahead of industry trends, sets us apart as the best partner for mobile app development.</>,
             ],
           },
           {
             title: <>The <span>Starting</span> Point</>,
             text: [
-              <>Crave Courier began when a group of food lovers saw how busy life can be in a big city. They wanted to make it easy for people to enjoy delicious food from local restaurants without the hassle. So, they came up with the idea of an app that lets you pick what you want to eat, place your order, and have it delivered right to your door.</>,
-              <>To create a user-friendly and highly convenient app for an average person, the founders of Crave Courier recognized the need for professional expertise and they wisely brought BitsWits into the fold, for design, development, and the integration of AI technology.</>,
+              <>Our client's vision for Health Care emerged from a personal struggle with managing healthcare information efficiently. Frustrated by disjointed systems and time-consuming processes, they envisioned an all-in-one solution to simplify healthcare management.</>,
+
+              <>Their goal is to empower users with a user-friendly app that centralizes health data, streamlines appointments, and provides personalized health guidance.</>,
             ],
           },
         ]}
@@ -113,47 +115,47 @@ export default function prohealth() {
       <CaseWants
         sections={[
           {
-            title: <> App-etizers & Main <span>Features</span> </>,
+            title: <> Main <span>Features</span> </>,
             textArray: [
-              'Restaurant listings',
-              'Personalized user profiles',
-              'Live order tracking',
-              'Voice-activated order placement',
-              'Highly functional native app',
-              'Instant chat support',
-              'Secure and diverse payment methods',
-              'AI-powered route optimization',
-              'AI-driven smart search and recommendations',
+              'Health Dashboard',
+              'Appointment Scheduling',
+              'Medical Records',
+              'Health Reminders',
+              'Symptom Tracker',
+              'Health Analytics',
+              'Personalized Recommendations',
+              'Secure Communication',
+              'Emergency Assistance',
             ],
           },
           {
-            title: <> A Closer Look at Project <span>Challenges We Faced</span> </>,
+            title: <> <span>Challenges</span> We Faced </>,
             textArray: [
-              'Feedback Loop Implementation',
-              'Ensuring high voice recognition accuracy',
-              'Responsiveness of real-time chat support',
-              'Computational complexities in AI algorithms',
-              'Database management while maintaining efficient performance',
+              'Data Security and Privacy',
+              'Interoperability',
+              'User Adoption',
+              'Medical Accuracy',
+              'Scalability',
             ],
           },
           {
             title: <> Trouble <span>Tackling</span> </>,
             textArray: [
-              'Established a dedicated feedback mechanism for users to report issues',
-              'Implemented load balancing to distribute server load effectively',
-              'Utilized parallel processing to enhance AI algorithm efficiency',
-              'Implemented data caching strategies to reduce database load',
-              'Invested in advanced voice recognition technology and speech-to-text conversion',
+              'Implemented robust encryption protocols and complied with HIPAA standards.',
+              'Developed APIs to connect with various healthcare systems and EHRs.',
+              'Designed an intuitive user interface for a seamless experience.',
+              'Collaborated with medical experts to fine-tune the recommendation algorithms.',
+              'Implemented load balancing and cloud-based solutions for optimal performance.',
             ],
           },
         ]}
-        para={<> BitsWits' proactive approach to problem solving and constant commitment to technology refinement played an important role in ensuring the efficiency and user satisfaction. Through our vigilant problem-solving mindset, we promptly sought solutions and made sure Crave Courier stands as a leading app in the food delivery industry. </>}
+        para={<> BitsWits, the development team behind Health Care, took on the challenge of creating a comprehensive healthcare app by meticulously addressing each obstacle. We focused on data security, interoperability, and user adoption to ensure a comprehensive healthcare app. With expert collaborations and a scalable infrastructure, we crafted Health Care- a secure, user-friendly, and medically accurate health companion. </>}
         wantsClass='healthcare'
       />
 
       <CaseGoal
         golImg={goalImg}
-        title={<> Take a step toward your beauty goals from the comfort of your couch with just a few taps on our app! </>}
+        title={<> Start your app development journey effortlessly; let BitsWits be your savior with a quick tap! </>}
         goalClass='healthcare'
       />
 

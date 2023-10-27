@@ -59,7 +59,7 @@ export default function GreaceMonkey() {
 
             <Banner
                 banLogo={banLogo}
-                title={<> Quality Repairs, Lasting Results. </>}
+                title={<> Revive and Drive: Our Repairs Thrive! </>}
                 banImg={banImg}
                 bannerClass='graceMonkey'
             />
@@ -67,13 +67,13 @@ export default function GreaceMonkey() {
             <CaseGlamic
                 textArray1={[
                     {
-                        title: <>Food Delivery <span>Solution</span></>,
+                        title: <>Automobile Repair <span>Solution</span></>,
                         text: [
                             <>
-                                <i>Crave Courier</i>, a BitsWits creation, is a food delivery app. It streamlines the process: select from local eateries, place your order, and savor restaurant-quality dishes brought straight to you. A convenient, fuss-free solution for your dining desires.
+                                <i>Grease Monkey</i> is your automotive innovation platform that provides a thorough answer to all your car repair needs. From services and prices to locations and client reviews, we help you make informed decisions for your vehicle. 
                             </>,
                             <>
-                                With a user-friendly interface and the ability to save preferred meal choices, we've created an efficient platform for a superior eating experience.
+                                We take convenience to a whole new level. By just a few taps, you can specify your vehicle, choose a service, select the date and time, and complete the payment process - all within the app.
                             </>
                         ]
                     },
@@ -93,14 +93,16 @@ export default function GreaceMonkey() {
                         title: <>Why Trust BitsWits with <span>App Development?</span></>,
                         text: [
                             <>We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions.</>,
+
                             <>Our track record of delivering on time and within budget, coupled with a commitment to staying ahead of industry trends, sets us apart as the best partner for mobile app development.</>,
                         ],
                     },
                     {
                         title: <>The <span>Starting</span> Point</>,
                         text: [
-                            <>Crave Courier began when a group of food lovers saw how busy life can be in a big city. They wanted to make it easy for people to enjoy delicious food from local restaurants without the hassle. So, they came up with the idea of an app that lets you pick what you want to eat, place your order, and have it delivered right to your door.</>,
-                            <>To create a user-friendly and highly convenient app for an average person, the founders of Crave Courier recognized the need for professional expertise and they wisely brought BitsWits into the fold, for design, development, and the integration of AI technology.</>,
+                            <>The idea for Grease Monkey came from auto enthusiasts who recognized the difficulties involved with keeping up a car in the rapidly changing environment of today. They came up with the idea for an app that speeds the entire process with high-quality auto repair services easily accessible.</>,
+
+                            <>BitsWits ensures that Grease Monkey provides a user-friendly and highly efficient platform for anyone seeking reliable automobile repair services. Have a virtual mechanic at your fingertips and maintain your car easily.</>,
                         ],
                     },
                 ]}
@@ -113,47 +115,47 @@ export default function GreaceMonkey() {
             <CaseWants
                 sections={[
                     {
-                        title: <> App-etizers & Main <span>Features</span> </>,
+                        title: <> Wheel Deal: Grease Monkey’s Key <span>Features</span> </>,
                         textArray: [
-                            'Restaurant listings',
-                            'Personalized user profiles',
-                            'Live order tracking',
-                            'Voice-activated order placement',
-                            'Highly functional native app',
-                            'Instant chat support',
-                            'Secure and diverse payment methods',
-                            'AI-powered route optimization',
-                            'AI-driven smart search and recommendations',
+                            'Garage Locator',
+                            'Scheduling Appointments',
+                            'Automobile Pickup Service',
+                            'Saving Garages',
+                            'Fifth-Generation Search and Filtering',
+                            'Dispute Settlements',
+                            'Chat-In-Apps',
+                            'Premium Subscription',
+                            'Super Admin Dashboard',
                         ],
                     },
                     {
                         title: <> A Closer Look at Project <span>Challenges We Faced</span> </>,
                         textArray: [
-                            'Feedback Loop Implementation',
-                            'Ensuring high voice recognition accuracy',
-                            'Responsiveness of real-time chat support',
-                            'Computational complexities in AI algorithms',
-                            'Database management while maintaining efficient performance',
+                            'Miscommunications leading to misunderstandings.',
+                            'Maintaining high quality services across diverse repair centers.',
+                            'Inconsistent services to all providers during peak hours.',
+                            'User’s understanding regarding the application.',
+                            'Keeping the app up-to-date with the latest automotive tech and trends.',
                         ],
                     },
                     {
                         title: <> Trouble <span>Tackling</span> </>,
                         textArray: [
-                            'Established a dedicated feedback mechanism for users to report issues',
-                            'Implemented load balancing to distribute server load effectively',
-                            'Utilized parallel processing to enhance AI algorithm efficiency',
-                            'Implemented data caching strategies to reduce database load',
-                            'Invested in advanced voice recognition technology and speech-to-text conversion',
+                            'Send automatic appointment reminders to reduce missed appointments.',
+                            'Establishing strict quality standards with a user rating system.',
+                            'Offer extended hours or flexible scheduling options to accommodate user demand.',
+                            'Incorporate evolving user needs into app updates and features.',
+                            'Use feedbacks to make necessary changes and adjustments.',
                         ],
                     },
                 ]}
-                para={<> BitsWits' proactive approach to problem solving and constant commitment to technology refinement played an important role in ensuring the efficiency and user satisfaction. Through our vigilant problem-solving mindset, we promptly sought solutions and made sure Crave Courier stands as a leading app in the food delivery industry. </>}
+                para={<> BitsWits' proactive approach to problem solving and constant commitment to technology refinement played an important role in ensuring the efficiency and user satisfaction. Through our vigilant problem-solving mindset, we promptly sought solutions and made sure Grease Monkey stands as a leading app in the automobile repair industry. </>}
                 wantsClass='graceMonkey'
             />
 
             <CaseGoal
                 golImg={goalImg}
-                title={<> Take a step toward your beauty goals from the comfort of your couch with just a few taps on our app! </>}
+                title={<> Start your app development journey effortlessly; let BitsWits be your savior with a quick tap! </>}
                 goalClass='graceMonkey'
             />
 

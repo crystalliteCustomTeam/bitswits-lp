@@ -16,14 +16,14 @@ import Homenextproject from '@/components/Homenextproject';
 import Faqs from '@/components/NewhomeFaqs';
 import HomeLocation from '@/components/HomeLocation';
 //images
-import banLogo from '../public/images/case-sponsord/banner-logo.png'
-import banImg from '../public/images/case-sponsord/banner-img.png'
-import glamicImg from '../public/images/case-sponsord/glamic.png'
-import goalImg from '../public/images/case-sponsord/goal.png'
-import animiImg1 from '../public/images/case-sponsord/animi1.png'
-import animiImg2 from '../public/images/case-sponsord/animi2.png'
-import animiImg3 from '../public/images/case-sponsord/animi3.png'
-import servImg from '../public/images/case-sponsord/services.png'
+import banLogo from '../public/images/case-ride/banner-logo.png'
+import banImg from '../public/images/case-ride/banner-img.png'
+import glamicImg from '../public/images/case-ride/glamic.png'
+import goalImg from '../public/images/case-ride/goal.png'
+import animiImg1 from '../public/images/case-ride/animi1.png'
+import animiImg2 from '../public/images/case-ride/animi2.png'
+import animiImg3 from '../public/images/case-ride/animi3.png'
+import servImg from '../public/images/case-ride/services.png'
 //Icons 
 import icon1 from '../public/images/fymobile/1.png'
 import icon2 from '../public/images/fymobile/2.png'
@@ -33,7 +33,7 @@ import icon5 from '../public/images/fymobile/5.png'
 import icon6 from '../public/images/fymobile/6.png'
 
 
-export default function SoulSound() {
+export default function ezride() {
 
   const [showComponent, setShowComponent] = useState(false);
 
@@ -59,21 +59,21 @@ export default function SoulSound() {
 
       <Banner
         banLogo={banLogo}
-        title={<> Elevate Your Experience with Sponsor'd App </>}
+        title={<> Taking You Where You Need to Be </>}
         banImg={banImg}
-        bannerClass='sponsord'
+        bannerClass='rideme'
       />
 
       <CaseGlamic
         textArray1={[
           {
-            title: <>Food Delivery <span>Solution</span></>,
+            title: <>Ride App <span>Development</span></>,
             text: [
               <>
-                <i>Crave Courier</i>, a BitsWits creation, is a food delivery app. It streamlines the process: select from local eateries, place your order, and savor restaurant-quality dishes brought straight to you. A convenient, fuss-free solution for your dining desires.
+                <i>Ride Me</i> is your trusted ride-sharing app, designed for effortless daily commuting. Whether it's work, exploration, or a quick ride, Ride Me has your back. With a focus on safety, reliability, and clear pricing, Ride Me offers a smooth transportation experience.
               </>,
               <>
-                With a user-friendly interface and the ability to save preferred meal choices, we've created an efficient platform for a superior eating experience.
+                Choose from various ride options to match your preferences and budget. Real-time tracking keeps you in the know about your driver's location, while cashless payments make transactions easy, and safety is paramount with driver checks and 24/7 support.
               </>
             ]
           },
@@ -93,14 +93,16 @@ export default function SoulSound() {
             title: <>Why Trust BitsWits with <span>App Development?</span></>,
             text: [
               <>We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions.</>,
+
               <>Our track record of delivering on time and within budget, coupled with a commitment to staying ahead of industry trends, sets us apart as the best partner for mobile app development.</>,
             ],
           },
           {
             title: <>The <span>Starting</span> Point</>,
             text: [
-              <>Crave Courier began when a group of food lovers saw how busy life can be in a big city. They wanted to make it easy for people to enjoy delicious food from local restaurants without the hassle. So, they came up with the idea of an app that lets you pick what you want to eat, place your order, and have it delivered right to your door.</>,
-              <>To create a user-friendly and highly convenient app for an average person, the founders of Crave Courier recognized the need for professional expertise and they wisely brought BitsWits into the fold, for design, development, and the integration of AI technology.</>,
+              <>Our client got the idea of Ride Me after facing recurring challenges with inconsistent and unreliable transportation services in their city. Their vision was to create a solution that offered reliable, safe, and transparent rides for everyone.</>,
+
+              <>Recognizing the pressing need for dependable urban transportation, they embarked on the journey to develop Ride Me, with the goal of revolutionizing commuting and enhancing accessibility across their community.</>,
             ],
           },
         ]}
@@ -113,48 +115,48 @@ export default function SoulSound() {
       <CaseWants
         sections={[
           {
-            title: <> App-etizers & Main <span>Features</span> </>,
+            title: <> Main <span>Features</span> </>,
             textArray: [
-              'Restaurant listings',
-              'Personalized user profiles',
-              'Live order tracking',
-              'Voice-activated order placement',
-              'Highly functional native app',
-              'Instant chat support',
-              'Secure and diverse payment methods',
-              'AI-powered route optimization',
-              'AI-driven smart search and recommendations',
+              'Get rides promptly with dependable drivers.',
+              'Monitor your driver`s location in real-time.',
+              'Know the fare upfront with no hidden costs.',
+              'Choose from various vehicle types to match your needs.',
+              'Stringent safety protocols, including driver background checks.',
+              'Conveniently pay through the app without the need for cash.',
+              'Catering to riders with special needs, making transportation inclusive.',
+              'Earn rewards and access exclusive discounts as a frequent rider.',
+              'Get 24/7 assistance around the clock for a hassle-free experience.',
             ],
           },
           {
-            title: <> A Closer Look at Project <span>Challenges We Faced</span> </>,
+            title: <> <span>Challenges</span> We Faced </>,
             textArray: [
-              'Feedback Loop Implementation',
-              'Ensuring high voice recognition accuracy',
-              'Responsiveness of real-time chat support',
-              'Computational complexities in AI algorithms',
-              'Database management while maintaining efficient performance',
+              'Ensuring a consistent pool of drivers for timely service.',
+              'Safeguarding user data and maintaining strict privacy standards.',
+              'Navigating complex and evolving transportation regulations.',
+              'Expanding the app`s infrastructure to accommodate growing user demand.',
+              'Building and maintaining trust among users in a competitive market.',
             ],
           },
           {
             title: <> Trouble <span>Tackling</span> </>,
             textArray: [
-              'Established a dedicated feedback mechanism for users to report issues',
-              'Implemented load balancing to distribute server load effectively',
-              'Utilized parallel processing to enhance AI algorithm efficiency',
-              'Implemented data caching strategies to reduce database load',
-              'Invested in advanced voice recognition technology and speech-to-text conversion',
+              'Implemented an incentive system to attract and retain drivers.',
+              'Employed robust encryption protocols to safeguard user data and privacy.',
+              'Assembled a legal team well-versed in transportation regulations for compliance.',
+              'Designed a flexible infrastructure capable of handling increasing user demand.',
+              'Prioritized user safety and satisfaction through rigorous vetting and ongoing support.',
             ],
           },
         ]}
-        para={<> BitsWits' proactive approach to problem solving and constant commitment to technology refinement played an important role in ensuring the efficiency and user satisfaction. Through our vigilant problem-solving mindset, we promptly sought solutions and made sure Crave Courier stands as a leading app in the food delivery industry. </>}
-        wantsClass='sponsord'
+        para={<> BitsWits took on the challenge of creating Ride Me by assembling a dedicated team of app development experts. We leveraged our extensive experience in building scalable, secure, and user-friendly apps to develop Ride Me. </>}
+        wantsClass='rideme'
       />
 
       <CaseGoal
         golImg={goalImg}
-        title={<> Take a step toward your beauty goals from the comfort of your couch with just a few taps on our app! </>}
-        goalClass='sponsord'
+        title={<> Start your app development journey effortlessly; let BitsWits be your savior with a quick tap! </>}
+        goalClass='rideme'
       />
 
       <CaseOvercoming

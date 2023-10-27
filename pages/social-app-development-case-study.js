@@ -59,7 +59,7 @@ export default function soulScribe() {
 
       <Banner
         banLogo={banLogo}
-        title={<> Share Your Favorite Memories </>}
+        title={<> Share, Reflect, and Let Your Soul Shine. </>}
         banImg={banImg}
         bannerClass='soulscribe'
       />
@@ -67,13 +67,10 @@ export default function soulScribe() {
       <CaseGlamic
         textArray1={[
           {
-            title: <>Food Delivery <span>Solution</span></>,
+            title: <>Social Networking <span>Application</span></>,
             text: [
               <>
-                <i>Crave Courier</i>, a BitsWits creation, is a food delivery app. It streamlines the process: select from local eateries, place your order, and savor restaurant-quality dishes brought straight to you. A convenient, fuss-free solution for your dining desires.
-              </>,
-              <>
-                With a user-friendly interface and the ability to save preferred meal choices, we've created an efficient platform for a superior eating experience.
+                <i>Soul Scribe</i> is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories.
               </>
             ]
           },
@@ -93,14 +90,16 @@ export default function soulScribe() {
             title: <>Why Trust BitsWits with <span>App Development?</span></>,
             text: [
               <>We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions.</>,
+
               <>Our track record of delivering on time and within budget, coupled with a commitment to staying ahead of industry trends, sets us apart as the best partner for mobile app development.</>,
             ],
           },
           {
             title: <>The <span>Starting</span> Point</>,
             text: [
-              <>Crave Courier began when a group of food lovers saw how busy life can be in a big city. They wanted to make it easy for people to enjoy delicious food from local restaurants without the hassle. So, they came up with the idea of an app that lets you pick what you want to eat, place your order, and have it delivered right to your door.</>,
-              <>To create a user-friendly and highly convenient app for an average person, the founders of Crave Courier recognized the need for professional expertise and they wisely brought BitsWits into the fold, for design, development, and the integration of AI technology.</>,
+              <>Soul Scribe started its mission to change memory sharing and personal storytelling. Soul Scribe is a distinctive social networking software that functions as a digital diary with a unique twist. It was created out of a desire for capturing and sharing life's events with simplicity and a style.</>,
+
+              <>Soul Scribe's founders saw the need for an approachable platform that not only let users journal their experiences but also included friends and family in their personal story. This app by BitsWits is an excellent place to begin interacting because this platform allows you to create and cherish your memories with a style. </>,
             ],
           },
         ]}
@@ -113,47 +112,46 @@ export default function soulScribe() {
       <CaseWants
         sections={[
           {
-            title: <> App-etizers & Main <span>Features</span> </>,
+            title: <> <span>Soulful Features</span>: Building Bonds and Memories </>,
             textArray: [
-              'Restaurant listings',
-              'Personalized user profiles',
-              'Live order tracking',
-              'Voice-activated order placement',
-              'Highly functional native app',
-              'Instant chat support',
-              'Secure and diverse payment methods',
-              'AI-powered route optimization',
-              'AI-driven smart search and recommendations',
+              'Personal Journaling',
+              'In-App Purchases',
+              'Inviting Pals',
+              'Premium Membership',
+              'Social Groups',
+              'Sharing Status',
+              'Memory Sharing',
+              'Creating friendships',
             ],
           },
           {
             title: <> A Closer Look at Project <span>Challenges We Faced</span> </>,
             textArray: [
-              'Feedback Loop Implementation',
-              'Ensuring high voice recognition accuracy',
-              'Responsiveness of real-time chat support',
-              'Computational complexities in AI algorithms',
-              'Database management while maintaining efficient performance',
+              'In-App Purchases and Subscription',
+              'Balancing Social and Personal Use',
+              'Organizing Memories',
+              'Engaging Invited Contributors',
+              'Effective Content Curation',
             ],
           },
           {
             title: <> Trouble <span>Tackling</span> </>,
             textArray: [
-              'Established a dedicated feedback mechanism for users to report issues',
-              'Implemented load balancing to distribute server load effectively',
-              'Utilized parallel processing to enhance AI algorithm efficiency',
-              'Implemented data caching strategies to reduce database load',
-              'Invested in advanced voice recognition technology and speech-to-text conversion',
+              'Offer content suggestion features to help create essential journal entries.',
+              'Sending periodic prompts and reminders to keep the contributors engaged.',
+              'Create tutorials to set sharing preferences for the users.',
+              'Provide a free-trial to premium features to let users experience its value.',
+              'Create distinct sections within the app for personal journaling and social interaction.',
             ],
           },
         ]}
-        para={<> BitsWits' proactive approach to problem solving and constant commitment to technology refinement played an important role in ensuring the efficiency and user satisfaction. Through our vigilant problem-solving mindset, we promptly sought solutions and made sure Crave Courier stands as a leading app in the food delivery industry. </>}
+        para={<> With a proactive approach, Soul Scribe is dedicated to providing a smooth and enjoyable user experience, making sure that our software continues to be the preferred choice for social networking and personal journaling, allowing users to create, connect, and celebrate their most beloved recollections. </>}
         wantsClass='soulscribe'
       />
 
       <CaseGoal
         golImg={goalImg}
-        title={<> Take a step toward your beauty goals from the comfort of your couch with just a few taps on our app! </>}
+        title={<> Start your app development journey effortlessly; let BitsWits be your savior with a quick tap! </>}
         goalClass='soulscribe'
       />
 

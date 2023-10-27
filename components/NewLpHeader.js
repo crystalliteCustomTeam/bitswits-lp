@@ -459,7 +459,7 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/travel-app-development" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/travel-app-development-case-study" onClick={handleMenu}>
                                                         Travel App
                                                     </Link>
                                                     <span className={styles.realDummy}>
@@ -487,7 +487,7 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/bacteria-app-development" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/clothing-marketplace-app-development-case-study" onClick={handleMenu}>
                                                         Bacteria App
                                                     </Link>
                                                     <span className={styles.realDummy}>

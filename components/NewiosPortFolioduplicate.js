@@ -36,7 +36,7 @@ const NewiosPortFolio = () => {
                                 <Image quality={75} src={folio3} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>Bliss Travel App</span>
-                                    <Link href="/travel-app-development" className={styles.sucssBtn}>View case study</Link>
+                                    <Link href="/travel-app-development-case-study" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
                         </Col>
@@ -54,7 +54,7 @@ const NewiosPortFolio = () => {
                                 <Image quality={75} src={folio1} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>Germ Guard App</span>
-                                    <Link href="/bacteria-app-development" className={styles.sucssBtn}>View case study</Link>
+                                    <Link href="/clothing-marketplace-app-development-case-study" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
                         </Col>
@@ -63,7 +63,7 @@ const NewiosPortFolio = () => {
                                 <Image quality={75} src={folio4} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>Soul Sponsord App</span>
-                                    <Link href="/sponsord-app-development" className={styles.sucssBtn}>View case study</Link>
+                                    <Link href="/marketing-partnership-app-development-case-study" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
                         </Col>
@@ -72,7 +72,7 @@ const NewiosPortFolio = () => {
                                 <Image quality={75} src={folio5} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>Ezride App</span>
-                                    <Link href="/ride-me-app-development" className={styles.sucssBtn}>View case study</Link>
+                                    <Link href="/ride-app-development-case-study" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
                         </Col>
@@ -81,7 +81,7 @@ const NewiosPortFolio = () => {
                                 <Image quality={75} src={folio6} alt='BitsWits' className={`img-fluid`} />
                                 <div className={styles.polioTxt}>
                                     <span className='font25 font-bold white mb-2'>PRO Health App</span>
-                                    <Link href="/health-care-app-development" className={styles.sucssBtn}>View case study</Link>
+                                    <Link href="/healthcare-app-development-case-study" className={styles.sucssBtn}>View case study</Link>
                                 </div>
                             </div>
                         </Col>
@@ -91,7 +91,7 @@ const NewiosPortFolio = () => {
                                <Image quality={75} src={folio3} alt='BitsWits' className={`img-fluid`} />
                                <div className={styles.polioTxt}>
                                    <span className='font25 font-bold white mb-2'>Scribe App</span>
-                                   <Link href="/soul-scribe-app-development" className={styles.sucssBtn}>View case study</Link>
+                                   <Link href="/social-app-development-case-study" className={styles.sucssBtn}>View case study</Link>
                                </div>
                            </div>
                        </Col>
@@ -100,7 +100,7 @@ const NewiosPortFolio = () => {
                                <Image quality={75} src={folio2} alt='BitsWits' className={`img-fluid`} />
                                <div className={styles.polioTxt}>
                                    <span className='font25 font-bold white mb-2'>Grease App</span>
-                                   <Link href="/greace-monkey-app-development" className={styles.sucssBtn}>View case study</Link>
+                                   <Link href="/automobile-repair-app-development-case-study" className={styles.sucssBtn}>View case study</Link>
                                </div>
                            </div>
                        </Col>
@@ -118,7 +118,7 @@ const NewiosPortFolio = () => {
                                <Image quality={75} src={folio4} alt='BitsWits' className={`img-fluid`} />
                                <div className={styles.polioTxt}>
                                    <span className='font25 font-bold white mb-2'>Fitnow App</span>
-                                   <Link href="/fitnow-app-development" className={styles.sucssBtn}>View case study</Link>
+                                   <Link href="/fitness-app-development-case-study" className={styles.sucssBtn}>View case study</Link>
                                </div>
                            </div>
                        </Col>
@@ -127,7 +127,7 @@ const NewiosPortFolio = () => {
                                <Image quality={75} src={folio5} alt='BitsWits' className={`img-fluid`} />
                                <div className={styles.polioTxt}>
                                    <span className='font25 font-bold white mb-2'>Ready App</span>
-                                   <Link href="/ready-app-development" className={styles.sucssBtn}>View case study</Link>
+                                   <Link href="/hiring-app-development-case-study" className={styles.sucssBtn}>View case study</Link>
                                </div>
                            </div>
                        </Col>
