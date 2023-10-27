@@ -113,7 +113,7 @@ Services and Solutions</h2>
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app7}>
-                                <Image quality={75} src={cardNine} className={`${styles.appImage}`} />
+                              
                                 <div>
                                     <h3 className='text-white font25 font-bold text-center'>Internet of Things</h3>
                                     <p className={styles.para9}>
