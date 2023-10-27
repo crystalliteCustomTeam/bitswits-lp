@@ -32,7 +32,7 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/blockchain-game-development'
     || router.pathname == '/mobile-application-duplicate'
     || router.pathname == '/travel-app-development'
-    || router.pathname == '/dream-home-app-development'
+    || router.pathname == '/real-estate-app-development-case-study'
     || router.pathname == '/bacteria-app-development'
     || router.pathname == '/soul-scribe-app-development'
     || router.pathname == '/greace-monkey-app-development'

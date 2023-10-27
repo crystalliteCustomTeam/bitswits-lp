@@ -67,13 +67,13 @@ export default function RealState() {
       <CaseGlamic
         textArray1={[
           {
-            title: <>Food Delivery <span>Solution</span></>,
+            title: <>Real Estate App <span>Development</span></>,
             text: [
               <>
-                <i>Crave Courier</i>, a BitsWits creation, is a food delivery app. It streamlines the process: select from local eateries, place your order, and savor restaurant-quality dishes brought straight to you. A convenient, fuss-free solution for your dining desires.
+                <i>Dream Home</i>, a real estate app designed to make your property search a breeze. If you're looking for your dream home, this user-friendly app offers a seamless and efficient experience. With a sleek interface, powerful search filters, and a vast database of listings, Dream Home helps you find the perfect property in no time.
               </>,
               <>
-                With a user-friendly interface and the ability to save preferred meal choices, we've created an efficient platform for a superior eating experience.
+                Save your favorite listings, receive timely notifications, and connect with real estate agents to make your real estate dreams a reality. Say goodbye to the hassle of property hunting and welcome the convenience of Dream Home into your life.
               </>
             ]
           },
@@ -99,8 +99,8 @@ export default function RealState() {
           {
             title: <>The <span>Starting</span> Point</>,
             text: [
-              <>Crave Courier began when a group of food lovers saw how busy life can be in a big city. They wanted to make it easy for people to enjoy delicious food from local restaurants without the hassle. So, they came up with the idea of an app that lets you pick what you want to eat, place your order, and have it delivered right to your door.</>,
-              <>To create a user-friendly and highly convenient app for an average person, the founders of Crave Courier recognized the need for professional expertise and they wisely brought BitsWits into the fold, for design, development, and the integration of AI technology.</>,
+              <>Our client, a real estate professional, identified the need for a more streamlined and tech-savvy approach to property searching. Recognizing the evolving market trends and changing consumer demands, they envisioned the "Dream Home" app as a solution to provide an efficient and user-friendly real estate experience.</>,
+              <>Their goal was to empower homebuyers and investors with a solution that simplifies property discovery and connects them with their ideal homes or investment opportunities.</>,
             ],
           },
         ]}
@@ -113,47 +113,47 @@ export default function RealState() {
       <CaseWants
         sections={[
           {
-            title: <> App-etizers & Main <span>Features</span> </>,
+            title: <> Main <span>Features</span> </>,
             textArray: [
-              'Restaurant listings',
-              'Personalized user profiles',
-              'Live order tracking',
-              'Voice-activated order placement',
-              'Highly functional native app',
-              'Instant chat support',
-              'Secure and diverse payment methods',
-              'AI-powered route optimization',
-              'AI-driven smart search and recommendations',
+              'Advanced Property Search with Powerful Filters',
+              'Favorites and Shortlists for Easy Property Organization',
+              'Real-Time Notifications for New Listings and Price Changes',
+              'Immersive Virtual Tours for Property Exploration',
+              'Direct Communication with Experienced Real Estate Agents',
+              'Mortgage Calculator for Financial Planning',
+              'Comprehensive Neighborhood Information',
+              'User Reviews and Ratings for Properties and Agents',
+              'Secure In-App Messaging for Confidential Communication',
             ],
           },
           {
-            title: <> A Closer Look at Project <span>Challenges We Faced</span> </>,
+            title: <> <span>Challenges</span> We Faced </>,
             textArray: [
-              'Feedback Loop Implementation',
-              'Ensuring high voice recognition accuracy',
-              'Responsiveness of real-time chat support',
-              'Computational complexities in AI algorithms',
-              'Database management while maintaining efficient performance',
+              'Data Integration Complexity',
+              'User Privacy and Security',
+              'Ensuring Scalability for Growing User Base',
+              'Integrating Geospatial Data and Mapping',
+              'Regulatory Compliance Hurdles',
             ],
           },
           {
             title: <> Trouble <span>Tackling</span> </>,
             textArray: [
-              'Established a dedicated feedback mechanism for users to report issues',
-              'Implemented load balancing to distribute server load effectively',
-              'Utilized parallel processing to enhance AI algorithm efficiency',
-              'Implemented data caching strategies to reduce database load',
-              'Invested in advanced voice recognition technology and speech-to-text conversion',
+              'Developed a robust data pipeline and employed data validation and cleaning algorithms',
+              'Implemented end-to-end encryption for user communications',
+              'Utilized cloud-based infrastructure and employed load balancing and optimized database queries',
+              'Optimized map rendering and integrated user-friendly navigation features',
+              'Implemented features like region-specific filtering to ensure compliance with local laws',
             ],
           },
         ]}
-        para={<> BitsWits' proactive approach to problem solving and constant commitment to technology refinement played an important role in ensuring the efficiency and user satisfaction. Through our vigilant problem-solving mindset, we promptly sought solutions and made sure Crave Courier stands as a leading app in the food delivery industry. </>}
+        para={<> BitsWits, a renowned app development company, brought "Dream Home" to life through its expertise in real estate technology. Leveraging cutting-edge development techniques and a focus on user satisfaction, we created an app that redefines the real estate experience, making it easier and more enjoyable for users to find their dream homes. </>}
         wantsClass='dreamhome'
       />
 
       <CaseGoal
         golImg={goalImg}
-        title={<> Take a step toward your beauty goals from the comfort of your couch with just a few taps on our app! </>}
+        title={<> Start your app development journey effortlessly; let BitsWits be your savior with a quick tap! </>}
         goalClass='dreamhome'
       />
 
@@ -162,7 +162,7 @@ export default function RealState() {
           {
             icon: icon1,
             title: <> Overcoming <br /> Development Challenges </>,
-            text: <> We bring together a team of highly skilled app developers, each with their unique expertise and experiences, to tackle complex development problems efficiently. Our team breaks down challenges into manageable components and implements innovative solutions to ensure successful project outcomes. </>,
+            text: <> We bring together a team of highly skilled app developers, each with their unique expertise and experiences, to tackle complex development problems efficiently. Our team breaks down challenges into manageable components and  implements innovative solutions to ensure successful project outcomes. </>,
           },
           {
             icon: icon2,

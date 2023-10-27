@@ -29,8 +29,12 @@
   font-size: 16px;
   line-height: 26px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 20px;
+}
+
+.wants img {
+  margin-top: 5px;
 }
 
 /* ============================= */

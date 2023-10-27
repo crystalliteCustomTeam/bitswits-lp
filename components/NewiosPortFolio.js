@@ -23,7 +23,7 @@ const NewiosPortFolio = () => {
 
     const portfolioItems = [
         { id: 1, image: folio1, link: '/travel-app-development' },
-        { id: 2, image: folio2, link: '/dream-home-app-development' },
+        { id: 2, image: folio2, link: '/real-estate-app-development-case-study' },
         { id: 3, image: folio3, link: '/bacteria-app-development' },
         { id: 4, image: folio4, link: '/soul-scribe-app-development' },
         { id: 5, image: folio5, link: '/greace-monkey-app-development' },

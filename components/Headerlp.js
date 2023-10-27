@@ -488,7 +488,7 @@ const Header = () => {
 
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/dream-home-app-development" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/real-estate-app-development-case-study" onClick={handleMenu}>
                                                         Real Estate App
                                                     </Link>
                                                     <span className={styles.realDummy}>
