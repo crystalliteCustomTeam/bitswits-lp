@@ -19,6 +19,7 @@ import Startups from '@/components/Startups';
 import Wework from '@/components/Wework';
 import Bannerlp2 from '@/components/Bannerlp2';
 import Formlp2 from '@/components/Formlp2';
+import Nothinglp2 from '@/components/Nothinglp2';
 
 export default function gamedevelopmentcompany() {
 
@@ -44,7 +45,7 @@ export default function gamedevelopmentcompany() {
 
 
 
-            <Nothing
+            <Nothinglp2
                 Nothing='nothing1'
             />
 

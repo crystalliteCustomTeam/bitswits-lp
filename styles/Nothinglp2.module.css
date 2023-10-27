@@ -4,6 +4,24 @@
   padding-top: 125px;
   padding-bottom: 170px;
   background: #000;
+  background-image: url(../public/images/nothing/bg.png);
+  background-position: 886px center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-size: 27%;
+
+}
+.nothing1 {
+ background-color: black;
+  padding-top: 150px;
+
+  padding-bottom: 120px;
+  background: #000;
+  background-image: url(../public/images/nothing/bg.png);
+  background-position: 886px center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-size: 27%;
 
 }
 
