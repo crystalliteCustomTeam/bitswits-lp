@@ -38,13 +38,14 @@
   background-color: black;
   height: 282px;
   width: 196px;
-  border: 1px solid #636161;
+  border: 1px solid #565353;
   border-radius: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-top-right-radius: 0px;
+  box-shadow: rgb(100 100 111 / 31%) 0px 7px 29px 0px;
 }
 .post h3{
   font-size: 40px;

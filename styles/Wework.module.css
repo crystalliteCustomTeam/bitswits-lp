@@ -7,10 +7,10 @@ color: #F32F53;
 }
 
 .dem{
-  border: 1px solid #1A1A1A;
+  border: 1px solid #373636;
   padding: 45px;
-  border-radius:20px;
-  border-bottom-right-radius:50px
+  border-radius: 20px;
+  border-bottom-right-radius: 50px;
 }
 
 .dem h4{
