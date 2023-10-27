@@ -103,7 +103,7 @@ Services and Solutions</h2>
                                 <div className={styles.pick}>
                                     <div className={styles.power}>
                                         <h3 className='text-white font25 font-bold'>AR/VR</h3>
-                                        <p className={`text-white f-16 ${styles.contentPara}`}>
+                                        <p className={`text-white f-14 ${styles.contentPara}`}>
                                         Harness the power of AI to enhance automated interactions, create personalized experiences, and provide predictive insights for improved engagement with technology and data.
                                         </p>
                                     </div>
