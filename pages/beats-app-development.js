@@ -13,7 +13,7 @@ import Capabilities from '@/components/Capabilities';
 import NewHomeSlider from '@/components/NewHomeSlider';
 import Technologieswe from '@/components/Technologieswe';
 import Homenextproject from '@/components/Homenextproject';
-import Faqs from '@/components/NewhomeFaqs';
+import Faqs from '@/components/NewhomeFaqs'; 
 import HomeLocation from '@/components/HomeLocation';
 //images
 import banLogo from '../public/images/case-beats/banner-logo.png'
