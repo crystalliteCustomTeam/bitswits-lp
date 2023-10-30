@@ -1,0 +1,23 @@
+.hook{
+  background-color: black;
+  padding-bottom: 100px;
+}
+
+.hook a{
+  width: 207px;
+  height: 57px;
+  background-color: #F32F53;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 18px;
+  box-shadow: rgb(235 51 91 / 43%) 0px 7px 29px 0px;
+  font-weight: 600;
+}
+
+.jis{
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}

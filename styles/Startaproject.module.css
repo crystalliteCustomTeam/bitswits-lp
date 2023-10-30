@@ -1,0 +1,56 @@
+
+.still{
+    background-color: black;
+}
+.start{
+    position: relative;
+}
+.gulop{
+    background-color: black;
+    position: relative;
+    top: -100px;
+    border-radius: 25px;
+}
+.startproject {
+    position: absolute;
+    right: unset;
+    bottom: 0;
+    top: -110px;
+}
+
+.gulop h3{
+    color:#F32F53;
+    font-size: 23px;
+}
+.gulop h4{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.number{
+    width: 208px;
+    height: 43px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: black;
+    border-radius: 10px;
+}
+.live{
+    width: 136px;
+    height: 43px;
+    background-color: #F32F53;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: white;
+    border-radius: 10px;
+}
+
+.home{
+    display: flex;
+    gap: 15px;
+}
