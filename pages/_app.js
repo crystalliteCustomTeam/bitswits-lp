@@ -6,6 +6,10 @@ import Cursor from "@/components/Cursor";
 import { useRouter } from "next/router";
 import '@/styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.css';
+import Footernewdesign from '@/components/Footernewdesign';
+import Script from 'next/script';
+import Head from 'next/head';
+import Headerlphome from '@/components/Headerlphome';
 
 
 export default function App({ Component, pageProps }) {
@@ -47,15 +51,26 @@ export default function App({ Component, pageProps }) {
 
   const newlps = router.pathname == '/mobile-app-development-company-lp' || router.pathname == '/mobile-app-development-company-lp2'
 
+  const newhomepage = router.pathname == '/indexnew';
+
 
   return (
     <>
+
+     
+
+    
 
 
       {newlps ?
 
         <Headerlp />
 
+        :
+
+        newhomepage ?
+
+        <Headerlphome />
         :
         <Header />
       }
@@ -69,11 +84,21 @@ export default function App({ Component, pageProps }) {
 
       <Component {...pageProps} />
 
+   
+
+
       {newlps ?
         <Footernewlp />
         :
-        <Footernewfy />
+        newhomepage ?
+
+          <Footernewdesign />
+
+          :
+          <Footernewfy />
       }
+
+
 
     </>
   )
