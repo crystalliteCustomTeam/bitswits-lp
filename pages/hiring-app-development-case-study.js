@@ -97,9 +97,9 @@ export default function ReadyApp() {
           {
             title: <>The <span>Starting</span> Point</>,
             text: [
-              <>The vision for creating Ready App is to bridge the gap between drivers seeking opportunities and HR professionals needing qualified talent. Aiming to evolve the traditional recruitment process in the transportation industry, providing a user-friendly platform to both drivers and HRs.</>,
+              <>The vision for creating Ready App is to bridge the gap between drivers seeking opportunities and hiring managers needing qualified talent. Aiming to evolve the traditional recruitment process in the transportation industry, providing a user-friendly platform to both drivers and recruiters. </>,
 
-              <>Ready App envisions a future were finding the right driving job or the perfect driver for your team is just a tap away</>,
+              // <>Ready App envisions a future were finding the right driving job or the perfect driver for your team is just a tap away</>,
             ],
           },
         ]}

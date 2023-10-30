@@ -13,7 +13,7 @@ import Capabilities from '@/components/Capabilities';
 import NewHomeSlider from '@/components/NewHomeSlider';
 import Technologieswe from '@/components/Technologieswe';
 import Homenextproject from '@/components/Homenextproject';
-import Faqs from '@/components/NewhomeFaqs'; 
+import Faqs from '@/components/NewhomeFaqs';
 import HomeLocation from '@/components/HomeLocation';
 //images
 import banLogo from '../public/images/case-beats/banner-logo.png'
@@ -67,13 +67,13 @@ export default function beats() {
       <CaseGlamic
         textArray1={[
           {
-            title: <>Food Delivery <span>Solution</span></>,
+            title: <>Music App <span>Solution</span></>,
             text: [
               <>
-                <i>Crave Courier</i>, a BitsWits creation, is a food delivery app. It streamlines the process: select from local eateries, place your order, and savor restaurant-quality dishes brought straight to you. A convenient, fuss-free solution for your dining desires.
+                <i>Beats</i>, a music app, showcases music albums, lets users collaborate with other application users, and brings together a community of music enthusiasts, all within our vibrant and supportive platform.
               </>,
               <>
-                With a user-friendly interface and the ability to save preferred meal choices, we've created an efficient platform for a superior eating experience.
+                It stands out from the rest with its unique feature that allows users to not only create their own music but also share their albums with a global audience.
               </>
             ]
           },
@@ -99,8 +99,8 @@ export default function beats() {
           {
             title: <>The <span>Starting</span> Point</>,
             text: [
-              <>Crave Courier began when a group of food lovers saw how busy life can be in a big city. They wanted to make it easy for people to enjoy delicious food from local restaurants without the hassle. So, they came up with the idea of an app that lets you pick what you want to eat, place your order, and have it delivered right to your door.</>,
-              <>To create a user-friendly and highly convenient app for an average person, the founders of Crave Courier recognized the need for professional expertise and they wisely brought BitsWits into the fold, for design, development, and the integration of AI technology.</>,
+              <>Beats started when a group of dedicated musicians and tech enthusiasts came together with a vision to create a platform that would empower individuals to make their mark in the world of music.</>,
+              <>The founders’ vision is to create an inclusive community of music lovers, where every user can find their unique rhythm and express themselves freely. </>,
             ],
           },
         ]}
@@ -113,41 +113,37 @@ export default function beats() {
       <CaseWants
         sections={[
           {
-            title: <> App-etizers & Main <span>Features</span> </>,
+            title: <>Main <span>Features</span> </>,
             textArray: [
-              'Restaurant listings',
-              'Personalized user profiles',
-              'Live order tracking',
-              'Voice-activated order placement',
-              'Highly functional native app',
-              'Instant chat support',
-              'Secure and diverse payment methods',
-              'AI-powered route optimization',
-              'AI-driven smart search and recommendations',
+              'Artist Profiles',
+              'Music Creation Tools',
+              'Personalized Playlists',
+              'High-Quality Audio Streaming',
+              'Synchronized Lyrics Integration',
             ],
           },
           {
             title: <> A Closer Look at Project <span>Challenges We Faced</span> </>,
             textArray: [
-              'Feedback Loop Implementation',
-              'Ensuring high voice recognition accuracy',
-              'Responsiveness of real-time chat support',
-              'Computational complexities in AI algorithms',
-              'Database management while maintaining efficient performance',
+              'Aggregating and updating artist data and content.',
+              'Developing a user-friendly music creation interface.',
+              'Creating an effective recommendation algorithm.',
+              'Ensuring seamless high-quality audio streaming.',
+              'Synchronizing lyrics with songs in real-time.',
             ],
           },
           {
             title: <> Trouble <span>Tackling</span> </>,
             textArray: [
-              'Established a dedicated feedback mechanism for users to report issues',
-              'Implemented load balancing to distribute server load effectively',
-              'Utilized parallel processing to enhance AI algorithm efficiency',
-              'Implemented data caching strategies to reduce database load',
-              'Invested in advanced voice recognition technology and speech-to-text conversion',
+              'Designed intuitive artist profile layouts for easy navigation.',
+              'Ensured user-friendly interfaces for music creation.',
+              'Implemented smart algorithms for personalized playlist suggestions.',
+              'Optimized for seamless, high-quality audio playback.',
+              'Developed a sync system for precise lyric display.',
             ],
           },
         ]}
-        para={<> BitsWits' proactive approach to problem solving and constant commitment to technology refinement played an important role in ensuring the efficiency and user satisfaction. Through our vigilant problem-solving mindset, we promptly sought solutions and made sure Crave Courier stands as a leading app in the food delivery industry. </>}
+        para={<> BitsWits combined the best suitable tech stack and creative design for the app The result is a music mobile application that delivers an exceptional user experience and elevates the way people enjoy and create music.</>}
         wantsClass='beats'
       />
 
