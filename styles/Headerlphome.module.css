@@ -196,3 +196,12 @@
   right: -15px;
 
 }
+
+.newpond{
+  position: absolute;
+}
+
+.newpond li {
+  margin-bottom: -6px;
+  margin-top: 149%;
+}
