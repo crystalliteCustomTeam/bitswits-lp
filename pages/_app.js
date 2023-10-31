@@ -25,12 +25,19 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/native-mobile-development'
     || router.pathname == '/flutter-mobile-development'
     || router.pathname == '/mobile-application'
+    || router.pathname == '/mobile-application-usa'
+    || router.pathname == '/mobile-application-huston'
+    || router.pathname == '/mobile-application-newyork'
+    || router.pathname == '/mobile-application-los-angeles'
+    || router.pathname == '/mobile-application-duplicate'
+    || router.pathname == '/mobile-application-duplicate2'
+    || router.pathname == '/mobile-app-development-company-lp'
+    || router.pathname == '/mobile-app-development-company-lp2'
     || router.pathname == '/game-application-development'
     || router.pathname == '/nft-game-development'
     || router.pathname == '/2d-game-development-company'
     || router.pathname == '/3d-game-development-company'
     || router.pathname == '/blockchain-game-development'
-    || router.pathname == '/mobile-application-duplicate'
     || router.pathname == '/travel-app-development-case-study'
     || router.pathname == '/real-estate-app-development-case-study'
     || router.pathname == '/clothing-marketplace-app-development-case-study'
@@ -41,16 +48,17 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/ride-app-development-case-study'
     || router.pathname == '/fitness-app-development-case-study'
     || router.pathname == '/hiring-app-development-case-study'
-    || router.pathname == '/beats-app-development'
+    || router.pathname == '/music-app-development-case-study'
     || router.pathname == '/handyman-on-demand-app-development-case-study'
     || router.pathname == '/food-delivery-app-development-case-study'
 
-  const newlps = router.pathname == '/mobile-app-development-company-lp' || router.pathname == '/mobile-app-development-company-lp2'
+
+  const newlps = router.pathname == '/mobile-app-development-company-lp'
+    || router.pathname == '/mobile-app-development-company-lp2'
 
 
   return (
     <>
-
 
       {newlps ?
 
@@ -61,13 +69,13 @@ export default function App({ Component, pageProps }) {
       }
 
 
-
       {mouse &&
         <Cursor />
       }
 
 
       <Component {...pageProps} />
+
 
       {newlps ?
         <Footernewlp />

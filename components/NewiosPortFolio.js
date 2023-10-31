@@ -34,7 +34,7 @@ const NewiosPortFolio = () => {
         { id: 10, image: folio10, link: '/hiring-app-development-case-study' },
         { id: 11, image: folio11, link: '/food-delivery-app-development-case-study' },
         { id: 12, image: folio12, link: '/handyman-on-demand-app-development-case-study' },
-        { id: 13, image: folio13, link: '/beats-app-development' },
+        { id: 13, image: folio13, link: '/music-app-development-case-study' },
     ];
 
     const visibleItems = showAll ? portfolioItems : portfolioItems.slice(0, 6);

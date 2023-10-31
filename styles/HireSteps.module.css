@@ -1,0 +1,67 @@
+.steps {
+  padding: 100px 0;
+  background: #000;
+}
+
+.steps h2 {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #eb335b 55%, #4a78ef 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.steps p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.stepBox {
+  border-radius: 25px;
+  padding: 30px;
+  height: 320px;
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1a1a1a;
+  justify-content: space-around;
+  transition: all 0.5s ease-in-out;
+}
+
+.stepBox:hover {
+  transform: scale(1.05);
+}
+
+.stepBox img {
+  transition: all 0.5s ease-in-out;
+}
+
+.stepBox:hover img {
+  transform: scale(0.8);
+}
+
+.stepBox h5 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  width: max-content;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-bottom: 0;
+  border: 1px solid #fff;
+}
+
+.stepBox h6 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0;
+  text-align: center;
+}

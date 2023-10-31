@@ -33,7 +33,7 @@ import icon5 from '../public/images/fymobile/5.png'
 import icon6 from '../public/images/fymobile/6.png'
 
 
-export default function HomeConnect() {
+export default function HomePro() {
 
   const [showComponent, setShowComponent] = useState(false);
 
