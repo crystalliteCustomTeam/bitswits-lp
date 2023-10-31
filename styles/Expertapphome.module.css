@@ -1,0 +1,47 @@
+.expertapp{
+  background-color: black;
+  padding-top: 400px;
+  padding-bottom: 100px;
+}
+
+
+.app{
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  border: 2px solid #3D3D3D;
+  border-radius: 15px;
+  height: 160px;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 10px;
+  transition: all 1s ease-out;
+}
+.app p{
+  margin-bottom: 0;
+}
+
+
+.copy{
+  width: 91%;
+}
+.connect{
+  width: 436px;
+  height: 45px;
+  background-color: #F32F53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+.offer{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.app:hover{
+  background-color: #F32F53;
+  transition: all 1s ease-out;
+}

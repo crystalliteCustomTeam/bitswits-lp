@@ -1,0 +1,191 @@
+.appmaking {
+  background-color: black;
+  padding-top: 100px;
+}
+
+.noroow {
+  display: flex;
+  gap: 10px;
+}
+.noroow1 {
+  display: flex;
+  gap: 10px;
+}
+
+.native::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 2px;
+  background: linear-gradient(45deg, #f32f53, #f32fc2, #4a78ef);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.native {
+  position: relative;
+  padding: 70px 40px;
+  padding-bottom: 40px;
+  background-color: black;
+  border-radius: 24px;
+}
+.native2 {
+  position: relative;
+  padding: 70px 40px;
+  padding-bottom: 40px;
+  background-color: black;
+  border-radius: 24px;
+}
+
+.native2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 2px;
+  background: linear-gradient(45deg, #f32f53, #f32fc2, #4a78ef);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+
+
+.dev {
+  padding-left: 0;
+}
+
+.chat {
+  color: white;
+  border: 1px solid #fff;
+  height: 90px;
+  width: 90px;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.platform{
+  justify-content: center;
+}
+
+.dev{
+  position: relative;
+  margin-bottom: 10%;
+}
+.dev li::before{
+  position: absolute;
+  content: '';
+  background-color: #FFFFFF;
+  width: 25px;
+  height: 3px;
+  border-radius: 50px;
+  margin-top: 2%;
+  left: 0;
+
+}
+
+.dev li{
+  margin-left: 42px;
+  font-size: 14px;
+}
+
+.live{
+  z-index: 1;
+  position: relative;
+  background-color: #F32F53;
+  width: 80px;
+  display: flex;
+  height: 80px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.noroow{
+  position: relative;
+  margin-top: 30px;
+}
+.noroow::before{
+  position: absolute;
+  content: '';
+  background-color: #F32F53;
+  width: 95px;
+  height: 3px;
+  bottom: 130px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.noroow1{
+  position: relative;
+}
+.noroow1::after{
+  position: absolute;
+  content: '';
+  background-color: #F32F53;
+  width: 10px;
+  height: 10px;
+  bottom: 127px;
+  left: 65px;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+.noroow2{
+  position: relative;
+  margin-top: 30px;
+}
+.noroow2::before{
+  position: absolute;
+  content: '';
+  background-color: #F32F53;
+  width: 35px;
+  height: 3px;
+  bottom: 130px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.live1{
+  position: relative;
+  z-index: 1;
+  background-color: #F32F53;
+  display: flex;
+  width: 300px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 30px;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+.post::after {
+  position: absolute;
+  background-image: url(../public/images/logoservices/shap1.png);
+  bottom: -283px;
+  height: 40%;
+  content: "";
+  background-position: center;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+.appmaking{
+  position: relative;
+}

@@ -2427,7 +2427,7 @@ button {
   padding: 1.5em;
   animation: 0.7s ease-in-out forwards growDown;
   transform-origin: top;
-  background-color: black;
+  background-color: #f9f9f9;
 }
 
 @keyframes growDown {
@@ -2447,10 +2447,17 @@ button {
 .touch {
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
-
-.newfaqsgloble .touch {
-  box-shadow: #f32fc261 0 1px 30px 0;
+.touch h3{
+  color: #FF3067!important;
+  font-size: 20px!important;
 }
+.touch p{
+  color: #7A719B!important;
+}
+
+/* .newfaqsgloble .touch {
+  box-shadow: #f32fc261 0 1px 30px 0;
+} */
 
 .touch div {
   border: unset;
@@ -2695,6 +2702,18 @@ button {
 .formBtn:hover {
   background: var(--dark);
   color: var(--primary);
+}
+.clintSlider1 .slick-arrow{
+  width: 50px;
+  height: 50px;
+  margin-top: 37%;
+}
+.clintSlider1 .slick-arrow.slick-prev{
+  left: -100px;
+}
+
+.clintSlider1 .slick-arrow.slick-next{
+  right: -100px;
 }
 
 .react-tel-input .flag-dropdown {

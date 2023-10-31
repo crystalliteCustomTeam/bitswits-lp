@@ -21,16 +21,16 @@ const NewMaintainlp = () => {
                             <p className={` f-20 font-bold text-white text-center mb-0`}>Services
                             </p>
                             <h2 className='text-white f-60 font-bold text-center mb-5'>Our Mobile App Development <br></br>
-Services and Solutions</h2>
-                            
-                           
+                                Services and Solutions</h2>
+
+
                         </Col>
                         <Col sm={6} lg={4}>
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>Mobile App Development</h3>
+                                    <h3 className='text-white f-25 font-bold'>IOS Application Development</h3>
                                     <p className={styles.para}>
-                                    The mobile apps developed by app developers at BitsWits are captivating, interactive, and help improve the user experience from planning to execution.
+                                    We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design.
                                     </p>
                                 </div>
                             </div>
@@ -38,9 +38,9 @@ Services and Solutions</h2>
                         <Col sm={6} lg={4}>
                             <div className={styles.app1}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>Game Development</h3>
+                                    <h3 className='text-white f-25 font-bold'>Android Application Development</h3>
                                     <p className={styles.para}>
-                                    Use our fascinating game development solutions to transport your audience to spellbound virtual worlds.
+                                    We take Android app development to the next level by following a comprehensive approach, from ideation to launch.
                                     </p>
                                 </div>
                             </div>
@@ -48,81 +48,45 @@ Services and Solutions</h2>
                         <Col lg={4}>
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>Blockchain Development</h3>
+                                    <h3 className='text-white f-25 font-bold'>React NativeApp Development</h3>
                                     <p className={styles.para}>
-                                    We stand for developing custom Blockchain Solutions that drive enterprise growth and efficiency through blockchain technology.
+                                    Our team of expert Flutter app developers at Bitswits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs.
                                     </p>
                                 </div>
                             </div>
                         </Col>
-
-                        <Col lg={12}>
-                            <div className={styles.app3}>
-                                <Row className='align-items-center'>
-                                    <Col xl={5}>
-                                        <div className={styles.paraThreeContent}>
-                                            <h3 className='text-white font25 font-bold '>Artificial Intelligence (Ai)</h3>
-                                            <p className={styles.para1}>
-                                            Harness the power of AI to enhance automated interactions, create personalized experiences, and provide predictive insights for improved engagement with technology and data.
-                                            </p>
-                                        </div>
-                                    </Col>
-                                    <Col xl={5}>
-                                        {/* <div id='artifical' ></div> */}
-                                    </Col>
-                                </Row>
-
-                            </div>
-                        </Col>
-
-                        <Col sm={6}>
-                            <div className={styles.app4}>
-                                <div>
-                                    <h3 className='text-white font25 font-bold text-center'>Web App Development</h3>
-                                    <p className={styles.possibilities}>
-                                    Our top app developers excel in web app development, offering top-tier expertise ensuring client satisfaction and on-time delivery.
+                        <Col sm={6} lg={4}>
+                            <div className={styles.app}>
+                                <div className={styles.cardContent}>
+                                    <h3 className='text-white f-25 font-bold'>Flutter App <br></br> Development</h3>
+                                    <p className={styles.para}>
+                                    Our team of expert Flutter app developers at Bitswits use the latest tools and techniques.
                                     </p>
                                 </div>
                             </div>
-
                         </Col>
-                        <Col sm={6}>
-                            <div className={styles.app5}>
-                                <div>
-                                    <h3 className='text-white font25 font-bold text-center'>UI/UX App Design</h3>
-                                    <p className={styles.possibilities}>
-                                    Our team of professional UI/UX app designers help develop designs that guide users towards meaningful interactions and impactful user experience.
+                        <Col sm={6} lg={4}>
+                            <div className={styles.app1}>
+                                <div className={styles.cardContent}>
+                                    <h3 className='text-white f-25 font-bold'>Cross Platform App Development</h3>
+                                    <p className={styles.para}>
+                                    We prioritize creating seamless user experiences in cross-platform app development.
                                     </p>
                                 </div>
                             </div>
-
-                        </Col>
-                        <Col lg={8}>
-
-                            <div className={styles.app6}>
-                                <div className={styles.pick}>
-                                    <div className={styles.power}>
-                                        <h3 className='text-white font25 font-bold'>AR/VR</h3>
-                                        <p className={`text-white f-14 ${styles.contentPara}`}>
-                                        Harness the power of AI to enhance automated interactions, create personalized experiences, and provide predictive insights for improved engagement with technology and data.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
                         </Col>
                         <Col lg={4}>
-                            <div className={styles.app7}>
-                              
-                                <div>
-                                    <h3 className='text-white font25 font-bold text-center'>Internet of Things</h3>
-                                    <p className={styles.para9}>
-                                    We stand for developing custom Blockchain Solutions that drive enterprise growth and efficiency through blockchain technology.
+                            <div className={styles.app2}>
+                                <div className={styles.cardContent}>
+                                    <h3 className='text-white f-25 font-bold'>Web App <br></br> Development</h3>
+                                    <p className={styles.para}>
+                                    We offer end-to-end web app development company. Our team of skilled web app developers utilizes the latest technologies.
                                     </p>
                                 </div>
                             </div>
-
                         </Col>
+
+
                     </Row>
 
                 </Container>

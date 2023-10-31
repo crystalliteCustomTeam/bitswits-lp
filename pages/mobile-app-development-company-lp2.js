@@ -6,7 +6,7 @@ import NewFaqslp from '@/components/NewFaqslp';
 import HomeLocationlp from '@/components/HomeLocationlp';
 import Bannerlp from '@/components/Bannerlp';
 import Justbuilditlp from '@/components/Justbuilditlp';
-import ProjectProcess from '@/components/ProjectProcess';
+import ProjectProcesslp from '@/components/ProjectProcesslp';
 import Globallp from '@/components/Globallp';
 import Link from 'next/link'
 import stylesjust from '@/styles/Justbuilditlp.module.css'
@@ -52,20 +52,22 @@ export default function gamedevelopmentcompany() {
 
             <NewMaintainlp />
 
-            <Technologieslp />
-
-            <Globallp />
-
             <Wework
                 wework='wework'
 
             />
 
+            <Technologieslp />
+
+            <Globallp />
+
+            
+
             <Startups
                 startups='startups'
             />
 
-            <ProjectProcess
+            <ProjectProcesslp
                 processclass='process1'
             />
 
