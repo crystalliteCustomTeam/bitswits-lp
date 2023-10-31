@@ -12,6 +12,7 @@ import Appmaking from '@/components/Appmaking';
 import Homeslider from '@/components/Homeslider';
 import Creative from '@/components/Creative';
 import Everyone from '@/components/Everyone';
+import Testimonailslider from '@/components/Testimonailslider';
 
 export default function Home() {
 
@@ -39,6 +40,9 @@ export default function Home() {
             />
             <Thrthy />
             <Everyone />
+            <Testimonailslider />
+
+
 
 
 

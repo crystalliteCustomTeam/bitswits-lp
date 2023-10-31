@@ -1,6 +1,6 @@
 .hook{
   background-color: black;
-  padding-bottom: 100px;
+  padding-bottom: 350px;
   position: relative;
 }
 
@@ -23,12 +23,12 @@
   margin-top: 2%;
 }
 
-/* .nomad::after{
+.nomad::after{
 
   position: absolute;
   background-image: url(../public/images/projectprocess/done.png);
   bottom: 0;
-  height: 25%;
+  height: 16%;
   content: "";
   background-position: center;
   width: 100%;
@@ -38,4 +38,4 @@
   background-repeat: no-repeat;
 
 
-} */
+}

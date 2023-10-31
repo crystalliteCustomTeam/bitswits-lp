@@ -58,7 +58,7 @@ const NewMaintainlp = () => {
                         <Col sm={6} lg={4}>
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white f-25 font-bold'>Flutter App Development</h3>
+                                    <h3 className='text-white f-25 font-bold'>Flutter App <br></br> Development</h3>
                                     <p className={styles.para}>
                                     Our team of expert Flutter app developers at Bitswits use the latest tools and techniques.
                                     </p>
@@ -78,7 +78,7 @@ const NewMaintainlp = () => {
                         <Col lg={4}>
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white f-25 font-bold'>Web App Development</h3>
+                                    <h3 className='text-white f-25 font-bold'>Web App <br></br> Development</h3>
                                     <p className={styles.para}>
                                     We offer end-to-end web app development company. Our team of skilled web app developers utilizes the latest technologies.
                                     </p>
