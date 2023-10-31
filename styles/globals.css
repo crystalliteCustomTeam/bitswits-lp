@@ -305,6 +305,10 @@ div {
   -webkit-text-fill-color: transparent;
 }
 
+.newbird .slick-slide{
+  width: 240px!important;
+}
+
 .grdiant2 {
   background: linear-gradient(to right, #4a78ef 0%, #eb335b 65%);
   -webkit-background-clip: text;

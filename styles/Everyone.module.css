@@ -96,6 +96,11 @@
 
 @media screen and (min-width: 1400px) {
 
+  .post {
+    position: relative;
+    width: 56%;
+}
+
   .point {
    
     background-position: unset;
