@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 //images
-import banImg1 from '../public/images/projectprocess/process.png'
+import banImg1 from '../public/images/projectprocess/process.svg'
 
 
 const ProjectProcesshome = (props) => {
@@ -21,13 +21,14 @@ const ProjectProcesshome = (props) => {
                 <Container>
                     <Row>
                         <Col>
-                            <h3 className='black font20 f-500'>Let's work together</h3>
-                            <h2 className='black f-50 f-700'>Project Process</h2>
-                            <p className='black font16 f-400'>Our work speaks for us. See how we create powerful, customer-centric <br></br> mobile applications for various industry verticals to help them achieve <br></br> their business objectives.</p>
-                            <Image src={banImg1} className='img-fluid mt-5' />
+                            <h3 className='black font20 f-700'>Let's work together</h3>
+                            <h2 className='black f-40 f-700'>Project Process</h2>
+                            <p className='black font16 f-500'>Our work speaks for us. See how we create powerful, customer-centric <br></br> mobile applications for various industry verticals to help them achieve <br></br> their business objectives.</p>
+                            <Image src={banImg1} className='img-fluid mt-3' />
                         </Col>
                     </Row>
                 </Container>
+                <div className={styles.nomad}></div>
             </section>
 
 

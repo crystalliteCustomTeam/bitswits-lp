@@ -137,7 +137,7 @@ const Headerlphome = () => {
                                         <div class="row">
                                             <div class="col-lg-12">
                                                 <div class={styles.trustedsocial}>
-                                                    <div>
+                                                    <div class={styles.trust}>
                                                         <h3 className='mb-0'>Trusted by</h3>
                                                     </div>
                                                     <div className={styles.icons}>

@@ -74,7 +74,7 @@
   background-color: #0000002e;
 }
 .trustedsocial h3{
-  font-size: 15px;
+  font-size: 14px;
 }
 .trustedsocial{
   display: flex;
@@ -86,13 +86,13 @@
   padding: 10px 21px;
   align-items: center;
   gap: 30px;
-  height: 60px;
+  height: 50px;
 
 }
 
 .icons{
   display: flex;
-  gap: 20px;
+  gap: 15px;
 }
 
 .icons img{
@@ -133,8 +133,8 @@
 
 .ToastOpen{
   background-color: white;
-  width: 114px;
-  height: 41px;
+  width: 100px;
+  height: 37px;
   display: flex;
   color: black;
   align-items: center;
@@ -170,6 +170,29 @@
   color: #FBC725;
 }
 
-.backImgmain{
-  
+.trust h3{
+  position: relative;
+}
+.trust h3::after{
+  position: absolute;
+  content: '';
+  background-color: #BEC4DA;
+  width: 2px;
+  height: 33px;
+  margin-left: 14%;
+  top: -9px;
+
+}
+.icons{
+  position: relative;
+}
+.icons::after{
+  position: absolute;
+  content: '';
+  background-color: #BEC4DA;
+  width: 2px;
+  height: 33px;
+  top: -6px;
+  right: -15px;
+
 }

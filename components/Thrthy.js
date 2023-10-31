@@ -19,7 +19,7 @@ export default function Thrthy() {
                     <div class="row justify-content-center align-items-center mb-4">
                         <div class="col-lg-10  col-xl-10 text-center mt-5">
 
-                            <h2 class="f-50 f-50 f-700 white">Third Party Ecommerce App <br></br>  CRM for Mobile
+                            <h2 class="f-50 f-700 white">Third Party Ecommerce App <br></br>  CRM for Mobile
                             </h2>
                             <p class="text-white">Our team is the embodiment of excellence when it comes to API integration and custom programming, solidifying our reputation as an industry leader. We're proud of what we can achieve with these core competencies! So, Don't Navigate the Intricacies of Optimization Alone! - Let us be your trusted IT partner for all your needs!</p>
 
@@ -88,6 +88,7 @@ export default function Thrthy() {
                         </div>
                     </div>
                 </div>
+                <div className={styles.nomad}></div>
             </section>
         </>
     )

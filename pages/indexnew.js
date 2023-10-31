@@ -8,7 +8,10 @@ import Script from 'next/script';
 import ProjectProcesshome from '@/components/ProjectProcesshome';
 import Expertapphome from '@/components/Expertapphome';
 import Thrthy from '@/components/Thrthy';
-
+import Appmaking from '@/components/Appmaking';
+import Homeslider from '@/components/Homeslider';
+import Creative from '@/components/Creative';
+import Everyone from '@/components/Everyone';
 
 export default function Home() {
 
@@ -24,12 +27,22 @@ export default function Home() {
                 <link rel="icon" href="images/icons/favicon.png" />
 
             </Head>
-            
+            <Appmaking />
+            <Homeslider />
+
+            <ProjectProcesshome
+            processclass = 'process'
+            />
+            <Creative />
             <Expertapphome
             expertapp = 'expertapp'
             />
             <Thrthy />
-            <ProjectProcesshome />
+            <Everyone />
+
+
+
+            
             {/* <Supersaleslider /> */}
             <Newfaqshome />
             <Startaproject />
