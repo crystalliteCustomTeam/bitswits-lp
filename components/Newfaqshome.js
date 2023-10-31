@@ -70,7 +70,8 @@ const NewIOSFaqs = () => {
 
   return (
     <>
-      <section className={`${styles.faqs} newfaqsgloble`}>
+    <div>
+ <section className={`${styles.faqs} newfaqsgloble`}>
         <Container>
           <Row className={styles.comfort}>
             <Col lg={12}>
@@ -379,6 +380,9 @@ const NewIOSFaqs = () => {
 
         </Container>
       </section>
+
+    </div>
+     
     </>
   );
 };

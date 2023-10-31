@@ -1,4 +1,4 @@
-.process{
+.process {
   background-image: linear-gradient(#f5f5ff, white);
   position: relative;
   padding-top: 50px;
@@ -6,11 +6,61 @@
 }
 
 
-.nomad::after{
+.nomad::after {
 
+  position: absolute;
+  background-image: url(../public/images/projectprocess/dem.png);
+  bottom: -283px;
+  height: 55%;
+  content: "";
+  background-position: center;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+
+
+}
+
+@media screen and (min-width: 1400px) {
+
+
+  .newHomeBg {
+    padding-top: 145px;
+    background-color: black;
+  }
+
+  .nomad::after {
     position: absolute;
     background-image: url(../public/images/projectprocess/dem.png);
-    bottom: -283px;
+    bottom: -383px;
+    height: 54%;
+    content: "";
+    background-position: center;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+  }
+
+}
+
+
+
+@media screen and (min-width: 1900px) {
+
+
+  .newHomeBg {
+    padding-top: 245px;
+    background-color: black;
+  }
+
+  .nomad::after {
+    position: absolute;
+    background-image: url(../public/images/projectprocess/dem.png);
+    bottom: -460px;
     height: 55%;
     content: "";
     background-position: center;
@@ -19,6 +69,8 @@
     right: 0;
     margin: 0 auto;
     background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-  
+
 }

@@ -4,8 +4,29 @@
   padding-bottom: 250px;
   background-color: #F5F5FF;
   margin-top: -17%;
-}
 
+}
+.comfort{
+  position: relative;
+}
+.comfort::after{
+  position: absolute;
+  content: '';
+  background-color: #f5f5ff;
+  width: 126px;
+  height: 10px;
+  left: -113px;
+  bottom: -110px;
+}
+.comfort::before{
+  position: absolute;
+  content: '';
+  background-color: #f5f5ff;
+  width: 126px;
+  height: 10px;
+  right: -113px;
+  bottom: -108px;
+}
 .plus {
   font-size: 30px;
 }
@@ -104,6 +125,19 @@ color: #7A719B!important;
 }
 
 /* =================Media Queries=================== */
+
+
+@media screen and (min-width: 1400px) {
+
+  .faqs {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 250px;
+    background-color: #F5F5FF;
+    margin-top: -7%;
+}
+
+ }
 
 @media screen and (max-width: 767px) {
   .faqs {

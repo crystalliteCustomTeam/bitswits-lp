@@ -64,3 +64,24 @@
   color: white;
   font-weight: 700;
 }
+
+
+@media screen and (min-width: 1400px) { 
+
+  .newHomeBg {
+    padding-top: 150px;
+    background-color: black;
+}
+
+
+}
+
+@media screen and (min-width: 1900px) { 
+
+  .newHomeBg {
+    padding-top: 230px;
+    background-color: black;
+}
+
+
+}

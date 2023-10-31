@@ -8,6 +8,8 @@ import banImg1 from '../public/images/projectprocess/phon.png'
 import Link from 'next/link';
 //images
 import slideImg1 from '../public/images/projectprocess/test1.png'
+import left from '../public/images/projectprocess/left.png'
+import right from '../public/images/projectprocess/right.png'
 
 
 export default function Testimonailslider() {
@@ -20,6 +22,8 @@ export default function Testimonailslider() {
         slidesToScroll: 1,
         centerMode: false,
         variableWidth: false,
+        nextArrow: <Image src={right} className='img-fluid' />,
+        prevArrow: <Image src={left} className='img-fluid' />
     };
 
 
@@ -35,7 +39,7 @@ export default function Testimonailslider() {
                             <p>Rave Reviews from Our  Valued Clients </p>
                         </Col>
                     </Row>
-                    <Slider {...clientsthink} className={`${styles.clintSlider} clintSlider`}>
+                    <Slider {...clientsthink} className={`${styles.clintSlider} clintSlider1`}>
                         <div>
                             <Image alt="bitswits" className='img-fluid'
                                 src={slideImg1}

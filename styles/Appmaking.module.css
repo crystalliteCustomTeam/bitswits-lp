@@ -7,6 +7,10 @@
   display: flex;
   gap: 10px;
 }
+.noroow1 {
+  display: flex;
+  gap: 10px;
+}
 
 .native::before {
   content: "";
