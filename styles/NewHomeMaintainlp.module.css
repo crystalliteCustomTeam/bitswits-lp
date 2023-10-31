@@ -49,6 +49,32 @@
   height: 531px;
 }
 
+.app33 {
+  background-image: url(../public/images/lpfund/33.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
+.app44 {
+  background-image: url(../public/images/lpfund/44.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+.app55 {
+  background-image: url(../public/images/lpfund/55.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
 .cardContent {
   margin-bottom: 30px;
 }
@@ -75,7 +101,10 @@
 .app2,
 .app,
 .app4,
-.app5 {
+.app5,
+.app33,
+.app44,
+.app55 {
   display: flex;
   /* flex-direction: column; */
   flex-direction: column-reverse;
@@ -281,6 +310,9 @@
   .app {
     height: 530px;
   }
+  .app {
+    height: 530px;
+  }
 
   .app1 {
     height: 530px;
@@ -302,7 +334,7 @@
 }
 
 @media only screen and (max-width: 1399px) {
-  .app {
+  .app, .app33, .app44, .app55 {
     height: 456px;
   }
 

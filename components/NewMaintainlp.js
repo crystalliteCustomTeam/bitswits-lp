@@ -56,7 +56,7 @@ const NewMaintainlp = () => {
                             </div>
                         </Col>
                         <Col sm={6} lg={4}>
-                            <div className={styles.app}>
+                            <div className={styles.app33}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white f-25 font-bold'>Flutter App <br></br> Development</h3>
                                     <p className={styles.para}>
@@ -66,7 +66,7 @@ const NewMaintainlp = () => {
                             </div>
                         </Col>
                         <Col sm={6} lg={4}>
-                            <div className={styles.app1}>
+                            <div className={styles.app44}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white f-25 font-bold'>Cross Platform App Development</h3>
                                     <p className={styles.para}>
@@ -76,7 +76,7 @@ const NewMaintainlp = () => {
                             </div>
                         </Col>
                         <Col lg={4}>
-                            <div className={styles.app2}>
+                            <div className={styles.app55}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white f-25 font-bold'>Web App <br></br> Development</h3>
                                     <p className={styles.para}>
