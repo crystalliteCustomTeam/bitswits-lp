@@ -48,6 +48,25 @@
 }
 
 
+@media screen and (min-width: 1700px) { 
+
+  .nomad::after {
+    position: absolute;
+    background-image: url(../public/images/projectprocess/dem.png);
+    bottom: -414px;
+    height: 51%;
+    content: "";
+    background-position: 50%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+
+}
+
 
 @media screen and (min-width: 1900px) {
 
