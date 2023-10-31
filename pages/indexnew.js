@@ -32,11 +32,11 @@ export default function Home() {
             <Homeslider />
 
             <ProjectProcesshome
-            processclass = 'process'
+                processclass='process'
             />
             <Creative />
             <Expertapphome
-            expertapp = 'expertapp'
+                expertapp='expertapp'
             />
             <Thrthy />
             <Everyone />
@@ -46,7 +46,7 @@ export default function Home() {
 
 
 
-            
+
             {/* <Supersaleslider /> */}
             <Newfaqshome />
             <Startaproject />

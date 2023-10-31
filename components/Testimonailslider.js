@@ -7,12 +7,8 @@ import Slider from 'react-slick'
 import banImg1 from '../public/images/projectprocess/phon.png'
 import Link from 'next/link';
 //images
-import slideImg1 from '../public/images/clients/client1.png'
-import slideImg2 from '../public/images/clients/client2.png'
-import slideImg3 from '../public/images/clients/client3.png'
-import slideImg4 from '../public/images/clients/client4.png'
-import slideImg5 from '../public/images/clients/client5.png'
-import slidebefore from '../public/images/clients/stars.png'
+import slideImg1 from '../public/images/projectprocess/test1.png'
+
 
 export default function Testimonailslider() {
 
@@ -31,15 +27,38 @@ export default function Testimonailslider() {
     return (
         <>
             <section class={styles.hook}>
+                <div className={styles.first}></div>
                 <Container>
+                    <Row class={styles.posting}>
+                        <Col xl={12}>
+                            <h3>Testimonials</h3>
+                            <p>Rave Reviews from Our  Valued Clients </p>
+                        </Col>
+                    </Row>
                     <Slider {...clientsthink} className={`${styles.clintSlider} clintSlider`}>
-                        {/* <Image alt="bitswits" className='img-fluid'
-                            src={slideImg1}
-
-                        /> */}
+                        <div>
+                            <Image alt="bitswits" className='img-fluid'
+                                src={slideImg1}
+                            />
+                            <h3>Bryce Carlos</h3>
+                            <h5>Soul Sound</h5>
+                            <h4>Co-Founder</h4>
+                            <p>BitsWits was a lifesaver for our business. We needed to create an app that could be used on multiple platforms, but we didn’t have a lot of technical know-how or additional development resources. Their team made it easy for us and delivered exactly what we needed. They stayed on top of our project and kept us informed throughout the process. We wouldn't hesitate to recommend them for any of your app development needs!
+                            </p>
+                        </div>
+                        <div>
+                            <Image alt="bitswits" className='img-fluid'
+                                src={slideImg1}
+                            />
+                              <h3>Bryce Carlos</h3>
+                            <h5>Soul Sound</h5>
+                            <h4>Co-Founder</h4>
+                            <p>BitsWits was a lifesaver for our business. We needed to create an app that could be used on multiple platforms, but we didn’t have a lot of technical know-how or additional development resources. Their team made it easy for us and delivered exactly what we needed. They stayed on top of our project and kept us informed throughout the process. We wouldn't hesitate to recommend them for any of your app development needs!
+                            </p>
+                        </div>
                     </Slider>
                 </Container>
-
+                <div className={styles.last}></div>
             </section>
         </>
     )
