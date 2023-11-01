@@ -17,6 +17,14 @@ import logo22 from '../public/images/lpheader/logo22.png'
 
 
 
+import new1 from '../public/images/lpheader/new1.png'
+import new2 from '../public/images/lpheader/new2.png'
+import new3 from '../public/images/lpheader/new3.png'
+import new4 from '../public/images/lpheader/new4.png'
+import new5 from '../public/images/lpheader/new5.png'
+
+
+
 const Headerlphome = () => {
 
 
@@ -55,6 +63,14 @@ const Headerlphome = () => {
                             </div>
                         </div>
                         <Image src={logo22} className='img-fluid mt-2' />
+
+                        <ul className={styles.newpond}>
+                            <li><Image src={new1} /></li>
+                            <li><Image src={new2} /></li>
+                            <li><Image src={new3} /></li>
+                            <li><Image src={new4} /></li>
+                            <li><Image src={new5} /></li>
+                        </ul>
                     </div>
 
                     <div class="container">

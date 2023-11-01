@@ -56,7 +56,7 @@ const Homeslider = () => {
 
     return (
         <>
-            <section className={styles.peace}>
+            <section className={`${styles.peace} newbird`}>
                 <Container>
                     <Row>
                         <Col xl={12}>
