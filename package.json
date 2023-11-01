@@ -29,7 +29,8 @@
     "react-icons": "^4.9.0",
     "react-slick": "^0.29.0",
     "react-tooltip": "^5.13.2",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.0.3"
   },
   "devDependencies": {
     "@types/jquery": "^3.5.25"

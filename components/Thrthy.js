@@ -34,7 +34,7 @@ export default function Thrthy() {
 
     return (
         <>
-            <section class={styles.hook}>
+            <section class={styles.hook} id='third'>
                 <div class="container">
                     <div class="row justify-content-center align-items-center mb-4">
                         <div class="col-lg-10  col-xl-10 text-center mt-5">
