@@ -26,14 +26,14 @@ const CaseGlamic = (props) => {
                                     <h3>{item.title}</h3>
                                     <p>{item.text}</p>
                                     <div className={styles.caseBtn}>
-                                        <Link href='#'>BOOK A CALL</Link>
+                                        <Link href='tel:(833) 500-6007'>BOOK A CALL</Link>
                                     </div>
                                 </div>
                             ))}
                         </Col>
                         <Col lg={12}>
                             <div className={styles.SecImg}>
-                                <Image src={props.foldImg} alt="bitswits" className={`img-fluid`} />
+                                <Image quality={90} src={props.foldImg} alt="bitswits" className={`img-fluid`} />
                             </div>
                         </Col>
                     </Row>

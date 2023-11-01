@@ -11,7 +11,7 @@ const CaseGoal = (props) => {
                 <Container>
                     <Row className={`${styles.goalRow} align-items-center`}>
                         <Col lg={4}>
-                            <Image src={props.golImg} alt="bitswits" className={`${styles.secImg} img-fluid`} />
+                            <Image quality={90} src={props.golImg} alt="bitswits" className={`${styles.secImg} img-fluid`} />
                         </Col>
                         <Col lg={8}>
                             <h3>{props.title}</h3>

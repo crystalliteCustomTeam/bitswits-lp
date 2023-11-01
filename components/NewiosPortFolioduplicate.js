@@ -145,7 +145,7 @@ const NewiosPortFolio = () => {
                                <Image quality={75} src={folio5} alt='BitsWits' className={`img-fluid`} />
                                <div className={styles.polioTxt}>
                                    <span className='font25 font-bold white mb-2'>Game App</span>
-                                   <Link href="/beats-app-development" className={styles.sucssBtn}>View case study</Link>
+                                   <Link href="/music-app-development-case-study" className={styles.sucssBtn}>View case study</Link>
                                </div>
                            </div>
                        </Col>

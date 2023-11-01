@@ -646,7 +646,7 @@ const Header = () => {
                                                     src={music}
                                                 />
                                                 <div className={styles.ourWork}>
-                                                    <Link className={styles.workTitle} href="/beats-app-development" onClick={handleMenu}>
+                                                    <Link className={styles.workTitle} href="/music-app-development-case-study" onClick={handleMenu}>
                                                         Beats App
                                                     </Link>
                                                     <span className={styles.realDummy}>
