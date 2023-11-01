@@ -100,6 +100,14 @@ export default function IosDeveloper() {
                 ]}
             />
 
+            <HireChoose
+                textArray={[
+                    {
+                        title: <>Why Choose The Bitswits to <br /> Hire <span> iPhone App Developers?</span> </>,
+                    }
+                ]}
+            />
+
 
             <NewHomeGlobal />
             <Capabilities />

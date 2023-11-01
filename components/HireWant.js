@@ -4,28 +4,32 @@ import Image from 'next/image'
 import styles from '@/styles/HireWant.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 //
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+//
 import tick from '../public/images/hire-page/tick.png'
 import arrow from '../public/images/hire-page/arrow.png'
 
 
 const contentArray = [
     [
-      {
-        text: "Upto 60% Cost Saving",
-      },
-      {
-        text: "Non-Disclosure Agreement",
-      },
+        {
+            text: "Upto 60% Cost Saving",
+        },
+        {
+            text: "Non-Disclosure Agreement",
+        },
     ],
     [
-      {
-        text: "Non-Disclosure Agreement",
-      },
-      {
-        text: "Upto 2X less time",
-      },
+        {
+            text: "Non-Disclosure Agreement",
+        },
+        {
+            text: "Upto 2X less time",
+        },
     ],
-  ];
+];
 
 const items = [
     {
@@ -51,6 +55,18 @@ const items = [
 ];
 
 const HireWant = (props) => {
+
+    const mblSlider = {
+        dots: true,
+        arrows: false,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
+
     return (
         <>
             <section className={`${styles.wants}`}>
@@ -68,7 +84,7 @@ const HireWant = (props) => {
                                 ))}
                                 <Row>
                                     {contentArray.map((columns, rowIndex) => (
-                                        <Col lg={6} key={rowIndex}>
+                                        <Col md={6} key={rowIndex}>
                                             <ul>
                                                 {columns.map((item, itemIndex) => (
                                                     <li key={itemIndex}>
@@ -83,7 +99,7 @@ const HireWant = (props) => {
                             </div>
                         </Col>
                         <Col lg={7}>
-                            <Row className='gy-4'>
+                            <Row className='gy-4 mt-4 mt-lg-0 d-none d-md-flex'>
                                 {items.map((item, index) => (
                                     <Col lg={6} key={index}>
                                         <div className={styles.wantBox}>
@@ -110,6 +126,37 @@ const HireWant = (props) => {
                                         </div>
                                     </Col>
                                 ))}
+                            </Row>
+                            {/*========= For Mobile =========*/}
+                            <Row className='gy-4 mt-4 mt-lg-0 d-block d-md-none'>
+                                <Slider {...mblSlider} className={`mblSlider ${styles.mblSlider}`}>
+                                    {items.map((item, index) => (
+                                        <Col lg={6} key={index}>
+                                            <div className={styles.wantBox}>
+                                                <h3>{item.title}</h3>
+                                                <p>{item.description}</p>
+                                                <div className={styles.timing}>
+                                                    <div className={styles.timeBox}>
+                                                        <h5>Working Hours:</h5>
+                                                        <p>{item.workingHours}</p>
+                                                    </div>
+                                                    <div className={styles.timeBox}>
+                                                        <h5>Communication:</h5>
+                                                        <p>Skype, Email, Phone</p>
+                                                    </div>
+                                                    <div className={styles.timeBox}>
+                                                        <h5>Billing:</h5>
+                                                        <p>Monthly</p>
+                                                    </div>
+                                                </div>
+                                                <Link href="#">
+                                                    <span>Hire Now</span>
+                                                    <Image src={arrow} alt="bitswits" className="img-fluid" />
+                                                </Link>
+                                            </div>
+                                        </Col>
+                                    ))}
+                                </Slider>
                             </Row>
                         </Col>
                     </Row>

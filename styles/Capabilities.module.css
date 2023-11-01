@@ -672,12 +672,13 @@
     background-color: black;
     padding-top: 50px;
   }
+
+  .solved {
+    margin-bottom: 0%;
+    margin-top: 0%;
+  }
 }
 @media screen and (max-width: 480px) {
-  .solved {
-    margin-bottom: 10%;
-  }
-
   .build h2 {
     margin-bottom: 6%;
   }

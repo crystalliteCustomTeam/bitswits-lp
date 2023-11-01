@@ -3,9 +3,11 @@
   --white: #fff;
   --primary: #f32f53;
   --mry: #f32f53;
-  --gradient: linear-gradient(90deg,
-      rgba(116, 25, 227, 0.5) 0%,
-      rgba(243, 47, 92, 0.5) 100%);
+  --gradient: linear-gradient(
+    90deg,
+    rgba(116, 25, 227, 0.5) 0%,
+    rgba(243, 47, 92, 0.5) 100%
+  );
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
@@ -957,6 +959,20 @@ a {
 
 /* =============Other Sliders============== */
 
+.tabs .form-select{
+  background-size: 30px;
+}
+
+.mblSlider .slick-dots li.slick-active button:before {
+  color: unset;
+  opacity: 1;
+}
+
+.mblSlider .slick-dots {
+  bottom: -40px;
+  width: 94%;
+}
+
 .contactSlider .slick-slide img {
   margin: 0 auto;
   width: 90%;
@@ -1458,9 +1474,8 @@ input::-webkit-inner-spin-button {
   width: 100%;
 } */
 
-
 .newfoldlp .slick-dots li button:before {
-  font-family: 'slick';
+  font-family: "slick";
   font-size: 15px;
   line-height: 20px;
   position: absolute;
@@ -1469,7 +1484,7 @@ input::-webkit-inner-spin-button {
   right: 0;
   width: 20px;
   height: 20px;
-  content: '•';
+  content: "•";
   text-align: center;
   opacity: 1;
   color: #292929;
@@ -1478,7 +1493,7 @@ input::-webkit-inner-spin-button {
 }
 
 .newfoldlp .slick-dots li.slick-active button:before {
-  color: #F32F53;
+  color: #f32f53;
 }
 
 .newfoldlp .slick-dots {
@@ -2447,12 +2462,12 @@ button {
 .touch {
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
-.touch h3{
-  color: #FF3067!important;
-  font-size: 20px!important;
+.touch h3 {
+  color: #ff3067 !important;
+  font-size: 20px !important;
 }
-.touch p{
-  color: #7A719B!important;
+.touch p {
+  color: #7a719b !important;
 }
 
 /* .newfaqsgloble .touch {
@@ -2703,16 +2718,16 @@ button {
   background: var(--dark);
   color: var(--primary);
 }
-.clintSlider1 .slick-arrow{
+.clintSlider1 .slick-arrow {
   width: 50px;
   height: 50px;
   margin-top: 37%;
 }
-.clintSlider1 .slick-arrow.slick-prev{
+.clintSlider1 .slick-arrow.slick-prev {
   left: -100px;
 }
 
-.clintSlider1 .slick-arrow.slick-next{
+.clintSlider1 .slick-arrow.slick-next {
   right: -100px;
 }
 

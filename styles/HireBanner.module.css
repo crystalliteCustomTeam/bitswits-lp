@@ -27,12 +27,14 @@
   background: linear-gradient(to right, #4a78ef 0%, #eb335b 65%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
 }
 
 .banSec p {
   font-size: 16px;
   color: #fff;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .btns {
@@ -40,6 +42,7 @@
   justify-content: center;
   gap: 20px;
   margin-bottom: 50px;
+  width: 100%;
 }
 
 .btn {
@@ -95,4 +98,18 @@
     padding: 50px 0 0px;
     background-image: none;
   }
+
+  .banSec h1 {
+    font-size: 45px;
+  }
 }
+
+@media screen and (max-width: 767px) {
+
+  .banSec h1 {
+    font-size: 30px;
+  }
+
+
+}
+
