@@ -13,7 +13,7 @@ const Formnewlpnewhome = () => {
 
     return (
         <>
-            <section className={styles.team}>
+            <section className={styles.team} id='lastform'>
                 <Container>
                     <Row className='align-items-center'>
                         <Col xl={6}>

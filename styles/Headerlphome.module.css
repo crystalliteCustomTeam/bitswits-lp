@@ -196,12 +196,35 @@
   right: -15px;
 
 }
-
+.newpond li img {
+  width: 15px;
+  height: 15px;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+}
 .newpond{
-  position: absolute;
+  position: fixed;
+  margin: 0;
+  z-index: 99;
 }
 
 .newpond li {
   margin-bottom: -6px;
-  margin-top: 149%;
+  margin-top: 59%;
+  cursor: pointer;
+  z-index: 1;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #3a3a3a;
+}
+
+.bannerhome .new{
+  background-color: #FF3067;
+  border: 1px solid #FF3067;
 }

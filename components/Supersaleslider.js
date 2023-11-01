@@ -6,9 +6,9 @@ import { Container, Row, Col } from 'react-bootstrap'
 import badgelogo from '../public/images/sliderimages/s5.svg'
 import { useEffect } from 'react';
 import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import $ from 'jquery';
+// import 'slick-carousel/slick/slick.css';
+// import 'slick-carousel/slick/slick-theme.css';
+// import $ from 'jquery';
 
 
 

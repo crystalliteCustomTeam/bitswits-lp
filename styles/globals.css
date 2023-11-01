@@ -305,9 +305,9 @@ div {
   -webkit-text-fill-color: transparent;
 }
 
-.newbird .slick-slide{
+/* .newbird .slick-slide{
   width: 240px!important;
-}
+} */
 
 .grdiant2 {
   background: linear-gradient(to right, #4a78ef 0%, #eb335b 65%);
@@ -1103,6 +1103,57 @@ input::-webkit-inner-spin-button {
 .proclass div {
   margin-bottom: 0.5%;
 }
+
+
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide-active {
+  z-index: 1;
+}
+.swiper-slide-active .card {
+  transform: scale(1.2);
+}
+
+
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-button-next:focus,
+.swiper-button-prev:focus {
+  outline: none;
+}
+.card.testimonialscard {
+  background-color: unset;
+  border: unset;
+}
+
+.swiper-horizontal {
+  touch-action: unset;
+  padding-top: 5%!important;
+  padding-bottom: 5%!important;
+}
+.lt0 {
+  width: 125px!important;
+  margin-top: 15%;
+}
+.lt1 {
+  width: 155px!important;
+  margin-top: 10%;
+}
+
 
 /* ===============About Us Slider================ */
 

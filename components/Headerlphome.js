@@ -28,13 +28,17 @@ import new5 from '../public/images/lpheader/new5.png'
 const Headerlphome = () => {
 
 
+    const [show, setShow] = useState('tab1');
 
+    function fun1(tab){
+        setShow(tab);
+    }
 
 
     return (
         <>
 
-            <header class={styles.bannerhome}>
+            <header class={styles.bannerhome} id='home'>
                 <section>
                     <div class="container">
                         <div class={styles.positionrelative}>
@@ -65,11 +69,11 @@ const Headerlphome = () => {
                         <Image src={logo22} className='img-fluid mt-2' />
 
                         <ul className={styles.newpond}>
-                            <li><Image src={new1} /></li>
-                            <li><Image src={new2} /></li>
-                            <li><Image src={new3} /></li>
-                            <li><Image src={new4} /></li>
-                            <li><Image src={new5} /></li>
+                           <a href='#home' > <li className={show == 'tab1' ? styles.new : ''} onClick={() => fun1('tab1')}><Image src={new1} /></li> </a>
+                           <a href='#technofair' > <li className={show == 'tab2' ? styles.new : ''} onClick={() => fun1('tab2')}><Image src={new2} /></li> </a>
+                           <a href='#third' > <li className={show == 'tab3' ? styles.new : ''} onClick={() => fun1('tab3')}><Image src={new3} /></li> </a>
+                           <a href='#testihook' > <li className={show == 'tab4' ? styles.new : ''} onClick={() => fun1('tab4')}><Image src={new4} /></li> </a>
+                           <a href='#lastform' ><li className={show == 'tab5' ? styles.new : ''} onClick={() => fun1('tab5')}><Image src={new5} /></li> </a>
                         </ul>
                     </div>
 
