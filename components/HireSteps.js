@@ -6,35 +6,6 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-//
-import step1 from '../public/images/hire-page/hireicon1.png'
-import step2 from '../public/images/hire-page/hireicon2.png'
-import step3 from '../public/images/hire-page/hireicon3.png'
-import step4 from '../public/images/hire-page/hireicon4.png'
-
-
-const stepsArray = [
-    {
-        step: "Step 01",
-        imageSrc: step1,
-        description: "Send us a request",
-    },
-    {
-        step: "Step 02",
-        imageSrc: step2,
-        description: "Select the resume that fits for you",
-    },
-    {
-        step: "Step 03",
-        imageSrc: step3,
-        description: "Take interview session of selected geeks",
-    },
-    {
-        step: "Step 04",
-        imageSrc: step4,
-        description: "Start the rollercoaster of your project",
-    },
-];
 
 
 const HireSteps = (props) => {
@@ -68,7 +39,7 @@ const HireSteps = (props) => {
                                 ))}
                             </div>
                         </Col>
-                        {stepsArray.map((stepItem, index) => (
+                        {props.stepsArray.map((stepItem, index) => (
                             <Col lg={3} md={6} key={index}>
                                 <div className={styles.stepBox}>
                                     <h5>{stepItem.step}</h5>
@@ -93,7 +64,7 @@ const HireSteps = (props) => {
                             </div>
                         </Col>
                         <Slider {...mblSlider} className={`mblSlider ${styles.mblSlider}`}>
-                            {stepsArray.map((stepItem, index) => (
+                            {props.stepsArray.map((stepItem, index) => (
                                 <Col lg={3} md={6} key={index}>
                                     <div className={styles.stepBox}>
                                         <h5>{stepItem.step}</h5>

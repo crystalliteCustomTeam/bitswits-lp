@@ -12,48 +12,6 @@ import tick from '../public/images/hire-page/tick.png'
 import arrow from '../public/images/hire-page/arrow.png'
 
 
-const contentArray = [
-    [
-        {
-            text: "Upto 60% Cost Saving",
-        },
-        {
-            text: "Non-Disclosure Agreement",
-        },
-    ],
-    [
-        {
-            text: "Non-Disclosure Agreement",
-        },
-        {
-            text: "Upto 2X less time",
-        },
-    ],
-];
-
-const items = [
-    {
-        title: "Full-Time Hiring",
-        description: "Works only for you.",
-        workingHours: "8 hours/day, 5 days/week",
-    },
-    {
-        title: "Part-Time Hiring",
-        description: "Prefer better half for your business.",
-        workingHours: "4 hours/day, 5 days/week",
-    },
-    {
-        title: "Hourly Hiring",
-        description: "Need a few hours of attention to the work.",
-        workingHours: "5 days/week",
-    },
-    {
-        title: "Contractual Hiring",
-        description: "Agree on your condition when needed.",
-        workingHours: "8 hours/day, 5 days/week",
-    }
-];
-
 const HireWant = (props) => {
 
     const mblSlider = {
@@ -83,7 +41,7 @@ const HireWant = (props) => {
                                     </div>
                                 ))}
                                 <Row>
-                                    {contentArray.map((columns, rowIndex) => (
+                                    {props.contentArray.map((columns, rowIndex) => (
                                         <Col md={6} key={rowIndex}>
                                             <ul>
                                                 {columns.map((item, itemIndex) => (
@@ -100,7 +58,7 @@ const HireWant = (props) => {
                         </Col>
                         <Col lg={7}>
                             <Row className='gy-4 mt-4 mt-lg-0 d-none d-md-flex'>
-                                {items.map((item, index) => (
+                                {props.items.map((item, index) => (
                                     <Col lg={6} key={index}>
                                         <div className={styles.wantBox}>
                                             <h3>{item.title}</h3>
@@ -130,7 +88,7 @@ const HireWant = (props) => {
                             {/*========= For Mobile =========*/}
                             <Row className='gy-4 mt-4 mt-lg-0 d-block d-md-none'>
                                 <Slider {...mblSlider} className={`mblSlider ${styles.mblSlider}`}>
-                                    {items.map((item, index) => (
+                                    {props.items.map((item, index) => (
                                         <Col lg={6} key={index}>
                                             <div className={styles.wantBox}>
                                                 <h3>{item.title}</h3>
