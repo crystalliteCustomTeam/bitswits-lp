@@ -42,8 +42,8 @@ const Headerlphome = () => {
                 <section>
                     <div class="container">
                         <div class={styles.positionrelative}>
-                            <div class={styles.toasNotification}>
-                                <div class={styles.innerborder}>
+                            <div class={styles.toasNotification} data-scroll data-scroll-speed="0.1">
+                                <div class={styles.innerborder} >
                                     <div class="text-uppercase font-12 me-3" id="toasNotification1">
                                         <Link href="jjavascript:;" class="text-white font-18" id="closeBtn"> x
                                         </Link>
@@ -56,7 +56,7 @@ const Headerlphome = () => {
                                 </div>
                             </div>
 
-                            <div class="toasNotificationGoogle">
+                            <div class="toasNotificationGoogle" data-scroll data-scroll-speed="0.1">
                                 <div class="innerborder">
                                     <div class="text-uppercase font-12 me-3">
                                         <Link href="javascript:;" class="text-white font-18" data-bs-toggle="modal" data-bs-target="#ourWebModal">
@@ -77,7 +77,7 @@ const Headerlphome = () => {
                         </ul>
                     </div>
 
-                    <div class="container">
+                    <div class="container" >
                         <div class={styles.backImgmain}>
 
                             <div class={` ${styles.xolpost} row justify-content-center align-content-center align-items-center`}>
@@ -85,10 +85,10 @@ const Headerlphome = () => {
                                     <div class="header-content position-relative">
                                         <div class="text-center">
 
-                                            <h4 class="font-25 font-bold color-p">Elevate Your Mobile App
+                                            <h4 class="font-25 font-bold color-p" data-scroll data-scroll-speed="0.3">Elevate Your Mobile App
                                                 Experience With
                                             </h4>
-                                            <h1 class="font-60 font-bold text-gradient gradient1">Top Mobile App Development
+                                            <h1 class="font-60 font-bold text-gradient gradient1" data-scroll data-scroll-speed="0.3">Top Mobile App Development
                                             </h1>
                                             <p class=""> Let us help you bring your vision to life and take your
                                                 business to

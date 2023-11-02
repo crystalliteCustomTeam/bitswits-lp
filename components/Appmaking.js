@@ -32,7 +32,7 @@ const Appmaking = () => {
                             <p class="white font16 f-400 center mb-5">Bitswits turns inventive ideas into groundbreaking mobile apps! Our award-winning app developers know hybrid and native technologies, so your project is in good hands. With us, your project will be a success from start to finish!</p>
                         </Col>
                         <Col xl={5}>
-                            <div class={styles.native}>
+                            <div class={styles.native} data-scroll data-scroll-speed="0.4">
                                 <div class={styles.noroow}>
                                     <Image src={logo1} className='img-fluid' />
                                     <Image src={logo2} className='img-fluid' />
@@ -56,7 +56,7 @@ const Appmaking = () => {
                             </div>
                         </Col>
                         <Col xl={5}>
-                            <div class={styles.native2}>
+                            <div class={styles.native2} data-scroll data-scroll-speed="0.4">
                                 <div class={`${styles.noroow2} ${styles.noroow1}`}>
                                     <Image src={logo5} className='img-fluid' />
                                     <Image src={logo6} className='img-fluid' />
