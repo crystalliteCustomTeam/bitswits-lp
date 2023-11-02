@@ -70,29 +70,36 @@ const Homeslider = () => {
     const slides = [
         {
             avatar: 'images/logoservices/1.svg',
+            
         },
         {
             avatar: 'images/logoservices/2.svg',
+
 
         },
         {
             avatar: 'images/logoservices/3.svg',
 
+
         },
         {
             avatar: 'images/logoservices/4.svg',
+
 
         },
         {
             avatar: 'images/logoservices/5.svg',
 
+
         },
         {
             avatar: 'images/logoservices/6.svg',
 
+
         },
         {
             avatar: 'images/logoservices/7.svg',
+
 
         },
     ];
@@ -191,7 +198,7 @@ const Homeslider = () => {
                         {slides.map((testimonial, index) => (
                             <SwiperSlide key={index}>
                                 <div className="card testimonialscard">
-                                    <img className="" src={testimonial.avatar} alt={testimonial.name} />
+                                    <img data-scroll data-scroll-speed="0.4" src={testimonial.avatar} alt={testimonial.name} />
                                 </div>
                             </SwiperSlide>
                         ))}
