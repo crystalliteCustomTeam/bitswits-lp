@@ -8,9 +8,6 @@ import HireWant from '@/components/HireWant';
 import HireSteps from '@/components/HireSteps';
 import HireBenifits from '@/components/HireBenifits';
 import HireChoose from '@/components/HireChoose';
-import NewHomeGlobal from '@/components/NewHomeGlobal';
-import Capabilities from '@/components/Capabilities';
-import NewHomeSlider from '@/components/NewHomeSlider';
 import Technologieswe from '@/components/Technologieswe';
 import Homenextproject from '@/components/Homenextproject';
 import Faqs from '@/components/NewhomeFaqs';
@@ -356,9 +353,6 @@ export default function AndroidDeveloper() {
                 }
             />
 
-            <NewHomeGlobal />
-            <Capabilities />
-            <NewHomeSlider />
             <Technologieswe />
             <Homenextproject />
             <Faqs />

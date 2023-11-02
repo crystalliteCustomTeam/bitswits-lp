@@ -55,6 +55,11 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/music-app-development-case-study'
     || router.pathname == '/handyman-on-demand-app-development-case-study'
     || router.pathname == '/food-delivery-app-development-case-study'
+    || router.pathname == '/ios-developer'
+    || router.pathname == '/android-developer'
+    || router.pathname == '/hybrid-developer'
+    || router.pathname == '/native-developer'
+    || router.pathname == '/mobile-developer'
 
 
   const newlps = router.pathname == '/mobile-app-development-company-lp'

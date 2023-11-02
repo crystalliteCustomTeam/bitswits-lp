@@ -91,7 +91,6 @@
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 2px;
-  border: 2px solid #fff;
   text-transform: uppercase;
   transition: all 0.5s ease-in-out;
   font-family: "Montserrat", sans-serif;
@@ -163,6 +162,10 @@
   .benifitsOpt select option {
     font-size: 14px;
   }
+
+  .benifTxt{
+    padding: 0 5px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -198,10 +201,6 @@
   .benifitsOpt{
     width: 98%;
     margin: 0 auto;
-  }
-
-  .benifTxt{
-    padding: 0 5px;
   }
 
   .tabs{

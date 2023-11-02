@@ -1,6 +1,6 @@
 .choose {
-  padding: 100px 0;
   background: #000;
+  padding: 100px 0 150px;
 }
 
 .choose h2 {
@@ -83,6 +83,7 @@
     top: 0%;
     left: 0%;
   }
+  
 }
 
 @media screen and (max-width: 767px) {

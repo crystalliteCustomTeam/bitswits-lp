@@ -8,7 +8,7 @@ import AboutImage from "@/public/newHomePageImages/about_image.png"
 import comma from "@/public/newHomePageImages/comma.png"
 import { useState } from 'react';
 
-const NewHomeAbout = () => {
+const NewHomeAbout = (props) => {
 
 
 
@@ -30,7 +30,7 @@ const NewHomeAbout = () => {
     return (
         <>
 
-            <section className={styles.newHomeBg}>
+            <section className={`${styles.newHomeBg} ${styles[props.addClass]}`}>
 
                 <Container>
 

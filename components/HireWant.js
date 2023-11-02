@@ -57,7 +57,7 @@ const HireWant = (props) => {
                             </div>
                         </Col>
                         <Col lg={7}>
-                            <Row className='gy-4 mt-4 mt-lg-0 d-none d-md-flex'>
+                            <Row className='gy-4 mt-4 mt-lg-0 d-none d-lg-flex'>
                                 {props.items.map((item, index) => (
                                     <Col lg={6} key={index}>
                                         <div className={styles.wantBox}>
@@ -86,7 +86,7 @@ const HireWant = (props) => {
                                 ))}
                             </Row>
                             {/*========= For Mobile =========*/}
-                            <Row className='gy-4 mt-4 mt-lg-0 d-block d-md-none'>
+                            <Row className='gy-4 mt-4 mt-lg-0 d-block d-lg-none'>
                                 <Slider {...mblSlider} className={`mblSlider ${styles.mblSlider}`}>
                                     {props.items.map((item, index) => (
                                         <Col lg={6} key={index}>
