@@ -55,7 +55,7 @@ export default function MobileDeveloper() {
             />
             <HireServices />
             <HireBenifitsMbl />
-            <HireTiming  />
+            <HireTiming />
             <Technologieswe />
             <Homenextproject />
             <Faqs />
