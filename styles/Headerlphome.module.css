@@ -35,6 +35,11 @@
   font-size: 11px;
 }
 
+.piza input:focus, .piza textarea:focus{
+  background-color: transparent;
+  color: white;
+}
+
 .piza textarea {
   height: 50px;
   border: 1px solid #F32F53;

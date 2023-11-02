@@ -23,6 +23,11 @@
   margin-top: 2%;
 }
 
+.jis a:hover{
+  background-color: #F32F53;
+  color: white;
+}
+
 .nomad::after {
 
   position: absolute;
