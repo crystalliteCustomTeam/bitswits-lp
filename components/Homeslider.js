@@ -32,7 +32,7 @@ const Homeslider = () => {
 
 
 
-      
+
 
         const handleResize = () => {
             const isMobileView = window.innerWidth < 768; // Adjust the breakpoint as needed
@@ -62,7 +62,7 @@ const Homeslider = () => {
 
         const Cursor8 = document.querySelector('.swiper-slide[data-swiper-slide-index="6"]');
         Cursor8.classList.add('gt6');
-       
+
         return () => {
             window.removeEventListener("resize", handleResize);
         };
@@ -70,7 +70,7 @@ const Homeslider = () => {
     const slides = [
         {
             avatar: 'images/logoservices/1.svg',
-            
+
         },
         {
             avatar: 'images/logoservices/2.svg',
