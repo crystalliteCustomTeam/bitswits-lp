@@ -10,6 +10,7 @@ import Footernewdesign from '@/components/Footernewdesign';
 import Script from 'next/script';
 import Head from 'next/head';
 import Headerlphome from '@/components/Headerlphome';
+import EcommerceBanner from '@/components/EcommerceBanner';
 
 
 export default function App({ Component, pageProps }) {
@@ -60,28 +61,31 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/hybrid-developer'
     || router.pathname == '/native-developer'
     || router.pathname == '/mobile-developer'
+    || router.pathname == '/indexnew'
+    || router.pathname == '/top-ecommerce-app-development-company'
+
 
 
   const newlps = router.pathname == '/mobile-app-development-company-lp'
     || router.pathname == '/mobile-app-development-company-lp2'
 
   const newhomepage = router.pathname == '/indexnew';
+  const newecommercepage = router.pathname == '/top-ecommerce-app-development-company';
 
 
   return (
     <>
 
       {newlps ?
-
         <Headerlp />
-
         :
-
         newhomepage ?
-
           <Headerlphome />
           :
-          <Header />
+          newecommercepage ?
+            <EcommerceBanner />
+            :
+            <Header />
       }
 
 

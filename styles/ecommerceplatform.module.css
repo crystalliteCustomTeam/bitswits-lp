@@ -1,0 +1,90 @@
+.ecommerceSec {
+    padding: 90px 0;
+}
+
+
+.shopify {
+    background-image: url(../public/ecommerce/shopify-bg.webp);
+}
+
+.magento {
+    background-image: url(../public/ecommerce/magento-bg.webp);
+}
+
+.WooCommerce {
+    background-image: url(../public/ecommerce/woocommerce-bg.webp);
+}
+
+.OpenCart {
+    background-image: url(../public/ecommerce/opencart-bg.webp);
+}
+
+.XCart {
+    background-image: url(../public/ecommerce/xcart-bg.webp);
+}
+
+.BigCommerce {
+    background-image: url(../public/ecommerce/bigcommerce-bg.webp);
+}
+
+.expendCard {
+    position: relative;
+    overflow: hidden;
+    margin-right: 0.5rem;
+    flex-grow: 1;
+    width: 0;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    padding: 2rem 0.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.expendCard p {
+    max-width: 330px;
+}
+
+.expendCard:hover {
+    flex-grow: 3;
+}
+
+.expendCard a:first-child {
+    background-color: var(--w-color);
+    color: var(--b-color);
+    border: inherit;
+    border-radius: 5px;
+}
+
+.expendCard a:last-child {
+    background-color: var(--b-color);
+    color: var(--w-color);
+    border: inherit;
+    border-radius: 5px;
+}
+
+.expendCard a:first-child,
+.expendCard a:last-child {
+    width: max-content;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    padding: 0 0.7rem;
+    white-space: nowrap;
+    display: block;
+    font-size: 14px;
+}
+
+.btns {
+    opacity: 0;
+    transition: ease-in-out 0.4s;
+}
+
+.expendCard:hover .btns {
+    transition: ease-in-out 0.4s;
+    opacity: 1;
+}
