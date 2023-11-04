@@ -25,36 +25,37 @@
 
 .piza input {
   height: 50px;
-  border: 1px solid #F32F53;
+  border: 1px solid #f32f53;
   background-color: unset;
   border-radius: 50px;
   color: white;
 }
-.piza input::placeholder{
+.piza input::placeholder {
   color: white;
   font-size: 11px;
 }
 
-.piza input:focus, .piza textarea:focus{
+.piza input:focus,
+.piza textarea:focus {
   background-color: transparent;
   color: white;
 }
 
 .piza textarea {
   height: 50px;
-  border: 1px solid #F32F53;
+  border: 1px solid #f32f53;
   background-color: unset;
   border-radius: 50px;
   color: white;
   padding-top: 16px;
 }
-.piza textarea::placeholder{
+.piza textarea::placeholder {
   color: white;
   font-size: 11px;
 }
 
-.piza button{
-  background-color: #F52674;
+.piza button {
+  background-color: #f52674;
   width: 100%;
   height: 80%;
   border: unset;
@@ -63,13 +64,11 @@
   font-weight: 500;
   display: block;
   font-size: 13px;
-
 }
 
-.newtown h2{
+.newtown h2 {
   font-size: 39px;
   color: white;
-
 }
 
 .newtown {
@@ -78,10 +77,10 @@
   padding: 4%;
   background-color: #0000002e;
 }
-.trustedsocial h3{
+.trustedsocial h3 {
   font-size: 14px;
 }
-.trustedsocial{
+.trustedsocial {
   display: flex;
   background-color: white;
   width: -moz-fit-content;
@@ -92,24 +91,23 @@
   align-items: center;
   gap: 30px;
   height: 50px;
-
 }
 
-.icons{
+.icons {
   display: flex;
   gap: 15px;
 }
 
-.icons img{
+.icons img {
   width: 20px;
   height: auto;
   object-fit: contain;
 }
-.star img{
+.star img {
   width: 70px;
 }
 
-.textcenter{
+.textcenter {
   text-align: center;
   display: block;
   margin: 0 auto;
@@ -119,24 +117,24 @@
 
 .toasNotification {
   position: absolute;
-  background-color: #F52674;
+  background-color: #f52674;
   border-radius: 50px;
   padding: 4px;
   left: 5%;
   color: #fff;
 }
 
-.positionrelative{
+.positionrelative {
   position: relative;
   display: flex;
   justify-content: flex-end;
 }
 
-.package{
+.package {
   font-size: 10px;
 }
 
-.ToastOpen{
+.ToastOpen {
   background-color: white;
   width: 100px;
   height: 37px;
@@ -148,58 +146,56 @@
   font-weight: 600;
 }
 
-.innerborder{
-  background-color: #B80045;
+.innerborder {
+  background-color: #b80045;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 4px;
   border-radius: 50px;
   padding: 3px;
-  border: 1px solid #EDC0D1;
+  border: 1px solid #edc0d1;
 }
-.package{
+.package {
   padding-left: 10px;
 }
 
-.innerborder a{
+.innerborder a {
   padding-left: 10px;
   text-transform: capitalize;
 }
 
-.innerborder span{
+.innerborder span {
   font-size: 10px;
 }
 
-.textth{
-  color: #FBC725;
+.textth {
+  color: #fbc725;
 }
 
-.trust h3{
+.trust h3 {
   position: relative;
 }
-.trust h3::after{
+.trust h3::after {
   position: absolute;
-  content: '';
-  background-color: #BEC4DA;
+  content: "";
+  background-color: #bec4da;
   width: 2px;
   height: 33px;
   margin-left: 14%;
   top: -9px;
-
 }
-.icons{
+.icons {
   position: relative;
 }
-.icons::after{
+.icons::after {
   position: absolute;
-  content: '';
-  background-color: #BEC4DA;
+  content: "";
+  background-color: #bec4da;
   width: 2px;
   height: 33px;
   top: -6px;
   right: -15px;
-
 }
 .newpond li img {
   width: 15px;
@@ -208,10 +204,11 @@
   display: block;
   cursor: pointer;
 }
-.newpond{
+.newpond {
   position: fixed;
   margin: 0;
   z-index: 99;
+  left: 0;
 }
 
 .newpond li {
@@ -229,7 +226,7 @@
   border: 1px solid #3a3a3a;
 }
 
-.bannerhome .new{
-  background-color: #FF3067;
-  border: 1px solid #FF3067;
+.bannerhome .new {
+  background-color: #ff3067;
+  border: 1px solid #ff3067;
 }
