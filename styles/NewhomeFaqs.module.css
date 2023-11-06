@@ -96,7 +96,7 @@
 
 /* =================Media Queries=================== */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .faqs {
     padding: 50px 0;
   }

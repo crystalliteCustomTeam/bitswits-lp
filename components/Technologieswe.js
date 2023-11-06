@@ -1,8 +1,9 @@
 import React from 'react'
-import styles from '@/styles/Technologieswe.module.css'
-import { Container, Row, Col } from 'react-bootstrap'
-import { useState } from 'react'
 import Image from 'next/image'
+import { useState } from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/Technologieswe.module.css'
+//
 import icon1 from '../public/newHomePageImages/tech/1.png'
 import icon2 from '../public/newHomePageImages/tech/2.png'
 import icon3 from '../public/newHomePageImages/tech/3.png'
@@ -11,31 +12,29 @@ import icon5 from '../public/newHomePageImages/tech/5.png'
 import icon6 from '../public/newHomePageImages/tech/6.png'
 import icon7 from '../public/newHomePageImages/tech/7.png'
 import icon8 from '../public/newHomePageImages/tech/8.png'
-
+//
 import frontend1 from '../public/newHomePageImages/tech/frontend/1.png'
 import frontend2 from '../public/newHomePageImages/tech/frontend/2.png'
 import frontend3 from '../public/newHomePageImages/tech/frontend/3.png'
 import frontend4 from '../public/newHomePageImages/tech/frontend/4.png'
 import frontend5 from '../public/newHomePageImages/tech/frontend/5.png'
 import frontend6 from '../public/newHomePageImages/tech/frontend/6.png'
-
+//
 import database1 from '../public/newHomePageImages/tech/database/1.png'
 import database2 from '../public/newHomePageImages/tech/database/2.png'
 import database3 from '../public/newHomePageImages/tech/database/3.png'
 import database4 from '../public/newHomePageImages/tech/database/4.png'
 import database5 from '../public/newHomePageImages/tech/database/5.png'
 import database6 from '../public/newHomePageImages/tech/database/6.png'
-
-
+//
 import php1 from '../public/newHomePageImages/tech/php/1.png'
 import php2 from '../public/newHomePageImages/tech/php/2.png'
 import php3 from '../public/newHomePageImages/tech/php/3.png'
-
+//
 import cms1 from '../public/newHomePageImages/tech/cms/1.png'
 import cms2 from '../public/newHomePageImages/tech/cms/2.png'
 import cms3 from '../public/newHomePageImages/tech/cms/3.png'
-
-
+//
 import dev1 from '../public/newHomePageImages/tech/dev/1.png'
 import dev2 from '../public/newHomePageImages/tech/dev/2.png'
 import dev3 from '../public/newHomePageImages/tech/dev/3.png'
@@ -63,7 +62,7 @@ const Technologieswe = () => {
                         <Col xl={12}>
                             <h2 className={styles.work}><span className='grdiant'>Technologies </span>We Work With</h2>
                         </Col>
-                        <Col xl={12} className='mb-5'>
+                        <Col xl={12} className='mb-5 d-none d-lg-block'>
                             <div className={styles.analpost}>
                                 <div className={activeTab1 == 'tab1' ? styles.active : ''} onClick={() => fun1('tab1')} href="#">Mobile</div>
                                 <div className={activeTab1 == 'tab2' ? styles.active : ''} onClick={() => fun1('tab2')} href="#">Front-End</div>
@@ -72,17 +71,24 @@ const Technologieswe = () => {
                                 <div className={activeTab1 == 'tab5' ? styles.active : ''} onClick={() => fun1('tab5')} href="#">CMS</div>
                                 <div className={activeTab1 == 'tab6' ? styles.active : ''} onClick={() => fun1('tab6')} href="#">Infra and DevOps</div>
                             </div>
-
                         </Col>
 
+                        <Col xl={12} className='mb-5 d-block d-lg-none'>
+                            <div className={styles.analpost}>
+                                <select onChange={(e) => setActiveTab1(e.target.value)}>
+                                    <option className={styles.selOpt} value="tab1">Mobile</option>
+                                    <option className={styles.selOpt} value="tab2">Front-End</option>
+                                    <option className={styles.selOpt} value="tab3">Database</option>
+                                    <option className={styles.selOpt} value="tab4">Back-End</option>
+                                    <option className={styles.selOpt} value="tab5">CMS</option>
+                                    <option className={styles.selOpt} value="tab6">Infra and DevOps</option>
+                                </select>
+                            </div>
+                        </Col>
 
                         <Col xl={12}>
-
                             {activeTab1 == 'tab1' &&
-
-
                                 <div className={styles.newyork}>
-
                                     <div>
                                         <Image quality={75} src={icon1} className='img-fluid' />
                                         <p>iOS</p>
@@ -116,20 +122,11 @@ const Technologieswe = () => {
                                         <Image quality={75} src={icon8} className='img-fluid' />
                                         <p>Objective C</p>
                                     </div>
-
-
                                 </div>
-
-
                             }
 
-
-
                             {activeTab1 == 'tab2' &&
-
-
                                 <div className={styles.newyork}>
-
                                     <div>
                                         <Image quality={75} src={frontend1} className='img-fluid' />
                                         <p>Angular JS</p>
@@ -147,7 +144,7 @@ const Technologieswe = () => {
                                         <p>Vue</p>
                                     </div>
                                     <div>
-                                        <Image quality={75} src={frontend5} className='img-fluid' />
+                                        <Image quality={75} src={frontend5} className='img-fluid w-75' />
                                         <p>WPF</p>
                                     </div>
 
@@ -155,17 +152,11 @@ const Technologieswe = () => {
                                         <Image quality={75} src={frontend6} className='img-fluid' />
                                         <p>HTML5</p>
                                     </div>
-                                 
-
-
                                 </div>
-
                             }
 
                             {activeTab1 == 'tab3' &&
-
                                 <div className={styles.newyork}>
-
                                     <div>
                                         <Image quality={75} src={database1} className='img-fluid' />
                                         <p>MongoDB</p>
@@ -191,19 +182,11 @@ const Technologieswe = () => {
                                         <Image quality={75} src={database6} className='img-fluid' />
                                         <p>Redis</p>
                                     </div>
-                                   
-
-
                                 </div>
-
                             }
 
-
                             {activeTab1 == 'tab4' &&
-
-
                                 <div className={styles.newyork}>
-
                                     <div>
                                         <Image quality={75} src={php1} className='img-fluid' />
                                         <p>PHP</p>
@@ -216,17 +199,11 @@ const Technologieswe = () => {
                                         <Image quality={75} src={php3} className='img-fluid' />
                                         <p>Node.JS</p>
                                     </div>
-                                   
-
-
                                 </div>
-
                             }
 
                             {activeTab1 == 'tab5' &&
-
                                 <div className={styles.newyork}>
-
                                     <div>
                                         <Image quality={75} src={cms1} className='img-fluid' />
                                         <p>WordPress</p>
@@ -239,17 +216,11 @@ const Technologieswe = () => {
                                         <Image quality={75} src={cms3} className='img-fluid' />
                                         <p>Shopify</p>
                                     </div>
-                                    
-
-
                                 </div>
-
                             }
 
                             {activeTab1 == 'tab6' &&
-
                                 <div className={styles.newyork}>
-
                                     <div>
                                         <Image quality={75} src={dev1} className='img-fluid' />
                                         <p>AWS</p>
@@ -287,25 +258,12 @@ const Technologieswe = () => {
                                         <Image quality={75} src={dev9} className='img-fluid' />
                                         <p>Linode</p>
                                     </div>
-
-
                                 </div>
-
                             }
-
-
                         </Col>
                     </Row>
-
-
                 </Container>
-
-
-
-
             </section>
-
-
         </>
     )
 }

@@ -2,7 +2,6 @@ import React from 'react'
 import styles from "@/styles/NewHomeAbout.module.css";
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
-import Link from 'next/link'
 //
 import AboutImage from "@/public/newHomePageImages/about_image.png"
 import comma from "@/public/newHomePageImages/comma.png"
@@ -36,11 +35,10 @@ const NewHomeAbout = (props) => {
 
                     <Row>
                         <Col lg={12} className={styles.hover1}>
-                            <h2 className='text-white f-40 font-bold text-center'>Our Client’s Feedback Has Been</h2>
+                            <h3 className='text-white f-40 font-bold text-center'>Our Client’s Feedback Has Been</h3>
                             <h2 className='grdiant f-60 font-bold text-center'>Nothing Short Of Amazing!</h2>
 
-
-                            < div className={` ${styles.client} sec_image text-center`}>
+                            <div className={` ${styles.client} sec_image text-center`}>
                                 <Image quality={75} src={AboutImage} alt='Banner' className={styles.secImage} />
 
 
@@ -202,9 +200,7 @@ const NewHomeAbout = (props) => {
                                     <h4>"The rider app has made my daily commute so much easier. Booking a ride has never been more efficient. Thank you, Bitswits!" <Image src={comma} className='img-fluid' /></h4>
                                     <h5 className='mt-4'>Diego V</h5>
                                 </div>
-
-
-                            </div >
+                            </div>
 
 
 
@@ -306,7 +302,7 @@ const NewHomeAbout = (props) => {
                     </Row>
 
                 </Container>
-            </section >
+            </section>
 
 
         </>

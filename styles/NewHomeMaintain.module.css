@@ -85,8 +85,6 @@
   gap: 40px;
 }
 
-
-
 .app6 {
   display: flex;
   flex-direction: column;
@@ -332,7 +330,7 @@
 
 @media screen and (max-width: 1200px) {
   .newHomeBg {
-    padding-bottom: 50px;
+    padding: 50px 0;
     background: #000;
     height: 100%;
   }
@@ -374,7 +372,6 @@
 }
 
 @media screen and (max-width: 991px) {
-
   .app1,
   .app {
     -webkit-mask: linear-gradient(#fff 0 0) padding-box,
@@ -477,10 +474,42 @@
   .power {
     padding-left: 0%;
   }
+
+  .app7 .appImage {
+    display: none;
+  }
+
+  .app3 {
+    background-size: cover;
+    padding: 30px 82px 9px 33px;
+  }
+
+  .app6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../public/newHomePage/images/maintain8_bg.png);
+  }
+
+  .app7 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../public/newHomePage/images/newMaintain9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-direction: inherit;
+    align-items: flex-end;
+  }
+
+  .app4 h3,
+  .app4 p,
+  .app5 h3,
+  .app5 p,
+  .app7 h3,
+  .app7 p {
+    text-align: left !important;
+  }
 }
 
 @media screen and (max-width: 480px) {
-
   .book,
   .about {
     font-size: 10px !important;
@@ -507,10 +536,6 @@
     border-radius: 15px;
   }
 
-  .app6 {
-    background-image: url(../public/newHomePage/images/maintain8_bg.png);
-  }
-
   .app1,
   .app,
   .app2 {
@@ -520,18 +545,6 @@
 
   .newHomeBg h1 {
     font-size: 30px;
-  }
-
-  .app7 .appImage {
-    display: none;
-  }
-
-  .app7 {
-    background-image: url(../public/newHomePage/images/newMaintain9.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    flex-direction: inherit;
   }
 
   .app3 {

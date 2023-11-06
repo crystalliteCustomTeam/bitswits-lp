@@ -1,13 +1,13 @@
 import React from 'react'
-import styles from '@/styles/Homenextproject.module.css'
-import { Container, Row, Col } from 'react-bootstrap'
-import Image from 'next/image'
 import Link from 'next/link'
+import Image from 'next/image'
+import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/Homenextproject.module.css'
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-import icon1 from '../public/newHomePageImages/tech/1.png'
+//
 import icon2 from '../public/newHomePageImages/nexticon/1.png'
 import icon3 from '../public/newHomePageImages/nexticon/2.png'
 import icon4 from '../public/newHomePageImages/nexticon/3.png'
@@ -15,8 +15,6 @@ import icon5 from '../public/newHomePageImages/nexticon/5.png'
 import icon6 from '../public/newHomePageImages/nexticon/6.png'
 import icon7 from '../public/newHomePageImages/nexticon/7.png'
 import icon8 from '../public/newHomePageImages/nexticon/8.png'
-
-
 
 
 const Homenextproject = () => {
@@ -51,8 +49,6 @@ const Homenextproject = () => {
     ]
   };
 
-
-
   return (
     <>
 
@@ -68,14 +64,11 @@ const Homenextproject = () => {
                   <Link href='tel:(833) 500-6007'>LET'S CONNECT</Link>
                 </div>
               </div>
-
             </Col>
           </Row>
-
         </Container>
 
         <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-5`}>
-
           <div className={styles.strpImg}>
             <Image alt="bitswits" src={icon3} className="img-fluid w-50" />
           </div>
@@ -97,13 +90,8 @@ const Homenextproject = () => {
           <div className={styles.strpImg}>
             <Image alt="bitswits" src={icon2} className="img-fluid w-50" />
           </div>
-
         </Slider>
-
-
       </section>
-
-
 
     </>
   )

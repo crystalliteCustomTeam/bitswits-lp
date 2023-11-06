@@ -460,6 +460,10 @@
 }
 
 @media screen and (max-width: 991px) {
+  .home {
+    padding-top: 50px;
+  }
+
   .about {
     width: 300px;
   }
@@ -583,6 +587,21 @@
     top: -47px;
     left: 85%;
   }
+
+  .home h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .solved {
+    margin-bottom: 0%;
+    margin-top: 0%;
+  }
+
+  .deter h3 {
+    font-size: 34px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -598,8 +617,6 @@
 
   .deter h3 {
     font-size: 25px;
-    font-weight: bold;
-    color: white;
   }
 
   .about {
@@ -667,17 +684,6 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .home {
-    background-color: black;
-    padding-top: 50px;
-  }
-
-  .solved {
-    margin-bottom: 0%;
-    margin-top: 0%;
-  }
-}
 @media screen and (max-width: 480px) {
   .build h2 {
     margin-bottom: 6%;

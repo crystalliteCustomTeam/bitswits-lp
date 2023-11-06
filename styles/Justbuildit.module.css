@@ -1,6 +1,6 @@
 .slide {
   background-color: black;
-  padding-bottom: 250px;
+  padding-bottom: 200px;
   padding-top: 0px;
 }
 .slide1 {
@@ -10,7 +10,7 @@
 .just {
   font-size: 130px;
   font-weight: bold;
-  background-image: linear-gradient(to right, #F32F53, #F32FC2, #4A78EF);
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
@@ -26,7 +26,7 @@
 .book {
   width: 198px;
   height: 45px;
-  background-color: #4A78EF;
+  background-color: #4a78ef;
   color: white;
   display: flex;
   align-items: center;
@@ -39,10 +39,9 @@
 }
 
 .about {
-
   width: 198px;
   height: 45px;
-  background-image: linear-gradient(to right, #F32F53, #F32FC2, #4A78EF);
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
 
   color: white;
   display: flex;
@@ -53,7 +52,6 @@
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-
 }
 
 .pont {
@@ -64,33 +62,32 @@
 }
 
 @media screen and (max-width: 1200px) {
-
   .just {
     font-size: 45px;
   }
-
 }
 
 @media screen and (max-width: 991px) {
-
   .develop {
     position: relative;
     z-index: 999;
+    font-size: 25px;
   }
 
-
   .pont {
-    margin-top: 10%;
+    margin-top: 3%;
   }
 
   .just {
     font-size: 40px;
   }
 
+  .slide {
+    padding-bottom: 50px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-
   .slide {
     padding-bottom: 50px;
     padding-top: 50px;
@@ -106,12 +103,7 @@
 }
 
 @media screen and (max-width: 480px) {
-
   .just {
     font-size: 30px;
   }
-
-
-
-
 }

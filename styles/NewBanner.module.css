@@ -51,7 +51,6 @@
   transition: all 0.5s ease-in-out;
 }
 
-
 .pont {
   display: flex;
   gap: 20px;
@@ -62,6 +61,7 @@
 .BannerSlider {
   padding-bottom: 15px;
   margin-top: -145px;
+  background-color: #000;
 }
 
 @media screen and (max-width: 1600px) {
@@ -100,35 +100,42 @@
 
 @media screen and (max-width: 991px) {
   .just {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  .develop {
     font-size: 40px;
+    line-height: 50px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .newHomeBg {
-    height: vh;
+    background-image: none;
+    height: auto;
+    padding: 80px 0 50px;
   }
 
+  .BannerSlider {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+
+
   .just {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .develop {
     font-size: 30px;
-    line-height: 35px;
-    margin-top: 9px;
+    line-height: 40px;
   }
 
-  .newHomeBg {
-    padding-bottom: 5px;
-  }
 }
 
 @media screen and (max-width: 480px) {
-  .BannerSlider {
-    margin-top: -145px;
-  }
-
   .just {
     font-size: 18px;
   }

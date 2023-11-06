@@ -1,18 +1,18 @@
 import React from 'react'
-import styles from "@/styles/Newslider.module.css";
-import Link from 'next/link'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
-import team1 from '../public/newHomePageImages/clutch.png'
+import styles from "@/styles/Newslider.module.css";
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+//
+import team1 from '../public/newHomePageImages/clutch.png'
 
 
 const NewHomeSlider = () => {
 
-
-    var awardslogo = { 
+    var awardslogo = {
         dots: false,
         arrows: false,
         loop: true,
@@ -21,7 +21,6 @@ const NewHomeSlider = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-
     };
 
 
@@ -30,12 +29,11 @@ const NewHomeSlider = () => {
             <section className={styles.team}>
                 <Container>
                     <Row>
-                    <Col xl={12}>
+                        <Col xl={12}>
                             <h2 className='f-60 font-bold white center'> <span className='grdiant'>Bit</span> of what our clients have <br></br> to say about <span className='grdiant'>BitsWits</span> </h2>
-
-                           <div className='center mt-5'>
-                           <Image className='img-fluid' src={team1} />
-                           </div>
+                            <div className='center mt-5'>
+                                <Image className='img-fluid' src={team1} />
+                            </div>
                             <Slider {...awardslogo} className={` ${styles.nextalign1} prohome mt-4 mb-4`}>
                                 <div className={styles.high}>
                                     <p className='mt-3 mb-3'>BitsWits was a lifesaver for our business. We needed to create an app that could be used on multiple platforms, but we didn’t have a lot of technical know-how or additional development resources. Their team made it easy for us and delivered exactly what we needed. They stayed on top of our project and kept us informed throughout the process. We wouldn't hesitate to recommend them for any of your app development needs!</p>
