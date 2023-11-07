@@ -16,7 +16,7 @@ const EcommerceScale = () => {
                 <Container>
                     <Row>
                         <Col lg={8}>
-                            <h2 className='font30 font-bold mb-5'>Happy Customers <span className='ecommercegredient'>on a Global Scale</span></h2>
+                            <h2 className='font30 font-bold mb-5 text-white'>Happy Customers <span className='grdiant'>on a Global Scale</span></h2>
                             <Image src={Map} alt='Map' className='' />
                         </Col>
                         <Col lg={4}>
@@ -26,8 +26,8 @@ const EcommerceScale = () => {
                         </Col>
 
                         <Col lg={12}>
-                            <p className='ecommercegredient font16 font-bold text-center mb-0'>SCHEDULE A FREE CONSULTATION</p>
-                            <h2 className='font36 font-bold text-center text-black mb-3'>Adapt To Constantly Evolving Digital Trends with A Complimentary 30-Minute App Strategy Session.Claim Your Spot Now & Talk to An App Expert!</h2>
+                            <p className='grdiant font16 font-bold text-center mb-0'>SCHEDULE A FREE CONSULTATION</p>
+                            <h2 className='font36 font-bold text-center text-black mb-3 text-white'>Adapt To Constantly Evolving Digital Trends with A Complimentary 30-Minute App Strategy Session.Claim Your Spot Now & Talk to An App Expert!</h2>
 
                             <div className={`d-flex align-items-center justify-content-center pt-4 gap-2 ${styles.btns}`}>
                                 <Link href="tel:;" className="font14">

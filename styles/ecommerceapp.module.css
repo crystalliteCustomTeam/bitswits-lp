@@ -4,21 +4,22 @@
 }
 
 .appBox {
-    background: linear-gradient(to bottom, #ed017b 0, #ed1644 100%);
+    background: linear-gradient(to right, #4a78ef 55%, #eb335b 103%);
     border-radius: 50px;
     padding: 5rem 2rem;
     position: relative;
 }
 
 .EcommerceApp a:last-child {
-    width: max-content;
+    background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+    border-radius: 2px;
     height: 40px;
     text-align: center;
     line-height: 40px;
-    padding: 0 0.7rem;
-    white-space: nowrap;
-    display: block;
+    padding: 0 2rem;
     font-size: 14px;
+    color: white;
+    border: 2px solid white;
 }
 
 .EcommerceApp a:first-child {
@@ -36,15 +37,15 @@
     background-color: var(--w-color);
     color: var(--b-color);
     border: inherit;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
+/*
 .EcommerceApp a:last-child {
     background-color: var(--b-color);
     color: var(--w-color);
-    border: inherit;
     border-radius: 5px;
-}
+} */
 
 /* .letsTalk {
     position: relative;
@@ -89,7 +90,7 @@
     }
 
     .letsTalk::before {
-       background-image: none;
+        background-image: none;
     }
 }
 

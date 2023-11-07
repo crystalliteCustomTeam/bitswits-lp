@@ -1,5 +1,6 @@
 .ecommerceSec {
     padding: 90px 0;
+    background: #000;
 }
 
 .shopify {
@@ -8,6 +9,9 @@
 
 .magento {
     background-image: url(../public/ecommerce/magento-bg.webp);
+    border-image: linear-gradient(0deg, #f32f5e, #4a78ef) 30;
+    border-width: 3px;
+    border-style: solid;
 }
 
 .WooCommerce {
@@ -16,6 +20,9 @@
 
 .OpenCart {
     background-image: url(../public/ecommerce/opencart-bg.webp);
+    border-image: linear-gradient(0deg, #f32f5e, #4a78ef) 30;
+    border-width: 3px;
+    border-style: solid;
 }
 
 .XCart {
@@ -24,6 +31,9 @@
 
 .BigCommerce {
     background-image: url(../public/ecommerce/bigcommerce-bg.webp);
+    border-image: linear-gradient(0deg, #f32f5e, #4a78ef) 30;
+    border-width: 3px;
+    border-style: solid;
 }
 
 .expendCard {

@@ -10,39 +10,39 @@ const Benefits = () => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                            <h2 className='font100 font-bold ecommercegredient'>Benefits</h2>
-                            <p className='font20 text-black font-medium mb-3 ms-lg-3'>Of hiring the best eCommerce app builders in US;</p>
+                            <h2 className='font210 font-bold text-white'>Benefits</h2>
+                            <p className='font20 text-white font-medium mb-3 ms-lg-3'>Of hiring the best eCommerce app builders in US;</p>
 
                             <div className={styles.lists}>
                                 <div className={styles.itemsOne}>
-                                    <h5 className='font24 font-bold text-center'>Increased <br />
+                                    <h5 className='font24 font-bold text-center text-white'>Increased <br />
                                         Revenue</h5>
-                                    <p className='font16 '>Boosts financial growth</p>
+                                    <p className='font16 text-white'>Boosts financial growth</p>
                                 </div>
                                 <div className={styles.itemsSecond}>
-                                    <h5 className='font24 font-bold text-center'>Enhanced Customer <br />
+                                    <h5 className='font24 font-bold text-center text-white'>Enhanced Customer <br />
                                         Experience</h5>
-                                    <p className='font16 '>Increases brand loyalty</p>
+                                    <p className='font16 text-white'>Increases brand loyalty</p>
                                 </div>
                                 <div className={styles.itemsThree}>
-                                    <h5 className='font24 font-bold text-center'>Organized <br />
+                                    <h5 className='font24 font-bold text-center text-white'>Organized <br />
                                         Operations</h5>
-                                    <p className='font16 '>Improves Efficiency and Productivity</p>
+                                    <p className='font16 text-white'>Improves Efficiency and Productivity</p>
                                 </div>
                                 <div className={styles.itemsfour}>
-                                    <h5 className='font24 font-bold text-center'>Higher Customer <br />
+                                    <h5 className='font24 font-bold text-center text-white'>Higher Customer <br />
                                         Retention</h5>
-                                    <p className='font16 '>Ensures long-term relationships</p>
+                                    <p className='font16 text-white'>Ensures long-term relationships</p>
                                 </div>
                                 <div className={styles.itemsfive}>
-                                    <h5 className='font24 font-bold text-center'>Data-Driven <br />
+                                    <h5 className='font24 font-bold text-center text-white'>Data-Driven <br />
                                         Insights</h5>
-                                    <p className='font16 '>Drives informed business decisions</p>
+                                    <p className='font16 text-white'>Drives informed business decisions</p>
                                 </div>
                                 <div className={styles.itemsSix}>
-                                    <h5 className='font24 font-bold text-center'>Higher Conversion <br />
+                                    <h5 className='font24 font-bold text-center text-white'>Higher Conversion <br />
                                         Rate</h5>
-                                    <p className='font16 '>Maximizes sales performance</p>
+                                    <p className='font16 text-white'>Maximizes sales performance</p>
                                 </div>
                             </div>
                         </Col>

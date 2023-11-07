@@ -19,7 +19,7 @@
     margin-top: -50px;
     margin-bottom: -50px;
     margin-right: -400px;
-    background-color: #f3f3f3;
+    background-color: black;
 }
 
 .newLogoSlide img {
@@ -27,4 +27,5 @@
     max-width: 110px;
     min-height: 110px;
     max-height: 110px;
+    margin: 0 auto; 
 }

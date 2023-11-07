@@ -1,5 +1,6 @@
 .benefits {
-    margin-bottom: 120px;
+    padding-bottom: 120px;
+    background: #000;
 }
 
 .lists {
@@ -55,27 +56,29 @@
 
 @media screen and (max-width: 991px) {
     .itemsOne {
-        left: -10%;
+        left: -6%;
     }
 
     .itemsSecond {
-        left: -10%;
+        left: -6%;
     }
 
     .itemsThree {
-        left: -10%;
+        left: -6%;
     }
 
     .itemsfour {
-        right: -16%;
+        right: -6%;
+        top: -5%;
     }
 
     .itemsfive {
-        right: -16%;
+        right: -6%;
     }
 
     .itemsSix {
-        right: -16%;
+        right: -6%;
+        bottom: -12%;
     }
 }
 
@@ -118,5 +121,12 @@
 
     .lists p {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .benefits {
+        padding-bottom: 20px;
+        background: #000;
     }
 }

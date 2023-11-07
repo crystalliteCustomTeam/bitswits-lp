@@ -23,16 +23,17 @@ const ServiceEcommerce = () => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                            <h4 className="font20 ecommercegredient font-bold mb-0">Our</h4>
-                            <h2 className="font220 ecommercegredient font-bold mb-3 mb-md-0">Ecommerce App
+                            <h4 className="font20 text-white font-bold mb-0">Our</h4>
+                            <h2 className="font220 text-white font-bold mb-3 mb-md-0">
+                                <span className='grdiant'>Ecommerce App </span>
                                 Development Service</h2>
                             <p className='text-white font15'>BitsWits is trusted for shopping app design, development, and <br /> integration on ecommerce platforms. Our team transforms your <br /> visionary designs into flawless, standout apps. We go beyond the <br /> ordinary, adding various functionalities that make your app stand out <br /> among competition and provide an enjoyable user experience to your <br /> customers.</p>
                             <p className='text-white font15'>Ready to dominate the app store with our eCommerce app<br /> development? Let's Connect and Make It Happen!</p>
                             <div className={`d-flex align-items-center pt-2 gap-2 pb-4 ${styles.btns}`}>
-                                <Link href="tel:;" className="">
+                                <Link href="tel:;" className="px-4">
                                     Call Now: +1 833 500 6007
                                 </Link>
-                                <Link href="javascript:;" className="">
+                                <Link href="javascript:;" className="px-4">
                                     Start Live Chat
                                 </Link>
                             </div>
@@ -106,7 +107,7 @@ const ServiceEcommerce = () => {
                         </Col>
                         <Col xxl={5}>
                             <div className={styles.circleBox}>
-                                <h4 className='ecommercegredient font70 font-bold text-center'>
+                                <h4 className='grdiant font70 font-bold text-center'>
                                     1200+
                                 </h4>
                                 <p className='text-white font15 text-center'>BitsWits, the best eCommerce app development<br /> company in the US has helped more than twelve<br /> hundred ecommerce businesses to double their<br /> revenue with our web and app design, development,<br /> and integration services.</p>

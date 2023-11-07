@@ -15,6 +15,12 @@
     margin-top: 430px;
 }
 
+@media screen and (min-width: 1280px) {
+    .contentThree {
+        margin-top: 180px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .contentFour {
         margin-top: 200px;

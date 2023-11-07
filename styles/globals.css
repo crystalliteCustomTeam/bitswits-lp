@@ -179,9 +179,14 @@ div {
   font-size: 70px;
 }
 
+.font210 {
+  font-size: 210px;
+  line-height: 190px;
+}
+
 .font220 {
   font-size: 100px;
-  line-height: 90px;
+  line-height: 103px;
   letter-spacing: -3px;
 }
 
@@ -1933,6 +1938,11 @@ input::-webkit-inner-spin-button {
     font-size: 50px;
   }
 
+  .font210 {
+    font-size: 150px;
+    line-height: 130px;
+  }
+
   .font35 {
     font-size: 30px;
     line-height: 45px;
@@ -2118,6 +2128,11 @@ input::-webkit-inner-spin-button {
   .font36 {
     font-size: 17px;
     line-height: 26px;
+  }
+
+  .font210 {
+    font-size: 74px;
+    line-height: 70px;
   }
 
   .newbit img {
