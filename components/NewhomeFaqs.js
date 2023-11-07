@@ -91,7 +91,7 @@ const NewhomeFaqs = () => {
                             <div className={`${faq1show ? 'touch' : ''} mb-4 mb-lg-0 mt-5`}>
                                 <div onClick={faq1} className={styles.heading}>
                                     <h3>
-                                        How do I get started with app development at BitsWits?  {faq1show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                        How do I get started with app development at BitsWits?  {faq1show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
                                 <div className={faq1show ? 'd-block' : 'd-none'} >
@@ -112,7 +112,7 @@ const NewhomeFaqs = () => {
                             <div className={`${faq2show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq2} className={styles.heading}>
                                     <h3>
-                                        What types of apps does BitsWits specialize in developing? {faq2show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                        What types of apps does BitsWits specialize in developing? {faq2show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
                                 <div className={faq2show ? 'd-block' : 'd-none'}>
@@ -133,7 +133,7 @@ const NewhomeFaqs = () => {
                             <div className={`${faq3show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq3} className={styles.heading}>
                                     <h3>
-                                        How long does it typically take to develop an app? {faq3show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                        How long does it typically take to develop an app? {faq3show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
                                 <div className={faq3show ? 'd-block' : 'd-none'}>
@@ -154,7 +154,7 @@ const NewhomeFaqs = () => {
                             <div className={`${faq4show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq4} className={styles.heading}>
                                     <h3>
-                                        What sets BitsWits apart in terms of customer support? {faq4show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                        What sets BitsWits apart in terms of customer support? {faq4show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
                                 <div className={faq4show ? 'd-block' : 'd-none'}>
@@ -175,7 +175,7 @@ const NewhomeFaqs = () => {
                             <div className={`${faq5show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq5} className={styles.heading}>
                                     <h3>
-                                        Can you help me with app maintenance and updates post-launch? {faq5show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                        Can you help me with app maintenance and updates post-launch? {faq5show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
                                 <div className={faq5show ? 'd-block' : 'd-none'}>
@@ -196,7 +196,7 @@ const NewhomeFaqs = () => {
                             <div className={faq6show ? 'touch' : ''}>
                                 <div onClick={faq6} className={styles.heading}>
                                     <h3>
-                                        How can I stay updated on the progress of my app development project? {faq6show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                        How can I stay updated on the progress of my app development project? {faq6show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
                                 <div className={faq6show ? 'd-block' : 'd-none'}>

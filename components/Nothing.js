@@ -46,7 +46,7 @@ export default function Nothing(props) {
                             <h2 className="white f-60 f-700 center mb-5">Nothing Short Of Amazing!</h2>
                         </Col>
                         <Col lg={8}>
-                            <Image src={banImg1} className='img-fluid' />
+                            <Image src={banImg1} alt='Bitswits' className='img-fluid' />
                         </Col>
                         <Col lg={4}>
 

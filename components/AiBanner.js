@@ -5,10 +5,6 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 //
 import BannerImage from "@/public/images/iosbanner/ai.png"
-import icon11 from '../public/newMobilePageImages/city1.png'
-import icon12 from '../public/newMobilePageImages/city2.png'
-import icon13 from '../public/newMobilePageImages/city4.png'
-import icon14 from '../public/newMobilePageImages/city3.png'
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -81,7 +77,7 @@ const AndriodBanner = () => {
                                 </div>
 
                             <div className='mt-5 center'>
-                                <Image quality={75} src={BannerImage} className={`img-fluid`} />
+                                <Image quality={75} alt='Bitswits' src={BannerImage} className={`img-fluid`} />
                             </div>
 
                         </Col>

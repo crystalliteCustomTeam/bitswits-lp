@@ -24,7 +24,7 @@ const ProjectProcesshome = (props) => {
                             <h3 className='black font20 f-700'>Let's work together</h3>
                             <h2 className='black f-40 f-700'>Project Process</h2>
                             <p className='black font16 f-500'>Our work speaks for us. See how we create powerful, customer-centric <br></br> mobile applications for various industry verticals to help them achieve <br></br> their business objectives.</p>
-                            <Image src={banImg1} className='img-fluid mt-3' />
+                            <Image src={banImg1} alt='Bitswits' className='img-fluid mt-3' />
                         </Col>
                     </Row>
                 </Container>

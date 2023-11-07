@@ -91,6 +91,7 @@ const NewFlutterFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -100,6 +101,7 @@ const NewFlutterFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -140,6 +142,7 @@ const NewFlutterFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -149,6 +152,7 @@ const NewFlutterFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -188,6 +192,7 @@ const NewFlutterFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -197,6 +202,7 @@ const NewFlutterFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -234,6 +240,7 @@ const NewFlutterFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -243,6 +250,7 @@ const NewFlutterFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -282,6 +290,7 @@ const NewFlutterFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -291,6 +300,7 @@ const NewFlutterFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -355,6 +365,7 @@ const NewFlutterFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -364,6 +375,7 @@ const NewFlutterFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={close}
                           className="img-fluid"
                         />{" "}

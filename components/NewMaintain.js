@@ -109,7 +109,7 @@ const NewMaintain = () => {
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app7}>
-                                <Image quality={75} src={cardNine} className={`${styles.appImage}`} />
+                                <Image quality={75} alt='Bitswits' src={cardNine} className={`${styles.appImage}`} />
                                 <div className={styles.mblApp7}>
                                     <h3 className='text-white font25 font-bold text-center'>Internet of Things</h3>
                                     <p className={styles.para9}>

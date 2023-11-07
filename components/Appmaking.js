@@ -34,15 +34,15 @@ const Appmaking = () => {
                         <Col xl={5}>
                             <div class={styles.native} data-scroll data-scroll-speed="0.4">
                                 <div class={styles.noroow}>
-                                    <Image src={logo1} className='img-fluid' />
-                                    <Image src={logo2} className='img-fluid' />
-                                    <Image src={logo3} className='img-fluid' />
-                                    <Image src={logo4} className='img-fluid' />
+                                    <Image alt='Bitswits' src={logo1} className='img-fluid' />
+                                    <Image alt='Bitswits' src={logo2} className='img-fluid' />
+                                    <Image alt='Bitswits' src={logo3} className='img-fluid' />
+                                    <Image alt='Bitswits' src={logo4} className='img-fluid' />
 
                                 </div>
                                 <h3 class="white font24 f-700 mt-4 mb-4">Hybrid App Development</h3>
 
-                                <Image src={line2345} className='img-fluid' />
+                                <Image alt='Bitswits' src={line2345} className='img-fluid' />
 
                                 <ul class={styles.dev}>
                                     <li class="white mt-3">Cross-platform Compatibility.</li>
@@ -58,14 +58,14 @@ const Appmaking = () => {
                         <Col xl={5}>
                             <div class={styles.native2} data-scroll data-scroll-speed="0.4">
                                 <div class={`${styles.noroow2} ${styles.noroow1}`}>
-                                    <Image src={logo5} className='img-fluid' />
-                                    <Image src={logo6} className='img-fluid' />
+                                    <Image alt='Bitswits' src={logo5} className='img-fluid' />
+                                    <Image alt='Bitswits' src={logo6} className='img-fluid' />
                                  
 
                                 </div>
                                 <h3 class="white font24 f-700 mt-4 mb-4">Native App Development</h3>
 
-                                <Image src={line2345} className='img-fluid' />
+                                <Image alt='Bitswits' src={line2345} className='img-fluid' />
 
                                 <ul class={styles.dev}>
                                     <li class="white mt-3">High Performance Platform-Optimization.</li>

@@ -20,9 +20,6 @@ import HomeLocation from '@/components/HomeLocation';
 
 export default function Home() {
 
-
-
-
     return (
         <>
             <Head>

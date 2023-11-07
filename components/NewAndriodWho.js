@@ -30,7 +30,7 @@ const NewIosWho = () => {
                                 <Link href='javascript:;' className={`${styles.btn_txt} font-extrabold`}>
                                     Get to know us
                                     <span>
-                                        <Image quality={75} src={ButtonIcon} width={15} height={15} />
+                                        <Image quality={75} alt='Bitswits' src={ButtonIcon} width={15} height={15} />
                                     </span>
                                 </Link>
                             </div>
@@ -38,14 +38,14 @@ const NewIosWho = () => {
 
                         <Col lg={10}>
                             <div className={`${styles.secImagebg} text-center pt-4`}>
-                                <Image quality={75} height="550" src={WhoImage} className={`${styles.secImage} img-fluid`} />
+                                <Image quality={75} alt='Bitswits' height="550" src={WhoImage} className={`${styles.secImage} img-fluid`} />
                             </div>
                         </Col>
                     </Row>
 
                 </Container>
 
-            </section >
+            </section>
 
 
         </>

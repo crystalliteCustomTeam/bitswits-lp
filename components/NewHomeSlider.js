@@ -32,7 +32,7 @@ const NewHomeSlider = () => {
                         <Col xl={12}>
                             <h2 className='f-60 font-bold white center'> <span className='grdiant'>Bit</span> of what our clients have <br></br> to say about <span className='grdiant'>BitsWits</span> </h2>
                             <div className='center mt-5'>
-                                <Image className='img-fluid' src={team1} />
+                                <Image className='img-fluid' alt='Bitswits' src={team1} />
                             </div>
                             <Slider {...awardslogo} className={` ${styles.nextalign1} prohome mt-4 mb-4`}>
                                 <div className={styles.high}>

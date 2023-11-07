@@ -303,8 +303,8 @@ const NewhomeFaqs = () => {
                             </div>
                         </Col>
                     </Row>
-                </Container >
-            </section >
+                </Container>
+            </section>
         </>
     )
 }

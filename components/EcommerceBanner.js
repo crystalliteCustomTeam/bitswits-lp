@@ -68,28 +68,28 @@ const EcommerceBanner = () => {
                                 <h6 className='f20 text-white font-bold'>Exceeded Performance Benchmarks, and Beat All Competitors.</h6>
                                 <ul className=''>
                                     <li className='mb-2'>
-                                        <Image src={checkImage} />
+                                        <Image src={checkImage} alt='Bitswits' />
                                         <span className='text-white font16 ms-2 mt-2'>Upgraded digital sales for expanding brands</span>
                                     </li>
                                     <li className='mb-2'>
-                                        <Image src={checkImage} />
+                                        <Image src={checkImage} alt='Bitswits' />
                                         <span className='text-white font16 ms-2 mt-2'>Secured payment systems</span>
                                     </li>
                                     <li className='mb-2'>
-                                        <Image src={checkImage} />
+                                        <Image src={checkImage} alt='Bitswits' />
                                         <span className='text-white font16 ms-2 mt-2'>Personalized user accounts
                                         </span>
                                     </li>
                                     <li className='mb-2'>
-                                        <Image src={checkImage} />
+                                        <Image src={checkImage} alt='Bitswits' />
                                         <span className='text-white font16 ms-2 mt-2'>Push notifications and alerts</span>
                                     </li>
                                     <li className='mb-2'>
-                                        <Image src={checkImage} />
+                                        <Image src={checkImage} alt='Bitswits' />
                                         <span className='text-white font16 ms-2 mt-2'>Push notifications and alerts</span>
                                     </li>
                                     <li className='mb-2'>
-                                        <Image src={checkImage} />
+                                        <Image src={checkImage} alt='Bitswits' />
                                         <span className='text-white font16 ms-2 mt-2'>Product catalog and search features for products</span>
                                     </li>
                                 </ul>

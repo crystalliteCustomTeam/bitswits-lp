@@ -29,9 +29,9 @@ const Dedicated = () => {
                                 <h2 className='f-28 f-700 white t-center'> <span className='white'>Front-End</span> Web Development</h2>
                                 <p className='f-13 t-center '>We specialize in building innovative, complex, user-centric, responsive front-end web solutions that look incredible on mobile devices and desktop screens.</p>
                                 <div className={styles.front}>
-                                    <Image quality={75} src={right1} className="img-fluid" />
-                                    <Image quality={75} src={right2} className="img-fluid" />
-                                    <Image quality={75} src={right3} className="img-fluid" />
+                                    <Image quality={75} alt='Bitswits' src={right1} className="img-fluid" />
+                                    <Image quality={75} alt='Bitswits' src={right2} className="img-fluid" />
+                                    <Image quality={75} alt='Bitswits' src={right3} className="img-fluid" />
                                 </div>
                                 <Link className={styles.get} href='#'>LET'S CONNECT</Link>
                             </div>
@@ -41,9 +41,9 @@ const Dedicated = () => {
                                 <h2 className='f-28 f-700 white t-center'> <span className='white'>Back End</span> Web Development</h2>
                                 <p className='f-13 t-center '>BitsWits render customized back-end solutions that process a large amount of data, operate seamlessly under heavy loads, and show absolutely no latency issues.</p>
                                 <div className={styles.front}>
-                                    <Image quality={75} src={right4} className="img-fluid" />
-                                    <Image quality={75} src={right5} className="img-fluid" />
-                                    <Image quality={75} src={right6} className="img-fluid" />
+                                    <Image quality={75} alt='Bitswits' src={right4} className="img-fluid" />
+                                    <Image quality={75} alt='Bitswits' src={right5} className="img-fluid" />
+                                    <Image quality={75} alt='Bitswits' src={right6} className="img-fluid" />
                                 </div>
                                 <Link className={styles.get} href='#'>LET'S CONNECT</Link>
                             </div>

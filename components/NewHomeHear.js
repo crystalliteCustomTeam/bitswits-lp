@@ -28,7 +28,7 @@ const NewHomeHear = () => {
                                     <Link href='javascript:;' className={`${styles.btn_txt} font-extrabold`}>
                                         Contact us now
                                         <span>
-                                            <Image quality={75} src={ButtonIcon} width={15} height={15} />
+                                            <Image quality={75} alt='Bitswits' src={ButtonIcon} width={15} height={15} />
                                         </span>
                                     </Link>
                                 </div>
