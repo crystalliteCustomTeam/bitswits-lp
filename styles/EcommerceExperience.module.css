@@ -1,0 +1,32 @@
+.ExperienceSec {
+    background: #000;
+    padding: 100px 0;
+}
+
+.contentTwo {
+    margin-top: 50px;
+}
+
+.contentThree {
+    margin-top: 120px;
+}
+
+.contentFour {
+    margin-top: 430px;
+}
+
+@media screen and (max-width: 1024px) {
+    .contentFour {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .contentThree {
+        margin-top: 40px;
+    }
+
+    .contentFour {
+        margin-top: 60px;
+    }
+}

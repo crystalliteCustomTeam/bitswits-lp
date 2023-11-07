@@ -11,6 +11,7 @@ import Script from 'next/script';
 import Head from 'next/head';
 import Headerlphome from '@/components/Headerlphome';
 import EcommerceBanner from '@/components/EcommerceBanner';
+import EcommerceFooter from '@/components/EcommerceFooter';
 
 
 export default function App({ Component, pageProps }) {
@@ -105,7 +106,11 @@ export default function App({ Component, pageProps }) {
           <Footernewdesign />
 
           :
-          <Footernewfy />
+          newecommercepage ?
+            <EcommerceFooter />
+
+            :
+            <Footernewfy />
       }
 
     </>

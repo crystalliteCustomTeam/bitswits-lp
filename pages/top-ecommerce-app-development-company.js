@@ -3,8 +3,16 @@ import React from 'react';
 import EcommerceBanner from '@/components/EcommerceBanner';
 import AwardRecognition from '@/components/AwardRecognition';
 import EcommercePLatform from '@/components/EcommercePLatform';
+import ShoppingApp from '@/components/ShoppingApp';
+import Benefits from '@/components/Benefits';
+import ServiceEcommerce from '@/components/ServiceEcommerce';
+import EcommerceApp from '@/components/EcommerceApp';
+import EcommerceExperience from '@/components/EcommerceExperience';
+import EcommerceScale from '@/components/EcommerceScale';
+import EcommerceSlider from '@/components/EcommerceSlider';
 
 const Ecommerce = () => {
+
     return (
         <>
             <Head>
@@ -15,6 +23,14 @@ const Ecommerce = () => {
             </Head>
             <AwardRecognition />
             <EcommercePLatform />
+            <EcommerceSlider />
+            <ShoppingApp />
+            <Benefits />
+            <ServiceEcommerce />
+            <EcommerceApp />
+            <EcommerceExperience />
+            <EcommerceScale />
+
         </>
     )
 }
