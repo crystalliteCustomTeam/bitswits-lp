@@ -149,10 +149,6 @@ div {
   font-size: 10px;
 }
 
-.font12{
-  font-size: 12px;
-}
-
 .font14 {
   font-size: 14px;
   line-height: 20px;
@@ -183,6 +179,12 @@ div {
   font-size: 70px;
 }
 
+.font220 {
+  font-size: 100px;
+  line-height: 90px;
+  letter-spacing: -3px;
+}
+
 .font30 {
   font-size: 30px;
 }
@@ -191,8 +193,14 @@ div {
   font-size: 33px;
 }
 
+.font36 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
 .font35 {
   font-size: 37px;
+  line-height: 62px;
 }
 
 .font55 {
@@ -341,6 +349,10 @@ div {
   background: linear-gradient(to right, #ed017c 0, #ed1644 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
+}
+
+.textGray {
+  color: #979494;
 }
 
 .lightgrey {
@@ -1921,6 +1933,11 @@ input::-webkit-inner-spin-button {
     font-size: 50px;
   }
 
+  .font35 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
   .aboutfold .col-md-2 {
     width: 100%;
   }
@@ -1928,6 +1945,11 @@ input::-webkit-inner-spin-button {
   .font65 {
     font-size: 40px;
     line-height: 50px;
+  }
+
+  .font100 {
+    font-size: 110px;
+    line-height: 110px;
   }
 
   .clintSlider .slick-list::before {
@@ -1989,10 +2011,16 @@ input::-webkit-inner-spin-button {
   p,
   span,
   div {
-    z-index: 3;
+    z-index: unset;
   }
 
   .cursor {
+    display: none;
+  }
+
+  .mixColor,
+  .mixColor1,
+  .mixColor2 {
     display: none;
   }
 }
@@ -2002,6 +2030,11 @@ input::-webkit-inner-spin-button {
 @media screen and (max-width: 767px) {
   .f-80 {
     font-size: 30px;
+  }
+
+  .font100 {
+    font-size: 60px;
+    line-height: 59px;
   }
 
   .cursor2::after {
@@ -2080,6 +2113,11 @@ input::-webkit-inner-spin-button {
 
   .font25 {
     font-size: 23px;
+  }
+
+  .font36 {
+    font-size: 17px;
+    line-height: 26px;
   }
 
   .newbit img {
@@ -2970,6 +3008,12 @@ button {
   .f28 {
     font-size: 22px;
   }
+
+  .font220 {
+    font-size: 51px;
+    line-height: 48px;
+    margin-bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3175,7 +3219,8 @@ button {
   }
 
   .font35 {
-    font-size: 25px;
+    font-size: 19px;
+    line-height: 30px;
   }
 
   .f32 {
@@ -3194,5 +3239,10 @@ button {
 
   .f-75 {
     font-size: 45px;
+  }
+
+  .font220 {
+    font-size: 31px;
+    line-height: 30px;
   }
 }

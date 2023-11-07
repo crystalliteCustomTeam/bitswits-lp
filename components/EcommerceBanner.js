@@ -58,7 +58,7 @@ const EcommerceBanner = () => {
         <>
             <section className={styles.EcommerceBanner}>
                 <Row>
-                    <Col xl={8} className='p-0'>
+                    <Col lg={6} xl={8} className='p-0'>
                         <div className={styles.bannerbg}>
                             <Image src={Logo} alt='Logo' className={styles.logo} />
 
@@ -125,7 +125,7 @@ const EcommerceBanner = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col xl={4} className='p-0'>
+                    <Col lg={6} xl={4} className='p-0'>
                         <div className={styles.formsbg}>
                             <ul className='d-flex align-items-center justify-content-evenly'>
                                 <li>
@@ -165,7 +165,7 @@ const EcommerceBanner = () => {
                                 </div>
                                 <h5 className='text-white font-bold font-28 text-center mt-5 mb-4'>OUR OFFICES</h5>
                                 <Row>
-                                    <Col lg={4}>
+                                    <Col sm={4}>
                                         <div className='text-center'>
                                             <div className='image'>
                                                 <Image src={USA} alt='USA' />
@@ -176,7 +176,7 @@ const EcommerceBanner = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={4}>
+                                    <Col sm={4}>
                                         <div className='text-center'>
                                             <div className='image'>
                                                 <Image src={UAE} alt='UAE' />
@@ -187,7 +187,7 @@ const EcommerceBanner = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={4}>
+                                    <Col sm={4}>
                                         <div className='text-center'>
                                             <div className='image'>
                                                 <Image src={Malaysia} alt='Malaysia' />

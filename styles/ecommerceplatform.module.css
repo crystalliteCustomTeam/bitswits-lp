@@ -2,7 +2,6 @@
     padding: 90px 0;
 }
 
-
 .shopify {
     background-image: url(../public/ecommerce/shopify-bg.webp);
 }
@@ -45,12 +44,16 @@
     flex-direction: column;
 }
 
-.expendCard p {
-    max-width: 330px;
-}
-
 .expendCard:hover {
     flex-grow: 3;
+}
+
+.flexCard {
+    flex-wrap: wrap;
+}
+
+.expendCard p {
+    max-width: 330px;
 }
 
 .expendCard a:first-child {
@@ -87,4 +90,19 @@
 .expendCard:hover .btns {
     transition: ease-in-out 0.4s;
     opacity: 1;
+}
+
+
+@media screen and (max-width: 767px) {
+    .flexCard {
+        display: hidden !important;
+    }
+
+    /* .flexCardTwo {
+        display: none;
+    } */
+
+    .expendCard {
+        width: 100%;
+    }
 }
