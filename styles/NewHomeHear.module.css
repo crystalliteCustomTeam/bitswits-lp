@@ -3,7 +3,7 @@
   background-color: #000;
 }
 
-.videobackground{
+.videobackground {
   height: 750px;
   overflow: hidden;
 }
@@ -43,8 +43,17 @@
 @media screen and (max-width: 991px) {
   .polt {
     position: absolute;
-    top: 25%;
+    top: 10%;
     left: 2%;
+  }
+
+  .videobackground {
+    height: 100%;
+  }
+
+  .newHomeOvrly h2 {
+    font-size: 30px;
+    line-height: 40px;
   }
 }
 
@@ -54,11 +63,9 @@
     top: 10%;
     left: 3%;
   }
-}
 
-@media screen and (max-width: 480px) {
-  .headContent {
-    font-size: 20px !important;
-    line-height: 30px;
+  .newHomeOvrly h2 {
+    font-size: 20px;
+    line-height: 24px;
   }
 }

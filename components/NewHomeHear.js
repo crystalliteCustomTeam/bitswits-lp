@@ -6,11 +6,11 @@ import { Container, Row, Col } from 'react-bootstrap'
 //
 import ButtonIcon from "@/public/newHomePageImages/hear-btn.png"
 
+
 const NewHomeHear = () => {
 
     return (
         <>
-
             <section className={styles.newHomeBg}>
 
                 <div className={styles.videobackground}>
@@ -37,8 +37,6 @@ const NewHomeHear = () => {
                     </Container>
                 </div>
             </section>
-
-
         </>
     )
 }

@@ -83,13 +83,36 @@
 @media screen and (max-width: 1200px) {
   .tech {
     background-color: black;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
   }
 }
 
 @media screen and (max-width: 991px) {
   .active::before {
     bottom: -67%;
+  }
+
+  .work {
+    font-size: 40px;
+  }
+
+  .analpost {
+    margin-top: 4%;
+  }
+
+  .analpost select {
+    width: 80%;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #909090;
+  }
+
+  .selOpt {
+    font-size: 16px;
   }
 }
 
@@ -116,6 +139,11 @@
     text-align: center;
     color: white;
     font-weight: bold;
+  }
+  
+  .analpost select {
+    width: 100%;
+    font-size: 20px;
   }
 }
 

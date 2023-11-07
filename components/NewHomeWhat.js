@@ -13,19 +13,17 @@ const NewHomeWhat = () => {
         <>
 
             <section className={styles.newHomeBg}>
-
                 <Container>
-
                     <Row>
                         <Col lg={12}>
-                            <h1 className='text-white f-60 font-bold'>Why Hire Us</h1>
+                            <h2 className='text-white f-60 font-bold'>Why Hire Us</h2>
                             <p className={`${styles.wid} f-20 text-white`}>Is your current app failing to deliver the results you desire?
                             </p>
                             <p className={`${styles.width} font14`}>At BitsWits, your app’s success is our top priority. We ensure your business stays updated with online trends and tech innovations. Contact us today to elevate your app's performance.
                             </p>
                             <div className={styles.sec_btn}>
                                 <Link href='javascript:;' className={`${styles.btn_txt} font-extrabold`}>
-                                Contact us now
+                                    Contact us now
                                     <span>
                                         <Image quality={75} src={ButtonIcon} width={15} height={15} />
                                     </span>
@@ -33,18 +31,15 @@ const NewHomeWhat = () => {
                             </div>
                         </Col>
                     </Row>
-
                 </Container>
 
                 <div className='sec_image text-center pt-5'>
-                    <Image quality={75} src={WhatImage} className={styles.secImage}/>
+                    <Image quality={75} src={WhatImage} className={styles.secImage} />
                 </div>
 
                 <div className="mixColor2"></div>
 
             </section>
-
-
         </>
     )
 }

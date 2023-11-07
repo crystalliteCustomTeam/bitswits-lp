@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
 import styles from "@/styles/NewHomeMaintain.module.css";
-
 import { Container, Row, Col } from 'react-bootstrap'
 //
 import cardNine from '../public/newHomePage/images/newMaintain9.png'
@@ -11,11 +10,8 @@ const NewMaintain = () => {
 
     return (
         <>
-
             <section className={styles.newHomeBg}>
-
                 <Container>
-
                     <Row className='g-3'>
                         <Col lg={12}>
                             <p className={` f-20 font-bold text-white text-center mb-0`}>Delivering Excellence Daily
@@ -114,22 +110,17 @@ const NewMaintain = () => {
                         <Col lg={4}>
                             <div className={styles.app7}>
                                 <Image quality={75} src={cardNine} className={`${styles.appImage}`} />
-                                <div>
+                                <div className={styles.mblApp7}>
                                     <h3 className='text-white font25 font-bold text-center'>Internet of Things</h3>
                                     <p className={styles.para9}>
                                         We lead in IoT innovation delivering smart, connected solutions drive automation, efficiency, and connectivity across industries.
                                     </p>
                                 </div>
                             </div>
-
                         </Col>
                     </Row>
-
                 </Container>
-
             </section>
-
-
         </>
     )
 }
