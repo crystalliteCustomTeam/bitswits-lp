@@ -25,7 +25,7 @@ const Wealth = () => {
                         </Col>
                         <Col xl={6} >
 
-                            <Image quality={75} src={isabella} className='img-fluid' />
+                            <Image quality={75} alt='Bitswits' src={isabella} className='img-fluid' />
 
                         </Col>
                     </Row>

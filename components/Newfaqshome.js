@@ -92,6 +92,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -101,6 +102,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -126,6 +128,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -135,6 +138,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -191,6 +195,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -200,6 +205,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -251,6 +257,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -260,6 +267,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -297,6 +305,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -306,6 +315,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -341,6 +351,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -350,6 +361,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
+                          alt='Bitswits'
                           src={close}
                           className="img-fluid"
                         />{" "}

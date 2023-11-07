@@ -66,14 +66,14 @@ const Headerlphome = () => {
                                 </div>
                             </div>
                         </div>
-                        <Image src={logo22} className='img-fluid mt-2' />
+                        <Image src={logo22} alt='Bitswits' className='img-fluid mt-2' />
 
                         <ul className={styles.newpond}>
-                           <a href='#home' > <li className={show == 'tab1' ? styles.new : ''} onClick={() => fun1('tab1')}><Image src={new1} /></li> </a>
-                           <a href='#technofair' > <li className={show == 'tab2' ? styles.new : ''} onClick={() => fun1('tab2')}><Image src={new2} /></li> </a>
-                           <a href='#third' > <li className={show == 'tab3' ? styles.new : ''} onClick={() => fun1('tab3')}><Image src={new3} /></li> </a>
-                           <a href='#testihook' > <li className={show == 'tab4' ? styles.new : ''} onClick={() => fun1('tab4')}><Image src={new4} /></li> </a>
-                           <a href='#lastform' ><li className={show == 'tab5' ? styles.new : ''} onClick={() => fun1('tab5')}><Image src={new5} /></li> </a>
+                           <a href='#home' > <li className={show == 'tab1' ? styles.new : ''} onClick={() => fun1('tab1')}><Image alt='Bitswits' src={new1} /></li> </a>
+                           <a href='#technofair' > <li className={show == 'tab2' ? styles.new : ''} onClick={() => fun1('tab2')}><Image alt='Bitswits' src={new2} /></li> </a>
+                           <a href='#third' > <li className={show == 'tab3' ? styles.new : ''} onClick={() => fun1('tab3')}><Image alt='Bitswits' src={new3} /></li> </a>
+                           <a href='#testihook' > <li className={show == 'tab4' ? styles.new : ''} onClick={() => fun1('tab4')}><Image alt='Bitswits' src={new4} /></li> </a>
+                           <a href='#lastform' ><li className={show == 'tab5' ? styles.new : ''} onClick={() => fun1('tab5')}><Image alt='Bitswits' src={new5} /></li> </a>
                         </ul>
                     </div>
 
@@ -161,14 +161,14 @@ const Headerlphome = () => {
                                                         <h3 className='mb-0'>Trusted by</h3>
                                                     </div>
                                                     <div className={styles.icons}>
-                                                        <Image src={logo1} className='img-fluid' />
-                                                        <Image src={logo2} className='img-fluid' />
-                                                        <Image src={logo3} className='img-fluid' />
-                                                        <Image src={logo4} className='img-fluid' />
-                                                        <Image src={logo5} className='img-fluid' />
+                                                        <Image src={logo1} alt='Bitswits' className='img-fluid' />
+                                                        <Image src={logo2} alt='Bitswits' className='img-fluid' />
+                                                        <Image src={logo3} alt='Bitswits' className='img-fluid' />
+                                                        <Image src={logo4} alt='Bitswits' className='img-fluid' />
+                                                        <Image src={logo5} alt='Bitswits' className='img-fluid' />
                                                     </div>
                                                     <div class={styles.star}>
-                                                        <Image src={star} className='img-fluid' />
+                                                        <Image src={star} alt='Bitswits' className='img-fluid' />
                                                     </div>
                                                 </div>
                                             </div>

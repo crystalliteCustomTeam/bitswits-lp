@@ -75,7 +75,7 @@ const HireServices = () => {
                                 <Link href='javascript:;' className={`${styles.btn_txt} font-extrabold`}>
                                     Get to know us
                                     <span>
-                                        <Image quality={75} src={ButtonIcon} width={15} height={15} />
+                                        <Image quality={75} alt='Bitswits' src={ButtonIcon} width={15} height={15} />
                                     </span>
                                 </Link>
                             </div>
@@ -85,7 +85,7 @@ const HireServices = () => {
                         {serviceData.map((service, index) => (
                             <Col lg={6} key={index}>
                                 <div className={styles.servicBox}>
-                                    <Image quality={75} src={service.imageSrc} className={styles.secImage} />
+                                    <Image quality={75} alt='Bitswits' src={service.imageSrc} className={styles.secImage} />
                                     <h5>{service.title}</h5>
                                     <p>{service.description}</p>
                                     <div className={styles.btns}>
@@ -104,7 +104,7 @@ const HireServices = () => {
                                 <Row className={`${styles.servRow} d-block d-lg-none`}>
                                     <Col lg={6}>
                                         <div className={styles.servicBox}>
-                                            <Image quality={75} src={service.imageSrc} className={styles.secImage} />
+                                            <Image quality={75} alt='Bitswits' src={service.imageSrc} className={styles.secImage} />
                                             <h5>{service.title}</h5>
                                             <p>{service.description}</p>
                                             <div className={styles.btns}>

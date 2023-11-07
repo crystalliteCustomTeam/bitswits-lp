@@ -27,36 +27,36 @@ const GameTechnologies = () => {
                         <Col xl={12}>
                             <div className={styles.newyork}>
                                 <div>
-                                    <Image quality={75} src={icon1} className='img-fluid' />
+                                    <Image quality={75} alt='Bitswits' src={icon1} className='img-fluid' />
                                     <p>ETHEREUM</p>
                                 </div>
                                 <div>
-                                    <Image quality={75} src={icon2} className='img-fluid' />
+                                    <Image quality={75} alt='Bitswits' src={icon2} className='img-fluid' />
                                     <p>EOS</p>
                                 </div>
                                 <div>
-                                    <Image quality={75} src={icon3} className='img-fluid' />
+                                    <Image quality={75} alt='Bitswits' src={icon3} className='img-fluid' />
                                     <p>TRON</p>
                                 </div>
                                 <div>
-                                    <Image quality={75} src={icon4} className='img-fluid' />
+                                    <Image quality={75} alt='Bitswits' src={icon4} className='img-fluid' />
                                     <p>BSC</p>
                                 </div>
                                 <div>
-                                    <Image quality={75} src={icon5} className='img-fluid' />
+                                    <Image quality={75} alt='Bitswits' src={icon5} className='img-fluid' />
                                     <p>SOLANA</p>
                                 </div>
 
                                 <div>
-                                    <Image quality={75} src={icon6} className='img-fluid' />
+                                    <Image quality={75} alt='Bitswits' src={icon6} className='img-fluid' />
                                     <p>TEZOS</p>
                                 </div>
                                 <div>
-                                    <Image quality={75} src={icon7} className='img-fluid' />
+                                    <Image quality={75} alt='Bitswits' src={icon7} className='img-fluid' />
                                     <p>COSMOS</p>
                                 </div>
                                 <div>
-                                    <Image quality={75} src={icon8} className='img-fluid' />
+                                    <Image quality={75} alt='Bitswits' src={icon8} className='img-fluid' />
                                     <p>MATIC</p>
                                 </div>
 

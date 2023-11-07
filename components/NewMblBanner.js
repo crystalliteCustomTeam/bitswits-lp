@@ -73,7 +73,7 @@ const NewHomeBanner = () => {
                             </div>
 
                             <div className={styles.secImage}>
-                                <Image quality={75} src={BannerImage} className={`img-fluid`} />
+                                <Image quality={75} alt='Bitswits' src={BannerImage} className={`img-fluid`} />
                             </div>
 
                         </Col>

@@ -44,58 +44,58 @@ const Technologieswe2dgame = () => {
                                 <div className={styles.newyork}>
 
                                     <div>
-                                        <Image quality={75} src={icon1} className='img-fluid' />
+                                        <Image quality={75} alt='Bitswits' src={icon1} className='img-fluid' />
                                         <p>HTML 5</p>
                                     </div>
                                     <div>
-                                        <Image quality={75} src={icon2} className='img-fluid' />
+                                        <Image quality={75} alt='Bitswits' src={icon2} className='img-fluid' />
                                         <p>Unity 2D</p>
                                     </div>
                                     <div>
-                                        <Image quality={75} src={icon3} className='img-fluid' />
+                                        <Image quality={75} alt='Bitswits' src={icon3} className='img-fluid' />
                                         <p>Unreal Engine</p>
                                     </div>
                                     <div>
-                                        <Image quality={75} src={icon4} className='img-fluid' />
+                                        <Image quality={75} alt='Bitswits' src={icon4} className='img-fluid' />
                                         <p>Android SDK</p>
                                     </div>
                                     <div>
-                                        <Image quality={75} src={icon5} className='img-fluid' />
+                                        <Image quality={75} alt='Bitswits' src={icon5} className='img-fluid' />
                                         <p>CryENGINE</p>
                                     </div>
 
                                     <div>
-                                        <Image quality={75} src={icon6} className='img-fluid' />
+                                        <Image quality={75} alt='Bitswits' src={icon6} className='img-fluid' />
                                         <p>Game Maker <br></br>
 Studio 2</p>
                                     </div>
                                     <div>
-                                        <Image quality={75} src={icon7} className='img-fluid' />
+                                        <Image quality={75} alt='Bitswits' src={icon7} className='img-fluid' />
                                         <p>Corona SDK</p>
                                     </div>
                                     <div>
-                                        <Image quality={75} src={icon3} className='img-fluid' />
+                                        <Image quality={75} alt='Bitswits' src={icon3} className='img-fluid' />
                                         <p>Unreal Engine</p>
                                     </div>
 
                                     <div>
-                                        <Image quality={75} src={icon8} className='img-fluid' />
+                                        <Image quality={75} alt='Bitswits' src={icon8} className='img-fluid' />
                                         <p>AppGameKit</p>
                                     </div>
                                     <div>
-                                        <Image quality={75} src={icon9} className='img-fluid' />
+                                        <Image quality={75} alt='Bitswits' src={icon9} className='img-fluid' />
                                         <p>SpriteKit</p>
                                     </div>
                                     <div>
-                                        <Image quality={75} src={icon10} className='img-fluid' />
+                                        <Image quality={75} alt='Bitswits' src={icon10} className='img-fluid' />
                                         <p>GoDot Engine</p>
                                     </div>
                                     <div>
-                                        <Image quality={75} src={icon11} className='img-fluid' />
+                                        <Image quality={75} alt='Bitswits' src={icon11} className='img-fluid' />
                                         <p>Cocos2D</p>
                                     </div>
                                     <div>
-                                        <Image quality={75} src={icon12} className='img-fluid' />
+                                        <Image quality={75} alt='Bitswits' src={icon12} className='img-fluid' />
                                         <p>Amazon Lumberyard</p>
                                     </div>
 

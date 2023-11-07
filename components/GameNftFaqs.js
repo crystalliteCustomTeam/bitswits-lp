@@ -88,7 +88,7 @@ const Game2dFaqs = () => {
                             <div className={`${faq1show ? 'touch' : ''} mb-4 mb-lg-0 mt-5`}>
                                 <div onClick={faq1} className={styles.heading}>
                                     <h3>
-                                        What is an NFT game? {faq1show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                        What is an NFT game? {faq1show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -112,7 +112,7 @@ const Game2dFaqs = () => {
                             <div className={`${faq2show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq2} className={styles.heading}>
                                     <h3>
-                                        How do NFTs work in games? {faq2show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                        How do NFTs work in games? {faq2show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -136,7 +136,7 @@ const Game2dFaqs = () => {
                             <div className={`${faq3show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq3} className={styles.heading}>
                                     <h3>
-                                        What is the benefit of using NFTs in game development? {faq3show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                        What is the benefit of using NFTs in game development? {faq3show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -160,7 +160,7 @@ const Game2dFaqs = () => {
                             <div className={`${faq4show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq4} className={styles.heading}>
                                     <h3>
-                                        Which blockchain platforms are commonly used for NFT game development? {faq4show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                        Which blockchain platforms are commonly used for NFT game development? {faq4show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -184,7 +184,7 @@ const Game2dFaqs = () => {
                             <div className={`${faq5show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq5} className={styles.heading}>
                                     <h3>
-                                        How do players interact with NFTs in a game? {faq5show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                        How do players interact with NFTs in a game? {faq5show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -208,7 +208,7 @@ const Game2dFaqs = () => {
                             <div className={faq6show ? 'touch' : ''}>
                                 <div onClick={faq6} className={styles.heading}>
                                     <h3>
-                                        What are some common use cases for NFTs in games? {faq6show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                        What are some common use cases for NFTs in games? {faq6show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 

@@ -27,7 +27,7 @@ export default function Everyone() {
 
                                 </div>
                                 <div className={styles.post}>
-                                    <Image src={banImg1} className='img-fluid' />
+                                    <Image alt='Bitswits' src={banImg1} className='img-fluid' />
                                 </div>
                             </div>
 

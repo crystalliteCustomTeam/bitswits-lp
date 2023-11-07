@@ -73,7 +73,7 @@ const Bulletproofgame = () => {
 
 
             <div className={styles.tested}>
-                <Image quality={75} src={icon11} />
+                <Image quality={75} alt='Bitswits' src={icon11} />
             </div>
 
 

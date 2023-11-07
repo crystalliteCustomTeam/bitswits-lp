@@ -79,37 +79,37 @@ const Footer = () => {
             <Col lg={12} className={styles.trstCol}>
               <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-4`}>
                 <div className={styles.strpImg}>
-                  <Image  alt="bitswits"      src={icon1} className="img-fluid" />
+                  <Image alt="bitswits" src={icon1} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image  alt="bitswits"      src={icon2} className="img-fluid" />
+                  <Image alt="bitswits" src={icon2} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image  alt="bitswits"      src={icon3} className="img-fluid" />
+                  <Image alt="bitswits" src={icon3} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image  alt="bitswits"      src={icon4} className="img-fluid" />
+                  <Image alt="bitswits" src={icon4} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image  alt="bitswits"      src={icon5} className="img-fluid" />
+                  <Image alt="bitswits" src={icon5} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image  alt="bitswits"      src={icon6} className="img-fluid" />
+                  <Image alt="bitswits" src={icon6} className="img-fluid" />
                 </div>
                 <div className={`${styles.strpImg} ${styles.minImg}`}>
-                  <Image  alt="bitswits"      src={icon7} className="img-fluid" />
+                  <Image alt="bitswits" src={icon7} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image  alt="bitswits"      src={icon8} className="img-fluid" />
+                  <Image alt="bitswits" src={icon8} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image  alt="bitswits"      src={icon9} className="img-fluid" />
+                  <Image alt="bitswits" src={icon9} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image  alt="bitswits"      src={icon10} className="img-fluid" />
+                  <Image alt="bitswits" src={icon10} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image  alt="bitswits"      src={icon11} className="img-fluid" />
+                  <Image alt="bitswits" src={icon11} className="img-fluid" />
                 </div>
               </Slider>
             </Col>
@@ -119,9 +119,9 @@ const Footer = () => {
 
             <Col lg={9}>
 
-            <div className={styles.footinfofullrelative}>
+              <div className={styles.footinfofullrelative}>
                 <div className={styles.ftrhd}>Industries</div>
-                <Link href="/real-estate" title="TII Real Estate"> Real Estate</Link> <span className={styles.cornaer}> | </span> 
+                <Link href="/real-estate" title="TII Real Estate"> Real Estate</Link> <span className={styles.cornaer}> | </span>
                 <Link href="/travel-hospitality" title="TII Travel and Hospitality"> Travel Hospitality</Link> <span className={styles.cornaer}> | </span>
                 <Link href="/b2b-solutions" title="TII B2B Solutions">B2B Solutions</Link> <span className={styles.cornaer}> | </span>
                 <Link href="/b2c-solutions" title="TII B2C Solutions"> B2C Solutions</Link> <span className={styles.cornaer}> | </span>
@@ -131,7 +131,7 @@ const Footer = () => {
                 <Link href="/startup-solutions" title="TII Startup Solutions"> Startup Solutions</Link> <span className={styles.cornaer}> | </span>
                 <Link href="/media-publishing" title="TII Media And Publishing"> Media Publishing</Link> <span className={styles.cornaer}> | </span>
                 <Link href="/food-ordering-solutions" title="TII Food ordering Solutions Industry"> Food Ordering Solutions</Link> <span className={styles.cornaer}> | </span>
-                <Link href="/ticket-booking-solutions" title="TII Train Ticket Booking Solution"> Train Ticket Booking Solutions</Link> 
+                <Link href="/ticket-booking-solutions" title="TII Train Ticket Booking Solution"> Train Ticket Booking Solutions</Link>
                 <div className={styles.ftrhd}>Services</div>
                 <Link href="/progressive-web-app-development" title="TII Progressive Web App Development Service">Progressive Web App Development</Link> <span className={styles.cornaer}> | </span>
                 <Link href="/mobile-app-development" title="TII Mobile App Development Service">Mobile App Development</Link> <span className={styles.cornaer}> | </span>
@@ -142,10 +142,10 @@ const Footer = () => {
                 <Link href="/3d-art" title="TII 3D Art">3D Art</Link> <span className={styles.cornaer}> | </span>
                 <Link href="/crm-solution" title="TII CRM Solutions">CRM Solutions</Link> <span className={styles.cornaer}> | </span>
                 <Link href="/e-commerence-development" title="TII e-Commerce Development Service">
-                    <span className="text-trans-none">e</span>-Commerce Development
+                  <span className="text-trans-none">e</span>-Commerce Development
                 </Link> <span className={styles.cornaer}> | </span>
-                
-           
+
+
                 <Link href="/search-engine-optimization" title="TII Search Engine Optimization">Search Engine Optimization</Link> <span className={styles.cornaer}> | </span>
                 <Link href="/pay-per-click-services" title="TII Pay Per Click Services">Pay Per Click Services</Link> <span className={styles.cornaer}> | </span>
                 <Link href="/keyword-research" title="TII Keyword Research">Keyword Research</Link> <span className={styles.cornaer}> | </span>
@@ -156,7 +156,7 @@ const Footer = () => {
                 <Link href="/digital-marketing" title="TII Digital Marketing">Digital Marketing</Link> <span className={styles.cornaer}> | </span>
                 <Link href="/enterprise-portal-solution" title="TII Enterprise Portal Solution">Enterprise Portal Solution</Link> <span className={styles.cornaer}> | </span>
                 <Link href="/magento-enterprise-solution" title="TII Magento Enterprise Solution">Magento Enterprise Solution</Link> <span className={styles.cornaer}> | </span>
-                <Link href="/conversion-rate-optimisation" title="TII Conversion Rate Optimisation.html">Conversion Rate Optimisation</Link> 
+                <Link href="/conversion-rate-optimisation" title="TII Conversion Rate Optimisation.html">Conversion Rate Optimisation</Link>
                 <div className={styles.ftrhd}>Technologies</div>
                 <Link href="/hire-asp-dot-net-developer" title="TII Hire ASP.NET Developer">ASP.NET</Link> <span className={styles.cornaer}> | </span>
                 <Link href="/hire-c-sharp-developer" title="TII Hire C# Developer">C#</Link> <span className={styles.cornaer}> | </span>
@@ -202,7 +202,7 @@ const Footer = () => {
                 <Link href="/hire-bigcommerce-developer" title="TII Hire BigCommerce Developer">BigCommerce</Link> <span className={styles.cornaer}> | </span>
                 <Link href="/hire-nopcommerce-developer" title="TII Hire nopCommerce Developer">NopCommerce</Link> <span className={styles.cornaer}> | </span>
                 <Link href="/hire-virtuemart-developer" title="TII Hire VirtueMart Developer">VirtueMart</Link> <span className={styles.cornaer}> | </span>
-                <Link href="/hire-zencart-developer" title="TII Hire Zencart Developer">Zencart</Link> 
+                <Link href="/hire-zencart-developer" title="TII Hire Zencart Developer">Zencart</Link>
 
                 <div className={styles.ftrhd}>Other Links</div>
                 <Link href="about-us" >About Us</Link> <span className={styles.cornaer}> | </span>
@@ -211,10 +211,10 @@ const Footer = () => {
                 <Link href="#" >Pricing</Link> <span className={styles.cornaer}>  </span>
                 <Link href="#" >Terms of Use</Link> <span className={styles.cornaer}> | </span>
                 <Link href="#" >Privacy Policy</Link>
-                
-          
-           
-            </div>
+
+
+
+              </div>
 
 
             </Col>
@@ -240,108 +240,20 @@ const Footer = () => {
               </div>
               <div className={styles.socialicons}>
                 <Link href="#"> <FaFacebookF size={20} className={styles.email} /></Link>
-                <Link href="#"> <AiOutlineInstagram  size={20} className={styles.email} /></Link>
-                <Link href="#"> <AiOutlineTwitter  size={20} className={styles.email} /></Link>
-                <Link href="#"> <AiFillLinkedin  size={20} className={styles.email} /></Link>
+                <Link href="#"> <AiOutlineInstagram size={20} className={styles.email} /></Link>
+                <Link href="#"> <AiOutlineTwitter size={20} className={styles.email} /></Link>
+                <Link href="#"> <AiFillLinkedin size={20} className={styles.email} /></Link>
                 <div className={styles.spacing}> </div>
-                <Link href="#"> <AiFillBehanceCircle  size={20} className={styles.email} /></Link>
+                <Link href="#"> <AiFillBehanceCircle size={20} className={styles.email} /></Link>
                 <Link href="#"> <BsPinterest size={20} className={styles.email} /></Link>
-                <Link href="#" > <Image  alt="bitswits"     src={icon} className={`${styles.email}`} /> </Link>
+                <Link href="#" > <Image alt="bitswits" src={icon} className={`${styles.email}`} /> </Link>
                 <Link href="#"> <FaTelegramPlane size={20} className={styles.email} /></Link>
               </div>
 
               <div className='mt-5'>
-                <Image  alt="bitswits"      src={apple} className="img-fluid w-75"  /> 
+                <Image alt="bitswits" src={apple} className="img-fluid w-75" />
               </div>
             </Col>
-            {/* <Col lg={2}>
-              <h3 className='font25 font-bold white fontf mb-2'>Discover</h3>
-              <ul className={styles.patner}>
-                <li> <Link href="#">About Us</Link> </li>
-                <li> <Link href="#">Work</Link> </li>
-                <li> <Link href="#">Services</Link> </li>
-                <li> <Link href="#">Blog</Link> </li>
-                <li> <Link href="#">Careers</Link> </li>
-              </ul>
-            </Col>
-            <Col lg={7}>
-              <Row>
-                <Col lg={4}>
-                  <div className='mb-4'>
-                    <h3 className='font25 font-bold white fontf mb-2'>WEB</h3>
-                    <ul className={styles.patner}>
-                      <li><Link href="#">Web Development</Link></li>
-                      <li><Link href="#">PHP Development Services</Link></li>
-                      <li><Link href="#">CRM Solutions</Link></li>
-                      <li><Link href="#">eCommerce Development</Link></li>
-                      <li><Link href="#">Enterprise Portal Solution</Link></li>
-                      <li><Link href="#">Magento Enterprise Solution</Link></li>
-                    </ul>
-                  </div>
-                  <div className='mb-4'>
-                    <h3 className='font25 font-bold white fontf mb-2'>GAME</h3>
-                    <ul className={styles.patner}>
-                      <li><Link href="#">Game Development</Link></li>
-                      <li><Link href="#">2d Art</Link></li>
-                      <li><Link href="#">3d Art</Link></li>
-                      <li><Link href="#">Augmented Reality</Link></li>
-                      <li><Link href="#">Virtual Reality</Link></li>
-                    </ul>
-                  </div>
-                </Col>
-                <Col lg={4}>
-                  <div className='mb-4'>
-                    <h3 className='font25 font-bold white fontf mb-2'>APP</h3>
-                    <ul className={styles.patner}>
-                      <li><Link href="#">Progressive Web App</Link></li>
-                      <li><Link href="#">Mobile App Development</Link></li>
-                      <li><Link href="#">Internet Of Things</Link></li>
-                      <li><Link href="#">Enterprise Mobility Solutions</Link></li>
-                    </ul>
-                  </div>
-                  <div className='mb-4'>
-                    <h3 className='font25 font-bold white fontf mb-2'>BLOCKCHAIN & AI</h3>
-                    <ul className={styles.patner}>
-                  
-                      <li><Link href="#">Mobile App Development</Link></li>
-                      <li><Link href="#">Game Development</Link></li>
-                      <li><Link href="#">Website Development</Link></li>
-                      <li><Link href="#">Blockchain Development</Link></li>
-                      <li><Link href="#">AI Development</Link></li>
-                      <li><Link href="#">AR/VR Development</Link></li>
-                      <li><Link href="#">UI/UX Design</Link></li>
-
-
-                    </ul>
-                  </div>
-                </Col>
-                <Col lg={4}>
-                  <div className='mb-4'>
-                    <h3 className='font25 font-bold white fontf mb-2'>SEO</h3>
-                    <ul className={styles.patner}>
-                      <li><Link href="#">Search Engine Optimization</Link></li>
-                      <li><Link href="#">Keyword Research</Link></li>
-                      <li><Link href="#">Link Building</Link></li>
-                    </ul>
-                  </div>
-                  <div className='mb-4'>
-                    <h3 className='font25 font-bold white fontf mb-2'>DIGITAL MARKETING</h3>
-                    <ul className={styles.patner}>
-                      <li><Link href="#">Social Media Optimization</Link></li>
-                      <li><Link href="#">Pay Per Click Services</Link></li>
-                      <li><Link href="#">Digital Marketing</Link></li>
-                      <li><Link href="#">Conversion Rate Optimisation</Link></li>
-                    </ul>
-                  </div>
-                  <div className='mb-4'>
-                    <h3 className='font25 font-bold white fontf mb-2'>DATA SCIENCE</h3>
-                    <ul className={styles.patner}>
-                      <li><Link href="#">Data Science</Link></li>
-                    </ul>
-                  </div>
-                </Col>
-              </Row>
-            </Col> */}
           </Row>
 
 

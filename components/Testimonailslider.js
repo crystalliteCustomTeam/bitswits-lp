@@ -22,8 +22,8 @@ export default function Testimonailslider() {
         slidesToScroll: 1,
         centerMode: false,
         variableWidth: false,
-        nextArrow: <Image src={right} className='img-fluid' />,
-        prevArrow: <Image src={left} className='img-fluid' />
+        nextArrow: <Image src={right} alt='Bitswits' className='img-fluid' />,
+        prevArrow: <Image src={left} alt='Bitswits' className='img-fluid' />
     };
 
 

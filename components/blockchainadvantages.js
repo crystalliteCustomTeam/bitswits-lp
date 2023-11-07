@@ -70,7 +70,7 @@ const GameAdvantages = () => {
 
 
                                 <div className={styles.tested}>
-                                    <Image quality={75} src={AdvantageOne} />
+                                    <Image quality={75} alt='Bitswits' src={AdvantageOne} />
                                 </div>
 
 

@@ -27,7 +27,7 @@ const NewaiWhat = () => {
                                 <Link href='javascript:;' className={`${styles.btn_txt} font-extrabold`}>
                                     Get to know us
                                     <span>
-                                        <Image quality={75} src={ButtonIcon} width={15} height={15} />
+                                        <Image quality={75} alt='Bitswits' src={ButtonIcon} width={15} height={15} />
                                     </span>
                                 </Link>
                             </div>
@@ -36,7 +36,7 @@ const NewaiWhat = () => {
                 </Container>
 
                 <div className='sec_image text-center pt-5'>
-                    <Image quality={75} src={WhatImage} className={styles.secImage} />
+                    <Image quality={75} alt='Bitswits' src={WhatImage} className={styles.secImage} />
                 </div>
                 <div className={styles.mixColor2}></div>
             </section>

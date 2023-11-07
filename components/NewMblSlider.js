@@ -38,7 +38,7 @@ const Newslider = () => {
                             <Slider {...awardslogo} className={` ${styles.nextalign1} prohome mt-4 mb-4`}>
 
                                 <div className={styles.high}>
-                                    <Image className='img-fluid' src={team1} />
+                                    <Image alt='Bitswits' className='img-fluid' src={team1} />
                                     <p className='mt-3 mb-3'>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
                                     <h3>Vivien Francis</h3>
                                     <p className={styles.digi}>Digital Marketing Consultant of Asia School of Business</p>
@@ -46,7 +46,7 @@ const Newslider = () => {
                                 </div>
 
                                 <div className={styles.high}>
-                                    <Image className='img-fluid' src={team1} />
+                                    <Image alt='Bitswits' className='img-fluid' src={team1} />
                                     <p className='mt-3 mb-3'>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
                                     <h3>Vivien Francis</h3>
                                     <p className={styles.digi}>Digital Marketing Consultant of Asia School of Business</p>
@@ -54,7 +54,7 @@ const Newslider = () => {
                                 </div>
 
                                 <div className={styles.high}>
-                                    <Image className='img-fluid' src={team1} />
+                                    <Image alt='Bitswits' className='img-fluid' src={team1} />
                                     <p className='mt-3 mb-3'>I do not give five star reviews easily and in fact save them for those who have truly exceeded my high expectations. Derrick and his team have earned my loyalty and respect through their transparent efforts of always placing the customer first.</p>
                                     <h3>Vivien Francis</h3>
                                     <p className={styles.digi}>Digital Marketing Consultant of Asia School of Business</p>

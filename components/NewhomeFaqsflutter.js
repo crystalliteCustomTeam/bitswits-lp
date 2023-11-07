@@ -113,7 +113,7 @@ const NewhomeFaqs = () => {
                             <div className={`${faq1show ? 'touch' : ''} mb-4 mb-lg-0 mt-5`}>
                                 <div onClick={faq1} className={styles.heading}>
                                     <h3>
-                                        How Much Does Flutter App Development Cost?  {faq1show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                        How Much Does Flutter App Development Cost?  {faq1show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -139,7 +139,7 @@ const NewhomeFaqs = () => {
                             <div className={`${faq2show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq2} className={styles.heading}>
                                     <h3>
-                                        Why Should I Choose Flutter for App Development? {faq2show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                        Why Should I Choose Flutter for App Development? {faq2show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -163,7 +163,7 @@ const NewhomeFaqs = () => {
                             <div className={`${faq3show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq3} className={styles.heading}>
                                     <h3>
-                                        What Are the Six 6 Advantages of Flutter? {faq3show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                        What Are the Six 6 Advantages of Flutter? {faq3show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -205,7 +205,7 @@ const NewhomeFaqs = () => {
                         <div className={`${faq4show ? 'touch' : ''} mb-4 mb-lg-0`}>
                             <div onClick={faq4} className={styles.heading}>
                                 <h3>
-                                What Is Flutter App Development? {faq4show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                What Is Flutter App Development? {faq4show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                 </h3>
                             </div>
 
@@ -229,7 +229,7 @@ const NewhomeFaqs = () => {
                         <div className={`${faq5show ? 'touch' : ''} mb-4 mb-lg-0`}>
                             <div onClick={faq5} className={styles.heading}>
                                 <h3>
-                                Is Flutter Good for Mobile App Development? {faq5show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                Is Flutter Good for Mobile App Development? {faq5show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                 </h3>
                             </div>
 
@@ -253,7 +253,7 @@ const NewhomeFaqs = () => {
                         <div className={faq6show ? 'touch' : ''}>
                             <div onClick={faq6} className={styles.heading}>
                                 <h3>
-                                What Does Flutter Firebase Do? {faq6show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                What Does Flutter Firebase Do? {faq6show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                 </h3>
                             </div>
 
@@ -277,7 +277,7 @@ const NewhomeFaqs = () => {
                         <div className={faq7show ? 'touch' : ''}>
                             <div onClick={faq7} className={styles.heading}>
                                 <h3>
-                                Why BitsWits Is an Ideal Choice for Flutter Apps Development. {faq7show ? <span className={styles.plus}>  <Image quality={75} src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} src={close} className='img-fluid' /> </span>}
+                                Why BitsWits Is an Ideal Choice for Flutter Apps Development. {faq7show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
                                 </h3>
                             </div>
 

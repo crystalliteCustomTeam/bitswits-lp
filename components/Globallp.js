@@ -56,21 +56,16 @@ const NewHomeGlobal = () => {
                                     <Image quality={75} src={bestgloba4} className='img-fluid' alt='bitswits' />
                                     <Image quality={75} src={bestglobal5} className='img-fluid' alt='bitswits' />
                                     <Image quality={75} src={bestglobal6} className='img-fluid' alt='bitswits' />
-
                                 </div>
 
                                 <div className={styles.pont}>
-                              
                                     <Image quality={75} src={bestglobal7} className='img-fluid' alt='bitswits' />
                                     <Image quality={75} src={bestgloba8} className='img-fluid' alt='bitswits' />
                                     <Image quality={75} src={bestglobal9} className='img-fluid' alt='bitswits' />
                                     <Image quality={75} src={bestglobal10} className='img-fluid' alt='bitswits' />
                                     <Image quality={75} src={bestglobal11} className='img-fluid' alt='bitswits' />
                                     <Image quality={75} src={bestgloba12} className='img-fluid' alt='bitswits' />
-
                                 </div>
-
-                              
                             </div>
 
                             <Slider {...lctonSlider} className={styles.lctnslide}>
@@ -86,9 +81,6 @@ const NewHomeGlobal = () => {
                                 <Image quality={75} src={bestglobal10} className='img-fluid' alt='bitswits' />
                                 <Image quality={75} src={bestglobal11} className='img-fluid' alt='bitswits' />
                                 <Image quality={75} src={bestgloba12} className='img-fluid' alt='bitswits' />
-
-
-
                             </Slider>
 
                         </Col>

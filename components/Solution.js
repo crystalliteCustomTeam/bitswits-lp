@@ -22,7 +22,7 @@ const Solutions = () => {
               <Link className={styles.about} href="#">LET'S CONNECT</Link>
             </Col>
             <Col lg={6}>
-              <Image quality={75} src={Solution} className='img-fluid mt-5 mt-sm-0'/>
+              <Image quality={75} alt='Bitswits' src={Solution} className='img-fluid mt-5 mt-sm-0'/>
             </Col>
           </Row>
         </Container>

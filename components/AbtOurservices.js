@@ -34,8 +34,8 @@ const AbtOurservices = () => {
                             <Accordion defaultActiveKey="0">
                                 <Accordion.Item eventKey="0">
                                     <Accordion.Header>
-                                        <Image  alt="bitswits"     src={icon1}  className='img-fluid' />
-                                    	Innovation
+                                        <Image alt="bitswits" src={icon1} className='img-fluid' />
+                                        Innovation
                                     </Accordion.Header>
                                     <Accordion.Body>
                                         Our <span className='grdiant'>top app developers</span> at BitsWits, focus on pushing boundaries and thinking outside the box to create amazing mobile applications that meet the user requirements. We are always looking for new ideas and technology to stay ahead of the competition.
@@ -43,7 +43,7 @@ const AbtOurservices = () => {
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="1">
                                     <Accordion.Header>
-                                        <Image  alt="bitswits"     src={icon2}  className='img-fluid' />
+                                        <Image alt="bitswits" src={icon2} className='img-fluid' />
                                         Timely Delivery
                                     </Accordion.Header>
                                     <Accordion.Body>
@@ -54,28 +54,28 @@ const AbtOurservices = () => {
 
                                 <Accordion.Item eventKey="2">
                                     <Accordion.Header>
-                                        <Image  alt="bitswits"     src={icon3}  className='img-fluid' />
-                                        Quick Collaboration 
+                                        <Image alt="bitswits" src={icon3} className='img-fluid' />
+                                        Quick Collaboration
                                     </Accordion.Header>
                                     <Accordion.Body>
-                                        At BitsWits, top <span className='grdiant'>mobile app development services</span> are offered with the help of teamwork and collaboration. Our professionals work closely with their clients throughout the development process while constantly seeking their feedback and input. 
+                                        At BitsWits, top <span className='grdiant'>mobile app development services</span> are offered with the help of teamwork and collaboration. Our professionals work closely with their clients throughout the development process while constantly seeking their feedback and input.
                                     </Accordion.Body>
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="3">
                                     <Accordion.Header>
-                                        <Image  alt="bitswits"     src={icon4}  className='img-fluid' />
-                                        Reliability and Security  
+                                        <Image alt="bitswits" src={icon4} className='img-fluid' />
+                                        Reliability and Security
                                     </Accordion.Header>
                                     <Accordion.Body>
-                                        Our expert <span className='grdiant'>app developers</span> and designers understand the significance of keeping their client’s data safe and secure. We implement strong security measures and industry-standard protocols to protect the information in our mobile applications, maintaining confidentiality and availability. 
+                                        Our expert <span className='grdiant'>app developers</span> and designers understand the significance of keeping their client’s data safe and secure. We implement strong security measures and industry-standard protocols to protect the information in our mobile applications, maintaining confidentiality and availability.
                                     </Accordion.Body>
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="4">
                                     <Accordion.Header>
-                                        <Image  alt="bitswits"     src={icon5}  className='img-fluid' />
-                                        Dealing with Challenges  
+                                        <Image alt="bitswits" src={icon5} className='img-fluid' />
+                                        Dealing with Challenges
                                     </Accordion.Header>
                                     <Accordion.Body>
                                         At BitsWits, problems and complications aren’t problems but opportunities to grow and learn. Our <span className='grdiant'>mobile app development company</span> and its team understand what failure is. We tend to find innovative solutions and deliver positive outcomes when dealing with any issue.

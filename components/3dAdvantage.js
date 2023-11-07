@@ -76,7 +76,7 @@ const New3dAdvantage = () => {
                             <Col xl={6}>
 
                                 <div className={styles.tested}>
-                                    <Image quality={75} src={AdvantageOne} />
+                                    <Image quality={75} src={AdvantageOne} alt='Bitswits' />
                                 </div>
 
 

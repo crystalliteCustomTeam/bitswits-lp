@@ -60,8 +60,7 @@
 
 .BannerSlider {
   padding-bottom: 15px;
-  margin-top: -145px;
-  background-color: #000;
+  margin-top: -150px;
 }
 
 @media screen and (max-width: 1600px) {
@@ -121,6 +120,7 @@
   .BannerSlider {
     margin-top: 0;
     padding-bottom: 0;
+    background-color: #000;
   }
 
 

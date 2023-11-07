@@ -63,7 +63,7 @@ const AboutUsSec = () => {
                             <h3 className='font20 fontf font-semibold mt-1 letterspace black'>About Us</h3>
                         </Col>
                         <Col lg={7}>
-                           
+
                         </Col>
                         <Col lg={3}>
                             <Link className={`${styles.bttns1} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
@@ -79,31 +79,31 @@ const AboutUsSec = () => {
                             <div className={styles.phoneSliderBox}>
                                 <Slider {...phoneSlider} className={`${styles.phoneSlider} phoneSlider`}>
                                     <div className={`${styles.slideImg} slideImg`}>
-                                        <Image  alt="bitswits"     src={phone1}  className='img-fluid'  />
+                                        <Image alt="bitswits" src={phone1} className='img-fluid' />
                                     </div>
                                     <div className={`${styles.slideImg} slideImg`}>
-                                        <Image  alt="bitswits"     src={phone2}  className='img-fluid'  />
+                                        <Image alt="bitswits" src={phone2} className='img-fluid' />
                                     </div>
                                     <div className={`${styles.slideImg} slideImg`}>
-                                        <Image  alt="bitswits"     src={phone3}  className='img-fluid'  />
+                                        <Image alt="bitswits" src={phone3} className='img-fluid' />
                                     </div>
                                     <div className={`${styles.slideImg} slideImg`}>
-                                        <Image  alt="bitswits"     src={phone4}  className='img-fluid'  />
+                                        <Image alt="bitswits" src={phone4} className='img-fluid' />
                                     </div>
                                     <div className={`${styles.slideImg} slideImg`}>
-                                        <Image  alt="bitswits"     src={phone5}  className='img-fluid'  />
+                                        <Image alt="bitswits" src={phone5} className='img-fluid' />
                                     </div>
                                     <div className={`${styles.slideImg} slideImg`}>
-                                        <Image  alt="bitswits"     src={phone6}  className='img-fluid'  />
+                                        <Image alt="bitswits" src={phone6} className='img-fluid' />
                                     </div>
                                     <div className={`${styles.slideImg} slideImg`}>
-                                        <Image  alt="bitswits"     src={phone7}  className='img-fluid'  />
+                                        <Image alt="bitswits" src={phone7} className='img-fluid' />
                                     </div>
                                     <div className={`${styles.slideImg} slideImg`}>
-                                        <Image  alt="bitswits"     src={phone8}  className='img-fluid'  />
+                                        <Image alt="bitswits" src={phone8} className='img-fluid' />
                                     </div>
                                     <div className={`${styles.slideImg} slideImg`}>
-                                        <Image  alt="bitswits"     src={phone9}  className='img-fluid'  />
+                                        <Image alt="bitswits" src={phone9} className='img-fluid' />
                                     </div>
                                 </Slider>
                             </div>
