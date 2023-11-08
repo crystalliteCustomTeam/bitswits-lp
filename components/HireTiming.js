@@ -58,8 +58,8 @@ const HireTiming = () => {
         arrows: false,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 3000,
-        speed: 500,
+        autoplaySpeed: 6000,
+        speed: 3000,
         slidesToShow: 1,
         slidesToScroll: 1,
     };

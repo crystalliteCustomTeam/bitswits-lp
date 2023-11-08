@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import Link from 'next/link';
 import Image from 'next/image'
-import styles from '@/styles/Footerlp.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
+import styles from '@/styles/Footerlp.module.css'
 //images
 import call from '../public/images/icons/phone-icon.webp'
 import mail from '../public/images/icons/email-icon.webp'
@@ -123,33 +123,23 @@ const Footerlp = () => {
                 <Row>
                   <Col md={6}>
                     <ul className='p-0 mb-0'>
-
-
-
-                      <li> <Link href="/ios-app-development">Ios App Development</Link></li>
-                      <li> <Link href="/mobile-application">Mobile App Development</Link></li>
-                      <li> <Link href="/android-application-development">Android App Development</Link></li>
-                      <li> <Link href="/flutter-mobile-development">Flutter App Development</Link></li>
-                      <li> <Link href="/react-native-mobile-development">React Native App Development</Link></li>
-                      <li> <Link href="/hybrid-mobile-apps-development">Hybrid Mobile Apps Development</Link></li>
-                      <li> <Link href="/cross-platform-app-development">Cross Platform App Development</Link></li>
-                      <li> <Link href="/web-app-development">Web App Development</Link></li>
-
-
+                      <li><Link href="/ios-app-development">Ios App Development</Link></li>
+                      <li><Link href="/mobile-application">Mobile App Development</Link></li>
+                      <li><Link href="/android-application-development">Android App Development</Link></li>
+                      <li><Link href="/flutter-mobile-development">Flutter App Development</Link></li>
+                      <li><Link href="/react-native-mobile-development">React Native App Development</Link></li>
+                      <li><Link href="/hybrid-mobile-apps-development">Hybrid Mobile Apps Development</Link></li>
+                      <li><Link href="/cross-platform-app-development">Cross Platform App Development</Link></li>
+                      <li><Link href="/web-app-development">Web App Development</Link></li>
                     </ul>
                   </Col>
                   <Col md={6}>
                     <ul className='p-0'>
-
-
-                      <li><Link href="/augmented-reality-apps-development-company">Augmented Reality Apps Development</Link>  </li>
-                      <li><Link href="/custom-mobile-development">Custom Mobile Development</Link>  </li>
-                      <li><Link href="#">ECommerce Development</Link>  </li>
-                      <li><Link href="#">Enterprise Portal Solution</Link>  </li>
-                      <li><Link href="#">Magento Enterprise Solution</Link>  </li>
-
-
-
+                      <li><Link href="/augmented-reality-apps-development-company">Augmented Reality Apps Development</Link></li>
+                      <li><Link href="/custom-mobile-development">Custom Mobile Development</Link></li>
+                      <li><Link href="#">ECommerce Development</Link></li>
+                      <li><Link href="#">Enterprise Portal Solution</Link></li>
+                      <li><Link href="#">Magento Enterprise Solution</Link></li>
                     </ul>
                   </Col>
                 </Row>
@@ -161,19 +151,14 @@ const Footerlp = () => {
                 <Row>
                   <Col md={6}>
                     <ul className='p-0 mb-0'>
-
-
-                      <li>  <Link href="/game-application-development" className="modal-toggle">  Game App Development</Link> </li>
-                      <li>  <Link href="/2d-game-development-company" className="modal-toggle">  2D Game Development </Link> </li>
-                      <li>  <Link href="/3d-game-development-company" className="modal-toggle">  3D Game Development </Link> </li>
-                      <li>  <Link href="/nft-game-development" className="modal-toggle">  NFT Game Development </Link> </li>
-                      <li>  <Link href="/blockchain-game-development" className="modal-toggle">  Blockchain Game Development </Link> </li>
-                      <li>  <Link href="#" className="modal-toggle">  Game Development </Link> </li>
-                      <li>  <Link href="#" className="modal-toggle">  2D Art </Link> </li>
-                      <li>  <Link href="#" className="modal-toggle">  3D Art </Link> </li>
-
-
-
+                      <li><Link href="/game-application-development" className="modal-toggle">Game App Development</Link></li>
+                      <li><Link href="/2d-game-development-company" className="modal-toggle">2D Game Development</Link></li>
+                      <li><Link href="/3d-game-development-company" className="modal-toggle">3D Game Development</Link></li>
+                      <li><Link href="/nft-game-development" className="modal-toggle">NFT Game Development</Link></li>
+                      <li><Link href="/blockchain-game-development" className="modal-toggle">Blockchain Game Development</Link></li>
+                      <li><Link href="#" className="modal-toggle">Game Development</Link></li>
+                      <li><Link href="#" className="modal-toggle">2D Art</Link></li>
+                      <li><Link href="#" className="modal-toggle">3D Art</Link></li>
                     </ul>
                   </Col>
                   <Col md={6}>
@@ -199,7 +184,7 @@ const Footerlp = () => {
                     <Link href="/about-us">About Us</Link>
                   </li>
                   <li>
-                    <Link href="#">Works</Link>
+                    <Link href="/our-work">Works</Link>
                   </li>
                   <li>
                     <Link href="#">Testimonials</Link>

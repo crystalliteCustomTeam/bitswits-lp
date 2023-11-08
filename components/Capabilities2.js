@@ -1,8 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
-import styles from '@/styles/Capabilities2.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/Capabilities2.module.css'
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -70,7 +71,7 @@ const Capabilities = () => {
                                 <Row>
                                     <Col xl={6}>
                                         <div className={styles.solved}>
-                                            
+
                                         </div>
 
                                         <div className={styles.deter}>
@@ -105,7 +106,7 @@ const Capabilities = () => {
                                 <Row>
                                     <Col xl={6}>
                                         <div className={styles.solved}>
-                                            
+
                                         </div>
                                         <div className={styles.deter}>
                                             <h3>Planning and Strategy</h3>
@@ -139,7 +140,7 @@ const Capabilities = () => {
                                 <Row>
                                     <Col xl={6}>
                                         <div className={styles.solved}>
-                                            
+
                                         </div>
                                         <div className={styles.deter}>
                                             <h3>Design and Wireframing</h3>
@@ -173,7 +174,7 @@ const Capabilities = () => {
                                 <Row>
                                     <Col xl={6}>
                                         <div className={styles.solved}>
-                                            
+
                                         </div>
                                         <div className={styles.deter}>
                                             <h3>Development and Coding</h3>
@@ -206,7 +207,7 @@ const Capabilities = () => {
                                 <Row>
                                     <Col xl={6}>
                                         <div className={styles.solved}>
-                                            
+
                                         </div>
                                         <div className={styles.deter}>
                                             <h3>Testing and Quality Assurance</h3>
@@ -218,7 +219,7 @@ const Capabilities = () => {
                                             </p>
                                             <p className={styles.cen}>
                                                 <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
-                                                Conduct User Acceptance Testing 
+                                                Conduct User Acceptance Testing
                                             </p>
                                             <p className={styles.cen}>
                                                 <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
@@ -239,7 +240,7 @@ const Capabilities = () => {
                                 <Row>
                                     <Col xl={6}>
                                         <div className={styles.solved}>
-                                            
+
                                         </div>
                                         <div className={styles.deter}>
                                             <h3>Launch and Deployment</h3>
@@ -255,7 +256,7 @@ const Capabilities = () => {
                                             </p>
                                             <p className={styles.cen}>
                                                 <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
-                                                Monitor Post-Launch Performance 
+                                                Monitor Post-Launch Performance
                                             </p>
                                         </div>
                                     </Col>

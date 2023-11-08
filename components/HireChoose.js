@@ -10,12 +10,12 @@ import 'slick-carousel/slick/slick-theme.css';
 const HireChoose = (props) => {
 
     const mblSlider = {
-        dots: true,
+        dots: false,
         arrows: false,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 3000,
-        speed: 500,
+        autoplaySpeed: 6000,
+        speed: 3000,
         slidesToShow: 1,
         slidesToScroll: 1,
         adaptiveHeight: true,

@@ -124,33 +124,23 @@ const Footerlp = () => {
                 <Row>
                   <Col md={6}>
                     <ul className='p-0 mb-0'>
-
-
-
-                      <li> <Link href="/ios-app-development">Ios App Development</Link></li>
-                      <li> <Link href="/mobile-application">Mobile App Development</Link></li>
-                      <li> <Link href="/android-application-development">Android App Development</Link></li>
-                      <li> <Link href="/flutter-mobile-development">Flutter App Development</Link></li>
-                      <li> <Link href="/react-native-mobile-development">React Native App Development</Link></li>
-                      <li> <Link href="/hybrid-mobile-apps-development">Hybrid Mobile Apps Development</Link></li>
-                      <li> <Link href="/cross-platform-app-development">Cross Platform App Development</Link></li>
-                      <li> <Link href="/web-app-development">Web App Development</Link></li>
-
-
+                      <li><Link href="/ios-app-development">Ios App Development</Link></li>
+                      <li><Link href="/mobile-application">Mobile App Development</Link></li>
+                      <li><Link href="/android-application-development">Android App Development</Link></li>
+                      <li><Link href="/flutter-mobile-development">Flutter App Development</Link></li>
+                      <li><Link href="/react-native-mobile-development">React Native App Development</Link></li>
+                      <li><Link href="/hybrid-mobile-apps-development">Hybrid Mobile Apps Development</Link></li>
+                      <li><Link href="/cross-platform-app-development">Cross Platform App Development</Link></li>
+                      <li><Link href="/web-app-development">Web App Development</Link></li>
                     </ul>
                   </Col>
                   <Col md={6}>
                     <ul className='p-0'>
-
-
-                      <li><Link href="/augmented-reality-apps-development-company">Augmented Reality Apps Development</Link>  </li>
-                      <li><Link href="/custom-mobile-development">Custom Mobile Development</Link>  </li>
-                      <li><Link href="#">ECommerce Development</Link>  </li>
-                      <li><Link href="#">Enterprise Portal Solution</Link>  </li>
-                      <li><Link href="#">Magento Enterprise Solution</Link>  </li>
-
-
-
+                      <li><Link href="/augmented-reality-apps-development-company">Augmented Reality Apps Development</Link></li>
+                      <li><Link href="/custom-mobile-development">Custom Mobile Development</Link></li>
+                      <li><Link href="#">ECommerce Development</Link></li>
+                      <li><Link href="#">Enterprise Portal Solution</Link></li>
+                      <li><Link href="#">Magento Enterprise Solution</Link></li>
                     </ul>
                   </Col>
                 </Row>
@@ -162,19 +152,14 @@ const Footerlp = () => {
                 <Row>
                   <Col md={6}>
                     <ul className='p-0 mb-0'>
-
-
-                      <li>  <Link href="/game-application-development" className="modal-toggle">  Game App Development</Link> </li>
-                      <li>  <Link href="/2d-game-development-company" className="modal-toggle">  2D Game Development </Link> </li>
-                      <li>  <Link href="/3d-game-development-company" className="modal-toggle">  3D Game Development </Link> </li>
-                      <li>  <Link href="/nft-game-development" className="modal-toggle">  NFT Game Development </Link> </li>
-                      <li>  <Link href="/blockchain-game-development" className="modal-toggle">  Blockchain Game Development </Link> </li>
-                      <li>  <Link href="#" className="modal-toggle">  Game Development </Link> </li>
-                      <li>  <Link href="#" className="modal-toggle">  2D Art </Link> </li>
-                      <li>  <Link href="#" className="modal-toggle">  3D Art </Link> </li>
-
-
-
+                      <li><Link href="/game-application-development" className="modal-toggle">Game App Development</Link></li>
+                      <li><Link href="/2d-game-development-company" className="modal-toggle">2D Game Development</Link></li>
+                      <li><Link href="/3d-game-development-company" className="modal-toggle">3D Game Development</Link></li>
+                      <li><Link href="/nft-game-development" className="modal-toggle">NFT Game Development</Link></li>
+                      <li><Link href="/blockchain-game-development" className="modal-toggle">Blockchain Game Development</Link></li>
+                      <li><Link href="#" className="modal-toggle">Game Development</Link></li>
+                      <li><Link href="#" className="modal-toggle">2D Art </Link> </li>
+                      <li><Link href="#" className="modal-toggle">3D Art </Link> </li>
                     </ul>
                   </Col>
                   <Col md={6}>
@@ -183,7 +168,6 @@ const Footerlp = () => {
                         <Link href="/blockchain-development-lp" className="modal-toggle">Blockchain Development</Link>
                         <Link href="/artificial-intelligence-development-company" className="modal-toggle">Artificial Intelligence</Link>
                       </li>
-
                     </ul>
                   </Col>
                 </Row>
@@ -200,7 +184,7 @@ const Footerlp = () => {
                     <Link href="/about-us">About Us</Link>
                   </li>
                   <li>
-                    <Link href="#">Works</Link>
+                    <Link href="/our-work">Works</Link>
                   </li>
                   <li>
                     <Link href="#">Testimonials</Link>
@@ -217,7 +201,6 @@ const Footerlp = () => {
                     <Link href="mailto:info@bitswits.co">
                       <Image alt="bitswits" className='img-fluid'
                         src={mail}
-
                         loading="lazy"
                       />
                       <span className="email f-uppercase">Contact Email</span>
@@ -227,7 +210,6 @@ const Footerlp = () => {
                     <Link href="tel:13123795987">
                       <Image alt="bitswits" className='img-fluid'
                         src={call}
-
                         loading="lazy"
                       />
                       <span className="number">+1 312 379 5987</span>
@@ -237,7 +219,6 @@ const Footerlp = () => {
                     <Link href="tel:18335006007">
                       <Image alt="bitswits" className='img-fluid'
                         src={call}
-
                         loading="lazy"
                       />
                       <span className="number">+1 833 500 6007</span>
@@ -257,7 +238,6 @@ const Footerlp = () => {
                     <Link href="https://www.facebook.com/officialbitswits" target="_blank" rel="noopener noreferrer">
                       <Image alt="bitswits" className='img-fluid'
                         src={fb}
-
                         loading="lazy"
                       />
                     </Link>
@@ -266,7 +246,6 @@ const Footerlp = () => {
                     <Link href="https://www.instagram.com/officialbitswits/" target="_blank" rel="noopener noreferrer">
                       <Image alt="bitswits" className='img-fluid'
                         src={inta}
-
                         loading="lazy"
                       />
                     </Link>
@@ -275,7 +254,6 @@ const Footerlp = () => {
                     <Link href="https://twitter.com/BitsWits_/" target="_blank" rel="noopener noreferrer">
                       <Image alt="bitswits" className='img-fluid'
                         src={tweet}
-
                         loading="lazy"
                       />
                     </Link>
@@ -284,7 +262,6 @@ const Footerlp = () => {
                     <Link href="https://www.linkedin.com/company/officialbitswits" target="_blank" rel="noopener noreferrer">
                       <Image alt="bitswits" className='img-fluid'
                         src={linkedin}
-
                         loading="lazy"
                       />
                     </Link>
@@ -293,7 +270,6 @@ const Footerlp = () => {
                     <Link href="https://www.youtube.com/@officialbitswits" target="_blank" rel="noopener noreferrer">
                       <Image alt="bitswits" className='img-fluid'
                         src={youtube}
-
                         loading="lazy"
                       />
                     </Link>

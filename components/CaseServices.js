@@ -2,8 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import styles from '@/styles/CaseServices.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
-//
-import tick from '../public/images/case-monkey/tick.png'
 
 
 const CaseServices = (props) => {

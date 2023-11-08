@@ -1,10 +1,6 @@
 .Overcoming {
   padding: 200px 0;
   background: #000;
-  /* background-size: 80%;
-  background-position: 185px top;
-  background-repeat: no-repeat;
-  background-image: url(../public/images/case-monkey/bg-image.png); */
 }
 
 .overBox {
@@ -62,7 +58,8 @@
   }
 
   .overBox {
-    height: 280px;
+    height: auto;
+    margin-bottom: 0;
   }
 }
 
@@ -73,6 +70,11 @@
 
   .overBox {
     height: auto;
-    padding: 30px 20px;
+    padding: 80px 20px 20px;
+  }
+
+  .overBox h3 {
+    font-size: 20px;
+    line-height: 30px;
   }
 }

@@ -6,6 +6,7 @@
   background-position: center;
   overflow: hidden;
   font-family: "Montserrat";
+  background-color: #000;
 }
 
 .contactCard {
@@ -234,6 +235,10 @@
 }
 
 @media screen and (max-width: 991px) {
+  .bannerContact {
+    background-image: unset;
+  }
+
   .line1::before {
     left: 15.5%;
   }
@@ -269,6 +274,14 @@
 }
 
 @media screen and (max-width: 767px) {
+  .bannerContact {
+    padding: 25px 0 0;
+  }
+
+  .contactCard {
+    padding: 120px 20px 10px;
+  }
+
   .bttns1 {
     width: 100%;
   }

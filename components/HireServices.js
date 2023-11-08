@@ -46,8 +46,8 @@ const HireServices = () => {
         arrows: false,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 3000,
-        speed: 500,
+        autoplaySpeed: 6000,
+        speed: 3000,
         adaptiveHeight: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -98,7 +98,7 @@ const HireServices = () => {
                         ))}
                     </Row>
                     {/* ========= Mobile ========== */}
-                    <Slider {...mblSlider} className={`mblSlider ${styles.mblSlider}`}>
+                    <Slider {...mblSlider} className={`mblSlider mblSlider2 ${styles.mblSlider}`}>
                         {serviceData.map((service, index) => (
                             <div key={index}>
                                 <Row className={`${styles.servRow} d-block d-lg-none`}>

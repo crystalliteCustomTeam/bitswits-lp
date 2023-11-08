@@ -89,7 +89,7 @@
 
 @media screen and (max-width: 991px) {
   .glamic {
-    padding: 50px 0;
+    padding: 50px 0 0;
   }
 
   .right {
@@ -112,7 +112,11 @@
 @media screen and (max-width: 767px) {
   .left h2,
   .leftText h3 {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .SecImg {
+    margin-top: 30px;
   }
 }

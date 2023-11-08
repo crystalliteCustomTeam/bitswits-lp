@@ -17,7 +17,7 @@ import icon7 from '../public/newHomePageImages/nexticon/7.png'
 import icon8 from '../public/newHomePageImages/nexticon/8.png'
 
 
-const Homenextproject = () => {
+const Homenextproject = (props) => {
 
   var awardslogo = {
     dots: false,
@@ -52,7 +52,7 @@ const Homenextproject = () => {
   return (
     <>
 
-      <section className={styles.texkp}>
+      <section className={`${styles.texkp} ${styles[props.asignClass]}`}>
         <Container>
           <Row>
             <Col xl={12}>
@@ -70,25 +70,25 @@ const Homenextproject = () => {
 
         <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-5`}>
           <div className={styles.strpImg}>
-            <Image alt="bitswits" src={icon3} className="img-fluid w-50" />
+            <Image alt="bitswits" src={icon3} className="img-fluid mx-auto w-50" />
           </div>
           <div className={styles.strpImg}>
-            <Image alt="bitswits" src={icon8} className="img-fluid w-50" />
+            <Image alt="bitswits" src={icon8} className="img-fluid mx-auto w-25" />
           </div>
           <div className={styles.strpImg}>
-            <Image alt="bitswits" src={icon4} className="img-fluid w-50" />
+            <Image alt="bitswits" src={icon4} className="img-fluid mx-auto w-50" />
           </div>
           <div className={styles.strpImg}>
-            <Image alt="bitswits" src={icon5} className="img-fluid w-50" />
+            <Image alt="bitswits" src={icon5} className="img-fluid mx-auto w-50" />
           </div>
           <div className={styles.strpImg}>
-            <Image alt="bitswits" src={icon6} className="img-fluid w-50" />
-          </div>
-          <div className={`${styles.strpImg} ${styles.minImg}`}>
-            <Image alt="bitswits" src={icon7} className="img-fluid w-50" />
+            <Image alt="bitswits" src={icon6} className="img-fluid mx-auto w-50" />
           </div>
           <div className={styles.strpImg}>
-            <Image alt="bitswits" src={icon2} className="img-fluid w-50" />
+            <Image alt="bitswits" src={icon7} className="img-fluid mx-auto w-25" />
+          </div>
+          <div className={styles.strpImg}>
+            <Image alt="bitswits" src={icon2} className="img-fluid mx-auto w-50" />
           </div>
         </Slider>
       </section>

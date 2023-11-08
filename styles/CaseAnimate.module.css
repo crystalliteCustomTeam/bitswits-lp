@@ -8,11 +8,13 @@
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .animate {
     padding-bottom: 50px;
   }
-  
+}
+
+@media screen and (max-width: 767px) {
   .secImg2{
       margin-top: 0px;
   }

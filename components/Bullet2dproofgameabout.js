@@ -1,31 +1,24 @@
 import React from 'react'
-import styles from "@/styles/Bullet2dproofgame2.module.css";
+import Link from 'next/link'
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
-import Link from 'next/link'
-
+import styles from "@/styles/Bullet2dproofgame2.module.css";
+//
 import icon11 from '../public/newHomePageImages/done.png'
+
 
 const Bullet2dproofgame = () => {
     return (
 
         <>
             <div className={styles.creative2}>
-
-
                 <section className={styles.creative}>
-
                     <Container>
-
                         <Row className={styles.game}>
                             <Col xl={10}>
                                 <h3 className='white mb-0'>Services</h3>
                                 <h2 className='mb-5'> Bitswits: The Core <br></br> Values! </h2>
-
-
                             </Col>
-
-
                         </Row>
 
                         <Row className={styles.boy}>
@@ -39,16 +32,15 @@ const Bullet2dproofgame = () => {
                                     <div className={styles.gredient}>
                                         <h3>Timely Delivery</h3>
                                         <p>We understand that time is valuable and meeting deadlines is important for our client’s success. We prioritize timely deliveries while communicating and updating our clients about the delivery. Professionals at this mobile app development company ensure their client’s projects stay on track. Quality Excellence
-BitsWits take great pride in delivering the best mobile app development solutions of the highest quality. By following strict standards and best practices in every step of development, testing, and deployment, our professional app developers ensure that our applications run smoothly, providing quality outcomes.</p>
+                                            BitsWits take great pride in delivering the best mobile app development solutions of the highest quality. By following strict standards and best practices in every step of development, testing, and deployment, our professional app developers ensure that our applications run smoothly, providing quality outcomes.</p>
                                     </div>
                                 </div>
-
 
                                 <div className={` ${styles.dscool} mt-3`}>
                                     <div className={styles.gredient}>
                                         <h3>Quick Collaboration</h3>
                                         <p>At BitsWits, top mobile app development services are offered with the help of teamwork and collaboration. Our professionals work closely with their clients throughout the development process while constantly seeking their feedback and input.
-</p>
+                                        </p>
                                     </div>
                                     <div className={styles.gredient}>
                                         <h3>Reliability and Security</h3>
@@ -57,39 +49,26 @@ BitsWits take great pride in delivering the best mobile app development solution
                                 </div>
 
                                 <div className={` ${styles.dscool} mt-3`}>
-                                
+
                                     <div className={styles.gredient}>
                                         <h3>Dealing with Challanges</h3>
                                         <p>At BitsWits, problems and complications aren’t problems but opportunities to grow and learn. Our mobile app development company and its team understand what failure is. We tend to find innovative solutions and deliver positive outcomes when dealing with any issue.</p>
                                     </div>
-
                                     <div className={styles.gredient1}>
-                                       <Link href="#">CONSULT WITH OUR TEAM!</Link>
+                                        <Link href="#">CONSULT WITH OUR TEAM!</Link>
                                     </div>
                                 </div>
-
-
-
                             </Col>
                             <Col xl={6}>
                                 <div className={styles.tested1}>
                                     <Image quality={75} className='img-fluid' src={icon11} alt='bitswits' />
                                 </div>
-
-
                             </Col>
                         </Row>
                     </Container>
-
                 </section>
-
             </div>
-
-
-
-
         </>
-
 
     )
 }

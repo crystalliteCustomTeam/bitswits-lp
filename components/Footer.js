@@ -1,8 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '@/styles/Footer.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/Footer.module.css'
+//
 import { BsFillEnvelopeFill } from 'react-icons/bs'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import { FaFacebookF } from 'react-icons/fa'
@@ -12,12 +13,12 @@ import { AiFillLinkedin } from 'react-icons/ai'
 import { BsPinterest } from 'react-icons/bs'
 import { AiFillBehanceCircle } from 'react-icons/ai'
 import { FaTelegramPlane } from 'react-icons/fa'
-import icon from '../public/images/footer/icon.png'
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //images
-import logo from '../public/images/icons/footerlogo.png'
+import icon from '../public/images/footer/icon.png'
 import icon1 from '../public/images/awards/award1.png'
 import icon2 from '../public/images/awards/award2.png'
 import icon3 from '../public/images/awards/award3.png'
@@ -211,12 +212,7 @@ const Footer = () => {
                 <Link href="#" >Pricing</Link> <span className={styles.cornaer}>  </span>
                 <Link href="#" >Terms of Use</Link> <span className={styles.cornaer}> | </span>
                 <Link href="#" >Privacy Policy</Link>
-
-
-
               </div>
-
-
             </Col>
 
             <Col lg={3}>
@@ -256,7 +252,6 @@ const Footer = () => {
             </Col>
           </Row>
 
-
           <Row className={styles.policy}>
             <Col lg={6}>
               <p className='font15 font-medium white fontf'>Copyright © 2023 BitsWits. | Brand Of Bhaoo Incorporation Company</p>
@@ -265,12 +260,8 @@ const Footer = () => {
               {/* <p className='font15 font-medium white fontf right'> <Link className='white' href="#">Terms of Use</Link>  | <Link className='white' href="#">Privacy Policy</Link></p> */}
             </Col>
           </Row>
-
         </Container>
-
       </section>
-
-
     </>
   )
 }

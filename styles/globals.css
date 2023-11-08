@@ -3,9 +3,11 @@
   --white: #fff;
   --primary: #f32f53;
   --mry: #f32f53;
-  --gradient: linear-gradient(90deg,
-      rgba(116, 25, 227, 0.5) 0%,
-      rgba(243, 47, 92, 0.5) 100%);
+  --gradient: linear-gradient(
+    90deg,
+    rgba(116, 25, 227, 0.5) 0%,
+    rgba(243, 47, 92, 0.5) 100%
+  );
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
@@ -151,7 +153,7 @@ div {
 
 .font14 {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 24px;
 }
 
 .font15 {
@@ -348,7 +350,7 @@ div {
   background: #ed017c;
   background: linear-gradient(to right, #ed017c 0, #ed1644 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent
+  -webkit-text-fill-color: transparent;
 }
 
 .textGray {
@@ -496,6 +498,10 @@ a {
 
 .marque {
   margin-left: 4%;
+}
+
+.bg-black {
+  background-color: #000;
 }
 
 /* ======Btns====== */
@@ -710,9 +716,12 @@ a {
   top: 50%;
   transform: translate(-50%, -50%) scale(0);
   background-image: var(--gradient);
-  filter: blur(131px);
-  /* opacity: 0.5; */
-  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(130px);
+  opacity: 0.7;
+  border-radius: 100%;
   z-index: 2;
 }
 
@@ -989,6 +998,11 @@ a {
 
 /* =============Other Sliders============== */
 
+.caseSlider .slick-track {
+  display: flex;
+  gap: 20px;
+}
+
 .tabs .form-select {
   background-size: 30px;
 }
@@ -1000,6 +1014,12 @@ a {
 
 .mblSlider .slick-dots {
   bottom: -40px;
+  width: 90%;
+}
+
+.mblSlider2 .slick-dots {
+  bottom: -40px;
+  width: 100%;
 }
 
 .contactSlider .slick-slide img {
@@ -1145,11 +1165,6 @@ input::-webkit-inner-spin-button {
   margin-bottom: 0.5%;
 }
 
-
-
-
-
-
 .swiper {
   width: 100%;
   height: 100%;
@@ -1168,8 +1183,6 @@ input::-webkit-inner-spin-button {
 .swiper-slide-active .card {
   transform: scale(1.2);
 }
-
-
 
 .swiper {
   margin-left: auto;
@@ -1201,7 +1214,6 @@ input::-webkit-inner-spin-button {
   width: 155px !important;
   margin-top: 10%;
 }
-
 
 /* ===============About Us Slider================ */
 

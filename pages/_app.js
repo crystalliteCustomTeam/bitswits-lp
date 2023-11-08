@@ -1,14 +1,13 @@
+import { useRouter } from "next/router";
+import 'bootstrap/dist/css/bootstrap.css';
+import '@/styles/globals.css'
+//
 import Header from '@/components/Header';
 import Headerlp from '@/components/Headerlp';
 import Footernewfy from '@/components/Footernewfydesign';
 import Footernewlp from '@/components/Footernewlp';
 import Cursor from "@/components/Cursor";
-import { useRouter } from "next/router";
-import '@/styles/globals.css'
-import 'bootstrap/dist/css/bootstrap.css';
 import Footernewdesign from '@/components/Footernewdesign';
-import Script from 'next/script';
-import Head from 'next/head';
 import Headerlphome from '@/components/Headerlphome';
 import EcommerceBanner from '@/components/EcommerceBanner';
 import EcommerceFooter from '@/components/EcommerceFooter';
@@ -63,6 +62,11 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/native-developer'
     || router.pathname == '/mobile-developer'
     || router.pathname == '/indexnew'
+    || router.pathname == '/our-work'
+    || router.pathname == '/about-us'
+    || router.pathname == '/contact-us'
+    || router.pathname == '/privacy-policy'
+    || router.pathname == '/term-and-condition'
     || router.pathname == '/top-ecommerce-app-development-company'
 
 
