@@ -40,19 +40,17 @@
 }
 
 .Services .btns a:first-child {
-    background-color: var(--w-color);
-    color: var(--b-color);
-    border: inherit;
-    border-radius: 5px;
-    font-size: 14px;
+    background-color: #4a78ef;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2px;
 }
 
 .Services .btns a:last-child {
-    background-color: #f52674;
+    background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
     color: white;
     border: inherit;
-    border-radius: 5px;
-    font-size: 14px;
+    border: 1px solid white;
 }
 
 .lists {
@@ -63,7 +61,9 @@
 .box:hover p {
     opacity: 1;
     transition: .3s;
-    color: #ed017c;
+    background: linear-gradient(to right, #eb335b 35%, #4a78ef 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 600;
 }
 
@@ -73,13 +73,13 @@
 }
 
 .box p {
-    opacity: 0.3;
+    opacity: 0.7;
     transition: .3s;
     color: white;
 }
 
 .box img {
-    filter: grayscale(1);
+    filter: grayscale(2) brightness(3.5);
     transition: .3s;
 }
 
@@ -153,5 +153,9 @@
 
     .Services {
         padding-bottom: 45px;
+    }
+
+    .Services {
+        padding-top: 50px;
     }
 }

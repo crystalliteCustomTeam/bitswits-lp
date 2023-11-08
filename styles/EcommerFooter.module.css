@@ -1,8 +1,7 @@
 .footer {
     background: #000;
-    padding-bottom: 120px;
+    padding-bottom: 20px;
 }
-
 
 .award {
     margin-top: -200px;
@@ -39,10 +38,40 @@
     transition: ease-in-out 0.4s;
 }
 
+.icons {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 12px 14px;
+    border-radius: 30px;
+    margin-top: 20px;
+    gap: 0 13px;
+}
+
+.icons p {
+    padding-right: 10px;
+}
+
+.borderRight {
+    border-right: 1px solid black;
+}
+
+.copyright {
+    background-color: #1e1d1e;
+    padding: 1rem 0;
+}
+
+
 
 @media screen and (max-width: 991px) {
     .footerpara {
         max-width: unset;
+    }
+
+    .footerpara {
+        max-width: max-content;
+        background-color: white;
+        margin: 38px auto 0;
     }
 }
 
@@ -54,5 +83,13 @@
     .award {
         margin-top: -185px;
         padding: 80px 0 30px;
+    }
+
+    .official{
+        flex-direction: column;
+    }
+
+    .footerpara {
+        margin: 40px auto 0;
     }
 }

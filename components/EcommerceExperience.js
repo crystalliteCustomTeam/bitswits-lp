@@ -13,7 +13,7 @@ const EcommerceExperience = () => {
                 <Container>
                     <Row>
                         <Col lg={6} xl={3}>
-                            <h2 className='font35 textGray font-extrabold'>Experience Our <br /> <span className='text-white'>CMMI DEV/3 expertise,</span> <br /> with bug-free <br /> development, <br /> timely deliveries <br /> and smooth execution. Are <br /> you <span className='ecommercegredient'>curious about our process? <br /> check it out <br /> and hire us for <br /> your ecommerce <br /> development <br /> project!</span>
+                            <h2 className='font35 textGray font-extrabold'>Experience Our <br /> <span className='text-white'>CMMI DEV/3 expertise,</span> <br /> with bug-free <br /> development, <br /> timely deliveries <br /> and smooth execution. Are <br /> you <span className='grdiant '>curious about our process? <br /> check it out <br /> and hire us for <br /> your ecommerce <br /> development <br /> project!</span>
                             </h2>
                         </Col>
                         <Col lg={6} xl={3}>

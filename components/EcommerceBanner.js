@@ -127,23 +127,23 @@ const EcommerceBanner = () => {
                     </Col>
                     <Col lg={6} xl={4} className='p-0'>
                         <div className={styles.formsbg}>
-                            <ul className='d-flex align-items-center justify-content-evenly'>
+                            <ul className='d-flex align-items-center justify-content-evenly pt-3 pt-sm-0'>
                                 <li>
                                     <Link href="mailto:;" className='d-flex align-items-center'>
                                         <Image src={Email} alt='email' width={18} height={18} />
-                                        <span className='font14 text-black font-medium ms-2'>Email</span>
+                                        <span className='font14 text-white font-medium ms-2'>Email</span>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="tel:;" className='d-flex align-items-center'>
                                         <Image src={Phone} alt='email' width={18} height={18} />
-                                        <span className='font14 text-black font-medium ms-2'>Call Now</span>
+                                        <span className='font14 text-white font-medium ms-2'>Call Now</span>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="javascript:;" className='d-flex align-items-center'>
                                         <Image src={Support} alt='email' width={18} height={18} />
-                                        <span className='font14 text-black font-medium ms-2'>Live Chat</span>
+                                        <span className='font14 text-white font-medium ms-2'>Live Chat</span>
                                     </Link>
                                 </li>
                             </ul>
@@ -155,17 +155,17 @@ const EcommerceBanner = () => {
                             </p>
                             <Form className={styles.forms}>
                                 <h5 className='text-white font-bold font-28 text-center mb-3'>Make An Obligation-Free Enquiry</h5>
-                                <input type='text' className='mb-2' placeholder="Hi, what's your name?*" required />
-                                <input type='text' className='mb-2' placeholder="What's your email address?" required />
-                                <input type='tel' className='mb-2' placeholder="Your contact number" required />
+                                <input type='text' className='mb-3' placeholder="Hi, what's your name?*" required />
+                                <input type='text' className='mb-3' placeholder="What's your email address?" required />
+                                <input type='tel' className='mb-3' placeholder="Your contact number" required />
                                 <textarea rows={5} placeholder='Please include any notes or specific questions here'></textarea>
                                 <div className='d-flex align-items-center justify-content-between pt-3'>
                                     <span className='text-white font-medium font11'>We takes your privacy seriously. Read our <Link href="javascript:;" className='text-white d-block font-bold'>Privacy Notice.</Link> </span>
                                     <Button type='submit' className={`text-white bg-black rounded-2 ${styles.secBtn}`}>ENQUIRE NOW</Button>
                                 </div>
-                                <h5 className='text-white font-bold font-28 text-center mt-5 mb-4'>OUR OFFICES</h5>
+                                <h5 className='text-white font-bold font-28 text-center mt-4 mb-4'>OUR OFFICES</h5>
                                 <Row>
-                                    <Col sm={4}>
+                                    <Col className='col-4' sm={4}>
                                         <div className='text-center'>
                                             <div className='image'>
                                                 <Image src={USA} alt='USA' />
@@ -176,7 +176,7 @@ const EcommerceBanner = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col sm={4}>
+                                    <Col className='col-4' sm={4}>
                                         <div className='text-center'>
                                             <div className='image'>
                                                 <Image src={UAE} alt='UAE' />
@@ -187,7 +187,7 @@ const EcommerceBanner = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col sm={4}>
+                                    <Col className='col-4' sm={4}>
                                         <div className='text-center'>
                                             <div className='image'>
                                                 <Image src={Malaysia} alt='Malaysia' />

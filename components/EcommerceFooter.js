@@ -8,6 +8,11 @@ import Link from 'next/link'
 import Award from 'public/ecommerce/award.svg'
 import Envelop from 'public/ecommerce/envelop.svg'
 import Phone from 'public/ecommerce/phone.svg'
+import LinkedIn from 'public/ecommerce/linkedin.svg'
+import Twitter from 'public/ecommerce/twitter.svg'
+import Youtube from 'public/ecommerce/youtube.svg'
+import Instagram from 'public/ecommerce/instagram.svg'
+import Pinterest from 'public/ecommerce/pinterest.svg'
 
 
 const EcommerceFooter = () => {
@@ -15,7 +20,7 @@ const EcommerceFooter = () => {
         <>
             <section className={styles.footer}>
                 <Container>
-                    <Row>
+                    <Row className={styles.borderbottom}>
                         <Col lg={12}>
                             <div className={styles.award}>
                                 <Image src={Award} alt='Award' />
@@ -159,7 +164,31 @@ const EcommerceFooter = () => {
                             </ul>
                         </Col>
                     </Row>
+                    <div className={`d-flex align-items-center justify-content-between ${styles.official}`}>
+                        <div className={`${styles.icons}`}>
+                            <p className={`mb-0 font15   font-bold ${styles.borderRight}`}>Official Channels</p>
+
+                            <div className='d-flex align-items-center gap-2'>
+                                <Image alt='Icons' src={LinkedIn} />
+                                <Image alt='Icons' src={Twitter} />
+                                <Image alt='Icons' src={Youtube} />
+                                <Image alt='Icons' src={Instagram} />
+                                <Image alt='Icons' src={Pinterest} />
+                            </div>
+
+                        </div>
+                        <div className='d-flex align-items-center gap-2 justify-content-center pt-4 sm:pt-0'>
+                            <Link href="javascript:;" className='font12 lightgrey'>Terms of Use.
+                            </Link>
+                            <Link href="javascript:;" className='font12 lightgrey'>Privacy Policy.
+                            </Link>
+                        </div>
+                    </div>
                 </Container>
+            </section>
+            <section className={`${styles.copyright} ${styles.official} d-flex align-items-center justify-content-center`}>
+                <p className='text-white font14 font-medium mb-0 me-2'>Copyright © 2023 BitsWits.</p>
+                <Link href="javascript:;" className='text-white font13 font-medium'>Brand Of Bhaoo Incorporation Company</Link>
             </section>
         </>
     )

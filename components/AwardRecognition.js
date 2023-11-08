@@ -52,34 +52,34 @@ const AwardRecognition = () => {
                         <Col lg={8}>
                             <div className={styles.slider}>
                                 <Slider {...bannerslider} className={styles.newLogoSlide}>
-                                    <div className="">
+                                    <div>
                                         <Image alt="bitswits" width={131} height={10} src={banImg1} className="img-fluid" />
                                     </div>
-                                    <div className="">
+                                    <div>
                                         <Image alt="bitswits" width={131} height={10} src={banImg2} className="img-fluid" />
                                     </div>
-                                    <div className="">
+                                    <div>
                                         <Image alt="bitswits" width={131} height={10} src={banImg3} className="img-fluid" />
                                     </div>
-                                    <div className="">
+                                    <div>
                                         <Image alt="bitswits" width={131} height={10} src={banImg4} className="img-fluid" />
                                     </div>
-                                    <div className="">
+                                    <div>
                                         <Image alt="bitswits" width={131} height={10} src={banImg5} className="img-fluid" />
                                     </div>
-                                    <div className="">
+                                    <div>
                                         <Image alt="bitswits" width={131} height={10} src={banImg1} className="img-fluid" />
                                     </div>
-                                    <div className="">
+                                    <div>
                                         <Image alt="bitswits" width={131} height={10} src={banImg2} className="img-fluid" />
                                     </div>
-                                    <div className="">
+                                    <div>
                                         <Image alt="bitswits" width={131} height={10} src={banImg3} className="img-fluid" />
                                     </div>
-                                    <div className="">
+                                    <div>
                                         <Image alt="bitswits" width={131} height={10} src={banImg4} className="img-fluid" />
                                     </div>
-                                    <div className="">
+                                    <div>
                                         <Image alt="bitswits" width={131} height={10} src={banImg5} className="img-fluid" />
                                     </div>
                                 </Slider>

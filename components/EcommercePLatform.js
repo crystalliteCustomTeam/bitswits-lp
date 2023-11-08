@@ -16,9 +16,9 @@ const EcommercePLatform = () => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                            <h4 className='font20 ecommercegredient font-bold mb-0'>Top</h4>
-                            <h2 className='font50 ecommercegredient font-bold mb-0'> Ecommerce Platforms!</h2>
-                            <p className='font14 text-black font-bold mb-3'>Begin on a retail revolution with our diverse eCommerce development services.</p>
+                            <h4 className='font20 text-white font-bold mb-0 text-white'>Top</h4>
+                            <h2 className='font50 text-white font-bold mb-0'> Ecommerce Platforms!</h2>
+                            <p className='font16 text-white mb-3'>Begin on a retail revolution with our diverse eCommerce development services.</p>
                             <div className={`d-flex ${styles.flexCard}`}>
                                 <div className={`${styles.expendCard} ${styles.shopify}`}>
                                     <Image alt='Bitswits' src={Shopify} />
