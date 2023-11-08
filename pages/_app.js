@@ -18,6 +18,11 @@ export default function App({ Component, pageProps }) {
   const router = useRouter();
 
   const mouse = router.pathname == '/'
+    || router.pathname == '/about-us'
+    || router.pathname == '/contact-us'
+    || router.pathname == '/our-work'
+    || router.pathname == '/privacy-policy'
+    || router.pathname == '/term-and-condition'
     || router.pathname == '/ios-app-development'
     || router.pathname == '/android-application-development'
     || router.pathname == '/augmented-reality-apps-development-company'
@@ -62,18 +67,13 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/native-developer'
     || router.pathname == '/mobile-developer'
     || router.pathname == '/indexnew'
-    || router.pathname == '/our-work'
-    || router.pathname == '/about-us'
-    || router.pathname == '/contact-us'
-    || router.pathname == '/privacy-policy'
-    || router.pathname == '/term-and-condition'
     || router.pathname == '/top-ecommerce-app-development-company'
-
 
 
   const newlps = router.pathname == '/mobile-app-development-company-lp'
     || router.pathname == '/mobile-app-development-company-lp2'
 
+    
   const newhomepage = router.pathname == '/indexnew';
   const newecommercepage = router.pathname == '/top-ecommerce-app-development-company';
 
