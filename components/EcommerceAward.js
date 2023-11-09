@@ -1,19 +1,20 @@
 import React from 'react'
+import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap'
-import styles from '@/styles/Award.module.css'
+import styles from '@/styles/EcommerceAward.module.css'
+//
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 ///
 import banImg1 from 'public/ecommerce/1.svg'
 import banImg2 from 'public/ecommerce/2.svg'
 import banImg3 from 'public/ecommerce/3.svg'
 import banImg4 from 'public/ecommerce/4.svg'
 import banImg5 from 'public/ecommerce/5.svg'
-import Image from 'next/image';
 
-const AwardRecognition = () => {
+
+const EcommerceAward = () => {
 
     var bannerslider = {
         dots: false,
@@ -92,4 +93,4 @@ const AwardRecognition = () => {
     )
 }
 
-export default AwardRecognition
+export default EcommerceAward

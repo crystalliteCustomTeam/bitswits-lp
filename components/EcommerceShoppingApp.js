@@ -1,14 +1,13 @@
-import Image from 'next/image'
-import styles from '@/styles/shoppingapp.module.css'
-import Link from 'next/link'
 import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
 import { Col, Container, Row } from 'react-bootstrap'
-
+import styles from '@/styles/EcommerceShoppingApp.module.css'
 ///
 import RightArrow from 'public/ecommerce/r-arrow.svg'
 
 
-const ShoppingApp = () => {
+const EcommerceShoppingApp = () => {
     return (
         <>
             <section className={styles.shoppingApp}>
@@ -36,4 +35,4 @@ const ShoppingApp = () => {
     )
 }
 
-export default ShoppingApp
+export default EcommerceShoppingApp

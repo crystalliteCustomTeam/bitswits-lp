@@ -14,7 +14,7 @@ import HomeLocation from '@/components/HomeLocation';
 import NativeBanner from '@/components/NativeBanner';
 import NewNativeServices from '@/components/NewNativeServices';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
-import NewMblWhy from '@/components/NewMblWhy';
+import NewMblWhy from '@/components/ServisesWhy';
 import Technologieswe from '@/components/Technologieswe';
 import NewHomeAbout from '@/components/NewHomePageAbout';
 import NewHomeGlobal from '@/components/NewHomeGlobal';

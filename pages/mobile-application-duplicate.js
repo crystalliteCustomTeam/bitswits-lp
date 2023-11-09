@@ -8,7 +8,7 @@ import NewMblWho from '@/components/NewMblWho';
 import NewMblWhat from '@/components/NewMblWhat';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 import NewMblServices from '@/components/NewMblServices';
-import NewMblWhy from "@/components/NewMblWhy";
+import NewMblWhy from "@/components/ServisesWhy";
 import NewiosPortFolioduplicate from '@/components/NewiosPortFolioduplicate';
 import Capabilities from '@/components/Capabilities';
 import Newsuccess from '@/components/NewMblSuccess';

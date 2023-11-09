@@ -1,23 +1,22 @@
 import React from 'react'
-import styles from "@/styles/Iosbanner.module.css";
+import Link from 'next/link'
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
-import Link from 'next/link'
+import styles from "@/styles/Iosbanner.module.css";
 //
 import BannerImage from "@/public/andriodapplication/andriod.png"
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+//
 import icon20 from '../public/newHomePageImages/nexticon/1.png'
 import icon30 from '../public/newHomePageImages/nexticon/2.png'
 import icon40 from '../public/newHomePageImages/nexticon/3.png'
 import icon50 from '../public/newHomePageImages/nexticon/5.png'
 import icon60 from '../public/newHomePageImages/nexticon/6.png'
 import icon70 from '../public/newHomePageImages/nexticon/7.png'
- import icon80 from '../public/newHomePageImages/nexticon/8.png'
-
+import icon80 from '../public/newHomePageImages/nexticon/8.png'
 
 
 const Iosbanner = () => {
@@ -65,26 +64,19 @@ const Iosbanner = () => {
                                 Our iOS App <br></br>
                                 Development Company
                             </h3>
-
                             <p className='white center mb-4'>Our iOS development team works with you to determine the ideal features, design, and user <br></br> experience that will make your app a success. We also take care of all the technical details, including <br></br> testing and security measures.</p>
-
-
                             <div className={styles.pont}>
                                 <Link className={styles.about} href="tel:+18335006007">LET'S CONNECT</Link>
                             </div>
-
                             <div className='mt-5 center'>
                                 <Image quality={75} alt='Bitswits' src={BannerImage} className={`img-fluid`} />
                             </div>
-
                         </Col>
                     </Row>
                 </Container>
-                 
 
                 <div>
                     <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-5`}>
-
                         <div className={styles.strpImg}>
                             <Image alt="bitswits" src={icon20} className="img-fluid w-50" />
                         </div>
@@ -106,7 +98,6 @@ const Iosbanner = () => {
                         <div className={`${styles.strpImg} ${styles.minImg}`}>
                             <Image alt="bitswits" src={icon70} className="img-fluid w-25" />
                         </div>
-
                     </Slider>
                 </div>
             </section>

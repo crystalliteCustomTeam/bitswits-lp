@@ -16,7 +16,7 @@ import NewHomeGlobal from "@/components/NewHomeGlobal";
 import NewHomeSlider from "@/components/NewHomeSlider";
 import Technologieswe from "@/components/NewMblTechnologiesWe";
 import Homenextproject from "@/components/Homenextproject";
-import NewMblWhy from "@/components/NewMblWhy";
+import NewMblWhy from "@/components/ServisesWhy";
 
 //Icons 
 

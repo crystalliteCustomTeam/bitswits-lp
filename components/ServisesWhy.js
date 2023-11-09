@@ -1,14 +1,11 @@
 import React from 'react'
-import Image from 'next/image';
 import Link from 'next/link';
-import styles from "@/styles/NewMblWhy.module.css";
+import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
-//
-import WhatImage from "@/public/newMobilePageImages/what_Image.png"
+import styles from "@/styles/ServisesWhy.module.css";
 
 
-
-const NewMblWhy = (props) => {
+const ServisesWhy = (props) => {
     return (
         <>
             <section className={styles.newHomeBg}>
@@ -104,4 +101,4 @@ const NewMblWhy = (props) => {
     )
 }
 
-export default NewMblWhy
+export default ServisesWhy

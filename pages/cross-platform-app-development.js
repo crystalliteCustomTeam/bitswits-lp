@@ -14,7 +14,7 @@ import CrossBanner from "@/components/CrossBanner";
 import Newsuccess from "@/components/NewMblSuccess";
 import NewiosPortFolio from "@/components/NewiosPortFolio";
 import Partnercross from "@/components/Partnercross";
-import NewMblWhy from "@/components/NewMblWhy";
+import NewMblWhy from "@/components/ServisesWhy";
 
 //Icons
 import icon23 from "../public/images/fyicons/19.png";

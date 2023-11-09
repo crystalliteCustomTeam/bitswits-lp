@@ -2570,11 +2570,15 @@ button {
   z-index: 9999 !important;
 }
 
-.touch .d-block {
-  padding-top: unset !important;
+.touchFaq .d-block {
   padding: 1.5em;
   animation: 0.7s ease-in-out forwards growDown;
   transform-origin: top;
+  border-image: linear-gradient(90deg, #f32fc261, #4a78ef) 10;
+  border-width: 4px;
+  border-style: solid;
+  border-top: 0;
+  margin-top: -8px;
 }
 
 .newfaqsgloble .touch .d-block {

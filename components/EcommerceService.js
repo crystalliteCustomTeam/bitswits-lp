@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import styles from '@/styles/ServicesEcommerce.module.css'
+import styles from '@/styles/EcommerceService.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -16,7 +16,7 @@ import service7 from 'public/ecommerce/service7.svg'
 import service8 from 'public/ecommerce/service8.svg'
 
 
-const ServiceEcommerce = () => {
+const EcommerceService = () => {
     return (
         <>
             <section className={styles.Services}>
@@ -120,4 +120,4 @@ const ServiceEcommerce = () => {
     )
 }
 
-export default ServiceEcommerce
+export default EcommerceService

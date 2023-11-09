@@ -12,7 +12,7 @@ import HomeLocation from '@/components/HomeLocation';
 import AndriodBanner from '@/components/AndriodBanner';
 import Newsuccess from '@/components/NewMblSuccess';
 import NewiosPortFolio from '@/components/NewiosPortFolio';
-import NewMblWhy from '@/components/NewMblWhy';
+import NewMblWhy from '@/components/ServisesWhy';
 
 //Icons 
 

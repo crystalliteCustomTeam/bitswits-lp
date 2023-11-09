@@ -17,7 +17,7 @@ import NewiosPortFolio from '@/components/NewiosPortFolio';
 import HomeLocation from '@/components/HomeLocation';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 import NewHomeAbout from '@/components/NewHomePageAbout';
-import NewMblWhy from '@/components/NewMblWhy';
+import NewMblWhy from '@/components/ServisesWhy';
 import Technologieswe from '@/components/Technologieswe';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';

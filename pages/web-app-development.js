@@ -12,7 +12,7 @@ import WebappBanner from '@/components/WebappBanner';
 import Newsuccess from '@/components/NewMblSuccess';
 import NewiosPortFolio from '@/components/NewiosPortFolio';
 import Dedicatedweb from '@/components/Dedicatedweb';
-import NewMblWhy from '@/components/NewMblWhy';
+import NewMblWhy from '@/components/ServisesWhy';
 
 
 // Why Icon

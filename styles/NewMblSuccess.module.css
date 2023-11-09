@@ -3,6 +3,10 @@
   padding: 50px 0 100px;
 }
 
+.spacing {
+  padding: 150px 0;
+}
+
 .befImg {
   position: absolute;
   top: -2%;
@@ -127,8 +131,7 @@
   }
 }
 
-@media screen and (max-width: 767px) 
-{
+@media screen and (max-width: 767px) {
   .happens {
     background-color: black;
     padding: 0px 0 0px;

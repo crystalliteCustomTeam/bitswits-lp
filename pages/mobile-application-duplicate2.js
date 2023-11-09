@@ -5,7 +5,7 @@ import dynamic from "next/dynamic";
 import NewMblBannerduplicatejump from '@/components/NewMblBannerduplicatejump';
 import NewHomeAbout from '@/components/NewHomePageAbout';
 import NewMblServices2 from '@/components/NewMblServices2';
-import NewMblWhy from "@/components/NewMblWhy";
+import NewMblWhy from "@/components/ServisesWhy";
 import NewiosPortFolioduplicate from '@/components/NewiosPortFolioduplicate';
 import Newsuccess from '@/components/NewMblSuccess';
 import NewHomeGlobal from "@/components/NewHomeGlobal";

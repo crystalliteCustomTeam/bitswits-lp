@@ -1,9 +1,9 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import styles from '@/styles/benefits.module.css'
+import styles from '@/styles/EcommerceBenefits.module.css'
 
 
-const Benefits = () => {
+const EcommerceBenefits = () => {
     return (
         <>
             <section className={styles.benefits}>
@@ -53,4 +53,4 @@ const Benefits = () => {
     )
 }
 
-export default Benefits
+export default EcommerceBenefits
