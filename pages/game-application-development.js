@@ -38,7 +38,10 @@ export default function Gameapplicationdevelopment() {
 
 
             <Newgamebanner />
-            <NewHomeAbout />
+            <NewHomeAbout 
+                title="Our Client’s Feedback Has Been"
+                subtitle="Nothing Short Of Amazing!"
+            />
             <Bulletproofgame />
             <Targetaudience />
             <Newgamemaintain />

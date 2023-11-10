@@ -42,7 +42,9 @@ export default function OurWork() {
             <Capabilities />
             <NewHomeSlider />
             <Technologieswe />
-            <Homenextproject />
+            <Homenextproject 
+                title="Brace yourself for an App-venture!"
+            />
             <Faqs />
             <HomeLocation />
 

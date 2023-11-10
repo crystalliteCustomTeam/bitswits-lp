@@ -39,7 +39,10 @@ export default function gamedevelopmentcompany() {
 
 
             <GameNftBanner />
-            <NewHomeAbout />
+            <NewHomeAbout 
+                title="Our Client’s Feedback Has Been"
+                subtitle="Nothing Short Of Amazing!"
+            />
             <Bullet2ddiscovergame />
             <NewMaintainnft />
             <NewAddress />
@@ -51,7 +54,9 @@ export default function gamedevelopmentcompany() {
             <NewHomeGlobal />
             <NewHomeSlider />
             <Technologieswe />
-            <Homenextproject />
+            <Homenextproject 
+                title="Brace yourself for an App-venture!"
+            />
             <GameNftFaqs />
             <HomeLocation />
 

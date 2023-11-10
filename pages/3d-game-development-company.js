@@ -33,7 +33,10 @@ const mobileApplication = () => {
             </Head>
 
             <New3dBanner />
-            <NewHomeAbout />
+            <NewHomeAbout 
+                title="Our Client’s Feedback Has Been"
+                subtitle="Nothing Short Of Amazing!"
+            />
             <New3dAdvantage />
             <New3dTarget />
             <New3dMaintain />
@@ -47,7 +50,9 @@ const mobileApplication = () => {
             <NewHomeGlobal />
             <NewHomeSlider />
             <Technologieswe />
-            <Homenextproject />
+            <Homenextproject 
+                title="Brace yourself for an App-venture!"
+            />
             <Game3dFaqs />
 
         </>

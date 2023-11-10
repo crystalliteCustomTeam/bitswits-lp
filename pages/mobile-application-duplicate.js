@@ -8,8 +8,8 @@ import NewMblWho from '@/components/NewMblWho';
 import NewMblWhat from '@/components/NewMblWhat';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 import NewMblServices from '@/components/NewMblServices';
-import NewMblWhy from "@/components/ServisesWhy";
-import ServicesPortfolioduplicate from '@/components/ServicesPortfolioduplicate';
+import ServisesWhy from "@/components/ServisesWhy";
+import NewiosPortFolioduplicate from '@/components/NewiosPortFolioduplicate';
 import Capabilities from '@/components/Capabilities';
 import Newsuccess from '@/components/NewMblSuccess';
 import NewHomeGlobal from "@/components/NewHomeGlobal";
@@ -98,33 +98,76 @@ export default function mobileApplication() {
       <NewMblWhat />
       <Justbuildit />
       <NewMblServices />
-      <NewMblWhy
+      <ServisesWhy
         title={<> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </>}
         subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </>}
         sub1="Why Choose BitsWits for Building Mobile Applications?"
         sub2="Building your mobile app acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape its trajectory."
-        iconOne={icon23}
-        iconTwo={icon24}
-        iconThree={icon25}
-        iconFour={icon26}
-        iconFive={icon27}
-        iconSix={icon28}
-        titleOne="Greater Customer Reach"
-        titleTwo="Simplified Payments"
-        titleThree="Drive Sales"
-        titleFour={<>Customer <br /> Loyalty</>}
-        titleFive="Competitive Advantage"
-        titleSix="Improved Customer Service"
-        paraOne="Mobile apps allow you to connect with customers anywhere and anytime worldwide."
-        paraTwo="Mobile applications allow users to instantly pay, donate, and order without any hassle."
-        paraThree="Mobile applications provide a convenient way for customers to purchase your products and services on the go."
-        paraFour="Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences."
-        paraFive="Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue."
-        paraSix="Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction." />
-      <ServicesPortfolioduplicate />
+        whyData={
+          [
+            {
+              icon: icon23,
+              title: "Greater Customer Reach",
+              para: "Mobile apps allow you to connect with customers anywhere and anytime worldwide.",
+            },
+            {
+              icon: icon24,
+              title: "Simplified Payments",
+              para: "Mobile applications allow users to instantly pay, donate, and order without any hassle.",
+            },
+            {
+              icon: icon25,
+              title: (<> Drive <br /> Sales </>),
+              para: "Mobile applications provide a convenient way for customers to purchase your products and services on the go.",
+            },
+            {
+              icon: icon26,
+              title: (<> Customer <br /> Loyalty </>),
+              para: "Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences.",
+            },
+            {
+              icon: icon27,
+              title: "Competitive Advantage",
+              para: "Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue.",
+            },
+            {
+              icon: icon28,
+              title: "Improved Customer Service",
+              para: "Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction.",
+            },
+          ]
+        }
+      />
+      <NewiosPortFolioduplicate />
       <Capabilities />
       <div className="status">
-        <Newsuccess />
+        <Newsuccess
+          successSteps={
+            [
+              {
+                number: '01',
+                title: 'Talk To Our Experts',
+                text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                buttonText: 'Connect Now!',
+                link: '#',
+              },
+              {
+                number: '02',
+                title: 'Get A Quote',
+                text: 'Get an exact cost breakdown structure of your app',
+                buttonText: 'Chat Now!',
+                link: '#',
+              },
+              {
+                number: '03',
+                title: 'Build An MVP',
+                text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                buttonText: 'Call Now!',
+                link: '#',
+              },
+            ]
+          }
+        />
       </div>
       <NewHomeGlobal />
       <ClientsThink2 />

@@ -25,24 +25,14 @@ const Newsuccess = (props) => {
                         </Col>
                         <Col xl={12} className='mx-auto'>
                             <div className={styles.mainBox}>
-                                <div className={styles.sucssBox}>
-                                    <span className='f-60 font-bold grdiant mb-0'>01</span>
-                                    <span className='font30 font-bold white mb-0'>Talk To Our Experts</span>
-                                    <span className='font16 white'>Contact us without obligation by email or phone and secure your free consultation.</span>
-                                    <Link href="#" className={styles.sucssBtn}>Connect Now!</Link>
-                                </div>
-                                <div className={`${styles.sucssBox} ${styles.box2}`}>
-                                    <span className='f-60 font-bold grdiant mb-0'>02</span>
-                                    <span className='font30 font-bold white mb-0'>Get A Quote</span>
-                                    <span className='font16 white'>Get an exact cost breakdown structure of your app</span>
-                                    <Link href="#" className={styles.sucssBtn}>Chat Now!</Link>
-                                </div>
-                                <div className={styles.sucssBox}>
-                                    <span className='f-60 font-bold grdiant mb-0'>03</span>
-                                    <span className='font30 font-bold white mb-0'>Build An MVP</span>
-                                    <span className='font16 white'>Contact us without obligation by email or phone and secure your free consultation.</span>
-                                    <Link href="#" className={styles.sucssBtn}>Call Now!</Link>
-                                </div>
+                                {props.successSteps.map((step, index) => (
+                                    <div key={index} className={`${styles.sucssBox} ${index === 1 ? styles.box2 : ''}`}>
+                                        <span className='f-60 font-bold grdiant mb-0'>{step.number}</span>
+                                        <span className='font30 font-bold white mb-0'>{step.title}</span>
+                                        <span className='font16 white'>{step.text}</span>
+                                        <Link href={step.link} className={styles.sucssBtn}>{step.buttonText}</Link>
+                                    </div>
+                                ))}
                                 <Image quality={75} src={team1} alt='BitsWits' className={`${styles.befImg} img-fluid`} />
                             </div>
                         </Col>

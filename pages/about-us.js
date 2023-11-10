@@ -27,7 +27,10 @@ export default function Home() {
 
             <NewBannerabout />
             <Justbuildit />
-            <NewHomeAbout />
+            <NewHomeAbout 
+                title="Our Client’s Feedback Has Been"
+                subtitle="Nothing Short Of Amazing!"
+            />
             <Bullet2dproofgameabout />
             <Capabilities />
             <Homenextproject

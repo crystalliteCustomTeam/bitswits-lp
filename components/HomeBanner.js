@@ -1,14 +1,12 @@
 import React from 'react'
-import styles from "@/styles/NewBanner.module.css";
-import Image from 'next/image';
-import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
-
-
+import styles from "@/styles/HomeBanner.module.css";
+import { Container, Row, Col } from 'react-bootstrap'
 //
 import HomeBannerSlider from './HomeBannerSlider';
 
-const NewBanner = () => {
+
+const HomeBanner = () => {
 
     return (
         <>
@@ -38,4 +36,4 @@ const NewBanner = () => {
     )
 }
 
-export default NewBanner
+export default HomeBanner

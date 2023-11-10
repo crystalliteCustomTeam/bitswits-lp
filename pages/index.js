@@ -2,7 +2,7 @@ import Head from 'next/head'
 import React from 'react';
 import dynamic from 'next/dynamic';
 //components
-import NewBanner from '@/components/NewBanner';
+import HomeBanner from '@/components/HomeBanner';
 import NewHomeAbout from '@/components/NewHomePageAbout';
 import NewHomeWho from '@/components/NewHomeWho';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
@@ -29,8 +29,11 @@ export default function Home() {
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
-            <NewBanner />
-            <NewHomeAbout />
+            <HomeBanner />
+            <NewHomeAbout 
+                title="Our Client’s Feedback Has Been"
+                subtitle="Nothing Short Of Amazing!"
+            />
             <NewHomeWho />
             <NewHomeWhat />
             <Justbuildit />
@@ -40,7 +43,9 @@ export default function Home() {
             <Capabilities />
             <NewHomeSlider />
             <Technologieswe />
-            <Homenextproject />
+            <Homenextproject 
+                title="Brace yourself for an App-venture!"
+            />
             <Faqs />
             <HomeLocation />
         </>

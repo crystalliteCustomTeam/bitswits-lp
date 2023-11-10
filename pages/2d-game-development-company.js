@@ -36,7 +36,10 @@ export default function gamedevelopmentcompany() {
 
 
             <Gamer2dBanner />
-            <NewHomeAbout />
+            <NewHomeAbout 
+                title="Our Client’s Feedback Has Been"
+                subtitle="Nothing Short Of Amazing!"
+            />
             <Bullet2dproofgame />
             <NewMaintainlogo />
             <NewAddress
@@ -51,7 +54,9 @@ export default function gamedevelopmentcompany() {
             <NewHomeGlobal />
             <NewHomeSlider />
             <Technologieswe />
-            <Homenextproject />
+            <Homenextproject 
+                title="Brace yourself for an App-venture!"
+            />
             <Game2dFaqs />
             <HomeLocation />
 

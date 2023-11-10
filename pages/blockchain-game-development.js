@@ -31,7 +31,10 @@ export default function mobileApplication() {
             </Head>
 
             <GamedevelopmentBanner />
-            <NewHomeAbout />
+            <NewHomeAbout 
+                title="Our Client’s Feedback Has Been"
+                subtitle="Nothing Short Of Amazing!"
+            />
             <GameAdvantages />
             <GamingServices />
             <NewAddress />
@@ -43,7 +46,9 @@ export default function mobileApplication() {
             <NewHomeGlobal />
             <NewHomeSlider />
             <Technologieswe />
-            <Homenextproject />
+            <Homenextproject 
+                title="Brace yourself for an App-venture!"
+            />
             <GameBlckChnFaqs />
 
         </>

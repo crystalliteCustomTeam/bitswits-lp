@@ -103,12 +103,15 @@ export default function mobileApplication() {
         BannerImage={BannerImage}
         assignClass="mobile"
       />
-      <NewHomeAbout />
+      <NewHomeAbout
+        title="Our Client’s Feedback Has Been"
+        subtitle="Nothing Short Of Amazing!"
+      />
       <ServicesMaintain
         assignClass="mobile"
         title1={<> Maintaining digital quality with our collection of customizable services </>}
-                appContent={[]}
-                appContent1={
+        appContent={[]}
+        appContent1={
           [
             {
               title: 'IOS Application Development',
@@ -154,12 +157,12 @@ export default function mobileApplication() {
       <NewAddress />
       <Justbuildit />
       <ServicesWho
-                subtitle="Our Value Proposition"
-                title="With a track record of dedication and innovation, we're not just developers; we're passionate problem-solvers invested in your success."
-                text="Hire BitsWits for mobile application development that engages users and generates measurable results. With over a decade of experience, we're the industry's best option."
-                WhoImage={WhoImage}
-            />
-            <ServicesWhat
+        subtitle="Our Value Proposition"
+        title="With a track record of dedication and innovation, we're not just developers; we're passionate problem-solvers invested in your success."
+        text="Hire BitsWits for mobile application development that engages users and generates measurable results. With over a decade of experience, we're the industry's best option."
+        WhoImage={WhoImage}
+      />
+      <ServicesWhat
         subtitle="Why Hire Us"
         title="Is your current app failing to deliver the results you desire?"
         text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
@@ -208,14 +211,42 @@ export default function mobileApplication() {
       <ServicesPortfolio />
       <Capabilities />
       <div className="status2">
-        <Newsuccess />
+        <Newsuccess
+          successSteps={
+            [
+              {
+                number: '01',
+                title: 'Talk To Our Experts',
+                text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                buttonText: 'Connect Now!',
+                link: '#',
+              },
+              {
+                number: '02',
+                title: 'Get A Quote',
+                text: 'Get an exact cost breakdown structure of your app',
+                buttonText: 'Chat Now!',
+                link: '#',
+              },
+              {
+                number: '03',
+                title: 'Build An MVP',
+                text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                buttonText: 'Call Now!',
+                link: '#',
+              },
+            ]
+          }
+        />
       </div>
       <section className='spacingtb1'>
         <Technologieswe />
       </section>
       <NewHomeGlobal />
       <NewHomeSlider />
-      <Homenextproject />
+      <Homenextproject
+        title="Brace yourself for an App-venture!"
+      />
       <ServicesFaqs
         faqsData={
           [

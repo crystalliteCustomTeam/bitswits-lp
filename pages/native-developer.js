@@ -354,7 +354,9 @@ export default function NativeDeveloper() {
             />
 
             <Technologieswe />
-            <Homenextproject />
+            <Homenextproject 
+                title="Brace yourself for an App-venture!"
+            />
             <Faqs />
             <HomeLocation />
         </>

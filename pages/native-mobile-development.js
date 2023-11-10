@@ -33,7 +33,10 @@ export default function nativeMobile() {
             </Head>
 
             <NativeBanner />
-            <NewHomeAbout />
+            <NewHomeAbout 
+                title="Our Client’s Feedback Has Been"
+                subtitle="Nothing Short Of Amazing!"
+            />
             <NewNativeServices />
             <NewAddress />
             <Justbuildit />
@@ -49,7 +52,9 @@ export default function nativeMobile() {
             </section>
             <NewHomeGlobal />
             <NewHomeSlider />
-            <Homenextproject />
+            <Homenextproject 
+                title="Brace yourself for an App-venture!"
+            />
             <NewReactFaqs />
             <HomeLocation />
 

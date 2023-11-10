@@ -35,8 +35,8 @@ const NewHomeAbout = (props) => {
 
                     <Row>
                         <Col lg={12} className={styles.hover1}>
-                            <h3 className='text-white f-40 font-bold text-center'>Our Client’s Feedback Has Been</h3>
-                            <h2 className='grdiant f-60 font-bold text-center'>Nothing Short Of Amazing!</h2>
+                            <h3 className='text-white f-40 font-bold text-center'>{props.title}</h3>
+                            <h2 className='grdiant f-60 font-bold text-center mb-4'>{props.subtitle}</h2>
 
                             <div className={` ${styles.client} sec_image text-center`}>
                                 <Image quality={75} src={AboutImage} alt='Banner' className={styles.secImage} />

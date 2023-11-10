@@ -382,8 +382,70 @@
     url(../public/images/augmented/4.png);
 }
 
-/* =======================android====================== */
-/* =======================android====================== */
+/* =======================CustomApp====================== */
+
+.customApp .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/custommobiledevelopment/card1.png);
+}
+
+.customApp .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/custommobiledevelopment/card2.png);
+}
+
+.customApp .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/custommobiledevelopment/card3.png);
+}
+
+.customApp .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/custommobiledevelopment/card4.png);
+}
+
+.customApp .app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/custommobiledevelopment/card5.png);
+}
+
+.customApp .app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/custommobiledevelopment/card6.png);
+}
+
+/* =======================AI====================== */
+
+.ai .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/images/aipost/1.png);
+}
+
+.ai .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/images/aipost/2.png);
+}
+
+.ai .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/images/aipost/3.png);
+}
+
+.ai .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/images/aipost/4.png);
+}
+
+.ai .app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/aipost/5.png);
+}
+
+.ai .app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/aipost/6.png);
+}
+
 /* =======================android====================== */
 /* =======================android====================== */
 /* =======================android====================== */

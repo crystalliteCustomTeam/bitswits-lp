@@ -1,28 +1,27 @@
 import Head from 'next/head'
 import React from 'react';
 import dynamic from 'next/dynamic';
-import NewHomeAbout from '@/components/NewHomePageAboutprops';
-import NewMblWho from '@/components/NewMblWho';
-import NewMblWhat from '@/components/NewMblWhat';
+//components
+import ServicesBanner from '@/components/ServicesBanner';
+import NewHomeAbout from '@/components/NewHomePageAbout';
+import ServicesMaintain from '@/components/ServicesMaintain';
+import NewAddress from '@/components/NewAddress';
+const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
+import ServicesWho from '@/components/ServicesWho';
+import ServicesWhat from '@/components/ServicesWhat';
+import ServicesPortfolio from '@/components/ServicesPortfolio';
+import Capabilities from '@/components/Capabilities';
+import Newsuccess from '@/components/NewMblSuccess';
 import Technologieswe from '@/components/Technologieswe';
-import Homenextproject from '@/components/Homenextprojectprops';
-import Capabilities2d from '@/components/Capabilities2d';
-import NewAIFaqs from '@/components/NewAIFaqs';
-import NewBanner from '@/components/NewBanner';
-import AiMaintainlogo from '@/components/AiMaintainlogo';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
+import Homenextproject from '@/components/Homenextproject';
+import ServicesFaqs from '@/components/ServicesFaqs';
 import HomeLocation from '@/components/HomeLocation';
-import AiBanner from '@/components/AiBanner';
-import Newsuccess from '@/components/NewMblSuccessprops';
-import ServicesPortfolio from '@/components/ServicesPortfolioprops';
-import NewaiWho from '@/components/NewaiWhoprops';
-import NewaiWhat from '@/components/NewaiWhatprops';
-import Link from 'next/link'
-import styles from "@/styles/NewMblSuccess.module.css";
-import NewAddress from '@/components/NewAddress';
-//components
-const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
+//images
+import BannerImage from "@/public/images/iosbanner/ai.png"
+import WhoImage from "@/public/images/aipost/who_image.png"
+import WhatImage from "@/public/images/aipost/what_Image.png"
 
 
 export default function gamedevelopmentcompany() {
@@ -37,73 +36,156 @@ export default function gamedevelopmentcompany() {
             </Head>
 
 
-            <AiBanner />
-            <NewHomeAbout
-                title='Clients Love Our AI Solutions'
-                para='Hear It from Them'
+            <ServicesBanner
+                subtitle="BitsWits is a Home to All Your Demands Regarding"
+                title={<> Artificial Intelligence <br /> Development and Advancement </>}
+                text={<> BitsWits welcomes you to the one-stop destination for innovative mobile applications development with <br /> artificial intelligence. Our skilled developers and designers provide forward-thinking <br /> solutions for all your AI development and integration requirements. </>}
+                BannerImage={BannerImage}
+                assignClass="ai"
             />
-            <AiMaintainlogo />
+            <NewHomeAbout 
+                title="Our Client’s Feedback Has Been"
+                subtitle="Nothing Short Of Amazing!"
+            />
+            <ServicesMaintain
+                assignClass="ai"
+                subtitle={<> Go an Extra Mile with </>}
+                title0={<> Our Advanced </>}
+                title={<> Artificial Intelligence Development </>}
+                title1={<> Services </>}
+                appContent={[]}
+                appContent1={
+                    [
+                        {
+                            title: 'Smart Systems',
+                            text: 'We create clever systems that can do tasks automatically for your business, can understand information, learn from it, and help make your work easier and faster.',
+                            appclass: "app"
+                        },
+                        {
+                            title: (<> Gesture Recognition </>),
+                            text: (<> BitsWits specializes in creating technology that can recognize and respond to your movements. Our systems understand gestures like hand waves or nods, allowing you to control devices effortlessly through simple motions. </>),
+                            appclass: "app1",
+                        },
+                        {
+                            title: (<> Facial Recognition </>),
+                            text: 'Hire us to build technology that can recognize your face, just like a key unlocks a door. Our systems use your unique features to grant access and make interactions easier and more secure.',
+                            appclass: "app2",
+                        }
+                    ]
+                }
+                appContent2={
+                    [
+                        {
+                            title: 'Location Tracking',
+                            text: "We develop location tracking technology using intelligent AI algorithms to monitor the whereabouts of people or things. Our system predicts movement patterns, assisting businesses in effectively managing their assets and making informed decisions.",
+                            appclass: "app3",
+                        },
+                    ]
+                }
+                appContent3={
+                    [
+                        {
+                            title: (<> Motion Sensing </>),
+                            text: (<> we merge AI algorithms with motion sensors, enabling high-precision motion detection. Our model training and optimization ensure smooth integration for real-time and reliable motion sensing capabilities. </>),
+                            appclass: "app4",
+                        },
+                        {
+                            title: (<> Web Conferencing </>),
+                            text: 'At BitsWits, we use smart technology to make online meetings better. Our system has features like automatic note-taking, language translation, and clear video, making virtual meetings easier and more effective.',
+                            appclass: "app5",
+                        },
+                    ]
+                }
+            />
             <NewAddress />
             <Justbuildit />
-            <NewaiWho
-                title='Our Value Proposition'
-                subtitle={`With a track record of dedication and innovation, we're not just developers; we're passionate problem-solvers invested in your success.`}
-                para={`Hire BitsWits for mobile application development that engages users and generates measurable results. With over a decade of experience, we're the industry's best option.`}
+            <ServicesWho
+                subtitle="Our Value Proposition"
+                title="With a track record of dedication and innovation, we're not just developers; we're passionate problem-solvers invested in your success."
+                text="Hire BitsWits for mobile application development that engages users and generates measurable results. With over a decade of experience, we're the industry's best option."
+                WhoImage={WhoImage}
             />
-            <NewaiWhat
-
-                title='Why Hire Us'
-                subtitle='Is your current app failing to deliver the results you desire?'
-                para={` At BitsWits, your app’s success is our top priority. We ensure your business stays updated with online trends and tech innovations. Contact us today to elevate your app's performance. `}
-                btn1='Contact us now'
-
+            <ServicesWhat
+                subtitle="Why Hire Us"
+                title="Is your current app failing to deliver the results you desire?"
+                text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
+                WhatImage={WhatImage}
             />
-            <ServicesPortfolio
-
-                tilte={
-                    <h1 className='text-white f-55 font-bold text-center pb-5'>
-                        Transforming Industries with  <span className='grdiant'>AI Solutions</span>
-                    </h1>
-
-                }
-
-            />
-
+            <ServicesPortfolio />
+            <Capabilities />
             <Newsuccess
-                tilte={<>  <h5 className='grdiant'>Ready for Success? </h5> </>}
-                subtitle={<>
-                    <h2 className='f-80 font-bold white center mb-5'>Accelerate Your Growth With <br></br> AI Solutions</h2>
-                </> }
-                num1 = '01'
-                title1 = 'Consult Our Specialists'
-                text1 = 'Reach out to our AI specialists without any hesitation via email or call to avail a free consultation.'
-                btn1 = { <> <Link href="#" className={styles.sucssBtn}>Connect Now</Link> </> }
-
-                num2 = '02'
-                title2 = { <> Request a <br></br> Quote </> }
-                text2 = { <> Get a detailed cost breakdown for your app development <br></br> project. </> }
-                btn2 = { <> <Link href="#" className={styles.sucssBtn}>Chat Now</Link> </> }
-
-                num3 = '03'
-                title3 = 'Kickstart with an MVP'
-                text3 = 'Start your AI development journey with no-obligation consultation via email and phone.'
-                btn3 = { <> <Link href="#" className={styles.sucssBtn}>Call Now</Link> </> }
-
+                assignClass="spacing"
+                successSteps={
+                    [
+                        {
+                            number: '01',
+                            title: 'Talk To Our Experts',
+                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                            buttonText: 'Connect Now!',
+                            link: '#',
+                        },
+                        {
+                            number: '02',
+                            title: 'Get A Quote',
+                            text: 'Get an exact cost breakdown structure of your app',
+                            buttonText: 'Chat Now!',
+                            link: '#',
+                        },
+                        {
+                            number: '03',
+                            title: 'Build An MVP',
+                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                            buttonText: 'Call Now!',
+                            link: '#',
+                        },
+                    ]
+                }
             />
-
             <section className='spacingtb1'>
                 <Technologieswe />
             </section>
-
             <NewHomeGlobal />
             <NewHomeSlider />
-            <Homenextproject
-            title = 'Get Smart With Artificial Intelligence '
+            <Homenextproject 
+                title="Brace yourself for an App-venture!"
             />
-            <NewAIFaqs />
+            <ServicesFaqs
+                faqsData={
+                    [
+                        {
+                            question: "What AI services does BitsWits offer?",
+                            answer:
+                                (<> BitsWits provides AI consulting, custom AI solutions development, and AI integration services. </>),
+                        },
+                        {
+                            question: "How long does AI development with BitsWits usually take?",
+                            answer:
+                                (<> The timeline depends on the project's complexity but typically ranges from a few months to a year. </>),
+                        },
+                        {
+                            question: "What kind of support does BitsWits offer post-deployment?",
+                            answer:
+                                (<> BitsWits provides ongoing support and maintenance to ensure the smooth functioning and optimal performance of AI solutions. </>),
+                        },
+                        {
+                            question: "What industries does BitsWits specialize in for AI development?",
+                            answer:
+                                (<> BitsWits has extensive experience in providing AI solutions for industries such as healthcare, finance, retail, and manufacturing, among others. </>),
+                        },
+                        {
+                            question: "Does BitsWits offer AI maintenance services after the project is completed?",
+                            answer:
+                                (<> Yes, BitsWits provides ongoing AI maintenance services, including updates and optimizations for continued performance. </>),
+                        },
+                        {
+                            question: "Can BitsWits help in the integration of AI-driven analytics for data insights?",
+                            answer:
+                                (<> Absolutely, BitsWits specializes in integrating AI-driven analytics to provide valuable data insights for informed decision-making and improved business strategies. </>),
+                        },
+                    ]
+                }
+            />
             <HomeLocation />
-
-
         </>
     )
 }
