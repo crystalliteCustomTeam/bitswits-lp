@@ -1,11 +1,10 @@
 import Head from 'next/head'
 import React from 'react';
 import { useEffect } from 'react';
+//
 import Formnewlpnewhome from '@/components/Formnewlpnewhome';
 import Startaproject from '@/components/Startaproject';
 import Newfaqshome from '@/components/Newfaqshome';
-import Supersaleslider from '@/components/Supersaleslider';
-import Script from 'next/script';
 import ProjectProcesshome from '@/components/ProjectProcesshome';
 import Expertapphome from '@/components/Expertapphome';
 import Thrthy from '@/components/Thrthy';
@@ -15,20 +14,11 @@ import Creative from '@/components/Creative';
 import Everyone from '@/components/Everyone';
 import Testimonailslider from '@/components/Testimonailslider';
 
-// import LocomotiveScroll from 'locomotive-scroll';
-
-
-
 
 export default function Home() {
 
     useEffect(() => {
         const locoScroll = new LocomotiveScroll();
-   
-
-      
-
-
     }, []);
 
 
@@ -44,8 +34,6 @@ export default function Home() {
 
             <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
 
-
-           
             <Appmaking />
             <Homeslider />
 
@@ -59,18 +47,10 @@ export default function Home() {
             <Thrthy />
             <Everyone />
             <Testimonailslider />
-
-
-
-
-
-
             {/* <Supersaleslider /> */}
             <Newfaqshome />
             <Startaproject />
             <Formnewlpnewhome />
-            
-
         </>
     )
 }

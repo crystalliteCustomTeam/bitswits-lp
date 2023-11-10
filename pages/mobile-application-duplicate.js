@@ -9,7 +9,7 @@ import NewMblWhat from '@/components/NewMblWhat';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 import NewMblServices from '@/components/NewMblServices';
 import NewMblWhy from "@/components/ServisesWhy";
-import NewiosPortFolioduplicate from '@/components/NewiosPortFolioduplicate';
+import ServicesPortfolioduplicate from '@/components/ServicesPortfolioduplicate';
 import Capabilities from '@/components/Capabilities';
 import Newsuccess from '@/components/NewMblSuccess';
 import NewHomeGlobal from "@/components/NewHomeGlobal";
@@ -121,7 +121,7 @@ export default function mobileApplication() {
         paraFour="Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences."
         paraFive="Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue."
         paraSix="Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction." />
-      <NewiosPortFolioduplicate />
+      <ServicesPortfolioduplicate />
       <Capabilities />
       <div className="status">
         <Newsuccess />

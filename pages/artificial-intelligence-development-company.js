@@ -15,7 +15,7 @@ import NewHomeSlider from '@/components/NewHomeSlider';
 import HomeLocation from '@/components/HomeLocation';
 import AiBanner from '@/components/AiBanner';
 import Newsuccess from '@/components/NewMblSuccessprops';
-import NewiosPortFolio from '@/components/NewiosPortFolioprops';
+import ServicesPortfolio from '@/components/ServicesPortfolioprops';
 import NewaiWho from '@/components/NewaiWhoprops';
 import NewaiWhat from '@/components/NewaiWhatprops';
 import Link from 'next/link'
@@ -58,7 +58,7 @@ export default function gamedevelopmentcompany() {
                 btn1='Contact us now'
 
             />
-            <NewiosPortFolio
+            <ServicesPortfolio
 
                 tilte={
                     <h1 className='text-white f-55 font-bold text-center pb-5'>

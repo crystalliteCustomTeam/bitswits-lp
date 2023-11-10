@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React from 'react';
 import dynamic from 'next/dynamic';
-//
+//components
 import ServicesBanner from '@/components/ServicesBanner';
 import NewHomeAbout from '@/components/NewHomePageAbout';
 import ServicesMaintain from '@/components/ServicesMaintain';
@@ -10,7 +10,8 @@ const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 import ServicesWho from '@/components/ServicesWho';
 import ServicesWhat from '@/components/ServicesWhat';
 import ServisesWhy from '@/components/ServisesWhy';
-import NewiosPortFolio from '@/components/NewiosPortFolio';
+import ServicesPortfolio from '@/components/ServicesPortfolio';
+import Capabilities from '@/components/Capabilities';
 import Newsuccess from '@/components/NewMblSuccess';
 import Technologieswe from '@/components/Technologieswe';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
@@ -18,18 +19,17 @@ import NewHomeSlider from '@/components/NewHomeSlider';
 import Homenextproject from '@/components/Homenextproject';
 import ServicesFaqs from '@/components/ServicesFaqs';
 import HomeLocation from '@/components/HomeLocation';
-//
+//images
 import BannerImage from "@/public/andriodapplication/andriod.png"
 import WhoImage from "@/public/images/andriodtaile/who_image.png"
 import WhatImage from "@/public/images/andriodtaile/what_Image.png"
-//Icons 
+//icons 
 import icon23 from '../public/images/fyios/1.png'
 import icon24 from '../public/images/fyios/2.png'
 import icon25 from '../public/images/fyios/3.png'
 import icon26 from '../public/images/fyios/4.png'
 import icon27 from '../public/images/fyios/5.png'
 import icon28 from '../public/images/fyios/6.png'
-
 
 
 export default function gamedevelopmentcompany() {
@@ -51,10 +51,12 @@ export default function gamedevelopmentcompany() {
             />
             <NewHomeAbout />
             <ServicesMaintain
+                assignClass="ios"
                 subtitle="iOS App Development Services"
                 title1={<> Craft Incredible Apps </>}
                 title2={<> Hire an iOS App Developer! </>}
                 text={<> As a premier iOS app development company, our iOS developers create eye-catching and user-friendly iPhone and iPad apps that capture attention immediately. To develop customized applications that are appropriate for Apple devices, our professional iOS developers and designers make use of the newest iOS capabilities. </>}
+                appContent={[]}
                 appContent1={
                     [
                         {
@@ -102,42 +104,59 @@ export default function gamedevelopmentcompany() {
             <NewAddress />
             <Justbuildit />
             <ServicesWho
-                subtitle="Who we are."
-                title="We build greater futures through innovation and collective knowledge."
-                text="Bitswits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
+                subtitle="Our Value Proposition"
+                title="With a track record of dedication and innovation, we're not just developers; we're passionate problem-solvers invested in your success."
+                text="Hire BitsWits for mobile application development that engages users and generates measurable results. With over a decade of experience, we're the industry's best option."
                 WhoImage={WhoImage}
             />
-            <ServicesWhat
-                subtitle="What we do."
-                title="Bitswits transforms businesses through technology."
-                text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
-                WhatImage={WhatImage}
-            />
+                  <ServicesWhat
+        subtitle="Why Hire Us"
+        title="Is your current app failing to deliver the results you desire?"
+        text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
+        WhatImage={WhatImage}
+      />
             <ServisesWhy
                 title={<> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </>}
                 subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </>}
                 sub1="Why Do You Require Our iOS Applications?"
                 sub2="Building your mobile app acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape the trajectory of your business."
-                iconOne={icon23}
-                iconTwo={icon24}
-                iconThree={icon25}
-                iconFour={icon26}
-                iconFive={icon27}
-                iconSix={icon28}
-                titleOne="Stunning and Intuitive Designs"
-                titleTwo="Expert Development"
-                titleThree="High Performing Apps"
-                titleFour="Apple Guidelines Compliance"
-                titleFive="Continuous Support"
-                titleSix="Open Communication"
-                paraOne="Our iOS developers craft pixel-perfect iOS apps with beautiful and latest designs for Apple devices."
-                paraTwo="Expert iOS developers at BitsWits know about Swift and Xcode and utilize the latest iOS features for perfect user experiences."
-                paraThree="We build powerful and high-performing iOS applications that are stable, smooth, and fast."
-                paraFour="For optimal App Store optimization, our iOS developers stick to Apple's strict interface rules and standards of excellence."
-                paraFive="We provide on-going support and maintenance to keep your applications updated with high-quality services."
-                paraSix="Our iOS developers ensure open dialogues and total transparency throughout the development process."
+                whyData={
+                    [
+                        {
+                            icon: icon23,
+                            title: "Stunning and Intuitive Designs",
+                            para: "Our iOS developers craft pixel-perfect iOS apps with beautiful and latest designs for Apple devices.",
+                        },
+                        {
+                            icon: icon24,
+                            title: "Expert Development",
+                            para: "Expert iOS developers at BitsWits know about Swift and Xcode and utilize the latest iOS features for perfect user experiences.",
+                        },
+                        {
+                            icon: icon25,
+                            title: "High Performing Apps",
+                            para: "We build powerful and high-performing iOS applications that are stable, smooth, and fast.",
+                        },
+                        {
+                            icon: icon26,
+                            title: "Apple Guidelines Compliance",
+                            para: "For optimal App Store optimization, our iOS developers stick to Apple's strict interface rules and standards of excellence.",
+                        },
+                        {
+                            icon: icon27,
+                            title: (<> Continuous <br /> Support </>),
+                            para: "We provide on-going support and maintenance to keep your applications updated with high-quality services.",
+                        },
+                        {
+                            icon: icon28,
+                            title: "Open Communication",
+                            para: "Our iOS developers ensure open dialogues and total transparency throughout the development process.",
+                        },
+                    ]
+                }
             />
-            <NewiosPortFolio />
+            <ServicesPortfolio />
+            <Capabilities />
             <Newsuccess
                 assignClass="spacing"
             />

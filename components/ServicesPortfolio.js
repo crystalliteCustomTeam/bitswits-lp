@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from "@/styles/NewiosPortFolio.module.css";
+import styles from "@/styles/ServicesPortfolio.module.css";
 import { Container, Row, Col } from 'react-bootstrap';
 
 import folio1 from "@/public/newMobilePageImages/portfolio/folio1.png";
@@ -18,7 +18,7 @@ import folio11 from "@/public/newMobilePageImages/portfolio/folio11.png";
 import folio12 from "@/public/newMobilePageImages/portfolio/folio12.png";
 import folio13 from "@/public/newMobilePageImages/portfolio/folio13.png";
 
-const NewiosPortFolio = () => {
+const ServicesPortfolio = () => {
     const [showAll, setShowAll] = useState(false);
 
     const portfolioItems = [
@@ -79,4 +79,4 @@ const NewiosPortFolio = () => {
     );
 };
 
-export default NewiosPortFolio;
+export default ServicesPortfolio;

@@ -1,25 +1,27 @@
 import Head from 'next/head'
 import React from 'react';
 import dynamic from 'next/dynamic';
-import NewHomeAbout from '@/components/NewHomePageAboutprops';
-import NewaiWho from '@/components/NewaiWhoprops';
-import NewaiWhat from '@/components/NewaiWhatprops';
+//components
+import ServicesBanner from '@/components/ServicesBanner';
+import NewHomeAbout from '@/components/NewHomePageAbout';
+import ServicesMaintain from '@/components/ServicesMaintain';
+import NewAddress from '@/components/NewAddress';
+const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
+import ServicesWho from '@/components/ServicesWho';
+import ServicesWhat from '@/components/ServicesWhat';
+import ServicesPortfolio from '@/components/ServicesPortfolio';
+import Capabilities from '@/components/Capabilities';
+import Newsuccess from '@/components/NewMblSuccess';
 import Technologieswe from '@/components/Technologieswe';
-import Homenextproject from '@/components/Homenextprojectprops';
-import Faqs from '@/components/NewhomeFaqsprops';
-import AugmentedMaintainlogo from '@/components/AugmentedMaintainlogo';
 import NewHomeGlobal from '@/components/NewHomeGlobal';
 import NewHomeSlider from '@/components/NewHomeSlider';
+import Homenextproject from '@/components/Homenextproject';
+import ServicesFaqs from '@/components/ServicesFaqs';
 import HomeLocation from '@/components/HomeLocation';
-import Augmentebanner from '@/components/Augmentebanner';
-import Newsuccess from '@/components/NewMblSuccessprops';
-import NewiosPortFolio from '@/components/NewiosPortFolioprops';
-import Link from 'next/link';
-import styles from "@/styles/NewMblSuccess.module.css";
-import NewAddress from '@/components/NewAddress';
-
-//components
-const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
+//images
+import BannerImage from "@/public/images/augmentapp/Augmentebanner.png"
+import WhoImage from "@/public/images/aipost/who_image.png"
+import WhatImage from "@/public/images/aipost/what_Image.png"
 
 
 export default function augmentedrealityappsdevelopment() {
@@ -31,87 +33,126 @@ export default function augmentedrealityappsdevelopment() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
-            <Augmentebanner />
+
+
+            <ServicesBanner
+                subtitle="Empower Your Business with"
+                title={<> Top Augmented Reality <br /> Apps Development Company </>}
+                text={<> BitsWits is your ultimate destination for augmented reality app development. <br /> Our developers deliver dynamic AR experiences that set your business apart from the rest. </>}
+                BannerImage={BannerImage}
+            />
             <NewHomeAbout
                 title='Clients Love Our AR Solutions'
                 para='Hear It from Them'
             />
-            <AugmentedMaintainlogo />
+            <ServicesMaintain
+                assignClass="augmented"
+                subtitle={<> BitsWits Sets New Standards </>}
+                title0={<> Expert </>}
+                title={<> Augmented Reality Development </>}
+                title1={<> at Your Service! </>}
+                appContent={
+                    [
+                        {
+                            title: (<> 2D, 3D, And Isometric <br /> Games Development </>),
+                            text: 'We make games super cool by integrating augmented reality elements into 2D, 3D, and Isometric games, creating captivating and dynamic visuals.',
+                            appclass: "app01"
+                        },
+                        {
+                            title: (<> Interactive 3D Visual Learning for <br /> Education with AR Technology </>),
+                            text: (<> Using AR, we create fun 3D experiences for learning. Our user-friendly designs and activities offer an engaging way to understand things better. </>),
+                            appclass: "app02",
+                        }
+                    ]
+                }
+                appContent1={[]}
+                appContent2={
+                    [
+                        {
+                            title: (<> AR powered Travel Experiences <br /> for the Modern Explorer </>),
+                            text: "We develop augmented reality solutions for the travel industry, integrating immersive navigation, virtual tours, interactive guides, and cultural experiences for enhanced travel exploration.",
+                            appclass: "app3",
+                        },
+                    ]
+                }
+                appContent3={
+                    [
+                        {
+                            title: (<> Design Insight and Manufacturing <br /> Digital Models With AR </>),
+                            text: (<> Our advanced AR solutions for manufacturing, facilitate precise design insights and digital model visualization to optimize efficiency and streamline production processes effectively. </>),
+                            appclass: "app4",
+                        },
+                        {
+                            title: (<> 3D Visual Presentation for Product <br /> Launch Through AR </>),
+                            text: 'Our AR solutions offer 3D visual presentations, allowing users to visualize products in real-world contexts and accurately measure space requirements.',
+                            appclass: "app5",
+                        },
+                    ]
+                }
+            />
             <NewAddress />
             <Justbuildit />
-            <NewaiWho
-                title='Our Value Proposition'
-                subtitle={`With a track record of dedication and innovation, we're not just developers; we're passionate problem-solvers invested in your success.`}
-                para={`Hire BitsWits for mobile application development that engages users and generates measurable results. With over a decade of experience, we're the industry's best option.`}
+            <ServicesWho
+                subtitle="Our Value Proposition"
+                title="With a track record of dedication and innovation, we're not just developers; we're passionate problem-solvers invested in your success."
+                text="Hire BitsWits for mobile application development that engages users and generates measurable results. With over a decade of experience, we're the industry's best option."
+                WhoImage={WhoImage}
             />
-            <NewaiWhat
-
-                title='Why Hire Us'
-                subtitle='Is your current app failing to deliver the results you desire?'
-                para={` At BitsWits, your app’s success is our top priority. We ensure your business stays updated with online trends and tech innovations. Contact us today to elevate your app's performance. `}
-                btn1='Contact us now'
-
+            <ServicesWhat
+                subtitle="Why Hire Us"
+                title="Is your current app failing to deliver the results you desire?"
+                text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
+                WhatImage={WhatImage}
             />
-            <NewiosPortFolio
-
-                tilte={
-                    <h1 className='text-white f-55 font-bold text-center pb-5'>
-                        Showcasing Our   <span className='grdiant'>Augmented Reality </span> Creations
-                    </h1>
-
-                }
-
-            />
+            <ServicesPortfolio />
+            <Capabilities />
             <Newsuccess
-                tilte={<>  <h5 className='grdiant'>Ready for Success? </h5> </>}
-                subtitle={<>
-                    <h2 className='f-80 font-bold white center mb-5'>Accelerate Your Growth With <br></br> Augmented Reality Apps</h2>
-                </>}
-                num1='01'
-                title1='Consult Our Specialists'
-                text1='Reach out to our specialists without any hesitation via email or call to attain a free consultation.'
-                btn1={<> <Link href="#" className={styles.sucssBtn}>Connect Now</Link> </>}
-
-                num2='02'
-                title2={<> Request a <br></br> Quote </>}
-                text2={<> Get a detailed cost breakdown for your app development project. </>}
-                btn2={<> <Link href="#" className={styles.sucssBtn}>Chat Now</Link> </>}
-
-                num3='03'
-                title3='Kickstart with an MVP'
-                text3='Start your app development journey with no-obligation consultation via email and phone.'
-                btn3={<> <Link href="#" className={styles.sucssBtn}>Call Now</Link> </>}
-
+                assignClass="spacing"
             />
             <section className='spacingtb1'>
                 <Technologieswe />
             </section>
             <NewHomeGlobal />
             <NewHomeSlider />
-            <Homenextproject
-                title='Experience AR Brilliance With BitsWits'
-            />
-            <Faqs
+            <Homenextproject />
+            <ServicesFaqs
+                faqsData={
+                    [
+                        {
+                            question: "What's the typical timeline for an AR project with BitsWits?",
+                            answer:
+                                (<> Project timeline varies but usually ranges from a few weeks to a few months. </>),
+                        },
+                        {
+                            question: "Do you offer AR app development, and can it be integrated into existing apps?",
+                            answer:
+                                (<> Yes, we develop AR applications and can integrate them with existing ones. </>),
+                        },
 
-                title1={`What's the typical timeline for an AR project with BitsWits?`}
-                para1='Project timeline varies but usually ranges from a few weeks to a few months.'
-                title2='Do you offer AR app development, and can it be integrated into existing apps?'
-                para2='Yes, we develop AR applications and can integrate them with existing ones.'
-                title3='What hardware or devices are required for end-users to access AR experiences developed by BitsWits?'
-                para3='Commonly used devices like smartphones or AR glasses can access our AR experiences.'
-                title4='Are there any hidden or additional costs that we should be aware of in the AR development process with BitsWits?'
-                para4='We maintain transparency in our pricing, and there are no hidden costs. Any additional expenses will be communicated and agreed upon in advance.'
-                title5='Does BitsWits provide 24/7 technical support for critical AR applications?'
-                para5='Yes, we offer 24/7 support for mission-critical applications.'
-                title6={`Are there examples or case studies of successful AR projects you've completed?`}
-                para6='Yes, we can provide case studies showcasing our work. Sign up now, and our customer support team will be in touch with you. '
-
-
-
+                        {
+                            question: "What hardware or devices are required for end-users to access AR experiences developed by BitsWits?",
+                            answer:
+                                (<> Commonly used devices like smartphones or AR glasses can access our AR experiences. </>),
+                        },
+                        {
+                            question: "Are there any hidden or additional costs that we should be aware of in the AR development process with BitsWits?",
+                            answer:
+                                (<> We maintain transparency in our pricing, and there are no hidden costs. Any additional expenses will be communicated and agreed upon in advance. </>),
+                        },
+                        {
+                            question: "Does BitsWits provide 24/7 technical support for critical AR applications?",
+                            answer:
+                                (<> Yes, we offer 24/7 support for mission-critical applications. </>),
+                        },
+                        {
+                            question: "Are there examples or case studies of successful AR projects you've completed?",
+                            answer:
+                                (<> Yes, we can provide case studies showcasing our work. Sign up now, and our customer support team will be in touch with you. </>),
+                        },
+                    ]
+                }
             />
             <HomeLocation />
-
-
         </>
     )
 }

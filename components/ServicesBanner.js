@@ -52,18 +52,18 @@ const ServiceBanner = (props) => {
     return (
         <>
 
-            <section className={styles.newHomeBg}>
+            <section className={`${styles.newHomeBg} ${styles[props.assignClass]}`}>
 
                 <Container>
                     <Row>
                         <Col xl={12}>
-                            <p className={`${styles.just} text-center f-16 font-medium mb-0`}>{props.subtitle}</p>
-                            <h3 className={`${styles.develop} text-center f-50 font-bold mb-2`}>{props.title}</h3>
-                            <p className='white center mb-4'>{props.text}</p>
+                            <p className={`${styles.just} text-center f-16 font-bold mb-0`}>{props.subtitle}</p>
+                            <h1 className={`${styles.develop} text-center f-50 font-bold mb-2`}>{props.title}</h1>
+                            <p className='font15 white center mb-3'>{props.text}</p>
                             <div className={styles.pont}>
                                 <Link className={styles.about} href="tel:+18335006007">LET'S CONNECT</Link>
                             </div>
-                            <div className='mt-5 center'>
+                            <div className={`${styles.banImg}`}>
                                 <Image quality={75} alt='Bitswits' src={props.BannerImage} className={`img-fluid`} />
                             </div>
                         </Col>

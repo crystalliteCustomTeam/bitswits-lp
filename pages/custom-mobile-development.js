@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic';
 import Homenextproject from '@/components/Homenextproject';
 import NewMobileFaqs from '@/components/NewMobileFaqs';
 import Newsuccess from '@/components/NewMblSuccess';
-import NewiosPortFolio from '@/components/NewiosPortFolio';
+import ServicesPortfolio from '@/components/ServicesPortfolio';
 import HomeLocation from '@/components/HomeLocation';
 import CustomBanner from '@/components/CustomBanner';
 import CustomMaintain from '@/components/CustomMaintain';
@@ -36,7 +36,7 @@ export default function CustomMobile() {
             <Justbuildit />
             <NewCustomWho />
             <NewCustomWhat />
-            <NewiosPortFolio />
+            <ServicesPortfolio />
             <div className=''>
                 <Newsuccess />
             </div>

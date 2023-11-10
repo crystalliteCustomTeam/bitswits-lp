@@ -9,7 +9,7 @@ import Newsuccess from '@/components/NewMblSuccess';
 import HybridBanner from '@/components/HybridBanner';
 import NewHybridServices from '@/components/NewHybridServices';
 import NewHybridWho from '@/components/NewHybridWho';
-import NewiosPortFolio from '@/components/NewiosPortFolio';
+import ServicesPortfolio from '@/components/ServicesPortfolio';
 import HomeLocation from '@/components/HomeLocation';
 import NativeBanner from '@/components/NativeBanner';
 import NewNativeServices from '@/components/NewNativeServices';
@@ -40,7 +40,7 @@ export default function nativeMobile() {
             <NewHybridWho />
             <NewMblWhat />
             {/* <NewMblWhy /> */}
-             <NewiosPortFolio />
+             <ServicesPortfolio />
             <div className='status'>
                 <Newsuccess />
             </div>

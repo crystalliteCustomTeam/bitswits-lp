@@ -72,7 +72,7 @@
 
 .about {
   width: 260px;
-  height: 50px;
+  height: 45px;
   background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
   color: white;
   display: flex;
@@ -103,6 +103,18 @@
 
 .height {
   height: 600px;
+}
+
+.banImg {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.hybrid .banImg,
+.react .banImg,
+.mobile .banImg,
+.flutter .banImg {
+  margin-top: 0;
 }
 
 /* =================== */

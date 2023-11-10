@@ -10,7 +10,7 @@ import NewHomeSlider from '@/components/NewHomeSlider';
 import HomeLocation from '@/components/HomeLocation';
 import WebappBanner from '@/components/WebappBanner';
 import Newsuccess from '@/components/NewMblSuccess';
-import NewiosPortFolio from '@/components/NewiosPortFolio';
+import ServicesPortfolio from '@/components/ServicesPortfolio';
 import Dedicatedweb from '@/components/Dedicatedweb';
 import NewMblWhy from '@/components/ServisesWhy';
 
@@ -106,7 +106,7 @@ export default function gamedevelopmentcompany() {
                 paraFive="Web apps have data and information that can provide valuable insights that guide in the decision-making process."
                 paraSix="At BitsWits, web applications require lower development and maintenance costs compared to native apps."
             />
-            <NewiosPortFolio />
+            <ServicesPortfolio />
             <Newsuccess />
             <section className='spacingtb1'>
                 <Technologieswe />

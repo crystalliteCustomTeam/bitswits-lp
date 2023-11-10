@@ -6,15 +6,30 @@ import styles from "@/styles/ServicesMaintain.module.css";
 const ServicesMaintain = (props) => {
     return (
         <>
-            <section className={` ${styles.newHomeBg} combo`}>
+            <section className={` ${styles.newHomeBg} ${styles[props.assignClass]} combo`}>
                 <Container>
                     <Row className='g-3'>
                         <Col lg={12}>
-                            <p className={` f-20 font-bold text-white text-center mb-0`}>{props.subtitle}</p>
-                            <h3 className='text-white font65 font-bold text-center mb-0'>{props.title1}</h3>
-                            <h2 className='grdiant font70 font-bold text-center pb-2'>{props.title2}</h2>
+                            <h3 className={` f-20 font-bold text-white text-center mb-0`}>{props.subtitle}</h3>
+                            <h2 className='text-white font50 font-bold text-center'>
+                                {props.title0}
+                                <span className='grdiant font60 font-bold text-center d-block mb-2'>{props.title}</span>
+                                {props.title1}
+                                <span className='grdiant font60 font-bold text-center d-block mb-2'>{props.title2}</span>
+                                {props.title3}
+                            </h2>
                             <p className='white center'>{props.text}</p>
                         </Col>
+                        {props.appContent.map((content, index) => (
+                            <Col key={index} sm={6} className={styles.earn}>
+                                <div className={styles[content.appclass]}>
+                                    <div className={styles.cardContent}>
+                                        <h3 className='text-white font25 font-bold text-center'>{content.title}</h3>
+                                        <p className={styles.possibilities}>{content.text}</p>
+                                    </div>
+                                </div>
+                            </Col>
+                        ))}
                         {props.appContent1.map((content, index) => (
                             <Col sm={6} lg={4} key={index} className={styles.earn}>
                                 <div className={styles[content.appclass]}>
@@ -29,7 +44,7 @@ const ServicesMaintain = (props) => {
                             <Col lg={12} className={styles.earn}>
                                 <div className={styles[content.appclass]}>
                                     <Row className='align-items-center'>
-                                        <Col xl={5} key={index}>
+                                        <Col xl={6} key={index}>
                                             <div className={styles.paraThreeContent}>
                                                 <h3 className='text-white font25 font-bold '>{content.title}</h3>
                                                 <p className={styles.para1}>{content.text}</p>

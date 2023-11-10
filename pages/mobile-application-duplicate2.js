@@ -6,7 +6,7 @@ import NewMblBannerduplicatejump from '@/components/NewMblBannerduplicatejump';
 import NewHomeAbout from '@/components/NewHomePageAbout';
 import NewMblServices2 from '@/components/NewMblServices2';
 import NewMblWhy from "@/components/ServisesWhy";
-import NewiosPortFolioduplicate from '@/components/NewiosPortFolioduplicate';
+import ServicesPortfolioduplicate from '@/components/ServicesPortfolioduplicate';
 import Newsuccess from '@/components/NewMblSuccess';
 import NewHomeGlobal from "@/components/NewHomeGlobal";
 import Homenextproject2 from "@/components/Homenextproject2";
@@ -116,7 +116,7 @@ export default function mobileApplication() {
         paraFive="Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue."
         paraSix="Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction." />
       <NewHomeGlobal />
-      <NewiosPortFolioduplicate />
+      <ServicesPortfolioduplicate />
       <div className="status3">
         <Newsuccess />
       </div>

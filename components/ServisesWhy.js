@@ -31,60 +31,17 @@ const ServisesWhy = (props) => {
                         </Col>
                         <Col lg={12} className='mt-5'>
                             <Row className='gy-5'>
-                                <Col lg={4}>
-                                    <div className={styles.whyBox}>
-                                        <h5 className='font35 font-bold text-white mb-3'>{props.titleOne}</h5>
-                                        <p className={`font16 text-white mb-0`}>{props.paraOne}</p>
-                                        <div className={styles.whyImg}>
-                                            <Image quality={75} alt='Bitswits' src={props.iconOne} width={55} height={55} />
+                                {props.whyData.map((item, index) => (
+                                    <Col lg={4} key={index}>
+                                        <div className={styles.whyBox}>
+                                            <h5 className='font35 font-bold text-white mb-3'>{item.title}</h5>
+                                            <p className={`font16 text-white mb-0`}>{item.para}</p>
+                                            <div className={styles.whyImg}>
+                                                <Image quality={75} alt='Bitswits' src={item.icon} width={55} height={55} />
+                                            </div>
                                         </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4}>
-                                    <div className={styles.whyBox}>
-                                        <h5 className='font35 font-bold text-white mb-3'>{props.titleTwo}</h5>
-                                        <p className={`font16 text-white mb-0`}>{props.paraTwo}</p>
-                                        <div className={styles.whyImg}>
-                                            <Image quality={75} alt='Bitswits' src={props.iconTwo} width={55} height={55} />
-                                        </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4}>
-                                    <div className={styles.whyBox}>
-                                        <h5 className='font35 font-bold text-white mb-3'>{props.titleThree}</h5>
-                                        <p className={`font16 text-white mb-0`}>{props.paraThree}</p>
-                                        <div className={styles.whyImg}>
-                                            <Image quality={75} alt='Bitswits' src={props.iconThree} width={55} height={55} />
-                                        </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4}>
-                                    <div className={styles.whyBox}>
-                                        <h5 className='font35 font-bold text-white mb-3'>{props.titleFour}</h5>
-                                        <p className={`font16 text-white mb-0`}>{props.paraFour}</p>
-                                        <div className={styles.whyImg}>
-                                            <Image quality={75} alt='Bitswits' src={props.iconFour} width={55} height={55} />
-                                        </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4}>
-                                    <div className={styles.whyBox}>
-                                        <h5 className='font35 font-bold text-white mb-3'>{props.titleFive}</h5>
-                                        <p className={`font16 text-white mb-0`}>{props.paraFive}</p>
-                                        <div className={styles.whyImg}>
-                                            <Image quality={75} alt='Bitswits' src={props.iconFive} width={55} height={55} />
-                                        </div>
-                                    </div>
-                                </Col>
-                                <Col lg={4}>
-                                    <div className={styles.whyBox}>
-                                        <h5 className='font35 font-bold text-white mb-3'>{props.titleSix}</h5>
-                                        <p className={`font16 text-white mb-0`}>{props.paraSix}</p>
-                                        <div className={styles.whyImg}>
-                                            <Image quality={75} alt='Bitswits' src={props.iconSix} width={55} height={55} />
-                                        </div>
-                                    </div>
-                                </Col>
+                                    </Col>
+                                ))}
                             </Row>
                         </Col>
                         <Col lg={10} className='mx-auto mt-5'>

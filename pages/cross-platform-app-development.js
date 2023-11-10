@@ -1,34 +1,37 @@
 import Head from "next/head";
 import React from "react";
 import dynamic from "next/dynamic";
-import NewHomeAbout from "@/components/NewHomePageAbout";
-import NewMblWhat from "@/components/NewMblWhat";
-import Technologieswe from "@/components/Technologieswe";
-import Homenextproject from "@/components/Homenextproject";
-import NewCrossFaqs from "@/components/NewCrossFaqs";
-import CrossMaintainlogo from "@/components/CrossMaintainlogo";
-import NewHomeGlobal from "@/components/NewHomeGlobal";
-import NewHomeSlider from "@/components/NewHomeSlider";
-import HomeLocation from "@/components/HomeLocation";
-import CrossBanner from "@/components/CrossBanner";
-import Newsuccess from "@/components/NewMblSuccess";
-import NewiosPortFolio from "@/components/NewiosPortFolio";
-import Partnercross from "@/components/Partnercross";
-import NewMblWhy from "@/components/ServisesWhy";
-
-//Icons
-import icon23 from "../public/images/fyicons/19.png";
-import icon24 from "../public/images/fyicons/20.png";
-import icon25 from "../public/images/fyicons/21.png";
-import icon26 from "../public/images/fyicons/22.png";
-import icon27 from "../public/images/fyicons/23.png";
-import icon28 from "../public/images/fyicons/24.png";
-import NewcrossWho from "@/components/NewcrossWho";
-import NewCrossWhat from "@/components/NewCrossWhat";
-import NewAddress from "@/components/NewAddress";
-
 //components
-const Justbuildit = dynamic(() => import("@/components/Justbuildit"));
+import ServicesBanner from '@/components/ServicesBanner';
+import NewHomeAbout from '@/components/NewHomePageAbout';
+import Partnercross from "@/components/Partnercross";
+import ServicesMaintain from '@/components/ServicesMaintain';
+import NewAddress from '@/components/NewAddress';
+const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
+import ServicesWho from '@/components/ServicesWho';
+import ServicesWhat from '@/components/ServicesWhat';
+import ServisesWhy from '@/components/ServisesWhy';
+import ServicesPortfolio from '@/components/ServicesPortfolio';
+import Capabilities from '@/components/Capabilities';
+import Newsuccess from '@/components/NewMblSuccess';
+import Technologieswe from '@/components/Technologieswe';
+import NewHomeGlobal from '@/components/NewHomeGlobal';
+import NewHomeSlider from '@/components/NewHomeSlider';
+import Homenextproject from '@/components/Homenextproject';
+import ServicesFaqs from '@/components/ServicesFaqs';
+import HomeLocation from '@/components/HomeLocation';
+//images
+import BannerImage from "@/public/images/cross/crossplatform.png"
+import WhoImage from "@/public/images/cross/who_image.png"
+import WhatImage from "@/public/images/cross/what_Image.png"
+//icons 
+import icon23 from '../public/images/fyicons/19.png'
+import icon24 from '../public/images/fyicons/20.png'
+import icon25 from '../public/images/fyicons/21.png'
+import icon26 from '../public/images/fyicons/22.png'
+import icon27 from '../public/images/fyicons/23.png'
+import icon28 from '../public/images/fyicons/24.png'
+
 
 export default function gamedevelopmentcompany() {
   return (
@@ -92,47 +95,163 @@ export default function gamedevelopmentcompany() {
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 
-      <CrossBanner />
+      <ServicesBanner
+        subtitle="Create The Future With Our"
+        title={<> Cross Platform Apps <br /> Development </>}
+        text={<> With our cross-platform app development services, you can easily create apps that are compatible <br /> across multiple platforms. No more worrying about developing an app for every operating system; <br /> now you can develop and deploy one single app for both Android and iOS! </>}
+        BannerImage={BannerImage}
+      />
       <NewHomeAbout />
       <Partnercross />
-      <CrossMaintainlogo />
+      <ServicesMaintain
+        assignClass="cross"
+        title={<> Cross-Platform App Development </>}
+        title1={<> One Codebase,Multiple Platforms, Infinite Possibilities </>}
+                appContent={[]}
+                appContent1={
+          [
+            {
+              title: 'Custom Cross-Platform Development',
+              text: 'Premier provider of custom multi-platform app development services, BitsWits employs the latest technologies, including web services, databases, user experience design, development frameworks, and testing tools, to ensure that your app is optimized for all devices, from iPhones to Android phones.',
+              appclass: "app"
+            },
+            {
+              title: (<> Wearable Cross-Platform <br /> Apps </>),
+              text: (<> Our team specializes in developing state-of-the-art wearable apps that seamlessly integrate with cameras and sensors across various platforms. Let us enhance your user experience with our expertise. </>),
+              appclass: "app1",
+            },
+            {
+              title: (<> Cross-Platform UI/UX Design Services </>),
+              text: 'Our cross-platform UI/UX design services provide a seamless user experience across all devices & operating systems. Our experts deliver visually stunning & user-friendly interfaces that keep users engaged & satisfied.',
+              appclass: "app2",
+            }
+          ]
+        }
+        appContent2={
+          [
+            {
+              title: 'Web-Based Cross-Platform Apps',
+              text: "We provide a variety of options for cross-platform web app development, from cross-platform games to enterprise-level software solutions. Our cross-platform app development products are designed to be secure, user-friendly & highly adaptive.",
+              appclass: "app3",
+            },
+          ]
+        }
+        appContent3={
+          [
+            {
+              title: (<> AI Integrated Cross Platforms Apps </>),
+              text: (<> BitsWits specializes in creating custom applications that utilize the power of artificial intelligence. Our AI-integrated cross-platform application development services offer innovative and intuitive solutions that leverage the latest AI technologies to automate tasks, streamline processes, and reduce costs for your business. </>),
+              appclass: "app4",
+            },
+            {
+              title: (<> Cross Platforms Apps Consulting </>),
+              text: 'Our team of cross-platform app developers actively listen to your ideas and craft custom plans to precisely meet your unique requirements. We highly value every project and strive to provide exceptional services that exceed your expectations.',
+              appclass: "app5",
+            },
+          ]
+        }
+      />
       <NewAddress />
       <Justbuildit />
-      <NewcrossWho />
-      <NewCrossWhat />
-      <NewMblWhy
+      <ServicesWho
+                subtitle="Our Value Proposition"
+                title="With a track record of dedication and innovation, we're not just developers; we're passionate problem-solvers invested in your success."
+                text="Hire BitsWits for mobile application development that engages users and generates measurable results. With over a decade of experience, we're the industry's best option."
+                WhoImage={WhoImage}
+            />
+            <ServicesWhat
+        subtitle="Why Hire Us"
+        title="Is your current app failing to deliver the results you desire?"
+        text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
+        WhatImage={WhatImage}
+      />
+      <ServisesWhy
         title={<> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </>}
         subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </>}
         sub1="Why Hire Cross-Platform App Developers at BitsWits for Top-Quality Apps?"
         sub2="Cross-platform app development services at BitsWits, allow us to efficiently reach more users across multiple devices while providing a persistent brand experience."
-        iconOne={icon23}
-        iconTwo={icon24}
-        iconThree={icon25}
-        iconFour={icon26}
-        iconFive={icon27}
-        iconSix={icon28}
-        titleOne="Reaching More Users"
-        titleTwo="Smooth Development"
-        titleThree="Consistent Experience"
-        titleFour="Simplified & Easy Maintenance"
-        titleFive="Investments Built to Last"
-        titleSix="Improved Engagement"
-        paraOne="Cross-platform apps work across iOS, Android, web, and other platforms to access a global target market."
-        paraTwo="Cross-platform app developers build multiple platforms from one codebase, which reduces development time, resources, and costs."
-        paraThree="Cross-platform applications allow a unified UI/UX across devices for brand consistency."
-        paraFour="Our cross-platform app developers improve updates and bug fixes with a shared codebase issued simultaneously across platforms."
-        paraFive="Apps that are cross-platform may be used on new gadgets and platforms without having to be rebuilt."
-        paraSix="At BitsWits, professional cross-platform app developers focus on smooth customer engagement and experience."
+        whyData={
+          [
+            {
+              icon: icon23,
+              title: "Reaching More Users",
+              para: "Cross-platform apps work across iOS, Android, web, and other platforms to access a global target market.",
+            },
+            {
+              icon: icon24,
+              title: "Smooth Development",
+              para: "Cross-platform app developers build multiple platforms from one codebase, which reduces development time, resources, and costs.",
+            },
+            {
+              icon: icon25,
+              title: "Consistent Experience",
+              para: "Cross-platform applications allow a unified UI/UX across devices for brand consistency.",
+            },
+            {
+              icon: icon26,
+              title: "Simplified & Easy Maintenance",
+              para: "Our cross-platform app developers improve updates and bug fixes with a shared codebase issued simultaneously across platforms.",
+            },
+            {
+              icon: icon27,
+              title: "Investments Built to Last",
+              para: "Apps that are cross-platform may be used on new gadgets and platforms without having to be rebuilt.",
+            },
+            {
+              icon: icon28,
+              title: "Improved Engagement",
+              para: "At BitsWits, professional cross-platform app developers focus on smooth customer engagement and experience.",
+            },
+          ]
+        }
       />
-      <NewiosPortFolio />
-      <Newsuccess />
-      <section className="spacingtb1">
+      <ServicesPortfolio />
+      <Capabilities />
+      <Newsuccess
+        assignClass="spacing"
+      />
+      <section className='spacingtb1'>
         <Technologieswe />
       </section>
       <NewHomeGlobal />
       <NewHomeSlider />
       <Homenextproject />
-      <NewCrossFaqs />
+      <ServicesFaqs
+        faqsData={
+          [
+            {
+              question: "Which apps use cross-platform?",
+              answer:
+                (<> Cross-platform apps are applications that can run on multiple operating systems, such as iOS and Android. Popular examples of cross-platform apps include social media networks like Twitter, Facebook, and Instagram; messaging services like WhatsApp, iMessage, and Skype; cloud storage solutions like Dropbox, Google Drive, and iCloud; productivity tools like Evernote, Slack, and Trello; and gaming services like Apple Arcade, Google Play Games and Xbox Live. These apps have become essential for staying connected across multiple devices and platforms. Ultimately, the list of cross-platform apps is as long as your imagination allows – chances are that there's an app for whatever you need. Whether it's a powerful productivity tool, a fun gaming experience, or the latest social media craze, chances are there's a cross-platform app that can help you stay connected and productive. And since it works on multiple platforms, you don't have to worry about compatibility issues. It's really that simple! </>),
+            },
+            {
+              question: "What is cross-platform in app development?",
+              answer:
+                (<> “Cross-platform app development is the process of creating a single application that can run on multiple operating systems, such as iOS and Android.” This allows developers to create one version of their app for all users, rather than having to write code specifically for each platform. By utilizing cross-platform tools and frameworks, it makes it easier for companies to bring their apps to market faster and with fewer resources. It also provides the cross platform mobile app design and development agency with the opportunity to create a unified experience across all devices, regardless of platform. </>),
+            },
+            {
+              question: "What language is used for cross-platform apps?",
+              answer:
+                (<> The language used for cross-platform apps is usually a combination of HTML, CSS, and JavaScript. However, there are various frameworks available such as React Native, Flutter, Ionic, and Xamarin that allow developers to create apps for multiple platforms using the same codebase. Additionally, some languages like Dart are designed with the intent to create cross-platform apps. Ultimately, the language used for cross-platform apps depends on the platform and tools chosen by the developer. BitsWits masters the art of flutter cross platform development. </>),
+            },
+            {
+              question: "Is cross-platform development in demand?",
+              answer:
+                (<> Yes, cross-platform app development services will still be in demand in 2023. As the need for efficient and cost-effective software grows, companies are increasingly turning to cross-platform development solutions to reduce development costs and time while delivering a unified user experience across all devices. In addition, cross-platform development is becoming increasingly popular due to the growing trend toward mobile applications that require code that can be shared across multiple devices. With its cost savings, flexibility, and scalability, cross-platform development is sure to remain in demand for years to come. </>),
+            },
+            {
+              question: "What is the best custom mobile app development company?",
+              answer:
+                (<> The best custom mobile app development company is the one that meets your specific requirements and budget. They should have a proven track record of successful projects and provide top-notch customer support. Look for an experienced cross platform mobile app developer that can effectively take your concept from idea to market quickly and efficiently. Finally, make sure they are up-to-date on the latest technologies and trends in mobile app development to bring your project to life. If you find a company that meets these criteria, then you are likely to have the best custom mobile app development experience. And if you are looking for such a company, BitsWits is the perfect destination to hire cross platform app developers. Because we take pride in possessing all those attributes mentioned above. </>),
+            },
+            {
+              question: "Which framework can be used to develop cross-platform applications?",
+              answer:
+                (<> The best framework to use for cross-platform app development services is React Native. It allows the cross platform mobile app development agency to create apps that can run on multiple platforms with the same codebase, making it a great choice for anyone looking to develop an app across multiple devices. React Native also offers a wide range of features and capabilities, making it one of the most popular frameworks available today. </>),
+            },
+          ]
+        }
+      />
       <HomeLocation />
     </>
   );

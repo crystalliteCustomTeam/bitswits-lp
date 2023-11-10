@@ -2,31 +2,35 @@ import Head from "next/head";
 import React from "react";
 import dynamic from "next/dynamic";
 //components
-import NewMblBanner from '@/components/NewMblBanner';
+import ServicesBanner from '@/components/ServicesBanner';
 import NewHomeAbout from '@/components/NewHomePageAbout';
-import NewMblWho from '@/components/NewMblWho';
-import NewMblWhat from '@/components/NewMblWhat';
-import Capabilities from '@/components/Capabilities';
-import NewMobileFaqs from '@/components/NewMobileFaqs';
-import Newsuccess from '@/components/NewMblSuccess';
-import NewiosPortFolio from '@/components/NewiosPortFolio';
-import NewMblServices from '@/components/NewMblServices';
+import ServicesMaintain from '@/components/ServicesMaintain';
+import NewAddress from '@/components/NewAddress';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
-import NewHomeGlobal from "@/components/NewHomeGlobal";
-import NewHomeSlider from "@/components/NewHomeSlider";
-import Technologieswe from "@/components/NewMblTechnologiesWe";
-import Homenextproject from "@/components/Homenextproject";
-import NewMblWhy from "@/components/ServisesWhy";
-
-//Icons 
-
+import ServicesWho from '@/components/ServicesWho';
+import ServicesWhat from '@/components/ServicesWhat';
+import ServisesWhy from '@/components/ServisesWhy';
+import ServicesPortfolio from '@/components/ServicesPortfolio';
+import Capabilities from '@/components/Capabilities';
+import Newsuccess from '@/components/NewMblSuccess';
+import Technologieswe from '@/components/Technologieswe';
+import NewHomeGlobal from '@/components/NewHomeGlobal';
+import NewHomeSlider from '@/components/NewHomeSlider';
+import Homenextproject from '@/components/Homenextproject';
+import ServicesFaqs from '@/components/ServicesFaqs';
+import HomeLocation from '@/components/HomeLocation';
+//images
+import BannerImage from "@/public/newMobilePageImages/banner_image.png"
+import WhoImage from "@/public/newMobilePageImages/who_image.png"
+import WhatImage from "@/public/newMobilePageImages/what_Image.png"
+//icons 
 import icon23 from '../public/images/fymobile/1.png'
 import icon24 from '../public/images/fymobile/2.png'
 import icon25 from '../public/images/fymobile/3.png'
 import icon26 from '../public/images/fymobile/4.png'
 import icon27 from '../public/images/fymobile/5.png'
 import icon28 from '../public/images/fymobile/6.png'
-import NewAddress from "@/components/NewAddress";
+
 
 export default function mobileApplication() {
   return (
@@ -56,7 +60,6 @@ export default function mobileApplication() {
           property="og:description"
           content="From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions."
         />
-        {/* <meta property="og:url" content="https://bitswits.co/mobile-app-development-company/" /> */}
         <meta
           property="og:site_name"
           content="The Professional Mobile App Development Company - Bitswits."
@@ -92,46 +95,164 @@ export default function mobileApplication() {
         <meta name="ICBM" content="39.78373, -100.445882" />
       </Head>
 
-      <NewMblBanner />
+
+      <ServicesBanner
+        subtitle="A TOP"
+        title={<> Mobile App Development <br /> Company At Your Service </>}
+        text={<> We deliver great results, on time and on budget. Contact us to start talking about your project today! </>}
+        BannerImage={BannerImage}
+        assignClass="mobile"
+      />
       <NewHomeAbout />
-      <NewMblWho />
-      <NewMblWhat />
-      <Justbuildit />
-      <NewMblServices />
+      <ServicesMaintain
+        assignClass="mobile"
+        title1={<> Maintaining digital quality with our collection of customizable services </>}
+                appContent={[]}
+                appContent1={
+          [
+            {
+              title: 'IOS Application Development',
+              text: 'We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design, agile development methodologies, and the latest tools and frameworks. Our experienced iOS developers deliver innovative and customized apps!',
+              appclass: "app"
+            },
+            {
+              title: 'Android Application Development',
+              text: 'We take Android app development to the next level by following a comprehensive approach, from ideation to launch. Our experienced developers use the latest technologies to create customized and scalable Android apps that exceed client expectations.',
+              appclass: "app1",
+            },
+            {
+              title: (<> Web App <br /> Development </>),
+              text: 'We offer end-to-end web app development services. Our team of skilled web app developers utilizes the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today!',
+              appclass: "app2",
+            }
+          ]
+        }
+        appContent2={
+          [
+            {
+              title: 'Flutter App Development',
+              text: "Our team of expert Flutter app developers at Bitswits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs. From ideation to deployment, we ensure a smooth and efficient development process.",
+              appclass: "app3",
+            },
+          ]
+        }
+        appContent3={
+          [
+            {
+              title: 'React Native App Development',
+              text: (<> Our React Native app developers specialize in creating top-notch, performance-oriented native mobile apps for Android and iOS platforms. We follow a robust development process and utilize the latest technologies to deliver customized solutions that meet our clients' business objectives. </>),
+              appclass: "app4",
+            },
+            {
+              title: 'Cross Platform App Development',
+              text: 'We prioritize creating seamless user experiences in cross-platform app development. Our expert team uses cutting-edge tools and frameworks to build high-quality apps that work flawlessly across multiple platforms, ensuring maximum reach and engagement for your business.',
+              appclass: "app5",
+            },
+          ]
+        }
+      />
       <NewAddress />
-      <NewMblWhy
-      title = { <> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </> }
-      subtitle = { <> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </> }
-      sub1 = "Why Choose BitsWits for Building Mobile Applications?"
-      sub2 = "Building your mobile app acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape its trajectory."
-        iconOne={icon23}
-        iconTwo={icon24}
-        iconThree={icon25}
-        iconFour={icon26}
-        iconFive={icon27}
-        iconSix={icon28}
-        titleOne="Greater Customer Reach"
-        titleTwo="Simplified Payments"
-        titleThree="Drive Sales"
-        titleFour={<>Customer <br /> Loyalty</>}
-        titleFive="Competitive Advantage"
-        titleSix="Improved Customer Service"
-        paraOne="Mobile apps allow you to connect with customers anywhere and anytime worldwide."
-        paraTwo="Mobile applications allow users to instantly pay, donate, and order without any hassle."
-        paraThree="Mobile applications provide a convenient way for customers to purchase your products and services on the go."
-        paraFour="Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences."
-        paraFive="Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue."
-        paraSix="Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction." />
-       <NewiosPortFolio />
+      <Justbuildit />
+      <ServicesWho
+                subtitle="Our Value Proposition"
+                title="With a track record of dedication and innovation, we're not just developers; we're passionate problem-solvers invested in your success."
+                text="Hire BitsWits for mobile application development that engages users and generates measurable results. With over a decade of experience, we're the industry's best option."
+                WhoImage={WhoImage}
+            />
+            <ServicesWhat
+        subtitle="Why Hire Us"
+        title="Is your current app failing to deliver the results you desire?"
+        text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
+        WhatImage={WhatImage}
+      />
+      <ServisesWhy
+        title={<> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </>}
+        subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </>}
+        sub1="Why Choose BitsWits for Building Mobile Applications?"
+        sub2="Building your mobile app acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape its trajectory."
+        whyData={
+          [
+            {
+              icon: icon23,
+              title: "Greater Customer Reach",
+              para: "Mobile apps allow you to connect with customers anywhere and anytime worldwide.",
+            },
+            {
+              icon: icon24,
+              title: "Simplified Payments",
+              para: "Mobile applications allow users to instantly pay, donate, and order without any hassle.",
+            },
+            {
+              icon: icon25,
+              title: (<> Drive <br /> Sales </>),
+              para: "Mobile applications provide a convenient way for customers to purchase your products and services on the go.",
+            },
+            {
+              icon: icon26,
+              title: (<> Customer <br /> Loyalty </>),
+              para: "Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences.",
+            },
+            {
+              icon: icon27,
+              title: "Competitive Advantage",
+              para: "Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue.",
+            },
+            {
+              icon: icon28,
+              title: "Improved Customer Service",
+              para: "Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction.",
+            },
+          ]
+        }
+      />
+      <ServicesPortfolio />
       <Capabilities />
       <div className="status2">
         <Newsuccess />
       </div>
+      <section className='spacingtb1'>
+        <Technologieswe />
+      </section>
       <NewHomeGlobal />
       <NewHomeSlider />
-      <Technologieswe />
       <Homenextproject />
-      <NewMobileFaqs />
+      <ServicesFaqs
+        faqsData={
+          [
+            {
+              question: "What is mobile application development?",
+              answer:
+                (<> Mobile application development creates software applications that run on mobile devices and other connected devices, such as wearables, automotive systems, cameras, and more. It requires skill sets in design, development, testing, deployment, and maintenance to create innovative user experiences across multiple platforms. With that being said, businesses hire mobile app developers to stay ahead of the competition and deliver market-leading products to their customers. </>),
+            },
+            {
+              question: "Does BitsWits offer hybrid and native app development?",
+              answer:
+                (<> BitsWits has a team of the best mobile app developers expert in providing customized development solutions, whether Hybrid or Native mobile application development is required. Our developers always come up with creative and innovative app ideas that are best in your interest. </>),
+            },
+            {
+              question: "Why choose BitsWits as a mobile app development company?",
+              answer:
+                (<> BitsWits is a top mobile app development company due to its decent clientele, commitment to excellence, and innovative mobile app development solutions. We enjoy the top spot in the application development industry with affordable packages and professional services. </>),
+            },
+            {
+              question: "Is there any customer support available?",
+              answer:
+                (<> Yes, BitsWits offers 24/7 incredible customer support, even post-mobile apps development USA. We do not let our customers hang in the middle with any query that may bring trouble to them. </>),
+            },
+            {
+              question: "How to choose a mobile app development company?",
+              answer:
+                (<> Checking client portfolios, communicating your requirements clearly, and considering the development cost will help you choose the best mobile app development agency. BitsWits practices open communication so that the solution to your query is answered adequately to provide you with the utmost satisfaction. </>),
+            },
+            {
+              question: "What industries does BitsWits cater to?",
+              answer:
+                (<> At BitsWits, we specialize in developing innovative and efficient mobile applications for various industries across the United States. We offer customized mobile solutions from e-commerce to healthcare and gaming to meet each client's specific requirements and business. We are a mobile application development company dedicated to creating apps that cater to each client's unique needs. </>),
+            },
+          ]
+        }
+      />
+      <HomeLocation />
     </>
   );
 }

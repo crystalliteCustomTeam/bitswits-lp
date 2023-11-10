@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from "@/styles/NewiosPortFolio.module.css";
+import styles from "@/styles/ServicesPortfolio.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
 //
 import folio1 from "@/public/newMobilePageImages/portfolio/folio1.png"
@@ -13,7 +13,7 @@ import folio6 from "@/public/newMobilePageImages/portfolio/folio6.png"
 
 
 
-const NewiosPortFolio = (props) => {
+const ServicesPortfolio = (props) => {
 
 
 
@@ -94,4 +94,4 @@ const NewiosPortFolio = (props) => {
     )
 }
 
-export default NewiosPortFolio
+export default ServicesPortfolio

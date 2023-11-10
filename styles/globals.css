@@ -103,7 +103,7 @@ div {
 
 .font65 {
   font-size: 55px;
-  line-height: 60px;
+  line-height: 65px;
 }
 
 .font15 {
@@ -206,8 +206,8 @@ div {
 }
 
 .font35 {
-  font-size: 37px;
-  line-height: 62px;
+  font-size: 35px;
+  line-height: 45px;
 }
 
 .font55 {
@@ -216,6 +216,7 @@ div {
 
 .font50 {
   font-size: 45px;
+  line-height: 55px;
 }
 
 .font40 {
@@ -224,12 +225,12 @@ div {
 
 .font60 {
   font-size: 60px;
-  line-height: 50px;
+  line-height: 70px;
 }
 
 .font65 {
   font-size: 65px;
-  line-height: 65px;
+  line-height: 75px;
 }
 
 .f-80 {

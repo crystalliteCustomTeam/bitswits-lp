@@ -66,7 +66,7 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/hybrid-developer'
     || router.pathname == '/native-developer'
     || router.pathname == '/mobile-developer'
-    || router.pathname == '/indexnew'
+    || router.pathname == '/supersale'
     || router.pathname == '/top-ecommerce-app-development-company'
 
 
@@ -74,7 +74,7 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/mobile-app-development-company-lp2'
 
     
-  const newhomepage = router.pathname == '/indexnew';
+  const newhomepage = router.pathname == '/supersale';
   const newecommercepage = router.pathname == '/top-ecommerce-app-development-company';
 
 

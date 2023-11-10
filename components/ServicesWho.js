@@ -31,7 +31,7 @@ const ServicesWho = (props) => {
 
                         <Col lg={10}>
                             <div className={`${styles.secImagebg} text-center pt-4`}>
-                                <Image quality={75} alt='Bitswits' src={props.WhoImage} className={`${styles.secImage} img-fluid`} />
+                                <Image quality={75} alt='Bitswits' height="550" src={props.WhoImage} className={`${styles.secImage} img-fluid`} />
                             </div>
                         </Col>
                     </Row>
