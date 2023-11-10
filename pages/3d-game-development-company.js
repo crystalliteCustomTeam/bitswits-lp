@@ -46,7 +46,33 @@ const mobileApplication = () => {
             <Genreof3dgames />
             <Capabilities3d />
             <Engage3d />
-            <Newsuccess />
+            <Newsuccess
+          successSteps={
+            [
+              {
+                number: '01',
+                title: 'Talk To Our Experts',
+                text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                buttonText: 'Connect Now!',
+                link: '#',
+              },
+              {
+                number: '02',
+                title: 'Get A Quote',
+                text: 'Get an exact cost breakdown structure of your app',
+                buttonText: 'Chat Now!',
+                link: '#',
+              },
+              {
+                number: '03',
+                title: 'Build An MVP',
+                text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                buttonText: 'Call Now!',
+                link: '#',
+              },
+            ]
+          }
+        />
             <NewHomeGlobal />
             <NewHomeSlider />
             <Technologieswe />

@@ -36,7 +36,7 @@ export default function gamedevelopmentcompany() {
 
 
             <Gamer2dBanner />
-            <NewHomeAbout 
+            <NewHomeAbout
                 title="Our Client’s Feedback Has Been"
                 subtitle="Nothing Short Of Amazing!"
             />
@@ -50,11 +50,37 @@ export default function gamedevelopmentcompany() {
             <Capabilities2d />
             <Wealth2d />
             <Engage2d />
-            <Newsuccess />
+            <Newsuccess
+                successSteps={
+                    [
+                        {
+                            number: '01',
+                            title: 'Talk To Our Experts',
+                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                            buttonText: 'Connect Now!',
+                            link: '#',
+                        },
+                        {
+                            number: '02',
+                            title: 'Get A Quote',
+                            text: 'Get an exact cost breakdown structure of your app',
+                            buttonText: 'Chat Now!',
+                            link: '#',
+                        },
+                        {
+                            number: '03',
+                            title: 'Build An MVP',
+                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                            buttonText: 'Call Now!',
+                            link: '#',
+                        },
+                    ]
+                }
+            />
             <NewHomeGlobal />
             <NewHomeSlider />
             <Technologieswe />
-            <Homenextproject 
+            <Homenextproject
                 title="Brace yourself for an App-venture!"
             />
             <Game2dFaqs />
