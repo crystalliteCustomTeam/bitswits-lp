@@ -10,7 +10,7 @@ import ButtonIcon from "@/public/newHomePageImages/home_btn.png"
 const ServicesWho = (props) => {
     return (
         <>
-            <section className={styles.newHomeBg}>
+            <section className={`${styles.newHomeBg} ${styles[props.assignClass]}`}>
                 <Container>
                     <Row>
                         <Col lg={12}>

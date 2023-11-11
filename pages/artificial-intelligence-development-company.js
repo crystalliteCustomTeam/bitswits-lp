@@ -43,9 +43,9 @@ export default function gamedevelopmentcompany() {
                 BannerImage={BannerImage}
                 assignClass="ai"
             />
-            <NewHomeAbout 
-                title="Our Client’s Feedback Has Been"
-                subtitle="Nothing Short Of Amazing!"
+            <NewHomeAbout
+                title="Clients Love Our AI Solutions"
+                subtitle="Hear It from Them"
             />
             <ServicesMaintain
                 assignClass="ai"
@@ -111,30 +111,34 @@ export default function gamedevelopmentcompany() {
                 text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
                 WhatImage={WhatImage}
             />
-            <ServicesPortfolio />
+            <ServicesPortfolio
+                title={<> Transforming Industries with <span className="grdiant">AI Solutions</span> </>}
+            />
             <Capabilities />
             <Newsuccess
                 assignClass="spacing"
+                subtitle="Ready for Success?"
+                maintitle={<> Accelerate Your Growth With <br /> AI Solutions </>}
                 successSteps={
                     [
                         {
                             number: '01',
-                            title: 'Talk To Our Experts',
-                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                            title: 'Consult Our Specialists',
+                            text: 'Reach out to our specialists without any hesitation via email or call to attain a free consultation.',
                             buttonText: 'Connect Now!',
                             link: '#',
                         },
                         {
                             number: '02',
-                            title: 'Get A Quote',
-                            text: 'Get an exact cost breakdown structure of your app',
+                            title: (<> Request a <br /> Quote </>),
+                            text: 'Get a detailed cost breakdown for your app development project.',
                             buttonText: 'Chat Now!',
                             link: '#',
                         },
                         {
                             number: '03',
-                            title: 'Build An MVP',
-                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                            title: 'Kickstart with an MVP',
+                            text: 'Start your app development journey with no-obligation consultation via email and phone.',
                             buttonText: 'Call Now!',
                             link: '#',
                         },
@@ -146,8 +150,8 @@ export default function gamedevelopmentcompany() {
             </section>
             <NewHomeGlobal />
             <NewHomeSlider />
-            <Homenextproject 
-                title="Brace yourself for an App-venture!"
+            <Homenextproject
+                title="Get Smart With Artificial Intelligence"
             />
             <ServicesFaqs
                 faqsData={

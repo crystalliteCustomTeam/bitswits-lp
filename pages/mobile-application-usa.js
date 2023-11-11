@@ -208,36 +208,40 @@ export default function mobileApplication() {
           ]
         }
       />
-      <ServicesPortfolio />
+      <ServicesPortfolio 
+                title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
+            />
       <Capabilities />
       <div className="status2">
         <Newsuccess
-          successSteps={
-            [
-              {
-                number: '01',
-                title: 'Talk To Our Experts',
-                text: 'Contact us without obligation by email or phone and secure your free consultation.',
-                buttonText: 'Connect Now!',
-                link: '#',
-              },
-              {
-                number: '02',
-                title: 'Get A Quote',
-                text: 'Get an exact cost breakdown structure of your app',
-                buttonText: 'Chat Now!',
-                link: '#',
-              },
-              {
-                number: '03',
-                title: 'Build An MVP',
-                text: 'Contact us without obligation by email or phone and secure your free consultation.',
-                buttonText: 'Call Now!',
-                link: '#',
-              },
-            ]
-          }
-        />
+          subtitle="Ready For Success?"
+                maintitle="Brace Yourself for What Happens Next"
+                successSteps={
+                    [
+                        {
+                            number: '01',
+                            title: 'Talk To Our Experts',
+                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                            buttonText: 'Connect Now!',
+                            link: '#',
+                        },
+                        {
+                            number: '02',
+                            title: 'Get A Quote',
+                            text: 'Get an exact cost breakdown structure of your app',
+                            buttonText: 'Chat Now!',
+                            link: '#',
+                        },
+                        {
+                            number: '03',
+                            title: 'Build An MVP',
+                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                            buttonText: 'Call Now!',
+                            link: '#',
+                        },
+                    ]
+                }
+            />
       </div>
       <section className='spacingtb1'>
         <Technologieswe />

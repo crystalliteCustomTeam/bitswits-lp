@@ -88,7 +88,7 @@ const NewhomeFaqs = () => {
 
                     <Row>
                         <Col lg={12}>
-                            <div className={`${faq1show ? 'touch' : ''} mb-4 mb-lg-0 mt-5`}>
+                            <div className={`${faq1show ? 'touch' : ''} mb-4 mb-lg-0 mt-3 mt-lg-5`}>
                                 <div onClick={faq1} className={styles.heading}>
                                     <h3>
                                         How do I get started with app development at BitsWits?  {faq1show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}

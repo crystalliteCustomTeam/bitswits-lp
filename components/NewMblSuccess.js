@@ -19,8 +19,8 @@ const Newsuccess = (props) => {
                     <Row>
                         <Col xl={12}>
                             <div>
-                                <h5 className='grdiant'>Ready For Success?</h5>
-                                <h2 className='f-80 font-bold white center mb-5'>Brace Yourself for What Happens Next</h2>
+                                <h5 className='grdiant'>{props.subtitle}</h5>
+                                <h2 className='f-80 font-bold white center mb-5'>{props.maintitle}</h2>
                             </div>
                         </Col>
                         <Col xl={12} className='mx-auto'>

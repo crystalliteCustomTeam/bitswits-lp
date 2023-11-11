@@ -157,14 +157,15 @@ export default function gamedevelopmentcompany() {
       <NewAddress />
       <Justbuildit />
       <ServicesWho
-        subtitle="Our Value Proposition"
-        title="With a track record of dedication and innovation, we're not just developers; we're passionate problem-solvers invested in your success."
-        text="Hire BitsWits for mobile application development that engages users and generates measurable results. With over a decade of experience, we're the industry's best option."
+        assignClass="cross"
+        subtitle="Who we are."
+        title="We build greater futures through innovation and collective knowledge."
+        text="Bitswits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
         WhoImage={WhoImage}
       />
       <ServicesWhat
-        subtitle="Why Hire Us"
-        title="Is your current app failing to deliver the results you desire?"
+        subtitle="What we do."
+        title="Bitswits transforms businesses through technology."
         text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
         WhatImage={WhatImage}
       />
@@ -177,17 +178,17 @@ export default function gamedevelopmentcompany() {
           [
             {
               icon: icon23,
-              title: "Reaching More Users",
+              title: (<> Reaching More <br /> Users </>),
               para: "Cross-platform apps work across iOS, Android, web, and other platforms to access a global target market.",
             },
             {
               icon: icon24,
-              title: "Smooth Development",
+              title: (<> Smooth <br /> Development </>),
               para: "Cross-platform app developers build multiple platforms from one codebase, which reduces development time, resources, and costs.",
             },
             {
               icon: icon25,
-              title: "Consistent Experience",
+              title: (<> Consistent <br /> Experience </>),
               para: "Cross-platform applications allow a unified UI/UX across devices for brand consistency.",
             },
             {
@@ -197,7 +198,7 @@ export default function gamedevelopmentcompany() {
             },
             {
               icon: icon27,
-              title: "Investments Built to Last",
+              title: (<> Investments Built <br /> to Last </>),
               para: "Apps that are cross-platform may be used on new gadgets and platforms without having to be rebuilt.",
             },
             {
@@ -208,36 +209,40 @@ export default function gamedevelopmentcompany() {
           ]
         }
       />
-      <ServicesPortfolio />
+      <ServicesPortfolio 
+                title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
+            />
       <Capabilities />
       <Newsuccess
         assignClass="spacing"
-        successSteps={
-          [
-            {
-              number: '01',
-              title: 'Talk To Our Experts',
-              text: 'Contact us without obligation by email or phone and secure your free consultation.',
-              buttonText: 'Connect Now!',
-              link: '#',
-            },
-            {
-              number: '02',
-              title: 'Get A Quote',
-              text: 'Get an exact cost breakdown structure of your app',
-              buttonText: 'Chat Now!',
-              link: '#',
-            },
-            {
-              number: '03',
-              title: 'Build An MVP',
-              text: 'Contact us without obligation by email or phone and secure your free consultation.',
-              buttonText: 'Call Now!',
-              link: '#',
-            },
-          ]
-        }
-      />
+        subtitle="Ready For Success?"
+                maintitle="Brace Yourself for What Happens Next"
+                successSteps={
+                    [
+                        {
+                            number: '01',
+                            title: 'Talk To Our Experts',
+                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                            buttonText: 'Connect Now!',
+                            link: '#',
+                        },
+                        {
+                            number: '02',
+                            title: 'Get A Quote',
+                            text: 'Get an exact cost breakdown structure of your app',
+                            buttonText: 'Chat Now!',
+                            link: '#',
+                        },
+                        {
+                            number: '03',
+                            title: 'Build An MVP',
+                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                            buttonText: 'Call Now!',
+                            link: '#',
+                        },
+                    ]
+                }
+            />
       <section className='spacingtb1'>
         <Technologieswe />
       </section>

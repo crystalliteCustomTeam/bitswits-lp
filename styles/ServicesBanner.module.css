@@ -117,7 +117,7 @@
 
 .custom .banImg,
 .mobile .banImg,
-.react .banImg{
+.react .banImg {
   margin-top: -40px;
 }
 
@@ -144,29 +144,6 @@
   position: relative;
   margin-top: 0;
 }
-
-/* 
-  .bannerform::before {
-    content: "";
-    position: absolute;
-    left: -15px;
-    bottom: -20px;
-    z-index: 1;
-    height: 50px;
-    width: 50px;
-    background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
-  }
-  
-  .bannerform::after {
-    content: "";
-    position: absolute;
-    right: -50px;
-    bottom: -20px;
-    z-index: 1;
-    height: 50px;
-    width: 50px;
-    background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
-  } */
 
 .discuss {
   justify-content: space-between;
@@ -363,6 +340,10 @@
 }
 
 @media screen and (max-width: 991px) {
+  .newHomeBg {
+    background-image: none;
+  }
+
   .just {
     font-size: 18px;
     line-height: 28px;

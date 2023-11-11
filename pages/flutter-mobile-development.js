@@ -100,16 +100,16 @@ export default function HybridMobile() {
         BannerImage={BannerImage}
         assignClass="flutter"
       />
-      <NewHomeAbout 
-                title="Our Client’s Feedback Has Been"
-                subtitle="Nothing Short Of Amazing!"
-            />
+      <NewHomeAbout
+        title="Our Client’s Feedback Has Been"
+        subtitle="Nothing Short Of Amazing!"
+      />
       <ServicesMaintain
         assignClass="flutter"
         title1={<> No Challenge Too Great For Our </>}
         title2={<> Flutter App Development Company! </>}
-                appContent={[]}
-                appContent1={
+        appContent={[]}
+        appContent1={
           [
             {
               title: 'Dart Application Development Services',
@@ -155,14 +155,14 @@ export default function HybridMobile() {
       <NewAddress />
       <Justbuildit />
       <ServicesWho
-        subtitle="Our Value Proposition"
-        title="With a track record of dedication and innovation, we're not just developers; we're passionate problem-solvers invested in your success."
-        text="Hire BitsWits for mobile application development that engages users and generates measurable results. With over a decade of experience, we're the industry's best option."
+        subtitle="Who we are."
+        title="We build greater futures through innovation and collective knowledge."
+        text="Bitswits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
         WhoImage={WhoImage}
       />
       <ServicesWhat
-        subtitle="Why Hire Us"
-        title="Is your current app failing to deliver the results you desire?"
+        subtitle="What we do."
+        title="Bitswits transforms businesses through technology."
         text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
         WhatImage={WhatImage}
       />
@@ -185,7 +185,7 @@ export default function HybridMobile() {
             },
             {
               icon: icon25,
-              title: "Native Performance",
+              title: (<> Native <br /> Performance </>),
               para: "Flutter app development agency builds fast-performing apps by compiling directly to native ARM code rather than JavaScript.",
             },
             {
@@ -195,7 +195,7 @@ export default function HybridMobile() {
             },
             {
               icon: icon27,
-              title: "Rapid Development",
+              title: (<> Rapid <br /> Development </>),
               para: "The hot reload feature allows Flutter app developers to see code changes reflected immediately without recompiling or accelerating the process.",
             },
             {
@@ -206,10 +206,14 @@ export default function HybridMobile() {
           ]
         }
       />
-      <ServicesPortfolio />
+      <ServicesPortfolio 
+                title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
+            />
       <Capabilities />
       <Newsuccess
-                assignClass="spacing"
+        assignClass="spacing"
+        subtitle="Ready For Success?"
+                maintitle="Brace Yourself for What Happens Next"
                 successSteps={
                     [
                         {
@@ -241,9 +245,9 @@ export default function HybridMobile() {
       </section>
       <NewHomeGlobal />
       <NewHomeSlider />
-      <Homenextproject 
-                title="Brace yourself for an App-venture!"
-            />
+      <Homenextproject
+        title="Brace yourself for an App-venture!"
+      />
       <ServicesFaqs
         faqsData={
           [

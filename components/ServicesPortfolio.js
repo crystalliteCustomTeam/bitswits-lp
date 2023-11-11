@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useMediaQuery } from 'react-responsive';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from "@/styles/ServicesPortfolio.module.css";
@@ -18,8 +19,9 @@ import folio11 from "@/public/newMobilePageImages/portfolio/folio11.png";
 import folio12 from "@/public/newMobilePageImages/portfolio/folio12.png";
 import folio13 from "@/public/newMobilePageImages/portfolio/folio13.png";
 
-const ServicesPortfolio = () => {
+const ServicesPortfolio = (props) => {
     const [showAll, setShowAll] = useState(false);
+    const isMobile = useMediaQuery({ maxWidth: 991 });
 
     const portfolioItems = [
         { id: 1, image: folio1, link: '/travel-app-development-case-study' },
@@ -37,7 +39,7 @@ const ServicesPortfolio = () => {
         { id: 13, image: folio13, link: '/music-app-development-case-study' },
     ];
 
-    const visibleItems = showAll ? portfolioItems : portfolioItems.slice(0, 6);
+    const visibleItems = showAll ? portfolioItems : portfolioItems.slice(0, isMobile ? 4 : 6);
 
     const toggleShowAll = () => {
         setShowAll(!showAll);
@@ -49,12 +51,10 @@ const ServicesPortfolio = () => {
                 <Container>
                     <Row className="g-3">
                         <Col lg={12}>
-                            <h1 className="text-white f-55 font-bold text-center pb-5">
-                                Showcasing Our <span className="grdiant">Creative Vision</span>
-                            </h1>
+                            <h1 className="text-white f-55 font-bold text-center pb-4">{props.title}</h1>
                         </Col>
                         {visibleItems.map((item) => (
-                            <Col lg={4} key={item.id}>
+                            <Col lg={4} key={item.id} className='col-6'>
                                 <div className={`${styles.poliBox} ${styles[`poliBox${item.id}`]}`}>
                                     <Image quality={75} src={item.image} alt="BitsWits" className={`img-fluid`} />
                                     <div className={styles.polioTxt}>

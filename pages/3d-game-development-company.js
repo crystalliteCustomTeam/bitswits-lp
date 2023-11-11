@@ -23,66 +23,68 @@ const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 
 
 const mobileApplication = () => {
-    return (
-        <>
-            <Head>
-                <title>Top Mobile App Development Company - BitsWits</title>
-                <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="icon" href="images/icons/favicon.png" />
-            </Head>
+  return (
+    <>
+      <Head>
+        <title>Top Mobile App Development Company - BitsWits</title>
+        <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="images/icons/favicon.png" />
+      </Head>
 
-            <New3dBanner />
-            <NewHomeAbout 
-                title="Our Client’s Feedback Has Been"
-                subtitle="Nothing Short Of Amazing!"
-            />
-            <New3dAdvantage />
-            <New3dTarget />
-            <New3dMaintain />
-            <NewAddress />
-            <Experience />
-            <New3dSolutions />
-            <Genreof3dgames />
-            <Capabilities3d />
-            <Engage3d />
-            <Newsuccess
-          successSteps={
-            [
-              {
-                number: '01',
-                title: 'Talk To Our Experts',
-                text: 'Contact us without obligation by email or phone and secure your free consultation.',
-                buttonText: 'Connect Now!',
-                link: '#',
-              },
-              {
-                number: '02',
-                title: 'Get A Quote',
-                text: 'Get an exact cost breakdown structure of your app',
-                buttonText: 'Chat Now!',
-                link: '#',
-              },
-              {
-                number: '03',
-                title: 'Build An MVP',
-                text: 'Contact us without obligation by email or phone and secure your free consultation.',
-                buttonText: 'Call Now!',
-                link: '#',
-              },
-            ]
-          }
-        />
-            <NewHomeGlobal />
-            <NewHomeSlider />
-            <Technologieswe />
-            <Homenextproject 
-                title="Brace yourself for an App-venture!"
-            />
-            <Game3dFaqs />
+      <New3dBanner />
+      <NewHomeAbout
+        title="Our Client’s Feedback Has Been"
+        subtitle="Nothing Short Of Amazing!"
+      />
+      <New3dAdvantage />
+      <New3dTarget />
+      <New3dMaintain />
+      <NewAddress />
+      <Experience />
+      <New3dSolutions />
+      <Genreof3dgames />
+      <Capabilities3d />
+      <Engage3d />
+      <Newsuccess
+        subtitle="Ready For Success?"
+        maintitle="Brace Yourself for What Happens Next"
+        successSteps={
+          [
+            {
+              number: '01',
+              title: 'Talk To Our Experts',
+              text: 'Contact us without obligation by email or phone and secure your free consultation.',
+              buttonText: 'Connect Now!',
+              link: '#',
+            },
+            {
+              number: '02',
+              title: 'Get A Quote',
+              text: 'Get an exact cost breakdown structure of your app',
+              buttonText: 'Chat Now!',
+              link: '#',
+            },
+            {
+              number: '03',
+              title: 'Build An MVP',
+              text: 'Contact us without obligation by email or phone and secure your free consultation.',
+              buttonText: 'Call Now!',
+              link: '#',
+            },
+          ]
+        }
+      />
+      <NewHomeGlobal />
+      <NewHomeSlider />
+      <Technologieswe />
+      <Homenextproject
+        title="Brace yourself for an App-venture!"
+      />
+      <Game3dFaqs />
 
-        </>
-    )
+    </>
+  )
 }
 
 

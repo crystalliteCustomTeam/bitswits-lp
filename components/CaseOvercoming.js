@@ -32,7 +32,7 @@ const CaseOvercoming = (props) => {
                                     <h3>{challenge.title}</h3>
                                     <p>{challenge.text}</p>
                                     <div className={styles.overImg}>
-                                        <Image quality={75} src={challenge.icon} width={55} height={55} />
+                                        <Image quality={75} alt='Bitswits' src={challenge.icon} width={55} height={55} />
                                     </div>
                                 </div>
                             </Col>
@@ -49,7 +49,7 @@ const CaseOvercoming = (props) => {
                                 <h3>{challenge.title}</h3>
                                 <p>{challenge.text}</p>
                                 <div className={styles.overImg}>
-                                    <Image quality={75} src={challenge.icon} width={55} height={55} />
+                                    <Image quality={75} alt='Bitswits' src={challenge.icon} width={55} height={55} />
                                 </div>
                             </div>
                         ))}

@@ -76,7 +76,7 @@ export default function ReactNativeMobile() {
                 BannerImage={BannerImage}
                 assignClass="react"
             />
-            <NewHomeAbout 
+            <NewHomeAbout
                 title="Our Client’s Feedback Has Been"
                 subtitle="Nothing Short Of Amazing!"
             />
@@ -132,14 +132,14 @@ export default function ReactNativeMobile() {
             <NewAddress />
             <Justbuildit />
             <ServicesWho
-                subtitle="Our Value Proposition"
-                title="With a track record of dedication and innovation, we're not just developers; we're passionate problem-solvers invested in your success."
-                text="Hire BitsWits for mobile application development that engages users and generates measurable results. With over a decade of experience, we're the industry's best option."
+                subtitle="Who we are."
+                title="We build greater futures through innovation and collective knowledge."
+                text="Bitswits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
                 WhoImage={WhoImage}
             />
             <ServicesWhat
-                subtitle="Why Hire Us"
-                title="Is your current app failing to deliver the results you desire?"
+                subtitle="What we do."
+                title="Bitswits transforms businesses through technology."
                 text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
                 WhatImage={WhatImage}
             />
@@ -183,10 +183,14 @@ export default function ReactNativeMobile() {
                     ]
                 }
             />
-            <ServicesPortfolio />
+            <ServicesPortfolio 
+                title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
+            />
             <Capabilities />
             <Newsuccess
                 assignClass="spacing"
+subtitle="Ready For Success?"
+                maintitle="Brace Yourself for What Happens Next"
                 successSteps={
                     [
                         {
@@ -218,7 +222,7 @@ export default function ReactNativeMobile() {
             </section>
             <NewHomeGlobal />
             <NewHomeSlider />
-            <Homenextproject 
+            <Homenextproject
                 title="Brace yourself for an App-venture!"
             />
             <ServicesFaqs

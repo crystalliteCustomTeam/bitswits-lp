@@ -43,7 +43,7 @@ export default function augmentedrealityappsdevelopment() {
             />
             <NewHomeAbout
                 title='Clients Love Our AR Solutions'
-                para='Hear It from Them'
+                subtitle='Hear It from Them'
             />
             <ServicesMaintain
                 assignClass="augmented"
@@ -104,30 +104,34 @@ export default function augmentedrealityappsdevelopment() {
                 text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
                 WhatImage={WhatImage}
             />
-            <ServicesPortfolio />
+            <ServicesPortfolio
+                title={<> Showcasing Our <span className="grdiant">Augmented Reality</span> Creations </>}
+            />
             <Capabilities />
             <Newsuccess
                 assignClass="spacing"
+                subtitle="Ready For Success?"
+                maintitle={<> Accelerate Your Growth With <br /> Augmented Reality Apps </>}
                 successSteps={
                     [
                         {
                             number: '01',
-                            title: 'Talk To Our Experts',
-                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                            title: 'Consult Our Specialists',
+                            text: 'Reach out to our specialists without any hesitation via email or call to attain a free consultation.',
                             buttonText: 'Connect Now!',
                             link: '#',
                         },
                         {
                             number: '02',
-                            title: 'Get A Quote',
-                            text: 'Get an exact cost breakdown structure of your app',
+                            title: (<> Request a <br /> Quote </>),
+                            text: 'Get a detailed cost breakdown for your app development project.',
                             buttonText: 'Chat Now!',
                             link: '#',
                         },
                         {
                             number: '03',
-                            title: 'Build An MVP',
-                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                            title: 'Kickstart with an MVP',
+                            text: 'Start your app development journey with no-obligation consultation via email and phone.',
                             buttonText: 'Call Now!',
                             link: '#',
                         },
@@ -139,8 +143,8 @@ export default function augmentedrealityappsdevelopment() {
             </section>
             <NewHomeGlobal />
             <NewHomeSlider />
-            <Homenextproject 
-                title="Brace yourself for an App-venture!"
+            <Homenextproject
+                title="Experience AR Brilliance With BitsWits"
             />
             <ServicesFaqs
                 faqsData={

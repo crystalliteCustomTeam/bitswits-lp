@@ -51,6 +51,8 @@ export default function gamedevelopmentcompany() {
             <Wealth2d />
             <Engage2d />
             <Newsuccess
+subtitle="Ready For Success?"
+                maintitle="Brace Yourself for What Happens Next"
                 successSteps={
                     [
                         {
