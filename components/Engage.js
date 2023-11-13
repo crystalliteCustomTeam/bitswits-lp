@@ -76,7 +76,7 @@ const Engage = () => {
                                 </div>
                                 <div className={styles.bring1}>
                                     <h3>Prices That Make Sense</h3>
-                                    <p>We offer competitive prices for our services, meaning you get a great game at an even better price. Plus, if you're not 100% satisfied with the final product, we offer a full refund so you can be sure that your money is being well spent. There is one thing for sure BitsWits, your hard-earned money won't go down the drain.</p>
+                                    <p>We offer competitive prices for our services, meaning you get a great game at an even better price. Plus, if you're not 100% satisfied with the final product, we offer a full refund so you can be sure that your money is being well spent. There is one thing for sure at BitsWits, your hard-earned money won't go down the drain.</p>
                                 </div>
 
                             </div>

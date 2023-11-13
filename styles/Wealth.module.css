@@ -2,13 +2,10 @@
   background-color: black;
   padding-top: 300px;
   padding-bottom: 300px;
-
-
 }
 
 .weall h2 {
-
-  background: linear-gradient(to right, #EB335B 35%, #4A78EF 65%);
+  background: linear-gradient(to right, #eb335b 35%, #4a78ef 65%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 55px;
@@ -23,7 +20,7 @@
 .weall a {
   width: 75%;
   height: 45px;
-  background-image: linear-gradient(to right, #F32F53, #F32FC2, #4A78EF);
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
   color: white;
   display: flex;
   align-items: center;
@@ -45,19 +42,13 @@
   position: relative;
 }
 
-
-
 @media screen and (max-width: 1600px) {
-
   .weall img {
     position: absolute;
     right: 1%;
     bottom: -67px;
   }
-
 }
-
-
 
 @media screen and (max-width: 1400px) {
   .weall {
@@ -66,62 +57,47 @@
 
   .weall img {
     position: absolute;
-    right: -5%;
+    right: 5%;
     bottom: -50px;
-    width: 114%;
-    height: 145%;
+    width: 65%;
+    height: auto;
   }
 
-
   .weall h2 {
-    background: linear-gradient(to right, #EB335B 35%, #4A78EF 65%);
+    background: linear-gradient(to right, #eb335b 35%, #4a78ef 65%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 49px;
     font-weight: bold;
   }
-
 }
 
-
-
-
 @media screen and (max-width: 1200px) {
-
   .weall a {
     width: 50%;
   }
-
 
   .weall {
     background-color: black;
     padding-top: 0px;
     padding-bottom: 50px;
   }
-
 }
 
-
 @media screen and (max-width: 991px) {
-
   .weall a {
     width: 70%;
   }
-
 }
 
 @media screen and (max-width: 767px) {
-
   .weall a {
     width: 100%;
   }
 
   .weall h2 {
-
     font-size: 30px;
-
   }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -132,30 +108,22 @@
   }
 
   .weall h2 {
-
     font-size: 30px;
-
   }
-
- }
+}
 
 @media screen and (min-width: 1600px) {
-
   .weall img {
     position: absolute;
     right: -6%;
     bottom: -70px;
   }
-
 }
 
 @media screen and (min-width: 1900px) {
-
-
   .weall img {
     position: absolute;
     right: -8%;
     bottom: -75px;
   }
-
 }

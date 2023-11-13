@@ -121,7 +121,7 @@ const Newgamemaintain = () => {
                         <Col md={6} lg={4}>
                             <div className={styles.app1}>
                                 <div>
-                                    <h3 className='text-white font25 font-bold '>Unity 3D Games</h3>
+                                    <h3 className='text-white font25 font-bold '>Virtual Reality Games</h3>
                                     <p className={styles.para}>
                                         Producing immersive and mind-blowing virtual reality experiences for gamers and businesses alike. Our games are designed with the player's experience in mind and feature intuitive controls, immersive soundscapes, and realistic visuals that transport players into another world. Get ready to hook your gamers and urge them to return for more!
                                     </p>
@@ -133,7 +133,7 @@ const Newgamemaintain = () => {
                                 <div>
                                     <h3 className='text-white font25 font-bold'>3D Game Development</h3>
                                     <p className={styles.para}>
-                                        Producing immersive and mind-blowing virtual reality experiences for gamers and businesses alike. Our games are designed with the player's experience in mind and feature intuitive controls, immersive soundscapes, and realistic visuals that transport players into another world. Get ready to hook your gamers and urge them to return for more!
+                                        BitsWits masters the art of creating stunning 3D games, harnessing the power of cutting-edge technology and state-of-the-art tools. We know that a successful 3D game requires more than just great visuals – it's also about a compelling gameplay experience. Hence, we ensure games that are balanced, entertaining, and mesmerizing for players of all ages! Believe it or not, we are the perfect place to get your next gaming project off the ground!
                                     </p>
                                 </div>
                             </div>
@@ -169,7 +169,7 @@ const Newgamemaintain = () => {
                                 <div>
                                     <h3 className='text-white font25 font-bold text-center'>MR Game Development</h3>
                                     <p className={styles.para3}>
-                                        BitsWits create technology-advanced VR games using the latest 3D graphics, motion capture systems, and robust gaming engines. From intense battles, realistic racing simulators, exciting open-world exploration, and highly interactive first-person shooters to interactive puzzles, there is nothing our gaming maestros don't excel at. Time to leave your gamers gasping for more; after all, this is what we always ensure!
+                                        BitsWits create technology-advanced MR games using the latest 3D graphics, motion capture systems, and robust gaming engines. From intense battles, realistic racing simulators, exciting open-world exploration, and highly interactive first-person shooters to interactive puzzles, there is nothing our gaming maestros don't excel at. Time to leave your gamers gasping for more; after all, this is what we always ensure!
                                     </p>
                                 </div>
                             </div>

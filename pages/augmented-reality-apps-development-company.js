@@ -105,7 +105,7 @@ export default function augmentedrealityappsdevelopment() {
                 WhatImage={WhatImage}
             />
             <ServicesPortfolio
-                title={<> Showcasing Our <span className="grdiant">Augmented Reality</span> Creations </>}
+                title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
             />
             <Capabilities />
             <Newsuccess

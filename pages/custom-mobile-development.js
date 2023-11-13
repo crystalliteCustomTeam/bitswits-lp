@@ -37,7 +37,7 @@ export default function CustomMobile() {
 
             <ServicesBanner
                 subtitle="BitsWits Is Your One-Stop Shop For"
-                title={<> Custom Mobile Application <br /> Development for Business </>}
+                title={<> Custom Mobile Application <br /> Development for Businesses </>}
                 text={<> BitsWits is your ultimate destination for custom mobile application development for businesses. <br /> We provide comprehensive solutions for companies seeking tailored mobile apps to boost their <br /> operations and customer engagement </>}
                 BannerImage={BannerImage}
                 assignClass="custom"
@@ -155,34 +155,34 @@ export default function CustomMobile() {
                 faqsData={
                     [
                         {
-                            question: "What is mobile application development?",
+                            question: "What is a custom mobile application?",
                             answer:
-                                (<> Mobile application development creates software applications that run on mobile devices and other connected devices, such as wearables, automotive systems, cameras, and more. It requires skill sets in design, development, testing, deployment, and maintenance to create innovative user experiences across multiple platforms. With that being said, businesses hire mobile app developers to stay ahead of the competition and deliver market-leading products to their customers. </>),
+                                (<> A custom mobile application is a software program developed specifically for a particular business or organization to meet its unique requirements. It is tailored to address specific needs and goals. </>),
                         },
                         {
-                            question: "Does BitsWits offer hybrid and native app development?",
+                            question: "Why should a business consider developing a custom mobile app?",
                             answer:
-                                (<> BitsWits has a team of the best mobile app developers expert in providing customized development solutions, whether Hybrid or Native mobile application development is required. Our developers always come up with creative and innovative app ideas that are best in your interest. </>),
+                                (<> Custom apps can provide tailored solutions, streamline business processes, enhance user experience, and offer a competitive advantage. They can be designed to meet specific business goals and requirements. </>),
                         },
                         {
-                            question: "Why choose BitsWits as a mobile app development company?",
+                            question: "How does custom app development differ from using off-the-shelf solutions?",
                             answer:
-                                (<> BitsWits is a top mobile app development company due to its decent clientele, commitment to excellence, and innovative mobile app development solutions. We enjoy the top spot in the application development industry with affordable packages and professional services. </>),
+                                (<> Off-the-shelf solutions are pre-built applications designed for a wide audience, while custom apps are built from scratch to address specific business needs. Custom apps offer more flexibility and can be precisely tailored to the organization's requirements. </>),
                         },
                         {
-                            question: "Is there any customer support available?",
+                            question: "What technologies are commonly used in custom mobile app development?",
                             answer:
-                                (<> Yes, BitsWits offers 24/7 incredible customer support, even post-mobile apps development USA. We do not let our customers hang in the middle with any query that may bring trouble to them. </>),
+                                (<> The choice of technologies depends on the platform and specific requirements, but commonly used technologies include Swift and Objective-C for iOS, Java and Kotlin for Android, and frameworks like React Native, Flutter, or Xamarin for cross-platform development. </>),
                         },
                         {
-                            question: "How to choose a mobile app development company?",
+                            question: "How long does it take to develop a custom mobile app?",
                             answer:
-                                (<> Checking client portfolios, communicating your requirements clearly, and considering the development cost will help you choose the best mobile app development agency. BitsWits practices open communication so that the solution to your query is answered adequately to provide you with the utmost satisfaction. </>),
+                                (<> The development time varies depending on the complexity of the app, features, and the development approach. Simple apps may take a few weeks, while more complex ones could take several months. </>),
                         },
                         {
-                            question: "What industries does BitsWits cater to?",
+                            question: "What is the typical cost of developing a custom mobile app?",
                             answer:
-                                (<> At BitsWits, we specialize in developing innovative and efficient mobile applications for various industries across the United States. We offer customized mobile solutions from e-commerce to healthcare and gaming to meet each client's specific requirements and business. We are a mobile application development company dedicated to creating apps that cater to each client's unique needs. </>),
+                                (<> The cost varies significantly based on factors such as features, complexity, platform(s), and development time. It's essential to discuss requirements with a development team to get an accurate estimate. </>),
                         },
                     ]
                 }

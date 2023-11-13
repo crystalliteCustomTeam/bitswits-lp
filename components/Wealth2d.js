@@ -17,7 +17,7 @@ const Wealth = () => {
                 <Container>
                     <Row>
                         <Col xl={6} className={styles.table}>
-                            <h3 className='white font20'>The Best Game Developer In The Town</h3>
+                            <h3 className='white font20'>The Best Game Developer In Town</h3>
                             <h2>The Future Of 2D
                                 Games Is Here – & We're Leading The Charge!</h2>
                             <p>Our 2D game developers use a combination of vibrant colors, intuitive controls, and engaging storylines to create something truly unique and always captivating. Our 2D game development services include concept creation, level design, character design, animation, asset integration, dynamic UI/UX design, programming, and debugging</p>

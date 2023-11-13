@@ -81,10 +81,10 @@ const NewFaqslp = () => {
           </Row>
           <Row>
             <Col lg={12}>
-              <div className={`${faq1show ? "touch" : ""} mb-4 mb-lg-0 mt-5`}>
+              <div className={`${faq1show ? "touchFaq" : ""} mb-4 mb-lg-0 mt-5`}>
                 <div onClick={faq1} className={styles.heading}>
                   <h3>
-                  What is Mobile Application Development?{" "}
+                    What is mobile application development?{" "}
                     {faq1show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -111,14 +111,7 @@ const NewFaqslp = () => {
 
                 <div className={faq1show ? "d-block" : "d-none"}>
                   <p>
-                    Android app development is a complex process that requires a
-                    deep understanding of the best language for it. Java has
-                    been the traditional go-to language for the android mobile
-                    app development company, but there are other options worth
-                    considering. Kotlin and C++ are both languages that have
-                    become popular in recent years. They offer different levels
-                    of performance and abstraction, so you can choose the
-                    language which best suits your app's needs.
+                    Mobile application development creates software applications that run on mobile devices and other connected devices, such as wearables, automotive systems, cameras, and more. It requires skill sets in design, development, testing, deployment, and maintenance to create innovative user experiences across multiple platforms. With that being said, businesses hire mobile app developers to stay ahead of the competition and deliver market-leading products to their customers.
                   </p>
                   <div className="mt-2">
                     <Link href="#">
@@ -129,10 +122,10 @@ const NewFaqslp = () => {
                 </div>
               </div>
 
-              <div className={`${faq2show ? "touch" : ""} mb-4 mb-lg-0`}>
+              <div className={`${faq2show ? "touchFaq" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq2} className={styles.heading}>
                   <h3>
-                  Does BitsWits Offers Hybrid and Native Application Development?{" "}
+                    Does BitsWits offer hybrid and native app development?{" "}
                     {faq2show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -159,22 +152,7 @@ const NewFaqslp = () => {
 
                 <div className={faq2show ? "d-block" : "d-none"}>
                   <p>
-                    Mobile app development android is the process of creating
-                    mobile applications for Android devices. It involves writing
-                    code in Java and Kotlin, integrating APIs, designing apps
-                    with a great user experience, and more. With Android's large
-                    market share and open-source nature, it is one of the best
-                    platforms for app developers to create innovative
-                    applications that can reach millions of users. Android
-                    development is also an ever-evolving field as new
-                    technologies, frameworks, and APIs are frequently released
-                    by Google and other third parties. By developing with
-                    Android, developers can create powerful apps that have the
-                    potential to revolutionize the way we use mobile devices
-                    today. So, get ready to take full advantage of this amazing
-                    platform and join the world of Android development now with
-                    BitsWits! We are experts in serving you in android and iOS
-                    app development.
+                    BitsWits has a team of the best mobile app developers expert in providing customized development solutions, whether Hybrid or Native mobile application development is required. Our developers always come up with creative and innovative app ideas that are best in your interest.
                   </p>
                   <div className="mt-2">
                     <Link href="#">
@@ -185,10 +163,10 @@ const NewFaqslp = () => {
                 </div>
               </div>
 
-              <div className={`${faq3show ? "touch" : ""} mb-4 mb-lg-0`}>
+              <div className={`${faq3show ? "touchFaq" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq3} className={styles.heading}>
                   <h3>
-                  Why Choose BitsWits as a Mobile Application Development Company?{" "}
+                    Why choose BitsWits as a mobile app development company?{" "}
                     {faq3show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -215,19 +193,7 @@ const NewFaqslp = () => {
 
                 <div className={faq3show ? "d-block" : "d-none"}>
                   <p>
-                    Designing an Android app can be a complex and expensive
-                    process. But there is no one-size-fits-all answer to the
-                    question, "How much does it cost to design an Android app?”
-                    The price of developing an Android app varies depending on
-                    the type of features, complexity, size, and other elements
-                    that need to be included. The android app developer cost can
-                    range from a few thousand to hundreds of thousands of
-                    dollars, depending on the scope and complexity of the
-                    project. The price to build applications for Android
-                    includes labor costs, design expenses, hosting fees, and
-                    other costs associated with releasing the app in Google Play
-                    Store. Professional teams may charge up to [Our Own Bundle
-                    Cost], depending on their experience and skill set.
+                    BitsWits is a top mobile app development company due to its decent clientele, commitment to excellence, and innovative mobile app development solutions. We enjoy the top spot in the application development industry with affordable packages and professional services.
                   </p>
                   <div className="mt-2">
                     <Link href="#">
@@ -238,10 +204,10 @@ const NewFaqslp = () => {
                 </div>
               </div>
 
-              <div className={`${faq4show ? "touch" : ""} mb-4 mb-lg-0`}>
+              <div className={`${faq4show ? "touchFaq" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq4} className={styles.heading}>
                   <h3>
-                  Is there any customer support available?{" "}
+                    Is there any customer support available?{" "}
                     {faq4show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -268,17 +234,7 @@ const NewFaqslp = () => {
 
                 <div className={faq4show ? "d-block" : "d-none"}>
                   <p>
-                    Google Android app developer is a one-stop shop for
-                    developing and launching Android apps. From creating an app
-                    concept to distributing it on Google Play, this team of
-                    expert developers has the experience and resources necessary
-                    to make your vision come true. Whether you're looking to
-                    build a game, create a business tool, or create something
-                    completely unique, they have the skills to make it happen.
-                    Whatever your needs are, the Google Android app developer is
-                    here to help you get started and guide you every step of the
-                    way. Don't just dream it; code it! Make your app dreams a
-                    reality today with BitsWits.
+                    Yes, BitsWits offers 24/7 incredible customer support, even post-mobile apps development USA. We do not let our customers hang in the middle with any query that may bring trouble to them.
                   </p>
                   <div className="mt-2">
                     <Link href="#">
@@ -289,10 +245,10 @@ const NewFaqslp = () => {
                 </div>
               </div>
 
-              <div className={`${faq5show ? "touch" : ""} mb-4 mb-lg-0`}>
+              <div className={`${faq5show ? "touchFaq" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq5} className={styles.heading}>
                   <h3>
-                  How to choose a mobile application development company?{" "}
+                    How to choose a mobile app development company?{" "}
                     {faq5show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -319,24 +275,7 @@ const NewFaqslp = () => {
 
                 <div className={faq5show ? "d-block" : "d-none"}>
                   <p>
-                    Android app development using Python is the process of
-                    creating native Android applications with the popular coding
-                    language Python. This open-source programming language
-                    allows you to create powerful and interactive mobile apps
-                    that are both feature-rich and user-friendly. With a wide
-                    array of libraries, tools, and modules available, developers
-                    can quickly build secure and reliable Android apps with
-                    minimal effort. Additionally, Python has been optimized for
-                    mobile computing and is ideal for producing complex
-                    applications that require low-level control over device
-                    resources. This makes it a great choice for creating
-                    advanced Android apps that are tailored specifically to the
-                    needs of mobile users. Whether you're a beginner or an
-                    experienced android app developer looking to develop a
-                    cutting-edge Android app, it is an excellent choice for
-                    python android app development. With its flexibility and
-                    power, you can ask for android app developer for hire and
-                    create innovative apps that will bring your ideas to life!
+                    Checking client portfolios, communicating your requirements clearly, and considering the development cost will help you choose the best mobile app development agency. BitsWits practices open communication so that the solution to your query is answered adequately to provide you with the utmost satisfaction.
                   </p>
                   <div className="mt-2">
                     <Link href="#">
@@ -347,10 +286,10 @@ const NewFaqslp = () => {
                 </div>
               </div>
 
-              <div className={faq6show ? "touch" : ""}>
+              <div className={faq6show ? "touchFaq" : ""}>
                 <div onClick={faq6} className={styles.heading}>
                   <h3>
-                  What industries does BitsWits cater do?{" "}
+                    What industries does BitsWits cater to?{" "}
                     {faq6show ? (
                       <span className={styles.plus}>
                         {" "}
@@ -377,20 +316,7 @@ const NewFaqslp = () => {
 
                 <div className={faq6show ? "d-block" : "d-none"}>
                   <p>
-                    Hiring an app developer to create a great user experience
-                    for your business can be costly, but it doesn't have to
-                    break the bank. The android app development cost varies
-                    widely and depends on many factors such as the complexity of
-                    the project, the platform you want your app built for, and
-                    any specific features or customization requested. In
-                    general, you can expect to pay anywhere from a few thousand
-                    dollars up to tens of thousands for more advanced projects.
-                    Investing in an experienced app developer can help ensure
-                    that your android app dev project is built efficiently and
-                    effectively while saving you time and money in the long run.
-                    So, if you're looking to create a great user experience with
-                    an app, you'll need to hire dedicated android app developer
-                    like BitsWits.
+                    At BitsWits, we specialize in developing innovative and efficient mobile applications for various industries across the United States. We offer customized mobile solutions from e-commerce to healthcare and gaming to meet each client's specific requirements and business. We are a mobile application development company dedicated to creating apps that cater to each client's unique needs.
                   </p>
                   <div className="mt-2">
                     <Link href="#">
@@ -403,8 +329,8 @@ const NewFaqslp = () => {
             </Col>
           </Row>
           <Row>
-                      
-                    </Row>
+
+          </Row>
         </Container>
       </section>
     </>

@@ -21,7 +21,7 @@ const New3dAdvantage = () => {
                             <Col xl={12}>
                                 <p className='text-white font16 mb-0'>Bounties</p>
                                 <h2 className='mb-5'>Attractive/Creative Opportunities <br></br>
-                                    3D Games Development Offers</h2>
+                                    3D Game Development Offers</h2>
                             </Col>
 
 

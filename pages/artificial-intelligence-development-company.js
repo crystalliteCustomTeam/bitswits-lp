@@ -112,7 +112,7 @@ export default function gamedevelopmentcompany() {
                 WhatImage={WhatImage}
             />
             <ServicesPortfolio
-                title={<> Transforming Industries with <span className="grdiant">AI Solutions</span> </>}
+                title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
             />
             <Capabilities />
             <Newsuccess

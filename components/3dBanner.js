@@ -20,7 +20,7 @@ import icon40 from '../public/newHomePageImages/nexticon/3.png'
 import icon50 from '../public/newHomePageImages/nexticon/5.png'
 import icon60 from '../public/newHomePageImages/nexticon/6.png'
 import icon70 from '../public/newHomePageImages/nexticon/7.png'
- import icon80 from '../public/newHomePageImages/nexticon/8.png'
+import icon80 from '../public/newHomePageImages/nexticon/8.png'
 
 
 
@@ -60,17 +60,17 @@ const New3dBanner = () => {
         <>
             <section className={styles.newHomeBg}>
                 <Container>
-                   <Row>
+                    <Row>
                         <Col xl={12}>
                             <p className={`${styles.just} ${styles.just2} text-center f-16 font-regular mb-2 mb-lg-0`}>AWARDED #1 GAME APP DEVELOPMENT COMPANY</p>
                             <h3 className={`${styles.develop} text-center f-50 font-bold mb-1`}>
                                 Experience The Roller Coaster Of <br></br> The Gaming World With Us!
                             </h3>
-                            <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>We deliver great results, on time and on budget. Contact usto start talking about your project today!</p>
+                            <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>We deliver great results, on time and on budget. Contact us to start talking about your project today!</p>
 
                             <div className={styles.pont}>
-                                    <Link className={styles.about} href="tel:+18335006007">LET'S CONNECT</Link>
-                                </div>
+                                <Link className={styles.about} href="tel:+18335006007">LET'S CONNECT</Link>
+                            </div>
 
                             <div className={styles.secImage}>
                                 <Image quality={75} alt='BitsWits' src={BannerImage} className={`${styles.bannerImage} img-fluid`} />
@@ -79,7 +79,7 @@ const New3dBanner = () => {
                         </Col>
                     </Row>
                 </Container>
-                 
+
                 <div className={styles.slider}>
                     <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-5`}>
 

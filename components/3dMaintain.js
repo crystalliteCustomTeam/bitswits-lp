@@ -116,7 +116,7 @@ const New3dMaintain = () => {
                                 <div className={`${styles.cardContent}`}>
                                     <h3 className='text-white font25 font-bold'>3D Web and App Development</h3>
                                     <p className={styles.para}>
-                                        BitsWits offers world-class solutions for both web and mobile platforms. We are specialized in creating stunning 3D apps with modern technologies such as Augmented Reality, Virtual Reality, 3D Modeling and Animation, WebGL, HTML5/CSS3, etc.
+                                        BitsWits offers world-class solutions for both web and mobile platforms. We specialized in creating stunning 3D apps with modern technologies such as Augmented Reality, Virtual Reality, 3D Modeling and Animation, WebGL, HTML5/CSS3, etc.
                                     </p>
                                 </div>
                             </div>

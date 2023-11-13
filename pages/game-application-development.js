@@ -38,7 +38,7 @@ export default function Gameapplicationdevelopment() {
 
 
             <Newgamebanner />
-            <NewHomeAbout 
+            <NewHomeAbout
                 title="Our Client’s Feedback Has Been"
                 subtitle="Nothing Short Of Amazing!"
             />
@@ -47,10 +47,10 @@ export default function Gameapplicationdevelopment() {
             <Newgamemaintain />
             <NewAddress />
             <Wealth />
-            <Genreofgames/>
+            <Genreofgames />
             <Engage />
             <Newsuccess
-          subtitle="Ready For Success?"
+                subtitle="Ready For Success?"
                 maintitle="Brace Yourself for What Happens Next"
                 successSteps={
                     [
@@ -81,10 +81,10 @@ export default function Gameapplicationdevelopment() {
             <NewHomeGlobal />
             <Capabilities />
             <Newslider />
-            <Technologieswe/>
-            <Homenextproject/>
+            <Technologieswe />
+            <Homenextproject />
             <NewgameappdevFaqs />
-            
+
 
 
         </>

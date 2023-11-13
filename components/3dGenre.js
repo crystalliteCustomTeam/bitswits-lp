@@ -18,7 +18,7 @@ const Genreof3dgames = () => {
                     <Row className={styles.which}>
                         <Col xl={12}>
                             <p className='text-white text-center font20 font-bold'>OUR SERVICES ARE WHERE INNOVATION MEETS PLAY</p>
-                            <h3 className='text-white text-center font65 font-bold'>Which Genre Of Games Do We Create?</h3>
+                            <h3 className='text-white text-center font65 font-bold'>What Genre Of Games Do We Create?</h3>
                         </Col>
                     </Row>
                     <Row className={` ${styles.play} gx-3 mt-5`}>

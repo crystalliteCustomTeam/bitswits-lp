@@ -60,7 +60,7 @@ const Bullet2dproofgame = () => {
                                     </div>
                                     <div className={styles.gredient}>
                                         <h3>Easier Maintenance</h3>
-                                        <p>Since 2D games can be updated without major overhauls, businesses don't have to worry about the constant maintenance and bug fixes of 3D game development. This allows for faster iteration cycles and easier deployment of new content.</p>
+                                        <p>Since 2D games can be updated without major overhauls, businesses don't have to worry about the constant maintenance and bug fixes of 2D game development. This allows for faster iteration cycles and easier deployment of new content.</p>
                                     </div>
                                 </div>
 

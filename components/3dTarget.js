@@ -43,7 +43,7 @@ const New3dTarget = () => {
                         <Col xl={6}>
                             <div className={styles.desigh}>
                                 <h3>We Design Flawless, Captivating User Interfaces And Experiences!!!</h3>
-                                <p>BitsWits shares a renowned name in developing top-class UI/UX processes that glued gamers to the screen for stretched hours. Our in-depth analysis of user behavior helps us create the perfect interface for each game, ensuring that no two experiences are the same. Our industry-trained game developers develop UI/UX optimized for maximum engagement and satiation.</p>
+                                <p>BitsWits shares a renowned name in developing top-class UI/UX processes that glues gamers to the screen for stretched hours. Our in-depth analysis of user behavior helps us create the perfect interface for each game, ensuring that no two experiences are the same. Our industry-trained game developers develop UI/UX optimized for maximum engagement and satiation.</p>
                                 <Link href="#">
                                     Get to know us
                                     <Image quality={75} alt='BitsWits' src={home_btn1} className='img-fluid' />

@@ -47,30 +47,30 @@ export default function HomeBannerSlider() {
     return (
         <>
             <section className={styles.BannerSlider}>
-                <Slider {...bannerslider} className={`${styles.slider} newLogoSlide`}>
+                <Slider {...bannerslider} className={`${styles.slider} newLogoSlide pt-5`}>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg1} className="img-fluid w-75" />
+                        <Image quality={100} alt="BitsWits" src={banImg1} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg2} className="img-fluid w-75" />
+                        <Image quality={100} alt="BitsWits" src={banImg2} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg3} className="img-fluid w-50" />
+                        <Image quality={100} alt="BitsWits" src={banImg3} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg4} className="img-fluid w-75" />
+                        <Image quality={100} alt="BitsWits" src={banImg4} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg5} className="img-fluid w-75" />
+                        <Image quality={100} alt="BitsWits" src={banImg5} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg6} className="img-fluid w-50" />
+                        <Image quality={100} alt="BitsWits" src={banImg6} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg7} className="img-fluid w-75" />
+                        <Image quality={100} alt="BitsWits" src={banImg7} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg8} className="img-fluid w-50" />
+                        <Image quality={100} alt="BitsWits" src={banImg8} className="img-fluid" />
                     </div>
                 </Slider>
             </section>

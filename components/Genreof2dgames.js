@@ -23,7 +23,7 @@ const Genreof2dgames = () => {
                         <Col xl={4} className={styles.compelling}>
                             <div className={styles.bod}>
                                 <Image quality={75} alt='BitsWits' src={gameicon1} className='img-fluid' />
-                                <h3>IOS 2D Game <br></br>
+                                <h3>iOS 2D Game <br></br>
                                     Development</h3>
                                 <p>We offer top-notch iOS 2D game development services that combine top-of-the-line technology and creative designs. BitsWits is a master at creating visually compelling games with captivating storylines, vibrant characters, and intense levels. From conceptualization to design and launch, our team ensures you get a complete gaming experience that stands out from the crowd.</p>
                                 <Link href='#'>LET'S CONNECT</Link>

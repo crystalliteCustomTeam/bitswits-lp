@@ -24,7 +24,7 @@ const Genreofgames = () => {
                         <Col xl={4} className={styles.compelling}>
                             <div className={styles.bod}>
                                 <Image quality={75} alt='BitsWits' src={gameicon1} className='img-fluid' />
-                                <h3>AR Game Development</h3>
+                                <h3>2D Game Development</h3>
                                 <p>BitsWits ensure your vision is realized in an exciting, compelling 2D form from concept to completion. We specialize in pixel art and animations, level designs, scripting and effects, UI/UX design, audio production, and integration. Whether a simple arcade game, a complex platformer, puzzle-solving adventures, or an adventure-filled RPG, our team can design and develop the perfect game for you. Contact us today to bring your ideas to tangible reality!!!</p>
                                 <Link href='#'>LET'S CONNECT</Link>
                             </div>
