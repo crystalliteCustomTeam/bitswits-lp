@@ -99,7 +99,7 @@ const NewWebFaqs = () => {
                                     <div className="mt-2">
                                         <Link href="#">
                                             Let's Start
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
 
@@ -123,7 +123,7 @@ const NewWebFaqs = () => {
                                     <div className="mt-2">
                                         <Link href="#">
                                             Let's Start
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
 
@@ -147,7 +147,7 @@ const NewWebFaqs = () => {
                                     <div className="mt-2">
                                         <Link href="#">
                                             Let's Start
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
 
@@ -171,7 +171,7 @@ const NewWebFaqs = () => {
                                     <div className="mt-2">
                                         <Link href="#">
                                             Let's Start
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
 
@@ -195,7 +195,7 @@ const NewWebFaqs = () => {
                                     <div className="mt-2">
                                         <Link href="#">
                                             Let's Start
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
 
@@ -219,7 +219,7 @@ const NewWebFaqs = () => {
                                     <div className="mt-2">
                                         <Link href="#">
                                             Let's Start
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
 

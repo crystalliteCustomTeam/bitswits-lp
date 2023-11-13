@@ -90,7 +90,7 @@ const NewFaqslp = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -100,7 +100,7 @@ const NewFaqslp = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -123,7 +123,7 @@ const NewFaqslp = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -132,13 +132,13 @@ const NewFaqslp = () => {
               <div className={`${faq2show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq2} className={styles.heading}>
                   <h3>
-                  Does Bitswits Offers Hybrid and Native Application Development?{" "}
+                  Does BitsWits Offers Hybrid and Native Application Development?{" "}
                     {faq2show ? (
                       <span className={styles.plus}>
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -148,7 +148,7 @@ const NewFaqslp = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -179,7 +179,7 @@ const NewFaqslp = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -188,13 +188,13 @@ const NewFaqslp = () => {
               <div className={`${faq3show ? "touch" : ""} mb-4 mb-lg-0`}>
                 <div onClick={faq3} className={styles.heading}>
                   <h3>
-                  Why Choose Bitswits as a Mobile Application Development Company?{" "}
+                  Why Choose BitsWits as a Mobile Application Development Company?{" "}
                     {faq3show ? (
                       <span className={styles.plus}>
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -204,7 +204,7 @@ const NewFaqslp = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -232,7 +232,7 @@ const NewFaqslp = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -247,7 +247,7 @@ const NewFaqslp = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -257,7 +257,7 @@ const NewFaqslp = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -283,7 +283,7 @@ const NewFaqslp = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -298,7 +298,7 @@ const NewFaqslp = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -308,7 +308,7 @@ const NewFaqslp = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -341,7 +341,7 @@ const NewFaqslp = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -356,7 +356,7 @@ const NewFaqslp = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -366,7 +366,7 @@ const NewFaqslp = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -395,7 +395,7 @@ const NewFaqslp = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>

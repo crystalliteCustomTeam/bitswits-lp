@@ -151,7 +151,7 @@ const HireBenifitsMbl = () => {
                         </Col>
                         <Col lg={4}>
                             <div className='text-center'>
-                                <Image quality={75} alt='Bitswits' src={secImg} className={styles.secImage} />
+                                <Image quality={75} alt='BitsWits' src={secImg} className={styles.secImage} />
                             </div>
                         </Col>
                         <Col lg={4}>
@@ -193,7 +193,7 @@ const HireBenifitsMbl = () => {
                         </Col>
                         <Col lg={4}>
                             <div className='text-center'>
-                                <Image quality={75} alt='Bitswits' src={secImg} className={styles.secImage} />
+                                <Image quality={75} alt='BitsWits' src={secImg} className={styles.secImage} />
                             </div>
                         </Col>
                     </Row>

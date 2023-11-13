@@ -27,7 +27,7 @@ const mobileApplication = () => {
     <>
       <Head>
         <title>Top Mobile App Development Company - BitsWits</title>
-        <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+        <meta name="description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
@@ -61,7 +61,7 @@ const mobileApplication = () => {
             {
               number: '02',
               title: 'Get A Quote',
-              text: 'Get an exact cost breakdown structure of your app',
+              text: 'Get an exact cost breakdown structure of your app.',
               buttonText: 'Chat Now!',
               link: '#',
             },

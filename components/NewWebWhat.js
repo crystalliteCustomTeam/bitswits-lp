@@ -19,7 +19,7 @@ const NewWebWhat = () => {
                         <Col lg={12}>
                             <h1 className='text-white f-60 font-bold'>What we do.</h1>
                             <p className={`${styles.wid} f-20 text-white`}>
-                                Bitswits transforms businesses through technology.
+                                BitsWits transforms businesses through technology.
                             </p>
                             <p className={`${styles.width} font14`}>
                                 We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise.
@@ -28,7 +28,7 @@ const NewWebWhat = () => {
                                 <Link href='javascript:;' className={`${styles.btn_txt} font-extrabold`}>
                                     Get to know us
                                     <span>
-                                        <Image quality={75} alt='Bitswits' src={ButtonIcon} width={15} height={15} />
+                                        <Image quality={75} alt='BitsWits' src={ButtonIcon} width={15} height={15} />
                                     </span>
                                 </Link>
                             </div>
@@ -38,7 +38,7 @@ const NewWebWhat = () => {
                 </Container>
 
                 <div className='sec_image text-center pt-5'>
-                    <Image quality={75} alt='Bitswits' src={WhatImage} className={styles.secImage} />
+                    <Image quality={75} alt='BitsWits' src={WhatImage} className={styles.secImage} />
                 </div>
 
                 <div className={styles.mixColor2}></div>

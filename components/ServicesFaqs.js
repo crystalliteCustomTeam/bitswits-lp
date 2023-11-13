@@ -41,9 +41,6 @@ const ServicesFaqs = (props) => {
 
                                     <div className={faqStates[index] ? "d-block" : "d-none"}>
                                         <p>{faq.answer}</p>
-                                        <div className="mt-2">
-                                            <Link href="#">Let's Start<Image alt="bitswits" className="img-fluid" src={arrow} /></Link>
-                                        </div>
                                     </div>
                                 </div>
                             ))}

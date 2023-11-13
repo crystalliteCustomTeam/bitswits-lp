@@ -72,7 +72,7 @@ const Bullet2ddiscovergame = () => {
 
 
                                 <div className={styles.tested}>
-                                    <Image quality={75} src={icon11} alt='bitswits' />
+                                    <Image quality={75} src={icon11} alt='BitsWits' />
                                 </div>
 
 

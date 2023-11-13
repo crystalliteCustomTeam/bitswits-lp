@@ -27,7 +27,7 @@ const Wealth = () => {
                         </Col>
                         <Col xl={6} className={styles.game}>
 
-                            <Image quality={75} alt='Bitswits' src={isabella}  />
+                            <Image quality={75} alt='BitsWits' src={isabella}  />
                            
                         </Col>
                     </Row>

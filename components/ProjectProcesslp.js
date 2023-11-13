@@ -24,7 +24,7 @@ const ProjectProcess = (props) => {
                             <h3 className='white font30 f-500 center'>Project Process</h3>
                             <h2 className='white f-60 f-700 center'>Explore Our App Development Journey</h2>
                             <p className='white font16 f-400 center'>Our Work Speaks For Us. See How We Create Powerful, Customer-Centric Mobile Applications <br></br> For Various Industry Verticals To Help Them Achieve Their Business Objectives.</p>
-                            <Image src={banImg1} alt='Bitswits' className='img-fluid mt-5' />
+                            <Image src={banImg1} alt='BitsWits' className='img-fluid mt-5' />
                         </Col>
                     </Row>
                 </Container>

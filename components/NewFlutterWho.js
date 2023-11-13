@@ -26,14 +26,14 @@ const NewFlutterWho = () => {
                                     We build greater futures through <br></br> innovation and collective knowledge.
                                 </p>
                                 <p className={`${styles.width} font14`}>
-                                    Bitswits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years.
+                                    BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years.
                                 </p>
                             </div>
                             <div className={styles.sec_btn}>
                                 <Link href='javascript:;' className={`${styles.btn_txt} font-extrabold`}>
                                     Get to know us
                                     <span>
-                                        <Image quality={75} alt='Bitswits' src={ButtonIcon} width={15} height={15} />
+                                        <Image quality={75} alt='BitsWits' src={ButtonIcon} width={15} height={15} />
                                     </span>
                                 </Link>
                             </div>
@@ -41,7 +41,7 @@ const NewFlutterWho = () => {
 
                         <Col lg={10}>
                             <div className={`${styles.secImagebg} text-center pt-4`}>
-                                <Image quality={75} alt='Bitswits' height="650" src={WhoImage} className={`${styles.secImage} img-fluid`} />
+                                <Image quality={75} alt='BitsWits' height="650" src={WhoImage} className={`${styles.secImage} img-fluid`} />
                             </div>
                         </Col>
                     </Row>

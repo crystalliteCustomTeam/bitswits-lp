@@ -38,7 +38,7 @@ export default function gamedevelopmentcompany() {
         <>
             <Head>
                 <title>Top Mobile App Development Company - BitsWits</title>
-                <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+                <meta name="description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
@@ -64,12 +64,12 @@ export default function gamedevelopmentcompany() {
                     [
                         {
                             title: 'Custom Android App Development',
-                            text: 'Our expert Android developers team can help take your business to the next level with custom Android mobile app development services. Let us create stunning visuals, intuitive interfaces, and robust security features to keep you ahead of the competition. Contact us today to get started.',
+                            text: 'Our expert Android development team can help take your business to the next level with custom Android mobile app development services. Let us create stunning visuals, intuitive interfaces, and robust security features to keep you ahead of the competition. Contact us today to get started.',
                             appclass: "app"
                         },
                         {
                             title: (<> Android App <br /> Integration </>),
-                            text: 'Need help integrating your Android app with other software systems and APIs? Look no further. Our expert Android developers’ team is here to assist you in streamlining the process, ensuring your users have a seamless experience with enhanced functionality. Let us help take your app to the next level.',
+                            text: 'Need help integrating your Android app with other software systems and APIs? Look no further. Our expert Android development team is here to assist you in streamlining the process, ensuring your users have a seamless experience with enhanced functionality. Let us help take your app to the next level.',
                             appclass: "app1",
                         },
                         {
@@ -108,18 +108,18 @@ export default function gamedevelopmentcompany() {
             <ServicesWho
                 subtitle="Who we are."
                 title="We build greater futures through innovation and collective knowledge."
-                text="Bitswits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
+                text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
                 WhoImage={WhoImage}
             />
             <ServicesWhat
                 subtitle="What we do."
-                title="Bitswits transforms businesses through technology."
+                title="BitsWits transforms businesses through technology."
                 text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
                 WhatImage={WhatImage}
             />
             <ServisesWhy
-                title={<> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </>}
-                subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </>}
+                title={<> <h4 className='font20 font-bold text-white text-center'>Why BitsWits?</h4> </>}
+                subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision, Performance <br /> & Perfection.</h2> </>}
                 sub1="Why is There a Need for Android Applications?"
                 sub2="Achieve a competitive edge, boost revenue, and engage customers effectively with an Android app. BitsWits excels in creating personalized, future-ready apps to expand your market reach."
                 whyData={
@@ -177,7 +177,7 @@ subtitle="Ready For Success?"
                         {
                             number: '02',
                             title: 'Get A Quote',
-                            text: 'Get an exact cost breakdown structure of your app',
+                            text: 'Get an exact cost breakdown structure of your app.',
                             buttonText: 'Chat Now!',
                             link: '#',
                         },

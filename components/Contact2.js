@@ -73,16 +73,16 @@ const Contact = (props) => {
                                 <p className='font18 fontf mb-4'>Have a project idea? Tell us more about the details and we'll get back to you within 24 hours</p>
                                 <Row className='g-5 mt-3'>
                                     <Col md={6}>
-                                        <Image quality={75} src={img1} className='img-fluid' alt='bitswits' />
+                                        <Image quality={75} src={img1} className='img-fluid' alt='BitsWits' />
                                     </Col>
                                     <Col md={6}>
-                                        <Image quality={75} src={img2} className='img-fluid' alt='bitswits' />
+                                        <Image quality={75} src={img2} className='img-fluid' alt='BitsWits' />
                                     </Col>
                                     <Col md={6}>
-                                        <Image quality={75} src={img3} className='img-fluid' alt='bitswits' />
+                                        <Image quality={75} src={img3} className='img-fluid' alt='BitsWits' />
                                     </Col>
                                     <Col md={6}>
-                                        <Image quality={75} src={img4} className='img-fluid' alt='bitswits' />
+                                        <Image quality={75} src={img4} className='img-fluid' alt='BitsWits' />
                                     </Col>
                                 </Row>
                             </div>

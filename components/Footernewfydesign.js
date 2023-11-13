@@ -78,37 +78,37 @@ const Footerlp = () => {
             <Col lg={12} className={styles.trstCol}>
               <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-4`}>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon1} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon1} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon2} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon2} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon3} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon3} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon4} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon4} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon5} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon5} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon6} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon6} className="img-fluid" />
                 </div>
                 <div className={`${styles.strpImg} ${styles.minImg}`}>
-                  <Image alt="bitswits" src={icon7} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon7} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon8} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon8} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon9} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon9} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon10} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon10} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon11} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon11} className="img-fluid" />
                 </div>
               </Slider>
             </Col>
@@ -198,8 +198,8 @@ const Footerlp = () => {
                 </ul>
                 <ul className={`${styles.contacts} ${styles.myLinks} p-0`}>
                   <li className="mb-2">
-                    <Link href="mailto:info@bitswits.co">
-                      <Image alt="bitswits" className='img-fluid'
+                    <Link href="mailto:info@BitsWits.co">
+                      <Image alt="BitsWits" className='img-fluid'
                         src={mail}
 
                         loading="lazy"
@@ -209,7 +209,7 @@ const Footerlp = () => {
                   </li>
                   <li className="fw-bold">
                     <Link href="tel:13123795987">
-                      <Image alt="bitswits" className='img-fluid'
+                      <Image alt="BitsWits" className='img-fluid'
                         src={call}
 
                         loading="lazy"
@@ -219,7 +219,7 @@ const Footerlp = () => {
                   </li>
                   <li className="fw-bold">
                     <Link href="tel:18335006007">
-                      <Image alt="bitswits" className='img-fluid'
+                      <Image alt="BitsWits" className='img-fluid'
                         src={call}
 
                         loading="lazy"
@@ -238,8 +238,8 @@ const Footerlp = () => {
               <Col md={4} lg={3} className="mt-md-0 mt-4">
                 <ul className={`${styles.socials} mb-0 p-0`}>
                   <li>
-                    <Link href="https://www.facebook.com/officialbitswits" target="_blank" rel="noopener noreferrer">
-                      <Image alt="bitswits" className='img-fluid'
+                    <Link href="https://www.facebook.com/officialBitsWits" target="_blank" rel="noopener noreferrer">
+                      <Image alt="BitsWits" className='img-fluid'
                         src={fb}
 
                         loading="lazy"
@@ -247,8 +247,8 @@ const Footerlp = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.instagram.com/officialbitswits/" target="_blank" rel="noopener noreferrer">
-                      <Image alt="bitswits" className='img-fluid'
+                    <Link href="https://www.instagram.com/officialBitsWits/" target="_blank" rel="noopener noreferrer">
+                      <Image alt="BitsWits" className='img-fluid'
                         src={inta}
 
                         loading="lazy"
@@ -257,7 +257,7 @@ const Footerlp = () => {
                   </li>
                   <li>
                     <Link href="https://twitter.com/BitsWits_/" target="_blank" rel="noopener noreferrer">
-                      <Image alt="bitswits" className='img-fluid'
+                      <Image alt="BitsWits" className='img-fluid'
                         src={tweet}
 
                         loading="lazy"
@@ -265,8 +265,8 @@ const Footerlp = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.linkedin.com/company/officialbitswits" target="_blank" rel="noopener noreferrer">
-                      <Image alt="bitswits" className='img-fluid'
+                    <Link href="https://www.linkedin.com/company/officialBitsWits" target="_blank" rel="noopener noreferrer">
+                      <Image alt="BitsWits" className='img-fluid'
                         src={linkedin}
 
                         loading="lazy"
@@ -274,8 +274,8 @@ const Footerlp = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.youtube.com/@officialbitswits" target="_blank" rel="noopener noreferrer">
-                      <Image alt="bitswits" className='img-fluid'
+                    <Link href="https://www.youtube.com/@officialBitsWits" target="_blank" rel="noopener noreferrer">
+                      <Image alt="BitsWits" className='img-fluid'
                         src={youtube}
 
                         loading="lazy"

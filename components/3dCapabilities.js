@@ -76,7 +76,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={icon1} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon1} alt='BitsWits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -88,7 +88,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={icon2} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon2} alt='BitsWits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -100,7 +100,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={icon3} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon3} alt='BitsWits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -112,7 +112,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={icon4} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon4} alt='BitsWits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -126,7 +126,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={icon5} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon5} alt='BitsWits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -138,7 +138,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={icon6} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon6} alt='BitsWits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -150,7 +150,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={icon7} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon7} alt='BitsWits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -162,7 +162,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={icon8} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon8} alt='BitsWits' className='img-fluid' />
                                         </div>
                                     </Col>
 
@@ -174,7 +174,7 @@ const Capabilities3d = () => {
                                 <Row>
                                     <Col xl={12}>
                                         <div>
-                                            <Image quality={75} src={icon9} alt='bitswits' className='img-fluid' />
+                                            <Image quality={75} src={icon9} alt='BitsWits' className='img-fluid' />
                                         </div>
                                     </Col>
 

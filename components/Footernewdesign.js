@@ -116,8 +116,8 @@ const Footernewdesign = () => {
                <p class={styles.more}>To learn more about our service offerings and industry expertise or to have a Consulting professional contact you directly, please fill out the form below or submit an email & contact number.</p>
                 <ul class="contacts my-links">
                   <li class="mb-1 color-s">
-                    <Link href="mailto:info@bitswits.co">
-                      <Image alt="bitswits" className='img-fluid'
+                    <Link href="mailto:info@BitsWits.co">
+                      <Image alt="BitsWits" className='img-fluid'
                         src={mail}
 
                         loading="lazy"
@@ -127,7 +127,7 @@ const Footernewdesign = () => {
                   </li>
                   <li class="font-bold color-s">
                     <Link href="tel:13123795987">
-                      <Image alt="bitswits" className='img-fluid'
+                      <Image alt="BitsWits" className='img-fluid'
                         src={call}
 
                         loading="lazy"
@@ -149,28 +149,28 @@ const Footernewdesign = () => {
                 <ul class={styles.socials}>
                   <li class={styles.colorp}>Official Channels |</li>
                   <li>
-                    <Link href="https://www.facebook.com/officialbitswits" target="_blank" rel="noopener noreferrer">
-                      <Image width="22" height="22" alt="bitswits" class="img-fluid" src={icon1} loading="lazy" />
+                    <Link href="https://www.facebook.com/officialBitsWits" target="_blank" rel="noopener noreferrer">
+                      <Image width="22" height="22" alt="BitsWits" class="img-fluid" src={icon1} loading="lazy" />
                     </Link>
                   </li>
                   <li>
-                    <Link href="ttps://www.linkedin.com/company/officialbitswits" target="_blank" rel="noopener noreferrer">
-                      <Image width="21" height="21" alt="bitswits" class="img-fluid" src={icon2} loading="lazy" />
+                    <Link href="ttps://www.linkedin.com/company/officialBitsWits" target="_blank" rel="noopener noreferrer">
+                      <Image width="21" height="21" alt="BitsWits" class="img-fluid" src={icon2} loading="lazy" />
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.youtube.com/@officialbitswits" target="_blank" rel="noopener noreferrer">
-                      <Image width="21" height="21" alt="bitswits" class="img-fluid" src={icon3} loading="lazy" />
+                    <Link href="https://www.youtube.com/@officialBitsWits" target="_blank" rel="noopener noreferrer">
+                      <Image width="21" height="21" alt="BitsWits" class="img-fluid" src={icon3} loading="lazy" />
                     </Link>
                   </li>
                   <li>
                     <Link href="hhttps://twitter.com/BitsWits_/" target="_blank" rel="noopener noreferrer">
-                      <Image width="21" height="21" alt="bitswits" class="img-fluid" src={icon4} loading="lazy" />
+                      <Image width="21" height="21" alt="BitsWits" class="img-fluid" src={icon4} loading="lazy" />
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.instagram.com/officialbitswits/" target="_blank" rel="noopener noreferrer">
-                      <Image width="21" height="21" alt="bitswits" class="img-fluid" src={icon5} loading="lazy" />
+                    <Link href="https://www.instagram.com/officialBitsWits/" target="_blank" rel="noopener noreferrer">
+                      <Image width="21" height="21" alt="BitsWits" class="img-fluid" src={icon5} loading="lazy" />
                     </Link>
                   </li>
                 </ul>
@@ -182,9 +182,9 @@ const Footernewdesign = () => {
               <div class="col-md-3 col-xl-3 col-lg-3">
                 <div class={styles.termsMain}>
                   <ul class={styles.termsCondition}>
-                    <li><Link href="https://bitswits.co/terms-and-conditions/" class="text-white font-bold">Terms of Use . </Link></li>
+                    <li><Link href="https://BitsWits.co/terms-and-conditions/" class="text-white font-bold">Terms of Use . </Link></li>
                   
-                    <li><Link href="https://bitswits.co/privacy-policy/" class="text-white font-bold"> Privacy
+                    <li><Link href="https://BitsWits.co/privacy-policy/" class="text-white font-bold"> Privacy
                       Policy</Link></li>
                   </ul>
                 </div>

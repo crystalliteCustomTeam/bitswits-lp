@@ -28,7 +28,7 @@ const NewMaintainlp = () => {
                         <Col sm={6} lg={4}>
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white f-25 font-bold'>IOS Application Development</h3>
+                                    <h3 className='text-white f-25 font-bold'>iOS Application Development</h3>
                                     <p className={styles.para}>
                                     We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design.
                                     </p>
@@ -50,7 +50,7 @@ const NewMaintainlp = () => {
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white f-25 font-bold'>React NativeApp Development</h3>
                                     <p className={styles.para}>
-                                    Our team of expert Flutter app developers at Bitswits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs.
+                                    Our team of expert Flutter app developers at BitsWits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs.
                                     </p>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@ const NewMaintainlp = () => {
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white f-25 font-bold'>Flutter App <br></br> Development</h3>
                                     <p className={styles.para}>
-                                    Our team of expert Flutter app developers at Bitswits use the latest tools and techniques.
+                                    Our team of expert Flutter app developers at BitsWits use the latest tools and techniques.
                                     </p>
                                 </div>
                             </div>

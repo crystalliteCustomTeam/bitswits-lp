@@ -92,7 +92,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -102,7 +102,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -128,7 +128,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -138,7 +138,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -195,7 +195,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -205,7 +205,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -257,7 +257,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -267,7 +267,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -305,7 +305,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -315,7 +315,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -351,7 +351,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -361,7 +361,7 @@ const NewIOSFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}

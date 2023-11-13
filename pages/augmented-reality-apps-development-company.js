@@ -29,7 +29,7 @@ export default function augmentedrealityappsdevelopment() {
         <>
             <Head>
                 <title>Top Mobile App Development Company - BitsWits</title>
-                <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+                <meta name="description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
@@ -37,8 +37,8 @@ export default function augmentedrealityappsdevelopment() {
 
             <ServicesBanner
                 subtitle="Empower Your Business with"
-                title={<> Top Augmented Reality <br /> Apps Development Company </>}
-                text={<> BitsWits is your ultimate destination for augmented reality app development. <br /> Our developers deliver dynamic AR experiences that set your business apart from the rest. </>}
+                title={<> Top Augmented Reality <br /> App Development Company </>}
+                text={<> BitsWits is your ultimate destination for Augmented Reality app development. <br /> Our developers deliver dynamic AR experiences that set your business apart from the rest. </>}
                 BannerImage={BannerImage}
             />
             <NewHomeAbout

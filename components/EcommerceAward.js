@@ -54,34 +54,34 @@ const EcommerceAward = () => {
                             <div className={styles.slider}>
                                 <Slider {...bannerslider} className={styles.newLogoSlide}>
                                     <div>
-                                        <Image alt="bitswits" width={131} height={10} src={banImg1} className="img-fluid" />
+                                        <Image alt="BitsWits" width={131} height={10} src={banImg1} className="img-fluid" />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits" width={131} height={10} src={banImg2} className="img-fluid" />
+                                        <Image alt="BitsWits" width={131} height={10} src={banImg2} className="img-fluid" />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits" width={131} height={10} src={banImg3} className="img-fluid" />
+                                        <Image alt="BitsWits" width={131} height={10} src={banImg3} className="img-fluid" />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits" width={131} height={10} src={banImg4} className="img-fluid" />
+                                        <Image alt="BitsWits" width={131} height={10} src={banImg4} className="img-fluid" />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits" width={131} height={10} src={banImg5} className="img-fluid" />
+                                        <Image alt="BitsWits" width={131} height={10} src={banImg5} className="img-fluid" />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits" width={131} height={10} src={banImg1} className="img-fluid" />
+                                        <Image alt="BitsWits" width={131} height={10} src={banImg1} className="img-fluid" />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits" width={131} height={10} src={banImg2} className="img-fluid" />
+                                        <Image alt="BitsWits" width={131} height={10} src={banImg2} className="img-fluid" />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits" width={131} height={10} src={banImg3} className="img-fluid" />
+                                        <Image alt="BitsWits" width={131} height={10} src={banImg3} className="img-fluid" />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits" width={131} height={10} src={banImg4} className="img-fluid" />
+                                        <Image alt="BitsWits" width={131} height={10} src={banImg4} className="img-fluid" />
                                     </div>
                                     <div>
-                                        <Image alt="bitswits" width={131} height={10} src={banImg5} className="img-fluid" />
+                                        <Image alt="BitsWits" width={131} height={10} src={banImg5} className="img-fluid" />
                                     </div>
                                 </Slider>
                             </div>

@@ -23,7 +23,7 @@ const ServicesWho = (props) => {
                                 <Link href='javascript:;' className={`${styles.btn_txt} font-extrabold`}>
                                     Get to know us
                                     <span>
-                                        <Image quality={75} alt='Bitswits' src={ButtonIcon} width={15} height={15} />
+                                        <Image quality={75} alt='BitsWits' src={ButtonIcon} width={15} height={15} />
                                     </span>
                                 </Link>
                             </div>
@@ -31,7 +31,7 @@ const ServicesWho = (props) => {
 
                         <Col lg={10}>
                             <div className={`${styles.secImagebg} text-center pt-4`}>
-                                <Image quality={75} alt='Bitswits' height="550" src={props.WhoImage} className={`${styles.secImage} img-fluid`} />
+                                <Image quality={75} alt='BitsWits' height="550" src={props.WhoImage} className={`${styles.secImage} img-fluid`} />
                             </div>
                         </Col>
                     </Row>

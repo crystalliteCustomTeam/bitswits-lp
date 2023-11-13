@@ -54,25 +54,25 @@ const EcommerceSlider = () => {
 
                         <Slider {...Ecommerceslider} className="">
                             <div className="">
-                                <Image alt="bitswits" src={banImg1} className="mx-auto img-fluid" />
+                                <Image alt="BitsWits" src={banImg1} className="mx-auto img-fluid" />
                             </div>
                             <div className="">
-                                <Image alt="bitswits" src={banImg2} className="mx-auto img-fluid" />
+                                <Image alt="BitsWits" src={banImg2} className="mx-auto img-fluid" />
                             </div>
                             <div className="">
-                                <Image alt="bitswits" src={banImg3} className="mx-auto img-fluid" />
+                                <Image alt="BitsWits" src={banImg3} className="mx-auto img-fluid" />
                             </div>
                             <div className="">
-                                <Image alt="bitswits" src={banImg4} className="mx-auto img-fluid" />
+                                <Image alt="BitsWits" src={banImg4} className="mx-auto img-fluid" />
                             </div>
                             <div className="">
-                                <Image alt="bitswits" src={banImg5} className="mx-auto img-fluid" />
+                                <Image alt="BitsWits" src={banImg5} className="mx-auto img-fluid" />
                             </div>
                             <div className="">
-                                <Image alt="bitswits" src={banImg6} className="mx-auto img-fluid" />
+                                <Image alt="BitsWits" src={banImg6} className="mx-auto img-fluid" />
                             </div>
                             <div className="">
-                                <Image alt="bitswits" src={banImg7} className="mx-auto img-fluid" />
+                                <Image alt="BitsWits" src={banImg7} className="mx-auto img-fluid" />
                             </div>
                         </Slider>
 

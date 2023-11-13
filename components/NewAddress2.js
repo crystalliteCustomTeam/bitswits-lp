@@ -26,7 +26,7 @@ const NewAddress = () => {
                                     <div className={styles.menu}>
                                         <Link className={`${styles.book} ${styles.book2}`} href="#">
                                             Avail My Free Session.
-                                            <Image alt="bitswits" src={arrow} className='img-fluid ms-2' />
+                                            <Image alt="BitsWits" src={arrow} className='img-fluid ms-2' />
                                         </Link>
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@ const NewAddress = () => {
                                             </div>
                                             <div className={styles.locInner}>
                                                 <div className={styles.locImg}>
-                                                    <Image alt="bitswits" src={icon11} className='img-fluid' />
+                                                    <Image alt="BitsWits" src={icon11} className='img-fluid' />
                                                 </div>
                                                 <div className={styles.subInner}>
                                                     <p className='font12 font-bold fontf mb-0'>USA</p>
@@ -78,7 +78,7 @@ const NewAddress = () => {
                                             </div>
                                             <div className={ ` ${styles.locInner} mt-2 mb-2 ` }>
                                             <div className={styles.locImg}>
-                                                <Image alt="bitswits" src={icon12} className='img-fluid' />
+                                                <Image alt="BitsWits" src={icon12} className='img-fluid' />
                                             </div>
                                             <div className={styles.subInner}>
                                                 <p className='font12 font-bold fontf mb-0'>Middle East</p>
@@ -89,7 +89,7 @@ const NewAddress = () => {
                                             </div>
                                             <div className={styles.locInner}>
                                             <div className={styles.locImg}>
-                                                <Image alt="bitswits" src={icon14} className='img-fluid' />
+                                                <Image alt="BitsWits" src={icon14} className='img-fluid' />
                                             </div>
                                             <div className={styles.subInner}>
                                                 <p className='font12 font-bold fontf mb-0'>Asia</p>

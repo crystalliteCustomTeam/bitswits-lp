@@ -80,7 +80,7 @@ const HireTiming = () => {
                             {timeData.map((option, index) => (
                                 <Col lg={3} className='col-4' key={index}>
                                     <div className='text-center'>
-                                        <Image src={option.imageSrc} alt='Bitswits' className='img-fluid' />
+                                        <Image src={option.imageSrc} alt='BitsWits' className='img-fluid' />
                                         <h4>{option.title}</h4>
                                     </div>
                                 </Col>

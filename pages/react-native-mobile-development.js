@@ -41,15 +41,15 @@ export default function ReactNativeMobile() {
                 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta charset="UTF-8" />
-                <title>Visionary React Native App Development Company - Bitswits</title>
+                <title>Visionary React Native App Development Company - BitsWits</title>
                 <meta name="description" content="Want a team of experienced React Native App Developers? We've got them! Whether you're a start-up or an established business, our developers are equipped." />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="Visionary React Native App Development Company - Bitswits" />
+                <meta property="og:title" content="Visionary React Native App Development Company - BitsWits" />
                 <meta property="og:description" content="Want a team of experienced React Native App Developers? We've got them! Whether you're a start-up or an established business, our developers are equipped." />
-                <meta property="og:url" content="https://bitswits.co/react-native-app-development-company/" />
-                <meta property="og:site_name" content="Visionary React Native App Development Company - Bitswits" />
-                <link rel="canonical" href="https://bitswits.co/react-native-app-development-company/" />
+                <meta property="og:url" content="https://BitsWits.co/react-native-app-development-company/" />
+                <meta property="og:site_name" content="Visionary React Native App Development Company - BitsWits" />
+                <link rel="canonical" href="https://BitsWits.co/react-native-app-development-company/" />
                 <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
                 <meta name="DC.title" content="react native app development company, react native mobile app developers, react native app developer" />
                 <meta name="geo.region" content="US-CA" />
@@ -70,9 +70,9 @@ export default function ReactNativeMobile() {
 
 
             <ServicesBanner
-                subtitle="Bitswits Is Your One-Stop Shop For"
+                subtitle="BitsWits Is Your One-Stop Shop For"
                 title={<> React Native App <br /> Development </>}
-                text={<> With our React Native experts, you can effortlessly create powerful, engaging mobile applications that perform <br /> optimally across multiple platforms. Our developers focus on leveraging the best of both worlds - the SPEED and <br /> AGILITY of native development with the flexibility </>}
+                text={<> With our React Native experts, you can effortlessly create powerful, engaging mobile applications that perform <br /> optimally across multiple platforms. Our developers focus on leveraging the best of both worlds - the SPEED and <br /> AGILITY of native development with the flexibility. </>}
                 BannerImage={BannerImage}
                 assignClass="react"
             />
@@ -90,7 +90,7 @@ export default function ReactNativeMobile() {
                     [
                         {
                             title: 'React Native Mobile App Development Services',
-                            text: 'Our expert team of React Native developers creates high-performance, native-like mobile apps for both Android and iOS platforms. With our React Native mobile app development services, you can ensure the best user experience for your app users.',
+                            text: 'Our expert team of React Native developers create high-performance, native-like mobile apps for both Android and iOS platforms. With our React Native mobile app development services, you can ensure the best user experience for your app users.',
                             appclass: "app"
                         },
                         {
@@ -134,18 +134,18 @@ export default function ReactNativeMobile() {
             <ServicesWho
                 subtitle="Who we are."
                 title="We build greater futures through innovation and collective knowledge."
-                text="Bitswits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
+                text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
                 WhoImage={WhoImage}
             />
             <ServicesWhat
                 subtitle="What we do."
-                title="Bitswits transforms businesses through technology."
+                title="BitsWits transforms businesses through technology."
                 text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
                 WhatImage={WhatImage}
             />
             <ServisesWhy
-                title={<> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </>}
-                subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </>}
+                title={<> <h4 className='font20 font-bold text-white text-center'>Why BitsWits?</h4> </>}
+                subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision, Performance <br /> & Perfection.</h2> </>}
                 sub1="Why is There a Need for React Native Apps?"
                 sub2="React Native app development services provide substantial savings in terms of development time, effort, and cost and enable the building of high-quality Android and iOS apps."
                 whyData={
@@ -203,7 +203,7 @@ subtitle="Ready For Success?"
                         {
                             number: '02',
                             title: 'Get A Quote',
-                            text: 'Get an exact cost breakdown structure of your app',
+                            text: 'Get an exact cost breakdown structure of your app.',
                             buttonText: 'Chat Now!',
                             link: '#',
                         },
@@ -229,7 +229,7 @@ subtitle="Ready For Success?"
                 faqsData={
                     [
                         {
-                            question: "Is React Native good for mobile apps development?",
+                            question: "Is React Native good for mobile app development?",
                             answer:
                                 (<> React Native is one of the most popular and widely used frameworks for developing mobile apps. It provides a great platform for creating natively rendered, high-performance mobile applications that look and feel like they were made specifically for the user's device. This framework makes it easy to create apps with beautiful user interfaces, clean code, and rapid development cycles. It also offers a few advantages when it comes to mobile app development, such as the ability to write code once and deploy across multiple platforms, access to native device features, and scalability for larger projects. All in all, React Native app development agency is an excellent choice for developing mobile apps. </>),
                         },
@@ -268,7 +268,7 @@ subtitle="Ready For Success?"
                                     <br /><br />Moreover, React Native offers flexibility in development as well as scalability to ensure that the applications built with it can accommodate complex features, such as real-time updates, payment systems, and more. The framework also allows developers to reuse code for multiple platforms, ultimately saving both time and money for businesses. </>),
                         },
                         {
-                            question: "Why is Bitswits the perfect company for native app development services?",
+                            question: "Why is BitsWits the perfect company for native app development services?",
                             answer:
                                 (<> BitsWits offers the best React Native app development services. With our experienced team of developers, your project will be completed quickly and efficiently. We are experts in developing applications for both iOS and Android platforms, so you can rest assured that your project will be designed with the latest technology. Our developers utilize industry-leading tools and frameworks to ensure that your app is built correctly and optimized for maximum performance.
                                     <br /><br />We are also capable of creating customized solutions that meet the specific needs of your business. Our team understands the importance of creating a user experience that engages users and encourages them to use your application frequently. We can help you integrate features, design attractive interfaces, and optimize your React Native iOS app for different devices. Hire React JS application development expert now! </>),

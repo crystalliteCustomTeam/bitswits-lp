@@ -80,37 +80,37 @@ const Footer = () => {
             <Col lg={12} className={styles.trstCol}>
               <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-4`}>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon1} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon1} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon2} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon2} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon3} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon3} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon4} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon4} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon5} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon5} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon6} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon6} className="img-fluid" />
                 </div>
                 <div className={`${styles.strpImg} ${styles.minImg}`}>
-                  <Image alt="bitswits" src={icon7} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon7} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon8} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon8} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon9} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon9} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon10} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon10} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
-                  <Image alt="bitswits" src={icon11} className="img-fluid" />
+                  <Image alt="BitsWits" src={icon11} className="img-fluid" />
                 </div>
               </Slider>
             </Col>
@@ -222,7 +222,7 @@ const Footer = () => {
                   <BsFillEnvelopeFill size={20} className={styles.email} />
                 </div>
                 <div>
-                  <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.co"> info@bitswits.com</Link>
+                  <Link className='font15 font-medium white fontf' href="mailto:info@BitsWits.co"> info@BitsWits.com</Link>
                 </div>
               </div>
               <div className={styles.fill}>
@@ -242,12 +242,12 @@ const Footer = () => {
                 <div className={styles.spacing}> </div>
                 <Link href="#"> <AiFillBehanceCircle size={20} className={styles.email} /></Link>
                 <Link href="#"> <BsPinterest size={20} className={styles.email} /></Link>
-                <Link href="#" > <Image alt="bitswits" src={icon} className={`${styles.email}`} /> </Link>
+                <Link href="#" > <Image alt="BitsWits" src={icon} className={`${styles.email}`} /> </Link>
                 <Link href="#"> <FaTelegramPlane size={20} className={styles.email} /></Link>
               </div>
 
               <div className='mt-5'>
-                <Image alt="bitswits" src={apple} className="img-fluid w-75" />
+                <Image alt="BitsWits" src={apple} className="img-fluid w-75" />
               </div>
             </Col>
           </Row>

@@ -43,7 +43,7 @@ export default function mobileApplication() {
         <meta charset="UTF-8" />
         {/* <!-- Title & Description --> */}
         <title>
-          The Professional Mobile App Development Company - Bitswits.
+          The Professional Mobile App Development Company - BitsWits.
         </title>
         <meta
           name="description"
@@ -54,7 +54,7 @@ export default function mobileApplication() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="The Professional Mobile App Development Company - Bitswits."
+          content="The Professional Mobile App Development Company - BitsWits."
         />
         <meta
           property="og:description"
@@ -62,10 +62,10 @@ export default function mobileApplication() {
         />
         <meta
           property="og:site_name"
-          content="The Professional Mobile App Development Company - Bitswits."
+          content="The Professional Mobile App Development Company - BitsWits."
         />
         {/* <!-- Canonical --> */}
-        {/* <link rel="canonical" href="https://bitswits.co/mobile-app-development-company/" /> */}
+        {/* <link rel="canonical" href="https://BitsWits.co/mobile-app-development-company/" /> */}
         {/* <!-- Bing Master Verification  --> */}
         <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
         {/* <!-- Local Location Tags --> */}
@@ -114,7 +114,7 @@ export default function mobileApplication() {
         appContent1={
           [
             {
-              title: 'IOS Application Development',
+              title: 'iOS Application Development',
               text: 'We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design, agile development methodologies, and the latest tools and frameworks. Our experienced iOS developers deliver innovative and customized apps!',
               appclass: "app"
             },
@@ -125,7 +125,7 @@ export default function mobileApplication() {
             },
             {
               title: (<> Web App <br /> Development </>),
-              text: 'We offer end-to-end web app development services. Our team of skilled web app developers utilizes the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today!',
+              text: 'We offer end-to-end web app development services. Our team of skilled web app developers utilize the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today!',
               appclass: "app2",
             }
           ]
@@ -134,7 +134,7 @@ export default function mobileApplication() {
           [
             {
               title: 'Flutter App Development',
-              text: "Our team of expert Flutter app developers at Bitswits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs. From ideation to deployment, we ensure a smooth and efficient development process.",
+              text: "Our team of expert Flutter app developers at BitsWits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs. From ideation to deployment, we ensure a smooth and efficient development process.",
               appclass: "app3",
             },
           ]
@@ -159,18 +159,18 @@ export default function mobileApplication() {
       <ServicesWho
         subtitle="Who we are."
         title="We build greater futures through innovation and collective knowledge."
-        text="Bitswits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
+        text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
         WhoImage={WhoImage}
       />
       <ServicesWhat
         subtitle="What we do."
-        title="Bitswits transforms businesses through technology."
+        title="BitsWits transforms businesses through technology."
         text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
         WhatImage={WhatImage}
       />
       <ServisesWhy
-        title={<> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </>}
-        subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </>}
+        title={<> <h4 className='font20 font-bold text-white text-center'>Why BitsWits?</h4> </>}
+        subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision, Performance <br /> & Perfection.</h2> </>}
         sub1="Why Choose BitsWits for Building Mobile Applications?"
         sub2="Building your mobile app acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape its trajectory."
         whyData={
@@ -228,7 +228,7 @@ export default function mobileApplication() {
               {
                 number: '02',
                 title: 'Get A Quote',
-                text: 'Get an exact cost breakdown structure of your app',
+                text: 'Get an exact cost breakdown structure of your app.',
                 buttonText: 'Chat Now!',
                 link: '#',
               },

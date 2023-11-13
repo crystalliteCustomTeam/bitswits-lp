@@ -36,7 +36,7 @@ const WorkBody = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={styles.workImg}>
-                                <Image quality={75} src={ourportfolio1} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={ourportfolio1} alt='BitsWits' className='img-fluid' />
                             </div>
                         </Col>
                     </Row>
@@ -56,7 +56,7 @@ const WorkBody = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={`${styles.workImg}`}>
-                                <Image quality={75} src={ourportfolio2} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={ourportfolio2} alt='BitsWits' className='img-fluid' />
                             </div>
                         </Col>
                     </Row>
@@ -76,7 +76,7 @@ const WorkBody = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={styles.workImg}>
-                                <Image quality={75} src={ourportfolio3} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={ourportfolio3} alt='BitsWits' className='img-fluid' />
                             </div>
                         </Col>
                     </Row>
@@ -96,7 +96,7 @@ const WorkBody = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={`${styles.workImg}`}>
-                                <Image quality={75} src={ourportfolio4} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={ourportfolio4} alt='BitsWits' className='img-fluid' />
                             </div>
                         </Col>
                     </Row>
@@ -116,7 +116,7 @@ const WorkBody = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={styles.workImg}>
-                                <Image quality={75} src={ourportfolio5} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={ourportfolio5} alt='BitsWits' className='img-fluid' />
                             </div>
                         </Col>
                     </Row>
@@ -136,7 +136,7 @@ const WorkBody = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={`${styles.workImg} ${styles.workImg3}`}>
-                                <Image quality={75} src={ourportfolio6} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={ourportfolio6} alt='BitsWits' className='img-fluid' />
                             </div>
                         </Col>
                     </Row>
@@ -156,7 +156,7 @@ const WorkBody = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={styles.workImg}>
-                                <Image quality={75} src={ourportfolio7} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={ourportfolio7} alt='BitsWits' className='img-fluid' />
                             </div>
                         </Col>
                     </Row>
@@ -176,7 +176,7 @@ const WorkBody = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={`${styles.workImg}`}>
-                                <Image quality={75} src={ourportfolio8} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={ourportfolio8} alt='BitsWits' className='img-fluid' />
                             </div>
                         </Col>
                     </Row>
@@ -196,7 +196,7 @@ const WorkBody = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={styles.workImg}>
-                                <Image quality={75} src={ourportfolio9} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={ourportfolio9} alt='BitsWits' className='img-fluid' />
                             </div>
                         </Col>
                     </Row>
@@ -216,7 +216,7 @@ const WorkBody = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={`${styles.workImg}`}>
-                                <Image quality={75} src={ourportfolio10} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={ourportfolio10} alt='BitsWits' className='img-fluid' />
                             </div>
                         </Col>
                     </Row>
@@ -236,7 +236,7 @@ const WorkBody = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={styles.workImg}>
-                                <Image quality={75} src={ourportfolio11} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={ourportfolio11} alt='BitsWits' className='img-fluid' />
                             </div>
                         </Col>
                     </Row>
@@ -256,7 +256,7 @@ const WorkBody = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={`${styles.workImg}`}>
-                                <Image quality={75} src={ourportfolio12} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={ourportfolio12} alt='BitsWits' className='img-fluid' />
                             </div>
                         </Col>
                     </Row>
@@ -276,7 +276,7 @@ const WorkBody = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={styles.workImg}>
-                                <Image quality={75} src={ourportfolio13} alt='Bitswits' className='img-fluid' />
+                                <Image quality={75} src={ourportfolio13} alt='BitsWits' className='img-fluid' />
                             </div>
                         </Col>
                     </Row>

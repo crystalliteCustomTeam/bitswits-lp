@@ -17,7 +17,7 @@ const Bullet2dproofgame = () => {
                         <Row className={styles.game}>
                             <Col xl={10}>
                                 <h3 className='white mb-0'>Services</h3>
-                                <h2 className='mb-5'> Bitswits: The Core <br></br> Values! </h2>
+                                <h2 className='mb-5'> BitsWits: The Core <br></br> Values! </h2>
                             </Col>
                         </Row>
 
@@ -61,7 +61,7 @@ const Bullet2dproofgame = () => {
                             </Col>
                             <Col xl={6}>
                                 <div className={styles.tested1}>
-                                    <Image quality={75} className='img-fluid' src={icon11} alt='bitswits' />
+                                    <Image quality={75} className='img-fluid' src={icon11} alt='BitsWits' />
                                 </div>
                             </Col>
                         </Row>

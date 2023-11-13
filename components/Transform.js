@@ -26,7 +26,7 @@ export default function Transform(props) {
                         </Col>
                         <Col lg={5}>
                             <div className={styles.ban}>
-                                <Image src={banImg1} alt='Bitswits' className='img-fluid' />
+                                <Image src={banImg1} alt='BitsWits' className='img-fluid' />
                             </div>
                         </Col>
 

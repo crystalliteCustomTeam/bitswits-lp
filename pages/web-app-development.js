@@ -45,17 +45,17 @@ export default function gamedevelopmentcompany() {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta charset="UTF-8" />
                 {/* <!-- Title & Description --> */}
-                <title>Advanced Web App Development Company - Bitswits</title>
+                <title>Advanced Web App Development Company - BitsWits</title>
                 <meta name="description" content="Want to stand out in the crowded web app marketplace? Our web application developers provide bespoke solutions that cater to your unique business needs." />
                 {/* <!-- OG Tags --> */}
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="Advanced Web App Development Company - Bitswits" />
+                <meta property="og:title" content="Advanced Web App Development Company - BitsWits" />
                 <meta property="og:description" content="Want to stand out in the crowded web app marketplace? Our web application developers provide bespoke solutions that cater to your unique business needs." />
-                {/* <meta property="og:url" content="https://bitswits.co/web-app-development-company/" /> */}
-                <meta property="og:site_name" content="Advanced Web App Development Company - Bitswits" />
+                {/* <meta property="og:url" content="https://BitsWits.co/web-app-development-company/" /> */}
+                <meta property="og:site_name" content="Advanced Web App Development Company - BitsWits" />
                 {/* <!-- Canonical --> */}
-                {/* <link rel="canonical" href="https://bitswits.co/web-app-development-company/" /> */}
+                {/* <link rel="canonical" href="https://BitsWits.co/web-app-development-company/" /> */}
                 {/* <!-- Bing Master Verification  --> */}
                 <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
                 {/* <!-- Local Location Tags --> */}
@@ -94,18 +94,18 @@ export default function gamedevelopmentcompany() {
             <ServicesWho
                 subtitle="Who we are."
                 title="We build greater futures through innovation and collective knowledge."
-                text="Bitswits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
+                text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
                 WhoImage={WhoImage}
             />
             <ServicesWhat
                 subtitle="What we do."
-                title="Bitswits transforms businesses through technology."
+                title="BitsWits transforms businesses through technology."
                 text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
                 WhatImage={WhatImage}
             />
             <ServisesWhy
-                title={<> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </>}
-                subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </>}
+                title={<> <h4 className='font20 font-bold text-white text-center'>Why BitsWits?</h4> </>}
+                subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision, Performance <br /> & Perfection.</h2> </>}
                 sub1="Work Smarter and Convert Faster with Web Apps at BitsWits!"
                 sub2="Web app development services at BitsWits, allows you to build better and faster web applications globally."
                 whyData={
@@ -163,7 +163,7 @@ export default function gamedevelopmentcompany() {
                         {
                             number: '02',
                             title: 'Get A Quote',
-                            text: 'Get an exact cost breakdown structure of your app',
+                            text: 'Get an exact cost breakdown structure of your app.',
                             buttonText: 'Chat Now!',
                             link: '#',
                         },

@@ -33,7 +33,7 @@ import scribe from '../public/images/icons/scribe.png'
 import sponsord from '../public/images/icons/sponsord.png'
 //
 import Modal from 'react-bootstrap/Modal';
-import Bitswitspopup from '../components/Bitswitspopup'
+import BitsWitspopup from '../components/BitsWitspopup'
 import { RxCross2 } from 'react-icons/rx'
 import newImg from '../public/images/1.jpg'
 
@@ -86,7 +86,7 @@ const Header = () => {
             <header className={path ? `${styles.header}` : `${styles.header} header`}>
                 <div className={styles.navLogo}>
                     <Link href="/">
-                        <Image alt="bitswits" className='img-fluid'
+                        <Image alt="BitsWits" className='img-fluid'
                             src={logo}
                         />
                     </Link>
@@ -95,7 +95,7 @@ const Header = () => {
                     <ul className={isActive ? `${styles.menu} ${styles.active}` : `${styles.menu}`}>
                         <div className={`${styles.navLogo} ${styles.mblLogo}`}>
                             <Link href="/">
-                                <Image alt="bitswits" className='img-fluid'
+                                <Image alt="BitsWits" className='img-fluid'
                                     src={mbllogo}
                                 />
                             </Link>
@@ -112,7 +112,7 @@ const Header = () => {
                             </Link>
                             <div className={megamenu3 ? `${styles.megaMenu3} ${styles.opnMenu3}` : `${styles.megaMenu3}`}>
                                 <div className={styles.backArrow}>
-                                    <Image alt="bitswits"
+                                    <Image alt="BitsWits"
                                         src={backarrow}
                                     />
                                 </div>
@@ -129,7 +129,7 @@ const Header = () => {
 
                                                                     <div className={styles.listHeading}>
                                                                         <div className={styles.megaIcon}>
-                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                            <Image alt="BitsWits" className='img-fluid'
                                                                                 src={apps} />
                                                                         </div>
                                                                         <h5 className='font14 fontf font-semibold mb-0'>APP</h5>
@@ -199,7 +199,7 @@ const Header = () => {
 
                                                                     <div className={styles.listHeading}>
                                                                         <div className={styles.megaIcon}>
-                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                            <Image alt="BitsWits" className='img-fluid'
                                                                                 src={web}
                                                                             />
                                                                         </div>
@@ -236,7 +236,7 @@ const Header = () => {
 
                                                                     <div className={`${styles.listHeading} ${styles.neuport}`}>
                                                                         <div className={styles.megaIcon}>
-                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                            <Image alt="BitsWits" className='img-fluid'
                                                                                 src={hosting}
                                                                             />
                                                                         </div>
@@ -273,7 +273,7 @@ const Header = () => {
 
                                                                                     <div className={styles.listHeading}>
                                                                                         <div className={styles.megaIcon}>
-                                                                                            <Image alt="bitswits" className='img-fluid'
+                                                                                            <Image alt="BitsWits" className='img-fluid'
                                                                                                 src={games}
                                                                                             />
                                                                                         </div>
@@ -378,7 +378,7 @@ const Header = () => {
                             </Link>
                             <div className={megamenu2 ? `${styles.megaMenu2} ${styles.opnMenu2}` : `${styles.megaMenu2}`}>
                                 <div className={styles.backArrow}>
-                                    <Image alt="bitswits"
+                                    <Image alt="BitsWits"
                                         src={backarrow}
 
                                     />
@@ -391,7 +391,7 @@ const Header = () => {
                                                 <ul className='mb-0 mt-0'>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
-                                                            <Image alt="bitswits" className='img-fluid'
+                                                            <Image alt="BitsWits" className='img-fluid'
                                                                 src={about}
                                                             />
                                                         </div>
@@ -419,7 +419,7 @@ const Header = () => {
 
                                                             <div className={styles.listHeading}>
                                                                 <div className={styles.megaIcon}>
-                                                                    <Image alt="bitswits" className='img-fluid'
+                                                                    <Image alt="BitsWits" className='img-fluid'
                                                                         src={company}
                                                                     />
                                                                 </div>
@@ -441,7 +441,7 @@ const Header = () => {
                                     <Col lg={6}>
                                         <div className={styles.listMain}>
                                             <div className={styles.listImg}>
-                                                <Image alt="bitswits" className='img-fluid'
+                                                <Image alt="BitsWits" className='img-fluid'
                                                     src={ourbg}
                                                 />
                                             </div>
@@ -457,7 +457,7 @@ const Header = () => {
                             </Link>
                             <div className={megamenu4 ? `${styles.megaMenu4} ${styles.opnMenu4}` : `${styles.megaMenu4}`}>
                                 <div className={styles.backArrow}>
-                                    <Image alt="bitswits"
+                                    <Image alt="BitsWits"
                                         src={backarrow}
 
                                     />
@@ -466,7 +466,7 @@ const Header = () => {
                                     <Col lg={4}>
                                         <div className={styles.boxSpace}>
                                             <div className={styles.workBox}>
-                                                <Image alt="bitswits"
+                                                <Image alt="BitsWits"
                                                     src={travel}
 
                                                 />
@@ -480,7 +480,7 @@ const Header = () => {
                                                 </div>
                                             </div>
                                             <div className={`${styles.workBox}`}>
-                                                <Image alt="bitswits"
+                                                <Image alt="BitsWits"
                                                     src={estate}
 
                                                 />
@@ -494,7 +494,7 @@ const Header = () => {
                                                 </div>
                                             </div>
                                             <div className={styles.workBox}>
-                                                <Image alt="bitswits"
+                                                <Image alt="BitsWits"
                                                     src={wisu}
 
                                                 />
@@ -508,7 +508,7 @@ const Header = () => {
                                                 </div>
                                             </div>
                                             <div className={styles.workBox}>
-                                                <Image alt="bitswits"
+                                                <Image alt="BitsWits"
                                                     src={scribe}
 
                                                 />
@@ -522,7 +522,7 @@ const Header = () => {
                                                 </div>
                                             </div>
                                             <div className={`${styles.workBox} ${styles.lastBox}`}>
-                                                <Image alt="bitswits"
+                                                <Image alt="BitsWits"
                                                     src={grease}
 
                                                 />
@@ -540,7 +540,7 @@ const Header = () => {
                                     <Col lg={4}>
                                         <div className={styles.boxSpace}>
                                             <div className={styles.workBox}>
-                                                <Image alt="bitswits"
+                                                <Image alt="BitsWits"
                                                     src={sponsord}
 
                                                 />
@@ -554,7 +554,7 @@ const Header = () => {
                                                 </div>
                                             </div>
                                             <div className={`${styles.workBox}`}>
-                                                <Image alt="bitswits"
+                                                <Image alt="BitsWits"
                                                     src={health}
 
                                                 />
@@ -568,7 +568,7 @@ const Header = () => {
                                                 </div>
                                             </div>
                                             <div className={styles.workBox}>
-                                                <Image alt="bitswits"
+                                                <Image alt="BitsWits"
                                                     src={ride}
 
                                                 />
@@ -582,7 +582,7 @@ const Header = () => {
                                                 </div>
                                             </div>
                                             <div className={styles.workBox}>
-                                                <Image alt="bitswits"
+                                                <Image alt="BitsWits"
                                                     src={fit}
 
                                                 />
@@ -596,7 +596,7 @@ const Header = () => {
                                                 </div>
                                             </div>
                                             <div className={`${styles.workBox} ${styles.lastBox}`}>
-                                                <Image alt="bitswits"
+                                                <Image alt="BitsWits"
                                                     src={ready}
 
                                                 />
@@ -614,7 +614,7 @@ const Header = () => {
                                     <Col lg={4}>
                                         <div className={styles.boxSpace}>
                                         <div className={styles.workBox}>
-                                                <Image alt="bitswits"
+                                                <Image alt="BitsWits"
                                                     src={foods}
 
                                                 />
@@ -628,7 +628,7 @@ const Header = () => {
                                                 </div>
                                             </div>
                                             <div className={styles.workBox}>
-                                                <Image alt="bitswits"
+                                                <Image alt="BitsWits"
                                                     src={homeconnect}
 
                                                 />
@@ -642,7 +642,7 @@ const Header = () => {
                                                 </div>
                                             </div>
                                             <div className={`${styles.workBox}`}>
-                                                <Image alt="bitswits"
+                                                <Image alt="BitsWits"
                                                     src={music}
                                                 />
                                                 <div className={styles.ourWork}>
@@ -661,8 +661,8 @@ const Header = () => {
                                                             <BsFillEnvelopeFill size={20} className={styles.email} />
                                                         </div>
                                                         <div>
-                                                            <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.co" onClick={handleMenu}>
-                                                                info@bitswits.com
+                                                            <Link className='font15 font-medium white fontf' href="mailto:info@BitsWits.co" onClick={handleMenu}>
+                                                                info@BitsWits.com
                                                             </Link>
                                                         </div>
                                                     </div>
@@ -714,8 +714,8 @@ const Header = () => {
                                             <BsFillEnvelopeFill size={20} className={styles.email} />
                                         </div>
                                         <div>
-                                            <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.co" onClick={handleMenu}>
-                                                info@bitswits.com
+                                            <Link className='font15 font-medium white fontf' href="mailto:info@BitsWits.co" onClick={handleMenu}>
+                                                info@BitsWits.com
                                             </Link>
                                         </div>
                                     </div>
@@ -751,7 +751,7 @@ const Header = () => {
                 </nav>
 
                 <Modal show={show} onHide={closemodal} className={styles.modalnew}>
-                    <Modal.Body> <Bitswitspopup formsaspire='popquote' /> <span onClick={closemodal} className={styles.cross}> <RxCross2 /> </span> </Modal.Body>
+                    <Modal.Body> <BitsWitspopup formsaspire='popquote' /> <span onClick={closemodal} className={styles.cross}> <RxCross2 /> </span> </Modal.Body>
 
 
                 </Modal>

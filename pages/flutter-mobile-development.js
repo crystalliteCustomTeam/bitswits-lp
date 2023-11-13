@@ -40,7 +40,7 @@ export default function HybridMobile() {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8" />
-        <title>Trusted Flutter App Development Company - Bitswits!</title>
+        <title>Trusted Flutter App Development Company - BitsWits!</title>
         <meta
           name="description"
           content="Don't settle for mediocre apps! Our flutter app developers deliver cutting-edge solutions that are designed to make a lasting impression on your users."
@@ -49,7 +49,7 @@ export default function HybridMobile() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Trusted Flutter App Development Company - Bitswits!"
+          content="Trusted Flutter App Development Company - BitsWits!"
         />
         <meta
           property="og:description"
@@ -57,15 +57,15 @@ export default function HybridMobile() {
         />
         {/* <meta
           property="og:url"
-          content="https://bitswits.co/flutter-app-development-company/"
+          content="https://BitsWits.co/flutter-app-development-company/"
         /> */}
         <meta
           property="og:site_name"
-          content="Trusted Flutter App Development Company - Bitswits!"
+          content="Trusted Flutter App Development Company - BitsWits!"
         />
         {/* <link
           rel="canonical"
-          href="https://bitswits.co/flutter-app-development-company/"
+          href="https://BitsWits.co/flutter-app-development-company/"
         /> */}
         <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
         <meta
@@ -106,7 +106,7 @@ export default function HybridMobile() {
       />
       <ServicesMaintain
         assignClass="flutter"
-        title1={<> No Challenge Too Great For Our </>}
+        title1={<> No Challenge Is Too Great For Our </>}
         title2={<> Flutter App Development Company! </>}
         appContent={[]}
         appContent1={
@@ -145,8 +145,8 @@ export default function HybridMobile() {
               appclass: "app4",
             },
             {
-              title: (<> Maintenance & Support Services <br /> For Flutter Apps </>),
-              text: 'BitsWits offers maintenance and support services to keep your Flutter applications running smoothly after launch. Our experts provide top-notch services to ensure your applications remain in excellent condition for the long term, giving you peace of mind and ensuring the success of your business.',
+              title: (<> Maintenance & Support <br /> Services </>),
+              text: 'BitsWits offers maintenance and support services to keep your Flutter applications running smoothly after launch. Our experts provide top-notch services to ensure your applications remain in excellent condition for a long term, giving you peace of mind and ensuring the success of your business.',
               appclass: "app5",
             },
           ]
@@ -157,18 +157,18 @@ export default function HybridMobile() {
       <ServicesWho
         subtitle="Who we are."
         title="We build greater futures through innovation and collective knowledge."
-        text="Bitswits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
+        text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
         WhoImage={WhoImage}
       />
       <ServicesWhat
         subtitle="What we do."
-        title="Bitswits transforms businesses through technology."
+        title="BitsWits transforms businesses through technology."
         text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
         WhatImage={WhatImage}
       />
       <ServisesWhy
-        title={<> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </>}
-        subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </>}
+        title={<> <h4 className='font20 font-bold text-white text-center'>Why BitsWits?</h4> </>}
+        subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision, Performance <br /> & Perfection.</h2> </>}
         sub1="Why Does Your Business Require Flutter Applications?"
         sub2="Flutter app development services act like an optimal framework for app development as it allows building high-quality, native-feeling applications for both iOS and Android from a single codebase that saves time and costs."
         whyData={
@@ -226,7 +226,7 @@ export default function HybridMobile() {
                         {
                             number: '02',
                             title: 'Get A Quote',
-                            text: 'Get an exact cost breakdown structure of your app',
+                            text: 'Get an exact cost breakdown structure of your app.',
                             buttonText: 'Chat Now!',
                             link: '#',
                         },

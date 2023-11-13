@@ -99,7 +99,7 @@ const NewHomeMaintain = () => {
                         </Col>
                         <Col md={6} lg={4}>
                             <div className={styles.app}>
-                                <h3 className='text-white f-20 font-bold text-center'>IOS Application Development</h3>
+                                <h3 className='text-white f-20 font-bold text-center'>iOS Application Development</h3>
                                 <p className={styles.para}>The mobile apps developed by app developers at BitsWits are captivating, interactive, and help improve the user experience from planning to execution.</p>
                                 {/* <Image quality={75} src={CardOne} className='img-fluid d-block m-auto mt-5 w-75' /> */}
                                 <div id="lottie-container"></div>

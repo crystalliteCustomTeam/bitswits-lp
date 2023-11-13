@@ -64,16 +64,16 @@ const Capabilities = () => {
                                             <p>
                                             We understand the unique challenges and opportunities that the healthcare industry presents. Our team of experienced developers and designers are committed to creating custom solutions that address the specific needs of healthcare providers, patients, and administrators.
                                             </p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Telemedicine Solution</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Electronic Health Records (EHR)</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Practice Management Systems</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Clinical Software Solutions</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Medical Device Integrations Solutions</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Telemedicine Solution</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Electronic Health Records (EHR)</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Practice Management Systems</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Clinical Software Solutions</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Medical Device Integrations Solutions</p>
                                         </div>
                                     </Col>
                                     <Col xl={6}>
                                         <div className='mt-5 mt-lg-0 text-center'>
-                                            <Image quality={75} alt='Bitswits' src={team1} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image quality={75} alt='BitsWits' src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
                                 </Row>
@@ -87,16 +87,16 @@ const Capabilities = () => {
                                             <p>
                                             We understand the unique challenges and opportunities that the healthcare industry presents. Our team of experienced developers and designers are committed to creating custom solutions that address the specific needs of healthcare providers, patients, and administrators.
                                             </p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Telemedicine Solution</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Electronic Health Records (EHR)</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Practice Management Systems</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Clinical Software Solutions</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Medical Device Integrations Solutions</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Telemedicine Solution</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Electronic Health Records (EHR)</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Practice Management Systems</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Clinical Software Solutions</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Medical Device Integrations Solutions</p>
                                         </div>
                                     </Col>
                                     <Col xl={6}>
                                         <div className='mt-5 mt-lg-0 text-center'>
-                                            <Image quality={75} alt='Bitswits' src={team1} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image quality={75} alt='BitsWits' src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
                                 </Row>
@@ -110,16 +110,16 @@ const Capabilities = () => {
                                             <p>
                                             We understand the unique challenges and opportunities that the healthcare industry presents. Our team of experienced developers and designers are committed to creating custom solutions that address the specific needs of healthcare providers, patients, and administrators.
                                             </p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Telemedicine Solution</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Electronic Health Records (EHR)</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Practice Management Systems</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Clinical Software Solutions</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Medical Device Integrations Solutions</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Telemedicine Solution</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Electronic Health Records (EHR)</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Practice Management Systems</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Clinical Software Solutions</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Medical Device Integrations Solutions</p>
                                         </div>
                                     </Col>
                                     <Col xl={6}>
                                         <div className='mt-5 mt-lg-0 text-center'>
-                                            <Image quality={75} alt='Bitswits' src={team1} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image quality={75} alt='BitsWits' src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
                                 </Row>
@@ -133,16 +133,16 @@ const Capabilities = () => {
                                             <p>
                                             We understand the unique challenges and opportunities that the healthcare industry presents. Our team of experienced developers and designers are committed to creating custom solutions that address the specific needs of healthcare providers, patients, and administrators.
                                             </p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Telemedicine Solution</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Electronic Health Records (EHR)</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Practice Management Systems</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Clinical Software Solutions</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Medical Device Integrations Solutions</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Telemedicine Solution</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Electronic Health Records (EHR)</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Practice Management Systems</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Clinical Software Solutions</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Medical Device Integrations Solutions</p>
                                         </div>
                                     </Col>
                                     <Col xl={6}>
                                         <div className='mt-5 mt-lg-0 text-center'>
-                                            <Image quality={75} alt='Bitswits' src={team1} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image quality={75} alt='BitsWits' src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
                                 </Row>
@@ -155,16 +155,16 @@ const Capabilities = () => {
                                             <p>
                                             We understand the unique challenges and opportunities that the healthcare industry presents. Our team of experienced developers and designers are committed to creating custom solutions that address the specific needs of healthcare providers, patients, and administrators.
                                             </p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Telemedicine Solution</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Electronic Health Records (EHR)</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Practice Management Systems</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Clinical Software Solutions</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Medical Device Integrations Solutions</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Telemedicine Solution</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Electronic Health Records (EHR)</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Practice Management Systems</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Clinical Software Solutions</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Medical Device Integrations Solutions</p>
                                         </div>
                                     </Col>
                                     <Col xl={6}>
                                         <div className='mt-5 mt-lg-0 text-center'>
-                                            <Image quality={75} alt='Bitswits' src={team1} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image quality={75} alt='BitsWits' src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
                                 </Row>
@@ -177,16 +177,16 @@ const Capabilities = () => {
                                             <p>
                                             We understand the unique challenges and opportunities that the healthcare industry presents. Our team of experienced developers and designers are committed to creating custom solutions that address the specific needs of healthcare providers, patients, and administrators.
                                             </p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Telemedicine Solution</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Electronic Health Records (EHR)</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Practice Management Systems</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Clinical Software Solutions</p>
-                                            <p className={styles.cen}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />Medical Device Integrations Solutions</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Telemedicine Solution</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Electronic Health Records (EHR)</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Practice Management Systems</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Clinical Software Solutions</p>
+                                            <p className={styles.cen}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />Medical Device Integrations Solutions</p>
                                         </div>
                                     </Col>
                                     <Col xl={6}>
                                         <div className='mt-5 mt-lg-0 text-center'>
-                                            <Image quality={75} alt='Bitswits' src={team1} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image quality={75} alt='BitsWits' src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
                                 </Row>

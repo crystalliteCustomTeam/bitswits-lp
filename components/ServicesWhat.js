@@ -22,7 +22,7 @@ const ServicesWhat = (props) => {
                                 <Link href='javascript:;' className={`${styles.btn_txt} font-extrabold`}>
                                     Get to know us
                                     <span>
-                                        <Image quality={75} alt='Bitswits' src={ButtonIcon} width={15} height={15} />
+                                        <Image quality={75} alt='BitsWits' src={ButtonIcon} width={15} height={15} />
                                     </span>
                                 </Link>
                             </div>
@@ -31,7 +31,7 @@ const ServicesWhat = (props) => {
                 </Container>
 
                 <div className='sec_image text-center pt-5'>
-                    <Image quality={75} alt='Bitswits' height="550" src={props.WhatImage} className={styles.secImage} />
+                    <Image quality={75} alt='BitsWits' height="550" src={props.WhatImage} className={styles.secImage} />
                 </div>
                 <div className={styles.mixColor2}></div>
             </section>

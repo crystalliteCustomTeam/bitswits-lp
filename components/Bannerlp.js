@@ -29,7 +29,7 @@ const AndriodBanner = (props) => {
                             {props.btn2}
 
                             <div className='mt-5 center'>
-                                <Image quality={95} alt='Bitswits' src={props.imgnew} className={`img-fluid`} />
+                                <Image quality={95} alt='BitsWits' src={props.imgnew} className={`img-fluid`} />
                             </div>
 
                         </Col>

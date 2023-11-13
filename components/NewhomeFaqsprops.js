@@ -88,7 +88,7 @@ const NewhomeFaqs = (props) => {
                             <div className={`${faq1show ? 'touch' : ''} mb-4 mb-lg-0 mt-5`}>
                                 <div onClick={faq1} className={styles.heading}>
                                     <h3>
-                                       {props.title1}  {faq1show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
+                                       {props.title1}  {faq1show ? <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -99,7 +99,7 @@ const NewhomeFaqs = (props) => {
                                     <div className="mt-2">
                                         <Link href="#">
                                             Let's Start
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
 
@@ -112,7 +112,7 @@ const NewhomeFaqs = (props) => {
                             <div className={`${faq2show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq2} className={styles.heading}>
                                     <h3>
-                                    {props.title2} {faq2show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
+                                    {props.title2} {faq2show ? <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -123,7 +123,7 @@ const NewhomeFaqs = (props) => {
                                     <div className="mt-2">
                                         <Link href="#">
                                             Let's Start
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
 
@@ -136,7 +136,7 @@ const NewhomeFaqs = (props) => {
                             <div className={`${faq3show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq3} className={styles.heading}>
                                     <h3>
-                                    {props.title3} {faq3show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
+                                    {props.title3} {faq3show ? <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -147,7 +147,7 @@ const NewhomeFaqs = (props) => {
                                     <div className="mt-2">
                                         <Link href="#">
                                             Let's Start
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
 
@@ -160,7 +160,7 @@ const NewhomeFaqs = (props) => {
                             <div className={`${faq4show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq4} className={styles.heading}>
                                     <h3>
-                                    {props.title4} {faq4show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
+                                    {props.title4} {faq4show ? <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -171,7 +171,7 @@ const NewhomeFaqs = (props) => {
                                     <div className="mt-2">
                                         <Link href="#">
                                             Let's Start
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
 
@@ -184,7 +184,7 @@ const NewhomeFaqs = (props) => {
                             <div className={`${faq5show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq5} className={styles.heading}>
                                     <h3>
-                                    {props.title5} {faq5show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
+                                    {props.title5} {faq5show ? <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -195,7 +195,7 @@ const NewhomeFaqs = (props) => {
                                     <div className="mt-2">
                                         <Link href="#">
                                             Let's Start
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
 
@@ -208,7 +208,7 @@ const NewhomeFaqs = (props) => {
                             <div className={faq6show ? 'touch' : ''}>
                                 <div onClick={faq6} className={styles.heading}>
                                     <h3>
-                                    {props.title6} {faq6show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
+                                    {props.title6} {faq6show ? <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -219,7 +219,7 @@ const NewhomeFaqs = (props) => {
                                     <div className="mt-2">
                                         <Link href="#">
                                             Let's Start
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
                                             />
                                         </Link>

@@ -2584,6 +2584,7 @@ button {
 
 .touchFaq .d-block {
   padding: 1.5em;
+  padding-bottom: 15px;
   animation: 0.7s ease-in-out forwards growDown;
   transform-origin: top;
   border-image: linear-gradient(90deg, #f32fc261, #4a78ef) 10;
@@ -3076,6 +3077,20 @@ button {
   .spacingtb1 {
     padding-top: 80px;
   }
+
+  /* .status {
+    padding-top: 150px;
+    background-color: black;
+  }
+  
+  .status2 {
+    padding-top: 100px;
+    background-color: black;
+  } */
+  
+  /* .status3 {
+    padding-bottom: 50px;
+  } */
 }
 
 @media screen and (max-width: 767px) {

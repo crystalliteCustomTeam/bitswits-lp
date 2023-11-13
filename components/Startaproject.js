@@ -33,7 +33,7 @@ const Startaproject = () => {
                             </div>
                             <div class="col-lg-6 col-xl-6 ">
                                 <div class={styles.start}>
-                                    <Image src={badgelogo} width="554" height="358" class={styles.startproject} alt="bitswits" />
+                                    <Image src={badgelogo} width="554" height="358" class={styles.startproject} alt="BitsWits" />
                                 </div>
                             </div>
                         </div>

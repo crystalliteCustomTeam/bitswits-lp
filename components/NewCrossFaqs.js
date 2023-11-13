@@ -89,7 +89,7 @@ const NewCrossFaqs = () => {
                             <div className={`${faq1show ? 'touch' : ''} mb-4 mb-lg-0 mt-5`}>
                                 <div onClick={faq1} className={styles.heading}>
                                     <h3>
-                                        Which apps use cross-platform?  {faq1show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
+                                        Which apps use cross-platform?  {faq1show ? <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -102,7 +102,7 @@ const NewCrossFaqs = () => {
                                     <div className="mt-2">
                                         <Link href="#">
                                             Let's Start
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
 
@@ -115,7 +115,7 @@ const NewCrossFaqs = () => {
                             <div className={`${faq2show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq2} className={styles.heading}>
                                     <h3>
-                                    What is cross-platform in app development?{faq2show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
+                                    What is cross-platform in app development?{faq2show ? <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -126,7 +126,7 @@ const NewCrossFaqs = () => {
                                     <div className="mt-2">
                                         <Link href="#">
                                             Let's Start
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
 
@@ -139,7 +139,7 @@ const NewCrossFaqs = () => {
                             <div className={`${faq3show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq3} className={styles.heading}>
                                     <h3>
-                                        What language is used for cross-platform apps? {faq3show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
+                                        What language is used for cross-platform apps? {faq3show ? <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -150,7 +150,7 @@ const NewCrossFaqs = () => {
                                     <div className="mt-2">
                                         <Link href="#">
                                             Let's Start
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
 
@@ -163,7 +163,7 @@ const NewCrossFaqs = () => {
                             <div className={`${faq4show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq4} className={styles.heading}>
                                     <h3>
-                                    Is cross-platform development in demand? {faq4show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
+                                    Is cross-platform development in demand? {faq4show ? <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -174,7 +174,7 @@ const NewCrossFaqs = () => {
                                     <div className="mt-2">
                                         <Link href="#">
                                             Let's Start
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
 
@@ -187,7 +187,7 @@ const NewCrossFaqs = () => {
                             <div className={`${faq5show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq5} className={styles.heading}>
                                     <h3>
-                                    What is the best custom mobile app development company? {faq5show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
+                                    What is the best custom mobile app development company? {faq5show ? <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -198,7 +198,7 @@ const NewCrossFaqs = () => {
                                     <div className="mt-2">
                                         <Link href="#">
                                             Let's Start
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
 
@@ -211,7 +211,7 @@ const NewCrossFaqs = () => {
                             <div className={faq6show ? 'touch' : ''}>
                                 <div onClick={faq6} className={styles.heading}>
                                     <h3>
-                                    Which framework can be used to develop cross-platform applications? {faq6show ? <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='Bitswits' src={close} className='img-fluid' /> </span>}
+                                    Which framework can be used to develop cross-platform applications? {faq6show ? <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={open} className='img-fluid' />    </span> : <span className={styles.plus}>  <Image quality={75} alt='BitsWits' src={close} className='img-fluid' /> </span>}
                                     </h3>
                                 </div>
 
@@ -222,7 +222,7 @@ const NewCrossFaqs = () => {
                                     <div className="mt-2">
                                         <Link href="#">
                                             Let's Start
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
 

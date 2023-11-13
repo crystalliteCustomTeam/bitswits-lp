@@ -79,15 +79,15 @@ const Capabilities = () => {
                                             <p>In this initial phase, we brainstorm and shape your app idea into a well-defined concept.</p>
 
                                             <p className={styles.cen}>
-                                                <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
+                                                <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />
                                                 Conduct Market Research
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
+                                                <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />
                                                 Define App Goals and Objectives
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
+                                                <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />
                                                 Create User Personas
                                             </p>
 
@@ -95,7 +95,7 @@ const Capabilities = () => {
                                     </Col>
                                     <Col xl={6}>
                                         <div>
-                                            <Image quality={75} alt='Bitswits' src={team1} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image quality={75} alt='BitsWits' src={team1} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
 
@@ -113,15 +113,15 @@ const Capabilities = () => {
                                             <p>We outline the project plan, budget, and overall strategy to ensure a successful app development journey.</p>
 
                                             <p className={styles.cen}>
-                                                <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
+                                                <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />
                                                 Develop a Project Roadmap
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
+                                                <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />
                                                 Set a Budget and Timeline
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
+                                                <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />
                                                 Define the Technology Stack
                                             </p>
 
@@ -129,7 +129,7 @@ const Capabilities = () => {
                                     </Col>
                                     <Col xl={6}>
                                         <div>
-                                            <Image quality={75} alt='Bitswits' src={team2} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image quality={75} alt='BitsWits' src={team2} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
 
@@ -147,15 +147,15 @@ const Capabilities = () => {
                                             <p>This stage involves creating the visual and structural design of your app.</p>
 
                                             <p className={styles.cen}>
-                                                <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
+                                                <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />
                                                 Create Prototypes
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
+                                                <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />
                                                 Design User Interfaces
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
+                                                <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />
                                                 Ensure User Experience Optimization
                                             </p>
 
@@ -163,7 +163,7 @@ const Capabilities = () => {
                                     </Col>
                                     <Col xl={6}>
                                         <div>
-                                            <Image quality={75} alt='Bitswits' src={team3} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image quality={75} alt='BitsWits' src={team3} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
 
@@ -181,15 +181,15 @@ const Capabilities = () => {
                                             <p>Our development team turns your app's design into a functional, interactive application.</p>
 
                                             <p className={styles.cen}>
-                                                <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
+                                                <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />
                                                 Write Clean and Efficient Code
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
+                                                <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />
                                                 Implement Features and Functionality
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
+                                                <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />
                                                 Conduct Regular Code Reviews
                                             </p>
 
@@ -197,7 +197,7 @@ const Capabilities = () => {
                                     </Col>
                                     <Col xl={6}>
                                         <div>
-                                            <Image quality={75} alt='Bitswits' src={team4} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image quality={75} alt='BitsWits' src={team4} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
 
@@ -214,15 +214,15 @@ const Capabilities = () => {
                                             <p>Rigorous testing is carried out to identify and fix bugs, ensuring a smooth user experience.</p>
 
                                             <p className={styles.cen}>
-                                                <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
+                                                <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />
                                                 Perform Functional Testing
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
+                                                <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />
                                                 Conduct User Acceptance Testing
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
+                                                <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />
                                                 Optimize Performance and Security
                                             </p>
 
@@ -230,7 +230,7 @@ const Capabilities = () => {
                                     </Col>
                                     <Col xl={6}>
                                         <div>
-                                            <Image quality={75} alt='Bitswits' src={team5} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image quality={75} alt='BitsWits' src={team5} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
 
@@ -247,22 +247,22 @@ const Capabilities = () => {
                                             <p>We prepare your app for its official launch and make it available to users.</p>
 
                                             <p className={styles.cen}>
-                                                <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
+                                                <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />
                                                 Prepare for App Store Submission
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
+                                                <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />
                                                 Develop a Marketing and Launch Plan
                                             </p>
                                             <p className={styles.cen}>
-                                                <Image quality={75} alt='Bitswits' src={close} className='img-fluid' />
+                                                <Image quality={75} alt='BitsWits' src={close} className='img-fluid' />
                                                 Monitor Post-Launch Performance
                                             </p>
                                         </div>
                                     </Col>
                                     <Col xl={6}>
                                         <div>
-                                            <Image quality={75} alt='Bitswits' src={team6} className={` ${styles.imgpon} img-fluid`} />
+                                            <Image quality={75} alt='BitsWits' src={team6} className={` ${styles.imgpon} img-fluid`} />
                                         </div>
                                     </Col>
 

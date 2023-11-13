@@ -24,7 +24,7 @@ const New3dSolutions = () => {
                             <Link className={styles.about} href="#">LET's CONNECT</Link>
                         </Col>
                         <Col lg={6}>
-                            <Image quality={75} alt='Bitswits' src={Solution} className='img-fluid mt-5 mt-lg-0'/>
+                            <Image quality={75} alt='BitsWits' src={Solution} className='img-fluid mt-5 mt-lg-0'/>
                         </Col>
                     </Row>
                 </Container>

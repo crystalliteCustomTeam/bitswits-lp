@@ -56,73 +56,73 @@ const Experience = () => {
                                 <Row>
                                     <Col lg={4} className='mb-3'>
                                         <div className={`${activeTab1 == 'tab1' ? styles.active : ''} text-center ${styles.tabBox}`} onClick={() => fun1('tab1')} href="#">
-                                            <Image quality={75} alt='Bitswits' src={tab1} className={styles.tabImage} />
+                                            <Image quality={75} alt='BitsWits' src={tab1} className={styles.tabImage} />
                                             <span> 3D Action <br></br>Games</span>
                                         </div>
                                     </Col>
                                     <Col lg={4} className='mb-3'>
                                         <div className={`${activeTab1 == 'tab2' ? styles.active : ''} text-center ${styles.tabBox}`} onClick={() => fun1('tab2')} href="#">
-                                            <Image quality={75} alt='Bitswits' src={tab2} className={styles.tabImage} />
+                                            <Image quality={75} alt='BitsWits' src={tab2} className={styles.tabImage} />
                                             <span>3D Adventure <br></br>Games</span>
                                         </div>
                                     </Col>
                                     <Col lg={4} className='mb-3'>
                                         <div className={`${activeTab1 == 'tab3' ? styles.active : ''} text-center ${styles.tabBox}`} onClick={() => fun1('tab3')} href="#">
-                                            <Image quality={75} alt='Bitswits' src={tab3} className={styles.tabImage} />
+                                            <Image quality={75} alt='BitsWits' src={tab3} className={styles.tabImage} />
                                             <span>3D PvP Battle <br></br>Games</span>
                                         </div>
                                     </Col>
                                     <Col lg={4} className='mb-3'>
                                         <div className={`${activeTab1 == 'tab4' ? styles.active : ''} text-center ${styles.tabBox}`} onClick={() => fun1('tab4')} href="#">
-                                            <Image quality={75} alt='Bitswits' src={tab4} className={styles.tabImage} />
+                                            <Image quality={75} alt='BitsWits' src={tab4} className={styles.tabImage} />
                                             <span>3D Card <br></br>Games</span>
                                         </div>
                                     </Col>
                                     <Col lg={4} className='mb-3'>
                                         <div className={`${activeTab1 == 'tab5' ? styles.active : ''} text-center ${styles.tabBox}`} onClick={() => fun1('tab5')} href="#">
-                                            <Image quality={75} alt='Bitswits' src={tab5} className={styles.tabImage} />
+                                            <Image quality={75} alt='BitsWits' src={tab5} className={styles.tabImage} />
                                             <span> 3D Racing <br></br>Games</span>
                                         </div>
                                     </Col>
                                     <Col lg={4} className='mb-3'>
                                         <div className={`${activeTab1 == 'tab6' ? styles.active : ''} text-center ${styles.tabBox}`} onClick={() => fun1('tab6')} href="#">
-                                            <Image quality={75} alt='Bitswits' src={tab6} className={styles.tabImage} />
+                                            <Image quality={75} alt='BitsWits' src={tab6} className={styles.tabImage} />
                                             <span> 3D Arcade <br></br>Games</span>
                                         </div>
                                     </Col>
                                     <Col lg={4} className='mb-3'>
                                         <div className={`${activeTab1 == 'tab7' ? styles.active : ''} text-center ${styles.tabBox}`} onClick={() => fun1('tab7')} href="#">
-                                            <Image quality={75} alt='Bitswits' src={tab7} className={styles.tabImage} />
+                                            <Image quality={75} alt='BitsWits' src={tab7} className={styles.tabImage} />
                                             <span> 3D Educational <br></br>Games</span>
                                         </div>
                                     </Col>
                                     <Col lg={4} className='mb-3'>
                                         <div className={`${activeTab1 == 'tab8' ? styles.active : ''} text-center ${styles.tabBox}`} onClick={() => fun1('tab8')} href="#">
-                                            <Image quality={75} alt='Bitswits' src={tab8} className={styles.tabImage} />
+                                            <Image quality={75} alt='BitsWits' src={tab8} className={styles.tabImage} />
                                             <span> 3D Board <br></br>Games</span>
                                         </div>
                                     </Col>
                                     <Col lg={4} className='mb-3'>
                                         <div className={`${activeTab1 == 'tab9' ? styles.active : ''} text-center ${styles.tabBox}`} onClick={() => fun1('tab9')} href="#">
-                                            <Image quality={75} alt='Bitswits' src={tab9} className={styles.tabImage} />
+                                            <Image quality={75} alt='BitsWits' src={tab9} className={styles.tabImage} />
                                             <span>3D Casino <br></br>Games</span>
                                         </div>
                                     </Col>
                                     <Col lg={4}>
                                         <div className={`${activeTab1 == 'tab10' ? styles.active : ''} text-center ${styles.tabBox}`} onClick={() => fun1('tab10')} href="#">
-                                            <Image quality={75} alt='Bitswits' src={tab7} className={styles.tabImage} />
+                                            <Image quality={75} alt='BitsWits' src={tab7} className={styles.tabImage} />
                                             <span> 3D Fantasy Sports</span>
                                         </div>
                                     </Col>
                                     <Col lg={4}>
                                         <div className={`${activeTab1 == 'tab11' ? styles.active : ''} text-center ${styles.tabBox}`} onClick={() => fun1('tab11')} href="#">
-                                            <Image quality={75} alt='Bitswits' src={tab8} className={styles.tabImage} />
+                                            <Image quality={75} alt='BitsWits' src={tab8} className={styles.tabImage} />
                                             <span>3D Simulation <br></br>Games</span>
                                         </div>
                                     </Col>
                                     <Col lg={4}>
                                         <div className={`${activeTab1 == 'tab12' ? styles.active : ''} text-center ${styles.tabBox}`} onClick={() => fun1('tab12')} href="#">
-                                            <Image quality={75} alt='Bitswits' src={tab9} className={styles.tabImage} />
+                                            <Image quality={75} alt='BitsWits' src={tab9} className={styles.tabImage} />
                                             <span>3D Sports <br></br>Games</span>
                                         </div>
                                     </Col>
@@ -138,7 +138,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} alt='Bitswits' src={var1} className='img-fluid' />
+                                        <Image quality={75} alt='BitsWits' src={var1} className='img-fluid' />
                                     </div>
                                 </div>
 
@@ -152,7 +152,7 @@ const Experience = () => {
                                 <div className={styles.newyork}>
 
                                     <div>
-                                        <Image quality={75} alt='Bitswits' src={var2} className='img-fluid' />
+                                        <Image quality={75} alt='BitsWits' src={var2} className='img-fluid' />
                                     </div>
 
                                 </div>
@@ -163,7 +163,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} alt='Bitswits' src={var3} className='img-fluid' />
+                                        <Image quality={75} alt='BitsWits' src={var3} className='img-fluid' />
                                     </div>
                                 </div>
 
@@ -175,7 +175,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} alt='Bitswits' src={var4} className='img-fluid' />
+                                        <Image quality={75} alt='BitsWits' src={var4} className='img-fluid' />
                                     </div>
                                 </div>
 
@@ -185,7 +185,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} alt='Bitswits' src={var5} className='img-fluid' />
+                                        <Image quality={75} alt='BitsWits' src={var5} className='img-fluid' />
                                     </div>
 
                                 </div>
@@ -196,7 +196,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} alt='Bitswits' src={var6} className='img-fluid' />
+                                        <Image quality={75} alt='BitsWits' src={var6} className='img-fluid' />
                                     </div>
                                 </div>
 
@@ -207,7 +207,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} alt='Bitswits' src={var7} className='img-fluid' />
+                                        <Image quality={75} alt='BitsWits' src={var7} className='img-fluid' />
                                     </div>
                                 </div>
 
@@ -221,7 +221,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} alt='Bitswits' src={var8} className='img-fluid' />
+                                        <Image quality={75} alt='BitsWits' src={var8} className='img-fluid' />
                                     </div>
                                 </div>
 
@@ -231,7 +231,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} alt='Bitswits' src={var9} className='img-fluid' />
+                                        <Image quality={75} alt='BitsWits' src={var9} className='img-fluid' />
                                     </div>
                                 </div>
 
@@ -243,7 +243,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} alt='Bitswits' src={var10} className='img-fluid' />
+                                        <Image quality={75} alt='BitsWits' src={var10} className='img-fluid' />
                                     </div>
 
                                 </div>
@@ -254,7 +254,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} alt='Bitswits' src={var11} className='img-fluid' />
+                                        <Image quality={75} alt='BitsWits' src={var11} className='img-fluid' />
                                     </div>
                                 </div>
 
@@ -264,7 +264,7 @@ const Experience = () => {
 
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={75} alt='Bitswits' src={var12} className='img-fluid' />
+                                        <Image quality={75} alt='BitsWits' src={var12} className='img-fluid' />
                                     </div>
                                 </div>
 

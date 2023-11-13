@@ -53,19 +53,19 @@ const Justbuildit = () => {
 
                 <Slider {...bannerslider} className='mt-5'>
                     <div className={styles.strpImg}>
-                        <Image alt="bitswits" src={banImg1} className="img-fluid" />
+                        <Image alt="BitsWits" src={banImg1} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="bitswits" src={banImg2} className="img-fluid" />
+                        <Image alt="BitsWits" src={banImg2} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="bitswits" src={banImg3} className="img-fluid" />
+                        <Image alt="BitsWits" src={banImg3} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="bitswits" src={banImg4} className="img-fluid" />
+                        <Image alt="BitsWits" src={banImg4} className="img-fluid" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="bitswits" src={banImg5} className="img-fluid" />
+                        <Image alt="BitsWits" src={banImg5} className="img-fluid" />
                     </div>
                 </Slider>
             </section>

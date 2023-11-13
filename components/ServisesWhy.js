@@ -53,7 +53,7 @@ const ServisesWhy = (props) => {
                                             <h5 className='font32 font-bold text-white mb-3'>{item.title}</h5>
                                             <p className={`font16 text-white mb-0`}>{item.para}</p>
                                             <div className={styles.whyImg}>
-                                                <Image quality={75} alt='Bitswits' src={item.icon} width={55} height={55} />
+                                                <Image quality={75} alt='BitsWits' src={item.icon} width={55} height={55} />
                                             </div>
                                         </div>
                                     </Col>
@@ -68,7 +68,7 @@ const ServisesWhy = (props) => {
                                                     <h5 className='font32 font-bold text-white mb-3'>{item.title}</h5>
                                                     <p className={`font16 text-white mb-0`}>{item.para}</p>
                                                     <div className={styles.whyImg}>
-                                                        <Image quality={75} alt='Bitswits' src={item.icon} width={55} height={55} />
+                                                        <Image quality={75} alt='BitsWits' src={item.icon} width={55} height={55} />
                                                     </div>
                                                 </div>
                                             </Col>

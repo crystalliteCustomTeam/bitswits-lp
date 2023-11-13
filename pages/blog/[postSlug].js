@@ -105,7 +105,7 @@ export default function Post({ postData, featuredImageUrl }) {
                                 </p>
                                 <Link href="/blog" className={`${styles.arrowBtn} mt-3`}>
                                     <span>View Reviews</span>
-                                    <Image className='img-fluid' src={arrow} alt="bitswits" />
+                                    <Image className='img-fluid' src={arrow} alt="BitsWits" />
                                 </Link>
                             </div>
 
@@ -121,7 +121,7 @@ export default function Post({ postData, featuredImageUrl }) {
                                     </div>
                                     <button type="submit" className={`${styles.arrowBtn} mt-4`}>
                                         <span>Submit Details</span>
-                                        <Image className='img-fluid' src={arrow} alt="bitswits" />
+                                        <Image className='img-fluid' src={arrow} alt="BitsWits" />
                                     </button>
                                 </form>
                             </div>

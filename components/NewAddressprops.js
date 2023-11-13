@@ -51,7 +51,7 @@ const NewAddress = (props) => {
                                 <div className={styles.menu}>
                                     <Link className={`${styles.book} ${styles.book2}`} href="#">
                                    {props.btnp}
-                                        <Image alt="bitswits" src={arrow} className='img-fluid ms-2' />
+                                        <Image alt="BitsWits" src={arrow} className='img-fluid ms-2' />
                                     </Link>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@ const NewAddress = (props) => {
                                 <Row className={styles.locations}>
                                     <Col lg={12} className={`${styles.locInner} col-6`}>
                                         <div className={styles.locImg}>
-                                            <Image alt="bitswits" src={icon11} className='img-fluid' />
+                                            <Image alt="BitsWits" src={icon11} className='img-fluid' />
                                         </div>
                                         <div className={styles.subInner}>
                                             <p className='font12 font-bold fontf mb-0'>USA</p>
@@ -77,7 +77,7 @@ const NewAddress = (props) => {
                                     </Col>
                                     <Col lg={12} sm={6} className={`${styles.locInner} col-6`}>
                                         <div className={styles.locImg}>
-                                            <Image alt="bitswits" src={icon12} className='img-fluid' />
+                                            <Image alt="BitsWits" src={icon12} className='img-fluid' />
                                         </div>
                                         <div className={styles.subInner}>
                                             <p className='font12 font-bold fontf mb-0'>Middle East</p>
@@ -88,7 +88,7 @@ const NewAddress = (props) => {
                                     </Col>
                                     <Col lg={12} className={`${styles.locInner} col-6`}>
                                         <div className={styles.locImg}>
-                                            <Image alt="bitswits" src={icon14} className='img-fluid' />
+                                            <Image alt="BitsWits" src={icon14} className='img-fluid' />
                                         </div>
                                         <div className={styles.subInner}>
                                             <p className='font12 font-bold fontf mb-0'>Asia</p>

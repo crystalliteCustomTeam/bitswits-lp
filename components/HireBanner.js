@@ -20,7 +20,7 @@ const HireBanner = (props) => {
                                     <Link className={`${styles.btn} ${styles.btn1}`} href="tel:+18335006007">Book A Call</Link>
                                     <Link className={`${styles.btn} ${styles.btn2}`} href="#">Live Chat</Link>
                                 </div>
-                                <Image quality={90} src={props.banImg} alt="bitswits" className={`img-fluid`} />
+                                <Image quality={90} src={props.banImg} alt="BitsWits" className={`img-fluid`} />
                             </div>
                         </Col>
                     </Row>

@@ -47,60 +47,60 @@ export default function Thrthy() {
 
                         <div class="row thirdPartySlider justify-content-center align-items-center" data-scroll data-scroll-speed="0.1">
                             <div class="col-lg-1 m-2">
-                                <Image src={banImg1} width="79" height="78" class="" alt="bitswits " />
+                                <Image src={banImg1} width="79" height="78" class="" alt="BitsWits " />
                             </div>
                             <div class="col-lg-1  m-2">
-                                <Image src={banImg2} width="79" height="78" class="" alt="bitswits " />
+                                <Image src={banImg2} width="79" height="78" class="" alt="BitsWits " />
                             </div>
                             <div class="col-lg-1  m-2">
-                                <Image src={banImg3} width="79" height="78" class="" alt="bitswits " />
+                                <Image src={banImg3} width="79" height="78" class="" alt="BitsWits " />
                             </div>
                             <div class="col-lg-1  m-2">
-                                <Image src={banImg4} width="79" height="78" class="" alt="bitswits " />
+                                <Image src={banImg4} width="79" height="78" class="" alt="BitsWits " />
                             </div>
                             <div class="col-lg-1  m-2">
-                                <Image src={banImg5} width="79" height="78" class="" alt="bitswits " />
+                                <Image src={banImg5} width="79" height="78" class="" alt="BitsWits " />
                             </div>
                             <div class="col-lg-1  m-2">
-                                <Image src={banImg6} width="79" height="78" class="" alt="bitswits " />
+                                <Image src={banImg6} width="79" height="78" class="" alt="BitsWits " />
                             </div>
                             <div class="col-lg-1  m-2">
-                                <Image src={banImg7} width="79" height="78" class="" alt="bitswits " />
+                                <Image src={banImg7} width="79" height="78" class="" alt="BitsWits " />
                             </div>
                             <div class="col-lg-1  m-2">
-                                <Image src={banImg8} width="79" height="78" class="" alt="bitswits " />
+                                <Image src={banImg8} width="79" height="78" class="" alt="BitsWits " />
                             </div>
                             <div class="col-lg-1  m-2">
-                                <Image src={banImg9} width="79" height="78" class="" alt="bitswits " />
+                                <Image src={banImg9} width="79" height="78" class="" alt="BitsWits " />
                             </div>
                         </div>
                         <div class="row thirdPartySlider justify-content-center align-items-center" data-scroll data-scroll-speed="0.1">
                             <div class="col-lg-1 m-2">
-                                <Image src={banImg10}  width="79" height="78" class="" alt="bitswits " />
+                                <Image src={banImg10}  width="79" height="78" class="" alt="BitsWits " />
                             </div>
                             <div class="col-lg-1  m-2">
-                                <Image src={banImg11}  width="79" height="78" class="" alt="bitswits " />
+                                <Image src={banImg11}  width="79" height="78" class="" alt="BitsWits " />
                             </div>
                             <div class="col-lg-1  m-2">
-                                <Image src={banImg12}  width="79" height="78" class="" alt="bitswits " />
+                                <Image src={banImg12}  width="79" height="78" class="" alt="BitsWits " />
                             </div>
                             <div class="col-lg-1  m-2">
-                                <Image src={banImg13}  width="79" height="78" class="" alt="bitswits " />
+                                <Image src={banImg13}  width="79" height="78" class="" alt="BitsWits " />
                             </div>
                             <div class="col-lg-1  m-2">
-                                <Image src={banImg14}  width="79" height="78" class="" alt="bitswits " />
+                                <Image src={banImg14}  width="79" height="78" class="" alt="BitsWits " />
                             </div>
                             <div class="col-lg-1  m-2">
-                                <Image src={banImg15}  width="79" height="78" class="" alt="bitswits " />
+                                <Image src={banImg15}  width="79" height="78" class="" alt="BitsWits " />
                             </div>
                             <div class="col-lg-1  m-2">
-                                <Image src={banImg16}  width="79" height="78" class="" alt="bitswits " />
+                                <Image src={banImg16}  width="79" height="78" class="" alt="BitsWits " />
                             </div>
                             <div class="col-lg-1  m-2">
-                                <Image src={banImg17}  width="79" height="78" class="" alt="bitswits " />
+                                <Image src={banImg17}  width="79" height="78" class="" alt="BitsWits " />
                             </div>
                             <div class="col-lg-1  m-2">
-                                <Image src={banImg18}  width="79" height="78" class="" alt="bitswits " />
+                                <Image src={banImg18}  width="79" height="78" class="" alt="BitsWits " />
                             </div>
                         </div>
                         <div class={styles.jis}>

@@ -34,7 +34,7 @@ export default function mobileApplication() {
         <meta charset="UTF-8" />
         {/* <!-- Title & Description --> */}
         <title>
-          The Professional Mobile App Development Company - Bitswits.
+          The Professional Mobile App Development Company - BitsWits.
         </title>
         <meta
           name="description"
@@ -45,19 +45,19 @@ export default function mobileApplication() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="The Professional Mobile App Development Company - Bitswits."
+          content="The Professional Mobile App Development Company - BitsWits."
         />
         <meta
           property="og:description"
           content="From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions."
         />
-        {/* <meta property="og:url" content="https://bitswits.co/mobile-app-development-company/" /> */}
+        {/* <meta property="og:url" content="https://BitsWits.co/mobile-app-development-company/" /> */}
         <meta
           property="og:site_name"
-          content="The Professional Mobile App Development Company - Bitswits."
+          content="The Professional Mobile App Development Company - BitsWits."
         />
         {/* <!-- Canonical --> */}
-        {/* <link rel="canonical" href="https://bitswits.co/mobile-app-development-company/" /> */}
+        {/* <link rel="canonical" href="https://BitsWits.co/mobile-app-development-company/" /> */}
         {/* <!-- Bing Master Verification  --> */}
         <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
         {/* <!-- Local Location Tags --> */}
@@ -93,8 +93,8 @@ export default function mobileApplication() {
       <NewMblServices2 />
       <Technologieswe />
       <ServisesWhy
-        title={<> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </>}
-        subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </>}
+        title={<> <h4 className='font20 font-bold text-white text-center'>Why BitsWits?</h4> </>}
+        subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision, Performance <br /> & Perfection.</h2> </>}
         sub1="Why Choose BitsWits for Building Mobile Applications?"
         sub2="Building your mobile app acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape its trajectory."
         whyData={
@@ -150,7 +150,7 @@ export default function mobileApplication() {
                         {
                             number: '02',
                             title: 'Get A Quote',
-                            text: 'Get an exact cost breakdown structure of your app',
+                            text: 'Get an exact cost breakdown structure of your app.',
                             buttonText: 'Chat Now!',
                             link: '#',
                         },

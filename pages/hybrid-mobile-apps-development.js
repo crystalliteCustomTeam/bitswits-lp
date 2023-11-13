@@ -30,14 +30,14 @@ export default function HybridMobile() {
         <>
             <Head>
                 <title>Hybrid Mobile App Development Company - BitsWits</title>
-                <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+                <meta name="description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
             <ServicesBanner
-                title={<> Hybrid Mobile Apps <br /> Development Company In USA </>}
-                text={<> Bitswits is the go-to hub for all your hybrid mobile app development needs in the USA. We are a leading <br /> technology company that excels in creating cost-effective and efficient hybrid mobile applications for businesses. </>}
+                title={<> Hybrid Mobile App <br /> Development Company In USA </>}
+                text={<> BitsWits is the go-to hub for all your hybrid mobile app development needs in the USA. We are a leading <br /> technology company that excels in creating cost-effective and efficient hybrid mobile applications for businesses. </>}
                 BannerImage={BannerImage}
                 assignClass="hybrid"
             />
@@ -84,12 +84,12 @@ export default function HybridMobile() {
             <ServicesWho
                 subtitle="Who we are."
                 title="We build greater futures through innovation and collective knowledge."
-                text="Bitswits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
+                text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
                 WhoImage={WhoImage}
             />
             <ServicesWhat
                 subtitle="What we do."
-                title="Bitswits transforms businesses through technology."
+                title="BitsWits transforms businesses through technology."
                 text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
                 WhatImage={WhatImage}
             />
@@ -113,7 +113,7 @@ export default function HybridMobile() {
                         {
                             number: '02',
                             title: 'Get A Quote',
-                            text: 'Get an exact cost breakdown structure of your app',
+                            text: 'Get an exact cost breakdown structure of your app.',
                             buttonText: 'Chat Now!',
                             link: '#',
                         },
@@ -139,34 +139,38 @@ export default function HybridMobile() {
                 faqsData={
                     [
                         {
-                            question: "How do I get started with app development at BitsWits?",
+                            question: "What is a hybrid mobile app?",
                             answer:
-                                (<> Reach out to us via our contact page, and let's discuss your app idea. </>),
+                                (<> A hybrid mobile app is a type of mobile application that combines elements of both native and web applications. It is built using web technologies (HTML, CSS, and JavaScript) and wrapped in a native container for distribution. </>),
                         },
                         {
-                            question: "What types of apps does BitsWits specialize in developing?",
+                            question: "What are the advantages of hybrid mobile app development?",
                             answer:
-                                (<> We specialize in a wide range of app types, from mobile and web apps to custom enterprise solutions. </>),
+                                (<> 1. Cost-effective development. <br /><br />
+                                    2. Cross-platform compatibility. <br /><br />
+                                    3. Faster development cycles. <br /><br />
+                                    4. Access to device features through plugins. <br /><br />
+                                    5. Single codebase for multiple platforms. </>),
                         },
                         {
-                            question: "How long does it typically take to develop an app?",
+                            question: "Which frameworks are commonly used for hybrid mobile app development?",
                             answer:
-                                (<> Timelines vary based on complexity, but we work efficiently to ensure timely delivery. </>),
+                                (<> Ionic, React Native, Xamarin, PhoneGap (Cordova), and Flutter are popular frameworks for hybrid mobile app development. </>),
                         },
                         {
-                            question: "What sets BitsWits apart in terms of customer support?",
+                            question: "How does a hybrid app differ from a native app?",
                             answer:
-                                (<> Our dedicated support team ensures your needs are met throughout the development process and beyond. </>),
+                                (<> Native apps are developed for a specific platform (iOS or Android) using platform-specific languages (Swift/Obj-C for iOS, Java/Kotlin for Android), while hybrid apps use web technologies and can run on multiple platforms. </>),
                         },
                         {
-                            question: "Can you help me with app maintenance and updates post-launch?",
+                            question: "Are hybrid apps as performant as native apps?",
                             answer:
-                                (<> Yes, we offer ongoing support and maintenance services to keep your app up-to-date and functioning smoothly. </>),
+                                (<> Hybrid apps might not perform as well as native apps in certain scenarios, especially for graphics-intensive or complex applications. However, advancements in hybrid frameworks have improved performance significantly. </>),
                         },
                         {
-                            question: "How can I stay updated on the progress of my app development project?",
+                            question: "What is the role of WebView in hybrid app development?",
                             answer:
-                                (<> We provide regular project updates and encourage open communication to keep you informed every step of the way. </>),
+                                (<> WebView is a component that allows displaying web content within a native app. In hybrid development, the WebView is used to render the user interface of the application. </>),
                         },
                     ]
                 }

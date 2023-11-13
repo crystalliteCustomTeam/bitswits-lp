@@ -96,7 +96,7 @@ const NewMblServices = () => {
                         <Col md={6} lg={4}>
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
-                                    <h3 className='text-white font25 font-bold'>IOS Application Development</h3>
+                                    <h3 className='text-white font25 font-bold'>iOS Application Development</h3>
                                     <p className={styles.para}>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design, agile development methodologies, and the latest tools and frameworks. Our experienced iOS developers deliver innovative and customized apps!</p>
                                 </div>
                             </div>
@@ -123,7 +123,7 @@ const NewMblServices = () => {
                                 <Row className='align-items-center'>
                                     <Col xl={7}>
                                         <h3 className='text-white font25 font-bold'>Flutter App Development</h3>
-                                        <p className={`${styles.para1}`}>Our team of expert Flutter app developers at Bitswits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs. From ideation to deployment, we ensure a smooth and efficient development process.</p>
+                                        <p className={`${styles.para1}`}>Our team of expert Flutter app developers at BitsWits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs. From ideation to deployment, we ensure a smooth and efficient development process.</p>
                                     </Col>
                                     <Col xl={4}>
 

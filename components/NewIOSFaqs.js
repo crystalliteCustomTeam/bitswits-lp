@@ -124,7 +124,7 @@ const NewIOSFaqs = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -194,7 +194,7 @@ const NewIOSFaqs = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -259,7 +259,7 @@ const NewIOSFaqs = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -310,7 +310,7 @@ const NewIOSFaqs = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -359,7 +359,7 @@ const NewIOSFaqs = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -408,7 +408,7 @@ const NewIOSFaqs = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>

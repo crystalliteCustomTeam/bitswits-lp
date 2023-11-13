@@ -38,7 +38,7 @@ export default function gamedevelopmentcompany() {
         <>
             <Head>
                 <title>Top Mobile App Development Company - BitsWits</title>
-                <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+                <meta name="description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
@@ -74,7 +74,7 @@ export default function gamedevelopmentcompany() {
                         },
                         {
                             title: 'Apple Watch Development',
-                            text: 'Our team of expert iOS developers creates exceptional Apple Watch apps that flawlessly blend with advanced technology and coding standards. We prioritize maximizing battery efficiency and exceeding user expectations with superb performance.',
+                            text: 'Our team of expert iOS developers create exceptional Apple Watch apps that flawlessly blend with advanced technology and coding standards. We prioritize maximizing battery efficiency and exceeding user expectations with superb performance.',
                             appclass: "app2",
                         }
                     ]
@@ -109,18 +109,18 @@ export default function gamedevelopmentcompany() {
             <ServicesWho
                 subtitle="Who we are."
                 title="We build greater futures through innovation and collective knowledge."
-                text="Bitswits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
+                text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
                 WhoImage={WhoImage}
             />
             <ServicesWhat
                 subtitle="What we do."
-                title="Bitswits transforms businesses through technology."
+                title="BitsWits transforms businesses through technology."
                 text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
                 WhatImage={WhatImage}
             />
             <ServisesWhy
-                title={<> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </>}
-                subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </>}
+                title={<> <h4 className='font20 font-bold text-white text-center'>Why BitsWits?</h4> </>}
+                subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision, Performance <br /> & Perfection.</h2> </>}
                 sub1="Why Do You Require Our iOS Applications?"
                 sub2="Building your mobile app acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape the trajectory of your business."
                 whyData={
@@ -178,7 +178,7 @@ export default function gamedevelopmentcompany() {
                         {
                             number: '02',
                             title: 'Get A Quote',
-                            text: 'Get an exact cost breakdown structure of your app',
+                            text: 'Get an exact cost breakdown structure of your app.',
                             buttonText: 'Chat Now!',
                             link: '#',
                         },

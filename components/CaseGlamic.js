@@ -33,7 +33,7 @@ const CaseGlamic = (props) => {
                         </Col>
                         <Col lg={12}>
                             <div className={styles.SecImg}>
-                                <Image quality={90} src={props.foldImg} alt="bitswits" className={`img-fluid`} />
+                                <Image quality={90} src={props.foldImg} alt="BitsWits" className={`img-fluid`} />
                             </div>
                         </Col>
                     </Row>

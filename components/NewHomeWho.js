@@ -28,7 +28,7 @@ const NewHomeWho = () => {
                                 <Link href='javascript:;' className={`${styles.btn_txt} font-extrabold`}>
                                     Get to know us
                                     <span>
-                                        <Image quality={75} alt='Bitswits' src={ButtonIcon} width={15} height={15} />
+                                        <Image quality={75} alt='BitsWits' src={ButtonIcon} width={15} height={15} />
                                     </span>
                                 </Link>
                             </div>
@@ -37,7 +37,7 @@ const NewHomeWho = () => {
                 </Container>
 
                 <div className='sec_image text-center pt-4'>
-                    <Image quality={75} alt='Bitswits' src={WhoImage} className={styles.secImage} />
+                    <Image quality={75} alt='BitsWits' src={WhoImage} className={styles.secImage} />
                 </div>
 
                 <div className="mixColor1"></div>

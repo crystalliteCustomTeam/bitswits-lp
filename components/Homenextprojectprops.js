@@ -77,25 +77,25 @@ const Homenextproject = (props) => {
         <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-5`}>
 
           <div className={styles.strpImg}>
-            <Image alt="bitswits" src={icon3} className="img-fluid w-50" />
+            <Image alt="BitsWits" src={icon3} className="img-fluid w-50" />
           </div>
           <div className={styles.strpImg}>
-            <Image alt="bitswits" src={icon8} className="img-fluid w-50" />
+            <Image alt="BitsWits" src={icon8} className="img-fluid w-50" />
           </div>
           <div className={styles.strpImg}>
-            <Image alt="bitswits" src={icon4} className="img-fluid w-50" />
+            <Image alt="BitsWits" src={icon4} className="img-fluid w-50" />
           </div>
           <div className={styles.strpImg}>
-            <Image alt="bitswits" src={icon5} className="img-fluid w-50" />
+            <Image alt="BitsWits" src={icon5} className="img-fluid w-50" />
           </div>
           <div className={styles.strpImg}>
-            <Image alt="bitswits" src={icon6} className="img-fluid w-50" />
+            <Image alt="BitsWits" src={icon6} className="img-fluid w-50" />
           </div>
           <div className={`${styles.strpImg} ${styles.minImg}`}>
-            <Image alt="bitswits" src={icon7} className="img-fluid w-50" />
+            <Image alt="BitsWits" src={icon7} className="img-fluid w-50" />
           </div>
           <div className={styles.strpImg}>
-            <Image alt="bitswits" src={icon2} className="img-fluid w-50" />
+            <Image alt="BitsWits" src={icon2} className="img-fluid w-50" />
           </div>
 
         </Slider>

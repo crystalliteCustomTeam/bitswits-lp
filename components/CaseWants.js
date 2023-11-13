@@ -19,7 +19,7 @@ const CaseWants = (props) => {
                                     <h3>{section.title}</h3>
                                     {section.textArray.map((text, textIndex) => (
                                         <p key={textIndex}>
-                                            <Image src={tick} width={20} alt="bitswits" className={`img-fluid`} />
+                                            <Image src={tick} width={20} alt="BitsWits" className={`img-fluid`} />
                                             <span>{text}</span>
                                         </p>
                                     ))}

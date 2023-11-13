@@ -34,7 +34,7 @@ const AbtOurservices = () => {
                             <Accordion defaultActiveKey="0">
                                 <Accordion.Item eventKey="0">
                                     <Accordion.Header>
-                                        <Image alt="bitswits" src={icon1} className='img-fluid' />
+                                        <Image alt="BitsWits" src={icon1} className='img-fluid' />
                                         Innovation
                                     </Accordion.Header>
                                     <Accordion.Body>
@@ -43,7 +43,7 @@ const AbtOurservices = () => {
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="1">
                                     <Accordion.Header>
-                                        <Image alt="bitswits" src={icon2} className='img-fluid' />
+                                        <Image alt="BitsWits" src={icon2} className='img-fluid' />
                                         Timely Delivery
                                     </Accordion.Header>
                                     <Accordion.Body>
@@ -54,7 +54,7 @@ const AbtOurservices = () => {
 
                                 <Accordion.Item eventKey="2">
                                     <Accordion.Header>
-                                        <Image alt="bitswits" src={icon3} className='img-fluid' />
+                                        <Image alt="BitsWits" src={icon3} className='img-fluid' />
                                         Quick Collaboration
                                     </Accordion.Header>
                                     <Accordion.Body>
@@ -64,7 +64,7 @@ const AbtOurservices = () => {
 
                                 <Accordion.Item eventKey="3">
                                     <Accordion.Header>
-                                        <Image alt="bitswits" src={icon4} className='img-fluid' />
+                                        <Image alt="BitsWits" src={icon4} className='img-fluid' />
                                         Reliability and Security
                                     </Accordion.Header>
                                     <Accordion.Body>
@@ -74,7 +74,7 @@ const AbtOurservices = () => {
 
                                 <Accordion.Item eventKey="4">
                                     <Accordion.Header>
-                                        <Image alt="bitswits" src={icon5} className='img-fluid' />
+                                        <Image alt="BitsWits" src={icon5} className='img-fluid' />
                                         Dealing with Challenges
                                     </Accordion.Header>
                                     <Accordion.Body>

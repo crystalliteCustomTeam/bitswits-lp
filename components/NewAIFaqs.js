@@ -90,7 +90,7 @@ const NewReactFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -100,7 +100,7 @@ const NewReactFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -117,7 +117,7 @@ const NewReactFaqs = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -132,7 +132,7 @@ const NewReactFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -142,7 +142,7 @@ const NewReactFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -158,7 +158,7 @@ const NewReactFaqs = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -173,7 +173,7 @@ const NewReactFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -183,7 +183,7 @@ const NewReactFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -199,7 +199,7 @@ const NewReactFaqs = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -214,7 +214,7 @@ const NewReactFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -224,7 +224,7 @@ const NewReactFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -240,7 +240,7 @@ const NewReactFaqs = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -255,7 +255,7 @@ const NewReactFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -265,7 +265,7 @@ const NewReactFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -281,7 +281,7 @@ const NewReactFaqs = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -296,7 +296,7 @@ const NewReactFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -306,7 +306,7 @@ const NewReactFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -322,7 +322,7 @@ const NewReactFaqs = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>

@@ -29,7 +29,7 @@ const NewHomeBanner = () => {
                                 <Link className={styles.about} href="tel:+18335006007">LET'S CONNECT</Link>
                             </div>
                             <div className={styles.secImage}>
-                                <Image quality={75} alt='Bitswits' src={BannerImage} className={`img-fluid`} />
+                                <Image quality={75} alt='BitsWits' src={BannerImage} className={`img-fluid`} />
                             </div>
                         </Col>
                     </Row>

@@ -130,37 +130,37 @@ const Supersaleslider = () => {
                 </div>
                 {/* <div class="slick">
 
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
 
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
 
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
 
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
-                    <div><span><img loading="lazy" src="https://bitswits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
+                    <div><span><img loading="lazy" src="https://BitsWits.co/supersale/src/images/app/r3.svg" class="cover-image" alt="supersale" /></span></div>
 
                 </div> */}
 

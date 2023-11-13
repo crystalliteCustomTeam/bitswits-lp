@@ -30,7 +30,7 @@ const Engage = () => {
 
                             <div className={styles.longline}>
                                 <div className={styles.expertise}>
-                                    <Image quality={75} alt='Bitswits' src={gameicon1} className='img-fluid' />
+                                    <Image quality={75} alt='BitsWits' src={gameicon1} className='img-fluid' />
                                 </div>
                                 <div className={styles.bring}>
                                     <h3>Wide Range Of Expertise</h3>
@@ -40,7 +40,7 @@ const Engage = () => {
                             </div>
                             <div className={styles.longline}>
                                 <div className={styles.expertise}>
-                                    <Image quality={75} alt='Bitswits' src={gameicon2} className='img-fluid' />
+                                    <Image quality={75} alt='BitsWits' src={gameicon2} className='img-fluid' />
                                 </div>
                                 <div className={styles.bring}>
                                     <h3>Eye On The Latest</h3>
@@ -53,7 +53,7 @@ const Engage = () => {
                         <Col xl={4}>
 
                             <div className={styles.offers}>
-                                <Image quality={75} alt='Bitswits' src={main} className='img-fluid' />
+                                <Image quality={75} alt='BitsWits' src={main} className='img-fluid' />
                             </div>
 
                         </Col>
@@ -61,7 +61,7 @@ const Engage = () => {
 
                             <div className={styles.longline1}>
                                 <div className={styles.expertise1}>
-                                    <Image quality={75} alt='Bitswits' src={gameicon3} className='img-fluid' />
+                                    <Image quality={75} alt='BitsWits' src={gameicon3} className='img-fluid' />
                                 </div>
                                 <div className={styles.bring1}>
                                     <h3>Custom/Adaptable
@@ -73,7 +73,7 @@ const Engage = () => {
 
                             <div className={styles.longline1}>
                                 <div className={styles.expertise1}>
-                                    <Image quality={75} alt='Bitswits' src={gameicon4} className='img-fluid' />
+                                    <Image quality={75} alt='BitsWits' src={gameicon4} className='img-fluid' />
                                 </div>
                                 <div className={styles.bring1}>
                                     <h3>Security Measures</h3>

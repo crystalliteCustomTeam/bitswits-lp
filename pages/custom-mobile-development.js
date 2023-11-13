@@ -30,15 +30,15 @@ export default function CustomMobile() {
         <>
             <Head>
                 <title>Custom Mobile App Development Company - BitsWits</title>
-                <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+                <meta name="description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
             <ServicesBanner
-                subtitle="Bitswits Is Your One-Stop Shop For"
+                subtitle="BitsWits Is Your One-Stop Shop For"
                 title={<> Custom Mobile Application <br /> Development for Business </>}
-                text={<> Bitswits is your ultimate destination for custom mobile application development for businesses. <br /> We provide comprehensive solutions for companies seeking tailored mobile apps to boost their <br /> operations and customer engagement </>}
+                text={<> BitsWits is your ultimate destination for custom mobile application development for businesses. <br /> We provide comprehensive solutions for companies seeking tailored mobile apps to boost their <br /> operations and customer engagement </>}
                 BannerImage={BannerImage}
                 assignClass="custom"
             />
@@ -100,12 +100,12 @@ export default function CustomMobile() {
             <ServicesWho
                 subtitle="Who we are."
                 title="We build greater futures through innovation and collective knowledge."
-                text="Bitswits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
+                text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
                 WhoImage={WhoImage}
             />
             <ServicesWhat
                 subtitle="What we do."
-                title="Bitswits transforms businesses through technology."
+                title="BitsWits transforms businesses through technology."
                 text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
                 WhatImage={WhatImage}
             />
@@ -129,7 +129,7 @@ export default function CustomMobile() {
                         {
                             number: '02',
                             title: 'Get A Quote',
-                            text: 'Get an exact cost breakdown structure of your app',
+                            text: 'Get an exact cost breakdown structure of your app.',
                             buttonText: 'Chat Now!',
                             link: '#',
                         },

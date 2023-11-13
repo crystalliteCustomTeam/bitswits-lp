@@ -41,7 +41,7 @@ const Formnewlpnewhome = () => {
 
                     </Row>
                     <div class={styles.ipsun}>
-                        <Image src={badgelogo} alt='Bitswits' className='img-fluid' />
+                        <Image src={badgelogo} alt='BitsWits' className='img-fluid' />
                     </div>
                     <div class={styles.appli}>
                         <p class="mb-0">No#1 Top Application Development Company</p>

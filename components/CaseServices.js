@@ -12,7 +12,7 @@ const CaseServices = (props) => {
                     <Row>
                         <Col lg={12}>
                             <div className='mt-lg-5 mt-3 pt-3'>
-                                <Image quality={90} src={props.servImg} alt="bitswits" className={`${styles.secImg} img-fluid`} />
+                                <Image quality={90} src={props.servImg} alt="BitsWits" className={`${styles.secImg} img-fluid`} />
                             </div>
                         </Col>
                     </Row>

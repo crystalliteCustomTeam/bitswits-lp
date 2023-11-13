@@ -27,7 +27,7 @@ export default function Everyone() {
 
                                 </div>
                                 <div className={styles.post}>
-                                    <Image alt='Bitswits' src={banImg1} className='img-fluid' />
+                                    <Image alt='BitsWits' src={banImg1} className='img-fluid' />
                                 </div>
                             </div>
 
@@ -38,7 +38,7 @@ export default function Everyone() {
                         <Col xl={6}>
 
                             <div>
-                                <h2 class="f-30  f-600 white">What Makes Bitswits The Most Recommended <br></br>
+                                <h2 class="f-30  f-600 white">What Makes BitsWits The Most Recommended <br></br>
                                     <span className='fw800'>Mobile App Development Company?</span>
                                 </h2>
                                 <p class="f-13  f-400 white">As the leading mobile app development agency, we've gathered top-notch resources to create exceptional solutions for mobile applications. We have been crafting and will continue to develop unique apps across various platforms, including iOS, Android, Xamarin, and beyond. Our unbridled passion for the most cutting-edge technologies fuels us to continually evolve and innovate, allowing us to instantly provide unparalleled solutions to our valued clients.</p>

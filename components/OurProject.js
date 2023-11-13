@@ -82,21 +82,21 @@ const OurProject = () => {
                                                 <h3 className='font40 fontf font-semibold white'>Initial Consultation</h3>
                                                 <p className='font18 fontf'>Our top Android app developers start by talking about the objectives, obstacles, and limitations you have for your app.</p>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="BitsWits" className='img-fluid'
                                                         src={slidebefore}
 
                                                     />
                                                     <p className='font16 fontf mb-0'>Determining UX/UI goals and challenges. </p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="BitsWits" className='img-fluid'
                                                         src={slidebefore}
 
                                                     />
                                                     <p className='font16 fontf mb-0'>Extensive competitor analysis.</p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="BitsWits" className='img-fluid'
                                                         src={slidebefore}
 
                                                     />
@@ -111,7 +111,7 @@ const OurProject = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits" className='img-fluid'
+                                                <Image alt="BitsWits" className='img-fluid'
                                                     src={slideImg1}
 
                                                 />
@@ -130,21 +130,21 @@ const OurProject = () => {
                                                 <h3 className='font40 fontf font-semibold white'>Gathering Requirements</h3>
                                                 <p className='font18 fontf'>We'll work with you to define the specific requirements and functionality for your business app.</p>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="BitsWits" className='img-fluid'
                                                         src={slidebefore}
 
                                                     />
                                                     <p className='font16 fontf mb-0'>Monitoring and maintenance.</p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="BitsWits" className='img-fluid'
                                                         src={slidebefore}
 
                                                     />
                                                     <p className='font16 fontf mb-0'>Optimizing performance post-release.</p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="BitsWits" className='img-fluid'
                                                         src={slidebefore}
 
                                                     />
@@ -159,7 +159,7 @@ const OurProject = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits" className='img-fluid'
+                                                <Image alt="BitsWits" className='img-fluid'
                                                     src={slideImg2}
 
                                                 />
@@ -178,21 +178,21 @@ const OurProject = () => {
                                                 <h3 className='font40 fontf font-semibold white'>Design and Prototype</h3>
                                                 <p className='font18 fontf'>In order to give you a sense of how your app will look and work, we design wireframes and prototypes.</p>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="BitsWits" className='img-fluid'
                                                         src={slidebefore}
 
                                                     />
                                                     <p className='font16 fontf mb-0'>Mapping out app structure and flow.</p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="BitsWits" className='img-fluid'
                                                         src={slidebefore}
 
                                                     />
                                                     <p className='font16 fontf mb-0'>Designing low-fidelity skeletal framework.</p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="BitsWits" className='img-fluid'
                                                         src={slidebefore}
 
                                                     />
@@ -207,7 +207,7 @@ const OurProject = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits" className='img-fluid'
+                                                <Image alt="BitsWits" className='img-fluid'
                                                     src={slideImg3}
 
                                                 />
@@ -226,21 +226,21 @@ const OurProject = () => {
                                                 <h3 className='font40 fontf font-semibold white'>Development</h3>
                                                 <p className='font18 fontf'>Utilizing development approaches, our team will create your app in a way that swiftly responds to any issues or modifications.</p>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="BitsWits" className='img-fluid'
                                                         src={slidebefore}
 
                                                     />
                                                     <p className='font16 fontf mb-0'>Applying visual branding assets and styles.</p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="BitsWits" className='img-fluid'
                                                         src={slidebefore}
 
                                                     />
                                                     <p className='font16 fontf mb-0'>Crafting intuitive user experiences.</p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="BitsWits" className='img-fluid'
                                                         src={slidebefore}
 
                                                     />
@@ -255,7 +255,7 @@ const OurProject = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits" className='img-fluid'
+                                                <Image alt="BitsWits" className='img-fluid'
                                                     src={slideImg4}
 
                                                 />
@@ -274,21 +274,21 @@ const OurProject = () => {
                                                 <h3 className='font40 fontf font-semibold white'>Tests and Quality Control</h3>
                                                 <p className='font18 fontf'>Your app will be thoroughly evaluated by us to make sure it is dependable, stable, and simple to use.</p>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="BitsWits" className='img-fluid'
                                                         src={slidebefore}
 
                                                     />
                                                     <p className='font16 fontf mb-0'>Applying visual branding assets and styles.</p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="BitsWits" className='img-fluid'
                                                         src={slidebefore}
 
                                                     />
                                                     <p className='font16 fontf mb-0'>Crafting intuitive user experiences.</p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="BitsWits" className='img-fluid'
                                                         src={slidebefore}
 
                                                     />
@@ -303,7 +303,7 @@ const OurProject = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits" className='img-fluid'
+                                                <Image alt="BitsWits" className='img-fluid'
                                                     src={slideImg5}
 
                                                 />
@@ -322,21 +322,21 @@ const OurProject = () => {
                                                 <h3 className='font40 fontf font-semibold white'>Launch</h3>
                                                 <p className='font18 fontf'>To guarantee the success of your app, our top Android app developers assist you with the submission procedure and offer continuous assistance.</p>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="BitsWits" className='img-fluid'
                                                         src={slidebefore}
 
                                                     />
                                                     <p className='font16 fontf mb-0'>Applying visual branding assets and styles.</p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="BitsWits" className='img-fluid'
                                                         src={slidebefore}
 
                                                     />
                                                     <p className='font16 fontf mb-0'>Crafting intuitive user experiences.</p>
                                                 </div>
                                                 <div className={styles.slideList}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="BitsWits" className='img-fluid'
                                                         src={slidebefore}
 
                                                     />
@@ -351,7 +351,7 @@ const OurProject = () => {
                                         </Col>
                                         <Col lg={6}>
                                             <div className={styles.slideImg}>
-                                                <Image alt="bitswits" className='img-fluid'
+                                                <Image alt="BitsWits" className='img-fluid'
                                                     src={slideImg6}
 
                                                 />
@@ -377,21 +377,21 @@ const OurProject = () => {
                                         <h3 className='font40 fontf font-semibold white'>Initial Consultation</h3>
                                         <p className='font18 fontf'>Our top Android app developers start by talking about the objectives, obstacles, and limitations you have for your app.</p>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={slidebefore}
 
                                             />
                                             <p className='font16 fontf mb-0'>Determining UX/UI goals and challenges. </p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={slidebefore}
 
                                             />
                                             <p className='font16 fontf mb-0'>Extensive competitor analysis.</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={slidebefore}
 
                                             />
@@ -406,7 +406,7 @@ const OurProject = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits" className='img-fluid'
+                                        <Image alt="BitsWits" className='img-fluid'
                                             src={slideImg1}
 
                                         />
@@ -425,21 +425,21 @@ const OurProject = () => {
                                         <h3 className='font40 fontf font-semibold white'>Gathering Requirements</h3>
                                         <p className='font18 fontf'>We'll work with you to define the specific requirements and functionality for your business app.</p>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={slidebefore}
 
                                             />
                                             <p className='font16 fontf mb-0'>Monitoring and maintenance.</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={slidebefore}
 
                                             />
                                             <p className='font16 fontf mb-0'>Optimizing performance post-release.</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={slidebefore}
 
                                             />
@@ -454,7 +454,7 @@ const OurProject = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits" className='img-fluid'
+                                        <Image alt="BitsWits" className='img-fluid'
                                             src={slideImg2}
 
                                         />
@@ -473,21 +473,21 @@ const OurProject = () => {
                                         <h3 className='font40 fontf font-semibold white'>Design and Prototype</h3>
                                         <p className='font18 fontf'>In order to give you a sense of how your app will look and work, we design wireframes and prototypes.</p>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={slidebefore}
 
                                             />
                                             <p className='font16 fontf mb-0'>Mapping out app structure and flow.</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={slidebefore}
 
                                             />
                                             <p className='font16 fontf mb-0'>Designing low-fidelity skeletal framework.</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={slidebefore}
 
                                             />
@@ -502,7 +502,7 @@ const OurProject = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits" className='img-fluid'
+                                        <Image alt="BitsWits" className='img-fluid'
                                             src={slideImg3}
 
                                         />
@@ -521,21 +521,21 @@ const OurProject = () => {
                                         <h3 className='font40 fontf font-semibold white'>Development</h3>
                                         <p className='font18 fontf'>Utilizing development approaches, our team will create your app in a way that swiftly responds to any issues or modifications.</p>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={slidebefore}
 
                                             />
                                             <p className='font16 fontf mb-0'>Applying visual branding assets and styles.</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={slidebefore}
 
                                             />
                                             <p className='font16 fontf mb-0'>Crafting intuitive user experiences.</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={slidebefore}
 
                                             />
@@ -550,7 +550,7 @@ const OurProject = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits" className='img-fluid'
+                                        <Image alt="BitsWits" className='img-fluid'
                                             src={slideImg4}
 
                                         />
@@ -569,21 +569,21 @@ const OurProject = () => {
                                         <h3 className='font40 fontf font-semibold white'>Tests and Quality Control</h3>
                                         <p className='font18 fontf'>Your app will be thoroughly evaluated by us to make sure it is dependable, stable, and simple to use.</p>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={slidebefore}
 
                                             />
                                             <p className='font16 fontf mb-0'>Applying visual branding assets and styles.</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={slidebefore}
 
                                             />
                                             <p className='font16 fontf mb-0'>Crafting intuitive user experiences.</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={slidebefore}
 
                                             />
@@ -598,7 +598,7 @@ const OurProject = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits" className='img-fluid'
+                                        <Image alt="BitsWits" className='img-fluid'
                                             src={slideImg5}
 
                                         />
@@ -617,21 +617,21 @@ const OurProject = () => {
                                         <h3 className='font40 fontf font-semibold white'>Launch</h3>
                                         <p className='font18 fontf'>To guarantee the success of your app, our top Android app developers assist you with the submission procedure and offer continuous assistance.</p>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={slidebefore}
 
                                             />
                                             <p className='font16 fontf mb-0'>Applying visual branding assets and styles.</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={slidebefore}
 
                                             />
                                             <p className='font16 fontf mb-0'>Crafting intuitive user experiences.</p>
                                         </div>
                                         <div className={styles.slideList}>
-                                            <Image alt="bitswits" className='img-fluid'
+                                            <Image alt="BitsWits" className='img-fluid'
                                                 src={slidebefore}
 
                                             />
@@ -646,7 +646,7 @@ const OurProject = () => {
                                 </Col>
                                 <Col lg={6}>
                                     <div className={styles.slideImg}>
-                                        <Image alt="bitswits" className='img-fluid'
+                                        <Image alt="BitsWits" className='img-fluid'
                                             src={slideImg6}
 
                                         />

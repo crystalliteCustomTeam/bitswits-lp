@@ -73,37 +73,37 @@ const Nextproject = () => {
                     </Row>
                     <div className={styles.nextalign}>
                         <div className={styles.mobile}>
-                            <Image alt="bitswits" src={icon1} className="img-fluid" />
+                            <Image alt="BitsWits" src={icon1} className="img-fluid" />
                             <h3>Enterprise</h3>
                             <p>Best Mobile Application Developers 2022</p>
                         </div>
                         <div className={styles.mobile}>
-                            <Image alt="bitswits" src={icon2} className="img-fluid" />
+                            <Image alt="BitsWits" src={icon2} className="img-fluid" />
                             <h3>MObile App Daily</h3>
                             <p>Top Mobile Application Development Company</p>
                         </div>
                         <div className={styles.mobile}>
-                            <Image alt="bitswits" src={icon3} className="img-fluid" />
+                            <Image alt="BitsWits" src={icon3} className="img-fluid" />
                             <h3>App Futura</h3>
                             <p>Top Application Development Company</p>
                         </div>
                         <div className={styles.mobile}>
-                            <Image alt="bitswits" src={icon4} className="img-fluid" />
+                            <Image alt="BitsWits" src={icon4} className="img-fluid" />
                             <h3>Clutch</h3>
                             <p>Best Mobile Application Developers 2022</p>
                         </div>
                         <div className={styles.mobile}>
-                            <Image alt="bitswits" src={icon5} className="img-fluid" />
+                            <Image alt="BitsWits" src={icon5} className="img-fluid" />
                             <h3>Clutch</h3>
                             <p>Best Mobile Application Developers 2022</p>
                         </div>
                         <div className={styles.mobile}>
-                            <Image alt="bitswits" src={icon6} className="img-fluid" />
+                            <Image alt="BitsWits" src={icon6} className="img-fluid" />
                             <h3>Good Firms</h3>
                             <p>Best Mobile Application Developers 2022</p>
                         </div>
                         <div className={styles.mobile}>
-                            <Image alt="bitswits" src={icon7} className="img-fluid" />
+                            <Image alt="BitsWits" src={icon7} className="img-fluid" />
                             <h3>INC.5000</h3>
                             <p>Best Mobile Application Developers 2022</p>
                         </div>
@@ -114,37 +114,37 @@ const Nextproject = () => {
                     <Slider {...awardslogo} className={` ${styles.nextalign1} proclass `}>
 
                         <div className={styles.mobile}>
-                            <Image alt="bitswits" src={icon1} className="img-fluid" />
+                            <Image alt="BitsWits" src={icon1} className="img-fluid" />
                             <h3>Enterprise</h3>
                             <p>Best Mobile Application Developers 2022</p>
                         </div>
                         <div className={styles.mobile}>
-                            <Image alt="bitswits" src={icon2} className="img-fluid" />
+                            <Image alt="BitsWits" src={icon2} className="img-fluid" />
                             <h3>MObile App Daily</h3>
                             <p>Top Mobile Application Development Company</p>
                         </div>
                         <div className={styles.mobile}>
-                            <Image alt="bitswits" src={icon3} className="img-fluid" />
+                            <Image alt="BitsWits" src={icon3} className="img-fluid" />
                             <h3>App Futura</h3>
                             <p>Top Application Development Company</p>
                         </div>
                         <div className={styles.mobile}>
-                            <Image alt="bitswits" src={icon4} className="img-fluid" />
+                            <Image alt="BitsWits" src={icon4} className="img-fluid" />
                             <h3>Clutch</h3>
                             <p>Best Mobile Application Developers 2022</p>
                         </div>
                         <div className={styles.mobile}>
-                            <Image alt="bitswits" src={icon5} className="img-fluid" />
+                            <Image alt="BitsWits" src={icon5} className="img-fluid" />
                             <h3>Clutch</h3>
                             <p>Best Mobile Application Developers 2022</p>
                         </div>
                         <div className={styles.mobile}>
-                            <Image alt="bitswits" src={icon6} className="img-fluid" />
+                            <Image alt="BitsWits" src={icon6} className="img-fluid" />
                             <h3>Good Firms</h3>
                             <p>Best Mobile Application Developers 2022</p>
                         </div>
                         <div className={styles.mobile}>
-                            <Image alt="bitswits" src={icon7} className="img-fluid" />
+                            <Image alt="BitsWits" src={icon7} className="img-fluid" />
                             <h3>INC.5000</h3>
                             <p>Best Mobile Application Developers 2022</p>
                         </div>

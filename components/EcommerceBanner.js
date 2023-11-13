@@ -68,28 +68,28 @@ const EcommerceBanner = () => {
                                 <h6 className='f20 text-white font-bold'>Exceeded Performance Benchmarks, and Beat All Competitors.</h6>
                                 <ul className=''>
                                     <li className='mb-2'>
-                                        <Image src={checkImage} alt='Bitswits' />
+                                        <Image src={checkImage} alt='BitsWits' />
                                         <span className='text-white font16 ms-2 mt-2'>Upgraded digital sales for expanding brands</span>
                                     </li>
                                     <li className='mb-2'>
-                                        <Image src={checkImage} alt='Bitswits' />
+                                        <Image src={checkImage} alt='BitsWits' />
                                         <span className='text-white font16 ms-2 mt-2'>Secured payment systems</span>
                                     </li>
                                     <li className='mb-2'>
-                                        <Image src={checkImage} alt='Bitswits' />
+                                        <Image src={checkImage} alt='BitsWits' />
                                         <span className='text-white font16 ms-2 mt-2'>Personalized user accounts
                                         </span>
                                     </li>
                                     <li className='mb-2'>
-                                        <Image src={checkImage} alt='Bitswits' />
+                                        <Image src={checkImage} alt='BitsWits' />
                                         <span className='text-white font16 ms-2 mt-2'>Push notifications and alerts</span>
                                     </li>
                                     <li className='mb-2'>
-                                        <Image src={checkImage} alt='Bitswits' />
+                                        <Image src={checkImage} alt='BitsWits' />
                                         <span className='text-white font16 ms-2 mt-2'>Push notifications and alerts</span>
                                     </li>
                                     <li className='mb-2'>
-                                        <Image src={checkImage} alt='Bitswits' />
+                                        <Image src={checkImage} alt='BitsWits' />
                                         <span className='text-white font16 ms-2 mt-2'>Product catalog and search features for products</span>
                                     </li>
                                 </ul>
@@ -98,28 +98,28 @@ const EcommerceBanner = () => {
 
                                 <Slider {...bannerslider} className={styles.newLogoSlide}>
                                     <div className="">
-                                        <Image alt="bitswits" src={banImg1} className="img-fluid w-75" />
+                                        <Image alt="BitsWits" src={banImg1} className="img-fluid w-75" />
                                     </div>
                                     <div className="">
-                                        <Image alt="bitswits" src={banImg2} className="img-fluid w-75" />
+                                        <Image alt="BitsWits" src={banImg2} className="img-fluid w-75" />
                                     </div>
                                     <div className="">
-                                        <Image alt="bitswits" src={banImg3} className="img-fluid w-50" />
+                                        <Image alt="BitsWits" src={banImg3} className="img-fluid w-50" />
                                     </div>
                                     <div className="">
-                                        <Image alt="bitswits" src={banImg4} className="img-fluid w-75" />
+                                        <Image alt="BitsWits" src={banImg4} className="img-fluid w-75" />
                                     </div>
                                     <div className="">
-                                        <Image alt="bitswits" src={banImg5} className="img-fluid w-75" />
+                                        <Image alt="BitsWits" src={banImg5} className="img-fluid w-75" />
                                     </div>
                                     <div className="">
-                                        <Image alt="bitswits" src={banImg6} className="img-fluid w-50" />
+                                        <Image alt="BitsWits" src={banImg6} className="img-fluid w-50" />
                                     </div>
                                     <div className="">
-                                        <Image alt="bitswits" src={banImg7} className="img-fluid w-75" />
+                                        <Image alt="BitsWits" src={banImg7} className="img-fluid w-75" />
                                     </div>
                                     <div className="">
-                                        <Image alt="bitswits" src={banImg8} className="img-fluid w-50" />
+                                        <Image alt="BitsWits" src={banImg8} className="img-fluid w-50" />
                                     </div>
                                 </Slider>
                             </div>

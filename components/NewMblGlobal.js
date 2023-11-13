@@ -55,46 +55,46 @@ const Newglobal = () => {
 
                             <div className={styles.postpoint}>
                                 <div>
-                                    <Image quality={75} src={bestglobal1} className='img-fluid' alt='bitswits' />
-                                    <Image quality={75} src={bestglobal2} className='img-fluid' alt='bitswits' />
-                                    <Image quality={75} src={bestglobal3} className='img-fluid' alt='bitswits' />
-                                    <Image quality={75} src={bestgloba4} className='img-fluid' alt='bitswits' />
+                                    <Image quality={75} src={bestglobal1} className='img-fluid' alt='BitsWits' />
+                                    <Image quality={75} src={bestglobal2} className='img-fluid' alt='BitsWits' />
+                                    <Image quality={75} src={bestglobal3} className='img-fluid' alt='BitsWits' />
+                                    <Image quality={75} src={bestgloba4} className='img-fluid' alt='BitsWits' />
 
 
                                 </div>
 
                                 <div className={styles.pont}>
-                                    <Image quality={75} src={bestglobal5} className='img-fluid' alt='bitswits' />
-                                    <Image quality={75} src={bestglobal6} className='img-fluid' alt='bitswits' />
-                                    <Image quality={75} src={bestglobal7} className='img-fluid' alt='bitswits' />
-                                    <Image quality={75} src={bestgloba8} className='img-fluid' alt='bitswits' />
+                                    <Image quality={75} src={bestglobal5} className='img-fluid' alt='BitsWits' />
+                                    <Image quality={75} src={bestglobal6} className='img-fluid' alt='BitsWits' />
+                                    <Image quality={75} src={bestglobal7} className='img-fluid' alt='BitsWits' />
+                                    <Image quality={75} src={bestgloba8} className='img-fluid' alt='BitsWits' />
 
 
                                 </div>
 
                                 <div >
-                                    <Image quality={75} src={bestglobal9} className='img-fluid' alt='bitswits' />
-                                    <Image quality={75} src={bestglobal10} className='img-fluid' alt='bitswits' />
-                                    <Image quality={75} src={bestglobal11} className='img-fluid' alt='bitswits' />
-                                    <Image quality={75} src={bestgloba12} className='img-fluid' alt='bitswits' />
+                                    <Image quality={75} src={bestglobal9} className='img-fluid' alt='BitsWits' />
+                                    <Image quality={75} src={bestglobal10} className='img-fluid' alt='BitsWits' />
+                                    <Image quality={75} src={bestglobal11} className='img-fluid' alt='BitsWits' />
+                                    <Image quality={75} src={bestgloba12} className='img-fluid' alt='BitsWits' />
 
 
                                 </div>
                             </div>
 
                             <Slider {...lctonSlider} className={styles.lctnslide}>
-                                <Image quality={75} src={bestglobal1} className='img-fluid' alt='bitswits' />
-                                <Image quality={75} src={bestglobal2} className='img-fluid' alt='bitswits' />
-                                <Image quality={75} src={bestglobal3} className='img-fluid' alt='bitswits' />
-                                <Image quality={75} src={bestgloba4} className='img-fluid' alt='bitswits' />
-                                <Image quality={75} src={bestglobal5} className='img-fluid' alt='bitswits' />
-                                <Image quality={75} src={bestglobal6} className='img-fluid' alt='bitswits' />
-                                <Image quality={75} src={bestglobal7} className='img-fluid' alt='bitswits' />
-                                <Image quality={75} src={bestgloba8} className='img-fluid' alt='bitswits' />
-                                <Image quality={75} src={bestglobal9} className='img-fluid' alt='bitswits' />
-                                <Image quality={75} src={bestglobal10} className='img-fluid' alt='bitswits' />
-                                <Image quality={75} src={bestglobal11} className='img-fluid' alt='bitswits' />
-                                <Image quality={75} src={bestgloba12} className='img-fluid' alt='bitswits' />
+                                <Image quality={75} src={bestglobal1} className='img-fluid' alt='BitsWits' />
+                                <Image quality={75} src={bestglobal2} className='img-fluid' alt='BitsWits' />
+                                <Image quality={75} src={bestglobal3} className='img-fluid' alt='BitsWits' />
+                                <Image quality={75} src={bestgloba4} className='img-fluid' alt='BitsWits' />
+                                <Image quality={75} src={bestglobal5} className='img-fluid' alt='BitsWits' />
+                                <Image quality={75} src={bestglobal6} className='img-fluid' alt='BitsWits' />
+                                <Image quality={75} src={bestglobal7} className='img-fluid' alt='BitsWits' />
+                                <Image quality={75} src={bestgloba8} className='img-fluid' alt='BitsWits' />
+                                <Image quality={75} src={bestglobal9} className='img-fluid' alt='BitsWits' />
+                                <Image quality={75} src={bestglobal10} className='img-fluid' alt='BitsWits' />
+                                <Image quality={75} src={bestglobal11} className='img-fluid' alt='BitsWits' />
+                                <Image quality={75} src={bestgloba12} className='img-fluid' alt='BitsWits' />
 
 
 
@@ -104,7 +104,7 @@ const Newglobal = () => {
                         <Col xl={3}>
                             <div className={styles.pipe}>
 
-                                <Image quality={75} src={team1} className='img-fluid' alt='bitswits' />
+                                <Image quality={75} src={team1} className='img-fluid' alt='BitsWits' />
 
                             </div>
                         </Col>

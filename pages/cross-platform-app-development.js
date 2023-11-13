@@ -42,7 +42,7 @@ export default function gamedevelopmentcompany() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8" />
         {/* <!-- Title & Description --> */}
-        <title>Leading Cross Platform App Development Company - Bitswits</title>
+        <title>Leading Cross Platform App Development Company - BitsWits</title>
         <meta
           name="description"
           content="Want to launch your app on all platforms simultaneously? Our cross platform developers make it possible! We design, develop, and deploy apps that work seamlessly."
@@ -52,19 +52,19 @@ export default function gamedevelopmentcompany() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Leading Cross Platform App Development Company - Bitswits"
+          content="Leading Cross Platform App Development Company - BitsWits"
         />
         <meta
           property="og:description"
           content="Want to launch your app on all platforms simultaneously? Our cross platform developers make it possible! We design, develop, and deploy apps that work seamlessly."
         />
-        {/* <meta property="og:url" content="https://bitswits.co/cross-platform-app-development-company/" /> */}
+        {/* <meta property="og:url" content="https://BitsWits.co/cross-platform-app-development-company/" /> */}
         <meta
           property="og:site_name"
-          content="Leading cross platform app development company - Bitswits"
+          content="Leading cross platform app development company - BitsWits"
         />
         {/* <!-- Canonical --> */}
-        {/* <link rel="canonical" href="https://bitswits.co/cross-platform-app-development-company/" /> */}
+        {/* <link rel="canonical" href="https://BitsWits.co/cross-platform-app-development-company/" /> */}
         {/* <!-- Bing Master Verification  --> */}
         <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
         {/* <!-- Local Location Tags --> */}
@@ -97,7 +97,7 @@ export default function gamedevelopmentcompany() {
 
       <ServicesBanner
         subtitle="Create The Future With Our"
-        title={<> Cross Platform Apps <br /> Development </>}
+        title={<> Cross Platform App <br /> Development Services </>}
         text={<> With our cross-platform app development services, you can easily create apps that are compatible <br /> across multiple platforms. No more worrying about developing an app for every operating system; <br /> now you can develop and deploy one single app for both Android and iOS! </>}
         BannerImage={BannerImage}
       />
@@ -109,7 +109,7 @@ export default function gamedevelopmentcompany() {
       <ServicesMaintain
         assignClass="cross"
         title={<> Cross-Platform App Development </>}
-        title1={<> One Codebase,Multiple Platforms, Infinite Possibilities </>}
+        title1={<> One Codebase, Multiple Platforms, Infinite Possibilities </>}
         appContent={[]}
         appContent1={
           [
@@ -142,12 +142,12 @@ export default function gamedevelopmentcompany() {
         appContent3={
           [
             {
-              title: (<> AI Integrated Cross Platforms Apps </>),
+              title: (<> AI Integrated Cross Platform Apps </>),
               text: (<> BitsWits specializes in creating custom applications that utilize the power of artificial intelligence. Our AI-integrated cross-platform application development services offer innovative and intuitive solutions that leverage the latest AI technologies to automate tasks, streamline processes, and reduce costs for your business. </>),
               appclass: "app4",
             },
             {
-              title: (<> Cross Platforms Apps Consulting </>),
+              title: (<> Cross Platform Apps Consulting </>),
               text: 'Our team of cross-platform app developers actively listen to your ideas and craft custom plans to precisely meet your unique requirements. We highly value every project and strive to provide exceptional services that exceed your expectations.',
               appclass: "app5",
             },
@@ -160,18 +160,18 @@ export default function gamedevelopmentcompany() {
         assignClass="cross"
         subtitle="Who we are."
         title="We build greater futures through innovation and collective knowledge."
-        text="Bitswits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
+        text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
         WhoImage={WhoImage}
       />
       <ServicesWhat
         subtitle="What we do."
-        title="Bitswits transforms businesses through technology."
+        title="BitsWits transforms businesses through technology."
         text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
         WhatImage={WhatImage}
       />
       <ServisesWhy
-        title={<> <h4 className='font20 font-bold text-white text-center'>Why Bitswits?</h4> </>}
-        subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision,Performance <br /> & Perfection.</h2> </>}
+        title={<> <h4 className='font20 font-bold text-white text-center'>Why BitsWits?</h4> </>}
+        subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision, Performance <br /> & Perfection.</h2> </>}
         sub1="Why Hire Cross-Platform App Developers at BitsWits for Top-Quality Apps?"
         sub2="Cross-platform app development services at BitsWits, allow us to efficiently reach more users across multiple devices while providing a persistent brand experience."
         whyData={
@@ -229,7 +229,7 @@ export default function gamedevelopmentcompany() {
                         {
                             number: '02',
                             title: 'Get A Quote',
-                            text: 'Get an exact cost breakdown structure of your app',
+                            text: 'Get an exact cost breakdown structure of your app.',
                             buttonText: 'Chat Now!',
                             link: '#',
                         },

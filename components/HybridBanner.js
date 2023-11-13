@@ -67,14 +67,14 @@ const HybridBanner = () => {
                                 <span className='d-block'>Hybrid Mobile Apps</span>
                                 <span className='d-block'>Development Company In USA</span>
                             </h3>
-                            <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>Bitswits is the go-to hub for all your hybrid mobile app development needs in the USA. We are a leading technology company that excels in creating cost-effective and efficient hybrid mobile applications for businesses.</p>
+                            <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>BitsWits is the go-to hub for all your hybrid mobile app development needs in the USA. We are a leading technology company that excels in creating cost-effective and efficient hybrid mobile applications for businesses.</p>
 
                             <div className={styles.pont}>
                                     <Link className={styles.about} href="tel:+18335006007">LET'S CONNECT</Link>
                                 </div>
 
                             <div className={styles.secImage}>
-                                <Image quality={75} alt='Bitswits' src={BannerImage} className={`img-fluid`} />
+                                <Image quality={75} alt='BitsWits' src={BannerImage} className={`img-fluid`} />
                             </div>
 
                         </Col>
@@ -86,25 +86,25 @@ const HybridBanner = () => {
                     <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-5`}>
 
                         <div className={styles.strpImg}>
-                            <Image alt="bitswits" src={icon20} className="img-fluid w-50" />
+                            <Image alt="BitsWits" src={icon20} className="img-fluid w-50" />
                         </div>
                         <div className={styles.strpImg}>
-                            <Image alt="bitswits" src={icon30} className="img-fluid w-50" />
+                            <Image alt="BitsWits" src={icon30} className="img-fluid w-50" />
                         </div>
                         <div className={styles.strpImg}>
-                            <Image alt="bitswits" src={icon80} className="img-fluid w-25" />
+                            <Image alt="BitsWits" src={icon80} className="img-fluid w-25" />
                         </div>
                         <div className={styles.strpImg}>
-                            <Image alt="bitswits" src={icon40} className="img-fluid w-50" />
+                            <Image alt="BitsWits" src={icon40} className="img-fluid w-50" />
                         </div>
                         <div className={styles.strpImg}>
-                            <Image alt="bitswits" src={icon50} className="img-fluid w-50" />
+                            <Image alt="BitsWits" src={icon50} className="img-fluid w-50" />
                         </div>
                         <div className={styles.strpImg}>
-                            <Image alt="bitswits" src={icon60} className="img-fluid w-50" />
+                            <Image alt="BitsWits" src={icon60} className="img-fluid w-50" />
                         </div>
                         <div className={`${styles.strpImg} ${styles.minImg}`}>
-                            <Image alt="bitswits" src={icon70} className="img-fluid w-25" />
+                            <Image alt="BitsWits" src={icon70} className="img-fluid w-25" />
                         </div>
                       
                     </Slider>

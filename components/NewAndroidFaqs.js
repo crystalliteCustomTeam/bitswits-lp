@@ -90,7 +90,7 @@ const NewAndroidFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -100,7 +100,7 @@ const NewAndroidFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -123,7 +123,7 @@ const NewAndroidFaqs = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -138,7 +138,7 @@ const NewAndroidFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -148,7 +148,7 @@ const NewAndroidFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -179,7 +179,7 @@ const NewAndroidFaqs = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -194,7 +194,7 @@ const NewAndroidFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -204,7 +204,7 @@ const NewAndroidFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -232,7 +232,7 @@ const NewAndroidFaqs = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -247,7 +247,7 @@ const NewAndroidFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -257,7 +257,7 @@ const NewAndroidFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -283,7 +283,7 @@ const NewAndroidFaqs = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -298,7 +298,7 @@ const NewAndroidFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -308,7 +308,7 @@ const NewAndroidFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -341,7 +341,7 @@ const NewAndroidFaqs = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>
@@ -356,7 +356,7 @@ const NewAndroidFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={open}
                           className="img-fluid"
                         />{" "}
@@ -366,7 +366,7 @@ const NewAndroidFaqs = () => {
                         {" "}
                         <Image
                           quality={75}
-                          alt='Bitswits'
+                          alt='BitsWits'
                           src={close}
                           className="img-fluid"
                         />{" "}
@@ -395,7 +395,7 @@ const NewAndroidFaqs = () => {
                   <div className="mt-2">
                     <Link href="#">
                       Let's Start
-                      <Image alt="bitswits" className="img-fluid" src={arrow} />
+                      <Image alt="BitsWits" className="img-fluid" src={arrow} />
                     </Link>
                   </div>
                 </div>

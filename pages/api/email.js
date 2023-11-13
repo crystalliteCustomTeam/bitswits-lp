@@ -4,15 +4,15 @@ export default function (req, res) {
     port: 465,
     host: "smtp.gmail.com",
     auth: {
-      user: 'info@bitswits.com',
+      user: 'info@BitsWits.com',
       pass: "$RFthuytt%%^^%$$#5",
     },
     secure: true,
   })
   let newDate = new Date()
   const mailData = {
-    from: 'info@bitswits.com',
-    to: 'info@bitswits.com',
+    from: 'info@BitsWits.com',
+    to: 'info@BitsWits.com',
     subject: `New Lead Generated`,
     html: `<h3>New Lead Generated Client Data Is Listed Below </h3> <p>Name : ${req.body.first}</p> <p> email : ${req.body.email}</p> <p> Date : ${newDate}</p> `
   }

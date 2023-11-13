@@ -22,8 +22,8 @@ export default function Testimonailslider() {
         slidesToScroll: 1,
         centerMode: false,
         variableWidth: false,
-        nextArrow: <Image src={right} alt='Bitswits' className='img-fluid' />,
-        prevArrow: <Image src={left} alt='Bitswits' className='img-fluid' />
+        nextArrow: <Image src={right} alt='BitsWits' className='img-fluid' />,
+        prevArrow: <Image src={left} alt='BitsWits' className='img-fluid' />
     };
 
 
@@ -41,7 +41,7 @@ export default function Testimonailslider() {
                     </Row>
                     <Slider {...clientsthink} className={`${styles.clintSlider} clintSlider1`}>
                         <div>
-                            <Image alt="bitswits" className='img-fluid'
+                            <Image alt="BitsWits" className='img-fluid'
                                 src={slideImg1}
                             />
                             <h3>Bryce Carlos</h3>
@@ -51,7 +51,7 @@ export default function Testimonailslider() {
                             </p>
                         </div>
                         <div>
-                            <Image alt="bitswits" className='img-fluid'
+                            <Image alt="BitsWits" className='img-fluid'
                                 src={slideImg1}
                             />
                               <h3>Bryce Carlos</h3>
