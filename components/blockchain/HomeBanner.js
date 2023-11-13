@@ -5,11 +5,11 @@ import { Col, Row } from 'react-bootstrap';
 // import Container from 'react-bootstrap/Container';
 import style from '@/styles/HomeBanner.module.css'
 
-function HomeBanner(){
+function HomeBanner() {
 
     return (
         <>
-       
+
             {/* <div className={style.HomeBanner}> */}
 
             <div className={style.HomeBanner}>
@@ -18,9 +18,9 @@ function HomeBanner(){
                         <div>
                             <div className={style.leftcolums}>
                                 <h1>Complete
-Blockchain Development</h1>
-<p>Everything you need to connect with your games or apps to
-decentralize Networks</p>
+                                    Blockchain Development</h1>
+                                <p>Everything you need to connect with your games or apps to
+                                    decentralize Networks</p>
                             </div>
                         </div>
                     </Col>
@@ -30,27 +30,27 @@ decentralize Networks</p>
                             <form className={`${style.ctaForm} mt-5`}>
                                 <h3 className='font-30 fw-900 text-center mb-5 text-white'> Contact us </h3>
                                 <Row className='px-4'>
-                                    <Col lg={6} className=" pb-4"> 
-                                            <label htmlFor="name"> Name *</label>
-                                            <input className='form-control' type="text" placeholder="Type Name" required />
+                                    <Col lg={6} className=" pb-4">
+                                        <label htmlFor="name"> Name *</label>
+                                        <input className='form-control' type="text" placeholder="Type Name" required />
                                     </Col>
-                                    <Col lg={6} className=" pb-4"> 
-                                            <label htmlFor="phone">Phone *</label>
-                                            <input  className='form-control' type="text" placeholder="(000) 000-000" required />
-                                    </Col>
-                                </Row>
-                                <Row className='px-4'>
-                                    <Col lg={6} className=" pb-4"> 
-                                            <label htmlFor="email">Email  *</label>
-                                            <input  className='form-control' type="email" placeholder="Type Your Email" required />
-                                    </Col>
-                                    <Col lg={6} className=" pb-4"> 
-                                            <label htmlFor="web">Your Website *</label>
-                                            <input  className='form-control' type="text" placeholder="Type Your Website"  />
+                                    <Col lg={6} className=" pb-4">
+                                        <label htmlFor="phone">Phone *</label>
+                                        <input className='form-control' type="text" placeholder="(000) 000-000" required />
                                     </Col>
                                 </Row>
                                 <Row className='px-4'>
-                                    <Col lg={12} className=" pb-4"> 
+                                    <Col lg={6} className=" pb-4">
+                                        <label htmlFor="email">Email  *</label>
+                                        <input className='form-control' type="email" placeholder="Type Your Email" required />
+                                    </Col>
+                                    <Col lg={6} className=" pb-4">
+                                        <label htmlFor="web">Your Website *</label>
+                                        <input className='form-control' type="text" placeholder="Type Your Website" />
+                                    </Col>
+                                </Row>
+                                <Row className='px-4'>
+                                    <Col lg={12} className=" pb-4">
                                         <div>
                                             <textarea type="textarea" placeholder="Type Your Message"  >
                                             </textarea>
@@ -58,10 +58,10 @@ decentralize Networks</p>
                                     </Col>
                                 </Row>
                                 <Row className='px-4'>
-                                    <Col lg={12} className=" mt-4"> 
-                                       
-                                            <button className={style.btnprimary}>Submit</button>
-                                        
+                                    <Col lg={12} className=" mt-4">
+
+                                        <button className={style.btnprimary}>Submit</button>
+
                                     </Col>
                                 </Row>
                             </form>

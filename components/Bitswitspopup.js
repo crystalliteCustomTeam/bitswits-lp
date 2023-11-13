@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/styles/BitsWitspopup.module.css'
+import styles from '@/styles/Bitswitspopup.module.css'
 import Link from 'next/link'
 import axios from "axios";
 import { useState } from "react";

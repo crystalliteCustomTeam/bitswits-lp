@@ -44,7 +44,7 @@ import Modal from 'react-bootstrap/Modal';
 import Freequote from '../components/Freequote'
 import { RxCross2 } from 'react-icons/rx'
 import newImg from '../public/images/1.jpg'
-import BitsWitspopup from '../components/BitsWitspopup'
+import Bitswitspopup from '../components/Bitswitspopup'
 
 
 const NewHeaderFy = () => {
@@ -89,7 +89,7 @@ const NewHeaderFy = () => {
                 <header className={styles.header}>
                     <div className={styles.navLogo}>
                         <Link href="/">
-                            <Image alt="BitsWits" className='img-fluid'
+                            <Image alt="bitswits" className='img-fluid'
                                 src={logo}
                             />
                         </Link>
@@ -98,7 +98,7 @@ const NewHeaderFy = () => {
                         <ul className={isActive ? `${styles.menu} ${styles.active}` : `${styles.menu}`}>
                             <div className={`${styles.navLogo} ${styles.mblLogo}`}>
                                 <Link href="/">
-                                    <Image alt="BitsWits" className='img-fluid'
+                                    <Image alt="bitswits" className='img-fluid'
                                         src={mbllogo}
                                     />
                                 </Link>
@@ -115,7 +115,7 @@ const NewHeaderFy = () => {
                                 </Link>
                                 <div className={megamenu3 ? `${styles.megaMenu3} ${styles.opnMenu3}` : `${styles.megaMenu3}`}>
                                     <div className={styles.backArrow}>
-                                        <Image alt="BitsWits"
+                                        <Image alt="bitswits"
                                             src={backarrow}
                                         />
                                     </div>
@@ -132,7 +132,7 @@ const NewHeaderFy = () => {
 
                                                                         <div className={styles.listHeading}>
                                                                             <div className={styles.megaIcon}>
-                                                                                <Image alt="BitsWits" className='img-fluid'
+                                                                                <Image alt="bitswits" className='img-fluid'
                                                                                     src={apps} />
                                                                             </div>
                                                                             <h5 className='font14 fontf font-semibold mb-0'>APP</h5>
@@ -221,7 +221,7 @@ const NewHeaderFy = () => {
 
                                                                         <div className={styles.listHeading}>
                                                                             <div className={styles.megaIcon}>
-                                                                                <Image alt="BitsWits" className='img-fluid'
+                                                                                <Image alt="bitswits" className='img-fluid'
                                                                                     src={web}
                                                                                 />
                                                                             </div>
@@ -268,7 +268,7 @@ const NewHeaderFy = () => {
 
                                                                         <div className={`${styles.listHeading} mt-3 pt-1`}>
                                                                             <div className={styles.megaIcon}>
-                                                                                <Image alt="BitsWits" className='img-fluid'
+                                                                                <Image alt="bitswits" className='img-fluid'
                                                                                     src={hosting}
                                                                                 />
                                                                             </div>
@@ -348,7 +348,7 @@ const NewHeaderFy = () => {
                                                     <div className={styles.listMain}>
                                                         <div className={styles.listHeading}>
                                                             <div className={styles.megaIcon}>
-                                                                <Image alt="BitsWits" className='img-fluid'
+                                                                <Image alt="bitswits" className='img-fluid'
                                                                     src={cms}
                                                                 />
                                                             </div>
@@ -393,7 +393,7 @@ const NewHeaderFy = () => {
                                                     {/* <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
-                                                            <Image alt="BitsWits" className='img-fluid'
+                                                            <Image alt="bitswits" className='img-fluid'
                                                                 src={marketing}
                                                             />
                                                         </div>
@@ -429,7 +429,7 @@ const NewHeaderFy = () => {
                                                     <div className={`${styles.listMain} mt-0`}>
                                                         {/* <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
-                                                            <Image alt="BitsWits" className='img-fluid'
+                                                            <Image alt="bitswits" className='img-fluid'
                                                                 src={cms}
                                                             />
                                                         </div>
@@ -473,7 +473,7 @@ const NewHeaderFy = () => {
 
                                                                                         <div className={styles.listHeading}>
                                                                                             <div className={styles.megaIcon}>
-                                                                                                <Image alt="BitsWits" className='img-fluid'
+                                                                                                <Image alt="bitswits" className='img-fluid'
                                                                                                     src={games}
                                                                                                 />
                                                                                             </div>
@@ -571,7 +571,7 @@ const NewHeaderFy = () => {
                                                 <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
-                                                            <Image alt="BitsWits" className='img-fluid'
+                                                            <Image alt="bitswits" className='img-fluid'
                                                                 src={cms}
                                                             />
                                                         </div>
@@ -615,7 +615,7 @@ const NewHeaderFy = () => {
                                                 <div className={styles.listMain}>
                                                     <div className={styles.listHeading}>
                                                         <div className={styles.megaIcon}>
-                                                            <Image  alt="BitsWits"      className='img-fluid'
+                                                            <Image  alt="bitswits"      className='img-fluid'
                                                                 src={tailormade}
                                                             />
                                                         </div>
@@ -654,7 +654,7 @@ const NewHeaderFy = () => {
                                                             <li>
                                                                 <Link onClick={handleMenu} href='/real-estate'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image alt="BitsWits" className='img-fluid'
+                                                                        <Image alt="bitswits" className='img-fluid'
                                                                             src={estate}
                                                                         />
                                                                     </div>
@@ -664,7 +664,7 @@ const NewHeaderFy = () => {
                                                             <li>
                                                                 <Link onClick={handleMenu} href='/travel-hospitality'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image alt="BitsWits" className='img-fluid'
+                                                                        <Image alt="bitswits" className='img-fluid'
                                                                             src={travel}
                                                                         />
                                                                     </div>
@@ -674,7 +674,7 @@ const NewHeaderFy = () => {
                                                             <li>
                                                                 <Link onClick={handleMenu} href='/b2b-solutions'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image alt="BitsWits" className='img-fluid'
+                                                                        <Image alt="bitswits" className='img-fluid'
                                                                             src={b2b}
                                                                         />
                                                                     </div>
@@ -684,7 +684,7 @@ const NewHeaderFy = () => {
                                                             <li>
                                                                 <Link onClick={handleMenu} href='/b2c-solutions'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image alt="BitsWits" className='img-fluid'
+                                                                        <Image alt="bitswits" className='img-fluid'
                                                                             src={b2c}
                                                                         />
                                                                     </div>
@@ -694,7 +694,7 @@ const NewHeaderFy = () => {
                                                             <li>
                                                                 <Link onClick={handleMenu} href='/healthcare'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image alt="BitsWits" className='img-fluid'
+                                                                        <Image alt="bitswits" className='img-fluid'
                                                                             src={health}
                                                                         />
                                                                     </div>
@@ -704,7 +704,7 @@ const NewHeaderFy = () => {
                                                             <li>
                                                                 <Link onClick={handleMenu} href='/education-and-e-learning'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image alt="BitsWits" className='img-fluid'
+                                                                        <Image alt="bitswits" className='img-fluid'
                                                                             src={education}
                                                                         />
                                                                     </div>
@@ -714,7 +714,7 @@ const NewHeaderFy = () => {
                                                             <li>
                                                                 <Link onClick={handleMenu} href='/banking-finance'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image alt="BitsWits" className='img-fluid'
+                                                                        <Image alt="bitswits" className='img-fluid'
                                                                             src={finance}
                                                                         />
                                                                     </div>
@@ -724,7 +724,7 @@ const NewHeaderFy = () => {
                                                             <li>
                                                                 <Link onClick={handleMenu} href='/startup-solutions'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image alt="BitsWits" className='img-fluid'
+                                                                        <Image alt="bitswits" className='img-fluid'
                                                                             src={education}
                                                                         />
                                                                     </div>
@@ -734,7 +734,7 @@ const NewHeaderFy = () => {
                                                             <li>
                                                                 <Link onClick={handleMenu} href='/media-publishing'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image alt="BitsWits" className='img-fluid'
+                                                                        <Image alt="bitswits" className='img-fluid'
                                                                             src={media}
                                                                         />
                                                                     </div>
@@ -744,7 +744,7 @@ const NewHeaderFy = () => {
                                                             <li>
                                                                 <Link onClick={handleMenu} href='/food-ordering-solutions'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image alt="BitsWits" className='img-fluid'
+                                                                        <Image alt="bitswits" className='img-fluid'
                                                                             src={foods}
                                                                         />
                                                                     </div>
@@ -754,7 +754,7 @@ const NewHeaderFy = () => {
                                                             <li>
                                                                 <Link onClick={handleMenu} href='/ticket-booking-solutions'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image alt="BitsWits" className='img-fluid'
+                                                                        <Image alt="bitswits" className='img-fluid'
                                                                             src={tickets}
                                                                         />
                                                                     </div>
@@ -764,7 +764,7 @@ const NewHeaderFy = () => {
                                                             <li>
                                                                 <Link onClick={handleMenu} href='/automotive-solutions'>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image alt="BitsWits" className='img-fluid'
+                                                                        <Image alt="bitswits" className='img-fluid'
                                                                             src={automotive}
                                                                         />
                                                                     </div>
@@ -787,7 +787,7 @@ const NewHeaderFy = () => {
                                 </Link>
                                 <div className={megamenu2 ? `${styles.megaMenu2} ${styles.opnMenu2}` : `${styles.megaMenu2}`}>
                                     <div className={styles.backArrow}>
-                                        <Image alt="BitsWits"
+                                        <Image alt="bitswits"
                                             src={backarrow}
 
                                         />
@@ -800,7 +800,7 @@ const NewHeaderFy = () => {
                                                     <ul className='mb-0 mt-0'>
                                                         <div className={styles.listHeading}>
                                                             <div className={styles.megaIcon}>
-                                                                <Image alt="BitsWits" className='img-fluid'
+                                                                <Image alt="bitswits" className='img-fluid'
                                                                     src={about}
                                                                 />
                                                             </div>
@@ -828,7 +828,7 @@ const NewHeaderFy = () => {
 
                                                                 <div className={styles.listHeading}>
                                                                     <div className={styles.megaIcon}>
-                                                                        <Image alt="BitsWits" className='img-fluid'
+                                                                        <Image alt="bitswits" className='img-fluid'
                                                                             src={company}
                                                                         />
                                                                     </div>
@@ -882,7 +882,7 @@ const NewHeaderFy = () => {
                                         <Col lg={6}>
                                             <div className={styles.listMain}>
                                                 <div className={styles.listImg}>
-                                                    <Image alt="BitsWits" className='img-fluid'
+                                                    <Image alt="bitswits" className='img-fluid'
                                                         src={ourbg}
                                                     />
                                                 </div>
@@ -898,7 +898,7 @@ const NewHeaderFy = () => {
                                 </Link>
                                 <div className={megamenu4 ? `${styles.megaMenu4} ${styles.opnMenu4}` : `${styles.megaMenu4}`}>
                                     <div className={styles.backArrow}>
-                                        <Image alt="BitsWits"
+                                        <Image alt="bitswits"
                                             src={backarrow}
 
                                         />
@@ -907,7 +907,7 @@ const NewHeaderFy = () => {
                                         <Col lg={4}>
                                             <div className={styles.boxSpace}>
                                                 <div className={styles.workBox}>
-                                                    <Image alt="BitsWits"
+                                                    <Image alt="bitswits"
                                                         src={travel}
 
                                                     />
@@ -921,7 +921,7 @@ const NewHeaderFy = () => {
                                                     </div>
                                                 </div>
                                                 <div className={`${styles.workBox}`}>
-                                                    <Image alt="BitsWits"
+                                                    <Image alt="bitswits"
                                                         src={estate}
 
                                                     />
@@ -935,7 +935,7 @@ const NewHeaderFy = () => {
                                                     </div>
                                                 </div>
                                                 <div className={styles.workBox}>
-                                                    <Image alt="BitsWits"
+                                                    <Image alt="bitswits"
                                                         src={bactria}
 
                                                     />
@@ -953,7 +953,7 @@ const NewHeaderFy = () => {
                                         <Col lg={4}>
                                             <div className={styles.boxSpace}>
                                                 <div className={styles.workBox}>
-                                                    <Image alt="BitsWits"
+                                                    <Image alt="bitswits"
                                                         src={music}
 
                                                     />
@@ -967,7 +967,7 @@ const NewHeaderFy = () => {
                                                     </div>
                                                 </div>
                                                 <div className={`${styles.workBox}`}>
-                                                    <Image alt="BitsWits"
+                                                    <Image alt="bitswits"
                                                         src={health}
 
                                                     />
@@ -981,7 +981,7 @@ const NewHeaderFy = () => {
                                                     </div>
                                                 </div>
                                                 <div className={styles.workBox}>
-                                                    <Image alt="BitsWits"
+                                                    <Image alt="bitswits"
                                                         src={ride}
 
                                                     />
@@ -999,7 +999,7 @@ const NewHeaderFy = () => {
                                         <Col lg={4}>
                                             <div className={styles.boxSpace}>
                                                 <div className={styles.workBox}>
-                                                    <Image alt="BitsWits"
+                                                    <Image alt="bitswits"
                                                         src={foods}
 
                                                     />
@@ -1013,7 +1013,7 @@ const NewHeaderFy = () => {
                                                     </div>
                                                 </div>
                                                 <div className={`${styles.workBox} ${styles.gameApp}`}>
-                                                    <Image alt="BitsWits"
+                                                    <Image alt="bitswits"
                                                         src={games}
                                                     />
                                                     <div className={styles.ourWork}>
@@ -1032,8 +1032,8 @@ const NewHeaderFy = () => {
                                                                 <BsFillEnvelopeFill size={20} className={styles.email} />
                                                             </div>
                                                             <div>
-                                                                <Link className='font15 font-medium white fontf' href="mailto:info@BitsWits.co" onClick={handleMenu}>
-                                                                    info@BitsWits.com
+                                                                <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.co" onClick={handleMenu}>
+                                                                    info@bitswits.com
                                                                 </Link>
                                                             </div>
                                                         </div>
@@ -1071,7 +1071,7 @@ const NewHeaderFy = () => {
                             </Link>
                             <div className={megamenu1 ? `${styles.megaMenu1} ${styles.opnMenu1}` : `${styles.megaMenu1}`}>
                                 <div className={styles.backArrow}>
-                                    <Image alt="BitsWits"
+                                    <Image alt="bitswits"
                                         src={backarrow}
 
                                     />
@@ -1081,7 +1081,7 @@ const NewHeaderFy = () => {
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image alt="BitsWits" className='img-fluid'
+                                                    <Image alt="bitswits" className='img-fluid'
                                                         src={php}
                                                     />
                                                 </div>
@@ -1147,7 +1147,7 @@ const NewHeaderFy = () => {
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image alt="BitsWits" className='img-fluid'
+                                                    <Image alt="bitswits" className='img-fluid'
                                                         src={eCom}
                                                     />
                                                 </div>
@@ -1237,7 +1237,7 @@ const NewHeaderFy = () => {
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image alt="BitsWits" className='img-fluid'
+                                                    <Image alt="bitswits" className='img-fluid'
                                                         src={dotnet}
                                                     />
                                                 </div>
@@ -1281,7 +1281,7 @@ const NewHeaderFy = () => {
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image alt="BitsWits" className='img-fluid'
+                                                    <Image alt="bitswits" className='img-fluid'
                                                         src={crm}
                                                     />
                                                 </div>
@@ -1325,7 +1325,7 @@ const NewHeaderFy = () => {
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image alt="BitsWits" className='img-fluid'
+                                                    <Image alt="bitswits" className='img-fluid'
                                                         src={cms}
                                                     />
                                                 </div>
@@ -1387,7 +1387,7 @@ const NewHeaderFy = () => {
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image alt="BitsWits" className='img-fluid'
+                                                    <Image alt="bitswits" className='img-fluid'
                                                         src={fullStack}
                                                     />
                                                 </div>
@@ -1443,7 +1443,7 @@ const NewHeaderFy = () => {
                                         <div className={`${styles.listMain} ${styles.resList}`}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image alt="BitsWits" className='img-fluid'
+                                                    <Image alt="bitswits" className='img-fluid'
                                                         src={apps}
                                                     />
                                                 </div>
@@ -1481,7 +1481,7 @@ const NewHeaderFy = () => {
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image alt="BitsWits" className='img-fluid'
+                                                    <Image alt="bitswits" className='img-fluid'
                                                         src={games}
                                                     />
                                                 </div>
@@ -1549,7 +1549,7 @@ const NewHeaderFy = () => {
                                         <div className={styles.listMain}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image alt="BitsWits" className='img-fluid'
+                                                    <Image alt="bitswits" className='img-fluid'
                                                         src={marketing}
                                                     />
                                                 </div>
@@ -1575,7 +1575,7 @@ const NewHeaderFy = () => {
                                         <div className={`${styles.listMain} ${styles.resList}`}>
                                             <div className={styles.listHeading}>
                                                 <div className={styles.megaIcon}>
-                                                    <Image alt="BitsWits" className='img-fluid'
+                                                    <Image alt="bitswits" className='img-fluid'
                                                         src={more}
                                                     />
                                                 </div>
@@ -1633,8 +1633,8 @@ const NewHeaderFy = () => {
                                                 <BsFillEnvelopeFill size={20} className={styles.email} />
                                             </div>
                                             <div>
-                                                <Link className='font15 font-medium white fontf' href="mailto:info@BitsWits.co" onClick={handleMenu}>
-                                                    info@BitsWits.com
+                                                <Link className='font15 font-medium white fontf' href="mailto:info@bitswits.co" onClick={handleMenu}>
+                                                    info@bitswits.com
                                                 </Link>
                                             </div>
                                         </div>
@@ -1670,7 +1670,7 @@ const NewHeaderFy = () => {
                     </nav>
 
                     <Modal show={show} onHide={closemodal} className={styles.modalnew}>
-                        <Modal.Body> <BitsWitspopup formsaspire='popquote' /> <span onClick={closemodal} className={styles.cross}> <RxCross2 /> </span> </Modal.Body>
+                        <Modal.Body> <Bitswitspopup formsaspire='popquote' /> <span onClick={closemodal} className={styles.cross}> <RxCross2 /> </span> </Modal.Body>
 
 
                     </Modal>
