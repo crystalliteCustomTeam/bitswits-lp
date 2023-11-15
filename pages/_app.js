@@ -1,4 +1,5 @@
-import { useRouter } from "next/router";
+import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 import 'bootstrap/dist/css/bootstrap.css';
 import '@/styles/globals.css'
 //
@@ -11,11 +12,23 @@ import Footernewdesign from '@/components/Footernewdesign';
 import Headerlphome from '@/components/Headerlphome';
 import EcommerceBanner from '@/components/EcommerceBanner';
 import EcommerceFooter from '@/components/EcommerceFooter';
+import Loader from '@/components/Loader';
 
 
 export default function App({ Component, pageProps }) {
 
   const router = useRouter();
+  const [imagesLoaded, setImagesLoaded] = useState(false);
+
+  useEffect(() => {
+    const delay = 3000;
+
+    const timeoutId = setTimeout(() => {
+      setImagesLoaded(true);
+    }, delay);
+
+    return () => clearTimeout(timeoutId);
+  }, []);
 
   const mouse = router.pathname == '/'
     || router.pathname == '/about-us'
@@ -68,54 +81,42 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/supersale'
     || router.pathname == '/top-ecommerce-app-development-company'
 
-
   const newlps = router.pathname == '/mobile-app-development-company-lp'
     || router.pathname == '/mobile-app-development-company-lp2'
 
-    
   const newhomepage = router.pathname == '/supersale';
   const newecommercepage = router.pathname == '/top-ecommerce-app-development-company';
 
 
   return (
     <>
-
-      {newlps ?
+      {newlps ? (
         <Headerlp />
-        :
-        newhomepage ?
-          <Headerlphome />
-          :
-          newecommercepage ?
-            <EcommerceBanner />
-            :
-            <Header />
-      }
+      ) : newhomepage ? (
+        <Headerlphome />
+      ) : newecommercepage ? (
+        <EcommerceBanner />
+      ) : (
+        <Header />
+      )}
 
+      {mouse && <Cursor />}
 
-      {mouse &&
-        <Cursor />
-      }
+      {imagesLoaded ? (
+        <Component {...pageProps} />
+      ) : (
+        <Loader />
+      )}
 
-
-      <Component {...pageProps} />
-
-
-      {newlps ?
+      {newlps ? (
         <Footernewlp />
-        :
-        newhomepage ?
-
-          <Footernewdesign />
-
-          :
-          newecommercepage ?
-            <EcommerceFooter />
-
-            :
-            <Footernewfy />
-      }
-
+      ) : newhomepage ? (
+        <Footernewdesign />
+      ) : newecommercepage ? (
+        <EcommerceFooter />
+      ) : (
+        <Footernewfy />
+      )}
     </>
-  )
+  );
 }
