@@ -9,7 +9,7 @@ const ServiceGenre = (props) => {
 
     return (
         <>
-            <section className={styles.ourserve}>
+            <section className={`${styles.ourserve} ${styles[props.addClass]}`}>
                 <Container>
                     <Row className={styles.which}>
                         <Col xl={12}>

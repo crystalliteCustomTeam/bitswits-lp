@@ -121,6 +121,18 @@
   margin-top: -40px;
 }
 
+.gameApp .banImg {
+  padding-bottom: 30px;
+}
+
+.game2d .banImg {
+  padding-bottom: 50px;
+}
+
+.game3d .banImg {
+  margin-top: -60px;
+}
+
 /* =================== */
 
 .bannerform {

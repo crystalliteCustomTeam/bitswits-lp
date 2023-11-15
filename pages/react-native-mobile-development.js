@@ -130,6 +130,8 @@ export default function ReactNativeMobile() {
                 }
 appContent4={[]}
                 appContent5={[]}
+                appContent6={[]}
+                appContent7={[]}
             />
             <NewAddress />
             <Justbuildit />

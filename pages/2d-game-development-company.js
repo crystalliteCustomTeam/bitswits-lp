@@ -24,11 +24,11 @@ import Solution from '../public/newHomePageImages/ply2.png'
 import gameicon1 from "@/public/gameicon/ios2d.png"
 import gameicon2 from "@/public/gameicon/andriodgame.png"
 import gameicon3 from "@/public/gameicon/cons.png"
+import main from "@/public/shark/don.png"
 import engIcon1 from "@/public/shark/shark1.png"
 import engIcon2 from "@/public/shark/shrk12.png"
 import engIcon3 from "@/public/shark/shrk13.png"
 import engIcon4 from "@/public/shark/2322.png"
-import main from "@/public/shark/don.png"
 
 
 export default function gamedevelopmentcompany() {
@@ -47,9 +47,10 @@ export default function gamedevelopmentcompany() {
 
 
             <ServicesBanner
+                assignClass="game2d"
                 subtitle="Best In Animation, Graphics, & Design - Your Own"
                 title={<> 2D Game Development Company! </>}
-                text={<> From classic platformers to immersive RPGs, our 2D games will have your target market addicted in no time. We specialize in crafting highly detailed and interactive worlds, characters, and stories that will capture your imagination and keep your prospects hooked for hours on end. </>}
+                text={<> From classic platformers to immersive RPGs, our 2D games will have your target market addicted in no time. <br /> We specialize in crafting highly detailed and interactive worlds, characters, and stories that will capture <br /> your imagination and keep your prospects hooked for hours on end. </>}
                 BannerImage={BannerImage}
             />
 
@@ -123,6 +124,8 @@ export default function gamedevelopmentcompany() {
                 ]}
                 appContent4={[]}
                 appContent5={[]}
+                appContent6={[]}
+                appContent7={[]}
             />
             <NewAddress
                 addresClass="address2d"

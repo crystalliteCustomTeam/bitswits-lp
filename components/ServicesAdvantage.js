@@ -11,9 +11,10 @@ const ServicesAdvantage = (props) => {
                 <section className={styles.creative}>
                     <Container>
                         <Row className={styles.game}>
-                            <Col xl={12}>
+                            <Col lg={6}>
                                 <p className='text-white font16 font-bold mb-0'>{props.subTitle}</p>
-                                <h2 className='mb-5'>{props.title}</h2>
+                                <h2>{props.title}</h2>
+                                <h3 className='mb-5'>{props.text}</h3>
                             </Col>
                         </Row>
 

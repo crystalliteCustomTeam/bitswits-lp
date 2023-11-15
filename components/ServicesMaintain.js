@@ -84,6 +84,26 @@ const ServicesMaintain = (props) => {
                                 </div>
                             </Col>
                         ))}
+                        {props.appContent6.map((content, index) => (
+                            <Col key={index} sm={6} className={styles.earn}>
+                                <div className={styles[content.appclass]}>
+                                    <div className={styles.cardContent}>
+                                        <h3 className='text-white font25 font-bold text-center'>{content.title}</h3>
+                                        <p className={styles.possibilities}>{content.text}</p>
+                                    </div>
+                                </div>
+                            </Col>
+                        ))}
+                        {props.appContent7.map((content, index) => (
+                            <Col key={index} sm={6} className={styles.earn}>
+                                <div className={styles[content.appclass]}>
+                                    <div className={styles.cardContent}>
+                                        <h3 className='text-white font25 font-bold text-center'>{content.title}</h3>
+                                        <p className={styles.possibilities}>{content.text}</p>
+                                    </div>
+                                </div>
+                            </Col>
+                        ))}
                     </Row>
                 </Container>
             </section>

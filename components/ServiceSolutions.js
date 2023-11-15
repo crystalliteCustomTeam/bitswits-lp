@@ -19,7 +19,9 @@ const ServiceSolutions = (props) => {
                             <Link className={styles.about} href="#">LET's CONNECT</Link>
                         </Col>
                         <Col lg={6}>
-                            <Image quality={75} alt='BitsWits' src={props.Solution} className='img-fluid mt-5 mt-lg-0' />
+                            <div className={styles.solImg}>
+                                <Image quality={75} alt='BitsWits' src={props.Solution} className='img-fluid mt-5 mt-lg-0' />
+                            </div>
                         </Col>
                     </Row>
                 </Container>

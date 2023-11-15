@@ -91,6 +91,8 @@ export default function augmentedrealityappsdevelopment() {
                 }
 appContent4={[]}
                 appContent5={[]}
+                appContent6={[]}
+                appContent7={[]}
             />
             <NewAddress />
             <Justbuildit />

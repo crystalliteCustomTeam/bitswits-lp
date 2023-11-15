@@ -10,7 +10,7 @@ import home_btn1 from "@/public/shark/home_btn.webp"
 const ServiceTarget = (props) => {
     return (
         <>
-            <section className={styles.tesla}>
+            <section className={`${styles.tesla} ${styles[props.addClass]}`}>
                 <Container>
                     <Row className={styles.after}>
                         <Col xl={12}>
