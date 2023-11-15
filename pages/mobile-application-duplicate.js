@@ -9,7 +9,7 @@ import NewMblWhat from '@/components/NewMblWhat';
 const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
 import NewMblServices from '@/components/NewMblServices';
 import ServisesWhy from "@/components/ServisesWhy";
-import NewiosPortFolioduplicate from '@/components/NewiosPortFolioduplicate';
+import ServicesPortfolio from '@/components/ServicesPortfolio';
 import Capabilities from '@/components/Capabilities';
 import Newsuccess from '@/components/NewMblSuccess';
 import NewHomeGlobal from "@/components/NewHomeGlobal";
@@ -17,7 +17,7 @@ import ClientsThink2 from "@/components/ClientsThink2";
 import Homenextproject from "@/components/Homenextproject";
 import Technologieswe from "@/components/NewMblTechnologiesWe";
 import Nextproject2 from "@/components/Nextproject2";
-import NewMobileFaqs from '@/components/NewMobileFaqs';
+import ServicesFaqs from '@/components/ServicesFaqs';
 import Contact2 from "@/components/Contact2";
 //Icons 
 
@@ -138,45 +138,83 @@ export default function mobileApplication() {
           ]
         }
       />
-      <NewiosPortFolioduplicate />
+      <ServicesPortfolio
+        assignClass="lpFolio"
+        title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
+      />
       <Capabilities />
       <div className="status">
         <Newsuccess
           subtitle="Ready For Success?"
-                maintitle="Brace Yourself for What Happens Next"
-                successSteps={
-                    [
-                        {
-                            number: '01',
-                            title: 'Talk To Our Experts',
-                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
-                            buttonText: 'Connect Now!',
-                            link: '#',
-                        },
-                        {
-                            number: '02',
-                            title: 'Get A Quote',
-                            text: 'Get an exact cost breakdown structure of your app.',
-                            buttonText: 'Chat Now!',
-                            link: '#',
-                        },
-                        {
-                            number: '03',
-                            title: 'Build An MVP',
-                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
-                            buttonText: 'Call Now!',
-                            link: '#',
-                        },
-                    ]
-                }
-            />
+          maintitle="Brace Yourself for What Happens Next"
+          successSteps={
+            [
+              {
+                number: '01',
+                title: 'Talk To Our Experts',
+                text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                buttonText: 'Connect Now!',
+                link: '#',
+              },
+              {
+                number: '02',
+                title: 'Get A Quote',
+                text: 'Get an exact cost breakdown structure of your app.',
+                buttonText: 'Chat Now!',
+                link: '#',
+              },
+              {
+                number: '03',
+                title: 'Build An MVP',
+                text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                buttonText: 'Call Now!',
+                link: '#',
+              },
+            ]
+          }
+        />
       </div>
       <NewHomeGlobal />
       <ClientsThink2 />
       <Nextproject2 />
       <Technologieswe />
       <Homenextproject />
-      <NewMobileFaqs />
+      <ServicesFaqs
+        faqsData={
+          [
+            {
+              question: "What is mobile application development?",
+              answer:
+                (<> Mobile application development creates software applications that run on mobile devices and other connected devices, such as wearables, automotive systems, cameras, and more. It requires skill sets in design, development, testing, deployment, and maintenance to create innovative user experiences across multiple platforms. With that being said, businesses hire mobile app developers to stay ahead of the competition and deliver market-leading products to their customers. </>),
+            },
+            {
+              question: "Does BitsWits offer hybrid and native app development?",
+              answer:
+                (<> BitsWits has a team of the best mobile app developers expert in providing customized development solutions, whether Hybrid or Native mobile application development is required. Our developers always come up with creative and innovative app ideas that are best in your interest. </>),
+            },
+            {
+              question: "Why choose BitsWits as a mobile app development company?",
+              answer:
+                (<> BitsWits is a top mobile app development company due to its decent clientele, commitment to excellence, and innovative mobile app development solutions. We enjoy the top spot in the application development industry with affordable packages and professional services. </>),
+            },
+            {
+              question: "Is there any customer support available?",
+              answer:
+                (<> Yes, BitsWits offers 24/7 incredible customer support, even post-mobile apps development USA. We do not let our customers hang in the middle with any query that may bring trouble to them. </>),
+            },
+            {
+              question: "How to choose a mobile app development company?",
+              answer:
+                (<> Checking client portfolios, communicating your requirements clearly, and considering the development cost will help you choose the best mobile app development agency. BitsWits practices open communication so that the solution to your query is answered adequately to provide you with the utmost satisfaction. </>),
+            },
+            {
+              question: "What industries does BitsWits cater to?",
+              answer:
+                (<> At BitsWits, we specialize in developing innovative and efficient mobile applications for various industries across the United States. We offer customized mobile solutions from e-commerce to healthcare and gaming to meet each client's specific requirements and business. We are a mobile application development company dedicated to creating apps that cater to each client's unique needs. </>),
+            },
+          ]
+        }
+      />
       <Contact2 />
     </>
   );

@@ -8,6 +8,11 @@
   background-size: cover;
 }
 
+.game3d{
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+
 .success {
   font-size: 100px;
   font-weight: bold;

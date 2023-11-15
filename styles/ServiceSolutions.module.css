@@ -4,6 +4,10 @@
   padding-bottom: 250px;
 }
 
+.game2d{
+  padding: 100px 0 150px;
+}
+
 .para {
   color: white;
   font-size: 20px;
@@ -31,10 +35,21 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 991px) {
   .home {
-    background: #000;
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .home {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .home h2 {
+    font-size: 30px;
+    line-height: 40px;
   }
 }

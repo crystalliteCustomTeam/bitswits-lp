@@ -1679,6 +1679,19 @@ input::-webkit-inner-spin-button {
   margin-bottom: 10%;
 }
 
+.qtechcap .prohome1 .slick-prev,
+.qtechcap .prohome1 .slick-next {
+  top: 60%;
+}
+
+.qtechcap .prohome1 .slick-next {
+  right: -70px;
+}
+
+.qtechcap .prohome1 .slick-prev {
+  left: -80px;
+}
+
 #lottie-container {
   position: relative;
   bottom: 70px;
@@ -3078,19 +3091,36 @@ button {
     padding-top: 80px;
   }
 
+  .status2 {
+    padding-top: 0px;
+  }
+
   /* .status {
     padding-top: 150px;
     background-color: black;
-  }
-  
-  .status2 {
-    padding-top: 100px;
-    background-color: black;
-  } */
-  
+  }*/
+
   /* .status3 {
     padding-bottom: 50px;
   } */
+
+  .qtechcap .prohome1 .slick-dots {
+    visibility: hidden;
+  }
+
+  .qtechcap .prohome1 .slick-prev,
+  .qtechcap .prohome1 .slick-next {
+    top: 15%;
+  }
+
+  .qtechcap .prohome1 .slick-next {
+    right: 50px;
+  }
+
+  .qtechcap .prohome1 .slick-prev {
+    left: 40px;
+    z-index: 10;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3262,6 +3292,11 @@ button {
   .f55 {
     font-size: 45px;
   }
+
+  .qtechcap .prohome1 .slick-prev,
+  .qtechcap .prohome1 .slick-next {
+    top: 10%;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -3272,6 +3307,7 @@ button {
 
   .font50 {
     font-size: 30px;
+    line-height: 40px;
   }
 
   .font40 {

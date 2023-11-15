@@ -4,6 +4,10 @@
   padding-top: 50px;
 }
 
+.lpFolio {
+  padding-bottom: 150px;
+}
+
 .poliBox {
   background-repeat: no-repeat;
   background-position: center;
@@ -105,9 +109,5 @@
     background-color: #000;
     padding-bottom: 50px;
     padding-top: 50px;
-  }
-
-  .polioTxt {
-    bottom: 15%;
   }
 }

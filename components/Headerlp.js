@@ -698,7 +698,7 @@ const Header = () => {
                         </li>
 
                         <li className={`${styles.navList} ${styles.inqBtn}`} >
-                            <Link href='tel:+18335006007' className={styles.befLink}> <Image src={call} className='img-fluid' /> +1 833 500 6007</Link>
+                            <Link href='tel:+18335006007' className={styles.befLink}> <Image src={call} alt='BitsWits' className='img-fluid' /> +1 833 500 6007</Link>
                         </li>
                         <li>
                             <div className={styles.mbInq}>

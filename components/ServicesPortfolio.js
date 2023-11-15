@@ -21,7 +21,8 @@ import folio13 from "@/public/newMobilePageImages/portfolio/folio13.png";
 
 const ServicesPortfolio = (props) => {
     const [showAll, setShowAll] = useState(false);
-    const isMobile = useMediaQuery({ maxWidth: 991 });
+    const isTab = useMediaQuery({ maxWidth: 991 });
+    const isMobile = useMediaQuery({ maxWidth: 767 });
 
     const portfolioItems = [
         { id: 1, image: folio1, link: '/travel-app-development-case-study' },
@@ -39,7 +40,7 @@ const ServicesPortfolio = (props) => {
         { id: 13, image: folio13, link: '/music-app-development-case-study' },
     ];
 
-    const visibleItems = showAll ? portfolioItems : portfolioItems.slice(0, isMobile ? 4 : 6);
+    const visibleItems = showAll ? portfolioItems : portfolioItems.slice(0, isMobile ? 2 : isTab ? 4 : 6);
 
     const toggleShowAll = () => {
         setShowAll(!showAll);
@@ -47,14 +48,14 @@ const ServicesPortfolio = (props) => {
 
     return (
         <>
-            <section className={styles.newHomeBg}>
+            <section className={`${styles.newHomeBg} ${styles[props.assignClass]}`}>
                 <Container>
                     <Row className="g-3">
                         <Col lg={12}>
                             <h1 className="text-white f-55 font-bold text-center pb-4">{props.title}</h1>
                         </Col>
                         {visibleItems.map((item) => (
-                            <Col lg={4} key={item.id} className='col-6'>
+                            <Col lg={4} md={6} key={item.id}>
                                 <div className={`${styles.poliBox} ${styles[`poliBox${item.id}`]}`}>
                                     <Image quality={75} src={item.image} alt="BitsWits" className={`img-fluid`} />
                                     <div className={styles.polioTxt}>

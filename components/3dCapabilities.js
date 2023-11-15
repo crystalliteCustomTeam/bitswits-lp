@@ -22,14 +22,13 @@ const Capabilities3d = () => {
 
     var awardslogo = {
         dots: true,
-        arrows: false,
+        arrows: true,
         loop: true,
         autoplay: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-
     };
 
 

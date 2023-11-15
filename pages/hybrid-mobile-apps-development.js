@@ -78,6 +78,8 @@ export default function HybridMobile() {
                     ]
                 }
                 appContent3={[]}
+appContent4={[]}
+                appContent5={[]}
             />
             <NewAddress />
             <Justbuildit />
@@ -120,7 +122,7 @@ export default function HybridMobile() {
                         {
                             number: '03',
                             title: 'Build An MVP',
-                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                            text: 'Start your app development journey with no-obligation consultation via email and phone.',
                             buttonText: 'Call Now!',
                             link: '#',
                         },

@@ -105,7 +105,7 @@ const FireUp = (props) => {
                         <h3 className='f40 fw700 text-white mb-4 mt-4'>USA</h3>
                         <div className='mb-4'>
                         <h4 className='fw500 f24 text-white'>MALAYSIA</h4>
-                        <p className='text-white'>Unit Level 13 A, Financial Park, Labuan, Jalan Merdeka, 87000, Malaysia.</p>
+                        <p className='text-white'>Office 13 A - Main Office Tower - Financial Park , Labuan , Malaysia.</p>
                         <p className='mt-4'> <Link  className='text-white' href="tel:+18335006007">+1 833 500 6007</Link></p>
                         <p><Link  className='text-white' href="+113123795987">+1 312 379 5987</Link></p>
                         </div>

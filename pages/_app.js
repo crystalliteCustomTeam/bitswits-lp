@@ -19,7 +19,6 @@ export default function App({ Component, pageProps }) {
 
   const mouse = router.pathname == '/'
     || router.pathname == '/about-us'
-    || router.pathname == '/contact-us'
     || router.pathname == '/our-work'
     || router.pathname == '/privacy-policy'
     || router.pathname == '/term-and-condition'

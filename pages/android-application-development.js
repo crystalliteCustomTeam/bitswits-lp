@@ -102,6 +102,8 @@ export default function gamedevelopmentcompany() {
                         },
                     ]
                 }
+                appContent4={[]}
+                appContent5={[]}
             />
             <NewAddress />
             <Justbuildit />
@@ -157,13 +159,13 @@ export default function gamedevelopmentcompany() {
                     ]
                 }
             />
-            <ServicesPortfolio 
+            <ServicesPortfolio
                 title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
             />
             <Capabilities />
             <Newsuccess
                 assignClass="spacing"
-subtitle="Ready For Success?"
+                subtitle="Ready For Success?"
                 maintitle="Brace Yourself for What Happens Next"
                 successSteps={
                     [
@@ -184,7 +186,7 @@ subtitle="Ready For Success?"
                         {
                             number: '03',
                             title: 'Build An MVP',
-                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                            text: 'Start your app development journey with no-obligation consultation via email and phone.',
                             buttonText: 'Call Now!',
                             link: '#',
                         },

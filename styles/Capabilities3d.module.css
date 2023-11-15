@@ -609,11 +609,15 @@
   .about {
     width: 300px;
   }
+
+  .home {
+    padding-top: 80px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .high {
-    margin-top: 3%;
+    margin-top: 15%;
   }
 
   .home {

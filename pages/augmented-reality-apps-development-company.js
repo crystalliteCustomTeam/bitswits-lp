@@ -89,6 +89,8 @@ export default function augmentedrealityappsdevelopment() {
                         },
                     ]
                 }
+appContent4={[]}
+                appContent5={[]}
             />
             <NewAddress />
             <Justbuildit />
@@ -130,7 +132,7 @@ export default function augmentedrealityappsdevelopment() {
                         },
                         {
                             number: '03',
-                            title: 'Kickstart with an MVP',
+                            title: 'Build An MVP',
                             text: 'Start your app development journey with no-obligation consultation via email and phone.',
                             buttonText: 'Call Now!',
                             link: '#',

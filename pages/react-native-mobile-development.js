@@ -128,6 +128,8 @@ export default function ReactNativeMobile() {
                         },
                     ]
                 }
+appContent4={[]}
+                appContent5={[]}
             />
             <NewAddress />
             <Justbuildit />
@@ -210,7 +212,7 @@ subtitle="Ready For Success?"
                         {
                             number: '03',
                             title: 'Build An MVP',
-                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                            text: 'Start your app development journey with no-obligation consultation via email and phone.',
                             buttonText: 'Call Now!',
                             link: '#',
                         },

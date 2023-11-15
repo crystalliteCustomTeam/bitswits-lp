@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import React from 'react';
-import dynamic from 'next/dynamic';
 import Technologieslp from '@/components/Technologieslp';
 import NewFaqslp from '@/components/NewFaqslp';
 import HomeLocationlp from '@/components/HomeLocationlp';
@@ -108,7 +107,7 @@ export default function gamedevelopmentcompany() {
             <Globallp />
             <Formnewlp />
             <NewFaqslp />
-           
+
             <HomeLocationlp />
 
 

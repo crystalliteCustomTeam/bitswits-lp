@@ -10,7 +10,7 @@ const ServicesMaintain = (props) => {
                 <Container>
                     <Row className='g-3'>
                         <Col lg={10} className='mx-auto'>
-                            <h3 className={` f-20 font-bold text-white text-center mb-0`}>{props.subtitle}</h3>
+                            <h3 className={`f-20 font-bold text-white text-center mb-0`}>{props.subtitle}</h3>
                             <h2 className='text-white font50 font-bold text-center'>
                                 {props.title0}
                                 <span className='grdiant font55 font-bold text-center d-block mb-2'>{props.title}</span>
@@ -56,6 +56,26 @@ const ServicesMaintain = (props) => {
                         ))}
                         {props.appContent3.map((content, index) => (
                             <Col key={index} sm={6} className={styles.earn}>
+                                <div className={styles[content.appclass]}>
+                                    <div className={styles.cardContent}>
+                                        <h3 className='text-white font25 font-bold text-center'>{content.title}</h3>
+                                        <p className={styles.possibilities}>{content.text}</p>
+                                    </div>
+                                </div>
+                            </Col>
+                        ))}
+                        {props.appContent4.map((content, index) => (
+                            <Col key={index} md={8} sm={6} className={styles.earn}>
+                                <div className={styles[content.appclass]}>
+                                    <div className={styles.cardContent}>
+                                        <h3 className='text-white font25 font-bold text-center'>{content.title}</h3>
+                                        <p className={styles.possibilities}>{content.text}</p>
+                                    </div>
+                                </div>
+                            </Col>
+                        ))}
+                        {props.appContent5.map((content, index) => (
+                            <Col key={index} md={4} sm={6} className={styles.earn}>
                                 <div className={styles[content.appclass]}>
                                     <div className={styles.cardContent}>
                                         <h3 className='text-white font25 font-bold text-center'>{content.title}</h3>

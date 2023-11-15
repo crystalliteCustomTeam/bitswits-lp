@@ -72,7 +72,7 @@ const ContactBox = () => {
                                                 <h2 className="font30 font-bold white mb-3 text-center">Asia</h2>
                                                 <h3 className="font16 font-bold white mb-0 text-center">MALAYSIA</h3>
                                                 <p className="font13 font-medium white text-center">
-                                                    Unit Level 13 A, Financial Park, Labuan, Jalan Merdeka, 87000, Malaysia
+                                                    Office 13 A - Main Office Tower - Financial Park , Labuan , Malaysia
                                                 </p>
 
                                                 <h3 className="font16 font-bold white mb-0 text-center">PAKISTAN</h3>

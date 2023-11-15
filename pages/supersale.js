@@ -47,7 +47,6 @@ export default function Home() {
             <Thrthy />
             <Everyone />
             <Testimonailslider />
-            {/* <Supersaleslider /> */}
             <Newfaqshome />
             <Startaproject />
             <Formnewlpnewhome />

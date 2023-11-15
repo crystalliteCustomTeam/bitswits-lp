@@ -9,12 +9,16 @@
   background-size: cover;
   background-position: 700px center;
   background-color: black;
-  padding-top: 200px;
+  padding-top: 150px;
   padding-bottom: 200px;
 }
 
+.tech h3 {
+  font-size: 20px;
+}
+
 .work {
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   color: white;
   font-weight: bold;
@@ -58,9 +62,9 @@
 .newyork {
   display: flex;
   justify-content: center;
-  width: 75%;
+  width: 95%;
   flex-wrap: wrap;
-  gap: 30px 70px;
+  gap: 40px 70px;
   align-content: center;
   align-items: center;
   margin: 0 auto;
@@ -97,13 +101,29 @@
   .active::before {
     bottom: -67%;
   }
+
+  .tech {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .work {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .tech {
     background-color: black;
     padding-bottom: 50px;
-    padding-top: 0;
+  }
+
+  .work {
+    font-size: 26px;
+  }
+
+  .tech h3 {
+    font-size: 16px;
   }
 
   .analpost div {
@@ -121,13 +141,6 @@
     align-content: center;
     align-items: center;
     margin: 0 auto;
-  }
-
-  .work {
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
   }
 }
 

@@ -96,6 +96,8 @@ export default function gamedevelopmentcompany() {
                         },
                     ]
                 }
+appContent4={[]}
+                appContent5={[]}
             />
             <NewAddress />
             <Justbuildit />
@@ -137,7 +139,7 @@ export default function gamedevelopmentcompany() {
                         },
                         {
                             number: '03',
-                            title: 'Kickstart with an MVP',
+                            title: 'Build An MVP',
                             text: 'Start your app development journey with no-obligation consultation via email and phone.',
                             buttonText: 'Call Now!',
                             link: '#',

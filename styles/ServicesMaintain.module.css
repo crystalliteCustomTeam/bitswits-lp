@@ -40,6 +40,7 @@
 .app {
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 4px;
   padding-bottom: 20px;
   height: 531px;
@@ -48,6 +49,7 @@
 .app1 {
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 4px;
   padding-bottom: 20px;
   height: 531px;
@@ -56,6 +58,7 @@
 .app2 {
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 4px;
   padding-bottom: 20px;
   height: 531px;
@@ -118,6 +121,48 @@
   padding-bottom: 50px;
   height: 531px;
 }
+
+.app03 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0px 10px 30px 40px;
+  height: 531px;
+}
+
+.app03 h3,
+.app03 p {
+  text-align: left !important;
+  max-width: 100%;
+}
+
+.app04 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
+.app04 p {
+  height: 57px;
+  overflow: auto;
+  text-align: left;
+}
+
+.app04 .cardContent {
+  width: 100%;
+  padding: 0 40px;
+}
+
+/* ============================== */
 
 .app6 {
   background-position: center;
@@ -446,11 +491,84 @@
     url(../public/images/aipost/5.png);
 }
 
-/* =======================android====================== */
-/* =======================android====================== */
-/* =======================android====================== */
-/* =======================android====================== */
-/* =======================android====================== */
+/* =======================GameApp====================== */
+
+/* =======================Game2d====================== */
+
+.game2d {
+  padding-top: 0px;
+}
+
+.game2d .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePageImages/gamed.png);
+}
+
+.game2d .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePageImages/game3d.png);
+}
+
+.game2d .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePageImages/game4d.png);
+}
+
+.game2d .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePageImages/gameapp4.png);
+}
+
+.game2d .app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePageImages/gamme.png);
+}
+
+.game2d .app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePageImages/gum.png);
+}
+
+/* =======================Game3d====================== */
+
+.game3d {
+  padding-top: 180px;
+}
+
+.game3d .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/3d-game-development/images/maintain1.png);
+}
+
+.game3d .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/3d-game-development/images/maintain2.png);
+}
+
+.game3d .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/3d-game-development/images/maintain3.png);
+}
+
+.game3d .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/3d-game-development/images/maintain4.png);
+}
+
+.game3d .app03 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/3d-game-development/images/maintain5.png);
+}
+
+.game3d .app04 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/3d-game-development/images/maintain6.png);
+}
+
+/* =======================NFTGame====================== */
+/* =======================BlockChain====================== */
+
+/* ========================================================= */
 
 .app,
 .app1,
@@ -706,6 +824,10 @@
     max-width: unset;
   }
 
+  .game3d {
+    padding-top: 80px;
+  }
+
   .app1,
   .app,
   .app2,
@@ -742,6 +864,36 @@
     padding-top: 50px;
     padding-bottom: 0px;
     height: 428px;
+  }
+
+  .app03 {
+    padding: 0px 50px;
+    height: 285px;
+    background-size: contain;
+  }
+
+  .app04 {
+    height: 285px;
+    padding: 0;
+    background-size: contain;
+  }
+
+  .app03 p,
+  .app03 h3 {
+    text-align: center !important;
+  }
+
+  .app04 .cardContent {
+    padding: 0 20px;
+  }
+
+  .app04 p {
+    text-align: center;
+    font-size: 12px;
+  }
+  .app04 h3 {
+    text-align: center;
+    font-size: 18px !important;
   }
 
   .app2 {
@@ -860,6 +1012,27 @@
 
   .power {
     padding-left: 0%;
+  }
+
+  .app03 {
+    padding: 0px 10px;
+    height: 227px;
+    background-size: contain;
+  }
+
+  .app04 {
+    height: 460px;
+    background-size: contain;
+  }
+
+  .app04 p {
+    text-align: center;
+    font-size: 14px;
+    height: auto;
+  }
+  .app04 h3 {
+    text-align: center;
+    font-size: 25px !important;
   }
 }
 

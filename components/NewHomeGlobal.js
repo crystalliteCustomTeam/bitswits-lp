@@ -20,7 +20,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const NewHomeGlobal = () => {
+const NewHomeGlobal = (props) => {
 
     let lctonSlider = {
         dots: true,
@@ -35,7 +35,7 @@ const NewHomeGlobal = () => {
 
     return (
         <>
-            <section className={styles.team}>
+            <section className={`${styles.team} ${styles[props.assignClass]}`}>
                 <Container>
                     <Row>
                         <Col xl={9}>

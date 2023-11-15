@@ -37,8 +37,8 @@ export default function gamedevelopmentcompany() {
 
 
             <Bannerlp2
-            newHomeBgprops = 'newHomeBg'
-            
+                newHomeBgprops='newHomeBg'
+
             />
 
             <Formlp2 />
@@ -61,7 +61,7 @@ export default function gamedevelopmentcompany() {
 
             <Globallp />
 
-            
+
 
             <Startups
                 startups='startups'

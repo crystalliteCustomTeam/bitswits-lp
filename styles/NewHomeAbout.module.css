@@ -645,6 +645,10 @@
   padding-top: 100px;
 }
 
+.game3d {
+  padding-top: 50px;
+}
+
 @media screen and (max-width: 1900px) {
   .james::after {
     position: absolute;

@@ -107,7 +107,7 @@ const HomeLocationlp = () => {
                                                             Labuan
                                                         </p>
                                                         <p className="f-14 f-500 f-montserrat white mb-0">
-                                                            13 f-500A Main Office Tower Financial Park, Labuan
+                                                            Office 13 A - Main Office Tower - Financial Park , Labuan , Malaysia
                                                         </p>
                                                     </div>
                                                 </div>
@@ -181,7 +181,7 @@ const HomeLocationlp = () => {
                                                                 Labuan
                                                             </p>
                                                             <p className="f-14 f-500 f-montserrat white mb-0">
-                                                                13 f-500A Main Office Tower Financial Park, Labuan
+                                                                Office 13 A - Main Office Tower - Financial Park , Labuan , Malaysia
                                                             </p>
                                                         </div>
                                                     </div>

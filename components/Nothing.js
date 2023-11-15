@@ -82,7 +82,7 @@ export default function Nothing(props) {
                                         <h4 className='white font20 mb-1'>Andrew Drake</h4>
                                         <p className='white font12'>FOUNDER / CEO MARK PLACE</p>
                                     </div>
-                                  
+
                                 </Slider>
                                 <div className='mt-5'>
                                     <Link href="#" className={styles.btnpost}>Begin Your Success Story : Connect Now</Link>

@@ -76,12 +76,12 @@ const Technologieswe = () => {
                         <Col xl={12} className='mb-5 d-block d-lg-none'>
                             <div className={styles.analpost}>
                                 <select onChange={(e) => setActiveTab1(e.target.value)}>
-                                    <option className={styles.selOpt} value="tab1">Mobile</option>
-                                    <option className={styles.selOpt} value="tab2">Front-End</option>
-                                    <option className={styles.selOpt} value="tab3">Database</option>
-                                    <option className={styles.selOpt} value="tab4">Back-End</option>
-                                    <option className={styles.selOpt} value="tab5">CMS</option>
-                                    <option className={styles.selOpt} value="tab6">Infra and DevOps</option>
+                                    <option className={styles.selOpt} value="tab1" label='Mobile'>Mobile</option>
+                                    <option className={styles.selOpt} value="tab2" label='Front-End'>Front-End</option>
+                                    <option className={styles.selOpt} value="tab3" label='Database'>Database</option>
+                                    <option className={styles.selOpt} value="tab4" label='Back-End'>Back-End</option>
+                                    <option className={styles.selOpt} value="tab5" label='CMS'>CMS</option>
+                                    <option className={styles.selOpt} value="tab6" label='Infra and DevOps'>Infra and DevOps</option>
                                 </select>
                             </div>
                         </Col>

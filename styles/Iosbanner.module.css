@@ -293,7 +293,6 @@
 
 .address2d {
   padding-bottom: 0px;
-  padding-top: 150px;
 }
 
 .appios {
@@ -352,7 +351,7 @@
 
   .read {
     padding-left: 0px;
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
   .read .free {
@@ -364,11 +363,7 @@
   }
 
   .locations {
-    padding: 0 20px;
-  }
-
-  .locations .locInner {
-    justify-content: center;
+    padding: 0px;
   }
 
   .appios {

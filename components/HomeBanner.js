@@ -19,7 +19,7 @@ const HomeBanner = () => {
                         <Col xl={12}>
                             <div className={styles.content}>
                                 <p className={`${styles.just} text-center font-bold f-20 mb-lg-0`}>Top Mobile App Development Company</p>
-                                <h1 className={`${styles.develop} text-center f-60 font-bold`}>Empowering Brands with Big Dreams and Innovative Visions</h1>
+                                <h1 className={`${styles.develop} text-center font55 font-bold`}>Empowering Brands with Big Dreams and Innovative Visions</h1>
                                 <div className={styles.pont}>
                                     <Link className={styles.about} href="tel:+18335006007">LET'S CONNECT</Link>
                                 </div>
