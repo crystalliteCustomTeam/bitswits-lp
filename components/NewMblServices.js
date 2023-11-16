@@ -1,13 +1,6 @@
 import React from 'react'
-import Image from 'next/image';
-import Link from 'next/link';
-import styles from "@/styles/NewMblMaintain.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
-//
-import { useEffect, useRef } from "react";
-import lottie from 'lottie-web';
-//
- 
+import styles from "@/styles/NewMblMaintain.module.css";
 
 
 const NewMblServices = () => {
