@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && purgecss --config purgecss.config.js --out ./out",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
@@ -17,24 +18,22 @@
     "googleapis": "^126.0.1",
     "jquery": "^3.7.1",
     "locomotive-scroll": "^5.0.0-beta.8",
-    "lottie-web": "^5.12.2",
-    "mdb-react-ui-kit": "^6.3.0",
-    "mdb-ui-kit": "^6.4.2",
     "next": "^13.5.4",
     "nodemailer": "^6.9.4",
     "react": "18.2.0",
-    "react-bodymovin": "^2.0.0",
     "react-bootstrap": "^2.7.4",
     "react-countup": "^6.4.2",
     "react-dom": "18.2.0",
     "react-icons": "^4.9.0",
     "react-responsive": "^9.0.2",
     "react-slick": "^0.29.0",
-    "react-tooltip": "^5.13.2",
     "slick-carousel": "^1.8.1",
-    "swiper": "^11.0.3"
+    "swiper": "^11.0.3",
+    "terser-webpack-plugin": "^5.3.9"
   },
   "devDependencies": {
-    "@types/jquery": "^3.5.25"
+    "@types/jquery": "^3.5.25",
+    "purgecss": "^5.0.0",
+    "purgecss-from-html": "^6.0.0-alpha.0"
   }
 }
