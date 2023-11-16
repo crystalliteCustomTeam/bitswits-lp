@@ -1,24 +1,15 @@
 import React from 'react'
-import Link from 'next/link'
 import Image from 'next/image';
-import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/Loader.module.css";
+//
+import loader from '../public/images/icons/loader.png';
 
 
 const Loader = () => {
     return (
         <>
-
             <section className={styles.loader}>
-                <Container>
-                    <Row>
-                        <Col xl={12}>
-                            <div>
-                                <p>Loading...</p>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
+                <Image quality={70} src={loader} width={250} height={250} alt="BitsWits" className="img-fluid" loading='lazy' />
             </section>
         </>
     )

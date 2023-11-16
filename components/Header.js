@@ -1,12 +1,15 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '@/styles/Header.module.css'
+import { useRouter } from 'next/router';
+import Modal from 'react-bootstrap/Modal';
 import { Row, Col } from 'react-bootstrap'
+import styles from '@/styles/Header.module.css'
+//
+import { RxCross2 } from 'react-icons/rx'
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
 import { BsFillEnvelopeFill } from 'react-icons/bs'
 import { BsFillTelephoneFill } from 'react-icons/bs'
-import { useRouter } from 'next/router';
 // images
 import logo from '../public/images/icons/footerlogo.png'
 import mbllogo from '../public/images/icons/footerlogo.png'
@@ -31,15 +34,12 @@ import homeconnect from '../public/images/icons/homeconnect.png'
 import ready from '../public/images/icons/ready.png'
 import scribe from '../public/images/icons/scribe.png'
 import sponsord from '../public/images/icons/sponsord.png'
-//
-import Modal from 'react-bootstrap/Modal';
-import Bitswitspopup from '../components/Bitswitspopup'
-import { RxCross2 } from 'react-icons/rx'
 import newImg from '../public/images/1.jpg'
+//
+import Bitswitspopup from '../components/Bitswitspopup'
 
 
 const Header = () => {
-
 
     const [show, setShow] = useState(false);
 
@@ -752,10 +752,7 @@ const Header = () => {
 
                 <Modal show={show} onHide={closemodal} className={styles.modalnew}>
                     <Modal.Body> <Bitswitspopup formsaspire='popquote' /> <span onClick={closemodal} className={styles.cross}> <RxCross2 /> </span> </Modal.Body>
-
-
                 </Modal>
-
 
             </header>
         </>

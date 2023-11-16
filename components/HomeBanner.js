@@ -1,5 +1,7 @@
 import React from 'react'
+import { useEffect } from 'react';
 import Link from 'next/link'
+import Image from 'next/image';
 import styles from "@/styles/HomeBanner.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
 //
@@ -28,6 +30,7 @@ const HomeBanner = () => {
                     </Row>
 
                 </Container>
+
             </section>
 
             <HomeBannerSlider />

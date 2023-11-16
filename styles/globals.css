@@ -1268,6 +1268,25 @@ input::-webkit-inner-spin-button {
   outline: 0;
   border-radius: unset !important;
   width: 570px !important;
+  margin-top: 150px;
+}
+
+.thanksgiving .modal-content {
+  background: #000 url(/images/thanksGiving/thnksBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  margin-top: 5%;
+  width: 100% !important;
+  border-image: linear-gradient(0deg, #f32f5e, #4a78ef) 30;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px !important;
+}
+
+.thanksgiving .modal-dialog {
+  max-width: 90%;
 }
 
 .proisting .form-check-input[type="radio"] {

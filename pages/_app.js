@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
+import Modal from 'react-bootstrap/Modal';
 import 'bootstrap/dist/css/bootstrap.css';
 import '@/styles/globals.css'
+//
+import styles from '@/styles/Header.module.css'
 //
 import Header from '@/components/Header';
 import Headerlp from '@/components/Headerlp';
@@ -13,23 +16,31 @@ import Headerlphome from '@/components/Headerlphome';
 import EcommerceBanner from '@/components/EcommerceBanner';
 import EcommerceFooter from '@/components/EcommerceFooter';
 import Loader from '@/components/Loader';
+import ThanksGiving from '@/components/ThanksGiving';
 
 
 export default function App({ Component, pageProps }) {
 
   const router = useRouter();
-  const [imagesLoaded, setImagesLoaded] = useState(false);
 
+  // =======================================
+  const [imagesLoaded, setImagesLoaded] = useState(false);
   useEffect(() => {
     const delay = 5000;
-
     const timeoutId = setTimeout(() => {
       setImagesLoaded(true);
     }, delay);
-
     return () => clearTimeout(timeoutId);
   }, []);
-
+  // =======================================
+  const [show, setShow] = useState('');
+  function modal() {
+    setShow(true);
+  }
+  function closemodal() {
+    setShow(false);
+  }
+  // =======================================
   const mouse = router.pathname == '/'
     || router.pathname == '/about-us'
     || router.pathname == '/our-work'
@@ -80,25 +91,32 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/mobile-developer'
     || router.pathname == '/supersale'
     || router.pathname == '/top-ecommerce-app-development-company'
-
+  // =======================================
   const newlps = router.pathname == '/mobile-app-development-company-lp'
     || router.pathname == '/mobile-app-development-company-lp2'
-
+  // =======================================
   const newhomepage = router.pathname == '/supersale';
+  // =======================================
   const newecommercepage = router.pathname == '/top-ecommerce-app-development-company';
+  // =======================================
+  const thanks = router.pathname == '/thanks-giving'
+  // =======================================
 
 
   return (
     <>
-      {newlps ? (
-        <Headerlp />
-      ) : newhomepage ? (
-        <Headerlphome />
-      ) : newecommercepage ? (
-        <EcommerceBanner />
-      ) : (
-        <Header />
-      )}
+
+      <div onLoad={modal}>
+        {newlps ? (
+          <Headerlp />
+        ) : newhomepage ? (
+          <Headerlphome />
+        ) : newecommercepage ? (
+          <EcommerceBanner />
+        ) : (
+          <Header />
+        )}
+      </div>
 
       {mouse && <Cursor />}
 
@@ -117,6 +135,18 @@ export default function App({ Component, pageProps }) {
       ) : (
         <Footernewfy />
       )}
+
+      {thanks ?
+        <Modal show={show} centered onHide={closemodal} onLoad={modal} className='thanksgiving'>
+          <Modal.Body>
+            <ThanksGiving /> <span onClick={closemodal} className={styles.cross}>x</span>
+          </Modal.Body>
+        </Modal>
+        :
+
+        ''
+      }
+
     </>
   );
 }

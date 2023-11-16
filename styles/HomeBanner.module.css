@@ -63,6 +63,9 @@
   margin-top: -150px;
 }
 
+
+/* ======================================== */
+
 @media screen and (max-width: 1600px) {
   .newHomeBg {
     height: 97vh;
@@ -84,7 +87,7 @@
     line-height: 55px;
   }
 
-  .strpImg{
+  .strpImg {
     width: 50px;
   }
 }
