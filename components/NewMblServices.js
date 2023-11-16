@@ -7,14 +7,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { useEffect, useRef } from "react";
 import lottie from 'lottie-web';
 //
-import mobileapp from '../public/mobileapp.json';
-import game from '../public/game.json';
-import blockchain from '../public/blockchain.json';
-import ai from '../public/artificial.json';
-import web from '../public/webapp.json';
-import uiux from '../public/uiuxapp.json';
-import arvrapp from '../public/arvr.json';
-import internetapp from '../public/internetofthings.json';
+ 
 
 
 const NewMblServices = () => {
