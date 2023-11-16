@@ -7,6 +7,14 @@
   background-size: inherit;
 }
 
+.gameBlckChain {
+  background: #000;
+  background-image: url(../public/blockchaindevelopment/images/blockchainbanner-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .just {
   color: white;
 }
@@ -131,6 +139,14 @@
 
 .game3d .banImg {
   margin-top: -60px;
+}
+
+.gameNft .banImg {
+  margin-top: -60px;
+}
+
+.gameBlckChain .banImg {
+  padding-bottom: 10px;
 }
 
 /* =================== */

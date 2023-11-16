@@ -163,6 +163,33 @@
   padding: 0 40px;
 }
 
+.app05 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
+.app06 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
+.app07 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
 /* ============================== */
 
 .app6 {
@@ -611,7 +638,116 @@
 }
 
 /* =======================NFTGame====================== */
-/* =======================BlockChain====================== */
+
+.gameNft {
+  padding-top: 0px;
+}
+
+.gameNft .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePageImages/appnft.png);
+}
+
+.gameNft .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePageImages/appnft1.png);
+}
+
+.gameNft .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePageImages/appnft2.png);
+}
+
+.gameNft .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePageImages/appnft3.png);
+}
+
+.gameNft .app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePageImages/appnft4.png);
+}
+
+.gameNft .app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePageImages/appnft5.png);
+}
+
+.gameNft .app05 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePageImages/appnft00.png);
+}
+
+.gameNft .app06 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePageImages/appnft001.png);
+}
+
+.gameNft .app07 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePageImages/appnft002.png);
+}
+
+/* =======================GameBlckChain====================== */
+
+.gameBlckChain {
+  padding-top: 0px;
+}
+
+.gameBlckChain .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/blockchaindevelopment/images/gaming1.png);
+}
+
+.gameBlckChain .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/blockchaindevelopment/images/gaming2.png);
+}
+
+.gameBlckChain .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/blockchaindevelopment/images/gaming3.png);
+}
+
+.gameBlckChain .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/blockchaindevelopment/images/gaming4.png);
+}
+
+.gameBlckChain .app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/blockchaindevelopment/images/gaming5.png);
+}
+
+.gameBlckChain .app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/blockchaindevelopment/images/gaming6.png);
+}
+
+.gameBlckChain .app05 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/blockchaindevelopment/images/gaming7.png);
+}
+
+.gameBlckChain .app06 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/blockchaindevelopment/images/gaming8.png);
+}
+
+.gameBlckChain .app07 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/blockchaindevelopment/images/gaming9.png);
+}
+
+.gameBlckChain .app08 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/blockchaindevelopment/images/gaming10.png);
+}
+
+.gameBlckChain .app09 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/blockchaindevelopment/images/gaming11.png);
+}
 
 /* ========================================================= */
 
@@ -734,10 +870,10 @@
 
 .possibilities {
   font-size: 14px;
-  max-width: 400px;
   margin: 0 auto;
   text-align: center;
   color: white;
+  padding: 0 10px;
 }
 
 .pick {
