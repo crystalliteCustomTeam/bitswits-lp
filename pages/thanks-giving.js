@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/ThanksGiving.module.css'
 
 
-export default function ThankYou() {
+export default function ThanksGiving() {
 
     return (
         <>
@@ -22,15 +22,9 @@ export default function ThankYou() {
                         <Row className={styles.bannnerproject}>
                             <Col lg={8} className='mx-auto'>
                                 <div className={styles.banerTxt}>
-
-                                    <h1 className='font65 white fontf font-bold line60'>
-                                        <span className='grdiant font-bold'>Thank You</span>
-                                    </h1>
-
-                                    <p className='white fontf font16 font-medium line30'>
-                                        Welcome to the community, your personalized experience awaits!
-                                    </p>
-
+                                    <p className='white fontf font30 font-medium line30 mb-0'>HAPPY</p>
+                                    <h1 className='font70 grdiant font-bold fontf line60 w-50 mx-auto'>Thanks</h1>
+                                    <p className='white fontf font30 font-medium line30 mb-4'>Giving</p>
                                     <div className={`${styles.bttnsto} justify-content-center`}>
                                         <Link className={styles.bttns2} href="/">Back To Home</Link>
                                     </div>
