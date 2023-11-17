@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && webpack --mode production && purgecss --config purgecss.config.js --output ./out",
+    "build": "next build && purgecss --config purgecss.config.js --output ./out",
     "start": "next start",
     "lint": "next lint",
     "analyze": "cross-env ANALYZE=true next build"
@@ -29,14 +29,13 @@
     "react-responsive": "^9.0.2",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
-    "swiper": "^11.0.3"
+    "swiper": "^11.0.3",
+    "webpack-bundle-analyzer": "^4.10.1"
   },
   "devDependencies": {
     "@types/jquery": "^3.5.25",
     "purgecss": "^5.0.0",
-    "purgecss-from-html": "^6.0.0-alpha.0",
-    "webpack": "^5.89.0",
-    "webpack-cli": "^5.1.4"
+    "purgecss-from-html": "^6.0.0-alpha.0"
   },
   "browserslist": [
     "defaults"
