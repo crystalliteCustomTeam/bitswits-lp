@@ -392,8 +392,8 @@
 
 .cross {
   position: absolute;
-  top: -15px;
-  right: -17px;
+  top: -1.5%;
+  right: -1.5%;
   color: white;
   width: 35px;
   height: 35px;
@@ -524,9 +524,10 @@
 
 @media screen and (max-width: 991px) {
   .cross {
-    top: 10px;
-    right: 10px;
+    top: -6%;
+    right: -3%;
   }
+
   .header {
     padding: 0 15px;
   }
@@ -729,6 +730,13 @@
 
   .mbInq .ourWork .fill svg {
     width: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cross {
+    top: -10%;
+    right: -5%;
   }
 }
 

@@ -1799,6 +1799,10 @@ input::-webkit-inner-spin-button {
     top: 50%;
     right: -5%;
   }
+
+  .thanksgiving .modal-content {
+    margin: 8% auto 0;
+  }
 }
 
 @media screen and (min-width: 1400px) {
