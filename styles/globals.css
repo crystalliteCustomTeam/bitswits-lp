@@ -1276,9 +1276,9 @@ input::-webkit-inner-spin-button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 85vh;
-  margin-top: 5%;
-  width: 100% !important;
+  height: 70vh;
+  margin: 5% auto 0;
+  width: 80% !important;
   border-image: linear-gradient(0deg, #f32f5e, #4a78ef) 30;
   border-width: 2px;
   border-style: solid;
@@ -1287,6 +1287,7 @@ input::-webkit-inner-spin-button {
 
 .thanksgiving .modal-dialog {
   max-width: 90%;
+  margin: 0 auto;
 }
 
 .proisting .form-check-input[type="radio"] {
@@ -1936,6 +1937,13 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 991px) {
+  .thanksgiving .modal-content {
+    height: 100%;
+    margin-top: 20%;
+    padding: 20px 0;
+    width: 100% !important;
+  }
+
   .qtech .slick-dots li {
     width: 90px;
     height: 5px;

@@ -95,3 +95,11 @@
   background-color: #000;
   color: #fff;
 }
+
+/* ========================= */
+
+@media screen and (max-width: 991px) {
+  .giving {
+    width: 100%;
+  }
+}

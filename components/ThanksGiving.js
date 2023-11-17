@@ -105,7 +105,7 @@ const ThanksGiving = () => {
                                 </form>
                             </div>
                         </Col>
-                        <Col lg={7}>
+                        <Col lg={7} className='d-none d-lg-block'>
                             <div className='p-5 text-center'>
                                 <Image src={thnksLogo} alt="BitsWits" className='img-fluid w-75 mx-auto' />
                             </div>
