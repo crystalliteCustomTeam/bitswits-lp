@@ -34,7 +34,8 @@
   "devDependencies": {
     "@types/jquery": "^3.5.25",
     "purgecss": "^5.0.0",
-    "purgecss-from-html": "^6.0.0-alpha.0"
+    "purgecss-from-html": "^6.0.0-alpha.0",
+    "webpack": "^5.89.0"
   },
   "browserslist": [
     "defaults"
