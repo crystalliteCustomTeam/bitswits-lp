@@ -95,7 +95,7 @@ const ThanksGiving = () => {
                         <Col lg={5}>
                             <div className={styles.post}>
                                 <span className='togpost'>
-                                    <Image src={thnksHeading} alt="BitsWits" className='img-fluid w-50 d-block m-auto' />
+                                    <Image src={thnksHeading} alt="BitsWits" className='img-fluid w-50 d-block mx-auto' />
                                 </span>
                                 <form onSubmit={handleSubmit} className={styles.giving}>
                                     <input type="text" className={styles.formfree} required name="name" placeholder="Your Name" />
@@ -106,8 +106,8 @@ const ThanksGiving = () => {
                             </div>
                         </Col>
                         <Col lg={7}>
-                            <div className='p-5'>
-                                <Image src={thnksLogo} alt="BitsWits" className='img-fluid' />
+                            <div className='p-5 text-center'>
+                                <Image src={thnksLogo} alt="BitsWits" className='img-fluid w-75 mx-auto' />
                             </div>
                         </Col>
                     </Row>
