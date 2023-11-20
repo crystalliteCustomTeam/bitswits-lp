@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
-import ContactBox from '@/components/ContactBox'
+//
+const ContactBox = React.lazy(() => import('@/components/ContactBox'));
 
 
 export default function ContactUs() {

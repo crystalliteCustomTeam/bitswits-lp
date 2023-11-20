@@ -1,31 +1,31 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
 //components
-import Banner from '@/components/HireBanner'
-import NewAddress from '@/components/NewAddress';
-import HireLogoSlider from '@/components/HireLogoSlider';
-import HireWant from '@/components/HireWant';
-import HireSteps from '@/components/HireSteps';
-import HireBenifits from '@/components/HireBenifits';
-import HireChoose from '@/components/HireChoose';
-import Technologieswe from '@/components/Technologieswe';
-import Homenextproject from '@/components/Homenextproject';
-import Faqs from '@/components/NewhomeFaqs';
-import HomeLocation from '@/components/HomeLocation';
+const Banner = React.lazy(() => import('@/components/HireBanner'));
+const NewAddress = React.lazy(() => import('@/components/NewAddress'));
+const HireLogoSlider = React.lazy(() => import('@/components/HireLogoSlider'));
+const HireWant = React.lazy(() => import('@/components/HireWant'));
+const HireSteps = React.lazy(() => import('@/components/HireSteps'));
+const HireBenifits = React.lazy(() => import('@/components/HireBenifits'));
+const HireChoose = React.lazy(() => import('@/components/HireChoose'));
+const Technologieswe = React.lazy(() => import('@/components/Technologieswe'));
+const Homenextproject = React.lazy(() => import('@/components/Homenextproject'));
+const Faqs = React.lazy(() => import('@/components/NewhomeFaqs'));
+const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 //images
-import banImg from '../public/images/hire-page/hybrid.png'
+const banImg = await import('../public/images/hire-page/hybrid.png');
 //
-import step1 from '../public/images/hire-page/hireicon1.png'
-import step2 from '../public/images/hire-page/hireicon2.png'
-import step3 from '../public/images/hire-page/hireicon3.png'
-import step4 from '../public/images/hire-page/hireicon4.png'
+const step1 = await import('../public/images/hire-page/hireicon1.png');
+const step2 = await import('../public/images/hire-page/hireicon2.png');
+const step3 = await import('../public/images/hire-page/hireicon3.png');
+const step4 = await import('../public/images/hire-page/hireicon4.png');
 //
-import benif1 from '../public/images/hire-page/benifit-icon1.png'
-import benif2 from '../public/images/hire-page/benifit-icon2.png'
-import benif3 from '../public/images/hire-page/benifit-icon3.png'
-import benif4 from '../public/images/hire-page/benifit-icon4.png'
-import benif5 from '../public/images/hire-page/benifit-icon5.png'
-import benif6 from '../public/images/hire-page/benifit-icon6.png'
+const benif1 = await import('../public/images/hire-page/benifit-icon1.png');
+const benif2 = await import('../public/images/hire-page/benifit-icon2.png');
+const benif3 = await import('../public/images/hire-page/benifit-icon3.png');
+const benif4 = await import('../public/images/hire-page/benifit-icon4.png');
+const benif5 = await import('../public/images/hire-page/benifit-icon5.png');
+const benif6 = await import('../public/images/hire-page/benifit-icon6.png');
 
 
 export default function HybridDeveloper() {
@@ -354,7 +354,7 @@ export default function HybridDeveloper() {
             />
 
             <Technologieswe />
-            <Homenextproject 
+            <Homenextproject
                 title="Brace yourself for an App-venture!"
             />
             <Faqs />

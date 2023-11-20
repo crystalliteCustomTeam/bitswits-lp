@@ -1,36 +1,20 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '@/styles/blockchain/Home.module.css'
-import Logoslide from '../components/blockchain/LogoSlide'
-import Container from 'react-bootstrap/Container';
-import typeofbooks from '@/public/blockchain/images/logo-1.png';
-import LeftContent from '@/components/blockchain/LeftContent';
-import Blockchain from '@/components/blockchain/Blockchain';
-import Revolution from '@/components/blockchain/Revolution';
-import NextGen from '@/components/blockchain/NextGen';
-import Standing from '@/components/blockchain/Standing';
-import Expertise from '@/components/blockchain/Expertise';
-import Process from '@/components/blockchain/Process';
-import WhyChooseUs from '@/components/blockchain/WhyChooseUs';
-import Contact from '@/components/Contact';
-import FireUp from '@/components/blockchain/FireUp';
-// import { keyframes } from "@emotion/react";
-import Banners from '@/components/blockchain/Banners';
-// import Languages from '@/components/Languages';
-// import { Reveal } from "react-awesome-reveal";
-// import { Fade } from "react-awesome-reveal";
+//
+const Banners = React.lazy(() => import('@/components/blockchain/Banners'));
+const Logoslide = React.lazy(() => import('../components/blockchain/LogoSlide'));
+const LeftContent = React.lazy(() => import('@/components/blockchain/LeftContent'));
+const Blockchain = React.lazy(() => import('@/components/blockchain/Blockchain'));
+const Revolution = React.lazy(() => import('@/components/blockchain/Revolution'));
+const NextGen = React.lazy(() => import('@/components/blockchain/NextGen'));
+const Standing = React.lazy(() => import('@/components/blockchain/Standing'));
+const Expertise = React.lazy(() => import('@/components/blockchain/Expertise'));
+const Process = React.lazy(() => import('@/components/blockchain/Process'));
+const WhyChooseUs = React.lazy(() => import('@/components/blockchain/WhyChooseUs'));
+const Contact = React.lazy(() => import('@/components/Contact'));
+//
+const typeofbooks = await import('@/public/blockchain/images/logo-1.png');
 
-
-// const customAnimation = keyframes`
-//   from {
-//     opacity: 0;
-//     transform: translate3d(0px, 200px, 0);
-//   }
-//   to {
-//     opacity: 1;
-//     transform: translate3d(0, 0, 0);
-//   }
-// `;
 
 export default function Home() {
 
@@ -53,7 +37,6 @@ export default function Home() {
 
 
   const NextTtitle2 = <span className='f50 fw700'> Let’s Build <span className='grdiant'>A Secure,</span>  Transparent, <span className=''>And</span>  Decentralized <span className='grdiant'> Future <br /> Together</span></span>
-  // const Nextsub2 = <span className=''> Next Generational Blockchain Solution </span>
   const NextPara2 = <span>Get in touch with our blockchain experts to discuss your project <br /> requirements and get a free quote.</span>
   const Image = "../public/images/poster.png";
 
@@ -127,7 +110,6 @@ export default function Home() {
 
         <Process />
 
-        {/* <Languages/> */}
         <WhyChooseUs
           whyTitle={whyTitle}
           whySubTitle={whySubTitle}
@@ -137,8 +119,6 @@ export default function Home() {
         <Contact
           newBg="newBgSpc"
         />
-
-
       </main>
     </>
   )

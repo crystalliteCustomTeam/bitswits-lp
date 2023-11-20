@@ -1,34 +1,34 @@
 import Head from 'next/head'
 import React from 'react';
 //components
-import ServicesBanner from '@/components/ServicesBanner';
-import ServicesAdvantage from '@/components/ServicesAdvantage';
-import ServiceTarget from '@/components/ServiceTarget';
-import ServicesMaintain from '@/components/ServicesMaintain';
-import NewAddress from '@/components/NewAddress';
-import ServiceSolutions from '@/components/ServiceSolutions';
-import ServiceGenre from '@/components/ServiceGenre';
-import ServiceEngage from '@/components/ServiceEngage';
-import NewHomeAbout from '@/components/NewHomePageAbout';
-import Newsuccess from '@/components/NewMblSuccess';
-import Technologieswe2dgame from '@/components/Technologieswe2dgame';
-import NewHomeGlobal from '@/components/NewHomeGlobal';
-import NewHomeSlider from '@/components/NewHomeSlider';
-import Homenextproject from '@/components/Homenextproject';
-import ServicesFaqs from '@/components/ServicesFaqs';
-import HomeLocation from '@/components/HomeLocation';
+const ServicesBanner = React.lazy(() => import('@/components/ServicesBanner'));
+const ServicesAdvantage = React.lazy(() => import('@/components/ServicesAdvantage'));
+const ServiceTarget = React.lazy(() => import('@/components/ServiceTarget'));
+const ServicesMaintain = React.lazy(() => import('@/components/ServicesMaintain'));
+const NewAddress = React.lazy(() => import('@/components/NewAddress'));
+const ServiceSolutions = React.lazy(() => import('@/components/ServiceSolutions'));
+const ServiceGenre = React.lazy(() => import('@/components/ServiceGenre'));
+const ServiceEngage = React.lazy(() => import('@/components/ServiceEngage'));
+const NewHomeAbout = React.lazy(() => import('@/components/NewHomePageAbout'));
+const Newsuccess = React.lazy(() => import('@/components/NewMblSuccess'));
+const Technologieswe2dgame = React.lazy(() => import('@/components/Technologieswe2dgame'));
+const NewHomeGlobal = React.lazy(() => import('@/components/NewHomeGlobal'));
+const NewHomeSlider = React.lazy(() => import('@/components/NewHomeSlider'));
+const Homenextproject = React.lazy(() => import('@/components/Homenextproject'));
+const ServicesFaqs = React.lazy(() => import('@/components/ServicesFaqs'));
+const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 //images
-import BannerImage from "@/public/newMobilePageImages/gameappbanner.png"
-import AdvantageOne from '../public/newHomePageImages/lady.png'
-import Solution from '../public/newHomePageImages/playgame.png'
-import gameicon1 from "@/public/gameicon/1.png"
-import gameicon2 from "@/public/gameicon/2.png"
-import gameicon3 from "@/public/gameicon/3.png"
-import main from "@/public/shark/main.png"
-import engIcon1 from "@/public/shark/shark.png"
-import engIcon2 from "@/public/shark/shark2.png"
-import engIcon3 from "@/public/shark/shark3.png"
-import engIcon4 from "@/public/shark/shark4.png"
+const BannerImage = await import("@/public/newMobilePageImages/gameappbanner.png");
+const AdvantageOne = await import('../public/newHomePageImages/lady.png');
+const Solution = await import('../public/newHomePageImages/playgame.png');
+const gameicon1 = await import("@/public/gameicon/1.png");
+const gameicon2 = await import("@/public/gameicon/2.png");
+const gameicon3 = await import("@/public/gameicon/3.png");
+const main = await import("@/public/shark/main.png");
+const engIcon1 = await import("@/public/shark/shark.png");
+const engIcon2 = await import("@/public/shark/shark2.png");
+const engIcon3 = await import("@/public/shark/shark3.png");
+const engIcon4 = await import("@/public/shark/shark4.png");
 
 
 export default function Gameapplicationdevelopment() {

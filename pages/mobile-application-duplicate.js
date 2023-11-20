@@ -1,32 +1,31 @@
 import Head from "next/head";
 import React from "react";
-import dynamic from "next/dynamic";
 //components
-import NewMblBannerduplicate from '@/components/NewMblBannerduplicate';
-import NewHomeAbout from '@/components/NewHomePageAbout';
-import NewMblWho from '@/components/NewMblWho';
-import NewMblWhat from '@/components/NewMblWhat';
-const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
-import NewMblServices from '@/components/NewMblServices';
-import ServisesWhy from "@/components/ServisesWhy";
-import ServicesPortfolio from '@/components/ServicesPortfolio';
-import Capabilities from '@/components/Capabilities';
-import Newsuccess from '@/components/NewMblSuccess';
-import NewHomeGlobal from "@/components/NewHomeGlobal";
-import ClientsThink2 from "@/components/ClientsThink2";
-import Homenextproject from "@/components/Homenextproject";
-import Technologieswe from "@/components/NewMblTechnologiesWe";
-import Nextproject2 from "@/components/Nextproject2";
-import ServicesFaqs from '@/components/ServicesFaqs';
-import Contact2 from "@/components/Contact2";
+const NewMblBannerduplicate = React.lazy(() => import('@/components/NewMblBannerduplicate'));
+const NewHomeAbout = React.lazy(() => import('@/components/NewHomePageAbout'));
+const NewMblWho = React.lazy(() => import('@/components/NewMblWho'));
+const NewMblWhat = React.lazy(() => import('@/components/NewMblWhat'));
+const Justbuildit = React.lazy(() => import('@/components/Justbuildit'));
+const NewMblServices = React.lazy(() => import('@/components/NewMblServices'));
+const ServisesWhy = React.lazy(() => import("@/components/ServisesWhy"));
+const ServicesPortfolio = React.lazy(() => import('@/components/ServicesPortfolio'));
+const Capabilities = React.lazy(() => import('@/components/Capabilities'));
+const Newsuccess = React.lazy(() => import('@/components/NewMblSuccess'));
+const NewHomeGlobal = React.lazy(() => import("@/components/NewHomeGlobal"));
+const ClientsThink2 = React.lazy(() => import("@/components/ClientsThink2"));
+const Homenextproject = React.lazy(() => import("@/components/Homenextproject"));
+const Technologieswe = React.lazy(() => import("@/components/NewMblTechnologiesWe"));
+const Nextproject2 = React.lazy(() => import("@/components/Nextproject2"));
+const ServicesFaqs = React.lazy(() => import('@/components/ServicesFaqs'));
+const Contact2 = React.lazy(() => import("@/components/Contact2"));
 //Icons 
+const icon23 = await import('../public/images/fymobile/1.png');
+const icon24 = await import('../public/images/fymobile/2.png');
+const icon25 = await import('../public/images/fymobile/3.png');
+const icon26 = await import('../public/images/fymobile/4.png');
+const icon27 = await import('../public/images/fymobile/5.png');
+const icon28 = await import('../public/images/fymobile/6.png');
 
-import icon23 from '../public/images/fymobile/1.png'
-import icon24 from '../public/images/fymobile/2.png'
-import icon25 from '../public/images/fymobile/3.png'
-import icon26 from '../public/images/fymobile/4.png'
-import icon27 from '../public/images/fymobile/5.png'
-import icon28 from '../public/images/fymobile/6.png'
 
 export default function mobileApplication() {
   return (

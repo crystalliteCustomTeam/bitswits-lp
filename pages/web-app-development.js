@@ -1,35 +1,34 @@
 import Head from 'next/head'
 import React from 'react';
-import dynamic from 'next/dynamic';
 //components
-import ServicesBanner from '@/components/ServicesBanner';
-import NewHomeAbout from '@/components/NewHomePageAbout';
-import Dedicatedweb from '@/components/Dedicatedweb';
-import NewAddress from '@/components/NewAddress';
-const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
-import ServicesWho from '@/components/ServicesWho';
-import ServicesWhat from '@/components/ServicesWhat';
-import ServisesWhy from '@/components/ServisesWhy';
-import ServicesPortfolio from '@/components/ServicesPortfolio';
-import Capabilities from '@/components/Capabilities';
-import Newsuccess from '@/components/NewMblSuccess';
-import Technologieswe from '@/components/Technologieswe';
-import NewHomeGlobal from '@/components/NewHomeGlobal';
-import NewHomeSlider from '@/components/NewHomeSlider';
-import Homenextproject from '@/components/Homenextproject';
-import ServicesFaqs from '@/components/ServicesFaqs';
-import HomeLocation from '@/components/HomeLocation';
+const ServicesBanner = React.lazy(() => import('@/components/ServicesBanner'));
+const NewHomeAbout = React.lazy(() => import('@/components/NewHomePageAbout'));
+const Dedicatedweb = React.lazy(() => import('@/components/Dedicatedweb'));
+const NewAddress = React.lazy(() => import('@/components/NewAddress'));
+const Justbuildit = React.lazy(() => import('@/components/Justbuildit'));
+const ServicesWho = React.lazy(() => import('@/components/ServicesWho'));
+const ServicesWhat = React.lazy(() => import('@/components/ServicesWhat'));
+const ServisesWhy = React.lazy(() => import('@/components/ServisesWhy'));
+const ServicesPortfolio = React.lazy(() => import('@/components/ServicesPortfolio'));
+const Capabilities = React.lazy(() => import('@/components/Capabilities'));
+const Newsuccess = React.lazy(() => import('@/components/NewMblSuccess'));
+const Technologieswe = React.lazy(() => import('@/components/Technologieswe'));
+const NewHomeGlobal = React.lazy(() => import('@/components/NewHomeGlobal'));
+const NewHomeSlider = React.lazy(() => import('@/components/NewHomeSlider'));
+const Homenextproject = React.lazy(() => import('@/components/Homenextproject'));
+const ServicesFaqs = React.lazy(() => import('@/components/ServicesFaqs'));
+const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 //images
-import BannerImage from "@/public/images/webapp/webapp.png"
-import WhoImage from "@/public/images/webapp/who_image.png"
-import WhatImage from "@/public/images/webapp/what_Image.png"
+const BannerImage = await import("@/public/images/webapp/webapp.png");
+const WhoImage = await import("@/public/images/webapp/who_image.png");
+const WhatImage = await import("@/public/images/webapp/what_Image.png");
 //icons
-import icon23 from '../public/images/fyicons/82.png'
-import icon24 from '../public/images/fyicons/83.png'
-import icon25 from '../public/images/fyicons/84.png'
-import icon26 from '../public/images/fyicons/85.png'
-import icon27 from '../public/images/fyicons/86.png'
-import icon28 from '../public/images/fyicons/87.png'
+const icon23 = await import('../public/images/fyicons/82.png');
+const icon24 = await import('../public/images/fyicons/83.png');
+const icon25 = await import('../public/images/fyicons/84.png');
+const icon26 = await import('../public/images/fyicons/85.png');
+const icon27 = await import('../public/images/fyicons/86.png');
+const icon28 = await import('../public/images/fyicons/87.png');
 
 
 export default function gamedevelopmentcompany() {

@@ -1,15 +1,15 @@
 import Head from 'next/head'
 import React from 'react';
 //
-import EcommerceAward from '@/components/EcommerceAward';
-import EcommercePLatform from '@/components/EcommercePLatform';
-import EcommerceShoppingApp from '@/components/EcommerceShoppingApp';
-import EcommerceBenefits from '@/components/EcommerceBenefits';
-import EcommerceService from '@/components/EcommerceService';
-import EcommerceApp from '@/components/EcommerceApp';
-import EcommerceExperience from '@/components/EcommerceExperience';
-import EcommerceScale from '@/components/EcommerceScale';
-import EcommerceSlider from '@/components/EcommerceSlider';
+const EcommerceAward = React.lazy(() => import('@/components/EcommerceAward'));
+const EcommercePLatform = React.lazy(() => import('@/components/EcommercePLatform'));
+const EcommerceSlider = React.lazy(() => import('@/components/EcommerceSlider'));
+const EcommerceShoppingApp = React.lazy(() => import('@/components/EcommerceShoppingApp'));
+const EcommerceBenefits = React.lazy(() => import('@/components/EcommerceBenefits'));
+const EcommerceService = React.lazy(() => import('@/components/EcommerceService'));
+const EcommerceApp = React.lazy(() => import('@/components/EcommerceApp'));
+const EcommerceExperience = React.lazy(() => import('@/components/EcommerceExperience'));
+const EcommerceScale = React.lazy(() => import('@/components/EcommerceScale'));
 
 
 const Ecommerce = () => {

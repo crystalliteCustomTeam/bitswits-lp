@@ -1,36 +1,36 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
 //components
-import Banner from '@/components/CaseBanner'
-import CaseGlamic from '@/components/CaseGlamic';
-import CaseWants from '@/components/CaseWants';
-import CaseGoal from '@/components/CaseGoal';
-import CaseOvercoming from '@/components/CaseOvercoming';
-import CaseAnimate from '@/components/CaseAnimate';
-import CaseServices from '@/components/CaseServices';
-import NewHomeGlobal from '@/components/NewHomeGlobal';
-import Capabilities from '@/components/Capabilities';
-import NewHomeSlider from '@/components/NewHomeSlider';
-import Technologieswe from '@/components/Technologieswe';
-import Homenextproject from '@/components/Homenextproject';
-import Faqs from '@/components/NewhomeFaqs';
-import HomeLocation from '@/components/HomeLocation';
+const Banner = React.lazy(() => import('@/components/CaseBanner'));
+const CaseGlamic = React.lazy(() => import('@/components/CaseGlamic'));
+const CaseWants = React.lazy(() => import('@/components/CaseWants'));
+const CaseGoal = React.lazy(() => import('@/components/CaseGoal'));
+const CaseOvercoming = React.lazy(() => import('@/components/CaseOvercoming'));
+const CaseAnimate = React.lazy(() => import('@/components/CaseAnimate'));
+const CaseServices = React.lazy(() => import('@/components/CaseServices'));
+const NewHomeGlobal = React.lazy(() => import('@/components/NewHomeGlobal'));
+const Capabilities = React.lazy(() => import('@/components/Capabilities'));
+const NewHomeSlider = React.lazy(() => import('@/components/NewHomeSlider'));
+const Technologieswe = React.lazy(() => import('@/components/Technologieswe'));
+const Homenextproject = React.lazy(() => import('@/components/Homenextproject'));
+const Faqs = React.lazy(() => import('@/components/NewhomeFaqs'));
+const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 //images
-import banLogo from '../public/images/case-crave/banner-logo.png'
-import banImg from '../public/images/case-crave/banner-img.png'
-import glamicImg from '../public/images/case-crave/glamic.png'
-import goalImg from '../public/images/case-crave/goal.png'
-import animiImg1 from '../public/images/case-crave/animi1.png'
-import animiImg2 from '../public/images/case-crave/animi2.png'
-import animiImg3 from '../public/images/case-crave/animi3.png'
-import servImg from '../public/images/case-crave/services.png'
+const banLogo = await import('../public/images/case-crave/banner-logo.png');
+const banImg = await import('../public/images/case-crave/banner-img.png');
+const glamicImg = await import('../public/images/case-crave/glamic.png');
+const goalImg = await import('../public/images/case-crave/goal.png');
+const animiImg1 = await import('../public/images/case-crave/animi1.png');
+const animiImg2 = await import('../public/images/case-crave/animi2.png');
+const animiImg3 = await import('../public/images/case-crave/animi3.png');
+const servImg = await import('../public/images/case-crave/services.png');
 //Icons 
-import icon1 from '../public/images/fymobile/1.png'
-import icon2 from '../public/images/fymobile/2.png'
-import icon3 from '../public/images/fymobile/3.png'
-import icon4 from '../public/images/fymobile/4.png'
-import icon5 from '../public/images/fymobile/5.png'
-import icon6 from '../public/images/fymobile/6.png'
+const icon1 = await import('../public/images/fymobile/1.png');
+const icon2 = await import('../public/images/fymobile/2.png');
+const icon3 = await import('../public/images/fymobile/3.png');
+const icon4 = await import('../public/images/fymobile/4.png');
+const icon5 = await import('../public/images/fymobile/5.png');
+const icon6 = await import('../public/images/fymobile/6.png');
 
 
 export default function FoodDelivery() {
@@ -202,9 +202,9 @@ export default function FoodDelivery() {
       <Capabilities />
       <NewHomeSlider />
       <Technologieswe />
-      <Homenextproject 
-                title="Brace yourself for an App-venture!"
-            />
+      <Homenextproject
+        title="Brace yourself for an App-venture!"
+      />
       <Faqs />
       <HomeLocation />
 

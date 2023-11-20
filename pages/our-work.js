@@ -1,15 +1,15 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
 //components
-import WorkBanner from '@/components/WorkBanner'
-import WorkBody from '@/components/WorkBody';
-import NewHomeGlobal from '@/components/NewHomeGlobal';
-import Capabilities from '@/components/Capabilities';
-import NewHomeSlider from '@/components/NewHomeSlider';
-import Technologieswe from '@/components/Technologieswe';
-import Homenextproject from '@/components/Homenextproject';
-import Faqs from '@/components/NewhomeFaqs';
-import HomeLocation from '@/components/HomeLocation';
+const WorkBanner = React.lazy(() => import('@/components/WorkBanner'));
+const WorkBody = React.lazy(() => import('@/components/WorkBody'));
+const NewHomeGlobal = React.lazy(() => import('@/components/NewHomeGlobal'));
+const Capabilities = React.lazy(() => import('@/components/Capabilities'));
+const NewHomeSlider = React.lazy(() => import('@/components/NewHomeSlider'));
+const Technologieswe = React.lazy(() => import('@/components/Technologieswe'));
+const Homenextproject = React.lazy(() => import('@/components/Homenextproject'));
+const Faqs = React.lazy(() => import('@/components/NewhomeFaqs'));
+const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 
 
 export default function OurWork() {
@@ -42,7 +42,7 @@ export default function OurWork() {
             <Capabilities />
             <NewHomeSlider />
             <Technologieswe />
-            <Homenextproject 
+            <Homenextproject
                 title="Brace yourself for an App-venture!"
             />
             <Faqs />

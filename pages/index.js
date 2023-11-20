@@ -1,21 +1,20 @@
 import Head from 'next/head'
 import React from 'react';
-import dynamic from 'next/dynamic';
 //components
-import HomeBanner from '@/components/HomeBanner';
-import NewHomeAbout from '@/components/NewHomePageAbout';
-import NewHomeWho from '@/components/NewHomeWho';
-const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
-import NewHomeWhat from '@/components/NewHomeWhat';
-import NewHomeHear from '@/components/NewHomeHear'
-import NewMaintain from '@/components/NewMaintain';
-import NewHomeGlobal from '@/components/NewHomeGlobal';
-import Capabilities from '@/components/Capabilities';
-import NewHomeSlider from '@/components/NewHomeSlider';
-import Technologieswe from '@/components/Technologieswe';
-import Homenextproject from '@/components/Homenextproject';
-import Faqs from '@/components/NewhomeFaqs';
-import HomeLocation from '@/components/HomeLocation';
+const HomeBanner = React.lazy(() => import('@/components/HomeBanner'));
+const NewHomeAbout = React.lazy(() => import('@/components/NewHomePageAbout'));
+const NewHomeWho = React.lazy(() => import('@/components/NewHomeWho'));
+const Justbuildit = React.lazy(() => import('@/components/Justbuildit'));
+const NewHomeWhat = React.lazy(() => import('@/components/NewHomeWhat'));
+const NewHomeHear = React.lazy(() => import('@/components/NewHomeHear'));
+const NewMaintain = React.lazy(() => import('@/components/NewMaintain'));
+const NewHomeGlobal = React.lazy(() => import('@/components/NewHomeGlobal'));
+const Capabilities = React.lazy(() => import('@/components/Capabilities'));
+const NewHomeSlider = React.lazy(() => import('@/components/NewHomeSlider'));
+const Technologieswe = React.lazy(() => import('@/components/Technologieswe'));
+const Homenextproject = React.lazy(() => import('@/components/Homenextproject'));
+const Faqs = React.lazy(() => import('@/components/NewhomeFaqs'));
+const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 
 
 export default function Home() {
@@ -30,7 +29,7 @@ export default function Home() {
             </Head>
 
             <HomeBanner />
-            <NewHomeAbout 
+            <NewHomeAbout
                 title="Our Client’s Feedback Has Been"
                 subtitle="Nothing Short Of Amazing!"
             />
@@ -43,7 +42,7 @@ export default function Home() {
             <Capabilities />
             <NewHomeSlider />
             <Technologieswe />
-            <Homenextproject 
+            <Homenextproject
                 title="Brace yourself for an App-venture!"
             />
             <Faqs />

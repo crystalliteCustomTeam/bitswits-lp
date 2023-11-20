@@ -1,35 +1,34 @@
 import Head from "next/head";
 import React from "react";
-import dynamic from "next/dynamic";
 //components
-import ServicesBanner from '@/components/ServicesBanner';
-import NewHomeAbout from '@/components/NewHomePageAbout';
-import ServicesMaintain from '@/components/ServicesMaintain';
-import NewAddress from '@/components/NewAddress';
-const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
-import ServicesWho from '@/components/ServicesWho';
-import ServicesWhat from '@/components/ServicesWhat';
-import ServisesWhy from '@/components/ServisesWhy';
-import ServicesPortfolio from '@/components/ServicesPortfolio';
-import Capabilities from '@/components/Capabilities';
-import Newsuccess from '@/components/NewMblSuccess';
-import Technologieswe from '@/components/Technologieswe';
-import NewHomeGlobal from '@/components/NewHomeGlobal';
-import NewHomeSlider from '@/components/NewHomeSlider';
-import Homenextproject from '@/components/Homenextproject';
-import ServicesFaqs from '@/components/ServicesFaqs';
-import HomeLocation from '@/components/HomeLocation';
+const ServicesBanner = React.lazy(() => import('@/components/ServicesBanner'));
+const NewHomeAbout = React.lazy(() => import('@/components/NewHomePageAbout'));
+const ServicesMaintain = React.lazy(() => import('@/components/ServicesMaintain'));
+const NewAddress = React.lazy(() => import('@/components/NewAddress'));
+const Justbuildit = React.lazy(() => import('@/components/Justbuildit'));
+const ServicesWho = React.lazy(() => import('@/components/ServicesWho'));
+const ServicesWhat = React.lazy(() => import('@/components/ServicesWhat'));
+const ServisesWhy = React.lazy(() => import('@/components/ServisesWhy'));
+const ServicesPortfolio = React.lazy(() => import('@/components/ServicesPortfolio'));
+const Capabilities = React.lazy(() => import('@/components/Capabilities'));
+const Newsuccess = React.lazy(() => import('@/components/NewMblSuccess'));
+const Technologieswe = React.lazy(() => import('@/components/Technologieswe'));
+const NewHomeGlobal = React.lazy(() => import('@/components/NewHomeGlobal'));
+const NewHomeSlider = React.lazy(() => import('@/components/NewHomeSlider'));
+const Homenextproject = React.lazy(() => import('@/components/Homenextproject'));
+const ServicesFaqs = React.lazy(() => import('@/components/ServicesFaqs'));
+const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 //images
-import BannerImage from "@/public/newMobilePageImages/banner_image.png"
-import WhoImage from "@/public/newMobilePageImages/who_image.png"
-import WhatImage from "@/public/newMobilePageImages/what_Image.png"
+const BannerImage = await import("@/public/newMobilePageImages/banner_image.png")
+const WhoImage = await import("@/public/newMobilePageImages/who_image.png")
+const WhatImage = await import("@/public/newMobilePageImages/what_Image.png")
 //icons 
-import icon23 from '../public/images/fymobile/1.png'
-import icon24 from '../public/images/fymobile/2.png'
-import icon25 from '../public/images/fymobile/3.png'
-import icon26 from '../public/images/fymobile/4.png'
-import icon27 from '../public/images/fymobile/5.png'
-import icon28 from '../public/images/fymobile/6.png'
+const icon23 = await import('../public/images/fymobile/1.png')
+const icon24 = await import('../public/images/fymobile/2.png')
+const icon25 = await import('../public/images/fymobile/3.png')
+const icon26 = await import('../public/images/fymobile/4.png')
+const icon27 = await import('../public/images/fymobile/5.png')
+const icon28 = await import('../public/images/fymobile/6.png')
 
 
 export default function mobileApplication() {
@@ -125,7 +124,7 @@ export default function mobileApplication() {
             },
             {
               title: (<> Web App <br /> Development </>),
-              text: 'We offer end-to-end web app development services. Our team of skilled web app developers utilizes the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today!',
+              text: 'We offer end-to-end web app development services. Our team of skilled web app developers utilize the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today!',
               appclass: "app2",
             }
           ]
@@ -153,22 +152,22 @@ export default function mobileApplication() {
             },
           ]
         }
-      appContent4={[]}
-                appContent5={[]}
-                appContent6={[]}
-                appContent7={[]}
-            />
-            <NewAddress />
+        appContent4={[]}
+        appContent5={[]}
+        appContent6={[]}
+        appContent7={[]}
+      />
+      <NewAddress />
       <Justbuildit />
       <ServicesWho
-        subtitle="Our Value Proposition"
-        title="With a track record of dedication and innovation, we're not just developers; we're passionate problem-solvers invested in your success."
-        text="Hire BitsWits for mobile application development that engages users and generates measurable results. With over a decade of experience, we're the industry's best option."
+        subtitle="Who we are."
+        title="We build greater futures through innovation and collective knowledge."
+        text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
         WhoImage={WhoImage}
       />
       <ServicesWhat
-        subtitle="Why Hire Us"
-        title="Is your current app failing to deliver the results you desire?"
+        subtitle="What we do."
+        title="BitsWits transforms businesses through technology."
         text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
         WhatImage={WhatImage}
       />
@@ -212,40 +211,40 @@ export default function mobileApplication() {
           ]
         }
       />
-      <ServicesPortfolio 
-                title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
-            />
+      <ServicesPortfolio
+        title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
+      />
       <Capabilities />
       <div className="status2">
         <Newsuccess
           subtitle="Ready For Success?"
-                maintitle="Brace Yourself for What Happens Next"
-                successSteps={
-                    [
-                        {
-                            number: '01',
-                            title: 'Talk To Our Experts',
-                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
-                            buttonText: 'Connect Now!',
-                            link: '#',
-                        },
-                        {
-                            number: '02',
-                            title: 'Get A Quote',
-                            text: 'Get an exact cost breakdown structure of your app.',
-                            buttonText: 'Chat Now!',
-                            link: '#',
-                        },
-                        {
-                            number: '03',
-                            title: 'Build An MVP',
-                            text: 'Start your app development journey with no-obligation consultation via email and phone.',
-                            buttonText: 'Call Now!',
-                            link: '#',
-                        },
-                    ]
-                }
-            />
+          maintitle="Brace Yourself for What Happens Next"
+          successSteps={
+            [
+              {
+                number: '01',
+                title: 'Talk To Our Experts',
+                text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                buttonText: 'Connect Now!',
+                link: '#',
+              },
+              {
+                number: '02',
+                title: 'Get A Quote',
+                text: 'Get an exact cost breakdown structure of your app.',
+                buttonText: 'Chat Now!',
+                link: '#',
+              },
+              {
+                number: '03',
+                title: 'Build An MVP',
+                text: 'Contact us without obligation by email or phone and secure your free consultation.',
+                buttonText: 'Call Now!',
+                link: '#',
+              },
+            ]
+          }
+        />
       </div>
       <section className='spacingtb1'>
         <Technologieswe />

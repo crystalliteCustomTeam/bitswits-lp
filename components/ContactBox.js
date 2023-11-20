@@ -12,6 +12,7 @@ import usa from '../public/images/contact/usa.png'
 import asia from '../public/images/contact/asia.png'
 import middleEast from '../public/images/contact/middle-east.png'
 
+
 const ContactBox = () => {
 
     var contactSlider = {
@@ -131,7 +132,6 @@ const ContactBox = () => {
                         </Row>
                     </div>
                 </Container>
-
             </section>
         </>
     )

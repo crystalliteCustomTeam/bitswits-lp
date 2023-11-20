@@ -2,17 +2,17 @@ import Head from 'next/head'
 import React from 'react';
 import { useEffect } from 'react';
 //
-import Formnewlpnewhome from '@/components/Formnewlpnewhome';
-import Startaproject from '@/components/Startaproject';
-import Newfaqshome from '@/components/Newfaqshome';
-import ProjectProcesshome from '@/components/ProjectProcesshome';
-import Expertapphome from '@/components/Expertapphome';
-import Thrthy from '@/components/Thrthy';
-import Appmaking from '@/components/Appmaking';
-import Homeslider from '@/components/Homeslider';
-import Creative from '@/components/Creative';
-import Everyone from '@/components/Everyone';
-import Testimonailslider from '@/components/Testimonailslider';
+const Appmaking = React.lazy(() => import('@/components/Appmaking'));
+const Homeslider = React.lazy(() => import('@/components/Homeslider'));
+const ProjectProcesshome = React.lazy(() => import('@/components/ProjectProcesshome'));
+const Creative = React.lazy(() => import('@/components/Creative'));
+const Expertapphome = React.lazy(() => import('@/components/Expertapphome'));
+const Thrthy = React.lazy(() => import('@/components/Thrthy'));
+const Everyone = React.lazy(() => import('@/components/Everyone'));
+const Testimonailslider = React.lazy(() => import('@/components/Testimonailslider'));
+const Newfaqshome = React.lazy(() => import('@/components/Newfaqshome'));
+const Startaproject = React.lazy(() => import('@/components/Startaproject'));
+const Formnewlpnewhome = React.lazy(() => import('@/components/Formnewlpnewhome'));
 
 
 export default function Home() {

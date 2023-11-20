@@ -1,19 +1,19 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
 //components
-import Banner from '@/components/HireBanner'
-import NewAddress from '@/components/NewAddress';
-import HireLogoSlider from '@/components/HireLogoSlider';
-import NewHomeAbout from '@/components/NewHomePageAbout';
-import HireServices from '@/components/HireServices';
-import HireBenifitsMbl from '@/components/HireBenifitsMbl';
-import HireTiming from '@/components/HireTiming';
-import Technologieswe from '@/components/Technologieswe';
-import Homenextproject from '@/components/Homenextproject';
-import Faqs from '@/components/NewhomeFaqs';
-import HomeLocation from '@/components/HomeLocation';
+const Banner = React.lazy(() => import('@/components/HireBanner'));
+const NewAddress = React.lazy(() => import('@/components/NewAddress'));
+const HireLogoSlider = React.lazy(() => import('@/components/HireLogoSlider'));
+const NewHomeAbout = React.lazy(() => import('@/components/NewHomePageAbout'));
+const HireServices = React.lazy(() => import('@/components/HireServices'));
+const HireBenifitsMbl = React.lazy(() => import('@/components/HireBenifitsMbl'));
+const HireTiming = React.lazy(() => import('@/components/HireTiming'));
+const Technologieswe = React.lazy(() => import('@/components/Technologieswe'));
+const Homenextproject = React.lazy(() => import('@/components/Homenextproject'));
+const Faqs = React.lazy(() => import('@/components/NewhomeFaqs'));
+const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 //images
-import banImg from '../public/images/hire-page/mobile/mbl.png'
+const banImg = await import('../public/images/hire-page/mobile/mbl.png');
 
 
 export default function MobileDeveloper() {
@@ -57,7 +57,7 @@ export default function MobileDeveloper() {
             <HireBenifitsMbl />
             <HireTiming />
             <Technologieswe />
-            <Homenextproject 
+            <Homenextproject
                 title="Brace yourself for an App-venture!"
             />
             <Faqs />

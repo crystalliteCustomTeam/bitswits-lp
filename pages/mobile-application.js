@@ -1,12 +1,11 @@
 import Head from "next/head";
 import React from "react";
-import dynamic from "next/dynamic";
 //components
 const ServicesBanner = React.lazy(() => import('@/components/ServicesBanner'));
 const NewHomeAbout = React.lazy(() => import('@/components/NewHomePageAbout'));
 const ServicesMaintain = React.lazy(() => import('@/components/ServicesMaintain'));
 const NewAddress = React.lazy(() => import('@/components/NewAddress'));
-const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
+const Justbuildit = React.lazy(() => import('@/components/Justbuildit'));
 const ServicesWho = React.lazy(() => import('@/components/ServicesWho'));
 const ServicesWhat = React.lazy(() => import('@/components/ServicesWhat'));
 const ServisesWhy = React.lazy(() => import('@/components/ServisesWhy'));

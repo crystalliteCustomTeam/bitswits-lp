@@ -1,26 +1,25 @@
 import Head from "next/head";
 import React from "react";
-import dynamic from "next/dynamic";
 //components
-import NewMblBannerduplicatejump from '@/components/NewMblBannerduplicatejump';
-import NewHomeAbout from '@/components/NewHomePageAbout';
-import NewMblServices2 from '@/components/NewMblServices2';
-import ServisesWhy from "@/components/ServisesWhy";
-import ServicesPortfolio from '@/components/ServicesPortfolio';
-import Newsuccess from '@/components/NewMblSuccess';
-import NewHomeGlobal from "@/components/NewHomeGlobal";
-import Homenextproject2 from "@/components/Homenextproject2";
-import Technologieswe from "@/components/NewMblTechnologiesWe";
-import ServicesFaqs from '@/components/ServicesFaqs';
-import Contact2 from "@/components/Contact2";
-import Awards from "@/components/Awards";
+const NewMblBannerduplicatejump = React.lazy(() => import('@/components/NewMblBannerduplicatejump'));
+const NewHomeAbout = React.lazy(() => import('@/components/NewHomePageAbout'));
+const NewMblServices2 = React.lazy(() => import('@/components/NewMblServices2'));
+const ServisesWhy = React.lazy(() => import("@/components/ServisesWhy"));
+const ServicesPortfolio = React.lazy(() => import('@/components/ServicesPortfolio'));
+const Newsuccess = React.lazy(() => import('@/components/NewMblSuccess'));
+const NewHomeGlobal = React.lazy(() => import("@/components/NewHomeGlobal"));
+const Homenextproject2 = React.lazy(() => import("@/components/Homenextproject2"));
+const Technologieswe = React.lazy(() => import("@/components/NewMblTechnologiesWe"));
+const ServicesFaqs = React.lazy(() => import('@/components/ServicesFaqs'));
+const Contact2 = React.lazy(() => import("@/components/Contact2"));
+const Awards = React.lazy(() => import("@/components/Awards"));
 //Icons 
-import icon23 from '../public/images/fymobile/1.png'
-import icon24 from '../public/images/fymobile/2.png'
-import icon25 from '../public/images/fymobile/3.png'
-import icon26 from '../public/images/fymobile/4.png'
-import icon27 from '../public/images/fymobile/5.png'
-import icon28 from '../public/images/fymobile/6.png'
+const icon23 = await import('../public/images/fymobile/1.png');
+const icon24 = await import('../public/images/fymobile/2.png');
+const icon25 = await import('../public/images/fymobile/3.png');
+const icon26 = await import('../public/images/fymobile/4.png');
+const icon27 = await import('../public/images/fymobile/5.png');
+const icon28 = await import('../public/images/fymobile/6.png');
 
 
 export default function mobileApplication() {

@@ -1,3 +1,4 @@
+import React from 'react';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import Modal from 'react-bootstrap/Modal';
@@ -6,17 +7,17 @@ import '@/styles/globals.css'
 //
 import styles from '@/styles/Header.module.css'
 //
-import Header from '@/components/Header';
-import Headerlp from '@/components/Headerlp';
-import Footernewfy from '@/components/Footernewfydesign';
-import Footernewlp from '@/components/Footernewlp';
-import Cursor from "@/components/Cursor";
-import Footernewdesign from '@/components/Footernewdesign';
-import Headerlphome from '@/components/Headerlphome';
-import EcommerceBanner from '@/components/EcommerceBanner';
-import EcommerceFooter from '@/components/EcommerceFooter';
+const Header = React.lazy(() => import('@/components/Header'));
+const Headerlp = React.lazy(() => import('@/components/Headerlp'));
+const Footernewfy = React.lazy(() => import('@/components/Footernewfydesign'));
+const Footernewlp = React.lazy(() => import('@/components/Footernewlp'));
+const Cursor = React.lazy(() => import("@/components/Cursor"));
+const Footernewdesign = React.lazy(() => import('@/components/Footernewdesign'));
+const Headerlphome = React.lazy(() => import('@/components/Headerlphome'));
+const EcommerceBanner = React.lazy(() => import('@/components/EcommerceBanner'));
+const EcommerceFooter = React.lazy(() => import('@/components/EcommerceFooter'));
 import Loader from '@/components/Loader';
-import ThanksGiving from '@/components/ThanksGiving';
+const ThanksGiving = React.lazy(() => import('@/components/ThanksGiving'));
 
 
 export default function App({ Component, pageProps }) {
@@ -26,7 +27,7 @@ export default function App({ Component, pageProps }) {
   // =======================================
   const [imagesLoaded, setImagesLoaded] = useState(false);
   useEffect(() => {
-    const delay = 5000;
+    const delay = 3000;
     const timeoutId = setTimeout(() => {
       setImagesLoaded(true);
     }, delay);

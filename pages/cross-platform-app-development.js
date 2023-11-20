@@ -1,36 +1,35 @@
 import Head from "next/head";
 import React from "react";
-import dynamic from "next/dynamic";
 //components
-import ServicesBanner from '@/components/ServicesBanner';
-import NewHomeAbout from '@/components/NewHomePageAbout';
-import Partnercross from "@/components/Partnercross";
-import ServicesMaintain from '@/components/ServicesMaintain';
-import NewAddress from '@/components/NewAddress';
-const Justbuildit = dynamic(() => import('@/components/Justbuildit'));
-import ServicesWho from '@/components/ServicesWho';
-import ServicesWhat from '@/components/ServicesWhat';
-import ServisesWhy from '@/components/ServisesWhy';
-import ServicesPortfolio from '@/components/ServicesPortfolio';
-import Capabilities from '@/components/Capabilities';
-import Newsuccess from '@/components/NewMblSuccess';
-import Technologieswe from '@/components/Technologieswe';
-import NewHomeGlobal from '@/components/NewHomeGlobal';
-import NewHomeSlider from '@/components/NewHomeSlider';
-import Homenextproject from '@/components/Homenextproject';
-import ServicesFaqs from '@/components/ServicesFaqs';
-import HomeLocation from '@/components/HomeLocation';
+const ServicesBanner = React.lazy(() => import('@/components/ServicesBanner'));
+const NewHomeAbout = React.lazy(() => import('@/components/NewHomePageAbout'));
+const Partnercross = React.lazy(() => import("@/components/Partnercross"));
+const ServicesMaintain = React.lazy(() => import('@/components/ServicesMaintain'));
+const NewAddress = React.lazy(() => import('@/components/NewAddress'));
+const Justbuildit = React.lazy(() => import('@/components/Justbuildit'));
+const ServicesWho = React.lazy(() => import('@/components/ServicesWho'));
+const ServicesWhat = React.lazy(() => import('@/components/ServicesWhat'));
+const ServisesWhy = React.lazy(() => import('@/components/ServisesWhy'));
+const ServicesPortfolio = React.lazy(() => import('@/components/ServicesPortfolio'));
+const Capabilities = React.lazy(() => import('@/components/Capabilities'));
+const Newsuccess = React.lazy(() => import('@/components/NewMblSuccess'));
+const Technologieswe = React.lazy(() => import('@/components/Technologieswe'));
+const NewHomeGlobal = React.lazy(() => import('@/components/NewHomeGlobal'));
+const NewHomeSlider = React.lazy(() => import('@/components/NewHomeSlider'));
+const Homenextproject = React.lazy(() => import('@/components/Homenextproject'));
+const ServicesFaqs = React.lazy(() => import('@/components/ServicesFaqs'));
+const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 //images
-import BannerImage from "@/public/images/cross/crossplatform.png"
-import WhoImage from "@/public/images/cross/who_image.png"
-import WhatImage from "@/public/images/cross/what_Image.png"
+const BannerImage = await import("@/public/images/cross/crossplatform.png");
+const WhoImage = await import("@/public/images/cross/who_image.png");
+const WhatImage = await import("@/public/images/cross/what_Image.png");
 //icons 
-import icon23 from '../public/images/fyicons/19.png'
-import icon24 from '../public/images/fyicons/20.png'
-import icon25 from '../public/images/fyicons/21.png'
-import icon26 from '../public/images/fyicons/22.png'
-import icon27 from '../public/images/fyicons/23.png'
-import icon28 from '../public/images/fyicons/24.png'
+const icon23 = await import('../public/images/fyicons/19.png');
+const icon24 = await import('../public/images/fyicons/20.png');
+const icon25 = await import('../public/images/fyicons/21.png');
+const icon26 = await import('../public/images/fyicons/22.png');
+const icon27 = await import('../public/images/fyicons/23.png');
+const icon28 = await import('../public/images/fyicons/24.png');
 
 
 export default function gamedevelopmentcompany() {
@@ -153,12 +152,12 @@ export default function gamedevelopmentcompany() {
             },
           ]
         }
-      appContent4={[]}
-                appContent5={[]}
-                appContent6={[]}
-                appContent7={[]}
-            />
-            <NewAddress />
+        appContent4={[]}
+        appContent5={[]}
+        appContent6={[]}
+        appContent7={[]}
+      />
+      <NewAddress />
       <Justbuildit />
       <ServicesWho
         assignClass="cross"
@@ -213,40 +212,40 @@ export default function gamedevelopmentcompany() {
           ]
         }
       />
-      <ServicesPortfolio 
-                title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
-            />
+      <ServicesPortfolio
+        title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
+      />
       <Capabilities />
       <Newsuccess
         assignClass="spacing"
         subtitle="Ready For Success?"
-                maintitle="Brace Yourself for What Happens Next"
-                successSteps={
-                    [
-                        {
-                            number: '01',
-                            title: 'Talk To Our Experts',
-                            text: 'Contact us without obligation by email or phone and secure your free consultation.',
-                            buttonText: 'Connect Now!',
-                            link: '#',
-                        },
-                        {
-                            number: '02',
-                            title: 'Get A Quote',
-                            text: 'Get an exact cost breakdown structure of your app.',
-                            buttonText: 'Chat Now!',
-                            link: '#',
-                        },
-                        {
-                            number: '03',
-                            title: 'Build An MVP',
-                            text: 'Start your app development journey with no-obligation consultation via email and phone.',
-                            buttonText: 'Call Now!',
-                            link: '#',
-                        },
-                    ]
-                }
-            />
+        maintitle="Brace Yourself for What Happens Next"
+        successSteps={
+          [
+            {
+              number: '01',
+              title: 'Talk To Our Experts',
+              text: 'Contact us without obligation by email or phone and secure your free consultation.',
+              buttonText: 'Connect Now!',
+              link: '#',
+            },
+            {
+              number: '02',
+              title: 'Get A Quote',
+              text: 'Get an exact cost breakdown structure of your app.',
+              buttonText: 'Chat Now!',
+              link: '#',
+            },
+            {
+              number: '03',
+              title: 'Build An MVP',
+              text: 'Start your app development journey with no-obligation consultation via email and phone.',
+              buttonText: 'Call Now!',
+              link: '#',
+            },
+          ]
+        }
+      />
       <section className='spacingtb1'>
         <Technologieswe />
       </section>

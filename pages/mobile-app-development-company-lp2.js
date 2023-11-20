@@ -1,30 +1,24 @@
 import Head from 'next/head'
 import React from 'react';
-import dynamic from 'next/dynamic';
-import Technologieslp from '@/components/Technologieslp';
-import NewFaqslp from '@/components/NewFaqslp';
-import HomeLocationlp from '@/components/HomeLocationlp';
-import Bannerlp from '@/components/Bannerlp';
-import Justbuilditlp from '@/components/Justbuilditlp';
-import ProjectProcesslp from '@/components/ProjectProcesslp';
-import Globallp from '@/components/Globallp';
-import Link from 'next/link'
 import stylesjust from '@/styles/Justbuilditlp.module.css'
-//Icons 
-import Nothing from '@/components/Nothing';
-import Transformideas from '@/components/Transformideas';
-import Formnewlp2 from '@/components/Formnewlp2';
-import NewMaintainlp from '@/components/NewMaintainlp';
-import Startups from '@/components/Startups';
-import Wework from '@/components/Wework';
-import Bannerlp2 from '@/components/Bannerlp2';
-import Formlp2 from '@/components/Formlp2';
-import Nothinglp2 from '@/components/Nothinglp2';
+//
+const Bannerlp2 = React.lazy(() => import('@/components/Bannerlp2'));
+const Formlp2 = React.lazy(() => import('@/components/Formlp2'));
+const Nothinglp2 = React.lazy(() => import('@/components/Nothinglp2'));
+const NewMaintainlp = React.lazy(() => import('@/components/NewMaintainlp'));
+const Wework = React.lazy(() => import('@/components/Wework'));
+const Technologieslp = React.lazy(() => import('@/components/Technologieslp'));
+const Globallp = React.lazy(() => import('@/components/Globallp'));
+const Startups = React.lazy(() => import('@/components/Startups'));
+const ProjectProcesslp = React.lazy(() => import('@/components/ProjectProcesslp'));
+const Justbuilditlp = React.lazy(() => import('@/components/Justbuilditlp'));
+const Transformideas = React.lazy(() => import('@/components/Transformideas'));
+const Formnewlp2 = React.lazy(() => import('@/components/Formnewlp2'));
+const NewFaqslp = React.lazy(() => import('@/components/NewFaqslp'));
+const HomeLocationlp = React.lazy(() => import('@/components/HomeLocationlp'));
+
 
 export default function gamedevelopmentcompany() {
-
-
-
 
     return (
         <>
@@ -38,30 +32,23 @@ export default function gamedevelopmentcompany() {
 
             <Bannerlp2
                 newHomeBgprops='newHomeBg'
-
             />
 
             <Formlp2 />
-
-
 
             <Nothinglp2
                 Nothing='nothing1'
             />
 
-
             <NewMaintainlp />
 
             <Wework
                 wework='wework'
-
             />
 
             <Technologieslp />
 
             <Globallp />
-
-
 
             <Startups
                 startups='startups'
@@ -70,8 +57,6 @@ export default function gamedevelopmentcompany() {
             <ProjectProcesslp
                 processclass='process1'
             />
-
-
 
             <Justbuilditlp
                 title={
@@ -83,26 +68,18 @@ export default function gamedevelopmentcompany() {
                     <>
                         <h3 className={stylesjust.develop}>Design, Develop, and Grow with BitsWits.</h3>
                     </>
-
                 }
 
                 slide='slide2'
-
             />
 
             <Transformideas
                 transform='transform'
             />
 
-
-
-
             <Formnewlp2 />
             <NewFaqslp />
-
             <HomeLocationlp />
-
-
         </>
     )
 }

@@ -1,14 +1,13 @@
 import Head from 'next/head'
 import React from 'react';
-import dynamic from 'next/dynamic';
-import NewHomeAbout from '@/components/NewHomePageAbout2';
-import Homenextproject from '@/components/Homenextproject';
-import Capabilities from '@/components/Capabilities';
-import NewBannerabout from '@/components/NewBannerabout';
-import Bullet2dproofgameabout from '@/components/Bullet2dproofgameabout';
-import HomeLocation from '@/components/HomeLocation';
-//components
-const Justbuildit = dynamic(() => import('@/components/Justbuildit2'));
+
+const NewBannerabout = React.lazy(() => import('@/components/NewBannerabout'));
+const Justbuildit = React.lazy(() => import('@/components/Justbuildit2'));
+const NewHomeAbout = React.lazy(() => import('@/components/NewHomePageAbout2'));
+const Bullet2dproofgameabout = React.lazy(() => import('@/components/Bullet2dproofgameabout'));
+const Capabilities = React.lazy(() => import('@/components/Capabilities'));
+const Homenextproject = React.lazy(() => import('@/components/Homenextproject'));
+const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 
 
 export default function Home() {
@@ -27,7 +26,7 @@ export default function Home() {
 
             <NewBannerabout />
             <Justbuildit />
-            <NewHomeAbout 
+            <NewHomeAbout
                 title="Our Client’s Feedback Has Been"
                 subtitle="Nothing Short Of Amazing!"
             />

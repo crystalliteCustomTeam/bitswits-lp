@@ -1,28 +1,27 @@
 import Head from 'next/head'
 import React from 'react';
-import Technologieslp from '@/components/Technologieslp';
-import NewFaqslp from '@/components/NewFaqslp';
-import HomeLocationlp from '@/components/HomeLocationlp';
-import Bannerlp from '@/components/Bannerlp';
-import Justbuilditlp from '@/components/Justbuilditlp';
-import ProjectProcess from '@/components/ProjectProcess';
-import Globallp from '@/components/Globallp';
-import styles from "@/styles/bannerlp.module.css";
 import Link from 'next/link'
+import styles from "@/styles/bannerlp.module.css";
 import stylesjust from '@/styles/Justbuilditlp.module.css'
+//
+const Bannerlp = React.lazy(() => import('@/components/Bannerlp'));
+const People = React.lazy(() => import('@/components/People'));
+const HomeBannerSliderlp = React.lazy(() => import('@/components/HomeBannerSliderlp'));
+const Nothing = React.lazy(() => import('@/components/Nothing'));
+const Transform = React.lazy(() => import('@/components/Transform'));
+const Expertapp = React.lazy(() => import('@/components/Expertapp'));
+const ProjectProcess = React.lazy(() => import('@/components/ProjectProcess'));
+const Technologieslp = React.lazy(() => import('@/components/Technologieslp'));
+const Justbuilditlp = React.lazy(() => import('@/components/Justbuilditlp'));
+const Globallp = React.lazy(() => import('@/components/Globallp'));
+const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
+const NewFaqslp = React.lazy(() => import('@/components/NewFaqslp'));
+const HomeLocationlp = React.lazy(() => import('@/components/HomeLocationlp'));
 //Icons 
-import BannerImage from "@/public/images/bannermlp/bannermalp.png"
-import People from '@/components/People';
-import HomeBannerSliderlp from '@/components/HomeBannerSliderlp';
-import Nothing from '@/components/Nothing';
-import Transform from '@/components/Transform';
-import Expertapp from '@/components/Expertapp';
-import Formnewlp from '@/components/Formnewlp';
+const BannerImage = await import("@/public/images/bannermlp/bannermalp.png");
+
 
 export default function gamedevelopmentcompany() {
-
-
-
 
     return (
         <>
@@ -33,20 +32,17 @@ export default function gamedevelopmentcompany() {
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
-
             <Bannerlp
                 title={<>
                     <h3 className={`${styles.develop} text-center f-50 font-bold mb-2`}>
                         Mobile App Development Company
                     </h3>
-
                 </>}
                 para={
                     <>
                         <p className='white center mb-3'>We deliver mobile app experiences that get your mobile app trending on the app stores.</p>
                     </>
                 }
-
                 btn2={
                     <>
                         <div className={styles.pont}>
@@ -54,12 +50,8 @@ export default function gamedevelopmentcompany() {
                         </div>
                     </>
                 }
-
                 imgnew={BannerImage}
-
                 newHomeBgprops='newHomeBg'
-
-
             />
 
             <People
@@ -80,8 +72,6 @@ export default function gamedevelopmentcompany() {
                 expertapp='expertapp'
             />
 
-
-
             <ProjectProcess
                 processclass='process'
             />
@@ -98,19 +88,14 @@ export default function gamedevelopmentcompany() {
                     <>
                         <h3 className={stylesjust.develop}>Design, Develop, and Grow with BitsWits.</h3>
                     </>
-
                 }
 
                 slide='slide1'
-
             />
             <Globallp />
             <Formnewlp />
             <NewFaqslp />
-
             <HomeLocationlp />
-
-
         </>
     )
 }
