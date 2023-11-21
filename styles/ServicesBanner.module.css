@@ -346,6 +346,10 @@
   padding: 40px 40px 20px;
 }
 
+.strpImg img{
+  filter: brightness(2);
+}
+
 /* =========================================== */
 
 @media screen and (max-width: 1920px) {

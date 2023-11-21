@@ -36,7 +36,8 @@
 }
 
 .app {
-  background-image: url(../public/newHomePage/images/newMaintain1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePage/images/newMaintain1.png);
   background-position: center;
   background-size: cover;
   padding-top: 4px;
@@ -49,7 +50,8 @@
 }
 
 .app1 {
-  background-image: url(../public/newHomePage/images/newMaintain2.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePage/images/newMaintain2.png);
   background-position: center;
   background-size: cover;
   padding-top: 4px;
@@ -58,7 +60,8 @@
 }
 
 .app2 {
-  background-image: url(../public/newHomePage/images/newMaintain3.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePage/images/newMaintain3.png);
   background-position: center;
   background-size: cover;
   padding-top: 4px;
@@ -136,7 +139,8 @@
 }
 
 .app3 {
-  background-image: url(../public/newHomePage/images/newMaintain4.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePage/images/newMaintain4.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -186,7 +190,8 @@
 }
 
 .app4 {
-  background-image: url(../public/newHomePage/images/newMaintain5.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePage/images/newMaintain5.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -199,7 +204,8 @@
 }
 
 .app7 {
-  background-image: url(../public/newHomePage/images/newMaintain10.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePage/images/newMaintain10.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -233,7 +239,8 @@
 }
 
 .app5 {
-  background-image: url(../public/newHomePage/images/newMaintain6.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePage/images/newMaintain6.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -246,7 +253,8 @@
 }
 
 .app6 {
-  background-image: url(../public/newHomePage/images/newMaintain8.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePage/images/newMaintain8.png);
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -264,6 +272,8 @@
 .custom {
   width: 75%;
 }
+
+/* =============================================== */
 
 @media screen and (min-width: 1500px) {
   .app3 {
@@ -536,13 +546,6 @@
     border-radius: 15px;
   }
 
-  .app1,
-  .app,
-  .app2 {
-    height: 460px;
-    background-size: contain;
-  }
-
   .newHomeBg h1 {
     font-size: 30px;
   }
@@ -551,5 +554,109 @@
     height: 340px;
     border: 2px solid #4a78ef;
     border-radius: 15px;
+  }
+
+  .mblBuild {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 100%;
+    overflow: scroll;
+    margin-bottom: 20px;
+  }
+
+  .mblBuild .app,
+  .mblBuild .app1,
+  .mblBuild .app2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 463px;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .mblBuild .cardContent {
+    width: 330px;
+    margin-bottom: 10px;
+  }
+
+  .mblBuild .cardContent p {
+    text-overflow: unset;
+    display: unset;
+    -webkit-line-clamp: unset;
+    -webkit-box-orient: unset;
+    max-width: 100%;
+  }
+
+  .mblBuild .app2 {
+    padding: 20px 183px;
+    position: relative;
+  }
+
+  .mblBuild .app2 .cardContent {
+    position: absolute;
+    left: 20px;
+  }
+
+  .mblBuild2 {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 100%;
+    overflow: scroll;
+    margin-top: 20px;
+  }
+
+  .mblBuild2 .app4,
+  .mblBuild2 .app5 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 290px;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .mblBuild2 .cardContent {
+    width: 330px;
+    margin-bottom: 0px;
+    padding: 0 10px;
+  }
+
+  .mblBuild2 .cardContent p {
+    text-overflow: unset;
+    display: unset;
+    -webkit-line-clamp: unset;
+    -webkit-box-orient: unset;
+    max-width: 100%;
+  }
+
+  .mblBuild2 .app6,
+  .mblBuild2 .app7 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 290px;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .mblBuild2 .pick {
+    width: 330px;
+    margin-bottom: 10px;
+  }
+
+  .mblBuild2 .possibilities,
+  .mblBuild2 .contentPara,
+  .mblBuild2 .para9 {
+    max-width: 100%;
+    margin-bottom: 0;
   }
 }

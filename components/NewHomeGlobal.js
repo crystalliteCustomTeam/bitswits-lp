@@ -15,23 +15,9 @@ import bestglobal9 from '../public/images/bestglobal/9.png'
 import bestglobal10 from '../public/images/bestglobal/10.png'
 import bestglobal11 from '../public/images/bestglobal/11.png'
 import bestgloba12 from '../public/images/bestglobal/12.png'
-//
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 
 const NewHomeGlobal = (props) => {
-
-    let lctonSlider = {
-        dots: true,
-        arrows: false,
-        autoplay: true,
-        infinite: true,
-        adaptiveHeight: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-    };
 
     return (
         <>
@@ -64,20 +50,20 @@ const NewHomeGlobal = (props) => {
                                 </div>
                             </div>
 
-                            <Slider {...lctonSlider} className={styles.lctnslide}>
-                                <Image quality={75} src={bestglobal1} className='img-fluid' alt='BitsWits' />
-                                <Image quality={75} src={bestglobal2} className='img-fluid' alt='BitsWits' />
-                                <Image quality={75} src={bestglobal3} className='img-fluid' alt='BitsWits' />
-                                <Image quality={75} src={bestgloba4} className='img-fluid' alt='BitsWits' />
-                                <Image quality={75} src={bestglobal5} className='img-fluid' alt='BitsWits' />
-                                <Image quality={75} src={bestglobal6} className='img-fluid' alt='BitsWits' />
-                                <Image quality={75} src={bestglobal7} className='img-fluid' alt='BitsWits' />
-                                <Image quality={75} src={bestgloba8} className='img-fluid' alt='BitsWits' />
-                                <Image quality={75} src={bestglobal9} className='img-fluid' alt='BitsWits' />
-                                <Image quality={75} src={bestglobal10} className='img-fluid' alt='BitsWits' />
-                                <Image quality={75} src={bestglobal11} className='img-fluid' alt='BitsWits' />
-                                <Image quality={75} src={bestgloba12} className='img-fluid' alt='BitsWits' />
-                            </Slider>
+                            <div className={styles.lctnslide}>
+                                <Image quality={75} src={bestglobal1} className='img-fluid w-25' alt='BitsWits' />
+                                <Image quality={75} src={bestglobal2} className='img-fluid w-25' alt='BitsWits' />
+                                <Image quality={75} src={bestglobal3} className='img-fluid w-25' alt='BitsWits' />
+                                <Image quality={75} src={bestgloba4} className='img-fluid w-25' alt='BitsWits' />
+                                <Image quality={75} src={bestglobal5} className='img-fluid w-25' alt='BitsWits' />
+                                <Image quality={75} src={bestglobal6} className='img-fluid w-25' alt='BitsWits' />
+                                <Image quality={75} src={bestglobal7} className='img-fluid w-25' alt='BitsWits' />
+                                <Image quality={75} src={bestgloba8} className='img-fluid w-25' alt='BitsWits' />
+                                <Image quality={75} src={bestglobal9} className='img-fluid w-25' alt='BitsWits' />
+                                <Image quality={75} src={bestglobal10} className='img-fluid w-25' alt='BitsWits' />
+                                <Image quality={75} src={bestglobal11} className='img-fluid w-25' alt='BitsWits' />
+                                <Image quality={75} src={bestgloba12} className='img-fluid w-25' alt='BitsWits' />
+                            </div>
                         </Col>
                         <Col xl={3}>
                         </Col>

@@ -38,7 +38,9 @@ export default function Home() {
             <Justbuildit />
             <NewHomeHear />
             <NewMaintain />
-            <NewHomeGlobal />
+            <NewHomeGlobal
+                assignClass="home"
+            />
             <Capabilities />
             <NewHomeSlider />
             <Technologieswe />

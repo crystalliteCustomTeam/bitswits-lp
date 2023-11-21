@@ -6,14 +6,13 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //images
-import banImg1 from '../public/newHomePage/images/slider1.png'
-import banImg2 from '../public/newHomePage/images/slider2.png'
-import banImg3 from '../public/newHomePage/images/slider3.png'
-import banImg4 from '../public/newHomePage/images/slider4.png'
-import banImg5 from '../public/newHomePage/images/slider5.png'
-import banImg6 from '../public/newHomePage/images/slider6.png'
-import banImg7 from '../public/newHomePage/images/slider7.png'
-import banImg8 from '../public/newHomePage/images/slider8.png'
+import icon20 from '../public/newHomePageImages/nexticon/1.png'
+import icon30 from '../public/newHomePageImages/nexticon/2.png'
+import icon40 from '../public/newHomePageImages/nexticon/3.png'
+import icon50 from '../public/newHomePageImages/nexticon/5.png'
+import icon60 from '../public/newHomePageImages/nexticon/6.png'
+import icon70 from '../public/newHomePageImages/nexticon/7.png'
+import icon80 from '../public/newHomePageImages/nexticon/8.png'
 
 
 export default function HomeBannerSlider() {
@@ -50,28 +49,25 @@ export default function HomeBannerSlider() {
             <section className={styles.BannerSlider}>
                 <Slider {...bannerslider} className={`${styles.slider} newLogoSlide`}>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg1} className="img-fluid w-75" />
+                        <Image alt="BitsWits" src={icon20} className="img-fluid w-50 mx-auto" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg2} className="img-fluid w-75" />
+                        <Image alt="BitsWits" src={icon30} className="img-fluid w-50 mx-auto" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg3} className="img-fluid w-50" />
+                        <Image alt="BitsWits" src={icon80} className="img-fluid w-25 mx-auto" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg4} className="img-fluid w-75" />
+                        <Image alt="BitsWits" src={icon40} className="img-fluid w-50 mx-auto" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg5} className="img-fluid w-75" />
+                        <Image alt="BitsWits" src={icon50} className="img-fluid w-50 mx-auto" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg6} className="img-fluid w-50" />
+                        <Image alt="BitsWits" src={icon60} className="img-fluid w-50 mx-auto" />
                     </div>
-                    <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg7} className="img-fluid w-75" />
-                    </div>
-                    <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg8} className="img-fluid w-50" />
+                    <div className={`${styles.strpImg} ${styles.minImg}`}>
+                        <Image alt="BitsWits" src={icon70} className="img-fluid w-25 mx-auto" />
                     </div>
                 </Slider>
             </section>

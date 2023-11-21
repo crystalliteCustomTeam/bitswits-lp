@@ -51,21 +51,21 @@ const Justbuildit = () => {
                     </Row>
                 </Container>
 
-                <Slider {...bannerslider} className='mt-5'>
+                <Slider {...bannerslider} className='mt-5 jstBuild'>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg1} className="img-fluid" />
+                        <Image alt="BitsWits" src={banImg1} className="img-fluid w-100" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg2} className="img-fluid" />
+                        <Image alt="BitsWits" src={banImg2} className="img-fluid w-100" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg3} className="img-fluid" />
+                        <Image alt="BitsWits" src={banImg3} className="img-fluid w-100" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg4} className="img-fluid" />
+                        <Image alt="BitsWits" src={banImg4} className="img-fluid w-100" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={banImg5} className="img-fluid" />
+                        <Image alt="BitsWits" src={banImg5} className="img-fluid w-100" />
                     </div>
                 </Slider>
             </section>

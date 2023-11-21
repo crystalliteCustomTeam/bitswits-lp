@@ -71,4 +71,18 @@
   .btn_txt {
     font-size: 19px;
   }
+
+  .whyBox .whyImg {
+    top: -15px;
+    left: -15px;
+    padding: 15px 15px;
+  }
+
+  .whyBox .whyImg img {
+    filter: brightness(500);
+  }
+
+  .whyBox {
+    height: 300px;
+  }
 }

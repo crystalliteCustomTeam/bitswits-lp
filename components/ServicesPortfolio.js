@@ -66,11 +66,16 @@ const ServicesPortfolio = (props) => {
                                 </div>
                             </Col>
                         ))}
-                        <Col lg={12}>
+                        <Col lg={12} className='d-none d-lg-block'>
                             <div className="d-flex justify-content-center mt-5">
                                 <button onClick={toggleShowAll} className={`${styles.sucssBtn} ${styles.sucssBtn2}`}>
                                     {showAll ? "Show Less" : "Show More"}
                                 </button>
+                            </div>
+                        </Col>
+                        <Col lg={12} className='d-block d-lg-none'>
+                            <div className="d-flex justify-content-center mt-5">
+                                <Link href="/our-work" className={`${styles.sucssBtn} ${styles.sucssBtn2}`}>Show More</Link>
                             </div>
                         </Col>
                     </Row>

@@ -60,7 +60,11 @@
 
 .BannerSlider {
   padding-bottom: 15px;
-  margin-top: -150px;
+  margin-top: -110px;
+}
+
+.strpImg img{
+  filter: brightness(3);
 }
 
 

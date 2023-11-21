@@ -1274,4 +1274,55 @@
     border-radius: 16px;
     border: 3px solid #4a78ef;
   }
+
+  .mblBuild1 {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 100%;
+    overflow: scroll;
+  }
+
+  .mblBuild1 .app,
+  .mblBuild1 .app1,
+  .mblBuild1 .app2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 463px;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .mblBuild1 .cardContent {
+    width: 330px;
+    margin-bottom: 10px;
+  }
+
+  .mblBuild2 {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 100%;
+    overflow: scroll;
+  }
+
+  .mblBuild2 .app4,
+  .mblBuild2 .app5 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 305px;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .mblBuild2 .cardContent {
+    width: 330px;
+    margin-bottom: 10px;
+  }
 }
