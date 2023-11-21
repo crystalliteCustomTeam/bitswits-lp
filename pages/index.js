@@ -1,7 +1,7 @@
-import NewPopup from '@/components/NewPopup';
 import Head from 'next/head'
 import React from 'react';
 //components
+const NewPopup = React.lazy(() => import('@/components/NewPopup'));
 const HomeBanner = React.lazy(() => import('@/components/HomeBanner'));
 const NewHomeAbout = React.lazy(() => import('@/components/NewHomePageAbout'));
 const NewHomeWho = React.lazy(() => import('@/components/NewHomeWho'));
@@ -29,6 +29,7 @@ export default function Home() {
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
+            <NewPopup />
             <HomeBanner />
             <NewHomeAbout
                 title="Our Client’s Feedback Has Been"

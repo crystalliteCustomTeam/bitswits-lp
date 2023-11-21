@@ -55,7 +55,7 @@ const NewPopup = () => {
                                             </Link>
                                         </Col>
                                     </Row>
-                                    <button className='font15 bg-none' onClick={handleClosePopup}>
+                                    <button className={`${styles.popBtn} font15`} onClick={handleClosePopup}>
                                         <Image src={CloseImage} className={styles.closeBtn} />
                                     </button>
                                 </div>
