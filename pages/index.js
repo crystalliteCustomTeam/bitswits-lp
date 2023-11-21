@@ -1,3 +1,4 @@
+import NewPopup from '@/components/NewPopup';
 import Head from 'next/head'
 import React from 'react';
 //components
