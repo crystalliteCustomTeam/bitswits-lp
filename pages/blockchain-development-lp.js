@@ -1,19 +1,19 @@
 import Head from 'next/head'
 import styles from '@/styles/blockchain/Home.module.css'
 //
-const Banners = React.lazy(() => import('@/components/blockchain/Banners'));
-const Logoslide = React.lazy(() => import('../components/blockchain/LogoSlide'));
-const LeftContent = React.lazy(() => import('@/components/blockchain/LeftContent'));
-const Blockchain = React.lazy(() => import('@/components/blockchain/Blockchain'));
-const Revolution = React.lazy(() => import('@/components/blockchain/Revolution'));
-const NextGen = React.lazy(() => import('@/components/blockchain/NextGen'));
-const Standing = React.lazy(() => import('@/components/blockchain/Standing'));
-const Expertise = React.lazy(() => import('@/components/blockchain/Expertise'));
-const Process = React.lazy(() => import('@/components/blockchain/Process'));
-const WhyChooseUs = React.lazy(() => import('@/components/blockchain/WhyChooseUs'));
-const Contact = React.lazy(() => import('@/components/Contact'));
+import Banners from '@/components/blockchain/Banners';
+import Logoslide from '../components/blockchain/LogoSlide';
+import LeftContent from '@/components/blockchain/LeftContent';
+import Blockchain from '@/components/blockchain/Blockchain';
+import Revolution from '@/components/blockchain/Revolution';
+import NextGen from '@/components/blockchain/NextGen';
+import Standing from '@/components/blockchain/Standing';
+import Expertise from '@/components/blockchain/Expertise';
+import Process from '@/components/blockchain/Process';
+import WhyChooseUs from '@/components/blockchain/WhyChooseUs';
+import Contact from '@/components/Contact';
 //
-const typeofbooks = await import('@/public/blockchain/images/logo-1.png');
+import typeofbooks from '@/public/blockchain/images/logo-1.png';
 
 
 export default function Home() {
