@@ -32,13 +32,15 @@ export default function HomeBannerSlider() {
             {
                 breakpoint: 991,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 4,
+                    slidesToScroll: 2,
                 }
             },
             {
                 breakpoint: 767,
                 settings: {
                     slidesToShow: 2,
+                    slidesToScroll: 1,
                 }
             }
         ]
@@ -49,25 +51,25 @@ export default function HomeBannerSlider() {
             <section className={styles.BannerSlider}>
                 <Slider {...bannerslider} className={`${styles.slider} newLogoSlide`}>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={icon20} className="img-fluid w-50 mx-auto" />
+                        <Image alt="BitsWits" src={icon20} className="img-fluid mx-auto" />
                     </div>
                     <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={icon30} className="img-fluid w-50 mx-auto" />
-                    </div>
-                    <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={icon80} className="img-fluid w-25 mx-auto" />
-                    </div>
-                    <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={icon40} className="img-fluid w-50 mx-auto" />
-                    </div>
-                    <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={icon50} className="img-fluid w-50 mx-auto" />
-                    </div>
-                    <div className={styles.strpImg}>
-                        <Image alt="BitsWits" src={icon60} className="img-fluid w-50 mx-auto" />
+                        <Image alt="BitsWits" src={icon30} className="img-fluid mx-auto" />
                     </div>
                     <div className={`${styles.strpImg} ${styles.minImg}`}>
-                        <Image alt="BitsWits" src={icon70} className="img-fluid w-25 mx-auto" />
+                        <Image alt="BitsWits" src={icon80} className="img-fluid mx-auto" />
+                    </div>
+                    <div className={styles.strpImg}>
+                        <Image alt="BitsWits" src={icon40} className="img-fluid mx-auto" />
+                    </div>
+                    <div className={styles.strpImg}>
+                        <Image alt="BitsWits" src={icon50} className="img-fluid mx-auto" />
+                    </div>
+                    <div className={styles.strpImg}>
+                        <Image alt="BitsWits" src={icon60} className="img-fluid mx-auto" />
+                    </div>
+                    <div className={`${styles.strpImg} ${styles.minImg}`}>
+                        <Image alt="BitsWits" src={icon70} className="img-fluid mx-auto" />
                     </div>
                 </Slider>
             </section>

@@ -32,14 +32,10 @@
   -webkit-mask-composite: xor;
 }
 
-@-moz-document url-prefix(){
-
-
-  .dev:before{
+@-moz-document url-prefix() {
+  .dev:before {
     -webkit-mask-composite: exclude;
   }
-  
-  
 }
 
 .get {
@@ -80,5 +76,10 @@
   .get {
     width: 100%;
     font-size: 14px;
+  }
+
+  .capomt {
+    padding-top: 10px;
+    padding-bottom: 50px;
   }
 }

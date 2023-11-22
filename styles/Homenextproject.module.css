@@ -43,6 +43,15 @@
   justify-content: center;
 }
 
+.strpImg img {
+  filter: brightness(2);
+  width: 50%;
+}
+
+.minImg img {
+  width: 25%;
+}
+
 @media screen and (max-width: 1200px) {
   .closing {
     display: flex;
@@ -95,6 +104,14 @@
 
   .closing {
     padding-bottom: 0;
+  }
+
+  .strpImg img {
+    width: 75%;
+  }
+
+  .minImg img {
+    width: 50%;
   }
 }
 

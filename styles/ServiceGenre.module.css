@@ -115,6 +115,12 @@
   }
 }
 
+@media screen and (max-width: 991px) {
+  .gameApp .which::after {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .which h2 {
     font-size: 30px;

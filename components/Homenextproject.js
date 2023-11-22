@@ -31,18 +31,16 @@ const Homenextproject = (props) => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 991,
         settings: {
           slidesToShow: 4,
           slidesToScroll: 2,
-          infinite: true,
-
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 767,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
         }
       }
@@ -70,25 +68,25 @@ const Homenextproject = (props) => {
 
         <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-5`}>
           <div className={styles.strpImg}>
-            <Image alt="BitsWits" src={icon3} className="img-fluid mx-auto w-50" />
+            <Image alt="BitsWits" src={icon3} className="img-fluid mx-auto" />
+          </div>
+          <div className={`${styles.strpImg} ${styles.minImg}`}>
+            <Image alt="BitsWits" src={icon8} className="img-fluid mx-auto" />
           </div>
           <div className={styles.strpImg}>
-            <Image alt="BitsWits" src={icon8} className="img-fluid mx-auto w-25" />
+            <Image alt="BitsWits" src={icon4} className="img-fluid mx-auto" />
           </div>
           <div className={styles.strpImg}>
-            <Image alt="BitsWits" src={icon4} className="img-fluid mx-auto w-50" />
+            <Image alt="BitsWits" src={icon5} className="img-fluid mx-auto" />
           </div>
           <div className={styles.strpImg}>
-            <Image alt="BitsWits" src={icon5} className="img-fluid mx-auto w-50" />
+            <Image alt="BitsWits" src={icon6} className="img-fluid mx-auto" />
+          </div>
+          <div className={`${styles.strpImg} ${styles.minImg}`}>
+            <Image alt="BitsWits" src={icon7} className="img-fluid mx-auto" />
           </div>
           <div className={styles.strpImg}>
-            <Image alt="BitsWits" src={icon6} className="img-fluid mx-auto w-50" />
-          </div>
-          <div className={styles.strpImg}>
-            <Image alt="BitsWits" src={icon7} className="img-fluid mx-auto w-25" />
-          </div>
-          <div className={styles.strpImg}>
-            <Image alt="BitsWits" src={icon2} className="img-fluid mx-auto w-50" />
+            <Image alt="BitsWits" src={icon2} className="img-fluid mx-auto" />
           </div>
         </Slider>
       </section>

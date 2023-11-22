@@ -177,7 +177,7 @@ export default function gamedevelopmentcompany() {
             />
             <Capabilitiesnft />
             <ServiceEngage
-                addClass="game2d"
+                addClass="gameNft"
                 subTitle="Hire Developers"
                 title={<> Ready to Unleash Your NFT Gaming <br /> Potential? Choose BitsWits! </>}
                 main={main}

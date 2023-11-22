@@ -115,7 +115,7 @@ const ServicesMaintain = (props) => {
             <section className={` ${styles.newHomeBg} ${styles[props.assignClass]} combo d-block d-md-none`}>
                 <Container>
                     <Row className='g-3'>
-                        <Col lg={10} className='mx-auto mb-4'>
+                        <Col lg={10} className='mx-auto'>
                             <h3 className={`f-20 font-bold text-white text-center mb-0`}>{props.subtitle}</h3>
                             <h2 className='text-white font50 font-bold text-center'>
                                 {props.title0}

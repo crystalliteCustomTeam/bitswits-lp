@@ -1132,7 +1132,11 @@
 
   .newHomeBg {
     padding-top: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+  }
+
+  .gameNft{
+    padding-bottom: 0;
   }
 
   .pick {
@@ -1196,7 +1200,7 @@
   }
 
   .app03 {
-    padding: 0px 10px;
+    padding: 5px 10px;
     height: 227px;
     background-size: contain;
   }
@@ -1214,6 +1218,10 @@
   .app04 h3 {
     text-align: center;
     font-size: 25px !important;
+  }
+
+  .app03 .cardContent {
+    margin-bottom: 0;
   }
 }
 
@@ -1275,7 +1283,8 @@
     border: 3px solid #4a78ef;
   }
 
-  .mblBuild1 {
+  .mblBuild1,
+  .mblBuild3 {
     display: flex;
     flex-wrap: nowrap;
     gap: 20px;
@@ -1283,6 +1292,9 @@
     overflow: scroll;
   }
 
+  .mblBuild3 .app05,
+  .mblBuild3 .app06,
+  .mblBuild3 .app07,
   .mblBuild1 .app,
   .mblBuild1 .app1,
   .mblBuild1 .app2 {
@@ -1296,19 +1308,24 @@
     padding: 20px;
   }
 
+  .mblBuild3 .cardContent,
   .mblBuild1 .cardContent {
     width: 330px;
     margin-bottom: 10px;
   }
 
-  .mblBuild2 {
+  /* ==================== */
+
+  .mblBuild2,
+  .mblBuild {
     display: flex;
     flex-wrap: nowrap;
     gap: 20px;
     width: 100%;
     overflow: scroll;
   }
-
+  .mblBuild .app01,
+  .mblBuild .app02,
   .mblBuild2 .app4,
   .mblBuild2 .app5 {
     background-repeat: no-repeat;
@@ -1321,6 +1338,7 @@
     padding: 20px;
   }
 
+  .mblBuild .cardContent,
   .mblBuild2 .cardContent {
     width: 330px;
     margin-bottom: 10px;

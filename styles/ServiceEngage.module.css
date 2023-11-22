@@ -334,4 +334,113 @@
     padding-right: 20px;
     margin-bottom: 50%;
   }
+
+  /* ============================== */
+
+  .game2d .forget {
+    margin-bottom: 20%;
+  }
+
+  .game2d .longline {
+    width: 100%;
+    padding-right: 20px;
+    margin-bottom: 75%;
+  }
+
+  .game2d .longline::before {
+    height: 400px;
+  }
+
+  .game2d .longline2 {
+    width: 100%;
+    padding-right: 20px;
+    margin-bottom: 15%;
+    height: 315px;
+  }
+
+  .game2d .longline2::before {
+    height: 310px;
+  }
+
+  .game2d .longline3 {
+    width: 100%;
+    margin-bottom: 70%;
+  }
+
+  .game2d .expertise img {
+    top: -50px;
+    right: -30px;
+  }
+
+  .game2d .longline2 .expertise img {
+    top: -70px;
+    left: 0;
+  }
+
+  .game2d .expertise1 img {
+    top: -40px;
+    right: -55px;
+  }
+
+  .game2d .longline1 .expertise1 img {
+    top: -100px;
+    left: -35px;
+  }
+
+  /* ============================== */
+
+  .gameNft .forget {
+    margin-bottom: 20%;
+  }
+
+  .gameNft .longline {
+    width: 100%;
+    padding-right: 20px;
+    margin-bottom: 75%;
+  }
+
+  .gameNft .longline::before {
+    height: 400px;
+  }
+
+  .gameNft .longline2 {
+    width: 100%;
+    padding-right: 20px;
+    margin-bottom: 15%;
+    height: 315px;
+  }
+
+  .gameNft .longline2::before {
+    height: 325px;
+  }
+
+  .gameNft .longline3 {
+    width: 100%;
+    margin-bottom: 80%;
+  }
+
+  .gameNft .longline3::before {
+    height: 425px;
+  }
+
+  .gameNft .expertise img {
+    top: -50px;
+    right: -30px;
+  }
+
+  .gameNft .longline2 .expertise img {
+    top: -70px;
+    left: 0;
+  }
+
+  .gameNft .expertise1 img {
+    top: -40px;
+    right: -55px;
+  }
+
+  .gameNft .longline1 .expertise1 img {
+    top: -100px;
+    left: -5px;
+  }
+
 }

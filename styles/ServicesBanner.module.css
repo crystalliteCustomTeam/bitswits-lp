@@ -346,8 +346,13 @@
   padding: 40px 40px 20px;
 }
 
-.strpImg img{
+.strpImg img {
   filter: brightness(2);
+  width: 50%;
+}
+
+.minImg img {
+  width: 25%;
 }
 
 /* =========================================== */
@@ -434,6 +439,37 @@
     padding-bottom: 0px;
     padding-top: 50px;
   }
+
+  .hybrid .banImg,
+  .flutter .banImg {
+    margin-top: 30px;
+  }
+
+  .custom .banImg,
+  .mobile .banImg,
+  .react .banImg {
+    margin-top: 30px;
+  }
+
+  .gameApp .banImg {
+    padding-bottom: 0px;
+  }
+
+  .game2d .banImg {
+    padding-bottom: 0px;
+  }
+
+  .game3d .banImg {
+    margin-top: 40px;
+  }
+
+  .gameNft .banImg {
+    margin-top: 40px;
+  }
+
+  .gameBlckChain .banImg {
+    padding-bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -491,5 +527,13 @@
   .appios {
     max-width: 370px;
     padding: 40px 25px;
+  }
+
+  .strpImg img {
+    width: 75%;
+  }
+
+  .minImg img {
+    width: 50%;
   }
 }

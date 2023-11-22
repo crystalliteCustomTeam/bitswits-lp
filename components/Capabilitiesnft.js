@@ -44,7 +44,7 @@ const Capabilitiesnft = () => {
                             <h3>On-Demand</h3>
                         </Col>
                         <Col xl={12}>
-                        <div className={styles.build}>
+                            <div className={styles.build}>
                                 <div>
                                     <h2>Creating Digital Magic: Tap Into the <br></br> Power of On-Demand NFT Game <br></br> Development</h2>
                                     <p className='white'>BitsWits combine the power of blockchain technology with digital gaming to create innovative and captivating experiences. We uphold the mission of bringing a new kind of entertainment to the world—one that is safe, secure, and exciting! Whether NFT games for mobile, PC, and console platforms, our games feature dynamic gameplay, stunning graphics, and immersive storylines that captivate players. With cutting-edge technology and unbeatable artistry, we are transforming gaming into an entirely new experience.</p>

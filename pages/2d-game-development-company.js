@@ -138,6 +138,8 @@ export default function gamedevelopmentcompany() {
                 Solution={Solution}
             />
             <ServiceGenre
+                subTitle="OUR SERVICES ARE WHERE INNOVATION MEETS PLAY"
+                title="What Genre Of Games Do We Create?"
                 sections={[
                     {
                         title: <> iOS 2D Game Development </>,

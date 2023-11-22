@@ -63,10 +63,14 @@
   margin-top: -110px;
 }
 
-.strpImg img{
+.strpImg img {
   filter: brightness(3);
+  width: 50%;
 }
 
+.minImg img {
+  width: 25%;
+}
 
 /* ======================================== */
 
@@ -167,5 +171,13 @@
   .secImage {
     width: 100%;
     max-height: 220px;
+  }
+
+  .strpImg img {
+    width: 75%;
+  }
+
+  .minImg img {
+    width: 50%;
   }
 }
