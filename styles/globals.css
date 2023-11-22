@@ -2614,6 +2614,14 @@ button {
   }
 } */
 
+.dropmap .accordion-item {
+
+  border: unset;
+  border-bottom: 1px solid #dee2e6;
+  border-radius: unset;
+}
+
+
 .getmodalvideo .modal-body {
   position: relative;
   flex: 1 1 auto;

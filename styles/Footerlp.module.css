@@ -1,5 +1,7 @@
 .footer {
   background-color: var(--b-color);
+  position: relative;
+    z-index: 2;
 }
 
 .footerNav {

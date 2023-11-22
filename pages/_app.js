@@ -14,7 +14,7 @@ import Headerlphome from '@/components/Headerlphome';
 import EcommerceBanner from '@/components/EcommerceBanner';
 import EcommerceFooter from '@/components/EcommerceFooter';
 import Loader from '@/components/Loader';
-
+import Headerproduct from '@/components/Headerproduct';
 
 export default function App({ Component, pageProps }) {
 
@@ -89,6 +89,8 @@ export default function App({ Component, pageProps }) {
   const newecommercepage = router.pathname == '/top-ecommerce-app-development-company';
   // =======================================
 
+  const mobileapplicationheader = router.pathname == '/mobile-application-header';
+
 
   return (
     <>
@@ -99,7 +101,10 @@ export default function App({ Component, pageProps }) {
         <Headerlphome />
       ) : newecommercepage ? (
         <EcommerceBanner />
+      ) : mobileapplicationheader ? (
+        <Headerproduct />
       ) : (
+
         <Header />
       )}
 
