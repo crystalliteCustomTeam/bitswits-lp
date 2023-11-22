@@ -34,6 +34,8 @@
   line-height: 20px;
   color: white;
   padding-right: 10px;
+  height: 100px;
+  overflow: auto;
 }
 
 .cont {
@@ -162,6 +164,41 @@
   top: -125px;
 }
 
+/* ======================================== */
+
+.gameNft .longline img {
+  top: -95px;
+}
+
+.gameNft .longline1 img {
+  top: -120px;
+}
+
+.gameNft .longline3 img {
+  top: -115px;
+}
+
+/* ======================================== */
+
+.gameBlckChain .longline img {
+  top: -95px;
+}
+
+.gameBlckChain .longline1 img {
+  top: -80px;
+}
+
+.gameBlckChain .longline2 img {
+  top: -120px;
+  left: 0px;
+}
+
+.gameBlckChain .longline3 img {
+  top: -115px;
+}
+
+/* ======================================== */
+
 @media screen and (max-width: 1199px) {
   .expertise1 {
     position: relative;
@@ -257,6 +294,10 @@
 
   .forget h2 {
     font-size: 40px;
+  }
+
+  .longline1 {
+    margin-bottom: 40%;
   }
 }
 
@@ -443,4 +484,67 @@
     left: -5px;
   }
 
+  /* ============================== */
+
+  .gameBlckChain .forget {
+    margin-bottom: 20%;
+  }
+
+  .gameBlckChain .bring {
+    top: 165px;
+  }
+
+  .gameBlckChain .longline {
+    width: 100%;
+    padding-right: 20px;
+    margin-bottom: 85%;
+  }
+
+  .gameBlckChain .longline::before {
+    height: 350px;
+  }
+
+  .gameBlckChain .longline2 {
+    width: 100%;
+    padding-right: 20px;
+    margin-bottom: 15%;
+    height: 315px;
+  }
+
+  .gameBlckChain .longline2::before {
+    height: 300px;
+  }
+
+  .gameBlckChain .longline2 .bring {
+    top: 130px;
+  }
+
+  .gameBlckChain .longline2 .expertise img {
+    top: -110px;
+    left: -25px;
+  }
+
+  .gameBlckChain .longline3 {
+    width: 100%;
+    margin-bottom: 80%;
+  }
+
+  .gameBlckChain .longline3::before {
+    height: 310px;
+  }
+
+  .gameBlckChain .expertise img {
+    top: -50px;
+    right: -30px;
+  }
+
+  .gameBlckChain .expertise1 img {
+    top: -70px;
+    right: -55px;
+  }
+
+  .gameBlckChain .longline1 .expertise1 img {
+    top: -70px;
+    left: -10px;
+  }
 }

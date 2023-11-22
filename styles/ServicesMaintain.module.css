@@ -873,7 +873,7 @@
   margin: 0 auto;
   text-align: center;
   color: white;
-  padding: 0 10px;
+  padding: 0 10px 0 0;
 }
 
 .pick {
@@ -950,6 +950,10 @@
 
   .app7 .appImage {
     max-width: 357px;
+  }
+
+  .app03, .app04{
+    height: 458px;
   }
 }
 
@@ -1110,6 +1114,19 @@
     max-width: 99%;
     margin-left: 3px;
   }
+
+  .gameApp {
+    padding-top: 80px;
+  }
+
+  .app08 {
+    position: relative;
+    top: 102%;
+  }
+
+  .gameBlckChain {
+    padding-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1135,7 +1152,8 @@
     padding-bottom: 30px;
   }
 
-  .gameNft{
+  .gameNft,
+  .game2d {
     padding-bottom: 0;
   }
 
@@ -1342,5 +1360,10 @@
   .mblBuild2 .cardContent {
     width: 330px;
     margin-bottom: 10px;
+  }
+
+  .app08 {
+    position: unset;
+    top: unset;
   }
 }

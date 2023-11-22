@@ -165,7 +165,7 @@ export default function mobileApplication() {
             />
             <GameCapabilities />
             <ServiceEngage
-                addClass="game2d"
+                addClass="gameBlckChain"
                 subTitle="Hire Top-Notch Blockchain Developers"
                 title={<> Reason You Will Love Our Blockchain <br /> Game Development Company </>}
                 main={main}

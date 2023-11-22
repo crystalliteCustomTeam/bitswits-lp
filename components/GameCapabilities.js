@@ -22,7 +22,7 @@ const GameCapabilities = () => {
 
     var awardslogo = {
         dots: true,
-        arrows: false,
+        arrows: true,
         loop: true,
         autoplay: false,
         infinite: true,
