@@ -67,7 +67,7 @@
   padding-bottom: 100px;
 }
 
-.gameApp{
+.gameApp {
   padding: 100px 0 150px;
 }
 
@@ -130,6 +130,10 @@
     color: white;
     font-weight: bold;
   }
+
+  .happens {
+    padding: 50px 0 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -151,7 +155,7 @@
     gap: 10px;
   }
 
-  .sucssBox span{
+  .sucssBox span {
     width: 324px;
   }
 }

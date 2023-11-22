@@ -97,7 +97,7 @@ const ServicesMaintain = (props) => {
                             </Col>
                         ))}
                         {props.appContent7.map((content, index) => (
-                            <Col key={index} sm={6} className={styles.earn}>
+                            <Col key={index} sm={6} md={6} className={styles.earn}>
                                 <div className={`${styles[content.appclass]} ${styles[content.addclass]}`}>
                                     <div className={styles.cardContent}>
                                         <h3 className='text-white font25 font-bold text-center'>{content.title}</h3>
@@ -209,7 +209,7 @@ const ServicesMaintain = (props) => {
                                 </Col>
                             ))}
                         </div>
-                        <div className={styles.mblBuild4}>
+                        <div className={styles.mblBuild}>
                             {props.appContent7.map((content, index) => (
                                 <Col key={index} sm={6} className={styles.earn}>
                                     <div className={`${styles[content.appclass]} ${styles[content.addclass]}`}>

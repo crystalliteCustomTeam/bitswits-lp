@@ -53,19 +53,21 @@
 
 @media screen and (max-width: 991px) {
   .home {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
-}
 
-@media screen and (max-width: 991px) {
-  .home {
-    padding-top: 60px;
-    padding-bottom: 60px;
+  .gameApp {
+    padding-top: 0px;
+    padding-bottom: 80px;
   }
 
   .home h2 {
     font-size: 30px;
     line-height: 40px;
+  }
+
+  .gameBlckChain{
+    padding-bottom: 0;
   }
 }
