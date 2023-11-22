@@ -318,7 +318,19 @@ color: #188d33;
 .medg{
   margin-top: 26%;
 }
+@media screen and (min-width: 1400px) { 
 
+
+  .medg{
+    margin-top: 24%;
+  }
+  .megamenu {
+
+    top: 7.5%;
+  
+  }
+
+}
 
 @media screen and (min-width: 1500px) { 
 
