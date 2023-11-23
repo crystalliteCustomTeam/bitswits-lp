@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 //images
-import banImg1 from '../public/images/projectprocess/12212.png'
+import banImg1 from '../public/images/projectprocess/process.png'
 
 
 const ProjectProcess = (props) => {
