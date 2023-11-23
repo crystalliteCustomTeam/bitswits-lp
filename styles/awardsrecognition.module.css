@@ -1,0 +1,29 @@
+.award{
+  background-color: black;
+}
+.thriving{
+  text-align: center;
+}
+.thriving h3{
+  font-size: 60px;
+  color: #F32F53;
+  font-weight: 500;
+}
+.thriving p{
+  color: white;
+}
+.imgfold{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.welcome{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin-top: 60px;
+}
+.welcome span{
+  color: #F32F53;
+  font-weight: 600;
+}
