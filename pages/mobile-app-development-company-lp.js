@@ -7,10 +7,11 @@ import stylesjust from '@/styles/Justbuilditlp.module.css'
 const Bannerlp = React.lazy(() => import('@/components/Bannerlp'));
 const People = React.lazy(() => import('@/components/People'));
 const HomeBannerSliderlp = React.lazy(() => import('@/components/HomeBannerSliderlp'));
+const LpForm = React.lazy(() => import('@/components/LpForm'));
 const Nothing = React.lazy(() => import('@/components/Nothing'));
-const Transform = React.lazy(() => import('@/components/Transform'));
 const Expertapp = React.lazy(() => import('@/components/Expertapp'));
 const ProjectProcess = React.lazy(() => import('@/components/ProjectProcess'));
+const Transform = React.lazy(() => import('@/components/Transform'));
 const Technologieslp = React.lazy(() => import('@/components/Technologieslp'));
 const Justbuilditlp = React.lazy(() => import('@/components/Justbuilditlp'));
 const Globallp = React.lazy(() => import('@/components/Globallp'));
@@ -57,12 +58,10 @@ export default function gamedevelopmentcompany() {
 
             <HomeBannerSliderlp />
 
+            <LpForm />
+
             <Nothing
                 Nothing='nothing'
-            />
-
-            <Transform
-                transform='transform'
             />
 
             <Expertapp
@@ -71,6 +70,10 @@ export default function gamedevelopmentcompany() {
 
             <ProjectProcess
                 processclass='process'
+            />
+
+            <Transform
+                transform='transform'
             />
 
             <Technologieslp />

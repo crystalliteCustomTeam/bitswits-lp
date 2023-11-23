@@ -2,14 +2,19 @@ import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import styles from '../styles/Carousel.module.css'
 //
-import animi1 from '../public/images/case-beats/animi20.png';
-import animi2 from '../public/images/case-crave/animi1.png';
-import animi3 from '../public/images/case-dreamhome/animi1.png';
-import animi4 from '../public/images/case-fitnow/animi3.png';
-import animi5 from '../public/images/case-homepro/animi1.png';
-import animi6 from '../public/images/case-monkey/animi3.png';
-import animi7 from '../public/images/case-ready/animi1.png';
-import animi8 from '../public/images/case-scribe/animi1.png';
+import scr1 from '../public/images/lp-carousel/1.png';
+import scr2 from '../public/images/lp-carousel/2.png';
+import scr3 from '../public/images/lp-carousel/3.png';
+import scr4 from '../public/images/lp-carousel/4.png';
+import scr5 from '../public/images/lp-carousel/5.png';
+import scr6 from '../public/images/lp-carousel/6.png';
+import scr7 from '../public/images/lp-carousel/7.png';
+import scr8 from '../public/images/lp-carousel/8.png';
+import scr9 from '../public/images/lp-carousel/9.png';
+import scr10 from '../public/images/lp-carousel/10.png';
+import scr11 from '../public/images/lp-carousel/11.png';
+import scr12 from '../public/images/lp-carousel/12.png';
+import scr13 from '../public/images/lp-carousel/13.png';
 
 
 const Carousel = () => {
@@ -21,7 +26,7 @@ const Carousel = () => {
         const carousel = carouselRef.current;
         const carouselPivot = carouselPivotRef.current;
 
-        var carouselRadius = 160;
+        var carouselRadius = 210;
         var carouselRotation = 0;
         var carouselTilt = 0;
         var carouselVelocity = 5;
@@ -162,28 +167,43 @@ const Carousel = () => {
             <div className={styles.carousel} ref={carouselRef}>
                 <div className={styles.carouselPivot} ref={carouselPivotRef}>
                     <div className={styles.carouselItem}>
-                        <Image src={animi1} alt="carousel-item" />
+                        <Image src={scr1} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image src={animi2} alt="carousel-item" />
+                        <Image src={scr2} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image src={animi3} alt="carousel-item" />
+                        <Image src={scr3} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image src={animi4} alt="carousel-item" />
+                        <Image src={scr4} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image src={animi5} alt="carousel-item" />
+                        <Image src={scr5} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image src={animi6} alt="carousel-item" />
+                        <Image src={scr6} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image src={animi7} alt="carousel-item" />
+                        <Image src={scr7} alt="carousel-item" />
                     </div>
                     <div className={styles.carouselItem}>
-                        <Image src={animi8} alt="carousel-item" />
+                        <Image src={scr8} alt="carousel-item" />
+                    </div>
+                    <div className={styles.carouselItem}>
+                        <Image src={scr9} alt="carousel-item" />
+                    </div>
+                    <div className={styles.carouselItem}>
+                        <Image src={scr10} alt="carousel-item" />
+                    </div>
+                    <div className={styles.carouselItem}>
+                        <Image src={scr11} alt="carousel-item" />
+                    </div>
+                    <div className={styles.carouselItem}>
+                        <Image src={scr12} alt="carousel-item" />
+                    </div>
+                    <div className={styles.carouselItem}>
+                        <Image src={scr13} alt="carousel-item" />
                     </div>
                 </div>
             </div>
