@@ -72,14 +72,10 @@ const Technologieslp = () => {
                                 <div className={activeTab1 == 'tab5' ? styles.active : ''} onClick={() => fun1('tab5')} href="#">CMS</div>
                                 <div className={activeTab1 == 'tab6' ? styles.active : ''} onClick={() => fun1('tab6')} href="#">Infra and DevOps</div>
                             </div>
-
                         </Col>
 
-
                         <Col xl={12}>
-
                             {activeTab1 == 'tab1' &&
-
 
                                 <div className={styles.newyork}>
 
@@ -155,7 +151,7 @@ const Technologieslp = () => {
                                         <Image quality={75} alt='BitsWits' src={frontend6} className='img-fluid' />
                                         <p>HTML5</p>
                                     </div>
-                                 
+
 
 
                                 </div>
@@ -191,7 +187,7 @@ const Technologieslp = () => {
                                         <Image quality={75} alt='BitsWits' src={database6} className='img-fluid' />
                                         <p>Redis</p>
                                     </div>
-                                   
+
 
 
                                 </div>
@@ -216,7 +212,7 @@ const Technologieslp = () => {
                                         <Image quality={75} alt='BitsWits' src={php3} className='img-fluid' />
                                         <p>Node.JS</p>
                                     </div>
-                                   
+
 
 
                                 </div>
@@ -239,7 +235,7 @@ const Technologieslp = () => {
                                         <Image quality={75} alt='BitsWits' src={cms3} className='img-fluid' />
                                         <p>Shopify</p>
                                     </div>
-                                    
+
 
 
                                 </div>
