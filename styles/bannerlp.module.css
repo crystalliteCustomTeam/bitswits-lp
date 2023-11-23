@@ -5,7 +5,7 @@
   background-image: url(../public/images/bannermlp/bg.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: 75%;
 }
 
 .newHomeBg img {

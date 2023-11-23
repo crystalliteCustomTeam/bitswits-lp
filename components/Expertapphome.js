@@ -4,14 +4,13 @@ import styles from "@/styles/Expertapphome.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
 
 //images
-import banImg1 from '../public/images/expert/expert.png'
-import banImg2 from '../public/images/expert/1.png'
-import banImg3 from '../public/images/expert/2.png'
-import banImg4 from '../public/images/expert/3.png'
-import banImg5 from '../public/images/expert/4.png'
-import banImg6 from '../public/images/expert/5.png'
-import Link from 'next/link';
-import Htmlfile from './Htmlfile';
+import banImg1 from '../public/images/expert/1.png'
+import banImg2 from '../public/images/expert/2.png'
+import banImg3 from '../public/images/expert/3.png'
+import banImg4 from '../public/images/expert/4.png'
+import banImg5 from '../public/images/expert/5.png'
+import banImg6 from '../public/images/expert/6.png'
+
 
 export default function Expertapphome(props) {
 

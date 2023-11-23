@@ -34,12 +34,12 @@ export default function gamedevelopmentcompany() {
             <Bannerlp
                 title={<>
                     <h3 className={`${styles.develop} text-center f-50 font-bold mb-2`}>
-                        Mobile App Development Company
+                    Mastering Mobile App Development
                     </h3>
                 </>}
                 para={
                     <>
-                        <p className='white center mb-3'>We deliver mobile app experiences that get your mobile app trending on the app stores.</p>
+                        <p className='white center mb-3'>Beautiful, High-Performance Apps Delivered On Time and on Budget</p>
                     </>
                 }
                 btn2={
