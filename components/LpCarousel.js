@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
-import styles from '../styles/Carousel.module.css'
+import styles from '../styles/LpCarousel.module.css'
 //
 import scr1 from '../public/images/lp-carousel/1.png';
 import scr2 from '../public/images/lp-carousel/2.png';

@@ -48,9 +48,9 @@ export default function Nothing(props) {
                                 <Slider {...bannerslider} className={` ${styles.startSlide} Serbannerslider`}>
                                     <div className={styles.strpImg}>
                                         <Image alt="BitsWits" src={news1} className="img-fluid  " />
-                                        <p className='white font12 mt-4 mb-1'>BitsWits was a lifesaver for our business. We needed to create an app that could be used on multiple platforms, but we didn’t have a lot of technical know-how or additional development resources. Their team made it easy for us and delivered exactly what we needed. They stayed on top of our project and kept us informed throughout the process. We wouldn't hesitate to recommend them for any of your app development needs!</p>
-                                        <h4 className='white font20 mb-1'>Bryce Carlos</h4>
-                                        <p className='white font12'>CEO / FOUNDER SOUL SOUND</p>
+                                        <p className='white font12 mt-4 mb-1'>Bitswits' development of the ProEYE project, a wallet analytics and search engine platform on blockchain, was exceptional. Their comprehensive work, from requirement analysis to deployment, resulted in a highly functional, user-friendly platform with advanced analytics and robust data integration. Their attention to detail in every phase ensured ProEYE's success in the blockchain arena.</p>
+                                        <h4 className='white font20 mb-1'>Joseph</h4>
+                                        <p className='white font12'>CTO / FOUNDER SOUL SOUND</p>
                                     </div>
                                     <div className={styles.strpImg}>
                                         <Image alt="BitsWits" src={news2} className="img-fluid  " />

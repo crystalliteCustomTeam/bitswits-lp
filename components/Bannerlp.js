@@ -20,7 +20,7 @@ const AndriodBanner = (props) => {
 
                             {props.btn2}
 
-                            <div className='mt-2 center'>
+                            <div className='mt-5 center'>
                                 <LpCarousel />
                             </div>
 
