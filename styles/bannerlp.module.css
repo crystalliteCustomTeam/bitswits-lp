@@ -1,6 +1,6 @@
 .newHomeBg {
-  padding-top: 125px;
-  padding-bottom: 170px;
+  padding-top: 55px;
+  padding-bottom: 0px;
   background: #000;
   background-image: url(../public/images/bannermlp/bg.png);
   background-position: center;
@@ -8,20 +8,21 @@
   background-size: inherit;
 }
 
-/* .newHomeBg img:hover{
-  transform: scale(1.2);
-  transition: all 1s ease-out;
-} */
-.newHomeBg img{
-
+.newHomeBg img {
   transition: all 1s ease-out;
   animation: mymove 5s;
   transform: scale(1.3);
 }
 
 @keyframes mymove {
-  from {transform: scale(.5); transition: all 1s ease-out;}
-  to {transform: scale(1.3); transition: all 1s ease-out;}
+  from {
+    transform: scale(0.5);
+    transition: all 1s ease-out;
+  }
+  to {
+    transform: scale(1.3);
+    transition: all 1s ease-out;
+  }
 }
 
 .just {
@@ -90,7 +91,7 @@
 .about {
   width: 395px;
   height: 50px;
-background-color: #F32F53;
+  background-color: #f32f53;
   color: white;
   display: flex;
   align-items: center;
@@ -99,7 +100,6 @@ background-color: #F32F53;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
- 
   transition: all 0.5s ease-in-out;
 }
 
@@ -107,7 +107,7 @@ background-color: #F32F53;
   display: flex;
   gap: 20px;
   margin-top: 0%;
-  margin-bottom: 7%;
+  margin-bottom: 0;
   justify-content: center;
 }
 
@@ -145,29 +145,6 @@ background-color: #F32F53;
   position: relative;
   margin-top: 0;
 }
-
-/* 
-.bannerform::before {
-  content: "";
-  position: absolute;
-  left: -15px;
-  bottom: -20px;
-  z-index: 1;
-  height: 50px;
-  width: 50px;
-  background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
-}
-
-.bannerform::after {
-  content: "";
-  position: absolute;
-  right: -50px;
-  bottom: -20px;
-  z-index: 1;
-  height: 50px;
-  width: 50px;
-  background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
-} */
 
 .discuss {
   justify-content: space-between;

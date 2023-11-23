@@ -382,48 +382,65 @@
 }
 
 @media screen and (max-width: 991px) {
-  .app1,
-  .app {
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
-      linear-gradient(#fff 0 0);
-    padding-top: 50px;
+  .newHomeBg {
+    padding-top: 80px;
     padding-bottom: 0px;
-    height: 428px;
   }
 
-  .app2 {
-    height: 878px;
-    border-radius: 24px;
+  .servSlider .app {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+    padding: 0;
+    display: flex !important;
   }
 
-  .app3 {
-    height: 231px;
+  .servSlider .app1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../public/newHomePage/images/newMaintain1.png);
+  }
+  .servSlider .app2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../public/newHomePage/images/newMaintain2.png);
+  }
+  .servSlider .app3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../public/newHomePage/images/newMaintain3.png);
+  }
+  .servSlider .app4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../public/newHomePage/images/newMaintain12.png);
+  }
+  .servSlider .app5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../public/newHomePage/images/newMaintain5.png);
+  }
+  .servSlider .app6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../public/newHomePage/images/newMaintain6.png);
+    justify-content: flex-end;
+  }
+  .servSlider .app7 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../public/newHomePage/images/maintain8_bg.png);
+  }
+  .servSlider .app8 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../public/newHomePage/images/newMaintain11.png);
   }
 
-  .paraThreeContent {
-    margin-top: 92px;
+  .servSlider .app .cardContent {
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
   }
 
-  .app4,
-  .app5 {
-    height: 282px;
-  }
-
-  .app6 {
-    height: 430px;
-  }
-
-  .app7 {
-    height: 485px;
-    background-image: none;
-    border: 3px solid #f32f53;
-    border-radius: 22px;
-  }
-
-  .app7 .appImage {
-    width: 100%;
-    max-width: 99%;
-    margin-left: 3px;
+  .servSlider .app .para {
+    max-width: 100%;
+    height: 120px;
+    overflow: auto;
   }
 }
 
@@ -433,90 +450,11 @@
     padding-bottom: 50px;
   }
 
-  .pick {
-    display: flex;
-    flex-direction: column;
+  .servSlider .app .cardContent {
+    width: 85%;
+    padding-bottom: 20px;
   }
 
-  .power {
-    width: 100%;
-  }
-
-  .app6 {
-    padding: 0 40px;
-  }
-
-  .app6,
-  .app7 {
-    height: 650px;
-  }
-
-  .app1,
-  .app {
-    height: 315px;
-  }
-
-  .app4,
-  .app5 {
-    height: 208px;
-  }
-
-  .app6 {
-    background-image: url(../public/newHomePage/images/newMaintain10.png);
-    background-position: right;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  .pick {
-    width: 100%;
-  }
-
-  .app7 .appImage {
-    max-width: 100%;
-    width: 99%;
-  }
-
-  .app7 {
-    gap: 14px;
-  }
-
-  .power {
-    padding-left: 0%;
-  }
-
-  .app7 .appImage {
-    display: none;
-  }
-
-  .app3 {
-    background-size: cover;
-    padding: 30px 82px 9px 33px;
-  }
-
-  .app6 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(../public/newHomePage/images/maintain8_bg.png);
-  }
-
-  .app7 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url(../public/newHomePage/images/newMaintain9.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    flex-direction: inherit;
-    align-items: flex-end;
-  }
-
-  .app4 h3,
-  .app4 p,
-  .app5 h3,
-  .app5 p,
-  .app7 h3,
-  .app7 p {
-    text-align: left !important;
-  }
 }
 
 @media screen and (max-width: 480px) {
@@ -525,138 +463,7 @@
     font-size: 10px !important;
   }
 
-  .app,
-  .app4,
-  .app6,
-  .app2,
-  .app5,
-  .app7 {
-    padding: 30px 28px 9px 33px;
-  }
-
-  .app4,
-  .app5 {
-    height: 304px;
-  }
-
-  .app6,
-  .app7 {
-    height: 300px;
-    border: 2px solid #4a78ef;
-    border-radius: 15px;
-  }
-
   .newHomeBg h1 {
     font-size: 30px;
-  }
-
-  .app3 {
-    height: 340px;
-    border: 2px solid #4a78ef;
-    border-radius: 15px;
-  }
-
-  .mblBuild {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 20px;
-    width: 100%;
-    overflow: scroll;
-    margin-bottom: 20px;
-  }
-
-  .mblBuild .app,
-  .mblBuild .app1,
-  .mblBuild .app2 {
-    background-repeat: no-repeat;
-    background-size: cover;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    height: 463px;
-    width: 100%;
-    padding: 20px;
-  }
-
-  .mblBuild .cardContent {
-    width: 330px;
-    margin-bottom: 10px;
-  }
-
-  .mblBuild .cardContent p {
-    text-overflow: unset;
-    display: unset;
-    -webkit-line-clamp: unset;
-    -webkit-box-orient: unset;
-    max-width: 100%;
-  }
-
-  .mblBuild .app2 {
-    padding: 20px 183px;
-    position: relative;
-  }
-
-  .mblBuild .app2 .cardContent {
-    position: absolute;
-    left: 20px;
-  }
-
-  .mblBuild2 {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 20px;
-    width: 100%;
-    overflow: scroll;
-    margin-top: 20px;
-  }
-
-  .mblBuild2 .app4,
-  .mblBuild2 .app5 {
-    background-repeat: no-repeat;
-    background-size: contain;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    height: 290px;
-    width: 100%;
-    padding: 20px;
-  }
-
-  .mblBuild2 .cardContent {
-    width: 330px;
-    margin-bottom: 0px;
-    padding: 0 10px;
-  }
-
-  .mblBuild2 .cardContent p {
-    text-overflow: unset;
-    display: unset;
-    -webkit-line-clamp: unset;
-    -webkit-box-orient: unset;
-    max-width: 100%;
-  }
-
-  .mblBuild2 .app6,
-  .mblBuild2 .app7 {
-    background-repeat: no-repeat;
-    background-size: cover;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    height: 290px;
-    width: 100%;
-    padding: 20px;
-  }
-
-  .mblBuild2 .pick {
-    width: 330px;
-    margin-bottom: 10px;
-  }
-
-  .mblBuild2 .possibilities,
-  .mblBuild2 .contentPara,
-  .mblBuild2 .para9 {
-    max-width: 100%;
-    margin-bottom: 0;
   }
 }

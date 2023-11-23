@@ -3,16 +3,31 @@ import Image from 'next/image';
 import styles from "@/styles/NewHomeMaintain.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
 //
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+//
 import cardNine from '../public/newHomePage/images/newMaintain9.png'
 
 
 const NewMaintain = () => {
 
+    var servSlider = {
+        dots: false,
+        arrows: false,
+        loop: true,
+        autoplay: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
+
     return (
         <>
             <section className={styles.newHomeBg}>
                 <Container>
-                    <Row className='d-none d-md-flex g-3'>
+                    <Row className='d-none d-lg-flex g-3'>
                         <Col lg={12}>
                             <p className={` f-20 font-bold text-white text-center mb-0`}>Delivering Excellence Daily
                             </p>
@@ -122,7 +137,7 @@ const NewMaintain = () => {
 
                     {/* ======================================================= */}
 
-                    <div className='d-block d-md-none'>
+                    <div className='d-block d-lg-none'>
                         <Row>
                             <Col lg={12}>
                                 <p className={` f-20 font-bold text-white text-center mb-0`}>Delivering Excellence Daily</p>
@@ -131,8 +146,8 @@ const NewMaintain = () => {
                                 <p className='text-white text-center pb-3'>We specialize in customizing services for digital business evolution and bring the following services to the table.</p>
                             </Col>
                         </Row>
-                        <div className={styles.mblBuild}>
-                            <div className={styles.app}>
+                        <Slider {...servSlider} className={`${styles.servSlider} servSlider`}>
+                            <div className={`${styles.app} ${styles.app1}`}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>Mobile App Development</h3>
                                     <p className={styles.para}>
@@ -140,8 +155,7 @@ const NewMaintain = () => {
                                     </p>
                                 </div>
                             </div>
-
-                            <div className={styles.app1}>
+                            <div className={`${styles.app} ${styles.app2}`}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>Game Development</h3>
                                     <p className={styles.para}>
@@ -149,8 +163,7 @@ const NewMaintain = () => {
                                     </p>
                                 </div>
                             </div>
-
-                            <div className={styles.app2}>
+                            <div className={`${styles.app} ${styles.app3}`}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>Blockchain Development</h3>
                                     <p className={styles.para}>
@@ -158,64 +171,47 @@ const NewMaintain = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <div className={styles.app3}>
-                            <Row className='align-items-center'>
-                                <Col xl={5}>
-                                    <div className={styles.paraThreeContent}>
-                                        <h3 className='text-white font25 font-bold '>Artificial Intelligence (Ai)</h3>
-                                        <p className={styles.para1}>
-                                            Hire BitsWits as your trusted ally for AI development, and experience the revolution of your project through Artificial Intelligence that raises its potential.
-                                        </p>
-                                    </div>
-                                </Col>
-                                <Col xl={5}>
-                                    {/* <div id='artifical' ></div> */}
-                                </Col>
-                            </Row>
-                        </div>
-                        <div className={styles.mblBuild2}>
-                            <div className={styles.app4}>
+                            <div className={`${styles.app} ${styles.app4}`}>
+                                <div className={styles.cardContent}>
+                                    <h3 className='text-white font25 font-bold '>Artificial Intelligence (Ai)</h3>
+                                    <p className={styles.para1}>
+                                        Hire BitsWits as your trusted ally for AI development, and experience the revolution of your project through Artificial Intelligence that raises its potential.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className={`${styles.app} ${styles.app5}`}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold text-center'>Web App Development</h3>
-                                    <p className={styles.possibilities}>
+                                    <p className={styles.para}>
                                         Our top app developers excel in web app development, showcasing expert skills to ensure client satisfaction and punctual project delivery.
                                     </p>
                                 </div>
                             </div>
-
-                            <div className={styles.app5}>
+                            <div className={`${styles.app} ${styles.app6}`}>
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold text-center'>UI/UX App Design</h3>
-                                    <p className={styles.possibilities}>
+                                    <p className={styles.para}>
                                         Our team comprises professional responsive app designers who develop prototypes aimed at guiding users to meaningful interactions and achieving impactful user experiences.
                                     </p>
                                 </div>
                             </div>
-
-                            <div className={styles.app6}>
-                                <div className={styles.pick}>
-                                    <div className={styles.power}>
-                                        <h3 className='text-white font25 font-bold'>AR/VR</h3>
-                                        <p className={`text-white f-16 ${styles.contentPara}`}>
-                                            BitsWits serves as your AR/VR portal. We specialize in creating imaginative concepts into compelling digital realities that captivate, entertain, and inspire your audience.
-                                        </p>
-                                    </div>
+                            <div className={`${styles.app} ${styles.app7}`}>
+                                <div className={styles.cardContent}>
+                                    <h3 className='text-white font25 font-bold'>AR/VR</h3>
+                                    <p className={`text-white f-16 ${styles.para}`}>
+                                        BitsWits serves as your AR/VR portal. We specialize in creating imaginative concepts into compelling digital realities that captivate, entertain, and inspire your audience.
+                                    </p>
                                 </div>
                             </div>
-
-                            <div className={styles.app7}>
-                                <div className={styles.pick}>
-                                    <Image quality={75} alt='BitsWits' src={cardNine} className={`${styles.appImage}`} />
-                                    <div className={styles.mblApp7}>
-                                        <h3 className='text-white font25 font-bold text-center'>Internet of Things</h3>
-                                        <p className={styles.para9}>
-                                            We lead in IoT innovation delivering smart, connected solutions drive automation, efficiency, and connectivity across industries.
-                                        </p>
-                                    </div>
+                            <div className={`${styles.app} ${styles.app8}`}>
+                                <div className={styles.cardContent}>
+                                    <h3 className='text-white font25 font-bold text-center'>Internet of Things</h3>
+                                    <p className={styles.para}>
+                                        We lead in IoT innovation delivering smart, connected solutions drive automation, efficiency, and connectivity across industries.
+                                    </p>
                                 </div>
                             </div>
-                        </div>
+                        </Slider>
                     </div>
                 </Container>
             </section>

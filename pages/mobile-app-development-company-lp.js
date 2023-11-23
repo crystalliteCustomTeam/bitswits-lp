@@ -17,8 +17,6 @@ const Globallp = React.lazy(() => import('@/components/Globallp'));
 const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
 const NewFaqslp = React.lazy(() => import('@/components/NewFaqslp'));
 const HomeLocationlp = React.lazy(() => import('@/components/HomeLocationlp'));
-//Icons 
-const BannerImage = await import("@/public/images/bannermlp/bannermalp.png");
 
 
 export default function gamedevelopmentcompany() {
@@ -50,7 +48,6 @@ export default function gamedevelopmentcompany() {
                         </div>
                     </>
                 }
-                imgnew={BannerImage}
                 newHomeBgprops='newHomeBg'
             />
 

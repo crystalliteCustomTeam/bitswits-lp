@@ -72,6 +72,10 @@
   .success {
     font-size: 50px;
   }
+
+  .team {
+    background-image: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -81,10 +85,9 @@
 
   .team {
     padding: 0 0 20px;
-    background-image: none;
   }
 
-  .home{
+  .home {
     padding: 30px 0;
   }
 }

@@ -1,23 +1,16 @@
 import React from 'react'
 import styles from "@/styles/bannerlp.module.css";
-import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
-import BannerImage from "@/public/images/bannermlp/bannermalp.png"
-
-
+//
+import LpCarousel from '@/components/LpCarousel';
 
 
 const AndriodBanner = (props) => {
 
-
-
     return (
         <>
-
             <section className={styles[props.newHomeBgprops]} >
-          
                 <Container>
-
                     <Row>
                         <Col xl={12}>
 
@@ -25,18 +18,15 @@ const AndriodBanner = (props) => {
 
                             {props.para}
 
-
                             {props.btn2}
 
-                            <div className='mt-5 center'>
-                                <Image quality={95} alt='BitsWits' src={props.imgnew} className={`img-fluid`} />
+                            <div className='mt-2 center'>
+                                <LpCarousel />
                             </div>
 
                         </Col>
                     </Row>
                 </Container>
-
-
             </section>
         </>
     )
