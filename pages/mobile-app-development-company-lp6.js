@@ -8,6 +8,7 @@ const People = React.lazy(() => import('@/components/People'));
 const HomeBannerSliderlp = React.lazy(() => import('@/components/HomeBannerSliderlp'));
 const LpForm6 = React.lazy(() => import('@/components/LpForm6'));
 const Nothing = React.lazy(() => import('@/components/Nothing'));
+const NewMaintain6Lp = React.lazy(() => import('@/components/NewMaintain6Lp'));
 const WeworkLp = React.lazy(() => import('@/components/WeworkLp6'));
 const StartupsLp = React.lazy(() => import('@/components/StartupsLp6'));
 const ProjectProcess = React.lazy(() => import('@/components/ProjectProcessLp6'));
@@ -58,6 +59,8 @@ export default function gamedevelopmentcompany() {
             <Nothing
                 Nothing='nothingLp6'
             />
+
+            <NewMaintain6Lp />
 
             <WeworkLp
                 wework='weworkLp6'

@@ -81,8 +81,14 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/mobile-developer'
     || router.pathname == '/supersale'
     || router.pathname == '/top-ecommerce-app-development-company'
+    || '/mobile-app-development-company-lp'
+    || 'mobile-app-development-services-landing-page-final'
+    || 'mobile-app-development-company-lp6'
   // =======================================
-  const mblLp1 = router.pathname == '/mobile-app-development-company-lp' || 'mobile-app-development-services-landing-page-final'
+  const mblLp1 = router.pathname == '/mobile-app-development-company-lp'
+    || 'mobile-app-development-services-landing-page-final'
+    || 'mobile-app-development-company-lp6'
+  // =======================================
   const newlps = router.pathname == '/mobile-app-development-company-lp2'
   // =======================================
   const newhomepage = router.pathname == '/supersale';

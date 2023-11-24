@@ -19,14 +19,6 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 
-const para = [
-    "Our mobile app development services turn your innovative ideas into success stories by crafting apps that stand out in the market!",
-    "While you focus on your business, Bitswits will handle the technical aspects of developing your app.",
-    "Did you know that a poorly developed app can negatively impact your brand's reputation? That's a risk you don't want to take. But with Bitswits, there's no need to worry. We ensure your app functions seamlessly and enhances your brand's digital presence.",
-    "Unlike app development firms, we don't believe in a one-size-fits-all approach. We understand that the reason behind an underperforming app often lies in its development and user experience. That's where our expertise comes into play. With a team of seasoned mobile app developers, the latest technological resources, and a bespoke development strategy.",
-    "Every app we develop undergoes thorough quality checks to ensure it's not just good, but great."
-];
-
 const items = [
     {
         image: banImg1,
@@ -88,11 +80,11 @@ const LpChoose = (props) => {
                         <Col lg={6} className={styles.walk}>
                             <h3 className='white font55 font-bold f-700'>Why Choose Us</h3>
                             <h2 className='white font35 f-500 my-3'>For Your Mobile App Development Needs?</h2>
-                            {para.map((paragraph, index) => (
-                                <p key={index} className='white font16 f-400 mb-4'>
-                                    {paragraph}
-                                </p>
-                            ))}
+                            <p className='mt-4'>Our <span>mobile app development services</span> turn your innovative ideas into success stories by crafting apps that stand out in the market!</p>
+                            <p>While you <span>focus on your business</span>, Bitswits will handle the technical aspects of developing your app.</p>
+                            <p>Did you know that a <span>poorly developed app</span> can negatively impact your brand's reputation? That's a risk you don't want to take. But with Bitswits, there's no need to worry. We ensure your app functions seamlessly and enhances your brand's digital presence.</p>
+                            <p>Unlike <span>Mobile app development firms</span>, we don't believe in a one-size-fits-all approach. We understand that the reason behind an underperforming app often lies in its development and user experience. That's where our expertise comes into play. With a <span>team of seasoned mobile app developers</span>, the latest technological resources, and a bespoke development strategy.</p>
+                            <p className='mt-4 mb-4'>Every app we develop undergoes thorough quality checks to ensure <span>IT'S NOT JUST GOOD, BUT GREAT</span>.</p>
                             <Link href="#" className={styles.dus}>Choose Expertise, Choose Bitswits – Let's Get Started</Link>
                         </Col>
                         <Col lg={6} className='d-none d-lg-block'>

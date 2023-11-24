@@ -8,17 +8,12 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //
-import icon1 from '../public/images/awards/award1.png'
-import icon2 from '../public/images/awards/award2.png'
-import icon3 from '../public/images/awards/award3.png'
-import icon4 from '../public/images/awards/award4.png'
-import icon5 from '../public/images/awards/award5.png'
-import icon6 from '../public/images/awards/award6.png'
-import icon7 from '../public/images/awards/award7.png'
-import icon8 from '../public/images/awards/award8.png'
-import icon9 from '../public/images/awards/award9.png'
-import icon10 from '../public/images/awards/award10.png'
-import icon11 from '../public/images/awards/award11.png'
+import icon1 from '../public/images/mobilelpfinal/fold2/1.png'
+import icon2 from '../public/images/mobilelpfinal/fold2/2.png'
+import icon3 from '../public/images/mobilelpfinal/fold2/3.png'
+import icon4 from '../public/images/mobilelpfinal/fold2/4.png'
+import icon5 from '../public/images/mobilelpfinal/fold2/5.png'
+import icon6 from '../public/images/mobilelpfinal/fold2/6.png'
 
 
 const Partnerships = () => {
@@ -82,21 +77,6 @@ const Partnerships = () => {
                                 </div>
                                 <div className={styles.strpImg}>
                                     <Image alt="BitsWits" src={icon6} className="img-fluid" />
-                                </div>
-                                <div className={`${styles.strpImg} ${styles.minImg}`}>
-                                    <Image alt="BitsWits" src={icon7} className="img-fluid" />
-                                </div>
-                                <div className={styles.strpImg}>
-                                    <Image alt="BitsWits" src={icon8} className="img-fluid" />
-                                </div>
-                                <div className={styles.strpImg}>
-                                    <Image alt="BitsWits" src={icon9} className="img-fluid" />
-                                </div>
-                                <div className={styles.strpImg}>
-                                    <Image alt="BitsWits" src={icon10} className="img-fluid" />
-                                </div>
-                                <div className={styles.strpImg}>
-                                    <Image alt="BitsWits" src={icon11} className="img-fluid" />
                                 </div>
                             </Slider>
                         </Col>

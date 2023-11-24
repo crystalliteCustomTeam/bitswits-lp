@@ -29,8 +29,19 @@
   margin-top: 3%;
 }
 
+.walk h2 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #f32f53;
+}
 .walk p {
+  font-size: 16px;
+  color: white;
   text-align: justify;
+}
+.walk p span {
+  color: #f32f53;
+  font-weight: 600;
 }
 
 .post {
@@ -106,4 +117,3 @@
     max-width: 100%;
   }
 }
-
