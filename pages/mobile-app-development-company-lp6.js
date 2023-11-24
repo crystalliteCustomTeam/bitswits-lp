@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import React from 'react';
 import Link from 'next/link'
-import styles from "@/styles/bannerlp.module.css";
+import styles from "@/styles/bannerlp6.module.css";
 import stylesjust from '@/styles/Justbuilditlp.module.css'
 //
-const Bannerlp = React.lazy(() => import('@/components/Bannerlp'));
+const Bannerlp6 = React.lazy(() => import('@/components/Bannerlp6'));
 const People = React.lazy(() => import('@/components/People'));
 const HomeBannerSliderlp = React.lazy(() => import('@/components/HomeBannerSliderlp'));
-const LpForm = React.lazy(() => import('@/components/LpForm'));
+const LpForm6 = React.lazy(() => import('@/components/LpForm6'));
 const Nothing = React.lazy(() => import('@/components/Nothing'));
 const Hurdles = React.lazy(() => import('@/components/Hurdles'));
 const Expertapp = React.lazy(() => import('@/components/Expertapp'));
@@ -33,22 +33,16 @@ export default function gamedevelopmentcompany() {
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
-            <Bannerlp
+            <Bannerlp6
+                subtitle={<> <h3 className='font18 font-bold text-center'>Create an App, Make a Mark</h3> </>}
                 title={<>
-                    <h3 className={`${styles.develop} text-center f-50 font-bold mb-3`}>
-                    Mastering Mobile App Development
-                    </h3>
+                    <h2 className={`${styles.develop} text-center f-50 font-bold mb-3`}>
+                    Award-Winning App Development Company
+                    </h2>
                 </>}
                 para={
                     <>
                         <p className='font20 white center mb-3'>Beautiful, High-Performance Apps Delivered <span className={styles.txtDec}>ON TIME</span> and <span className={styles.txtDec}>WITHIN BUDGET</span></p>
-                    </>
-                }
-                btn2={
-                    <>
-                        <div className={styles.pont}>
-                            <Link className={styles.about} href="#">Transform Your App Idea Into A Success Story - Today Is The Day To Start!</Link>
-                        </div>
                     </>
                 }
                 newHomeBgprops='newHomeBg'
@@ -60,7 +54,7 @@ export default function gamedevelopmentcompany() {
 
             <HomeBannerSliderlp />
 
-            <LpForm />
+            <LpForm6 />
 
             <Nothing
                 Nothing='nothing'
@@ -76,7 +70,7 @@ export default function gamedevelopmentcompany() {
                 processclass='process'
             />
 
-            <LpChoose 
+            <LpChoose
                 transform='transform'
             />
 

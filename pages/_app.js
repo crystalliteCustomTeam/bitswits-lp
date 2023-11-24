@@ -7,6 +7,7 @@ import '@/styles/globals.css'
 import Header from '@/components/Header';
 import Headerlp from '@/components/Headerlp';
 import Footernewfy from '@/components/Footernewfydesign';
+import Footernewlp1 from '@/components/Footernewlp1';
 import Footernewlp from '@/components/Footernewlp';
 import Cursor from "@/components/Cursor";
 import Footernewdesign from '@/components/Footernewdesign';
@@ -81,8 +82,8 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/supersale'
     || router.pathname == '/top-ecommerce-app-development-company'
   // =======================================
-  const newlps = router.pathname == '/mobile-app-development-company-lp'
-    || router.pathname == '/mobile-app-development-company-lp2'
+  const mblLp1 = router.pathname == '/mobile-app-development-company-lp'
+  const newlps = router.pathname == '/mobile-app-development-company-lp2'
   // =======================================
   const newhomepage = router.pathname == '/supersale';
   // =======================================
@@ -118,6 +119,8 @@ export default function App({ Component, pageProps }) {
 
       {newlps ? (
         <Footernewlp />
+      ) : mblLp1 ? (
+        <Footernewlp1 />
       ) : newhomepage ? (
         <Footernewdesign />
       ) : newecommercepage ? (
