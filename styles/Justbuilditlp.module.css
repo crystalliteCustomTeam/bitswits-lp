@@ -4,17 +4,17 @@
 .slide2 {
   background-color: black;
 }
-.slide2 a{
+.slide2 a {
   border-radius: 10px;
 }
 
 .just {
   font-size: 130px;
-    font-weight: bold;
-    background-image: linear-gradient(to right, #F32F53, #F32FC2, #0047ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #0047ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
 }
 
 .develop {
@@ -27,7 +27,7 @@
 .book {
   width: 198px;
   height: 45px;
-  background-color: #4A78EF;
+  background-color: #4a78ef;
   color: white;
   display: flex;
   align-items: center;
@@ -42,7 +42,7 @@
 .about {
   width: 198px;
   height: 45px;
-  background-color: #F32F53;
+  background-color: #f32f53;
   color: white;
   display: flex;
   align-items: center;
@@ -52,13 +52,12 @@
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-
 }
 
 .about1 {
   width: 198px;
   height: 45px;
-  background-color: #4A78EF;
+  background-color: #4a78ef;
   color: white;
   display: flex;
   align-items: center;
@@ -68,7 +67,6 @@
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-
 }
 
 .pont {
@@ -79,33 +77,23 @@
 }
 
 @media screen and (max-width: 1200px) {
-
   .just {
     font-size: 45px;
   }
-
 }
 
 @media screen and (max-width: 991px) {
-
   .develop {
     position: relative;
     z-index: 999;
   }
 
-
-  .pont {
-    margin-top: 10%;
-  }
-
   .just {
     font-size: 40px;
   }
-
 }
 
 @media screen and (max-width: 767px) {
-
   .slide {
     padding-bottom: 50px;
     padding-top: 50px;
@@ -121,12 +109,7 @@
 }
 
 @media screen and (max-width: 480px) {
-
   .just {
     font-size: 30px;
   }
-
-
-
-
 }

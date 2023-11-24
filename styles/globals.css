@@ -3124,6 +3124,10 @@ button {
     line-height: 50px;
   }
 
+  .font20{
+    font-size: 18px;
+  }
+
   .spacingtb1 {
     padding-top: 80px;
   }
@@ -3157,6 +3161,10 @@ button {
   .qtechcap .prohome1 .slick-prev {
     left: 40px;
     z-index: 10;
+  }
+
+  .font40 {
+    font-size: 30px;
   }
 }
 
@@ -3346,10 +3354,6 @@ button {
   .font50 {
     font-size: 30px;
     line-height: 40px;
-  }
-
-  .font40 {
-    font-size: 30px;
   }
 
   .f-45 {

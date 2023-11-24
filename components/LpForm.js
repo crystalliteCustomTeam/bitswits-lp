@@ -14,7 +14,7 @@ const LpForm = (props) => {
                             <div className={styles.make}>
                                 <form className={styles.formsbanner}>
                                     <div className={`mb-lg-4 pb-1 text-center`}>
-                                        <h4 className='font55 text-white font-bold mb-3'>Let's Talk Apps. Reserve A Spot! </h4>
+                                        <h4 className='text-white font-bold mb-3'>Let's Talk Apps. Reserve A Spot! </h4>
                                         <p className='font18 font-medium text-white mb-3'>Schedule A Complimentary Strategy Session Now With Our Experienced Product Strategists.</p>
                                     </div>
                                     <Row>

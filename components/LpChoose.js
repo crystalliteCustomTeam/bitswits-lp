@@ -13,6 +13,10 @@ import banImg6 from '../public/images/lp-images/icon6.png'
 import banImg7 from '../public/images/lp-images/icon7.png'
 import banImg8 from '../public/images/lp-images/icon8.png'
 import banImg9 from '../public/images/lp-images/icon9.png'
+//
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 
 const para = [
@@ -21,7 +25,7 @@ const para = [
     "Did you know that a poorly developed app can negatively impact your brand's reputation? That's a risk you don't want to take. But with Bitswits, there's no need to worry. We ensure your app functions seamlessly and enhances your brand's digital presence.",
     "Unlike app development firms, we don't believe in a one-size-fits-all approach. We understand that the reason behind an underperforming app often lies in its development and user experience. That's where our expertise comes into play. With a team of seasoned mobile app developers, the latest technological resources, and a bespoke development strategy.",
     "Every app we develop undergoes thorough quality checks to ensure it's not just good, but great."
-  ];
+];
 
 const items = [
     {
@@ -63,14 +67,26 @@ const items = [
 ];
 
 const LpChoose = (props) => {
+
+    const mblSlider = {
+        dots: false,
+        arrows: false,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 6000,
+        speed: 3000,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+    };
+
     return (
         <>
             <section className={styles[props.transform]}>
                 <Container>
-                    <Row className='align-items-center'>
-
+                    <Row className='align-items-center gy-5'>
                         <Col lg={6} className={styles.walk}>
-                            <h3 className='white f-60 f-700'>Why Choose Us</h3>
+                            <h3 className='white font55 font-bold f-700'>Why Choose Us</h3>
                             <h2 className='white font35 f-500 my-3'>For Your Mobile App Development Needs?</h2>
                             {para.map((paragraph, index) => (
                                 <p key={index} className='white font16 f-400 mb-4'>
@@ -79,11 +95,11 @@ const LpChoose = (props) => {
                             ))}
                             <Link href="#" className={styles.dus}>Choose Expertise, Choose Bitswits – Let's Get Started</Link>
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={6} className='d-none d-lg-block'>
                             <div className={styles.cart}>
                                 <Row className='gy-4'>
                                     {items.map((item, index) => (
-                                        <Col key={index} md={4}>
+                                        <Col key={index} lg={4} sm={4}>
                                             <div className={styles.post}>
                                                 <Image alt='BitsWits' src={item.image} className='img-fluid mb-3' />
                                                 <p>{item.text}</p>
@@ -92,6 +108,20 @@ const LpChoose = (props) => {
                                     ))}
                                 </Row>
                             </div>
+                        </Col>
+
+                        {/* For Mobile */}
+                        <Col lg={6} className='d-block d-lg-none'>
+                            <Slider {...mblSlider} className={`mblSlider ${styles.mblSlider}`}>
+                                {items.map((item, index) => (
+                                    <div className={styles.cart} key={index}>
+                                        <div className={styles.post}>
+                                            <Image alt='BitsWits' src={item.image} className='img-fluid mb-3' />
+                                            <p>{item.text}</p>
+                                        </div>
+                                    </div>
+                                ))}
+                            </Slider>
                         </Col>
                     </Row>
                 </Container>

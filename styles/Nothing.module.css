@@ -1,4 +1,5 @@
-.nothing {
+.nothing,
+.nothingLp6 {
   background-color: black;
   padding-top: 125px;
   background: #000;
@@ -23,7 +24,7 @@
 
 .btnpost {
   height: 45px;
-  background-color: #F32F53;
+  background-color: #f32f53;
   display: flex;
   color: white;
   font-weight: bold;
@@ -38,7 +39,7 @@
 
 .startSlide::before {
   position: absolute;
-  content: '';
+  content: "";
   background-color: #707070;
   width: 70%;
   height: 2px;
@@ -46,21 +47,24 @@
   bottom: -15px;
 }
 
+.nothingLp6 h3 {
+  color: #f32f53;
+}
 
 @media screen and (min-width: 1400px) {
-
-
   .nothing {
     background-position: 953px center;
   }
-
 }
 
 @media screen and (min-width: 1600px) {
-
-
   .nothing {
     background-position: 1053px center;
   }
+}
 
+@media screen and (max-width: 991px) {
+  .nothing {
+    padding-top: 80px;
+  }
 }

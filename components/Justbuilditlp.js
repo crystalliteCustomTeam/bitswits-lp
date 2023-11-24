@@ -1,11 +1,10 @@
 import React from 'react'
-import styles from '@/styles/Justbuilditlp.module.css'
-import { Container, Row, Col } from 'react-bootstrap'
-import Image from 'next/image'
-import icon1 from '../public/images/howweare/howweare.png'
-import icon2 from '../public/images/howweare/arrow.png'
 import Link from 'next/link'
-
+import Image from 'next/image'
+import { useRouter } from "next/router";
+import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/Justbuilditlp.module.css'
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -15,13 +14,11 @@ import banImg2 from '../public/images/banner/bannerImg2.png'
 import banImg3 from '../public/images/banner/bannerImg1.png'
 import banImg4 from '../public/images/banner/bannerImg2.png'
 import banImg5 from '../public/images/banner/bannerImg1.png'
-import { useRouter } from "next/router";
+
 
 const Justbuildit = (props) => {
 
-
     const router = useRouter();
-
 
     var bannerslider = {
         dots: false,
@@ -36,7 +33,6 @@ const Justbuildit = (props) => {
         slidesToScroll: 1
 
     };
-
 
 
     return (
@@ -59,9 +55,6 @@ const Justbuildit = (props) => {
                     </Row>
 
                 </Container>
-
-
-
 
 
                 <Slider {...bannerslider} className='mt-5'>

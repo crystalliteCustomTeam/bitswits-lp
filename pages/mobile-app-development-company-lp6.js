@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import React from 'react';
-import Link from 'next/link'
 import styles from "@/styles/bannerlp6.module.css";
 import stylesjust from '@/styles/Justbuilditlp.module.css'
 //
@@ -9,9 +8,9 @@ const People = React.lazy(() => import('@/components/People'));
 const HomeBannerSliderlp = React.lazy(() => import('@/components/HomeBannerSliderlp'));
 const LpForm6 = React.lazy(() => import('@/components/LpForm6'));
 const Nothing = React.lazy(() => import('@/components/Nothing'));
-const Hurdles = React.lazy(() => import('@/components/Hurdles'));
-const Expertapp = React.lazy(() => import('@/components/Expertapp'));
-const ProjectProcess = React.lazy(() => import('@/components/ProjectProcess'));
+const WeworkLp = React.lazy(() => import('@/components/WeworkLp6'));
+const StartupsLp = React.lazy(() => import('@/components/StartupsLp6'));
+const ProjectProcess = React.lazy(() => import('@/components/ProjectProcessLp6'));
 const LpChoose = React.lazy(() => import('@/components/LpChoose'));
 const Technologieslp = React.lazy(() => import('@/components/Technologieslp'));
 const Justbuilditlp = React.lazy(() => import('@/components/Justbuilditlp'));
@@ -34,10 +33,10 @@ export default function gamedevelopmentcompany() {
             </Head>
 
             <Bannerlp6
-                subtitle={<> <h3 className='font18 font-bold text-center'>Create an App, Make a Mark</h3> </>}
+                subtitle={<> <h3 className='font18 font-medium text-center'>Create an App, Make a Mark</h3> </>}
                 title={<>
                     <h2 className={`${styles.develop} text-center f-50 font-bold mb-3`}>
-                    Award-Winning App Development Company
+                        Award-Winning App Development Company
                     </h2>
                 </>}
                 para={
@@ -57,17 +56,19 @@ export default function gamedevelopmentcompany() {
             <LpForm6 />
 
             <Nothing
-                Nothing='nothing'
+                Nothing='nothingLp6'
             />
 
-            <Hurdles />
+            <WeworkLp
+                wework='weworkLp6'
+            />
 
-            <Expertapp
-                expertapp='expertapp'
+            <StartupsLp
+                startups='startups'
             />
 
             <ProjectProcess
-                processclass='process'
+                processclass='processLp6'
             />
 
             <LpChoose

@@ -1,10 +1,8 @@
 import React from 'react'
-import styles from "@/styles/Globallp.module.css";
-import Link from 'next/link'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
-import team1 from '../public/images/bestglobal/global.png'
-
+import styles from "@/styles/Globallp.module.css";
+//
 import bestglobal1 from '../public/images/bestglobal/1.png'
 import bestglobal2 from '../public/images/bestglobal/2.png'
 import bestglobal3 from '../public/images/bestglobal/3.png'

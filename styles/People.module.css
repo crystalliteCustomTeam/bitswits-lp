@@ -1,44 +1,55 @@
-.people{
+.people {
   background-color: black;
 }
-.comple{
+.comple {
   display: flex;
   gap: 10px;
   align-items: center;
 }
-.comple3{
+.comple3 {
   display: flex;
   gap: 10px;
   align-items: center;
 }
 
-.comple1{
+.comple1 {
   display: flex;
   gap: 10px;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-.comple5{
+.comple5 {
   display: flex;
   gap: 3px;
   flex-direction: column;
-
-
 }
-.comple1 p, .comple5 p{
+.comple1 p,
+.comple5 p {
   color: white;
   font-size: 14px;
 }
-.flot{
+.flot {
   display: flex;
   justify-content: space-between;
 }
 
-@media screen and (max-width: 480px) {
-
-  .people{
-    display: none;
+@media screen and (max-width: 991px) {
+  .flot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
   }
 
- }
+  .people {
+    margin-top: -50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .people {
+    display: none;
+  }
+}

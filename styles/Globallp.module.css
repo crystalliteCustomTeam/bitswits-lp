@@ -1,97 +1,77 @@
 .team {
-    background-color: black;
-    position: relative;
-    padding-bottom: 130px;
-    padding-top: 123px;
-
+  background-color: black;
+  position: relative;
+  padding-bottom: 130px;
+  padding-top: 123px;
 }
 
-.postpoint img{
-    width: 16%;
+.postpoint img {
+  width: 16%;
 }
-.postpoint{
-    text-align: center;
+.postpoint {
+  text-align: center;
 }
 
 .success {
-    font-size: 100px;
-    font-weight: bold;
-    background-image: linear-gradient(to right, #F32F53, #F32FC2, #1153ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    line-height: 1;
-    margin-bottom: 4%;
+  font-size: 100px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #1153ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+  margin-bottom: 4%;
 }
 
-
-
-
 .lctnslide {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 1300px) {
-    .newHomeBg {
-        padding-bottom: 50px;
-        height: 100%;
-    }
+  .newHomeBg {
+    padding-bottom: 50px;
+    height: 100%;
+  }
 
-    .pipe img {
-
-        width: 29%;
-    }
-
-
+  .pipe img {
+    width: 29%;
+  }
 }
 
 @media screen and (max-width: 1200px) {
+  .team {
+    padding-bottom: 50px;
+  }
 
-
-
-    .team {
-
-        padding-bottom: 50px;
-    }
-
-    .pipe img {
-
-        display: none;
-    }
-
-
+  .pipe img {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 991px) {
+  .postpoint {
+    display: none;
+  }
 
-    .postpoint {
-        display: none;
-    }
+  .lctnslide {
+    display: block;
+  }
 
-    .lctnslide {
-        display: block;
-    }
+  .success {
+    font-size: 50px;
+  }
 
-    .success {
-        font-size: 50px;
-    }
-
-
-
+  .team {
+    padding: 80px 0 60px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-
-
-    .success {
-        font-size: 35px;
-    }
-
+  .success {
+    font-size: 35px;
+  }
 }
 @media screen and (max-width: 480px) {
-
-
-    .team{
-        text-align: center;
-    }
-
+  .team {
+    text-align: center;
+  }
 }

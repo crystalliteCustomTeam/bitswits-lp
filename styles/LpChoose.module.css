@@ -28,10 +28,15 @@
   justify-content: flex-end;
   margin-top: 3%;
 }
+
+.walk p {
+  text-align: justify;
+}
+
 .post {
   background-color: black;
-  height: 225px;
-  width: 196px;
+  height: 180px;
+  width: 195px;
   border: 1px solid #565353;
   border-radius: 25px;
   display: flex;
@@ -47,6 +52,7 @@
   font-weight: 500;
   color: white;
   text-align: center;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1400px) {
@@ -60,9 +66,6 @@
 
   .walk h2 {
     font-size: 31px;
-  }
-  .walk h3 {
-    font-size: 20px;
   }
 
   .walk p {
@@ -81,16 +84,26 @@
   }
 }
 
-@media screen and (max-width: 480px) {
-  .cart {
-    display: flex;
-    gap: 10px;
-    justify-content: flex-end;
-    margin-top: 2%;
-    flex-direction: column;
+@media screen and (max-width: 1400px) {
+  .post {
+    width: 175px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .transform {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    background-image: none;
   }
 
   .post {
-    width: 100%;
+    width: 90%;
+  }
+
+  .walk p {
+    max-width: 100%;
   }
 }
+

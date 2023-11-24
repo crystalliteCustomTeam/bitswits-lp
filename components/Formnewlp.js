@@ -9,13 +9,13 @@ const Formnewlp = () => {
         <>
             <section className={styles.team}>
                 <Container>
-                    <Row className='align-items-center'>
+                    <Row className='align-items-center gy-5'>
 
                         <Col lg={12}>
                             <h2 className='font55 fontf font-semibold white mb-3 text-center'>
                                 Start Your Mobile App Development <br /> Journey with Us?
                             </h2>
-                            <p className='font16 font-normal white text-center mb-5 pb-3'>Excited to turn your app concept into reality? Get in touch for a detailed consultation. We're keen to explore your project and <br /> demonstrate how our assistance can make a difference. Choosing Bitswits means partnering with a team dedicated to your app's success</p>
+                            <p className='font16 font-normal white text-center mb-0 mb-lg-5 pb-0 pb-lg-3'>Excited to turn your app concept into reality? Get in touch for a detailed consultation. We're keen to explore your project and <br /> demonstrate how our assistance can make a difference. Choosing Bitswits means partnering with a team dedicated to your app's success</p>
                         </Col>
 
                         <Col xl={6}>

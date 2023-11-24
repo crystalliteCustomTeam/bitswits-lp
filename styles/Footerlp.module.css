@@ -111,6 +111,12 @@
 
 /* =================Media Queries=================== */
 
+@media screen and (max-width: 991px) {
+  .projectlp {
+    padding: 0px 0 80px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .trmCon {
     margin: 20px 0px;
