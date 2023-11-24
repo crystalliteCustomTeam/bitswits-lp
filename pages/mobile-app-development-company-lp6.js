@@ -15,7 +15,7 @@ const ProjectProcess = React.lazy(() => import('@/components/ProjectProcessLp6')
 const LpChoose = React.lazy(() => import('@/components/LpChoose'));
 const Technologieslp = React.lazy(() => import('@/components/Technologieslp'));
 const Justbuilditlp = React.lazy(() => import('@/components/Justbuilditlp'));
-const Globallp = React.lazy(() => import('@/components/Globallp'));
+const Globallp6 = React.lazy(() => import('@/components/GlobalLp6'));
 const Partnerships = React.lazy(() => import('@/components/Partnerships'));
 const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
 const NewFaqslp = React.lazy(() => import('@/components/NewFaqslp'));
@@ -34,7 +34,7 @@ export default function gamedevelopmentcompany() {
             </Head>
 
             <Bannerlp6
-                subtitle={<> <h3 className='font18 font-medium text-center'>Create an App, Make a Mark</h3> </>}
+                subtitle={<> <h3 className='font18 font-extrabold text-center'>Create an App, Make a Mark</h3> </>}
                 title={<>
                     <h2 className={`${styles.develop} text-center f-50 font-bold mb-3`}>
                         Award-Winning App Development Company
@@ -94,7 +94,7 @@ export default function gamedevelopmentcompany() {
 
                 slide='slide1'
             />
-            <Globallp />
+            <Globallp6 />
             <Partnerships />
             <Formnewlp />
             <NewFaqslp />
