@@ -75,14 +75,6 @@ export default function gamedevelopmentcompany() {
             />
 
             <Globallplp6 />
-
-
-
-
-
-
-
-
             <Formnewlp2lp6 />
             <NewFaqslp />
             <HomeLocationlp />

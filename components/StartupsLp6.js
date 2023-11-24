@@ -18,7 +18,7 @@ export default function StartupsLp6(props) {
                     <Row className='align-items-center'>
 
                         <Col lg={6}>
-                            <h2 className="white f-60 f-700">
+                            <h2 className="white font50 f-700">
                                 <span className={styles.from}>Startups</span> From <br></br>
                                 Ideas To IPO
                             </h2>

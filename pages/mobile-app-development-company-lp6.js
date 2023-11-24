@@ -34,9 +34,9 @@ export default function gamedevelopmentcompany() {
             </Head>
 
             <Bannerlp6
-                subtitle={<> <h3 className='font18 font-extrabold text-center'>Create an App, Make a Mark</h3> </>}
+                subtitle={<> <h3 className='font30 font-bold text-center'>Create an App, Make a Mark</h3> </>}
                 title={<>
-                    <h2 className={`${styles.develop} text-center f-50 font-bold mb-3`}>
+                    <h2 className={`${styles.develop} text-center font50 font-bold mb-3`}>
                         Award-Winning App Development Company
                     </h2>
                 </>}

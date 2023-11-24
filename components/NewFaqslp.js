@@ -74,7 +74,7 @@ const NewFaqslp = () => {
         <Container>
           <Row className={styles.comfort}>
             <Col lg={12}>
-              <h2 className="white f-60 f-700">
+              <h2 className="white font50 f-700">
                 FAQs
               </h2>
             </Col>

@@ -1,10 +1,8 @@
 import React from 'react'
-import styles from "@/styles/Globallplp6.module.css";
-import Link from 'next/link'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
-import team1 from '../public/images/bestglobal/global.png'
-
+import styles from "@/styles/Globallplp6.module.css";
+//
 import bestglobal1 from '../public/images/mobilelpfinal/global/1.png'
 import bestglobal2 from '../public/images/mobilelpfinal/global/2.png'
 import bestglobal3 from '../public/images/mobilelpfinal/global/3.png'
@@ -18,23 +16,8 @@ import bestglobal10 from '../public/images/mobilelpfinal/global/10.png'
 import bestglobal11 from '../public/images/mobilelpfinal/global/11.png'
 import bestgloba12 from '../public/images/mobilelpfinal/global/12.png'
 
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 const NewHomeGlobal = () => {
-
-
-    let lctonSlider = {
-        dots: true,
-        arrows: false,
-        autoplay: true,
-        infinite: true,
-        adaptiveHeight: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-    };
 
     return (
         <>

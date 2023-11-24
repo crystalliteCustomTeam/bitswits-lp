@@ -29,9 +29,9 @@ const NewMaintain6Lp = () => {
                 <Container>
                     <Row className='d-none d-lg-flex g-3'>
                         <Col lg={12}>
-                            <p className={`f-20 font-extrabold text-center mb-0 ${styles.changered1}`}>How We Make App Creation Simple and Effective
+                            <p className={`font24 font-extrabold text-center mb-0 ${styles.changered1}`}>How We Make App Creation Simple and Effective
                             </p>
-                            <h1 className='text-white f-60 font-bold text-center mb-2'>Our Mobile App Development Solutions</h1>
+                            <h1 className='text-white font50 font-bold text-center mb-2'>Our Mobile App Development Solutions</h1>
                             <p className='m-0 text-white text-center'>Our comprehensive services cover everything from design to development, ensuring your journey to create an app  </p>
                             <p className='m-0 text-white text-center mb-4'>is smooth and successful. With our support, the process of app-making is not just easy. It's a journey of innovation. </p>
                         </Col>

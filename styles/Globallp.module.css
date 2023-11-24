@@ -62,6 +62,18 @@
     display: block;
   }
 
+  .teamLp6 .lctnslide img {
+    width: 15%;
+  }
+  
+  .teamLp6 .lctnslide {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    align-items: center;
+    justify-content: center;
+  }
+
   .success {
     font-size: 50px;
   }
