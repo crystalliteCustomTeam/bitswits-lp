@@ -151,15 +151,15 @@
 }
 
 .para {
-  padding: 75px 0 65px;
+  padding: 75px 0 50px;
   background-image: url(../public/images/lp-images/bg-image.png);
-  background-size: 45%;
+  background-size: 42%;
   background-position: center -100px;
   background-repeat: no-repeat;
 }
 
 .para P {
-  font-size: 36px;
+  font-size: 34px;
   color: #fff;
   text-align: center;
 }
