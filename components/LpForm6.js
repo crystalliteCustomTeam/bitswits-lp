@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
-import styles from "@/styles/LpForm.module.css";
+import styles from "@/styles/LpForm6.module.css";
 
 
 const LpForm = (props) => {
@@ -14,8 +14,7 @@ const LpForm = (props) => {
                             <div className={styles.make}>
                                 <form className={styles.formsbanner}>
                                     <div className={`mb-lg-4 pb-1 text-center`}>
-                                        <h4 className='font55 text-white font-bold mb-3'>Let's Talk Apps. Reserve A Spot! </h4>
-                                        <p className='font18 font-medium text-white mb-3'>Schedule A Complimentary Strategy Session Now With Our Experienced Product Strategists.</p>
+                                        <h4 className='font55 text-white font-bold mb-3'>Turn Your App Idea Into An App</h4>
                                     </div>
                                     <Row>
                                         <Col lg={3}>
@@ -55,7 +54,7 @@ const LpForm = (props) => {
 
                     <div className={styles.para}>
                         <p className='mb-0'>
-                            Welcome to our world of innovative app creation. At BitsWits, we don't just create a mobile app, we transform your vision into a digital masterpiece. With a blend of creativity and technical skill, we're recognized as the best app making company dedicated to elevating your business.
+                            Welcome to Bitswits, where app creation meets innovation. Whether it's 'Creating an App,' 'Making an App,' or diving into 'iOS' or 'Android Application' development, we're your team. Let's turn your vision into reality with our leading-edge app development expertise.
                         </p>
                     </div>
                 </Container>
