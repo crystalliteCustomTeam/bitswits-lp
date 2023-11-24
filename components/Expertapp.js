@@ -73,7 +73,7 @@ export default function Expertapp(props) {
                     <Row className='align-items-center g-3 d-none d-lg-flex'>
                         <Col lg={12} >
                             <h3 className='white f-30 f-700 center'>Expert App Solutions</h3>
-                            <h2 className='white f-60 f-700 center'>Mobile App Development Services</h2>
+                            <h2 className='white font50 f-700 center'>Mobile App Development Services</h2>
                             <p className={`${styles.appno} white font16 f-400 center`}>Dive Into Our Wide Array Of Services Designed To Meet Every Need. From Sleek UI/UX Design To Robust Cross-Platform Solutions, We Create A Mobile App Experience That Stands Out. Our Expertise In Mobile App Development Services Ensures Your App Looks Great And Performs Flawlessly Across Devices.</p>
                         </Col>
                         <Col lg={4}>

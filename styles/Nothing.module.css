@@ -51,7 +51,7 @@
   color: #f32f53;
 }
 
-.nothingLp6 .mapImg {
+.nothing .mapImg, .nothingLp6 .mapImg {
   max-width: 900px;
 }
 

@@ -15,7 +15,7 @@ const Hurdles = () => {
                     <Row className='align-items-center'>
                         <Col lg={12}>
                             <div className={styles.walk}>
-                                <h2 className='white font55 f-700'>App Development Hurdles?</h2>
+                                <h2 className='white font50 f-700'>App Development Hurdles?</h2>
                                 <Image quality={95} alt='BitsWits' src={secImg} className='img-fluid my-4' />
                                 <h3 className='white font40 f-700'>We Get It and We've Got Solutions</h3>
                                 <Link href="#" className={styles.dus}>Talk To An Expert</Link>

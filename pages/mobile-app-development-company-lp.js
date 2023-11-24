@@ -35,7 +35,7 @@ export default function gamedevelopmentcompany() {
 
             <Bannerlp
                 title={<>
-                    <h3 className={`${styles.develop} text-center f-50 font-bold mb-3`}>
+                    <h3 className={`${styles.develop} text-center font50 font-bold mb-3`}>
                     Mastering Mobile App Development
                     </h3>
                 </>}
