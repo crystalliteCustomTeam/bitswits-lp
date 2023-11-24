@@ -5,17 +5,18 @@ import stylesjust from '@/styles/Justbuilditlp.module.css'
 const Bannerlpfinal = React.lazy(() => import('@/components/Bannerlpfinal'));
 const Awardsrecognition = React.lazy(() => import('@/components/Awardsrecognition'));
 const Nothinglp2 = React.lazy(() => import('@/components/Nothinglp2'));
-const NewMaintainlp = React.lazy(() => import('@/components/NewMaintainlp'));
-const Wework = React.lazy(() => import('@/components/Wework'));
+const Innovate = React.lazy(() => import('@/components/Innovate'));
 const Technologieslp = React.lazy(() => import('@/components/Technologieslp'));
-const Globallp = React.lazy(() => import('@/components/Globallp'));
-const Startups = React.lazy(() => import('@/components/Startups'));
-const ProjectProcesslp = React.lazy(() => import('@/components/ProjectProcesslp'));
+const Globallplp6 = React.lazy(() => import('@/components/Globallplp6'));
+const ProjectProcesslpfinal6 = React.lazy(() => import('@/components/ProjectProcesslpfinal6'));
 const Justbuilditlp = React.lazy(() => import('@/components/Justbuilditlp'));
-const Transformideas = React.lazy(() => import('@/components/Transformideas'));
-const Formnewlp2 = React.lazy(() => import('@/components/Formnewlp2'));
+const Transformideaslp6 = React.lazy(() => import('@/components/Transformideaslp6'));
+const Formnewlp2lp6 = React.lazy(() => import('@/components/Formnewlp2lp6'));
 const NewFaqslp = React.lazy(() => import('@/components/NewFaqslp'));
 const HomeLocationlp = React.lazy(() => import('@/components/HomeLocationlp'));
+const Expertapplp6 = React.lazy(() => import('@/components/Expertapplp6'));
+const Awardlpfinal6 = React.lazy(() => import('@/components/Awardlpfinal6'));
+
 
 
 export default function gamedevelopmentcompany() {
@@ -36,26 +37,27 @@ export default function gamedevelopmentcompany() {
             <Awardsrecognition />
 
             <Nothinglp2
-                Nothing='nothing1'
+                Nothing='lp6final'
             />
 
-            <NewMaintainlp />
+            <Innovate />
 
-            <Wework
-                wework='wework'
+            <Expertapplp6
+                expertapp='expertapp'
             />
+
+            <ProjectProcesslpfinal6
+                processclass='process1'
+            />
+
+
+            <Transformideaslp6
+                transform='transform'
+            />
+
 
             <Technologieslp />
 
-            <Globallp />
-
-            <Startups
-                startups='startups'
-            />
-
-            <ProjectProcesslp
-                processclass='process1'
-            />
 
             <Justbuilditlp
                 title={
@@ -69,14 +71,19 @@ export default function gamedevelopmentcompany() {
                     </>
                 }
 
-                slide='slide2'
+                slide='slide2lp6'
             />
 
-            <Transformideas
-                transform='transform'
-            />
+            <Globallplp6 />
 
-            <Formnewlp2 />
+
+
+
+
+
+
+
+            <Formnewlp2lp6 />
             <NewFaqslp />
             <HomeLocationlp />
         </>

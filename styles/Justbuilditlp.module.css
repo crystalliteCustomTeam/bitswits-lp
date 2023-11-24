@@ -4,8 +4,14 @@
 .slide2 {
   background-color: black;
 }
+.slide2lp6 {
+  background-color: black;
+}
 .slide2 a{
   border-radius: 10px;
+}
+.slide2lp6 a{
+  border-radius: unset;
 }
 
 .just {

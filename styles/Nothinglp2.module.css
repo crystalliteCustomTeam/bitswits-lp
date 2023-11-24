@@ -11,6 +11,11 @@
   background-size: 27%;
 
 }
+
+.lp6final h3{
+  font-weight: 800;
+}
+
 .nothing1 {
  background-color: black;
   padding-top: 150px;
@@ -24,6 +29,25 @@
   background-size: 27%;
 
 }
+.lp6final {
+ background-color: black;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: #000;
+  background-image: url(../public/images/nothing/bg.png);
+  background-position: 886px center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-size: 27%;
+
+}
+.lp6final h2{
+  color: #F32F53;
+}
+.lp6final .btnpost{
+  border-radius: unset;
+}
+
 
 .btnpost {
   height: 45px;
