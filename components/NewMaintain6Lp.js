@@ -29,11 +29,11 @@ const NewMaintain6Lp = () => {
                 <Container>
                     <Row className='d-none d-lg-flex g-3'>
                         <Col lg={12}>
-                            <p className={` f-20 font-bold text-white text-center mb-0 styles.changered`}>How We Make App Creation Simple and Effective
+                            <p className={`f-20 font-extrabold text-center mb-0 ${styles.changered1}`}>How We Make App Creation Simple and Effective
                             </p>
-                            <h1 className='text-white f-55 font-bold text-center'>Our Mobile App Development Solutions</h1>
+                            <h1 className='text-white f-60 font-bold text-center mb-2'>Our Mobile App Development Solutions</h1>
                             <p className='m-0 text-white text-center'>Our comprehensive services cover everything from design to development, ensuring your journey to create an app  </p>
-                            <p className='m-0 text-white text-center'>is smooth and successful. With our support, the process of app-making is not just easy. It's a journey of innovation. </p>
+                            <p className='m-0 text-white text-center mb-4'>is smooth and successful. With our support, the process of app-making is not just easy. It's a journey of innovation. </p>
                         </Col>
                         <Col sm={6} lg={4}>
                             <div className={styles.app}>
@@ -60,7 +60,7 @@ const NewMaintain6Lp = () => {
                                 <div className={styles.cardContent}>
                                     <h3 className='text-white font25 font-bold'>Blockchain Development</h3>
                                     <p className={'text-white '}>
-                                    Dive into Blockchain Development. We excel in creating secure, innovative blockchain platforms. Join us to shape the future of digital transactions. <span className={styles.changered}>Let's innovate together!</span>
+                                        Dive into Blockchain Development. We excel in creating secure, innovative blockchain platforms. Join us to shape the future of digital transactions. <span className={styles.changered}>Let's innovate together!</span>
                                     </p>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@ const NewMaintain6Lp = () => {
                                         <div className={styles.paraThreeContent}>
                                             <h3 className='text-white font25 font-bold '>Artificial Intelligence (Ai)</h3>
                                             <p className={styles.para1}>
-                                            In AI Development, we're not just participants – we're pioneers. Our expertise in developing advanced AI solutions and creating intelligent systems sets us apart. Ready to lead the AI revolution? <span className={styles.changered}>Partner with us for next-gen innovations.</span>
+                                                In AI Development, we're not just participants – we're pioneers. Our expertise in developing advanced AI solutions and creating intelligent systems sets us apart. Ready to lead the AI revolution? <span className={styles.changered}>Partner with us for next-gen innovations.</span>
                                             </p>
                                         </div>
                                     </Col>
@@ -90,7 +90,7 @@ const NewMaintain6Lp = () => {
                                 <div>
                                     <h3 className='text-white font25 font-bold text-center'>Web App Development</h3>
                                     <p className={styles.possibilities}>
-                                    Web App Development Experts. We blend creativity with cutting-edge technology to build web apps that are not just functional, but phenomenal. Ready to set new benchmarks in the digital world?<span className={styles.changered}> Partner with us to craft your web masterpiece</span>
+                                        Web App Development Experts. We blend creativity with cutting-edge technology to build web apps that are not just functional, but phenomenal. Ready to set new benchmarks in the digital world?<span className={styles.changered}> Partner with us to craft your web masterpiece</span>
                                     </p>
                                 </div>
                             </div>
@@ -114,7 +114,7 @@ const NewMaintain6Lp = () => {
                                     <div className={styles.power}>
                                         <h3 className='text-white font25 font-bold'>AR/VR</h3>
                                         <p className={`text-white f-16 ${styles.contentPara}`}>
-                                        Shaping New Realities with AR/VR Development: Our expertise fuses cutting-edge technology with immersive experiences. Ready to redefine the boundaries of virtual and augmented worlds?<span className={styles.changered}> Let's innovate beyond imagination.</span>
+                                            Shaping New Realities with AR/VR Development: Our expertise fuses cutting-edge technology with immersive experiences. Ready to redefine the boundaries of virtual and augmented worlds?<span className={styles.changered}> Let's innovate beyond imagination.</span>
                                         </p>
                                     </div>
                                 </div>
@@ -123,11 +123,10 @@ const NewMaintain6Lp = () => {
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app7}>
-                                <Image quality={75} alt='BitsWits' src={cardNine} className={`${styles.appImage}`} />
                                 <div className={styles.mblApp7}>
                                     <h3 className='text-white font25 font-bold text-center'>Internet of Things</h3>
                                     <p className={styles.para9}>
-                                    Innovating in IoT Development: We connect the dots between technology and usability to create innovative, integrated solutions.<span className={styles.changered}> Let's lead the IoT evolution together. </span>
+                                        Innovating in IoT Development: We connect the dots between technology and usability to create innovative, integrated solutions.<span className={styles.changered}> Let's lead the IoT evolution together. </span>
                                     </p>
                                 </div>
                             </div>
