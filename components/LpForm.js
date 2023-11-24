@@ -17,8 +17,8 @@ const LpForm = (props) => {
                             <div className={styles.make}>
                                 <form className={styles.formsbanner}>
                                     <div className={`mb-lg-4 pb-1 text-center`}>
-                                        <h4 className='font28 text-white font-bold'>Ready For Success?</h4>
-                                        <h5 className='font20 font-bold text-white'>Schedule a complimentary strategy session now with our experienced product strategists.</h5>
+                                        <h4 className='font55 text-white font-bold mb-3'>Let's Talk Apps. Reserve A Spot! </h4>
+                                        <p className='font18 font-medium text-white mb-3'>Schedule A Complimentary Strategy Session Now With Our Experienced Product Strategists.</p>
                                     </div>
                                     <Row>
                                         <Col lg={3}>
@@ -38,22 +38,7 @@ const LpForm = (props) => {
                                         </Col>
                                         <Col lg={3}>
                                             <div>
-                                                <input type='text' className={styles.forminput} placeholder='How can we help you?' />
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                    <Row className='align-items-end mt-3'>
-                                        <Col lg={4}>
-                                            <p className='font14 font-semibold fontf m-0 white'>
-                                                We take your privacy seriously. Read our privacy
-                                            </p>
-                                        </Col>
-                                        <Col lg={4}>
-                                            <div className={styles.menu}>
-                                                <Link className={`${styles.book} ${styles.book2}`} href="#">
-                                                    Avail My Free Session
-                                                    <Image alt="BitsWits" src={arrow} className='img-fluid ms-2' />
-                                                </Link>
+                                                <Link className={`${styles.book}`} href="#">Submit</Link>
                                             </div>
                                         </Col>
                                     </Row>
@@ -61,6 +46,21 @@ const LpForm = (props) => {
                             </div>
                         </Col>
                     </Row>
+                </Container>
+            </section>
+
+            <section className={styles.keyFrame}>
+                <Container>
+                    <div className={styles.cirMain}>
+                        <div className={styles.cir1}></div>
+                        <div className={styles.cir2}></div>
+                    </div>
+
+                    <div className={styles.para}>
+                        <p className='mb-0'>
+                            Welcome to our world of innovative app creation. At BitsWits, we don't just create a mobile app, we transform your vision into a digital masterpiece. With a blend of creativity and technical skill, we're recognized as the best app making company dedicated to elevating your business.
+                        </p>
+                    </div>
                 </Container>
             </section>
         </>

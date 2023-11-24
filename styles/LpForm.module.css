@@ -1,5 +1,5 @@
 .formsbanner .forminput {
-  background-color: #262626;
+  background-color: #2b2b2b;
   border: 0;
   height: 50px;
   width: 100%;
@@ -46,7 +46,7 @@
 
 .book {
   height: 50px;
-  background-color: #4a78ef;
+  background-color: #f32f53;
   color: white;
   display: flex;
   align-items: center;
@@ -100,8 +100,49 @@
 }
 
 .appios {
-  border: 2px solid #f32f53;
   padding: 30px 40px;
+}
+
+.keyFrame {
+  background-color: #000;
+  padding: 50px 0 0px;
+}
+
+.cirMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cir1 {
+  width: 30px;
+  height: 30px;
+  border: 0;
+  background-color: #f32f53;
+  border-radius: 100%;
+}
+
+.cir2 {
+  width: 30px;
+  height: 30px;
+  border: 0;
+  background-color: #4a78ef;
+  border-radius: 100%;
+}
+
+.para {
+  padding: 75px 0 10px;
+  background-image: url(../public/images/lp-images/bg-image.png);
+  background-size: 45%;
+  background-position: center -100px;
+  background-repeat: no-repeat;
+}
+
+.para P {
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
 }
 
 /* =========================================== */

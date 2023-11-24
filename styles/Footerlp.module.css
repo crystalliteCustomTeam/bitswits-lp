@@ -1,7 +1,7 @@
 .footer {
   background-color: var(--b-color);
   position: relative;
-    z-index: 2;
+  z-index: 2;
 }
 
 .footerNav {
@@ -62,11 +62,9 @@
   filter: grayscale(100%);
   transition: 0.3s ease-in-out;
 }
-.contacts img{
+.contacts img {
   filter: grayscale();
 }
-
-
 
 .termsMain {
   float: right;
@@ -103,15 +101,18 @@
   text-align: center;
 }
 
-.project{
+.project {
   padding: 50px 0 0;
+}
+
+.projectlp {
+  padding: 0px 0 150px;
 }
 
 /* =================Media Queries=================== */
 
 @media screen and (max-width: 767px) {
-
-  .trmCon{
+  .trmCon {
     margin: 20px 0px;
   }
 

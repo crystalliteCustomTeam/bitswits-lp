@@ -9,12 +9,14 @@ const People = React.lazy(() => import('@/components/People'));
 const HomeBannerSliderlp = React.lazy(() => import('@/components/HomeBannerSliderlp'));
 const LpForm = React.lazy(() => import('@/components/LpForm'));
 const Nothing = React.lazy(() => import('@/components/Nothing'));
+const Hurdles = React.lazy(() => import('@/components/Hurdles'));
 const Expertapp = React.lazy(() => import('@/components/Expertapp'));
 const ProjectProcess = React.lazy(() => import('@/components/ProjectProcess'));
-const Transform = React.lazy(() => import('@/components/Transform'));
+const LpChoose = React.lazy(() => import('@/components/LpChoose'));
 const Technologieslp = React.lazy(() => import('@/components/Technologieslp'));
 const Justbuilditlp = React.lazy(() => import('@/components/Justbuilditlp'));
 const Globallp = React.lazy(() => import('@/components/Globallp'));
+const Partnerships = React.lazy(() => import('@/components/Partnerships'));
 const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
 const NewFaqslp = React.lazy(() => import('@/components/NewFaqslp'));
 const HomeLocationlp = React.lazy(() => import('@/components/HomeLocationlp'));
@@ -33,19 +35,19 @@ export default function gamedevelopmentcompany() {
 
             <Bannerlp
                 title={<>
-                    <h3 className={`${styles.develop} text-center f-50 font-bold mb-2`}>
+                    <h3 className={`${styles.develop} text-center f-50 font-bold mb-3`}>
                     Mastering Mobile App Development
                     </h3>
                 </>}
                 para={
                     <>
-                        <p className='white center mb-3'>Beautiful, High-Performance Apps Delivered On Time and on Budget</p>
+                        <p className='font20 white center mb-3'>Beautiful, High-Performance Apps Delivered <span className={styles.txtDec}>ON TIME</span> and <span className={styles.txtDec}>WITHIN BUDGET</span></p>
                     </>
                 }
                 btn2={
                     <>
                         <div className={styles.pont}>
-                            <Link className={styles.about} href="#">Take The First Step - Sign Up Now!</Link>
+                            <Link className={styles.about} href="#">Transform Your App Idea Into A Success Story - Today Is The Day To Start!</Link>
                         </div>
                     </>
                 }
@@ -64,6 +66,8 @@ export default function gamedevelopmentcompany() {
                 Nothing='nothing'
             />
 
+            <Hurdles />
+
             <Expertapp
                 expertapp='expertapp'
             />
@@ -72,7 +76,7 @@ export default function gamedevelopmentcompany() {
                 processclass='process'
             />
 
-            <Transform
+            <LpChoose 
                 transform='transform'
             />
 
@@ -93,6 +97,7 @@ export default function gamedevelopmentcompany() {
                 slide='slide1'
             />
             <Globallp />
+            <Partnerships />
             <Formnewlp />
             <NewFaqslp />
             <HomeLocationlp />
