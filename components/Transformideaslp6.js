@@ -3,23 +3,62 @@ import Image from 'next/image';
 import styles from "@/styles/Transformideaslp6.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
 
+
 //images
-import banImg1 from '../public/images/mobilelpfinal/chooselog/1.png'
-import banImg2 from '../public/images/mobilelpfinal/chooselog/2.png'
-import banImg3 from '../public/images/mobilelpfinal/chooselog/3.png'
-import banImg4 from '../public/images/mobilelpfinal/chooselog/4.png'
-import banImg5 from '../public/images/mobilelpfinal/chooselog/5.png'
-import banImg6 from '../public/images/mobilelpfinal/chooselog/6.png'
-import banImg7 from '../public/images/mobilelpfinal/chooselog/7.png'
-import banImg8 from '../public/images/mobilelpfinal/chooselog/8.png'
-import banImg9 from '../public/images/mobilelpfinal/chooselog/9.png'
+import banImg1 from '../public/images/lp-images/icon1.png'
+import banImg2 from '../public/images/lp-images/icon2.png'
+import banImg3 from '../public/images/lp-images/icon3.png'
+import banImg4 from '../public/images/lp-images/icon4.png'
+import banImg5 from '../public/images/lp-images/icon5.png'
+import banImg6 from '../public/images/lp-images/icon6.png'
+import banImg7 from '../public/images/lp-images/icon7.png'
+import banImg8 from '../public/images/lp-images/icon8.png'
+import banImg9 from '../public/images/lp-images/icon9.png'
+
 
 import Link from 'next/link';
 
 
 export default function Transformideaslp6(props) {
 
-
+    const items = [
+        {
+            image: banImg1,
+            text: (<> Experienced  <br /> Professionals </>)
+        },
+        {
+            image: banImg2,
+            text: (<> On-Time <br /> Delivery </>)
+        },
+        {
+            image: banImg3,
+            text: (<> Cost-Effective <br /> Solutions </>)
+        },
+        {
+            image: banImg4,
+            text: (<> Scalable and <br /> Secure Apps </>)
+        },
+        {
+            image: banImg5,
+            text: (<> User-Centric <br /> Design </>)
+        },
+        {
+            image: banImg6,
+            text: (<> Customized <br /> Development </>)
+        },
+        {
+            image: banImg7,
+            text: (<> Error-Free <br /> Delivery </>)
+        },
+        {
+            image: banImg8,
+            text: (<> Transparent <br /> Communication </>)
+        },
+        {
+            image: banImg9,
+            text: (<> Support and <br /> Maintenance </>)
+        }
+    ];
 
     return (
         <>
@@ -42,77 +81,17 @@ export default function Transformideaslp6(props) {
                             </div>
                         </Col>
                         <Col lg={6}>
-                            <div className={styles.cart}>
-                                <div className={styles.post}>
-                                    <Image quality={95} alt='BitsWits' src={banImg1} className='img-fluid mb-3' />
-
-                                    <p>Experienced 
-                                        Professionals</p>
-                                </div>
-                                <div className={styles.post}>
-                                    <Image quality={95} alt='BitsWits' src={banImg2} className='img-fluid mb-3' />
-
-                                    <p>On-Time
-                                  
-                                        Delivery</p>
-                                </div>
-                                <div className={styles.post}>
-                                    <Image quality={95} alt='BitsWits' src={banImg3} className='img-fluid mb-3' />
-
-                                    <p>Cost-Effective
-                                       
-                                           Solutions</p>
-                                </div>
-                            </div>
-                            <div className={styles.cart}>
-                                <div className={styles.post}>
-                                    <Image quality={95} alt='BitsWits' src={banImg4} className='img-fluid mb-3' />
-
-                                    <p>Scalable and
-                                       
-                                        Secure Apps</p>
-                                </div>
-                                <div className={styles.post}>
-                                    <Image quality={95} alt='BitsWits' src={banImg5} className='img-fluid mb-3' />
-
-                                    <p>User-Centric
-                                       
-                                        Design</p>
-                                </div>
-                                <div className={styles.post}>
-                                    <Image quality={95} alt='BitsWits' src={banImg6} className='img-fluid mb-3' />
-
-                                    <p>Customized
-                                        
-                                        Development</p>
-                                </div>
-                            </div>
-
-
-                            <div className={styles.cart}>
-                                <div className={styles.post}>
-                                    <Image quality={95} alt='BitsWits' src={banImg7} className='img-fluid mb-3' />
-
-                                    <p>Error-Free
-
-                                       
-                                        Delivery</p>
-                                </div>
-                                <div className={styles.post}>
-                                    <Image quality={95} alt='BitsWits' src={banImg8} className='img-fluid mb-3' />
-
-                                    <p>Transparent
-                                       
-                                        Communication</p>
-                                </div>
-                                <div className={styles.post}>
-                                    <Image quality={95} alt='BitsWits' src={banImg9} className='img-fluid mb-3' />
-
-                                    <p>Support and
-
-                                       
-                                        Maintenance</p>
-                                </div>
+                        <div className={styles.cart}>
+                                <Row className='gy-4'>
+                                    {items.map((item, index) => (
+                                        <Col key={index} md={6} lg={4}>
+                                            <div className={styles.post}>
+                                                <Image alt='BitsWits' src={item.image} className='img-fluid mb-3' />
+                                                <p>{item.text}</p>
+                                            </div>
+                                        </Col>
+                                    ))}
+                                </Row>
                             </div>
                         </Col>
 

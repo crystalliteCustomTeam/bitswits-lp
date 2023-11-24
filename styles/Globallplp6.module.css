@@ -83,10 +83,17 @@
     .postpoint {
         display: none;
     }
-
+.lctnslide img{
+    width: 15%;
+}
     .lctnslide {
-        display: block;
-    }
+        display: flex;
+        flex-wrap: wrap;
+        gap: 23px;
+        align-items: center;
+        justify-content: center;
+      }
+    
 
     .success {
         font-size: 50px;

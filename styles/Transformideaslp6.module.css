@@ -80,8 +80,14 @@
   color: white;
   text-align: center;
 }
-
+.walk p{
+  text-align: justify;
+}
 @media screen and (max-width: 1400px) {
+
+  .post{
+    width: 175px;
+  }
 
   .transform {
 
@@ -123,6 +129,10 @@
 }
 
 @media screen and (max-width: 991px) { 
+
+  .post{
+    width: 100%;
+  }
 
   .cart {
     display: flex;

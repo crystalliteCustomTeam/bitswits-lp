@@ -82,7 +82,7 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/supersale'
     || router.pathname == '/top-ecommerce-app-development-company'
   // =======================================
-  const mblLp1 = router.pathname == '/mobile-app-development-company-lp'
+  const mblLp1 = router.pathname == '/mobile-app-development-company-lp' || 'mobile-app-development-services-landing-page-final'
   const newlps = router.pathname == '/mobile-app-development-company-lp2'
   // =======================================
   const newhomepage = router.pathname == '/supersale';

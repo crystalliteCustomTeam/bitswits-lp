@@ -66,7 +66,7 @@ const NewHomeGlobal = () => {
                                 </div>
                             </div>
 
-                            <Slider {...lctonSlider} className={styles.lctnslide}>
+                            <div className={styles.lctnslide}>
                                 <Image quality={75} src={bestglobal1} className='img-fluid' alt='BitsWits' />
                                 <Image quality={75} src={bestglobal2} className='img-fluid' alt='BitsWits' />
                                 <Image quality={75} src={bestglobal3} className='img-fluid' alt='BitsWits' />
@@ -79,12 +79,12 @@ const NewHomeGlobal = () => {
                                 <Image quality={75} src={bestglobal10} className='img-fluid' alt='BitsWits' />
                                 <Image quality={75} src={bestglobal11} className='img-fluid' alt='BitsWits' />
                                 <Image quality={75} src={bestgloba12} className='img-fluid' alt='BitsWits' />
-                            </Slider>
+                            </div>
 
                         </Col>
-                    
+
                     </Row>
-                </Container>    
+                </Container>
             </section>
         </>
     )
