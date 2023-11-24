@@ -5,6 +5,11 @@
   margin-top: -1%;
 }
 
+
+.changered{
+  color: #F32F53 !important;
+}
+
 .newHomeBg h1 {
   max-width: 990px;
   margin: 0 auto;
