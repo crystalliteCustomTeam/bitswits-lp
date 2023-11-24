@@ -51,38 +51,38 @@ export default function Nothinglp2(props) {
                         <Col lg={4}>
 
                             <div>
-                                <Slider {...bannerslider} className={` ${styles.startSlide} Serbannerslider`}>
+                            <Slider {...bannerslider} className={` ${styles.startSlide} Serbannerslider`}>
                                     <div className={styles.strpImg}>
                                         <Image alt="BitsWits" src={news1} className="img-fluid  " />
-                                        <p className='white font12 mt-4 mb-1'>BitsWits was a lifesaver for our business. We needed to create an app that could be used on multiple platforms, but we didn’t have a lot of technical know-how or additional development resources. Their team made it easy for us and delivered exactly what we needed. They stayed on top of our project and kept us informed throughout the process. We wouldn't hesitate to recommend them for any of your app development needs!</p>
-                                        <h4 className='white font20 mb-1'>Bryce Carlos</h4>
-                                        <p className='white font12'>CEO / FOUNDER SOUL SOUND</p>
+                                        <p className='white font12 mt-4 mb-1'>Bitswits' development of the ProEYE project, a wallet analytics and search engine platform on blockchain, was exceptional. Their comprehensive work, from requirement analysis to deployment, resulted in a highly functional, user-friendly platform with advanced analytics and robust data integration. Their attention to detail in every phase ensured ProEYE's success in the blockchain arena.</p>
+                                        <h4 className='white font20 mb-1'>Joseph</h4>
+                                        <p className='white font12'>CTO / Pronftdesign.com</p>
                                     </div>
                                     <div className={styles.strpImg}>
                                         <Image alt="BitsWits" src={news2} className="img-fluid  " />
-                                        <p className='white font12 mt-4 mb-1'>We hired mobile app developers to create a completely new mobile app for our company. The team at BitsWits was really professional, efficient, and knowledgeable in the latest technologies and trends. We couldn't be happier with the results and will definitely be recommending them to anyone looking for top-notch mobile app development company.</p>
-                                        <h4 className='white font20 mb-1'>Aden Ward</h4>
-                                        <p className='white font12'>CO-FOUNDER PRO HEALTH</p>
+                                        <p className='white font12 mt-4 mb-1'>Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm's workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.</p>
+                                        <h4 className='white font20 mb-1'>Daniel Gonzalez</h4>
+                                        <p className='white font12'>CTO / Jumpto1.com</p>
                                     </div>
                                     <div className={styles.strpImg}>
                                         <Image alt="BitsWits" src={news3} className="img-fluid " />
-                                        <p className='white font12 mt-4 mb-1'>Hiring Flutter app developers from BitsWits was one of the best decisions I have ever made. They are highly skilled and knowledgeable professionals who understand customer needs and deliver well-crafted solutions to us. Overall, we are extremely satisfied with their service and highly recommend them to anyone looking for reliable and cost-effective Flutter solutions.</p>
-                                        <h4 className='white font20 mb-1'>Winnie Brooks</h4>
-                                        <p className='white font12'>FOUNDER AND CEO GLOW SPA</p>
+                                        <p className='white font12 mt-4 mb-1'>Bitswits delivered an efficient solution that significantly improved processing speed, productivity, and accuracy. Their proactive engagement, soliciting of feedback, and implementing improvements ensured a successful partnership. The team's versatility and adaptability were commendable.</p>
+                                        <h4 className='white font20 mb-1'>Ryan Jaden</h4>
+                                        <p className='white font12'>iTRans.ai</p>
                                     </div>
                                     <div className={styles.strpImg}>
                                         <Image alt="BitsWits" src={news4} className="img-fluid  " />
-                                        <p className='white font12 mt-4 mb-1'>We're very satisfied with the results of our working relationship with BitsWits. We were able to create a high-quality mobile app that not only met our specifications but exceeded them in every way. The entire team was friendly and professional throughout the entire process, and we would definitely recommend their services to anyone looking for a reliable custom app development company.</p>
-                                        <h4 className='white font20 mb-1'>Chavi Miles</h4>
-                                        <p className='white font12'>CO-FOUNDER BLISS TRAVEL</p>
+                                        <p className='white font12 mt-4 mb-1'>We decided to hire app developers from Bitswits on their hourly package and it turned out to be a perfect fit for our project's needs. Their team's expertise and efficiency were impressive, delivering high-quality work within our budget. The app they developed is exactly what we envisioned, both innovative and user-friendly.</p>
+                                        <h4 className='white font20 mb-1'>Jordan</h4>
+                                        <p className='white font12'>Tech Startup Founder</p>
                                     </div>
                                     <div className={styles.strpImg}>
                                         <Image alt="BitsWits" src={news5} className="img-fluid  " />
-                                        <p className='white font12 mt-4 mb-1'>BitsWits have done a great job making an attractive and eye-catching IOS application. I am grateful to the team for delivering this application perfectly on very short notice. Thanks a lot.</p>
-                                        <h4 className='white font20 mb-1'>Andrew Drake</h4>
-                                        <p className='white font12'>FOUNDER / CEO MARK PLACE</p>
+                                        <p className='white font12 mt-4 mb-1'>Working with Bitswits was a game-changer for our retail chain. They developed an AI-assisted inventory management system that automates stock level tracking and predictive ordering. The accuracy and efficiency it brings to our supply chain management are phenomenal. It's a prime example of how AI can transform traditional retail operations.</p>
+                                        <h4 className='white font20 mb-1'>Emily</h4>
+                                        <p className='white font12'>Retail Chain Manager</p>
                                     </div>
-                                  
+
                                 </Slider>
                                 <div className='mt-5'>
                                     <Link href="#" className={styles.btnpost}>Begin Your Success Story : Connect Now</Link>

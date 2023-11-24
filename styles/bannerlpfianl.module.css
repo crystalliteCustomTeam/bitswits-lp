@@ -7,7 +7,9 @@
   background-repeat: no-repeat;
   background-size: 93%;
 }
-
+.rating{
+  font-style: italic;
+}
 .alignpost {
   align-items: center;
 }
@@ -28,6 +30,7 @@
 .ouroff span p {
   font-size: 12px;
   color: white;
+  font-weight: 600;
 }
 
 .ouroff span img {
@@ -98,10 +101,12 @@
 .your h2 {
   color: #F32F53;
   font-size: 28px;
+  font-weight: 700;
 }
 
 .your h3 {
   font-size: 18px;
+  font-weight: 700;
 }
 
 .careatapp {
