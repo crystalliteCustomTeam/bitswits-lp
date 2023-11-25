@@ -27,6 +27,9 @@ const Carousel = () => {
         const carouselPivot = carouselPivotRef.current;
 
         var carouselRadius = 210;
+        if (window.innerWidth <767) {
+            carouselRadius = 100;
+        }
         var carouselRotation = 0;
         var carouselTilt = 0;
         var carouselVelocity = 5;

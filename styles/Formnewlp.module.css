@@ -91,6 +91,24 @@
   .team {
     padding-bottom: 100px;
   }
+
+  .star {
+    height: 250px;
+    padding: 0 4%;
+  }
+
+  .star h3{
+    font-size: 20px !important;
+  }
+
+  .star h2 {
+    font-size: 30px !important;
+    line-height: 42px;
+  }
+  .star h2 span {
+    font-size: 30px !important;
+    line-height: 42px;
+  }
 }
 
 @media (max-width: 480px) {

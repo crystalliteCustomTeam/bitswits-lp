@@ -113,7 +113,7 @@ const NewMaintain6Lp = () => {
                                 <div className={styles.pick}>
                                     <div className={styles.power}>
                                         <h3 className='text-white font25 font-bold'>AR/VR</h3>
-                                        <p className={`text-white f-16 ${styles.contentPara}`}>
+                                        <p className={`text-white f-14 ${styles.contentPara}`}>
                                             Shaping New Realities with AR/VR Development: Our expertise fuses cutting-edge technology with immersive experiences. Ready to redefine the boundaries of virtual and augmented worlds?<span className={styles.changered}> Let's innovate beyond imagination.</span>
                                         </p>
                                     </div>

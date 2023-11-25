@@ -51,10 +51,6 @@
   color: #f32f53;
 }
 
-.nothing .mapImg, .nothingLp6 .mapImg {
-  max-width: 900px;
-}
-
 @media screen and (min-width: 1400px) {
   .nothing {
     background-position: 953px center;

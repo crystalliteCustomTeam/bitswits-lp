@@ -15,7 +15,7 @@ const ProjectProcess = React.lazy(() => import('@/components/ProjectProcess'));
 const LpChoose = React.lazy(() => import('@/components/LpChoose'));
 const Technologieslp = React.lazy(() => import('@/components/Technologieslp'));
 const Justbuilditlp = React.lazy(() => import('@/components/Justbuilditlp'));
-const Globallp = React.lazy(() => import('@/components/Globallp'));
+const Globallplp6 = React.lazy(() => import('@/components/Globallplp6'));
 const Partnerships = React.lazy(() => import('@/components/Partnerships'));
 const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
 const NewFaqslp = React.lazy(() => import('@/components/NewFaqslp'));
@@ -96,7 +96,7 @@ export default function gamedevelopmentcompany() {
 
                 slide='slide1'
             />
-            <Globallp />
+           <Globallplp6 />
             <Partnerships />
             <Formnewlp />
             <NewFaqslp />
