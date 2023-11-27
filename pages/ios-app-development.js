@@ -146,7 +146,14 @@ export default function gamedevelopmentcompany() {
 
       <StartupsLp startups="startups" />
 
-      <ProjectProcess processclass="processLp6" />
+      <ProjectProcess
+        processclass="processLp6"
+        title="Explore Our iOS App Development Journey"
+        desc="We believe in efficiency without compromising quality. Our
+        streamlined process for app development is <br /> designed to be
+        transparent and collaborative, ensuring your vision comes to life
+        exactly as you imagined."
+      />
 
       <Justbuildit />
       {/* <ServicesWho
