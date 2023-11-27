@@ -815,6 +815,10 @@
 
 @media screen and (max-width: 480px) {
 
+  .newone{
+    display: none;
+  }
+
   .takesread{
     gap: 15px;
 }

@@ -37,7 +37,7 @@ const Bannerlpfinal = (props) => {
                                 </div>
                             </div>
                             <div className={styles.comple}>
-                                <Image  quality={95} alt='BitsWits' src={banImg1} className='img-fluid w-25' />
+                                <Image  quality={95} alt='BitsWits' src={banImg1} className={`${styles.newone} img-fluid w-25`} />
 
                                 <div className={styles.comple1}>
                                     <Image  quality={95} alt='BitsWits' src={star} className='img-fluid' />
