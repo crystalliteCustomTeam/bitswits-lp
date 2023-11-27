@@ -10,15 +10,15 @@ const ServicesMaintain = (props) => {
             <section className={` ${styles.newHomeBg} ${styles[props.assignClass]} combo d-none d-md-block`}>
                 <Container>
                     <Row className='g-3'>
-                        <Col lg={10} className='mx-auto mb-4'>
+                        <Col lg={12} className='mx-auto mb-4'>
                             <h3 className={`f-20 font-bold text-white text-center mb-0`}>{props.subtitle}</h3>
                             <h2 className='text-white font50 font-bold text-center'>
                                 {props.title0}
-                                <span className='grdiant font55 font-bold text-center d-block mb-2'>{props.title}</span>
+                                <span className='newfycolr font55 font-bold text-center d-block mb-2'>{props.title}</span>
                                 {props.title1}
-                                <span className='grdiant font55 font-bold text-center d-block mb-2'>{props.title2}</span>
+                                <span className='newfycolr font55 font-bold text-center d-block mb-2'>{props.title2}</span>
                                 {props.title3}
-                                <span className='grdiant font50 font-bold text-center d-block mb-2'>{props.title4}</span>
+                                <span className='newfycolr font50 font-bold text-center d-block mb-2'>{props.title4}</span>
                             </h2>
                             <p className='font14 white center'>{props.text}</p>
                         </Col>
@@ -119,11 +119,11 @@ const ServicesMaintain = (props) => {
                             <h3 className={`f-20 font-bold text-white text-center mb-0`}>{props.subtitle}</h3>
                             <h2 className='text-white font50 font-bold text-center'>
                                 {props.title0}
-                                <span className='grdiant font55 font-bold text-center d-block mb-2'>{props.title}</span>
+                                <span className='newfycolr font55 font-bold text-center d-block mb-2'>{props.title}</span>
                                 {props.title1}
-                                <span className='grdiant font55 font-bold text-center d-block mb-2'>{props.title2}</span>
+                                <span className='newfycolr font55 font-bold text-center d-block mb-2'>{props.title2}</span>
                                 {props.title3}
-                                <span className='grdiant font50 font-bold text-center d-block mb-2'>{props.title4}</span>
+                                <span className='newfycolr font50 font-bold text-center d-block mb-2'>{props.title4}</span>
                             </h2>
                             <p className='font14 white center'>{props.text}</p>
                         </Col>

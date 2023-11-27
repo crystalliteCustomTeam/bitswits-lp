@@ -10,7 +10,7 @@
 .just {
   font-size: 130px;
   font-weight: bold;
-  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  background: linear-gradient(to right, #eb335b 35%, #4a78ef 65%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
@@ -41,7 +41,7 @@
 .about {
   width: 198px;
   height: 45px;
-  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  background-color: #f32f53;
 
   color: white;
   display: flex;

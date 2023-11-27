@@ -55,8 +55,8 @@ const ServiceBanner = (props) => {
                 <Container>
                     <Row>
                         <Col xl={12}>
-                            <p className={`${styles.just} text-center f-16 font-bold mb-0`}>{props.subtitle}</p>
-                            <h1 className={`${styles.develop} text-center f-50 font-bold mb-2`}>{props.title}</h1>
+                            <p className={`${styles.just} font30 font-bold text-center mb-0`}>{props.subtitle}</p>
+                            <h1 className={`${styles.develop} text-center font50 font-bold mb-2`}>{props.title}</h1>
                             <p className='font15 white center mb-3'>{props.text}</p>
                             <div className={styles.pont}>
                                 <Link className={styles.about} href="tel:+18335006007">LET'S CONNECT</Link>
@@ -68,7 +68,7 @@ const ServiceBanner = (props) => {
                     </Row>
                 </Container>
 
-                <div>
+                {/* <div>
                     <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-5`}>
                         <div className={styles.strpImg}>
                             <Image alt="BitsWits" src={icon20} className="img-fluid mx-auto" />
@@ -92,7 +92,7 @@ const ServiceBanner = (props) => {
                             <Image alt="BitsWits" src={icon70} className="img-fluid mx-auto" />
                         </div>
                     </Slider>
-                </div>
+                </div> */}
             </section>
         </>
     )

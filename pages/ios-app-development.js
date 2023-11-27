@@ -29,7 +29,10 @@ const icon25 = await import('../public/images/fyios/3.png');
 const icon26 = await import('../public/images/fyios/4.png');
 const icon27 = await import('../public/images/fyios/5.png');
 const icon28 = await import('../public/images/fyios/6.png');
-
+const HomeBannerSliderlp = React.lazy(() => import('@/components/HomeBannerSliderlp'));
+const WeworkLp = React.lazy(() => import('@/components/WeworkLp6'));
+const StartupsLp = React.lazy(() => import('@/components/StartupsLp6'));
+const ProjectProcess = React.lazy(() => import('@/components/ProjectProcessLp6'));
 
 export default function gamedevelopmentcompany() {
 
@@ -44,14 +47,17 @@ export default function gamedevelopmentcompany() {
 
             <ServicesBanner
                 subtitle="Reimagine Possibilities With"
-                title={<> Our iOS App <br /> Development Company </>}
-                text={<> Our iOS development team works with you to determine the ideal features, design, and user <br /> experience that will make your app a success. We also take care of all the technical details, including <br /> testing and security measures. </>}
+                title={<> Our iOS App Development Company </>}
+                text={<> Our iOS development team works with you to determine the ideal features, design, and user  experience that will make your app a success. We also take care of all the technical details, including  testing and security measures. </>}
                 BannerImage={BannerImage}
             />
-            <NewHomeAbout
+
+            <HomeBannerSliderlp />
+
+            {/* <NewHomeAbout
                 title="Our Client’s Feedback Has Been"
                 subtitle="Nothing Short Of Amazing!"
-            />
+            /> */}
             <ServicesMaintain
                 assignClass="ios"
                 subtitle="iOS App Development Services"
@@ -107,9 +113,23 @@ export default function gamedevelopmentcompany() {
                 appContent6={[]}
                 appContent7={[]}
             />
-            <NewAddress />
+            {/* <NewAddress /> */}
+
+
+            <WeworkLp
+                wework='weworkLp6'
+            />
+
+            <StartupsLp
+                startups='startups'
+            />
+
+            <ProjectProcess
+                processclass='processLp6'
+            />
+
             <Justbuildit />
-            <ServicesWho
+            {/* <ServicesWho
                 subtitle="Who we are."
                 title="We build greater futures through innovation and collective knowledge."
                 text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
@@ -120,10 +140,10 @@ export default function gamedevelopmentcompany() {
                 title="BitsWits transforms businesses through technology."
                 text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
                 WhatImage={WhatImage}
-            />
+            /> */}
             <ServisesWhy
                 title={<> <h4 className='font20 font-bold text-white text-center'>Why BitsWits?</h4> </>}
-                subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision, Performance <br /> & Perfection.</h2> </>}
+                subtitle={<> <h2 className='newfycolr f-80 font-bold text-center'>Precision, Performance <br /> & Perfection.</h2> </>}
                 sub1="Why Do You Require Our iOS Applications?"
                 sub2="Building your mobile app acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape the trajectory of your business."
                 whyData={
@@ -162,9 +182,9 @@ export default function gamedevelopmentcompany() {
                 }
             />
             <ServicesPortfolio
-                title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
+                title={<> Showcasing Our <span className="newfycolr">Creative Vision</span> </>}
             />
-            <Capabilities />
+            {/* <Capabilities /> */}
             <Newsuccess
                 assignClass="spacing"
                 subtitle="Ready For Success?"
@@ -198,11 +218,11 @@ export default function gamedevelopmentcompany() {
             <section className='spacingtb1'>
                 <Technologieswe />
             </section>
-            <NewHomeGlobal />
+            {/* <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject
                 title="Brace yourself for an App-venture!"
-            />
+            /> */}
             <ServicesFaqs
                 faqsData={
                     [

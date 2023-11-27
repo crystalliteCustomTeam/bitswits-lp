@@ -60,7 +60,7 @@ const Technologieswe = () => {
                 <Container>
                     <Row>
                         <Col xl={12}>
-                            <h2 className={styles.work}><span className='grdiant'>Technologies </span>We Work With</h2>
+                            <h2 className={styles.work}><span className='newfycolr'>Technologies </span>We Work With</h2>
                         </Col>
                         <Col xl={12} className='mb-5 d-none d-lg-block'>
                             <div className={styles.analpost}>

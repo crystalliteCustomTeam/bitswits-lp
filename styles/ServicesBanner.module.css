@@ -1,3 +1,7 @@
+.just {
+  color: #f32f53;
+}
+
 .newHomeBg {
   padding: 50px 0 0;
   background: #000;
@@ -15,9 +19,7 @@
   background-size: cover;
 }
 
-.just {
-  color: white;
-}
+
 
 .develop {
   max-width: 985px;
@@ -43,6 +45,7 @@
 .post h5 {
   line-height: 1.2;
 }
+
 .menu:before {
   content: "";
   position: absolute;
@@ -81,7 +84,7 @@
 .about {
   width: 260px;
   height: 45px;
-  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  background-color: #f32f53;
   color: white;
   display: flex;
   align-items: center;
@@ -91,7 +94,6 @@
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  border: 2px solid #fff;
   transition: all 0.5s ease-in-out;
 }
 
@@ -161,6 +163,7 @@
   border-bottom: 0px;
   position: relative;
 }
+
 .bannerform1 {
   height: 100%;
   width: 95%;
@@ -256,11 +259,9 @@
 }
 
 .notice {
-  background: linear-gradient(
-    90deg,
-    rgba(243, 47, 92, 1) 0%,
-    rgba(74, 120, 239, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(243, 47, 92, 1) 0%,
+      rgba(74, 120, 239, 1) 100%);
   width: 100%;
   height: 50px;
   display: block;
@@ -368,6 +369,7 @@
     max-width: 1400px;
   }
 }
+
 @media screen and (max-width: 1200px) {
   .secImage {
     width: 80%;

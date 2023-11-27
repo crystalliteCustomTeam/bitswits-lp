@@ -19,7 +19,7 @@ const Newsuccess = (props) => {
                     <Row>
                         <Col xl={12}>
                             <div>
-                                <h5 className='grdiant'>{props.subtitle}</h5>
+                                <h5 className='newfycolr'>{props.subtitle}</h5>
                                 <h2 className='f-80 font-bold white center mb-5'>{props.maintitle}</h2>
                             </div>
                         </Col>
@@ -27,7 +27,7 @@ const Newsuccess = (props) => {
                             <div className={styles.mainBox}>
                                 {props.successSteps.map((step, index) => (
                                     <div key={index} className={`${styles.sucssBox} ${index === 1 ? styles.box2 : ''}`}>
-                                        <span className='f-60 font-bold grdiant mb-0'>{step.number}</span>
+                                        <span className='f-60 font-bold newfycolr mb-0'>{step.number}</span>
                                         <span className='font30 font-bold white mb-0'>{step.title}</span>
                                         <span className='font16 white'>{step.text}</span>
                                         <Link href={step.link} className={styles.sucssBtn}>{step.buttonText}</Link>
@@ -41,7 +41,7 @@ const Newsuccess = (props) => {
                             <div className={styles.mainBox}>
                                 {props.successSteps.map((step, index) => (
                                     <div key={index} className={`${styles.sucssBox} ${index === 1 ? styles.box2 : ''}`}>
-                                        <span className='f-60 font-bold grdiant mb-0'>{step.number}</span>
+                                        <span className='f-60 font-bold newfycolr mb-0'>{step.number}</span>
                                         <span className='font30 font-bold white mb-0'>{step.title}</span>
                                         <span className='font16 white'>{step.text}</span>
                                         <Link href={step.link} className={styles.sucssBtn}>{step.buttonText}</Link>

@@ -24,7 +24,6 @@
 .happens h5 {
   font-size: 40px;
   text-align: center;
-  color: white;
   font-weight: bold;
 }
 
@@ -51,7 +50,7 @@
 .sucssBtn {
   width: 198px;
   height: 45px;
-  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+background-color: #f32f53;
   color: white;
   display: flex;
   align-items: center;
