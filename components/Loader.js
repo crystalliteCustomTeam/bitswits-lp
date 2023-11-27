@@ -9,7 +9,8 @@ const Loader = () => {
     return (
         <>
             <section className={styles.loader}>
-                <Image quality={70} src={loader} width={250} height={250} alt="BitsWits" className="img-fluid" loading='lazy' />
+                {/* <Image quality={70} src={loader} width={250} height={250} alt="BitsWits" className="img-fluid" loading='lazy' /> */}
+                <video autoPlay loop muted src='./images/bitswitslogoanimation.mp4' className='w-100 h-100'></video>
             </section>
         </>
     )

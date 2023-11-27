@@ -164,7 +164,7 @@ export default function Expertapplp6(props) {
 
                             <Col lg={12} >
                                 <h3 className='white f-30 f-700 center'>Expert Mobile App Solutions</h3>
-                                <h2 className='white f-60 f-700 center'>Mobile App Development Services</h2>
+                                <h2 className='text-white font50 f-700 center mb-2'>Mobile App Development Services</h2>
                                 <p className={`${styles.appno} white font16 f-400 center`}>Discover A Range Of Services Tailored To Your Needs. From Engaging Native Apps For Ios And Android To Versatile Cross-Platform Solutions, We Offer Everything You Need To Succeed In The Mobile Space.</p>
 
                             </Col>

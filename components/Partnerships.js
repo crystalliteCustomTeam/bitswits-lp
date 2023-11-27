@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import styles from '@/styles/Footerlp.module.css'
+import styles from '@/styles/Partnerships.module.css'
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";

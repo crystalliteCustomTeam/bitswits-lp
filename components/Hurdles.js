@@ -6,8 +6,48 @@ import styles from "@/styles/Hurdles.module.css";
 //
 import secImg from '../public/images/lp-images/hurdles.png'
 
+import secImg1 from '../public/images/lp-images/1.png'
+import secImg2 from '../public/images/lp-images/2.png'
+import secImg3 from '../public/images/lp-images/3.png'
+import secImg4 from '../public/images/lp-images/4.png'
+import secImg5 from '../public/images/lp-images/5.png'
+
+import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
+import { useEffect } from 'react';
+import { useState } from 'react';
 
 const Hurdles = () => {
+
+    const awardslogo = {
+        dots: false,
+        arrows: false,
+        autoplay: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
+
+    useEffect(() => {
+
+        const handleResize = () => {
+            if (window.innerWidth > 480) {
+                setIsSliderActive(false);
+            } else {
+                setIsSliderActive(true);
+            }
+        };
+
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+    const [isSliderActive, setIsSliderActive] = useState(true);
+
     return (
         <>
             <section className={styles.transform}>
@@ -16,7 +56,22 @@ const Hurdles = () => {
                         <Col lg={12}>
                             <div className={styles.walk}>
                                 <h2 className='white font50 f-700'>App Development Hurdles?</h2>
-                                <Image quality={95} alt='BitsWits' src={secImg} className='img-fluid my-4' />
+
+                                {isSliderActive ?
+                                    <Slider {...awardslogo} className={` ${styles.startup1} pt-5`}>
+                                        <Image quality={95} alt='BitsWits' src={secImg1} className='img-fluid my-4' />
+                                        <Image quality={95} alt='BitsWits' src={secImg2} className='img-fluid my-4' />
+                                        <Image quality={95} alt='BitsWits' src={secImg3} className='img-fluid my-4' />
+                                        <Image quality={95} alt='BitsWits' src={secImg4} className='img-fluid my-4' />
+                                        <Image quality={95} alt='BitsWits' src={secImg5} className='img-fluid my-4' />
+                                    </Slider>
+
+                                    :
+                                    <Image quality={95} alt='BitsWits' src={secImg} className='img-fluid my-4' />
+
+                                }
+
+
                                 <h3 className='white font40 f-700'>We Get It and We've Got Solutions</h3>
                                 <Link href="#" className={styles.dus}>Talk To An Expert</Link>
                             </div>

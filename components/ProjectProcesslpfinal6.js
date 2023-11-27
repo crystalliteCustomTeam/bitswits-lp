@@ -22,7 +22,7 @@ const ProjectProcesslpfinal6 = (props) => {
                     <Row>
                         <Col>
                             <h3 className='white font30 f-700 center'>Mobile App Development Project Process</h3>
-                            <h2 className='white f-60 f-700 center'>Explore Our App Development Journey</h2>
+                            <h2 className='text-white font50 f-700 center mb-2'>Explore Our App Development Journey</h2>
                             <p className='white font16 f-400 center'>Our Work Speaks For Us. See How We Create Powerful, Customer-Centric Mobile Applications For <br></br> Various Industry Verticals To Help Them Achieve Their Business Objectives.</p>
                             <Image src={banImg1} alt='BitsWits' className='img-fluid mt-5' />
                         </Col>

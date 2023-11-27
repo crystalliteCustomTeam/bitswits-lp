@@ -7,9 +7,10 @@
 }
 
 .thriving h3 {
-  font-size: 60px;
+  font-size: 45px;
+  line-height: 55px;
   color: #F32F53;
-  font-weight: 800;
+  font-weight: 700;
 }
 .thriving h3  span{
   color: white;

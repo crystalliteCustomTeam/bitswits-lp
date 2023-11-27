@@ -9,22 +9,24 @@
   background-color: black;
 
 }
+.walk h3 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+  color: white;
+}
 
 .ourt {
   display: flex;
 }
 
-.walk h3 {
-  font-size: 60px;
-  font-weight: bold;
-  color: white;
-}
+
 .walk h2{
   font-size: 35px;
   color: #F32F53;
 }
 .walk p{
-  font-size: 16px;
+  font-size: 14px;
   color: white;
 }
 .walk p span{
@@ -103,8 +105,9 @@
   }
 
   .walk h3 {
-    font-size: 60px;
-    font-weight: bold;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
     color: white;
   }
 

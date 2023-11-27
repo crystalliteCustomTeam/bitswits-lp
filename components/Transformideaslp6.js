@@ -105,7 +105,7 @@ export default function Transformideaslp6(props) {
                     {isSliderActive ?
 
                         <>
-                            <Row className='align-items-center'>
+                            <Row className='align-items-center '>
                                 <Col lg={6} className={styles.walk}>
                                     <h3>Why Choose Us</h3>
                                     <h2>For Your Mobile App Development

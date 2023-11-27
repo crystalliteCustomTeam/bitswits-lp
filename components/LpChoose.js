@@ -79,7 +79,7 @@ const LpChoose = (props) => {
                     <Row className='align-items-center gy-5'>
                         <Col lg={6} className={styles.walk}>
                             <h3 className='white font50 font-bold f-700'>Why Choose Us</h3>
-                            <h2 className='white f-600 my-3'>For Your Mobile App Development Needs?</h2>
+                            <h2 className='white f-500 my-3'>For Your Mobile App Development Needs?</h2>
                             <p className='mt-4'>Our <span>mobile app development services</span> turn your innovative ideas into success stories by crafting apps that stand out in the market. While you <span>focus on your business</span>, Bitswits will handle the technical aspects of developing your app.</p>
                             <p>Did you know that a <span>poorly developed app</span> can negatively impact your brand's reputation? That's a risk you don't want to take. But with Bitswits, there's no need to worry. We ensure your app functions seamlessly and enhances your brand's digital presence.</p>
                             <p>Unlike <span>Mobile app development firms</span>, we don't believe in a one-size-fits-all approach. We understand that the reason behind an underperforming app often lies in its development and user experience. That's where our expertise comes into play. With a <span>team of seasoned mobile app developers</span>, the latest technological resources, and a bespoke development strategy.</p>

@@ -5,10 +5,47 @@ import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Innovate.module.css'
 import icon20 from '../public/images/mobilelpfinal/layout.png'
 
+import layout1 from '../public/images/mobilelpfinal/1.png'
+import layout2 from '../public/images/mobilelpfinal/2.png'
+import layout3 from '../public/images/mobilelpfinal/3.png'
+import layout4 from '../public/images/mobilelpfinal/4.png'
+import layout5 from '../public/images/mobilelpfinal/5.png'
+import "slick-carousel/slick/slick-theme.css";
+import { useEffect } from 'react'
+import { useState } from 'react'
+import Slider from 'react-slick'
 
 const Innovate = () => {
 
 
+    const awardslogo = {
+        dots: false,
+        arrows: false,
+        autoplay: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
+
+
+    useEffect(() => {
+
+        const handleResize = () => {
+            if (window.innerWidth > 480) {
+                setIsSliderActive(false);
+            } else {
+                setIsSliderActive(true);
+            }
+        };
+
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+    const [isSliderActive, setIsSliderActive] = useState(true);
 
 
     return (
@@ -27,9 +64,27 @@ const Innovate = () => {
                                 <p className={styles.potential}>The key to unlocking these? An app that's not just good, but groundbreaking.</p>
                                 <p className={styles.need}>Pause for a Moment...</p>
                                 <p className={styles.turn}>What's Holding Back Your App's Potential?</p>
-                                <div>
-                                    <Image src={icon20} className='img-fluid mb-5' alt="bitswits" />
-                                </div>
+
+
+                                {isSliderActive ?
+                                    <Slider {...awardslogo}>
+                                        <Image src={layout1} className='img-fluid mb-5' alt="bitswits" />
+                                        <Image src={layout2} className='img-fluid mb-5' alt="bitswits" />
+                                        <Image src={layout3} className='img-fluid mb-5' alt="bitswits" />
+                                        <Image src={layout4} className='img-fluid mb-5' alt="bitswits" />
+                                        <Image src={layout5} className='img-fluid mb-5' alt="bitswits" />
+
+                                    </Slider>
+
+                                    :
+                                    <div>
+                                        <Image src={icon20} className='img-fluid mb-5' alt="bitswits" />
+                                    </div>
+                                }
+
+
+
+
                                 <p className={styles.journey}>Sound familiar? Then, you're exactly where you need to be!</p>
                                 <p className={styles.exactly}>Our Mobile App Development Solutions is at the forefront of technological innovation, renowned for:</p>
                                 <p className={styles.solutions}>CUSTOMIZED APP STRATEGIES, CUTTING-EDGE TECHNOLOGIES, & UNRIVALED USER JOURNEYS.</p>
