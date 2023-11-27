@@ -3,9 +3,11 @@
   padding-top: 0px;
   padding-bottom: 150px;
 }
+
 .from {
   color: #f32f53;
 }
+
 .startups p {
   margin-right: 20%;
   color: #8a8a8a;
@@ -25,4 +27,23 @@
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .book {
+
+    width: 100%;
+    padding: 0 15px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .startups p {
+    margin-right: unset;
+    text-align: justify;
+}
+
 }

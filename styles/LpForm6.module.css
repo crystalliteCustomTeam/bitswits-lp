@@ -135,6 +135,7 @@
 }
 
 @keyframes bounce {
+
   0%,
   20%,
   50%,
@@ -142,9 +143,11 @@
   100% {
     transform: translateY(0);
   }
+
   40% {
     transform: translateY(-30px);
   }
+
   60% {
     transform: translateY(-15px);
   }
@@ -206,4 +209,17 @@
   .newAddress {
     padding-bottom: 0px;
   }
+
+  .para p {
+    font-size: 20px;
+  }
+
 }
+
+@media screen and (max-width: 480px) {
+
+  .newAddress {
+    padding: 50px 0 0;
+  }
+  
+ }

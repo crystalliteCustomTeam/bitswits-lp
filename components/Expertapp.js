@@ -60,7 +60,7 @@ export default function Expertapp(props) {
         autoplay: true,
         autoplaySpeed: 6000,
         speed: 3000,
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
         adaptiveHeight: true,
     };

@@ -34,11 +34,13 @@
   line-height: 45px;
   color: #f32f53;
 }
+
 .walk p {
   font-size: 16px;
   color: white;
   text-align: justify;
 }
+
 .walk p span {
   color: #f32f53;
   font-weight: 600;
@@ -115,5 +117,13 @@
 
   .walk p {
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .dus {
+    padding: 0 10px;
+    width: 100%;
+    text-align: center;
   }
 }

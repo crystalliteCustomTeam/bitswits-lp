@@ -27,7 +27,16 @@
   color: white;
   font-weight: 600;
 }
+
 .dem p {
   font-size: 15px;
   color: #91999e;
+}
+
+
+@media screen and (max-width: 480px) {
+  .weworkLp6 {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
 }
