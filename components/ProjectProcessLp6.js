@@ -10,7 +10,7 @@ const ProjectProcessLp6 = (props) => {
 
     return (
         <>
-            <section className={styles[props.processclass]}>
+            <section  className={`${styles[props.processclass]} ${styles.process1}`}>
                 <Container>
                     <Row>
                         <Col>
