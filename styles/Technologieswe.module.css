@@ -1,8 +1,8 @@
 .tech {
   background-image: url(../public/newHomePage/images/bg-image.png);
+  background-position: 180% center;
   background-repeat: no-repeat;
-  background-size: 48%;
-  background-position: 895px center;
+  background-size: 70%;
   background-color: black;
   padding-top: 0px;
   padding-bottom: 130px;
@@ -40,7 +40,7 @@
 .active::before {
   position: absolute;
   content: "";
-background-color: #f32f53;
+  background-color: #f32f53;
 
   width: auto;
   height: 3px;
@@ -140,7 +140,7 @@ background-color: #f32f53;
     color: white;
     font-weight: bold;
   }
-  
+
   .analpost select {
     width: 100%;
     font-size: 20px;

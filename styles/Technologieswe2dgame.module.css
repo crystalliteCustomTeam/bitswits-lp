@@ -5,9 +5,9 @@
 
 .tech {
   background-image: url(../public/newHomePage/images/bg-image.png);
+  background-position: 240% center;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 700px center;
+  background-size: 80%;
   background-color: black;
   padding-top: 150px;
   padding-bottom: 200px;
