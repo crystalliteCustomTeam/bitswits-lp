@@ -1,33 +1,29 @@
+import LpChoose from "@/components/LpChoose";
+import LpForm from "@/components/LpForm6";
+import NewFaqslp from "@/components/NewFaqslp";
+import Nothing from "@/components/Nothing";
+import Partnerships from "@/components/Partnerships";
+import People from "@/components/People";
 import Head from "next/head";
 import React from "react";
 //components
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
-const NewHomeAbout = React.lazy(() => import("@/components/NewHomePageAbout"));
 const ServicesMaintain = React.lazy(() =>
   import("@/components/ServicesMaintain")
 );
-const NewAddress = React.lazy(() => import("@/components/NewAddress"));
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
-const ServicesWho = React.lazy(() => import("@/components/ServicesWho"));
-const ServicesWhat = React.lazy(() => import("@/components/ServicesWhat"));
 const ServisesWhy = React.lazy(() => import("@/components/ServisesWhy"));
 const ServicesPortfolio = React.lazy(() =>
   import("@/components/ServicesPortfolio")
 );
-const Capabilities = React.lazy(() => import("@/components/Capabilities"));
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
 const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
-const NewHomeGlobal = React.lazy(() => import("@/components/NewHomeGlobal"));
-const NewHomeSlider = React.lazy(() => import("@/components/NewHomeSlider"));
-const Homenextproject = React.lazy(() =>
-  import("@/components/Homenextproject")
-);
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
+const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
+
 //images
 const BannerImage = await import("@/public/andriodapplication/andriod.png");
-const WhoImage = await import("@/public/images/andriodtaile/who_image.png");
-const WhatImage = await import("@/public/images/andriodtaile/what_Image.png");
 //icons
 const icon23 = await import("../public/images/fyios/1.png");
 const icon24 = await import("../public/images/fyios/2.png");
@@ -72,7 +68,13 @@ export default function gamedevelopmentcompany() {
         BannerImage={BannerImage}
       />
 
+      <People People="people" />
+
       <HomeBannerSliderlp />
+
+      <LpForm />
+
+      <Nothing Nothing="nothingLp6" />
 
       {/* <NewHomeAbout
                 title="Our Client’s Feedback Has Been"
@@ -168,20 +170,23 @@ export default function gamedevelopmentcompany() {
                 text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
                 WhatImage={WhatImage}
             /> */}
+
+      <LpChoose transform="transform" />
+
       <ServisesWhy
         title={
           <>
             {" "}
             <h4 className="font20 font-bold text-white text-center">
-              Why BitsWits?
+              Why Choose Us
             </h4>{" "}
           </>
         }
         subtitle={
           <>
             {" "}
-            <h2 className="newfycolr f-80 font-bold text-center">
-              Precision, Performance <br /> & Perfection.
+            <h2 className="newfycolr font50 font-bold text-center">
+              For Your Mobile App Development Needs?
             </h2>{" "}
           </>
         }
@@ -271,6 +276,12 @@ export default function gamedevelopmentcompany() {
             <Homenextproject
                 title="Brace yourself for an App-venture!"
             /> */}
+
+      <Globallplp6 />
+      <Partnerships />
+
+      {/* <NewFaqslp /> */}
+
       <ServicesFaqs
         faqsData={[
           {

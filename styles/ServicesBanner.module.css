@@ -3,7 +3,7 @@
 }
 
 .newHomeBg {
-  padding: 50px 0 0;
+  padding: 50px 0 100px;
   background: #000;
   background-image: url(../public/newHomePageImages/bg1.png);
   background-position: 45% 12%;
