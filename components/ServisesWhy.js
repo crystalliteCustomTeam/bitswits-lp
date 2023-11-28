@@ -28,7 +28,7 @@ const ServisesWhy = (props) => {
                 <Container>
 
                     <Row>
-                        <Col lg={11} className='mx-auto'>
+                        <Col lg={12} className='mx-auto'>
                             {props.title}
                             {props.subtitle}
 

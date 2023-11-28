@@ -31,6 +31,22 @@ const icon26 = await import('../public/images/fyicons/22.png');
 const icon27 = await import('../public/images/fyicons/23.png');
 const icon28 = await import('../public/images/fyicons/24.png');
 
+const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
+import Partnerships from "@/components/Partnerships";
+
+import People from "@/components/People";
+const HomeBannerSliderlp = React.lazy(() =>
+  import("@/components/HomeBannerSliderlp")
+);
+import LpChoose from "@/components/LpChoose";
+import LpForm from "@/components/LpForm6";
+import Nothing from "@/components/Nothing";
+const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
+const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
+const ProjectProcess = React.lazy(() =>
+  import("@/components/ProjectProcessLp6")
+);
+
 
 export default function gamedevelopmentcompany() {
   return (
@@ -96,14 +112,23 @@ export default function gamedevelopmentcompany() {
 
       <ServicesBanner
         subtitle="Create The Future With Our"
-        title={<> Cross Platform App <br /> Development Services </>}
-        text={<> With our cross-platform app development services, you can easily create apps that are compatible <br /> across multiple platforms. No more worrying about developing an app for every operating system; <br /> now you can develop and deploy one single app for both Android and iOS! </>}
+        title={<> Cross-Platform App Development Services </>}
+        text={<> With our cross-platform app development services, you can easily create apps that are compatible across multiple platforms. No more worrying about developing an app for every operating system; now you can develop and deploy one single app for both Android and iOS! </>}
         BannerImage={BannerImage}
       />
-      <NewHomeAbout
+
+      <People People="people" />
+
+      <HomeBannerSliderlp />
+
+      <LpForm />
+
+      <Nothing Nothing="nothingLp6" />
+
+      {/* <NewHomeAbout
         title="Our Client’s Feedback Has Been"
         subtitle="Nothing Short Of Amazing!"
-      />
+      /> */}
       <Partnercross />
       <ServicesMaintain
         assignClass="cross"
@@ -157,9 +182,22 @@ export default function gamedevelopmentcompany() {
         appContent6={[]}
         appContent7={[]}
       />
-      <NewAddress />
+     {/* <NewAddress /> */}
+
+     <WeworkLp wework="weworkLp6" />
+
+<StartupsLp startups="startups" />
+
+<ProjectProcess
+        processclass="processLp6"
+        title="Explore Our Cross-Platform App Development Journey"
+        desc="We believe in efficiency without compromising quality. Our
+  streamlined process for app development is <br /> designed to be
+  transparent and collaborative, ensuring your vision comes to life
+  exactly as you imagined."
+      />
       <Justbuildit />
-      <ServicesWho
+      {/* <ServicesWho
         assignClass="cross"
         subtitle="Who we are."
         title="We build greater futures through innovation and collective knowledge."
@@ -171,11 +209,20 @@ export default function gamedevelopmentcompany() {
         title="BitsWits transforms businesses through technology."
         text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
         WhatImage={WhatImage}
-      />
+      /> */}
+
+
+<LpChoose transform="transform" />
+
       <ServisesWhy
-        title={<> <h4 className='font20 font-bold text-white text-center'>Why BitsWits?</h4> </>}
-        subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision, Performance <br /> & Perfection.</h2> </>}
-        sub1="Why Hire Cross-Platform App Developers at BitsWits for Top-Quality Apps?"
+          subtitle={
+            <>
+              {" "}
+              <h2 className="newfycolr font50 font-bold text-center">
+                Why Do You Require Our Cross-Platform Applications?
+              </h2>{" "}
+            </>
+          }
         sub2="Cross-platform app development services at BitsWits, allow us to efficiently reach more users across multiple devices while providing a persistent brand experience."
         whyData={
           [
@@ -213,9 +260,9 @@ export default function gamedevelopmentcompany() {
         }
       />
       <ServicesPortfolio
-        title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
+        title={<> Showcasing Our <span className="newfycolr">Creative Vision</span> </>}
       />
-      <Capabilities />
+      {/* <Capabilities /> */}
       <Newsuccess
         assignClass="spacing"
         subtitle="Ready For Success?"
@@ -249,11 +296,16 @@ export default function gamedevelopmentcompany() {
       <section className='spacingtb1'>
         <Technologieswe />
       </section>
-      <NewHomeGlobal />
+      {/* <NewHomeGlobal />
       <NewHomeSlider />
       <Homenextproject
         title="Brace yourself for an App-venture!"
-      />
+      /> */}
+
+
+<Globallplp6 />
+      <Partnerships />
+
       <ServicesFaqs
         faqsData={
           [

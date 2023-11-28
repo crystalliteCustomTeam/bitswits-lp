@@ -18,6 +18,20 @@ const NewHomeSlider = React.lazy(() => import('@/components/NewHomeSlider'));
 const Homenextproject = React.lazy(() => import('@/components/Homenextproject'));
 const ServicesFaqs = React.lazy(() => import('@/components/ServicesFaqs'));
 const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
+import People from "@/components/People";
+const HomeBannerSliderlp = React.lazy(() =>
+  import("@/components/HomeBannerSliderlp")
+);
+import LpChoose from "@/components/LpChoose";
+import LpForm from "@/components/LpForm6";
+import Nothing from "@/components/Nothing";
+const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
+const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
+const ProjectProcess = React.lazy(() =>
+  import("@/components/ProjectProcessLp6")
+);
+const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
+import Partnerships from "@/components/Partnerships";
 //images
 const BannerImage = await import("@/public/images/iosbanner/ios.png");
 const WhoImage = await import("@/public/images/iosbanner/who_image.png");
@@ -45,17 +59,27 @@ export default function gamedevelopmentcompany() {
 
             <ServicesBanner
                 subtitle="Revolutionizing & Creating A Smarter Future"
-                title={<> Android App <br /> Development Company </>}
-                text={<> At BitsWits, we specialize in creating custom-crafted Android applications that meet our customer's <br /> needs. Our android app development team firmly believes that no two businesses are the same, <br /> and neither should their apps be. </>}
+                title={<> Android App Development Company </>}
+                text={<> At BitsWits, we specialize in creating custom-crafted Android applications that meet our customer's needs. Our android app development team firmly believes that no two businesses are the same,  and neither should their apps be. </>}
                 BannerImage={BannerImage}
             />
-            <NewHomeAbout
+
+
+            <People People="people" />
+
+            <HomeBannerSliderlp />
+
+            <LpForm />
+
+            <Nothing Nothing="nothingLp6" />
+
+            {/* <NewHomeAbout
                 title="Our Client’s Feedback Has Been"
                 subtitle="Nothing Short Of Amazing!"
-            />
+            /> */}
             <ServicesMaintain
                 assignClass="android"
-                title1={<> Leveling Up Your App Game With Our Slew of </>}
+                title1={<> Leveling Up Your App Game With Our Slew of  </>}
                 title2={<> Android App Development </>}
                 title3={<> Service! </>}
                 appContent={[]}
@@ -106,9 +130,21 @@ export default function gamedevelopmentcompany() {
                 appContent6={[]}
                 appContent7={[]}
             />
-            <NewAddress />
+            {/* <NewAddress /> */}
+            <WeworkLp wework="weworkLp6" />
+
+<StartupsLp startups="startups" />
+
+<ProjectProcess
+        processclass="processLp6"
+        title="Explore Our Andriod App Development Journey"
+        desc="We believe in efficiency without compromising quality. Our
+  streamlined process for app development is <br /> designed to be
+  transparent and collaborative, ensuring your vision comes to life
+  exactly as you imagined."
+      />
             <Justbuildit />
-            <ServicesWho
+            {/* <ServicesWho
                 subtitle="Who we are."
                 title="We build greater futures through innovation and collective knowledge."
                 text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
@@ -119,11 +155,20 @@ export default function gamedevelopmentcompany() {
                 title="BitsWits transforms businesses through technology."
                 text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
                 WhatImage={WhatImage}
-            />
+            /> */}
+
+
+<LpChoose transform="transform" />
+
             <ServisesWhy
-                title={<> <h4 className='font20 font-bold text-white text-center'>Why BitsWits?</h4> </>}
-                subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision, Performance <br /> & Perfection.</h2> </>}
-                sub1="Why is There a Need for Android Applications?"
+                 subtitle={
+                    <>
+                      {" "}
+                      <h2 className="newfycolr font50 font-bold text-center">
+                        Why Do You Require Our Andriod Applications?
+                      </h2>{" "}
+                    </>
+                  }
                 sub2="Achieve a competitive edge, boost revenue, and engage customers effectively with an Android app. BitsWits excels in creating personalized, future-ready apps to expand your market reach."
                 whyData={
                     [
@@ -161,9 +206,9 @@ export default function gamedevelopmentcompany() {
                 }
             />
             <ServicesPortfolio
-                title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
+                title={<> Showcasing Our <span className="newfycolr">Creative Vision</span> </>}
             />
-            <Capabilities />
+            {/* <Capabilities /> */}
             <Newsuccess
                 assignClass="spacing"
                 subtitle="Ready For Success?"
@@ -197,11 +242,16 @@ export default function gamedevelopmentcompany() {
             <section className='spacingtb1'>
                 <Technologieswe />
             </section>
-            <NewHomeGlobal />
+            {/* <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject
                 title="Brace yourself for an App-venture!"
-            />
+            /> */}
+
+
+<Globallplp6 />
+      <Partnerships />
+
             <ServicesFaqs
                 faqsData={
                     [

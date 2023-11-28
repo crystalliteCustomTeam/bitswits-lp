@@ -14,12 +14,12 @@ const ServicesMaintain = (props) => {
         <Container>
           <Row className="g-3">
             <Col lg={12} className="mx-auto mb-4">
-              <h3 className={`f-20 font-bold text-white text-center mb-0`}>
+              <h3 className={`f-20 font-bold text-white text-center mb-2`}>
                 {props.subtitle}
               </h3>
-              <h2 className="text-white font50 font-bold text-center">
+              <h2 className="text-white font50 f-700 text-center mb-2">
                 {props.title0}
-                <span className="newfycolr font55 font-bold text-center d-block mb-2">
+                <span className="newfycolr font50 f-700 text-center d-block mb-2">
                   {props.title}
                 </span>
                 {props.title1}
@@ -27,7 +27,7 @@ const ServicesMaintain = (props) => {
                   {props.title2}
                 </span>
                 {props.title3}
-                <span className="newfycolr font50 font-bold text-center d-block mb-2">
+                <span className="newfycolr font50 f-700 text-center d-block mb-2">
                   {props.title4}
                 </span>
               </h2>

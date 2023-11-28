@@ -30,6 +30,22 @@ const icon26 = await import('../public/images/fynative/4.png');
 const icon27 = await import('../public/images/fynative/5.png');
 const icon28 = await import('../public/images/fynative/6.png');
 
+const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
+import Partnerships from "@/components/Partnerships";
+
+import People from "@/components/People";
+const HomeBannerSliderlp = React.lazy(() =>
+    import("@/components/HomeBannerSliderlp")
+);
+import LpChoose from "@/components/LpChoose";
+import LpForm from "@/components/LpForm6";
+import Nothing from "@/components/Nothing";
+const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
+const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
+const ProjectProcess = React.lazy(() =>
+    import("@/components/ProjectProcessLp6")
+);
+
 
 export default function ReactNativeMobile() {
 
@@ -70,15 +86,22 @@ export default function ReactNativeMobile() {
 
             <ServicesBanner
                 subtitle="BitsWits Is Your One-Stop Shop For"
-                title={<> React Native App <br /> Development </>}
-                text={<> With our React Native experts, you can effortlessly create powerful, engaging mobile applications that perform <br /> optimally across multiple platforms. Our developers focus on leveraging the best of both worlds - the SPEED and <br /> AGILITY of native development with the flexibility. </>}
+                title={<> React Native App Development </>}
+                text={<> With our React Native experts, you can effortlessly create powerful, engaging mobile applications that perform optimally across multiple platforms. Our developers focus on leveraging the best of both worlds - the SPEED and AGILITY of native development with the flexibility. </>}
                 BannerImage={BannerImage}
                 assignClass="react"
             />
-            <NewHomeAbout
+            <People People="people" />
+
+            <HomeBannerSliderlp />
+
+            <LpForm />
+
+            <Nothing Nothing="nothingLp6" />
+            {/* <NewHomeAbout
                 title="Our Client’s Feedback Has Been"
                 subtitle="Nothing Short Of Amazing!"
-            />
+            /> */}
             <ServicesMaintain
                 assignClass="react"
                 subtitle={<> Go Beyond Expectations With </>}
@@ -132,9 +155,25 @@ export default function ReactNativeMobile() {
                 appContent6={[]}
                 appContent7={[]}
             />
-            <NewAddress />
+            {/* <NewAddress /> */}
+
+            <WeworkLp wework="weworkLp6" />
+
+            <StartupsLp startups="startups" />
+
+            <ProjectProcess
+                processclass="processLp6"
+                title="Explore Our React Native App Development Journey"
+                desc="We believe in efficiency without compromising quality. Our
+  streamlined process for app development is <br /> designed to be
+  transparent and collaborative, ensuring your vision comes to life
+  exactly as you imagined."
+            />
+
+
             <Justbuildit />
-            <ServicesWho
+
+            {/* <ServicesWho
                 subtitle="Who we are."
                 title="We build greater futures through innovation and collective knowledge."
                 text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
@@ -145,12 +184,19 @@ export default function ReactNativeMobile() {
                 title="BitsWits transforms businesses through technology."
                 text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
                 WhatImage={WhatImage}
-            />
+            /> */}
+
+            <LpChoose transform="transform" />
+
             <ServisesWhy
-                title={<> <h4 className='font20 font-bold text-white text-center'>Why BitsWits?</h4> </>}
-                subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision, Performance <br /> & Perfection.</h2> </>}
-                sub1="Why is There a Need for React Native Apps?"
-                sub2="React Native app development services provide substantial savings in terms of development time, effort, and cost and enable the building of high-quality Android and iOS apps."
+                 subtitle={
+                    <>
+                      {" "}
+                      <h2 className="newfycolr font50 font-bold text-center">
+                        Why Do You Require Our React Native Applications?
+                      </h2>{" "}
+                    </>
+                  }
                 whyData={
                     [
                         {
@@ -187,9 +233,9 @@ export default function ReactNativeMobile() {
                 }
             />
             <ServicesPortfolio
-                title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
+                title={<> Showcasing Our <span className="newfycolr">Creative Vision</span> </>}
             />
-            <Capabilities />
+            {/* <Capabilities /> */}
             <Newsuccess
                 assignClass="spacing"
                 subtitle="Ready For Success?"
@@ -223,11 +269,17 @@ export default function ReactNativeMobile() {
             <section className='spacingtb1'>
                 <Technologieswe />
             </section>
-            <NewHomeGlobal />
+
+
+            {/* <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject
                 title="Brace yourself for an App-venture!"
-            />
+            /> */}
+
+            <Globallplp6 />
+            <Partnerships />
+
             <ServicesFaqs
                 faqsData={
                     [

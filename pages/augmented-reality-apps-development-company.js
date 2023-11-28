@@ -23,6 +23,25 @@ const WhoImage = await import("@/public/images/aipost/who_image.png");
 const WhatImage = await import("@/public/images/aipost/what_Image.png");
 
 
+
+const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
+import Partnerships from "@/components/Partnerships";
+
+import People from "@/components/People";
+const HomeBannerSliderlp = React.lazy(() =>
+    import("@/components/HomeBannerSliderlp")
+);
+import LpChoose from "@/components/LpChoose";
+import LpForm from "@/components/LpForm6";
+import Nothing from "@/components/Nothing";
+const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
+const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
+const ProjectProcess = React.lazy(() =>
+    import("@/components/ProjectProcessLp6")
+);
+
+
+
 export default function augmentedrealityappsdevelopment() {
     return (
         <>
@@ -36,14 +55,24 @@ export default function augmentedrealityappsdevelopment() {
 
             <ServicesBanner
                 subtitle="Empower Your Business with"
-                title={<> Top Augmented Reality <br /> App Development Company </>}
-                text={<> BitsWits is your ultimate destination for Augmented Reality app development. <br /> Our developers deliver dynamic AR experiences that set your business apart from the rest. </>}
+                title={<> Top Augmented Reality App Development Company </>}
+                text={<> BitsWits is your ultimate destination for Augmented Reality app development. Our developers deliver dynamic AR experiences that set your business apart from the rest. </>}
                 BannerImage={BannerImage}
             />
-            <NewHomeAbout
+
+
+            <People People="people" />
+
+            <HomeBannerSliderlp />
+
+            <LpForm />
+
+            <Nothing Nothing="nothingLp6" />
+
+            {/* <NewHomeAbout
                 title='Clients Love Our AR Solutions'
                 subtitle='Hear It from Them'
-            />
+            /> */}
             <ServicesMaintain
                 assignClass="augmented"
                 subtitle={<> BitsWits Sets New Standards </>}
@@ -93,9 +122,27 @@ export default function augmentedrealityappsdevelopment() {
                 appContent6={[]}
                 appContent7={[]}
             />
-            <NewAddress />
+
+
+            {/* <NewAddress /> */}
+
+            <WeworkLp wework="weworkLp6" />
+
+            <StartupsLp startups="startups" />
+
+            <ProjectProcess
+                processclass="processLp6"
+                title="Explore Our Augmented Reality App Development Journey"
+                desc="We believe in efficiency without compromising quality. Our
+  streamlined process for app development is <br /> designed to be
+  transparent and collaborative, ensuring your vision comes to life
+  exactly as you imagined."
+            />
+
+
+
             <Justbuildit />
-            <ServicesWho
+            {/* <ServicesWho
                 subtitle="Who we are."
                 title="We build greater futures through innovation and collective knowledge."
                 text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
@@ -106,11 +153,15 @@ export default function augmentedrealityappsdevelopment() {
                 title="BitsWits transforms businesses through technology."
                 text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
                 WhatImage={WhatImage}
-            />
+            /> */}
+
+<LpChoose transform="hybirf" />
+
+
             <ServicesPortfolio
-                title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
+                title={<> Showcasing Our <span className="newfycolr">Creative Vision</span> </>}
             />
-            <Capabilities />
+            {/* <Capabilities /> */}
             <Newsuccess
                 assignClass="spacing"
                 subtitle="Ready For Success?"
@@ -144,11 +195,16 @@ export default function augmentedrealityappsdevelopment() {
             <section className='spacingtb1'>
                 <Technologieswe />
             </section>
-            <NewHomeGlobal />
+            {/* <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject
                 title="Experience AR Brilliance With BitsWits"
-            />
+            /> */}
+
+
+            <Globallplp6 />
+            <Partnerships />
+
             <ServicesFaqs
                 faqsData={
                     [

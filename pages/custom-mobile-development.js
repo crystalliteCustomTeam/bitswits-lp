@@ -22,6 +22,23 @@ const BannerImage = await import("@/public/custommobiledevelopment/banner_image.
 const WhoImage = await import("@/public/custommobiledevelopment/who_image.png");
 const WhatImage = await import("@/public/custommobiledevelopment/what_Image.png");
 
+const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
+import Partnerships from "@/components/Partnerships";
+
+import People from "@/components/People";
+const HomeBannerSliderlp = React.lazy(() =>
+    import("@/components/HomeBannerSliderlp")
+);
+import LpChoose from "@/components/LpChoose";
+import LpForm from "@/components/LpForm6";
+import Nothing from "@/components/Nothing";
+const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
+const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
+const ProjectProcess = React.lazy(() =>
+    import("@/components/ProjectProcessLp6")
+);
+
+
 
 export default function CustomMobile() {
 
@@ -36,15 +53,25 @@ export default function CustomMobile() {
 
             <ServicesBanner
                 subtitle="BitsWits Is Your One-Stop Shop For"
-                title={<> Custom Mobile Application <br /> Development for Businesses </>}
-                text={<> BitsWits is your ultimate destination for custom mobile application development for businesses. <br /> We provide comprehensive solutions for companies seeking tailored mobile apps to boost their <br /> operations and customer engagement </>}
+                title={<> Custom Mobile Application Development for Businesses </>}
+                text={<> BitsWits is your ultimate destination for custom mobile application development for businesses. We provide comprehensive solutions for companies seeking tailored mobile apps to boost their operations and customer engagement </>}
                 BannerImage={BannerImage}
                 assignClass="custom"
             />
-            <NewHomeAbout
+
+
+            <People People="people" />
+
+            <HomeBannerSliderlp />
+
+            <LpForm />
+
+            <Nothing Nothing="nothingLp6" />
+
+            {/* <NewHomeAbout
                 title="Our Client’s Feedback Has Been"
                 subtitle="Nothing Short Of Amazing!"
-            />
+            /> */}
             <ServicesMaintain
                 assignClass="customApp"
                 subtitle={<> Go Beyond Expectations With </>}
@@ -98,9 +125,29 @@ export default function CustomMobile() {
                 appContent6={[]}
                 appContent7={[]}
             />
-            <NewAddress />
+
+
+            {/* <NewAddress /> */}
+
+            <WeworkLp wework="weworkLp6" />
+
+            <StartupsLp startups="startups" />
+
+            <ProjectProcess
+                processclass="processLp6"
+                title="Explore Our Custom Mobile Development Journey"
+                desc="We believe in efficiency without compromising quality. Our
+  streamlined process for app development is <br /> designed to be
+  transparent and collaborative, ensuring your vision comes to life
+  exactly as you imagined."
+            />
+
+
+
             <Justbuildit />
-            <ServicesWho
+
+
+            {/* <ServicesWho
                 subtitle="Who we are."
                 title="We build greater futures through innovation and collective knowledge."
                 text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
@@ -111,11 +158,15 @@ export default function CustomMobile() {
                 title="BitsWits transforms businesses through technology."
                 text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
                 WhatImage={WhatImage}
-            />
+            /> */}
+
+<LpChoose transform="hybirf" />
+
+
             <ServicesPortfolio
-                title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
+                title={<> Showcasing Our <span className="newfycolr">Creative Vision</span> </>}
             />
-            <Capabilities />
+            {/* <Capabilities /> */}
             <Newsuccess
                 assignClass="spacing"
                 subtitle="Ready For Success?"
@@ -149,11 +200,18 @@ export default function CustomMobile() {
             <section className='spacingtb1'>
                 <Technologieswe />
             </section>
-            <NewHomeGlobal />
+
+
+            {/* <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject
                 title="Brace yourself for an App-venture!"
-            />
+            /> */}
+
+
+<Globallplp6 />
+      <Partnerships />
+
             <ServicesFaqs
                 faqsData={
                     [
