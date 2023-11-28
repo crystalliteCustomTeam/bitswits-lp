@@ -29,9 +29,9 @@ const NewMaintain = () => {
                 <Container>
                     <Row className='d-none d-lg-flex g-3'>
                         <Col lg={12}>
-                            <p className={` f-20 font-bold text-white text-center mb-0`}>Delivering Excellence Daily
-                            </p>
-                            <h1 className='text-white f-55 font-bold text-center'>Trusted Development Company For Tech Solutions</h1>
+                            <h3 className={` f-20 font-bold text-center mb-0 newfycolr`}>Delivering Excellence Daily
+                            </h3>
+                            <h1 className='text-white font50  f-700  text-center'>Trusted Development Company For Tech Solutions</h1>
                             <p className='m-0 text-white text-center'>We, at BitsWits, are dedicated to being innovative and making our clients happy. </p>
                             <p className='text-white text-center pb-3'>We specialize in customizing services for digital business evolution and bring the following services to the table…
                             </p>
