@@ -174,23 +174,22 @@ export default function gamedevelopmentcompany() {
       <LpChoose transform="transform" />
 
       <ServisesWhy
-        title={
-          <>
-            {" "}
-            <h4 className="font20 font-bold text-white text-center">
-              Why Choose Us
-            </h4>{" "}
-          </>
-        }
+        // title={
+        //   <>
+        //     {" "}
+        //     <h4 className="font20 font-bold text-white text-center">
+        //       Why Choose Us
+        //     </h4>{" "}
+        //   </>
+        // }
         subtitle={
           <>
             {" "}
             <h2 className="newfycolr font50 font-bold text-center">
-              For Your Mobile App Development Needs?
+              Why Do You Require Our iOS Applications?
             </h2>{" "}
           </>
         }
-        sub1="Why Do You Require Our iOS Applications?"
         sub2="Building your mobile app acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape the trajectory of your business."
         whyData={[
           {

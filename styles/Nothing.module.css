@@ -51,6 +51,10 @@
   color: #f32f53;
 }
 
+.verifiedImage {
+  filter: hue-rotate(152deg) brightness(1);
+}
+
 @media screen and (min-width: 1400px) {
   .nothing {
     background-position: 953px center;

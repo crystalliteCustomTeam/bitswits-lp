@@ -59,7 +59,7 @@ const ServiceBanner = (props) => {
               >
                 {props.title}
               </h1>
-              <p className="font15 white center mb-3">{props.text}</p>
+              <p className={`font15 white center mb-3 ${styles.bannerText}`}>{props.text}</p>
               <div className={styles.pont}>
                 <Link className={styles.about} href="tel:+18335006007">
                   LET'S CONNECT

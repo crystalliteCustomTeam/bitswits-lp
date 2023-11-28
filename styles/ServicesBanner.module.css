@@ -19,7 +19,10 @@
   background-size: cover;
 }
 
-
+.bannerText{
+  max-width: 990px;
+  margin: 0 auto;
+}
 
 .develop {
   max-width: 985px;
@@ -386,6 +389,11 @@
   .just {
     font-size: 18px;
     line-height: 28px;
+  }
+
+  .bannerText{
+    max-width: unset;
+    margin: 0 auto;
   }
 
   .just2 {
