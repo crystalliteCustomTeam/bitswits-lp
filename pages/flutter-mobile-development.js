@@ -115,6 +115,7 @@ export default function HybridMobile() {
         BannerImage={BannerImage}
         assignClass="flutter"
       />
+      
 
 
       <People People="people" />
