@@ -11,7 +11,7 @@ const LpForm = React.lazy(() => import('@/components/LpForm'));
 const Nothing = React.lazy(() => import('@/components/Nothing'));
 const Hurdles = React.lazy(() => import('@/components/Hurdles'));
 const Expertapp = React.lazy(() => import('@/components/Expertapp'));
-const ProjectProcess = React.lazy(() => import('@/components/ProjectProcess'));
+const ProjectProcesslp1 = React.lazy(() => import('@/components/ProjectProcesslp1'));
 const LpChoose = React.lazy(() => import('@/components/LpChoose'));
 const Technologieslp = React.lazy(() => import('@/components/Technologieslp'));
 const Justbuilditlp = React.lazy(() => import('@/components/Justbuilditlp'));
@@ -72,7 +72,7 @@ export default function gamedevelopmentcompany() {
                 expertapp='expertapp'
             />
 
-            <ProjectProcess
+            <ProjectProcesslp1
                 processclass='process'
             />
 
@@ -94,7 +94,7 @@ export default function gamedevelopmentcompany() {
                     </>
                 }
 
-                slide='slide1'
+                slide='slide1lp'
             />
            <Globallplp6 />
             <Partnerships />

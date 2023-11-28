@@ -63,7 +63,7 @@ const Technologieslp = () => {
                         <Col xl={12}>
                             <h2 className={styles.work}>Technologies We Work With</h2>
                         </Col>
-                        <Col xl={12} className='mb-5'>
+                        <Col xl={12} className='mb-5 d-none d-lg-block'>
                             <div className={styles.analpost}>
                                 <div className={activeTab1 == 'tab1' ? styles.active : ''} onClick={() => fun1('tab1')} href="#">Mobile</div>
                                 <div className={activeTab1 == 'tab2' ? styles.active : ''} onClick={() => fun1('tab2')} href="#">Front-End</div>
@@ -71,6 +71,19 @@ const Technologieslp = () => {
                                 <div className={activeTab1 == 'tab4' ? styles.active : ''} onClick={() => fun1('tab4')} href="#">Back-End</div>
                                 <div className={activeTab1 == 'tab5' ? styles.active : ''} onClick={() => fun1('tab5')} href="#">CMS</div>
                                 <div className={activeTab1 == 'tab6' ? styles.active : ''} onClick={() => fun1('tab6')} href="#">Infra and DevOps</div>
+                            </div>
+                        </Col>
+
+                        <Col xl={12} className='mb-5 d-block d-lg-none'>
+                            <div className={styles.analpost}>
+                                <select onChange={(e) => setActiveTab1(e.target.value)}>
+                                    <option className={styles.selOpt} value="tab1" label='Mobile'>Mobile</option>
+                                    <option className={styles.selOpt} value="tab2" label='Front-End'>Front-End</option>
+                                    <option className={styles.selOpt} value="tab3" label='Database'>Database</option>
+                                    <option className={styles.selOpt} value="tab4" label='Back-End'>Back-End</option>
+                                    <option className={styles.selOpt} value="tab5" label='CMS'>CMS</option>
+                                    <option className={styles.selOpt} value="tab6" label='Infra and DevOps'>Infra and DevOps</option>
+                                </select>
                             </div>
                         </Col>
 

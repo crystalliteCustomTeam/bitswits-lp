@@ -17,9 +17,9 @@ const Formnewlp2lp6 = () => {
                 <Container>
                     <Row>
                         <Col xl={12} className={styles.devget}>
-                            <h4>Start Your Mobile App Development
+                            <h4 className='font50 fontf fw700 white mb-3 text-center'>Start Your Mobile App Development <br/>
                                 Journey with Us?</h4>
-                                <p>Excited to turn your app concept into reality? Get in touch for a detailed consultation. We're keen to explore your project and demonstrate how our assistance can make a difference. Choosing Bitswits means partnering with a team dedicated to your app's success</p>
+                                <p>Excited to turn your app concept into reality? Get in touch for a detailed consultation. We're keen to explore your project <br/> and demonstrate how our assistance can make a difference. Choosing Bitswits means partnering with a team <br/> dedicated to your app's success</p>
                         </Col>
                     </Row>
                     <Row className='align-items-center'>

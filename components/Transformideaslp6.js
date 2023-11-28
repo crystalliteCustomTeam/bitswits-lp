@@ -14,12 +14,50 @@ import banImg6 from '../public/images/lp-images/icon6.png'
 import banImg7 from '../public/images/lp-images/icon7.png'
 import banImg8 from '../public/images/lp-images/icon8.png'
 import banImg9 from '../public/images/lp-images/icon9.png'
-
+import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
+import { useEffect } from 'react';
+import { useState } from 'react';
 
 import Link from 'next/link';
 
 
 export default function Transformideaslp6(props) {
+
+
+
+    var phoneSlider = {
+        dots: false,
+        arrows: false,
+        loop: true,
+        autoplay: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+
+    };
+
+    useEffect(() => {
+
+        const handleResize = () => {
+            if (window.innerWidth > 480) {
+                setIsSliderActive(false);
+            } else {
+                setIsSliderActive(true);
+            }
+        };
+
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+    const [isSliderActive, setIsSliderActive] = useState(true);
 
     const items = [
         {
@@ -64,36 +102,76 @@ export default function Transformideaslp6(props) {
         <>
             <section className={styles[props.transform]}>
                 <Container>
-                    <Row className='align-items-center'>
+                    {isSliderActive ?
 
-                        <Col lg={6} className={styles.walk}>
-                            <h3>Why Choose Us</h3>
-                            <h2>For Your Mobile App Development
-                                Needs?</h2>
-                            <p className='mt-4'>Our <span>mobile app development services</span> turn your innovative ideas into success stories by crafting apps that stand out in the market. While you <span>focus on your business</span>, Bitswits will handle the technical aspects of developing your app.</p>
-                            <p>Did you know that a <span>poorly developed app</span> can negatively impact your brand's reputation? That's a risk you don't want to take. But with Bitswits, there's no need to worry. We ensure your app functions seamlessly and enhances your brand's digital presence.</p>
-                            <p>Unlike <span>Mobile app development firms</span>, we don't believe in a one-size-fits-all approach. We understand that the reason behind an underperforming app often lies in its development and user experience. That's where our expertise comes into play. With a <span>team of seasoned mobile app developers</span>, the latest technological resources, and a bespoke development strategy.</p>
-                            <p className='mt-4 mb-4'>Every app we develop undergoes thorough quality checks to ensure <span>IT'S NOT JUST GOOD, BUT GREAT</span>.</p>
-                            <div className={styles.ourt}>
-                                <Link href="#" className={styles.dus}>Choose Expertise, Choose Bitswits – Let's Get Started </Link>
-                            </div>
-                        </Col>
-                        <Col lg={6}>
-                        <div className={styles.cart}>
-                                <Row className='gy-4'>
+                        <>
+                            <Row className='align-items-center '>
+                                <Col lg={6} className={styles.walk}>
+                                    <h3>Why Choose Us</h3>
+                                    <h2>For Your Mobile App Development
+                                        Needs?</h2>
+                                    <p className='mt-4'>Our <span>mobile app development services</span> turn your innovative ideas into success stories by crafting apps that stand out in the market. While you <span>focus on your business</span>, Bitswits will handle the technical aspects of developing your app.</p>
+                                    <p>Did you know that a <span>poorly developed app</span> can negatively impact your brand's reputation? That's a risk you don't want to take. But with Bitswits, there's no need to worry. We ensure your app functions seamlessly and enhances your brand's digital presence.</p>
+                                    <p>Unlike <span>Mobile app development firms</span>, we don't believe in a one-size-fits-all approach. We understand that the reason behind an underperforming app often lies in its development and user experience. That's where our expertise comes into play. With a <span>team of seasoned mobile app developers</span>, the latest technological resources, and a bespoke development strategy.</p>
+                                    <p className='mt-4 mb-4'>Every app we develop undergoes thorough quality checks to ensure <span>IT'S NOT JUST GOOD, BUT GREAT</span>.</p>
+                                    <div className={styles.ourt}>
+                                        <Link href="#" className={styles.dus}>Choose Expertise, Choose Bitswits – Let's Get Started </Link>
+                                    </div>
+                                </Col>
+                            </Row>
+
+                            <Slider {...phoneSlider} className='mt-5 text-center' >
+
+                               
+
                                     {items.map((item, index) => (
-                                        <Col key={index} md={6} lg={4}>
-                                            <div className={styles.post}>
-                                                <Image alt='BitsWits' src={item.image} className='img-fluid mb-3' />
-                                                <p>{item.text}</p>
-                                            </div>
-                                        </Col>
-                                    ))}
-                                </Row>
-                            </div>
-                        </Col>
 
-                    </Row>
+                                        <div className={styles.post}>
+                                            <Image alt='BitsWits' src={item.image} className='img-fluid mb-3 m-auto pt-5' />
+                                            <p>{item.text}</p>
+                                        </div>
+
+                                    ))}
+
+                               
+
+
+
+                            </Slider>
+                        </>
+                        :
+                        <Row className='align-items-center'>
+
+                            <Col lg={6} className={styles.walk}>
+                                <h3>Why Choose Us</h3>
+                                <h2>For Your Mobile App Development
+                                    Needs?</h2>
+                                <p className='mt-4'>Our <span>mobile app development services</span> turn your innovative ideas into success stories by crafting apps that stand out in the market. While you <span>focus on your business</span>, Bitswits will handle the technical aspects of developing your app.</p>
+                                <p>Did you know that a <span>poorly developed app</span> can negatively impact your brand's reputation? That's a risk you don't want to take. But with Bitswits, there's no need to worry. We ensure your app functions seamlessly and enhances your brand's digital presence.</p>
+                                <p>Unlike <span>Mobile app development firms</span>, we don't believe in a one-size-fits-all approach. We understand that the reason behind an underperforming app often lies in its development and user experience. That's where our expertise comes into play. With a <span>team of seasoned mobile app developers</span>, the latest technological resources, and a bespoke development strategy.</p>
+                                <p className='mt-4 mb-4'>Every app we develop undergoes thorough quality checks to ensure <span>IT'S NOT JUST GOOD, BUT GREAT</span>.</p>
+                                <div className={styles.ourt}>
+                                    <Link href="#" className={styles.dus}>Choose Expertise, Choose Bitswits – Let's Get Started </Link>
+                                </div>
+                            </Col>
+                            <Col lg={6}>
+                                <div className={styles.cart}>
+                                    <Row className='gy-4'>
+                                        {items.map((item, index) => (
+                                            <Col key={index} md={6} lg={4}>
+                                                <div className={styles.post}>
+                                                    <Image alt='BitsWits' src={item.image} className='img-fluid mb-3' />
+                                                    <p>{item.text}</p>
+                                                </div>
+                                            </Col>
+                                        ))}
+                                    </Row>
+                                </div>
+                            </Col>
+
+                        </Row>
+                    }
+
                 </Container>
 
             </section>

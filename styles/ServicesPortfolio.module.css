@@ -1,7 +1,7 @@
 .newHomeBg {
   background-color: #000;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  /* padding-bottom: 50px; */
+  /* padding-top: 50px; */
 }
 
 .lpFolio {
@@ -80,19 +80,19 @@
 }
 
 .sucssBtn {
-  width: 250px;
-  height: 45px;
-  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  width: 200px;
+  height: 41px;
+  background-color: #f32f53;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  border: 2px solid #fff;
+  border: unset;
 }
 
 .sucssBtn2 {

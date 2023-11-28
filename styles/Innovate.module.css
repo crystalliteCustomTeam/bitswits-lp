@@ -4,7 +4,8 @@
 
 .lead {
   text-align: center;
-  font-size: 54px;
+  font-size: 45px;
+  line-height: 55px;
   color: #F32F53;
   font-weight: 700;
 
@@ -83,9 +84,10 @@
 }
 
 .build {
-  font-size: 50px;
+  font-size: 45px;
+  line-height: 55px;
   color: white;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
 }
 

@@ -22,6 +22,23 @@ const BannerImage = await import("@/public/images/iosbanner/ai.png");
 const WhoImage = await import("@/public/images/aipost/who_image.png");
 const WhatImage = await import("@/public/images/aipost/what_Image.png");
 
+const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
+import Partnerships from "@/components/Partnerships";
+const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
+
+import People from "@/components/People";
+const HomeBannerSliderlp = React.lazy(() =>
+    import("@/components/HomeBannerSliderlp")
+);
+import LpChoose from "@/components/LpChoose";
+import LpForm from "@/components/LpForm6";
+import Nothing from "@/components/Nothing";
+const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
+const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
+const ProjectProcess = React.lazy(() =>
+    import("@/components/ProjectProcessLp6")
+);
+
 
 export default function gamedevelopmentcompany() {
 
@@ -37,15 +54,26 @@ export default function gamedevelopmentcompany() {
 
             <ServicesBanner
                 subtitle="BitsWits is a Home to All Your Demands Regarding"
-                title={<> Artificial Intelligence <br /> Development and Advancement </>}
-                text={<> BitsWits welcomes you to the one-stop destination for innovative mobile applications development with <br /> artificial intelligence. Our skilled developers and designers provide forward-thinking <br /> solutions for all your AI development and integration requirements. </>}
+                title={<> Artificial Intelligence Development and Advancement </>}
+                text={<> BitsWits welcomes you to the one-stop destination for innovative mobile applications development with artificial intelligence. Our skilled developers and designers provide forward-thinking solutions for all your AI development and integration requirements. </>}
                 BannerImage={BannerImage}
                 assignClass="ai"
             />
-            <NewHomeAbout
+
+
+
+            <People People="people" />
+
+            <HomeBannerSliderlp />
+
+            <LpForm />
+
+            <Nothing Nothing="nothingLp6" />
+
+            {/* <NewHomeAbout
                 title="Clients Love Our AI Solutions"
                 subtitle="Hear It from Them"
-            />
+            /> */}
             <ServicesMaintain
                 assignClass="ai"
                 subtitle={<> Go an Extra Mile with </>}
@@ -100,9 +128,28 @@ export default function gamedevelopmentcompany() {
                 appContent6={[]}
                 appContent7={[]}
             />
-            <NewAddress />
+
+
+
+            {/* <NewAddress /> */}
+
+            <WeworkLp wework="weworkLp6" />
+
+            <StartupsLp startups="startups" />
+
+            <ProjectProcess
+                processclass="processLp6"
+                title="Explore Our Artificial Intelligence App Development Journey"
+                desc="We believe in efficiency without compromising quality. Our
+  streamlined process for app development is <br /> designed to be
+  transparent and collaborative, ensuring your vision comes to life
+  exactly as you imagined."
+            />
+
+
+
             <Justbuildit />
-            <ServicesWho
+            {/* <ServicesWho
                 subtitle="Who we are."
                 title="We build greater futures through innovation and collective knowledge."
                 text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
@@ -113,11 +160,16 @@ export default function gamedevelopmentcompany() {
                 title="BitsWits transforms businesses through technology."
                 text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
                 WhatImage={WhatImage}
-            />
+            /> */}
+
+
+            <LpChoose transform="hybirf" />
+
+
             <ServicesPortfolio
-                title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
+                title={<> Showcasing Our <span className="newfycolr">Creative Vision</span> </>}
             />
-            <Capabilities />
+            {/* <Capabilities /> */}
             <Newsuccess
                 assignClass="spacing"
                 subtitle="Ready for Success?"
@@ -151,11 +203,17 @@ export default function gamedevelopmentcompany() {
             <section className='spacingtb1'>
                 <Technologieswe />
             </section>
-            <NewHomeGlobal />
+
+
+            {/* <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject
                 title="Get Smart With Artificial Intelligence"
-            />
+            /> */}
+
+<Globallplp6 />
+      <Partnerships />
+      <Formnewlp />
             <ServicesFaqs
                 faqsData={
                     [

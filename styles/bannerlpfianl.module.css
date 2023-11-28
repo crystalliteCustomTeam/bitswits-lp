@@ -578,10 +578,7 @@
     font-size: 20px;
   }
 
-  .oppp h2 {
-    font-size: 70px;
-    line-height: 1.2;
-  }
+
 
   .oppp p {
     font-size: 23px;
@@ -646,10 +643,7 @@
 
 
 
-  .conform h2 {
-    font-size: 52px;
-    line-height: 1.2;
-  }
+
 
   .postimg {
     max-width: 65%;
@@ -814,6 +808,10 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .newone{
+    display: none;
+  }
 
   .takesread{
     gap: 15px;
