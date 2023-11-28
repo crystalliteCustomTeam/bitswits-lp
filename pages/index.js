@@ -21,6 +21,8 @@ const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const ProjectProcess = React.lazy(() =>
   import("@/components/ProjectProcessLp6")
 );
+const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
+
 
 export default function Home() {
 
@@ -33,7 +35,7 @@ export default function Home() {
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
-            <NewPopup />
+            {/* <NewPopup /> */}
             <HomeBanner />
             {/* <NewHomeAbout
                 title="Our Client’s Feedback Has Been"
@@ -64,6 +66,7 @@ export default function Home() {
             {/* <Homenextproject
                 title="Brace yourself for an App-venture!"
             /> */}
+            <Formnewlp />
             <Faqs />
             <HomeLocation />
         </>

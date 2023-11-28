@@ -22,7 +22,7 @@ const BannerImage = await import("@/public/hybridmbldevelopment/banner_image.png
 const WhoImage = await import("@/public/hybridmbldevelopment/who_image.png");
 const WhatImage = await import("@/public/hybridmbldevelopment/what_Image.png");
 
-
+const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 import Partnerships from "@/components/Partnerships";
 
@@ -181,7 +181,7 @@ export default function HybridMobile() {
 
 <Globallplp6 />
       <Partnerships />
-
+      <Formnewlp />
             <ServicesFaqs
                 faqsData={
                     [

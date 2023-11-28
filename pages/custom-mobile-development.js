@@ -21,6 +21,7 @@ const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 const BannerImage = await import("@/public/custommobiledevelopment/banner_image.png");
 const WhoImage = await import("@/public/custommobiledevelopment/who_image.png");
 const WhatImage = await import("@/public/custommobiledevelopment/what_Image.png");
+const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
 
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 import Partnerships from "@/components/Partnerships";
@@ -211,7 +212,7 @@ export default function CustomMobile() {
 
 <Globallplp6 />
       <Partnerships />
-
+      <Formnewlp />
             <ServicesFaqs
                 faqsData={
                     [

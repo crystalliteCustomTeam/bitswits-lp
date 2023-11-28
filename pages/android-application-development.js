@@ -43,7 +43,7 @@ const icon25 = await import('../public/images/fyicons/12.png');
 const icon26 = await import('../public/images/fyicons/13.png');
 const icon27 = await import('../public/images/fyicons/14.png');
 const icon28 = await import('../public/images/fyicons/15.png');
-
+const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
 
 export default function gamedevelopmentcompany() {
 
@@ -251,6 +251,8 @@ export default function gamedevelopmentcompany() {
 
 <Globallplp6 />
       <Partnerships />
+
+      <Formnewlp />
 
             <ServicesFaqs
                 faqsData={

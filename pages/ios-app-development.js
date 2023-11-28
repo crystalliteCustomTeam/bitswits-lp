@@ -39,6 +39,8 @@ const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
 const ProjectProcess = React.lazy(() =>
   import("@/components/ProjectProcessLp6")
 );
+const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
+
 
 export default function gamedevelopmentcompany() {
   return (
@@ -280,7 +282,7 @@ export default function gamedevelopmentcompany() {
       <Partnerships />
 
       {/* <NewFaqslp /> */}
-
+      <Formnewlp />
       <ServicesFaqs
         faqsData={[
           {

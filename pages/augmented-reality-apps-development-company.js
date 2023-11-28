@@ -21,7 +21,7 @@ const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 const BannerImage = await import("@/public/images/augmentapp/Augmentebanner.png");
 const WhoImage = await import("@/public/images/aipost/who_image.png");
 const WhatImage = await import("@/public/images/aipost/what_Image.png");
-
+const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
 
 
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
@@ -204,7 +204,7 @@ export default function augmentedrealityappsdevelopment() {
 
             <Globallplp6 />
             <Partnerships />
-
+            <Formnewlp />
             <ServicesFaqs
                 faqsData={
                     [

@@ -13,7 +13,7 @@ const Formnewlp = () => {
 
                         <Col lg={12}>
                             <h2 className='font50 fontf fw700 white mb-3 text-center'>
-                                Start Your Mobile App Development <br /> Journey with Us?
+                                Start Your Mobile App Development Journey with Us?
                             </h2>
                             <p className='font16 font-normal white text-center'>Excited to turn your app concept into reality? Get in touch for a detailed consultation. We're keen to explore your project <br /> and demonstrate how our assistance can make a difference. Choosing Bitswits means partnering with a team <br /> dedicated to your app's success</p>
                         </Col>

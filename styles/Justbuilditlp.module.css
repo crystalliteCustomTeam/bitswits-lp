@@ -1,6 +1,10 @@
 .slide1 {
   background-color: black;
 }
+.slide1lp {
+  background-color: black;
+  padding-top: 100px;
+}
 .slide2 {
   background-color: black;
 }

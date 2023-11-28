@@ -1,7 +1,10 @@
 .just {
   color: #f32f53;
 }
-
+.bannerText {
+  max-width: 850px;
+  margin: 0 auto;
+}
 .newHomeBg {
   padding: 50px 0 100px;
   background: #000;

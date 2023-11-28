@@ -24,6 +24,7 @@ const WhatImage = await import("@/public/images/aipost/what_Image.png");
 
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 import Partnerships from "@/components/Partnerships";
+const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
 
 import People from "@/components/People";
 const HomeBannerSliderlp = React.lazy(() =>
@@ -212,7 +213,7 @@ export default function gamedevelopmentcompany() {
 
 <Globallplp6 />
       <Partnerships />
-
+      <Formnewlp />
             <ServicesFaqs
                 faqsData={
                     [

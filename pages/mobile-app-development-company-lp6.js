@@ -70,12 +70,15 @@ export default function gamedevelopmentcompany() {
                 startups='startups'
             />
 
+         
             <ProjectProcess
-                processclass='processLp6'
+                processclass="processLp6"
+                title="Explore Our App Development Journey"
+                desc="We believe in efficiency without compromising quality. Our streamlined process for app development is <br /> designed to be transparent and collaborative, ensuring your vision comes to life exactly as you imagined."
             />
 
             <LpChoose
-                transform='transform'
+                transform='transformlp'
             />
 
             <Technologieslp />
@@ -92,7 +95,7 @@ export default function gamedevelopmentcompany() {
                     </>
                 }
 
-                slide='slide1'
+                slide='slide1lp'
             />
             <Globallplp6 />
             <Partnerships />

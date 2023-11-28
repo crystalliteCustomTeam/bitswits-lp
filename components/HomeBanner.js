@@ -5,7 +5,7 @@ import Image from 'next/image';
 import styles from "@/styles/HomeBanner.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
 //
-import HomeBannerSlider from './HomeBannerSlider';
+import Fynewsliderhome from './Fynewsliderhome';
 
 
 const HomeBanner = () => {
@@ -33,7 +33,7 @@ const HomeBanner = () => {
 
             </section>
 
-            <HomeBannerSlider />
+            <Fynewsliderhome />
 
         </>
     )
