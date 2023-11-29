@@ -20,7 +20,6 @@ import Headerproduct from '@/components/Headerproduct';
 export default function App({ Component, pageProps }) {
 
   const router = useRouter();
-
   // =======================================
   const [imagesLoaded, setImagesLoaded] = useState(false);
   useEffect(() => {
@@ -81,13 +80,13 @@ export default function App({ Component, pageProps }) {
     || router.pathname == '/mobile-developer'
     || router.pathname == '/supersale'
     || router.pathname == '/top-ecommerce-app-development-company'
-    || '/mobile-app-development-company-lp'
-    || 'mobile-app-development-services-landing-page-final'
-    || 'mobile-app-development-company-lp6'
+    || router.pathname == '/mobile-app-development-company-lp'
+    || router.pathname == '/mobile-app-development-services-landing-page-final'
+    || router.pathname == '/mobile-app-development-company-lp6'
   // =======================================
   const mblLp1 = router.pathname == '/mobile-app-development-company-lp'
-    || 'mobile-app-development-services-landing-page-final'
-    || 'mobile-app-development-company-lp6'
+    || router.pathname == '/mobile-app-development-services-landing-page-final'
+    || router.pathname == '/mobile-app-development-company-lp6'
   // =======================================
   const newlps = router.pathname == '/mobile-app-development-company-lp2'
   // =======================================
@@ -95,8 +94,8 @@ export default function App({ Component, pageProps }) {
   // =======================================
   const newecommercepage = router.pathname == '/top-ecommerce-app-development-company';
   // =======================================
-
   const mobileapplicationheader = router.pathname == '/mobile-application-header';
+  // =======================================
 
 
   return (
