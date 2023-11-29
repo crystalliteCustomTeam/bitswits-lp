@@ -1,0 +1,52 @@
+.socialSolution {
+  padding-top: 50px;
+  padding-bottom: 150px;
+  background: #000;
+}
+
+.smTxt h3 {
+  color: #f32f53;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.smTxt h2 {
+  color: #fff;
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.smTxt p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.smImg {
+  text-align: center;
+}
+
+.smImg img {
+  width: 65%;
+}
+
+.smSolTxt h4 {
+  color: #f32f53;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.smSolTxt p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 25px;
+  text-align: justify;
+}
