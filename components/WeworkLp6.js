@@ -14,11 +14,13 @@ export default function WeworkLp6(props) {
 
     var clientsthink = {
         dots: false,
+        arrows: false,
         speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1,
         centerMode: false,
         variableWidth: false,
+        adaptiveHeight: true
     };
 
 
@@ -26,7 +28,7 @@ export default function WeworkLp6(props) {
     useEffect(() => {
 
         const handleResize = () => {
-            if (window.innerWidth > 480) {
+            if (window.innerWidth > 991) {
                 setIsSliderActive(false);
             } else {
                 setIsSliderActive(true);
@@ -47,74 +49,86 @@ export default function WeworkLp6(props) {
     return (
         <>
 
-        {isSliderActive ? 
-             <Slider {...clientsthink}  className={styles[props.wework]}>
+            {isSliderActive ?
 
-             <Col lg={4} className='p-3'>
-                 <Image alt='BitsWits' src={startups1} className='img-fluid mb-3' />
-                 <h4 className='mt-5 white'>Pre-Seed & <br></br>
-                     Seed Startups</h4>
-                 <p className='white'>Create a pitch deck, research your idea, run
-                     user interviews, and create MVP.</p>
-             </Col>
-             <Col lg={4} className='p-3'>
-                 <Image alt='BitsWits' src={startups2} className='img-fluid mb-3' />
-                 <h4 className='mt-5 white'>Startups <br></br>
-                     that Scale</h4>
-                 <p className='white'>Find your product-market fit, find the team
-                     with the right skill set, and scale fast without
-                     breaking things.</p>
-             </Col>
-             <Col lg={4} className='p-3'>
-                 <Image alt='BitsWits' src={startups3} className='img-fluid mb-3' />
-                 <h4 className='mt-5 white'>Businesses that  <br></br>
-                     want to digitize</h4>
-                 <p className='white'>Redesign and modernize your platform or SaaS, and
-                     create new internal tools for better management.</p>
-             </Col>
+                <div className={`${styles[props.wework]} pb-0`}>
+                    <Container>
+                        <Row className='align-items-center'>
+                            <Col lg={12}>
+                                <h2 className="white font50 f-700 mb-4">
+                                    <span> We Work </span> With:
+                                </h2>
+                            </Col>
+                        </Row>
 
-         </Slider>
-         :
+                        <Slider {...clientsthink} className={styles[props.wework]}>
+                            <Col lg={4} className='p-3'>
+                                <Image alt='BitsWits' src={startups1} className='img-fluid mb-3' />
+                                <h4 className='mt-4 white'>Pre-Seed & <br></br>
+                                    Seed Startups</h4>
+                                <p className='white mb-0'>Create a pitch deck, research your idea, run
+                                    user interviews, and create MVP.</p>
+                            </Col>
+                            <Col lg={4} className='p-3'>
+                                <Image alt='BitsWits' src={startups2} className='img-fluid mb-3' />
+                                <h4 className='mt-4 white'>Startups <br></br>
+                                    that Scale</h4>
+                                <p className='white mb-0'>Find your product-market fit, find the team
+                                    with the right skill set, and scale fast without
+                                    breaking things.</p>
+                            </Col>
+                            <Col lg={4} className='p-3'>
+                                <Image alt='BitsWits' src={startups3} className='img-fluid mb-3' />
+                                <h4 className='mt-4 white'>Businesses that  <br></br>
+                                    want to digitize</h4>
+                                <p className='white mb-0'>Redesign and modernize your platform or SaaS, and
+                                    create new internal tools for better management.</p>
+                            </Col>
+                        </Slider>
+                    </Container>
+                </div>
 
-            <section className={styles[props.wework]}>
-                <Container>
-                    <Row className='align-items-center'>
+                :
 
-                        <Col lg={12}>
-                            <h2 className="white font50 f-700 mb-4">
-                                <span> We Work </span> With:
-                            </h2>
-                        </Col>
-                    </Row>
-                    <Row className={` ${styles.dem} gx-5 `}>
-                        <Col lg={4}>
-                            <Image alt='BitsWits' src={startups1} className='img-fluid mb-3' />
-                            <h4 className='mt-5'>Pre-Seed & <br></br>
-                                Seed Startups</h4>
-                            <p>Create a pitch deck, research your idea, run
-                                user interviews, and create MVP.</p>
-                        </Col>
-                        <Col lg={4}>
-                            <Image alt='BitsWits' src={startups2} className='img-fluid mb-3' />
-                            <h4 className='mt-5'>Startups <br></br>
-                                that Scale</h4>
-                            <p>Find your product-market fit, find the team
-                                with the right skill set, and scale fast without
-                                breaking things.</p>
-                        </Col>
-                        <Col lg={4}>
-                            <Image alt='BitsWits' src={startups3} className='img-fluid mb-3' />
-                            <h4 className='mt-5'>Businesses that  <br></br>
-                                want to digitize</h4>
-                            <p>Redesign and modernize your platform or SaaS, and
-                                create new internal tools for better management.</p>
-                        </Col>
-                    </Row>
-                </Container>
+                <section className={styles[props.wework]}>
+                    <Container>
+                        <Row className='align-items-center'>
 
-            </section>
+                            <Col lg={12}>
+                                <h2 className="white font50 f-700 mb-4">
+                                    <span> We Work </span> With:
+                                </h2>
+                            </Col>
+                        </Row>
+                        <Row className={` ${styles.dem} gx-5 `}>
+                            <Col lg={4}>
+                                <Image alt='BitsWits' src={startups1} className='img-fluid mb-3' />
+                                <h4 className='mt-5'>Pre-Seed & <br></br>
+                                    Seed Startups</h4>
+                                <p>Create a pitch deck, research your idea, run
+                                    user interviews, and create MVP.</p>
+                            </Col>
+                            <Col lg={4}>
+                                <Image alt='BitsWits' src={startups2} className='img-fluid mb-3' />
+                                <h4 className='mt-5'>Startups <br></br>
+                                    that Scale</h4>
+                                <p>Find your product-market fit, find the team
+                                    with the right skill set, and scale fast without
+                                    breaking things.</p>
+                            </Col>
+                            <Col lg={4}>
+                                <Image alt='BitsWits' src={startups3} className='img-fluid mb-3' />
+                                <h4 className='mt-5'>Businesses that  <br></br>
+                                    want to digitize</h4>
+                                <p>Redesign and modernize your platform or SaaS, and
+                                    create new internal tools for better management.</p>
+                            </Col>
+                        </Row>
+                    </Container>
 
-        }
+                </section>
+
+            }
         </>
     )
 }

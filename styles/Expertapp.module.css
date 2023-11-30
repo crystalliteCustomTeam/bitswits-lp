@@ -71,3 +71,10 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .expertapp {
+    padding: 60px 0;
+    background-image: none;
+  }
+}

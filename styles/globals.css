@@ -2103,6 +2103,11 @@ input::-webkit-inner-spin-button {
   .mixColor2 {
     display: none;
   }
+
+  .font50 {
+    font-size: 35px;
+    line-height: 45px;
+  }
 }
 
 /* ========================= */
@@ -2988,7 +2993,7 @@ button {
   height: 50px;
   z-index: 1;
   position: relative;
-  bottom: -215px;
+  bottom: -130px;
   background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
 }
 
@@ -3111,6 +3116,11 @@ button {
     margin-bottom: 10px;
   }
 
+  .f-30 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
   .f-60 {
     font-size: 45px;
     line-height: 55px;
@@ -3126,7 +3136,7 @@ button {
     line-height: 50px;
   }
 
-  .font20{
+  .font20 {
     font-size: 18px;
   }
 
@@ -3235,8 +3245,8 @@ button {
   }
 
   .f-30 {
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 28px;
   }
 
   .f-50 {

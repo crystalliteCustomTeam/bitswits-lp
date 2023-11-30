@@ -12,10 +12,10 @@
   background-color: black;
   padding-top: 100px;
 }
-.slide2 a{
+.slide2 a {
   border-radius: 10px;
 }
-.slide2lp6 a{
+.slide2lp6 a {
   border-radius: unset;
 }
 
@@ -97,10 +97,15 @@
   .develop {
     position: relative;
     z-index: 999;
+    font-size: 25px;
   }
 
   .just {
     font-size: 40px;
+  }
+
+  .slide1lp {
+    padding-top: 80px;
   }
 }
 
@@ -116,6 +121,10 @@
 
   .develop {
     font-size: 20px;
+  }
+
+  .slide1lp {
+    padding-top: 60px;
   }
 }
 

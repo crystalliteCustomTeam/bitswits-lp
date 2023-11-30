@@ -92,7 +92,6 @@
 }
 
 @media screen and (max-width: 991px) {
-
   .analpost select {
     width: 80%;
     height: 50px;
@@ -102,17 +101,20 @@
     color: #fff;
     background-color: #000;
     border: 1px solid #909090;
-}
+  }
   .active::before {
     bottom: -67%;
   }
 
   .tech {
-    padding: 80px 0 50px;
+    padding: 80px 0 0px;
+    background-image: none;
   }
 
   .work {
-    font-size: 45px;
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 0;
   }
 }
 
@@ -120,8 +122,8 @@
   .analpost select {
     width: 100%;
     font-size: 20px;
-}
-  
+  }
+
   .analpost div {
     color: #707070;
     font-size: 13px;
@@ -141,9 +143,14 @@
 
   .work {
     font-size: 30px;
+    line-height: 40px;
     text-align: center;
     color: white;
     font-weight: bold;
+  }
+
+  .tech {
+    padding: 60px 0 0px;
   }
 }
 

@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 767px) {
   .carousel {
-    height: 10vh;
+    height: 12vh;
   }
 
   .carouselItem {

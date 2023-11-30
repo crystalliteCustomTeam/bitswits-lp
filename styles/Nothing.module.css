@@ -71,6 +71,10 @@
   .nothing {
     padding-top: 80px;
   }
+
+  .nothingLp6 {
+    padding-top: 60px;
+  }
 }
 
 @media screen and (max-width: 480px) {

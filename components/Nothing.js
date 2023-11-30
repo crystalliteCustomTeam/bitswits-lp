@@ -37,7 +37,7 @@ export default function Nothing(props) {
               <h3 className="white f-30 f-700 center">
                 Our Client’s Feedback Has Been
               </h3>
-              <h2 className="white font50 f-700 center mb-5">
+              <h2 className="white font50 f-700 center mb-2 mb-lg-5">
                 Nothing Short Of Amazing!
               </h2>
             </Col>

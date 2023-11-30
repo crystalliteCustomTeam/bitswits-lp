@@ -1,9 +1,6 @@
 import React from 'react'
-import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/SocialLpBanner.module.css";
-//
-import BannerImage from "@/public/images/socialmedialp/banner.png"
 
 
 const SocialLpBanner = (props) => {
@@ -20,7 +17,7 @@ const SocialLpBanner = (props) => {
                                 <p>Connecting Communities with Engaging Social Media Apps, <span>CRAFTED TO PERFECTION & DELIVERED WITH PRECISION</span></p>
                             </div>
                             <div className={styles.smImg}>
-                                <Image alt='BitsWits' src={BannerImage} className='img-fluid' />
+                                <video autoPlay loop muted src='./images/socialmedialp/banner.mp4' className={styles.BanVideo}></video>
                             </div>
                         </Col>
                     </Row>

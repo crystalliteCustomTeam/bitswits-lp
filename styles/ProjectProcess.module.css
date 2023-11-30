@@ -10,3 +10,25 @@
 .processLp6 h3 {
   color: #f32f53;
 }
+
+@media screen and (max-width: 991px) {
+  .processLp6 h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .process1 {
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .processLp6 h3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .process1 {
+    padding-bottom: 50px;
+  }
+}
