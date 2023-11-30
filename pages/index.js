@@ -19,7 +19,7 @@ const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 import Nothing from "@/components/Nothing";
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const ProjectProcess = React.lazy(() =>
-  import("@/components/ProjectProcessLp6")
+    import("@/components/ProjectProcessLp6")
 );
 const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
 
@@ -49,13 +49,13 @@ export default function Home() {
             <NewMaintain />
             <Globallplp6 />
             <ProjectProcess
-        processclass="processLp6"
-        title="Our App Development Process"
-        desc="We believe in efficiency without compromising quality. Our
-        streamlined process for app development is <br /> designed to be
-        transparent and collaborative, ensuring your vision comes to life
-        exactly as you imagined."
-      />
+                processclass="processLp6"
+                title="Our App Development Process"
+                desc="We believe in efficiency without compromising quality. Our
+                      streamlined process for app development is <br /> designed to be
+                      transparent and collaborative, ensuring your vision comes to life
+                      exactly as you imagined."
+            />
             {/* <NewHomeGlobal
                 assignClass="home"
             />

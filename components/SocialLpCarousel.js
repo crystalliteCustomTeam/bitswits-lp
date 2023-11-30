@@ -2,19 +2,15 @@ import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import styles from '../styles/SocialLpCarousel.module.css'
 //
-import scr1 from '../public/images/lp-carousel/1.png';
-import scr2 from '../public/images/lp-carousel/2.png';
-import scr3 from '../public/images/lp-carousel/3.png';
-import scr4 from '../public/images/lp-carousel/4.png';
-import scr5 from '../public/images/lp-carousel/5.png';
-import scr6 from '../public/images/lp-carousel/6.png';
-import scr7 from '../public/images/lp-carousel/7.png';
-import scr8 from '../public/images/lp-carousel/8.png';
-import scr9 from '../public/images/lp-carousel/9.png';
-import scr10 from '../public/images/lp-carousel/10.png';
-import scr11 from '../public/images/lp-carousel/11.png';
-import scr12 from '../public/images/lp-carousel/12.png';
-import scr13 from '../public/images/lp-carousel/13.png';
+import scr1 from '../public/images/socialmedialp/scr1.png';
+import scr2 from '../public/images/socialmedialp/scr2.png';
+import scr3 from '../public/images/socialmedialp/scr3.png';
+import scr4 from '../public/images/socialmedialp/scr4.png';
+import scr5 from '../public/images/socialmedialp/scr5.png';
+import scr6 from '../public/images/socialmedialp/scr6.png';
+import scr7 from '../public/images/socialmedialp/scr7.png';
+import scr8 from '../public/images/socialmedialp/scr8.png';
+import scr9 from '../public/images/socialmedialp/scr9.png';
 
 
 const SocialLpCarousel = () => {
@@ -26,9 +22,9 @@ const SocialLpCarousel = () => {
         const carousel = carouselRef.current;
         const carouselPivot = carouselPivotRef.current;
 
-        var carouselRadius = 210;
-        if (window.innerWidth <767) {
-            carouselRadius = 100;
+        var carouselRadius = 175;
+        if (window.innerWidth < 767) {
+            carouselRadius = 80;
         }
         var carouselRotation = 0;
         var carouselTilt = 0;
@@ -195,18 +191,6 @@ const SocialLpCarousel = () => {
                     </div>
                     <div className={styles.carouselItem}>
                         <Image src={scr9} alt="carousel-item" />
-                    </div>
-                    <div className={styles.carouselItem}>
-                        <Image src={scr10} alt="carousel-item" />
-                    </div>
-                    <div className={styles.carouselItem}>
-                        <Image src={scr11} alt="carousel-item" />
-                    </div>
-                    <div className={styles.carouselItem}>
-                        <Image src={scr12} alt="carousel-item" />
-                    </div>
-                    <div className={styles.carouselItem}>
-                        <Image src={scr13} alt="carousel-item" />
                     </div>
                 </div>
             </div>

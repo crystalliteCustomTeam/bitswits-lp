@@ -1,7 +1,7 @@
 .carousel {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   perspective: 1000px;
   display: flex;
   align-items: flex-end;
@@ -29,9 +29,57 @@
   height: 450px;
 }
 
+@media screen and (max-width: 1699px) {
+  .carousel {
+    height: 58vh;
+  }
+}
+
+@media screen and (max-width: 1599px) {
+  .carousel {
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 1499px) {
+  .carousel {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .carousel {
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 1299px) {
+  .carousel {
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .carousel {
+    height: 40vh;
+  }
+
+  .carouselPivot {
+    left: 50%;
+  }
+}
+
 @media screen and (max-width: 767px) {
+  .carousel {
+    height: 10vh;
+  }
+
+  .carouselItem {
+    height: 100px;
+  }
+
   .carouselItem img {
-    width: 80px;
-    height: 160px;
+    width: 100px;
+    height: 200px;
   }
 }
