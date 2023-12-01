@@ -362,8 +362,8 @@
   }
 
   .newHomeBg h3 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 20px;
+    line-height: 30px;
   }
 
   .secImage {
@@ -413,8 +413,8 @@
 
 @media screen and (max-width: 767px) {
   .newHomeBg h3 {
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 28px;
     margin-top: 0;
   }
 

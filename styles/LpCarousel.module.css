@@ -69,8 +69,12 @@
   .carouselPivot {
     position: absolute;
     left: 50%;
-    top: 115%;
+    top: 70%;
     transform-style: preserve-3d;
+  }
+
+  .carouselItem{
+    height: 300px;
   }
 
   .carouselItem img {

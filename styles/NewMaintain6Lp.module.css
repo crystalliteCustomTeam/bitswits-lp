@@ -390,8 +390,7 @@
 
 @media screen and (max-width: 991px) {
   .newHomeBg {
-    padding-top: 80px;
-    padding-bottom: 0px;
+    padding: 80px 0;
   }
 
   .servSlider .app {
@@ -460,6 +459,15 @@
   .servSlider .app .cardContent {
     width: 85%;
     padding-bottom: 20px;
+  }
+
+  .servSlider .app {
+    height: 500px;
+  }
+
+  .servSlider .app6 .cardContent {
+    position: relative;
+    top: -70px;
   }
 }
 
