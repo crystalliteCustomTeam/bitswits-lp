@@ -2,40 +2,27 @@ import Head from "next/head";
 import React from "react";
 //components
 const ServicesBanner = React.lazy(() => import('@/components/ServicesBanner'));
-const NewHomeAbout = React.lazy(() => import('@/components/NewHomePageAbout'));
 const ServicesMaintain = React.lazy(() => import('@/components/ServicesMaintain'));
-const NewAddress = React.lazy(() => import('@/components/NewAddress'));
 const Justbuildit = React.lazy(() => import('@/components/Justbuildit'));
-const ServicesWho = React.lazy(() => import('@/components/ServicesWho'));
-const ServicesWhat = React.lazy(() => import('@/components/ServicesWhat'));
 const ServisesWhy = React.lazy(() => import('@/components/ServisesWhy'));
 const ServicesPortfolio = React.lazy(() => import('@/components/ServicesPortfolio'));
-const Capabilities = React.lazy(() => import('@/components/Capabilities'));
 const Newsuccess = React.lazy(() => import('@/components/NewMblSuccess'));
 const Technologieswe = React.lazy(() => import('@/components/Technologieswe'));
-const NewHomeGlobal = React.lazy(() => import('@/components/NewHomeGlobal'));
-const NewHomeSlider = React.lazy(() => import('@/components/NewHomeSlider'));
-const Homenextproject = React.lazy(() => import('@/components/Homenextproject'));
 const ServicesFaqs = React.lazy(() => import('@/components/ServicesFaqs'));
 const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
-import People from "@/components/People";
-const HomeBannerSliderlp = React.lazy(() =>
-  import("@/components/HomeBannerSliderlp")
-);
-import LpChoose from "@/components/LpChoose";
-import LpForm from "@/components/LpForm6";
-import Nothing from "@/components/Nothing";
+const People = React.lazy(() => import('@/components/People'));
+const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
+const LpChoose = React.lazy(() => import('@/components/LpChoose'));
+const LpForm = React.lazy(() => import('@/components/LpForm6'));
+const Nothing = React.lazy(() => import('@/components/Nothing'));
 const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
-const ProjectProcess = React.lazy(() =>
-  import("@/components/ProjectProcessLp6")
-);
+const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
+const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
+const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
+const Partnerships = React.lazy(() => import('@/components/Partnerships'));
 //images
 const BannerImage = await import("@/public/newMobilePageImages/banner_image.png")
-const WhoImage = await import("@/public/newMobilePageImages/who_image.png")
-const WhatImage = await import("@/public/newMobilePageImages/what_Image.png")
-const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
-import Partnerships from "@/components/Partnerships";
 //icons 
 const icon23 = await import('../public/images/fymobile/1.png')
 const icon24 = await import('../public/images/fymobile/2.png')
@@ -43,7 +30,7 @@ const icon25 = await import('../public/images/fymobile/3.png')
 const icon26 = await import('../public/images/fymobile/4.png')
 const icon27 = await import('../public/images/fymobile/5.png')
 const icon28 = await import('../public/images/fymobile/6.png')
-const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
+
 
 export default function mobileApplication() {
   return (
@@ -303,7 +290,7 @@ export default function mobileApplication() {
         title="Brace yourself for an App-venture!"
       /> */}
 
-<Globallplp6 />
+      <Globallplp6 />
       <Partnerships />
 
       <Formnewlp />

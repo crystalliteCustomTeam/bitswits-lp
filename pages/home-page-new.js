@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import React from 'react';
 //components
-const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
+const NewIndexBanner = React.lazy(() => import('@/components/NewIndexBanner'));
+const NewIndex2Banner = React.lazy(() => import('@/components/NewIndex2Banner'));
 const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
 const Nothing = React.lazy(() => import('@/components/Nothing'));
 const NewHomeWho = React.lazy(() => import('@/components/NewHomeWho'));
@@ -15,8 +16,6 @@ const Technologieswe = React.lazy(() => import('@/components/Technologieswe'));
 const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
 const Faqs = React.lazy(() => import('@/components/NewhomeFaqs'));
 const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
-//images
-const BannerImage = await import("@/public/andriodapplication/andriod.png");
 
 
 export default function Home() {
@@ -30,15 +29,9 @@ export default function Home() {
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
 
-            <ServicesBanner
-                subtitle="Top Mobile App Development Company"
-                title={<> Empowering Brands with Big <br /> Dreams and Innovative Visions </>}
-                BannerImage={BannerImage}
-                assignClass="homePage"
-            />
-            <HomeBannerSliderlp
-                assignClass="homePage"
-            />
+            {/* <NewIndexBanner /> */}
+            <NewIndex2Banner />
+            <HomeBannerSliderlp />
             <Nothing Nothing="nothingLp6" />
             <NewHomeWho />
             <NewHomeWhat />

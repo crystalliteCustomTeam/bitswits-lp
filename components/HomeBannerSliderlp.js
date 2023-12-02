@@ -4,7 +4,6 @@ import Image from 'next/image';
 import styles from "@/styles/NewBannerlp.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 //images
 import banImg1 from '../public/newHomePage/images/slider1.png'
 import banImg2 from '../public/newHomePage/images/slider2.png'
@@ -15,7 +14,7 @@ import banImg6 from '../public/newHomePage/images/slider6.png'
 import banImg7 from '../public/newHomePage/images/slider7.png'
 import banImg8 from '../public/newHomePage/images/slider8.png'
 
-export default function HomeBannerSlider() {
+export default function HomeBannerSlider(props) {
 
     var bannerslider = {
         dots: false,
@@ -46,7 +45,7 @@ export default function HomeBannerSlider() {
 
     return (
         <>
-            <section className={styles.BannerSlider}>
+            <section className={`${styles.BannerSlider} ${styles[props.assignClass]}`}>
                 <Slider {...bannerslider} className={`${styles.slider} newLogoSlide pt-5`}>
                     <div className={styles.strpImg}>
                         <Image quality={100} alt="BitsWits" src={banImg1} className="img-fluid" />

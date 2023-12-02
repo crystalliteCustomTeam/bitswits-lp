@@ -31,15 +31,15 @@ const icon27 = await import('../public/images/fynative/5.png');
 const icon28 = await import('../public/images/fynative/6.png');
 const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
-import Partnerships from "@/components/Partnerships";
+const Partnerships= React.lazy(() => import('@/components/Partnerships'));
 
-import People from "@/components/People";
+const People = React.lazy(() => import('@/components/People'));
 const HomeBannerSliderlp = React.lazy(() =>
     import("@/components/HomeBannerSliderlp")
 );
-import LpChoose from "@/components/LpChoose";
-import LpForm from "@/components/LpForm6";
-import Nothing from "@/components/Nothing";
+const LpChoose = React.lazy(() => import('@/components/LpChoose'));
+const LpForm= React.lazy(() => import('@/components/LpForm6'));
+const Nothing = React.lazy(() => import('@/components/Nothing'));
 const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
 const ProjectProcess = React.lazy(() =>

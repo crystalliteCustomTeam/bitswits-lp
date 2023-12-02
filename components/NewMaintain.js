@@ -29,7 +29,7 @@ const NewMaintain = () => {
                 <Container>
                     <Row className='d-none d-lg-flex g-3'>
                         <Col lg={12}>
-                            <h3 className={` f-20 font-bold text-center mb-0 newfycolr`}>Delivering Excellence Daily
+                            <h3 className={` f-30 font-bold text-center mb-0 newfycolr`}>Delivering Excellence Daily
                             </h3>
                             <h1 className='text-white font50  f-700  text-center'>Trusted Development Company For Tech Solutions</h1>
                             <p className='m-0 text-white text-center'>We, at BitsWits, are dedicated to being innovative and making our clients happy. </p>

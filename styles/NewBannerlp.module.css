@@ -62,6 +62,10 @@
   background-color: black;
 }
 
+.homePage{
+  margin-top: -50px;
+}
+
 @media screen and (max-width: 1600px) {
   .newHomeBg {
     height: 97vh;
@@ -104,6 +108,10 @@
   .BannerSlider {
     padding-bottom: 0;
     margin-top: 0px;
+  }
+
+  .homePage{
+    margin-top: -50px;
   }
 }
 

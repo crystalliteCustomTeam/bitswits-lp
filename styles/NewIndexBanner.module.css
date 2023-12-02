@@ -1,0 +1,258 @@
+.newHomeBg {
+  position: relative;
+  width: 100%;
+  height: 92vh;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  background-color: #000;
+}
+
+.slider {
+  margin: 0;
+}
+
+.item {
+  width: 200px;
+  height: 300px;
+  list-style-type: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0 20px 30px rgba(255, 255, 255, 0.3) inset;
+  transition: transform 0.1s, left 0.75s, top 0.75s, width 0.75s, height 0.75s;
+}
+
+.item1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/homeslideimg/1.jpg);
+}
+.item2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/homeslideimg/2.jpg);
+}
+.item3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/homeslideimg/3.jpg);
+}
+.item4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/homeslideimg/4.jpg);
+}
+.item5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/homeslideimg/5.jpg);
+}
+
+.item:nth-child(1),
+.item:nth-child(2) {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform: none;
+  border-radius: 0;
+  box-shadow: none;
+  opacity: 1;
+}
+
+.item:nth-child(3) {
+  left: 50%;
+}
+
+.item:nth-child(4) {
+  left: calc(50% + 220px);
+}
+
+.item:nth-child(5) {
+  left: calc(50% + 440px);
+}
+
+.content {
+  width: min(75vw, 650px);
+  position: absolute;
+  top: 50%;
+  left: 3rem;
+  transform: translateY(-50%);
+  font: 400 0.85rem helvetica, sans-serif;
+  color: white;
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  display: none;
+  text-align: left;
+}
+
+.content .title {
+  font-family: "arial-black";
+  text-transform: uppercase;
+}
+
+.content .description {
+  line-height: 1.7;
+  margin: 1rem 0 1.5rem;
+  font-size: 0.8rem;
+}
+
+.content button {
+  width: fit-content;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  border: 2px solid white;
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+
+.item:nth-of-type(2) .content {
+  display: block;
+  animation: show 0.75s ease-in-out 0.3s forwards;
+}
+
+@keyframes show {
+  0% {
+    filter: blur(5px);
+    transform: translateY(calc(-50% + 75px));
+  }
+
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.nav {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.nav .btn {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav .btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.about {
+  width: 250px;
+  height: 50px;
+  background-color: #f32f53;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.5s ease-in-out;
+}
+
+.pont {
+  display: flex;
+  margin-top: 3%;
+  justify-content: flex-start;
+}
+
+.btn img{
+  width: 35%;
+}
+
+/* ================================= */
+
+@media (max-width: 900px) {
+  .content {
+    top: 25%;
+  }
+
+  .content .title {
+    font-size: 1rem;
+  }
+
+  .content .description {
+    font-size: 0.7rem;
+  }
+
+  .content button {
+    font-size: 0.7rem;
+  }
+
+  .item {
+    width: 160px;
+    height: 270px;
+  }
+
+  .item:nth-child(3) {
+    top: 70%;
+    left: 4%;
+  }
+
+  .item:nth-child(4) {
+    left: 28%;
+    top: 70%;
+  }
+
+  .item:nth-child(5) {
+    left: 52%;
+    top: 70%;
+  }
+}
+
+@media (max-width: 650px) {
+  .content {
+    width: min(90vw, 100%);
+  }
+
+  .content .title {
+    font-size: 0.9rem;
+  }
+
+  .content .description {
+    font-size: 0.65rem;
+  }
+
+  .content button {
+    font-size: 0.7rem;
+  }
+
+  .item {
+    width: 120px;
+    height: 200px;
+  }
+
+  .item:nth-child(3) {
+    top: 70%;
+    left: 4%;
+  }
+
+  .item:nth-child(4) {
+    left: 35.5%;
+    top: 70%;
+  }
+
+  .item:nth-child(5) {
+    left: 67%;
+    top: 70%;
+  }
+}

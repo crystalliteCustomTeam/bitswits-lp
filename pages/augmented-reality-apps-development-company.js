@@ -2,44 +2,26 @@ import Head from 'next/head'
 import React from 'react';
 //components
 const ServicesBanner = React.lazy(() => import('@/components/ServicesBanner'));
-const NewHomeAbout = React.lazy(() => import('@/components/NewHomePageAbout'));
 const ServicesMaintain = React.lazy(() => import('@/components/ServicesMaintain'));
-const NewAddress = React.lazy(() => import('@/components/NewAddress'));
 const Justbuildit = React.lazy(() => import('@/components/Justbuildit'));
-const ServicesWho = React.lazy(() => import('@/components/ServicesWho'));
-const ServicesWhat = React.lazy(() => import('@/components/ServicesWhat'));
 const ServicesPortfolio = React.lazy(() => import('@/components/ServicesPortfolio'));
-const Capabilities = React.lazy(() => import('@/components/Capabilities'));
 const Newsuccess = React.lazy(() => import('@/components/NewMblSuccess'));
 const Technologieswe = React.lazy(() => import('@/components/Technologieswe'));
-const NewHomeGlobal = React.lazy(() => import('@/components/NewHomeGlobal'));
-const NewHomeSlider = React.lazy(() => import('@/components/NewHomeSlider'));
-const Homenextproject = React.lazy(() => import('@/components/Homenextproject'));
 const ServicesFaqs = React.lazy(() => import('@/components/ServicesFaqs'));
 const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
-//images
-const BannerImage = await import("@/public/images/augmentapp/Augmentebanner.png");
-const WhoImage = await import("@/public/images/aipost/who_image.png");
-const WhatImage = await import("@/public/images/aipost/what_Image.png");
 const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
-
-
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
-import Partnerships from "@/components/Partnerships";
-
-import People from "@/components/People";
-const HomeBannerSliderlp = React.lazy(() =>
-    import("@/components/HomeBannerSliderlp")
-);
-import LpChoose from "@/components/LpChoose";
-import LpForm from "@/components/LpForm6";
-import Nothing from "@/components/Nothing";
+const Partnerships = React.lazy(() => import('@/components/Partnerships'));
+const People = React.lazy(() => import('@/components/People'));
+const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
+const LpChoose = React.lazy(() => import('@/components/LpChoose'));
+const LpForm = React.lazy(() => import('@/components/LpForm6'));
+const Nothing = React.lazy(() => import('@/components/Nothing'));
 const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
-const ProjectProcess = React.lazy(() =>
-    import("@/components/ProjectProcessLp6")
-);
-
+const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
+//images
+const BannerImage = await import("@/public/images/augmentapp/Augmentebanner.png");
 
 
 export default function augmentedrealityappsdevelopment() {
@@ -155,7 +137,7 @@ export default function augmentedrealityappsdevelopment() {
                 WhatImage={WhatImage}
             /> */}
 
-<LpChoose transform="hybirf" />
+            <LpChoose transform="hybirf" />
 
 
             <ServicesPortfolio

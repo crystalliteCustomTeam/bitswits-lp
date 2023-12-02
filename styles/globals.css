@@ -2993,7 +2993,7 @@ button {
   height: 50px;
   z-index: 1;
   position: relative;
-  bottom: -130px;
+  bottom: -85px;
   background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
 }
 
@@ -3001,7 +3001,7 @@ button {
   height: 50px;
   z-index: 1;
   position: relative;
-  bottom: -165px;
+  bottom: -85px;
   background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
 }
 
