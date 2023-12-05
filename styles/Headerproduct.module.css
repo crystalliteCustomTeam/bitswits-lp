@@ -526,6 +526,7 @@
   padding-top: 20px;
   font-weight: 600;
   z-index: 999;
+  line-height: 18px;
 }
 
 .hire {
@@ -535,10 +536,10 @@
 
 .polo img {
   bottom: 0;
-  height: 80px;
+  height: 86px;
   width: auto;
   position: absolute;
-  right: 8px;
+  right: 5px;
   transition: all .3s ease-in-out;
 }
 
@@ -609,8 +610,8 @@
 
 
   .medg {
-    margin-top: 24%;
-  }
+    margin-top: 52%;
+}
 
   .megamenu {
 
@@ -639,7 +640,7 @@
 
 
   .medg {
-    margin-top: 50%;
+    margin-top: 48%;
   }
 
 }

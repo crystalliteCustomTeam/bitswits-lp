@@ -18,6 +18,10 @@ import elearning from '../public/images/newfydemand/elearning.png'
 import driving from '../public/images/newfydemand/driving.png'
 import securitygear from '../public/images/newfydemand/security-gear.png'
 import securityjobs from '../public/images/newfydemand/security-jobs.png'
+
+import gamehead from '../public/images/newfydemand/gamehead.png'
+import blockchainhead from '../public/images/newfydemand/blockchainhead.png'
+
 import web from '../public/images/icons/web.png'
 import about from '../public/images/newfydemand/about.svg'
 import employers from '../public/images/newfydemand/employers.svg'
@@ -196,13 +200,13 @@ const Header = () => {
                                                     <Image src={construction} className='img-fluid' />
                                                 </Link>
                                                 <Link href='#' className={styles.polo}>
-                                                    <h4>React Native  App </h4>
+                                                    <h4>React Native  <br /> App </h4>
                                                     <Image src={healthsafety} className='img-fluid' />
                                                 </Link>
                                             </div>
                                             <div className={styles.hire}>
                                                 <Link href='#' className={styles.polo}>
-                                                    <h4>Hybird Mobile  App </h4>
+                                                    <h4>Hybird Mobile  <br />  App </h4>
                                                     <Image src={elearning} className='img-fluid' />
                                                 </Link>
                                                 <Link href='#' className={styles.polo}>
@@ -217,7 +221,7 @@ const Header = () => {
                                                     <Image src={securitygear} className='img-fluid' />
                                                 </Link>
                                                 <Link href='#' className={styles.polo}>
-                                                    <h4>Augmented Reality <br />  App </h4>
+                                                    <h4>Augmented <br /> Reality  App </h4>
                                                     <Image src={securityjobs} className='img-fluid' />
                                                 </Link>
 
@@ -225,11 +229,11 @@ const Header = () => {
                                             <div className={styles.hire}>
                                                 <Link href='#' className={styles.polo}>
                                                     <h4>Game App <br /> Development</h4>
-                                                    <Image src={securitygear} className='img-fluid' />
+                                                    <Image src={gamehead} className='img-fluid' />
                                                 </Link>
                                                 <Link href='#' className={styles.polo}>
-                                                    <h4>Blockchain <br />  Development </h4>
-                                                    <Image src={securityjobs} className='img-fluid' />
+                                                    <h4>Blockchain App  <br />  Development </h4>
+                                                    <Image src={blockchainhead} className='img-fluid' />
                                                 </Link>
 
                                             </div>
