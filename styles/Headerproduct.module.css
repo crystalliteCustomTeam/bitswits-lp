@@ -119,8 +119,8 @@
   left: 0;
   right: 0;
   top: 10%;
-  padding: 20px;
-  height: 67vh;
+  padding: 30px 20px;
+  height: auto;
 }
 .lastBox {
   border: 0!important;
@@ -204,8 +204,8 @@
   left: 0;
   right: 0;
   top: 10%;
-  padding: 20px;
-  height: 55vh;
+  padding: 30px 20px;
+  height: auto;
 }
 .megamenucom  .glop{
   height: 300px;
@@ -602,6 +602,11 @@
 }
 
 @media screen and (min-width: 1500px) {
+
+
+  .megamenuserve, .megamenucom, .megamenuwork {
+    top: 8%;
+}
 
 
   .medg {
