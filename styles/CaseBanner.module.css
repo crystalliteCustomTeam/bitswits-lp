@@ -87,6 +87,14 @@
   .banSec h1 {
     font-size: 16px;
   }
-  
 }
 
+/* =========================================== */
+
+.newCase .banSec h1 {
+  margin-bottom: 20px;
+}
+
+.newCase {
+  background-image: url(../public/images/case-wisu/banner-bg.png);
+}

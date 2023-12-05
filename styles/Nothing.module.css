@@ -1,6 +1,5 @@
 .nothing,
 .nothingLp6 {
-  background-color: black;
   padding-top: 125px;
   background: #000;
   background-image: url(../public/images/nothing/bg.png);
@@ -11,7 +10,6 @@
 }
 
 .nothing1 {
-  background-color: black;
   padding-top: 125px;
   padding-bottom: 100px;
   background: #000;
@@ -54,6 +52,24 @@
 .verifiedImage {
   filter: hue-rotate(152deg) brightness(1);
 }
+
+/* ========================================== */
+
+.nothingCase {
+  padding: 100px 0 120px;
+  background: #000;
+  background-image: url(../public/images/nothing/bg.png);
+  background-position: 886px center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-size: 27%;
+}
+
+.nothingCase h3 {
+  color: #f32f53;
+}
+
+/* ========================================== */
 
 @media screen and (min-width: 1400px) {
   .nothing {

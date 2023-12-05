@@ -30,6 +30,19 @@ const HomeLocation = () => {
                 <div className={styles.upside}>
                     <Container>
                         <Row>
+                            <Col lg={12}>
+                                <p className="f-30 f-montserrat f-700 newfycolr f-uppercase mb-0 text-center">
+                                    Areas We Serve
+                                </p>
+                                <h3 className="f-50 f-playfair white f-700 text-center mb-0">
+                                    Our Locations Globally
+                                </h3>
+                            </Col>
+                            <Col lg={12}>
+                                <video autoPlay loop muted src='./images/locations.mp4' className='w-100 h-100'></video>
+                            </Col>
+                        </Row>
+                        {/* <Row>
                             <Col lg={7}>
                                 <div className={styles.lctnMain}>
                                     <p className="f-16 f-montserrat f-700 text-white f-uppercase mb-0">
@@ -226,7 +239,7 @@ const HomeLocation = () => {
                             <Col lg={5} className={`d-lg-block d-none ${styles.positionDiv}`}>
                                 <Image quality={75} alt='BitsWits' src={LocationWorld} className={styles.locationImage} />
                             </Col>
-                        </Row>
+                        </Row> */}
                     </Container>
                 </div>
             </section>
