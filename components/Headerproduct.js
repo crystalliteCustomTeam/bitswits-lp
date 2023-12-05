@@ -183,17 +183,17 @@ const Header = () => {
                                                     <Image src={construction} className='img-fluid' />
                                                 </Link>
                                                 <Link href='#' className={styles.polo}>
-                                                    <h4>React Native <br></br> App </h4>
+                                                    <h4>React Native  App </h4>
                                                     <Image src={healthsafety} className='img-fluid' />
                                                 </Link>
                                             </div>
                                             <div className={styles.hire}>
                                                 <Link href='#' className={styles.polo}>
-                                                    <h4>Hybird Mobile <br></br> App </h4>
+                                                    <h4>Hybird Mobile  App </h4>
                                                     <Image src={elearning} className='img-fluid' />
                                                 </Link>
                                                 <Link href='#' className={styles.polo}>
-                                                    <h4>Cross Platform <br></br> App </h4>
+                                                    <h4>Cross Platform <br/>  App </h4>
                                                     <Image src={driving} className='img-fluid' />
                                                 </Link>
 
@@ -204,22 +204,23 @@ const Header = () => {
                                                     <Image src={securitygear} className='img-fluid' />
                                                 </Link>
                                                 <Link href='#' className={styles.polo}>
-                                                    <h4>Augmented Reality <br></br> App </h4>
+                                                    <h4>Augmented Reality <br/>  App </h4>
                                                     <Image src={securityjobs} className='img-fluid' />
                                                 </Link>
 
                                             </div>
                                             <div className={styles.hire}>
                                                 <Link href='#' className={styles.polo}>
-                                                    <h4>Hybird Mobile <br></br> App </h4>
-                                                    <Image src={elearning} className='img-fluid' />
+                                                    <h4>Game App <br/> Development</h4>
+                                                    <Image src={securitygear} className='img-fluid' />
                                                 </Link>
                                                 <Link href='#' className={styles.polo}>
-                                                    <h4>Cross Platform <br></br> App </h4>
-                                                    <Image src={driving} className='img-fluid' />
+                                                    <h4>Blockchain <br/>  Development </h4>
+                                                    <Image src={securityjobs} className='img-fluid' />
                                                 </Link>
 
                                             </div>
+                                         
 
                                         </Col>
                                         <Col lg={4} className={` ${styles.menupostblog1}`}>
@@ -287,7 +288,9 @@ const Header = () => {
                                                 <div className={styles.proper}>
                                                     <h4>FOR BUSINESS CUSTOMERS</h4>
                                                     <h3>HIRING & <br></br> TRAINING</h3>
-                                                    <p>The complete solution for training and hiring, purpose-built for security employers</p>
+                                                    <p>Welcome to Bitswits, where app creation meets innovation. Whether it's 'Creating an App,' 'Making an App,' or diving into 'iOS' or 'Android Application' development, we're your team. Let's turn your vision into reality with our leading-edge app development expertise.
+
+Our Client’s Feedback Has Been</p>
                                                 </div>
                                                 <div className={styles.slaes}>
                                                     <p className='pb-0 mb-0'> <Link href="tel:18335006007">
