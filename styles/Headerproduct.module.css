@@ -345,7 +345,7 @@
 }
 
 .lptow {
-  background: #ffe500;
+  background: #e83468;
   /* height: 100vh; */
   padding-top: 20px;
 }
@@ -397,7 +397,7 @@
 }
 
 .pay {
-  color: #ffe500;
+  color: #e83468;
 }
 
 .newbits a {
@@ -416,24 +416,26 @@
 }
 
 .slaes a {
-  color: black;
+  color: white;
   font-weight: 600;
 }
 
 .proper h4 {
   font-size: 15px;
   font-weight: 500;
+  color: white;
 }
 
 .proper p {
   font-size: 17px;
   font-weight: 500;
+  color: white;
 }
 
 .proper h3 {
   font-size: 40px;
   font-weight: 800;
-  color: black;
+  color: white;
 }
 
 .proper img {
@@ -463,19 +465,19 @@
 }
 
 .newbits:hover .train12 {
-  background-color: #ffe500;
+  background-color: #e83468;
   color: black;
 
 
 }
 
 .slaes img {
-  filter: brightness(0);
+  filter: brightness(100);
   margin-right: 10px;
 }
 
 .newbits:hover a {
-  color: #ffe500;
+  color: #e83468;
 }
 
 .offpost {
@@ -655,15 +657,13 @@
   }
 
 
-  .medg {
-    margin-top: 40%;
-  }
+
   .proper p {
     font-size: 19px;
     font-weight: 500;
   }
   .lptow {
-    background: #ffe500;
+    background: #e83468;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -679,7 +679,7 @@
 
 
   .medg {
-    margin-top: 16%;
+    margin-top: 36%;
   }
 
 
