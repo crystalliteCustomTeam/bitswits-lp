@@ -18,12 +18,12 @@ import elearning from '../public/images/newfydemand/elearning.png'
 import driving from '../public/images/newfydemand/driving.png'
 import securitygear from '../public/images/newfydemand/security-gear.png'
 import securityjobs from '../public/images/newfydemand/security-jobs.png'
-
 import gamehead from '../public/images/newfydemand/gamehead.png'
 import blockchainhead from '../public/images/newfydemand/blockchainhead.png'
 
 import web from '../public/images/icons/web.png'
 import about from '../public/images/newfydemand/about.svg'
+import about2 from '../public/images/icons/about.png'
 import employers from '../public/images/newfydemand/employers.svg'
 import listcourse from '../public/images/newfydemand/list-course.svg'
 import faqs from '../public/images/newfydemand/faqs.svg'
@@ -70,9 +70,40 @@ import { BsFillTelephoneFill } from 'react-icons/bs'
 import Modal from 'react-bootstrap/Modal';
 import Bitswitspopup from '../components/Bitswitspopup'
 import { RxCross2 } from 'react-icons/rx'
-
+import mbllogo from '../public/images/icons/footerlogo.png'
+import { useEffect } from 'react'
 
 const Header = () => {
+
+    const [isSliderActive, setIsSliderActive] = useState(true);
+
+    useEffect(() => {
+
+        
+
+      
+
+
+
+        const handleResize = () => {
+            if (window.innerWidth >= 991) {
+                setIsSliderActive(false);
+            } else {
+                setIsSliderActive(true);
+            }
+        };
+
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+
+ 
 
     const opnen = () => {
         window.open('../companyprofile.pdf', '_blank');
@@ -86,27 +117,36 @@ const Header = () => {
     const [isHovered, setIsHovered] = useState('');
 
     function fun1(vale) {
+       
+            setIsHovered(vale);
+        
 
-        setIsHovered(vale);
 
     }
     function fun2(vale1) {
-
-        setIsHovered(vale1);
-
+       
+            setIsHovered(vale1);
+        
     }
+
+    function handleClickproduct(val5) {
+        setIsHovered1(val5);
+    }
+
+  
+
 
     const [isHovered1, setIsHovered1] = useState('');
 
     function fun11(vale) {
-
-        setIsHovered1(vale);
-
+       
+            setIsHovered1(vale);
+        
     }
     function fun21(vale1) {
-
-        setIsHovered1(vale1);
-
+       
+            setIsHovered1(vale1);
+        
     }
 
 
@@ -153,17 +193,36 @@ const Header = () => {
     }
 
 
+
+    const [isActive, setIsActive] = useState(false);
+
+
+
+    const handleMenu = () => {
+        setIsActive(!isActive);
+    }
+
+
+
+
     return (
         <>
 
             <header className={styles.headernew}>
 
                 <div className={styles.logo}>
-                    <Link href='/'><Image src={logo} className='img-fluid' /></Link>
+                    <Link href='/'><Image alt="bitswits"   src={logo} className='img-fluid' /></Link>
                 </div>
                 <nav>
-                    <ul className={styles.newone}>
+                    <ul className={isActive ? `${styles.newone} ${styles.active}` : `${styles.newone}`}>
 
+                        <div className={`${styles.navLogo} ${styles.mblLogo}`}>
+                            <Link href="/">
+                                <Image alt="bitswits"    className='img-fluid'
+                                    src={mbllogo}
+                                />
+                            </Link>
+                        </div>
                         <li >
                             <Link href='/' className={styles.post}>
                                 Home
@@ -171,69 +230,74 @@ const Header = () => {
                             </Link>
 
                         </li>
-                        <li onMouseEnter={() => fun11('active1')}
+                        <li
+                         
+                            onMouseEnter={() => fun11('active1')}
                             onMouseLeave={() => fun21('secImage11')}
                             className={styles.product}><Link className={styles.post} href='#'>Products
                                 <FaAngleDown />
                             </Link>
-                            {isHovered1 == 'active1' ?
+                            {isHovered1 === 'active1' ? (
 
-                                <div className={styles.megamenu}>
+                                <div  className={styles.megamenu}>
+                                    
+                                    
                                     <Row>
                                         <Col lg={4} className={` ${styles.newspace}`}>
                                             <div>
                                                 <h4 className={styles.course1}>Mobile App Development</h4>
+                                               
                                             </div>
                                             <div className={styles.hire}>
                                                 <Link href='#' className={styles.polo}>
                                                     <h4>IOS App</h4>
-                                                    <Image src={security} className='img-fluid' />
+                                                    <Image alt="bitswits"   src={security} className='img-fluid' />
                                                 </Link>
                                                 <Link href='#' className={styles.polo}>
                                                     <h4>Android App </h4>
-                                                    <Image src={alcohol} className='img-fluid' />
+                                                    <Image alt="bitswits"   src={alcohol} className='img-fluid' />
                                                 </Link>
                                             </div>
                                             <div className={styles.hire}>
                                                 <Link href='#' className={styles.polo}>
                                                     <h4>Flutter App </h4>
-                                                    <Image src={construction} className='img-fluid' />
+                                                    <Image alt="bitswits"   src={construction} className='img-fluid' />
                                                 </Link>
                                                 <Link href='#' className={styles.polo}>
                                                     <h4>React Native  <br /> App </h4>
-                                                    <Image src={healthsafety} className='img-fluid' />
+                                                    <Image alt="bitswits"   src={healthsafety} className='img-fluid' />
                                                 </Link>
                                             </div>
                                             <div className={styles.hire}>
                                                 <Link href='#' className={styles.polo}>
                                                     <h4>Hybird Mobile  <br />  App </h4>
-                                                    <Image src={elearning} className='img-fluid' />
+                                                    <Image alt="bitswits"   src={elearning} className='img-fluid' />
                                                 </Link>
                                                 <Link href='#' className={styles.polo}>
                                                     <h4>Cross Platform <br />  App </h4>
-                                                    <Image src={driving} className='img-fluid' />
+                                                    <Image alt="bitswits"   src={driving} className='img-fluid' />
                                                 </Link>
 
                                             </div>
                                             <div className={styles.hire}>
                                                 <Link href='#' className={styles.polo}>
                                                     <h4>Web App</h4>
-                                                    <Image src={securitygear} className='img-fluid' />
+                                                    <Image alt="bitswits"   src={securitygear} className='img-fluid' />
                                                 </Link>
                                                 <Link href='#' className={styles.polo}>
                                                     <h4>Augmented <br /> Reality  App </h4>
-                                                    <Image src={securityjobs} className='img-fluid' />
+                                                    <Image alt="bitswits"   src={securityjobs} className='img-fluid' />
                                                 </Link>
 
                                             </div>
                                             <div className={styles.hire}>
                                                 <Link href='#' className={styles.polo}>
                                                     <h4>Game App <br /> Development</h4>
-                                                    <Image src={gamehead} className='img-fluid' />
+                                                    <Image alt="bitswits"   src={gamehead} className='img-fluid' />
                                                 </Link>
                                                 <Link href='#' className={styles.polo}>
                                                     <h4>Blockchain App  <br />  Development </h4>
-                                                    <Image src={blockchainhead} className='img-fluid' />
+                                                    <Image alt="bitswits"   src={blockchainhead} className='img-fluid' />
                                                 </Link>
 
                                             </div>
@@ -249,28 +313,28 @@ const Header = () => {
                                                 <ul className={styles.mega}>
                                                     <li className={styles.imgpost}>
                                                         <div className={styles.dsicon}>
-                                                            <Image src={about} className='img-fluid' />
+                                                            <Image alt="bitswits"   src={about} className='img-fluid' />
                                                         </div>
                                                         <Link href="#">About us </Link> </li>
                                                     <li className={styles.imgpost}>
                                                         <div className={styles.dsicon}>
-                                                            <Image src={employers} guardicon className='img-fluid' />
+                                                            <Image alt="bitswits"   src={employers} guardicon className='img-fluid' />
                                                         </div>
                                                         <Link href="#">Employers </Link> </li>
                                                     <li className={styles.imgpost}>
                                                         <div className={styles.dsicon}>
-                                                            <Image src={listcourse} className='img-fluid' />
+                                                            <Image alt="bitswits"   src={listcourse} className='img-fluid' />
                                                         </div>
                                                         <Link href="#">Partners </Link> </li>
                                                     <li className={styles.imgpost}>
                                                         <div className={styles.dsicon}>
-                                                            <Image src={faqs} className='img-fluid' />
+                                                            <Image alt="bitswits"   src={faqs} className='img-fluid' />
                                                         </div>
                                                         <Link href="#">FAQs </Link> </li>
 
                                                     <li className={styles.imgpost}>
                                                         <div className={styles.dsicon}>
-                                                            <Image src={help} className='img-fluid' />
+                                                            <Image alt="bitswits"   src={help} className='img-fluid' />
                                                         </div>
                                                         <Link href="#">Help </Link> </li>
 
@@ -299,7 +363,7 @@ const Header = () => {
                                                         <Link href='#'>Learn more <RiArrowDropRightLine className={styles.train12} /> </Link>
                                                     </div>
                                                     <div>
-                                                        <Image src={icontwo} className='img-fluid' />
+                                                        <Image alt="bitswits"   src={icontwo} className='img-fluid' />
                                                     </div>
                                                 </div>
                                                 <div className={styles.proper}>
@@ -311,7 +375,7 @@ const Header = () => {
                                                 </div>
                                                 <div className={styles.slaes}>
                                                     <p className='pb-0 mb-0'> <Link href="tel:18335006007">
-                                                        <Image alt="BitsWits" className='img-fluid'
+                                                        <Image alt="bitswits"    className='img-fluid'
                                                             src={call}
 
                                                             loading="lazy"
@@ -320,7 +384,7 @@ const Header = () => {
                                                     </Link></p>
                                                     <p>
                                                         <Link href="mailto:info@BitsWits.co">
-                                                            <Image alt="BitsWits" className='img-fluid'
+                                                            <Image alt="bitswits"    className='img-fluid'
                                                                 src={mail}
 
                                                                 loading="lazy"
@@ -338,9 +402,7 @@ const Header = () => {
                                         </Col>
                                     </Row>
                                 </div>
-                                :
-                                ''
-                            }
+                          ) : null}
 
 
                         </li>
@@ -361,28 +423,28 @@ const Header = () => {
                                             <div className={styles.hire}>
                                                 <Link href='#' className={styles.polo}>
                                                     <h4>Security</h4>
-                                                    <Image src={security} className='img-fluid' />
+                                                    <Image alt="bitswits"   src={security} className='img-fluid' />
                                                 </Link>
                                                 <Link href='#' className={styles.polo}>
                                                     <h4>Alcohol</h4>
-                                                    <Image src={alcohol} className='img-fluid' />
+                                                    <Image alt="bitswits"   src={alcohol} className='img-fluid' />
                                                 </Link>
                                             </div>
                                             <div className={styles.hire}>
                                                 <Link href='#' className={styles.polo}>
                                                     <h4>Construction</h4>
-                                                    <Image src={construction} className='img-fluid' />
+                                                    <Image alt="bitswits"   src={construction} className='img-fluid' />
                                                 </Link>
                                                 <Link href='#' className={styles.polo}>
                                                     <h4>Health & <br></br>
                                                         Safety</h4>
-                                                    <Image src={healthsafety} className='img-fluid' />
+                                                    <Image alt="bitswits"   src={healthsafety} className='img-fluid' />
                                                 </Link>
                                             </div>
                                             <div className={styles.hire}>
                                                 <Link href='#' className={styles.polo}>
                                                     <h4>E-Learning</h4>
-                                                    <Image src={elearning} className='img-fluid' />
+                                                    <Image alt="bitswits"   src={elearning} className='img-fluid' />
                                                 </Link>
 
                                             </div>
@@ -396,37 +458,37 @@ const Header = () => {
                                                 <ul className={styles.mega}>
                                                     <li className={styles.imgpost}>
                                                         <div className={styles.dsicon}>
-                                                            <Image src={dsicon} className='img-fluid' />
+                                                            <Image alt="bitswits"   src={dsicon} className='img-fluid' />
                                                         </div>
                                                         <Link href="#">SIA Door Supervisor Training </Link> </li>
                                                     <li className={styles.imgpost}>
                                                         <div className={styles.dsicon}>
-                                                            <Image src={guardicon} guardicon className='img-fluid' />
+                                                            <Image alt="bitswits"   src={guardicon} guardicon className='img-fluid' />
                                                         </div>
                                                         <Link href="#">SIA Security Guard Training </Link> </li>
                                                     <li className={styles.imgpost}>
                                                         <div className={styles.dsicon}>
-                                                            <Image src={cctvicon} className='img-fluid' />
+                                                            <Image alt="bitswits"   src={cctvicon} className='img-fluid' />
                                                         </div>
                                                         <Link href="#">SIA CCTV Training </Link> </li>
                                                     <li className={styles.imgpost}>
                                                         <div className={styles.dsicon}>
-                                                            <Image src={topdsicon} className='img-fluid' />
+                                                            <Image alt="bitswits"   src={topdsicon} className='img-fluid' />
                                                         </div>
                                                         <Link href="#">Top-up Training for Door Supervisors </Link> </li>
                                                     <li className={styles.imgpost}>
                                                         <div className={styles.dsicon}>
-                                                            <Image src={topsgicon} className='img-fluid' />
+                                                            <Image alt="bitswits"   src={topsgicon} className='img-fluid' />
                                                         </div>
                                                         <Link href="#">Top-up Training for Security Guards </Link> </li>
                                                     <li className={styles.imgpost}>
                                                         <div className={styles.dsicon}>
-                                                            <Image src={aplhicon} className='img-fluid' />
+                                                            <Image alt="bitswits"   src={aplhicon} className='img-fluid' />
                                                         </div>
                                                         <Link href="#">Personal Licence Training </Link> </li>
                                                     <li className={styles.imgpost}>
                                                         <div className={styles.dsicon}>
-                                                            <Image src={cscsicon} className='img-fluid' />
+                                                            <Image alt="bitswits"   src={cscsicon} className='img-fluid' />
                                                         </div>
                                                         <Link href="#">CSCS Green Card Labourer Course </Link> </li>
 
@@ -464,15 +526,15 @@ const Header = () => {
                                                         <Link href='#'>Learn more <RiArrowDropRightLine className={styles.train12} /> </Link>
                                                     </div>
                                                     <div>
-                                                        <Image src={icontwo} className='img-fluid' />
+                                                        <Image alt="bitswits"   src={icontwo} className='img-fluid' />
                                                     </div>
                                                 </div>
                                                 <div className={styles.proper}>
                                                     <h4>FOR BUSINESS CUSTOMERS</h4>
                                                     <h3>HIRING & <br></br> TRAINING</h3>
                                                     <p>The complete solution for training and hiring, purpose-built for security employers</p>
-                                                    <Image src={hiring1} className='img-fluid' />
-                                                    <Image src={hiring2} className='img-fluid' />
+                                                    <Image alt="bitswits"   src={hiring1} className='img-fluid' />
+                                                    <Image alt="bitswits"   src={hiring2} className='img-fluid' />
                                                     <Link href='#' className={`${styles.newyork} pb-3`}>
                                                         Learn More <RiArrowDropRightLine className={styles.train} />
                                                     </Link>
@@ -505,7 +567,7 @@ const Header = () => {
 
                                                 <div className={styles.listHeading}>
                                                     <div className={styles.megaIcon}>
-                                                        <Image alt="bitswits" className='img-fluid'
+                                                        <Image alt="bitswits"    className='img-fluid'
                                                             src={apps} />
                                                     </div>
                                                     <h5 className='font14 fontf font-semibold mb-0'>APP</h5>
@@ -565,7 +627,7 @@ const Header = () => {
 
                                                 <div className={styles.listHeading}>
                                                     <div className={styles.megaIcon}>
-                                                        <Image alt="bitswits" className='img-fluid'
+                                                        <Image alt="bitswits"    className='img-fluid'
                                                             src={web}
                                                         />
                                                     </div>
@@ -602,7 +664,7 @@ const Header = () => {
 
                                                 <div className={`${styles.listHeading} ${styles.neuport}`}>
                                                     <div className={styles.megaIcon}>
-                                                        <Image alt="bitswits" className='img-fluid'
+                                                        <Image alt="bitswits"    className='img-fluid'
                                                             src={hosting}
                                                         />
                                                     </div>
@@ -627,7 +689,7 @@ const Header = () => {
 
                                                 <div className={styles.listHeading}>
                                                     <div className={styles.megaIcon}>
-                                                        <Image alt="bitswits" className='img-fluid'
+                                                        <Image alt="bitswits"    className='img-fluid'
                                                             src={games}
                                                         />
                                                     </div>
@@ -674,7 +736,7 @@ const Header = () => {
                                         <Col lg={3}>
                                             <ul className={`${styles.glop} mb-0 mt-0`}>
                                                 <li className={styles.devgame}>
-                                                    <Image quality={75} src={newImg} alt='BitsWits' className='img-fluid' />
+                                                    <Image    quality={75} src={newImg} alt='BitsWits' className='img-fluid' />
                                                 </li>
                                             </ul>
                                         </Col>
@@ -704,8 +766,8 @@ const Header = () => {
                                             <ul className={`${styles.glop} mb-0 mt-0`}>
                                                 <div className={styles.listHeading}>
                                                     <div className={styles.megaIcon}>
-                                                        <Image alt="bitswits" className='img-fluid'
-                                                            src={about}
+                                                        <Image alt="bitswits"    className='img-fluid'
+                                                            src={about2}
                                                         />
                                                     </div>
                                                     <h5 className='font14 fontf font-semibold mb-0'>ABOUT US</h5>
@@ -730,7 +792,7 @@ const Header = () => {
 
                                                 <div className={styles.listHeading}>
                                                     <div className={styles.megaIcon}>
-                                                        <Image alt="bitswits" className='img-fluid'
+                                                        <Image alt="bitswits"    className='img-fluid'
                                                             src={company}
                                                         />
                                                     </div>
@@ -751,7 +813,7 @@ const Header = () => {
                                         <Col lg={6}>
                                             <div className={styles.glop}>
                                                 <div className={styles.listImg}>
-                                                    <Image alt="bitswits" className='img-fluid'
+                                                    <Image alt="bitswits"    className='img-fluid'
                                                         src={ourbg}
                                                     />
                                                 </div>
@@ -777,11 +839,11 @@ const Header = () => {
                             {isHovered4 == 'active4' ?
 
                                 <div className={styles.megamenuwork}>
-                                    <Row>
+                                    <Row className='gy-4'>
                                         <Col lg={4}>
                                             <div className={styles.boxSpace}>
                                                 <div className={styles.workBox}>
-                                                    <Image alt="bitswits"
+                                                    <Image alt="bitswits"   
                                                         src={travel}
 
                                                     />
@@ -795,7 +857,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                                 <div className={`${styles.workBox}`}>
-                                                    <Image alt="bitswits"
+                                                    <Image alt="bitswits"   
                                                         src={estate}
 
                                                     />
@@ -809,7 +871,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                                 <div className={styles.workBox}>
-                                                    <Image alt="bitswits"
+                                                    <Image alt="bitswits"   
                                                         src={wisu}
 
                                                     />
@@ -823,7 +885,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                                 <div className={styles.workBox}>
-                                                    <Image alt="bitswits"
+                                                    <Image alt="bitswits"   
                                                         src={scribe}
 
                                                     />
@@ -837,7 +899,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                                 <div className={`${styles.workBox} ${styles.lastBox}`}>
-                                                    <Image alt="bitswits"
+                                                    <Image alt="bitswits"   
                                                         src={grease}
 
                                                     />
@@ -857,7 +919,7 @@ const Header = () => {
                                         <Col lg={4}>
                                             <div className={styles.boxSpace}>
                                                 <div className={styles.workBox}>
-                                                    <Image alt="bitswits"
+                                                    <Image alt="bitswits"   
                                                         src={sponsord}
 
                                                     />
@@ -871,7 +933,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                                 <div className={`${styles.workBox}`}>
-                                                    <Image alt="bitswits"
+                                                    <Image alt="bitswits"   
                                                         src={health}
 
                                                     />
@@ -885,7 +947,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                                 <div className={styles.workBox}>
-                                                    <Image alt="bitswits"
+                                                    <Image alt="bitswits"   
                                                         src={ride}
 
                                                     />
@@ -899,7 +961,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                                 <div className={styles.workBox}>
-                                                    <Image alt="bitswits"
+                                                    <Image alt="bitswits"   
                                                         src={fit}
 
                                                     />
@@ -913,7 +975,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                                 <div className={`${styles.workBox} ${styles.lastBox}`}>
-                                                    <Image alt="bitswits"
+                                                    <Image alt="bitswits"   
                                                         src={ready}
 
                                                     />
@@ -934,7 +996,7 @@ const Header = () => {
                                         <Col lg={4}>
                                             <div className={styles.boxSpace}>
                                                 <div className={styles.workBox}>
-                                                    <Image alt="bitswits"
+                                                    <Image alt="bitswits"   
                                                         src={foods}
 
                                                     />
@@ -948,7 +1010,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                                 <div className={styles.workBox}>
-                                                    <Image alt="bitswits"
+                                                    <Image alt="bitswits"   
                                                         src={homeconnect}
 
                                                     />
@@ -962,7 +1024,7 @@ const Header = () => {
                                                     </div>
                                                 </div>
                                                 <div className={`${styles.workBox}`}>
-                                                    <Image alt="bitswits"
+                                                    <Image alt="bitswits"   
                                                         src={music}
                                                     />
                                                     <div className={styles.ourWork}>
@@ -1034,10 +1096,15 @@ const Header = () => {
 
                         </li>
                         <li onClick={modal}>
-                            <Link className={`${styles.post} ${styles.quote}`}  href='#'>GET A QUOTE</Link>
+                            <Link className={`${styles.post} ${styles.quote}`} href='#'>GET A QUOTE</Link>
                         </li>
 
                     </ul>
+                    <div className={styles.navTogle} onClick={handleMenu}>
+                        <span className={isActive ? `${styles.line} ${styles.line1}` : `${styles.line}`}></span>
+                        <span className={isActive ? `${styles.line} ${styles.line2}` : `${styles.line}`}></span>
+                        <span className={isActive ? `${styles.line} ${styles.line3}` : `${styles.line}`}></span>
+                    </div>
                 </nav>
 
 
