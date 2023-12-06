@@ -64,7 +64,9 @@ export default function mobileapplicationheader() {
 
       <HomeBannerSliderlp />
 
-      <LpForm />
+      <LpForm
+      addresClass='iosclass'
+       />
 
       <Nothing Nothing="nothingLp6" />
 

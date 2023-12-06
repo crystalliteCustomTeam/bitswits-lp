@@ -639,6 +639,14 @@
   margin-top: 55%;
 }
 
+.navLogo {
+  display: none;
+}
+
+.backarrow {
+  display: none;
+}
+
 @media screen and (min-width: 1400px) {
 
 
@@ -719,4 +727,216 @@
   }
 
 
+}
+
+@media screen and (max-width: 1280px) {
+
+  .post {
+    padding: 0 8px;
+    font-size: 11px;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+
+  .glop {
+    margin-bottom: 8% !important;
+    height: auto;
+  }
+
+  .megamenuserve {
+    top: 0;
+  }
+
+  
+
+  .product:hover .megamenu,
+  .product:hover .megamenuserve,
+  .product:hover .megamenucom,
+  .product:hover .megamenuwork {
+    animation: none;
+    transform-origin: top;
+  }
+
+
+  .backArrow {
+    position: absolute;
+    top: 0;
+    right: 3%;
+    margin-top: 2%;
+  }
+
+  .backarrow {
+    display: block;
+  }
+
+  /* .newone li {
+
+    border-bottom: unset!important;
+
+} */
+
+  .megamenu {
+    top: 0;
+    padding-left: 3%;
+    padding-right: 1%;
+    overflow: scroll;
+    height: 100%;
+  }
+
+  .medg {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .navTogle .line {
+    background-color: #fff;
+    width: 30px;
+    height: 3px;
+    display: block;
+    margin: 6px auto;
+    transition: 0.5s ease-in-out;
+  }
+
+  .navTogle .line.line1 {
+    transform: translateY(10px) rotate(45deg);
+    position: absolute;
+    top: 13px;
+    right: 15px;
+  }
+
+  .navTogle .line.line2 {
+    display: none;
+  }
+
+  .navTogle .line.line3 {
+    transform: translateY(-9px) rotate(-45deg);
+    margin-top: 20px;
+  }
+
+  .navLogo {
+    margin-left: 0;
+    width: 30%;
+  }
+
+  .navLogo {
+    display: block;
+  }
+
+  .headernew .quote {
+    background-color: #e83468;
+    margin-left: unset;
+    padding: 0 75px;
+    height: 60px;
+    display: flex;
+  }
+
+  .newone li {
+    height: auto;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+.megamenuserve li, .megamenucom li{
+  border-bottom: unset;
+}
+.megamenucom .glop {
+  height: auto;
+}
+.megamenucom, .megamenuwork{
+  top: 0;
+}
+.listImg img {
+  height: auto;
+}
+  .post {
+    padding: 0 5px;
+    font-size: 16px;
+  }
+
+
+
+  .headernew .newone {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 85%;
+    z-index: 9;
+    height: 100vh;
+    padding: 20px 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: #272727;
+    transition: all .5s ease-in-out;
+    z-index: 9999;
+  }
+
+  .headernew .active {
+    left: 0;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+
+  .logo {
+    width: 25%;
+  }
+
+  .headernew {
+
+    padding-right: 15px;
+  }
+
+
+  .navTogle .line {
+    background-color: #fff;
+    width: 30px;
+    height: 3px;
+    display: block;
+    margin: 6px auto;
+    transition: .5s ease-in-out;
+  }
+
+
+
+  .newone {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 85%;
+    z-index: 9;
+    height: 100vh;
+    padding: 20px 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: #272727;
+    transition: all .5s ease-in-out;
+    z-index: 9999;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+
+  .megamenu,
+  .megamenuserve,
+  .megamenucom,
+  .megamenuwork {
+    height: 100%;
+    overflow: scroll;
+  }
+
+  .logo {
+    width: 50%;
+  }
+
+  .navLogo {
+    margin-left: 0;
+    width: 60%;
+  }
 }
