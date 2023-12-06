@@ -4,8 +4,8 @@
   padding-bottom: 0;
 }
 
-.engage p{
-  color: #F32F53;
+.engage p {
+  color: #f32f53;
 }
 
 .forget {
@@ -431,7 +431,7 @@
 
   .game2d .longline1 .expertise1 img {
     top: -100px;
-    left: -35px;
+    left: 0px;
   }
 
   /* ============================== */

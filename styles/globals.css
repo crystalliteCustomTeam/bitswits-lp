@@ -554,7 +554,6 @@ a {
 
 /* scrollbar */
 
-
 /* width */
 ::-webkit-scrollbar {
   width: 3px;
@@ -3072,6 +3071,12 @@ button {
 }
 
 /* =================Media Queries=================== */
+
+@media screen and (max-width: 1440px) {
+  .ling15 {
+    line-height: 35px;
+  }
+}
 
 @media screen and (max-width: 1200px) {
   .bannerslider.slick-slider .slick-next:before {
