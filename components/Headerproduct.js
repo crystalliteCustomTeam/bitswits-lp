@@ -23,6 +23,7 @@ import blockchainhead from '../public/images/newfydemand/blockchainhead.png'
 
 import web from '../public/images/icons/web.png'
 import about from '../public/images/newfydemand/about.svg'
+import about2 from '../public/images/icons/about.png'
 import employers from '../public/images/newfydemand/employers.svg'
 import listcourse from '../public/images/newfydemand/list-course.svg'
 import faqs from '../public/images/newfydemand/faqs.svg'
@@ -766,7 +767,7 @@ const Header = () => {
                                                 <div className={styles.listHeading}>
                                                     <div className={styles.megaIcon}>
                                                         <Image alt="bitswits"    className='img-fluid'
-                                                            src={about}
+                                                            src={about2}
                                                         />
                                                     </div>
                                                     <h5 className='font14 fontf font-semibold mb-0'>ABOUT US</h5>
