@@ -56,7 +56,9 @@ export default function gamedevelopmentcompany() {
 
             <HomeBannerSliderlp />
 
-            <LpForm />
+            <LpForm
+            addresClass='iosclass'
+            />
 
             <Nothing Nothing="nothingLp6" />
 
