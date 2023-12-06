@@ -164,7 +164,7 @@ const ServiceExperience = () => {
                             {activeTab1 == 'tab1' &&
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={80} alt='BitsWits' src={var1} className='img-fluid' />
+                                        <Image quality={80} alt='BitsWits' src={var1} className='img-fluid h-100' />
                                     </div>
                                 </div>
                             }
@@ -172,7 +172,7 @@ const ServiceExperience = () => {
                             {activeTab1 == 'tab2' &&
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={80} alt='BitsWits' src={var2} className='img-fluid' />
+                                        <Image quality={80} alt='BitsWits' src={var2} className='img-fluid h-100' />
                                     </div>
                                 </div>
                             }
@@ -180,7 +180,7 @@ const ServiceExperience = () => {
                             {activeTab1 == 'tab3' &&
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={80} alt='BitsWits' src={var3} className='img-fluid' />
+                                        <Image quality={80} alt='BitsWits' src={var3} className='img-fluid h-100' />
                                     </div>
                                 </div>
                             }
@@ -188,7 +188,7 @@ const ServiceExperience = () => {
                             {activeTab1 == 'tab4' &&
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={80} alt='BitsWits' src={var4} className='img-fluid' />
+                                        <Image quality={80} alt='BitsWits' src={var4} className='img-fluid h-100' />
                                     </div>
                                 </div>
                             }
@@ -196,7 +196,7 @@ const ServiceExperience = () => {
                             {activeTab1 == 'tab5' &&
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={80} alt='BitsWits' src={var5} className='img-fluid' />
+                                        <Image quality={80} alt='BitsWits' src={var5} className='img-fluid h-100' />
                                     </div>
                                 </div>
                             }
@@ -204,7 +204,7 @@ const ServiceExperience = () => {
                             {activeTab1 == 'tab6' &&
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={80} alt='BitsWits' src={var6} className='img-fluid' />
+                                        <Image quality={80} alt='BitsWits' src={var6} className='img-fluid h-100' />
                                     </div>
                                 </div>
                             }
@@ -212,7 +212,7 @@ const ServiceExperience = () => {
                             {activeTab1 == 'tab7' &&
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={80} alt='BitsWits' src={var7} className='img-fluid' />
+                                        <Image quality={80} alt='BitsWits' src={var7} className='img-fluid h-100' />
                                     </div>
                                 </div>
                             }
@@ -220,7 +220,7 @@ const ServiceExperience = () => {
                             {activeTab1 == 'tab8' &&
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={80} alt='BitsWits' src={var8} className='img-fluid' />
+                                        <Image quality={80} alt='BitsWits' src={var8} className='img-fluid h-100' />
                                     </div>
                                 </div>
                             }
@@ -228,7 +228,7 @@ const ServiceExperience = () => {
                             {activeTab1 == 'tab9' &&
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={80} alt='BitsWits' src={var9} className='img-fluid' />
+                                        <Image quality={80} alt='BitsWits' src={var9} className='img-fluid h-100' />
                                     </div>
                                 </div>
                             }
@@ -236,7 +236,7 @@ const ServiceExperience = () => {
                             {activeTab1 == 'tab10' &&
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={80} alt='BitsWits' src={var12} className='img-fluid' />
+                                        <Image quality={80} alt='BitsWits' src={var12} className='img-fluid h-100' />
                                     </div>
                                 </div>
                             }
@@ -244,7 +244,7 @@ const ServiceExperience = () => {
                             {activeTab1 == 'tab11' &&
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={80} alt='BitsWits' src={var11} className='img-fluid' />
+                                        <Image quality={80} alt='BitsWits' src={var11} className='img-fluid h-100' />
                                     </div>
                                 </div>
                             }
@@ -252,7 +252,7 @@ const ServiceExperience = () => {
                             {activeTab1 == 'tab12' &&
                                 <div className={styles.newyork}>
                                     <div>
-                                        <Image quality={80} alt='BitsWits' src={var12} className='img-fluid' />
+                                        <Image quality={80} alt='BitsWits' src={var12} className='img-fluid h-100' />
                                     </div>
                                 </div>
                             }

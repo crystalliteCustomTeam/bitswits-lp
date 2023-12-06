@@ -61,7 +61,7 @@ const Technologieswe = () => {
                 <Container>
                     <Row>
                         <Col xl={12}>
-                            <h2 className={styles.work}><span className='grdiant'>Technologies</span> we work with</h2>
+                            <h2 className={styles.work}><span className=''>Technologies</span> we work with</h2>
                         </Col>
                         <Col xl={12} className='mb-5'>
                             <div className={styles.analpost}>

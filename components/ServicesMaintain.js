@@ -101,7 +101,7 @@ const ServicesMaintain = (props) => {
               <Col key={index} md={4} sm={6} className={styles.earn}>
                 <div className={styles[content.appclass]}>
                   <div className={styles.cardContent}>
-                    <h3 className="text-white font25 font-bold text-center">
+                    <h3 className="text-white font25 font-bold">
                       {content.title}
                     </h3>
                     <p className={styles.possibilities}>{content.text}</p>

@@ -1,10 +1,10 @@
 .home {
   background: #000;
   padding-top: 220px;
-  padding-bottom: 250px;
+  padding-bottom: 200px;
 }
 
-.home h3{
+.home h3 {
   color: #f32f53;
 }
 
@@ -16,11 +16,11 @@
   padding: 50px 0 250px;
 }
 
-.gameNft{
+.gameNft {
   padding: 150px 0 200px;
 }
 
-.gameBlckChain{
+.gameBlckChain {
   padding: 200px 0 0;
 }
 
@@ -45,7 +45,7 @@
 .about {
   width: 230px;
   height: 45px;
-  background: #F32F53;
+  background: #f32f53;
   color: white;
   display: flex;
   align-items: center;
@@ -72,7 +72,18 @@
     line-height: 40px;
   }
 
-  .gameBlckChain{
+  .gameBlckChain {
     padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .solImg {
+    text-align: right;
+    margin-top: -70px;
+  }
+
+  .solImg {
+    margin-top: 10px;
   }
 }

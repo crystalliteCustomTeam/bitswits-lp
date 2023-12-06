@@ -55,7 +55,7 @@ const ServicesAdvantage = (props) => {
                             </Col>
                             <Col xl={6}>
                                 <div className={styles.tested}>
-                                    <Image quality={75} src={props.AdvantageOne} alt='BitsWits' />
+                                    <Image quality={75} src={props.AdvantageOne} alt='BitsWits' className={props.css}/>
                                 </div>
                             </Col>
                         </Row>

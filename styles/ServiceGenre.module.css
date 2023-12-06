@@ -1,9 +1,9 @@
-.ourserve{
+.ourserve {
   padding-bottom: 150px;
 }
 
-.ourserve p{
-  color: #F32F53;
+.ourserve p {
+  color: #f32f53;
   line-height: 2px;
 }
 
@@ -75,7 +75,7 @@
   width: 65%;
   margin: 0 auto;
   height: 45px;
-  background: #F32F53;
+  background: #f32f53;
   color: white;
   display: flex;
   align-items: center;
@@ -96,7 +96,7 @@
 .gameApp .which::after {
   position: absolute;
   content: "";
-  background-image: url(../public/gameicon/light.png);
+  /* background-image: url(../public/gameicon/light.png); */
   background-size: cover;
   background-repeat: no-repeat;
   width: 383px;
@@ -182,5 +182,9 @@
     font-size: 25px;
     font-weight: bold;
     color: white;
+  }
+
+  .ourserve p {
+    line-height: 22px;
   }
 }

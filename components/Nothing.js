@@ -66,6 +66,12 @@ export default function Nothing(props) {
                 .swiper-pagination {
                   text-align: right ;
                 }
+
+                @media screen and (max-width: 1280px) {
+                  .swiper::after {
+                    width: 56%;
+                }
+                }
             `,
       ],
       pagination: {

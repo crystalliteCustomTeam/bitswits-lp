@@ -3,8 +3,8 @@
   background-color: black;
 }
 
-.creative2 p{
-  color: #F32F53;
+.creative2 p {
+  color: #f32f53;
 }
 
 .dscool {
@@ -51,7 +51,7 @@
 .game h3 {
   font-size: 24px;
   font-weight: 500;
-  color: white;
+  color: #f32f53;
 }
 
 .creative {
@@ -66,10 +66,20 @@
   z-index: 1;
 }
 
-@media screen and (min-width: 1900px) {
+.maxWidth {
+  min-width: 870px;
+  right: 0;
+}
+
+@media screen and (min-width: 1920px) {
   .tested img {
     bottom: 0;
     z-index: 1;
+  }
+
+  .maxWidth {
+    min-width: 970px;
+    right: 0;
   }
 }
 
@@ -84,6 +94,12 @@
   .tested img {
     bottom: 0;
     z-index: 1;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .maxWidth {
+    min-width: 730px;
   }
 }
 

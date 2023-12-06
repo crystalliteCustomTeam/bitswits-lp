@@ -37,7 +37,7 @@
 .about {
   width: 250px;
   height: 50px;
-background-color: #f32f53;
+  background-color: #f32f53;
   color: white;
   display: flex;
   align-items: center;
@@ -59,7 +59,11 @@ background-color: #f32f53;
 
 .BannerSlider {
   padding-bottom: 15px;
-  margin-top: -110px;
+  /* margin-top: -110px; */
+  padding-bottom: 15px;
+  margin-top: 0px;
+  background: black;
+  padding-top: 30px;
 }
 
 .strpImg img {
@@ -82,7 +86,7 @@ background-color: #f32f53;
 @media screen and (max-width: 1300px) {
   .BannerSlider {
     padding-bottom: 15px;
-    margin-top: -150px;
+    margin-top: 0;
   }
 
   .newHomeBg {

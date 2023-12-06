@@ -1,7 +1,11 @@
 .engage {
   background-color: black;
-  padding-top: 150px;
+  padding-top: 80px;
   padding-bottom: 0;
+}
+
+.engage p{
+  color: #F32F53;
 }
 
 .forget {
