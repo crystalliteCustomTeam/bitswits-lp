@@ -61,7 +61,9 @@ export default function HybridMobile() {
 
             <HomeBannerSliderlp />
 
-            <LpForm />
+            <LpForm
+            addresClass='iosclass'
+            />
 
             <Nothing Nothing="nothingLp6" />
             {/* <NewHomeAbout

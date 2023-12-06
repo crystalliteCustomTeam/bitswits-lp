@@ -95,7 +95,9 @@ export default function ReactNativeMobile() {
 
             <HomeBannerSliderlp />
 
-            <LpForm />
+            <LpForm
+            addresClass='iosclass'
+            />
 
             <Nothing Nothing="nothingLp6" />
             {/* <NewHomeAbout
