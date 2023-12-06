@@ -245,11 +245,7 @@ const Header = () => {
                                         <Col lg={4} className={` ${styles.newspace}`}>
                                             <div>
                                                 <h4 className={styles.course1}>Mobile App Development</h4>
-                                                <div className={styles.backArrow}>
-                                                    <Image alt="bitswits"   
-                                                        src={backarrow}
-                                                    />
-                                                </div>
+                                               
                                             </div>
                                             <div className={styles.hire}>
                                                 <Link href='#' className={styles.polo}>
