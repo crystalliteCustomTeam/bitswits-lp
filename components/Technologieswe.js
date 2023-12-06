@@ -46,7 +46,7 @@ import dev8 from '../public/newHomePageImages/tech/dev/8.png'
 import dev9 from '../public/newHomePageImages/tech/dev/9.png'
 
 
-const Technologieswe = () => {
+const Technologieswe = (props) => {
 
     const [activeTab1, setActiveTab1] = useState('tab1');
     function fun1(tabs1) {
@@ -56,7 +56,7 @@ const Technologieswe = () => {
 
     return (
         <>
-            <section className={styles.tech}>
+            <section className={`${styles.tech} ${styles[props.addresClass]}`}>  
                 <Container>
                     <Row>
                         <Col xl={12}>

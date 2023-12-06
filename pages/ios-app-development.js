@@ -17,9 +17,9 @@ const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
 const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
 const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
 const LpChoose = React.lazy(() => import('@/components/LpChoose'));
-const LpForm= React.lazy(() => import('@/components/LpForm6'));
+const LpForm = React.lazy(() => import('@/components/LpForm6'));
 const Nothing = React.lazy(() => import('@/components/Nothing'));
-const Partnerships= React.lazy(() => import('@/components/Partnerships'));
+const Partnerships = React.lazy(() => import('@/components/Partnerships'));
 const People = React.lazy(() => import('@/components/People'));
 //images
 const BannerImage = await import("@/public/andriodapplication/andriod.png");
@@ -64,7 +64,11 @@ export default function gamedevelopmentcompany() {
 
       <HomeBannerSliderlp />
 
-      <LpForm />
+
+      <LpForm
+        addresClass='iosclass'
+      />
+
 
       <Nothing Nothing="nothingLp6" />
 
@@ -261,7 +265,9 @@ export default function gamedevelopmentcompany() {
         ]}
       />
 
-      <Technologieswe />
+      <Technologieswe
+        addresClass='appdev'
+      />
       {/* <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject

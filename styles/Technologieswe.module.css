@@ -148,6 +148,11 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .appdev{
+    padding-top: 80px;
+  }
+
   .analpost div {
     color: #707070;
     font-size: 11px;
