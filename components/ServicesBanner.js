@@ -4,25 +4,31 @@ import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/ServicesBanner.module.css";
 
-
 const ServiceBanner = (props) => {
-
   return (
     <>
       <section className={`${styles.newHomeBg} ${styles[props.assignClass]}`}>
         <Container>
           <Row>
             <Col xl={12}>
-              <p className={`${styles.just} font30 font-bold text-center mb-0`}>
+              <p
+                className={`${styles.just} font28 font-medium text-center mb-0 ling15`}
+              >
                 {props.subtitle}
               </p>
               <h1
-                className={`${styles.develop} text-center font50 font-bold mb-2`}
+                className={`${styles.develop} text-center font60 font-bold mb-2`}
               >
                 {props.title}
               </h1>
-              <p className={`font15 white center mb-3 ${styles.bannerText}`}>{props.text}</p>
+              <p className={`font16 white center mb-3 ${styles.bannerText}`}>
+                {props.text}
+              </p>
               <div className={styles.pont}>
+                <Link className={styles.book} href="tel:+18335006007">
+                  BOOK A CALL
+                </Link>
+
                 <Link className={styles.about} href="tel:+18335006007">
                   LET'S CONNECT
                 </Link>

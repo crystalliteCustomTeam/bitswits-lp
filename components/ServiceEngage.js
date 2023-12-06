@@ -30,7 +30,7 @@ const ServiceEngage = (props) => {
                             </div>
                             <div className={styles.longline2}>
                                 <div className={styles.expertise}>
-                                    <Image alt='BitsWits' quality={75} src={props.engIcon3} className='img-fluid' />
+                                    <Image alt='BitsWits' quality={75} src={props.engIcon2} className='img-fluid' />
                                 </div>
                                 <div className={styles.bring}>
                                 <h3>{props.heading3}</h3>
@@ -46,7 +46,7 @@ const ServiceEngage = (props) => {
                         <Col xl={4}>
                             <div className={`${styles.longline3}`}>
                                 <div className={styles.expertise1}>
-                                    <Image alt='BitsWits' quality={75} src={props.engIcon2} className='img-fluid' />
+                                    <Image alt='BitsWits' quality={75} src={props.engIcon3} className='img-fluid' />
                                 </div>
                                 <div className={styles.bring1}>
                                 <h3>{props.heading2}</h3>

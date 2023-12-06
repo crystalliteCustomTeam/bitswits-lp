@@ -1,6 +1,6 @@
 .engage {
   background-color: black;
-  padding-top: 230px;
+  padding-top: 150px;
   padding-bottom: 0;
 }
 
@@ -21,6 +21,8 @@
   color: white;
   text-align: center;
   line-height: 1.2;
+  max-width: 996px;
+  margin: 0 auto 40px;
 }
 
 .cont h3 {
@@ -73,7 +75,7 @@
 
 .longline2 {
   position: relative;
-  margin-bottom: 85%;
+  margin-bottom: 60%;
 }
 
 .longline2::before {
@@ -125,7 +127,7 @@
 
 .longline1 {
   position: relative;
-  margin-bottom: 85%;
+  margin-bottom: 43%;
 }
 
 .expertise1 {

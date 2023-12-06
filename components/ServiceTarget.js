@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 import styles from "@/styles/ServiceTarget.module.css";
 //
-import home_btn1 from "@/public/shark/home_btn.webp"
+import home_btn1 from "@/public/shark/home_btn.png"
 
 
 const ServiceTarget = (props) => {

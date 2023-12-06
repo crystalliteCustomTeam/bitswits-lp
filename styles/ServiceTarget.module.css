@@ -18,7 +18,7 @@
 .after h3 {
   font-size: 20px;
   font-weight: 600;
-  color: white;
+  color: #eb335b;
   text-align: center;
 }
 
@@ -55,7 +55,8 @@
   padding-bottom: 10px;
   height: auto;
   width: 100%;
-  border-image: linear-gradient(0deg, #ffffff00, #f32f5ed6, #4a78ef) 30;
+  /* border-image: linear-gradient(0deg, #ffffff00, #f32f5ed6, #4a78ef) 30; */
+  border-color: #eb335b;
   border-width: 2px;
   border-style: solid;
   border-bottom: 0px;
@@ -63,7 +64,7 @@
 }
 
 .desigh a {
-  background: linear-gradient(to right, #eb335b 35%, #4a78ef 65%);
+  background: #eb335b;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;

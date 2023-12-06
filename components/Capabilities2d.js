@@ -22,7 +22,7 @@ const Capabilities2d = () => {
 
     var awardslogo = {
         dots: true,
-        arrows: true,
+        arrows: false,
         loop: true,
         autoplay: false,
         infinite: true,
@@ -46,7 +46,7 @@ const Capabilities2d = () => {
                         <Col xl={12}>
                             <div className={styles.build}>
                                 <div>
-                                    <h2>Join the Revolution - Play on Any <br></br> Platform with BitsWits' 2D Game <br></br> Development</h2>
+                                    <h2>Join the Revolution - Play on <br></br> Any Platform with BitsWits' 2D<br></br> Game Development</h2>
                                     <p className='white'>We provide an optimal gaming experience across multiple platforms by developing games for iOS, Android,  Windows, and Mac OS. Our cross-platform approach ensures that your game reaches the broadest possible audience  of gamers. We also provide extensive testing and optimization services to ensure seamless performance and compatibility on the target platforms. BitsWits uses high-quality tools such as Unity 2D and HTML5 to develop custom games to ensure maximum device performance. So, get in touch with us today, and let us help you take your gaming  venture to the next level!</p>
                                 </div>
                                 <Link className={styles.about} href="#">LET'S CONNECT</Link>

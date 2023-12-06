@@ -4,8 +4,12 @@
   padding-bottom: 250px;
 }
 
+.home h3{
+  color: #f32f53;
+}
+
 .game2d {
-  padding: 100px 0 150px;
+  padding: 100px 0 200px;
 }
 
 .gameApp {
@@ -22,6 +26,7 @@
 
 .solImg {
   text-align: right;
+  margin-top: -70px;
 }
 
 .para {
@@ -31,16 +36,16 @@
   margin-bottom: 0;
 }
 
-.home h2 {
+/* .home h2 {
   background-image: linear-gradient(to right, #f32f53, #4a78ef);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 .about {
-  width: 318px;
+  width: 230px;
   height: 45px;
-  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  background: #F32F53;
   color: white;
   display: flex;
   align-items: center;

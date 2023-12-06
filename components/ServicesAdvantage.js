@@ -12,7 +12,7 @@ const ServicesAdvantage = (props) => {
                     <Container>
                         <Row className={styles.game}>
                             <Col lg={6}>
-                                <p className='text-white font16 font-bold mb-0'>{props.subTitle}</p>
+                                <p className='font16 font-bold mb-0'>{props.subTitle}</p>
                                 <h2>{props.title}</h2>
                                 <h3 className='mb-5'>{props.text}</h3>
                             </Col>

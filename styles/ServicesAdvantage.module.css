@@ -1,6 +1,10 @@
 .creative2 {
-  padding: 200px 0 250px;
+  padding: 150px 0 250px;
   background-color: black;
+}
+
+.creative2 p{
+  color: #F32F53;
 }
 
 .dscool {
@@ -11,7 +15,7 @@
 }
 
 .dscool h3 {
-  font-size: 23px;
+  font-size: 22px;
   color: white;
   font-weight: bold;
 }
@@ -25,16 +29,19 @@
   background: transparent;
   border-radius: 0;
   width: 100%;
-  padding-top: 4%;
+  padding-top: 6%;
   padding-left: 3%;
-  padding-right: 1%;
-  border-image: linear-gradient(90deg, #4a78ef, #f32fc2, #f32f53) 30;
+  padding-bottom: 5%;
+  padding-right: 2%;
+  /* border-image: linear-gradient(90deg, #4a78ef, #f32fc2, #f32f53) 30; */
   border-width: 1px;
   border-style: solid;
+  border-color: #707070;
+  box-shadow: 0 0 10px #ee3f5f89;
 }
 
 .game h2 {
-  font-size: 45px;
+  font-size: 50px;
   font-weight: bold;
   color: white;
   line-height: 1.2;
@@ -53,7 +60,8 @@
 
 .tested img {
   position: absolute;
-  height: 100%;
+  max-width: 650px;
+  /* max-height: 650px; */
   bottom: -40px;
   z-index: 1;
 }
@@ -96,7 +104,6 @@
 }
 
 @media screen and (max-width: 767px) {
-
   .game h3 {
     font-size: 20px;
   }

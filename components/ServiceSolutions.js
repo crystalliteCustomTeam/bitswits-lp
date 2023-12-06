@@ -14,8 +14,8 @@ const ServiceSolutions = (props) => {
                     <Row className='align-items-center'>
                         <Col lg={6}>
                             <h3 className='white font20'>{props.subTitle}</h3>
-                            <h2 className='font55 font-bold mb-3'>{props.title}</h2>
-                            <p className='text-white f-16 pb-2'>{props.text}</p>
+                            <h2 className='f-50 font-bold mb-3 text-white'>{props.title}</h2>
+                            <p className='text-white f-16 pb-2 lheight23'>{props.text}</p>
                             <Link className={styles.about} href="#">LET's CONNECT</Link>
                         </Col>
                         <Col lg={6}>
