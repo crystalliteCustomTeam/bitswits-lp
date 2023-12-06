@@ -47,7 +47,9 @@ export default function augmentedrealityappsdevelopment() {
 
             <HomeBannerSliderlp />
 
-            <LpForm />
+            <LpForm 
+            addresClass='iosclass'
+            />
 
             <Nothing Nothing="nothingLp6" />
 
