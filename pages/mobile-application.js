@@ -108,7 +108,9 @@ export default function mobileApplication() {
 
       <HomeBannerSliderlp />
 
-      <LpForm />
+      <LpForm
+      addresClass='iosclass'
+      />
 
       <Nothing Nothing="nothingLp6" />
 
