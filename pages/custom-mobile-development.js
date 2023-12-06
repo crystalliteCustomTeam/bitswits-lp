@@ -65,7 +65,9 @@ export default function CustomMobile() {
 
             <HomeBannerSliderlp />
 
-            <LpForm />
+            <LpForm
+             addresClass='iosclass'
+            />
 
             <Nothing Nothing="nothingLp6" />
 
