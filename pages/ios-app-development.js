@@ -21,6 +21,7 @@ const LpForm = React.lazy(() => import('@/components/LpForm6'));
 const Nothing = React.lazy(() => import('@/components/Nothing'));
 const Partnerships = React.lazy(() => import('@/components/Partnerships'));
 const People = React.lazy(() => import('@/components/People'));
+const ServicesMaintainmobile = React.lazy(() => import('@/components/ServicesMaintainmobile'));
 //images
 const BannerImage = await import("@/public/andriodapplication/andriod.png");
 //icons
@@ -32,8 +33,83 @@ const icon27 = await import("../public/images/fyios/5.png");
 const icon28 = await import("../public/images/fyios/6.png");
 
 
+const customios = await import("../public/images/iosappdevelopment/customios.png");
+const iphoneapp = await import("../public/images/iosappdevelopment/iphoneapp.png");
+const applewatch = await import("../public/images/iosappdevelopment/applewatch.png");
+const appletvappdevelopment = await import("../public/images/iosappdevelopment/appletvappdevelopment.png");
+const iphoneappdesigning = await import("../public/images/iosappdevelopment/iphoneappdesigning.png");
+const hybridiphone = await import("../public/images/iosappdevelopment/hybridiphone.png");
+
+
+
+
 export default function gamedevelopmentcompany() {
-  return (
+
+
+
+  
+
+  const severcedata = [
+    {
+      heading: {
+        subtitle: "iOS App Development Services",
+        title1: "Craft Incredible Apps",
+        title2: "Hire an iOS App Developer",
+        text: `As a premier iOS app development company, our iOS developers create
+            eye-catching and user-friendly iPhone and iPad apps that capture
+            attention immediately. To develop customized applications that are
+            appropriate for Apple devices, our professional iOS developers and
+            designers make use of the newest iOS capabilities.`,
+      },
+      serdata: [
+        {
+          title: "Custom iOS App Development",
+          text: "Our custom iOS app development solutions got you covered when it comes to developing your iOS app. From the initial idea to the final design and development stages, we provide customized iOS app solutions tailored to your needs.",
+          appclass: "app",
+          imgservice: customios
+        },
+        {
+          title: (
+            <>
+              {" "}
+              iPhone App <br /> Development{" "}
+            </>
+          ),
+          text: "We turn app ideas into reality with fast and efficient iPhone app development services. No idea is too complex or ambitious for us. We help you take your idea from concept to launch in no time.",
+          appclass: "app1",
+          imgservice: iphoneapp
+        },
+        {
+          title: "Apple Watch Development",
+          text: "Our team of expert iOS developers create exceptional Apple Watch apps that flawlessly blend with advanced technology and coding standards. We prioritize maximizing battery efficiency and exceeding user expectations with superb performance.",
+          appclass: "app2",
+          imgservice: applewatch
+        },
+        {
+          title: "Apple TV App Development",
+          text: "Our team specializes in developing custom apps for Apple TV with impeccable design and performance. We also offer iPhone compatibility consultations. Let's turn your app ideas into reality!",
+          appclass: "app3",
+          imgservice: appletvappdevelopment
+        },
+        {
+          title: "iPhone App Designing",
+          text: "Our team creates custom iPhone apps to streamline workflow processes, improve customer engagement, and enhance their experience with innovative and intuitive designs.",
+          appclass: "app4",
+          imgservice: iphoneappdesigning
+        },
+        {
+          title: "Hybrid iPhone App Development",
+          text: "Boost your business with our hybrid iPhone app development services. Run your applications seamlessly across platforms to increase productivity and efficiency. Contact us now to learn more.",
+          appclass: "app5",
+          imgservice: hybridiphone
+        },
+      ],
+    },
+  ];
+  
+
+
+  return(
     <>
       <Head>
         <title>Top Mobile App Development Company - BitsWits</title>
@@ -72,7 +148,7 @@ export default function gamedevelopmentcompany() {
 
       <Nothing Nothing="nothingLp6" />
 
-      {/* <NewHomeAbout
+{/* <NewHomeAbout
                 title="Our Client’s Feedback Has Been"
                 subtitle="Nothing Short Of Amazing!"
             /> */}
@@ -138,7 +214,15 @@ export default function gamedevelopmentcompany() {
         appContent6={[]}
         appContent7={[]}
       />
-      {/* <NewAddress /> */}
+
+      <ServicesMaintainmobile 
+     severcedata = {severcedata}
+      
+      />
+
+
+
+{/* <NewAddress /> */ }
 
       <WeworkLp wework="weworkLp6" />
 
@@ -154,7 +238,7 @@ export default function gamedevelopmentcompany() {
       />
 
       <Justbuildit />
-      {/* <ServicesWho
+{/* <ServicesWho
                 subtitle="Who we are."
                 title="We build greater futures through innovation and collective knowledge."
                 text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
@@ -235,7 +319,7 @@ export default function gamedevelopmentcompany() {
           </>
         }
       />
-      {/* <Capabilities /> */}
+{/* <Capabilities /> */ }
       <Newsuccess
         assignClass="spacing"
         subtitle="Ready For Success?"
@@ -268,7 +352,7 @@ export default function gamedevelopmentcompany() {
       <Technologieswe
         addresClass='appdev'
       />
-      {/* <NewHomeGlobal />
+{/* <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject
                 title="Brace yourself for an App-venture!"
@@ -277,7 +361,7 @@ export default function gamedevelopmentcompany() {
       <Globallplp6 />
       <Partnerships />
 
-      {/* <NewFaqslp /> */}
+{/* <NewFaqslp /> */ }
       <Formnewlp />
       <ServicesFaqs
         faqsData={[
