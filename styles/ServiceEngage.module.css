@@ -1,3 +1,7 @@
+.paddingTop {
+  padding-top: 150px !important;
+}
+
 .engage {
   background-color: black;
   padding-top: 80px;
@@ -184,6 +188,10 @@
   top: -115px;
 }
 
+.marginTop {
+  top: -30px;
+}
+
 /* ======================================== */
 
 .gameBlckChain .longline img {
@@ -204,6 +212,13 @@
 }
 
 /* ======================================== */
+
+@media screen and (max-width: 1399px) {
+  .longline1 {
+    position: relative;
+    margin-bottom: 23%;
+  }
+}
 
 @media screen and (max-width: 1199px) {
   .expertise1 {

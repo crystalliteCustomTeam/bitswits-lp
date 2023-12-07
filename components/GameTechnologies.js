@@ -19,7 +19,7 @@ const GameTechnologies = () => {
                 <Container>
                     <Row>
                         <Col xl={12}>
-                            <p className='text-white text-center mb-0 f-16'>Technology Stack</p>
+                            <p className='fyColor2 text-center mb-0 font25 font-medium'>Technology Stack</p>
                             <h2 className={styles.work}>Unleash Your Gaming Creativity With Our Myriad Of Technology In Use</h2>
                         </Col>
 

@@ -1,3 +1,8 @@
+.paddingTop {
+  padding-top: 0 !important;
+  padding-bottom: 150px !important;
+}
+
 .home {
   background: #000;
   padding-top: 220px;
@@ -27,6 +32,10 @@
 .solImg {
   text-align: right;
   margin-top: -70px;
+}
+
+.marginTop {
+  margin-top: -20px;
 }
 
 .para {

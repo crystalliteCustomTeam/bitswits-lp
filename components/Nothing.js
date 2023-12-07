@@ -102,16 +102,6 @@ export default function Nothing(props) {
     swiperRef.current.initialize();
   }, []);
 
-  // var bannerslider = {
-  //   dots: true,
-  //   arrows: false,
-  //   loop: true,
-  //   autoplay: false,
-  //   infinite: true,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  // };
-
   return (
     <>
       <section className={styles[props.Nothing]}>

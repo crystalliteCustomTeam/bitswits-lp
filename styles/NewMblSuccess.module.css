@@ -1,3 +1,11 @@
+.paddingTop {
+  padding-top: 120px !important;
+}
+
+.paddingBottom{
+  padding-bottom: 0 !important;
+}
+
 .happens {
   background-color: black;
   padding: 50px 0 100px;
@@ -50,7 +58,7 @@
 .sucssBtn {
   width: 198px;
   height: 45px;
-background-color: #f32f53;
+  background-color: #f32f53;
   color: white;
   display: flex;
   align-items: center;

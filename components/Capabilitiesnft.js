@@ -22,7 +22,7 @@ const Capabilitiesnft = () => {
 
     var awardslogo = {
         dots: true,
-        arrows: true,
+        arrows: false,
         loop: true,
         autoplay: false,
         infinite: true,

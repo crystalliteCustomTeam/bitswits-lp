@@ -108,9 +108,9 @@ export default function HomeBannerSlider(props) {
           </swiper-slide>
         </swiper-container> */}
 
-        <div class={styles.slider}>
-          <div class={styles.slideTrack}>
-            <div class={styles.slide}>
+        <div className="slider">
+          <div className="slideTrack">
+            <div className="slide">
               <Image
                 quality={100}
                 alt="BitsWits"
@@ -118,7 +118,7 @@ export default function HomeBannerSlider(props) {
                 className="img-fluid"
               />
             </div>
-            <div class={styles.slide}>
+            <div className="slide">
               <Image
                 quality={100}
                 alt="BitsWits"
@@ -126,7 +126,7 @@ export default function HomeBannerSlider(props) {
                 className="img-fluid"
               />
             </div>
-            <div class={styles.slide}>
+            <div className="slide">
               <Image
                 quality={100}
                 alt="BitsWits"
@@ -134,7 +134,7 @@ export default function HomeBannerSlider(props) {
                 className="img-fluid"
               />
             </div>
-            <div class={styles.slide}>
+            <div className="slide">
               <Image
                 quality={100}
                 alt="BitsWits"
@@ -142,7 +142,7 @@ export default function HomeBannerSlider(props) {
                 className="img-fluid"
               />
             </div>
-            <div class={styles.slide}>
+            <div className="slide">
               <Image
                 quality={100}
                 alt="BitsWits"
@@ -150,7 +150,7 @@ export default function HomeBannerSlider(props) {
                 className="img-fluid"
               />
             </div>
-            <div class={styles.slide}>
+            <div className="slide">
               <Image
                 quality={100}
                 alt="BitsWits"
@@ -158,7 +158,7 @@ export default function HomeBannerSlider(props) {
                 className="img-fluid"
               />
             </div>
-            <div class={styles.slide}>
+            <div className="slide">
               <Image
                 quality={100}
                 alt="BitsWits"
@@ -166,7 +166,7 @@ export default function HomeBannerSlider(props) {
                 className="img-fluid"
               />
             </div>
-            <div class={styles.slide}>
+            <div className="slide">
               <Image
                 quality={100}
                 alt="BitsWits"
@@ -174,7 +174,7 @@ export default function HomeBannerSlider(props) {
                 className="img-fluid"
               />
             </div>
-            <div class={styles.slide}>
+            <div className="slide">
               <Image
                 quality={100}
                 alt="BitsWits"
@@ -182,7 +182,7 @@ export default function HomeBannerSlider(props) {
                 className="img-fluid"
               />
             </div>
-            <div class={styles.slide}>
+            <div className="slide">
               <Image
                 quality={100}
                 alt="BitsWits"
@@ -190,7 +190,7 @@ export default function HomeBannerSlider(props) {
                 className="img-fluid"
               />
             </div>
-            <div class={styles.slide}>
+            <div className="slide">
               <Image
                 quality={100}
                 alt="BitsWits"
@@ -198,7 +198,7 @@ export default function HomeBannerSlider(props) {
                 className="img-fluid"
               />
             </div>
-            <div class={styles.slide}>
+            <div className="slide">
               <Image
                 quality={100}
                 alt="BitsWits"

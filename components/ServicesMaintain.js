@@ -27,7 +27,7 @@ const ServicesMaintain = (props) => {
                   {props.title2}
                 </span>
                 {props.title3}
-                <span className="newfycolr font50 f-700 text-center d-block mb-2">
+                <span className="font50 f-700 text-center d-block mb-2">
                   {props.title4}
                 </span>
               </h2>

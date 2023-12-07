@@ -20,7 +20,7 @@
 
 .gameBlckChain {
   background: #000;
-  background-image: url(../public/blockchaindevelopment/images/blockchainbanner-bg.png);
+  /* background-image: url(../public/blockchaindevelopment/images/blockchainbanner-bg.png); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
