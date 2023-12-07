@@ -25,12 +25,4 @@
   transform: translate(0, -50%);
   padding: 35px;
 }
-.newHomeBg{
-  display: none;
-}
-@media screen and (max-width: 480px) { 
 
-  .newHomeBg{
-    display: block;
-  }
-}
