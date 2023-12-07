@@ -107,11 +107,12 @@ export default function App({ Component, pageProps }) {
         <Headerlphome />
       ) : newecommercepage ? (
         <EcommerceBanner />
-      ) : mobileapplicationheader ? (
-        <Headerproduct />
       ) : (
+        <>
+          <Headerproduct />
+          <Header />
+        </>
 
-        <Header />
       )}
 
       {mouse && <Cursor />}

@@ -406,7 +406,8 @@ const Header = () => {
 
 
                         </li>
-                        <li onMouseEnter={() => fun1('active')}
+                        
+                        {/* <li onMouseEnter={() => fun1('active')}
                             onMouseLeave={() => fun2('secImage1')}
                             className={styles.product}><Link className={styles.post} href='#'>Courses
                                 <FaAngleDown />
@@ -546,7 +547,7 @@ const Header = () => {
                                 :
                                 ''
                             }
-                        </li>
+                        </li> */}
 
                         <li onMouseEnter={() => funserve('active2')}
                             onMouseLeave={() => funserve2('secImage2')}

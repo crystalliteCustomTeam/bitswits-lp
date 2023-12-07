@@ -8,6 +8,8 @@
   border-top: 0;
   border-left: 0;
   border-right: 0;
+  z-index: 9999;
+  position: relative;
 
 }
 
@@ -79,7 +81,6 @@
   width: 100%;
   left: 0;
   right: 0;
-  top: 9.7%;
   padding-left: 1%;
 
 
@@ -147,7 +148,6 @@
   width: 100%;
   left: 0;
   right: 0;
-  top: 10%;
   padding: 30px 20px;
   height: auto;
 }
@@ -199,7 +199,6 @@
   width: 100%;
   left: 0;
   right: 0;
-  top: 10%;
   padding: 25px;
   height: auto;
 }
@@ -244,7 +243,6 @@
   width: 100%;
   left: 0;
   right: 0;
-  top: 10%;
   padding: 30px 20px;
   height: auto;
 }
@@ -366,7 +364,7 @@
 
 .dsicon {
   align-items: center;
-  background: #50b37f;
+  background: #000000;
   border-radius: 50px;
   display: flex;
   height: 38px;
@@ -577,23 +575,23 @@
 }
 
 .imgpost:hover a {
-  color: #188d33;
+  color: #000000;
 }
 
 .imgpost:hover .explore {
-  color: #188d33;
+  color: #000000;
 }
 
 .imgpost:hover .dsicon1 {
-  color: #188d33;
+  color: #000000;
 }
 
 .imgpost:hover .dsicon {
-  background-color: #188d33;
+  background-color: #000000;
 }
 
 .newyork:hover {
-  color: #188d33;
+  color: #000000;
 }
 
 .big {
@@ -654,11 +652,7 @@
     margin-top: 52%;
   }
 
-  .megamenu {
 
-    top: 7.5%;
-
-  }
 
 }
 
@@ -675,11 +669,7 @@
   }
 
 
-  .megamenuserve,
-  .megamenucom,
-  .megamenuwork {
-    top: 8%;
-  }
+ 
 
 
   .medg {
@@ -713,9 +703,7 @@
 }
 
 @media screen and (min-width: 1900px) {
-  .megamenu {
-    top: 5.5%;
-  }
+
 
   .devgame img {
     height: auto;
@@ -740,14 +728,15 @@
 
 @media screen and (max-width: 991px) {
 
+  .headernew{
+    display: none;
+  }
+
   .glop {
     margin-bottom: 8% !important;
     height: auto;
   }
 
-  .megamenuserve {
-    top: 0;
-  }
 
   
 
@@ -778,7 +767,6 @@
 } */
 
   .megamenu {
-    top: 0;
     padding-left: 3%;
     padding-right: 1%;
     overflow: scroll;

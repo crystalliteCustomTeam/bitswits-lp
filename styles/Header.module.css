@@ -420,7 +420,9 @@
 .megaMenu2 .listBody ul {
   height: 375px;
 }
-
+.header{
+  display: none;
+}
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 1600px) {
@@ -483,6 +485,10 @@
 }
 
 @media screen and (max-width: 991px) {
+
+  .header{
+    display: flex;
+  }
   .navBar {
     position: unset;
   }
