@@ -76,7 +76,7 @@ const NewhomeFaqs = () => {
 
     return (
         <>
-            <section className={`${styles.faqs} newfaqsgloble`}>
+            <section className={`${styles.faqs} newfaqsgloble`} id='faqsection'>
                 <Container>
                     <Row className={styles.comfort}>
                         <Col lg={12}>

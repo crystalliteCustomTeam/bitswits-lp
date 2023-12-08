@@ -21,7 +21,7 @@ const NewHomeGlobal = () => {
 
     return (
         <>
-            <section className={styles.team}>
+            <section className={styles.team} id="partners">
                 <Container>
                     <Row>
                         <Col xl={12}>

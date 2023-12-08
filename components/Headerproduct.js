@@ -249,53 +249,53 @@ const Header = () => {
                                                
                                             </div>
                                             <div className={styles.hire}>
-                                                <Link href='#' className={styles.polo}>
+                                                <Link href='/ios-app-development' className={styles.polo}>
                                                     <h4>IOS App</h4>
                                                     <Image alt="bitswits"   src={security} className='img-fluid' />
                                                 </Link>
-                                                <Link href='#' className={styles.polo}>
+                                                <Link href='/android-application-development' className={styles.polo}>
                                                     <h4>Android App </h4>
                                                     <Image alt="bitswits"   src={alcohol} className='img-fluid' />
                                                 </Link>
                                             </div>
                                             <div className={styles.hire}>
-                                                <Link href='#' className={styles.polo}>
+                                                <Link href='/flutter-mobile-development' className={styles.polo}>
                                                     <h4>Flutter App </h4>
                                                     <Image alt="bitswits"   src={construction} className='img-fluid' />
                                                 </Link>
-                                                <Link href='#' className={styles.polo}>
+                                                <Link href='/native-mobile-development' className={styles.polo}>
                                                     <h4>React Native  <br /> App </h4>
                                                     <Image alt="bitswits"   src={healthsafety} className='img-fluid' />
                                                 </Link>
                                             </div>
                                             <div className={styles.hire}>
-                                                <Link href='#' className={styles.polo}>
+                                                <Link href='/hybrid-mobile-apps-development' className={styles.polo}>
                                                     <h4>Hybird Mobile  <br />  App </h4>
                                                     <Image alt="bitswits"   src={elearning} className='img-fluid' />
                                                 </Link>
-                                                <Link href='#' className={styles.polo}>
+                                                <Link href='/cross-platform-app-development' className={styles.polo}>
                                                     <h4>Cross Platform <br />  App </h4>
                                                     <Image alt="bitswits"   src={driving} className='img-fluid' />
                                                 </Link>
 
                                             </div>
                                             <div className={styles.hire}>
-                                                <Link href='#' className={styles.polo}>
+                                                <Link href='/web-app-development' className={styles.polo}>
                                                     <h4>Web App</h4>
                                                     <Image alt="bitswits"   src={securitygear} className='img-fluid' />
                                                 </Link>
-                                                <Link href='#' className={styles.polo}>
+                                                <Link href='/augmented-reality-apps-development-company' className={styles.polo}>
                                                     <h4>Augmented <br /> Reality  App </h4>
                                                     <Image alt="bitswits"   src={securityjobs} className='img-fluid' />
                                                 </Link>
 
                                             </div>
                                             <div className={styles.hire}>
-                                                <Link href='#' className={styles.polo}>
+                                                <Link href='/game-application-development' className={styles.polo}>
                                                     <h4>Game App <br /> Development</h4>
                                                     <Image alt="bitswits"   src={gamehead} className='img-fluid' />
                                                 </Link>
-                                                <Link href='#' className={styles.polo}>
+                                                <Link href='/blockchain-game-development' className={styles.polo}>
                                                     <h4>Blockchain App  <br />  Development </h4>
                                                     <Image alt="bitswits"   src={blockchainhead} className='img-fluid' />
                                                 </Link>
@@ -315,7 +315,7 @@ const Header = () => {
                                                         <div className={styles.dsicon}>
                                                             <Image alt="bitswits"   src={about} className='img-fluid' />
                                                         </div>
-                                                        <Link href="#">About us </Link> </li>
+                                                        <Link href="/about-us">About us </Link> </li>
                                                     <li className={styles.imgpost}>
                                                         <div className={styles.dsicon}>
                                                             <Image alt="bitswits"   src={employers} guardicon className='img-fluid' />
@@ -325,12 +325,12 @@ const Header = () => {
                                                         <div className={styles.dsicon}>
                                                             <Image alt="bitswits"   src={listcourse} className='img-fluid' />
                                                         </div>
-                                                        <Link href="#">Partners </Link> </li>
+                                                        <Link href="#partners">Partners </Link> </li>
                                                     <li className={styles.imgpost}>
                                                         <div className={styles.dsicon}>
                                                             <Image alt="bitswits"   src={faqs} className='img-fluid' />
                                                         </div>
-                                                        <Link href="#">FAQs </Link> </li>
+                                                        <Link href="#faqsection">FAQs </Link> </li>
 
                                                     <li className={styles.imgpost}>
                                                         <div className={styles.dsicon}>
