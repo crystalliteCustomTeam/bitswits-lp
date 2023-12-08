@@ -24,14 +24,14 @@ const WhatImage = await import("@/public/hybridmbldevelopment/what_Image.png");
 
 const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
-const Partnerships= React.lazy(() => import('@/components/Partnerships'));
+const Partnerships = React.lazy(() => import('@/components/Partnerships'));
 
 const People = React.lazy(() => import('@/components/People'));
 const HomeBannerSliderlp = React.lazy(() =>
     import("@/components/HomeBannerSliderlp")
 );
 const LpChoose = React.lazy(() => import('@/components/LpChoose'));
-const LpForm= React.lazy(() => import('@/components/LpForm6'));
+const LpForm = React.lazy(() => import('@/components/LpForm6'));
 const Nothing = React.lazy(() => import('@/components/Nothing'));
 const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
@@ -40,7 +40,79 @@ const ProjectProcess = React.lazy(() =>
 );
 
 
+const customios = await import("../public/images/hybirdappdevelopement/flutter.png");
+const iphoneapp = await import("../public/images/hybirdappdevelopement/react.png");
+const applewatch = await import("../public/images/hybirdappdevelopement/ionic.png");
+const appletvappdevelopment = await import("../public/images/hybirdappdevelopement/xamarin.png");
+
+
+import { useState } from "react";
+import { useEffect } from "react";
+const ServicesMaintainmobile = React.lazy(() => import('@/components/ServicesMaintainmobile'));
+
 export default function HybridMobile() {
+
+
+
+    const [isSliderActive, setIsSliderActive] = useState(true);
+    useEffect(() => {
+
+        const handleResize = () => {
+            if (window.innerWidth < 1201) {
+                setIsSliderActive(false);
+            } else {
+                setIsSliderActive(true);
+            }
+        };
+
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+
+    const severcedata = [
+        {
+            classlayout: {
+                newclass: "iosclass",
+            },
+            heading: {
+                title2: "Hybrid App Development Services",
+            },
+            serdata: [
+                {
+                    title: 'Flutter',
+                    text: 'Flutter is a popular framework for hybrid mobile app development that allows you to build high-quality, native-like mobile applications for both Android and iOS using a single codebase.',
+                    appclass: "app",
+                    imgservice: customios,
+                },
+                {
+                    title: (<> React </>),
+                    text: (<> React is a popular framework for hybrid mobile app development that allows you to build mobile applications for both Android and iOS using a single codebase. </>),
+                    appclass: "app1",
+                    imgservice: iphoneapp,
+                },
+                {
+                    title: (<> Ionic </>),
+                    text: 'Ionic is a popular framework for hybrid mobile app development that enables you to build mobile applications for various platforms, including Android, iOS, and the Web.',
+                    appclass: "app2",
+                    imgservice: applewatch,
+                },
+                {
+                    title: 'Xamarin',
+                    text: "Xamarin is a popular framework for hybrid mobile app development that allows you to build mobile applications for iOS and Android using C# and .NET.",
+                    appclass: "app3",
+                    imgservice: appletvappdevelopment,
+                },
+            ],
+        },
+    ];
+
+
 
     return (
         <>
@@ -62,7 +134,7 @@ export default function HybridMobile() {
             <HomeBannerSliderlp />
 
             <LpForm
-            addresClass='iosclass'
+                addresClass='iosclass'
             />
 
             <Nothing Nothing="nothingLp6" />
@@ -70,44 +142,55 @@ export default function HybridMobile() {
                 title="Our Client’s Feedback Has Been"
                 subtitle="Nothing Short Of Amazing!"
             /> */}
-            <ServicesMaintain
-                assignClass="hybrid"
-                title={<> Hybrid App Development Services </>}
-                appContent={[]}
-                appContent1={
-                    [
-                        {
-                            title: 'Flutter',
-                            text: 'Flutter is a popular framework for hybrid mobile app development that allows you to build high-quality, native-like mobile applications for both Android and iOS using a single codebase.',
-                            appclass: "app"
-                        },
-                        {
-                            title: (<> React </>),
-                            text: (<> React is a popular framework for hybrid mobile app development that allows you to build mobile applications for both Android and iOS using a single codebase. </>),
-                            appclass: "app1",
-                        },
-                        {
-                            title: (<> Ionic </>),
-                            text: 'Ionic is a popular framework for hybrid mobile app development that enables you to build mobile applications for various platforms, including Android, iOS, and the Web.',
-                            appclass: "app2",
-                        }
-                    ]
-                }
-                appContent2={
-                    [
-                        {
-                            title: 'Xamarin',
-                            text: "Xamarin is a popular framework for hybrid mobile app development that allows you to build mobile applications for iOS and Android using C# and .NET.",
-                            appclass: "app3",
-                        },
-                    ]
-                }
-                appContent3={[]}
-                appContent4={[]}
-                appContent5={[]}
-                appContent6={[]}
-                appContent7={[]}
-            />
+
+
+            {isSliderActive ?
+                <ServicesMaintain
+                    assignClass="hybrid"
+                    title={<> Hybrid App Development Services </>}
+                    appContent={[]}
+                    appContent1={
+                        [
+                            {
+                                title: 'Flutter',
+                                text: 'Flutter is a popular framework for hybrid mobile app development that allows you to build high-quality, native-like mobile applications for both Android and iOS using a single codebase.',
+                                appclass: "app"
+                            },
+                            {
+                                title: (<> React </>),
+                                text: (<> React is a popular framework for hybrid mobile app development that allows you to build mobile applications for both Android and iOS using a single codebase. </>),
+                                appclass: "app1",
+                            },
+                            {
+                                title: (<> Ionic </>),
+                                text: 'Ionic is a popular framework for hybrid mobile app development that enables you to build mobile applications for various platforms, including Android, iOS, and the Web.',
+                                appclass: "app2",
+                            }
+                        ]
+                    }
+                    appContent2={
+                        [
+                            {
+                                title: 'Xamarin',
+                                text: "Xamarin is a popular framework for hybrid mobile app development that allows you to build mobile applications for iOS and Android using C# and .NET.",
+                                appclass: "app3",
+                            },
+                        ]
+                    }
+                    appContent3={[]}
+                    appContent4={[]}
+                    appContent5={[]}
+                    appContent6={[]}
+                    appContent7={[]}
+                />
+                :
+                <ServicesMaintainmobile
+                    severcedata={severcedata}
+
+                />
+
+            }
+
             {/* <NewAddress /> */}
 
             <WeworkLp wework="weworkLp6" />
@@ -181,9 +264,9 @@ export default function HybridMobile() {
                 title="Brace yourself for an App-venture!"
             /> */}
 
-<Globallplp6 />
-      <Partnerships />
-      <Formnewlp />
+            <Globallplp6 />
+            <Partnerships />
+            <Formnewlp />
             <ServicesFaqs
                 faqsData={
                     [

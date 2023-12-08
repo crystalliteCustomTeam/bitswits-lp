@@ -70,7 +70,151 @@ const engIcon4 = await import(
   "@/public/blockchaindevelopment/images/engage4.png"
 );
 
+const customios = await import("../public/images/blockchainappdevelopment/ethereumdappgamedevelopment.png");
+const iphoneapp = await import("../public/images/blockchainappdevelopment/polygongamedevelopment.png");
+const applewatch = await import("../public/images/blockchainappdevelopment/solanablockchaindevelopment.png");
+const appletvappdevelopment = await import("../public/images/blockchainappdevelopment/eosdappgamedevelopment.png");
+const iphoneappdesigning = await import("../public/images/blockchainappdevelopment/metaverseblockchaingamedevelopment.png");
+const hybridiphone = await import("../public/images/blockchainappdevelopment/nftblockchaingamedevelopment.png");
+const react = await import("../public/images/blockchainappdevelopment/trongamedevelopment.png");
+const next = await import("../public/images/blockchainappdevelopment/bscgamedevelopment.png");
+const reactnative = await import("../public/images/blockchainappdevelopment/cryptogamblinggames.png");
+const flutter = await import("../public/images/blockchainappdevelopment/ingameassettokencreation.png");
+const python = await import("../public/images/blockchainappdevelopment/smartcontractdappgamedevelopment.png");
+
+import { useState } from "react";
+import { useEffect } from "react";
+
+const ServicesMaintainmobile = React.lazy(() => import('@/components/ServicesMaintainmobile'));
+
+
 export default function mobileApplication() {
+
+
+  const [isSliderActive, setIsSliderActive] = useState(true);
+  useEffect(() => {
+
+    const handleResize = () => {
+      if (window.innerWidth < 1201) {
+        setIsSliderActive(false);
+      } else {
+        setIsSliderActive(true);
+      }
+    };
+
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+
+  const severcedata = [
+    {
+      classlayout: {
+        newclass: "iosclass",
+      },
+      heading: {
+        subtitle: "Our Services Are Where Innovation Meets Play",
+        title1: "Blockchain Gaming Engineering Services",
+        text: `From creating multiplayer games to providing secure in-game asset exchange options, BitsWits leverages blockchain technology for game development.
+        Our services include creating next-generation games using the latest technology and tools, such as Unity 3D engine for VR/AR gaming experiences,
+        Augmented Reality (AR) support for games, low-latency gameplay features, HoloLens integration, and blockchain-backed matchmaking.`,
+      },
+      serdata: [
+        {
+          title: "Ethereum Dapp Game Development",
+          text: "BitsWits specializes in creating innovative, high-quality Ethereum dapps for businesses and entrepreneurs. All thanks to our dedicated team of developers, we provide reliable solutions to help enterprises to increase their profits and maximize user engagement.",
+          appclass: "app",
+          imgservice: customios
+        },
+        {
+          title: "Polygon Game Development",
+          text: `We specialize in Polygon game development and create detailed
+          game environments and characters with smooth animation
+          capabilities. From design and coding to animation, we create
+          engaging games that push the boundaries of creativity.`,
+          appclass: "app1",
+          imgservice: iphoneapp
+        },
+        {
+          title: "Solana Blockchain Development",
+          text: `Solana Blockchain game development is all the rage right now,
+          and BitsWits is leading the charge. We specialize in creating
+          powerful, high-volume games with a wide range of features – from
+          fast-paced action to deep strategic play.`,
+          appclass: "app2",
+          imgservice: applewatch
+        },
+        {
+          title: "EOS Dapp Game Development",
+          text: "BitsWits offers comprehensive services for developing high-performance and secure blockchain games using the EOS platform. Get in touch to create engaging, user-friendly and intuitive dapps with unique features that help you stand out from the competition.",
+          appclass: "app3",
+          imgservice: appletvappdevelopment
+        },
+        {
+          title: "Metaverse Blockchain Game Development",
+          text: "Using blockchain and cutting-edge technology, we deploy metaverse projects with features such as distributed storage and processing, zero-knowledge transactions, and non-fungible tokens (NFTs). Build next-generation titles with us!",
+          appclass: "app4",
+          imgservice: iphoneappdesigning
+        },
+        {
+          title: "NFT Blockchain Game Development",
+            text: "Utilizing blockchain technology, we create games that offer unprecedented levels of customization, security, and transparency. With no middlemen involved in transactions, you can now be sure that your digital games and assets are secure from any external interference.",
+          appclass: "app5",
+          imgservice: hybridiphone
+        },
+        {
+          title: "TRON Game Development",
+            text: `Boasting some of the best 3D graphics ever seen in a game, our
+            TRON games let you immerse yourself in a virtual world full of
+            adventure, excitement, and action. With realistic animations and
+            stunning sound effects, you'll feel like you're part of the
+            action.`,
+          appclass: "app5",
+          imgservice: react
+        },
+        {
+          title: "BSC Game Development",
+            text: `BSC Game Development by BitsWits is a complete suite of game
+            development tools designed for professionals and enthusiasts
+            alike. With its powerful engine, integrated asset library,
+            intuitive interface, and comprehensive visual toolsets,
+            developers can quickly bring their ideas to life.`,
+          appclass: "app5",
+          imgservice: next
+        },
+        {
+          title: "Crypto Gambling Games",
+            text: `Our team of experts is highly knowledgeable about blockchain
+            technology and its applications in gaming, allowing us to
+            develop cutting-edge, secure online casinos and betting
+            platforms with an unparalleled level of safety, fairness, and
+            security.`,
+          appclass: "app5",
+          imgservice: reactnative
+        },
+        {
+          title: "In-Game Asset & Token Creation",
+          text: "BitsWits specializes in providing bespoke in-game asset and token creation services. We offer various services tailored to suit your specific requirements: from creating 3D or 2D assets to programming custom tokenization systems and blockchain integration.",
+          appclass: "app5",
+          imgservice: flutter
+        },
+        {
+          title: "Smart Contract Dapp Game Development",
+          text: "BitsWits provides comprehensive smart-contract solutions for games that operate on blockchain networks. Contact us to bring your notion of a modern and decentralized gaming experience into reality.",
+          appclass: "app5",
+          imgservice: python
+        },
+      ],
+    },
+  ];
+
+
+
   return (
     <>
       <Head>
@@ -159,156 +303,165 @@ export default function mobileApplication() {
         AdvantageOne={AdvantageOne}
       />
 
-      <ServicesMaintain
-        assignClass="gameBlckChain"
-        subtitle="Our Services Are Where Innovation Meets Play"
-        title4={<> Blockchain Gaming Engineering Services </>}
-        text={
-          <>
-            {" "}
-            From creating multiplayer games to providing secure in-game asset
-            exchange options, BitsWits leverages blockchain technology for game
-            development.
-            <br /> Our services include creating next-generation games using the
-            latest technology and tools, such as Unity 3D engine for VR/AR
-            gaming experiences,
-            <br /> Augmented Reality (AR) support for games, low-latency
-            gameplay features, HoloLens integration, and blockchain-backed
-            matchmaking.{" "}
-          </>
-        }
-        appContent={[]}
-        appContent1={[
-          {
-            title: (
-              <>
-                {" "}
-                Ethereum Dapp <br /> Game Development{" "}
-              </>
-            ),
-            text: "BitsWits specializes in creating innovative, high-quality Ethereum dapps for businesses and entrepreneurs. All thanks to our dedicated team of developers, we provide reliable solutions to help enterprises to increase their profits and maximize user engagement.",
-            appclass: "app",
-          },
-          {
-            title: (
-              <>
-                {" "}
-                Polygon Game <br /> Development{" "}
-              </>
-            ),
-            text: (
-              <>
-                {" "}
-                We specialize in Polygon game development and create detailed
-                game environments and characters with smooth animation
-                capabilities. From design and coding to animation, we create
-                engaging games that push the boundaries of creativity.{" "}
-              </>
-            ),
-            appclass: "app1",
-          },
-          {
-            title: (
-              <>
-                {" "}
-                Solana Blockchain <br /> Development{" "}
-              </>
-            ),
-            text: (
-              <>
-                {" "}
-                Solana Blockchain game development is all the rage right now,
-                and BitsWits is leading the charge. We specialize in creating
-                powerful, high-volume games with a wide range of features – from
-                fast-paced action to deep strategic play.{" "}
-              </>
-            ),
-            appclass: "app2",
-          },
-        ]}
-        appContent2={[
-          {
-            title: "EOS Dapp Game Development",
-            text: "BitsWits offers comprehensive services for developing high-performance and secure blockchain games using the EOS platform. Get in touch to create engaging, user-friendly and intuitive dapps with unique features that help you stand out from the competition.",
-            appclass: "app3",
-          },
-        ]}
-        appContent3={[
-          {
-            title: "Metaverse Blockchain Game Development",
-            text: "Using blockchain and cutting-edge technology, we deploy metaverse projects with features such as distributed storage and processing, zero-knowledge transactions, and non-fungible tokens (NFTs). Build next-generation titles with us!",
-            appclass: "app4",
-          },
-          {
-            title: "NFT Blockchain Game Development",
-            text: "Utilizing blockchain technology, we create games that offer unprecedented levels of customization, security, and transparency. With no middlemen involved in transactions, you can now be sure that your digital games and assets are secure from any external interference.",
-            appclass: "app5",
-          },
-        ]}
-        appContent4={[]}
-        appContent5={[]}
-        appContent6={[
-          {
-            title: <> TRON Game Development </>,
-            text: (
-              <>
-                {" "}
-                Boasting some of the best 3D graphics ever seen in a game, our
-                TRON games let you immerse yourself in a virtual world full of
-                adventure, excitement, and action. With realistic animations and
-                stunning sound effects, you'll feel like you're part of the
-                action.{" "}
-              </>
-            ),
-            appclass: "app",
-            addclass: "app05",
-          },
-          {
-            title: <> BSC Game Development </>,
-            text: (
-              <>
-                {" "}
-                BSC Game Development by BitsWits is a complete suite of game
-                development tools designed for professionals and enthusiasts
-                alike. With its powerful engine, integrated asset library,
-                intuitive interface, and comprehensive visual toolsets,
-                developers can quickly bring their ideas to life.{" "}
-              </>
-            ),
-            appclass: "app1",
-            addclass: "app06",
-          },
-          {
-            title: <> Crypto Gambling Games </>,
-            text: (
-              <>
-                {" "}
-                Our team of experts is highly knowledgeable about blockchain
-                technology and its applications in gaming, allowing us to
-                develop cutting-edge, secure online casinos and betting
-                platforms with an unparalleled level of safety, fairness, and
-                security.{" "}
-              </>
-            ),
-            appclass: "app2",
-            addclass: "app07",
-          },
-        ]}
-        appContent7={[
-          {
-            title: "In-Game Asset & Token Creation",
-            text: "BitsWits specializes in providing bespoke in-game asset and token creation services. We offer various services tailored to suit your specific requirements: from creating 3D or 2D assets to programming custom tokenization systems and blockchain integration.",
-            appclass: "app4",
-            addclass: "app08",
-          },
-          {
-            title: "Smart Contract Dapp Game Development",
-            text: "BitsWits provides comprehensive smart-contract solutions for games that operate on blockchain networks. Contact us to bring your notion of a modern and decentralized gaming experience into reality.",
-            appclass: "app5",
-            addclass: "app09",
-          },
-        ]}
-      />
+
+      {isSliderActive ?
+        <ServicesMaintain
+          assignClass="gameBlckChain"
+          subtitle="Our Services Are Where Innovation Meets Play"
+          title4={<> Blockchain Gaming Engineering Services </>}
+          text={
+            <>
+              {" "}
+              From creating multiplayer games to providing secure in-game asset
+              exchange options, BitsWits leverages blockchain technology for game
+              development.
+              <br /> Our services include creating next-generation games using the
+              latest technology and tools, such as Unity 3D engine for VR/AR
+              gaming experiences,
+              <br /> Augmented Reality (AR) support for games, low-latency
+              gameplay features, HoloLens integration, and blockchain-backed
+              matchmaking.{" "}
+            </>
+          }
+          appContent={[]}
+          appContent1={[
+            {
+              title: (
+                <>
+                  {" "}
+                  Ethereum Dapp <br /> Game Development{" "}
+                </>
+              ),
+              text: "BitsWits specializes in creating innovative, high-quality Ethereum dapps for businesses and entrepreneurs. All thanks to our dedicated team of developers, we provide reliable solutions to help enterprises to increase their profits and maximize user engagement.",
+              appclass: "app",
+            },
+            {
+              title: (
+                <>
+                  {" "}
+                  Polygon Game <br /> Development{" "}
+                </>
+              ),
+              text: (
+                <>
+                  {" "}
+                  We specialize in Polygon game development and create detailed
+                  game environments and characters with smooth animation
+                  capabilities. From design and coding to animation, we create
+                  engaging games that push the boundaries of creativity.{" "}
+                </>
+              ),
+              appclass: "app1",
+            },
+            {
+              title: (
+                <>
+                  {" "}
+                  Solana Blockchain <br /> Development{" "}
+                </>
+              ),
+              text: (
+                <>
+                  {" "}
+                  Solana Blockchain game development is all the rage right now,
+                  and BitsWits is leading the charge. We specialize in creating
+                  powerful, high-volume games with a wide range of features – from
+                  fast-paced action to deep strategic play.{" "}
+                </>
+              ),
+              appclass: "app2",
+            },
+          ]}
+          appContent2={[
+            {
+              title: "EOS Dapp Game Development",
+              text: "BitsWits offers comprehensive services for developing high-performance and secure blockchain games using the EOS platform. Get in touch to create engaging, user-friendly and intuitive dapps with unique features that help you stand out from the competition.",
+              appclass: "app3",
+            },
+          ]}
+          appContent3={[
+            {
+              title: "Metaverse Blockchain Game Development",
+              text: "Using blockchain and cutting-edge technology, we deploy metaverse projects with features such as distributed storage and processing, zero-knowledge transactions, and non-fungible tokens (NFTs). Build next-generation titles with us!",
+              appclass: "app4",
+            },
+            {
+              title: "NFT Blockchain Game Development",
+              text: "Utilizing blockchain technology, we create games that offer unprecedented levels of customization, security, and transparency. With no middlemen involved in transactions, you can now be sure that your digital games and assets are secure from any external interference.",
+              appclass: "app5",
+            },
+          ]}
+          appContent4={[]}
+          appContent5={[]}
+          appContent6={[
+            {
+              title: <> TRON Game Development </>,
+              text: (
+                <>
+                  {" "}
+                  Boasting some of the best 3D graphics ever seen in a game, our
+                  TRON games let you immerse yourself in a virtual world full of
+                  adventure, excitement, and action. With realistic animations and
+                  stunning sound effects, you'll feel like you're part of the
+                  action.{" "}
+                </>
+              ),
+              appclass: "app",
+              addclass: "app05",
+            },
+            {
+              title: <> BSC Game Development </>,
+              text: (
+                <>
+                  {" "}
+                  BSC Game Development by BitsWits is a complete suite of game
+                  development tools designed for professionals and enthusiasts
+                  alike. With its powerful engine, integrated asset library,
+                  intuitive interface, and comprehensive visual toolsets,
+                  developers can quickly bring their ideas to life.{" "}
+                </>
+              ),
+              appclass: "app1",
+              addclass: "app06",
+            },
+            {
+              title: <> Crypto Gambling Games </>,
+              text: (
+                <>
+                  {" "}
+                  Our team of experts is highly knowledgeable about blockchain
+                  technology and its applications in gaming, allowing us to
+                  develop cutting-edge, secure online casinos and betting
+                  platforms with an unparalleled level of safety, fairness, and
+                  security.{" "}
+                </>
+              ),
+              appclass: "app2",
+              addclass: "app07",
+            },
+          ]}
+          appContent7={[
+            {
+              title: "In-Game Asset & Token Creation",
+              text: "BitsWits specializes in providing bespoke in-game asset and token creation services. We offer various services tailored to suit your specific requirements: from creating 3D or 2D assets to programming custom tokenization systems and blockchain integration.",
+              appclass: "app4",
+              addclass: "app08",
+            },
+            {
+              title: "Smart Contract Dapp Game Development",
+              text: "BitsWits provides comprehensive smart-contract solutions for games that operate on blockchain networks. Contact us to bring your notion of a modern and decentralized gaming experience into reality.",
+              appclass: "app5",
+              addclass: "app09",
+            },
+          ]}
+        />
+        :
+        <ServicesMaintainmobile
+          severcedata={severcedata}
+
+        />
+
+      }
 
       <LpChoose transform="transform" />
 

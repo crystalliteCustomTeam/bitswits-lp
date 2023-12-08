@@ -31,14 +31,14 @@ const icon27 = await import("../public/images/fyiconsflutter/5.png");
 const icon28 = await import("../public/images/fyiconsflutter/6.png");
 
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
-const Partnerships= React.lazy(() => import('@/components/Partnerships'));
+const Partnerships = React.lazy(() => import('@/components/Partnerships'));
 
 const People = React.lazy(() => import('@/components/People'));
 const HomeBannerSliderlp = React.lazy(() =>
   import("@/components/HomeBannerSliderlp")
 );
 const LpChoose = React.lazy(() => import('@/components/LpChoose'));
-const LpForm= React.lazy(() => import('@/components/LpForm6'));
+const LpForm = React.lazy(() => import('@/components/LpForm6'));
 const Nothing = React.lazy(() => import('@/components/Nothing'));
 const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
@@ -46,8 +46,94 @@ const ProjectProcess = React.lazy(() =>
   import("@/components/ProjectProcessLp6")
 );
 const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
+const ServicesMaintainmobile = React.lazy(() => import('@/components/ServicesMaintainmobile'));
+
+const customios = await import("../public/images/flutterappdeveloper/dartapplicationdevelopmentservices.png");
+const iphoneapp = await import("../public/images/flutterappdeveloper/fluttercrossplatformappdevelopment.png");
+const applewatch = await import("../public/images/flutterappdeveloper/flutterdevelopmentforiosandroid.png");
+const appletvappdevelopment = await import("../public/images/flutterappdeveloper/customizedflutterdevelopmentsolutions.png");
+const iphoneappdesigning = await import("../public/images/flutterappdeveloper/testingqualityassurance.png");
+const hybridiphone = await import("../public/images/flutterappdeveloper/maintenancesupportservices.png");
+import { useState } from "react";
+import { useEffect } from "react";
 
 export default function HybridMobile() {
+
+  const [isSliderActive, setIsSliderActive] = useState(true);
+  useEffect(() => {
+
+    const handleResize = () => {
+      if (window.innerWidth < 1201) {
+        setIsSliderActive(false);
+      } else {
+        setIsSliderActive(true);
+      }
+    };
+
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+
+  const severcedata = [
+    {
+      classlayout: {
+        newclass: "iosclass",
+      },
+      heading: {
+       
+        title1: "No Challenge Is Too Great For Our",
+        title2: "Flutter App Development Company!",
+      },
+      serdata: [
+        {
+          title: "Dart Application Development Services",
+          text: "Our Dart application development services create efficient and powerful hybrid apps using the latest libraries to modernize your native apps. We'll help your app stand out and succeed with seamless solutions exceeding expectations.",
+          appclass: "app",
+          imgservice: customios
+        },
+        {
+          title: "Flutter Cross-Platform App Development",
+          text: "As a leading Flutter app development company, our expertise lies in developing innovative Flutter apps and provide solutions that extend your app's potential reach, driving your business growth to new heights. Hire us, and experience the difference of our exceptional Flutter app development services.",
+          appclass: "app1",
+          imgservice: iphoneapp
+        },
+        {
+          title: "Flutter Development For IOS & Android",
+          text: "We make stellar Flutter apps that work on both iOS and Android platforms. We aim to make your application stand out in the industry with our Flutter app development service. Trust our expert flutter developers to deliver seamless user experience and robust functionality.",
+          appclass: "app2",
+          imgservice: applewatch
+        },
+        {
+          title: "Customized Flutter Development Solutions",
+          text: "Flutter app developers at BitsWits can make customized powerful apps that help your business grow and reach more people. Hire top-rated Flutter development services and skyrocket your business growth.",
+          appclass: "app3",
+          imgservice: appletvappdevelopment
+        },
+        {
+          title: "Testing & Quality Assurance",
+          text: "Our Flutter mobile app developers, quality analysts, and testers, collaborate seamlessly to ensure your app is free of bugs during development. We guarantee you a dependable, top-notch final product that meets your expectations.",
+          appclass: "app4",
+          imgservice: iphoneappdesigning
+        },
+        {
+          title: "Maintenance & Support Services",
+          text: "BitsWits offers maintenance and support services to keep your Flutter applications running smoothly after launch. Our experts provide top-notch services to ensure your applications remain in excellent condition for a long term, giving you peace of mind and ensuring the success of your business.",
+          appclass: "app5",
+          imgservice: hybridiphone
+        },
+      ],
+    },
+  ];
+
+
+
+
   return (
     <>
       <Head>
@@ -115,7 +201,7 @@ export default function HybridMobile() {
         BannerImage={BannerImage}
         assignClass="flutter"
       />
-      
+
 
 
       <People People="people" />
@@ -123,7 +209,7 @@ export default function HybridMobile() {
       <HomeBannerSliderlp />
 
       <LpForm
-      addresClass='iosclass'
+        addresClass='iosclass'
       />
 
       <Nothing Nothing="nothingLp6" />
@@ -132,65 +218,78 @@ export default function HybridMobile() {
         title="Our Client’s Feedback Has Been"
         subtitle="Nothing Short Of Amazing!"
       /> */}
-      <ServicesMaintain
-        assignClass="flutter"
-        title1={<> No Challenge Is Too Great For Our </>}
-        title2={<> Flutter App Development Company! </>}
-        appContent={[]}
-        appContent1={
-          [
-            {
-              title: 'Dart Application Development Services',
-              text: (<> Our Dart application development services create efficient and powerful hybrid apps using the latest libraries to modernize your native apps. We'll help your app stand out and succeed with seamless solutions exceeding expectations. </>),
-              appclass: "app"
-            },
-            {
-              title: (<> Flutter Cross-Platform App Development </>),
-              text: (<> As a leading Flutter app development company, our expertise lies in developing innovative Flutter apps and provide solutions that extend your app's potential reach, driving your business growth to new heights. Hire us, and experience the difference of our exceptional Flutter app development services. </>),
-              appclass: "app1",
-            },
-            {
-              title: (<> Flutter Development For IOS & Android </>),
-              text: 'We make stellar Flutter apps that work on both iOS and Android platforms. We aim to make your application stand out in the industry with our Flutter app development service. Trust our expert flutter developers to deliver seamless user experience and robust functionality.',
-              appclass: "app2",
-            }
-          ]
-        }
-        appContent2={
-          [
-            {
-              title: 'Customized Flutter Development Solutions',
-              text: "Flutter app developers at BitsWits can make customized powerful apps that help your business grow and reach more people. Hire top-rated Flutter development services and skyrocket your business growth.",
-              appclass: "app3",
-            },
-          ]
-        }
-        appContent3={
-          [
-            {
-              title: (<> Testing & Quality <br /> Assurance </>),
-              text: (<> Our Flutter mobile app developers, quality analysts, and testers, collaborate seamlessly to ensure your app is free of bugs during development. We guarantee you a dependable, top-notch final product that meets your expectations. </>),
-              appclass: "app4",
-            },
-            {
-              title: (<> Maintenance & Support <br /> Services </>),
-              text: 'BitsWits offers maintenance and support services to keep your Flutter applications running smoothly after launch. Our experts provide top-notch services to ensure your applications remain in excellent condition for a long term, giving you peace of mind and ensuring the success of your business.',
-              appclass: "app5",
-            },
-          ]
-        }
-        appContent4={[]}
-        appContent5={[]}
-        appContent6={[]}
-        appContent7={[]}
-      />
+
+
+      {isSliderActive ?
+        <ServicesMaintain
+          assignClass="flutter"
+          title1={<> No Challenge Is Too Great For Our </>}
+          title2={<> Flutter App Development Company! </>}
+          appContent={[]}
+          appContent1={
+            [
+              {
+                title: 'Dart Application Development Services',
+                text: (<> Our Dart application development services create efficient and powerful hybrid apps using the latest libraries to modernize your native apps. We'll help your app stand out and succeed with seamless solutions exceeding expectations. </>),
+                appclass: "app"
+              },
+              {
+                title: (<> Flutter Cross-Platform App Development </>),
+                text: (<> As a leading Flutter app development company, our expertise lies in developing innovative Flutter apps and provide solutions that extend your app's potential reach, driving your business growth to new heights. Hire us, and experience the difference of our exceptional Flutter app development services. </>),
+                appclass: "app1",
+              },
+              {
+                title: (<> Flutter Development For IOS & Android </>),
+                text: 'We make stellar Flutter apps that work on both iOS and Android platforms. We aim to make your application stand out in the industry with our Flutter app development service. Trust our expert flutter developers to deliver seamless user experience and robust functionality.',
+                appclass: "app2",
+              }
+            ]
+          }
+          appContent2={
+            [
+              {
+                title: 'Customized Flutter Development Solutions',
+                text: "Flutter app developers at BitsWits can make customized powerful apps that help your business grow and reach more people. Hire top-rated Flutter development services and skyrocket your business growth.",
+                appclass: "app3",
+              },
+            ]
+          }
+          appContent3={
+            [
+              {
+                title: (<> Testing & Quality <br /> Assurance </>),
+                text: (<> Our Flutter mobile app developers, quality analysts, and testers, collaborate seamlessly to ensure your app is free of bugs during development. We guarantee you a dependable, top-notch final product that meets your expectations. </>),
+                appclass: "app4",
+              },
+              {
+                title: (<> Maintenance & Support <br /> Services </>),
+                text: 'BitsWits offers maintenance and support services to keep your Flutter applications running smoothly after launch. Our experts provide top-notch services to ensure your applications remain in excellent condition for a long term, giving you peace of mind and ensuring the success of your business.',
+                appclass: "app5",
+              },
+            ]
+          }
+          appContent4={[]}
+          appContent5={[]}
+          appContent6={[]}
+          appContent7={[]}
+        />
+        :
+        <ServicesMaintainmobile
+          severcedata={severcedata}
+
+        />
+
+      }
+
+
+
       {/* <NewAddress /> */}
 
       <WeworkLp wework="weworkLp6" />
 
-<StartupsLp startups="startups" />
+      <StartupsLp startups="startups" />
 
-<ProjectProcess
+      <ProjectProcess
         processclass="processLp6"
         title="Explore Our Flutter App Development Journey"
         desc="We believe in efficiency without compromising quality. Our
@@ -214,7 +313,7 @@ export default function HybridMobile() {
       /> */}
 
 
-<LpChoose transform="transform" />
+      <LpChoose transform="transform" />
 
       <ServisesWhy
         subtitle={
@@ -304,7 +403,7 @@ export default function HybridMobile() {
         title="Brace yourself for an App-venture!"
       /> */}
 
-<Globallplp6 />
+      <Globallplp6 />
       <Partnerships />
       <Formnewlp />
       <ServicesFaqs

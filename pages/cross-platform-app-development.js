@@ -32,14 +32,14 @@ const icon27 = await import('../public/images/fyicons/23.png');
 const icon28 = await import('../public/images/fyicons/24.png');
 const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
-const Partnerships= React.lazy(() => import('@/components/Partnerships'));
+const Partnerships = React.lazy(() => import('@/components/Partnerships'));
 
 const People = React.lazy(() => import('@/components/People'));
 const HomeBannerSliderlp = React.lazy(() =>
   import("@/components/HomeBannerSliderlp")
 );
 const LpChoose = React.lazy(() => import('@/components/LpChoose'));
-const LpForm= React.lazy(() => import('@/components/LpForm6'));
+const LpForm = React.lazy(() => import('@/components/LpForm6'));
 const Nothing = React.lazy(() => import('@/components/Nothing'));
 const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
@@ -47,8 +47,92 @@ const ProjectProcess = React.lazy(() =>
   import("@/components/ProjectProcessLp6")
 );
 
+const ServicesMaintainmobile = React.lazy(() => import('@/components/ServicesMaintainmobile'));
+const customios = await import("../public/images/crossappdevelopement/customcrossplatformdevelopment.png");
+const iphoneapp = await import("../public/images/crossappdevelopement/wearablecrossplatformapps.png");
+const applewatch = await import("../public/images/crossappdevelopement/crossplatformuiuxdesignservices.png");
+const appletvappdevelopment = await import("../public/images/crossappdevelopement/webbasedcrossplatformapps.png");
+const iphoneappdesigning = await import("../public/images/crossappdevelopement/aiintegratedcrossplatformapps.png");
+const hybridiphone = await import("../public/images/crossappdevelopement/crossplatformappsconsulting.png");
+import { useState } from "react";
+import { useEffect } from "react";
 
 export default function gamedevelopmentcompany() {
+
+
+  const [isSliderActive, setIsSliderActive] = useState(true);
+  useEffect(() => {
+
+    const handleResize = () => {
+      if (window.innerWidth < 1201) {
+        setIsSliderActive(false);
+      } else {
+        setIsSliderActive(true);
+      }
+    };
+
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+
+  const severcedata = [
+    {
+      classlayout: {
+        newclass: "iosclass",
+      },
+      heading: {
+        
+        title2: "Cross-Platform App Development",
+        title3: "One Codebase, Multiple Platforms, Infinite Possibilities",
+      },
+      serdata: [
+        {
+          title: 'Custom Cross-Platform Development',
+          text: 'Premier provider of custom multi-platform app development services, BitsWits employs the latest technologies, including web services, databases, user experience design, development frameworks, and testing tools, to ensure that your app is optimized for all devices, from iPhones to Android phones.',
+          appclass: "app",
+          imgservice: customios
+        },
+        {
+          title: (<> Wearable Cross-Platform <br /> Apps </>),
+          text: (<> Our team specializes in developing state-of-the-art wearable apps that seamlessly integrate with cameras and sensors across various platforms. Let us enhance your user experience with our expertise. </>),
+          appclass: "app1",
+          imgservice: iphoneapp
+        },
+        {
+          title: (<> Cross-Platform UI/UX Design Services </>),
+          text: 'Our cross-platform UI/UX design services provide a seamless user experience across all devices & operating systems. Our experts deliver visually stunning & user-friendly interfaces that keep users engaged & satisfied.',
+          appclass: "app2",
+          imgservice: applewatch
+        },
+        {
+          title: 'Web-Based Cross-Platform Apps',
+          text: "We provide a variety of options for cross-platform web app development, from cross-platform games to enterprise-level software solutions. Our cross-platform app development products are designed to be secure, user-friendly & highly adaptive.",
+          appclass: "app3",
+          imgservice: appletvappdevelopment
+        },
+        {
+          title: (<> AI Integrated Cross Platform Apps </>),
+          text: (<> BitsWits specializes in creating custom applications that utilize the power of artificial intelligence. Our AI-integrated cross-platform application development services offer innovative and intuitive solutions that leverage the latest AI technologies to automate tasks, streamline processes, and reduce costs for your business. </>),
+          appclass: "app4",
+          imgservice: iphoneappdesigning
+        },
+        {
+          title: (<> Cross Platform Apps Consulting </>),
+          text: 'Our team of cross-platform app developers actively listen to your ideas and craft custom plans to precisely meet your unique requirements. We highly value every project and strive to provide exceptional services that exceed your expectations.',
+          appclass: "app5",
+          imgservice: hybridiphone
+        },
+      ],
+    },
+  ];
+
+
   return (
     <>
       <Head>
@@ -121,8 +205,8 @@ export default function gamedevelopmentcompany() {
 
       <HomeBannerSliderlp />
 
-      <LpForm 
-      addresClass='iosclass'
+      <LpForm
+        addresClass='iosclass'
       />
 
       <Nothing Nothing="nothingLp6" />
@@ -132,65 +216,76 @@ export default function gamedevelopmentcompany() {
         subtitle="Nothing Short Of Amazing!"
       /> */}
       <Partnercross />
-      <ServicesMaintain
-        assignClass="cross"
-        title={<> Cross-Platform App Development </>}
-        title1={<> One Codebase, Multiple Platforms, Infinite Possibilities </>}
-        appContent={[]}
-        appContent1={
-          [
-            {
-              title: 'Custom Cross-Platform Development',
-              text: 'Premier provider of custom multi-platform app development services, BitsWits employs the latest technologies, including web services, databases, user experience design, development frameworks, and testing tools, to ensure that your app is optimized for all devices, from iPhones to Android phones.',
-              appclass: "app"
-            },
-            {
-              title: (<> Wearable Cross-Platform <br /> Apps </>),
-              text: (<> Our team specializes in developing state-of-the-art wearable apps that seamlessly integrate with cameras and sensors across various platforms. Let us enhance your user experience with our expertise. </>),
-              appclass: "app1",
-            },
-            {
-              title: (<> Cross-Platform UI/UX Design Services </>),
-              text: 'Our cross-platform UI/UX design services provide a seamless user experience across all devices & operating systems. Our experts deliver visually stunning & user-friendly interfaces that keep users engaged & satisfied.',
-              appclass: "app2",
-            }
-          ]
-        }
-        appContent2={
-          [
-            {
-              title: 'Web-Based Cross-Platform Apps',
-              text: "We provide a variety of options for cross-platform web app development, from cross-platform games to enterprise-level software solutions. Our cross-platform app development products are designed to be secure, user-friendly & highly adaptive.",
-              appclass: "app3",
-            },
-          ]
-        }
-        appContent3={
-          [
-            {
-              title: (<> AI Integrated Cross Platform Apps </>),
-              text: (<> BitsWits specializes in creating custom applications that utilize the power of artificial intelligence. Our AI-integrated cross-platform application development services offer innovative and intuitive solutions that leverage the latest AI technologies to automate tasks, streamline processes, and reduce costs for your business. </>),
-              appclass: "app4",
-            },
-            {
-              title: (<> Cross Platform Apps Consulting </>),
-              text: 'Our team of cross-platform app developers actively listen to your ideas and craft custom plans to precisely meet your unique requirements. We highly value every project and strive to provide exceptional services that exceed your expectations.',
-              appclass: "app5",
-            },
-          ]
-        }
-        appContent4={[]}
-        appContent5={[]}
-        appContent6={[]}
-        appContent7={[]}
-      />
-     {/* <NewAddress /> */}
 
-     <WeworkLp wework="weworkLp6" />
+      {isSliderActive ?
+        <ServicesMaintain
+          assignClass="cross"
+          title={<> Cross-Platform App Development </>}
+          title1={<> One Codebase, Multiple Platforms, Infinite Possibilities </>}
+          appContent={[]}
+          appContent1={
+            [
+              {
+                title: 'Custom Cross-Platform Development',
+                text: 'Premier provider of custom multi-platform app development services, BitsWits employs the latest technologies, including web services, databases, user experience design, development frameworks, and testing tools, to ensure that your app is optimized for all devices, from iPhones to Android phones.',
+                appclass: "app"
+              },
+              {
+                title: (<> Wearable Cross-Platform <br /> Apps </>),
+                text: (<> Our team specializes in developing state-of-the-art wearable apps that seamlessly integrate with cameras and sensors across various platforms. Let us enhance your user experience with our expertise. </>),
+                appclass: "app1",
+              },
+              {
+                title: (<> Cross-Platform UI/UX Design Services </>),
+                text: 'Our cross-platform UI/UX design services provide a seamless user experience across all devices & operating systems. Our experts deliver visually stunning & user-friendly interfaces that keep users engaged & satisfied.',
+                appclass: "app2",
+              }
+            ]
+          }
+          appContent2={
+            [
+              {
+                title: 'Web-Based Cross-Platform Apps',
+                text: "We provide a variety of options for cross-platform web app development, from cross-platform games to enterprise-level software solutions. Our cross-platform app development products are designed to be secure, user-friendly & highly adaptive.",
+                appclass: "app3",
+              },
+            ]
+          }
+          appContent3={
+            [
+              {
+                title: (<> AI Integrated Cross Platform Apps </>),
+                text: (<> BitsWits specializes in creating custom applications that utilize the power of artificial intelligence. Our AI-integrated cross-platform application development services offer innovative and intuitive solutions that leverage the latest AI technologies to automate tasks, streamline processes, and reduce costs for your business. </>),
+                appclass: "app4",
+              },
+              {
+                title: (<> Cross Platform Apps Consulting </>),
+                text: 'Our team of cross-platform app developers actively listen to your ideas and craft custom plans to precisely meet your unique requirements. We highly value every project and strive to provide exceptional services that exceed your expectations.',
+                appclass: "app5",
+              },
+            ]
+          }
+          appContent4={[]}
+          appContent5={[]}
+          appContent6={[]}
+          appContent7={[]}
+        />
+        :
+        <ServicesMaintainmobile
+          severcedata={severcedata}
 
-<StartupsLp startups="startups" />
+        />
 
-<ProjectProcess
+      }
+
+
+      {/* <NewAddress /> */}
+
+      <WeworkLp wework="weworkLp6" />
+
+      <StartupsLp startups="startups" />
+
+      <ProjectProcess
         processclass="processLp6"
         title="Explore Our Cross-Platform App Development Journey"
         desc="We believe in efficiency without compromising quality. Our
@@ -214,17 +309,17 @@ export default function gamedevelopmentcompany() {
       /> */}
 
 
-<LpChoose transform="transform" />
+      <LpChoose transform="transform" />
 
       <ServisesWhy
-          subtitle={
-            <>
-              {" "}
-              <h2 className="newfycolr font50 font-bold text-center">
-                Why Do You Require Our Cross-Platform Applications?
-              </h2>{" "}
-            </>
-          }
+        subtitle={
+          <>
+            {" "}
+            <h2 className="newfycolr font50 font-bold text-center">
+              Why Do You Require Our Cross-Platform Applications?
+            </h2>{" "}
+          </>
+        }
         sub2="Cross-platform app development services at BitsWits, allow us to efficiently reach more users across multiple devices while providing a persistent brand experience."
         whyData={
           [
@@ -305,7 +400,7 @@ export default function gamedevelopmentcompany() {
       /> */}
 
 
-<Globallplp6 />
+      <Globallplp6 />
       <Partnerships />
       <Formnewlp />
       <ServicesFaqs

@@ -54,7 +54,7 @@ export default function Home() {
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth < 480) {
+      if (window.innerWidth < 992) {
         setIsSliderActive(false);
       } else {
         setIsSliderActive(true);
@@ -72,6 +72,9 @@ export default function Home() {
 
   const severcedata = [
     {
+        classlayout: {
+            newclass: "homeclass",
+          },
       heading: {
         // subtitle: "Delivering Excellence Daily",
         title1: "Delivering Excellence Daily",

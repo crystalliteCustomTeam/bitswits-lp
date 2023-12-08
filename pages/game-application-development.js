@@ -54,7 +54,128 @@ const engIcon4 = await import("@/public/shark/shark4.png");
 
 import styles from "@/styles/ServicesAdvantage.module.css";
 
+const customios = await import("../public/images/gameappdevelopement/unity3dgames.png");
+const iphoneapp = await import("../public/images/gameappdevelopement/virtualrealitygames.png");
+const applewatch = await import("../public/images/gameappdevelopement/3dgamedevelopment.png");
+const appletvappdevelopment = await import("../public/images/gameappdevelopement/unrealgamedevelopment.png");
+const iphoneappdesigning = await import("../public/images/gameappdevelopement/argamedevelopment.png");
+const hybridiphone = await import("../public/images/gameappdevelopement/mrgamedevelopment.png");
+const react = await import("../public/images/gameappdevelopement/crossplatformgamedevelopment.png");
+const reactnative = await import("../public/images/gameappdevelopement/buildboxgamedevelopment.png");
+
+
+
+import { useState } from "react";
+import { useEffect } from "react";
+const ServicesMaintainmobile = React.lazy(() => import('@/components/ServicesMaintainmobile'));
+
+
 export default function Gameapplicationdevelopment() {
+
+
+  const [isSliderActive, setIsSliderActive] = useState(true);
+  useEffect(() => {
+
+    const handleResize = () => {
+      if (window.innerWidth < 1201) {
+        setIsSliderActive(false);
+      } else {
+        setIsSliderActive(true);
+      }
+    };
+
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+
+  const severcedata = [
+    {
+      classlayout: {
+        newclass: "iosclass",
+      },
+      heading: {
+        subtitle: "The Work We Undertake",
+        title1: "The Genres Of Games We Develop",
+        text: `We are famous for creating immersive game experiences with engaging storylines, stunning visuals, and innovative gameplay mechanics.
+        Here's an exciting rundown of what we bring to the table.`,
+      },
+      serdata: [
+        {
+          title: " Unity 3D Games",
+          text: `We work with Unity 3D technology to foster unforgettable gaming
+          experiences that push the boundaries of what's possible. Whether
+          you want an action-packed shooter or a more peaceful puzzle
+          title, we can ensure your game is a success and tends to become
+          a revenue-generating machine!`,
+          appclass: "app",
+          imgservice: customios
+        },
+        {
+          title: "Virtual Reality Games",
+          text: `Producing immersive and mind-blowing virtual reality experiences
+          for gamers and businesses alike. Our games are designed with the
+          player's experience in mind and feature intuitive controls,
+          immersive soundscapes, and realistic visuals that transport
+          players into another world. Get ready to hook your gamers and
+          urge them to return for more!`,
+          appclass: "app1",
+          imgservice: iphoneapp
+        },
+        {
+          title: "3D Game Development",
+          text: `BitsWits masters the art of creating stunning 3D games,
+          harnessing the power of cutting-edge technology and
+          state-of-the-art tools. We know that a successful 3D game
+          requires more than just great visuals – it's also about a
+          compelling gameplay experience. Hence, we ensure games that are
+          balanced, entertaining, and mesmerizing for players of all ages!
+          Believe it or not, we are the perfect place to get your next
+          gaming project off the ground!`,
+          appclass: "app2",
+          imgservice: applewatch
+        },
+        {
+          title: "Unreal Game Development",
+          text: "Unleashing the potential of Unreal Engine Technology, BitsWits create games that push the boundaries of what's possible in gaming and transport players into new worlds with breathtaking visuals and engaging gameplay. Let your imagination run wild with the one-of-a-kind gaming studio, BitsWits!!!",
+          appclass: "app3",
+          imgservice: appletvappdevelopment
+        },
+        {
+          title: "AR Game Development",
+          text: "BitsWits helps you unlock a world of dazzling possibilities and experience the ultimate gaming entertainment with its sheer expertise in building AR games. With cutting-edge technologies such as 3D scanning, game engine creation, and cloud-based storage, we provide innovative solutions built to stand the test of time!",
+          appclass: "app4",
+          imgservice: iphoneappdesigning
+        },
+        {
+          title: "MR Game Development",
+          text: "BitsWits create technology-advanced MR games using the latest 3D graphics, motion capture systems, and robust gaming engines. From intense battles, realistic racing simulators, exciting open-world exploration, and highly interactive first-person shooters to interactive puzzles, there is nothing our gaming maestros don't excel at. Time to leave your gamers gasping for more; after all, this is what we always ensure!",
+          appclass: "app5",
+          imgservice: hybridiphone
+        },
+        {
+          title: "Cross-platform Game Development",
+          text: `BitsWits capitalizes on the latest technologies to develop games that look and run seamlessly on all devices and gadgets. We share the experience in a slew of genres, i.e., casual, RPG, FPS, and more. Hire us to get a game that serves as the ticket to reaching a global audience!`,
+          appclass: "app6",
+          imgservice: react
+        },
+        {
+          title: "Buildbox Game Development",
+          text: "BitsWits cashes in on the Buildbox platform and creates beautiful 3D worlds, physics-based levels, mind-bending puzzles, heart-pumping action games, side-scrolling runners, and whatnot. Tap into the power of this ground-breaking space with our world-class game developers, and let your rivals be knocked out of the competition!",
+          appclass: "app7",
+          imgservice: reactnative
+        },
+      ],
+    },
+  ];
+
+
+
   return (
     <>
       <Head>
@@ -153,135 +274,145 @@ export default function Gameapplicationdevelopment() {
         content3="BitsWits collar the intricacies of mobile gaming technology and help develop a strategy for success. We use cutting-edge software, languages, and frameworks; you can enjoy superior graphics and sound that bring every battle, mission, or quest to life. Our innovative network protocols will keep your game running smoothly with low latency and excellent responsiveness."
       />
 
-      <ServicesMaintain
-        assignClass="gameApp"
-        subtitle="The Work We Undertake"
-        title0={
-          <>
-            {" "}
-            The Genres Of <span className="">Games</span> We Develop{" "}
-          </>
-        }
-        text={
-          <>
-            {" "}
-            We are famous for creating immersive game experiences with engaging
-            storylines, stunning visuals, and innovative gameplay mechanics.{" "}
-            <br />
-            Here's an exciting rundown of what we bring to the table.{" "}
-          </>
-        }
-        appContent={[]}
-        appContent1={[
-          {
-            title: (
-              <>
-                {" "}
-                Unity 3D <br /> Games{" "}
-              </>
-            ),
-            text: (
-              <>
-                {" "}
-                We work with Unity 3D technology to foster unforgettable gaming
-                experiences that push the boundaries of what's possible. Whether
-                you want an action-packed shooter or a more peaceful puzzle
-                title, we can ensure your game is a success and tends to become
-                a revenue-generating machine!{" "}
-              </>
-            ),
-            appclass: "app",
-          },
-          {
-            title: (
-              <>
-                {" "}
-                Virtual Reality <br /> Games{" "}
-              </>
-            ),
-            text: (
-              <>
-                {" "}
-                Producing immersive and mind-blowing virtual reality experiences
-                for gamers and businesses alike. Our games are designed with the
-                player's experience in mind and feature intuitive controls,
-                immersive soundscapes, and realistic visuals that transport
-                players into another world. Get ready to hook your gamers and
-                urge them to return for more!{" "}
-              </>
-            ),
-            appclass: "app1",
-          },
-          {
-            title: (
-              <>
-                {" "}
-                3D Game <br /> Development{" "}
-              </>
-            ),
-            text: (
-              <>
-                {" "}
-                BitsWits masters the art of creating stunning 3D games,
-                harnessing the power of cutting-edge technology and
-                state-of-the-art tools. We know that a successful 3D game
-                requires more than just great visuals – it's also about a
-                compelling gameplay experience. Hence, we ensure games that are
-                balanced, entertaining, and mesmerizing for players of all ages!
-                Believe it or not, we are the perfect place to get your next
-                gaming project off the ground!{" "}
-              </>
-            ),
-            appclass: "app2",
-          },
-        ]}
-        appContent2={[
-          {
-            title: "Unreal Game Development",
-            text: "Unleashing the potential of Unreal Engine Technology, BitsWits create games that push the boundaries of what's possible in gaming and transport players into new worlds with breathtaking visuals and engaging gameplay. Let your imagination run wild with the one-of-a-kind gaming studio, BitsWits!!!",
-            appclass: "app3",
-          },
-        ]}
-        appContent3={[
-          {
-            title: "AR Game Development",
-            text: "BitsWits helps you unlock a world of dazzling possibilities and experience the ultimate gaming entertainment with its sheer expertise in building AR games. With cutting-edge technologies such as 3D scanning, game engine creation, and cloud-based storage, we provide innovative solutions built to stand the test of time!",
-            appclass: "app4",
-          },
-          {
-            title: "MR Game Development",
-            text: "BitsWits create technology-advanced MR games using the latest 3D graphics, motion capture systems, and robust gaming engines. From intense battles, realistic racing simulators, exciting open-world exploration, and highly interactive first-person shooters to interactive puzzles, there is nothing our gaming maestros don't excel at. Time to leave your gamers gasping for more; after all, this is what we always ensure!",
-            appclass: "app5",
-          },
-        ]}
-        appContent4={[
-          {
-            title: "Cross-platform Game Development",
-            text: (
-              <>
-                BitsWits capitalizes on the latest technologies to develop games
-                that look and run seamlessly{" "}
-                <br className="d-lg-block d-none" /> on all devices and gadgets.
-                We share the experience in a slew of genres, i.e., casual, RPG,
-                FPS,
-                <br className="d-lg-block d-none" /> and more. Hire us to get a
-                game that serves as the ticket to reaching a global audience!
-              </>
-            ),
-            appclass: "app03",
-          },
-        ]}
-        appContent5={[
-          {
-            title: "Buildbox Game Development",
-            text: "BitsWits cashes in on the Buildbox platform and creates beautiful 3D worlds, physics-based levels, mind-bending puzzles, heart-pumping action games, side-scrolling runners, and whatnot. Tap into the power of this ground-breaking space with our world-class game developers, and let your rivals be knocked out of the competition!",
-            appclass: "app04",
-          },
-        ]}
-        appContent6={[]}
-        appContent7={[]}
-      />
 
+
+      {isSliderActive ?
+
+        <ServicesMaintain
+          assignClass="gameApp"
+          subtitle="The Work We Undertake"
+          title0={
+            <>
+              {" "}
+              The Genres Of <span className="">Games</span> We Develop{" "}
+            </>
+          }
+          text={
+            <>
+              {" "}
+              We are famous for creating immersive game experiences with engaging
+              storylines, stunning visuals, and innovative gameplay mechanics.{" "}
+              <br />
+              Here's an exciting rundown of what we bring to the table.{" "}
+            </>
+          }
+          appContent={[]}
+          appContent1={[
+            {
+              title: (
+                <>
+                  {" "}
+                  Unity 3D <br /> Games{" "}
+                </>
+              ),
+              text: (
+                <>
+                  {" "}
+                  We work with Unity 3D technology to foster unforgettable gaming
+                  experiences that push the boundaries of what's possible. Whether
+                  you want an action-packed shooter or a more peaceful puzzle
+                  title, we can ensure your game is a success and tends to become
+                  a revenue-generating machine!{" "}
+                </>
+              ),
+              appclass: "app",
+            },
+            {
+              title: (
+                <>
+                  {" "}
+                  Virtual Reality <br /> Games{" "}
+                </>
+              ),
+              text: (
+                <>
+                  {" "}
+                  Producing immersive and mind-blowing virtual reality experiences
+                  for gamers and businesses alike. Our games are designed with the
+                  player's experience in mind and feature intuitive controls,
+                  immersive soundscapes, and realistic visuals that transport
+                  players into another world. Get ready to hook your gamers and
+                  urge them to return for more!{" "}
+                </>
+              ),
+              appclass: "app1",
+            },
+            {
+              title: (
+                <>
+                  {" "}
+                  3D Game <br /> Development{" "}
+                </>
+              ),
+              text: (
+                <>
+                  {" "}
+                  BitsWits masters the art of creating stunning 3D games,
+                  harnessing the power of cutting-edge technology and
+                  state-of-the-art tools. We know that a successful 3D game
+                  requires more than just great visuals – it's also about a
+                  compelling gameplay experience. Hence, we ensure games that are
+                  balanced, entertaining, and mesmerizing for players of all ages!
+                  Believe it or not, we are the perfect place to get your next
+                  gaming project off the ground!{" "}
+                </>
+              ),
+              appclass: "app2",
+            },
+          ]}
+          appContent2={[
+            {
+              title: "Unreal Game Development",
+              text: "Unleashing the potential of Unreal Engine Technology, BitsWits create games that push the boundaries of what's possible in gaming and transport players into new worlds with breathtaking visuals and engaging gameplay. Let your imagination run wild with the one-of-a-kind gaming studio, BitsWits!!!",
+              appclass: "app3",
+            },
+          ]}
+          appContent3={[
+            {
+              title: "AR Game Development",
+              text: "BitsWits helps you unlock a world of dazzling possibilities and experience the ultimate gaming entertainment with its sheer expertise in building AR games. With cutting-edge technologies such as 3D scanning, game engine creation, and cloud-based storage, we provide innovative solutions built to stand the test of time!",
+              appclass: "app4",
+            },
+            {
+              title: "MR Game Development",
+              text: "BitsWits create technology-advanced MR games using the latest 3D graphics, motion capture systems, and robust gaming engines. From intense battles, realistic racing simulators, exciting open-world exploration, and highly interactive first-person shooters to interactive puzzles, there is nothing our gaming maestros don't excel at. Time to leave your gamers gasping for more; after all, this is what we always ensure!",
+              appclass: "app5",
+            },
+          ]}
+          appContent4={[
+            {
+              title: "Cross-platform Game Development",
+              text: (
+                <>
+                  BitsWits capitalizes on the latest technologies to develop games
+                  that look and run seamlessly{" "}
+                  <br className="d-lg-block d-none" /> on all devices and gadgets.
+                  We share the experience in a slew of genres, i.e., casual, RPG,
+                  FPS,
+                  <br className="d-lg-block d-none" /> and more. Hire us to get a
+                  game that serves as the ticket to reaching a global audience!
+                </>
+              ),
+              appclass: "app03",
+            },
+          ]}
+          appContent5={[
+            {
+              title: "Buildbox Game Development",
+              text: "BitsWits cashes in on the Buildbox platform and creates beautiful 3D worlds, physics-based levels, mind-bending puzzles, heart-pumping action games, side-scrolling runners, and whatnot. Tap into the power of this ground-breaking space with our world-class game developers, and let your rivals be knocked out of the competition!",
+              appclass: "app04",
+            },
+          ]}
+          appContent6={[]}
+          appContent7={[]}
+        />
+        :
+        <ServicesMaintainmobile
+          severcedata={severcedata}
+
+        />
+
+      }
       <LpChoose transform="transform" />
 
       <ServiceSolutions
