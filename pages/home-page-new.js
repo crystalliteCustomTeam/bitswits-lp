@@ -46,7 +46,7 @@ export default function Home() {
       <NewHomeWho />
       <NewHomeWhat />
       <Justbuildit />
-      <NewHomeHear />
+      {/* <NewHomeHear /> */}
       <NewMaintain />
       <Globallplp6 />
       <ProjectProcess

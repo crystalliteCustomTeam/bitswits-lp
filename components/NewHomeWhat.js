@@ -4,7 +4,7 @@ import Link from 'next/link';
 import styles from "@/styles/NewHomeWhat.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
 //
-import ButtonIcon from "@/public/newHomePageImages/home_btn.png"
+import ButtonIcon from "@/public/shark/home_btn.png"
 import WhatImage from "@/public/newHomePageImages/what_Image.png"
 
 const NewHomeWhat = () => {
@@ -34,7 +34,7 @@ const NewHomeWhat = () => {
                 </Container>
 
                 <div className='sec_image text-center pt-5'>
-                    <Image quality={75} alt='BitsWits' src={WhatImage} className={styles.secImage} />
+                    {/* <Image quality={75} alt='BitsWits' src={WhatImage} className={styles.secImage} /> */}
                 </div>
 
                 <div className="mixColor2"></div>

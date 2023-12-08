@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 //
 import WhoImage from "@/public/newHomePageImages/who_image.png"
-import ButtonIcon from "@/public/newHomePageImages/home_btn.png"
+import ButtonIcon from "@/public/shark/home_btn.png"
 
 
 const NewHomeWho = () => {

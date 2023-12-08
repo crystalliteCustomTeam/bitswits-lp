@@ -25,7 +25,7 @@
 }
 
 .btn_txt {
-  background: linear-gradient(to right, #f32f53 0%, #4a78ef 100%);
+  background: #f32f53;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 25px;
