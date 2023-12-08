@@ -62,14 +62,14 @@ const NewIndex2Banner = () => {
           <li className={`${styles.item} item ${styles.item2}`}>
             {itemData.map((item, index) => (
               <div key={index} className={styles.content}>
-                <p className={`${styles.just} font-bold f-20 mb-lg-0`}>
+                <p className={`${styles.just} font-bold f-20 mb-0`}>
                   Blockchain App Development Experts
                 </p>
-                <h1 className={`${styles.develop} font50 font-bold mt-2`}>
+                <h1 className={`${styles.develop} font50 font-bold mt-sm-2 mt-0 `}>
                   Secure, Smart Blockchain Solutions. Building The Future, Block
                   By Block.
                 </h1>
-                <p className="text-white font16 mt-3">
+                <p className="text-white font16 mt-sm-3 mt-1 mb-0 mb-sm-2">
                   Lead the blockchain revolution with our expertly developed
                   apps, offering unmatched security and innovation. Choose us
                   for solutions that revolutionize transactions and trust.

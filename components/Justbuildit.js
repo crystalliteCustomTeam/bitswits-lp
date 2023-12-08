@@ -16,83 +16,84 @@ import banImg2 from "../public/images/banner/bannerImg2.png";
 import banImg3 from "../public/images/banner/bannerImg1.png";
 import banImg4 from "../public/images/banner/bannerImg2.png";
 import banImg5 from "../public/images/banner/bannerImg1.png";
+import Slider from "react-slick";
 
 const Justbuildit = (props) => {
   const router = useRouter();
 
-  const swiperRef = useRef(null);
-  useEffect(() => {
-    register();
-    const params = {
-      slidesPerGroupSkip: 1,
-      // speed: 1500,
-      slidesPerView: 1,
-      // navigation: false,
-      // spaceBetween: 20,
-      loop: true,
-      // autoplay: true,
-      // autoplayDelay: 2500,
-      //   injectStyles: [
-      //     `
-      //             .swiper-pagination {
-      //                 bottom: 5px !important;
-      //             }
-      //             .swiper-pagination-bullet {
-      //                 width: 16px;
-      //                 height: 16px;
-      //                 text-align: center;
-      //                 line-height: 16px;
-      //                 font-size: 8px;
-      //                 color: rgb(255, 255, 255);
-      //                 opacity: 1;
-      //                 background: #DB3340;
-      //             }
-      //             .swiper-pagination-bullet-active {
-      //                 color: #fff;
-      //                 background: #007AFF;
-      //             }
-      //         `,
-      //   ],
-      //   pagination: {
-      //     clickable: true,
-      //     renderBullet: function (index, className) {
-      //       return '<span class="' + className + '">' + (index + 1) + "</span>";
-      //     },
-      //   },
-      // paginationType: "progressbar",
-      breakpoints: {
-        576: {
-          slidesPerView: 2,
-        },
-        768: {
-          slidesPerView: 3,
-        },
-        992: {
-          slidesPerView: 4,
-        },
-        1200: {
-          slidesPerView: 5,
-        },
-      },
-    };
-    // Assign it to swiper element
-    Object.assign(swiperRef.current, params);
-    // initialize swiper
-    swiperRef.current.initialize();
-  }, [swiperRef]);
-
-  // var bannerslider = {
-  //     dots: false,
-  //     arrows: false,
-  //     infinite: true,
+  // const swiperRef = useRef(null);
+  // useEffect(() => {
+  //   register();
+  //   const params = {
+  //     slidesPerGroupSkip: 1,
+  //     // speed: 1500,
+  //     slidesPerView: 1,
+  //     // navigation: false,
+  //     // spaceBetween: 20,
+  //     loop: true,
   //     autoplay: true,
-  //     autoplaySpeed: 0,
-  //     speed: 20000,
-  //     pauseOnHover: false,
-  //     cssEase: 'linear',
-  //     slidesToShow: 1,
-  //     slidesToScroll: 1
-  // };
+  //     // autoplayDelay: 2500,
+  //     //   injectStyles: [
+  //     //     `
+  //     //             .swiper-pagination {
+  //     //                 bottom: 5px !important;
+  //     //             }
+  //     //             .swiper-pagination-bullet {
+  //     //                 width: 16px;
+  //     //                 height: 16px;
+  //     //                 text-align: center;
+  //     //                 line-height: 16px;
+  //     //                 font-size: 8px;
+  //     //                 color: rgb(255, 255, 255);
+  //     //                 opacity: 1;
+  //     //                 background: #DB3340;
+  //     //             }
+  //     //             .swiper-pagination-bullet-active {
+  //     //                 color: #fff;
+  //     //                 background: #007AFF;
+  //     //             }
+  //     //         `,
+  //     //   ],
+  //     //   pagination: {
+  //     //     clickable: true,
+  //     //     renderBullet: function (index, className) {
+  //     //       return '<span class="' + className + '">' + (index + 1) + "</span>";
+  //     //     },
+  //     //   },
+  //     // paginationType: "progressbar",
+  //     breakpoints: {
+  //       576: {
+  //         slidesPerView: 2,
+  //       },
+  //       768: {
+  //         slidesPerView: 3,
+  //       },
+  //       992: {
+  //         slidesPerView: 4,
+  //       },
+  //       1200: {
+  //         slidesPerView: 5,
+  //       },
+  //     },
+  //   };
+  //   // Assign it to swiper element
+  //   Object.assign(swiperRef.current, params);
+  //   // initialize swiper
+  //   swiperRef.current.initialize();
+  // }, [swiperRef]);
+
+  var bannerslider = {
+    dots: false,
+    arrows: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 0,
+    speed: 20000,
+    pauseOnHover: false,
+    cssEase: "linear",
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
 
   return (
     <>
@@ -120,7 +121,7 @@ const Justbuildit = (props) => {
           </Row>
         </Container>
 
-        <swiper-container
+        {/* <swiper-container
           ref={swiperRef}
           init={false}
           className="mt-5 pt-5 jstBuild"
@@ -155,9 +156,9 @@ const Justbuildit = (props) => {
               <Image alt="BitsWits" src={banImg5} className="img-fluid w-100" />
             </div>
           </swiper-slide>
-        </swiper-container>
+        </swiper-container> */}
 
-        {/* <Slider {...bannerslider} className="mt-5 jstBuild">
+        <Slider {...bannerslider} className="mt-5 jstBuild">
           <div className={styles.strpImg}>
             <Image alt="BitsWits" src={banImg1} className="img-fluid w-100" />
           </div>
@@ -173,7 +174,7 @@ const Justbuildit = (props) => {
           <div className={styles.strpImg}>
             <Image alt="BitsWits" src={banImg5} className="img-fluid w-100" />
           </div>
-        </Slider> */}
+        </Slider>
       </section>
     </>
   );

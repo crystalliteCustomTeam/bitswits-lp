@@ -1947,10 +1947,6 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 991px) {
-
-
-
-
   .thanksgiving .modal-content {
     height: 100%;
     margin-top: 20%;
@@ -3468,5 +3464,10 @@ button {
   .font220 {
     font-size: 31px;
     line-height: 30px;
+  }
+
+  .font16 {
+    font-size: 16px;
+    line-height: 22px;
   }
 }
