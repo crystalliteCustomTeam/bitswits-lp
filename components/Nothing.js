@@ -117,6 +117,8 @@ export default function Nothing(props) {
             </Col>
             <Col lg={8}>
               <Image
+                width={869}
+                height={855}
                 src={banImg1}
                 alt="BitsWits"
                 className={`${styles.mapImg} img-fluid`}
