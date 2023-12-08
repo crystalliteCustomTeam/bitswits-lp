@@ -5,7 +5,6 @@
   margin-top: -1%;
 }
 
-
 .para {
   font-size: 14px;
   max-width: 375px;
@@ -378,6 +377,48 @@
 }
 
 @media screen and (max-width: 991px) {
+  .app,
+  .app1,
+  .app2,
+  .app3,
+  .app4,
+  .app5,
+  .app6,
+  .app7 {
+    height: 429px;
+  }
+
+  .app2 {
+    background-image: url(../public/newHomePage/images/mobileimages/newMaintain3.png);
+  }
+
+  .app3 {
+    background-image: url(../public/newHomePage/images/mobileimages/newMaintain4.png);
+  }
+
+  .app4 {
+    background-image: url(../public/newHomePage/images/mobileimages/newMaintain5.png);
+  }
+
+  .app5 {
+    background-image: url(../public/newHomePage/images/mobileimages/newMaintain6.png);
+  }
+
+  .app6 {
+    background-image: url(../public/newHomePage/images/mobileimages/newMaintain7.png);
+  }
+
+  /* .app7{
+    background-image: url(../public/newHomePage/images/mobileimages/newMaintain8.png);
+  } */
+
+  .pick {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
   .newHomeBg {
     padding-top: 80px;
     padding-bottom: 0px;
@@ -450,7 +491,6 @@
     width: 85%;
     padding-bottom: 20px;
   }
-
 }
 
 @media screen and (max-width: 480px) {

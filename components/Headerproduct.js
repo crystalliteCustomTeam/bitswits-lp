@@ -234,14 +234,12 @@ const Header = () => {
                          
                             onMouseEnter={() => fun11('active1')}
                             onMouseLeave={() => fun21('secImage11')}
-                            className={styles.product}><Link className={styles.post} href='#'>Products
+                            className={styles.product}><Link className={styles.post} href='#'>Services
                                 <FaAngleDown />
                             </Link>
                             {isHovered1 === 'active1' ? (
 
                                 <div  className={styles.megamenu}>
-                                    
-                                    
                                     <Row>
                                         <Col lg={4} className={` ${styles.newspace}`}>
                                             <div>
@@ -549,7 +547,7 @@ const Header = () => {
                             }
                         </li> */}
 
-                        <li onMouseEnter={() => funserve('active2')}
+                        {/* <li onMouseEnter={() => funserve('active2')}
                             onMouseLeave={() => funserve2('secImage2')}
                             className={styles.product}
                         >
@@ -747,7 +745,7 @@ const Header = () => {
                                 ''
                             }
 
-                        </li>
+                        </li> */}
                         <li onMouseEnter={() => funcom('active3')}
                             onMouseLeave={() => funcom2('secImage2')}
                             className={styles.product}

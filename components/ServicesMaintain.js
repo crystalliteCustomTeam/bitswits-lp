@@ -58,7 +58,7 @@ const ServicesMaintain = (props) => {
               </Col>
             ))}
             {props.appContent2.map((content, index) => (
-              <Col key={index} lg={12} className={styles.earn}>
+              <Col key={index} sm={6} lg={12} className={styles.earn}>
                 <div className={styles[content.appclass]}>
                   <Row className="align-items-center">
                     <Col xl={6} key={index}>

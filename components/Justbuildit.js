@@ -111,7 +111,7 @@ const Justbuildit = (props) => {
                 Hire BitsWits & Watch Your App Ideas Aspire!
               </h3>
 
-              <div className={styles.pont}>
+              <div className={`${styles.pont} mb-4 mb-md-0`}>
                 <Link className={styles.about} href="tel:+18335006007">
                   LET'S CONNECT
                 </Link>
