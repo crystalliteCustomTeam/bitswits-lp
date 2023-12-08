@@ -10,20 +10,57 @@ const ServicesMaintainmobile = ({ severcedata }) => {
 
   const heading = severcedata[0].heading;
   const serdata = severcedata[0].serdata;
+  const classlayout = severcedata[0].classlayout;
 
   var awardslogo = {
     dots: false,
     arrows: false,
     autoplay: true,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+
+        }
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+    ]
 
   };
 
   return (
     <>
 
-      <section className={` ${styles.newHomeBg} `}>
+      <section className={`${styles[classlayout.newclass]}`}>
         <Container>
           <Row className="mb-5">
             <Col lg={12}>
@@ -42,6 +79,11 @@ const ServicesMaintainmobile = ({ severcedata }) => {
               {heading.title2 &&
                 <h2 className="newfycolr font55 font-bold text-center d-block mb-2">
                   {heading.title2}
+                </h2>
+              }
+                {heading.title3 &&
+                <h2 className="text-white font50 f-700 text-center mb-2">
+                  {heading.title3}
                 </h2>
               }
 

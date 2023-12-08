@@ -31,14 +31,14 @@ const icon27 = await import('../public/images/fynative/5.png');
 const icon28 = await import('../public/images/fynative/6.png');
 const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
-const Partnerships= React.lazy(() => import('@/components/Partnerships'));
+const Partnerships = React.lazy(() => import('@/components/Partnerships'));
 
 const People = React.lazy(() => import('@/components/People'));
 const HomeBannerSliderlp = React.lazy(() =>
     import("@/components/HomeBannerSliderlp")
 );
 const LpChoose = React.lazy(() => import('@/components/LpChoose'));
-const LpForm= React.lazy(() => import('@/components/LpForm6'));
+const LpForm = React.lazy(() => import('@/components/LpForm6'));
 const Nothing = React.lazy(() => import('@/components/Nothing'));
 const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
@@ -47,7 +47,93 @@ const ProjectProcess = React.lazy(() =>
 );
 
 
+const customios = await import("../public/images/reactnativeappdevelopment/reactnativemobileappdevelopmentservices.png");
+const iphoneapp = await import("../public/images/reactnativeappdevelopment/expertreactnativecodedevelopmentservices.png");
+const applewatch = await import("../public/images/reactnativeappdevelopment/expertreactnativeappmaintenanceservices.png");
+const appletvappdevelopment = await import("../public/images/reactnativeappdevelopment/hybridmobileappwithreactnative.png");
+const iphoneappdesigning = await import("../public/images/reactnativeappdevelopment/customreactplugindevelopmentforapps.png");
+const hybridiphone = await import("../public/images/reactnativeappdevelopment/customreactnativeuiuxdesignforapps.png");
+
+
+const ServicesMaintainmobile = React.lazy(() => import('@/components/ServicesMaintainmobile'));
+
+
+import { useState } from "react";
+import { useEffect } from "react";
+
 export default function ReactNativeMobile() {
+
+    const [isSliderActive, setIsSliderActive] = useState(true);
+    useEffect(() => {
+
+        const handleResize = () => {
+            if (window.innerWidth < 1201) {
+                setIsSliderActive(false);
+            } else {
+                setIsSliderActive(true);
+            }
+        };
+
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+
+    const severcedata = [
+        {
+            classlayout: {
+                newclass: "iosclass",
+            },
+            heading: {
+                subtitle: "Go Beyond Expectations With",
+                title2: "React Native App Development",
+                title3: "In A Whole New Way - Access Unique Services & Solutions!",
+            },
+            serdata: [
+                {
+                    title: "React Native Mobile App Development Services",
+                    text: "Our expert team of React Native developers create high-performance, native-like mobile apps for both Android and iOS platforms. With our React Native mobile app development services, you can ensure the best user experience for your app users.",
+                    appclass: "app",
+                    imgservice: customios
+                },
+                {
+                    title: "Expert React Native Code Development Services",
+                    text: "Our React Native code development services ensure your app is developed with clean, efficient, and high-quality code. Our experienced developers ensure that your app's performance is optimized for performance and scalability.",
+                    appclass: "app1",
+                    imgservice: iphoneapp
+                },
+                {
+                    title: "Expert React Native App Maintenance Services",
+                    text: "We provide reliable and efficient React Native app maintenance services to maintain your app up-to-date with the latest features and functionalities. Our team of experts ensures that your app runs smoothly, is bug-free, and is optimized for performance.",
+                    appclass: "app2",
+                    imgservice: applewatch
+                },
+                {
+                    title: "Hybrid Mobile App with React Native",
+                    text: "Our React Native, hybrid mobile app development services combine the benefits of both native and web-based apps. This approach allows for faster development, cost-effectiveness, & cross-platform compatibility.",
+                    appclass: "app3",
+                    imgservice: appletvappdevelopment
+                },
+                {
+                    title: "Custom React Plugin Development for Apps",
+                    text: "Our React Native plugin development services allow you to integrate custom features into your app. We create customized plugins that enhance your app's functionality and provide a unique user experience.",
+                    appclass: "app4",
+                    imgservice: iphoneappdesigning
+                },
+                {
+                    title: "Custom React Native UI/UX Design for Apps",
+                    text: "Our React Native UI/UX design services ensures your app has an intuitive, user-friendly interface with stunning visuals. We create customized designs for your app that look great and provide a seamless user experience.",
+                    appclass: "app5",
+                    imgservice: hybridiphone
+                },
+            ],
+        },
+    ];
 
     return (
         <>
@@ -96,7 +182,7 @@ export default function ReactNativeMobile() {
             <HomeBannerSliderlp />
 
             <LpForm
-            addresClass='iosclass'
+                addresClass='iosclass'
             />
 
             <Nothing Nothing="nothingLp6" />
@@ -104,59 +190,72 @@ export default function ReactNativeMobile() {
                 title="Our Client’s Feedback Has Been"
                 subtitle="Nothing Short Of Amazing!"
             /> */}
-            <ServicesMaintain
-                assignClass="react"
-                subtitle={<> Go Beyond Expectations With </>}
-                title={<> React Native App Development </>}
-                title1={<> In A Whole New Way - Access Unique Services & Solutions! </>}
-                appContent={[]}
-                appContent1={
-                    [
-                        {
-                            title: 'React Native Mobile App Development Services',
-                            text: 'Our expert team of React Native developers create high-performance, native-like mobile apps for both Android and iOS platforms. With our React Native mobile app development services, you can ensure the best user experience for your app users.',
-                            appclass: "app"
-                        },
-                        {
-                            title: (<> Expert React Native Code Development Services </>),
-                            text: (<> Our React Native code development services ensure your app is developed with clean, efficient, and high-quality code. Our experienced developers ensure that your app's performance is optimized for performance and scalability. </>),
-                            appclass: "app1",
-                        },
-                        {
-                            title: (<> Expert React Native App Maintenance Services </>),
-                            text: 'We provide reliable and efficient React Native app maintenance services to maintain your app up-to-date with the latest features and functionalities. Our team of experts ensures that your app runs smoothly, is bug-free, and is optimized for performance.',
-                            appclass: "app2",
-                        }
-                    ]
-                }
-                appContent2={
-                    [
-                        {
-                            title: 'Hybrid Mobile App with React Native',
-                            text: "Our React Native, hybrid mobile app development services combine the benefits of both native and web-based apps. This approach allows for faster development, cost-effectiveness, & cross-platform compatibility.",
-                            appclass: "app3",
-                        },
-                    ]
-                }
-                appContent3={
-                    [
-                        {
-                            title: (<> Custom React Plugin <br /> Development for Apps </>),
-                            text: (<> Our React Native plugin development services allow you to integrate custom features into your app. We create customized plugins that enhance your app's functionality and provide a unique user experience. </>),
-                            appclass: "app4",
-                        },
-                        {
-                            title: (<> Custom React Native UI/UX <br /> Design for Apps </>),
-                            text: 'Our React Native UI/UX design services ensures your app has an intuitive, user-friendly interface with stunning visuals. We create customized designs for your app that look great and provide a seamless user experience.',
-                            appclass: "app5",
-                        },
-                    ]
-                }
-                appContent4={[]}
-                appContent5={[]}
-                appContent6={[]}
-                appContent7={[]}
-            />
+
+
+            {isSliderActive ?
+                <ServicesMaintain
+                    assignClass="react"
+                    subtitle={<> Go Beyond Expectations With </>}
+                    title={<> React Native App Development </>}
+                    title1={<> In A Whole New Way - Access Unique Services & Solutions! </>}
+                    appContent={[]}
+                    appContent1={
+                        [
+                            {
+                                title: 'React Native Mobile App Development Services',
+                                text: 'Our expert team of React Native developers create high-performance, native-like mobile apps for both Android and iOS platforms. With our React Native mobile app development services, you can ensure the best user experience for your app users.',
+                                appclass: "app"
+                            },
+                            {
+                                title: (<> Expert React Native Code Development Services </>),
+                                text: (<> Our React Native code development services ensure your app is developed with clean, efficient, and high-quality code. Our experienced developers ensure that your app's performance is optimized for performance and scalability. </>),
+                                appclass: "app1",
+                            },
+                            {
+                                title: (<> Expert React Native App Maintenance Services </>),
+                                text: 'We provide reliable and efficient React Native app maintenance services to maintain your app up-to-date with the latest features and functionalities. Our team of experts ensures that your app runs smoothly, is bug-free, and is optimized for performance.',
+                                appclass: "app2",
+                            }
+                        ]
+                    }
+                    appContent2={
+                        [
+                            {
+                                title: 'Hybrid Mobile App with React Native',
+                                text: "Our React Native, hybrid mobile app development services combine the benefits of both native and web-based apps. This approach allows for faster development, cost-effectiveness, & cross-platform compatibility.",
+                                appclass: "app3",
+                            },
+                        ]
+                    }
+                    appContent3={
+                        [
+                            {
+                                title: (<> Custom React Plugin <br /> Development for Apps </>),
+                                text: (<> Our React Native plugin development services allow you to integrate custom features into your app. We create customized plugins that enhance your app's functionality and provide a unique user experience. </>),
+                                appclass: "app4",
+                            },
+                            {
+                                title: (<> Custom React Native UI/UX <br /> Design for Apps </>),
+                                text: 'Our React Native UI/UX design services ensures your app has an intuitive, user-friendly interface with stunning visuals. We create customized designs for your app that look great and provide a seamless user experience.',
+                                appclass: "app5",
+                            },
+                        ]
+                    }
+                    appContent4={[]}
+                    appContent5={[]}
+                    appContent6={[]}
+                    appContent7={[]}
+                />
+                :
+                <ServicesMaintainmobile
+                    severcedata={severcedata}
+
+                />
+
+            }
+
+
+
             {/* <NewAddress /> */}
 
             <WeworkLp wework="weworkLp6" />
@@ -191,14 +290,14 @@ export default function ReactNativeMobile() {
             <LpChoose transform="transform" />
 
             <ServisesWhy
-                 subtitle={
+                subtitle={
                     <>
-                      {" "}
-                      <h2 className="newfycolr font50 font-bold text-center">
-                        Why Do You Require Our React Native Applications?
-                      </h2>{" "}
+                        {" "}
+                        <h2 className="newfycolr font50 font-bold text-center">
+                            Why Do You Require Our React Native Applications?
+                        </h2>{" "}
                     </>
-                  }
+                }
                 whyData={
                     [
                         {

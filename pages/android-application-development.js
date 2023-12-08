@@ -21,6 +21,9 @@ const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6")
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const Partnerships = React.lazy(() => import('@/components/Partnerships'));
 const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
+const ServicesMaintainmobile = React.lazy(() => import('@/components/ServicesMaintainmobile'));
+import { useState } from "react";
+import { useEffect } from "react";
 //images
 const BannerImage = await import("@/public/images/iosbanner/ios.png");
 //icons
@@ -31,8 +34,87 @@ const icon26 = await import('../public/images/fyicons/13.png');
 const icon27 = await import('../public/images/fyicons/14.png');
 const icon28 = await import('../public/images/fyicons/15.png');
 
+const customios = await import("../public/images/andriodappdevelopment/customandroidappdevelopment.png");
+const iphoneapp = await import("../public/images/andriodappdevelopment/androidappintegration.png");
+const applewatch = await import("../public/images/andriodappdevelopment/androidgamedevelopment.png");
+const appletvappdevelopment = await import("../public/images/andriodappdevelopment/androidweardevelopment.png");
+const iphoneappdesigning = await import("../public/images/andriodappdevelopment/enterpriseandroidapps.png");
+const hybridiphone = await import("../public/images/andriodappdevelopment/androiduiuxdesign.png");
 
 export default function gamedevelopmentcompany() {
+
+    const [isSliderActive, setIsSliderActive] = useState(true);
+    useEffect(() => {
+
+        const handleResize = () => {
+            if (window.innerWidth < 1201) {
+                setIsSliderActive(false);
+            } else {
+                setIsSliderActive(true);
+            }
+        };
+
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+
+    const severcedata = [
+        {
+            classlayout: {
+                newclass: "iosclass",
+            },
+            heading: {
+               
+                title1: "Leveling Up Your App Game With Our Slew of",
+                title2: "Android App Development",
+                title3: "Service!",
+            },
+            serdata: [
+                {
+                    title: "Custom Android App Development",
+                    text: "Our expert Android development team can help take your business to the next level with custom Android mobile app development services. Let us create stunning visuals, intuitive interfaces, and robust security features to keep you ahead of the competition. Contact us today to get started.",
+                    appclass: "app",
+                    imgservice: customios
+                },
+                {
+                    title: "Android App Integration",
+                    text: "Need help integrating your Android app with other software systems and APIs? Look no further. Our expert Android development team is here to assist you in streamlining the process, ensuring your users have a seamless experience with enhanced functionality. Let us help take your app to the next level.",
+                    appclass: "app1",
+                    imgservice: iphoneapp
+                },
+                {
+                    title: "Android Game Development",
+                    text: "Do you plan to produce an exceptional Android mobile game that will captivate your audience? Worry no more, as our team of Android game developers can provide you with the best assistance in developing exciting and irresistible games that will keep your users hooked and always craving more.",
+                    appclass: "app2",
+                    imgservice: applewatch
+                },
+                {
+                    title: "Android Wear Development",
+                    text: "Expand your reach in the wearable market with our expert Android developers. Our advanced Android Wear solutions will give you a competitive edge and elevate your brand visibility. Allow us to help you take your enterprise to new heights.",
+                    appclass: "app3",
+                    imgservice: appletvappdevelopment
+                },
+                {
+                    title: "Enterprise Android Apps",
+                    text: "We can help streamline your business operations with our enterprise Android app development services. Our solutions cover all aspects, from employee communication and data management to workflow optimization. Contact us to learn more.",
+                    appclass: "app4",
+                    imgservice: iphoneappdesigning
+                },
+                {
+                    title: "Android UI/UX Design",
+                    text: "Our team of experienced Android designers can assist you in crafting visually appealing and user-friendly interfaces for your Android app. With our expertise, we can enhance user engagement and ensure a seamless user experience.",
+                    appclass: "app5",
+                    imgservice: hybridiphone
+                },
+            ],
+        },
+    ];
 
     return (
         <>
@@ -57,7 +139,7 @@ export default function gamedevelopmentcompany() {
             <HomeBannerSliderlp />
 
             <LpForm
-            addresClass='iosclass'
+                addresClass='iosclass'
             />
 
             <Nothing Nothing="nothingLp6" />
@@ -66,59 +148,71 @@ export default function gamedevelopmentcompany() {
                 title="Our Client’s Feedback Has Been"
                 subtitle="Nothing Short Of Amazing!"
             /> */}
-            <ServicesMaintain
-                assignClass="android"
-                title1={<> Leveling Up Your App Game With Our Slew of  </>}
-                title2={<> Android App Development </>}
-                title3={<> Service! </>}
-                appContent={[]}
-                appContent1={
-                    [
-                        {
-                            title: 'Custom Android App Development',
-                            text: 'Our expert Android development team can help take your business to the next level with custom Android mobile app development services. Let us create stunning visuals, intuitive interfaces, and robust security features to keep you ahead of the competition. Contact us today to get started.',
-                            appclass: "app"
-                        },
-                        {
-                            title: (<> Android App <br /> Integration </>),
-                            text: 'Need help integrating your Android app with other software systems and APIs? Look no further. Our expert Android development team is here to assist you in streamlining the process, ensuring your users have a seamless experience with enhanced functionality. Let us help take your app to the next level.',
-                            appclass: "app1",
-                        },
-                        {
-                            title: (<> Android Game <br /> Development </>),
-                            text: 'Do you plan to produce an exceptional Android mobile game that will captivate your audience? Worry no more, as our team of Android game developers can provide you with the best assistance in developing exciting and irresistible games that will keep your users hooked and always craving more.',
-                            appclass: "app2",
-                        }
-                    ]
-                }
-                appContent2={
-                    [
-                        {
-                            title: 'Android Wear Development',
-                            text: "Expand your reach in the wearable market with our expert Android developers. Our advanced Android Wear solutions will give you a competitive edge and elevate your brand visibility. Allow us to help you take your enterprise to new heights.",
-                            appclass: "app3",
-                        },
-                    ]
-                }
-                appContent3={
-                    [
-                        {
-                            title: 'Enterprise Android Apps',
-                            text: (<> We can help streamline your business operations with our enterprise Android app development services. Our solutions cover all aspects, from employee communication and data management to workflow optimization. Contact us to learn more. </>),
-                            appclass: "app4",
-                        },
-                        {
-                            title: 'Android UI/UX Design',
-                            text: 'Our team of experienced Android designers can assist you in crafting visually appealing and user-friendly interfaces for your Android app. With our expertise, we can enhance user engagement and ensure a seamless user experience.',
-                            appclass: "app5",
-                        },
-                    ]
-                }
-                appContent4={[]}
-                appContent5={[]}
-                appContent6={[]}
-                appContent7={[]}
-            />
+
+            {isSliderActive ?
+                <ServicesMaintain
+                    assignClass="android"
+                    title1={<> Leveling Up Your App Game With Our Slew of  </>}
+                    title2={<> Android App Development </>}
+                    title3={<> Service! </>}
+                    appContent={[]}
+                    appContent1={
+                        [
+                            {
+                                title: 'Custom Android App Development',
+                                text: 'Our expert Android development team can help take your business to the next level with custom Android mobile app development services. Let us create stunning visuals, intuitive interfaces, and robust security features to keep you ahead of the competition. Contact us today to get started.',
+                                appclass: "app"
+                            },
+                            {
+                                title: (<> Android App <br /> Integration </>),
+                                text: 'Need help integrating your Android app with other software systems and APIs? Look no further. Our expert Android development team is here to assist you in streamlining the process, ensuring your users have a seamless experience with enhanced functionality. Let us help take your app to the next level.',
+                                appclass: "app1",
+                            },
+                            {
+                                title: (<> Android Game <br /> Development </>),
+                                text: 'Do you plan to produce an exceptional Android mobile game that will captivate your audience? Worry no more, as our team of Android game developers can provide you with the best assistance in developing exciting and irresistible games that will keep your users hooked and always craving more.',
+                                appclass: "app2",
+                            }
+                        ]
+                    }
+                    appContent2={
+                        [
+                            {
+                                title: 'Android Wear Development',
+                                text: "Expand your reach in the wearable market with our expert Android developers. Our advanced Android Wear solutions will give you a competitive edge and elevate your brand visibility. Allow us to help you take your enterprise to new heights.",
+                                appclass: "app3",
+                            },
+                        ]
+                    }
+                    appContent3={
+                        [
+                            {
+                                title: 'Enterprise Android Apps',
+                                text: (<> We can help streamline your business operations with our enterprise Android app development services. Our solutions cover all aspects, from employee communication and data management to workflow optimization. Contact us to learn more. </>),
+                                appclass: "app4",
+                            },
+                            {
+                                title: 'Android UI/UX Design',
+                                text: 'Our team of experienced Android designers can assist you in crafting visually appealing and user-friendly interfaces for your Android app. With our expertise, we can enhance user engagement and ensure a seamless user experience.',
+                                appclass: "app5",
+                            },
+                        ]
+                    }
+                    appContent4={[]}
+                    appContent5={[]}
+                    appContent6={[]}
+                    appContent7={[]}
+                />
+
+                :
+                <ServicesMaintainmobile
+                    severcedata={severcedata}
+
+                />
+
+            }
+
+
             {/* <NewAddress /> */}
             <WeworkLp wework="weworkLp6" />
 

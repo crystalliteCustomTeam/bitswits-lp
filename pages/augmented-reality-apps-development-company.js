@@ -23,8 +23,90 @@ const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6")
 //images
 const BannerImage = await import("@/public/images/augmentapp/Augmentebanner.png");
 
+const ServicesMaintainmobile = React.lazy(() => import('@/components/ServicesMaintainmobile'));
+const customios = await import("../public/images/augmentreality/2d3dandisometricgamesdevelopment.png");
+const iphoneapp = await import("../public/images/augmentreality/interactive3dvisuallearningforeducationwithartechnology.png");
+const applewatch = await import("../public/images/augmentreality/arpoweredtravelexperiencesforthemodernexplorer.png");
+const appletvappdevelopment = await import("../public/images/augmentreality/designinsightandmanufacturingdigitalmodelswithar.png");
+const iphoneappdesigning = await import("../public/images/augmentreality/3dvisualpresentationforproductlaunchthroughar.png");
+
+
+import { useState } from "react";
+import { useEffect } from "react";
+
 
 export default function augmentedrealityappsdevelopment() {
+
+
+
+    const [isSliderActive, setIsSliderActive] = useState(true);
+    useEffect(() => {
+
+        const handleResize = () => {
+            if (window.innerWidth < 1201) {
+                setIsSliderActive(false);
+            } else {
+                setIsSliderActive(true);
+            }
+        };
+
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+
+    const severcedata = [
+        {
+            classlayout: {
+                newclass: "iosclass",
+            },
+            heading: {
+                subtitle: "BitsWits Sets New Standards",
+                title1: "Expert",
+                title2: "Augmented Reality Development",
+                title3: "at Your Service!",
+            },
+            serdata: [
+                {
+                    title: (<> 2D, 3D, And Isometric Games Development </>),
+                    text: 'We make games super cool by integrating augmented reality elements into 2D, 3D, and Isometric games, creating captivating and dynamic visuals.',
+                    appclass: "app01",
+                    imgservice: customios
+                },
+                {
+                    title: (<> Interactive 3D Visual Learning for Education with AR Technology </>),
+                    text: (<> Using AR, we create fun 3D experiences for learning. Our user-friendly designs and activities offer an engaging way to understand things better. </>),
+                    appclass: "app02",
+                    imgservice: iphoneapp
+                },
+                {
+                    title: (<> AR powered Travel Experiences for the Modern Explorer </>),
+                    text: "We develop augmented reality solutions for the travel industry, integrating immersive navigation, virtual tours, interactive guides, and cultural experiences for enhanced travel exploration.",
+                    appclass: "app3",
+                    imgservice: applewatch
+                },
+                {
+                    title: (<> Design Insight and Manufacturing Digital Models With AR </>),
+                    text: (<> Our advanced AR solutions for manufacturing, facilitate precise design insights and digital model visualization to optimize efficiency and streamline production processes effectively. </>),
+                    appclass: "app4",
+                    imgservice: appletvappdevelopment
+                },
+                {
+                    title: (<> 3D Visual Presentation for Product Launch Through AR </>),
+                    text: 'Our AR solutions offer 3D visual presentations, allowing users to visualize products in real-world contexts and accurately measure space requirements.',
+                    appclass: "app5",
+                    imgservice: iphoneappdesigning
+                },
+            ],
+        },
+    ];
+
+
     return (
         <>
             <Head>
@@ -47,8 +129,8 @@ export default function augmentedrealityappsdevelopment() {
 
             <HomeBannerSliderlp />
 
-            <LpForm 
-            addresClass='iosclass'
+            <LpForm
+                addresClass='iosclass'
             />
 
             <Nothing Nothing="nothingLp6" />
@@ -57,55 +139,65 @@ export default function augmentedrealityappsdevelopment() {
                 title='Clients Love Our AR Solutions'
                 subtitle='Hear It from Them'
             /> */}
-            <ServicesMaintain
-                assignClass="augmented"
-                subtitle={<> BitsWits Sets New Standards </>}
-                title0={<> Expert </>}
-                title={<> Augmented Reality Development </>}
-                title1={<> at Your Service! </>}
-                appContent={
-                    [
-                        {
-                            title: (<> 2D, 3D, And Isometric <br /> Games Development </>),
-                            text: 'We make games super cool by integrating augmented reality elements into 2D, 3D, and Isometric games, creating captivating and dynamic visuals.',
-                            appclass: "app01"
-                        },
-                        {
-                            title: (<> Interactive 3D Visual Learning for <br /> Education with AR Technology </>),
-                            text: (<> Using AR, we create fun 3D experiences for learning. Our user-friendly designs and activities offer an engaging way to understand things better. </>),
-                            appclass: "app02",
-                        }
-                    ]
-                }
-                appContent1={[]}
-                appContent2={
-                    [
-                        {
-                            title: (<> AR powered Travel Experiences <br /> for the Modern Explorer </>),
-                            text: "We develop augmented reality solutions for the travel industry, integrating immersive navigation, virtual tours, interactive guides, and cultural experiences for enhanced travel exploration.",
-                            appclass: "app3",
-                        },
-                    ]
-                }
-                appContent3={
-                    [
-                        {
-                            title: (<> Design Insight and Manufacturing <br /> Digital Models With AR </>),
-                            text: (<> Our advanced AR solutions for manufacturing, facilitate precise design insights and digital model visualization to optimize efficiency and streamline production processes effectively. </>),
-                            appclass: "app4",
-                        },
-                        {
-                            title: (<> 3D Visual Presentation for Product <br /> Launch Through AR </>),
-                            text: 'Our AR solutions offer 3D visual presentations, allowing users to visualize products in real-world contexts and accurately measure space requirements.',
-                            appclass: "app5",
-                        },
-                    ]
-                }
-                appContent4={[]}
-                appContent5={[]}
-                appContent6={[]}
-                appContent7={[]}
-            />
+
+            {isSliderActive ?
+                <ServicesMaintain
+                    assignClass="augmented"
+                    subtitle={<> BitsWits Sets New Standards </>}
+                    title0={<> Expert </>}
+                    title={<> Augmented Reality Development </>}
+                    title1={<> at Your Service! </>}
+                    appContent={
+                        [
+                            {
+                                title: (<> 2D, 3D, And Isometric <br /> Games Development </>),
+                                text: 'We make games super cool by integrating augmented reality elements into 2D, 3D, and Isometric games, creating captivating and dynamic visuals.',
+                                appclass: "app01"
+                            },
+                            {
+                                title: (<> Interactive 3D Visual Learning for <br /> Education with AR Technology </>),
+                                text: (<> Using AR, we create fun 3D experiences for learning. Our user-friendly designs and activities offer an engaging way to understand things better. </>),
+                                appclass: "app02",
+                            }
+                        ]
+                    }
+                    appContent1={[]}
+                    appContent2={
+                        [
+                            {
+                                title: (<> AR powered Travel Experiences <br /> for the Modern Explorer </>),
+                                text: "We develop augmented reality solutions for the travel industry, integrating immersive navigation, virtual tours, interactive guides, and cultural experiences for enhanced travel exploration.",
+                                appclass: "app3",
+                            },
+                        ]
+                    }
+                    appContent3={
+                        [
+                            {
+                                title: (<> Design Insight and Manufacturing <br /> Digital Models With AR </>),
+                                text: (<> Our advanced AR solutions for manufacturing, facilitate precise design insights and digital model visualization to optimize efficiency and streamline production processes effectively. </>),
+                                appclass: "app4",
+                            },
+                            {
+                                title: (<> 3D Visual Presentation for Product <br /> Launch Through AR </>),
+                                text: 'Our AR solutions offer 3D visual presentations, allowing users to visualize products in real-world contexts and accurately measure space requirements.',
+                                appclass: "app5",
+                            },
+                        ]
+                    }
+                    appContent4={[]}
+                    appContent5={[]}
+                    appContent6={[]}
+                    appContent7={[]}
+                />
+                :
+                <ServicesMaintainmobile
+                    severcedata={severcedata}
+
+                />
+
+            }
+
 
 
             {/* <NewAddress /> */}

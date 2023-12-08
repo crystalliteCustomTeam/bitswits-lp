@@ -261,7 +261,7 @@ const Header = () => {
                                                     <h4>Flutter App </h4>
                                                     <Image alt="bitswits"   src={construction} className='img-fluid' />
                                                 </Link>
-                                                <Link href='/native-mobile-development' className={styles.polo}>
+                                                <Link href='/react-native-mobile-development' className={styles.polo}>
                                                     <h4>React Native  <br /> App </h4>
                                                     <Image alt="bitswits"   src={healthsafety} className='img-fluid' />
                                                 </Link>

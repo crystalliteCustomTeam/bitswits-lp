@@ -49,7 +49,7 @@ export default function gamedevelopmentcompany() {
   useEffect(() => {
 
     const handleResize = () => {
-      if (window.innerWidth < 480) {
+      if (window.innerWidth < 1201) {
         setIsSliderActive(false);
       } else {
         setIsSliderActive(true);
@@ -68,6 +68,9 @@ export default function gamedevelopmentcompany() {
 
   const severcedata = [
     {
+      classlayout: {
+        newclass: "iosclass",
+      },
       heading: {
         subtitle: "iOS App Development Services",
         title1: "Craft Incredible Apps",
