@@ -21,6 +21,47 @@ import securityjobs from "../public/images/newfydemand/security-jobs.png";
 import gamehead from "../public/images/newfydemand/gamehead.png";
 import blockchainhead from "../public/images/newfydemand/blockchainhead.png";
 
+//
+import icon1 from "../public/newHomePageImages/tech/1.png";
+import icon2 from "../public/newHomePageImages/tech/2.png";
+import icon3 from "../public/newHomePageImages/tech/3.png";
+import icon4 from "../public/newHomePageImages/tech/4.png";
+import icon5 from "../public/newHomePageImages/tech/5.png";
+import icon6 from "../public/newHomePageImages/tech/6.png";
+import icon7 from "../public/newHomePageImages/tech/7.png";
+import icon8 from "../public/newHomePageImages/tech/8.png";
+//
+import frontend1 from "../public/newHomePageImages/tech/frontend/1.png";
+import frontend2 from "../public/newHomePageImages/tech/frontend/2.png";
+import frontend3 from "../public/newHomePageImages/tech/frontend/3.png";
+import frontend4 from "../public/newHomePageImages/tech/frontend/4.png";
+import frontend5 from "../public/newHomePageImages/tech/frontend/5.png";
+import frontend6 from "../public/newHomePageImages/tech/frontend/6.png";
+//
+import database1 from "../public/newHomePageImages/tech/database/1.png";
+import database2 from "../public/newHomePageImages/tech/database/2.png";
+import database3 from "../public/newHomePageImages/tech/database/3.png";
+import database4 from "../public/newHomePageImages/tech/database/4.png";
+import database5 from "../public/newHomePageImages/tech/database/5.png";
+import database6 from "../public/newHomePageImages/tech/database/6.png";
+//
+import php1 from "../public/newHomePageImages/tech/php/1.png";
+import php2 from "../public/newHomePageImages/tech/php/2.png";
+import php3 from "../public/newHomePageImages/tech/php/3.png";
+//
+import cms1 from "../public/newHomePageImages/tech/cms/1.png";
+import cms2 from "../public/newHomePageImages/tech/cms/2.png";
+import cms3 from "../public/newHomePageImages/tech/cms/3.png";
+//
+import dev1 from "../public/newHomePageImages/tech/dev/1.png";
+import dev2 from "../public/newHomePageImages/tech/dev/2.png";
+import dev3 from "../public/newHomePageImages/tech/dev/3.png";
+import dev4 from "../public/newHomePageImages/tech/dev/4.png";
+import dev5 from "../public/newHomePageImages/tech/dev/5.png";
+import dev6 from "../public/newHomePageImages/tech/dev/6.png";
+import dev7 from "../public/newHomePageImages/tech/dev/7.png";
+import dev8 from "../public/newHomePageImages/tech/dev/8.png";
+import dev9 from "../public/newHomePageImages/tech/dev/9.png";
 import about2 from "../public/images/icons/about.png";
 import call from "../public/images/icons/phone-icon.webp";
 import mail from "../public/images/icons/email-icon.webp";
@@ -59,7 +100,17 @@ import { RxCross2 } from "react-icons/rx";
 import mbllogo from "../public/images/icons/footerlogo.png";
 import { useEffect } from "react";
 
-const Header = () => {
+///// New Images Import
+import IOS from "public/images/icons/ios.png";
+import andriod from "public/images/icons/android.png";
+import Flutter from "public/images/icons/flutter.png";
+import ReactNative from "public/images/icons/reactnative.png";
+import Hybrid from "public/images/icons/hybrid.png";
+import Cross from "public/images/icons/cross.png";
+import WebApp from "public/images/icons/programming.png";
+import Augment from "public/images/icons/augment.png";
+
+const HeaderNewDesign = () => {
   const [isSliderActive, setIsSliderActive] = useState(true);
 
   useEffect(() => {
@@ -149,10 +200,9 @@ const Header = () => {
     setIsActive(!isActive);
   };
 
-  const [activePage, setActivePage] = useState("tab1");
-
-  function func1(tabs1) {
-    setActivePage(tabs1);
+  const [activeTab1, setActiveTab1] = useState("tab1");
+  function fun1(tabs1) {
+    setActiveTab1(tabs1);
   }
 
   return (
@@ -194,243 +244,451 @@ const Header = () => {
                 <div className={styles.megamenu}>
                   <Row>
                     <Col lg={4} className={` ${styles.newspace}`}>
-                      <div onClick={() => fun1("tab1")}>
+                      <div>
                         <h4 className={styles.course1}>
                           Mobile App Development
                         </h4>
                       </div>
                       <div className={styles.hire}>
-                        <Link
-                          href="/ios-app-development"
-                          className={styles.polo}
-                        >
-                          <h4>IOS App</h4>
-                          <Image
-                            alt="bitswits"
-                            src={security}
-                            className="img-fluid"
-                          />
-                        </Link>
-                        <Link
-                          href="/android-application-development"
-                          className={styles.polo}
-                        >
-                          <h4>Android App </h4>
-                          <Image
-                            alt="bitswits"
-                            src={alcohol}
-                            className="img-fluid"
-                          />
-                        </Link>
-                      </div>
-                      <div className={styles.hire}>
-                        <Link
-                          href="/flutter-mobile-development"
-                          className={styles.polo}
-                        >
-                          <h4>Flutter App </h4>
-                          <Image
-                            alt="bitswits"
-                            src={construction}
-                            className="img-fluid"
-                          />
-                        </Link>
-                        <Link
-                          href="/react-native-mobile-development"
-                          className={styles.polo}
-                        >
-                          <h4>
-                            React Native <br /> App{" "}
-                          </h4>
-                          <Image
-                            alt="bitswits"
-                            src={healthsafety}
-                            className="img-fluid"
-                          />
-                        </Link>
-                      </div>
-                      <div className={styles.hire}>
-                        <Link
-                          href="/hybrid-mobile-apps-development"
-                          className={styles.polo}
-                        >
-                          <h4>
-                            Hybird Mobile <br /> App{" "}
-                          </h4>
-                          <Image
-                            alt="bitswits"
-                            src={elearning}
-                            className="img-fluid"
-                          />
-                        </Link>
-                        <Link
-                          href="/cross-platform-app-development"
-                          className={styles.polo}
-                        >
-                          <h4>
-                            Cross Platform <br /> App{" "}
-                          </h4>
-                          <Image
-                            alt="bitswits"
-                            src={driving}
-                            className="img-fluid"
-                          />
-                        </Link>
-                      </div>
-                      <div className={styles.hire}>
-                        <Link
-                          href="/web-app-development"
-                          className={styles.polo}
-                        >
-                          <h4>Web App</h4>
-                          <Image
-                            alt="bitswits"
-                            src={securitygear}
-                            className="img-fluid"
-                          />
-                        </Link>
-                        <Link
-                          href="/augmented-reality-apps-development-company"
-                          className={styles.polo}
-                        >
-                          <h4>
-                            Augmented <br /> Reality App{" "}
-                          </h4>
-                          <Image
-                            alt="bitswits"
-                            src={securityjobs}
-                            className="img-fluid"
-                          />
-                        </Link>
-                      </div>
-                      <div className={styles.hire}>
-                        <Link
-                          href="/game-application-development"
-                          className={styles.polo}
-                        >
-                          <h4>
-                            Game App <br /> Development
-                          </h4>
-                          <Image
-                            alt="bitswits"
-                            src={gamehead}
-                            className="img-fluid"
-                          />
-                        </Link>
-                        <Link
-                          href="/blockchain-game-development"
-                          className={styles.polo}
-                        >
-                          <h4>
-                            Blockchain App <br /> Development{" "}
-                          </h4>
-                          <Image
-                            alt="bitswits"
-                            src={blockchainhead}
-                            className="img-fluid"
-                          />
-                        </Link>
+                        <Row>
+                          <Col lg={6}>
+                            <div
+                              className={`${styles.hire} ${
+                                activeTab1 == "tab1" ? styles.active : ""
+                              }`}
+                              onClick={() => fun1("tab1")}
+                              href="#"
+                            >
+                              <div className={styles.polo}>
+                                <h4>
+                                  Mobile App <br /> Development
+                                </h4>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                            </div>
+                          </Col>
+                          <Col lg={6}>
+                            <div
+                              className={`${styles.hire} ${
+                                activeTab1 == "tab2" ? styles.active : ""
+                              }`}
+                              onClick={() => fun1("tab2")}
+                              href="#"
+                            >
+                              <div className={styles.polo}>
+                                <h4>
+                                  Game <br /> Development
+                                </h4>
+                                <Image
+                                  alt="bitswits"
+                                  src={andriod}
+                                  className="img-fluid"
+                                />
+                              </div>
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row>
+                          <Col lg={6}>
+                            <div
+                              className={`${styles.hire} ${
+                                activeTab1 == "tab3" ? styles.active : ""
+                              }`}
+                              onClick={() => fun1("tab3")}
+                              href="#"
+                            >
+                              <div className={styles.polo}>
+                                <h4>
+                                  Blockchain <br /> Development{" "}
+                                </h4>
+                                <Image
+                                  alt="bitswits"
+                                  src={Flutter}
+                                  className="img-fluid"
+                                />
+                              </div>
+                            </div>
+                          </Col>
+                          <Col lg={6}>
+                            <div
+                              className={`${styles.hire} ${
+                                activeTab1 == "tab4" ? styles.active : ""
+                              }`}
+                              onClick={() => fun1("tab4")}
+                              href="#"
+                            >
+                              <div className={styles.polo}>
+                                <h4>
+                                  Artificial <br /> Intelligence (Ai){" "}
+                                </h4>
+                                <Image
+                                  alt="bitswits"
+                                  src={ReactNative}
+                                  className="img-fluid"
+                                />
+                              </div>
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row>
+                          <Col lg={6}>
+                            <div
+                              className={`${styles.hire} ${
+                                activeTab1 == "tab5" ? styles.active : ""
+                              }`}
+                              onClick={() => fun1("tab5")}
+                              href="#"
+                            >
+                              <div className={styles.polo}>
+                                <h4>
+                                  Web App <br /> Development
+                                </h4>
+                                <Image
+                                  alt="bitswits"
+                                  src={Hybrid}
+                                  className="img-fluid"
+                                />
+                              </div>
+                            </div>
+                          </Col>
+                          <Col lg={6}>
+                            <div
+                              className={`${styles.hire} ${
+                                activeTab1 == "tab6" ? styles.active : ""
+                              }`}
+                              onClick={() => fun1("tab6")}
+                              href="#"
+                            >
+                              <div className={styles.polo}>
+                                <h4>
+                                  Augmented <br /> Reality{" "}
+                                </h4>
+                                <Image
+                                  alt="bitswits"
+                                  src={Cross}
+                                  className="img-fluid"
+                                />
+                              </div>
+                            </div>
+                          </Col>
+                        </Row>
                       </div>
                     </Col>
                     <Col lg={4} className={` ${styles.menupostblog1}`}>
-                      {activePage == "tab1" && (
-                        <div>
-                          <span>Tab One</span>
-                        </div>
+                      {activeTab1 == "tab1" && (
+                        <Row className="mt-5 pt-3">
+                          <Col lg={6}>
+                            <Link
+                              className={`${styles.hire}`}
+                              href="/ios-app-development"
+                            >
+                              <div className={styles.poloTwo}>
+                                <h4>
+                                  iOS Application <br /> Development{" "}
+                                </h4>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                            </Link>
+                          </Col>
+                          <Col lg={6}>
+                            <Link
+                              className={`${styles.hire}`}
+                              href="/android-application-development"
+                            >
+                              <div className={styles.poloTwo}>
+                                <h4>
+                                  Android Application <br /> Development
+                                </h4>
+                                <Image
+                                  alt="bitswits"
+                                  src={andriod}
+                                  className="img-fluid"
+                                />
+                              </div>
+                            </Link>
+                          </Col>
+                          <Col lg={6}>
+                            <Link
+                              className={`${styles.hire}`}
+                              href="/web-app-development"
+                            >
+                              <div className={styles.poloTwo}>
+                                <h4>
+                                  Web App <br /> Development{" "}
+                                </h4>
+                                <Image
+                                  alt="bitswits"
+                                  src={WebApp}
+                                  className="img-fluid"
+                                />
+                              </div>
+                            </Link>
+                          </Col>
+                          <Col lg={6}>
+                            <Link
+                              className={`${styles.hire}`}
+                              href="/flutter-mobile-development"
+                            >
+                              <div className={styles.poloTwo}>
+                                <h4>
+                                  Flutter App <br /> Development
+                                </h4>
+                                <Image
+                                  alt="bitswits"
+                                  src={Flutter}
+                                  className="img-fluid"
+                                />
+                              </div>
+                            </Link>
+                          </Col>
+                          <Col lg={6}>
+                            <Link
+                              className={`${styles.hire}`}
+                              href="/react-native-mobile-development"
+                            >
+                              <div className={styles.poloTwo}>
+                                <h4>
+                                  React Native
+                                  <br /> App Development
+                                </h4>
+                                <Image
+                                  alt="bitswits"
+                                  src={ReactNative}
+                                  className="img-fluid"
+                                />
+                              </div>
+                            </Link>
+                          </Col>
+                          <Col lg={6}>
+                            <Link
+                              className={`${styles.hire}`}
+                              href="/cross-platform-app-development"
+                            >
+                              <div className={styles.poloTwo}>
+                                <h4>
+                                  Cross Platform
+                                  <br /> App Development
+                                </h4>
+                                <Image
+                                  alt="bitswits"
+                                  src={Cross}
+                                  className="img-fluid"
+                                />
+                              </div>
+                            </Link>
+                          </Col>
+                        </Row>
                       )}
-                      {/* <div>
-                        <h4 className={styles.course}>GOOD LINKS</h4>
-                      </div>
-                      <div>
-                        <ul className={styles.mega}>
-                          <li className={styles.imgpost}>
-                            <div className={styles.dsicon}>
-                              <Image
-                                alt="bitswits"
-                                src={about}
-                                className="img-fluid"
-                              />
-                            </div>
-                            <Link href="/about-us">About us </Link>{" "}
-                          </li>
-                          <li className={styles.imgpost}>
-                            <div className={styles.dsicon}>
-                              <Image
-                                alt="bitswits"
-                                src={employers}
-                                guardicon
-                                className="img-fluid"
-                              />
-                            </div>
-                            <Link href="#">Employers </Link>{" "}
-                          </li>
-                          <li className={styles.imgpost}>
-                            <div className={styles.dsicon}>
-                              <Image
-                                alt="bitswits"
-                                src={listcourse}
-                                className="img-fluid"
-                              />
-                            </div>
-                            <Link href="#partners">Partners </Link>{" "}
-                          </li>
-                          <li className={styles.imgpost}>
-                            <div className={styles.dsicon}>
-                              <Image
-                                alt="bitswits"
-                                src={faqs}
-                                className="img-fluid"
-                              />
-                            </div>
-                            <Link href="#faqsection">FAQs </Link>{" "}
-                          </li>
 
-                          <li className={styles.imgpost}>
-                            <div className={styles.dsicon}>
-                              <Image
-                                alt="bitswits"
-                                src={help}
-                                className="img-fluid"
-                              />
-                            </div>
-                            <Link href="#">Help </Link>{" "}
-                          </li>
-                        </ul>
+                      {activeTab1 == "tab2" && (
+                        <Row className="mt-5 pt-3">
+                          <Col lg={6}>
+                            <Link
+                              className={`${styles.hire}`}
+                              href="/2d-game-development-company"
+                            >
+                              <div className={styles.poloTwo}>
+                                <h4>
+                                  2D Game <br /> Development{" "}
+                                </h4>
+                                {/* <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                /> */}
+                              </div>
+                            </Link>
+                          </Col>
+                          <Col lg={6}>
+                            <Link
+                              className={`${styles.hire}`}
+                              href="/3d-game-development-company"
+                            >
+                              <div className={styles.poloTwo}>
+                                <h4>
+                                  3D Game
+                                  <br /> Development
+                                </h4>
+                                {/* <Image
+                                  alt="bitswits"
+                                  src={andriod}
+                                  className="img-fluid"
+                                /> */}
+                              </div>
+                            </Link>
+                          </Col>
+                          <Col lg={6}>
+                            <Link
+                              className={`${styles.hire}`}
+                              href="/nft-game-development"
+                            >
+                              <div className={styles.poloTwo}>
+                                <h4>
+                                  NFT Game
+                                  <br /> Development{" "}
+                                </h4>
+                                {/* <Image
+                                  alt="bitswits"
+                                  src={WebApp}
+                                  className="img-fluid"
+                                /> */}
+                              </div>
+                            </Link>
+                          </Col>
+                          <Col lg={6}>
+                            <Link
+                              className={`${styles.hire}`}
+                              href="/blockchain-game-development"
+                            >
+                              <div className={styles.poloTwo}>
+                                <h4>
+                                  Blockchain Game <br /> Development
+                                </h4>
+                                {/* <Image
+                                  alt="bitswits"
+                                  src={Flutter}
+                                  className="img-fluid"
+                                /> */}
+                              </div>
+                            </Link>
+                          </Col>
+                        </Row>
+                      )}
 
-                        <div className={styles.medg}>
-                          <h4 className={styles.big}>WE’RE BIG ON SOCIALS</h4>
-                          <ul className={styles.social}>
-                            <li>
-                              <Link className={styles.show1} href="#">
-                                <IoLogoFacebook />
-                              </Link>
-                            </li>
-                            <li>
-                              <Link className={styles.show2} href="#">
-                                <FaYoutube />
-                              </Link>
-                            </li>
-                            <li>
-                              <Link className={styles.show3} href="#">
-                                <FaInstagram />
-                              </Link>
-                            </li>
-                            <li>
-                              <Link className={styles.show4} href="#">
-                                <FaTwitter />
-                              </Link>
-                            </li>
-                            <li>
-                              <Link className={styles.show5} href="#">
-                                <FaLinkedin />
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div> */}
+                      {activeTab1 == "tab3" && (
+                        <Row className="mt-5 pt-3">
+                          <Col lg={6}>
+                            <Link
+                              className={`${styles.hire}`}
+                              href="/blockchain-development-lp"
+                            >
+                              <div className={styles.poloTwo}>
+                                <h4>
+                                  Blockchain
+                                  <br /> Game Development{" "}
+                                </h4>
+                                {/* <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                /> */}
+                              </div>
+                            </Link>
+                          </Col>
+                        </Row>
+                      )}
+
+                      {activeTab1 == "tab4" && (
+                        <Row className="mt-5 pt-3">
+                          <Col lg={6}>
+                            <div
+                              className={`${styles.hire}`}
+                              href="/artificial-intelligence-development-company"
+                            >
+                              <div className={styles.polo}>
+                                <h4>
+                                  Artificial <br /> Intelligence{" "}
+                                </h4>
+                                {/* <Image
+                                  alt="bitswits"
+                                  src={construction}
+                                  className="img-fluid"
+                                /> */}
+                              </div>
+                            </div>
+                          </Col>
+                          {/* <Col lg={6}>
+                            <div className={`${styles.hire}`} href="#">
+                              <div className={styles.polo}>
+                                <h4>Flutter App </h4>
+                                <Image
+                                  alt="bitswits"
+                                  src={construction}
+                                  className="img-fluid"
+                                />
+                              </div>
+                            </div>
+                          </Col>
+                          <Col lg={6}>
+                            <div className={`${styles.hire}`} href="#">
+                              <div className={styles.polo}>
+                                <h4>Flutter App </h4>
+                                <Image
+                                  alt="bitswits"
+                                  src={construction}
+                                  className="img-fluid"
+                                />
+                              </div>
+                            </div>
+                          </Col>
+                          <Col lg={6}>
+                            <div className={`${styles.hire}`} href="#">
+                              <div className={styles.polo}>
+                                <h4>Flutter App </h4>
+                                <Image
+                                  alt="bitswits"
+                                  src={construction}
+                                  className="img-fluid"
+                                />
+                              </div>
+                            </div>
+                          </Col> */}
+                        </Row>
+                      )}
+
+                      {activeTab1 == "tab5" && (
+                        <Row className="mt-5 pt-3">
+                          <Col lg={6}>
+                            <div
+                              className={`${styles.hire}`}
+                              href="/web-app-development"
+                            >
+                              <div className={styles.polo}>
+                                <h4>
+                                  Web App <br /> Development
+                                </h4>
+                                {/* <Image
+                                  alt="bitswits"
+                                  src={construction}
+                                  className="img-fluid"
+                                /> */}
+                              </div>
+                            </div>
+                          </Col>
+                        </Row>
+                      )}
+
+                      {activeTab1 == "tab6" && (
+                        <Row className="mt-5 pt-3">
+                          <Col lg={6}>
+                            <div
+                              className={`${styles.hire}`}
+                              href="/augmented-reality-apps-development-company"
+                            >
+                              <div className={styles.polo}>
+                                <h4>
+                                  Augmented Reality <br /> App Development
+                                </h4>
+                                {/* <Image
+                                  alt="bitswits"
+                                  src={construction}
+                                  className="img-fluid"
+                                /> */}
+                              </div>
+                            </div>
+                          </Col>
+                        </Row>
+                      )}
                     </Col>
-
-                    <Col lg={4} className={styles.newset}>
+                    <Col lg={4} className={`${styles.newset}`}>
                       <div className={styles.lptow}>
                         <div className={styles.newbits}>
                           <div>
@@ -1250,7 +1508,7 @@ const Header = () => {
           </div>
         </nav>
 
-        <Modal show={show} onHide={closemodal} className={styles.modalnew}>
+        {/* <Modal show={show} onHide={closemodal} className={styles.modalnew}>
           <Modal.Body>
             {" "}
             <Bitswitspopup formsaspire="popquote" />{" "}
@@ -1259,10 +1517,10 @@ const Header = () => {
               <RxCross2 />{" "}
             </span>{" "}
           </Modal.Body>
-        </Modal>
+        </Modal> */}
       </header>
     </>
   );
 };
 
-export default Header;
+export default HeaderNewDesign;
