@@ -10,7 +10,6 @@
   border-right: 0;
   z-index: 9999;
   position: relative;
-
 }
 
 .cross {
@@ -60,6 +59,11 @@
   height: 64px;
 }
 
+.active {
+  background: #e83468;
+  border-radius: 7px;
+}
+
 .post {
   color: #fff;
   height: 100%;
@@ -71,8 +75,7 @@
   gap: 3px;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
-  transition: all .4s ease-in-out;
-
+  transition: all 0.4s ease-in-out;
 }
 
 .megamenu {
@@ -82,8 +85,12 @@
   left: 0;
   right: 0;
   padding-left: 1%;
+}
 
-
+.mega hr{
+  border: 1px solid;
+  width: 90%;
+  /* margin: 15px auto; */
 }
 
 .product:hover .megamenu,
@@ -113,7 +120,6 @@
   }
 }
 
-
 .download {
   color: #fff;
   height: unset;
@@ -125,8 +131,7 @@
   gap: unset;
   text-transform: unset;
   font-family: Montserrat, sans-serif;
-  transition: all .4s ease-in-out;
-
+  transition: all 0.4s ease-in-out;
 }
 
 .devgame {
@@ -265,7 +270,6 @@
   gap: 20px;
   border-radius: 10px;
   height: 350px;
-
 }
 
 .neuport {
@@ -295,7 +299,6 @@
 }
 
 .glop {
-
   padding: 20px;
 }
 
@@ -373,6 +376,12 @@
   width: 100%;
 }
 
+.dsicon img{
+  height: 20px;
+  width: 20px;
+  object-fit: contain;
+}
+
 .lptow {
   background: #e83468;
   /* height: 100vh; */
@@ -411,7 +420,6 @@
   border-radius: 5px;
   padding: 15px;
   margin-top: 0;
-
 }
 
 .newbits p {
@@ -490,14 +498,11 @@
   margin-left: 10px;
   width: 25px;
   height: 25px;
-
 }
 
 .newbits:hover .train12 {
   background-color: #e83468;
   color: black;
-
-
 }
 
 .slaes img {
@@ -539,39 +544,83 @@
   flex: 0 0 49%;
   margin-bottom: 10px;
   overflow: hidden;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.active .polo {
+  background-color: #e83468;
 }
 
 .polo:hover {
   background: #e83468;
+  border-radius: 7px;
 }
 
-.polo:hover img {
-  transform: scale(1.1);
-}
+/* .polo:hover img {
+    transform: scale(1.1);
+  } */
 
 .polo h4 {
   padding: 10px;
+  font-size: 17px;
+  color: white;
+  padding-top: 25px;
+  font-weight: 600;
+  z-index: 999;
+  line-height: 20px;
+}
+
+.poloTwo {
+  display: flex;
+  border-radius: 7px;
+  height: 105px;
+  position: relative;
+  background-color: #242429;
+  padding-left: 10px;
+  flex: 0 0 49%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.poloTwo h4 {
   font-size: 13px;
   color: white;
-  padding-top: 20px;
+  padding-top: 25px;
   font-weight: 600;
   z-index: 999;
   line-height: 18px;
 }
 
-.hire {
-  display: flex;
-  gap: 5px;
+.poloTwo:hover {
+  background: #e83468;
+  border-radius: 7px;
 }
+
+.poloTwo img {
+  bottom: 0;
+  height: 50px;
+  width: auto;
+  position: absolute;
+  right: 15px;
+  transition: all 0.3s ease-in-out;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* .hire {
+    display: flex;
+    gap: 5px;
+  } */
 
 .polo img {
   bottom: 0;
-  height: 86px;
+  height: 50px;
   width: auto;
   position: absolute;
-  right: 5px;
-  transition: all .3s ease-in-out;
+  right: 15px;
+  transition: all 0.3s ease-in-out;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .imgpost:hover a {
@@ -609,7 +658,7 @@
 .social li a {
   color: #242429;
   font-size: 35px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .show1:hover {
@@ -630,7 +679,6 @@
 
 .show3:hover {
   color: #de63bc;
-
 }
 
 .medg {
@@ -646,48 +694,30 @@
 }
 
 @media screen and (min-width: 1400px) {
-
-
   .medg {
     margin-top: 52%;
   }
-
-
-
 }
 
 @media screen and (min-width: 1500px) {
-
   .glop {
     gap: 35px;
     height: 460px;
   }
 
-
   .devgame img {
     height: auto;
   }
-
-
- 
-
 
   .medg {
     margin-top: 48%;
   }
-
 }
 
 @media screen and (min-width: 1580px) {
-
-
-
-
   .devgame img {
     height: auto;
   }
-
-
 
   .proper p {
     font-size: 19px;
@@ -699,36 +729,27 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
-
 }
 
 @media screen and (min-width: 1900px) {
-
-
   .devgame img {
     height: auto;
   }
 
-
   .medg {
     margin-top: 36%;
   }
-
-
 }
 
 @media screen and (max-width: 1280px) {
-
   .post {
     padding: 0 8px;
     font-size: 11px;
   }
-
 }
 
 @media screen and (max-width: 991px) {
-
-  .headernew{
+  .headernew {
     display: none;
   }
 
@@ -737,9 +758,6 @@
     height: auto;
   }
 
-
-  
-
   .product:hover .megamenu,
   .product:hover .megamenuserve,
   .product:hover .megamenucom,
@@ -747,7 +765,6 @@
     animation: none;
     transform-origin: top;
   }
-
 
   .backArrow {
     position: absolute;
@@ -761,10 +778,10 @@
   }
 
   /* .newone li {
-
-    border-bottom: unset!important;
-
-} */
+  
+      border-bottom: unset!important;
+  
+  } */
 
   .megamenu {
     padding-left: 3%;
@@ -826,24 +843,24 @@
     border-bottom: 1px solid #ccc;
     padding-bottom: 20px;
   }
-.megamenuserve li, .megamenucom li{
-  border-bottom: unset;
-}
-.megamenucom .glop {
-  height: auto;
-}
-.megamenucom, .megamenuwork{
-  top: 0;
-}
-.listImg img {
-  height: auto;
-}
+  .megamenuserve li,
+  .megamenucom li {
+    border-bottom: unset;
+  }
+  .megamenucom .glop {
+    height: auto;
+  }
+  .megamenucom,
+  .megamenuwork {
+    top: 0;
+  }
+  .listImg img {
+    height: auto;
+  }
   .post {
     padding: 0 5px;
     font-size: 16px;
   }
-
-
 
   .headernew .newone {
     position: fixed;
@@ -857,7 +874,7 @@
     align-items: flex-start;
     gap: 30px;
     background-color: #272727;
-    transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     z-index: 9999;
   }
 
@@ -874,10 +891,8 @@
   }
 
   .headernew {
-
     padding-right: 15px;
   }
-
 
   .navTogle .line {
     background-color: #fff;
@@ -885,10 +900,8 @@
     height: 3px;
     display: block;
     margin: 6px auto;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
   }
-
-
 
   .newone {
     position: fixed;
@@ -902,15 +915,12 @@
     align-items: flex-start;
     gap: 30px;
     background-color: #272727;
-    transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     z-index: 9999;
   }
-
 }
 
 @media screen and (max-width: 480px) {
-
-
   .megamenu,
   .megamenuserve,
   .megamenucom,

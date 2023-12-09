@@ -21,9 +21,23 @@ import securityjobs from "../public/images/newfydemand/security-jobs.png";
 import gamehead from "../public/images/newfydemand/gamehead.png";
 import blockchainhead from "../public/images/newfydemand/blockchainhead.png";
 
+import web from "../public/images/icons/web.png";
+import about from "../public/images/newfydemand/about.svg";
 import about2 from "../public/images/icons/about.png";
+import employers from "../public/images/newfydemand/employers.svg";
+import listcourse from "../public/images/newfydemand/list-course.svg";
+import faqs from "../public/images/newfydemand/faqs.svg";
+import help from "../public/images/newfydemand/help.svg";
 import call from "../public/images/icons/phone-icon.webp";
 import mail from "../public/images/icons/email-icon.webp";
+import hosting from "../public/images/icons/hosting.png";
+import cctvicon from "../public/images/newfydemand/cctv-icon.svg";
+import guardicon from "../public/images/newfydemand/guard-icon.svg";
+import topdsicon from "../public/images/newfydemand/top-ds-icon.svg";
+import topsgicon from "../public/images/newfydemand/top-sg-icon.svg";
+import aplhicon from "../public/images/newfydemand/aplh-icon.svg";
+import cscsicon from "../public/images/newfydemand/cscs-icon.svg";
+import games from "../public/images/icons/games.png";
 import { RiArrowDropRightLine } from "react-icons/ri";
 import { IoLogoFacebook } from "react-icons/io5";
 import { FaYoutube } from "react-icons/fa";
@@ -149,12 +163,6 @@ const Header = () => {
     setIsActive(!isActive);
   };
 
-  const [activePage, setActivePage] = useState("tab1");
-
-  function func1(tabs1) {
-    setActivePage(tabs1);
-  }
-
   return (
     <>
       <header className={styles.headernew}>
@@ -194,7 +202,7 @@ const Header = () => {
                 <div className={styles.megamenu}>
                   <Row>
                     <Col lg={4} className={` ${styles.newspace}`}>
-                      <div onClick={() => fun1("tab1")}>
+                      <div>
                         <h4 className={styles.course1}>
                           Mobile App Development
                         </h4>
@@ -333,12 +341,7 @@ const Header = () => {
                       </div>
                     </Col>
                     <Col lg={4} className={` ${styles.menupostblog1}`}>
-                      {activePage == "tab1" && (
-                        <div>
-                          <span>Tab One</span>
-                        </div>
-                      )}
-                      {/* <div>
+                      <div>
                         <h4 className={styles.course}>GOOD LINKS</h4>
                       </div>
                       <div>
@@ -427,7 +430,7 @@ const Header = () => {
                             </li>
                           </ul>
                         </div>
-                      </div> */}
+                      </div>
                     </Col>
 
                     <Col lg={4} className={styles.newset}>

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Row, Col } from "react-bootstrap";
-import styles from "@/styles/Headerproduct.module.css";
+import styles from "@/styles/NewHeader.module.css";
 
 // images
 import logo from "../public/images/icons/footerlogo.png";
@@ -376,53 +376,18 @@ const HeaderNewDesign = () => {
                             </div>
                           </Col>
                         </Row>
-                      </div>
-                    </Col>
-                    <Col lg={4} className={` ${styles.menupostblog1}`}>
-                      {activeTab1 == "tab1" && (
-                        <Row className="mt-5 pt-3">
+                        <Row>
                           <Col lg={6}>
-                            <Link
-                              className={`${styles.hire}`}
-                              href="/ios-app-development"
+                            <div
+                              className={`${styles.hire} ${
+                                activeTab1 == "tab7" ? styles.active : ""
+                              }`}
+                              onClick={() => fun1("tab7")}
+                              href="#"
                             >
-                              <div className={styles.poloTwo}>
+                              <div className={styles.polo}>
                                 <h4>
-                                  iOS Application <br /> Development{" "}
-                                </h4>
-                                <Image
-                                  alt="bitswits"
-                                  src={IOS}
-                                  className="img-fluid"
-                                />
-                              </div>
-                            </Link>
-                          </Col>
-                          <Col lg={6}>
-                            <Link
-                              className={`${styles.hire}`}
-                              href="/android-application-development"
-                            >
-                              <div className={styles.poloTwo}>
-                                <h4>
-                                  Android Application <br /> Development
-                                </h4>
-                                <Image
-                                  alt="bitswits"
-                                  src={andriod}
-                                  className="img-fluid"
-                                />
-                              </div>
-                            </Link>
-                          </Col>
-                          <Col lg={6}>
-                            <Link
-                              className={`${styles.hire}`}
-                              href="/web-app-development"
-                            >
-                              <div className={styles.poloTwo}>
-                                <h4>
-                                  Web App <br /> Development{" "}
+                                  Web <br /> Development
                                 </h4>
                                 <Image
                                   alt="bitswits"
@@ -430,262 +395,295 @@ const HeaderNewDesign = () => {
                                   className="img-fluid"
                                 />
                               </div>
-                            </Link>
+                            </div>
                           </Col>
                           <Col lg={6}>
-                            <Link
-                              className={`${styles.hire}`}
-                              href="/flutter-mobile-development"
+                            <div
+                              className={`${styles.hire} ${
+                                activeTab1 == "tab8" ? styles.active : ""
+                              }`}
+                              onClick={() => fun1("tab8")}
+                              href="#"
                             >
-                              <div className={styles.poloTwo}>
+                              <div className={styles.polo}>
                                 <h4>
-                                  Flutter App <br /> Development
+                                  UI/UX App <br /> Design{" "}
                                 </h4>
+                                {/* <Image
+                                  alt="bitswits"
+                                  src={Cross}
+                                  className="img-fluid"
+                                /> */}
+                              </div>
+                            </div>
+                          </Col>
+                        </Row>
+                      </div>
+                    </Col>
+                    <Col lg={4} className={` ${styles.menupostblog1}`}>
+                      {activeTab1 == "tab1" && (
+                        <div>
+                          <ul className={`${styles.mega} mt-5 pt-3`}>
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/ios-app-development">
+                                iOS Application Development{" "}
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={andriod}
+                                  guardicon
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/android-application-development">
+                                Android Application Development{" "}
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={WebApp}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/web-app-development">
+                                Web App Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
                                   src={Flutter}
                                   className="img-fluid"
                                 />
                               </div>
-                            </Link>
-                          </Col>
-                          <Col lg={6}>
-                            <Link
-                              className={`${styles.hire}`}
-                              href="/react-native-mobile-development"
-                            >
-                              <div className={styles.poloTwo}>
-                                <h4>
-                                  React Native
-                                  <br /> App Development
-                                </h4>
+                              <Link href="/flutter-mobile-development">
+                                Flutter App Development{" "}
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
                                   src={ReactNative}
                                   className="img-fluid"
                                 />
                               </div>
-                            </Link>
-                          </Col>
-                          <Col lg={6}>
-                            <Link
-                              className={`${styles.hire}`}
-                              href="/cross-platform-app-development"
-                            >
-                              <div className={styles.poloTwo}>
-                                <h4>
-                                  Cross Platform
-                                  <br /> App Development
-                                </h4>
+                              <Link href="/react-native-mobile-development">
+                                React Native App Development{" "}
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
                                   src={Cross}
                                   className="img-fluid"
                                 />
                               </div>
-                            </Link>
-                          </Col>
-                        </Row>
+                              <Link href="/cross-platform-app-development">
+                                Cross Platform App Development
+                              </Link>{" "}
+                            </li>
+                          </ul>
+                        </div>
                       )}
 
                       {activeTab1 == "tab2" && (
-                        <Row className="mt-5 pt-3">
-                          <Col lg={6}>
-                            <Link
-                              className={`${styles.hire}`}
-                              href="/2d-game-development-company"
-                            >
-                              <div className={styles.poloTwo}>
-                                <h4>
-                                  2D Game <br /> Development{" "}
-                                </h4>
-                                {/* <Image
+                        <div>
+                          <ul className={`${styles.mega} mt-5 pt-3`}>
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
                                   alt="bitswits"
                                   src={IOS}
                                   className="img-fluid"
-                                /> */}
+                                />
                               </div>
-                            </Link>
-                          </Col>
-                          <Col lg={6}>
-                            <Link
-                              className={`${styles.hire}`}
-                              href="/3d-game-development-company"
-                            >
-                              <div className={styles.poloTwo}>
-                                <h4>
-                                  3D Game
-                                  <br /> Development
-                                </h4>
-                                {/* <Image
+                              <Link href="/2d-game-development-company">
+                                2D Game Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
                                   alt="bitswits"
                                   src={andriod}
+                                  guardicon
                                   className="img-fluid"
-                                /> */}
+                                />
                               </div>
-                            </Link>
-                          </Col>
-                          <Col lg={6}>
-                            <Link
-                              className={`${styles.hire}`}
-                              href="/nft-game-development"
-                            >
-                              <div className={styles.poloTwo}>
-                                <h4>
-                                  NFT Game
-                                  <br /> Development{" "}
-                                </h4>
-                                {/* <Image
+                              <Link href="/3d-game-development-company">
+                                3D Game Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
                                   alt="bitswits"
                                   src={WebApp}
                                   className="img-fluid"
-                                /> */}
+                                />
                               </div>
-                            </Link>
-                          </Col>
-                          <Col lg={6}>
-                            <Link
-                              className={`${styles.hire}`}
-                              href="/blockchain-game-development"
-                            >
-                              <div className={styles.poloTwo}>
-                                <h4>
-                                  Blockchain Game <br /> Development
-                                </h4>
-                                {/* <Image
+                              <Link href="/nft-game-development">
+                                NFT Game Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
                                   alt="bitswits"
                                   src={Flutter}
                                   className="img-fluid"
-                                /> */}
+                                />
                               </div>
-                            </Link>
-                          </Col>
-                        </Row>
+                              <Link href="/blockchain-game-development">
+                                Blockchain Game Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                          </ul>
+                        </div>
                       )}
 
                       {activeTab1 == "tab3" && (
-                        <Row className="mt-5 pt-3">
-                          <Col lg={6}>
-                            <Link
-                              className={`${styles.hire}`}
-                              href="/blockchain-development-lp"
-                            >
-                              <div className={styles.poloTwo}>
-                                <h4>
-                                  Blockchain
-                                  <br /> Game Development{" "}
-                                </h4>
-                                {/* <Image
+                        <div>
+                          <ul className={`${styles.mega} mt-5 pt-3`}>
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
                                   alt="bitswits"
                                   src={IOS}
                                   className="img-fluid"
-                                /> */}
+                                />
                               </div>
-                            </Link>
-                          </Col>
-                        </Row>
+                              <Link href="/blockchain-development-lp">
+                                Blockchain Game Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                          </ul>
+                        </div>
                       )}
 
                       {activeTab1 == "tab4" && (
-                        <Row className="mt-5 pt-3">
-                          <Col lg={6}>
-                            <div
-                              className={`${styles.hire}`}
-                              href="/artificial-intelligence-development-company"
-                            >
-                              <div className={styles.polo}>
-                                <h4>
-                                  Artificial <br /> Intelligence{" "}
-                                </h4>
-                                {/* <Image
-                                  alt="bitswits"
-                                  src={construction}
-                                  className="img-fluid"
-                                /> */}
-                              </div>
-                            </div>
-                          </Col>
-                          {/* <Col lg={6}>
-                            <div className={`${styles.hire}`} href="#">
-                              <div className={styles.polo}>
-                                <h4>Flutter App </h4>
+                        <div>
+                          <ul className={`${styles.mega} mt-5 pt-3`}>
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={construction}
+                                  src={IOS}
                                   className="img-fluid"
                                 />
                               </div>
-                            </div>
-                          </Col>
-                          <Col lg={6}>
-                            <div className={`${styles.hire}`} href="#">
-                              <div className={styles.polo}>
-                                <h4>Flutter App </h4>
-                                <Image
-                                  alt="bitswits"
-                                  src={construction}
-                                  className="img-fluid"
-                                />
-                              </div>
-                            </div>
-                          </Col>
-                          <Col lg={6}>
-                            <div className={`${styles.hire}`} href="#">
-                              <div className={styles.polo}>
-                                <h4>Flutter App </h4>
-                                <Image
-                                  alt="bitswits"
-                                  src={construction}
-                                  className="img-fluid"
-                                />
-                              </div>
-                            </div>
-                          </Col> */}
-                        </Row>
+                              <Link href="/artificial-intelligence-development-company">
+                                Artificial Intelligence
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                          </ul>
+                        </div>
                       )}
 
                       {activeTab1 == "tab5" && (
-                        <Row className="mt-5 pt-3">
-                          <Col lg={6}>
-                            <div
-                              className={`${styles.hire}`}
-                              href="/web-app-development"
-                            >
-                              <div className={styles.polo}>
-                                <h4>
-                                  Web App <br /> Development
-                                </h4>
-                                {/* <Image
+                        <div>
+                          <ul className={`${styles.mega} mt-5 pt-3`}>
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
                                   alt="bitswits"
-                                  src={construction}
+                                  src={IOS}
                                   className="img-fluid"
-                                /> */}
+                                />
                               </div>
-                            </div>
-                          </Col>
-                        </Row>
+                              <Link href="/web-app-development">
+                                Web App Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                          </ul>
+                        </div>
                       )}
 
                       {activeTab1 == "tab6" && (
-                        <Row className="mt-5 pt-3">
-                          <Col lg={6}>
-                            <div
-                              className={`${styles.hire}`}
-                              href="/augmented-reality-apps-development-company"
-                            >
-                              <div className={styles.polo}>
-                                <h4>
-                                  Augmented Reality <br /> App Development
-                                </h4>
-                                {/* <Image
+                        <div>
+                          <ul className={`${styles.mega} mt-5 pt-3`}>
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
                                   alt="bitswits"
-                                  src={construction}
+                                  src={IOS}
                                   className="img-fluid"
-                                /> */}
+                                />
                               </div>
-                            </div>
-                          </Col>
-                        </Row>
+                              <Link href="/augmented-reality-apps-development-company">
+                                Augmented Reality App Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                          </ul>
+                        </div>
+                      )}
+
+                      {activeTab1 == "tab7" && (
+                        <div>
+                          <ul className={`${styles.mega} mt-5 pt-3`}>
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/web-app-development">
+                                Web Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                          </ul>
+                        </div>
+                      )}
+
+                      {activeTab1 == "tab8" && (
+                        <div>
+                          <ul className={`${styles.mega} mt-5 pt-3`}>
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/augmented-reality-apps-development-company">
+                                Augmented Reality App Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                          </ul>
+                        </div>
                       )}
                     </Col>
                     <Col lg={4} className={`${styles.newset}`}>
