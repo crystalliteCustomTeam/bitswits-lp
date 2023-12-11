@@ -1,24 +1,30 @@
+import NewMaintain from "@/components/NewMaintain";
+import ServicesMaintain from "@/components/ServicesMaintain";
+import ServicesMaintainmobile from "@/components/ServicesMaintainmobile";
+import SwiperSlider from "@/components/SwiperSlider";
 import Head from "next/head";
-import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import styles from "../styles/new-home-page-fy.module.css"
 //components
-const NewIndex2Banner = React.lazy(() => import("@/components/new-home-page-fy/NewIndex2Banner"));
+const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
+const HomeBannerSliderlp = React.lazy(() =>
+  import("@/components/HomeBannerSliderlp")
+);
 const Nothing = React.lazy(() => import("@/components/Nothing"));
-const NewHomeWho = React.lazy(() => import("@/components/new-home-page-fy/NewHomeWho"));
-const NewHomeWhat = React.lazy(() => import("@/components/new-home-page-fy/NewHomeWhat"));
-const NewMaintain = React.lazy(() => import("@/components/NewMaintain"));
-const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
-const Globallplp6 = React.lazy(() => import("@/components/new-home-page-fy/Globallplp6"));
-const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
-const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
+const NewHomeWho = React.lazy(() => import("@/components/NewHomeWho"));
+const NewHomeWhat = React.lazy(() => import("@/components/NewHomeWhat"));
+const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
+const NewHomeHear = React.lazy(() => import("@/components/NewHomeHear"));
+// const NewMaintain = React.lazy(() => import("@/components/NewMaintain"));
+const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
+const ProjectProcess = React.lazy(() =>
+  import("@/components/ProjectProcessLp6")
+);
 const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const Faqs = React.lazy(() => import("@/components/NewhomeFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
-const LpChoose = React.lazy(() => import("@/components/LpChoose"));
-
-
+//images
+const BannerImage = await import("@/public/andriodapplication/andriod.png");
 const customios = await import(
   "../public/newHomePage/images/mobileimages/newMaintain1.png"
 );
@@ -45,8 +51,6 @@ const appEight = await import(
 );
 
 export default function Home() {
-
-
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -66,13 +70,13 @@ export default function Home() {
     };
   }, []);
 
-
   const severcedata = [
     {
-      classlayout: {
-        newclass: "homeclass",
-      },
+        classlayout: {
+            newclass: "homeclass",
+          },
       heading: {
+        // subtitle: "Delivering Excellence Daily",
         title1: "Delivering Excellence Daily",
         title2: "Trusted Development Company For Tech Solutions",
         text: (
@@ -143,7 +147,6 @@ export default function Home() {
     },
   ];
 
-
   return (
     <>
       <Head>
@@ -156,49 +159,29 @@ export default function Home() {
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 
-      <NewIndex2Banner />
-      <section>
-        <div className={`${styles.awardsFold}`}>
-          <div className="container-fluid px-0">
-            <div className="row align-items-center">
-              <div className="col-4">
-                <p className={`font-bold f-20 mb-0 ${styles.textWhite}`}>
-                  Endorsements on different Platforms
-                </p>
-                <h1 className={`font50 font-bold mb-0 ${styles.textPink}`}>
-                  Awards & <br />
-                  Recognition
-                </h1>
-              </div>
-              <div className="col-8">
-                <div className="row">
-                  <div className={`col-3 ${styles.borderLeft}`}>
-                    <Image src="/new-home-page-fy/awards/1.png" alt="awards" width={166} height={191} />
-                  </div>
-                  <div className="col-3">
-                    <Image src="/new-home-page-fy/awards/2.png" alt="awards" width={166} height={191} />
-                  </div>
-                  <div className="col-3">
-                    <Image src="/new-home-page-fy/awards/3.png" alt="awards" width={166} height={191} />
-                  </div>
-                  <div className="col-3">
-                    <Image src="/new-home-page-fy/awards/4.png" alt="awards" width={166} height={191} />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ServicesBanner
+        subtitle="Top Mobile App Development Company"
+        title={
+          <>
+            {" "}
+            Empowering Brands with Big <br /> Dreams and Innovative Visions{" "}
+          </>
+        }
+        BannerImage={BannerImage}
+        assignClass="homePage"
+      />
+      <HomeBannerSliderlp assignClass="homePage" />
+      <Nothing Nothing="nothingLp6" />
       <NewHomeWho />
       <NewHomeWhat />
-      <WeworkLp wework="weworkLp6" />
-      <StartupsLp startups="startups" />
-      <Technologieswe />
-      <Nothing Nothing="nothingLp6" />
+      <Justbuildit />
+      <NewHomeHear />
+      {/* <NewMaintain /> */}
+
       {isSliderActive ? (
         <NewMaintain
           assignClass="home"
+          //   subtitle="Delivering Excellence Daily"
           title1={<> Delivering Excellence Daily </>}
           title2={<> Trusted Development Company For Tech Solutions </>}
           text={
@@ -282,7 +265,15 @@ export default function Home() {
         <ServicesMaintainmobile severcedata={severcedata} />
       )}
       <Globallplp6 />
-      <LpChoose transform="transform" />
+      <ProjectProcess
+        processclass="processLp6"
+        title="Our App Development Process"
+        desc="We believe in efficiency without compromising quality. Our
+                      streamlined process for app development is <br /> designed to be
+                      transparent and collaborative, ensuring your vision comes to life
+                      exactly as you imagined."
+      />
+      <Technologieswe />
       <Formnewlp />
       <Faqs />
       <HomeLocation />

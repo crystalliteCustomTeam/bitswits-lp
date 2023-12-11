@@ -1,35 +1,22 @@
-import HomePageAbout from "@/components/HomePageAbout";
-import LpForm from "@/components/LpForm6";
 import Head from "next/head";
 import React from "react";
+import Image from "next/image";
+import styles from "../styles/new-home-page-fy.module.css"
 //components
-const NewIndexBanner = React.lazy(() => import("@/components/NewIndexBanner"));
-const NewIndex2Banner = React.lazy(() =>
-    import("@/components/new-home-page-fy/NewIndex2Banner")
-);
-const HomeBannerSliderlp = React.lazy(() =>
-    import("@/components/HomeBannerSliderlp")
-);
+const NewIndex2Banner = React.lazy(() => import("@/components/new-home-page-fy/NewIndex2Banner"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const NewHomeWho = React.lazy(() => import("@/components/new-home-page-fy/NewHomeWho"));
 const NewHomeWhat = React.lazy(() => import("@/components/new-home-page-fy/NewHomeWhat"));
-const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
-const NewHomeHear = React.lazy(() => import("@/components/NewHomeHear"));
 const NewMaintain = React.lazy(() => import("@/components/new-home-page-fy/NewMaintain"));
 const Globallplp6 = React.lazy(() => import("@/components/new-home-page-fy/Globallplp6"));
 const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
-const ProjectProcess = React.lazy(() =>
-    import("@/components/ProjectProcessLp6")
-);
 const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const Faqs = React.lazy(() => import("@/components/NewhomeFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 const LpChoose = React.lazy(() => import('@/components/LpChoose'));
 
-import styles from "../styles/new-home-page-fy.module.css"
-import Image from "next/image";
 
 export default function Home() {
     return (
