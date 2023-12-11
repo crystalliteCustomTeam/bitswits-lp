@@ -153,13 +153,13 @@
 .para {
   padding: 75px 0 50px;
   background-image: url(../public/images/lp-images/bg-image.png);
-  background-size: 42%;
-  background-position: center -100px;
+  background-size: 35%;
+  background-position: center -80px;
   background-repeat: no-repeat;
 }
 
 .para P {
-  font-size: 34px;
+  font-size: 28px;
   color: #fff;
   text-align: center;
 }

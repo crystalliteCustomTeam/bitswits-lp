@@ -72,6 +72,9 @@ export default function Home() {
       classlayout: {
         newclass: "homeclass",
       },
+      classlayout: {
+        newclass: "homeclass",
+      },
       heading: {
         title1: "Delivering Excellence Daily",
         title2: "Trusted Development Company For Tech Solutions",

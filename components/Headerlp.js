@@ -31,12 +31,14 @@ import homeconnect from '../public/images/icons/homeconnect.png'
 import ready from '../public/images/icons/ready.png'
 import scribe from '../public/images/icons/scribe.png'
 import sponsord from '../public/images/icons/sponsord.png'
-//
-import Modal from 'react-bootstrap/Modal';
-import Bitswitspopup from '../components/Bitswitspopup'
-import { RxCross2 } from 'react-icons/rx'
 import newImg from '../public/images/1.jpg'
 import call from '../public/images/icons/phone-icon.webp'
+//
+import Modal from 'react-bootstrap/Modal';
+//
+import Bitswitspopup from '../components/Bitswitspopup'
+//
+import { RxCross2 } from 'react-icons/rx'
 
 
 const Header = () => {
