@@ -112,11 +112,10 @@ export default function App({ Component, pageProps }) {
         <Headerlphome />
       ) : newecommercepage ? (
         <EcommerceBanner />
-      ) : NewHeader ? (
-        <NewHeaderDesign />
       ) : (
         <>
-          <Headerproduct />
+          <NewHeaderDesign />
+          {/* <Headerproduct /> */}
           <Header />
         </>
       )}
