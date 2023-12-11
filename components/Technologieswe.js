@@ -56,7 +56,7 @@ const Technologieswe = (props) => {
 
     return (
         <>
-            <section className={`${styles.tech} ${styles[props.addresClass]}`}>  
+            <section className={`${styles.tech} ${styles[props.addresClass]} ${props.paddingBottom}`}>  
                 <Container>
                     <Row>
                         <Col xl={12}>

@@ -2,26 +2,36 @@ import Head from "next/head";
 import React from "react";
 //components
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
-const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
+const ServicesMaintain = React.lazy(() =>
+  import("@/components/ServicesMaintain")
+);
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
 const ServisesWhy = React.lazy(() => import("@/components/ServisesWhy"));
-const ServicesPortfolio = React.lazy(() => import("@/components/ServicesPortfolio"));
+const ServicesPortfolio = React.lazy(() =>
+  import("@/components/ServicesPortfolio")
+);
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
 const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
-const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
+const HomeBannerSliderlp = React.lazy(() =>
+  import("@/components/HomeBannerSliderlp")
+);
 const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
-const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
-const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
-const LpChoose = React.lazy(() => import('@/components/LpChoose'));
-const LpForm = React.lazy(() => import('@/components/LpForm6'));
-const Nothing = React.lazy(() => import('@/components/Nothing'));
-const Partnerships = React.lazy(() => import('@/components/Partnerships'));
-const People = React.lazy(() => import('@/components/People'));
-const ServicesMaintainmobile = React.lazy(() => import('@/components/ServicesMaintainmobile'));
+const ProjectProcess = React.lazy(() =>
+  import("@/components/ProjectProcessLp6")
+);
+const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
+const LpChoose = React.lazy(() => import("@/components/LpChoose"));
+const LpForm = React.lazy(() => import("@/components/LpForm6"));
+const Nothing = React.lazy(() => import("@/components/Nothing"));
+const Partnerships = React.lazy(() => import("@/components/Partnerships"));
+const People = React.lazy(() => import("@/components/People"));
+const ServicesMaintainmobile = React.lazy(() =>
+  import("@/components/ServicesMaintainmobile")
+);
 //images
 const BannerImage = await import("@/public/andriodapplication/andriod.png");
 //icons
@@ -32,22 +42,36 @@ const icon26 = await import("../public/images/fyios/4.png");
 const icon27 = await import("../public/images/fyios/5.png");
 const icon28 = await import("../public/images/fyios/6.png");
 
+// css //
+import styles from "@/styles/LpChoose.module.css";
+import style from '@/styles/Technologieswe.module.css'
 
-const customios = await import("../public/images/iosappdevelopment/customios.png");
-const iphoneapp = await import("../public/images/iosappdevelopment/iphoneapp.png");
-const applewatch = await import("../public/images/iosappdevelopment/applewatch.png");
-const appletvappdevelopment = await import("../public/images/iosappdevelopment/appletvappdevelopment.png");
-const iphoneappdesigning = await import("../public/images/iosappdevelopment/iphoneappdesigning.png");
-const hybridiphone = await import("../public/images/iosappdevelopment/hybridiphone.png");
+
+const customios = await import(
+  "../public/images/iosappdevelopment/customios.png"
+);
+const iphoneapp = await import(
+  "../public/images/iosappdevelopment/iphoneapp.png"
+);
+const applewatch = await import(
+  "../public/images/iosappdevelopment/applewatch.png"
+);
+const appletvappdevelopment = await import(
+  "../public/images/iosappdevelopment/appletvappdevelopment.png"
+);
+const iphoneappdesigning = await import(
+  "../public/images/iosappdevelopment/iphoneappdesigning.png"
+);
+const hybridiphone = await import(
+  "../public/images/iosappdevelopment/hybridiphone.png"
+);
 
 import { useState } from "react";
 import { useEffect } from "react";
 
 export default function gamedevelopmentcompany() {
-
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
-
     const handleResize = () => {
       if (window.innerWidth < 1201) {
         setIsSliderActive(false);
@@ -58,13 +82,12 @@ export default function gamedevelopmentcompany() {
 
     handleResize();
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
-
 
   const severcedata = [
     {
@@ -86,7 +109,7 @@ export default function gamedevelopmentcompany() {
           title: "Custom iOS App Development",
           text: "Our custom iOS app development solutions got you covered when it comes to developing your iOS app. From the initial idea to the final design and development stages, we provide customized iOS app solutions tailored to your needs.",
           appclass: "app",
-          imgservice: customios
+          imgservice: customios,
         },
         {
           title: (
@@ -97,37 +120,35 @@ export default function gamedevelopmentcompany() {
           ),
           text: "We turn app ideas into reality with fast and efficient iPhone app development services. No idea is too complex or ambitious for us. We help you take your idea from concept to launch in no time.",
           appclass: "app1",
-          imgservice: iphoneapp
+          imgservice: iphoneapp,
         },
         {
           title: "Apple Watch Development",
           text: "Our team of expert iOS developers create exceptional Apple Watch apps that flawlessly blend with advanced technology and coding standards. We prioritize maximizing battery efficiency and exceeding user expectations with superb performance.",
           appclass: "app2",
-          imgservice: applewatch
+          imgservice: applewatch,
         },
         {
           title: "Apple TV App Development",
           text: "Our team specializes in developing custom apps for Apple TV with impeccable design and performance. We also offer iPhone compatibility consultations. Let's turn your app ideas into reality!",
           appclass: "app3",
-          imgservice: appletvappdevelopment
+          imgservice: appletvappdevelopment,
         },
         {
           title: "iPhone App Designing",
           text: "Our team creates custom iPhone apps to streamline workflow processes, improve customer engagement, and enhance their experience with innovative and intuitive designs.",
           appclass: "app4",
-          imgservice: iphoneappdesigning
+          imgservice: iphoneappdesigning,
         },
         {
           title: "Hybrid iPhone App Development",
           text: "Boost your business with our hybrid iPhone app development services. Run your applications seamlessly across platforms to increase productivity and efficiency. Contact us now to learn more.",
           appclass: "app5",
-          imgservice: hybridiphone
+          imgservice: hybridiphone,
         },
       ],
     },
   ];
-
-
 
   return (
     <>
@@ -160,11 +181,7 @@ export default function gamedevelopmentcompany() {
 
       <HomeBannerSliderlp />
 
-
-      <LpForm
-        addresClass='iosclass'
-      />
-
+      <LpForm addresClass="iosclass"/>
 
       <Nothing Nothing="nothingLp6" />
 
@@ -173,8 +190,7 @@ export default function gamedevelopmentcompany() {
                 subtitle="Nothing Short Of Amazing!"
             /> */}
 
-      {isSliderActive ?
-
+      {isSliderActive ? (
         <ServicesMaintain
           assignClass="ios"
           subtitle="iOS App Development Services"
@@ -183,10 +199,12 @@ export default function gamedevelopmentcompany() {
           text={
             <>
               {" "}
-              As a premier iOS app development company, our iOS developers create
-              eye-catching and user-friendly iPhone and iPad apps that capture
+              As a premier iOS app development company, our iOS developers
+              create eye-catching and user-friendly iPhone and iPad apps that
+              capture <br className="d-lg-block d-none" />
               attention immediately. To develop customized applications that are
-              appropriate for Apple devices, our professional iOS developers and
+              appropriate for Apple devices, our professional iOS developers and{" "}
+              <br className="d-lg-block d-none" />
               designers make use of the newest iOS capabilities.{" "}
             </>
           }
@@ -237,13 +255,9 @@ export default function gamedevelopmentcompany() {
           appContent6={[]}
           appContent7={[]}
         />
-        :
-        <ServicesMaintainmobile
-          severcedata={severcedata}
-
-        />
-
-      }
+      ) : (
+        <ServicesMaintainmobile severcedata={severcedata} />
+      )}
 
       {/* <NewAddress /> */}
 
@@ -274,9 +288,9 @@ export default function gamedevelopmentcompany() {
                 WhatImage={WhatImage}
             /> */}
 
-      <LpChoose transform="transform" />
+      <LpChoose transform="transform"  marginTop={styles.marginTop} />
 
-      <ServisesWhy
+      {/* <ServisesWhy
         // title={
         //   <>
         //     {" "}
@@ -331,7 +345,7 @@ export default function gamedevelopmentcompany() {
             para: "Our iOS developers ensure open dialogues and total transparency throughout the development process.",
           },
         ]}
-      />
+      /> */}
       <ServicesPortfolio
         title={
           <>
@@ -372,9 +386,7 @@ export default function gamedevelopmentcompany() {
         ]}
       />
 
-      <Technologieswe
-        addresClass='appdev'
-      />
+      <Technologieswe addresClass="appdev" paddingBottom={style.paddingBottom}/>
       {/* <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject
