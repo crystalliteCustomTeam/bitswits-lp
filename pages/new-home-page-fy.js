@@ -236,28 +236,28 @@ export default function Home() {
                                     <div className="row">
                                         <div className={`${styles.mobileapps} col-3`}>
                                             <div>
-                                                <Image className={styles.newmob} src="/images/industry/1n.png" alt="awards" width={166} height={129} />
+                                                <Image quality={95} className={styles.newmob} src="/images/industry/1n.png" alt="bitswits" width={166} height={129} />
                                                 <p className="white center pt-4 font16">Top Mobile Application <br />
                                                     Developers</p>
                                             </div>
                                         </div>
                                         <div className="col-3">
                                             <div>
-                                                <Image className={styles.newmob} src="/images/industry/2n.png" alt="awards" width={120} height={130} />
+                                                <Image quality={95} className={styles.newmob} src="/images/industry/2n.png" alt="bitswits" width={120} height={130} />
                                                 <p className="white center pt-4 font16">Top Mobile Application <br />
                                                     Developers 2022</p>
                                             </div>
                                         </div>
                                         <div className="col-3">
                                             <div>
-                                                <Image className={styles.newmob} src="/images/industry/3n.png" alt="awards" width={148} height={130} />
+                                                <Image quality={95} className={styles.newmob} src="/images/industry/3n.png" alt="bitswits" width={148} height={130} />
                                                 <p className="white center pt-4 font16">Top Application <br />
                                                     Development Company</p>
                                             </div>
                                         </div>
                                         <div className="col-3">
                                             <div>
-                                                <Image className={styles.newmob} src="/images/industry/4n.png" alt="awards" width={130} height={129} />
+                                                <Image quality={95} className={styles.newmob} src="/images/industry/4n.png" alt="bitswits" width={130} height={129} />
                                                 <p className="white center pt-4 font16">Top Mobile Application <br />
                                                     Development Company</p>
                                             </div>
