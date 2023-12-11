@@ -634,19 +634,6 @@ const HeaderNewDesign = () => {
                               </Link>{" "}
                             </li>
                             <hr />
-                            <li className={styles.imgpost}>
-                              <div className={styles.dsicon}>
-                                <Image
-                                  alt="bitswits"
-                                  src={IOS}
-                                  className="img-fluid"
-                                />
-                              </div>
-                              <Link href="/augmented-reality-apps-development-company">
-                                Augmented Reality App Development
-                              </Link>{" "}
-                            </li>
-                            <hr />
                           </ul>
                         </div>
                       )}
@@ -664,6 +651,58 @@ const HeaderNewDesign = () => {
                               </div>
                               <Link href="/artificial-intelligence-development-company">
                                 Artificial Intelligence
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/blockchain-development-lp">
+                                Blockchain Game Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/web-app-development">
+                                Web App Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/augmented-reality-apps-development-company">
+                                Augmented Reality App Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/web-app-development">
+                                Web Development
                               </Link>{" "}
                             </li>
                             <hr />
@@ -687,6 +726,58 @@ const HeaderNewDesign = () => {
                               </Link>{" "}
                             </li>
                             <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/blockchain-development-lp">
+                                Blockchain Game Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/artificial-intelligence-development-company">
+                                Artificial Intelligence
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/augmented-reality-apps-development-company">
+                                Augmented Reality App Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/web-app-development">
+                                Web Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
                           </ul>
                         </div>
                       )}
@@ -704,6 +795,58 @@ const HeaderNewDesign = () => {
                               </div>
                               <Link href="/augmented-reality-apps-development-company">
                                 Augmented Reality App Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/web-app-development">
+                                Web App Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/blockchain-development-lp">
+                                Blockchain Game Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/artificial-intelligence-development-company">
+                                Artificial Intelligence
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/web-app-development">
+                                Web Development
                               </Link>{" "}
                             </li>
                             <hr />
@@ -727,6 +870,58 @@ const HeaderNewDesign = () => {
                               </Link>{" "}
                             </li>
                             <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/augmented-reality-apps-development-company">
+                                Augmented Reality App Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/web-app-development">
+                                Web App Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/blockchain-development-lp">
+                                Blockchain Game Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/artificial-intelligence-development-company">
+                                Artificial Intelligence
+                              </Link>{" "}
+                            </li>
+                            <hr />
                           </ul>
                         </div>
                       )}
@@ -744,6 +939,58 @@ const HeaderNewDesign = () => {
                               </div>
                               <Link href="/augmented-reality-apps-development-company">
                                 Augmented Reality App Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/web-app-development">
+                                Web Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/web-app-development">
+                                Web App Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/blockchain-development-lp">
+                                Blockchain Game Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/artificial-intelligence-development-company">
+                                Artificial Intelligence
                               </Link>{" "}
                             </li>
                             <hr />
