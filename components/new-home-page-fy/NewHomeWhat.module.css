@@ -6,6 +6,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .wid {
@@ -61,6 +63,12 @@
 }
 
 @media screen and (max-width: 991px) {
+    .newHomeBg{
+        padding: 0px;
+        padding-top: 50px;
+        padding-bottom: 80px;
+        height: unset;
+    }
     .newHomeBg h2 {
         font-size: 40px;
         line-height: 50px;
@@ -73,6 +81,10 @@
 }
 
 @media screen and (max-width: 767px) {
+    .newHomeBg{
+        padding: 0px;
+        padding-top: 100px;
+    }
     .secImage {
         width: 100%;
         max-height: 220px;
@@ -91,4 +103,11 @@
         font-size: 30px;
         line-height: 40px;
     }
+    .newHomeBg{
+        padding: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: unset;
+    }
 }
+

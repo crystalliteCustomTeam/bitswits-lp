@@ -3,9 +3,9 @@
     position: relative;
     padding: 150px 0;
     background-image: url(../../public//new-home-page-fy/mapBg.png);
-    background-size: contain;
+    background-size: 53%;
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center 200px;
 }
 
 .loop,
@@ -23,10 +23,8 @@
 .success {
     font-size: 50px;
     font-weight: bold;
-    background-image: linear-gradient(to right, #f32f53, #f32fc2, #1153ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    line-height: 1.5;
+    color: #F32F63;
+    line-height: 1.1;
     margin-bottom: 4%;
 }
 
@@ -103,7 +101,8 @@
 
 @media screen and (max-width: 767px) {
     .success {
-        font-size: 35px;
+        font-size: 30px;
+        line-height: 40px;
     }
 }
 
