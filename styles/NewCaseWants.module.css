@@ -51,6 +51,15 @@
     font-size: 40px;
     line-height: 50px;
   }
+
+  .wantImg,
+  .wantImg2 {
+    text-align: center;
+  }
+
+  .midRow {
+    flex-direction: column-reverse;
+  }
 }
 
 /* ========================================== */

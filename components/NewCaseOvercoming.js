@@ -26,8 +26,8 @@ export default function NewCaseOvercoming(props) {
     return (
         <>
             <section className={styles.Overcoming}>
-                <Container fluid>
-                    <Row className='align-items-center g-3 px-4'>
+                <Container>
+                    <Row className='align-items-center g-4 d-none d-lg-flex'>
                         {props.appData.map((data, index) => (
                             <Col lg={4} key={index}>
                                 <div key={index} className={styles.app}>
@@ -37,6 +37,20 @@ export default function NewCaseOvercoming(props) {
                             </Col>
                         ))}
                     </Row>
+
+                    {/* For Mobile */}
+                    <div className='d-block d-lg-none'>
+                        <Slider {...mblSlider} className={`mblSlider ${styles.mblSlider}`}>
+                            {props.appData.map((data, index) => (
+                                <div key={index}>
+                                    <div key={index} className={styles.app}>
+                                        <h3>{data.title}</h3>
+                                        <p>{data.description}</p>
+                                    </div>
+                                </div>
+                            ))}
+                        </Slider>
+                    </div>
                 </Container>
             </section>
         </>

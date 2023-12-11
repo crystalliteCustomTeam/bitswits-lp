@@ -1,30 +1,24 @@
-import NewMaintain from "@/components/NewMaintain";
-import ServicesMaintain from "@/components/ServicesMaintain";
-import ServicesMaintainmobile from "@/components/ServicesMaintainmobile";
-import SwiperSlider from "@/components/SwiperSlider";
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
 //components
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
-const HomeBannerSliderlp = React.lazy(() =>
-  import("@/components/HomeBannerSliderlp")
-);
+const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const NewHomeWho = React.lazy(() => import("@/components/NewHomeWho"));
 const NewHomeWhat = React.lazy(() => import("@/components/NewHomeWhat"));
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
 const NewHomeHear = React.lazy(() => import("@/components/NewHomeHear"));
-// const NewMaintain = React.lazy(() => import("@/components/NewMaintain"));
+const NewMaintain = React.lazy(() => import("@/components/NewMaintain"));
+const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
-const ProjectProcess = React.lazy(() =>
-  import("@/components/ProjectProcessLp6")
-);
+const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
 const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const Faqs = React.lazy(() => import("@/components/NewhomeFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 //images
 const BannerImage = await import("@/public/andriodapplication/andriod.png");
+//Slider Images
 const customios = await import(
   "../public/newHomePage/images/mobileimages/newMaintain1.png"
 );
@@ -72,9 +66,9 @@ export default function Home() {
 
   const severcedata = [
     {
-        classlayout: {
-            newclass: "homeclass",
-          },
+      classlayout: {
+        newclass: "homeclass",
+      },
       heading: {
         // subtitle: "Delivering Excellence Daily",
         title1: "Delivering Excellence Daily",
@@ -176,12 +170,10 @@ export default function Home() {
       <NewHomeWhat />
       <Justbuildit />
       <NewHomeHear />
-      {/* <NewMaintain /> */}
 
       {isSliderActive ? (
         <NewMaintain
           assignClass="home"
-          //   subtitle="Delivering Excellence Daily"
           title1={<> Delivering Excellence Daily </>}
           title2={<> Trusted Development Company For Tech Solutions </>}
           text={
@@ -268,10 +260,7 @@ export default function Home() {
       <ProjectProcess
         processclass="processLp6"
         title="Our App Development Process"
-        desc="We believe in efficiency without compromising quality. Our
-                      streamlined process for app development is <br /> designed to be
-                      transparent and collaborative, ensuring your vision comes to life
-                      exactly as you imagined."
+        desc="We believe in efficiency without compromising quality. Our streamlined process for app development is <br /> designed to be transparent and collaborative, ensuring your vision comes to life exactly as you imagined."
       />
       <Technologieswe />
       <Formnewlp />

@@ -1,6 +1,6 @@
 .nothing,
 .nothingLp6 {
-  padding-top: 150px;
+  padding-top: 100px;
   background: #000;
   background-image: url(../public/images/nothing/bg.png);
   background-position: 886px center;
@@ -9,7 +9,7 @@
   background-size: 27%;
 }
 
-.strpImg{
+.strpImg {
   padding-bottom: 15px;
 }
 

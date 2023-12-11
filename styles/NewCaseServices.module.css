@@ -40,46 +40,58 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  gap: 50px;
+  gap: 28px;
 }
 
 /* ========================================== */
 
 @media screen and (max-width: 1399px) {
   .servImg {
-    gap: 20px;
+    gap: 25px;
+  }
+
+  .servImg img {
+    width: 18%;
+  }
+
+  .servImg .serImg3{
+    width: 20%;
   }
 }
 
 @media screen and (max-width: 991px) {
-  .wants {
+  .services {
     padding: 50px 0 50px;
     background-image: none;
   }
 
-  .wants h3 {
+  .services h3 {
     font-size: 40px;
     line-height: 50px;
+  }
+
+  .servImg {
+    flex-wrap: wrap;
   }
 }
 
 /* ========================================== */
 
 @media screen and (max-width: 767px) {
-  .wants {
-    padding: 50px 0;
+  .services {
+    padding: 0;
   }
 
-  .wants h3 {
+  .services h3 {
     font-size: 30px;
     line-height: 40px;
   }
 
-  .wants p {
+  .services p {
     align-items: flex-start;
   }
 
-  .wants img {
+  .services img {
     margin-top: 6px;
   }
 }
