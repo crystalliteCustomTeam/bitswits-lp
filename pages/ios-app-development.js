@@ -1,5 +1,7 @@
 import Head from "next/head";
 import React from "react";
+import { useState } from "react";
+import { useEffect } from "react";
 //components
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
 const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
@@ -55,8 +57,6 @@ const hybridiphone = await import(
   "../public/images/iosappdevelopment/hybridiphone.png"
 );
 
-import { useState } from "react";
-import { useEffect } from "react";
 
 export default function gamedevelopmentcompany() {
   const [isSliderActive, setIsSliderActive] = useState(true);

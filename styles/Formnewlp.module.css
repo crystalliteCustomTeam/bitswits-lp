@@ -1,7 +1,8 @@
 .team {
   background-color: black;
   position: relative;
-  padding-bottom: 150px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .star {
   background-color: #f32f53;

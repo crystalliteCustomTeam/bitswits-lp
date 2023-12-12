@@ -315,51 +315,6 @@ export default function HybridMobile() {
 
       <LpChoose transform="transform" />
 
-      <ServisesWhy
-        subtitle={
-          <>
-            {" "}
-            <h2 className="newfycolr font50 font-bold text-center">
-              Why Do You Require Our Flutter Applications?
-            </h2>{" "}
-          </>
-        }
-        sub2="Flutter app development services act like an optimal framework for app development as it allows building high-quality, native-feeling applications for both iOS and Android from a single codebase that saves time and costs."
-        whyData={
-          [
-            {
-              icon: icon23,
-              title: "Cross-Platform Apps",
-              para: "Flutter allows app deployment to both iOS and Android platforms, saving time and cost for development.",
-            },
-            {
-              icon: icon24,
-              title: "Expressive and Impressive UI",
-              para: "Flutter widgets and composition models help Flutter app developers quickly build intuitive and high-quality UI/UX on each platform.",
-            },
-            {
-              icon: icon25,
-              title: (<> Native <br /> Performance </>),
-              para: "Flutter app development agency builds fast-performing apps by compiling directly to native ARM code rather than JavaScript.",
-            },
-            {
-              icon: icon26,
-              title: (<> Cost <br /> Savings </>),
-              para: "Flutter app developers use a single codebase that reduces development and maintenance costs. No need for a separate iOS and Android codebase.",
-            },
-            {
-              icon: icon27,
-              title: (<> Rapid <br /> Development </>),
-              para: "The hot reload feature allows Flutter app developers to see code changes reflected immediately without recompiling or accelerating the process.",
-            },
-            {
-              icon: icon28,
-              title: (<> Vast <br /> Plugins </>),
-              para: "To add features without writing repetitive code, BitsWits have created an extensive network of high-quality plugins for Flutter.",
-            },
-          ]
-        }
-      />
       <ServicesPortfolio
         title={<> Showcasing Our <span className="newfycolr">Creative Vision</span> </>}
       />
