@@ -42,7 +42,7 @@ const NewIndex2Banner = () => {
                                 <p className={`${styles.just} font-heavy font30 mb-0`}>
                                     Blockchain App Development Experts
                                 </p>
-                                <h1 className={`${styles.develop} font55homehome letterspacefy font-bold mt-sm-2 mt-0 `}>
+                                <h1 className={`${styles.develop} font55home letterspacefy font-bold mt-sm-2 mt-0 `}>
                                     Secure, Smart Blockchain Solutions. Building The Future, Block
                                     By Block.
                                 </h1>

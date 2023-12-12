@@ -78,7 +78,7 @@ const LpChoose = (props) => {
                 <Container>
                     <Row className='align-items-center gy-lg-5 gy-4'>
                         <Col lg={6} className={styles.walk}>
-                            <h3 className='white font50 font-bold f-700'>Why Choose Us</h3>
+                            <h3 className='white newchoose font-bold f-700'>Why Choose Us</h3>
                             <h2 className='white f-500 my-2 my-lg-3'>What Makes Bitswits The Most
                                 Recommended Solution Provider
                                 Company?</h2>

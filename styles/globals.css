@@ -361,7 +361,7 @@ div {
 }
 
 .font55home {
-  font-size: calc(48px + 0.390625vw);
+  font-size: calc(47px + 0.390625vw);
   line-height: 65px;
 
 }
@@ -381,7 +381,19 @@ div {
   font-size: calc(37px + 0.390625vw);
   line-height: 50px;
 }
+.newservefy{
+  font-size: 23px;
+  letter-spacing: 1px;
+}
+.newchoose{
+  font-size: 65px;
 
+}
+.fontwhite27 {
+
+  font-size: calc(27px + 0.390625vw);
+  line-height: 50px;
+}
 .fonthomereg {
   font-size: 23px;
   line-height: 35px;
@@ -398,6 +410,10 @@ div {
   letter-spacing: 3px;
 }
 
+.industyfont{
+  font-size: 25px;
+  font-weight: 400;
+}
 
 
 

@@ -12,7 +12,7 @@ const NewHomeWhat = () => {
             <section className={styles.newHomeBg}>
 
                 <div className={styles.videobackground}>
-                    <video autoPlay loop muted src='./center.mp4' className='w-100 h-100'></video>
+                    <video autoPlay loop muted src='./v2video.mp4' className='w-100 h-100'></video>
                 </div>
         
                 <div className={styles.newHomeOvrly}>
