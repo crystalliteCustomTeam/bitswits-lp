@@ -59,6 +59,8 @@ const hybridiphone = await import(
 
 
 export default function gamedevelopmentcompany() {
+
+  
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {

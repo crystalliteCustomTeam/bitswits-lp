@@ -73,8 +73,97 @@ const engIcon3 = await import(
 const engIcon4 = await import(
   "@/public/3d-game-development/images/engage4.png"
 );
+const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
+const customios = await import("/public/3dapp/3dgameconceptart.png");
+const iphoneapp = await import("/public/3dapp/3dwebandappdevelopment.png");
+const applewatch = await import("/public/3dapp/advanced3dvideos.png");
+const appletvappdevelopment = await import("/public/3dapp/3dgameappintegration.png");
+const iphoneappdesigning = await import("/public/3dapp/3dimaginingart.png");
+const hybridiphone = await import("/public/3dapp/supportandmaintenance.png");
+
+import { useState } from "react";
+import { useEffect } from "react";
 
 const mobileApplication = () => {
+
+
+  const [isSliderActive, setIsSliderActive] = useState(true);
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 1201) {
+        setIsSliderActive(false);
+      } else {
+        setIsSliderActive(true);
+      }
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const severcedata = [
+    {
+      classlayout: {
+        newclass: "iosclass",
+      },
+      heading: {
+        subtitle: "The Work We Undertake",
+        title1: "The Genres Of Games We Develop",
+        text: `We are famous for creating immersive game experiences with engaging storylines, stunning visuals, and innovative gameplay mechanics.
+        Here's an exciting rundown of what we bring to the table.`
+
+      },
+      serdata: [
+       
+        {
+          title: (<>3D Game Concept Art </>),
+          text: "Our design and 3D game development team have extensive experience crafting vibrant and immersive artwork for various gaming applications. From characters and environmental designs to UI/UX, we can help define the visual identity of any game.",
+          appclass: "app",
+          appclass: "app1",
+          imgservice: customios,
+        },
+        {
+          title: (<> 3D Web and App Development </>),
+          text: 'BitsWits offers world-class solutions for both web and mobile platforms. We specialized in creating stunning 3D apps with modern technologies such as Augmented Reality, Virtual Reality, 3D Modeling and Animation, WebGL, HTML5/CSS3, etc.',
+          appclass: "app2",
+          imgservice: iphoneapp,
+        },
+        {
+          title: 'Advanced 3D Videos',
+          text: "With our state-of-the-art technology, we can turn your ideas into fully rendered 3D game videos with stunning visuals. Our services range from custom-created 3D game videos to motion capture animation.",
+          appclass: "app3",
+          imgservice: applewatch,
+        },
+        {
+          title: "3D Game App Integration",
+          text: "BitsWits allow you to quickly and easily add 3D gaming experiences to your existing apps so that you can play high-end games without extra coding or hardware configurations. With our services, you can also easily and quickly integrate a virtual reality (VR) or augmented reality (AR) game into your project.",
+          appclass: "app4",
+          imgservice: appletvappdevelopment,
+        },
+        {
+          title: "3D Imagining Art",
+          text: "Our team of experienced 3D artists and engineers can turn your ideas into reality with stunning visuals that will wow your players. We specialize in creating engaging worlds with realistic landscapes, characters, and environments.",
+          appclass: "app5",
+          imgservice: iphoneappdesigning,
+        },
+        {
+          title: "Support and Maintenance",
+          text: "BitsWits recognizes that the game development journey doesn't end with its launch. That's why we provide our clients with comprehensive support and maintenance services to ensure their games remain attractive, immersive, and up-to-date with the latest trends.",
+          appclass: "app5",
+          imgservice: hybridiphone,
+        },
+      ],
+    },
+  ];
+
+
+
+
   return (
     <>
       <Head>
@@ -160,82 +249,88 @@ const mobileApplication = () => {
         content3="BitsWits collar the intricacies of mobile gaming technology and help develop a strategy for success. We use cutting-edge software, languages, and frameworks; you can enjoy superior graphics and sound that bring every battle, mission, or quest to life. Our innovative network protocols will keep your game running smoothly with low latency and excellent responsiveness."
       />
 
-      <ServicesMaintain
-        assignClass="game3d"
-        subtitle="The Work We Undertake"
-        title0={
-          <>
-            {" "}
-            The Genres Of <span>Games</span> We Develop{" "}
-          </>
-        }
-        text={
-          <>
-            {" "}
-            We are famous for creating immersive game experiences with engaging
-            storylines, stunning visuals, and innovative gameplay mechanics.{" "}
-            <br />
-            Here's an exciting rundown of what we bring to the table.{" "}
-          </>
-        }
-        appContent={[]}
-        appContent1={[
-          {
-            title: (
-              <>
-                {" "}
-                3D Game <br /> Concept Art{" "}
-              </>
-            ),
-            text: "Our design and 3D game development team have extensive experience crafting vibrant and immersive artwork for various gaming applications. From characters and environmental designs to UI/UX, we can help define the visual identity of any game.",
-            appclass: "app",
-          },
-          {
-            title: (
-              <>
-                {" "}
-                3D Web and App <br /> Development{" "}
-              </>
-            ),
-            text: "BitsWits offers world-class solutions for both web and mobile platforms. We specialized in creating stunning 3D apps with modern technologies such as Augmented Reality, Virtual Reality, 3D Modeling and Animation, WebGL, HTML5/CSS3, etc.",
-            appclass: "app1",
-          },
-          {
-            title: (
-              <>
-                {" "}
-                Advanced <br /> 3D Videos{" "}
-              </>
-            ),
-            text: "With our state-of-the-art technology, we can turn your ideas into fully rendered 3D game videos with stunning visuals. Our services range from custom-created 3D game videos to motion capture animation.",
-            appclass: "app2",
-          },
-        ]}
-        appContent2={[
-          {
-            title: "3D Game App Integration",
-            text: "BitsWits allow you to quickly and easily add 3D gaming experiences to your existing apps so that you can play high-end games without extra coding or hardware configurations. With our services, you can also easily and quickly integrate a virtual reality (VR) or augmented reality (AR) game into your project.",
-            appclass: "app3",
-          },
-        ]}
-        appContent3={[]}
-        appContent4={[
-          {
-            title: "3D Imagining Art",
-            text: "Our team of experienced 3D artists and engineers can turn your ideas into reality with stunning visuals that will wow your players. We specialize in creating engaging worlds with realistic landscapes, characters, and environments.",
-            appclass: "app03",
-          },
-        ]}
-        appContent5={[
-          {
-            title: "Support and Maintenance",
-            text: "BitsWits recognizes that the game development journey doesn't end with its launch. That's why we provide our clients with comprehensive support and maintenance services to ensure their games remain attractive, immersive, and up-to-date with the latest trends.",
-            appclass: "app04",
-          },
-        ]}
-        appContent6={[]}
-        appContent7={[]}
-      />
+
+      {isSliderActive ? (
+        <ServicesMaintain
+          assignClass="game3d"
+          subtitle="The Work We Undertake"
+          title0={
+            <>
+              {" "}
+              The Genres Of <span>Games</span> We Develop{" "}
+            </>
+          }
+          text={
+            <>
+              {" "}
+              We are famous for creating immersive game experiences with engaging
+              storylines, stunning visuals, and innovative gameplay mechanics.{" "}
+              <br />
+              Here's an exciting rundown of what we bring to the table.{" "}
+            </>
+          }
+          appContent={[]}
+          appContent1={[
+            {
+              title: (
+                <>
+                  {" "}
+                  3D Game <br /> Concept Art{" "}
+                </>
+              ),
+              text: "Our design and 3D game development team have extensive experience crafting vibrant and immersive artwork for various gaming applications. From characters and environmental designs to UI/UX, we can help define the visual identity of any game.",
+              appclass: "app",
+            },
+            {
+              title: (
+                <>
+                  {" "}
+                  3D Web and App <br /> Development{" "}
+                </>
+              ),
+              text: "BitsWits offers world-class solutions for both web and mobile platforms. We specialized in creating stunning 3D apps with modern technologies such as Augmented Reality, Virtual Reality, 3D Modeling and Animation, WebGL, HTML5/CSS3, etc.",
+              appclass: "app1",
+            },
+            {
+              title: (
+                <>
+                  {" "}
+                  Advanced <br /> 3D Videos{" "}
+                </>
+              ),
+              text: "With our state-of-the-art technology, we can turn your ideas into fully rendered 3D game videos with stunning visuals. Our services range from custom-created 3D game videos to motion capture animation.",
+              appclass: "app2",
+            },
+          ]}
+          appContent2={[
+            {
+              title: "3D Game App Integration",
+              text: "BitsWits allow you to quickly and easily add 3D gaming experiences to your existing apps so that you can play high-end games without extra coding or hardware configurations. With our services, you can also easily and quickly integrate a virtual reality (VR) or augmented reality (AR) game into your project.",
+              appclass: "app3",
+            },
+          ]}
+          appContent3={[]}
+          appContent4={[
+            {
+              title: "3D Imagining Art",
+              text: "Our team of experienced 3D artists and engineers can turn your ideas into reality with stunning visuals that will wow your players. We specialize in creating engaging worlds with realistic landscapes, characters, and environments.",
+              appclass: "app03",
+            },
+          ]}
+          appContent5={[
+            {
+              title: "Support and Maintenance",
+              text: "BitsWits recognizes that the game development journey doesn't end with its launch. That's why we provide our clients with comprehensive support and maintenance services to ensure their games remain attractive, immersive, and up-to-date with the latest trends.",
+              appclass: "app04",
+            },
+          ]}
+          appContent6={[]}
+          appContent7={[]}
+        />
+      ) : (
+        <ServicesMaintainmobile severcedata={severcedata} />
+      )}
+
 
       <LpChoose transform="transform" />
 
