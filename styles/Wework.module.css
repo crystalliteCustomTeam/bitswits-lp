@@ -9,12 +9,19 @@
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.weworkLpnewhomefy {
+  background-color: black;
+  /* padding-top: 80px; */
+  padding-bottom: 150px;
+}
 
 .wework h2 span,
 .weworkLp6 h2 span {
   color: #f32f53;
 }
-
+.weworkLpnewhomefy h2{
+  color: #f32f53;
+}
 .dem {
   border: 1px solid #373636;
   padding: 45px;
@@ -37,10 +44,16 @@
   .weworkLp6 {
     padding: 0 0 70px;
   }
+  .weworkLpnewhomefy {
+    padding: 0 0 70px;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .weworkLp6 {
     padding: 0 0 60px;
+  }
+  .weworkLpnewhomefy {
+    padding: 0 0 50px;
   }
 }

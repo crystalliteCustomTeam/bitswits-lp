@@ -1,7 +1,6 @@
 .nothing,
 .nothingLp6 {
-  padding-top: 150px;
-  padding-bottom: 80px;
+  padding-top: 100px;
   background: #000;
   background-image: url(../public/images/nothing/bg.png);
   background-position: 886px center;
@@ -9,7 +8,21 @@
   background-size: inherit;
   background-size: 27%;
 }
-
+.nothingLphomefy {
+  padding-top: 20px;
+  background: #000;
+  background-image: url(../public/images/nothing/bg.png);
+  background-position: 886px center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-size: 27%;
+}
+.nothingLphomefy h3{
+  color: #F32F53;
+}
+.nothingLphomefy .btnpost{
+  border-radius: 10px;
+}
 .strpImg{
   padding-bottom: 15px;
 }

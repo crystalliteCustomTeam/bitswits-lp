@@ -263,7 +263,7 @@
 
   .item {
     width: 166px;
-    height: 200px;
+    height: 185px;
   }
 
   .item4 {
@@ -311,8 +311,28 @@
 }
 
 @media (max-width: 991px) {
+
+  .item:nth-child(3) {
+    top: 80%;
+    left: 4%;
+    display: none;
+  }
+
+  .item:nth-child(4) {
+    left: 35.5%;
+    top: 80%;
+    display: none;
+  }
+
+  .item:nth-child(5) {
+    left: 67%;
+    top: 80%;
+    display: none;
+  }
+
+
   .content {
-    top: 25%;
+    top: 50%;
   }
 
   .content .title {

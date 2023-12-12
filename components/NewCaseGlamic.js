@@ -10,7 +10,7 @@ const NewCaseGlamic = (props) => {
         <>
             <section className={`${styles.glamic}`}>
                 <Container>
-                    <Row className='justify-content-between gy-5'>
+                    <Row className='justify-content-between gy-3 gy-md-5'>
                         <Col lg={12}>
                             {props.textArray1.map((item, index) => (
                                 <div className={styles.left} key={index}>
@@ -21,7 +21,7 @@ const NewCaseGlamic = (props) => {
                                 </div>
                             ))}
                         </Col>
-                        <Col lg={12} className='pt-4'>
+                        <Col lg={12} className='pt-2 pt-lg-4'>
                             {props.textArray2.map((item, index) => (
                                 <div className={styles.right} key={index}>
                                     <Row className='align-items-center justify-content-between'>

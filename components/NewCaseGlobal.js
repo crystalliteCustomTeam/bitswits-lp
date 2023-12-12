@@ -28,7 +28,6 @@ const NewCaseGlobal = () => {
                             <h3 className='font30 fw800 center'>World-Renowned</h3>
                             <h2 className={`${styles.success} center`}>Brands Trust Us</h2>
 
-
                             <div className={styles.postpoint}>
                                 <div className={styles.loop}>
                                     <Image quality={75} src={bestglobal1} className='img-fluid' alt='BitsWits' />

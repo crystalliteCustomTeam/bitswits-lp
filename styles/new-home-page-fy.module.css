@@ -1,0 +1,51 @@
+.awardsFold {
+    background-color: black;
+    padding: 100px 3%;
+}
+
+.textWhite {
+    color: #ffffff;
+}
+
+.textPink {
+    color: #F32F63;
+}
+
+.borderLeft {
+    border-left: 1px solid #F32F53;
+}
+
+.newmob {
+    display: block;
+    margin: 0 auto;
+}
+
+.mobileapps {
+    position: relative;
+}
+
+.mobileapps::before {
+    position: absolute;
+    content: '';
+    background-color: #F32F53;
+    width: 1px;
+    height: 190px;
+    left: -8px;
+    top: 10px;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .awardsFold{
+        text-align: center;
+    }
+
+    .appdev p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .mobileapps::before {
+        display: none;
+    }
+}

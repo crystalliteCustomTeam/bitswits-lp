@@ -2,36 +2,26 @@ import Head from "next/head";
 import React from "react";
 //components
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
-const ServicesMaintain = React.lazy(() =>
-  import("@/components/ServicesMaintain")
-);
+const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
 const ServisesWhy = React.lazy(() => import("@/components/ServisesWhy"));
-const ServicesPortfolio = React.lazy(() =>
-  import("@/components/ServicesPortfolio")
-);
+const ServicesPortfolio = React.lazy(() => import("@/components/ServicesPortfolio"));
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
 const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
-const HomeBannerSliderlp = React.lazy(() =>
-  import("@/components/HomeBannerSliderlp")
-);
+const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
 const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
-const ProjectProcess = React.lazy(() =>
-  import("@/components/ProjectProcessLp6")
-);
+const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const LpChoose = React.lazy(() => import("@/components/LpChoose"));
 const LpForm = React.lazy(() => import("@/components/LpForm6"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const People = React.lazy(() => import("@/components/People"));
-const ServicesMaintainmobile = React.lazy(() =>
-  import("@/components/ServicesMaintainmobile")
-);
+const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
 //images
 const BannerImage = await import("@/public/andriodapplication/andriod.png");
 //icons
@@ -41,7 +31,6 @@ const icon25 = await import("../public/images/fyios/3.png");
 const icon26 = await import("../public/images/fyios/4.png");
 const icon27 = await import("../public/images/fyios/5.png");
 const icon28 = await import("../public/images/fyios/6.png");
-
 // css //
 import styles from "@/styles/LpChoose.module.css";
 import style from '@/styles/Technologieswe.module.css'
@@ -181,7 +170,7 @@ export default function gamedevelopmentcompany() {
 
       <HomeBannerSliderlp />
 
-      <LpForm addresClass="iosclass"/>
+      <LpForm addresClass="iosclass" />
 
       <Nothing Nothing="nothingLp6" />
 
@@ -288,7 +277,7 @@ export default function gamedevelopmentcompany() {
                 WhatImage={WhatImage}
             /> */}
 
-      <LpChoose transform="transform"  marginTop={styles.marginTop} />
+      <LpChoose transform="transform" marginTop={styles.marginTop} />
 
       {/* <ServisesWhy
         // title={
