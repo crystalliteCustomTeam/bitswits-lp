@@ -24,6 +24,7 @@
   border-radius: 20px;
   border: 2px solid #f32f53;
   transition: transform 0.1s, left 0.75s, top 0.75s, width 0.75s, height 0.75s;
+  z-index: 9;
 }
 
 .just {
@@ -128,7 +129,7 @@
   bottom: 1.5%;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 5;
+  z-index: 10;
   user-select: none;
   display: flex;
   align-items: center;
@@ -185,28 +186,71 @@
 
 @media only screen and (max-width: 1600px) {
   .item:nth-child(3) {
-    left: 86.5%;
+    left: 87%;
   }
 
   .item:nth-child(4) {
-    left: 86.5%;
+    left: 87%;
   }
 
   .item:nth-child(5) {
-    left: 86.5%;
+    left: 87%;
   }
 
   .item {
-    width: 170px;
-    height: 215px;
+    width: 180px;
+    height: 250px;
   }
 
   .item1 {
-    background-position: -185px center;
+    background-position: -215px center;
   }
 
   .item2 {
-    background-position: -135px center;
+    background-position: -155px center;
+  }
+
+  .item3 {
+    background-position: -125px center;
+  }
+
+  .item4 {
+    background-position: -190px center;
+  }
+
+  .item5 {
+    background-position: -165px center;
+  }
+}
+
+@media only screen and (max-width: 1599px) {
+  .item:nth-child(3) {
+    left: 88.5%;
+  }
+
+  .item:nth-child(4) {
+    left: 88.5%;
+  }
+
+  .item:nth-child(5) {
+    left: 88.5%;
+  }
+
+  .item {
+    width: 160px;
+    height: 210px;
+  }
+
+  .item1 {
+    background-position: -180px center;
+  }
+
+  .item2 {
+    background-position: -125px center;
+  }
+
+  .item3 {
+    background-position: -95px center;
   }
 
   .item4 {
@@ -218,73 +262,72 @@
   }
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1499px) {
   .item:nth-child(3) {
-    left: 83.5%;
+    left: 86%;
   }
 
   .item:nth-child(4) {
-    left: 83.5%;
+    left: 86%;
   }
 
   .item:nth-child(5) {
-    left: 83.5%;
-    top: 18.5%;
-  }
-}
-
-@media only screen and (max-width: 1370px) {
-  .item:nth-child(5) {
-    left: 83.5%;
+    left: 86%;
     top: 17.5%;
   }
+}
 
+@media only screen and (max-width: 1399px) {
   .item {
     width: 166px;
-    height: 200px;
-  }
-
-  .item4 {
-    background-position: -140px center;
+    height: 220px;
   }
 
   .item1 {
-    background-position: -140px center;
+    background-position: -180px center;
   }
 
   .item2 {
-    background-position: -117px center;
+    background-position: -130px center;
+  }
+
+  .item3 {
+    background-position: -105px center;
   }
 
   .item4 {
-    background-position: -140px center;
+    background-position: -160px center;
   }
 
   .item5 {
-    background-position: -140px center;
+    background-position: -145px center;
   }
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1299px) {
   .item {
-    width: 180px;
-    height: 250px;
+    width: 160px;
+    height: 225px;
   }
 
   .item1 {
-    background-position: -210px center;
+    background-position: -195px center;
   }
 
   .item2 {
-    background-position: -150px center;
+    background-position: -135px center;
+  }
+
+  .item3 {
+    background-position: -105px center;
   }
 
   .item4 {
-    background-position: -185px center;
+    background-position: -170px center;
   }
 
   .item5 {
-    background-position: -162px center;
+    background-position: -155px center;
   }
 }
 
