@@ -73,20 +73,12 @@
 }
 
 @media screen and (max-width: 1400px) {
-  .transform {
+  .caseChoose {
     background-image: url(../public/newHomePage/images/bg-image.png);
     background-repeat: no-repeat;
     background-size: 87%;
     background-position: 374px center;
     background-color: black;
-  }
-  .hybirf {
-    background-image: url(../public/newHomePage/images/bg-image.png);
-    background-repeat: no-repeat;
-    background-size: 87%;
-    background-position: 374px center;
-    background-color: black;
-    padding-bottom: 150px;
   }
 
   .walk h2 {
@@ -95,19 +87,12 @@
 
   .walk p {
     font-size: 14px;
-    max-width: 530px;
+    max-width: 530px; 
   }
 }
 
 @media screen and (min-width: 1400px) {
-  .transform {
-    background-image: url(../public/newHomePage/images/bg-image.png);
-    background-repeat: no-repeat;
-    background-size: 72%;
-    background-position: 550px center;
-    background-color: black;
-  }
-  .hybirf {
+  .caseChoose {
     background-image: url(../public/newHomePage/images/bg-image.png);
     background-repeat: no-repeat;
     background-size: 72%;
@@ -124,18 +109,9 @@
 }
 
 @media screen and (max-width: 991px) {
-  .transform {
+  .caseChoose {
     padding-top: 50px;
-    padding-bottom: 0px;
-    background-image: none;
-  }
-  .transformlp {
-    padding-bottom: 0px;
-    background-image: none;
-  }
-  .hybirf {
-    padding-top: 50px;
-    padding-bottom: 0px;
+    padding-bottom: 50px;
     background-image: none;
   }
 
@@ -149,6 +125,11 @@
 }
 
 @media screen and (max-width: 767px) {
+
+  .caseChoose {
+    padding-bottom: 0px;
+  }
+
   .walk h2 {
     font-size: 25px;
     line-height: 35px;

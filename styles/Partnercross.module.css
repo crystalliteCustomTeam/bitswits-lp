@@ -1,6 +1,6 @@
 .hearfelt {
-  padding-top: 50px;
-  padding-bottom: 150px;
+  padding-top: 80px;
+  /* padding-bottom: 150px; */
   position: relative;
   background-color: #000;
 }
@@ -29,7 +29,6 @@
   border: 2px solid #f32f53;
 }
 
-
 .leftpadding {
   padding: 6%;
   height: 600px;
@@ -39,7 +38,6 @@
   position: relative;
   border: 2px solid #f32f53;
 }
-
 
 @-moz-document url-prefix() {
   .rightpadding:before {
@@ -75,7 +73,6 @@
   transition: all 0.2s ease-in-out;
 }
 
-
 /* =================Media Queries=================== */
 
 @media screen and (max-width: 1200px) {
@@ -104,12 +101,15 @@
     text-align: center;
     padding: 10px;
   }
+
+  .hearfelt {
+    padding-top: 0px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-
   .hearfelt {
-    padding-bottom: 80px;
+    padding-bottom: 60px;
   }
 
   .makes {
@@ -136,6 +136,12 @@
 }
 
 @media screen and (max-width: 480px) {
+  .rightpadding,
+  .leftpadding {
+    height: 420px;
+    align-items: center;
+  }
+
   .rightpadding img {
     display: none;
   }

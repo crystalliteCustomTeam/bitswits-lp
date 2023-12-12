@@ -2,7 +2,7 @@
   background: #000;
   background-image: url(../public/images/new-case-page/bg-image.png);
   background-size: 55%;
-  background-position: left;
+  background-position: 150px center;
   background-repeat: no-repeat;
   padding: 80px 0;
 }
@@ -16,8 +16,8 @@
 }
 
 .goal h3 {
-  font-size: 40px;
-  line-height: 55px;
+  font-size: 32px;
+  line-height: 45px;
   font-weight: 700;
   color: #fff;
   text-align: center;
@@ -33,24 +33,48 @@
 
 /* =========================================== */
 
+@media screen and (max-width: 1799px) {
+  .goal {
+    background-position: 110px center;
+  }
+}
+
+@media screen and (max-width: 1599px) {
+  .goal {
+    background-position: 65px center;
+  }
+}
+
 @media screen and (max-width: 1399px) {
+  .goal {
+    background-position: 70px center;
+  }
+
   .goal h3 {
-    font-size: 34px;
-    line-height: 45px;
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .secImg img {
+    width: 75%;
+    height: auto;
   }
 }
 
 @media screen and (max-width: 991px) {
   .goal {
     padding: 50px 0 0;
-  }
-
-  .goalRow {
-    flex-direction: column-reverse;
+    background-image: none;
   }
 
   .secImg {
     margin-top: 20px;
+    text-align: center;
+  }
+
+  .secImg img {
+    width: 50%;
+    height: auto;
   }
 
   .goal h3 {
@@ -60,8 +84,21 @@
 }
 
 @media screen and (max-width: 767px) {
+  .goal {
+    padding: 0;
+  }
+
+  .secTxt {
+    padding: 20px;
+  }
+
   .goal h3 {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 35px;
+    margin-bottom: 0;
+  }
+
+  .secImg img {
+    width: 100%;
   }
 }

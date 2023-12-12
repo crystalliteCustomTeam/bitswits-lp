@@ -4,7 +4,8 @@
 }
 .process1 {
   background-color: black;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 80px;
 }
 
 .processLp6 h3 {
@@ -30,5 +31,11 @@
 
   .process1 {
     padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .process1 {
+    padding-bottom: 0px;
   }
 }

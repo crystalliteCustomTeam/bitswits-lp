@@ -4,8 +4,8 @@
 
 .slide {
   background-color: black;
-  /* padding-bottom: 150px; */
-  padding-top: 0px;
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 .slide1 {
   background-color: black;
@@ -87,14 +87,14 @@
   }
 
   .slide {
-    padding-bottom: 50px;
+    padding-bottom: 80px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .slide {
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 60px;
   }
 
   .just {

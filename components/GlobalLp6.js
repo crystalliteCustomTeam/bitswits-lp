@@ -22,7 +22,7 @@ const Globallp6 = (props) => {
   return (
     <>
       <section
-        className={`${styles.teamLp6} ${props.paddingTop} ${props.paddingGlobal} ${props.paddingBottom}`}
+        className={`${styles[props.marginTop]} ${styles.teamLp6} ${props.paddingTop} ${props.paddingGlobal} ${props.paddingBottom} `}
       >
         <Container>
           <Row>

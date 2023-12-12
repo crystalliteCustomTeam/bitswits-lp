@@ -1,10 +1,6 @@
-.marginTop {
-  padding-top: 150px !important;
-}
-
 .transform {
-  padding-top: 20px;
-  padding-bottom: 150px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-image: url(../public/newHomePage/images/bg-image.png);
   background-repeat: no-repeat;
   background-size: 60%;
@@ -165,6 +161,11 @@
   .walk p {
     max-width: 100%;
   }
+
+  .marginTop {
+    padding-top: 0px !important;
+    padding-bottom: 80px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -177,5 +178,9 @@
     padding: 0 10px;
     width: 100%;
     text-align: center;
+  }
+
+  .marginTop {
+    padding-bottom: 60px;
   }
 }

@@ -8,7 +8,7 @@ const NewCaseGoal = (props) => {
     return (
         <>
             <section className={`${styles.goal} ${styles[props.goalClass]}`}>
-                <Container fluid>
+                <Container>
                     <Row className={`${styles.goalRow} align-items-center px-3`}>
                         <Col lg={7}>
                             <div className={`${styles.secTxt}`}>

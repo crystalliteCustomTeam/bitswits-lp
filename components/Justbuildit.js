@@ -158,7 +158,7 @@ const Justbuildit = (props) => {
           </swiper-slide>
         </swiper-container> */}
 
-        <Slider {...bannerslider} className="mt-5 jstBuild">
+        <Slider {...bannerslider} className="mt-3 mt-sm-5 jstBuild">
           <div className={styles.strpImg}>
             <Image alt="BitsWits" src={banImg1} className="img-fluid w-100" />
           </div>

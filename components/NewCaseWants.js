@@ -32,9 +32,9 @@ const NewCaseWants = (props) => {
                             </div>
                         </Col>
                     </Row>
-                    <Row className='align-items-center my-5 py-5'>
+                    <Row className={`${styles.midRow} align-items-center my-0 my-lg-5 py-5`}>
                         <Col lg={6}>
-                            <div>
+                            <div className={styles.wantImg2}>
                                 <Image quality={90} src={props.wantImg2} alt="BitsWits" className={`img-fluid`} />
                             </div>
                         </Col>

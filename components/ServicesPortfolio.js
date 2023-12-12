@@ -52,7 +52,7 @@ const ServicesPortfolio = (props) => {
                 <Container>
                     <Row className="g-3">
                         <Col lg={12}>
-                            <h1 className="text-white font50 f-700 text-center pb-4">{props.title}</h1>
+                            <h1 className="text-white font50 f-700 text-center pb-sm-4">{props.title}</h1>
                         </Col>
                         {visibleItems.map((item) => (
                             <Col lg={4} md={6} key={item.id}>
@@ -74,7 +74,7 @@ const ServicesPortfolio = (props) => {
                             </div>
                         </Col>
                         <Col lg={12} className='d-block d-lg-none'>
-                            <div className="d-flex justify-content-center mt-5">
+                            <div className="d-flex justify-content-center mt-3 mt-sm-5">
                                 <Link href="/our-work" className={`${styles.sucssBtn} ${styles.sucssBtn2}`}>Show More</Link>
                             </div>
                         </Col>

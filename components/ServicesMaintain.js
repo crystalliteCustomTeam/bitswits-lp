@@ -31,7 +31,7 @@ const ServicesMaintain = (props) => {
                   {props.title4}
                 </span>
               </h2>
-              <p className="font14 white center">{props.text}</p>
+              <p className="font14 white center mb-0">{props.text}</p>
             </Col>
             {props.appContent.map((content, index) => (
               <Col key={index} sm={6} className={styles.earn}>

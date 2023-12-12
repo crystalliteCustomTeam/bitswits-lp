@@ -1,8 +1,4 @@
-.paddingTop {
-  padding-top: 120px !important;
-}
-
-.paddingBottom{
+.paddingBottom {
   padding-bottom: 0 !important;
 }
 
@@ -12,7 +8,8 @@
 }
 
 .spacing {
-  padding: 150px 0;
+  padding-top: 90px;
+  padding-bottom: 80px;
 }
 
 .befImg {
@@ -139,7 +136,7 @@
   }
 
   .happens {
-    padding: 50px 0 0;
+    padding: 80px 0 80px;
   }
 }
 

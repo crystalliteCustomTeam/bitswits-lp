@@ -1,8 +1,8 @@
 .team {
   background-color: black;
   position: relative;
-  padding-bottom: 130px;
-  padding-top: 123px;
+  padding-bottom: 150px;
+  /* padding-top: 150px; */
 }
 .loop,
 .pont {
@@ -105,6 +105,6 @@
   }
 
   .team {
-    padding-top: 0px!important;
+    padding-top: 0px !important;
   }
 }
