@@ -1,11 +1,11 @@
 .team {
     background-color: black;
     position: relative;
-    padding: 150px 0;
+    padding: 80px 0;
     background-image: url(../../public//new-home-page-fy/mapBg.png);
-    background-size: 55%;
+    background-size: 35%;
     background-repeat: no-repeat;
-    background-position: center 357px;
+    background-position: center 300px;
 }
 
 .loop,
