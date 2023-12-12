@@ -1,11 +1,6 @@
 import React from 'react'
 import styles from "./NewHomeWho.module.css";
-import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
-import Link from 'next/link'
-//
-import WhoImage from "@/public/newHomePageImages/who_image.png"
-import ButtonIcon from "@/public/shark/home_btn.png"
 
 
 const NewHomeWho = () => {

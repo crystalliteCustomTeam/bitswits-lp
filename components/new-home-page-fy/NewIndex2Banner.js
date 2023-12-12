@@ -39,7 +39,7 @@ const NewIndex2Banner = () => {
                     <li className={`${styles.item} item ${styles.item2}`}>
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
-                                <p className={`${styles.just} font-bold f-20 mb-0`}>
+                                <p className={`${styles.just} f-20 mb-0`}>
                                     Blockchain App Development Experts
                                 </p>
                                 <h1 className={`${styles.develop} font50 font-bold mt-sm-2 mt-0 `}>
@@ -62,7 +62,7 @@ const NewIndex2Banner = () => {
                     <li className={`${styles.item} item ${styles.item1}`}>
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
-                                <p className={`${styles.just} font-bold f-20 mb-lg-0`}>
+                                <p className={`${styles.just} f-20 mb-lg-0`}>
                                     Top Mobile App Development Company
                                 </p>
                                 <h1 className={`${styles.develop} font50 font-bold mt-2`}>
@@ -86,7 +86,7 @@ const NewIndex2Banner = () => {
                     <li className={`${styles.item} item ${styles.item3}`}>
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
-                                <p className={`${styles.just} font-bold f-20 mb-lg-0`}>
+                                <p className={`${styles.just} f-20 mb-lg-0`}>
                                     Top-Rated Game Development Company
                                 </p>
                                 <h1 className={`${styles.develop} font50 font-bold mt-2`}>
@@ -110,7 +110,7 @@ const NewIndex2Banner = () => {
                     <li className={`${styles.item} item ${styles.item4}`}>
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
-                                <p className={`${styles.just} font-bold f-20 mb-lg-0`}>
+                                <p className={`${styles.just} f-20 mb-lg-0`}>
                                     Top Artificial Intelligence Development Company
                                 </p>
                                 <h1 className={`${styles.develop} font50 font-bold mt-2`}>

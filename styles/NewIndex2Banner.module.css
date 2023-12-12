@@ -11,8 +11,8 @@
 }
 
 .item {
-  width: 160px;
-  height: 210px;
+  width: 200px;
+  height: 300px;
   list-style-type: none;
   position: absolute;
   top: 50%;
@@ -28,27 +28,28 @@
 
 .just {
   color: #f32f53;
+  font-weight: 900;
 }
 
 .item1 {
   background-image: url(../public/homeslideimg/1.png);
-  background-position: -175px center;
+  background-position: -260px center;
 }
 .item2 {
   background-image: url(../public/homeslideimg/2.png);
-  background-position: -110px center;
+  background-position: -180px center;
 }
 .item3 {
   background-image: url(../public/homeslideimg/3.png);
-  background-position: -110px center;
+  background-position: -140px center;
 }
 .item4 {
   background-image: url(../public/homeslideimg/4.png);
-  background-position: -156px center;
+  background-position: -225px center;
 }
 .item5 {
   background-image: url(../public/homeslideimg/5.png);
-  background-position: -110px center;
+  background-position: -205px center;
 }
 
 .item:nth-child(1),
@@ -72,12 +73,12 @@
 
 .item:nth-child(4) {
   left: 88.5%;
-  top: 49.7%;
+  top: 50.2%;
 }
 
 .item:nth-child(5) {
   left: 88.5%;
-  top: 16.5%;
+  top: 17.5%;
 }
 
 .content {
@@ -181,29 +182,6 @@
 }
 
 /* ================================= */
-
-@media only screen and (max-width: 1920px) {
-  .item1 {
-    background-position: -234px center;
-  }
-
-  .item2 {
-    background-position: -170px center;
-  }
-
-  .item4 {
-    background-position: -200px center;
-  }
-
-  .item5 {
-    background-position: -170px center;
-  }
-
-  .item {
-    width: 186px;
-    height: 270px;
-  }
-}
 
 @media only screen and (max-width: 1600px) {
   .item:nth-child(3) {
