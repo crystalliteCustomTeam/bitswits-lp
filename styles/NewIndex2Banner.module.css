@@ -184,6 +184,41 @@
 
 /* ================================= */
 
+@media only screen and (max-width: 1920px) {
+  .item1 {
+    background-position: -260px center;
+  }
+  .item2 {
+    background-position: -180px center;
+  }
+  .item3 {
+    background-position: -140px center;
+  }
+  .item4 {
+    background-position: -235px center;
+  }
+  .item5 {
+    background-position: -205px center;
+  }
+
+  .item {
+    width: 180px;
+    height: 245px;
+  }
+
+  .item:nth-child(3) {
+    left: 89%;
+  }
+
+  .item:nth-child(4) {
+    left: 89%;
+  }
+
+  .item:nth-child(5) {
+    left: 89%;
+  }
+}
+
 @media only screen and (max-width: 1600px) {
   .item:nth-child(3) {
     left: 87%;

@@ -33,7 +33,6 @@ const NewHomeWhat = () => {
                         </Row>
                     </Container>
                 </div>
-                <div className='mixColor5'></div>
             </section>
         </>
     )

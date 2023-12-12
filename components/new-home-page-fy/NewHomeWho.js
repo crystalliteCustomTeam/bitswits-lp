@@ -20,7 +20,6 @@ const NewHomeWho = () => {
                         </Col>
                     </Row>
                 </Container>
-                <div className="mixColor1"></div>
             </section>
         </>
     )
