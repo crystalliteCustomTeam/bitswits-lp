@@ -206,11 +206,11 @@ export default function Home() {
                 <div className={`${styles.awardsFold}`}>
                     <div className="container-fluid px-0">
                         <div className="row align-items-center">
-                            <div className="col-xl-4 col-lg-12 col-sm-12">
-                                <p className={`font-bold f-20 mb-0 ${styles.textWhite}`}>
+                            <div className="col-xl-5 col-lg-12 col-sm-12">
+                                <p className={`font-bold fontawards25 mb-0 ${styles.textWhite}`}>
                                     Endorsements on different Platforms
                                 </p>
-                                <h1 className={`font50 font-bold mb-0 ${styles.textPink}`}>
+                                <h1 className={`fontawards font-bold mb-0 ${styles.textPink}`}>
                                     Awards &
                                     Recognition
                                 </h1>
@@ -218,7 +218,7 @@ export default function Home() {
 
                             {isSliderActive ?
 
-                                <div className={`${styles.appdev} col-8`}>
+                                <div className={`${styles.appdev} col-7`}>
                                     <div className="row">
                                         <div className={`${styles.mobileapps} col-3`}>
                                             <div>

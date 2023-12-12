@@ -3,11 +3,9 @@
   --white: #fff;
   --primary: #f32f53;
   --mry: #f32f53;
-  --gradient: linear-gradient(
-    90deg,
-    rgba(116, 25, 227, 0.5) 0%,
-    rgba(243, 47, 92, 0.5) 100%
-  );
+  --gradient: linear-gradient(90deg,
+      rgba(116, 25, 227, 0.5) 0%,
+      rgba(243, 47, 92, 0.5) 100%);
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
@@ -15,36 +13,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
-@font-face {
-  font-family: Nofex;
-  src: url(../public/fonts/Nofex-1GLBv.otf);
-  font-display: swap;
-}
+
 @font-face {
   font-family: SF-Pro-Display;
   src: url(../public/fontsfy/SF-Pro-Display-Black.otf);
   font-display: swap;
 }
+
 @font-face {
   font-family: SF-Pro-Display;
   src: url(../public/fontsfy/SF-Pro-Display-Bold.otf);
   font-display: swap;
+
 }
+
 @font-face {
   font-family: SF-Pro-Display;
   src: url(../public/fontsfy/SF-Pro-Display-Heavy.otf);
   font-display: swap;
+
 }
+
 @font-face {
   font-family: SF-Pro-Display;
   src: url(../public/fontsfy/SF-Pro-Display-Light.otf);
   font-display: swap;
 }
+
 @font-face {
   font-family: SF-Pro-Display;
   src: url(../public/fontsfy/SF-Pro-Display-Regular.otf);
   font-display: swap;
 }
+
 @font-face {
   font-family: SF-Pro-Display;
   src: url(../public/fontsfy/SF-Pro-Display-Medium.otf);
@@ -93,7 +94,7 @@ div {
 }
 
 .fontf {
-  font-family: "Montserrat", sans-serif;
+  font-family: "SF-Pro-Display";
 }
 
 .fontN {
@@ -104,6 +105,10 @@ div {
 
 .font-regular {
   font-weight: 400;
+}
+
+.font-heavy {
+  font-weight: 800;
 }
 
 .font-medium {
@@ -345,13 +350,67 @@ div {
   line-height: 1.5;
 }
 
+
+
+
+/* newfyfonts */
+
+.font30 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.font55home {
+  font-size: calc(48px + 0.390625vw);
+  line-height: 65px;
+
+}
+
+.fontawards {
+  font-size: calc(75px + 0.390625vw);
+  line-height: 85px;
+}
+
+.fontpink100 {
+  font-size: calc(100px + 0.390625vw);
+  line-height: 100px;
+}
+
+.fontwhite40 {
+
+  font-size: calc(37px + 0.390625vw);
+  line-height: 50px;
+}
+
+.fonthomereg {
+  font-size: 23px;
+  line-height: 35px;
+  font-weight: 400;
+}
+
+.fontawards25 {
+  font-size: calc(24px + 0.390625vw);
+  line-height: 35px;
+  letter-spacing: 1px;
+}
+
+.letterspacefy {
+  letter-spacing: 3px;
+}
+
+
+
+
+
 /* colors */
 .black {
   color: #000000;
 }
+
 .newfycolr {
   color: #f32f53;
 }
+
 .liBlack {
   color: #272727;
 }
@@ -3032,6 +3091,7 @@ button {
   bottom: -35px;
   background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
 }
+
 .mixColor5 {
   height: 50px;
   z-index: 1;
@@ -3094,6 +3154,7 @@ button {
   0% {
     transform: translateX(0px);
   }
+
   100% {
     transform: translateX(calc(-150px * 10));
   }
@@ -3268,9 +3329,10 @@ button {
 }
 
 @media screen and (max-width: 767px) {
-  .mixColor5{
+  .mixColor5 {
     display: none;
   }
+
   .cntctRow {
     row-gap: 70px;
   }

@@ -18,9 +18,9 @@ const NewHomeWho = () => {
                     <Row>
                         <Col lg={12}>
                             <div className={styles.text_content}>
-                                <h2 className={`${styles.textPink} text-white f-60 font-bold`}>Who we are</h2>
-                                <p className={`${styles.wid} f-20 text-white`}>Shaping a Smarter Tomorrow Through Technological Excellence.</p>
-                                <p className={`${styles.width} font14`}>At Bitswits, we blend pioneering IT services and consulting with over a decade of expertise, helping businesses around the globe achieve their transformative goals.</p>
+                                <h2 className={`${styles.textPink} fontpink100 text-white font-bold mb-4`}>Who we are</h2>
+                                <p className={`fontwhite40 font-bold text-white`}>Shaping a Smarter Tomorrow <br/> Through Technological Excellence.</p>
+                                <p className={`${styles.width} fonthomereg`}>At Bitswits, we blend pioneering IT services and consulting with over a decade of expertise, helping businesses around the globe achieve their transformative goals.</p>
                             </div>
                         </Col>
                     </Row>
