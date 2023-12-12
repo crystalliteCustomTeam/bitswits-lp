@@ -175,7 +175,7 @@ export default function gamedevelopmentcompany() {
             /> */}
 
       <LpChoose transform="transform" />
-      
+
       <ServicesPortfolio
         title={
           <>
@@ -215,9 +215,8 @@ export default function gamedevelopmentcompany() {
           },
         ]}
       />
-      <section className="spacingtb1">
-        <Technologieswe />
-      </section>
+
+      <Technologieswe />
 
       {/* <NewHomeGlobal />
             <NewHomeSlider />

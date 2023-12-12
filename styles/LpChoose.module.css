@@ -17,14 +17,13 @@
   background-color: black;
 }
 .hybirf {
-  padding-top: 200px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-image: url(../public/newHomePage/images/bg-image.png);
   background-repeat: no-repeat;
   background-size: 60%;
   background-position: 600px center;
   background-color: black;
-  padding-bottom: 150px;
 }
 
 .dus {
@@ -163,8 +162,8 @@
   }
 
   .marginTop {
-    padding-top: 0px !important;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 

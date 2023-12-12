@@ -1,5 +1,6 @@
 .whyChoose {
-  padding-top: 250px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .feature {
@@ -81,9 +82,7 @@
   }
 }
 
-
 @media (max-width: 1028px) {
-
   .br1,
   .bb1 {
     border: none;
@@ -99,6 +98,11 @@
 }
 
 @media (max-width: 991px) {
+  .whyChoose {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .feature {
     background-size: cover;
     height: 350px;
@@ -108,5 +112,16 @@
 
   .feature p {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .whyChoose {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .feature {
+    margin-top: 20px;
   }
 }

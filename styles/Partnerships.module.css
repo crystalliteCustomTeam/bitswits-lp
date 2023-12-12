@@ -2,7 +2,6 @@
   background-color: var(--b-color);
   padding-top: 80px;
   padding-bottom: 80px;
-
 }
 
 .footerNav {
@@ -113,8 +112,9 @@
 /* =================Media Queries=================== */
 
 @media screen and (max-width: 991px) {
-  .projectlp {
-    padding: 0px 0 80px;
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 

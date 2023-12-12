@@ -1,3 +1,5 @@
+import { useState } from "react";
+import { useEffect } from "react";
 import HomeBannerSlider from "@/components/HomeBannerSlider";
 import LpForm from "@/components/LpForm";
 import Nothing from "@/components/Nothing";
@@ -6,7 +8,8 @@ import LpChoose from "@/components/LpChoose";
 import Partnerships from "@/components/Partnerships";
 import Globallp6 from "@/components/GlobalLp6";
 import Justbuildit from "@/components/Justbuildit";
-import Technologieswe from "@/components/NewMblTechnologiesWe";
+// import Technologieswe from "@/components/NewMblTechnologiesWe";
+const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
 import Formnewlp from "@/components/Formnewlp";
 import Head from "next/head";
 import React from "react";
@@ -19,21 +22,12 @@ const ServiceTarget = React.lazy(() => import("@/components/ServiceTarget"));
 const ServicesMaintain = React.lazy(() =>
   import("@/components/ServicesMaintain")
 );
-// const NewAddress = React.lazy(() => import("@/components/NewAddress"));
 const ServiceSolutions = React.lazy(() =>
   import("@/components/ServiceSolutions")
 );
 const ServiceGenre = React.lazy(() => import("@/components/ServiceGenre"));
 const ServiceEngage = React.lazy(() => import("@/components/ServiceEngage"));
-// const NewHomeAbout = React.lazy(() => import("@/components/NewHomePageAbout"));
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
-// const Technologieswe2dgame = React.lazy(() =>
-//   import("@/components/Technologieswe2dgame")
-// );
-// const NewHomeGlobal = React.lazy(() => import("@/components/NewHomeGlobal"));
-// const NewHomeSlider = React.lazy(() => import("@/components/NewHomeSlider"));
-// const Homenextproject = React.lazy(() =>
-//   import("@/components/Homenextproject")
 // );
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
@@ -54,28 +48,37 @@ const engIcon4 = await import("@/public/shark/shark4.png");
 
 import styles from "@/styles/ServicesAdvantage.module.css";
 
-const customios = await import("../public/images/gameappdevelopement/unity3dgames.png");
-const iphoneapp = await import("../public/images/gameappdevelopement/virtualrealitygames.png");
-const applewatch = await import("../public/images/gameappdevelopement/3dgamedevelopment.png");
-const appletvappdevelopment = await import("../public/images/gameappdevelopement/unrealgamedevelopment.png");
-const iphoneappdesigning = await import("../public/images/gameappdevelopement/argamedevelopment.png");
-const hybridiphone = await import("../public/images/gameappdevelopement/mrgamedevelopment.png");
-const react = await import("../public/images/gameappdevelopement/crossplatformgamedevelopment.png");
-const reactnative = await import("../public/images/gameappdevelopement/buildboxgamedevelopment.png");
-
-
-
-import { useState } from "react";
-import { useEffect } from "react";
-const ServicesMaintainmobile = React.lazy(() => import('@/components/ServicesMaintainmobile'));
-
+const customios = await import(
+  "../public/images/gameappdevelopement/unity3dgames.png"
+);
+const iphoneapp = await import(
+  "../public/images/gameappdevelopement/virtualrealitygames.png"
+);
+const applewatch = await import(
+  "../public/images/gameappdevelopement/3dgamedevelopment.png"
+);
+const appletvappdevelopment = await import(
+  "../public/images/gameappdevelopement/unrealgamedevelopment.png"
+);
+const iphoneappdesigning = await import(
+  "../public/images/gameappdevelopement/argamedevelopment.png"
+);
+const hybridiphone = await import(
+  "../public/images/gameappdevelopement/mrgamedevelopment.png"
+);
+const react = await import(
+  "../public/images/gameappdevelopement/crossplatformgamedevelopment.png"
+);
+const reactnative = await import(
+  "../public/images/gameappdevelopement/buildboxgamedevelopment.png"
+);
+const ServicesMaintainmobile = React.lazy(() =>
+  import("@/components/ServicesMaintainmobile")
+);
 
 export default function Gameapplicationdevelopment() {
-
-
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
-
     const handleResize = () => {
       if (window.innerWidth < 1201) {
         setIsSliderActive(false);
@@ -86,13 +89,12 @@ export default function Gameapplicationdevelopment() {
 
     handleResize();
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
-
 
   const severcedata = [
     {
@@ -114,7 +116,7 @@ export default function Gameapplicationdevelopment() {
           title, we can ensure your game is a success and tends to become
           a revenue-generating machine!`,
           appclass: "app",
-          imgservice: customios
+          imgservice: customios,
         },
         {
           title: "Virtual Reality Games",
@@ -125,7 +127,7 @@ export default function Gameapplicationdevelopment() {
           players into another world. Get ready to hook your gamers and
           urge them to return for more!`,
           appclass: "app1",
-          imgservice: iphoneapp
+          imgservice: iphoneapp,
         },
         {
           title: "3D Game Development",
@@ -138,43 +140,41 @@ export default function Gameapplicationdevelopment() {
           Believe it or not, we are the perfect place to get your next
           gaming project off the ground!`,
           appclass: "app2",
-          imgservice: applewatch
+          imgservice: applewatch,
         },
         {
           title: "Unreal Game Development",
           text: "Unleashing the potential of Unreal Engine Technology, BitsWits create games that push the boundaries of what's possible in gaming and transport players into new worlds with breathtaking visuals and engaging gameplay. Let your imagination run wild with the one-of-a-kind gaming studio, BitsWits!!!",
           appclass: "app3",
-          imgservice: appletvappdevelopment
+          imgservice: appletvappdevelopment,
         },
         {
           title: "AR Game Development",
           text: "BitsWits helps you unlock a world of dazzling possibilities and experience the ultimate gaming entertainment with its sheer expertise in building AR games. With cutting-edge technologies such as 3D scanning, game engine creation, and cloud-based storage, we provide innovative solutions built to stand the test of time!",
           appclass: "app4",
-          imgservice: iphoneappdesigning
+          imgservice: iphoneappdesigning,
         },
         {
           title: "MR Game Development",
           text: "BitsWits create technology-advanced MR games using the latest 3D graphics, motion capture systems, and robust gaming engines. From intense battles, realistic racing simulators, exciting open-world exploration, and highly interactive first-person shooters to interactive puzzles, there is nothing our gaming maestros don't excel at. Time to leave your gamers gasping for more; after all, this is what we always ensure!",
           appclass: "app5",
-          imgservice: hybridiphone
+          imgservice: hybridiphone,
         },
         {
           title: "Cross-platform Game Development",
           text: `BitsWits capitalizes on the latest technologies to develop games that look and run seamlessly on all devices and gadgets. We share the experience in a slew of genres, i.e., casual, RPG, FPS, and more. Hire us to get a game that serves as the ticket to reaching a global audience!`,
           appclass: "app6",
-          imgservice: react
+          imgservice: react,
         },
         {
           title: "Buildbox Game Development",
           text: "BitsWits cashes in on the Buildbox platform and creates beautiful 3D worlds, physics-based levels, mind-bending puzzles, heart-pumping action games, side-scrolling runners, and whatnot. Tap into the power of this ground-breaking space with our world-class game developers, and let your rivals be knocked out of the competition!",
           appclass: "app7",
-          imgservice: reactnative
+          imgservice: reactnative,
         },
       ],
     },
   ];
-
-
 
   return (
     <>
@@ -274,10 +274,7 @@ export default function Gameapplicationdevelopment() {
         content3="BitsWits collar the intricacies of mobile gaming technology and help develop a strategy for success. We use cutting-edge software, languages, and frameworks; you can enjoy superior graphics and sound that bring every battle, mission, or quest to life. Our innovative network protocols will keep your game running smoothly with low latency and excellent responsiveness."
       />
 
-
-
-      {isSliderActive ?
-
+      {isSliderActive ? (
         <ServicesMaintain
           assignClass="gameApp"
           subtitle="The Work We Undertake"
@@ -290,9 +287,9 @@ export default function Gameapplicationdevelopment() {
           text={
             <>
               {" "}
-              We are famous for creating immersive game experiences with engaging
-              storylines, stunning visuals, and innovative gameplay mechanics.{" "}
-              <br />
+              We are famous for creating immersive game experiences with
+              engaging storylines, stunning visuals, and innovative gameplay
+              mechanics. <br />
               Here's an exciting rundown of what we bring to the table.{" "}
             </>
           }
@@ -308,11 +305,11 @@ export default function Gameapplicationdevelopment() {
               text: (
                 <>
                   {" "}
-                  We work with Unity 3D technology to foster unforgettable gaming
-                  experiences that push the boundaries of what's possible. Whether
-                  you want an action-packed shooter or a more peaceful puzzle
-                  title, we can ensure your game is a success and tends to become
-                  a revenue-generating machine!{" "}
+                  We work with Unity 3D technology to foster unforgettable
+                  gaming experiences that push the boundaries of what's
+                  possible. Whether you want an action-packed shooter or a more
+                  peaceful puzzle title, we can ensure your game is a success
+                  and tends to become a revenue-generating machine!{" "}
                 </>
               ),
               appclass: "app",
@@ -327,12 +324,12 @@ export default function Gameapplicationdevelopment() {
               text: (
                 <>
                   {" "}
-                  Producing immersive and mind-blowing virtual reality experiences
-                  for gamers and businesses alike. Our games are designed with the
-                  player's experience in mind and feature intuitive controls,
-                  immersive soundscapes, and realistic visuals that transport
-                  players into another world. Get ready to hook your gamers and
-                  urge them to return for more!{" "}
+                  Producing immersive and mind-blowing virtual reality
+                  experiences for gamers and businesses alike. Our games are
+                  designed with the player's experience in mind and feature
+                  intuitive controls, immersive soundscapes, and realistic
+                  visuals that transport players into another world. Get ready
+                  to hook your gamers and urge them to return for more!{" "}
                 </>
               ),
               appclass: "app1",
@@ -351,10 +348,10 @@ export default function Gameapplicationdevelopment() {
                   harnessing the power of cutting-edge technology and
                   state-of-the-art tools. We know that a successful 3D game
                   requires more than just great visuals – it's also about a
-                  compelling gameplay experience. Hence, we ensure games that are
-                  balanced, entertaining, and mesmerizing for players of all ages!
-                  Believe it or not, we are the perfect place to get your next
-                  gaming project off the ground!{" "}
+                  compelling gameplay experience. Hence, we ensure games that
+                  are balanced, entertaining, and mesmerizing for players of all
+                  ages! Believe it or not, we are the perfect place to get your
+                  next gaming project off the ground!{" "}
                 </>
               ),
               appclass: "app2",
@@ -384,13 +381,14 @@ export default function Gameapplicationdevelopment() {
               title: "Cross-platform Game Development",
               text: (
                 <>
-                  BitsWits capitalizes on the latest technologies to develop games
-                  that look and run seamlessly{" "}
-                  <br className="d-lg-block d-none" /> on all devices and gadgets.
-                  We share the experience in a slew of genres, i.e., casual, RPG,
-                  FPS,
-                  <br className="d-lg-block d-none" /> and more. Hire us to get a
-                  game that serves as the ticket to reaching a global audience!
+                  BitsWits capitalizes on the latest technologies to develop
+                  games that look and run seamlessly{" "}
+                  <br className="d-lg-block d-none" /> on all devices and
+                  gadgets. We share the experience in a slew of genres, i.e.,
+                  casual, RPG, FPS,
+                  <br className="d-lg-block d-none" /> and more. Hire us to get
+                  a game that serves as the ticket to reaching a global
+                  audience!
                 </>
               ),
               appclass: "app03",
@@ -406,13 +404,9 @@ export default function Gameapplicationdevelopment() {
           appContent6={[]}
           appContent7={[]}
         />
-        :
-        <ServicesMaintainmobile
-          severcedata={severcedata}
-
-        />
-
-      }
+      ) : (
+        <ServicesMaintainmobile severcedata={severcedata} />
+      )}
       <LpChoose transform="transform" />
 
       <ServiceSolutions
@@ -462,153 +456,6 @@ export default function Gameapplicationdevelopment() {
         text4="We offer competitive prices for our services, meaning you get a great game at an even better price. Plus, if you're not 100% satisfied with the final product, we offer a full refund so you can be sure that your money is being well spent. There is one thing for sure at BitsWits, your hard-earned money won't go down the drain."
         engIcon4={engIcon4}
       />
-
-      {/* <NewAddress />
-
-      <NewHomeAbout
-        title="Our Client’s Feedback Has Been"
-        subtitle="Nothing Short Of Amazing!"
-        addClass="game3d"
-      />
-      <Newsuccess
-        assignClass="gameApp"
-        subtitle="Ready For Success?"
-        maintitle="Brace Yourself for What Happens Next"
-        successSteps={[
-          {
-            number: "01",
-            title: "Talk To Our Experts",
-            text: "Contact us without obligation by email or phone and secure your free consultation.",
-            buttonText: "Connect Now!",
-            link: "#",
-          },
-          {
-            number: "02",
-            title: "Get A Quote",
-            text: "Get an exact cost breakdown structure of your app.",
-            buttonText: "Chat Now!",
-            link: "#",
-          },
-          {
-            number: "03",
-            title: "Build An MVP",
-            text: "Start your app development journey with no-obligation consultation via email and phone.",
-            buttonText: "Call Now!",
-            link: "#",
-          },
-        ]}
-      />
-      <Technologieswe2dgame />
-      <NewHomeGlobal assignClass="game3d" />
-      <NewHomeSlider />
-      <Homenextproject title="Brace yourself for an App-venture!" />
-      <ServicesFaqs
-        faqsData={[
-          {
-            question: "What is Game Application Development?",
-            answer: (
-              <>
-                {" "}
-                Game application development is the process of creating
-                interactive digital games for various platforms, such as mobile
-                devices, desktop computers, consoles, and web browsers.{" "}
-              </>
-            ),
-          },
-          {
-            question:
-              "What Programming Languages are commonly used for Game Development?",
-            answer: (
-              <>
-                {" "}
-                Some common programming languages for game development include
-                C++, C#, Java, Python, and JavaScript. The choice of language
-                often depends on the platform and game engine being used.{" "}
-              </>
-            ),
-          },
-          {
-            question: "What is a Game Engine?",
-            answer: (
-              <>
-                {" "}
-                A game engine is a software framework that provides tools,
-                libraries, and functionalities to streamline the game
-                development process. It includes features for rendering
-                graphics, handling physics, managing assets, and more.{" "}
-              </>
-            ),
-          },
-          {
-            question:
-              "What are the main platforms for which games are developed?",
-            answer: (
-              <>
-                {" "}
-                Games can be developed for a variety of platforms, including:
-                <br />
-                <br />
-                Mobile: iOS (Apple), Android (Google)
-                <br />
-                <br />
-                Desktop: Windows, macOS, Linux
-                <br />
-                <br />
-                Consoles: PlayStation, Xbox, Nintendo Switch
-                <br />
-                <br />
-                Web: Browser-based games using HTML5 and JavaScript{" "}
-              </>
-            ),
-          },
-          {
-            question: "What are the steps involved in game development?",
-            answer: (
-              <>
-                {" "}
-                Game development typically involves the following steps:
-                <br />
-                <br />
-                Conceptualization and Design: Planning the game's concept,
-                story, mechanics, and visual design.
-                <br />
-                <br />
-                Development: Writing code, creating assets, and implementing
-                features using a chosen game engine.
-                <br />
-                <br />
-                Testing: Thoroughly testing the game to identify and fix bugs,
-                optimize performance, and ensure a smooth player experience.
-                <br />
-                <br />
-                Deployment and Distribution: Preparing the game for release on
-                specific platforms or app stores.
-                <br />
-                <br />
-                Marketing and Launch: Promoting the game, generating buzz, and
-                launching it to the target audience.
-                <br />
-                <br />
-                Post-Launch Support: Providing updates, addressing user
-                feedback, and maintaining the game's community.{" "}
-              </>
-            ),
-          },
-          {
-            question: "What are some popular game engines for development?",
-            answer: (
-              <>
-                {" "}
-                Some popular game engines include Unity (supports both 2D and 3D
-                development), Unreal Engine (known for high-quality graphics and
-                3D capabilities), Godot (open-source and versatile), and Phaser
-                (for 2D web games).{" "}
-              </>
-            ),
-          },
-        ]}
-      />
-      <HomeLocation /> */}
 
       <Newsuccess
         assignClass="spacing"

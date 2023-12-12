@@ -393,9 +393,7 @@ export default function ReactNativeMobile() {
           },
         ]}
       />
-      <section className="spacingtb1">
-        <Technologieswe />
-      </section>
+      <Technologieswe />
 
       {/* <NewHomeGlobal />
             <NewHomeSlider />

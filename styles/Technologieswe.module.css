@@ -1,7 +1,3 @@
-/* .paddingBottom{
-  padding-bottom: 0 !important;
-} */
-
 .tech {
   background-image: url(../public/newHomePage/images/bg-image.png);
   background-position: 180% center;
@@ -92,6 +88,11 @@
 }
 
 @media screen and (max-width: 991px) {
+  .tech {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .active::before {
     bottom: -67%;
   }

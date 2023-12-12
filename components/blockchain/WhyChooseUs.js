@@ -32,7 +32,7 @@ const WhyChooseUs = (props) => {
             <section className={style.whyChoose}>
                 <Container>
                     <Row className='justify-content-center align-items-center '>
-                        <Col lg={6} className='border-top border-bottom pt-5 pb-5 pe-5'>
+                        <Col lg={6} className='border-top border-bottom pt-2 pt-sm-5 pb-2 pb-sm-5 pe-2 pe-sm-5'>
                             <h2 className="text-white f40 fw700 mb-2">{props.whyTitle}</h2>
                             <h4 className="fw400 f24 text-white mb-2">{props.whySubTitle} </h4>
                             <p className='f14 text-white'> {props.whyPara}</p>

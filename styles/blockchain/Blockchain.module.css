@@ -1,5 +1,6 @@
-.secPad{
-  padding-top: 250px;
+.secPad {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .feature {
@@ -67,11 +68,18 @@
     width: 376px;
     margin: 10px auto;
   }
+}
 
-  /* .Blockchain.d-flex.justify-content-left.align-items-center {
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        text-align: left;
-    } */
+@media only screen and (max-width: 991px) {
+  .secPad {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .secPad {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
 }

@@ -471,8 +471,6 @@ export default function mobileApplication() {
         title="Take Your Gaming Experience to the Blockchain!"
         text="BitsWits is at the cutting edge of blockchain game development, offering a suite of products to help businesses create fully featured games with all the security and transparency benefits of distributed ledger technology."
         Solution={Solution}
-        paddingTop={styles.paddingTop}
-        marginTop={styles.marginTop}
       />
 
       <GameCapabilities />
@@ -536,8 +534,6 @@ export default function mobileApplication() {
             link: "#",
           },
         ]}
-        paddingTop={style.paddingTop}
-        paddingBottom={style.paddingBottom}
       />
 
       <GameTechnologies />

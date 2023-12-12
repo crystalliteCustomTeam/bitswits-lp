@@ -162,8 +162,8 @@
 .newBgSpc {
   background-color: #000;
   border-bottom: 1px solid #fff;
-  padding-top: 250px;
-  padding-bottom: 250px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .newBg {
@@ -245,6 +245,11 @@
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 991px) {
+  .newBgSpc {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .cntcTxt h4 {
     font-size: 45px;
     line-height: 55px;
@@ -262,6 +267,11 @@
 }
 
 @media screen and (max-width: 767px) {
+  .newBgSpc {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
   .cntcTxt h2 {
     font-size: 40px;
     line-height: 45px;

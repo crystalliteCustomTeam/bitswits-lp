@@ -5,8 +5,8 @@
 
 .home {
   background: #000;
-  /* padding-top: 220px;*/
-  padding-bottom: 170px; 
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .home h3 {
@@ -18,20 +18,26 @@
 } */
 
 .gameApp {
-  padding: 50px 0 250px;
+  /* padding: 50px 0 250px; */
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .gameNft {
-  padding: 150px 0 200px;
+  /* padding: 150px 0 200px; */
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .gameBlckChain {
-  padding: 200px 0 0;
+  /* padding: 200px 0 0; */
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .solImg {
   text-align: right;
-  margin-top: -70px;
+  margin-top: -50px;
 }
 
 .marginTop {

@@ -4,7 +4,9 @@
 
 .happens {
   background-color: black;
-  padding: 50px 0 100px;
+  /* padding: 50px 0 100px; */
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .spacing {
@@ -135,7 +137,7 @@
   }
 
   .happens {
-    padding: 80px 0 80px;
+    padding: 50px 0 50px;
   }
 }
 

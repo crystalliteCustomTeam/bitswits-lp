@@ -29,7 +29,7 @@ const Revolution = (props) => {
         <>
             <section className={style.secPad}>
                 <Container>
-                    <Row className='justify-content-center align-items-center mb-5 mt-5'>
+                    <Row className='justify-content-center align-items-center'>
                         <Col lg={12}>
                             <h2 className="text-white f40 mb-2">{props.revTile1}</h2>
                             <h4 className="fw300 f30 text-white mb-2">{props.revSubTile1}</h4>

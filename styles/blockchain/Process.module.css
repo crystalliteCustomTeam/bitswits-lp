@@ -1,11 +1,10 @@
 .process {
-  padding-top: 250px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .feature {
   text-align: left;
-  /* padding: 40px;
-    margin-bottom: 10px; */
 }
 .feature {
   background-image: url(../../public/blockchain/images/card.png);
@@ -13,11 +12,7 @@
   background-size: contain;
   height: 258px;
   width: 100%;
-  /* background-position: 50% 100%; */
   transition: all 1s;
-  /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 .feature:hover {
   background-image: url(../../public/blockchain/images/card-1.png);
@@ -44,17 +39,36 @@
   .gap2 {
     padding: 0px;
   }
-
 }
 @media (max-width: 991px) {
+  .process {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .feature {
     width: 100%;
-    height: 180px;
+    height: 334px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .gaps {
     padding: 20px !important;
   }
   .gap2 {
     padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .process {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .feature {
+    height: 188px;
   }
 }
