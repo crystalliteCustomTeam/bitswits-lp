@@ -2997,7 +2997,14 @@ button {
   height: 50px;
   z-index: 1;
   position: relative;
-  bottom: -85px;
+  bottom: -35px;
+  background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
+}
+.mixColor5 {
+  height: 50px;
+  z-index: 1;
+  position: relative;
+  bottom: -75px;
   background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
 }
 
@@ -3229,6 +3236,9 @@ button {
 }
 
 @media screen and (max-width: 767px) {
+  .mixColor5{
+    display: none;
+  }
   .cntctRow {
     row-gap: 70px;
   }
