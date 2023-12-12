@@ -105,9 +105,15 @@ import IOS from "public/images/icons/ios.png";
 import andriod from "public/images/icons/android.png";
 import Flutter from "public/images/icons/flutter.png";
 import ReactNative from "public/images/icons/reactnative.png";
-import Hybrid from "public/images/icons/hybrid.png";
+import Programming from "public/images/icons/webdevelopment.png";
 import Cross from "public/images/icons/cross.png";
 import WebApp from "public/images/icons/programming.png";
+import UIUX from "public/images/icons/uiux.png";
+import TwodIcon from "public/images/icons/2d.png";
+import ThreedIcon from "public/images/icons/3d.png";
+import NFT from "public/images/icons/nft.png"
+import blockchainIcon from "public/images/icons/blockchain.png";
+import AI from "public/images/icons/aiIcon.png";
 import Augment from "public/images/icons/augment.png";
 
 const HeaderNewDesign = () => {
@@ -307,7 +313,7 @@ const HeaderNewDesign = () => {
                                 </h4>
                                 <Image
                                   alt="bitswits"
-                                  src={Flutter}
+                                  src={blockchainIcon}
                                   className="img-fluid"
                                 />
                               </div>
@@ -327,7 +333,7 @@ const HeaderNewDesign = () => {
                                 </h4>
                                 <Image
                                   alt="bitswits"
-                                  src={ReactNative}
+                                  src={AI}
                                   className="img-fluid"
                                 />
                               </div>
@@ -349,7 +355,7 @@ const HeaderNewDesign = () => {
                                 </h4>
                                 <Image
                                   alt="bitswits"
-                                  src={Hybrid}
+                                  src={WebApp}
                                   className="img-fluid"
                                 />
                               </div>
@@ -369,7 +375,7 @@ const HeaderNewDesign = () => {
                                 </h4>
                                 <Image
                                   alt="bitswits"
-                                  src={Cross}
+                                  src={Augment}
                                   className="img-fluid"
                                 />
                               </div>
@@ -391,7 +397,7 @@ const HeaderNewDesign = () => {
                                 </h4>
                                 <Image
                                   alt="bitswits"
-                                  src={WebApp}
+                                  src={Programming}
                                   className="img-fluid"
                                 />
                               </div>
@@ -409,11 +415,11 @@ const HeaderNewDesign = () => {
                                 <h4>
                                   UI/UX App <br /> Design{" "}
                                 </h4>
-                                {/* <Image
+                                <Image
                                   alt="bitswits"
-                                  src={Cross}
+                                  src={UIUX}
                                   className="img-fluid"
-                                /> */}
+                                />
                               </div>
                             </div>
                           </Col>
@@ -513,7 +519,20 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={andriod}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <Link href="/game-application-development">
+                                 Game App Development
+                              </Link>{" "}
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={TwodIcon}
                                   className="img-fluid"
                                 />
                               </div>
@@ -526,7 +545,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={andriod}
+                                  src={ThreedIcon}
                                   guardicon
                                   className="img-fluid"
                                 />
@@ -540,7 +559,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={WebApp}
+                                  src={NFT}
                                   className="img-fluid"
                                 />
                               </div>
@@ -553,7 +572,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={Flutter}
+                                  src={blockchainIcon}
                                   className="img-fluid"
                                 />
                               </div>
@@ -573,7 +592,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={blockchainIcon}
                                   className="img-fluid"
                                 />
                               </div>
@@ -586,7 +605,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={AI}
                                   className="img-fluid"
                                 />
                               </div>
@@ -599,7 +618,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={WebApp}
                                   className="img-fluid"
                                 />
                               </div>
@@ -612,7 +631,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={Augment}
                                   className="img-fluid"
                                 />
                               </div>
@@ -625,7 +644,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={WebApp}
                                   className="img-fluid"
                                 />
                               </div>
@@ -645,7 +664,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={AI}
                                   className="img-fluid"
                                 />
                               </div>
@@ -658,7 +677,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={blockchainIcon}
                                   className="img-fluid"
                                 />
                               </div>
@@ -671,7 +690,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={Programming}
                                   className="img-fluid"
                                 />
                               </div>
@@ -684,7 +703,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={Augment}
                                   className="img-fluid"
                                 />
                               </div>
@@ -697,7 +716,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={WebApp}
                                   className="img-fluid"
                                 />
                               </div>
@@ -717,7 +736,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={Programming}
                                   className="img-fluid"
                                 />
                               </div>
@@ -730,7 +749,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={blockchainIcon}
                                   className="img-fluid"
                                 />
                               </div>
@@ -743,7 +762,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={AI}
                                   className="img-fluid"
                                 />
                               </div>
@@ -756,7 +775,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={Augment}
                                   className="img-fluid"
                                 />
                               </div>
@@ -769,7 +788,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={WebApp}
                                   className="img-fluid"
                                 />
                               </div>
@@ -789,7 +808,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={Augment}
                                   className="img-fluid"
                                 />
                               </div>
@@ -802,7 +821,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={Programming}
                                   className="img-fluid"
                                 />
                               </div>
@@ -815,7 +834,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={blockchainIcon}
                                   className="img-fluid"
                                 />
                               </div>
@@ -828,7 +847,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={AI}
                                   className="img-fluid"
                                 />
                               </div>
@@ -841,7 +860,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={WebApp}
                                   className="img-fluid"
                                 />
                               </div>
@@ -861,7 +880,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={WebApp}
                                   className="img-fluid"
                                 />
                               </div>
@@ -874,7 +893,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={Augment}
                                   className="img-fluid"
                                 />
                               </div>
@@ -887,7 +906,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={Programming}
                                   className="img-fluid"
                                 />
                               </div>
@@ -900,7 +919,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={blockchainIcon}
                                   className="img-fluid"
                                 />
                               </div>
@@ -913,7 +932,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={AI}
                                   className="img-fluid"
                                 />
                               </div>
@@ -933,7 +952,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={Augment}
                                   className="img-fluid"
                                 />
                               </div>
@@ -946,7 +965,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={WebApp}
                                   className="img-fluid"
                                 />
                               </div>
@@ -959,7 +978,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={Programming}
                                   className="img-fluid"
                                 />
                               </div>
@@ -972,7 +991,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={blockchainIcon}
                                   className="img-fluid"
                                 />
                               </div>
@@ -985,7 +1004,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={AI}
                                   className="img-fluid"
                                 />
                               </div>
