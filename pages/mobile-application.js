@@ -203,51 +203,6 @@ export default function mobileApplication() {
 
       <LpChoose transform="transform" />
 
-      <ServisesWhy
-        subtitle={
-          <>
-            {" "}
-            <h2 className="newfycolr font50 font-bold text-center">
-              Why Do You Require Our Mobile Applications?
-            </h2>{" "}
-          </>
-        }
-        sub2="Building your mobile app acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape its trajectory."
-        whyData={
-          [
-            {
-              icon: icon23,
-              title: "Greater Customer Reach",
-              para: "Mobile apps allow you to connect with customers anywhere and anytime worldwide.",
-            },
-            {
-              icon: icon24,
-              title: "Simplified Payments",
-              para: "Mobile applications allow users to instantly pay, donate, and order without any hassle.",
-            },
-            {
-              icon: icon25,
-              title: (<> Drive <br /> Sales </>),
-              para: "Mobile applications provide a convenient way for customers to purchase your products and services on the go.",
-            },
-            {
-              icon: icon26,
-              title: (<> Customer <br /> Loyalty </>),
-              para: "Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences.",
-            },
-            {
-              icon: icon27,
-              title: "Competitive Advantage",
-              para: "Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue.",
-            },
-            {
-              icon: icon28,
-              title: "Improved Customer Service",
-              para: "Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction.",
-            },
-          ]
-        }
-      />
       <ServicesPortfolio
         title={<> Showcasing Our <span className="newfycolr">Creative Vision</span> </>}
       />
