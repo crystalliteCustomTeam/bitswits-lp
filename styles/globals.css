@@ -3088,7 +3088,7 @@ button {
   height: 50px;
   z-index: 1;
   position: relative;
-  bottom: -35px;
+  bottom: -70px;
   background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
 }
 

@@ -1,11 +1,8 @@
 import React from 'react'
-import Image from 'next/image';
 import Link from 'next/link';
 import styles from "./NewHomeWhat.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
-//
-import ButtonIcon from "@/public/shark/home_btn.png"
-import WhatImage from "@/public/newHomePageImages/what_Image.png"
+
 
 const NewHomeWhat = () => {
 
