@@ -30,26 +30,27 @@
 .just {
   color: #f32f53;
   font-weight: 900;
+  margin-bottom: 0;
 }
 
 .item1 {
-  background-image: url(../public/homeslideimg/1.png);
+  background-image: url(../public/homeslideimg/1.webp);
   background-position: -260px center;
 }
 .item2 {
-  background-image: url(../public/homeslideimg/2.png);
+  background-image: url(../public/homeslideimg/2.webp);
   background-position: -180px center;
 }
 .item3 {
-  background-image: url(../public/homeslideimg/3.png);
+  background-image: url(../public/homeslideimg/3.webp);
   background-position: -140px center;
 }
 .item4 {
-  background-image: url(../public/homeslideimg/4.png);
+  background-image: url(../public/homeslideimg/4.webp);
   background-position: -225px center;
 }
 .item5 {
-  background-image: url(../public/homeslideimg/5.png);
+  background-image: url(../public/homeslideimg/5.webp);
   background-position: -205px center;
 }
 
@@ -460,7 +461,7 @@
 
 @media (max-width: 767px) {
   .newHomeBg {
-    height: 75vh;
+    height: 100vh;
   }
 
   .content {
@@ -503,11 +504,11 @@
   }
 
   .content {
-    top: 48%;
+    top: 45%;
     left: 1.2rem;
   }
 
   .nav {
-    bottom: 0%;
+    bottom: 11%;
   }
 }

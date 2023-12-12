@@ -20,7 +20,7 @@ const NewHomeWhat = () => {
                         <Row>
                             <Col lg={12}>
                                 <h2 className={`text-white fontpink100 font-bold ${styles.textPink}`}>What we do</h2>
-                                <p className={`fontwhite40 text-white`}>Shaping a Smarter Tomorrow <br/>
+                                <p className={`fontwhite40 font-bold text-white`}>Shaping a Smarter Tomorrow <br/>
                                     Through Technological Excellence.</p>
                                 <p className={`${styles.width} fonthomereg`}>At Bitswits, we blend pioneering IT services and consulting with over a decade of expertise, helping businesses around the globe achieve their transformative goals.</p>
                                 <div className={styles.sec_btn}>

@@ -11,9 +11,9 @@
 }
 
 .width {
-    color: white;
-    max-width: 74%;
-    margin-left: auto;
+  color: white;
+  max-width: 74%;
+  margin-left: auto;
 }
 
 .text_content {
@@ -49,28 +49,22 @@
     object-fit: contain;
     max-height: 320px;
   }
-
-  .newHomeBg {
-    padding-bottom: 0;
-  }
 }
 
 @media screen and (max-width: 991px) {
-  .newHomeBg h2 {
-    font-size: 40px;
-    line-height: 50px;
-  }
-
-  .newHomeBg p {
-    font-size: 16px;
-    line-height: 26px;
+  .newHomeBg {
+    padding-bottom: 50px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .secImage {
-    width: 100%;
+    max-width: 100%;
     max-height: 220px;
+  }
+
+  .width {
+    max-width: 100%;
   }
 
   .wid {
@@ -80,10 +74,5 @@
 
   .btn_txt {
     font-size: 19px;
-  }
-
-  .newHomeBg h2 {
-    font-size: 30px;
-    line-height: 40px;
   }
 }

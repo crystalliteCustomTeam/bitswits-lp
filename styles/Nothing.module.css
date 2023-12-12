@@ -18,13 +18,13 @@
   background-size: inherit;
   background-size: 27%;
 }
-.nothingLphomefy h3{
-  color: #F32F53;
+.nothingLphomefy h3 {
+  color: #f32f53;
 }
-.nothingLphomefy .btnpost{
+.nothingLphomefy .btnpost {
   border-radius: 10px;
 }
-.strpImg{
+.strpImg {
   padding-bottom: 15px;
 }
 
@@ -109,6 +109,10 @@
 
   .nothingLp6 {
     padding-top: 60px;
+  }
+
+  .nothingLphomefy {
+    padding: 0 0 50px;
   }
 }
 

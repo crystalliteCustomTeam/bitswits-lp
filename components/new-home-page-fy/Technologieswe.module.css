@@ -78,11 +78,14 @@
 @media screen and (max-width: 1200px) {
   .tech {
     background-color: black;
-    padding-bottom: 80px;
   }
 }
 
 @media screen and (max-width: 991px) {
+  .tech {
+    padding: 0 0 50px;
+  }
+
   .active::before {
     bottom: -67%;
   }

@@ -23,9 +23,9 @@
 }
 
 .width {
-    color: white;
-    max-width: 74%;
-    margin-right: auto;
+  color: white;
+  max-width: 74%;
+  margin-right: auto;
 }
 
 .sec_btn {
@@ -74,15 +74,6 @@
     padding-bottom: 80px;
     height: unset;
   }
-  .newHomeBg h2 {
-    font-size: 40px;
-    line-height: 50px;
-  }
-
-  .newHomeBg p {
-    font-size: 16px;
-    line-height: 26px;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -104,10 +95,10 @@
     font-size: 15px;
   }
 
-  .newHomeBg h2 {
-    font-size: 30px;
-    line-height: 40px;
+  .width {
+    max-width: 100%;
   }
+
   .newHomeBg {
     padding: 0px;
     padding-top: 50px;

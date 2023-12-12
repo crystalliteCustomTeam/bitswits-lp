@@ -77,7 +77,7 @@ const ServicesMaintainmobile = ({ severcedata }) => {
               }
 
               {heading.title2 &&
-                <h2 className="newfycolr font55 font-bold text-center d-block mb-2">
+                <h2 className="newfycolr fontpink100 font-bold text-center d-block mb-2">
                   {heading.title2}
                 </h2>
               }
