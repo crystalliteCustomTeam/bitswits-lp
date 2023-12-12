@@ -59,6 +59,8 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 export default function gamedevelopmentcompany() {
+
+  
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {

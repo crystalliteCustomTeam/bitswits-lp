@@ -20,11 +20,96 @@ const Nothing = React.lazy(() => import('@/components/Nothing'));
 const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
 const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
+const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
 //images
 const BannerImage = await import("@/public/images/iosbanner/ai.png");
 
+const customios = await import("/public/artificalai/smartsystems.png");
+const iphoneapp = await import("/public/artificalai/gesturerecognition.png");
+const applewatch = await import("/public/artificalai/facialrecognition.png");
+const appletvappdevelopment = await import("/public/artificalai/locationtracking.png");
+const iphoneappdesigning = await import("/public/artificalai/motionsensing.png");
+const hybridiphone = await import("/public/artificalai/webconferencing.png");
+
+import { useState } from "react";
+import { useEffect } from "react";
+
 
 export default function gamedevelopmentcompany() {
+
+
+    const [isSliderActive, setIsSliderActive] = useState(true);
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth < 1201) {
+                setIsSliderActive(false);
+            } else {
+                setIsSliderActive(true);
+            }
+        };
+
+        handleResize();
+
+        window.addEventListener("resize", handleResize);
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
+
+    const severcedata = [
+        {
+            classlayout: {
+                newclass: "iosclass",
+            },
+            heading: {
+                subtitle: "Go an Extra Mile with",
+                title1: "Our Advanced",
+                title2: "Artificial Intelligence Development",
+                title3:"Services",
+               
+            },
+            serdata: [
+                {
+                    title: 'Smart Systems',
+                    text: 'We create clever systems that can do tasks automatically for your business, can understand information, learn from it, and help make your work easier and faster.',
+                    appclass: "app",
+                    imgservice: customios,
+                },
+                {
+                    title: (<> Gesture Recognition </>),
+                    text: (<> BitsWits specializes in creating technology that can recognize and respond to your movements. Our systems understand gestures like hand waves or nods, allowing you to control devices effortlessly through simple motions. </>),
+                    appclass: "app1",
+                    imgservice: iphoneapp,
+                },
+                {
+                    title: (<> Facial Recognition </>),
+                    text: 'Hire us to build technology that can recognize your face, just like a key unlocks a door. Our systems use your unique features to grant access and make interactions easier and more secure.',
+                    appclass: "app2",
+                    imgservice: applewatch,
+                },
+                {
+                    title: 'Location Tracking',
+                    text: "We develop location tracking technology using intelligent AI algorithms to monitor the whereabouts of people or things. Our system predicts movement patterns, assisting businesses in effectively managing their assets and making informed decisions.",
+                    appclass: "app3",
+                    imgservice: appletvappdevelopment,
+                },
+                {
+                    title: (<> Motion Sensing </>),
+                    text: (<> we merge AI algorithms with motion sensors, enabling high-precision motion detection. Our model training and optimization ensure smooth integration for real-time and reliable motion sensing capabilities. </>),
+                    appclass: "app4",
+                    imgservice: iphoneappdesigning,
+                },
+                {
+                    title: (<> Web Conferencing </>),
+                    text: 'At BitsWits, we use smart technology to make online meetings better. Our system has features like automatic note-taking, language translation, and clear video, making virtual meetings easier and more effective.',
+                    appclass: "app5",
+                    imgservice: hybridiphone, 
+                },
+            ],
+        },
+    ];
+
 
     return (
         <>
@@ -50,8 +135,8 @@ export default function gamedevelopmentcompany() {
 
             <HomeBannerSliderlp />
 
-            <LpForm 
-            addresClass='iosclass'
+            <LpForm
+                addresClass='iosclass'
             />
 
             <Nothing Nothing="nothingLp6" />
@@ -60,60 +145,68 @@ export default function gamedevelopmentcompany() {
                 title="Clients Love Our AI Solutions"
                 subtitle="Hear It from Them"
             /> */}
-            <ServicesMaintain
-                assignClass="ai"
-                subtitle={<> Go an Extra Mile with </>}
-                title0={<> Our Advanced </>}
-                title={<> Artificial Intelligence Development </>}
-                title1={<> Services </>}
-                appContent={[]}
-                appContent1={
-                    [
-                        {
-                            title: 'Smart Systems',
-                            text: 'We create clever systems that can do tasks automatically for your business, can understand information, learn from it, and help make your work easier and faster.',
-                            appclass: "app"
-                        },
-                        {
-                            title: (<> Gesture Recognition </>),
-                            text: (<> BitsWits specializes in creating technology that can recognize and respond to your movements. Our systems understand gestures like hand waves or nods, allowing you to control devices effortlessly through simple motions. </>),
-                            appclass: "app1",
-                        },
-                        {
-                            title: (<> Facial Recognition </>),
-                            text: 'Hire us to build technology that can recognize your face, just like a key unlocks a door. Our systems use your unique features to grant access and make interactions easier and more secure.',
-                            appclass: "app2",
-                        }
-                    ]
-                }
-                appContent2={
-                    [
-                        {
-                            title: 'Location Tracking',
-                            text: "We develop location tracking technology using intelligent AI algorithms to monitor the whereabouts of people or things. Our system predicts movement patterns, assisting businesses in effectively managing their assets and making informed decisions.",
-                            appclass: "app3",
-                        },
-                    ]
-                }
-                appContent3={
-                    [
-                        {
-                            title: (<> Motion Sensing </>),
-                            text: (<> we merge AI algorithms with motion sensors, enabling high-precision motion detection. Our model training and optimization ensure smooth integration for real-time and reliable motion sensing capabilities. </>),
-                            appclass: "app4",
-                        },
-                        {
-                            title: (<> Web Conferencing </>),
-                            text: 'At BitsWits, we use smart technology to make online meetings better. Our system has features like automatic note-taking, language translation, and clear video, making virtual meetings easier and more effective.',
-                            appclass: "app5",
-                        },
-                    ]
-                }
-                appContent4={[]}
-                appContent5={[]}
-                appContent6={[]}
-                appContent7={[]}
-            />
+
+
+
+            {isSliderActive ? (
+                <ServicesMaintain
+                    assignClass="ai"
+                    subtitle={<> Go an Extra Mile with </>}
+                    title0={<> Our Advanced </>}
+                    title={<> Artificial Intelligence Development </>}
+                    title1={<> Services </>}
+                    appContent={[]}
+                    appContent1={
+                        [
+                            {
+                                title: 'Smart Systems',
+                                text: 'We create clever systems that can do tasks automatically for your business, can understand information, learn from it, and help make your work easier and faster.',
+                                appclass: "app"
+                            },
+                            {
+                                title: (<> Gesture Recognition </>),
+                                text: (<> BitsWits specializes in creating technology that can recognize and respond to your movements. Our systems understand gestures like hand waves or nods, allowing you to control devices effortlessly through simple motions. </>),
+                                appclass: "app1",
+                            },
+                            {
+                                title: (<> Facial Recognition </>),
+                                text: 'Hire us to build technology that can recognize your face, just like a key unlocks a door. Our systems use your unique features to grant access and make interactions easier and more secure.',
+                                appclass: "app2",
+                            }
+                        ]
+                    }
+                    appContent2={
+                        [
+                            {
+                                title: 'Location Tracking',
+                                text: "We develop location tracking technology using intelligent AI algorithms to monitor the whereabouts of people or things. Our system predicts movement patterns, assisting businesses in effectively managing their assets and making informed decisions.",
+                                appclass: "app3",
+                            },
+                        ]
+                    }
+                    appContent3={
+                        [
+                            {
+                                title: (<> Motion Sensing </>),
+                                text: (<> we merge AI algorithms with motion sensors, enabling high-precision motion detection. Our model training and optimization ensure smooth integration for real-time and reliable motion sensing capabilities. </>),
+                                appclass: "app4",
+                            },
+                            {
+                                title: (<> Web Conferencing </>),
+                                text: 'At BitsWits, we use smart technology to make online meetings better. Our system has features like automatic note-taking, language translation, and clear video, making virtual meetings easier and more effective.',
+                                appclass: "app5",
+                            },
+                        ]
+                    }
+                    appContent4={[]}
+                    appContent5={[]}
+                    appContent6={[]}
+                    appContent7={[]}
+                />
+            ) : (
+                <ServicesMaintainmobile severcedata={severcedata} />
+            )}
+
 
 
 

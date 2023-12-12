@@ -3,6 +3,11 @@
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.startupshome {
+  background-color: black;
+  padding-top: 0px;
+  padding-bottom: 100px;
+}
 
 .from {
   color: #f32f53;
@@ -32,6 +37,10 @@
 @media screen and (max-width: 991px) {
   .startups {
     padding-bottom: 80px;
+  }
+  .startupshome {
+    padding-bottom: 80px;
+    padding-top: 0;
   }
 
   .book {

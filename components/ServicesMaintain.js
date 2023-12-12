@@ -7,9 +7,7 @@ const ServicesMaintain = (props) => {
   return (
     <>
       <section
-        className={` ${styles.newHomeBg} ${
-          styles[props.assignClass]
-        } combo d-none d-md-block`}
+        className={` ${styles.newHomeBg} ${styles[props.assignClass]} combo d-none d-md-block`}
       >
         <Container>
           <Row className="g-3">

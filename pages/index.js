@@ -295,7 +295,7 @@ export default function Home() {
                 industry='industryclass'
             />
             <WeworkLp wework="weworkLpnewhomefy" />
-            <StartupsLp startups="startups" />
+            <StartupsLp startups="startupshome" />
             <Technologieswe />
             <Nothing Nothing="nothingLphomefy" />
             {isSliderActive ? (
