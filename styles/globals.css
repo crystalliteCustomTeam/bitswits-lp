@@ -20,11 +20,43 @@
   src: url(../public/fonts/Nofex-1GLBv.otf);
   font-display: swap;
 }
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url(../public/fontsfy/SF-Pro-Display-Black.otf);
+  font-display: swap;
+}
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url(../public/fontsfy/SF-Pro-Display-Bold.otf);
+  font-display: swap;
+}
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url(../public/fontsfy/SF-Pro-Display-Heavy.otf);
+  font-display: swap;
+}
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url(../public/fontsfy/SF-Pro-Display-Light.otf);
+  font-display: swap;
+}
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url(../public/fontsfy/SF-Pro-Display-Regular.otf);
+  font-display: swap;
+}
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url(../public/fontsfy/SF-Pro-Display-Medium.otf);
+  font-display: swap;
+}
 
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "SF-Pro-Display";
   scroll-behavior: unset !important;
 }
+
+
 
 body {
   box-sizing: border-box;

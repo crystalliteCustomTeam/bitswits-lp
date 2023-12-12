@@ -49,7 +49,110 @@ const engIcon2 = await import("@/public/shark/shrk12.png");
 const engIcon3 = await import("@/public/shark/shrk13.png");
 const engIcon4 = await import("@/public/shark/2322.png");
 
+const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
+const customios = await import("/public/2dgame/2dconceptartanddesign.png");
+const iphoneapp = await import("/public/2dgame/singleplayergames.png");
+const applewatch = await import("/public/2dgame/gameappintegration.png");
+const appletvappdevelopment = await import("/public/2dgame/multiplayergames.png");
+const iphoneappdesigning = await import("/public/2dgame/uigraphics.png");
+const hybridiphone = await import("/public/2dgame/storyboarding.png");
+
+import { useState } from "react";
+import { useEffect } from "react";
+
+
 export default function gamedevelopmentcompany() {
+
+
+
+  const [isSliderActive, setIsSliderActive] = useState(true);
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 1201) {
+        setIsSliderActive(false);
+      } else {
+        setIsSliderActive(true);
+      }
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const severcedata = [
+    {
+      classlayout: {
+        newclass: "iosclass",
+      },
+      heading: {
+        subtitle: "Our Services Are Where Innovation Meets Play",
+        title1: `What You May Expect When
+        Committing To Us?`,
+
+      },
+      serdata: [
+
+        {
+          title: <> 2D Concept Art and Design </>,
+            text: "2D Concept Art and Design is an art form that combines creative design with technical know-how. Our team of experienced artists is well-versed in various techniques, including digital painting, 3D modeling, and animation. From character concept artwork to product designs, environments, and storyboards, we provide complete professional service for our clients.",
+          appclass: "app",
+          appclass: "app1",
+          imgservice: customios,
+        },
+        {
+          title: (<> Single Player Games</>),
+          text: `Our team is well versed in various technologies such as C++,
+          Unity, Unreal Engine, HTML5, and more to provide a seamless
+          single-player gaming experience across different platforms.
+          BitsWits guarantee bug-free code, easy navigation, intuitive
+          controls, and perfect performance in our games so players can
+          enjoy their experience without frustration. Whether you're
+          looking for a complex 2D game or an old-school classic
+          side-scroller, our 2D game developers can make it happen.`,
+          appclass: "app2",
+          imgservice: iphoneapp,
+        },
+        {
+          title: 'Game App Integration',
+          text: `Our integration services offer a range of features across
+          platforms, including multiplayer mode, leaderboard integration,
+          in-app purchases, analytics, and more. Our streamlined
+          integration process ensures your game runs smoothly while
+          maintaining high-security standards. Whether it's connecting
+          your game app with existing APIs or creating custom solutions,
+          we guarantee that our solutions are robust and secure.`,
+          appclass: "app3",
+          imgservice: applewatch,
+        },
+        {
+          title: "Multiplayer Games",
+          text: `Whether you're looking to build a complex, engaging multiplayer game from the ground up or optimize an existing project with cutting-edge technology, we have you covered! From first-person shooters and RPGs to strategic board games and party games, we foster multiplayer gaming experiences for businesses to help them make huge bucks.`,
+          appclass: "app4",
+          imgservice: appletvappdevelopment,
+        },
+        {
+          title: "UI/UX Graphics",
+            text: "Our UI/UX Graphics services greatly enhance the player experience, making it more immersive and enjoyable. We focus on creating engaging visuals through color palette selection, typography choice, and iconography, as well as developing an easy-to-navigate layout to keep your players engaged with the game.",
+          appclass: "app5",
+          imgservice: iphoneappdesigning,
+        },
+        {
+          title: "Storyboarding",
+          text: "With our team of expert animators, you can watch your characters come alive and see your story unfold in vivid detail. Our 2D animation and storyboard services allow you to visually represent what is happening in your script or story before it gets animated. This ensures that all elements are in place for a successful storyboard.",
+          appclass: "app5",
+          imgservice: hybridiphone,
+        },
+      ],
+    },
+  ];
+
+
+
   return (
     <>
       <Head>
@@ -114,90 +217,95 @@ export default function gamedevelopmentcompany() {
         AdvantageOne={AdvantageOne}
       />
 
-      <ServicesMaintain
-        assignClass="game2d"
-        subtitle="Our Services Are Where Innovation Meets Play"
-        title0={
-          <>
-            {" "}
-            What You May Expect When <br /> Committing To Us?{" "}
-          </>
-        }
-        appContent={[]}
-        appContent1={[
-          {
-            title: <> 2D Concept Art and Design </>,
-            text: "2D Concept Art and Design is an art form that combines creative design with technical know-how. Our team of experienced artists is well-versed in various techniques, including digital painting, 3D modeling, and animation. From character concept artwork to product designs, environments, and storyboards, we provide complete professional service for our clients.",
-            appclass: "app",
-          },
-          {
-            title: (
-              <>
-                {" "}
-                Single Player <br /> Games{" "}
-              </>
-            ),
-            text: (
-              <>
-                {" "}
-                Our team is well versed in various technologies such as C++,
-                Unity, Unreal Engine, HTML5, and more to provide a seamless
-                single-player gaming experience across different platforms.
-                BitsWits guarantee bug-free code, easy navigation, intuitive
-                controls, and perfect performance in our games so players can
-                enjoy their experience without frustration. Whether you're
-                looking for a complex 2D game or an old-school classic
-                side-scroller, our 2D game developers can make it happen.{" "}
-              </>
-            ),
-            appclass: "app1",
-          },
-          {
-            title: (
-              <>
-                {" "}
-                Game App <br /> Integration{" "}
-              </>
-            ),
-            text: (
-              <>
-                {" "}
-                Our integration services offer a range of features across
-                platforms, including multiplayer mode, leaderboard integration,
-                in-app purchases, analytics, and more. Our streamlined
-                integration process ensures your game runs smoothly while
-                maintaining high-security standards. Whether it's connecting
-                your game app with existing APIs or creating custom solutions,
-                we guarantee that our solutions are robust and secure.{" "}
-              </>
-            ),
-            appclass: "app2",
-          },
-        ]}
-        appContent2={[
-          {
-            title: "Multiplayer Games",
-            text: "Whether you're looking to build a complex, engaging multiplayer game from the ground up or optimize an existing project with cutting-edge technology, we have you covered! From first-person shooters and RPGs to strategic board games and party games, we foster multiplayer gaming experiences for businesses to help them make huge bucks.",
-            appclass: "app3",
-          },
-        ]}
-        appContent3={[
-          {
-            title: "UI/UX Graphics",
-            text: "Our UI/UX Graphics services greatly enhance the player experience, making it more immersive and enjoyable. We focus on creating engaging visuals through color palette selection, typography choice, and iconography, as well as developing an easy-to-navigate layout to keep your players engaged with the game.",
-            appclass: "app4",
-          },
-          {
-            title: "Storyboarding",
-            text: "With our team of expert animators, you can watch your characters come alive and see your story unfold in vivid detail. Our 2D animation and storyboard services allow you to visually represent what is happening in your script or story before it gets animated. This ensures that all elements are in place for a successful storyboard.",
-            appclass: "app5",
-          },
-        ]}
-        appContent4={[]}
-        appContent5={[]}
-        appContent6={[]}
-        appContent7={[]}
-      />
+      {isSliderActive ? (
+        <ServicesMaintain
+          assignClass="game2d"
+          subtitle="Our Services Are Where Innovation Meets Play"
+          title0={
+            <>
+              {" "}
+              What You May Expect When <br /> Committing To Us?{" "}
+            </>
+          }
+          appContent={[]}
+          appContent1={[
+            {
+              title: <> 2D Concept Art and Design </>,
+              text: "2D Concept Art and Design is an art form that combines creative design with technical know-how. Our team of experienced artists is well-versed in various techniques, including digital painting, 3D modeling, and animation. From character concept artwork to product designs, environments, and storyboards, we provide complete professional service for our clients.",
+              appclass: "app",
+            },
+            {
+              title: (
+                <>
+                  {" "}
+                  Single Player <br /> Games{" "}
+                </>
+              ),
+              text: (
+                <>
+                  {" "}
+                  Our team is well versed in various technologies such as C++,
+                  Unity, Unreal Engine, HTML5, and more to provide a seamless
+                  single-player gaming experience across different platforms.
+                  BitsWits guarantee bug-free code, easy navigation, intuitive
+                  controls, and perfect performance in our games so players can
+                  enjoy their experience without frustration. Whether you're
+                  looking for a complex 2D game or an old-school classic
+                  side-scroller, our 2D game developers can make it happen.{" "}
+                </>
+              ),
+              appclass: "app1",
+            },
+            {
+              title: (
+                <>
+                  {" "}
+                  Game App <br /> Integration{" "}
+                </>
+              ),
+              text: (
+                <>
+                  {" "}
+                  Our integration services offer a range of features across
+                  platforms, including multiplayer mode, leaderboard integration,
+                  in-app purchases, analytics, and more. Our streamlined
+                  integration process ensures your game runs smoothly while
+                  maintaining high-security standards. Whether it's connecting
+                  your game app with existing APIs or creating custom solutions,
+                  we guarantee that our solutions are robust and secure.{" "}
+                </>
+              ),
+              appclass: "app2",
+            },
+          ]}
+          appContent2={[
+            {
+              title: "Multiplayer Games",
+              text: "Whether you're looking to build a complex, engaging multiplayer game from the ground up or optimize an existing project with cutting-edge technology, we have you covered! From first-person shooters and RPGs to strategic board games and party games, we foster multiplayer gaming experiences for businesses to help them make huge bucks.",
+              appclass: "app3",
+            },
+          ]}
+          appContent3={[
+            {
+              title: "UI/UX Graphics",
+              text: "Our UI/UX Graphics services greatly enhance the player experience, making it more immersive and enjoyable. We focus on creating engaging visuals through color palette selection, typography choice, and iconography, as well as developing an easy-to-navigate layout to keep your players engaged with the game.",
+              appclass: "app4",
+            },
+            {
+              title: "Storyboarding",
+              text: "With our team of expert animators, you can watch your characters come alive and see your story unfold in vivid detail. Our 2D animation and storyboard services allow you to visually represent what is happening in your script or story before it gets animated. This ensures that all elements are in place for a successful storyboard.",
+              appclass: "app5",
+            },
+          ]}
+          appContent4={[]}
+          appContent5={[]}
+          appContent6={[]}
+          appContent7={[]}
+        />
+      ) : (
+        <ServicesMaintainmobile severcedata={severcedata} />
+      )}
+
 
       <LpChoose transform="transform" />
 

@@ -44,7 +44,7 @@ const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 import styles from "@/styles/ServiceEngage.module.css";
 import style from "@/styles/Globallp.module.css";
 import styleTwo from "@/styles/Justbuildit.module.css";
-
+const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
 
 
 
@@ -61,7 +61,135 @@ const engIcon2 = await import("@/public/sharknft/2.png");
 const engIcon3 = await import("@/public/sharknft/3.png");
 const engIcon4 = await import("@/public/sharknft/4.png");
 
+
+const customios = await import("/public/nftapp/takehomewhatyouearn.png");
+const iphoneapp = await import("/public/nftapp/rewardingchallenges.png");
+const applewatch = await import("/public/nftapp/strengthenyourcharacter.png");
+const appletvappdevelopment = await import("/public/nftapp/createyourownpath.png");
+const iphoneappdesigning = await import("/public/nftapp/diversityofgames.png");
+const hybridiphone = await import("/public/nftapp/collectrareitems.png");
+const flutter = await import("/public/nftapp/showoffyourskills.png");
+const pythone = await import("/public/nftapp/makeconnections.png");
+const html = await import("/public/nftapp/competeforrewards.png");
+
+
+import { useState } from "react";
+import { useEffect } from "react";
+
+
 export default function gamedevelopmentcompany() {
+
+
+
+  const [isSliderActive, setIsSliderActive] = useState(true);
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 1201) {
+        setIsSliderActive(false);
+      } else {
+        setIsSliderActive(true);
+      }
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const severcedata = [
+    {
+      classlayout: {
+        newclass: "iosclass",
+      },
+      heading: {
+
+        title1: `Unlock Treasure Troves of Fun with Play-
+        to-Earn NFT Games!`,
+        text:`Are you ready to take your gaming experience to the next level? With play-to-earn NFT games, the possibilities are endless! Whether
+        you're a hardcore collector or just looking for some extra cash, these interactive experiences can offer you something special.
+        Explore the features of play-to-earn games, and get the ball rolled today!`
+
+      },
+      serdata: [
+        {
+          title: 'Take Home What You Earn',
+          text: "Play-to-Earn NFT games create an opportunity for players to take home what they earn, either through rewards or tokens. With these games, you can build up your wealth without ever taking a loss!",
+          appclass: "app",
+          imgservice: customios,
+        },
+        {
+          title: (<> Rewarding Challenges </>),
+          text: (<> With these NFT games, you will face rewarding challenges that
+            test your abilities and allow you to earn rewards or tokens for
+            completing them. It's a great way to increase your skills and
+            expand your knowledge. </>),
+          appclass: "app1",
+          imgservice: iphoneapp,
+        },
+        {
+          title: (<> Strengthen Your Character </>),
+          text: `These Play-to-Earn NFT games can help you develop your character
+          and increase confidence. As you make progress in the game, you
+          learn more about yourself and can become a better player.`,
+          appclass: "app2",
+          imgservice: applewatch,
+        },
+        {
+          title: 'Create Your Own Path',
+          text: "With Play-to-Earn NFT games, you can be your own boss. Create an economy for yourself by earning tokens, rewards, and additional items to help you progress in the game. The possibilities are endless with what you can achieve!",
+          appclass: "app3",
+          imgservice: appletvappdevelopment,
+        },
+        {
+          title: "Diversity of Games",
+          text: "A massive variety of NFT games is available for players to choose from, so you can find something that fits your interests and tastes. From sports games to puzzle games, there's something for everyone!",
+          appclass: "app4",
+          imgservice: iphoneappdesigning,
+        },
+        {
+          title: "Collect Rare Items",
+          text: "Step into a world of exclusive collectibles with NFT games! Unlock rare items that can't be found in other games and flaunt your one-of-a-kind collection to your friends. It's time to level up your gaming experience and invest in something unique.",
+          appclass: "app5",
+          imgservice: hybridiphone,
+        },
+        {
+          title: <> Show Off Your Skills </>,
+              text: "What better way to show off your skills than playing Play-to-Earn NFT games? You can gain recognition as you progress in the game and make your mark on the gaming world.",
+          appclass: "app5",
+          imgservice: flutter,
+        },
+        {
+          title: "Make Connections",
+          text: ` Play-to-Earn NFT games are a great way to connect with other
+          players and enjoy the gaming experience together. Connecting
+          with others helps build an online community and fosters
+          collaboration and friendship.`,
+          appclass: "app5",
+          imgservice: pythone,
+        },
+        {
+          title: "Compete for Rewards",
+          text: `Competing in these games allows you to compete for rewards or
+          tokens, which can be used to purchase additional items, upgrade
+          your character, and even purchase real-world products! With the
+          challenge of competition comes great rewards! With Play-to-Earn
+          NFT games, you can truly have it all!`,
+          appclass: "app5",
+          imgservice: html,
+        },
+      ],
+    },
+  ];
+
+
+
+
+
+
   return (
     <>
       <Head>
@@ -128,135 +256,143 @@ export default function gamedevelopmentcompany() {
         AdvantageOne={AdvantageOne}
       />
 
-      <ServicesMaintain
-        assignClass="gameNft"
-        title0={
-          <>
-            {" "}
-            Unlock Treasure Troves of Fun with Play-
-            <br />
-            to-Earn <span className="">NFT Games!</span>{" "}
-          </>
-        }
-        text={
-          <>
-            {" "}
-            Are you ready to take your gaming experience to the next level? With
-            play-to-earn NFT games, the possibilities are endless! Whether
-            <br /> you're a hardcore collector or just looking for some extra
-            cash, these interactive experiences can offer you something special.
-            <br /> Explore the features of play-to-earn games, and get the ball
-            rolled today!{" "}
-          </>
-        }
-        appContent={[]}
-        appContent1={[
-          {
-            title: (
-              <>
-                {" "}
-                Take Home <br /> What You Earn{" "}
-              </>
-            ),
-            text: "Play-to-Earn NFT games create an opportunity for players to take home what they earn, either through rewards or tokens. With these games, you can build up your wealth without ever taking a loss!",
-            appclass: "app",
-          },
-          {
-            title: (
-              <>
-                {" "}
-                Rewarding <br /> Challenges{" "}
-              </>
-            ),
-            text: (
-              <>
-                {" "}
-                With these NFT games, you will face rewarding challenges that
-                test your abilities and allow you to earn rewards or tokens for
-                completing them. It's a great way to increase your skills and
-                expand your knowledge.{" "}
-              </>
-            ),
-            appclass: "app1",
-          },
-          {
-            title: (
-              <>
-                {" "}
-                Strengthen Your <br /> Character{" "}
-              </>
-            ),
-            text: (
-              <>
-                {" "}
-                These Play-to-Earn NFT games can help you develop your character
-                and increase confidence. As you make progress in the game, you
-                learn more about yourself and can become a better player.{" "}
-              </>
-            ),
-            appclass: "app2",
-          },
-        ]}
-        appContent2={[
-          {
-            title: "Create Your Own Path",
-            text: "With Play-to-Earn NFT games, you can be your own boss. Create an economy for yourself by earning tokens, rewards, and additional items to help you progress in the game. The possibilities are endless with what you can achieve!",
-            appclass: "app3",
-          },
-        ]}
-        appContent3={[
-          {
-            title: "Diversity of Games",
-            text: "A massive variety of NFT games is available for players to choose from, so you can find something that fits your interests and tastes. From sports games to puzzle games, there's something for everyone!",
-            appclass: "app4",
-          },
-          {
-            title: "Collect Rare Items",
-            text: "Step into a world of exclusive collectibles with NFT games! Unlock rare items that can't be found in other games and flaunt your one-of-a-kind collection to your friends. It's time to level up your gaming experience and invest in something unique.",
-            appclass: "app5",
-          },
-        ]}
-        appContent4={[]}
-        appContent5={[]}
-        appContent6={[
-          {
-            title: <> Show Off Your Skills </>,
-            text: "What better way to show off your skills than playing Play-to-Earn NFT games? You can gain recognition as you progress in the game and make your mark on the gaming world.",
-            appclass: "app",
-            addclass: "app05",
-          },
-          {
-            title: <> Make Connections </>,
-            text: (
-              <>
-                {" "}
-                Play-to-Earn NFT games are a great way to connect with other
-                players and enjoy the gaming experience together. Connecting
-                with others helps build an online community and fosters
-                collaboration and friendship.{" "}
-              </>
-            ),
-            appclass: "app1",
-            addclass: "app06",
-          },
-          {
-            title: <> Compete for Rewards </>,
-            text: (
-              <>
-                {" "}
-                Competing in these games allows you to compete for rewards or
-                tokens, which can be used to purchase additional items, upgrade
-                your character, and even purchase real-world products! With the
-                challenge of competition comes great rewards! With Play-to-Earn
-                NFT games, you can truly have it all!{" "}
-              </>
-            ),
-            appclass: "app2",
-            addclass: "app07",
-          },
-        ]}
-        appContent7={[]}
-      />
+
+
+      {isSliderActive ? (
+        <ServicesMaintain
+          assignClass="gameNft"
+          title0={
+            <>
+              {" "}
+              Unlock Treasure Troves of Fun with Play-
+              <br />
+              to-Earn <span className="">NFT Games!</span>{" "}
+            </>
+          }
+          text={
+            <>
+              {" "}
+              Are you ready to take your gaming experience to the next level? With
+              play-to-earn NFT games, the possibilities are endless! Whether
+              <br /> you're a hardcore collector or just looking for some extra
+              cash, these interactive experiences can offer you something special.
+              <br /> Explore the features of play-to-earn games, and get the ball
+              rolled today!{" "}
+            </>
+          }
+          appContent={[]}
+          appContent1={[
+            {
+              title: (
+                <>
+                  {" "}
+                  Take Home <br /> What You Earn{" "}
+                </>
+              ),
+              text: "Play-to-Earn NFT games create an opportunity for players to take home what they earn, either through rewards or tokens. With these games, you can build up your wealth without ever taking a loss!",
+              appclass: "app",
+            },
+            {
+              title: (
+                <>
+                  {" "}
+                  Rewarding <br /> Challenges{" "}
+                </>
+              ),
+              text: (
+                <>
+                  {" "}
+                  With these NFT games, you will face rewarding challenges that
+                  test your abilities and allow you to earn rewards or tokens for
+                  completing them. It's a great way to increase your skills and
+                  expand your knowledge.{" "}
+                </>
+              ),
+              appclass: "app1",
+            },
+            {
+              title: (
+                <>
+                  {" "}
+                  Strengthen Your <br /> Character{" "}
+                </>
+              ),
+              text: (
+                <>
+                  {" "}
+                  These Play-to-Earn NFT games can help you develop your character
+                  and increase confidence. As you make progress in the game, you
+                  learn more about yourself and can become a better player.{" "}
+                </>
+              ),
+              appclass: "app2",
+            },
+          ]}
+          appContent2={[
+            {
+              title: "Create Your Own Path",
+              text: "With Play-to-Earn NFT games, you can be your own boss. Create an economy for yourself by earning tokens, rewards, and additional items to help you progress in the game. The possibilities are endless with what you can achieve!",
+              appclass: "app3",
+            },
+          ]}
+          appContent3={[
+            {
+              title: "Diversity of Games",
+              text: "A massive variety of NFT games is available for players to choose from, so you can find something that fits your interests and tastes. From sports games to puzzle games, there's something for everyone!",
+              appclass: "app4",
+            },
+            {
+              title: "Collect Rare Items",
+              text: "Step into a world of exclusive collectibles with NFT games! Unlock rare items that can't be found in other games and flaunt your one-of-a-kind collection to your friends. It's time to level up your gaming experience and invest in something unique.",
+              appclass: "app5",
+            },
+          ]}
+          appContent4={[]}
+          appContent5={[]}
+          appContent6={[
+            {
+              title: <> Show Off Your Skills </>,
+              text: "What better way to show off your skills than playing Play-to-Earn NFT games? You can gain recognition as you progress in the game and make your mark on the gaming world.",
+              appclass: "app",
+              addclass: "app05",
+            },
+            {
+              title: <> Make Connections </>,
+              text: (
+                <>
+                  {" "}
+                  Play-to-Earn NFT games are a great way to connect with other
+                  players and enjoy the gaming experience together. Connecting
+                  with others helps build an online community and fosters
+                  collaboration and friendship.{" "}
+                </>
+              ),
+              appclass: "app1",
+              addclass: "app06",
+            },
+            {
+              title: <> Compete for Rewards </>,
+              text: (
+                <>
+                  {" "}
+                  Competing in these games allows you to compete for rewards or
+                  tokens, which can be used to purchase additional items, upgrade
+                  your character, and even purchase real-world products! With the
+                  challenge of competition comes great rewards! With Play-to-Earn
+                  NFT games, you can truly have it all!{" "}
+                </>
+              ),
+              appclass: "app2",
+              addclass: "app07",
+            },
+          ]}
+          appContent7={[]}
+        />
+      ) : (
+        <ServicesMaintainmobile severcedata={severcedata} />
+      )}
+
+
 
       <LpChoose transform="transform" />
 

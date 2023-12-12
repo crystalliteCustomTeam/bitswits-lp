@@ -12,7 +12,7 @@ const ServiceBanner = (props) => {
           <Row>
             <Col xl={12}>
               <p
-                className={`${styles.just} font28 font-medium text-center mb-0 ling15`}
+                className={`${styles.just} font28 font-medium text-center mb-0 line35`}
               >
                 {props.subtitle}
               </p>
