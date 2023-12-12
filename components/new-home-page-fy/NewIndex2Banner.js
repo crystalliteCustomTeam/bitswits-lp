@@ -36,7 +36,7 @@ const NewIndex2Banner = () => {
         <>
             <section className={styles.newHomeBg}>
                 <ul className={`${styles.slider}`} ref={sliderRef}>
-                <li className={`${styles.item} item ${styles.item2}`}>
+                    <li className={`${styles.item} item ${styles.item2}`}>
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
                                 <p className={`${styles.just} font-bold f-20 mb-0`}>
@@ -82,7 +82,7 @@ const NewIndex2Banner = () => {
                             </div>
                         ))}
                     </li>
-                    
+
                     <li className={`${styles.item} item ${styles.item3}`}>
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>

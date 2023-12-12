@@ -1,6 +1,7 @@
 .locations {
   background-color: #000;
   position: relative;
+  z-index: 3;
 }
 
 .mapVideo {

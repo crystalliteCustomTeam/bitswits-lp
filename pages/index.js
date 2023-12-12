@@ -285,8 +285,6 @@ export default function Home() {
 
                                 </Slider>
                             }
-
-
                         </div>
                     </div>
                 </div>
