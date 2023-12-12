@@ -5,8 +5,8 @@
 }
 .startupshome {
   background-color: black;
-  padding-top: 0px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .from {
@@ -56,4 +56,3 @@
     text-align: justify;
   }
 }
-
