@@ -32,7 +32,7 @@ const Partnercross = () => {
                 <Row className={`${styles.project} justify-content-between`}>
                     <Col lg={12}>
                         <h2 className="f-50 f-playfair f-700 newfycolr t-center">Technologies We Use</h2>
-                        <p className='font16 f-montserrat white mb-5 t-center'>
+                        <p className='font16 f-montserrat white mb-3 mb-sm-5 t-center'>
                         BitsWits turns inventive ideas into groundbreaking mobile apps! Our award-winning app developers <br></br> know hybrid and native technologies, so your project is in good hands. With us, your project will be a success from start to finish!
                         </p>
                     </Col>

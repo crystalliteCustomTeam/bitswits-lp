@@ -386,7 +386,7 @@ export default function gamedevelopmentcompany() {
         ]}
       />
 
-      <Technologieswe addresClass="appdev" paddingBottom={style.paddingBottom}/>
+      <Technologieswe addresClass="appdev" />
       {/* <NewHomeGlobal />
             <NewHomeSlider />
             <Homenextproject

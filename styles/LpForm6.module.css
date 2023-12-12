@@ -153,7 +153,7 @@
 }
 
 .para {
-  padding: 75px 0 50px;
+  padding: 75px 0 0px;
   background-image: url(../public/images/lp-images/bg-image.png);
   background-size: 42%;
   background-position: center -100px;
@@ -188,7 +188,7 @@
   }
 
   .newAddress {
-    padding: 50px 0;
+    padding: 80px 0;
   }
 
   .keyFrame {
@@ -231,12 +231,8 @@
   }
 }
 
-
 @media screen and (max-width: 480px) {
-
-.iosclass{
-  padding-top: 80px;
+  .iosclass {
+    padding-top: 60px;
+  }
 }
-
-
- }

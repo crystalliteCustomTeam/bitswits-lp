@@ -114,7 +114,6 @@
   }
 
   .about {
-    margin-right: auto;
-    margin-top: 50px;
+    margin: 25px auto 0;
   }
 }

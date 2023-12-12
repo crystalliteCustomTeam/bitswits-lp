@@ -1,8 +1,12 @@
-.paddingGlobal{
+.marginTop{
   padding-top: 0 !important;
 }
 
-.bottomGlobal{
+.paddingGlobal {
+  padding-top: 0 !important;
+}
+
+.bottomGlobal {
   padding-bottom: 0 !important;
 }
 

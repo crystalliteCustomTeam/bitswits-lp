@@ -62,7 +62,7 @@ const ServicesMaintainmobile = ({ severcedata }) => {
 
       <section className={`${styles[classlayout.newclass]}`}>
         <Container>
-          <Row className="mb-5">
+          <Row className="mb-3 mb-lg-5">
             <Col lg={12}>
               {heading.subtitle &&
                 <h3 className={`font24 newfycolr font-bold text-center mb-2 ling15`}>
@@ -88,7 +88,7 @@ const ServicesMaintainmobile = ({ severcedata }) => {
               }
 
               {heading.text &&
-                <p className="font14 white center">{heading.text}</p>
+                <p className="font14 white center mb-0">{heading.text}</p>
               }
             </Col>
           </Row>

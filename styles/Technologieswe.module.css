@@ -1,6 +1,6 @@
-.paddingBottom{
+/* .paddingBottom{
   padding-bottom: 0 !important;
-}
+} */
 
 .tech {
   background-image: url(../public/newHomePage/images/bg-image.png);
@@ -8,8 +8,8 @@
   background-repeat: no-repeat;
   background-size: 65%;
   background-color: black;
-  padding-top: 0px;
-  padding-bottom: 130px;
+  padding-top: 90px;
+  padding-bottom: 80px;
 }
 
 .work {
@@ -100,6 +100,10 @@
     font-size: 40px;
   }
 
+  .tech {
+    padding-bottom: 0;
+  }
+
   .analpost {
     margin-top: 4%;
   }
@@ -152,9 +156,9 @@
 }
 
 @media screen and (max-width: 480px) {
-
-  .appdev{
-    padding-top: 80px;
+  .appdev {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   .analpost div {

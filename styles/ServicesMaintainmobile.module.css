@@ -33,12 +33,9 @@
   padding: 35px;
 }
 
-@media screen and (max-width: 1200px) { 
-
+@media screen and (max-width: 1200px) {
   .possibilities {
     font-size: 13px;
-
-
   }
 
   .homeclass {
@@ -53,7 +50,6 @@
     font-size: 20px;
     line-height: 25px;
   }
-
 }
 
 @media screen and (max-width: 991px) {
@@ -79,23 +75,19 @@
     font-size: 14px;
     color: #fff;
     text-align: center;
-
   }
-
 }
-@media screen and (max-width: 768px) { 
-  .homeclass{
+@media screen and (max-width: 768px) {
+  .homeclass {
     padding-top: 80px;
   }
-  .iosclass{
+  .iosclass {
     padding-top: 80px;
   }
 
   .possibilities {
-
     padding: 20px;
   }
-
 }
 @media screen and (max-width: 480px) {
   .homeclass {
@@ -104,9 +96,10 @@
     background: #000;
     margin-top: -1%;
   }
+
   .iosclass {
     padding-top: 0px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     background: #000;
     margin-top: -1%;
   }
@@ -117,5 +110,4 @@
     text-align: center;
     padding: 10px;
   }
-
 }
