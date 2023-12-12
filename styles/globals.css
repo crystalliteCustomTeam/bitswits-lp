@@ -16,13 +16,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 @font-face {
-  font-family: Nofex;
-  src: url(../public/fonts/Nofex-1GLBv.otf);
+  font-family: SF-Pro-Display;
+  src: url(../public/fontsfy/SF-Pro-Display-Black.otf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url(../public/fontsfy/SF-Pro-Display-Bold.otf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url(../public/fontsfy/SF-Pro-Display-Heavy.otf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url(../public/fontsfy/SF-Pro-Display-Light.otf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url(../public/fontsfy/SF-Pro-Display-Regular.otf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url(../public/fontsfy/SF-Pro-Display-Medium.otf);
   font-display: swap;
 }
 
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "SF-Pro-Display";
   scroll-behavior: unset !important;
 }
 
@@ -61,7 +91,7 @@ div {
 }
 
 .fontf {
-  font-family: "Montserrat", sans-serif;
+  font-family: "SF-Pro-Display";
 }
 
 .fontN {
@@ -72,6 +102,10 @@ div {
 
 .font-regular {
   font-weight: 400;
+}
+
+.font-heavy {
+  font-weight: 800;
 }
 
 .font-medium {
@@ -313,13 +347,73 @@ div {
   line-height: 1.5;
 }
 
+/* newfyfonts */
+
+.font30 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.font55home {
+  font-size: calc(47px + 0.390625vw);
+  line-height: 65px;
+}
+
+.fontawards {
+  font-size: calc(75px + 0.390625vw);
+  line-height: 85px;
+}
+
+.fontpink100 {
+  font-size: calc(100px + 0.390625vw);
+  line-height: 100px;
+}
+
+.fontwhite40 {
+  font-size: calc(37px + 0.390625vw);
+  line-height: 50px;
+}
+.newservefy {
+  font-size: 23px;
+  letter-spacing: 1px;
+}
+.newchoose {
+  font-size: 65px;
+}
+.fontwhite27 {
+  font-size: calc(27px + 0.390625vw);
+  line-height: 50px;
+}
+.fonthomereg {
+  font-size: 23px;
+  line-height: 35px;
+  font-weight: 400;
+}
+
+.fontawards25 {
+  font-size: calc(24px + 0.390625vw);
+  line-height: 35px;
+  letter-spacing: 1px;
+}
+
+.letterspacefy {
+  letter-spacing: 3px;
+}
+
+.industyfont {
+  font-size: 25px;
+  font-weight: 400;
+}
+
 /* colors */
 .black {
   color: #000000;
 }
+
 .newfycolr {
   color: #f32f53;
 }
+
 .liBlack {
   color: #272727;
 }
@@ -2187,6 +2281,45 @@ input::-webkit-inner-spin-button {
   .font25 {
     font-size: 25px;
   }
+
+  .font55home {
+    font-size: calc(30px + 0.390625vw);
+    line-height: 45px;
+  }
+
+  .fontawards {
+    font-size: calc(50px + 0.390625vw);
+    line-height: 55px;
+  }
+
+  .fontpink100 {
+    font-size: calc(50px + 0.390625vw);
+    line-height: 55px;
+    text-align: center;
+  }
+
+  .fontwhite40 {
+    font-size: calc(20px + 0.390625vw);
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .fonthomereg,
+  .industyfont {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .font14 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .newchoose {
+    font-size: 45px;
+  }
 }
 
 /* ========================= */
@@ -2232,6 +2365,7 @@ input::-webkit-inner-spin-button {
 
   .font30 {
     font-size: 20px;
+    line-height: 30px;
   }
 
   .ourservicesfaqs .accordion-button {
@@ -2997,9 +3131,10 @@ button {
   height: 50px;
   z-index: 1;
   position: relative;
-  bottom: -35px;
+  bottom: -70px;
   background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
 }
+
 .mixColor5 {
   height: 50px;
   z-index: 1;
@@ -3062,6 +3197,7 @@ button {
   0% {
     transform: translateX(0px);
   }
+
   100% {
     transform: translateX(calc(-150px * 10));
   }
@@ -3236,9 +3372,10 @@ button {
 }
 
 @media screen and (max-width: 767px) {
-  .mixColor5{
+  .mixColor5 {
     display: none;
   }
+
   .cntctRow {
     row-gap: 70px;
   }

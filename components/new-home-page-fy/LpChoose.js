@@ -78,11 +78,11 @@ const LpChoose = (props) => {
                 <Container>
                     <Row className='align-items-center gy-lg-5 gy-4'>
                         <Col lg={6} className={styles.walk}>
-                            <h3 className='white font50 font-bold f-700'>Why Choose Us</h3>
+                            <h3 className='white newchoose font-bold f-700'>Why Choose Us</h3>
                             <h2 className='white f-500 my-2 my-lg-3'>What Makes Bitswits The Most
-Recommended Solution Provider
-Company?</h2>
-                           <p className='fw500 pb-3'>As the leading Solution Provider, Our expertise isn’t limited to one area; we excel across various technological frontiers, including bespoke software solutions, advanced mobile app development, engaging game design, pioneering blockchain projects, and cutting-edge AI innovations. We have been crafting and will continue to develop unique apps across various platforms, including iOS, Android, Xamarin, and beyond. Our unbridled passion for the most cutting-edge technologies fuels us to continually evolve and innovate, allowing us to provide unparalleled solutions to our valued clients instantly. Partner with Bitswits, where every project is a step towards redefining technological excellence and driving your success.</p>
+                                Recommended Solution Provider
+                                Company?</h2>
+                            <p className='fw500 pb-3'>As the leading Solution Provider, Our expertise isn’t limited to one area; we excel across various technological frontiers, including bespoke software solutions, advanced mobile app development, engaging game design, pioneering blockchain projects, and cutting-edge AI innovations. We have been crafting and will continue to develop unique apps across various platforms, including iOS, Android, Xamarin, and beyond. Our unbridled passion for the most cutting-edge technologies fuels us to continually evolve and innovate, allowing us to provide unparalleled solutions to our valued clients instantly. Partner with Bitswits, where every project is a step towards redefining technological excellence and driving your success.</p>
                             <Link href="#" className={styles.dus}>Choose Expertise, Choose Bitswits – Let's Get Started</Link>
                         </Col>
                         <Col lg={6} className='d-none d-lg-block'>

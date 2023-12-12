@@ -10,15 +10,17 @@ const NewHomeWho = React.lazy(() => import("@/components/new-home-page-fy/NewHom
 const NewHomeWhat = React.lazy(() => import("@/components/new-home-page-fy/NewHomeWhat"));
 const NewMaintain = React.lazy(() => import("@/components/new-home-page-fy/NewMaintain"));
 const Globallplp6 = React.lazy(() => import("@/components/new-home-page-fy/Globallplp6"));
-const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
-const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
+const WeworkLp = React.lazy(() => import("@/components/new-home-page-fy/WeworkLphome"));
+const StartupsLp = React.lazy(() => import("@/components/new-home-page-fy/StartupsLp6"));
 const Industry = React.lazy(() => import("@/components/new-home-page-fy/Industry"));
 const Technologieswe = React.lazy(() => import("@/components/new-home-page-fy/Technologieswe"));
 const LpChoose = React.lazy(() => import('@/components/new-home-page-fy/LpChoose'));
 const Formnewlp = React.lazy(() => import("@/components/new-home-page-fy/Formnewlp"));
 const Faqs = React.lazy(() => import("@/components/new-home-page-fy/NewhomeFaqs"));
+const ServicesMaintainmobile = React.lazy(() => import("@/components/new-home-page-fy/ServicesMaintainmobile"));
+
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
-const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
+
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -201,16 +203,17 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
+            
             <NewIndex2Banner />
             <section>
                 <div className={`${styles.awardsFold}`}>
                     <div className="container-fluid px-0">
                         <div className="row align-items-center">
-                            <div className="col-xl-4 col-lg-12 col-sm-12">
-                                <p className={`font-bold f-20 mb-0 ${styles.textWhite}`}>
+                            <div className="col-xl-5 col-lg-12 col-sm-12">
+                                <p className={`font-bold fontawards25 mb-0 ${styles.textWhite}`}>
                                     Endorsements on different Platforms
                                 </p>
-                                <h1 className={`font50 font-bold mb-0 ${styles.textPink}`}>
+                                <h1 className={`fontawards font-bold mb-0 ${styles.textPink}`}>
                                     Awards &
                                     Recognition
                                 </h1>
@@ -218,7 +221,7 @@ export default function Home() {
 
                             {isSliderActive ?
 
-                                <div className={`${styles.appdev} col-8`}>
+                                <div className={`${styles.appdev} col-7`}>
                                     <div className="row">
                                         <div className={`${styles.mobileapps} col-3`}>
                                             <div>
@@ -298,12 +301,17 @@ export default function Home() {
             <StartupsLp startups="startupshome" />
             <Technologieswe />
             <Nothing Nothing="nothingLphomefy" />
+
+
             {isSliderActive ? (
                 <NewMaintain
                 />
             ) : (
                 <ServicesMaintainmobile severcedata={severcedata} />
             )}
+
+
+
             <Globallplp6 />
             <LpChoose transform="transform" />
             <Formnewlp />

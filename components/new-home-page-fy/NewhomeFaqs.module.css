@@ -1,7 +1,7 @@
 .faqs {
   text-align: center;
-  padding-top: 0px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: black;
 }
 
@@ -98,11 +98,10 @@
 
 @media screen and (max-width: 991px) {
   .faqs {
-    padding: 50px 0;
+    padding: 0 0 50px;
   }
 }
 @media screen and (max-width: 480px) {
-
   .faqs h3 {
     font-size: 14px;
     gap: 5px;

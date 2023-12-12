@@ -14,8 +14,8 @@ const NewMaintain = (props) => {
         <>
             <section className={styles.newHomeBg}>
                 <Container>
-                    <h2 className={styles.mainTitle}>Services</h2>
-                    <p className={styles.mainPara}>Maintaining digital quality with our collection of customizable services</p>
+                    <h2 className={`${styles.mainTitle} fontpink100` }>Services</h2>
+                    <p className={`${styles.mainPara} fontwhite27 mt-4`}>Maintaining digital quality with our collection of customizable services</p>
                     <Row className="g-3">
                         <Col lg={12}>
                             <h3 className={` f-30 font-bold text-center mb-0 newfycolr`}>
@@ -29,7 +29,7 @@ const NewMaintain = (props) => {
                         <Col sm={6} lg={4}>
                             <div className={styles.app}>
                                 <div className={styles.cardContent}>
-                                    <h3 className="text-white font25 font-bold">
+                                    <h3 className="text-white newservefy font-bold">
                                         Mobile App Development
                                     </h3>
                                     <p className={styles.para}>
@@ -43,7 +43,7 @@ const NewMaintain = (props) => {
                         <Col sm={6} lg={4}>
                             <div className={styles.app1}>
                                 <div className={styles.cardContent}>
-                                    <h3 className="text-white font25 font-bold">
+                                    <h3 className="text-white newservefy font-bold">
                                         Game Development
                                     </h3>
                                     <p className={styles.para}>
@@ -56,7 +56,7 @@ const NewMaintain = (props) => {
                         <Col sm={6} lg={4}>
                             <div className={styles.app2}>
                                 <div className={styles.cardContent}>
-                                    <h3 className="text-white font25 font-bold">
+                                    <h3 className="text-white newservefy font-bold">
                                         Blockchain Development
                                     </h3>
                                     <p className={styles.para}>
@@ -72,7 +72,7 @@ const NewMaintain = (props) => {
                                 <Row className="align-items-center">
                                     <Col xl={5}>
                                         <div className={styles.paraThreeContent}>
-                                            <h3 className="text-white font25 font-bold ">
+                                            <h3 className="text-white newservefy font-bold ">
                                                 Artificial Intelligence (Ai)
                                             </h3>
                                             <p className={styles.para1}>
@@ -90,7 +90,7 @@ const NewMaintain = (props) => {
                         <Col sm={6}>
                             <div className={styles.app4}>
                                 <div>
-                                    <h3 className="text-white font25 font-bold text-center">
+                                    <h3 className="text-white newservefy font-bold text-center">
                                         Web App Development
                                     </h3>
                                     <p className={styles.possibilities}>
@@ -104,7 +104,7 @@ const NewMaintain = (props) => {
                         <Col sm={6}>
                             <div className={styles.app5}>
                                 <div>
-                                    <h3 className="text-white font25 font-bold text-center">
+                                    <h3 className="text-white newservefy font-bold text-center">
                                         UI/UX App Design
                                     </h3>
                                     <p className={styles.possibilities}>
@@ -119,7 +119,7 @@ const NewMaintain = (props) => {
                             <div className={styles.app6}>
                                 <div className={styles.pick}>
                                     <div className={styles.power}>
-                                        <h3 className="text-white font25 font-bold">AR/VR</h3>
+                                        <h3 className="text-white newservefy font-bold">AR/VR</h3>
                                         <p className={`text-white f-16 ${styles.contentPara}`}>
                                             BitsWits serves as your AR/VR portal. We specialize in
                                             creating imaginative concepts into compelling digital
@@ -139,7 +139,7 @@ const NewMaintain = (props) => {
                                     className={`${styles.appImage}`}
                                 />
                                 <div className={styles.mblApp7}>
-                                    <h3 className="text-white font25 font-bold text-center">
+                                    <h3 className="text-white newservefy font-bold text-center">
                                         Internet of Things
                                     </h3>
                                     <p className={styles.para9}>

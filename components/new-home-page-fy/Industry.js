@@ -1,7 +1,10 @@
 import React from 'react'
+import { useState } from 'react';
+import { useEffect } from 'react';
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "./Industry.module.css";
+//
 import industry1 from '/public/images/industry/1.png'
 import industry2 from '/public/images/industry/2.png'
 import industry3 from '/public/images/industry/3.png'
@@ -14,11 +17,12 @@ import industry9 from '/public/images/industry/9.png'
 import industry10 from '/public/images/industry/10.png'
 import industry11 from '/public/images/industry/11.png'
 import industry12 from '/public/images/industry/12.png'
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { useState } from 'react';
-import { useEffect } from 'react';
+
+
 
 const Industry = (props) => {
 
@@ -94,9 +98,9 @@ const Industry = (props) => {
                 <Container>
                     <Row>
                         <Col xl={12}>
-                            <h2 class="f-60 font-bold newfycolr text-center">Industry We Serve</h2>
-                            <p className='text-center text-white'>No matter what your niche is, we will help build mobile apps for your business. Choose our <br /> best application development company for building apps in any business vertical.</p>
-                            <p className={`${styles.reveal} text-white mt-5 font25 fw700 mb-3`}> <span className='newfycolr fw600'>Select Your Industry.</span> Discover Our Impact.</p>
+                            <h2 class="fontpink100 font-bold newfycolr text-center">Industry We Serve</h2>
+                            <p className='text-center industyfont text-white mt-4'>No matter what your niche is, we will help build mobile apps for your business. Choose our <br /> best application development company for building apps in any business vertical.</p>
+                            <p className={`${styles.reveal} text-white mt-4 mt-md-5 font25 fw700 mb-3`}> <span className='newfycolr fw600'>Select Your Industry.</span> Discover Our Impact.</p>
                         </Col>
 
                         {isSliderActive ?
