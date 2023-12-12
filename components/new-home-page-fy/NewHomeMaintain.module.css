@@ -4,13 +4,12 @@
   margin-top: -1%;
 }
 .mainTitle {
-  font-size: 60px;
+letter-spacing: 1px;
   text-align: center;
   color: #f32f63;
   font-weight: bold;
 }
 .mainPara {
-  font-size: 20px;
   font-weight: 500;
   color: #fff;
   text-align: center;
@@ -24,15 +23,17 @@
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  line-height: 1.2;
 }
 
 .contentPara {
   max-width: 315px;
+  line-height: 1.2;
 }
 
 .para1 {
   font-size: 14px;
-
+  line-height: 1.2;
   color: white;
 }
 
@@ -124,7 +125,7 @@
   margin: 0 auto;
   text-align: center;
   color: #fff;
-  /* height: 65px; */
+  line-height: 1.2;
   overflow: auto;
 }
 
@@ -241,6 +242,7 @@
   margin: 0 auto;
   text-align: center;
   color: white;
+  line-height: 1.2;
 }
 
 .app5 {

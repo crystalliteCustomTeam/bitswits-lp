@@ -10,15 +10,17 @@ const NewHomeWho = React.lazy(() => import("@/components/new-home-page-fy/NewHom
 const NewHomeWhat = React.lazy(() => import("@/components/new-home-page-fy/NewHomeWhat"));
 const NewMaintain = React.lazy(() => import("@/components/new-home-page-fy/NewMaintain"));
 const Globallplp6 = React.lazy(() => import("@/components/new-home-page-fy/Globallplp6"));
-const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
-const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
+const WeworkLp = React.lazy(() => import("@/components/new-home-page-fy/WeworkLphome"));
+const StartupsLp = React.lazy(() => import("@/components/new-home-page-fy/StartupsLp6"));
 const Industry = React.lazy(() => import("@/components/new-home-page-fy/Industry"));
 const Technologieswe = React.lazy(() => import("@/components/new-home-page-fy/Technologieswe"));
 const LpChoose = React.lazy(() => import('@/components/new-home-page-fy/LpChoose'));
 const Formnewlp = React.lazy(() => import("@/components/new-home-page-fy/Formnewlp"));
 const Faqs = React.lazy(() => import("@/components/new-home-page-fy/NewhomeFaqs"));
+const ServicesMaintainmobile = React.lazy(() => import("@/components/new-home-page-fy/ServicesMaintainmobile"));
+
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
-const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
+
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -299,12 +301,17 @@ export default function Home() {
             <StartupsLp startups="startupshome" />
             <Technologieswe />
             <Nothing Nothing="nothingLphomefy" />
+
+
             {isSliderActive ? (
                 <NewMaintain
                 />
             ) : (
                 <ServicesMaintainmobile severcedata={severcedata} />
             )}
+
+
+
             <Globallplp6 />
             <LpChoose transform="transform" />
             <Formnewlp />

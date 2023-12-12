@@ -60,8 +60,8 @@ const Technologieswe = (props) => {
                 <Container>
                     <Row>
                         <Col xl={12}>
-                            <h2 className={styles.work}><span className='newfycolr'>Technologies </span></h2>
-                            <h3 className='center white fw700'>We Work With</h3>
+                            <h2 className={styles.work}><span className='newfycolr fontpink100'>Technologies </span></h2>
+                            <h3 className='center white fw700 mt-3'>We Work With</h3>
                         </Col>
                         <Col xl={12} className='mb-5 d-none d-lg-block'>
                             <div className={styles.analpost}>
