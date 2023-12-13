@@ -1601,7 +1601,7 @@ const HeaderNewDesign = () => {
                       <div className={styles.polo1}>
                         <div>
                           <h4>
-                            <Link className="white" href='/social-app-development-case-study'>SCRIBE APP</Link>
+                            <Link className="white" href='/social-app-development-case-study'>SOCIAL MEDIA APP</Link>
                           </h4>
                        
                         </div>
@@ -1614,7 +1614,7 @@ const HeaderNewDesign = () => {
                       <div className={styles.polo1}>
                         <div>
                           <h4>
-                            <Link className="white" href='/automobile-repair-app-development-case-study'>GREASE APP</Link>
+                            <Link className="white" href='/automobile-repair-app-development-case-study'>AUTOMOBILE REPAIR APP</Link>
                           </h4>
                     
                         </div>
@@ -1628,7 +1628,7 @@ const HeaderNewDesign = () => {
                       <div className={styles.polo1}>
                         <div>
                           <h4>
-                            <Link className="white" href='/food-delivery-app-development-case-study'>CRAVE APP</Link>
+                            <Link className="white" href='/food-delivery-app-development-case-study'>FOOD DELIVERY APP</Link>
                           </h4>
                     
                         </div>
@@ -1641,7 +1641,7 @@ const HeaderNewDesign = () => {
                       <div className={styles.polo1}>
                         <div>
                           <h4>
-                            <Link className="white" href='/handyman-on-demand-app-development-case-study'>HOMECONNECT PRO</Link>
+                            <Link className="white" href='/handyman-on-demand-app-development-case-study'>HANDYMAN APP</Link>
                           </h4>
                     
                         </div>
@@ -1654,7 +1654,7 @@ const HeaderNewDesign = () => {
                       <div className={styles.polo1}>
                         <div>
                           <h4>
-                            <Link className="white" href='/music-app-development-case-study'>BEATS APP</Link>
+                            <Link className="white" href='/music-app-development-case-study'>MUSIC APP</Link>
                           </h4>
                        
                         </div>
@@ -1671,7 +1671,7 @@ const HeaderNewDesign = () => {
                       <div className={styles.polo1}>
                         <div>
                           <h4>
-                            <Link className="white" href='/marketing-partnership-app-development-case-study'>SPONSORD APP</Link>
+                            <Link className="white" href='/marketing-partnership-app-development-case-study'>INFLUENCER MARKETING APP</Link>
                           </h4>
                   
                         </div>
@@ -1697,7 +1697,7 @@ const HeaderNewDesign = () => {
                       <div className={styles.polo1}>
                         <div>
                           <h4>
-                            <Link className="white" href='/ride-app-development-case-study'>RIDER APP</Link>
+                            <Link className="white" href='/ride-app-development-case-study'>RIDE APP</Link>
                           </h4>
                     
                         </div>
@@ -1710,7 +1710,7 @@ const HeaderNewDesign = () => {
                       <div className={styles.polo1}>
                         <div>
                           <h4>
-                            <Link className="white" href='/fitness-app-development-case-study'>FITNOW APP</Link>
+                            <Link className="white" href='/fitness-app-development-case-study'>FITNESS APP</Link>
                           </h4>
               
                         </div>
@@ -1724,7 +1724,7 @@ const HeaderNewDesign = () => {
                       <div className={styles.polo1}>
                         <div>
                           <h4>
-                            <Link className="white" href='/hiring-app-development-case-study'>READY APP</Link>
+                            <Link className="white" href='/hiring-app-development-case-study'>HIRING APP</Link>
                           </h4>
                   
                         </div>
