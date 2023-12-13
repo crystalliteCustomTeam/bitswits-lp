@@ -131,6 +131,7 @@ import cruveimg from "public/headerbits/cruve.png";
 import homeconnctimg from "public/headerbits/homeconnct.png";
 import beatsimg from "public/headerbits/beats.png";
 import readyappimg from "public/headerbits/readyapp.png";
+import contact from "public/headerbits/contact.png";
 
 
 const HeaderNewDesign = () => {
@@ -1566,7 +1567,7 @@ const HeaderNewDesign = () => {
                         </div>
                         <Image
                           alt="bitswits"
-                          src={travelimg }
+                          src={travelimg}
                           className="img-fluid"
                         />
                       </div>
@@ -1693,8 +1694,8 @@ const HeaderNewDesign = () => {
                         />
                       </div>
 
-                  
-                    
+
+
 
                     </Col>
 
@@ -1738,59 +1739,79 @@ const HeaderNewDesign = () => {
                           className="img-fluid"
                         />
                       </div>
-                      
-                      <div  className={styles.polo2}>
-                          <div>
-                            <div className={styles.fill}>
-                              <div>
-                                <BsFillEnvelopeFill
-                                  size={20}
-                                  className={styles.email}
-                                />
-                              </div>
-                              <div>
-                                <Link
-                                  className="font15 font-medium black fontf"
-                                  href="mailto:info@bitswits.co"
-                                >
-                                  info@bitswits.com
-                                </Link>
-                              </div>
+
+                      <div className={`${styles.polo} ${styles.polo3}`}>
+                        <div>
+                          <h3 className="white font-bold letterspacefy">Contact Us</h3>
+                          <div className={styles.fill}>
+
+                            <div>
+                              <BsFillEnvelopeFill
+                                size={15}
+                                className={styles.email}
+                              />
                             </div>
-                            <div className={styles.fill}>
-                              <div>
-                                <BsFillTelephoneFill
-                                  size={25}
-                                  className={styles.email}
-                                />
-                              </div>
-                              <div>
-                                <Link
-                                  className="font15 font-medium black fontf"
-                                  href="tel:+1 312 379 5987"
-                                >
-                                  +1 312 379 5987
-                                </Link>
-                              </div>
+                            <div>
+                              <Link
+                                className="font15 font-medium white fontf"
+                                href="mailto:info@bitswits.co"
+                              >
+                                info@bitswits.com
+                              </Link>
                             </div>
-                            <div className={styles.fill}>
-                              <div>
-                                <BsFillTelephoneFill
-                                  size={25}
-                                  className={styles.email}
-                                />
-                              </div>
-                              <div>
-                                <Link
-                                  className="font15 font-medium black fontf"
-                                  href="tel:+18335006007"
-                                >
-                                  +1 833 500 6007
-                                </Link>
-                              </div>
+                          </div>
+                          <div className={styles.fill}>
+                            <div>
+                              <BsFillTelephoneFill
+                                size={15}
+                                className={styles.email}
+                              />
+                            </div>
+                            <div>
+                              <Link
+                                className="font15 font-medium white fontf"
+                                href="tel:+1 312 379 5987"
+                              >
+                                +1 312 379 5987
+                              </Link>
+                            </div>
+                          </div>
+                          <div className={styles.fill}>
+                            <div>
+                              <BsFillTelephoneFill
+                                size={15}
+                                className={styles.email}
+                              />
+                            </div>
+                            <div>
+                              <Link
+                                className="font15 font-medium white fontf"
+                                href="tel:+18335006007"
+                              >
+                                +1 833 500 6007
+                              </Link>
+                            </div>
+                          </div>
+                          <div className={styles.fill}>
+
+                            <div className="mt-3">
+                              <Link
+                                className="font15 font-medium white fontf"
+                                href="#"
+                              >
+                                Read More  <RiArrowDropRightLine className={styles.train} />
+                              </Link>
                             </div>
                           </div>
                         </div>
+                        <div>
+                          <Image
+                            alt="bitswits"
+                            src={contact}
+                            className="img-fluid"
+                          />
+                        </div>
+                      </div>
 
 
 

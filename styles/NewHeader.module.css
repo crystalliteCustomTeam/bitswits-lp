@@ -596,10 +596,22 @@
   line-height: 20px;
   margin-bottom: 0;
 }
+.polo3{
+  padding-top: 10px;
+  padding-left: 20px;
+}
 .polo1{
   padding-left: 20px;
 }
-
+.polo3{
+  height: 220px;
+  display: flex;
+  align-items: center;
+}
+.email{
+  color: white;
+  font-size: 20px;
+}
 .poloTwo {
   display: flex;
   border-radius: 7px;
