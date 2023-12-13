@@ -91,6 +91,7 @@
 @media (max-width: 991px) {
   .team {
     padding-bottom: 50px;
+    padding-top: 50px;
   }
 
   .star {
@@ -114,7 +115,8 @@
 
 @media (max-width: 767px) {
   .team {
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 0px;
   }
 
   .star {

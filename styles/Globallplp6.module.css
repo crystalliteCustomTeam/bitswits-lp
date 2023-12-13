@@ -95,6 +95,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .team {
+    padding-bottom: 0px;
+  }
+
   .success {
     font-size: 35px;
   }
@@ -102,9 +106,5 @@
 @media screen and (max-width: 480px) {
   .team {
     text-align: center;
-  }
-
-  .team {
-    padding-top: 0px !important;
   }
 }

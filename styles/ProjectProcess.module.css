@@ -33,9 +33,7 @@
   .process1 {
     padding-bottom: 50px;
   }
-}
 
-@media screen and (max-width: 480px) {
   .process1 {
     padding-bottom: 0px;
   }

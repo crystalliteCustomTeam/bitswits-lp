@@ -138,7 +138,8 @@
 
   .ourserve {
     background-color: black;
-    padding-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .bod p {
@@ -148,6 +149,11 @@
 }
 
 @media screen and (max-width: 767px) {
+
+  .ourserve {
+    padding-bottom: 0px;
+  }
+
   .which h2 {
     font-size: 30px;
   }

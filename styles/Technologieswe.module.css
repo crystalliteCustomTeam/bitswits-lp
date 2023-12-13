@@ -102,7 +102,7 @@
   }
 
   .tech {
-    padding-bottom: 0;
+    padding-bottom: 50px;
   }
 
   .analpost {
@@ -126,6 +126,14 @@
 }
 
 @media screen and (max-width: 767px) {
+  .tech {
+    padding-bottom: 0px;
+  }
+
+  .appdev {
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
   .analpost div {
     color: #707070;
     font-size: 13px;
@@ -157,11 +165,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  .appdev {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
   .analpost div {
     color: #707070;
     font-size: 11px;

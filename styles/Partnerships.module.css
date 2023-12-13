@@ -119,6 +119,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .footer {
+    padding-bottom: 0px;
+  }
+
   .trmCon {
     margin: 20px 0px;
   }

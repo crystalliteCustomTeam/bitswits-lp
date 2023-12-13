@@ -108,7 +108,8 @@
   }
 
   .nothingLp6 {
-    padding-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .nothingLphomefy {
@@ -116,9 +117,9 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .nothingLp6 {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 0;
   }
 }

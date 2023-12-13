@@ -94,8 +94,8 @@
 
 @media screen and (max-width: 767px) {
   .slide {
-    padding-bottom: 50px;
-    padding-top: 60px;
+    padding-bottom: 0px;
+    padding-top: 50px;
   }
 
   .just {
