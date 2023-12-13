@@ -2,8 +2,9 @@ import React from "react";
 import Head from "next/head";
 import Banner from "@/components/new-blockchain-page-fy/BlockchainBanner";
 import LpForm from "@/components/new-blockchain-page-fy/LpForm";
-
+import Provideservices from "@/components/new-blockchain-page-fy/Provideservices";
 import People from "@/components/new-blockchain-page-fy/People";
+
 import HomeBannerSlider from "@/components/HomeBannerSlider";
 import Nothing from "@/components/Nothing";
 import Technologieswe from "@/components/Technologieswe";
@@ -12,6 +13,7 @@ import Formnewlp from "@/components/Formnewlp";
 import ServicesFaqs from "@/components/ServicesFaqs";
 import HomeLocation from "@/components/HomeLocation";
 import Globallp6 from "@/components/GlobalLp6";
+
 
 
 const BannerImage = await import("@/public/blockchainfynew/banner.png");
@@ -60,6 +62,10 @@ export default function blockchaindevelopmentservices() {
       />
 
       <Nothing Nothing="nothingblockchain" />
+
+      <Provideservices
+      assignClass = 'provideserv'
+      />
 
       <Technologieswe />
 

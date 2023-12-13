@@ -204,7 +204,7 @@
   width: 100%;
   left: 0;
   right: 0;
-  padding: 25px;
+  padding-left: 25px;
   height: auto;
 }
 
@@ -548,14 +548,14 @@
 .polo1 {
   display: flex;
   border-radius: 7px;
-  height: 105px;
+  height: 50px;
   position: relative;
   background-color: #242429;
-
   flex: 0 0 49%;
   margin-bottom: 10px;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
+  align-items: center;
 }
 
 .active .polo {
@@ -588,10 +588,9 @@
   line-height: 20px;
 }
 .polo1 h4 {
-  font-size: 17px;
+  font-size: 15px;
   color: white;
-  padding-top: 25px;
-  font-weight: 600;
+  font-weight: 500;
   z-index: 999;
   line-height: 20px;
   margin-bottom: 0;
@@ -604,7 +603,7 @@
   padding-left: 20px;
 }
 .polo3{
-  height: 220px;
+  height: 168px;
   display: flex;
   align-items: center;
 }
@@ -666,13 +665,14 @@
 }
 .polo1 img {
   bottom: 0;
-  height: 50px;
-  width: auto;
+  height: 30px;
+  width: 30px;
   position: absolute;
   right: 15px;
   transition: all 0.3s ease-in-out;
   top: 50%;
   transform: translateY(-50%);
+  object-fit: contain;
 }
 
 .imgpost:hover a {
