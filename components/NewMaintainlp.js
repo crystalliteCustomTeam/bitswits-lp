@@ -20,7 +20,7 @@ const NewMaintainlp = () => {
                         <Col lg={12}>
                             <p className={` f-20 font-bold text-white text-center mb-0`}>Services
                             </p>
-                            <h2 className='text-white f-60 font-bold text-center mb-5'>Our Mobile App Development <br></br>
+                            <h2 className='text-white f-60 font-bold text-center mb-3 mb-md-5'>Our Mobile App Development <br></br>
                                 Services and Solutions</h2>
 
 

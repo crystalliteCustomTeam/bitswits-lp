@@ -69,7 +69,7 @@
   .carouselPivot {
     position: absolute;
     left: 50%;
-    top: 70%;
+    top: 80%;
     transform-style: preserve-3d;
   }
 

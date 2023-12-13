@@ -9,7 +9,7 @@ const Formnewlp = () => {
         <>
             <section className={styles.team}>
                 <Container>
-                    <Row className='align-items-center gy-5'>
+                    <Row className='align-items-center gy-4 gy-md-5'>
 
                         <Col lg={12}>
                             <h2 className='newchoose fontf fw700 white mb-3 text-center'>

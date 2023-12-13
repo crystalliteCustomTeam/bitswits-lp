@@ -58,7 +58,7 @@ const Hurdles = () => {
                                 <h2 className='white font50 f-700'>App Development Hurdles?</h2>
 
                                 {isSliderActive ?
-                                    <Slider {...awardslogo} className={` ${styles.startup1} pt-5`}>
+                                    <Slider {...awardslogo} className={` ${styles.startup1} pt-0 pt-md-5`}>
                                         <Image quality={95} alt='BitsWits' src={secImg1} className='img-fluid my-4' />
                                         <Image quality={95} alt='BitsWits' src={secImg2} className='img-fluid my-4' />
                                         <Image quality={95} alt='BitsWits' src={secImg3} className='img-fluid my-4' />

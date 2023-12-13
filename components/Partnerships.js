@@ -54,7 +54,7 @@ const Partnerships = () => {
                 <Container>
                     <Row className={styles.projectlp}>
                         <Col lg={12}>
-                            <h2 className='font50 fontf font-bold white mb-4 text-center'>
+                            <h2 className='font50 fontf font-bold white mb-2 mb-md-4 text-center'>
                                 Awards And Recognition
                             </h2>
                         </Col>

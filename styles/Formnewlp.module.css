@@ -89,11 +89,6 @@
 }
 
 @media (max-width: 991px) {
-  .team {
-    padding-bottom: 50px;
-    padding-top: 50px;
-  }
-
   .star {
     height: 250px;
     padding: 0 4%;
@@ -116,12 +111,13 @@
 @media (max-width: 767px) {
   .team {
     padding-top: 50px;
-    padding-bottom: 0px;
+    padding-bottom: 50px;
   }
 
   .star {
-    height: 250px;
-    padding: 0 4%;
+    height: 180px;
+    padding: 0 8%;
+    border-radius: 16px;
   }
 
   .star h3 {
@@ -130,27 +126,21 @@
   }
 
   .star h2 {
-    font-size: 24px !important;
-    line-height: 34px;
+    font-size: 20px !important;
+    line-height: 30px;
     margin-bottom: 0;
   }
   .star h2 span {
-    font-size: 24px !important;
-    line-height: 34px;
+    font-size: 20px !important;
+    line-height: 30px;
   }
-}
 
-@media (max-width: 767px) {
   .your {
     border-radius: 16px;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 40px;
     padding-bottom: 20px;
-  }
-
-  .star {
-    border-radius: 16px;
   }
 
   .your input {

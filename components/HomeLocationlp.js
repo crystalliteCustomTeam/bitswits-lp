@@ -12,7 +12,7 @@ import LocationWorld from '../public/newHomePage/images/locationWorld.png'
 const HomeLocationlp = () => {
 
     let lctonSlider = {
-        dots: true,
+        dots: false,
         arrows: false,
         autoplay: true,
         infinite: true,

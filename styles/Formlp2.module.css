@@ -1,13 +1,11 @@
 .conform {
   background-color: black;
-  padding-top: 100px;
+  padding: 80px 0;
 }
-
-
 
 .formalign input {
   height: 55px;
-  border: 2px solid #F32F53;
+  border: 2px solid #f32f53;
   background-color: #0c0c0c;
   border-radius: 13px;
   color: white;
@@ -25,7 +23,7 @@
 .formalign button {
   width: 323px;
   height: 52px;
-  background-color: #F32F53;
+  background-color: #f32f53;
   border-radius: 12px;
   color: white;
   font-weight: 500;
@@ -34,16 +32,13 @@
 
 .formalign input::placeholder {
   padding-left: 15px;
-  color: #C5C5C5;
+  color: #c5c5c5;
   font-size: 13px;
 }
 
-
 @media screen and (max-width: 1600px) {
-
   .formalign button {
     height: 48px;
-
   }
 
   .formalign input {
@@ -58,8 +53,13 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 991px) {
+  .conform {
+    padding: 0 0 80px;
+  }
+}
 
+@media screen and (max-width: 480px) {
   .formalign {
     display: flex;
     justify-content: space-around;
@@ -72,4 +72,11 @@
     width: 100%;
   }
 
+  .formalign button {
+    width: 100%;
+  }
+
+  .conform {
+    padding: 0 0 50px;
+  }
 }

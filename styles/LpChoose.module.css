@@ -8,8 +8,8 @@
   background-color: black;
 }
 .transformlp {
-  padding-top: 0px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-image: url(../public/newHomePage/images/bg-image.png);
   background-repeat: no-repeat;
   background-size: 60%;
@@ -139,12 +139,12 @@
 
 @media screen and (max-width: 991px) {
   .transform {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 80px;
     background-image: none;
   }
   .transformlp {
-    padding-bottom: 0px;
+    padding: 0 0 80px;
     background-image: none;
   }
   .hybirf {
@@ -169,8 +169,12 @@
 
 @media screen and (max-width: 767px) {
   .transform {
-    padding-top: 50px;
-    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .transformlp {
+    padding: 0 0 50px;
   }
   .walk h2 {
     font-size: 25px;

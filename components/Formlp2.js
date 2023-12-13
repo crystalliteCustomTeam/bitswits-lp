@@ -17,7 +17,7 @@ const Formlp2 = () => {
                 <Container>
 
                     <Row>
-                        <h2 className='white f-60 f-700 center mb-5'>Turn Your App Idea Into An App</h2>
+                        <h2 className='white f-60 f-700 center mb-4 mb-md-5'>Turn Your App Idea Into An App</h2>
                         <form className={styles.formalign}>
 
                             <input type="text" placeholder="Name" id="name" name="name" required />
