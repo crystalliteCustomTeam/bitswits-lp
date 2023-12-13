@@ -14,7 +14,7 @@ const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
-const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
+const WeworkLp = React.lazy(() => import("@/components/new-home-page-fy/WeworkLphome"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
 const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
@@ -252,7 +252,7 @@ export default function gamedevelopmentcompany() {
 
       {/* <NewAddress /> */}
 
-      <WeworkLp wework="weworkLp6" />
+      <WeworkLp wework="weworkLpnewhomefy" />
 
       <StartupsLp startups="startups" />
 

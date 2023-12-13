@@ -7,7 +7,9 @@ const ServicesMaintain = (props) => {
   return (
     <>
       <section
-        className={` ${styles.newHomeBg} ${styles[props.assignClass]} combo d-none d-md-block`}
+        className={` ${styles.newHomeBg} ${
+          styles[props.assignClass]
+        } combo d-none d-md-block`}
       >
         <Container>
           <Row className="g-3">
@@ -21,7 +23,7 @@ const ServicesMaintain = (props) => {
                   {props.title}
                 </span>
                 {props.title1}
-                <span className="newfycolr font55 font-bold text-center d-block mb-2">
+                <span className="newfycolr fontpink100 font-bold text-center d-block mb-2">
                   {props.title2}
                 </span>
                 {props.title3}

@@ -71,8 +71,6 @@ export default function Home() {
         };
     }, []);
 
-
-
     var awardslogo = {
         dots: false,
         arrows: false,
@@ -188,7 +186,6 @@ export default function Home() {
           ],
         },
       ];
-
 
     return (
         <>

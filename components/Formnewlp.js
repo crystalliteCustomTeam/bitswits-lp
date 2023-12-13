@@ -12,7 +12,7 @@ const Formnewlp = () => {
                     <Row className='align-items-center gy-5'>
 
                         <Col lg={12}>
-                            <h2 className='font50 fontf fw700 white mb-3 text-center'>
+                            <h2 className='newchoose fontf fw700 white mb-3 text-center'>
                                 Start Your Mobile App Development <br /> Journey with Us?
                             </h2>
                             <p className='font16 font-normal white text-center'>Excited to turn your app concept into reality? Get in touch for a detailed consultation. We're keen to explore your project <br /> and demonstrate how our assistance can make a difference. Choosing Bitswits means partnering with a team <br /> dedicated to your app's success</p>
@@ -26,7 +26,7 @@ const Formnewlp = () => {
                             </div>
 
                         </Col>
-                        <Col xl={6} className='mt-3 mt-sm-5 mt-xl-0'>
+                        <Col xl={6} className='mt-3 mt-sm-5'>
                             <form className={styles.your}>
                                 <h3 className='font25 white fw700'>Have a Project To Discuss?</h3>
                                 <h2 className='f-60 mb-4 grdiant fw700'>We're Ready!</h2>

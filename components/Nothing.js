@@ -64,10 +64,22 @@ export default function Nothing(props) {
                 }
 
                 @media screen and (max-width: 1280px) {
+                    .swiper::after {
+                      width: 56%;
+                  }
+                }
+
+                @media screen and (max-width: 991px) {
+                    .swiper::after {
+                      width: 79%;
+                  }
+                }
+
+                @media screen and (max-width: 767px) {
                   .swiper::after {
                     width: 56%;
                 }
-                }
+              }
             `,
       ],
       pagination: {

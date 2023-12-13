@@ -26,7 +26,7 @@ const NewHomeGlobal = () => {
                     <Row>
                         <Col xl={12}>
                             <h3 className='font30 fw800 white center'>World-Renowned</h3>
-                            <h2 className={`${styles.success} center`}>Brands Trust Us</h2>
+                            <h2 className={`${styles.success} center newchoose`}>Brands Trust Us</h2>
 
 
                             <div className={styles.postpoint}>

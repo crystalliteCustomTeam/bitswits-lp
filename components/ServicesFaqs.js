@@ -24,7 +24,7 @@ const ServicesFaqs = (props) => {
                 <Container>
                     <Row className={styles.comfort}>
                         <Col lg={12}>
-                            <h2 className={`white f-60 f-700 mb-3 mb-sm-5`}>
+                            <h2 className={`white newchoose f-700 mb-3 mb-sm-5`}>
                                 FAQs
                             </h2>
                         </Col>
