@@ -49,9 +49,17 @@
   }
 }
 
+@media (max-width: 991px) {
+  .awardsFold {
+    background-color: black;
+    padding: 80px 3%;
+  }
+}
+
 @media (max-width: 767px) {
   .awardsFold {
     background-color: black;
     padding: 50px 3%;
   }
 }
+

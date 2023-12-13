@@ -70,9 +70,16 @@
 @media screen and (max-width: 991px) {
   .newHomeBg {
     padding: 0px;
-    padding-top: 50px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     height: unset;
+  }
+
+  .width {
+    max-width: 100%;
+  }
+  .sec_btn .btn_txt{
+    margin: 20px auto 0;
   }
 }
 
@@ -93,10 +100,6 @@
   .wid {
     line-height: 25px;
     font-size: 15px;
-  }
-
-  .width {
-    max-width: 100%;
   }
 
   .newHomeBg {

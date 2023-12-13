@@ -98,13 +98,17 @@
 
 @media screen and (max-width: 991px) {
   .faqs {
-    padding: 0 0 50px;
+    padding: 0 0 30px;
   }
 }
 @media screen and (max-width: 480px) {
   .faqs h3 {
     font-size: 14px;
     gap: 5px;
+  }
+
+  .faqs {
+    padding: 0;
   }
 
   .comfort h2 {

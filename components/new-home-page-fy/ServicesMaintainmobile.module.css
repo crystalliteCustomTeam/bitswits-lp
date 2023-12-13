@@ -77,7 +77,7 @@
       text-align: center;
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     .homeclass {
       padding-top: 80px;
     }

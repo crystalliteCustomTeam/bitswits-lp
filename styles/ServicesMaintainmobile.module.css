@@ -59,8 +59,8 @@
   }
 
   .homeclass {
-    padding-top: 80px;
-    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 80px;
     background: #000;
     margin-top: -1%;
   }
@@ -77,13 +77,13 @@
     text-align: center;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .iosclass {
     padding-top: 50px;
   }
 
   .homeclass {
-    padding-top: 80px;
+    padding: 0px 0 50px;
   }
   .iosclass {
     padding-top: 50px;
@@ -96,8 +96,6 @@
 }
 @media screen and (max-width: 480px) {
   .homeclass {
-    padding-top: 80px;
-    padding-bottom: 80px;
     background: #000;
     margin-top: -1%;
   }

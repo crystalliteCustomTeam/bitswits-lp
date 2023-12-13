@@ -83,7 +83,7 @@
 
 @media screen and (max-width: 991px) {
   .tech {
-    padding: 0 0 50px;
+    padding: 0 0 80px;
   }
 
   .active::before {
@@ -115,6 +115,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .tech {
+    padding: 0 0 50px;
+  }
+
   .analpost div {
     color: #707070;
     font-size: 13px;

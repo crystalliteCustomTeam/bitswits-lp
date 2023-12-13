@@ -1,3 +1,34 @@
+.nothingblockchain{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #000;
+  background-image: url(../public/images/nothing/bg.png);
+  background-position: 886px center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-size: 27%;
+}
+.nothingblockchain h3{
+  color: #F32F53;
+  font-size: 30px;
+  font-weight: 900;
+}
+.nothingblockchain a{
+  border-radius: 12px;
+  font-family: "SF-Pro-Display";
+  font-weight: 500;
+  letter-spacing: .5px;
+}
+.nothingblockchain h2{
+
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+.nothingblockchain .strpImg p{
+  font-size: 14px;
+}
 .nothing,
 .nothingLp6 {
   padding-top: 80px;
@@ -113,7 +144,7 @@
   }
 
   .nothingLphomefy {
-    padding: 0 0 50px;
+    padding: 0 0 80px;
   }
 }
 
@@ -121,5 +152,9 @@
   .nothingLp6 {
     padding-top: 50px;
     padding-bottom: 0;
+  }
+
+  .nothingLphomefy {
+    padding: 0 0 50px;
   }
 }

@@ -52,8 +52,8 @@
 }
 
 @media screen and (max-width: 991px) {
-  .newHomeBg {
-    padding-bottom: 50px;
+  .width {
+    max-width: 100%;
   }
 }
 
@@ -63,8 +63,8 @@
     max-height: 220px;
   }
 
-  .width {
-    max-width: 100%;
+  .newHomeBg {
+    padding-bottom: 50px;
   }
 
   .wid {

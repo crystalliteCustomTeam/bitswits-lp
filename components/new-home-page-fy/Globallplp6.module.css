@@ -21,11 +21,12 @@
 }
 
 .success {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
   color: #fff;
   line-height: 1.1;
   margin-bottom: 8%;
+  letter-spacing: 1px;
 }
 
 .lctnslide {
@@ -75,7 +76,7 @@
   }
 
   .team {
-    padding: 0 0 50px;
+    padding: 0 0 80px;
     background-image: none;
   }
 
@@ -96,7 +97,8 @@
   }
 
   .success {
-    font-size: 50px;
+    font-size: 42px;
+    line-height: 52px;
   }
 }
 
@@ -105,10 +107,9 @@
     font-size: 30px;
     line-height: 40px;
   }
-}
 
-@media screen and (max-width: 480px) {
   .team {
+    padding: 0 0 50px;
     text-align: center;
   }
 }

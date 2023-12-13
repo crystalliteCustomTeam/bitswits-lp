@@ -65,7 +65,9 @@
   background: black;
   padding-top: 30px;
 }
-
+.newwrap{
+  padding-top: 0px;
+}
 .strpImg img {
   filter: brightness(3);
   width: 70%;
