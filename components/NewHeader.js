@@ -1679,6 +1679,66 @@ const HeaderNewDesign = () => {
                         />
                       </div>
 
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/hiring-app-development-case-study'>READY APP</Link>
+                          </h4>
+                          <p className="white">Ready App market...</p>
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={readyappimg}
+                          className="img-fluid"
+                        />
+                      </div>
+
+                  
+                    
+
+                    </Col>
+
+                    <Col lg={4}>
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/food-delivery-app-development-case-study'>CRAVE APP</Link>
+                          </h4>
+                          <p className="white">Crave Courier - Food...</p>
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={cruveimg}
+                          className="img-fluid"
+                        />
+                      </div>
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/handyman-on-demand-app-development-case-study'>HOMECONNECT PRO</Link>
+                          </h4>
+                          <p className="white">Home connect...</p>
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={homeconnctimg}
+                          className="img-fluid"
+                        />
+                      </div>
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/music-app-development-case-study'>BEATS APP</Link>
+                          </h4>
+                          <p className="white">Ios And Android Games...</p>
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={beatsimg}
+                          className="img-fluid"
+                        />
+                      </div>
+                      
                       <div  className={styles.polo2}>
                           <div>
                             <div className={styles.fill}>
@@ -1731,63 +1791,9 @@ const HeaderNewDesign = () => {
                             </div>
                           </div>
                         </div>
-                    
 
-                    </Col>
 
-                    <Col lg={4}>
-                      <div className={styles.polo1}>
-                        <div>
-                          <h4>
-                            <Link className="white" href='/food-delivery-app-development-case-study'>CRAVE APP</Link>
-                          </h4>
-                          <p className="white">Crave Courier - Food...</p>
-                        </div>
-                        <Image
-                          alt="bitswits"
-                          src={cruveimg}
-                          className="img-fluid"
-                        />
-                      </div>
-                      <div className={styles.polo1}>
-                        <div>
-                          <h4>
-                            <Link className="white" href='/handyman-on-demand-app-development-case-study'>HOMECONNECT PRO</Link>
-                          </h4>
-                          <p className="white">Home connect...</p>
-                        </div>
-                        <Image
-                          alt="bitswits"
-                          src={homeconnctimg}
-                          className="img-fluid"
-                        />
-                      </div>
-                      <div className={styles.polo1}>
-                        <div>
-                          <h4>
-                            <Link className="white" href='/music-app-development-case-study'>BEATS APP</Link>
-                          </h4>
-                          <p className="white">Ios And Android Games...</p>
-                        </div>
-                        <Image
-                          alt="bitswits"
-                          src={beatsimg}
-                          className="img-fluid"
-                        />
-                      </div>
-                      <div className={styles.polo1}>
-                        <div>
-                          <h4>
-                            <Link className="white" href='/hiring-app-development-case-study'>READY APP</Link>
-                          </h4>
-                          <p className="white">Ready App market...</p>
-                        </div>
-                        <Image
-                          alt="bitswits"
-                          src={readyappimg}
-                          className="img-fluid"
-                        />
-                      </div>
+
                     </Col>
                   </Row>
                 </div>
