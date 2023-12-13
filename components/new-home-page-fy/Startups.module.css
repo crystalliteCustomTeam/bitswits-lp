@@ -39,7 +39,7 @@
     padding-bottom: 80px;
   }
   .startupshome {
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     padding-top: 0;
   }
 
@@ -54,5 +54,12 @@
   .startups p {
     margin-right: unset;
     text-align: justify;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .startupshome {
+    padding-bottom: 50px;
+    padding-top: 0;
   }
 }

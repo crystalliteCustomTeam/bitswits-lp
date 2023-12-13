@@ -89,7 +89,7 @@
 
 @media (max-width: 991px) {
   .team {
-    padding: 0 0 50px;
+    padding: 0 0 80px;
   }
 
   .star {
@@ -130,5 +130,9 @@
   .star h2 span {
     font-size: 20px !important;
     line-height: 30px;
+  }
+
+  .team {
+    padding: 0 0 50px;
   }
 }

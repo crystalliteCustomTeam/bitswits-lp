@@ -18,9 +18,7 @@ const LpChoose = React.lazy(() => import('@/components/new-home-page-fy/LpChoose
 const Formnewlp = React.lazy(() => import("@/components/new-home-page-fy/Formnewlp"));
 const Faqs = React.lazy(() => import("@/components/new-home-page-fy/NewhomeFaqs"));
 const ServicesMaintainmobile = React.lazy(() => import("@/components/new-home-page-fy/ServicesMaintainmobile"));
-
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
-
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -213,7 +211,7 @@ export default function Home() {
                                 <p className={`font-bold fontawards25 mb-0 ${styles.textWhite}`}>
                                     Endorsements on different Platforms
                                 </p>
-                                <h1 className={`fontawards font-bold mb-0 ${styles.textPink}`}>
+                                <h1 className={`fontawards font-bold mb-3 mb-lg-0 ${styles.textPink}`}>
                                     Awards &
                                     Recognition
                                 </h1>

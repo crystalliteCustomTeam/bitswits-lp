@@ -75,7 +75,7 @@
   }
 
   .team {
-    padding: 0 0 50px;
+    padding: 0 0 80px;
     background-image: none;
   }
 
@@ -96,7 +96,8 @@
   }
 
   .success {
-    font-size: 50px;
+    font-size: 42px;
+    line-height: 52px;
   }
 }
 
@@ -105,10 +106,9 @@
     font-size: 30px;
     line-height: 40px;
   }
-}
 
-@media screen and (max-width: 480px) {
   .team {
+    padding: 0 0 50px;
     text-align: center;
   }
 }
