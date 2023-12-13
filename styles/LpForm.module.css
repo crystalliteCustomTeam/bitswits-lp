@@ -179,6 +179,10 @@
 }
 
 @media screen and (max-width: 991px) {
+  .keyFrame {
+    background-color: #000;
+    padding: 50px 0 50px;
+  }
   .appios {
     max-width: 720px;
   }
@@ -203,6 +207,14 @@
 }
 
 @media screen and (max-width: 767px) {
+  .keyFrame {
+    background-color: #000;
+    padding: 50px 0 0px;
+  }
+  .newAddress {
+    padding: 50px 0 0px;
+  }
+
   .newHomeBg {
     padding-bottom: 5px;
   }

@@ -41,17 +41,20 @@
 
 @media screen and (max-width: 991px) {
   .weworkLp6 {
-    padding: 0 0 50px;
+    padding: 50px 0 50px;
   }
   .weworkLpnewhomefy {
     padding: 0 0 70px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .weworkLp6 {
-    padding: 0 0 60px;
+    padding: 50px 0 0px;
   }
+}
+
+@media screen and (max-width: 480px) {
   .weworkLpnewhomefy {
     padding: 0 0 50px;
   }

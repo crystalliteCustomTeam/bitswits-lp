@@ -306,7 +306,8 @@
 
 @media screen and (max-width: 991px) {
   .engage {
-    padding-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .forget {
@@ -318,11 +319,15 @@
   }
 
   .longline1 {
-    margin-bottom: 40%;
+    margin-bottom: 32%;
   }
 }
 
 @media screen and (max-width: 767px) {
+  .engage {
+    padding-bottom: 0px;
+  }
+
   .forget h2 {
     font-size: 26px;
     font-weight: bold;

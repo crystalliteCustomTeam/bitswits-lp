@@ -98,18 +98,20 @@
 
 @media screen and (max-width: 991px) {
   .faqs {
-    padding: 0 0 50px;
+    padding: 50px 0 50px;
   }
 
   .about {
     margin: 50px auto 0;
   }
 }
+
 @media screen and (max-width: 767px) {
   .faqs {
-    padding: 50px 0 70px;
+    padding: 50px 0 0px;
   }
 }
+
 @media screen and (max-width: 480px) {
   .comfort h2 {
     text-align: center;

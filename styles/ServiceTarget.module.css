@@ -89,7 +89,8 @@
 @media screen and (max-width: 991px) {
   .tesla {
     background-image: unset;
-    padding-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .after h2 {
@@ -100,7 +101,7 @@
 
 @media screen and (max-width: 767px) {
   .tesla {
-    padding-bottom: 80px;
+    padding-bottom: 0px;
   }
 
   .after h2 {

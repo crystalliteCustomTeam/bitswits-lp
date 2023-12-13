@@ -57,3 +57,10 @@
     text-align: justify;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .startups {
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+}

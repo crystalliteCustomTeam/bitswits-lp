@@ -77,9 +77,13 @@
     padding-bottom: 80px;
   }
 
+  .solImg {
+    margin-top: -20px;
+  }
+
   .gameApp {
-    padding-top: 40px;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .home h2 {
@@ -92,6 +96,12 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .gameApp {
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+}
 @media screen and (max-width: 567px) {
   .solImg {
     text-align: right;

@@ -140,7 +140,7 @@
 @media screen and (max-width: 991px) {
   .transform {
     padding-top: 50px;
-    padding-bottom: 0px;
+    padding-bottom: 50px;
     background-image: none;
   }
   .transformlp {
@@ -168,6 +168,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .transform {
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
   .walk h2 {
     font-size: 25px;
     line-height: 35px;
@@ -180,6 +184,6 @@
   }
 
   .marginTop {
-    padding-bottom: 60px;
+    padding-bottom: 0px;
   }
 }

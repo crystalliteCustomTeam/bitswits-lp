@@ -111,10 +111,14 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .newHomeBg {
+    padding-bottom: 0px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .newHomeBg {
     background-color: #000;
-    padding-bottom: 50px;
-    padding-top: 0;
   }
 }

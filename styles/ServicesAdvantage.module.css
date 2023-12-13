@@ -120,6 +120,13 @@
   }
 }
 
+@media screen and (max-width: 991px) {
+  .creative2 {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .game h3 {
     font-size: 20px;
@@ -132,7 +139,7 @@
   }
 
   .creative2 {
-    padding-bottom: 80px;
+    padding-bottom: 0px;
     padding-top: 50px;
   }
 }
