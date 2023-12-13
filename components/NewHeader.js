@@ -116,6 +116,23 @@ import blockchainIcon from "public/images/icons/blockchain.png";
 import AI from "public/images/icons/aiIcon.png";
 import Augment from "public/images/icons/augment.png";
 
+// newworkimages
+
+import travelimg from "public/headerbits/travel.png";
+import realestateimgg from "public/headerbits/realestate.png";
+import ecommerceimg from "public/headerbits/ecommerce.png";
+import scribeimg from "public/headerbits/scribe.png";
+import greepeimg from "public/headerbits/greepe.png";
+import sponserdimg from "public/headerbits/sponserd.png";
+import healthimg from "public/headerbits/health.png";
+import riderimg from "public/headerbits/rider.png";
+import fitnowimg from "public/headerbits/fitnow.png";
+import cruveimg from "public/headerbits/cruve.png";
+import homeconnctimg from "public/headerbits/homeconnct.png";
+import beatsimg from "public/headerbits/beats.png";
+import readyappimg from "public/headerbits/readyapp.png";
+
+
 const HeaderNewDesign = () => {
   const [isSliderActive, setIsSliderActive] = useState(true);
 
@@ -1549,7 +1566,7 @@ const HeaderNewDesign = () => {
                         </div>
                         <Image
                           alt="bitswits"
-                          src={IOS}
+                          src={travelimg }
                           className="img-fluid"
                         />
                       </div>
@@ -1562,7 +1579,7 @@ const HeaderNewDesign = () => {
                         </div>
                         <Image
                           alt="bitswits"
-                          src={IOS}
+                          src={realestateimgg}
                           className="img-fluid"
                         />
                       </div>
@@ -1575,7 +1592,7 @@ const HeaderNewDesign = () => {
                         </div>
                         <Image
                           alt="bitswits"
-                          src={IOS}
+                          src={ecommerceimg}
                           className="img-fluid"
                         />
                       </div>
@@ -1588,7 +1605,7 @@ const HeaderNewDesign = () => {
                         </div>
                         <Image
                           alt="bitswits"
-                          src={IOS}
+                          src={scribeimg}
                           className="img-fluid"
                         />
                       </div>
@@ -1601,7 +1618,7 @@ const HeaderNewDesign = () => {
                         </div>
                         <Image
                           alt="bitswits"
-                          src={IOS}
+                          src={greepeimg}
                           className="img-fluid"
                         />
                       </div>
@@ -1618,7 +1635,7 @@ const HeaderNewDesign = () => {
                         </div>
                         <Image
                           alt="bitswits"
-                          src={IOS}
+                          src={sponserdimg}
                           className="img-fluid"
                         />
                       </div>
@@ -1631,7 +1648,7 @@ const HeaderNewDesign = () => {
                         </div>
                         <Image
                           alt="bitswits"
-                          src={IOS}
+                          src={healthimg}
                           className="img-fluid"
                         />
                       </div>
@@ -1644,7 +1661,7 @@ const HeaderNewDesign = () => {
                         </div>
                         <Image
                           alt="bitswits"
-                          src={IOS}
+                          src={riderimg}
                           className="img-fluid"
                         />
                       </div>
@@ -1657,7 +1674,7 @@ const HeaderNewDesign = () => {
                         </div>
                         <Image
                           alt="bitswits"
-                          src={IOS}
+                          src={fitnowimg}
                           className="img-fluid"
                         />
                       </div>
@@ -1728,7 +1745,7 @@ const HeaderNewDesign = () => {
                         </div>
                         <Image
                           alt="bitswits"
-                          src={IOS}
+                          src={cruveimg}
                           className="img-fluid"
                         />
                       </div>
@@ -1741,7 +1758,7 @@ const HeaderNewDesign = () => {
                         </div>
                         <Image
                           alt="bitswits"
-                          src={IOS}
+                          src={homeconnctimg}
                           className="img-fluid"
                         />
                       </div>
@@ -1754,7 +1771,7 @@ const HeaderNewDesign = () => {
                         </div>
                         <Image
                           alt="bitswits"
-                          src={IOS}
+                          src={beatsimg}
                           className="img-fluid"
                         />
                       </div>
@@ -1767,7 +1784,7 @@ const HeaderNewDesign = () => {
                         </div>
                         <Image
                           alt="bitswits"
-                          src={IOS}
+                          src={readyappimg}
                           className="img-fluid"
                         />
                       </div>
