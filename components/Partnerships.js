@@ -54,12 +54,12 @@ const Partnerships = () => {
                 <Container>
                     <Row className={styles.projectlp}>
                         <Col lg={12}>
-                            <h2 className='font50 fontf font-bold white mb-4 text-center'>
+                            <h2 className='font50 fontf font-bold white mb-sm-4 text-center'>
                                 Awards And Recognition
                             </h2>
                         </Col>
                         <Col lg={12} className={styles.trstCol}>
-                            <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-4`}>
+                            <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-2 mt-sm-4`}>
                                 <div className={styles.strpImg}>
                                     <Image alt="BitsWits" src={icon1} className="img-fluid" />
                                 </div>

@@ -58,6 +58,11 @@
 }
 
 @media screen and (max-width: 991px) {
+  .capomt {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .front {
     display: none;
   }
@@ -69,7 +74,7 @@
   }
 
   .capomt {
-    padding-top: 10px;
-    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 0px;
   }
 }
