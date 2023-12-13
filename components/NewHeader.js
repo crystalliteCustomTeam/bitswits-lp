@@ -1557,7 +1557,7 @@ const HeaderNewDesign = () => {
               {isHovered4 == "active4" ? (
                 <div className={styles.megamenuwork}>
                   <Row className="gy-4">
-                    <Col lg={4} className="pt-5">
+                    <Col lg={4} className="pt-4">
                     
                       <div className={styles.polo1}>
                         <div>
@@ -1667,7 +1667,7 @@ const HeaderNewDesign = () => {
 
                     </Col>
 
-                    <Col lg={4} className={`${styles.menupostblog1} pt-5`}>
+                    <Col lg={4} className={`${styles.menupostblog1} pt-4`}>
                       <div className={styles.polo1}>
                         <div>
                           <h4>
