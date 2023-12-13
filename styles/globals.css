@@ -51,6 +51,49 @@
   font-display: swap;
 }
 
+
+
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url(../public/fontgilroy/Gilroy-Bold.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Gilroy-ExtraBold;
+  src: url(../public/fontgilroy/Gilroy-ExtraBold.otf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Gilroy-Heavy;
+  src: url(../public/fontgilroy/Gilroy-Heavy.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Gilroy-Light;
+  src: url(../public/fontgilroy/Gilroy-Light.ttf);
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: Gilroy-MediumItalic;
+  src: url(../public/fontgilroy/Gilroy-MediumItalic.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Gilroy-Regular;
+  src: url(../public/fontgilroy/Gilroy-Regular.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Gilroy-SemiBold;
+  src: url(../public/fontgilroy/Gilroy-SemiBold.ttf);
+  font-display: swap;
+}
+
+
+
+
 * {
   font-family: "SF-Pro-Display";
   scroll-behavior: unset !important;
@@ -98,6 +141,31 @@ div {
   font-family: "Nofex", sans-serif;
 }
 
+.fontgilroybold{
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.fontgilroygilroyExtraBold{
+  font-family: 'Gilroy-ExtraBold', sans-serif;
+}
+
+.fontgilroyheavy{
+  font-family: 'Gilroy-Heavy', sans-serif;
+}
+
+.fontgilroylight{
+  font-family: 'Gilroy-Light', sans-serif;
+}
+
+.fontgilroymediumitalic{
+  font-family: 'Gilroy-MediumItalic', sans-serif;
+}
+.fontgilroygilroygilroyregular{
+  font-family: 'Gilroy-Regular', sans-serif;
+}
+.fontgilroygilroysemibold{
+  font-family: 'Gilroy-SemiBold', sans-serif;
+}
 /* fontweight */
 
 .font-regular {
@@ -360,13 +428,13 @@ div {
 }
 
 .fontawards {
-  font-size: calc(75px + 0.390625vw);
-  line-height: 85px;
+  font-size: calc(57px + 0.390625vw);
+  line-height: 65px;
 }
 
 .fontpink100 {
-  font-size: calc(100px + 0.390625vw);
-  line-height: 100px;
+  font-size: calc(57px + 0.390625vw);
+  line-height: 65px;
 }
 
 .fontwhite40 {
@@ -378,7 +446,8 @@ div {
   letter-spacing: 1px;
 }
 .newchoose {
-  font-size: 65px;
+  font-size: 50px;
+  letter-spacing: 1px;
 }
 .fontwhite27 {
   font-size: calc(27px + 0.390625vw);
@@ -403,6 +472,29 @@ div {
 .industyfont {
   font-size: 25px;
   font-weight: 400;
+}
+
+
+/* blockchainfonts */
+.blockbannerheading{
+  font-size: 50px;
+  font-weight: bold;
+}
+.letterspaceblock{
+  letter-spacing: 2px;
+}
+.fonttextblock{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.blockbannerheadingfont60{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.fontitalic{
+  font-style: italic;
 }
 
 /* colors */

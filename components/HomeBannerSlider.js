@@ -15,7 +15,7 @@ import icon70 from '../public/newHomePageImages/nexticon/7.png'
 import icon80 from '../public/newHomePageImages/nexticon/8.png'
 
 
-export default function HomeBannerSlider() {
+export default function HomeBannerSlider(props) {
 
     var bannerslider = {
         dots: false,
@@ -48,7 +48,7 @@ export default function HomeBannerSlider() {
 
     return (
         <>
-            <section className={styles.BannerSlider}>
+            <section className={`${styles.BannerSlider} ${styles[props.assignClass]}`}>
                 <Slider {...bannerslider} className={`${styles.slider} newLogoSlide`}>
                     <div className={styles.strpImg}>
                         <Image alt="BitsWits" src={icon20} className="img-fluid mx-auto" />
