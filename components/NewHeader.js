@@ -131,6 +131,7 @@ import cruveimg from "public/headerbits/cruve.png";
 import homeconnctimg from "public/headerbits/homeconnct.png";
 import beatsimg from "public/headerbits/beats.png";
 import readyappimg from "public/headerbits/readyapp.png";
+import contact from "public/headerbits/contact.png";
 
 
 const HeaderNewDesign = () => {
@@ -1556,17 +1557,18 @@ const HeaderNewDesign = () => {
               {isHovered4 == "active4" ? (
                 <div className={styles.megamenuwork}>
                   <Row className="gy-4">
-                    <Col lg={4}>
+                    <Col lg={4} className="pt-4">
+                    
                       <div className={styles.polo1}>
                         <div>
                           <h4>
                             <Link className="white" href='/travel-app-development-case-study'>TRAVEL APP</Link>
                           </h4>
-                          <p className="white">Create Hassle-Free Travel...</p>
+                       
                         </div>
                         <Image
                           alt="bitswits"
-                          src={travelimg }
+                          src={travelimg}
                           className="img-fluid"
                         />
                       </div>
@@ -1575,7 +1577,7 @@ const HeaderNewDesign = () => {
                           <h4>
                             <Link className="white" href='/real-estate-app-development-case-study'>REAL ESTATE APP</Link>
                           </h4>
-                          <p className="white">A Real Estate App Instilling...</p>
+                      
                         </div>
                         <Image
                           alt="bitswits"
@@ -1588,7 +1590,7 @@ const HeaderNewDesign = () => {
                           <h4>
                             <Link className="white" href='/clothing-marketplace-app-development-case-study'>ECOMMERCE APP</Link>
                           </h4>
-                          <p className="white">Ecommerce - E-Store...</p>
+                      
                         </div>
                         <Image
                           alt="bitswits"
@@ -1601,7 +1603,7 @@ const HeaderNewDesign = () => {
                           <h4>
                             <Link className="white" href='/social-app-development-case-study'>SCRIBE APP</Link>
                           </h4>
-                          <p className="white">Soul Scribe - Germ-Guard...</p>
+                       
                         </div>
                         <Image
                           alt="bitswits"
@@ -1614,7 +1616,7 @@ const HeaderNewDesign = () => {
                           <h4>
                             <Link className="white" href='/automobile-repair-app-development-case-study'>GREASE APP</Link>
                           </h4>
-                          <p className="white">Monkey Grease - Cleaning...</p>
+                    
                         </div>
                         <Image
                           alt="bitswits"
@@ -1623,15 +1625,55 @@ const HeaderNewDesign = () => {
                         />
                       </div>
 
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/food-delivery-app-development-case-study'>CRAVE APP</Link>
+                          </h4>
+                    
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={cruveimg}
+                          className="img-fluid"
+                        />
+                      </div>
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/handyman-on-demand-app-development-case-study'>HOMECONNECT PRO</Link>
+                          </h4>
+                    
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={homeconnctimg}
+                          className="img-fluid"
+                        />
+                      </div>
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/music-app-development-case-study'>BEATS APP</Link>
+                          </h4>
+                       
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={beatsimg}
+                          className="img-fluid"
+                        />
+                      </div>
+
                     </Col>
 
-                    <Col lg={4}>
+                    <Col lg={4} className={`${styles.menupostblog1} pt-4`}>
                       <div className={styles.polo1}>
                         <div>
                           <h4>
                             <Link className="white" href='/marketing-partnership-app-development-case-study'>SPONSORD APP</Link>
                           </h4>
-                          <p className="white">Developed A Sponsord App...</p>
+                  
                         </div>
                         <Image
                           alt="bitswits"
@@ -1644,7 +1686,7 @@ const HeaderNewDesign = () => {
                           <h4>
                             <Link className="white" href='/healthcare-app-development-case-study'>HEALTH CARE APP</Link>
                           </h4>
-                          <p className="white">AS Medicare - A Pharmacy...</p>
+                       
                         </div>
                         <Image
                           alt="bitswits"
@@ -1657,7 +1699,7 @@ const HeaderNewDesign = () => {
                           <h4>
                             <Link className="white" href='/ride-app-development-case-study'>RIDER APP</Link>
                           </h4>
-                          <p className="white">EZ Ride is a two-sided market...</p>
+                    
                         </div>
                         <Image
                           alt="bitswits"
@@ -1670,7 +1712,7 @@ const HeaderNewDesign = () => {
                           <h4>
                             <Link className="white" href='/fitness-app-development-case-study'>FITNOW APP</Link>
                           </h4>
-                          <p className="white">Fitnow two-sided...</p>
+              
                         </div>
                         <Image
                           alt="bitswits"
@@ -1684,7 +1726,7 @@ const HeaderNewDesign = () => {
                           <h4>
                             <Link className="white" href='/hiring-app-development-case-study'>READY APP</Link>
                           </h4>
-                          <p className="white">Ready App market...</p>
+                  
                         </div>
                         <Image
                           alt="bitswits"
@@ -1693,104 +1735,157 @@ const HeaderNewDesign = () => {
                         />
                       </div>
 
-                  
-                    
+                      <div className={`${styles.polo} ${styles.polo3}`}>
+                        <div>
+                          <h3 className="white font-bold letterspacefy font18">Contact Us</h3>
+                          <div className={styles.fill}>
 
-                    </Col>
+                            <div>
+                              <BsFillEnvelopeFill
+                                size={15}
+                                className={styles.email}
+                              />
+                            </div>
+                            <div>
+                              <Link
+                                className="font15 font-medium white fontf"
+                                href="mailto:info@bitswits.co"
+                              >
+                                info@bitswits.com
+                              </Link>
+                            </div>
+                          </div>
+                          <div className={styles.fill}>
+                            <div>
+                              <BsFillTelephoneFill
+                                size={15}
+                                className={styles.email}
+                              />
+                            </div>
+                            <div>
+                              <Link
+                                className="font15 font-medium white fontf"
+                                href="tel:+1 312 379 5987"
+                              >
+                                +1 312 379 5987
+                              </Link>
+                            </div>
+                          </div>
+                          <div className={styles.fill}>
+                            <div>
+                              <BsFillTelephoneFill
+                                size={15}
+                                className={styles.email}
+                              />
+                            </div>
+                            <div>
+                              <Link
+                                className="font15 font-medium white fontf"
+                                href="tel:+18335006007"
+                              >
+                                +1 833 500 6007
+                              </Link>
+                            </div>
+                          </div>
+                          <div className={styles.fill}>
 
-                    <Col lg={4}>
-                      <div className={styles.polo1}>
-                        <div>
-                          <h4>
-                            <Link className="white" href='/food-delivery-app-development-case-study'>CRAVE APP</Link>
-                          </h4>
-                          <p className="white">Crave Courier - Food...</p>
-                        </div>
-                        <Image
-                          alt="bitswits"
-                          src={cruveimg}
-                          className="img-fluid"
-                        />
-                      </div>
-                      <div className={styles.polo1}>
-                        <div>
-                          <h4>
-                            <Link className="white" href='/handyman-on-demand-app-development-case-study'>HOMECONNECT PRO</Link>
-                          </h4>
-                          <p className="white">Home connect...</p>
-                        </div>
-                        <Image
-                          alt="bitswits"
-                          src={homeconnctimg}
-                          className="img-fluid"
-                        />
-                      </div>
-                      <div className={styles.polo1}>
-                        <div>
-                          <h4>
-                            <Link className="white" href='/music-app-development-case-study'>BEATS APP</Link>
-                          </h4>
-                          <p className="white">Ios And Android Games...</p>
-                        </div>
-                        <Image
-                          alt="bitswits"
-                          src={beatsimg}
-                          className="img-fluid"
-                        />
-                      </div>
-                      
-                      <div  className={styles.polo2}>
-                          <div>
-                            <div className={styles.fill}>
-                              <div>
-                                <BsFillEnvelopeFill
-                                  size={20}
-                                  className={styles.email}
-                                />
-                              </div>
-                              <div>
-                                <Link
-                                  className="font15 font-medium black fontf"
-                                  href="mailto:info@bitswits.co"
-                                >
-                                  info@bitswits.com
-                                </Link>
-                              </div>
-                            </div>
-                            <div className={styles.fill}>
-                              <div>
-                                <BsFillTelephoneFill
-                                  size={25}
-                                  className={styles.email}
-                                />
-                              </div>
-                              <div>
-                                <Link
-                                  className="font15 font-medium black fontf"
-                                  href="tel:+1 312 379 5987"
-                                >
-                                  +1 312 379 5987
-                                </Link>
-                              </div>
-                            </div>
-                            <div className={styles.fill}>
-                              <div>
-                                <BsFillTelephoneFill
-                                  size={25}
-                                  className={styles.email}
-                                />
-                              </div>
-                              <div>
-                                <Link
-                                  className="font15 font-medium black fontf"
-                                  href="tel:+18335006007"
-                                >
-                                  +1 833 500 6007
-                                </Link>
-                              </div>
+                            <div className="mt-1">
+                              <Link
+                                className="font15 font-medium white fontf"
+                                href="#"
+                              >
+                                Read More  <RiArrowDropRightLine className={styles.train} />
+                              </Link>
                             </div>
                           </div>
                         </div>
+                        <div>
+                          <Image
+                            alt="bitswits"
+                            src={contact}
+                            className="img-fluid"
+                          />
+                        </div>
+                      </div>
+
+
+                    </Col>
+
+                    <Col lg={4}  className={`${styles.newset}`} >
+                    
+                    <div className={styles.lptow}>
+                        <div className={styles.newbits}>
+                          <div>
+                            <h6>
+                              Train Now, <br></br>{" "}
+                              <span className={styles.pay}>Pay Later</span>{" "}
+                            </h6>
+                            <p>Book now and pay in instalments</p>
+                            <Link href="#">
+                              Learn more{" "}
+                              <RiArrowDropRightLine
+                                className={styles.train12}
+                              />{" "}
+                            </Link>
+                          </div>
+                          <div>
+                            <Image
+                              alt="bitswits"
+                              src={icontwo}
+                              className="img-fluid"
+                            />
+                          </div>
+                        </div>
+                        <div className={styles.proper}>
+                          <h4>FOR BUSINESS CUSTOMERS</h4>
+                          <h3>
+                            HIRING & <br></br> TRAINING
+                          </h3>
+                          <p>
+                            Welcome to Bitswits, where app creation meets
+                            innovation. Whether it's 'Creating an App,' 'Making
+                            an App,' or diving into 'iOS' or 'Android
+                            Application' development, we're your team. Let's
+                            turn your vision into reality with our leading-edge
+                            app development expertise. Our Client’s Feedback Has
+                            Been
+                          </p>
+                        </div>
+                        <div className={styles.slaes}>
+                          <p className="pb-0 mb-0">
+                            {" "}
+                            <Link href="tel:18335006007">
+                              <Image
+                                alt="bitswits"
+                                className="img-fluid"
+                                src={call}
+                                loading="lazy"
+                              />
+                              <span className="number">+1 833 500 6007</span>
+                            </Link>
+                          </p>
+                          <p>
+                            <Link href="mailto:info@BitsWits.co">
+                              <Image
+                                alt="bitswits"
+                                className="img-fluid"
+                                src={mail}
+                                loading="lazy"
+                              />
+                              <span className="email f-uppercase">
+                                Contact Email
+                              </span>
+                            </Link>
+                          </p>
+                          <p className="mb-0 pb-3">
+                            <Link href="#" className={styles.newyork}>
+                              Learn More{" "}
+                              <RiArrowDropRightLine className={styles.train} />
+                            </Link>
+                          </p>
+                        </div>
+                      </div>
+                    
 
 
 
