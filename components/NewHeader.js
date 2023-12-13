@@ -116,6 +116,24 @@ import blockchainIcon from "public/images/icons/blockchain.png";
 import AI from "public/images/icons/aiIcon.png";
 import Augment from "public/images/icons/augment.png";
 
+// newworkimages
+
+import travelimg from "public/headerbits/travel.png";
+import realestateimgg from "public/headerbits/realestate.png";
+import ecommerceimg from "public/headerbits/ecommerce.png";
+import scribeimg from "public/headerbits/scribe.png";
+import greepeimg from "public/headerbits/greepe.png";
+import sponserdimg from "public/headerbits/sponserd.png";
+import healthimg from "public/headerbits/health.png";
+import riderimg from "public/headerbits/rider.png";
+import fitnowimg from "public/headerbits/fitnow.png";
+import cruveimg from "public/headerbits/cruve.png";
+import homeconnctimg from "public/headerbits/homeconnct.png";
+import beatsimg from "public/headerbits/beats.png";
+import readyappimg from "public/headerbits/readyapp.png";
+import contact from "public/headerbits/contact.png";
+
+
 const HeaderNewDesign = () => {
   const [isSliderActive, setIsSliderActive] = useState(true);
 
@@ -259,9 +277,8 @@ const HeaderNewDesign = () => {
                         <Row>
                           <Col lg={6}>
                             <div
-                              className={`${styles.hire} ${
-                                activeTab1 == "tab1" ? styles.active : ""
-                              }`}
+                              className={`${styles.hire} ${activeTab1 == "tab1" ? styles.active : ""
+                                }`}
                               onClick={() => fun1("tab1")}
                               href="#"
                             >
@@ -279,9 +296,8 @@ const HeaderNewDesign = () => {
                           </Col>
                           <Col lg={6}>
                             <div
-                              className={`${styles.hire} ${
-                                activeTab1 == "tab2" ? styles.active : ""
-                              }`}
+                              className={`${styles.hire} ${activeTab1 == "tab2" ? styles.active : ""
+                                }`}
                               onClick={() => fun1("tab2")}
                               href="#"
                             >
@@ -301,9 +317,8 @@ const HeaderNewDesign = () => {
                         <Row>
                           <Col lg={6}>
                             <div
-                              className={`${styles.hire} ${
-                                activeTab1 == "tab3" ? styles.active : ""
-                              }`}
+                              className={`${styles.hire} ${activeTab1 == "tab3" ? styles.active : ""
+                                }`}
                               onClick={() => fun1("tab3")}
                               href="#"
                             >
@@ -321,9 +336,8 @@ const HeaderNewDesign = () => {
                           </Col>
                           <Col lg={6}>
                             <div
-                              className={`${styles.hire} ${
-                                activeTab1 == "tab4" ? styles.active : ""
-                              }`}
+                              className={`${styles.hire} ${activeTab1 == "tab4" ? styles.active : ""
+                                }`}
                               onClick={() => fun1("tab4")}
                               href="#"
                             >
@@ -343,9 +357,8 @@ const HeaderNewDesign = () => {
                         <Row>
                           <Col lg={6}>
                             <div
-                              className={`${styles.hire} ${
-                                activeTab1 == "tab5" ? styles.active : ""
-                              }`}
+                              className={`${styles.hire} ${activeTab1 == "tab5" ? styles.active : ""
+                                }`}
                               onClick={() => fun1("tab5")}
                               href="#"
                             >
@@ -363,9 +376,8 @@ const HeaderNewDesign = () => {
                           </Col>
                           <Col lg={6}>
                             <div
-                              className={`${styles.hire} ${
-                                activeTab1 == "tab6" ? styles.active : ""
-                              }`}
+                              className={`${styles.hire} ${activeTab1 == "tab6" ? styles.active : ""
+                                }`}
                               onClick={() => fun1("tab6")}
                               href="#"
                             >
@@ -385,9 +397,8 @@ const HeaderNewDesign = () => {
                         <Row>
                           <Col lg={6}>
                             <div
-                              className={`${styles.hire} ${
-                                activeTab1 == "tab7" ? styles.active : ""
-                              }`}
+                              className={`${styles.hire} ${activeTab1 == "tab7" ? styles.active : ""
+                                }`}
                               onClick={() => fun1("tab7")}
                               href="#"
                             >
@@ -405,9 +416,8 @@ const HeaderNewDesign = () => {
                           </Col>
                           <Col lg={6}>
                             <div
-                              className={`${styles.hire} ${
-                                activeTab1 == "tab8" ? styles.active : ""
-                              }`}
+                              className={`${styles.hire} ${activeTab1 == "tab8" ? styles.active : ""
+                                }`}
                               onClick={() => fun1("tab8")}
                               href="#"
                             >
@@ -524,7 +534,7 @@ const HeaderNewDesign = () => {
                                 />
                               </div>
                               <Link href="/game-application-development">
-                                 Game App Development
+                                Game App Development
                               </Link>{" "}
                             </li>
                             <hr />
@@ -1547,253 +1557,338 @@ const HeaderNewDesign = () => {
               {isHovered4 == "active4" ? (
                 <div className={styles.megamenuwork}>
                   <Row className="gy-4">
-                    <Col lg={4}>
-                      <div className={styles.boxSpace}>
-                        <div className={styles.workBox}>
-                          <Image alt="bitswits" src={travel} />
-                          <div className={styles.ourWork}>
-                            <Link
-                              className={styles.workTitle}
-                              href="/travel-app-development-case-study"
-                            >
-                              Travel App
-                            </Link>
-                            <span className={styles.realDummy}>
-                              Create Hassle-Free Travel...
-                            </span>
-                          </div>
+                    <Col lg={4} className="pt-4">
+                    
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/travel-app-development-case-study'>TRAVEL APP</Link>
+                          </h4>
+                       
                         </div>
-                        <div className={`${styles.workBox}`}>
-                          <Image alt="bitswits" src={estate} />
-                          <div className={styles.ourWork}>
-                            <Link
-                              className={styles.workTitle}
-                              href="/real-estate-app-development-case-study"
-                            >
-                              Real Estate App
-                            </Link>
-                            <span className={styles.realDummy}>
-                              A Real Estate App Instilling...
-                            </span>
-                          </div>
-                        </div>
-                        <div className={styles.workBox}>
-                          <Image alt="bitswits" src={wisu} />
-                          <div className={styles.ourWork}>
-                            <Link
-                              className={styles.workTitle}
-                              href="/clothing-marketplace-app-development-case-study"
-                            >
-                              Ecommerce App
-                            </Link>
-                            <span className={styles.realDummy}>
-                              Ecommerce - E-Store...
-                            </span>
-                          </div>
-                        </div>
-                        <div className={styles.workBox}>
-                          <Image alt="bitswits" src={scribe} />
-                          <div className={styles.ourWork}>
-                            <Link
-                              className={styles.workTitle}
-                              href="/social-app-development-case-study"
-                            >
-                              Scribe App
-                            </Link>
-                            <span className={styles.realDummy}>
-                              Soul Scribe - Germ-Guard...
-                            </span>
-                          </div>
-                        </div>
-                        <div className={`${styles.workBox} ${styles.lastBox}`}>
-                          <Image alt="bitswits" src={grease} />
-                          <div className={styles.ourWork}>
-                            <Link
-                              className={styles.workTitle}
-                              href="/automobile-repair-app-development-case-study"
-                            >
-                              Grease App
-                            </Link>
-                            <span className={styles.realDummy}>
-                              Monkey Grease - Cleaning...
-                            </span>
-                          </div>
-                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={travelimg}
+                          className="img-fluid"
+                        />
                       </div>
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/real-estate-app-development-case-study'>REAL ESTATE APP</Link>
+                          </h4>
+                      
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={realestateimgg}
+                          className="img-fluid"
+                        />
+                      </div>
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/clothing-marketplace-app-development-case-study'>ECOMMERCE APP</Link>
+                          </h4>
+                      
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={ecommerceimg}
+                          className="img-fluid"
+                        />
+                      </div>
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/social-app-development-case-study'>SOCIAL MEDIA APP</Link>
+                          </h4>
+                       
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={scribeimg}
+                          className="img-fluid"
+                        />
+                      </div>
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/automobile-repair-app-development-case-study'>AUTOMOBILE REPAIR APP</Link>
+                          </h4>
+                    
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={greepeimg}
+                          className="img-fluid"
+                        />
+                      </div>
+
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/food-delivery-app-development-case-study'>FOOD DELIVERY APP</Link>
+                          </h4>
+                    
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={cruveimg}
+                          className="img-fluid"
+                        />
+                      </div>
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/handyman-on-demand-app-development-case-study'>HANDYMAN APP</Link>
+                          </h4>
+                    
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={homeconnctimg}
+                          className="img-fluid"
+                        />
+                      </div>
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/music-app-development-case-study'>MUSIC APP</Link>
+                          </h4>
+                       
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={beatsimg}
+                          className="img-fluid"
+                        />
+                      </div>
+
                     </Col>
 
-                    <Col lg={4}>
-                      <div className={styles.boxSpace}>
-                        <div className={styles.workBox}>
-                          <Image alt="bitswits" src={sponsord} />
-                          <div className={styles.ourWork}>
-                            <Link
-                              className={styles.workTitle}
-                              href="/marketing-partnership-app-development-case-study"
-                            >
-                              Sponsord App
-                            </Link>
-                            <span className={styles.realDummy}>
-                              Developed A Sponsord App...
-                            </span>
+                    <Col lg={4} className={`${styles.menupostblog1} pt-4`}>
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/marketing-partnership-app-development-case-study'>INFLUENCER MARKETING APP</Link>
+                          </h4>
+                  
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={sponserdimg}
+                          className="img-fluid"
+                        />
+                      </div>
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/healthcare-app-development-case-study'>HEALTH CARE APP</Link>
+                          </h4>
+                       
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={healthimg}
+                          className="img-fluid"
+                        />
+                      </div>
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/ride-app-development-case-study'>RIDE APP</Link>
+                          </h4>
+                    
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={riderimg}
+                          className="img-fluid"
+                        />
+                      </div>
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/fitness-app-development-case-study'>FITNESS APP</Link>
+                          </h4>
+              
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={fitnowimg}
+                          className="img-fluid"
+                        />
+                      </div>
+
+                      <div className={styles.polo1}>
+                        <div>
+                          <h4>
+                            <Link className="white" href='/hiring-app-development-case-study'>HIRING APP</Link>
+                          </h4>
+                  
+                        </div>
+                        <Image
+                          alt="bitswits"
+                          src={readyappimg}
+                          className="img-fluid"
+                        />
+                      </div>
+
+                      <div className={`${styles.polo} ${styles.polo3}`}>
+                        <div>
+                          <h3 className="white font-bold letterspacefy font18">Contact Us</h3>
+                          <div className={styles.fill}>
+
+                            <div>
+                              <BsFillEnvelopeFill
+                                size={15}
+                                className={styles.email}
+                              />
+                            </div>
+                            <div>
+                              <Link
+                                className="font15 font-medium white fontf"
+                                href="mailto:info@bitswits.co"
+                              >
+                                info@bitswits.com
+                              </Link>
+                            </div>
+                          </div>
+                          <div className={styles.fill}>
+                            <div>
+                              <BsFillTelephoneFill
+                                size={15}
+                                className={styles.email}
+                              />
+                            </div>
+                            <div>
+                              <Link
+                                className="font15 font-medium white fontf"
+                                href="tel:+1 312 379 5987"
+                              >
+                                +1 312 379 5987
+                              </Link>
+                            </div>
+                          </div>
+                          <div className={styles.fill}>
+                            <div>
+                              <BsFillTelephoneFill
+                                size={15}
+                                className={styles.email}
+                              />
+                            </div>
+                            <div>
+                              <Link
+                                className="font15 font-medium white fontf"
+                                href="tel:+18335006007"
+                              >
+                                +1 833 500 6007
+                              </Link>
+                            </div>
+                          </div>
+                          <div className={styles.fill}>
+
+                            <div className="mt-1">
+                              <Link
+                                className="font15 font-medium white fontf"
+                                href="#"
+                              >
+                                Read More  <RiArrowDropRightLine className={styles.train} />
+                              </Link>
+                            </div>
                           </div>
                         </div>
-                        <div className={`${styles.workBox}`}>
-                          <Image alt="bitswits" src={health} />
-                          <div className={styles.ourWork}>
-                            <Link
-                              className={styles.workTitle}
-                              href="/healthcare-app-development-case-study"
-                            >
-                              Health Care App
-                            </Link>
-                            <span className={styles.realDummy}>
-                              AS Medicare - A Pharmacy...
-                            </span>
-                          </div>
-                        </div>
-                        <div className={styles.workBox}>
-                          <Image alt="bitswits" src={ride} />
-                          <div className={styles.ourWork}>
-                            <Link
-                              className={styles.workTitle}
-                              href="/ride-app-development-case-study"
-                            >
-                              Rider App
-                            </Link>
-                            <span className={styles.realDummy}>
-                              EZ Ride is a two-sided market...
-                            </span>
-                          </div>
-                        </div>
-                        <div className={styles.workBox}>
-                          <Image alt="bitswits" src={fit} />
-                          <div className={styles.ourWork}>
-                            <Link
-                              className={styles.workTitle}
-                              href="/fitness-app-development-case-study"
-                            >
-                              Fitnow App
-                            </Link>
-                            <span className={styles.realDummy}>
-                              Fitnow two-sided...
-                            </span>
-                          </div>
-                        </div>
-                        <div className={`${styles.workBox} ${styles.lastBox}`}>
-                          <Image alt="bitswits" src={ready} />
-                          <div className={styles.ourWork}>
-                            <Link
-                              className={styles.workTitle}
-                              href="/hiring-app-development-case-study"
-                            >
-                              Ready App
-                            </Link>
-                            <span className={styles.realDummy}>
-                              Ready App market...
-                            </span>
-                          </div>
+                        <div>
+                          <Image
+                            alt="bitswits"
+                            src={contact}
+                            className="img-fluid"
+                          />
                         </div>
                       </div>
+
+
                     </Col>
 
-                    <Col lg={4}>
-                      <div className={styles.boxSpace}>
-                        <div className={styles.workBox}>
-                          <Image alt="bitswits" src={foods} />
-                          <div className={styles.ourWork}>
-                            <Link
-                              className={styles.workTitle}
-                              href="/food-delivery-app-development-case-study"
-                            >
-                              Crave App
+                    <Col lg={4}  className={`${styles.newset}`} >
+                    
+                    <div className={styles.lptow}>
+                        <div className={styles.newbits}>
+                          <div>
+                            <h6>
+                              Train Now, <br></br>{" "}
+                              <span className={styles.pay}>Pay Later</span>{" "}
+                            </h6>
+                            <p>Book now and pay in instalments</p>
+                            <Link href="#">
+                              Learn more{" "}
+                              <RiArrowDropRightLine
+                                className={styles.train12}
+                              />{" "}
                             </Link>
-                            <span className={styles.realDummy}>
-                              Crave Courier - Food...
-                            </span>
+                          </div>
+                          <div>
+                            <Image
+                              alt="bitswits"
+                              src={icontwo}
+                              className="img-fluid"
+                            />
                           </div>
                         </div>
-                        <div className={styles.workBox}>
-                          <Image alt="bitswits" src={homeconnect} />
-                          <div className={styles.ourWork}>
-                            <Link
-                              className={styles.workTitle}
-                              href="/handyman-on-demand-app-development-case-study"
-                            >
-                              Homeconnect Pro
-                            </Link>
-                            <span className={styles.realDummy}>
-                              Home connect...
-                            </span>
-                          </div>
+                        <div className={styles.proper}>
+                          <h4>FOR BUSINESS CUSTOMERS</h4>
+                          <h3>
+                            HIRING & <br></br> TRAINING
+                          </h3>
+                          <p>
+                            Welcome to Bitswits, where app creation meets
+                            innovation. Whether it's 'Creating an App,' 'Making
+                            an App,' or diving into 'iOS' or 'Android
+                            Application' development, we're your team. Let's
+                            turn your vision into reality with our leading-edge
+                            app development expertise. Our Client’s Feedback Has
+                            Been
+                          </p>
                         </div>
-                        <div className={`${styles.workBox}`}>
-                          <Image alt="bitswits" src={music} />
-                          <div className={styles.ourWork}>
-                            <Link
-                              className={styles.workTitle}
-                              href="/music-app-development-case-study"
-                            >
-                              Beats App
+                        <div className={styles.slaes}>
+                          <p className="pb-0 mb-0">
+                            {" "}
+                            <Link href="tel:18335006007">
+                              <Image
+                                alt="bitswits"
+                                className="img-fluid"
+                                src={call}
+                                loading="lazy"
+                              />
+                              <span className="number">+1 833 500 6007</span>
                             </Link>
-                            <span className={styles.realDummy}>
-                              Ios And Android Games...
-                            </span>
-                          </div>
-                        </div>
-                        <div className={`${styles.workBox} ${styles.lastBox}`}>
-                          <div className={`${styles.ourWork} ${styles.cntct}`}>
-                            <div className={styles.fill}>
-                              <div>
-                                <BsFillEnvelopeFill
-                                  size={20}
-                                  className={styles.email}
-                                />
-                              </div>
-                              <div>
-                                <Link
-                                  className="font15 font-medium white fontf"
-                                  href="mailto:info@bitswits.co"
-                                >
-                                  info@bitswits.com
-                                </Link>
-                              </div>
-                            </div>
-                            <div className={styles.fill}>
-                              <div>
-                                <BsFillTelephoneFill
-                                  size={25}
-                                  className={styles.email}
-                                />
-                              </div>
-                              <div>
-                                <Link
-                                  className="font15 font-medium white fontf"
-                                  href="tel:+1 312 379 5987"
-                                >
-                                  +1 312 379 5987
-                                </Link>
-                              </div>
-                            </div>
-                            <div className={styles.fill}>
-                              <div>
-                                <BsFillTelephoneFill
-                                  size={25}
-                                  className={styles.email}
-                                />
-                              </div>
-                              <div>
-                                <Link
-                                  className="font15 font-medium white fontf"
-                                  href="tel:+18335006007"
-                                >
-                                  +1 833 500 6007
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
+                          </p>
+                          <p>
+                            <Link href="mailto:info@BitsWits.co">
+                              <Image
+                                alt="bitswits"
+                                className="img-fluid"
+                                src={mail}
+                                loading="lazy"
+                              />
+                              <span className="email f-uppercase">
+                                Contact Email
+                              </span>
+                            </Link>
+                          </p>
+                          <p className="mb-0 pb-3">
+                            <Link href="#" className={styles.newyork}>
+                              Learn More{" "}
+                              <RiArrowDropRightLine className={styles.train} />
+                            </Link>
+                          </p>
                         </div>
                       </div>
+                    
+
+
+
                     </Col>
                   </Row>
                 </div>

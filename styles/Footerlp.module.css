@@ -118,6 +118,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .footerNav {
+    padding-top: 50px;
+  }
+
   .trmCon {
     margin: 20px 0px;
   }

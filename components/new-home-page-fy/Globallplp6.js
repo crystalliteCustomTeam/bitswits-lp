@@ -26,7 +26,7 @@ const NewHomeGlobal = () => {
                     <Row>
                         <Col xl={12}>
                             <h3 className='font30 fw800 newfycolr center'>Publications</h3>
-                            <h2 className={`${styles.success} center`}>Many Got Featured In Major Publications <br />
+                            <h2 className={`${styles.success} center`}> <span className='newfycolr'>Many Got Featured In Major Publications</span> <br />
                                 Just By Working With Us.</h2>
 
 

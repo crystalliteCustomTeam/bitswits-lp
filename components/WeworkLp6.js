@@ -60,7 +60,7 @@ export default function WeworkLp6(props) {
                         </Row>
 
                         <Slider {...clientsthink} >
-                            <Col lg={4} className='p-3'>
+                            <Col lg={4} className='py-3'>
                                 <Image alt='BitsWits' src={startups1} className='img-fluid mb-3' />
                                 <h4 className='mt-4 white'>Pre-Seed & <br></br>
                                     Seed Startups</h4>

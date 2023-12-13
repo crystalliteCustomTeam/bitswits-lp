@@ -200,11 +200,11 @@
 
 .megamenuwork {
   position: absolute;
-  background-color: black;
+  background-color: white;
   width: 100%;
   left: 0;
   right: 0;
-  padding: 25px;
+  padding-left: 25px;
   height: auto;
 }
 
@@ -212,7 +212,6 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  background-color: #1c1c1cc2;
   padding: 20px;
   border-radius: 10px;
   height: 100%;
@@ -546,12 +545,31 @@
   overflow: hidden;
   transition: all 0.3s ease-in-out;
 }
+.polo1 {
+  display: flex;
+  border-radius: 7px;
+  height: 50px;
+  position: relative;
+  background-color: #242429;
+  flex: 0 0 49%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  align-items: center;
+}
 
 .active .polo {
   background-color: #e83468;
 }
+.active .polo1 {
+  background-color: #e83468;
+}
 
 .polo:hover {
+  background: #e83468;
+  border-radius: 7px;
+}
+.polo1:hover {
   background: #e83468;
   border-radius: 7px;
 }
@@ -569,7 +587,30 @@
   z-index: 999;
   line-height: 20px;
 }
-
+.polo1 h4 {
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  z-index: 999;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+.polo3{
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.polo1{
+  padding-left: 20px;
+}
+.polo3{
+  height: 168px;
+  display: flex;
+  align-items: center;
+}
+.email{
+  color: white;
+  font-size: 20px;
+}
 .poloTwo {
   display: flex;
   border-radius: 7px;
@@ -621,6 +662,17 @@
   transition: all 0.3s ease-in-out;
   top: 50%;
   transform: translateY(-50%);
+}
+.polo1 img {
+  bottom: 0;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 15px;
+  transition: all 0.3s ease-in-out;
+  top: 50%;
+  transform: translateY(-50%);
+  object-fit: contain;
 }
 
 .imgpost:hover a {

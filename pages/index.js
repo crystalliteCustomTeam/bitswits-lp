@@ -71,8 +71,6 @@ export default function Home() {
         };
     }, []);
 
-
-
     var awardslogo = {
         dots: false,
         arrows: false,
@@ -189,7 +187,6 @@ export default function Home() {
         },
       ];
 
-
     return (
         <>
             <Head>
@@ -212,7 +209,7 @@ export default function Home() {
                                     Endorsements on different Platforms
                                 </p>
                                 <h1 className={`fontawards font-bold mb-3 mb-lg-0 ${styles.textPink}`}>
-                                    Awards &
+                                    Awards & <br />
                                     Recognition
                                 </h1>
                             </div>

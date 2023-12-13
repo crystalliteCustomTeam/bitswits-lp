@@ -121,9 +121,10 @@ const LpChoose = (props) => {
         <Container>
           <Row className="align-items-center gy-lg-5 gy-4">
             <Col lg={6} className={styles.walk}>
-              <h3 className="white font50 font-bold f-700">Why Choose Us</h3>
+              <h3 className="white newchoose font-bold f-700">Why Choose Us</h3>
               <h2 className="white f-500 my-2 my-lg-3">
-                For Your Mobile App Development Needs?
+                For Your Mobile App <br className="d-lg-block d-none" />{" "}
+                Development Needs?
               </h2>
               <p>
                 Our <span>mobile app development services</span> turn your

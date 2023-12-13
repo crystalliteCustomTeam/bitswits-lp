@@ -17,7 +17,7 @@ const ServiceBanner = (props) => {
                 {props.subtitle}
               </p>
               <h1
-                className={`${styles.develop} text-center font60 font-bold mb-2`}
+                className={`${styles.develop} text-center font55home font-bold mb-2`}
               >
                 {props.title}
               </h1>

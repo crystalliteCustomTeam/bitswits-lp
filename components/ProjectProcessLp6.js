@@ -15,7 +15,7 @@ const ProjectProcessLp6 = (props) => {
               <h3 className="white font30 f-700 center">
                 Streamlined Process to Develop Your App
               </h3>
-              <h2 className="white font50 f-700 center">{props.title}</h2>
+              <h2 className="white newchoose f-700 center">{props.title}</h2>
 
               <div
                 dangerouslySetInnerHTML={{

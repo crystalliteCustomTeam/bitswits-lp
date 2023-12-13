@@ -64,10 +64,22 @@ export default function Nothing(props) {
                 }
 
                 @media screen and (max-width: 1280px) {
+                    .swiper::after {
+                      width: 56%;
+                  }
+                }
+
+                @media screen and (max-width: 991px) {
+                    .swiper::after {
+                      width: 79%;
+                  }
+                }
+
+                @media screen and (max-width: 767px) {
                   .swiper::after {
                     width: 56%;
                 }
-                }
+              }
             `,
       ],
       pagination: {
@@ -130,7 +142,7 @@ export default function Nothing(props) {
                         src={news1}
                         className="img-fluid  "
                       />
-                      <p className="white font12 mt-4 mb-1">
+                      <p className="white font12 mt-4 mb-1 fontf font-regular">
                         Bitswits' development of the ProEYE project, a wallet
                         analytics and search engine platform on blockchain, was
                         exceptional. Their comprehensive work, from requirement

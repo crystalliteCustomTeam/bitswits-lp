@@ -95,7 +95,7 @@ export default function WeworkLp6(props) {
                         <Row className='align-items-center'>
 
                             <Col lg={12}>
-                                <h2 className="white fontpink100 f-700 mb-4">
+                                <h2 className="text-left white fontpink100 f-700 mb-4">
                                     <span> We Work </span> With:
                                 </h2>
                             </Col>
