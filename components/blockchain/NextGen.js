@@ -21,8 +21,8 @@ const NextGen = (props) => {
                 <Container>
                     <Row className='justify-content-center align-items-center'>
                         <Col lg={8} className='pt-4 pb-4 border-top border-bottom'>
-                            <h2 className="text-white f40 mb-2">{props.nextTtitle1}</h2>
-                            <h4 className="fw300 f30 text-white mb-2">{props.nextsub}</h4>
+                            <h2 className="text-white mb-2">{props.nextTtitle1}</h2>
+                            <h4 className="fw300 text-white mb-2">{props.nextsub}</h4>
                             <p className='text-white fw300'>{props.nextPara}</p>
                             <CTA number="1-844-400-0025" discuss="Hire Blockchain Developer" />
                         </Col>

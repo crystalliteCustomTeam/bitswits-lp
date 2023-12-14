@@ -33,14 +33,13 @@ const WhyChooseUs = (props) => {
                 <Container>
                     <Row className='justify-content-center align-items-center '>
                         <Col lg={6} className='border-top border-bottom pt-2 pt-sm-5 pb-2 pb-sm-5 pe-2 pe-sm-5'>
-                            <h2 className="text-white f40 fw700 mb-2">{props.whyTitle}</h2>
+                            <h2 className="text-white fw700 mb-0 mb-sm-2">{props.whyTitle}</h2>
                             <h4 className="fw400 f24 text-white mb-2">{props.whySubTitle} </h4>
                             <p className='f14 text-white'> {props.whyPara}</p>
                         </Col>
                         <Col lg={6}>
                             <div className='d-none d-lg-block'>
                                 <Row className='justify-content-center align-items-center'>
-
                                     <Col lg={4} className={`${style.br1} ${style.bb1} position-relative`}>
                                         <div className={`${style.feature}`}>
                                             <div className={`${style.gap2} justify-content-left align-items-center`}>

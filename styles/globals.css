@@ -51,8 +51,6 @@
   font-display: swap;
 }
 
-
-
 @font-face {
   font-family: Gilroy-Bold;
   src: url(../public/fontgilroy/Gilroy-Bold.ttf);
@@ -74,7 +72,6 @@
   font-display: swap;
 }
 
-
 @font-face {
   font-family: Gilroy-MediumItalic;
   src: url(../public/fontgilroy/Gilroy-MediumItalic.ttf);
@@ -90,9 +87,6 @@
   src: url(../public/fontgilroy/Gilroy-SemiBold.ttf);
   font-display: swap;
 }
-
-
-
 
 * {
   font-family: "SF-Pro-Display";
@@ -141,30 +135,30 @@ div {
   font-family: "Nofex", sans-serif;
 }
 
-.fontgilroybold{
-  font-family: 'Gilroy-Bold', sans-serif;
+.fontgilroybold {
+  font-family: "Gilroy-Bold", sans-serif;
 }
 
-.fontgilroygilroyExtraBold{
-  font-family: 'Gilroy-ExtraBold', sans-serif;
+.fontgilroygilroyExtraBold {
+  font-family: "Gilroy-ExtraBold", sans-serif;
 }
 
-.fontgilroyheavy{
-  font-family: 'Gilroy-Heavy', sans-serif;
+.fontgilroyheavy {
+  font-family: "Gilroy-Heavy", sans-serif;
 }
 
-.fontgilroylight{
-  font-family: 'Gilroy-Light', sans-serif;
+.fontgilroylight {
+  font-family: "Gilroy-Light", sans-serif;
 }
 
-.fontgilroymediumitalic{
-  font-family: 'Gilroy-MediumItalic', sans-serif;
+.fontgilroymediumitalic {
+  font-family: "Gilroy-MediumItalic", sans-serif;
 }
-.fontgilroygilroygilroyregular{
-  font-family: 'Gilroy-Regular', sans-serif;
+.fontgilroygilroygilroyregular {
+  font-family: "Gilroy-Regular", sans-serif;
 }
-.fontgilroygilroysemibold{
-  font-family: 'Gilroy-SemiBold', sans-serif;
+.fontgilroygilroysemibold {
+  font-family: "Gilroy-SemiBold", sans-serif;
 }
 /* fontweight */
 
@@ -427,6 +421,11 @@ div {
   line-height: 65px;
 }
 
+.font55block{
+  font-size: calc(47px + 0.390625vw);
+  line-height: 60px;
+}
+
 .fontawards {
   font-size: calc(57px + 0.390625vw);
   line-height: 65px;
@@ -474,26 +473,25 @@ div {
   font-weight: 400;
 }
 
-
 /* blockchainfonts */
-.blockbannerheading{
+.blockbannerheading {
   font-size: 50px;
   font-weight: bold;
 }
-.letterspaceblock{
+.letterspaceblock {
   letter-spacing: 2px;
 }
-.fonttextblock{
+.fonttextblock {
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
 }
-.blockbannerheadingfont60{
+.blockbannerheadingfont60 {
   font-size: 60px;
   font-weight: bold;
 }
 
-.fontitalic{
+.fontitalic {
   font-style: italic;
 }
 
@@ -2304,6 +2302,11 @@ input::-webkit-inner-spin-button {
     line-height: 50px;
   }
 
+  .font55block{
+    font-size: calc(40px + 0.390625vw);
+    line-height: 50px;
+  }
+
   .fontawards {
     font-size: calc(60px + 0.390625vw);
     line-height: 70px;
@@ -2312,7 +2315,7 @@ input::-webkit-inner-spin-button {
   .fontpink100 {
     font-size: calc(60px + 0.390625vw);
     line-height: 70px;
-    text-align: center;
+    text-align: left;
   }
 
   .fontwhite40 {
@@ -2418,15 +2421,20 @@ input::-webkit-inner-spin-button {
     line-height: 45px;
   }
 
+  .font55block {
+    font-size: calc(30px + 0.390625vw);
+    line-height: 35px;
+}
+
   .fontawards {
     font-size: calc(50px + 0.390625vw);
     line-height: 55px;
   }
 
   .fontpink100 {
-    font-size: calc(50px + 0.390625vw);
-    line-height: 55px;
-    text-align: center;
+    font-size: calc(30px + 0.390625vw);
+    line-height: 35px;
+    text-align: left;
   }
 
   .fontwhite40 {
@@ -2449,7 +2457,7 @@ input::-webkit-inner-spin-button {
   }
 
   .newchoose {
-    font-size: 45px;
+    font-size: 30px;
   }
 }
 
@@ -2476,6 +2484,11 @@ input::-webkit-inner-spin-button {
   .font210 {
     font-size: 74px;
     line-height: 70px;
+  }
+
+  .font55home {
+    font-size: calc(25px + 0.390625vw);
+    line-height: 32px;
   }
 
   .newbit img {

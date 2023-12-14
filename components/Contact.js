@@ -67,21 +67,21 @@ const Contact = (props) => {
                     <Row className='justify-content-between'>
                         <Col lg={4}>
                             <div className={styles.cntcTxt}>
-                                <h2 className='font60 black fontf font-bold line60 mb-4'>
+                                <h2 className='newchoose black fontf font-bold line60 mb-2 mb-sm-4'>
                                     LET’S <span className='grdiant'>TALK ABOUT YOUR</span> PROJECTS
                                 </h2>
-                                <p className='font18 fontf mb-4'>Have a project idea? Tell us more about the details and we'll get back to you within 24 hours</p>
-                                <Row className='g-5 mt-3'>
-                                    <Col md={6}>
+                                <p className='font18 fontf mb-2 mb-sm-4'>Have a project idea? Tell us more about the details and we'll get back to you within 24 hours</p>
+                                <Row className='g-5 mt-0 mt-sm-3'>
+                                    <Col md={6} className='mt-2 mt-sm-4'>
                                         <Image quality={75} src={img1} className='img-fluid' alt='BitsWits' />
                                     </Col>
-                                    <Col md={6}>
+                                    <Col md={6} className='mt-2 mt-sm-4'>
                                         <Image quality={75} src={img2} className='img-fluid' alt='BitsWits' />
                                     </Col>
-                                    <Col md={6}>
+                                    <Col md={6} className='mt-2 mt-sm-4'>
                                         <Image quality={75} src={img3} className='img-fluid' alt='BitsWits' />
                                     </Col>
-                                    <Col md={6}>
+                                    <Col md={6} className='mt-2 mt-sm-4'>
                                         <Image quality={75} src={img4} className='img-fluid' alt='BitsWits' />
                                     </Col>
                                 </Row>

@@ -20,10 +20,12 @@ const People = React.lazy(() => import("@/components/People"));
 const HomeBannerSliderlp = React.lazy(() =>
   import("@/components/HomeBannerSliderlp")
 );
+// const LpChoose = React.lazy(() => import("@/components/LpChoose"));
 const LpChoose = React.lazy(() => import("@/components/LpChoose"));
 const LpForm = React.lazy(() => import("@/components/LpForm6"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
-const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
+// const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
+const WeworkLp = React.lazy(() => import("@/components/new-home-page-fy/WeworkLphome"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
 const ProjectProcess = React.lazy(() =>
   import("@/components/ProjectProcessLp6")
@@ -248,7 +250,7 @@ export default function gamedevelopmentcompany() {
 
       {/* <NewAddress /> */}
 
-      <WeworkLp wework="weworkLp6" />
+      <WeworkLp wework="weworkLpnewhomefy" />
 
       <StartupsLp startups="startups" />
 
@@ -275,7 +277,7 @@ export default function gamedevelopmentcompany() {
                 WhatImage={WhatImage}
             /> */}
 
-      <LpChoose transform="hybirf" />
+      <LpChoose transform="transform" />
 
       <ServicesPortfolio
         title={
@@ -326,7 +328,7 @@ export default function gamedevelopmentcompany() {
           },
         ]}
       />
-      
+
       <Technologieswe />
 
       {/* <NewHomeGlobal />

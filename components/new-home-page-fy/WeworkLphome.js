@@ -23,8 +23,6 @@ export default function WeworkLp6(props) {
         adaptiveHeight: true
     };
 
-
-
     useEffect(() => {
 
         const handleResize = () => {
@@ -51,18 +49,18 @@ export default function WeworkLp6(props) {
 
             {isSliderActive ?
 
-                <div className={`${styles[props.wework]} pb-0`}>
+                <div className={`${styles[props.wework]} `}>
                     <Container>
                         <Row className='align-items-center'>
                             <Col lg={12}>
-                                <h2 className="white fontpink100 f-700 mb-4">
+                                <h2 className="white fontpink100 f-700 mb-2 mb-sm-4">
                                     <span> We Work </span> With:
                                 </h2>
                             </Col>
                         </Row>
 
-                        <Slider {...clientsthink} className={styles[props.wework]}>
-                            <Col lg={4} className='p-3'>
+                        <Slider {...clientsthink}>
+                            <Col lg={4} className='py-3'>
                                 <Image alt='BitsWits' src={startups1} className='img-fluid mb-3' />
                                 <h4 className='mt-4 white'>Pre-Seed & <br></br>
                                     Seed Startups</h4>
