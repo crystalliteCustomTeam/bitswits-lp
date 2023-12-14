@@ -41,22 +41,28 @@
 
 @media screen and (max-width: 991px) {
   .weworkLp6 {
-    padding: 50px 0 50px;
+    padding: 0 0 80px !important;
+  }
+  .weworkLpnewhomefy {
+    padding: 0 0 80px;
   }
 
-  .weworkLpnewhomefy {
-    padding: 50px 0;
+  .wework {
+    padding: 0 0 80px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .weworkLp6 {
-    padding: 50px 0 0px;
-  }
-}
 
-@media screen and (max-width: 480px) {
+  .weworkLp6 {
+    padding: 0 0 0px !important;
+  }
+
   .weworkLpnewhomefy {
+    padding: 0 0 50px;
+  }
+
+  .wework {
     padding: 0 0 50px;
   }
 }

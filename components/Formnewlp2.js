@@ -15,7 +15,7 @@ const Formnewlp = () => {
         <>
             <section className={styles.team}>
                 <Container>
-                    <Row className='align-items-center'>
+                    <Row className='align-items-center gy-3 gy-lg-0'>
                         <Col xl={6}>
                             <div className={styles.star}>
                                 <h3 className='font20 white fw800'>30 Minutes Strategy Session</h3>

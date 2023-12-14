@@ -70,7 +70,7 @@
   }
 
   .team {
-    padding: 50px 0;
+    padding: 0 0 80px;
   }
 
   .lctnslide img.minImg {
@@ -96,7 +96,7 @@
 
 @media screen and (max-width: 767px) {
   .team {
-    padding-bottom: 0px;
+    padding-bottom: 50px;
   }
 
   .success {

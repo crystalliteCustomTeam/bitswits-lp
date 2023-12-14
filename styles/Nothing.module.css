@@ -135,12 +135,13 @@
 
 @media screen and (max-width: 991px) {
   .nothing {
-    padding-top: 80px;
+    padding-top: 30px;
+    padding-bottom: 80px;
   }
 
   .nothingLp6 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .nothingLphomefy {
@@ -152,6 +153,11 @@
   .nothingLp6 {
     padding-top: 50px;
     padding-bottom: 0;
+  }
+
+  .nothing {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .nothingLphomefy {

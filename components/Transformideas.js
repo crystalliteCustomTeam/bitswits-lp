@@ -22,7 +22,7 @@ export default function Transform(props) {
         <>
             <section className={styles[props.transform]}>
                 <Container>
-                    <Row className='align-items-center'>
+                    <Row className='align-items-center gy-3 gy-md-0'>
 
                         <Col lg={6} className={styles.walk}>
                             <h3 className='white font25 f-300'>A Walkthrough Of Our Expertise</h3>

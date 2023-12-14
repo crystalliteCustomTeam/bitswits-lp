@@ -1,23 +1,21 @@
 .transform {
   background-color: black;
-  padding-top: 250px;
-  padding-bottom: 150px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-image: url(../public/newHomePage/images/bg-image.png);
   background-repeat: no-repeat;
   background-size: 60%;
   background-position: 600px center;
   background-color: black;
-
 }
-.ourt{
+.ourt {
   display: flex;
 }
-
 
 .dus {
   width: 243px;
   height: 55px;
-  background-color: #F32F53;
+  background-color: #f32f53;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,16 +23,15 @@
   font-weight: 300;
   border-radius: 10px;
   gap: 12px;
-
 }
 
-.cart{
+.cart {
   display: flex;
   gap: 10px;
   justify-content: flex-end;
   margin-top: 2%;
 }
-.post{
+.post {
   background-color: black;
   height: 282px;
   width: 196px;
@@ -47,12 +44,12 @@
   border-top-right-radius: 0px;
   box-shadow: rgb(100 100 111 / 31%) 0px 7px 29px 0px;
 }
-.post h3{
+.post h3 {
   font-size: 40px;
   font-weight: bold;
   color: white;
 }
-.post p{
+.post p {
   font-size: 16px;
   font-weight: 500;
   color: white;
@@ -60,9 +57,7 @@
 }
 
 @media screen and (max-width: 1400px) {
-
   .transform {
-    
     background-image: url(../public/newHomePage/images/bg-image.png);
     background-repeat: no-repeat;
     background-size: 87%;
@@ -70,50 +65,49 @@
     background-color: black;
   }
 
-.walk h2{
-  font-size: 31px;
-}
-.walk h3{
-  font-size: 20px;
-}
+  .walk h2 {
+    font-size: 31px;
+  }
+  .walk h3 {
+    font-size: 20px;
+  }
 
-.walk p{
-  font-size: 14px;
-  max-width: 530px;
-}
-
-
+  .walk p {
+    font-size: 14px;
+    max-width: 530px;
+  }
 }
 
-@media screen and (min-width: 1400px) { 
-
-
+@media screen and (min-width: 1400px) {
   .transform {
-    
     background-image: url(../public/newHomePage/images/bg-image.png);
     background-repeat: no-repeat;
     background-size: 72%;
     background-position: 550px center;
     background-color: black;
-  
   }
-
 }
 
+@media screen and (max-width: 991px) {
+  .transform {
+    padding: 0 0 80px;
+  }
+}
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 480px) {
   .cart {
     display: flex;
     gap: 10px;
     justify-content: flex-end;
     margin-top: 2%;
     flex-direction: column;
-}
+  }
 
-.post {
-  
-  width: 100%;
- 
-}
+  .post {
+    width: 100%;
+  }
 
+  .transform {
+    padding: 0 0 50px;
+  }
 }

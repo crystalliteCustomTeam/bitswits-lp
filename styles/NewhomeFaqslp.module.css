@@ -98,7 +98,7 @@
 
 @media screen and (max-width: 991px) {
   .faqs {
-    padding: 50px 0 50px;
+    padding: 0 0 80px;
   }
 
   .about {
@@ -108,7 +108,7 @@
 
 @media screen and (max-width: 767px) {
   .faqs {
-    padding: 50px 0 0px;
+    padding: 0 0 50px;
   }
 }
 

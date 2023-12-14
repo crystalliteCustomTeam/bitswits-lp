@@ -81,7 +81,7 @@ const NewFaqslp = () => {
           </Row>
           <Row>
             <Col lg={12}>
-              <div className={`${faq1show ? "touchFaq" : ""} mb-4 mb-lg-0 mt-5`}>
+              <div className={`${faq1show ? "touchFaq" : ""} mb-4 mb-lg-0 mt-4 mt-lg-5`}>
                 <div onClick={faq1} className={styles.heading}>
                   <h3>
                     What is mobile application development?{" "}

@@ -1,6 +1,6 @@
 .newHomeBg {
-  padding-top: 0px;
-  padding-bottom: 70px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background: #000;
   margin-top: -1%;
 }
@@ -19,7 +19,6 @@
   overflow: auto;
   padding-right: 10px;
 
-
   -webkit-box-orient: vertical;
 }
 
@@ -27,7 +26,6 @@
   max-width: 315px;
   height: 77px;
   overflow: auto;
-
 }
 
 .para1 {
@@ -119,8 +117,6 @@
   gap: 40px;
   justify-content: flex-end;
 }
-
-
 
 .app6 {
   display: flex;
@@ -334,7 +330,10 @@
 }
 
 @media only screen and (max-width: 1399px) {
-  .app, .app33, .app44, .app55 {
+  .app,
+  .app33,
+  .app44,
+  .app55 {
     height: 456px;
   }
 
@@ -412,7 +411,6 @@
 }
 
 @media screen and (max-width: 991px) {
-
   .app1,
   .app {
     -webkit-mask: linear-gradient(#fff 0 0) padding-box,
@@ -456,11 +454,16 @@
     max-width: 99%;
     margin-left: 3px;
   }
+
+  .newHomeBg {
+    padding-top: 0px;
+    padding-bottom: 80px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .newHomeBg {
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 50px;
   }
 
@@ -518,7 +521,6 @@
 }
 
 @media screen and (max-width: 480px) {
-
   .book,
   .about {
     font-size: 10px !important;

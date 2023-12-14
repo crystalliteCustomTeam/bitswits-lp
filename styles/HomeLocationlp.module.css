@@ -1,7 +1,8 @@
 .locations {
   background-color: #000;
   position: relative;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .mapVideo {
@@ -75,6 +76,13 @@
   }
 
   .locations {
-    padding-bottom: 50px;
+    padding: 0 0 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  .locations {
+    padding: 0px 0 50px;
   }
 }

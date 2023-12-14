@@ -352,7 +352,7 @@ export default function Nothing(props) {
                     </div>
                   </swiper-slide>
                 </swiper-container>
-                <div className="mt-5">
+                <div className="mt-4 mt-md-5">
                   <Link href="#" className={styles.btnpost}>
                     Begin Your Success Story : Connect Now
                   </Link>
