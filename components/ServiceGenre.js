@@ -14,7 +14,7 @@ const ServiceGenre = (props) => {
                     <Row className={styles.which}>
                         <Col xl={12}>
                             <p className='text-center font20 font-bold'>{props.subTitle}</p>
-                            <h3 className='text-white text-center font55 font-bold'>{props.title}</h3>
+                            <h3 className='text-white text-center newchoose font-bold'>{props.title}</h3>
                         </Col>
                     </Row>
                     <Row className={` ${styles.play}`}>

@@ -9,7 +9,7 @@
 }
 
 .work {
-  font-size: 60px;
+  /* font-size: 60px; */
   text-align: center;
   color: white;
   font-weight: bold;
@@ -152,7 +152,7 @@
   }
 
   .work {
-    font-size: 34px;
+    font-size: 30px;
     text-align: center;
     color: white;
     font-weight: bold;

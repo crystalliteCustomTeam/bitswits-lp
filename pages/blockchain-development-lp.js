@@ -33,10 +33,13 @@ export default function Home() {
     </span>
   );
   const title = (
-    <span className="f18">
-      Transform <span className="f18 grdiant">Your Business</span> Idea Into
-      Reality with{" "}
-      <span className="f50 fw700 grdiant">
+    <span className="">
+      <span className="d-block f18">
+        {" "}
+        Transform <span className="f18 grdiant">Your Business</span> Idea Into
+        Reality with
+      </span>
+      <span className="newchoose fw700 grdiant">
         {" "}
         <br></br> Blockchain Software Development Company{" "}
       </span>{" "}
@@ -50,7 +53,7 @@ export default function Home() {
     </span>
   );
   const hireSubTile = (
-    <span className="f50 fw700"> Firm To Upscale Your Business </span>
+    <span className="newchoose fw700"> Firm To Upscale Your Business </span>
   );
 
   const revTile11 = (
@@ -60,7 +63,7 @@ export default function Home() {
     </span>
   );
   const revSubTile = (
-    <span className="f50 fw700 grdiant">
+    <span className="newchoose fw700 grdiant">
       {" "}
       Revolutionary Blockchain App Development Services{" "}
     </span>
@@ -83,7 +86,7 @@ export default function Home() {
     </span>
   );
   const Nextsub = (
-    <span className="f50 fw700 grdiant">
+    <span className="newchoose fw700 grdiant">
       {" "}
       Next Generational Blockchain Solution{" "}
     </span>
@@ -96,7 +99,7 @@ export default function Home() {
   );
 
   const NextTtitle2 = (
-    <span className="f50 fw700">
+    <span className="newchoose fw700">
       {" "}
       Let’s Build <span className="grdiant">A Secure,</span> Transparent,{" "}
       <span className="">And</span> Decentralized{" "}
@@ -115,8 +118,8 @@ export default function Home() {
   const Image = "../public/images/poster.png";
 
   const exTitle = (
-    <span className="f50 fw700">
-      Our <span className="f50 fw700">Expertise </span> In{" "}
+    <span className="newchoose fw700">
+      Our <span className="">Expertise </span> In{" "}
       <span className="grdiant">Blockchain Development</span> Platforms
     </span>
   );
@@ -129,7 +132,7 @@ export default function Home() {
   );
 
   const whyTitle = (
-    <span className="f50">
+    <span className="newchoose ">
       Why <span className="grdiant">Choose</span> Blocktech Brew{" "}
       <span className="">As</span>{" "}
     </span>

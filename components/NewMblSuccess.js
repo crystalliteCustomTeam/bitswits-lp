@@ -19,7 +19,7 @@ const Newsuccess = (props) => {
                     <Row>
                         <Col xl={12}>
                             <div>
-                                <h5 className='newfycolr'>{props.subtitle}</h5>
+                                <h5 className='newfycolr mb-0 mb-sm-2'>{props.subtitle}</h5>
                                 <h2 className='newchoose f-700 white center mb-3 mb-sm-5'>{props.maintitle}</h2>
                             </div>
                         </Col>

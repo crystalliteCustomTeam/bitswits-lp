@@ -15,7 +15,7 @@ const ServiceTarget = (props) => {
                     <Row className={styles.after}>
                         <Col xl={12}>
                             <h3>{props.subTitle}</h3>
-                            <h2>{props.title}</h2>
+                            <h2 className='newchoose'>{props.title}</h2>
                             <p>{props.text}</p>
                         </Col>
                     </Row>

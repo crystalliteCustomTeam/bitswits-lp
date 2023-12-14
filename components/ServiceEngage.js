@@ -17,7 +17,7 @@ const ServiceEngage = (props) => {
               <p className="f-20 font-bold text-center mb-0">
                 {props.subTitle}
               </p>
-              <h2>{props.title}</h2>
+              <h2 className="newchoose">{props.title}</h2>
             </Col>
           </Row>
 

@@ -34,7 +34,7 @@ const Process = (props) => {
                 <Container>
                     <Row className='mb-5'>
                         <Col lg={12}>
-                            <h2 className='f50 fw700 text-white text-center'>Result<span className='f50 fw700 text-white'>-Oriented</span><span></span> <span className='grdiant'>Blockchain Development Process</span> We Employ</h2>
+                            <h2 className='newchoose fw700 text-white text-center'>Result<span className=' fw700 text-white'>-Oriented</span><span></span> <span className='grdiant'>Blockchain Development Process</span> We Employ</h2>
                         </Col>
                     </Row>
                     <div className='d-none d-lg-block'>

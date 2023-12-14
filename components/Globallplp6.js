@@ -25,7 +25,7 @@ const NewHomeGlobal = () => {
                 <Container>
                     <Row>
                         <Col xl={12}>
-                            <h3 className='font30 fw800 white center'>World-Renowned</h3>
+                            <h3 className='font30 fw800 white center mb-0 mb-sm-1'>World-Renowned</h3>
                             <h2 className={`${styles.success} center newchoose`}>Brands Trust Us</h2>
 
 

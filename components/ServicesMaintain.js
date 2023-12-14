@@ -17,7 +17,7 @@ const ServicesMaintain = (props) => {
               <h3 className={`font24 font-bold text-center mb-2 ling15`}>
                 {props.subtitle}
               </h3>
-              <h2 className="text-white font50 f-700 text-center mb-2">
+              <h2 className="text-white newchoose f-700 text-center mb-2">
                 {props.title0}
                 <span className="newfycolr font50 f-700 text-center d-block mb-2">
                   {props.title}

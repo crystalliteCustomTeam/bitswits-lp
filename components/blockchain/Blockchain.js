@@ -25,7 +25,7 @@ const Blockchain = (props) => {
           <Row className="justify-content-center align-items-center mb-5">
             <Col lg={12}>
               <h2 className="text-white f40 mb-2">{props.hireTile}</h2>
-              <h4 className="fw300 f40 txt-primary mb-2">
+              <h4 className="fw300 txt-primary mb-2">
                 {props.hireSubTile}
               </h4>
             </Col>

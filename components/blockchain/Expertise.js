@@ -34,8 +34,8 @@ const Expertise = (props) => {
                 <Container>
                     <Row>
                         <Col lg={9} className='pb-4'>
-                            <h4 className="fw300 f28 text-white mb-2">{props.exTitle}</h4>
-                            <p className='text-white fw300'>{props.exPara}</p>
+                            <h4 className="fw300 text-white mb-2">{props.exTitle}</h4>
+                            <p className='text-white fw300'>{props.exPara}</p>  
                         </Col>
                     </Row>
                     <Row className={`${style.border1} ${style.experts} justify-content-center align-items-center text-center position-relative`}>

@@ -12,7 +12,7 @@ const ProjectProcessLp6 = (props) => {
         <Container>
           <Row>
             <Col>
-              <h3 className="white font30 f-700 center">
+              <h3 className="white font30 f-700 center mb-0 mb-sm-1">
                 Streamlined Process to Develop Your App
               </h3>
               <h2 className="white newchoose f-700 center">{props.title}</h2>
