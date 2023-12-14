@@ -8,9 +8,9 @@ const CaseGoal = React.lazy(() => import('@/components/NewCaseGoal'));
 const CaseOvercoming = React.lazy(() => import('@/components/NewCaseOvercoming'));
 const CaseAnimate = React.lazy(() => import('@/components/CaseAnimate'));
 const NewCaseServices = React.lazy(() => import('@/components/NewCaseServices'));
-const NewCaseChoose = React.lazy(() => import('@/components/NewCaseChoose'));
-const NewCaseGlobal = React.lazy(() => import('@/components/NewCaseGlobal'));
-const NewCaseCapabilities = React.lazy(() => import('@/components/NewCaseCapabilities'));
+const CaseChoose = React.lazy(() => import('@/components/CaseChoose'));
+const CaseGlobal = React.lazy(() => import('@/components/CaseGlobal'));
+const CaseCapabilities = React.lazy(() => import('@/components/CaseCapabilities'));
 const Technologieswe = React.lazy(() => import('@/components/Technologieswe'));
 const Nothing = React.lazy(() => import('@/components/Nothing'));
 const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
@@ -33,7 +33,21 @@ const animiImg1 = await import('../public/images/case-wisu/animi1.png');
 const animiImg2 = await import('../public/images/case-wisu/animi2.png');
 const animiImg3 = await import('../public/images/case-wisu/animi3.png');
 //
-
+const service1 = await import('../public/images/new-case-page/service1.png');
+const service2 = await import('../public/images/new-case-page/service2.png');
+const service3 = await import('../public/images/new-case-page/service3.png');
+const service4 = await import('../public/images/new-case-page/service4.png');
+const service5 = await import('../public/images/new-case-page/service5.png');
+//
+const chosImg1 = await import('../public/images/lp-images/icon1.png');
+const chosImg2 = await import('../public/images/lp-images/icon2.png');
+const chosImg3 = await import('../public/images/lp-images/icon3.png');
+const chosImg4 = await import('../public/images/lp-images/icon4.png');
+const chosImg5 = await import('../public/images/lp-images/icon5.png');
+const chosImg6 = await import('../public/images/lp-images/icon6.png');
+const chosImg7 = await import('../public/images/lp-images/icon7.png');
+const chosImg8 = await import('../public/images/lp-images/icon8.png');
+const chosImg9 = await import('../public/images/lp-images/icon9.png');
 
 
 export default function Wisu() {
@@ -189,10 +203,62 @@ export default function Wisu() {
         animiImg3={animiImg3}
       />
 
-      <NewCaseServices />
-      <NewCaseChoose />
-      <NewCaseGlobal />
-      <NewCaseCapabilities />
+      <NewCaseServices
+        title={<> <span>Services:</span> For </>}
+        point1={<> Native Mobile App Development </>}
+        point2={<> Stunning UI/UX Design </>}
+        point3={<> Consumer/ Service Provider Interface </>}
+        service1={service1}
+        service2={service2}
+        service3={service3}
+        service4={service4}
+        service5={service5}
+      />
+      <CaseChoose
+        title={<> <span>Why Trust <br /> BitsWits</span> with App Development? </>}
+        text1={<> We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions. </>}
+        text2={<> Our track record of delivering on time and within budget, coupled with a commitment to staying ahead of industry trends, sets us apart as the best partner for mobile app development. </>}
+        items={[
+          {
+            image: chosImg1,
+            text: (<> Experienced  <br /> Professionals </>)
+          },
+          {
+            image: chosImg2,
+            text: (<> On-Time <br /> Delivery </>)
+          },
+          {
+            image: chosImg3,
+            text: (<> Cost-Effective <br /> Solutions </>)
+          },
+          {
+            image: chosImg4,
+            text: (<> Scalable and <br /> Secure Apps </>)
+          },
+          {
+            image: chosImg5,
+            text: (<> User-Centric <br /> Design </>)
+          },
+          {
+            image: chosImg6,
+            text: (<> Customized <br /> Development </>)
+          },
+          {
+            image: chosImg7,
+            text: (<> Error-Free <br /> Delivery </>)
+          },
+          {
+            image: chosImg8,
+            text: (<> Transparent <br /> Communication </>)
+          },
+          {
+            image: chosImg9,
+            text: (<> Support and <br /> Maintenance </>)
+          }
+        ]}
+      />
+      <CaseGlobal />
+      <CaseCapabilities />
       <Nothing Nothing="nothingCase" />
       <Technologieswe />
       <HomeLocation />

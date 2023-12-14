@@ -3,65 +3,78 @@
   padding: 100px 0;
 }
 
+.glamic p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.left {
+  padding: 30px 50px;
+  border-radius: 20px;
+  border-bottom-right-radius: 50px;
+  border: 1px solid #434343;
+}
+
 .left h2 {
   font-size: 50px;
   line-height: 60px;
   font-weight: 700;
   color: #fff;
+  text-align: center;
 }
 
 .left h2 span {
-  background: linear-gradient(to right, #eb335b 35%, #4a78ef 65%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #f32f53;
 }
 
-.glamic p {
-  color: #fff;
-  font-size: 16px;
-  line-height: 26px;
+.left p:last-child {
+  margin-bottom: 0;
 }
 
 .right {
-  background: linear-gradient(
-    35deg,
-    rgba(243, 47, 83, 1) 0%,
-    rgba(243, 47, 194, 1) 30%,
-    rgba(74, 120, 239, 1) 100%
-  );
-  border: 1px solid #fff;
+  background-color: #f32f53;
+  border: none;
   border-radius: 20px;
   padding: 30px 50px;
-  width: 90%;
+  width: 100%;
+}
+
+.right p {
+  text-align: left;
 }
 
 .right h3 {
   color: #fff;
-  font-size: 25px;
-  line-height: 30px;
-  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
 }
 
 .caseBtn {
-  background-color: #fff;
+  background-color: #000;
+  border-radius: 10px;
 }
 
 .caseBtn a {
   width: 100%;
   height: 50px;
+  color: #fff;
   font-size: 16px;
   font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, #eb335b 35%, #4a78ef 65%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .SecImg {
   text-align: center;
-  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 80px 0 70px;
 }
 
 .leftText {
@@ -78,9 +91,7 @@
 }
 
 .leftText h3 span {
-  background: linear-gradient(to right, #eb335b 35%, #4a78ef 65%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #f32f53;
 }
 
 .leftText p {
@@ -99,7 +110,8 @@
   }
 
   .SecImg {
-    margin-top: 50px;
+    margin: 50px 0;
+    flex-wrap: wrap;
   }
 
   .left h2,
@@ -116,7 +128,15 @@
     line-height: 38px;
   }
 
+  .left {
+    padding: 20px;
+  }
+
   .SecImg {
-    margin-top: 30px;
+    margin: 30px 0 20px;
+  }
+
+  .leftText {
+    margin-bottom: 0px;
   }
 }

@@ -1,88 +1,80 @@
 .goal {
   background: #000;
-  background-size: cover;
-  background-position: center;
+  background-image: url(../public/images/case-studies/bg-image.png);
+  background-size: 55%;
+  background-position: 150px center;
   background-repeat: no-repeat;
+  padding: 80px 0;
+}
+
+.secTxt {
+  padding: 40px 30px;
+  border-radius: 20px;
+  border-top-right-radius: 0;
+  border: 1px solid #434343;
+  background-color: #000;
 }
 
 .goal h3 {
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 32px;
+  line-height: 45px;
   font-weight: 700;
   color: #fff;
+  text-align: center;
+}
+
+.goal h3 span {
+  color: #f32f53;
 }
 
 .secImg {
-  margin-top: -80px;
-}
-
-/* ============================= */
-
-.graceMonkey {
-  background-image: url(../public/images/case-monkey/goal-bg.png);
-}
-
-.cravecourier {
-  background-image: url(../public/images/case-crave/goal-bg.png);
-}
-
-.homepro {
-  background-image: url(../public/images/case-homepro/goal-bg.png);
-}
-
-.readyApp {
-  background-image: url(../public/images/case-ready/goal-bg.png);
-}
-
-.soulscribe {
-  background-image: url(../public/images/case-scribe/goal-bg.png);
-}
-
-.fitnow {
-  background-image: url(../public/images/case-fitnow/goal-bg.png);
-}
-
-.beats {
-  background-image: url(../public/images/case-beats/goal-bg.png);
-}
-
-.healthcare {
-  background-image: url(../public/images/case-health/goal-bg.png);
-}
-
-.dreamhome {
-  background-image: url(../public/images/case-dreamhome/goal-bg.png);
-}
-
-.rideme {
-  background-image: url(../public/images/case-ride/goal-bg.png);
-}
-
-.tourista {
-  background-image: url(../public/images/case-travel/goal-bg.png);
-}
-
-.sponsord {
-  background-image: url(../public/images/case-sponsord/goal-bg.png);
-}
-
-.wisu {
-  background-image: url(../public/images/case-wisu/goal-bg.png);
+  text-align: right;
 }
 
 /* =========================================== */
 
+@media screen and (max-width: 1799px) {
+  .goal {
+    background-position: 110px center;
+  }
+}
+
+@media screen and (max-width: 1599px) {
+  .goal {
+    background-position: 65px center;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .goal {
+    background-position: 70px center;
+  }
+
+  .goal h3 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .secImg img {
+    width: 75%;
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .goal {
     padding: 50px 0 0;
-  }
-
-  .goalRow {
-    flex-direction: column-reverse;
+    background-image: none;
   }
 
   .secImg {
     margin-top: 20px;
+    text-align: center;
+  }
+
+  .secImg img {
+    width: 50%;
+    height: auto;
   }
 
   .goal h3 {
@@ -92,8 +84,21 @@
 }
 
 @media screen and (max-width: 767px) {
+  .goal {
+    padding: 0;
+  }
+
+  .secTxt {
+    padding: 20px;
+  }
+
   .goal h3 {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 35px;
+    margin-bottom: 0;
+  }
+
+  .secImg img {
+    width: 100%;
   }
 }

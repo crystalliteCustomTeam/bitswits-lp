@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
-import styles from "@/styles/NewCaseGlobal.module.css";
+import styles from "@/styles/CaseGlobal.module.css";
 //
 import bestglobal1 from '../public/images/mobilelpfinal/global/1.png'
 import bestglobal2 from '../public/images/mobilelpfinal/global/2.png'

@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import { useRouter } from "next/router";
 import { Container, Row, Col } from 'react-bootstrap'
-import styles from '@/styles/NewCaseCapabilities.module.css'
+import styles from '@/styles/CaseCapabilities.module.css'
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
