@@ -34,3 +34,19 @@
 .deve:hover{
     background-color: #F32F53;
 }
+
+
+@media screen and (max-width: 991px) { 
+    .provideserv{
+        background-color: black;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+@media screen and (max-width: 480px) { 
+    .provideserv{
+        background-color: black;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}

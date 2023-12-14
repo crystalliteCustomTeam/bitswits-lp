@@ -58,7 +58,13 @@
 
 }
 
-@media screen and (max-width: 991px) { 
+@media screen and (max-width: 991px) {
+    
+    .provideserv{
+        background-color: black;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 
     .flod{
         position: unset;
@@ -70,3 +76,29 @@
 
 
   }
+
+  @media screen and (max-width: 480px) { 
+
+    .deve1 {
+        display: flex!important;
+        align-items: center;
+    }
+    .deve2 {
+        display: flex;
+        align-items: center;
+        gap: unset;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .deve2 p{
+        text-align: center;
+    }
+    .deve1 h4{
+        text-align: left;
+    }
+    .provideserv{
+        background-color: black;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
