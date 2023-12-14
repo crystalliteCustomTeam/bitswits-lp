@@ -4,6 +4,9 @@
     padding-bottom: 80px;
     position: relative;
 }
+.deve{
+    background-color: black;
+}
 .provideserv::before{
     position: absolute;
     content: '';
@@ -30,8 +33,4 @@
 }
 .deve:hover{
     background-color: #F32F53;
-}
-.deve:hover p{
-    font-family: 'Gilroy-Regular', sans-serif;
-
 }

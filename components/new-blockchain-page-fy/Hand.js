@@ -23,7 +23,7 @@ const Hand = (props) => {
                             <Row className="gx-2 gy-5">
                                 <Col lg={6}>
                                     <div className={styles.deve1}>
-                                        <h4 className="fontgilroybold white font_15">Blockchain Wallet & Exchange Software</h4>
+                                        <h4 className="fontgilroybold white font_15">Cryptocurrency Mining Software</h4>
                                         <div className={styles.deve2}>
                                             <div>
 
