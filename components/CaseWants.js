@@ -71,6 +71,11 @@ const CaseWants = (props) => {
                                 <Image quality={90} src={props.wantImg3} alt="BitsWits" className={`img-fluid`} />
                             </div>
                         </Col>
+                        <Col lg={11} className='mx-auto'>
+                            <div className={styles.lastPara}>
+                                <p>{props.lastPara}</p>
+                            </div>
+                        </Col>
                     </Row>
                 </Container>
             </section>

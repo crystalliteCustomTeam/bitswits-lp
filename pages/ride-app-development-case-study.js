@@ -99,8 +99,8 @@ export default function RideMe() {
 
         textArray2={[
           {
-            title: <>Want an <br /> App Like This?</>,
-            text: <>Our expert consultants eagerly await your ideas. Request a complimentary consultation with our app specialists to discuss your idea.</>,
+            title: <>Looking For Something Similar?</>,
+            text: <>Our consultants are ready to hear your idea. Request a free consultation with our app experts and transform it into a digital reality.</>,
           },
         ]}
 
@@ -110,14 +110,6 @@ export default function RideMe() {
         slide4={slide4}
 
         textArray3={[
-          {
-            title: <>Why Trust BitsWits with <span>App Development?</span></>,
-            text: [
-              <>We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions.</>,
-
-              <>Our track record of delivering on time and within budget, coupled with a commitment to staying ahead of industry trends, sets us apart as the best partner for mobile app development.</>,
-            ],
-          },
           {
             title: <>The <span>Starting</span> Point</>,
             text: [
@@ -134,14 +126,15 @@ export default function RideMe() {
           {
             title: <> Main <span>Features</span> </>,
             textArray: [
-              'Access a wide variety of clothing.',
-              'Discover clothing items tailored to your unique style preferences.',
-              'Benefit from real-world experiences shared by fellow fashion enthusiasts.',
-              'Enjoy secure payments, order tracking, and easy return options.',
-              'Easily list and sell pre-loved fashion items to a broad audience.',
-              'Explore eco-friendly and ethically-made fashion choices.',
-              'Stay updated with curated collections, style guides, and trends.',
-              'Navigate effortlessly through a sleek and intuitive design.',
+              'Get rides promptly with dependable drivers.',
+              'Monitor your driver`s location in real-time.',
+              'Know the fare upfront with no hidden costs.',
+              'Choose from various vehicle types to match your needs.',
+              'Stringent safety protocols, including driver background checks.',
+              'Conveniently pay through the app without the need for cash.',
+              'Catering to riders with special needs, making transportation inclusive.',
+              'Earn rewards and access exclusive discounts as a frequent rider.',
+              'Get 24/7 assistance around the clock for a hassle-free experience.',
             ],
           }
         ]}
@@ -150,10 +143,11 @@ export default function RideMe() {
           {
             title: <> Challenges <span>We Faced</span> </>,
             textArray: [
-              'Managing a vast inventory of clothes was challenging.',
-              'Ensuring security measures to protect user data and transactions.',
-              'Sourcing and verifying sustainable and ethical clothings.',
-              'Maintaining user engagement and trust in a competitive fashion marketplace industry',
+              'Ensuring a consistent pool of drivers for timely service.',
+              'Safeguarding user data and maintaining strict privacy standards.',
+              'Navigating complex and evolving transportation regulations.',
+              'Expanding the app`s infrastructure to accommodate growing user demand.',
+              'Building and maintaining trust among users in a competitive market.',
             ],
           }
         ]}
@@ -162,19 +156,21 @@ export default function RideMe() {
           {
             title: <> Trouble <span>Tackling</span> </>,
             textArray: [
-              'Utilized scalable cloud infrastructure.',
-              'Implemented state-of-the-art encryption and compliance standards.',
-              'Collaborated with certified sustainable brands.',
-              'Integrated personalized notifications to boost user engagement.',
+              'Implemented an incentive system to attract and retain drivers.',
+              'Employed robust encryption protocols to safeguard user data and privacy.',
+              'Assembled a legal team well-versed in transportation regulations for compliance.',
+              'Designed a flexible infrastructure capable of handling increasing user demand.',
+              'Prioritized user safety and satisfaction through rigorous vetting and ongoing support.',
             ],
           },
         ]}
         wantImg3={tackling}
+        lastPara={<> BitsWits took on the challenge of creating Ride Me by assembling a dedicated team of app development experts. We leveraged our extensive experience in building scalable, secure, and user-friendly apps to develop Ride Me. </>}
       />
 
       <CaseGoal
         golImg={goalImg}
-        title={<> Start your app development journey effortlessly; let BitsWits be your savior with a quick tap! </>}
+        title={<> Start Your App Development Journey <br /> Effortlessly; Let <span>Bitswits Be Your <br /> Savior</span> With A Quick Tap! </>}
         goalClass='rideme'
       />
 
@@ -226,7 +222,7 @@ export default function RideMe() {
       />
 
       <CaseChoose
-        title={<> <span>Why Trust <br /> BitsWits</span> with App Development? </>}
+        title={<> <span>Why Trust <br /> BitsWits</span> with App <br /> Development? </>}
         text1={<> We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions. </>}
         text2={<> Our track record of delivering on time and within budget, coupled with a commitment to staying ahead of industry trends, sets us apart as the best partner for mobile app development. </>}
         items={[

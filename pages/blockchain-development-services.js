@@ -1,13 +1,14 @@
 import React from "react";
 import Head from "next/head";
-import Banner from "@/components/new-blockchain-page-fy/BlockchainBanner";
-import Provideservices from "@/components/new-blockchain-page-fy/Provideservices";
-import Intelligence from "@/components/new-blockchain-page-fy/Intelligence";
-import SmartContract from "@/components/new-blockchain-page-fy/SmartContract";
-import CustomBlockchainSolutions from "@/components/new-blockchain-page-fy/CustomBlockchainSolutions";
-import Hand from "@/components/new-blockchain-page-fy/Hand";
-import Nftservices from "@/components/new-blockchain-page-fy/Nftservices";
-import Technology from "@/components/new-blockchain-page-fy/Technology";
+//
+const Banner = React.lazy(() => import("@/components/new-blockchain-page-fy/BlockchainBanner"));
+const Provideservices = React.lazy(() => import("@/components/new-blockchain-page-fy/Provideservices"));
+const Intelligence = React.lazy(() => import("@/components/new-blockchain-page-fy/Intelligence"));
+const SmartContract = React.lazy(() => import("@/components/new-blockchain-page-fy/SmartContract"));
+const CustomBlockchainSolutions = React.lazy(() => import("@/components/new-blockchain-page-fy/CustomBlockchainSolutions"));
+const Hand = React.lazy(() => import("@/components/new-blockchain-page-fy/Hand"));
+const Nftservices = React.lazy(() => import("@/components/new-blockchain-page-fy/Nftservices"));
+const Technology = React.lazy(() => import("@/components/new-blockchain-page-fy/Technology"));
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
@@ -15,24 +16,14 @@ const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSlide
 const LpForm = React.lazy(() => import("@/components/LpFormprops"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const People = React.lazy(() => import("@/components/People"));
-
-
-import Partnerships from "@/components/Partnerships";
-import ServicesFaqs from "@/components/ServicesFaqs";
-import HomeLocation from "@/components/HomeLocation";
-
-
-
-
+const Partnerships = React.lazy(() => import("@/components/Partnerships"));
+const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
+const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
+//
 const BannerImage = await import("@/public/blockchainfynew/banner.png");
 
+
 export default function blockchaindevelopmentservices() {
-
-
-
-
-
-
 
   return (
     <>
@@ -63,9 +54,9 @@ export default function blockchaindevelopmentservices() {
 
       <HomeBannerSliderlp />
 
-      <LpForm  addresClass="iosclass"
-      heading = {`At Bitswits, we're pioneers in blockchain innovation. Our dedicated team crafts cutting-edge solutions that redefine the digital landscape. From smart contracts to decentralized apps, we turn your vision into a global powerhouse. Join us for a transformative journey where technology meets excellence, and your success in the blockchain realm is our priority.`}
-      
+      <LpForm addresClass="iosclass"
+        heading={`At Bitswits, we're pioneers in blockchain innovation. Our dedicated team crafts cutting-edge solutions that redefine the digital landscape. From smart contracts to decentralized apps, we turn your vision into a global powerhouse. Join us for a transformative journey where technology meets excellence, and your success in the blockchain realm is our priority.`}
+
       />
 
       <Nothing Nothing="nothingLp6" />
@@ -105,18 +96,12 @@ export default function blockchaindevelopmentservices() {
       <Justbuildit />
 
       <Globallplp6
-      bannerClass = 'newclassglobe'
+        bannerClass='newclassglobe'
       />
-
-
-
 
       <Partnerships />
 
       <Formnewlp />
-
-
-
 
       <ServicesFaqs
         faqsData={[
@@ -125,7 +110,7 @@ export default function blockchaindevelopmentservices() {
               "What is Mobile Application Development?",
             answer: (
               <>
-               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
               </>
             ),
           },
@@ -151,7 +136,7 @@ export default function blockchaindevelopmentservices() {
               "Is there any customer support available?",
             answer: (
               <>
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
               </>
             ),
           },
@@ -159,7 +144,7 @@ export default function blockchaindevelopmentservices() {
             question: "How to choose a mobile application development company?",
             answer: (
               <>
-               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
               </>
             ),
           },
@@ -167,7 +152,7 @@ export default function blockchaindevelopmentservices() {
             question: "What industries does BitsWits cater do?",
             answer: (
               <>
-               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
               </>
             ),
           },

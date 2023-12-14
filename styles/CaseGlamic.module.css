@@ -1,6 +1,6 @@
 .glamic {
   background: #000;
-  padding: 100px 0;
+  padding: 80px 0;
 }
 
 .glamic p {
@@ -11,7 +11,7 @@
 }
 
 .left {
-  padding: 30px 50px;
+  padding: 30px 45px;
   border-radius: 20px;
   border-bottom-right-radius: 50px;
   border: 1px solid #434343;
@@ -74,11 +74,7 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
-  margin: 80px 0 70px;
-}
-
-.leftText {
-  margin-bottom: 50px;
+  margin: 70px 0 50px;
 }
 
 .leftText h3 {
@@ -100,7 +96,7 @@
 
 @media screen and (max-width: 991px) {
   .glamic {
-    padding: 50px 0 0;
+    padding: 0 0 80px;
   }
 
   .right {
@@ -122,6 +118,11 @@
 }
 
 @media screen and (max-width: 767px) {
+
+  .glamic {
+    padding: 0 0 50px;
+  }
+
   .left h2,
   .leftText h3 {
     font-size: 28px;
@@ -134,9 +135,5 @@
 
   .SecImg {
     margin: 30px 0 20px;
-  }
-
-  .leftText {
-    margin-bottom: 0px;
   }
 }

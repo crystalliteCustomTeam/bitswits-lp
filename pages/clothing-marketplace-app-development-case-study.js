@@ -99,7 +99,7 @@ export default function Wisu() {
         textArray2={[
           {
             title: <>Looking For Something Similar?</>,
-            text: <>Our expert consultants eagerly await your ideas. Request a complimentary consultation with our app specialists to discuss your idea.</>,
+            text: <>Our consultants are ready to hear your idea. Request a free consultation with our app experts and transform it into a digital reality.</>,
           },
         ]}
 
@@ -160,11 +160,12 @@ export default function Wisu() {
           },
         ]}
         wantImg3={tackling}
+        lastPara={<> BitsWits brought the Wisu app to life by assembling a dedicated team of fashion-tech experts. Through rigorous testing, agile development methodologies, and a deep commitment to user satisfaction, BitsWits created a platform that seamlessly connects fashion enthusiasts with their style desires while prioritizing security and sustainability. </>}
       />
 
       <CaseGoal
         golImg={goalImg}
-        title={<> Start Your App Development Journey Effortlessly; Let <span>Bitswits Be Your Savior</span> With A Quick Tap! </>}
+        title={<> Start Your App Development Journey <br /> Effortlessly; Let <span>Bitswits Be Your <br /> Savior</span> With A Quick Tap! </>}
         goalClass='wisu'
       />
 
@@ -216,7 +217,7 @@ export default function Wisu() {
       />
 
       <CaseChoose
-        title={<> <span>Why Trust <br /> BitsWits</span> with App Development? </>}
+        title={<> <span>Why Trust <br /> BitsWits</span> with App <br /> Development? </>}
         text1={<> We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions. </>}
         text2={<> Our track record of delivering on time and within budget, coupled with a commitment to staying ahead of industry trends, sets us apart as the best partner for mobile app development. </>}
         items={[

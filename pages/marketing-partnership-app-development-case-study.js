@@ -85,7 +85,7 @@ export default function Sponsord() {
       <CaseGlamic
         textArray1={[
           {
-            title: <>Marketing <br /> <span>Partnership App</span></>,
+            title: <>Marketing <span>Partnership App</span></>,
             text: [
               <>
                 <i>Sponsor'D</i> is a platform that connects brands, businesses, and creators for mutually beneficial collaborations. Our main goal is to reinvent influencer marketing and foster healthy collaborations.
@@ -99,8 +99,8 @@ export default function Sponsord() {
 
         textArray2={[
           {
-            title: <>Want an <br /> App Like This?</>,
-            text: <>Our expert consultants eagerly await your ideas. Request a complimentary consultation with our app specialists to discuss your idea.</>,
+            title: <>Looking For Something Similar?</>,
+            text: <>Our consultants are ready to hear your idea. Request a free consultation with our app experts and transform it into a digital reality.</>,
           },
         ]}
 
@@ -110,14 +110,7 @@ export default function Sponsord() {
         slide4={slide4}
 
         textArray3={[
-          {
-            title: <>Why Trust BitsWits with <span>App Development?</span></>,
-            text: [
-              <>We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions.</>,
-
-              <>Our track record of delivering on time and within budget, coupled with a commitment to staying ahead of industry trends, sets us apart as the best partner for mobile app development.</>,
-            ],
-          },
+          
           {
             title: <>The <span>Starting</span> Point</>,
             text: [
@@ -132,28 +125,32 @@ export default function Sponsord() {
       <CaseWants
         sections1={[
           {
-            title: <> Main <span>Features</span> </>,
+            title: <> The Exceptional Selling <br /> Points and <span>Features</span> </>,
             textArray: [
-              'Access a wide variety of clothing.',
-              'Discover clothing items tailored to your unique style preferences.',
-              'Benefit from real-world experiences shared by fellow fashion enthusiasts.',
-              'Enjoy secure payments, order tracking, and easy return options.',
-              'Easily list and sell pre-loved fashion items to a broad audience.',
-              'Explore eco-friendly and ethically-made fashion choices.',
-              'Stay updated with curated collections, style guides, and trends.',
-              'Navigate effortlessly through a sleek and intuitive design.',
+              'Find a Company and Talent',
+              'Unlocking Achievements',
+              'In-App Chat',
+              'Dispute Resolution',
+              'Task Creation',
+              'Contract Signing Within the App',
+              'Task Creation',
+              'Talent Profiles',
+              'Reports and Analytics',
+              'Membership Levels',
+              'Affiliate Sponsorship',
             ],
           }
         ]}
         wantImg1={features}
         sections2={[
           {
-            title: <> Challenges <span>We Faced</span> </>,
+            title: <> A Closer Look at Project <br /> Challenges <span>We Faced</span> </>,
             textArray: [
-              'Managing a vast inventory of clothes was challenging.',
-              'Ensuring security measures to protect user data and transactions.',
-              'Sourcing and verifying sustainable and ethical clothings.',
-              'Maintaining user engagement and trust in a competitive fashion marketplace industry',
+              'Balancing Supply and Demand',
+              'Legal and Contractual Matters',
+              'Community Management',
+              'Competition and Market Saturation',
+              'Scaling Responsibility',
             ],
           }
         ]}
@@ -162,19 +159,21 @@ export default function Sponsord() {
           {
             title: <> Trouble <span>Tackling</span> </>,
             textArray: [
-              'Utilized scalable cloud infrastructure.',
-              'Implemented state-of-the-art encryption and compliance standards.',
-              'Collaborated with certified sustainable brands.',
-              'Integrated personalized notifications to boost user engagement.',
+              'Implement a membership system that matches creators and businesses based on their engagement level',
+              'Offer template contracts and legal resources for users to produce agreements with clarity.',
+              'Appoint community managers to resolve conflicts and ethical guidelines.',
+              'Focus on unique selling points such as niche partnership opportunities.',
+              'Invest in scalable infrastructure and technology to accommodate growth and expansion.',
             ],
           },
         ]}
         wantImg3={tackling}
+        lastPara={<> BitsWits' proactive approach to problem solving and constant commitment to technology refinement played an important role in ensuring the efficiency and user satisfaction. Through our vigilant problem-solving mindset, we promptly sought solutions and made sure Sponsor’D stands as a leading app in the marketing industry. </>}
       />
 
       <CaseGoal
         golImg={goalImg}
-        title={<> Start your app development journey effortlessly; let BitsWits be your savior with a quick tap! </>}
+        title={<> Start Your App Development Journey <br /> Effortlessly; Let <span>Bitswits Be Your <br /> Savior</span> With A Quick Tap! </>}
         goalClass='sponsord'
       />
 
@@ -226,7 +225,7 @@ export default function Sponsord() {
       />
 
       <CaseChoose
-        title={<> <span>Why Trust <br /> BitsWits</span> with App Development? </>}
+        title={<> <span>Why Trust <br /> BitsWits</span> with App <br /> Development? </>}
         text1={<> We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions. </>}
         text2={<> Our track record of delivering on time and within budget, coupled with a commitment to staying ahead of industry trends, sets us apart as the best partner for mobile app development. </>}
         items={[

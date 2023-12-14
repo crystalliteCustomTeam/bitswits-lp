@@ -99,8 +99,8 @@ export default function FitNow() {
 
         textArray2={[
           {
-            title: <>Want an <br /> App Like This?</>,
-            text: <>Our expert consultants eagerly await your ideas. Request a complimentary consultation with our app specialists to discuss your idea.</>,
+            title: <>Looking For Something Similar?</>,
+            text: <>Our consultants are ready to hear your idea. Request a free consultation with our app experts and transform it into a digital reality.</>,
           },
         ]}
 
@@ -110,14 +110,7 @@ export default function FitNow() {
         slide4={slide4}
 
         textArray3={[
-          {
-            title: <>Why Trust BitsWits with <span>App Development?</span></>,
-            text: [
-              <>We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions.</>,
 
-              <>Our track record of delivering on time and within budget, coupled with a commitment to staying ahead of industry trends, sets us apart as the best partner for mobile app development.</>,
-            ],
-          },
           {
             title: <>The <span>Starting</span> Point</>,
             text: [
@@ -134,28 +127,30 @@ export default function FitNow() {
       <CaseWants
         sections1={[
           {
-            title: <> Main <span>Features</span> </>,
+            title: <> Get Leaner and Gain More <br /> Muscle: <span>The Features</span> </>,
             textArray: [
-              'Access a wide variety of clothing.',
-              'Discover clothing items tailored to your unique style preferences.',
-              'Benefit from real-world experiences shared by fellow fashion enthusiasts.',
-              'Enjoy secure payments, order tracking, and easy return options.',
-              'Easily list and sell pre-loved fashion items to a broad audience.',
-              'Explore eco-friendly and ethically-made fashion choices.',
-              'Stay updated with curated collections, style guides, and trends.',
-              'Navigate effortlessly through a sleek and intuitive design.',
+              'Customized Workout Plans',
+              'Customized Diet Plans for Muscle Mass and Fat Loss',
+              'Communication and Consultation with Certified Fitness Trainers',
+              'Information Chat Support',
+              'Progress Tracking',
+              'Workout Library',
+              'Community Support',
+              'Videos of Workouts and the Muscles it Each Exercise Targets',
+              'Performance Analytics',
             ],
           }
         ]}
         wantImg1={features}
         sections2={[
           {
-            title: <> Challenges <span>We Faced</span> </>,
+            title: <> A Closer Look at Project <br /> Challenges <span>We Faced</span> </>,
             textArray: [
-              'Managing a vast inventory of clothes was challenging.',
-              'Ensuring security measures to protect user data and transactions.',
-              'Sourcing and verifying sustainable and ethical clothings.',
-              'Maintaining user engagement and trust in a competitive fashion marketplace industry',
+              'Workout Intensity and Slower Progress',
+              'Staying Motivated',
+              'The Proper Form of Exercise and Risk of Injury',
+              'Nutrition Compliance',
+              'Technical Issues and Complications',
             ],
           }
         ]}
@@ -164,19 +159,22 @@ export default function FitNow() {
           {
             title: <> Trouble <span>Tackling</span> </>,
             textArray: [
-              'Utilized scalable cloud infrastructure.',
-              'Implemented state-of-the-art encryption and compliance standards.',
-              'Collaborated with certified sustainable brands.',
-              'Integrated personalized notifications to boost user engagement.',
+              'Users can find it challenging to select the right workout intensity.',
+              'Maintaining motivation through adding motivational quotes and videos.',
+              'Include instructional videos and highlight proper form and technique.',
+              'Include a food tracking feature to monitor daily calorie intake.',
+              'Regularly update the app to fix bugs and improve user experience.',
             ],
           },
         ]}
         wantImg3={tackling}
+        lastPara={<> BitsWits' proactive approach to problem solving and constant commitment to technology refinement played an important role in ensuring the efficiency and user satisfaction. Through our vigilant problem-solving mindset, we promptly sought solutions and made sure Fitnow stands as a leading app
+          in the fitness industry. </>}
       />
 
       <CaseGoal
         golImg={goalImg}
-        title={<> Start your app development journey effortlessly; let BitsWits be your savior with a quick tap! </>}
+        title={<> Start Your App Development Journey <br /> Effortlessly; Let <span>Bitswits Be Your <br /> Savior</span> With A Quick Tap! </>}
         goalClass='fitnow'
       />
 
@@ -228,7 +226,7 @@ export default function FitNow() {
       />
 
       <CaseChoose
-        title={<> <span>Why Trust <br /> BitsWits</span> with App Development? </>}
+        title={<> <span>Why Trust <br /> BitsWits</span> with App <br /> Development? </>}
         text1={<> We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions. </>}
         text2={<> Our track record of delivering on time and within budget, coupled with a commitment to staying ahead of industry trends, sets us apart as the best partner for mobile app development. </>}
         items={[

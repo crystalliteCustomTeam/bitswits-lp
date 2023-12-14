@@ -20,6 +20,7 @@
 .home {
   background-color: black;
   padding-top: 80px;
+  padding-bottom: 50px;
 }
 .home1 {
   background-color: black;
@@ -461,7 +462,7 @@
 
 @media screen and (max-width: 991px) {
   .home {
-    padding-top: 50px;
+    padding: 0;
   }
 
   .about {
@@ -615,6 +616,10 @@
     color: white;
   }
 
+  .build h2 {
+    margin-bottom: 0%;
+  }
+
   .deter h3 {
     font-size: 25px;
   }
@@ -685,10 +690,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  .build h2 {
-    margin-bottom: 6%;
-  }
-
   .build {
     display: flex;
     justify-content: space-between;

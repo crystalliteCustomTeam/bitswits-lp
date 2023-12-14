@@ -3,7 +3,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 50px 0 50px;
+  padding: 50px 0 80px;
 }
 
 .banSec {
@@ -81,11 +81,21 @@
 
 @media screen and (max-width: 991px) {
   .banner {
-    padding: 50px 0 0px;
+    padding: 0;
     background-image: none;
+    height: 100vh;
+    display: flex;
+    align-items: center;
   }
 
   .banSec h1 {
     font-size: 16px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .banner {
+    height: 90vh;
   }
 }

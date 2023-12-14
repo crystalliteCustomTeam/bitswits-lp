@@ -95,8 +95,8 @@ export default function HomePro() {
 
         textArray2={[
           {
-            title: <>Want an <br /> App Like This?</>,
-            text: <>Our expert consultants eagerly await your ideas. Request a complimentary consultation with our app specialists to discuss your idea.</>,
+            title: <>Looking For Something Similar?</>,
+            text: <>Our consultants are ready to hear your idea. Request a free consultation with our app experts and transform it into a digital reality.</>,
           },
         ]}
 
@@ -106,13 +106,6 @@ export default function HomePro() {
         slide4={slide4}
 
         textArray3={[
-          {
-            title: <>Why Trust BitsWits with <span>App Development?</span></>,
-            text: [
-              <>We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions.</>,
-              <>Our track record of delivering on time and within budget, coupled with a commitment to staying ahead of industry trends, sets us apart as the best partner for mobile app development.</>,
-            ],
-          },
           {
             title: <>The <span>Starting</span> Point</>,
             text: [
@@ -126,28 +119,29 @@ export default function HomePro() {
       <CaseWants
         sections1={[
           {
-            title: <> Main <span>Features</span> </>,
+            title: <> Client's Feature <br /> <span>Requirements</span> </>,
             textArray: [
-              'Access a wide variety of clothing.',
-              'Discover clothing items tailored to your unique style preferences.',
-              'Benefit from real-world experiences shared by fellow fashion enthusiasts.',
-              'Enjoy secure payments, order tracking, and easy return options.',
-              'Easily list and sell pre-loved fashion items to a broad audience.',
-              'Explore eco-friendly and ethically-made fashion choices.',
-              'Stay updated with curated collections, style guides, and trends.',
-              'Navigate effortlessly through a sleek and intuitive design.',
+              'In-app chat and video calls',
+              'Review and rating system',
+              'Verified pro profiles',
+              'Guest profile for users',
+              'Multiple subscription models',
+              'Push notifications and alerts',
+              'User friendly app interface',
+              'Consultancy booking and scheduling',
             ],
           }
         ]}
         wantImg1={features}
         sections2={[
           {
-            title: <> Challenges <span>We Faced</span> </>,
+            title: <> A Closer Look at Project <br /> Challenges <span>We Faced</span> </>,
             textArray: [
-              'Managing a vast inventory of clothes was challenging.',
-              'Ensuring security measures to protect user data and transactions.',
-              'Sourcing and verifying sustainable and ethical clothings.',
-              'Maintaining user engagement and trust in a competitive fashion marketplace industry',
+              'Implementing robust data validation protocols',
+              'Designing a subscription management system',
+              'Integrating a dynamic call scheduling system',
+              'Implementing a non-intrusive notification system',
+              'latency issues in the in-app video call functionalities',
             ],
           }
         ]}
@@ -156,19 +150,20 @@ export default function HomePro() {
           {
             title: <> Trouble <span>Tackling</span> </>,
             textArray: [
-              'Utilized scalable cloud infrastructure.',
-              'Implemented state-of-the-art encryption and compliance standards.',
-              'Collaborated with certified sustainable brands.',
-              'Integrated personalized notifications to boost user engagement.',
+              'Developed an intelligent scheduling algorithm',
+              'Incorporated calendar APIs for efficient appointment management',
+              'Employed cloud-based infrastructure for subscription management',
+              'Established multi-layered encrypted data protection protocol to protect sensitive',
             ],
           },
         ]}
         wantImg3={tackling}
+        lastPara={<> Through proactive troubleshooting and a strong focus on overcoming the challenges , our team at BitsWits successfully tackled complex challenges during HomePro's development and ensured that the application became a top choice for handyman services. </>}
       />
 
       <CaseGoal
         golImg={goalImg}
-        title={<> Start your app development journey effortlessly; let BitsWits be your savior with a quick tap! </>}
+        title={<> Start Your App Development Journey <br /> Effortlessly; Let <span>Bitswits Be Your <br /> Savior</span> With A Quick Tap! </>}
         goalClass='homepro'
       />
 
@@ -220,7 +215,7 @@ export default function HomePro() {
       />
 
       <CaseChoose
-        title={<> <span>Why Trust <br /> BitsWits</span> with App Development? </>}
+        title={<> <span>Why Trust <br /> BitsWits</span> with App <br /> Development? </>}
         text1={<> We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions. </>}
         text2={<> Our track record of delivering on time and within budget, coupled with a commitment to staying ahead of industry trends, sets us apart as the best partner for mobile app development. </>}
         items={[

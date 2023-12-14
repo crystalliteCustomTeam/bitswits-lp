@@ -29,7 +29,7 @@ const NewCaseChoose = (props) => {
                 <Container>
                     <Row className='align-items-center gy-lg-5 gy-4'>
                         <Col lg={6} className={styles.walk}>
-                            <h3 className='white font50 font-bold f-700'>{props.title}</h3>
+                            <h3 className='white newchoose font-bold f-700 mb-3'>{props.title}</h3>
                             <p>{props.text1}</p>
                             <p>{props.text2}</p>
                             <Link href="#" className={styles.dus}>Choose Expertise, Choose Bitswits – Let's Get Started</Link>
