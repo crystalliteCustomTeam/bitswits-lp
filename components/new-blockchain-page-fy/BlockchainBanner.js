@@ -17,7 +17,7 @@ const BlockchainBanner = (props) => {
                 {props.subtitle}
               </p>
               <h1
-                className={`${styles.develop} text-center blockbannerheading letterspaceblock font-bold`}
+                className={`${styles.develop} text-center font55home letterspaceblock font-bold`}
               >
                 {props.title}
               </h1>

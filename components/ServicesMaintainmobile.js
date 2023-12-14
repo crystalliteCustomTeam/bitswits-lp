@@ -65,13 +65,13 @@ const ServicesMaintainmobile = ({ severcedata }) => {
           <Row className="mb-3 mb-lg-5">
             <Col lg={12}>
               {heading.subtitle &&
-                <h3 className={`font24 newfycolr font-bold text-center mb-2 ling15`}>
+                <h3 className={`font24 newfycolr font-bold text-center mb-0 mb-sm-2 ling15`}>
                   {heading.subtitle}
                 </h3>
               }
 
               {heading.title1 &&
-                <h2 className="text-white font50 f-700 text-center mb-2">
+                <h2 className="text-white font50 f-700 text-center mb-0 mb-sm-2">
                   {heading.title1}
                 </h2>
               }

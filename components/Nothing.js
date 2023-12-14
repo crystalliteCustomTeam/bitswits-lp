@@ -116,10 +116,10 @@ export default function Nothing(props) {
         <Container className="newfoldlp">
           <Row className="  align-items-center">
             <Col lg={12}>
-              <h3 className="white f-30 f-700 center">
+              <h3 className="white f-30 f-700 center mb-0 mb-sm-1">
                 Our Client’s Feedback Has Been
               </h3>
-              <h2 className="white font50 f-700 center mb-2 mb-lg-5">
+              <h2 className="white newchoose f-700 center mb-2 mb-lg-5">
                 Nothing Short Of Amazing!
               </h2>
             </Col>

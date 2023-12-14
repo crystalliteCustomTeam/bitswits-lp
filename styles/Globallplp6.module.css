@@ -100,10 +100,13 @@
   }
 
   .success {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 480px) {
+  .newclassglobe{
+    padding-top: 50px;
+  }
   .team {
     text-align: center;
   }

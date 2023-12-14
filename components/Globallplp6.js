@@ -17,15 +17,15 @@ import bestglobal11 from '../public/images/mobilelpfinal/global/11.png'
 import bestgloba12 from '../public/images/mobilelpfinal/global/12.png'
 
 
-const NewHomeGlobal = () => {
+const NewHomeGlobal = (props) => {
 
     return (
         <>
-            <section className={styles.team} id="partners">
+            <section className={`${styles.team} ${styles[props.bannerClass]}`} id="partners">
                 <Container>
                     <Row>
                         <Col xl={12}>
-                            <h3 className='font30 fw800 white center'>World-Renowned</h3>
+                            <h3 className='font30 fw800 white center mb-0 mb-sm-1'>World-Renowned</h3>
                             <h2 className={`${styles.success} center newchoose`}>Brands Trust Us</h2>
 
 

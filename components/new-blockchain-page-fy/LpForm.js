@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
-import styles from "./LpForm.module.css";
+import styles from "@/styles/LpForm.module.css";
 
 
 const LpForm = (props) => {
@@ -14,7 +14,7 @@ const LpForm = (props) => {
                             <div className={styles.make}>
                                 <form className={styles.formsbanner}>
                                     <div className={`mb-lg-4 pb-1 text-center`}>
-                                        <h4 className='blockbannerheadingfont60 letterspaceblock text-white font-bold mb-3'>Turn Your App Idea Into An App </h4>
+                                        <h4 className='letterspaceblock text-white font-bold mb-3'>Turn Your App Idea Into An App </h4>
                 
                                     </div>
                                     <Row>

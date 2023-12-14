@@ -30,7 +30,7 @@ const Standing = (props) => {
                 <Container>
                     <Row className='justify-content-center text-center align-items-center mb-lg-5'>
                         <Col lg={12} >
-                            <h2 className="text-white f50 fw700 mb-2">Delivering <span className='fw700'>Outstanding</span> <span>Outstanding</span> <span className='grdiant'>Blockchain Development Services</span> Across Industry</h2>
+                            <h2 className="text-white newchoose fw700 mb-2">Delivering <span className='fw700'>Outstanding</span> <span>Outstanding</span> <span className='grdiant'>Blockchain Development Services</span> Across Industry</h2>
                             <h4 className="fw300 f30 text-white mb-2">{props.nextsub}</h4>
                             <p className='text-white fw300'>{props.nextPara}</p>
                         </Col>

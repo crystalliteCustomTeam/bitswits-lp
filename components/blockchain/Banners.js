@@ -30,10 +30,10 @@ function Banners() {
                         <Col lg={6}>
                             <div className='point zindx'>
                                 <div className={style.Lcontent}>
-                                    <h1 className='text-white mb-2 pl-4'>
-                                        <span className='fw700 font50'> Your Trusted Tech Partner for
+                                    <h1 className='text-white mb-2 pl-4 font55block'>
+                                        <span className='fw700'> Your Trusted Tech Partner for
                                             Fast-Paced Blockchain </span>
-                                        <span className='fw700 font50 txt-primary'>Innovations & Thrilling Gaming Experiences</span></h1>
+                                        <span className='fw700 txt-primary'>Innovations & Thrilling Gaming Experiences</span></h1>
                                     <p className='text-white f15'>We build robust blockchain solutions for enterprises helping them decentralize their business & lay the foundation of transparent, & secure business systems.</p>
                                 </div>
                             </div>
