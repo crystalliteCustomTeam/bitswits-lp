@@ -1,18 +1,26 @@
 import React from "react";
 import Head from "next/head";
 import Banner from "@/components/new-blockchain-page-fy/BlockchainBanner";
-import LpForm from "@/components/new-blockchain-page-fy/LpForm";
 import Provideservices from "@/components/new-blockchain-page-fy/Provideservices";
-import People from "@/components/new-blockchain-page-fy/People";
+import Intelligence from "@/components/new-blockchain-page-fy/Intelligence";
+import SmartContract from "@/components/new-blockchain-page-fy/SmartContract";
+import CustomBlockchainSolutions from "@/components/new-blockchain-page-fy/CustomBlockchainSolutions";
+import Hand from "@/components/new-blockchain-page-fy/Hand";
+import Nftservices from "@/components/new-blockchain-page-fy/Nftservices";
+import Technology from "@/components/new-blockchain-page-fy/Technology";
+const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
+const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
+const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
+const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
+const LpForm = React.lazy(() => import("@/components/LpFormprops"));
+const Nothing = React.lazy(() => import("@/components/Nothing"));
+const People = React.lazy(() => import("@/components/People"));
 
-import HomeBannerSlider from "@/components/HomeBannerSlider";
-import Nothing from "@/components/Nothing";
-import Technologieswe from "@/components/Technologieswe";
+
 import Partnerships from "@/components/Partnerships";
-import Formnewlp from "@/components/Formnewlp";
 import ServicesFaqs from "@/components/ServicesFaqs";
 import HomeLocation from "@/components/HomeLocation";
-import Globallp6 from "@/components/GlobalLp6";
+
 
 
 
@@ -45,7 +53,7 @@ export default function blockchaindevelopmentservices() {
         title={<> Blockchain Development Services </>}
         text={
           <>
-          Bitswits is a leading development company that can help you hit the market with <br/> a newly developed Blockchain solution or revamp your existing systems.
+            Bitswits is a leading development company that can help you hit the market with <br /> a newly developed Blockchain solution or revamp your existing systems.
           </>
         }
         BannerImage={BannerImage}
@@ -53,32 +61,66 @@ export default function blockchaindevelopmentservices() {
 
       <People People="people" />
 
-      <HomeBannerSlider 
-      assignClass = 'newwrap'
+      <HomeBannerSliderlp />
+
+      <LpForm  addresClass="iosclass"
+      heading = {`At Bitswits, we're pioneers in blockchain innovation. Our dedicated team crafts cutting-edge solutions that redefine the digital landscape. From smart contracts to decentralized apps, we turn your vision into a global powerhouse. Join us for a transformative journey where technology meets excellence, and your success in the blockchain realm is our priority.`}
+      
       />
 
-      <LpForm
-      addresClass = 'newfoldnewpop'
-      />
-
-      <Nothing Nothing="nothingblockchain" />
+      <Nothing Nothing="nothingLp6" />
 
       <Provideservices
-      assignClass = 'provideserv'
+        assignClass='provideserv'
       />
 
-      <Technologieswe />
+      <SmartContract
+        assignClass='provideserv'
+      />
 
-      <Globallp6 />
+      <Intelligence
+        assignClass='provideserv'
+      />
+
+      <Hand
+        assignClass='provideserv'
+      />
+
+
+      <CustomBlockchainSolutions
+        assignClass='provideserv'
+      />
+
+
+      <div className="bgtext">
+        <Nftservices
+          assignClass='provideserv'
+        />
+
+        <Technology
+          addresClass='tech'
+        />
+      </div>
+
+      <Justbuildit />
+
+      <Globallplp6 />
+
+
+
+
       <Partnerships />
 
-      {/* <NewFaqslp /> */}
       <Formnewlp />
+
+
+
+
       <ServicesFaqs
         faqsData={[
           {
             question:
-              "What are the stages and costs involved in iOS app development?",
+              "What is Mobile Application Development?",
             answer: (
               <>
                 {" "}
@@ -96,7 +138,7 @@ export default function blockchaindevelopmentservices() {
             ),
           },
           {
-            question: "What are the types of iOS development?",
+            question: "Does Bitswits Offers Hybrid and Native Application Development?",
             answer: (
               <>
                 {" "}
@@ -144,7 +186,7 @@ export default function blockchaindevelopmentservices() {
           },
           {
             question:
-              "Why you should consider investing in iOS app development?",
+              "Why Choose Bitswits as a Mobile Application Development Company?",
             answer: (
               <>
                 {" "}
@@ -188,7 +230,7 @@ export default function blockchaindevelopmentservices() {
           },
           {
             question:
-              "What are the programming language(s) for iOS development?",
+              "Is there any customer support available?",
             answer: (
               <>
                 {" "}
@@ -208,7 +250,7 @@ export default function blockchaindevelopmentservices() {
             ),
           },
           {
-            question: "What is Swift iOS app development?",
+            question: "How to choose a mobile application development company?",
             answer: (
               <>
                 {" "}
@@ -227,7 +269,7 @@ export default function blockchaindevelopmentservices() {
             ),
           },
           {
-            question: "What are iOS app development services?",
+            question: "What industries does BitsWits cater do?",
             answer: (
               <>
                 {" "}

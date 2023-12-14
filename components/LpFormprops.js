@@ -14,18 +14,17 @@ const LpForm = (props) => {
                             <div className={styles.make}>
                                 <form className={styles.formsbanner}>
                                     <div className={`mb-lg-4 pb-1 text-center`}>
-                                        <h4 className='letterspaceblock text-white font-bold mb-3'>Turn Your App Idea Into An App </h4>
-                
+                                        <h4 className='font50 text-white font-bold mb-3'>Turn Your App Idea Into An App</h4>
                                     </div>
                                     <Row>
                                         <Col lg={3}>
                                             <div>
-                                                <input type='text' className={styles.forminput} placeholder='Name' />
+                                                <input type='text' className={styles.forminput} placeholder='Your Name' />
                                             </div>
                                         </Col>
                                         <Col lg={3}>
                                             <div>
-                                                <input type='email' className={styles.forminput} placeholder='Email' />
+                                                <input type='email' className={styles.forminput} placeholder='Email Address' />
                                             </div>
                                         </Col>
                                         <Col lg={3}>
@@ -54,8 +53,8 @@ const LpForm = (props) => {
                     </div>
 
                     <div className={styles.para}>
-                        <p className='mb-0 fontgilroygilroygilroyregular'>
-                        At Bitswits, we're pioneers in blockchain innovation. Our dedicated team crafts cutting-edge solutions that redefine the digital landscape. From smart contracts to decentralized apps, we turn your vision into a global powerhouse. Join us for a transformative journey where technology meets excellence, and your success in the blockchain realm is our priority.
+                        <p className='mb-0'>
+                            {props.heading}
                         </p>
                     </div>
                 </Container>

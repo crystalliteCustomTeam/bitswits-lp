@@ -1,0 +1,24 @@
+.provideserv{
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.deve{
+    display: flex;
+    border: 2px solid #3D3D3D;
+    border-radius: 20px;
+    width: 100%;
+    height: 248.75px;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 20px;
+}
+.deve:hover{
+    background-color: #F32F53;
+}
+
+.deve:hover p{
+    font-family: 'Gilroy-Regular', sans-serif;
+
+}
