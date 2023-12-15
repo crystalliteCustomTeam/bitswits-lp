@@ -8,29 +8,46 @@ const CaseGoal = React.lazy(() => import('@/components/CaseGoal'));
 const CaseOvercoming = React.lazy(() => import('@/components/CaseOvercoming'));
 const CaseAnimate = React.lazy(() => import('@/components/CaseAnimate'));
 const CaseServices = React.lazy(() => import('@/components/CaseServices'));
-const NewHomeGlobal = React.lazy(() => import('@/components/NewHomeGlobal'));
-const Capabilities = React.lazy(() => import('@/components/Capabilities'));
-const NewHomeSlider = React.lazy(() => import('@/components/NewHomeSlider'));
+const CaseChoose = React.lazy(() => import('@/components/CaseChoose'));
+const CaseGlobal = React.lazy(() => import('@/components/CaseGlobal'));
+const CaseCapabilities = React.lazy(() => import('@/components/CaseCapabilities'));
 const Technologieswe = React.lazy(() => import('@/components/Technologieswe'));
-const Homenextproject = React.lazy(() => import('@/components/Homenextproject'));
-const Faqs = React.lazy(() => import('@/components/NewhomeFaqs'));
+const Nothing = React.lazy(() => import('@/components/Nothing'));
 const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 //images
-const banLogo = await import('../public/images/case-monkey/banner-logo.png');
-const banImg = await import('../public/images/case-monkey/banner-img.png');
-const glamicImg = await import('../public/images/case-monkey/glamic.png');
-const goalImg = await import('../public/images/case-monkey/goal.png');
-const animiImg1 = await import('../public/images/case-monkey/animi1.png');
-const animiImg2 = await import('../public/images/case-monkey/animi2.png');
-const animiImg3 = await import('../public/images/case-monkey/animi3.png');
-const servImg = await import('../public/images/case-monkey/services.png');
-//Icons 
-const icon1 = await import('../public/images/fymobile/1.png');
-const icon2 = await import('../public/images/fymobile/2.png');
-const icon3 = await import('../public/images/fymobile/3.png');
-const icon4 = await import('../public/images/fymobile/4.png');
-const icon5 = await import('../public/images/fymobile/5.png');
-const icon6 = await import('../public/images/fymobile/6.png');
+const banLogo = await import('../public/images/case-studies/case-monkey/banner-logo.png');
+const banImg = await import('../public/images/case-studies/case-monkey/banner-img.png');
+//
+const slide1 = await import('../public/images/case-studies/case-monkey/slide1.png');
+const slide2 = await import('../public/images/case-studies/case-monkey/slide2.png');
+const slide3 = await import('../public/images/case-studies/case-monkey/slide3.png');
+const slide4 = await import('../public/images/case-studies/case-monkey/slide4.png');
+//
+const features = await import('../public/images/case-studies/case-monkey/features.png');
+const faced = await import('../public/images/case-studies/case-monkey/faced.png');
+const tackling = await import('../public/images/case-studies/case-monkey/tackling.png');
+//
+const goalImg = await import('../public/images/case-studies/case-monkey/goal.png');
+//
+const animiImg1 = await import('../public/images/case-studies/case-monkey/animi1.png');
+const animiImg2 = await import('../public/images/case-studies/case-monkey/animi2.png');
+const animiImg3 = await import('../public/images/case-studies/case-monkey/animi3.png');
+//
+const service1 = await import('../public/images/case-studies/case-monkey/service1.png');
+const service2 = await import('../public/images/case-studies/case-monkey/service2.png');
+const service3 = await import('../public/images/case-studies/case-monkey/service3.png');
+const service4 = await import('../public/images/case-studies/case-monkey/service4.png');
+const service5 = await import('../public/images/case-studies/case-monkey/service5.png');
+//
+const chosImg1 = await import('../public/images/lp-images/icon1.png');
+const chosImg2 = await import('../public/images/lp-images/icon2.png');
+const chosImg3 = await import('../public/images/lp-images/icon3.png');
+const chosImg4 = await import('../public/images/lp-images/icon4.png');
+const chosImg5 = await import('../public/images/lp-images/icon5.png');
+const chosImg6 = await import('../public/images/lp-images/icon6.png');
+const chosImg7 = await import('../public/images/lp-images/icon7.png');
+const chosImg8 = await import('../public/images/lp-images/icon8.png');
+const chosImg9 = await import('../public/images/lp-images/icon9.png');
 
 
 export default function GreaceMonkey() {
@@ -67,7 +84,7 @@ export default function GreaceMonkey() {
             <CaseGlamic
                 textArray1={[
                     {
-                        title: <>Automobile Repair <span>Solution</span></>,
+                        title: <>Automobile <span>Repair Solution</span></>,
                         text: [
                             <>
                                 <i>Grease Monkey</i> is your automotive innovation platform that provides a thorough answer to all your car repair needs. From services and prices to locations and client reviews, we help you make informed decisions for your vehicle.
@@ -81,22 +98,17 @@ export default function GreaceMonkey() {
 
                 textArray2={[
                     {
-                        title: <>Want an <br /> App Like This?</>,
-                        text: <>Our expert consultants eagerly await your ideas. Request a complimentary consultation with our app specialists to discuss your idea.</>,
+                        title: <>Looking For Something Similar?</>,
+                        text: <>Our consultants are ready to hear your idea. Request a free consultation with our app experts and transform it into a digital reality.</>,
                     },
                 ]}
 
-                foldImg={glamicImg}
+                slide1={slide1}
+                slide2={slide2}
+                slide3={slide3}
+                slide4={slide4}
 
                 textArray3={[
-                    {
-                        title: <>Why Trust BitsWits with <span>App Development?</span></>,
-                        text: [
-                            <>We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions.</>,
-
-                            <>Our track record of delivering on time and within budget, coupled with a commitment to staying ahead of industry trends, sets us apart as the best partner for mobile app development.</>,
-                        ],
-                    },
                     {
                         title: <>The <span>Starting</span> Point</>,
                         text: [
@@ -108,14 +120,10 @@ export default function GreaceMonkey() {
                 ]}
             />
 
-            <CaseServices
-                servImg={servImg}
-            />
-
             <CaseWants
-                sections={[
+                sections1={[
                     {
-                        title: <> Wheel Deal: Grease Monkey’s Key <span>Features</span> </>,
+                        title: <> Wheel Deal: Grease <br /> Monkey’s <span>Key Features</span> </>,
                         textArray: [
                             'Garage Locator',
                             'Scheduling Appointments',
@@ -127,9 +135,12 @@ export default function GreaceMonkey() {
                             'Premium Subscription',
                             'Super Admin Dashboard',
                         ],
-                    },
+                    }
+                ]}
+                wantImg1={features}
+                sections2={[
                     {
-                        title: <> A Closer Look at Project <span>Challenges We Faced</span> </>,
+                        title: <> Challenges <span>We Faced</span> </>,
                         textArray: [
                             'Miscommunications leading to misunderstandings.',
                             'Maintaining high quality services across diverse repair centers.',
@@ -137,7 +148,10 @@ export default function GreaceMonkey() {
                             'User’s understanding regarding the application.',
                             'Keeping the app up-to-date with the latest automotive tech and trends.',
                         ],
-                    },
+                    }
+                ]}
+                wantImg2={faced}
+                sections3={[
                     {
                         title: <> Trouble <span>Tackling</span> </>,
                         textArray: [
@@ -149,47 +163,41 @@ export default function GreaceMonkey() {
                         ],
                     },
                 ]}
-                para={<> BitsWits' proactive approach to problem solving and constant commitment to technology refinement played an important role in ensuring the efficiency and user satisfaction. Through our vigilant problem-solving mindset, we promptly sought solutions and made sure Grease Monkey stands as a leading app in the automobile repair industry. </>}
-                wantsClass='graceMonkey'
+                wantImg3={tackling}
+                lastPara={<> BitsWits' proactive approach to problem solving and constant commitment to technology refinement played an important role in ensuring the efficiency and user satisfaction. Through our vigilant problem-solving mindset, we promptly sought solutions and made sure Grease Monkey stands as a leading app in the automobile repair industry. </>}
             />
 
             <CaseGoal
                 golImg={goalImg}
-                title={<> Start your app development journey effortlessly; let BitsWits be your savior with a quick tap! </>}
+                title={<> Start Your App Development Journey <br /> Effortlessly; Let <span>Bitswits Be Your <br /> Savior</span> With A Quick Tap! </>}
                 goalClass='graceMonkey'
             />
 
             <CaseOvercoming
-                challenges={[
+                appData={[
                     {
-                        icon: icon1,
-                        title: <> Overcoming <br /> Development Challenges </>,
-                        text: <> We bring together a team of highly skilled app developers, each with their unique expertise and experiences, to tackle complex development problems efficiently. Our team breaks down challenges into manageable components and implements innovative solutions to ensure successful project outcomes. </>,
+                        title: (<> Overcoming <br /> Development Challenges </>),
+                        description: 'We bring together a team of highly skilled app developers, each with their unique expertise and experiences, to tackle complex development problems efficiently. Our team breaks down challenges into manageable components and implements innovative solutions to ensure successful project outcomes.',
                     },
                     {
-                        icon: icon2,
-                        title: <> Hybrid <br /> Development Excellence </>,
-                        text: <> Our approach to app development is anything but one-size-fits-all. With a hybrid approach, we strike a balance between predictability and adaptability. For projects with clearly defined timeframes, we employ a waterfall approach to meet the deadlines. This helps us meet the compliance requirements and regulatory standards. </>,
+                        title: (<> Hybrid <br /> Development Excellence </>),
+                        description: (<> Our approach to app development is anything but one-size-fits-all. With a hybrid approach, we strike a balance between predictability and adaptability. For projects with clearly defined timeframes, we employ a waterfall approach to meet the deadlines. This helps us meet the compliance requirements and regulatory standards. </>),
                     },
                     {
-                        icon: icon3,
-                        title: <> On-Time Delivery - <br /> Every Time </>,
-                        text: <> Completing tasks within a timeframe is a reflection of our professionalism, reliability, and dedication to client satisfaction. Upon onboarding, we set realistic and achievable deadlines, define clear milestones, and allocate resources accordingly. Project managers at BitsWits use tools to track progress and ensure the project remains on schedule. </>,
+                        title: (<> On-Time Delivery - <br /> Every Time </>),
+                        description: 'Completing tasks within a timeframe is a reflection of our professionalism, reliability, and dedication to client satisfaction. Upon onboarding, we set realistic and achievable deadlines, define clear milestones, and allocate resources accordingly. Project managers at BitsWits use tools to track progress and ensure the project remains on schedule.',
                     },
                     {
-                        icon: icon4,
-                        title: <> Erasing <br /> Time-zone Barriers </>,
-                        text: <> Our project managers are trained to remain considerate about time-zone differences, they take into account clients' availability and preferences. We prioritize cultural sensitivity, our developers made a system that shows clients' active hours along with their current location in google maps, and holidays around the globe. </>,
+                        title: (<> Erasing <br /> Time-zone Barriers </>),
+                        description: (<> Our project managers are trained to remain considerate about time-zone differences, they take into account clients' availability and preferences. We prioritize cultural sensitivity, our developers made a system that shows clients' active hours along with their current location in google maps, and holidays around the globe. </>),
                     },
                     {
-                        icon: icon5,
-                        title: <> Efficient <br /> Communication </>,
-                        text: <> BitsWits offers round-the-clock, efficient communication to clients through instant chat, messages, and calls. Our commitment to 24/7 availability ensures that clients can reach out at their convenience. Our instant chat is equipped with end-to-end encryption, ensuring privacy and safeguarding sensitive information in every interaction. </>,
+                        title: (<> Efficient <br /> Communication </>),
+                        description: 'BitsWits offers round-the-clock, efficient communication to clients through instant chat, messages, and calls. Our commitment to 24/7 availability ensures that clients can reach out at their convenience. Our instant chat is equipped with end-to-end encryption, ensuring privacy and safeguarding sensitive information in every interaction.',
                     },
                     {
-                        icon: icon6,
-                        title: <> Addressing <br /> Payment Disputes </>,
-                        text: <> At BitsWits, we rely on the Stripe payment method for all transactions. We've developed an automated dispute resolution portal to efficiently manage payment issues. Our portal also provides clear visibility into the different stages of reported payment disputes and their current statuses. </>,
+                        title: (<> Addressing <br /> Payment Disputes </>),
+                        description: (<> At BitsWits, we rely on the Stripe payment method for all transactions. We've developed an automated dispute resolution portal to efficiently manage payment issues. Our portal also provides clear visibility into the different stages of reported payment disputes and their current statuses. </>),
                     },
                 ]}
             />
@@ -200,16 +208,67 @@ export default function GreaceMonkey() {
                 animiImg3={animiImg3}
             />
 
-            <NewHomeGlobal />
-            <Capabilities />
-            <NewHomeSlider />
-            <Technologieswe />
-            <Homenextproject
-                title="Brace yourself for an App-venture!"
+            <CaseServices
+                title={<> <span>Services:</span> For </>}
+                point1={<> Native Mobile App Development </>}
+                point2={<> Stunning UI/UX Design </>}
+                point3={<> Consumer/ Service Provider Interface </>}
+                service1={service1}
+                service2={service2}
+                service3={service3}
+                service4={service4}
+                service5={service5}
             />
-            <Faqs />
-            <HomeLocation />
 
+            <CaseChoose
+                title={<> <span>Why Trust <br /> BitsWits</span> with App <br /> Development? </>}
+                text1={<> We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions. </>}
+                text2={<> Our track record of delivering on time and within budget, coupled with a commitment to staying ahead of industry trends, sets us apart as the best partner for mobile app development. </>}
+                items={[
+                    {
+                        image: chosImg1,
+                        text: (<> Experienced  <br /> Professionals </>)
+                    },
+                    {
+                        image: chosImg2,
+                        text: (<> On-Time <br /> Delivery </>)
+                    },
+                    {
+                        image: chosImg3,
+                        text: (<> Cost-Effective <br /> Solutions </>)
+                    },
+                    {
+                        image: chosImg4,
+                        text: (<> Scalable and <br /> Secure Apps </>)
+                    },
+                    {
+                        image: chosImg5,
+                        text: (<> User-Centric <br /> Design </>)
+                    },
+                    {
+                        image: chosImg6,
+                        text: (<> Customized <br /> Development </>)
+                    },
+                    {
+                        image: chosImg7,
+                        text: (<> Error-Free <br /> Delivery </>)
+                    },
+                    {
+                        image: chosImg8,
+                        text: (<> Transparent <br /> Communication </>)
+                    },
+                    {
+                        image: chosImg9,
+                        text: (<> Support and <br /> Maintenance </>)
+                    }
+                ]}
+            />
+
+            <CaseGlobal />
+            <CaseCapabilities />
+            <Nothing Nothing="nothingCase" />
+            <Technologieswe />
+            <HomeLocation />
         </>
     )
 }

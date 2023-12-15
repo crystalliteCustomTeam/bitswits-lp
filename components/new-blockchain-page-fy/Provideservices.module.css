@@ -1,3 +1,41 @@
+
+
 .provideserv{
     background-color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.blocknew{
+    display: flex;
+    gap: 25px;
+}
+.create {
+    width: 500px;
+}
+@media screen and (max-width: 991px) { 
+    .provideserv{
+        background-color: black;
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+}
+@media screen and (max-width: 767px) { 
+
+    .blocknew {
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+    }
+    .create {
+        width: unset;
+    }
+
+}
+
+@media screen and (max-width: 480px) { 
+    .provideserv{
+        background-color: black;
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
 }

@@ -1,7 +1,6 @@
 import React from 'react'
-import Image from 'next/image';
-import styles from '@/styles/CaseOvercoming.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/CaseOvercoming.module.css'
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -10,50 +9,46 @@ import "slick-carousel/slick/slick-theme.css";
 
 const CaseOvercoming = (props) => {
 
-    var OverSlider = {
+    const mblSlider = {
         dots: false,
         arrows: false,
+        infinite: true,
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 6000,
         speed: 3000,
         slidesToShow: 1,
         slidesToScroll: 1,
-        adaptiveHeight: true
+        adaptiveHeight: true,
     };
 
     return (
         <>
-            <section className={`${styles.Overcoming} d-none d-lg-block`}>
+            <section className={styles.Overcoming}>
                 <Container>
-                    <Row>
-                        {props.challenges.map((challenge, index) => (
-                            <Col lg={6} key={index}>
-                                <div className={styles.overBox}>
-                                    <h3>{challenge.title}</h3>
-                                    <p>{challenge.text}</p>
-                                    <div className={styles.overImg}>
-                                        <Image quality={75} alt='BitsWits' src={challenge.icon} width={55} height={55} />
-                                    </div>
+                    <Row className='align-items-center g-4 d-none d-lg-flex'>
+                        {props.appData.map((data, index) => (
+                            <Col lg={4} key={index}>
+                                <div key={index} className={styles.app}>
+                                    <h3>{data.title}</h3>
+                                    <p>{data.description}</p>
                                 </div>
                             </Col>
                         ))}
                     </Row>
-                </Container>
-            </section>
 
-            <section className={`${styles.Overcoming} d-block d-lg-none`}>
-                <Container>
-                    <Slider {...OverSlider} className='caseSlider'>
-                        {props.challenges.map((challenge, index) => (
-                            <div className={styles.overBox} key={index}>
-                                <h3>{challenge.title}</h3>
-                                <p>{challenge.text}</p>
-                                <div className={styles.overImg}>
-                                    <Image quality={75} alt='BitsWits' src={challenge.icon} width={55} height={55} />
+                    {/* For Mobile */}
+                    <div className='d-block d-lg-none'>
+                        <Slider {...mblSlider} className={`mblSlider ${styles.mblSlider}`}>
+                            {props.appData.map((data, index) => (
+                                <div key={index}>
+                                    <div key={index} className={styles.app}>
+                                        <h3>{data.title}</h3>
+                                        <p>{data.description}</p>
+                                    </div>
                                 </div>
-                            </div>
-                        ))}
-                    </Slider>
+                            ))}
+                        </Slider>
+                    </div>
                 </Container>
             </section>
         </>

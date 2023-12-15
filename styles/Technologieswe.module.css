@@ -89,8 +89,9 @@
 
 @media screen and (max-width: 991px) {
   .tech {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 80px;
+    background-image: none;
   }
 
   .active::before {
@@ -99,10 +100,6 @@
 
   .work {
     font-size: 40px;
-  }
-
-  .tech {
-    padding-bottom: 50px;
   }
 
   .analpost {

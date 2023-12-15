@@ -17,11 +17,11 @@ import bestglobal11 from '../public/images/mobilelpfinal/global/11.png'
 import bestgloba12 from '../public/images/mobilelpfinal/global/12.png'
 
 
-const NewHomeGlobal = () => {
+const NewHomeGlobal = (props) => {
 
     return (
         <>
-            <section className={styles.team} id="partners">
+            <section className={`${styles.team} ${styles[props.bannerClass]}`} id="partners">
                 <Container>
                     <Row>
                         <Col xl={12}>

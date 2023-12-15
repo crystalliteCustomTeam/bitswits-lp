@@ -16,7 +16,7 @@ import Headerlphome from "@/components/Headerlphome";
 import EcommerceBanner from "@/components/EcommerceBanner";
 import EcommerceFooter from "@/components/EcommerceFooter";
 import Loader from "@/components/Loader";
-import Headerproduct from "@/components/Headerproduct";
+
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();

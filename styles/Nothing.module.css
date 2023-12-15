@@ -1,4 +1,4 @@
-.nothingblockchain{
+.nothingblockchain {
   padding-top: 80px;
   padding-bottom: 80px;
   background: #000;
@@ -8,25 +8,24 @@
   background-size: inherit;
   background-size: 27%;
 }
-.nothingblockchain h3{
-  color: #F32F53;
+.nothingblockchain h3 {
+  color: #f32f53;
   font-size: 30px;
   font-weight: 900;
 }
-.nothingblockchain a{
+.nothingblockchain a {
   border-radius: 12px;
   font-family: "SF-Pro-Display";
   font-weight: 500;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
-.nothingblockchain h2{
-
+.nothingblockchain h2 {
   font-size: 60px;
   font-weight: bold;
   letter-spacing: 2px;
   padding-top: 10px;
 }
-.nothingblockchain .strpImg p{
+.nothingblockchain .strpImg p {
   font-size: 14px;
 }
 .nothing,
@@ -106,7 +105,7 @@
 /* ========================================== */
 
 .nothingCase {
-  padding: 100px 0 120px;
+  padding: 80px 0 80px;
   background: #000;
   background-image: url(../public/images/nothing/bg.png);
   background-position: 886px center;
@@ -147,6 +146,10 @@
   .nothingLphomefy {
     padding: 0 0 80px;
   }
+
+  .nothingCase {  
+    padding: 0 0 80px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -161,6 +164,10 @@
   }
 
   .nothingLphomefy {
+    padding: 0 0 50px;
+  }
+
+  .nothingCase {  
     padding: 0 0 50px;
   }
 }

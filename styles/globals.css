@@ -28,7 +28,7 @@
 }
 
 @font-face {
-  font-family: SF-Pro-Display;
+  font-family: SF-Pro-Display-Heavy;
   src: url(../public/fontsfy/SF-Pro-Display-Heavy.otf);
   font-display: swap;
 }
@@ -40,7 +40,7 @@
 }
 
 @font-face {
-  font-family: SF-Pro-Display;
+  font-family: SF-Pro-Display-Regular;
   src: url(../public/fontsfy/SF-Pro-Display-Regular.otf);
   font-display: swap;
 }
@@ -160,6 +160,17 @@ div {
 .fontgilroygilroysemibold {
   font-family: "Gilroy-SemiBold", sans-serif;
 }
+
+
+.fontsfheavy{
+  font-family: 'SF-Pro-Display-Heavy', sans-serif;
+}
+.fontsfregular{
+  font-family: 'SF-Pro-Display-Regular', sans-serif;
+}
+
+
+
 /* fontweight */
 
 .font-regular {
@@ -474,7 +485,36 @@ div {
 }
 
 /* blockchainfonts */
-.blockbannerheading {
+
+.font_30{
+  font-size: 30px;
+}
+.font_55{
+  font-size: 52px
+}
+.font_17{
+  font-size: 17px;
+}
+.font_15{
+  font-size: 15px;
+}
+.font_13{
+  font-size: 12px;
+}
+.font_20{
+  font-size: 20px;
+}
+.linehight_1{
+  line-height: 1.2;
+}
+.linehight_2{
+  line-height: 1.3;
+}
+.letterspace_1{
+  letter-spacing: 1px;
+}
+
+.blockbannerheading{
   font-size: 50px;
   font-weight: bold;
 }
@@ -647,6 +687,22 @@ a {
   background-color: black;
 }
 
+.bgtext{
+  position: relative;
+}
+.bgtext::before{
+  position: absolute;
+  content: '';
+  background-image: url(../public/newiconimg/bg-image.png);
+  background-position: center 450px;
+  background-size: 100%;
+  width: 83%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
 .btnhide {
   display: none !important;
 }
@@ -2131,6 +2187,25 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 991px) {
+
+  .bgtext{
+    position: unset;
+  }
+  .bgtext::before{
+    position: unset;
+    content: '';
+    background-image: none;
+    background-position: center 450px;
+    background-size: 100%;
+    width: 83%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+  }
+
+
   .thanksgiving .modal-content {
     height: 100%;
     margin-top: 20%;

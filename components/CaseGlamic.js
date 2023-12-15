@@ -9,8 +9,8 @@ const CaseGlamic = (props) => {
         <>
             <section className={`${styles.glamic}`}>
                 <Container>
-                    <Row className='justify-content-between'>
-                        <Col lg={6}>
+                    <Row className='justify-content-between gy-3 gy-md-5'>
+                        <Col lg={12}>
                             {props.textArray1.map((item, index) => (
                                 <div className={styles.left} key={index}>
                                     <h2>{item.title}</h2>
@@ -20,25 +20,32 @@ const CaseGlamic = (props) => {
                                 </div>
                             ))}
                         </Col>
-                        <Col lg={5}>
+                        <Col lg={12} className='pt-2 pt-lg-4'>
                             {props.textArray2.map((item, index) => (
                                 <div className={styles.right} key={index}>
-                                    <h3>{item.title}</h3>
-                                    <p>{item.text}</p>
-                                    <div className={styles.caseBtn}>
-                                        <Link href='tel:(833) 500-6007'>BOOK A CALL</Link>
-                                    </div>
+                                    <Row className='align-items-center justify-content-between'>
+                                        <Col lg={7}>
+                                            <h3>{item.title}</h3>
+                                            <p>{item.text}</p>
+                                        </Col>
+                                        <Col lg={4}>
+                                            <div className={styles.caseBtn}>
+                                                <Link href='tel:(833) 500-6007'>BOOK A CALL</Link>
+                                            </div>
+                                        </Col>
+                                    </Row>
                                 </div>
                             ))}
                         </Col>
                         <Col lg={12}>
                             <div className={styles.SecImg}>
-                                <Image quality={90} src={props.foldImg} alt="BitsWits" className={`img-fluid`} />
+                                <Image quality={90} src={props.slide1} alt="BitsWits" className={`img-fluid`} />
+                                <Image quality={90} src={props.slide2} alt="BitsWits" className={`img-fluid`} />
+                                <Image quality={90} src={props.slide3} alt="BitsWits" className={`img-fluid`} />
+                                <Image quality={90} src={props.slide4} alt="BitsWits" className={`img-fluid`} />
                             </div>
                         </Col>
-                    </Row>
-                    <Row className='justify-content-between mt-md-5 pt-4'>
-                        <Col lg={12}>
+                        <Col lg={11} className='mx-auto'>
                             {props.textArray3.map((item, index) => (
                                 <div className={styles.leftText} key={index}>
                                     <h3>{item.title}</h3>

@@ -1,9 +1,6 @@
 .wants {
-  padding: 100px 0 250px;
+  padding: 80px 0;
   background: #000;
-  background-size: 50%;
-  background-position: 1230px 140px;
-  background-repeat: no-repeat;
 }
 
 .content {
@@ -19,9 +16,7 @@
 }
 
 .wants h3 span {
-  background: linear-gradient(to right, #eb335b 35%, #4a78ef 65%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #f32f53;
 }
 
 .wants p {
@@ -37,424 +32,29 @@
   margin-top: 5px;
 }
 
-/* ============================= */
-
-.graceMonkey {
-  background-image: url(../public/images/case-monkey/want-bg.png);
+.wantImg {
+  text-align: right;
 }
 
-.cravecourier {
-  background-image: url(../public/images/case-crave/want-bg.png);
-  background-position: 1170px 335px;
-  background-size: 50%;
+.lastPara {
+  margin-top: 80px;
+  padding: 40px 60px;
+  border-radius: 15px;
+  border-bottom-right-radius: 40px;
+  border: 1px solid #434343;
 }
 
-.homepro {
-  background-image: url(../public/images/case-homepro/want-bg.png);
-  background-position: 1310px 145px;
-  background-size: 50%;
-}
-
-.readyApp {
-  background-image: url(../public/images/case-ready/want-bg.png);
-  background-position: 1220px 350px;
-  background-size: 50%;
-}
-
-.soulscribe {
-  background-image: url(../public/images/case-scribe/want-bg.png);
-  background-position: 1350px 150px;
-  background-size: 50%;
-}
-
-.fitnow {
-  background-image: url(../public/images/case-fitnow/want-bg.png);
-  background-position: 1200px 550px;
-  background-size: 45%;
-}
-
-.beats {
-  background-image: url(../public/images/case-beats/want-bg.png);
-  background-position: 1170px 435px;
-  background-size: 70%;
-}
-
-.healthcare {
-  background-image: url(../public/images/case-health/want-bg.png);
-  background-position: 1400px 235px;
-  background-size: 40%;
-}
-
-.dreamhome {
-  background-image: url(../public/images/case-dreamhome/want-bg.png);
-  background-position: 1440px 180px;
-  background-size: 35%;
-}
-
-.rideme {
-  background-image: url(../public/images/case-ride/want-bg.png);
-  background-position: right 350px;
-  background-size: 30%;
-}
-
-.tourista {
-  background-image: url(../public/images/case-travel/want-bg.png);
-  background-position: 1250px 450px;
-  background-size: 40%;
-}
-
-.sponsord {
-  background-image: url(../public/images/case-sponsord/want-bg.png);
-  background-position: 1360px 225px;
-  background-size: 40%;
-}
-
-.wisu {
-  background-image: url(../public/images/case-wisu/want-bg.png);
-  background-position: 1200px 150px;
-  background-size: 40%;
-}
-
-/* ========================================== */
-
-@media screen and (max-width: 1690px) {
-  .wants {
-    background-size: 60%;
-    background-position: 950px 140px;
-  }
-
-  .cravecourier {
-    background-position: 1000px 355px;
-    background-size: 50%;
-  }
-
-  .homepro {
-    background-position: 1095px 250px;
-    background-size: 45%;
-  }
-
-  .readyApp {
-    background-position: 1020px 350px;
-    background-size: 50%;
-  }
-
-  .soulscribe {
-    background-position: 1130px 160px;
-    background-size: 50%;
-  }
-
-  .fitnow {
-    background-position: 1000px 550px;
-    background-size: 45%;
-  }
-
-  .beats {
-    background-position: 970px 435px;
-    background-size: 70%;
-  }
-
-  .healthcare {
-    background-position: 1165px 275px;
-    background-size: 40%;
-  }
-
-  .dreamhome {
-    background-position: 1200px 250px;
-    background-size: 35%;
-  }
-
-  .rideme {
-    background-position: right 350px;
-    background-size: 30%;
-  }
-
-  .tourista {
-    background-position: 1050px 450px;
-    background-size: 40%;
-  }
-
-  .sponsord {
-    background-position: 1135px 275px;
-    background-size: 40%;
-  }
-
-  .wisu {
-    background-position: 1000px 200px;
-    background-size: 40%;
-  }
-}
-
-/* ========================================== */
-
-@media screen and (max-width: 1590px) {
-  .wants {
-    background-size: 55%;
-    background-position: 950px 200px;
-  }
-
-  .cravecourier {
-    background-position: 980px 455px;
-    background-size: 50%;
-  }
-
-  .homepro {
-    background-position: 1095px 250px;
-    background-size: 45%;
-  }
-
-  .readyApp {
-    background-position: 980px 350px;
-    background-size: 50%;
-  }
-
-  .soulscribe {
-    background-position: 1090px 260px;
-    background-size: 50%;
-  }
-
-  .fitnow {
-    background-position: 960px 550px;
-    background-size: 45%;
-  }
-
-  .beats {
-    background-position: 1020px 535px;
-    background-size: 60%;
-  }
-
-  .healthcare {
-    background-position: 1060px 275px;
-    background-size: 45%;
-  }
-
-  .dreamhome {
-    background-position: 1150px 250px;
-    background-size: 35%;
-  }
-
-  .rideme {
-    background-position: right 400px;
-    background-size: 30%;
-  }
-
-  .tourista {
-    background-position: 1000px 450px;
-    background-size: 40%;
-  }
-
-  .sponsord {
-    background-position: 1090px 275px;
-    background-size: 40%;
-  }
-
-  .wisu {
-    background-position: 890px 200px;
-    background-size: 45%;
-  }
-}
-
-/* ========================================== */
-
-@media screen and (max-width: 1440px) {
-  .wants {
-    background-size: 60%;
-    background-position: 950px 140px;
-  }
-
-  .cravecourier {
-    background-position: 900px 335px;
-    background-size: 50%;
-  }
-
-  .homepro {
-    background-position: 1000px 250px;
-    background-size: 50%;
-  }
-
-  .readyApp {
-    background-position: 910px 350px;
-    background-size: 50%;
-  }
-
-  .soulscribe {
-    background-position: 1020px 300px;
-    background-size: 50%;
-  }
-
-  .fitnow {
-    background-position: 900px 550px;
-    background-size: 45%;
-  }
-
-  .beats {
-    background-position: 950px 435px;
-    background-size: 60%;
-  }
-
-  .healthcare {
-    background-position: 1045px 300px;
-    background-size: 40%;
-  }
-
-  .dreamhome {
-    background-position: 1080px 250px;
-    background-size: 35%;
-  }
-
-  .rideme {
-    background-position: right 450px;
-    background-size: 30%;
-  }
-
-  .tourista {
-    background-position: 950px 450px;
-    background-size: 40%;
-  }
-
-  .sponsord {
-    background-position: 980px 275px;
-    background-size: 45%;
-  }
-
-  .wisu {
-    background-position: 830px 200px;
-    background-size: 45%;
-  }
-}
-
-/* ========================================== */
-
-@media screen and (max-width: 1390px) {
-  .wants {
-    background-size: 55%;
-    background-position: 900px 250px;
-  }
-
-  .cravecourier {
-    background-position: 900px 335px;
-    background-size: 50%;
-  }
-
-  .readyApp {
-    background-position: 970px 450px;
-    background-size: 40%;
-  }
-
-  .soulscribe {
-    background-position: 1050px 400px;
-    background-size: 40%;
-  }
-
-  .fitnow {
-    background-position: 910px 550px;
-    background-size: 40%;
-  }
-
-  .beats {
-    background-position: 900px 450px;
-    background-size: 60%;
-  }
-
-  .healthcare {
-    background-position: 990px 400px;
-    background-size: 40%;
-  }
-
-  .dreamhome {
-    background-position: 1020px 300px;
-    background-size: 35%;
-  }
-
-  .rideme {
-    background-position: right 450px;
-    background-size: 30%;
-  }
-
-  .tourista {
-    background-position: 900px 450px;
-    background-size: 40%;
-  }
-
-  .sponsord {
-    background-position: 975px 300px;
-    background-size: 40%;
-  }
-
-  .wisu {
-    background-position: 790px 200px;
-    background-size: 45%;
-  }
-}
-
-/* ========================================== */
-
-@media screen and (max-width: 1290px) {
-  .wants {
-    background-size: 40%;
-    background-position: 900px 340px;
-  }
-
-  .cravecourier {
-    background-position: 850px 335px;
-    background-size: 45%;
-  }
-
-  .readyApp {
-    background-position: 900px 450px;
-    background-size: 40%;
-  }
-
-  .soulscribe {
-    background-position: 900px 400px;
-    background-size: 50%;
-  }
-
-  .fitnow {
-    background-position: 850px 600px;
-    background-size: 40%;
-  }
-
-  .beats {
-    background-position: 880px 450px;
-    background-size: 55%;
-  }
-
-  .healthcare {
-    background-position: 885px 400px;
-    background-size: 45%;
-  }
-
-  .dreamhome {
-    background-position: 960px 400px;
-    background-size: 35%;
-  }
-
-  .rideme {
-    background-position: right 500px;
-    background-size: 30%;
-  }
-
-  .tourista {
-    background-position: 900px 500px;
-    background-size: 35%;
-  }
-
-  .sponsord {
-    background-position: 910px 350px;
-    background-size: 40%;
-  }
-
-  .wisu {
-    background-position: 740px 250px;
-    background-size: 45%;
-  }
+.lastPara p {
+  color: #fff;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 /* ========================================== */
 
 @media screen and (max-width: 991px) {
   .wants {
-    padding: 50px 0 50px;
+    padding: 0 0 80px;
     background-image: none;
   }
 
@@ -462,13 +62,22 @@
     font-size: 40px;
     line-height: 50px;
   }
+
+  .wantImg,
+  .wantImg2 {
+    text-align: center;
+  }
+
+  .midRow {
+    flex-direction: column-reverse;
+  }
 }
 
 /* ========================================== */
 
 @media screen and (max-width: 767px) {
   .wants {
-    padding: 50px 0;
+    padding: 0 0 50px;
   }
 
   .wants h3 {
