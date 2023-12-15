@@ -26,7 +26,7 @@ const HireBenifits = (props) => {
         <>
             <section className={`${styles.benifits}`}>
                 <Container>
-                    <Row className='gy-5'>
+                    <Row className='gy-3 gy-lg-5'>
                         <Col lg={10} className='mx-auto'>
                             <div>
                                 {props.textArray.map((item, index) => (

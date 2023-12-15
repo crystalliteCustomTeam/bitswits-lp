@@ -56,7 +56,7 @@ const HireChoose = (props) => {
                                 ))}
                             </div>
                         </Col>
-                        <Slider {...mblSlider} className={`mblSlider ${styles.mblSlider}`}>
+                        <Slider {...mblSlider} className={`mblSlider ${styles.mblSlider} mt-2`}>
                             {props.choosesArray.map((chooseItem, index) => (
                                 <Col lg={3} md={6} key={index}>
                                     <div className={styles.chooseBox}>

@@ -1,6 +1,6 @@
 .benifitsMbl {
   background: #000;
-  padding: 0 0 80px;
+  padding: 80px 0 ;
 }
 
 .benifitsMbl h2 {
@@ -85,7 +85,7 @@
 
 @media screen and (max-width: 991px) {
   .benifitsMbl {
-    padding: 100px 0 0;
+    padding: 80px 0;
   }
 
   .benifitsMbl h2 {
@@ -106,7 +106,7 @@
 
 @media screen and (max-width: 767px) {
   .benifitsMbl {
-    padding: 50px 0 0;
+    padding: 0 0 50px;
   }
 
   .benifitsMbl h2 {
@@ -125,5 +125,9 @@
 
   .beniftIcon h5 {
     font-size: 16px;
+  }
+
+  .secImage {
+    margin: 0;
   }
 }

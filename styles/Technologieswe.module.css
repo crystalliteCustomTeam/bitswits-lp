@@ -124,12 +124,12 @@
 
 @media screen and (max-width: 767px) {
   .tech {
-    padding-bottom: 0px;
+    padding-bottom: 50px;
   }
 
   .appdev {
-    padding-top: 50px;
-    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 50px;
   }
   .analpost div {
     color: #707070;

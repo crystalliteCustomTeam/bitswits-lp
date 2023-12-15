@@ -166,7 +166,7 @@ const HireBenifitsMbl = () => {
                         </Col>
                     </Row>
                     {/* =========== Mobile =========== */}
-                    <Row className='gy-3 align-items-center d-block d-lg-none'>
+                    <Row className='align-items-center d-block d-lg-none'>
                         <Col lg={12}>
                             <div>
                                 <h2>Benefits</h2>

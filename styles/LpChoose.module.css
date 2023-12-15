@@ -162,8 +162,8 @@
   }
 
   .marginTop {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 0;
+    padding-bottom: 80px;
   }
 }
 
@@ -187,7 +187,4 @@
     text-align: center;
   }
 
-  .marginTop {
-    padding-bottom: 0px;
-  }
 }
