@@ -10,11 +10,11 @@ import Headerlp from "@/components/Headerlp";
 import Footernewfy from "@/components/Footernewfydesign";
 import Footernewlp1 from "@/components/Footernewlp1";
 import Footernewlp from "@/components/Footernewlp";
-import Cursor from "@/components/Cursor";
 import Footernewdesign from "@/components/Footernewdesign";
 import Headerlphome from "@/components/Headerlphome";
 import EcommerceBanner from "@/components/EcommerceBanner";
 import EcommerceFooter from "@/components/EcommerceFooter";
+import Cursor from "@/components/Cursor";
 import Loader from "@/components/Loader";
 
 
@@ -115,7 +115,6 @@ export default function App({ Component, pageProps }) {
       ) : (
         <>
           <NewHeaderDesign />
-          {/* <Headerproduct /> */}
           <Header />
         </>
       )}

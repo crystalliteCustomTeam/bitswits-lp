@@ -2,33 +2,25 @@ import Head from "next/head";
 import React from "react";
 //components
 const ServicesBanner = React.lazy(() => import('@/components/ServicesBanner'));
-const NewHomeAbout = React.lazy(() => import('@/components/NewHomePageAbout'));
 const ServicesMaintain = React.lazy(() => import('@/components/ServicesMaintain'));
-const NewAddress = React.lazy(() => import('@/components/NewAddress'));
-const Justbuildit = React.lazy(() => import('@/components/Justbuildit'));
-const ServicesWho = React.lazy(() => import('@/components/ServicesWho'));
-const ServicesWhat = React.lazy(() => import('@/components/ServicesWhat'));
-const ServisesWhy = React.lazy(() => import('@/components/ServisesWhy'));
 const ServicesPortfolio = React.lazy(() => import('@/components/ServicesPortfolio'));
-const Capabilities = React.lazy(() => import('@/components/Capabilities'));
 const Newsuccess = React.lazy(() => import('@/components/NewMblSuccess'));
 const Technologieswe = React.lazy(() => import('@/components/Technologieswe'));
-const NewHomeGlobal = React.lazy(() => import('@/components/NewHomeGlobal'));
-const NewHomeSlider = React.lazy(() => import('@/components/NewHomeSlider'));
-const Homenextproject = React.lazy(() => import('@/components/Homenextproject'));
 const ServicesFaqs = React.lazy(() => import('@/components/ServicesFaqs'));
 const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
+const People = React.lazy(() => import('@/components/People'));
+const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
+const LpChoose = React.lazy(() => import('@/components/LpChoose'));
+const LpForm = React.lazy(() => import('@/components/LpForm6'));
+const Nothing = React.lazy(() => import('@/components/Nothing'));
+const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
+const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
+const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
+const Formnewlp = React.lazy(() => import('@/components/Formnewlp'));
+const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
+const Partnerships = React.lazy(() => import('@/components/Partnerships'));
 //images
 const BannerImage = await import("@/public/newMobilePageImages/banner_image.png")
-const WhoImage = await import("@/public/newMobilePageImages/who_image.png")
-const WhatImage = await import("@/public/newMobilePageImages/what_Image.png")
-//icons 
-const icon23 = await import('../public/images/fymobile/1.png')
-const icon24 = await import('../public/images/fymobile/2.png')
-const icon25 = await import('../public/images/fymobile/3.png')
-const icon26 = await import('../public/images/fymobile/4.png')
-const icon27 = await import('../public/images/fymobile/5.png')
-const icon28 = await import('../public/images/fymobile/6.png')
 
 
 export default function mobileApplication() {
@@ -94,18 +86,19 @@ export default function mobileApplication() {
         <meta name="ICBM" content="39.78373, -100.445882" />
       </Head>
 
-
       <ServicesBanner
         subtitle="A TOP"
-        title={<> Mobile App Development <br /> Company At Your Service </>}
+        title={<> Mobile App Development Company At Your Service </>}
         text={<> We deliver great results, on time and on budget. Contact us to start talking about your project today! </>}
         BannerImage={BannerImage}
         assignClass="mobile"
       />
-      <NewHomeAbout
-        title="Our Client’s Feedback Has Been"
-        subtitle="Nothing Short Of Amazing!"
+      <People People="people" />
+      <HomeBannerSliderlp />
+      <LpForm
+        addresClass='iosclass'
       />
+      <Nothing Nothing="nothingLp6" />
       <ServicesMaintain
         assignClass="mobile"
         title1={<> Maintaining digital quality with our collection of customizable services </>}
@@ -157,64 +150,20 @@ export default function mobileApplication() {
         appContent6={[]}
         appContent7={[]}
       />
-      <NewAddress />
-      <Justbuildit />
-      <ServicesWho
-        subtitle="Who we are."
-        title="We build greater futures through innovation and collective knowledge."
-        text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
-        WhoImage={WhoImage}
+      <WeworkLp wework="weworkLp6" />
+      <StartupsLp startups="startups" />
+      <ProjectProcess
+        processclass="processLp6"
+        title="Explore Our Mobile App Development Journey"
+        desc="We believe in efficiency without compromising quality. Our
+              streamlined process for app development is <br /> designed to be
+              transparent and collaborative, ensuring your vision comes to life
+              exactly as you imagined."
       />
-      <ServicesWhat
-        subtitle="What we do."
-        title="BitsWits transforms businesses through technology."
-        text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
-        WhatImage={WhatImage}
-      />
-      <ServisesWhy
-        title={<> <h4 className='font20 font-bold text-white text-center'>Why BitsWits?</h4> </>}
-        subtitle={<> <h2 className='grdiant f-80 font-bold text-center'>Precision, Performance <br /> & Perfection.</h2> </>}
-        sub1="Why Choose BitsWits for Building Mobile Applications?"
-        sub2="Building your mobile app acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape its trajectory."
-        whyData={
-          [
-            {
-              icon: icon23,
-              title: "Greater Customer Reach",
-              para: "Mobile apps allow you to connect with customers anywhere and anytime worldwide.",
-            },
-            {
-              icon: icon24,
-              title: "Simplified Payments",
-              para: "Mobile applications allow users to instantly pay, donate, and order without any hassle.",
-            },
-            {
-              icon: icon25,
-              title: (<> Drive <br /> Sales </>),
-              para: "Mobile applications provide a convenient way for customers to purchase your products and services on the go.",
-            },
-            {
-              icon: icon26,
-              title: (<> Customer <br /> Loyalty </>),
-              para: "Mobile apps foster ongoing engagement and allow you to deliver customized offers and experiences.",
-            },
-            {
-              icon: icon27,
-              title: "Competitive Advantage",
-              para: "Innovative mobile apps set you apart, opening new opportunities to engage users, collect data, improve customer service, and drive revenue.",
-            },
-            {
-              icon: icon28,
-              title: "Improved Customer Service",
-              para: "Features like in-app chat and customer support assist in resolving issues while enhancing customer satisfaction.",
-            },
-          ]
-        }
-      />
+      <LpChoose transform="transform" />
       <ServicesPortfolio
-        title={<> Showcasing Our <span className="grdiant">Creative Vision</span> </>}
+        title={<> Showcasing Our <span className="newfycolr">Creative Vision</span> </>}
       />
-      <Capabilities />
       <div className="status2">
         <Newsuccess
           subtitle="Ready For Success?"
@@ -246,14 +195,10 @@ export default function mobileApplication() {
           }
         />
       </div>
-      <section className='spacingtb1'>
-        <Technologieswe />
-      </section>
-      <NewHomeGlobal />
-      <NewHomeSlider />
-      <Homenextproject
-        title="Brace yourself for an App-venture!"
-      />
+      <Technologieswe />
+      <Globallplp6 />
+      <Partnerships />
+      <Formnewlp />
       <ServicesFaqs
         faqsData={
           [
