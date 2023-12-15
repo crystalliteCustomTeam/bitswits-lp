@@ -16,7 +16,7 @@ const CaseWants = (props) => {
                         <Col lg={6}>
                             {props.sections1.map((section, index) => (
                                 <div key={index} className={styles.content}>
-                                    <h3>{section.title}</h3>
+                                    <h3 className='newchoose'>{section.title}</h3>
                                     {section.textArray.map((text, textIndex) => (
                                         <p key={textIndex}>
                                             <Image src={tick} width={20} alt="BitsWits" className={`img-fluid`} />
@@ -41,7 +41,7 @@ const CaseWants = (props) => {
                         <Col lg={6}>
                             {props.sections2.map((section, index) => (
                                 <div key={index} className={styles.content}>
-                                    <h3>{section.title}</h3>
+                                    <h3 className='newchoose'>{section.title}</h3>
                                     {section.textArray.map((text, textIndex) => (
                                         <p key={textIndex}>
                                             <Image src={tick} width={20} alt="BitsWits" className={`img-fluid`} />
@@ -56,7 +56,7 @@ const CaseWants = (props) => {
                         <Col lg={6}>
                             {props.sections3.map((section, index) => (
                                 <div key={index} className={styles.content}>
-                                    <h3>{section.title}</h3>
+                                    <h3 className='newchoose'>{section.title}</h3>
                                     {section.textArray.map((text, textIndex) => (
                                         <p key={textIndex}>
                                             <Image src={tick} width={20} alt="BitsWits" className={`img-fluid`} />

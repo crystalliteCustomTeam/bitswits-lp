@@ -14,7 +14,7 @@ const CaseServices = (props) => {
                     <Row className='align-items-center'>
                         <Col lg={12}>
                             <div className={styles.content}>
-                                <h3>{props.title}</h3>
+                                <h3 className='newchoose'>{props.title}</h3>
                                 <p>
                                     <Image src={tick} width={20} alt="BitsWits" className={`img-fluid`} />
                                     <span>{props.point1}</span>

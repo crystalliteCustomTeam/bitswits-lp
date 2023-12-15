@@ -48,7 +48,7 @@ const NewCaseCapabilities = () => {
                     <Row className={styles.posttext}>
                         <Col xl={12}>
                             <div className={styles.build}>
-                                <h2>Our App Development Process</h2>
+                                <h2 className='newchoose'>Our App Development Process</h2>
                             </div>
                         </Col>
                     </Row>
