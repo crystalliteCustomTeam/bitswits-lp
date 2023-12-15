@@ -87,7 +87,7 @@
   padding-left: 1%;
 }
 
-.mega hr{
+.mega hr {
   border: 1px solid;
   width: 90%;
   /* margin: 15px auto; */
@@ -375,7 +375,7 @@
   width: 100%;
 }
 
-.dsicon img{
+.dsicon img {
   height: 20px;
   width: 20px;
   object-fit: contain;
@@ -513,6 +513,25 @@
   color: #e83468;
 }
 
+.megaButton {
+  border: 0;
+  background: transparent;
+}
+
+.aboutButton{
+  background: transparent;
+  border-right: 0;
+  border-top: 0;
+  border-left: 0;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.glop .aboutButton a{
+  color: white;
+  font-size: 14px;
+}
+
 .offpost {
   padding: 0;
 }
@@ -549,6 +568,7 @@
   display: flex;
   border-radius: 7px;
   height: 50px;
+  width: 100%;
   position: relative;
   background-color: #242429;
   flex: 0 0 49%;
@@ -556,6 +576,11 @@
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   align-items: center;
+}
+
+.polo1 button {
+  border: none;
+  background: transparent;
 }
 
 .active .polo {
@@ -572,6 +597,7 @@
 .polo1:hover {
   background: #e83468;
   border-radius: 7px;
+  border: none;
 }
 
 /* .polo:hover img {
@@ -595,19 +621,19 @@
   line-height: 20px;
   margin-bottom: 0;
 }
-.polo3{
+.polo3 {
   padding-top: 10px;
   padding-left: 20px;
 }
-.polo1{
+.polo1 {
   padding-left: 20px;
 }
-.polo3{
+.polo3 {
   height: 168px;
   display: flex;
   align-items: center;
 }
-.email{
+.email {
   color: white;
   font-size: 20px;
 }
@@ -743,6 +769,14 @@
 
 .backarrow {
   display: none;
+}
+
+.imgpost a.tabLink {
+  color: #f32f5e;
+}
+
+.imgpost a.myLink {
+  color: #000000;
 }
 
 @media screen and (min-width: 1400px) {

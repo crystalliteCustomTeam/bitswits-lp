@@ -132,7 +132,7 @@ export default function Home() {
   );
 
   const whyTitle = (
-    <span className="newchoose ">
+    <span className="newchoose">
       Why <span className="grdiant">Choose</span> Blocktech Brew{" "}
       <span className="">As</span>{" "}
     </span>
