@@ -31,11 +31,11 @@ const CaseServices = (props) => {
                         </Col>
                         <Col lg={12}>
                             <div className={styles.servImg}>
-                                <Image src={props.service1} alt="BitsWits" className={`img-fluid`} />
-                                <Image src={props.service2} alt="BitsWits" className={`img-fluid`} />
-                                <Image src={props.service3} alt="BitsWits" className={`${styles.serImg3} img-fluid`} />
-                                <Image src={props.service4} alt="BitsWits" className={`img-fluid`} />
-                                <Image src={props.service5} alt="BitsWits" className={`img-fluid`} />
+                                <Image quality={90} src={props.service1} alt="BitsWits" className={`img-fluid`} />
+                                <Image quality={90} src={props.service2} alt="BitsWits" className={`img-fluid`} />
+                                <Image quality={90} src={props.service3} alt="BitsWits" className={`${styles.serImg3} img-fluid`} />
+                                <Image quality={90} src={props.service4} alt="BitsWits" className={`img-fluid`} />
+                                <Image quality={90} src={props.service5} alt="BitsWits" className={`img-fluid`} />
                             </div>
                         </Col>
                     </Row>

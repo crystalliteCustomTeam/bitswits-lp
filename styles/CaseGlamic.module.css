@@ -72,8 +72,8 @@
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 40px;
+  justify-content: space-around;
+  /* gap: 40px; */
   margin: 70px 0 50px;
 }
 
