@@ -18,26 +18,26 @@ const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 const banLogo = await import('../public/images/case-studies/case-dreamhome/banner-logo.png');
 const banImg = await import('../public/images/case-studies/case-dreamhome/banner-img.png');
 //
-const slide1 = await import('../public/images/case-studies/case-monkey/slide1.png');
-const slide2 = await import('../public/images/case-studies/case-monkey/slide2.png');
-const slide3 = await import('../public/images/case-studies/case-monkey/slide3.png');
-const slide4 = await import('../public/images/case-studies/case-monkey/slide4.png');
+const slide1 = await import('../public/images/case-studies/case-dreamhome/slide1.png');
+const slide2 = await import('../public/images/case-studies/case-dreamhome/slide2.png');
+const slide3 = await import('../public/images/case-studies/case-dreamhome/slide3.png');
+const slide4 = await import('../public/images/case-studies/case-dreamhome/slide4.png');
 //
-const features = await import('../public/images/case-studies/case-monkey/features.png');
-const faced = await import('../public/images/case-studies/case-monkey/faced.png');
-const tackling = await import('../public/images/case-studies/case-monkey/tackling.png');
+const features = await import('../public/images/case-studies/case-dreamhome/features.png');
+const faced = await import('../public/images/case-studies/case-dreamhome/faced.png');
+const tackling = await import('../public/images/case-studies/case-dreamhome/tackling.png');
 //
-const goalImg = await import('../public/images/case-studies/case-monkey/goal.png');
+const goalImg = await import('../public/images/case-studies/case-dreamhome/goal.png');
 //
 const animiImg1 = await import('../public/images/case-studies/case-dreamhome/animi1.png');
 const animiImg2 = await import('../public/images/case-studies/case-dreamhome/animi2.png');
 const animiImg3 = await import('../public/images/case-studies/case-dreamhome/animi3.png');
 //
-const service1 = await import('../public/images/case-studies/case-monkey/service1.png');
-const service2 = await import('../public/images/case-studies/case-monkey/service2.png');
-const service3 = await import('../public/images/case-studies/case-monkey/service3.png');
-const service4 = await import('../public/images/case-studies/case-monkey/service4.png');
-const service5 = await import('../public/images/case-studies/case-monkey/service5.png');
+const service1 = await import('../public/images/case-studies/case-dreamhome/service1.png');
+const service2 = await import('../public/images/case-studies/case-dreamhome/service2.png');
+const service3 = await import('../public/images/case-studies/case-dreamhome/service3.png');
+const service4 = await import('../public/images/case-studies/case-dreamhome/service4.png');
+const service5 = await import('../public/images/case-studies/case-dreamhome/service5.png');
 //
 const chosImg1 = await import('../public/images/lp-images/icon1.png');
 const chosImg2 = await import('../public/images/lp-images/icon2.png');
