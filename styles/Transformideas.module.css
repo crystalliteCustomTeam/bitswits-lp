@@ -89,12 +89,55 @@
 }
 
 @media screen and (max-width: 991px) {
+
+  .cart {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    margin-top: 5%;
+}
+
+
+
+
   .transform {
     padding: 0 0 80px;
   }
 }
 
 @media screen and (max-width: 480px) {
+  .post img{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .post {
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-top: 10%;
+}
+.post p{
+  font-size: 20px;
+}
+
+  .walk p {
+    font-size: 16px;
+    max-width: unset;
+    line-height: 23px;
+    text-align: justify;
+}
+
+  .walk h2 {
+    font-size: calc(25px + .390625vw);
+    line-height: 32px;
+}
+  .transform h2 {
+    font-size: calc(25px + .390625vw);
+    line-height: 32px;
+}
   .cart {
     display: flex;
     gap: 10px;

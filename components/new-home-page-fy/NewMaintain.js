@@ -10,12 +10,26 @@ import "slick-carousel/slick/slick-theme.css";
 import cardNine from "../../public/newHomePage/images/newMaintain9.png";
 
 const NewMaintain = (props) => {
+
+
     return (
         <>
             <section className={styles.newHomeBg}>
                 <Container>
-                    <h2 className={`${styles.mainTitle} fontpink100` }>Services</h2>
-                    <p className={`${styles.mainPara} fontwhite27 mt-4`}>Maintaining digital quality with our collection of customizable services</p>
+                {props.subtitle &&
+                <h3 className={`font24 white font-bold text-center mb-0 mb-sm-2 ling15`}>
+                  {props.subtitle}
+                </h3>
+              }
+
+              {props.title1new &&
+                <h2 className="text-white font50 f-700 text-center mb-0 mb-sm-2">
+                  {props.title1new}
+                </h2>
+              }
+
+                    
+
                     <Row className="g-3">
                         <Col lg={12}>
                             <h3 className={` f-30 font-bold text-center mb-0 newfycolr`}>
