@@ -1,5 +1,5 @@
 .benifits {
-  padding: 100px 0;
+  padding: 80px 0;
   background: #000;
 }
 
@@ -108,7 +108,7 @@
 
 @media screen and (max-width: 991px) {
   .benifits {
-    padding: 20px 0 50px 0;
+    padding: 0 0 80px;
   }
 
   .benifits h2 {
@@ -163,12 +163,16 @@
     font-size: 14px;
   }
 
-  .benifTxt{
+  .benifTxt {
     padding: 0 5px;
   }
 }
 
 @media screen and (max-width: 767px) {
+  .benifits {
+    padding: 0 0 50px;
+  }
+
   .benifits h2 {
     font-size: 28px;
     line-height: 38px;
@@ -197,13 +201,13 @@
     top: 1.5%;
     font-size: 20px;
   }
-  
-  .benifitsOpt{
+
+  .benifitsOpt {
     width: 98%;
     margin: 0 auto;
   }
 
-  .tabs{
+  .tabs {
     border: 0;
   }
 

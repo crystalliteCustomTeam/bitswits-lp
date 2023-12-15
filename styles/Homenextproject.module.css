@@ -9,8 +9,7 @@
 
 .texkp {
   background-color: black;
-  padding-top: 0px;
-  padding-bottom: 190px;
+  padding: 80px 0;
 }
 
 .abtProject {
@@ -64,7 +63,7 @@
 @media screen and (max-width: 991px) {
   .texkp {
     padding-bottom: 80px;
-    padding-top: 50px;
+    padding-top: 0;
   }
 }
 
@@ -99,7 +98,7 @@
   .texkp {
     background-color: black;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
   }
 
   .closing {
@@ -113,11 +112,9 @@
   .minImg img {
     width: 50%;
   }
-}
 
-@media screen and (max-width: 480px) {
   .closing h3 {
-    font-size: 15px;
+    font-size: 24px;
     margin-bottom: 3%;
   }
 

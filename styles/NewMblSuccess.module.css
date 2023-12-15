@@ -137,14 +137,14 @@
   }
 
   .happens {
-    padding: 50px 0 50px;
+    padding: 0 0 80px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .happens {
     background-color: black;
-    padding: 50px 0 0px;
+    padding: 0px 0 50px;
   }
 
   .mainBox {

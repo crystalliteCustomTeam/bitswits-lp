@@ -110,6 +110,10 @@
   .faqs {
     padding: 0 0 50px;
   }
+
+  .about {
+    margin: 0 auto 0;
+  }
 }
 
 @media screen and (max-width: 480px) {

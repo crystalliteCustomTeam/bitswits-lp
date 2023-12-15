@@ -65,8 +65,8 @@
     margin-top: -1%;
   }
   .iosclass {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 0;
+    padding-bottom: 80px;
     background: #000;
     margin-top: -1%;
   }
@@ -87,7 +87,7 @@
   }
   .iosclass {
     padding-top: 50px;
-    padding-bottom: 0;
+    padding-bottom: 50px;
   }
 
   .possibilities {
@@ -99,13 +99,6 @@
     background: #000;
     margin-top: -1%;
   }
-
-  /* .iosclass {
-    padding-top: 0px;
-    padding-bottom: 60px;
-    background: #000;
-    margin-top: -1%;
-  } */
 
   .possibilities {
     font-size: 14px;

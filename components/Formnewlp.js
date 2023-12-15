@@ -18,7 +18,7 @@ const Formnewlp = () => {
                             <p className='font16 font-normal white text-center mb-0'>Excited to turn your app concept into reality? Get in touch for a detailed consultation. We're keen to explore your project <br /> and demonstrate how our assistance can make a difference. Choosing Bitswits means partnering with a team <br /> dedicated to your app's success</p>
                         </Col>
 
-                        <Col xl={6} className='mt-3 mt-sm-0'>
+                        <Col xl={6} className='mt-3 mt-md-4 mt-lg-0'>
                             <div className={styles.star}>
                                 <h3 className='font20 white fw800'>30 Minutes Strategy Session</h3>
                                 <h2 className='font40 white fw600'> Get Your<span className='fw800 f45'> Free 30 Minute </span>  <br></br>  <span className='fw600'>Strategy Session With An <br></br>

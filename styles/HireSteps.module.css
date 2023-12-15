@@ -1,5 +1,5 @@
 .steps {
-  padding: 100px 0;
+  padding: 80px 0;
   background: #000;
 }
 
@@ -82,7 +82,7 @@
 
 @media screen and (max-width: 767px) {
   .steps {
-    padding: 80px 0 100px;
+    padding: 50px 0 100px;
   }
 
   .steps h2 {

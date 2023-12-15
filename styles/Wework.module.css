@@ -53,7 +53,13 @@
 }
 
 @media screen and (max-width: 767px) {
-
+  .dem h4{
+    font-size: calc(25px + .390625vw);
+    line-height: 32px;
+  }
+  .dem p{
+    font-size: 16px;
+  }
   .weworkLp6 {
     padding: 0 0 0px !important;
   }

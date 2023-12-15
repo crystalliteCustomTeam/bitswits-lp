@@ -1,105 +1,28 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 import Link from "next/link";
 import Image from "next/image";
 import { Row, Col } from "react-bootstrap";
 import styles from "@/styles/NewHeader.module.css";
-
+//
+import { FaAngleDown, FaAngleRight } from "react-icons/fa";
+import { RiArrowDropRightLine } from "react-icons/ri";
+import { BsFillEnvelopeFill } from "react-icons/bs";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { RxCross2 } from "react-icons/rx";
+//
+import ActiveLink from "./ActiveLink";
+import Modal from "react-bootstrap/Modal";
+import Bitswitspopup from "../components/Bitswitspopup";
 // images
 import logo from "../public/images/icons/footerlogo.png";
-import dsicon from "../public/images/newfydemand/ds-icon.svg";
 import icontwo from "../public/images/newfydemand/icontwo.svg";
-import hiring1 from "../public/images/newfydemand/hiring1.svg";
-import hiring2 from "../public/images/newfydemand/hiring2.svg";
-import security from "../public/images/newfydemand/security.png";
-import alcohol from "../public/images/newfydemand/alcohol.png";
-import construction from "../public/images/newfydemand/construction.png";
-import healthsafety from "../public/images/newfydemand/health-safety.png";
-import elearning from "../public/images/newfydemand/elearning.png";
-import driving from "../public/images/newfydemand/driving.png";
-import securitygear from "../public/images/newfydemand/security-gear.png";
-import securityjobs from "../public/images/newfydemand/security-jobs.png";
-import gamehead from "../public/images/newfydemand/gamehead.png";
-import blockchainhead from "../public/images/newfydemand/blockchainhead.png";
-
-//
-import icon1 from "../public/newHomePageImages/tech/1.png";
-import icon2 from "../public/newHomePageImages/tech/2.png";
-import icon3 from "../public/newHomePageImages/tech/3.png";
-import icon4 from "../public/newHomePageImages/tech/4.png";
-import icon5 from "../public/newHomePageImages/tech/5.png";
-import icon6 from "../public/newHomePageImages/tech/6.png";
-import icon7 from "../public/newHomePageImages/tech/7.png";
-import icon8 from "../public/newHomePageImages/tech/8.png";
-//
-import frontend1 from "../public/newHomePageImages/tech/frontend/1.png";
-import frontend2 from "../public/newHomePageImages/tech/frontend/2.png";
-import frontend3 from "../public/newHomePageImages/tech/frontend/3.png";
-import frontend4 from "../public/newHomePageImages/tech/frontend/4.png";
-import frontend5 from "../public/newHomePageImages/tech/frontend/5.png";
-import frontend6 from "../public/newHomePageImages/tech/frontend/6.png";
-//
-import database1 from "../public/newHomePageImages/tech/database/1.png";
-import database2 from "../public/newHomePageImages/tech/database/2.png";
-import database3 from "../public/newHomePageImages/tech/database/3.png";
-import database4 from "../public/newHomePageImages/tech/database/4.png";
-import database5 from "../public/newHomePageImages/tech/database/5.png";
-import database6 from "../public/newHomePageImages/tech/database/6.png";
-//
-import php1 from "../public/newHomePageImages/tech/php/1.png";
-import php2 from "../public/newHomePageImages/tech/php/2.png";
-import php3 from "../public/newHomePageImages/tech/php/3.png";
-//
-import cms1 from "../public/newHomePageImages/tech/cms/1.png";
-import cms2 from "../public/newHomePageImages/tech/cms/2.png";
-import cms3 from "../public/newHomePageImages/tech/cms/3.png";
-//
-import dev1 from "../public/newHomePageImages/tech/dev/1.png";
-import dev2 from "../public/newHomePageImages/tech/dev/2.png";
-import dev3 from "../public/newHomePageImages/tech/dev/3.png";
-import dev4 from "../public/newHomePageImages/tech/dev/4.png";
-import dev5 from "../public/newHomePageImages/tech/dev/5.png";
-import dev6 from "../public/newHomePageImages/tech/dev/6.png";
-import dev7 from "../public/newHomePageImages/tech/dev/7.png";
-import dev8 from "../public/newHomePageImages/tech/dev/8.png";
-import dev9 from "../public/newHomePageImages/tech/dev/9.png";
 import about2 from "../public/images/icons/about.png";
 import call from "../public/images/icons/phone-icon.webp";
 import mail from "../public/images/icons/email-icon.webp";
-import { RiArrowDropRightLine } from "react-icons/ri";
-import { IoLogoFacebook } from "react-icons/io5";
-import { FaYoutube } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
-import { FaArrowRight } from "react-icons/fa";
-import Accordion from "react-bootstrap/Accordion";
-import { FaAngleDown, FaAngleRight } from "react-icons/fa";
-import apps from "../public/images/icons/apps.png";
-import newImg from "../public/images/1.jpg";
 import company from "../public/images/icons/company.png";
 import ourbg from "../public/images/icons/ourbg.png";
-import estate from "../public/images/icons/estate.png";
-import travel from "../public/images/icons/travel.png";
-import health from "../public/images/icons/health.png";
-import foods from "../public/images/icons/foods.png";
-import backarrow from "../public/images/icons/back-arrow.webp";
-import music from "../public/images/icons/music.png";
-import ride from "../public/images/icons/ride.png";
-import wisu from "../public/images/icons/wisu.png";
-import fit from "../public/images/icons/fit.png";
-import grease from "../public/images/icons/grease.png";
-import homeconnect from "../public/images/icons/homeconnect.png";
-import ready from "../public/images/icons/ready.png";
-import scribe from "../public/images/icons/scribe.png";
-import sponsord from "../public/images/icons/sponsord.png";
-import { BsFillEnvelopeFill } from "react-icons/bs";
-import { BsFillTelephoneFill } from "react-icons/bs";
-import Modal from "react-bootstrap/Modal";
-import Bitswitspopup from "../components/Bitswitspopup";
-import { RxCross2 } from "react-icons/rx";
 import mbllogo from "../public/images/icons/footerlogo.png";
-import { useEffect } from "react";
-
 ///// New Images Import
 import IOS from "public/images/icons/ios.png";
 import andriod from "public/images/icons/android.png";
@@ -115,9 +38,7 @@ import NFT from "public/images/icons/nft.png";
 import blockchainIcon from "public/images/icons/blockchain.png";
 import AI from "public/images/icons/aiIcon.png";
 import Augment from "public/images/icons/augment.png";
-
 // newworkimages
-
 import travelimg from "public/headerbits/travel.png";
 import realestateimgg from "public/headerbits/realestate.png";
 import ecommerceimg from "public/headerbits/ecommerce.png";
@@ -132,8 +53,7 @@ import homeconnctimg from "public/headerbits/homeconnct.png";
 import beatsimg from "public/headerbits/beats.png";
 import readyappimg from "public/headerbits/readyapp.png";
 import contact from "public/headerbits/contact.png";
-import { useRouter } from "next/router";
-import ActiveLink from "./ActiveLink";
+
 
 const HeaderNewDesign = () => {
   const router = useRouter();
@@ -236,8 +156,10 @@ const HeaderNewDesign = () => {
       setIsHovered1("secImage11");
       setIsHovered4("secImage2");
       setIsHovered3("secImage2");
-    }, 3000);
+    }, 1000);
   }, [toggleCloseMeg, router]);
+
+
   return (
     <>
       <header className={styles.headernew}>
@@ -286,9 +208,8 @@ const HeaderNewDesign = () => {
                         <Row>
                           <Col lg={6}>
                             <div
-                              className={`${styles.hire} ${
-                                activeTab1 == "tab1" ? styles.active : ""
-                              }`}
+                              className={`${styles.hire} ${activeTab1 == "tab1" ? styles.active : ""
+                                }`}
                               onClick={() => fun1("tab1")}
                               href="#"
                             >
@@ -306,9 +227,8 @@ const HeaderNewDesign = () => {
                           </Col>
                           <Col lg={6}>
                             <div
-                              className={`${styles.hire} ${
-                                activeTab1 == "tab2" ? styles.active : ""
-                              }`}
+                              className={`${styles.hire} ${activeTab1 == "tab2" ? styles.active : ""
+                                }`}
                               onClick={() => fun1("tab2")}
                               href="#"
                             >
@@ -328,9 +248,8 @@ const HeaderNewDesign = () => {
                         <Row>
                           <Col lg={6}>
                             <div
-                              className={`${styles.hire} ${
-                                activeTab1 == "tab3" ? styles.active : ""
-                              }`}
+                              className={`${styles.hire} ${activeTab1 == "tab3" ? styles.active : ""
+                                }`}
                               onClick={() => fun1("tab3")}
                               href="#"
                             >
@@ -348,9 +267,8 @@ const HeaderNewDesign = () => {
                           </Col>
                           <Col lg={6}>
                             <div
-                              className={`${styles.hire} ${
-                                activeTab1 == "tab4" ? styles.active : ""
-                              }`}
+                              className={`${styles.hire} ${activeTab1 == "tab4" ? styles.active : ""
+                                }`}
                               onClick={() => fun1("tab4")}
                               href="#"
                             >
@@ -370,9 +288,8 @@ const HeaderNewDesign = () => {
                         <Row>
                           <Col lg={6}>
                             <div
-                              className={`${styles.hire} ${
-                                activeTab1 == "tab5" ? styles.active : ""
-                              }`}
+                              className={`${styles.hire} ${activeTab1 == "tab5" ? styles.active : ""
+                                }`}
                               onClick={() => fun1("tab5")}
                               href="#"
                             >
@@ -390,9 +307,8 @@ const HeaderNewDesign = () => {
                           </Col>
                           <Col lg={6}>
                             <div
-                              className={`${styles.hire} ${
-                                activeTab1 == "tab6" ? styles.active : ""
-                              }`}
+                              className={`${styles.hire} ${activeTab1 == "tab6" ? styles.active : ""
+                                }`}
                               onClick={() => fun1("tab6")}
                               href="#"
                             >
@@ -412,9 +328,8 @@ const HeaderNewDesign = () => {
                         <Row>
                           <Col lg={6}>
                             <div
-                              className={`${styles.hire} ${
-                                activeTab1 == "tab7" ? styles.active : ""
-                              }`}
+                              className={`${styles.hire} ${activeTab1 == "tab7" ? styles.active : ""
+                                }`}
                               onClick={() => fun1("tab7")}
                               href="#"
                             >
@@ -432,9 +347,8 @@ const HeaderNewDesign = () => {
                           </Col>
                           <Col lg={6}>
                             <div
-                              className={`${styles.hire} ${
-                                activeTab1 == "tab8" ? styles.active : ""
-                              }`}
+                              className={`${styles.hire} ${activeTab1 == "tab8" ? styles.active : ""
+                                }`}
                               onClick={() => fun1("tab8")}
                               href="#"
                             >
@@ -467,7 +381,22 @@ const HeaderNewDesign = () => {
                               </div>
                               <ActiveLink
                                 href="/ios-app-development"
-                                text="IOS Application Development"
+                                text="IOS App Development"
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                              />
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={IOS}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <ActiveLink
+                                href="/mobile-application"
+                                text="Mobile App Development"
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                               />
                             </li>
@@ -484,22 +413,7 @@ const HeaderNewDesign = () => {
                               <ActiveLink
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                                 href="/android-application-development"
-                                text="Android Application Development"
-                              />
-                            </li>
-                            <hr />
-                            <li className={styles.imgpost}>
-                              <div className={styles.dsicon}>
-                                <Image
-                                  alt="bitswits"
-                                  src={WebApp}
-                                  className="img-fluid"
-                                />
-                              </div>
-                              <ActiveLink
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/web-app-development"
-                                text="Web App Development"
+                                text="Android App Development"
                               />
                             </li>
                             <hr />
@@ -530,21 +444,6 @@ const HeaderNewDesign = () => {
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                                 href="/react-native-mobile-development"
                                 text="React Native App Development"
-                              />
-                            </li>
-                            <hr />
-                            <li className={styles.imgpost}>
-                              <div className={styles.dsicon}>
-                                <Image
-                                  alt="bitswits"
-                                  src={Cross}
-                                  className="img-fluid"
-                                />
-                              </div>
-                              <ActiveLink
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/cross-platform-app-development"
-                                text="Cross Platform App Development"
                               />
                             </li>
                           </ul>
@@ -647,8 +546,23 @@ const HeaderNewDesign = () => {
                               </div>
                               <ActiveLink
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
+                                href="/blockchain-development-services"
+                                text="Blockchain Development Services"
+                              />
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={blockchainIcon}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <ActiveLink
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
                                 href="/blockchain-development-lp"
-                                text="Blockchain Development"
+                                text="Blockchain App Development"
                               />
                             </li>
                             <hr />
@@ -677,8 +591,8 @@ const HeaderNewDesign = () => {
                               </div>
                               <ActiveLink
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/web-app-development"
-                                text="Web App Development"
+                                href="/custom-mobile-development"
+                                text="Custom Mobile Development"
                               />
                             </li>
                             <hr />
@@ -696,22 +610,6 @@ const HeaderNewDesign = () => {
                                 text=" Augmented Reality App Development"
                               />
                             </li>
-                            <hr />
-                            <li className={styles.imgpost}>
-                              <div className={styles.dsicon}>
-                                <Image
-                                  alt="bitswits"
-                                  src={WebApp}
-                                  className="img-fluid"
-                                />
-                              </div>
-                              <ActiveLink
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/web-app-development"
-                                text="Web Development"
-                              />
-                            </li>
-                            <hr />
                           </ul>
                         </div>
                       )}
@@ -744,75 +642,8 @@ const HeaderNewDesign = () => {
                               </div>
                               <ActiveLink
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/blockchain-development-lp"
-                                text="Blockchain Development"
-                              />
-                            </li>
-                            <hr />
-                            <li className={styles.imgpost}>
-                              <div className={styles.dsicon}>
-                                <Image
-                                  alt="bitswits"
-                                  src={Programming}
-                                  className="img-fluid"
-                                />
-                              </div>
-                              <ActiveLink
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/web-app-development"
-                                text="Web App Development"
-                              />
-                            </li>
-                            <hr />
-                            <li className={styles.imgpost}>
-                              <div className={styles.dsicon}>
-                                <Image
-                                  alt="bitswits"
-                                  src={Augment}
-                                  className="img-fluid"
-                                />
-                              </div>
-                              <ActiveLink
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/augmented-reality-apps-development-company"
-                                text="Augmented Reality App Development"
-                              />
-                            </li>
-                            <hr />
-                            <li className={styles.imgpost}>
-                              <div className={styles.dsicon}>
-                                <Image
-                                  alt="bitswits"
-                                  src={WebApp}
-                                  className="img-fluid"
-                                />
-                              </div>
-                              <ActiveLink
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/web-app-development"
-                                text=" Web Development"
-                              />
-                            </li>
-                            <hr />
-                          </ul>
-                        </div>
-                      )}
-
-                      {activeTab1 == "tab5" && (
-                        <div>
-                          <ul className={`${styles.mega} mt-5 pt-3`}>
-                            <li className={styles.imgpost}>
-                              <div className={styles.dsicon}>
-                                <Image
-                                  alt="bitswits"
-                                  src={Programming}
-                                  className="img-fluid"
-                                />
-                              </div>
-                              <ActiveLink
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/web-app-development"
-                                text=" Web Development"
+                                href="/blockchain-development-services"
+                                text="Blockchain Development Services"
                               />
                             </li>
                             <hr />
@@ -827,7 +658,7 @@ const HeaderNewDesign = () => {
                               <ActiveLink
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                                 href="/blockchain-development-lp"
-                                text="Blockchain Development"
+                                text="Blockchain App Development"
                               />
                             </li>
                             <hr />
@@ -835,14 +666,65 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={AI}
+                                  src={Cross}
                                   className="img-fluid"
                                 />
                               </div>
                               <ActiveLink
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/artificial-intelligence-development-company"
-                                text="Artificial Intelligence"
+                                href="/cross-platform-app-development"
+                                text="Cross Platform App Development"
+                              />
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={Augment}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <ActiveLink
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                                href="/augmented-reality-apps-development-company"
+                                text=" Augmented Reality App Development"
+                              />
+                            </li>
+                          </ul>
+                        </div>
+                      )}
+
+                      {activeTab1 == "tab5" && (
+                        <div>
+                          <ul className={`${styles.mega} mt-5 pt-3`}>
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={WebApp}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <ActiveLink
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                                href="/web-app-development"
+                                text=" Web App Development"
+                              />
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={Cross}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <ActiveLink
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                                href="/cross-platform-app-development"
+                                text="Cross Platform App Development"
                               />
                             </li>
                             <hr />
@@ -865,17 +747,31 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
+                                  src={blockchainIcon}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <ActiveLink
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                                href="/blockchain-development-lp"
+                                text="Blockchain App Development"
+                              />
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
                                   src={WebApp}
                                   className="img-fluid"
                                 />
                               </div>
                               <ActiveLink
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/web-app-development"
-                                text="Web Development"
+                                href="/custom-mobile-development"
+                                text="Custom Mobile Development"
                               />
                             </li>
-                            <hr />
                           </ul>
                         </div>
                       )}
@@ -902,14 +798,29 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={Programming}
+                                  src={WebApp}
                                   className="img-fluid"
                                 />
                               </div>
                               <ActiveLink
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/web-app-development"
-                                text="Web App Development"
+                                href="/custom-mobile-development"
+                                text="Custom Mobile Development"
+                              />
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={Cross}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <ActiveLink
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                                href="/cross-platform-app-development"
+                                text="Cross Platform App Development"
                               />
                             </li>
                             <hr />
@@ -923,8 +834,8 @@ const HeaderNewDesign = () => {
                               </div>
                               <ActiveLink
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/blockchain-development-lp"
-                                text="Blockchain Development"
+                                href="/blockchain-development-services"
+                                text="Blockchain Development Services"
                               />
                             </li>
                             <hr />
@@ -942,22 +853,6 @@ const HeaderNewDesign = () => {
                                 text="Artificial Intelligence"
                               />
                             </li>
-                            <hr />
-                            <li className={styles.imgpost}>
-                              <div className={styles.dsicon}>
-                                <Image
-                                  alt="bitswits"
-                                  src={WebApp}
-                                  className="img-fluid"
-                                />
-                              </div>
-                              <ActiveLink
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/web-app-development"
-                                text="Web Development"
-                              />
-                            </li>
-                            <hr />
                           </ul>
                         </div>
                       )}
@@ -969,7 +864,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={WebApp}
+                                  src={Programming}
                                   className="img-fluid"
                                 />
                               </div>
@@ -999,7 +894,37 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={Programming}
+                                  src={WebApp}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <ActiveLink
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                                href="/custom-mobile-development"
+                                text="Custom Mobile Development"
+                              />
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={Cross}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <ActiveLink
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                                href="/cross-platform-app-development"
+                                text="Cross Platform App Development"
+                              />
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={WebApp}
                                   className="img-fluid"
                                 />
                               </div>
@@ -1009,37 +934,6 @@ const HeaderNewDesign = () => {
                                 text="Web App Development"
                               />
                             </li>
-                            <hr />
-                            <li className={styles.imgpost}>
-                              <div className={styles.dsicon}>
-                                <Image
-                                  alt="bitswits"
-                                  src={blockchainIcon}
-                                  className="img-fluid"
-                                />
-                              </div>
-                              <ActiveLink
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/blockchain-development-lp"
-                                text="Blockchain Development"
-                              />
-                            </li>
-                            <hr />
-                            <li className={styles.imgpost}>
-                              <div className={styles.dsicon}>
-                                <Image
-                                  alt="bitswits"
-                                  src={AI}
-                                  className="img-fluid"
-                                />
-                              </div>
-                              <ActiveLink
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/artificial-intelligence-development-company"
-                                text="Artificial Intelligence"
-                              />
-                            </li>
-                            <hr />
                           </ul>
                         </div>
                       )}
@@ -1051,14 +945,14 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={Augment}
+                                  src={IOS}
                                   className="img-fluid"
                                 />
                               </div>
                               <ActiveLink
+                                href="/mobile-application"
+                                text="Mobile App Development"
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/augmented-reality-apps-development-company"
-                                text="Augmented Reality App Development"
                               />
                             </li>
                             <hr />
@@ -1073,7 +967,7 @@ const HeaderNewDesign = () => {
                               <ActiveLink
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                                 href="/web-app-development"
-                                text="Web Development"
+                                text="Web App Development"
                               />
                             </li>
                             <hr />
@@ -1081,14 +975,14 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={Programming}
+                                  src={andriod}
                                   className="img-fluid"
                                 />
                               </div>
                               <ActiveLink
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/web-app-development"
-                                text="Web App Development"
+                                href="/game-application-development"
+                                text="Game App Development"
                               />
                             </li>
                             <hr />
@@ -1103,7 +997,7 @@ const HeaderNewDesign = () => {
                               <ActiveLink
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                                 href="/blockchain-development-lp"
-                                text="Blockchain Development"
+                                text="Blockchain App Development"
                               />
                             </li>
                             <hr />
@@ -1121,7 +1015,6 @@ const HeaderNewDesign = () => {
                                 text="Artificial Intelligence"
                               />
                             </li>
-                            <hr />
                           </ul>
                         </div>
                       )}
@@ -1153,7 +1046,7 @@ const HeaderNewDesign = () => {
                         <div className={styles.proper}>
                           <h4>FOR BUSINESS CUSTOMERS</h4>
                           <h3>
-                            HIRING & <br></br> TRAINING
+                            HIRING & TRAINING
                           </h3>
                           <p>
                             Welcome to Bitswits, where app creation meets
@@ -1321,7 +1214,7 @@ const HeaderNewDesign = () => {
               {isHovered4 == "active4" ? (
                 <div className={styles.megamenuwork}>
                   <Row className="gy-4">
-                    <Col lg={4} className="pt-4">
+                    <Col lg={4} className="pt-4 pb-1">
                       <button
                         className={styles.polo1}
                         onClick={() =>
@@ -1335,7 +1228,6 @@ const HeaderNewDesign = () => {
                                 href="/travel-app-development-case-study"
                                 text="TRAVEL APP"
                                 className="white"
-                                // handle={() => isToggleCloseMeg((prev) => !prev)}
                               />
                             </h4>
                           </div>
@@ -1346,7 +1238,6 @@ const HeaderNewDesign = () => {
                           />
                         </div>
                       </button>
-
                       <button
                         className={styles.polo1}
                         onClick={() =>
@@ -1371,7 +1262,6 @@ const HeaderNewDesign = () => {
                           />
                         </div>
                       </button>
-
                       <button
                         className={styles.polo1}
                         onClick={() =>
@@ -1398,7 +1288,6 @@ const HeaderNewDesign = () => {
                           />
                         </div>
                       </button>
-
                       <button
                         className={styles.polo1}
                         onClick={() =>
@@ -1423,7 +1312,6 @@ const HeaderNewDesign = () => {
                           />
                         </div>
                       </button>
-
                       <button
                         className={styles.polo1}
                         onClick={() =>
@@ -1450,7 +1338,6 @@ const HeaderNewDesign = () => {
                           />
                         </div>
                       </button>
-
                       <button
                         className={styles.polo1}
                         onClick={() =>
@@ -1477,7 +1364,6 @@ const HeaderNewDesign = () => {
                           />
                         </div>
                       </button>
-
                       <button
                         className={styles.polo1}
                         onClick={() =>
@@ -1504,7 +1390,6 @@ const HeaderNewDesign = () => {
                           />
                         </div>
                       </button>
-
                       <button
                         className={styles.polo1}
                         onClick={() =>
@@ -1529,9 +1414,6 @@ const HeaderNewDesign = () => {
                           />
                         </div>
                       </button>
-                    </Col>
-
-                    <Col lg={4} className={`${styles.menupostblog1} pt-4`}>
                       <button
                         className={styles.polo1}
                         onClick={() =>
@@ -1658,7 +1540,9 @@ const HeaderNewDesign = () => {
                           />
                         </div>
                       </button>
+                    </Col>
 
+                    <Col lg={4} className={`${styles.menupostblog1} pt-4`}>
                       <div className={`${styles.polo} ${styles.polo3}`}>
                         <div>
                           <h3 className="white font-bold letterspacefy font18">
@@ -1763,7 +1647,7 @@ const HeaderNewDesign = () => {
                         <div className={styles.proper}>
                           <h4>FOR BUSINESS CUSTOMERS</h4>
                           <h3>
-                            HIRING & <br></br> TRAINING
+                            HIRING & TRAINING
                           </h3>
                           <p>
                             Welcome to Bitswits, where app creation meets
@@ -1852,7 +1736,7 @@ const HeaderNewDesign = () => {
           </div>
         </nav>
 
-        {/* <Modal show={show} onHide={closemodal} className={styles.modalnew}>
+        <Modal show={show} onHide={closemodal} className={styles.modalnew}>
           <Modal.Body>
             {" "}
             <Bitswitspopup formsaspire="popquote" />{" "}
@@ -1861,7 +1745,7 @@ const HeaderNewDesign = () => {
               <RxCross2 />{" "}
             </span>{" "}
           </Modal.Body>
-        </Modal> */}
+        </Modal>
       </header>
     </>
   );

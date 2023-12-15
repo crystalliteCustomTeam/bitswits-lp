@@ -3,8 +3,6 @@ import React from "react";
 //components
 const ServicesBanner = React.lazy(() => import('@/components/ServicesBanner'));
 const ServicesMaintain = React.lazy(() => import('@/components/ServicesMaintain'));
-const Justbuildit = React.lazy(() => import('@/components/Justbuildit'));
-const ServisesWhy = React.lazy(() => import('@/components/ServisesWhy'));
 const ServicesPortfolio = React.lazy(() => import('@/components/ServicesPortfolio'));
 const Newsuccess = React.lazy(() => import('@/components/NewMblSuccess'));
 const Technologieswe = React.lazy(() => import('@/components/Technologieswe'));
@@ -23,13 +21,6 @@ const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const Partnerships = React.lazy(() => import('@/components/Partnerships'));
 //images
 const BannerImage = await import("@/public/newMobilePageImages/banner_image.png")
-//icons 
-const icon23 = await import('../public/images/fymobile/1.png')
-const icon24 = await import('../public/images/fymobile/2.png')
-const icon25 = await import('../public/images/fymobile/3.png')
-const icon26 = await import('../public/images/fymobile/4.png')
-const icon27 = await import('../public/images/fymobile/5.png')
-const icon28 = await import('../public/images/fymobile/6.png')
 
 
 export default function mobileApplication() {
@@ -95,7 +86,6 @@ export default function mobileApplication() {
         <meta name="ICBM" content="39.78373, -100.445882" />
       </Head>
 
-
       <ServicesBanner
         subtitle="A TOP"
         title={<> Mobile App Development Company At Your Service </>}
@@ -103,21 +93,12 @@ export default function mobileApplication() {
         BannerImage={BannerImage}
         assignClass="mobile"
       />
-
       <People People="people" />
-
       <HomeBannerSliderlp />
-
       <LpForm
-      addresClass='iosclass'
+        addresClass='iosclass'
       />
-
       <Nothing Nothing="nothingLp6" />
-
-      {/* <NewHomeAbout
-        title="Our Client’s Feedback Has Been"
-        subtitle="Nothing Short Of Amazing!"
-      /> */}
       <ServicesMaintain
         assignClass="mobile"
         title1={<> Maintaining digital quality with our collection of customizable services </>}
@@ -169,44 +150,20 @@ export default function mobileApplication() {
         appContent6={[]}
         appContent7={[]}
       />
-      {/* <NewAddress /> */}
-
-
-
       <WeworkLp wework="weworkLp6" />
-
       <StartupsLp startups="startups" />
-
       <ProjectProcess
         processclass="processLp6"
         title="Explore Our Mobile App Development Journey"
         desc="We believe in efficiency without compromising quality. Our
-  streamlined process for app development is <br /> designed to be
-  transparent and collaborative, ensuring your vision comes to life
-  exactly as you imagined."
+              streamlined process for app development is <br /> designed to be
+              transparent and collaborative, ensuring your vision comes to life
+              exactly as you imagined."
       />
-
-
-      <Justbuildit />
-      {/* <ServicesWho
-        subtitle="Who we are."
-        title="We build greater futures through innovation and collective knowledge."
-        text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
-        WhoImage={WhoImage}
-      />
-      <ServicesWhat
-        subtitle="What we do."
-        title="BitsWits transforms businesses through technology."
-        text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
-        WhatImage={WhatImage}
-      /> */}
-
       <LpChoose transform="transform" />
-
       <ServicesPortfolio
         title={<> Showcasing Our <span className="newfycolr">Creative Vision</span> </>}
       />
-      {/* <Capabilities /> */}
       <div className="status2">
         <Newsuccess
           subtitle="Ready For Success?"
@@ -238,20 +195,10 @@ export default function mobileApplication() {
           }
         />
       </div>
-      <section className='spacingtb1'>
-        <Technologieswe />
-      </section>
-      {/* <NewHomeGlobal />
-      <NewHomeSlider />
-      <Homenextproject
-        title="Brace yourself for an App-venture!"
-      /> */}
-
+      <Technologieswe />
       <Globallplp6 />
       <Partnerships />
-
       <Formnewlp />
-
       <ServicesFaqs
         faqsData={
           [

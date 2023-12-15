@@ -74,7 +74,7 @@ const ServicesPortfolio = (props) => {
                             </div>
                         </Col>
                         <Col lg={12} className='d-block d-lg-none'>
-                            <div className="d-flex justify-content-center mt-3 mt-sm-5">
+                            <div className="d-flex justify-content-center mt-3">
                                 <Link href="/our-work" className={`${styles.sucssBtn} ${styles.sucssBtn2}`}>Show More</Link>
                             </div>
                         </Col>
