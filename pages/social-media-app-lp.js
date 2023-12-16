@@ -9,11 +9,13 @@ const SocialLpForm = React.lazy(() => import('@/components/SocialLpForm'));
 const Nothing = React.lazy(() => import('@/components/Nothing'));
 const SocialExpertapp = React.lazy(() => import('@/components/SocialExpertapp'));
 const SocialLpSolutions = React.lazy(() => import('@/components/SocialLpSolutions'));
-const WeworkLp = React.lazy(() => import('@/components/WeworkLp6'));
+// const WeworkLp = React.lazy(() => import('@/components/WeworkLp6'));
+const WeworkLp = React.lazy(() => import("@/components/new-home-page-fy/WeworkLphome"));
 const StartupsLp = React.lazy(() => import('@/components/StartupsLp6'));
 const ProjectProcess = React.lazy(() => import('@/components/ProjectProcessLp6'));
 const LpChoose = React.lazy(() => import('@/components/LpChoose'));
-const Technologieslp = React.lazy(() => import('@/components/Technologieslp'));
+// const Technologieslp = React.lazy(() => import('@/components/Technologieslp'));
+const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
 const Justbuilditlp = React.lazy(() => import('@/components/Justbuilditlp'));
 const Globallplp6 = React.lazy(() => import('@/components/Globallplp6'));
 const Partnerships = React.lazy(() => import('@/components/Partnerships'));
@@ -56,7 +58,7 @@ export default function SocialMediaApp() {
             <SocialLpSolutions />
 
             <WeworkLp
-                wework='weworkLp6'
+                wework="weworkLpnewhomefy"
             />
 
             <StartupsLp
@@ -73,7 +75,9 @@ export default function SocialMediaApp() {
                 transform='transformlp'
             />
 
-            <Technologieslp />
+            {/* <Technologieslp /> */}
+
+            <Technologieswe />
 
             <Justbuilditlp
                 title={

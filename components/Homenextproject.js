@@ -56,7 +56,7 @@ const Homenextproject = (props) => {
             <Col xl={12}>
               <div className={styles.closing}>
                 <div>
-                  <h3>{props.title}</h3>
+                  <h3 className='newchoose'>{props.title}</h3>
                 </div>
                 <div>
                   <Link href='tel:(833) 500-6007'>LET'S CONNECT</Link>

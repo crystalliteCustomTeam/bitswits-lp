@@ -70,7 +70,7 @@ const HireTiming = () => {
                 <Container fluid>
                     <Row>
                         <Col lg={10} className='mx-auto'>
-                            <h2>Engagement Models to Hire <br /> <span>Mobile App Developers</span></h2>
+                            <h2 className='newchoose'>Engagement Models to Hire <br /> <span>Mobile App Developers</span></h2>
                             <p>The NineHertz has variety of engagement models of hiring mobile app developers as per your convenience. Our sole purpose is to build the perfect solutions for your requirements.</p>
                         </Col>
                     </Row>
@@ -94,7 +94,7 @@ const HireTiming = () => {
                                     </Col>
                                     {content.options.map((option, optionIndex) => (
                                         <Col lg={3} key={optionIndex}>
-                                            <div className={styles.txt}>{option}</div>
+                                            <div className={`${styles.txt}`}>{option}</div>
                                         </Col>
                                     ))}
                                 </Row>

@@ -14,7 +14,7 @@ const SocialLpSolutions = () => {
                         <Col lg={12}>
                             <div className={styles.smTxt}>
                                 <h3>Types of Social Media App Development</h3>
-                                <h2>Social Media App Development Solutions</h2>
+                                <h2 className='newchoose'>Social Media App Development Solutions</h2>
                                 <p>Our comprehensive services cover everything from design to development, ensuring your journey to create an app is smooth and successful. With our support, the process of app-making is not just easy. It's a journey of innovation.</p>
                             </div>
                         </Col>

@@ -68,7 +68,7 @@ const HireServices = () => {
                     <Row>
                         <Col lg={12}>
                             <div className={styles.servHead}>
-                                <h2 className='text-white f-60 font-bold'>Hire <span>App Developers</span> for <br /> Cutting Edge Services</h2>
+                                <h2 className='text-white newchoose font-bold'>Hire <span>App Developers</span> for <br /> Cutting Edge Services</h2>
                                 <p className={`${styles.wid} f-20 text-white`}>Build impactful mobile applications by hiring  app developers from The BitsWits to achieve new horizons of success in the business market. We provide end-to-end mobile app solutions from ideation to development and app maintenance. Our services will not only help you give your customers a brilliant user experience but also attract new ones. Dedicated mobile app developers at The BitsWits outshine the industry in the below-mentioned services:</p>
                             </div>
                             <div className={styles.sec_btn}>

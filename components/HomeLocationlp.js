@@ -38,7 +38,7 @@ const HomeLocationlp = () => {
                                     <p className="f-16 f-montserrat f-700 text-white f-uppercase mb-0">
                                         Areas We Serve
                                     </p>
-                                    <h3 className="f-50 f-playfair white f-700 mb-4 mb-lg-5">
+                                    <h3 className="newchoose f-playfair white f-700 mb-4 mb-lg-5">
                                         Our Locations Globally
                                     </h3>
                                     <div className="d-lg-block d-none">

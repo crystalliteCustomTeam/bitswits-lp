@@ -31,7 +31,7 @@ const HireBenifits = (props) => {
                             <div>
                                 {props.textArray.map((item, index) => (
                                     <div key={index}>
-                                        <h2>{item.title}</h2>
+                                        <h2 className='newchoose'>{item.title}</h2>
                                     </div>
                                 ))}
                             </div>
@@ -53,7 +53,7 @@ const HireBenifits = (props) => {
                                 <Col lg={7} className={`${styles.tabContent} tab-content`}>
                                     {props.tabsData.map((tab) => (
                                         <div key={tab.id} className={activeTab === tab.id ? styles.benifTxt : styles.hidden}>
-                                            <h3>{tab.content.heading}</h3>
+                                            <h3 className='newchoose'>{tab.content.heading}</h3>
                                             {tab.content.text.map((para, index) => (
                                                 <p key={index}>{para}</p>
                                             ))}

@@ -73,7 +73,7 @@ export default function SocialExpertapp(props) {
                     <Row className='align-items-center g-3 d-none d-lg-flex'>
                         <Col lg={12} >
                             <h3 className='newfycolr f-30 f-700 center'>How We Make App Creation Simple and Effective</h3>
-                            <h2 className='white font50 f-700 center'>Our Mobile App Development Solutions</h2>
+                            <h2 className='white newchoose f-700 center'>Our Mobile App Development Solutions</h2>
                             <p className={`${styles.appno} white font16 f-400 center`}>Our comprehensive services cover everything from design to development, ensuring your journey to create an app <br /> is smooth and successful. With our support, the process of app-making is not just easy. It's a journey of innovation.</p>
                         </Col>
                         <Col lg={4}>

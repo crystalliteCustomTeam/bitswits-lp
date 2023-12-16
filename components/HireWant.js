@@ -34,7 +34,7 @@ const HireWant = (props) => {
                             <div>
                                 {props.textArray.map((item, index) => (
                                     <div className={styles.left} key={index}>
-                                        <h2>{item.title}</h2>
+                                        <h2 className='newchoose'>{item.title}</h2>
                                         {item.text.map((text, pIndex) => (
                                             <p key={pIndex}>{text}</p>
                                         ))}
