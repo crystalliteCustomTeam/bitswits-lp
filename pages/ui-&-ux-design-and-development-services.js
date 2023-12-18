@@ -2,26 +2,40 @@ import Head from "next/head";
 import React from "react";
 import { useState, useEffect } from "react";
 //components
-const ServicesBanner = React.lazy(() => import("@/components/new-blockchain-page-fy/BlockchainBanner"));
-const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
+const ServicesBanner = React.lazy(() =>
+  import("@/components/new-blockchain-page-fy/BlockchainBanner")
+);
+const ServicesMaintain = React.lazy(() =>
+  import("@/components/ServicesMaintain")
+);
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
-const ServicesPortfolio = React.lazy(() => import("@/components/ServicesPortfolio"));
+const ServicesPortfolio = React.lazy(() =>
+  import("@/components/ServicesPortfolio")
+);
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
 const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
-const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
-const WeworkLp = React.lazy(() => import("@/components/new-home-page-fy/WeworkLphome"));
+const HomeBannerSliderlp = React.lazy(() =>
+  import("@/components/HomeBannerSliderlp")
+);
+const WeworkLp = React.lazy(() =>
+  import("@/components/new-home-page-fy/WeworkLphome")
+);
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
-const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
+const ProjectProcess = React.lazy(() =>
+  import("@/components/ProjectProcessLp6")
+);
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const LpChoose = React.lazy(() => import("@/components/LpChoose"));
 const LpForm = React.lazy(() => import("@/components/LpForm6"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const People = React.lazy(() => import("@/components/People"));
-const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
+const ServicesMaintainmobile = React.lazy(() =>
+  import("@/components/ServicesMaintainmobile")
+);
 //images
 const BannerImage = await import("@/public/ui-ux-page/banner-img.png");
 // css //
@@ -46,9 +60,7 @@ const hybridiphone = await import(
   "../public/images/iosappdevelopment/hybridiphone.png"
 );
 
-
 export default function UiUxDesign() {
-
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
