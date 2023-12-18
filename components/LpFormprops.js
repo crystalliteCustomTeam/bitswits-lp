@@ -2,9 +2,13 @@ import React from 'react'
 import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/LpForm.module.css";
+import Image from 'next/image';
 
 
-const LpForm = (props) => {
+const LpFormprops = (props) => {
+
+
+
     return (
         <>
             <section className={`${styles.newAddress} ${styles[props.addresClass]}`}>
@@ -45,6 +49,33 @@ const LpForm = (props) => {
                 </Container>
             </section>
 
+            {props.data ?
+
+                <section className={styles.datapost}>
+                    <Container className={styles.appios}>
+                        <Row className='gx-3 gy-3'>
+                            {props.data.map((item, index) => (
+                                <Col lg={3}>
+
+                                    <div className={styles.deve} key={index}>
+                                        <Image src={item.img2} className="img-fluid" alt="bitswits" />
+                                        <div>
+                                            <h4 className="fontgilroybold white font_15">{item.title}</h4>
+                                            <p className="font_13 white fontsfregular linehight_2 mb-0">{item.text}</p>
+                                        </div>
+
+                                    </div>
+
+
+                                </Col>
+                            ))}
+                        </Row>
+                    </Container>
+                </section>
+                :
+                ''
+            }
+
             <section className={styles.keyFrame}>
                 <Container>
                     <div className={styles.cirMain}>
@@ -63,4 +94,4 @@ const LpForm = (props) => {
     )
 }
 
-export default LpForm
+export default LpFormprops

@@ -1,3 +1,8 @@
+.customweb img{
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
 .just {
     color: #f32f53;
   }
@@ -20,6 +25,13 @@
   .awardpost {
     background: #000;
     background-image: url(../../public/blockchainfynew/bg-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .customweb{
+    background: #000;
+    background-image: url(../../public/customwebapp/bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
