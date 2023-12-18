@@ -6,8 +6,6 @@ const ContactBox = React.lazy(() => import('@/components/ContactBox'));
 
 export default function ContactUs() {
 
-
-
     return (
         <>
             <Head>

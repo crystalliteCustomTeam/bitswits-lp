@@ -2,19 +2,15 @@ import Head from 'next/head'
 import React from 'react';
 
 const NewBannerabout = React.lazy(() => import('@/components/NewBannerabout'));
-const Justbuildit = React.lazy(() => import('@/components/Justbuildit2'));
-const NewHomeAbout = React.lazy(() => import('@/components/NewHomePageAbout2'));
-const Bullet2dproofgameabout = React.lazy(() => import('@/components/Bullet2dproofgameabout'));
-const Capabilities = React.lazy(() => import('@/components/Capabilities'));
-const Homenextproject = React.lazy(() => import('@/components/Homenextproject'));
+const Nothing = React.lazy(() => import("@/components/Nothing"));
+const AboutIntro = React.lazy(() => import('@/components/AboutIntro'));
+const AboutExpertapp = React.lazy(() => import('@/components/AboutExpertapp'));
+const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
+const Homenextproject = React.lazy(() => import("@/components/Homenextproject"));
 const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 
 
 export default function Home() {
-
-
-
-
     return (
         <>
             <Head>
@@ -25,16 +21,20 @@ export default function Home() {
             </Head>
 
             <NewBannerabout />
-            <Justbuildit />
-            <NewHomeAbout
-                title="Our Client’s Feedback Has Been"
-                subtitle="Nothing Short Of Amazing!"
+            <AboutIntro />
+            <Nothing Nothing="nothingLphomefy" />
+            <AboutExpertapp
+                expertapp='expertapp'
             />
-            <Bullet2dproofgameabout />
-            <Capabilities />
-            <Homenextproject
-                asignClass='abtProject'
+            <ProjectProcess
+                processclass="processLp6"
+                title="Explore Our iOS App Development Journey"
+                desc="We believe in efficiency without compromising quality. Our
+                streamlined process for app development is <br /> designed to be
+                transparent and collaborative, ensuring your vision comes to life
+                exactly as you imagined."
             />
+            <Homenextproject title="Brace yourself for an App-venture!" />
             <HomeLocation />
         </>
     )

@@ -53,6 +53,20 @@ import homeconnctimg from "public/headerbits/homeconnct.png";
 import beatsimg from "public/headerbits/beats.png";
 import readyappimg from "public/headerbits/readyapp.png";
 import contact from "public/headerbits/contact.png";
+// 
+import travel from "../public/images/case-studies/case-travel/banner-img.png"
+import estate from "../public/images/case-studies/case-dreamhome/banner-img.png"
+import ecommerce from "../public/images/case-studies/case-wisu/banner-img.png"
+import scribe from "../public/images/case-studies/case-scribe/banner-img.png"
+import greepe from "../public/images/case-studies/case-monkey/banner-img.png"
+import sponserd from "../public/images/case-studies/case-sponsord/banner-img.png"
+import health from "../public/images/case-studies/case-health/banner-img.png"
+import rider from "../public/images/case-studies/case-ride/banner-img.png"
+import fitnow from "../public/images/case-studies/case-fitnow/banner-img.png"
+import crave from "../public/images/case-studies/case-crave/banner-img.png"
+import home from "../public/images/case-studies/case-homepro/banner-img.png"
+import beats from "../public/images/case-studies/case-beats/banner-img.png"
+import ready from "../public/images/case-studies/case-ready/banner-img.png"
 
 
 const HeaderNewDesign = () => {
@@ -151,6 +165,12 @@ const HeaderNewDesign = () => {
   function fun1(tabs1) {
     setActiveTab1(tabs1);
   }
+
+  const [activeTab2, setActiveTab2] = useState("tab1");
+  function fun2(tabs1) {
+    setActiveTab2(tabs1);
+  }
+
   useEffect(() => {
     setTimeout(() => {
       setIsHovered1("secImage11");
@@ -380,8 +400,8 @@ const HeaderNewDesign = () => {
                                 />
                               </div>
                               <ActiveLink
-                                href="/ios-app-development"
-                                text="IOS App Development"
+                                href="/mobile-application"
+                                text="Mobile App Development"
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                               />
                             </li>
@@ -395,8 +415,8 @@ const HeaderNewDesign = () => {
                                 />
                               </div>
                               <ActiveLink
-                                href="/mobile-application"
-                                text="Mobile App Development"
+                                href="/ios-app-development"
+                                text="IOS App Development"
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                               />
                             </li>
@@ -1097,7 +1117,7 @@ const HeaderNewDesign = () => {
                 </div>
               ) : null}
             </li>
-            <li
+            {/* <li
               onMouseEnter={() => funcom("active3")}
               onMouseLeave={() => funcom2("secImage2")}
               className={styles.product}
@@ -1200,7 +1220,7 @@ const HeaderNewDesign = () => {
               ) : (
                 ""
               )}
-            </li>
+            </li> */}
             <li
               onMouseEnter={() => funwork("active4")}
               onMouseLeave={() => funwork2("secImage2")}
@@ -1215,334 +1235,387 @@ const HeaderNewDesign = () => {
                 <div className={styles.megamenuwork}>
                   <Row className="gy-4">
                     <Col lg={4} className="pt-4 pb-1">
-                      <button
-                        className={styles.polo1}
-                        onClick={() =>
-                          router.push("/travel-app-development-case-study")
-                        }
-                      >
-                        <div>
-                          <div>
-                            <h4>
-                              <ActiveLink
-                                href="/travel-app-development-case-study"
-                                text="TRAVEL APP"
-                                className="white"
-                              />
-                            </h4>
-                          </div>
+                      <div className={`${activeTab2 == "tab1" ? styles.active2 : ""
+                        }`}
+                        onClick={() => fun2("tab1")}
+                        href="#">
+                        <div className={styles.polo1}>
+                          <h4>TRAVEL APP</h4>
                           <Image
                             alt="bitswits"
                             src={travelimg}
                             className="img-fluid"
                           />
                         </div>
-                      </button>
-                      <button
-                        className={styles.polo1}
-                        onClick={() =>
-                          router.push("/real-estate-app-development-case-study")
-                        }
-                      >
-                        <div>
-                          <div>
-                            <h4>
-                              <ActiveLink
-                                href="/real-estate-app-development-case-study"
-                                text="REAL ESTATE APP"
-                                className="white"
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                              />
-                            </h4>
-                          </div>
+                      </div>
+
+                      <div className={`${activeTab2 == "tab2" ? styles.active2 : ""
+                        }`}
+                        onClick={() => fun2("tab2")}
+                        href="#">
+                        <div className={styles.polo1}>
+                          <h4>REAL ESTATE APP</h4>
                           <Image
                             alt="bitswits"
                             src={realestateimgg}
                             className="img-fluid"
                           />
                         </div>
-                      </button>
-                      <button
-                        className={styles.polo1}
-                        onClick={() =>
-                          router.push(
-                            "/clothing-marketplace-app-development-case-study"
-                          )
-                        }
-                      >
-                        <div>
-                          <div>
-                            <h4>
-                              <ActiveLink
-                                href="/clothing-marketplace-app-development-case-study"
-                                text="ECOMMERCE APP"
-                                className="white"
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                              />
-                            </h4>
-                          </div>
+                      </div>
+
+                      <div className={`${activeTab2 == "tab3" ? styles.active2 : ""
+                        }`}
+                        onClick={() => fun2("tab3")}
+                        href="#">
+                        <div className={styles.polo1}>
+                          <h4>ECOMMERCE APP</h4>
                           <Image
                             alt="bitswits"
                             src={ecommerceimg}
                             className="img-fluid"
                           />
                         </div>
-                      </button>
-                      <button
-                        className={styles.polo1}
-                        onClick={() =>
-                          router.push("/social-app-development-case-study")
-                        }
-                      >
-                        <div>
-                          <div>
-                            <h4>
-                              <ActiveLink
-                                href="/social-app-development-case-study"
-                                text="SOCIAL MEDIA APP"
-                                className="white"
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                              />
-                            </h4>
-                          </div>
+                      </div>
+
+                      <div className={`${activeTab2 == "tab4" ? styles.active2 : ""
+                        }`}
+                        onClick={() => fun2("tab4")}
+                        href="#">
+                        <div className={styles.polo1}>
+                          <h4>SOCIAL MEDIA APP</h4>
                           <Image
                             alt="bitswits"
                             src={scribeimg}
                             className="img-fluid"
                           />
                         </div>
-                      </button>
-                      <button
-                        className={styles.polo1}
-                        onClick={() =>
-                          router.push(
-                            "/automobile-repair-app-development-case-study"
-                          )
-                        }
-                      >
-                        <div>
-                          <div>
-                            <h4>
-                              <ActiveLink
-                                href="/automobile-repair-app-development-case-study"
-                                text="AUTOMOBILE REPAIR APP"
-                                className="white"
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                              />
-                            </h4>
-                          </div>
+                      </div>
+
+                      <div className={`${activeTab2 == "tab5" ? styles.active2 : ""
+                        }`}
+                        onClick={() => fun2("tab5")}
+                        href="#">
+                        <div className={styles.polo1}>
+                          <h4>AUTOMOBILE REPAIR APP</h4>
                           <Image
                             alt="bitswits"
                             src={greepeimg}
                             className="img-fluid"
                           />
                         </div>
-                      </button>
-                      <button
-                        className={styles.polo1}
-                        onClick={() =>
-                          router.push(
-                            "/food-delivery-app-development-case-study"
-                          )
-                        }
-                      >
-                        <div>
-                          <div>
-                            <h4>
-                              <ActiveLink
-                                href="/food-delivery-app-development-case-study"
-                                text="FOOD DELIVERY APP"
-                                className="white"
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                              />
-                            </h4>
-                          </div>
+                      </div>
+
+                      <div className={`${activeTab2 == "tab6" ? styles.active2 : ""
+                        }`}
+                        onClick={() => fun2("tab6")}
+                        href="#">
+                        <div className={styles.polo1}>
+                          <h4>FOOD DELIVERY APP</h4>
                           <Image
                             alt="bitswits"
                             src={cruveimg}
                             className="img-fluid"
                           />
                         </div>
-                      </button>
-                      <button
-                        className={styles.polo1}
-                        onClick={() =>
-                          router.push(
-                            "/handyman-on-demand-app-development-case-study"
-                          )
-                        }
-                      >
-                        <div>
-                          <div>
-                            <h4>
-                              <ActiveLink
-                                href="/handyman-on-demand-app-development-case-study"
-                                text="HANDYMAN APP"
-                                className="white"
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                              />
-                            </h4>
-                          </div>
+                      </div>
+
+                      <div className={`${activeTab2 == "tab7" ? styles.active2 : ""
+                        }`}
+                        onClick={() => fun2("tab7")}
+                        href="#">
+                        <div className={styles.polo1}>
+                          <h4>HANDYMAN APP</h4>
                           <Image
                             alt="bitswits"
                             src={homeconnctimg}
                             className="img-fluid"
                           />
                         </div>
-                      </button>
-                      <button
-                        className={styles.polo1}
-                        onClick={() =>
-                          router.push("/music-app-development-case-study")
-                        }
-                      >
-                        <div>
-                          <div>
-                            <h4>
-                              <ActiveLink
-                                href="/music-app-development-case-study"
-                                text="MUSIC APP"
-                                className="white"
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                              />
-                            </h4>
-                          </div>
+                      </div>
+
+                      <div className={`${activeTab2 == "tab8" ? styles.active2 : ""
+                        }`}
+                        onClick={() => fun2("tab8")}
+                        href="#">
+                        <div className={styles.polo1}>
+                          <h4>MUSIC APP</h4>
                           <Image
                             alt="bitswits"
                             src={beatsimg}
                             className="img-fluid"
                           />
                         </div>
-                      </button>
-                      <button
-                        className={styles.polo1}
-                        onClick={() =>
-                          router.push(
-                            "/marketing-partnership-app-development-case-study"
-                          )
-                        }
-                      >
-                        <div>
-                          <div>
-                            <h4>
-                              <ActiveLink
-                                href="//marketing-partnership-app-development-case-study"
-                                text="INFLUENCER MARKETING APP"
-                                className="white"
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                              />
-                            </h4>
-                          </div>
+                      </div>
+
+                      <div className={`${activeTab2 == "tab9" ? styles.active2 : ""
+                        }`}
+                        onClick={() => fun2("tab9")}
+                        href="#">
+                        <div className={styles.polo1}>
+                          <h4>INFLUENCER MARKETING APP</h4>
                           <Image
                             alt="bitswits"
                             src={sponserdimg}
                             className="img-fluid"
                           />
                         </div>
-                      </button>
+                      </div>
 
-                      <button
-                        className={styles.polo1}
-                        onClick={() =>
-                          router.push("/healthcare-app-development-case-study")
-                        }
-                      >
-                        <div>
-                          <div>
-                            <h4>
-                              <ActiveLink
-                                href="/healthcare-app-development-case-study"
-                                text="HEALTH CARE APP"
-                                className="white"
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                              />
-                            </h4>
-                          </div>
+                      <div className={`${activeTab2 == "tab10" ? styles.active2 : ""
+                        }`}
+                        onClick={() => fun2("tab10")}
+                        href="#">
+                        <div className={styles.polo1}>
+                          <h4>HEALTH CARE APP</h4>
                           <Image
                             alt="bitswits"
                             src={healthimg}
                             className="img-fluid"
                           />
                         </div>
-                      </button>
+                      </div>
 
-                      <button
-                        className={styles.polo1}
-                        onClick={() =>
-                          router.push("/ride-app-development-case-study")
-                        }
-                      >
-                        <div>
-                          <div>
-                            <h4>
-                              <ActiveLink
-                                href="/ride-app-development-case-study"
-                                text="RIDE APP"
-                                className="white"
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                              />
-                            </h4>
-                          </div>
+                      <div className={`${activeTab2 == "tab11" ? styles.active2 : ""
+                        }`}
+                        onClick={() => fun2("tab11")}
+                        href="#">
+                        <div className={styles.polo1}>
+                          <h4>RIDE APP</h4>
                           <Image
                             alt="bitswits"
                             src={riderimg}
                             className="img-fluid"
                           />
                         </div>
-                      </button>
+                      </div>
 
-                      <button
-                        className={styles.polo1}
-                        onClick={() =>
-                          router.push("/fitness-app-development-case-study")
-                        }
-                      >
-                        <div>
-                          <div>
-                            <h4>
-                              <ActiveLink
-                                href="/fitness-app-development-case-study"
-                                text="FITNESS APP"
-                                className="white"
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                              />
-                            </h4>
-                          </div>
+                      <div className={`${activeTab2 == "tab12" ? styles.active2 : ""
+                        }`}
+                        onClick={() => fun2("tab12")}
+                        href="#">
+                        <div className={styles.polo1}>
+                          <h4>FITNESS APP</h4>
                           <Image
                             alt="bitswits"
                             src={fitnowimg}
                             className="img-fluid"
                           />
                         </div>
-                      </button>
+                      </div>
 
-                      <button
-                        className={styles.polo1}
-                        onClick={() =>
-                          router.push("/hiring-app-development-case-study")
-                        }
-                      >
-                        <div>
-                          <div>
-                            <h4>
-                              <ActiveLink
-                                href="/hiring-app-development-case-study"
-                                text="HIRING APP"
-                                className="white"
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                              />
-                            </h4>
-                          </div>
+                      <div className={`${activeTab2 == "tab13" ? styles.active2 : ""
+                        }`}
+                        onClick={() => fun2("tab13")}
+                        href="#">
+                        <div className={styles.polo1}>
+                          <h4>HIRING APP</h4>
                           <Image
                             alt="bitswits"
                             src={readyappimg}
                             className="img-fluid"
                           />
                         </div>
-                      </button>
+                      </div>
                     </Col>
 
-                    <Col lg={4} className={`${styles.menupostblog1} pt-4`}>
+                    <Col lg={4} className={`${styles.menupostblog1} ${styles.menupostblog2} pt-4`}>
+                      <div>
+                        {activeTab2 == "tab1" && (
+                          <div className={styles.caseTabs}>
+                            <Image alt="bitswits" src={travel} className="img-fluid" />
+                            <h5>Travel App</h5>
+                            <p>Tourista is your premium travel app, simplifying every aspect of your journeys.</p>
+                            <div>
+                              <ActiveLink href="/travel-app-development-case-study" text="Read More"
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                              />
+                              <RiArrowDropRightLine
+                                className={styles.train}
+                              />
+                            </div>
+                          </div>
+                        )}
+                        {activeTab2 == "tab2" && (
+                          <div className={styles.caseTabs}>
+                            <Image alt="bitswits" src={estate} className="img-fluid" />
+                            <h5>Real Estate App</h5>
+                            <p>Dream Home, a real estate app designed to make your property search a breeze.</p>
+                            <div>
+                              <ActiveLink href="/real-estate-app-development-case-study" text="Read More"
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                              />
+                              <RiArrowDropRightLine
+                                className={styles.train}
+                              />
+                            </div>
+                          </div>
+                        )}
+                        {activeTab2 == "tab3" && (
+                          <div className={styles.caseTabs}>
+                            <Image alt="bitswits" src={ecommerce} className="img-fluid" />
+                            <h5>Clothing Marketplace App</h5>
+                            <p>Wisu Clothing Marketplace App is your one-stop destination for fashion enthusiasts.</p>
+                            <div>
+                              <ActiveLink href="/clothing-marketplace-app-development-case-study" text="Read More"
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                              />
+                              <RiArrowDropRightLine
+                                className={styles.train}
+                              />
+                            </div>
+                          </div>
+                        )}
+                        {activeTab2 == "tab4" && (
+                          <div className={styles.caseTabs}>
+                            <Image alt="bitswits" src={scribe} className="img-fluid" />
+                            <h5>Social Networking App</h5>
+                            <p>Soul Scribe is a social networking app that works as a digital diary.</p>
+                            <div>
+                              <ActiveLink href="/social-app-development-case-study" text="Read More"
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                              />
+                              <RiArrowDropRightLine
+                                className={styles.train}
+                              />
+                            </div>
+                          </div>
+                        )}
+                        {activeTab2 == "tab5" && (
+                          <div className={styles.caseTabs}>
+                            <Image alt="bitswits" src={greepe} className="img-fluid" />
+                            <h5>Automobile Repair App</h5>
+                            <p>Grease Monkey is your automotive innovation platform that provides a thorough answer to all your car repair needs.</p>
+                            <div>
+                              <ActiveLink href="/automobile-repair-app-development-case-study" text="Read More"
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                              />
+                              <RiArrowDropRightLine
+                                className={styles.train}
+                              />
+                            </div>
+                          </div>
+                        )}
+                        {activeTab2 == "tab6" && (
+                          <div className={styles.caseTabs}>
+                            <Image alt="bitswits" src={crave} className="img-fluid" />
+                            <h5>Food Delivery App</h5>
+                            <p>Crave Courier, a BitsWits creation, is a food delivery app. It streamlines the process: select from local eateries</p>
+                            <div>
+                              <ActiveLink href="/food-delivery-app-development-case-study" text="Read More"
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                              />
+                              <RiArrowDropRightLine
+                                className={styles.train}
+                              />
+                            </div>
+                          </div>
+                        )}
+                        {activeTab2 == "tab7" && (
+                          <div className={styles.caseTabs}>
+                            <Image alt="bitswits" src={home} className="img-fluid" />
+                            <h5>Handyman App</h5>
+                            <p>HomePro Connect is an on-demand handyman services application that connects users with skilled professionals at any time and in any location.</p>
+                            <div>
+                              <ActiveLink href="/handyman-on-demand-app-development-case-study" text="Read More"
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                              />
+                              <RiArrowDropRightLine
+                                className={styles.train}
+                              />
+                            </div>
+                          </div>
+                        )}
+                        {activeTab2 == "tab8" && (
+                          <div className={styles.caseTabs}>
+                            <Image alt="bitswits" src={beats} className="img-fluid" />
+                            <h5>Music App</h5>
+                            <p>Beats, a music app, showcases music albums, lets users collaborate with other application users, and brings together a community of music enthusiasts,</p>
+                            <div>
+                              <ActiveLink href="/music-app-development-case-study" text="Read More"
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                              />
+                              <RiArrowDropRightLine
+                                className={styles.train}
+                              />
+                            </div>
+                          </div>
+                        )}
+                        {activeTab2 == "tab9" && (
+                          <div className={styles.caseTabs}>
+                            <Image alt="bitswits" src={sponserd} className="img-fluid" />
+                            <h5>Marketing Partnership App</h5>
+                            <p>Sponsor'D is a platform that connects brands, businesses, and creators for mutually beneficial collaborations.</p>
+                            <div>
+                              <ActiveLink href="/marketing-partnership-app-development-case-study" text="Read More"
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                              />
+                              <RiArrowDropRightLine
+                                className={styles.train}
+                              />
+                            </div>
+                          </div>
+                        )}
+                        {activeTab2 == "tab10" && (
+                          <div className={styles.caseTabs}>
+                            <Image alt="bitswits" src={health} className="img-fluid" />
+                            <h5>Health App</h5>
+                            <p>Health Care, an innovative app designed to empower individuals to take control of their health and well-being.</p>
+                            <div>
+                              <ActiveLink href="/healthcare-app-development-case-study" text="Read More"
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                              />
+                              <RiArrowDropRightLine
+                                className={styles.train}
+                              />
+                            </div>
+                          </div>
+                        )}
+                        {activeTab2 == "tab11" && (
+                          <div className={styles.caseTabs}>
+                            <Image alt="bitswits" src={rider} className="img-fluid" />
+                            <h5>Ride App</h5>
+                            <p>Ride Me is your trusted ride-sharing app, designed for effortless daily commuting.</p>
+                            <div>
+                              <ActiveLink href="/ride-app-development-case-study" text="Read More"
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                              />
+                              <RiArrowDropRightLine
+                                className={styles.train}
+                              />
+                            </div>
+                          </div>
+                        )}
+                        {activeTab2 == "tab12" && (
+                          <div className={styles.caseTabs}>
+                            <Image alt="bitswits" src={fitnow} className="img-fluid" />
+                            <h5>Fitness App</h5>
+                            <p>Fitnow is the most effective fitness app available, a product of hard work and creativity.</p>
+                            <div>
+                              <ActiveLink href="/fitness-app-development-case-study" text="Read More"
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                              />
+                              <RiArrowDropRightLine
+                                className={styles.train}
+                              />
+                            </div>
+                          </div>
+                        )}
+                        {activeTab2 == "tab13" && (
+                          <div className={styles.caseTabs}>
+                            <Image alt="bitswits" src={ready} className="img-fluid" />
+                            <h5>Hiring App</h5>
+                            <p>Ready App is the ultimate mobile solution for drivers and HR professionals. For drivers, it offers a platform to list themselves and gain visibility,</p>
+                            <div>
+                              <ActiveLink href="/hiring-app-development-case-study" text="Read More"
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                              />
+                              <RiArrowDropRightLine
+                                className={styles.train}
+                              />
+                            </div>
+                          </div>
+                        )}
+                      </div>
                       <div className={`${styles.polo} ${styles.polo3}`}>
                         <div>
                           <h3 className="white font-bold letterspacefy font18">
@@ -1621,7 +1694,7 @@ const HeaderNewDesign = () => {
                     </Col>
 
                     <Col lg={4} className={`${styles.newset}`}>
-                      <div className={styles.lptow}>
+                      <div className={`${styles.lptow} ${styles.lptow2}`}>
                         <div className={styles.newbits}>
                           <div>
                             <h6>
@@ -1707,7 +1780,7 @@ const HeaderNewDesign = () => {
               </Link>
             </li>
             <li>
-              <Link href="/ontact-us" className={styles.post}>
+              <Link href="/contact-us" className={styles.post}>
                 Contact
               </Link>
             </li>

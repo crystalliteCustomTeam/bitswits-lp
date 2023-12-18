@@ -162,6 +162,10 @@
   margin-top: 12px;
 }
 
+.asiaImg img {
+  width: 375px !important;
+}
+
 /* ============================= */
 
 @media screen and (max-width: 1799px) {

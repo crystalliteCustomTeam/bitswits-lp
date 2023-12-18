@@ -9,7 +9,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //
 import usa from '../public/images/contact/usa.png'
-import asia from '../public/images/contact/asia.png'
+import asia1 from '../public/images/contact/asia1.png'
+import asia2 from '../public/images/contact/asia2.png'
 import middleEast from '../public/images/contact/middle-east.png'
 
 
@@ -76,14 +77,18 @@ const ContactBox = () => {
                                                     Office 13 A - Main Office Tower - Financial Park , Labuan , Malaysia
                                                 </p>
 
+                                                <div className={`${styles.locImg} ${styles.asiaImg}`}>
+                                                    <Image src={asia1} alt='Location' className='img-fluid mb-5' />
+                                                </div>
+
                                                 <h3 className="font16 font-bold white mb-0 text-center">PAKISTAN</h3>
                                                 <p className="font13 font-medium white text-center mb-1">
                                                     12th Floor Caesar's Tower, Karachi, Pakistan
                                                 </p>
                                                 <Link className='white text-center' href='tel:+923468280101'>+92 346 828 0101</Link>
                                             </div>
-                                            <div className={styles.locImg}>
-                                                <Image src={asia} alt='Location' className='img-fluid' />
+                                            <div className={`${styles.locImg} ${styles.asiaImg}`}>
+                                                <Image src={asia2} alt='Location' className='img-fluid' />
                                             </div>
                                         </div>
                                     </Slider>
