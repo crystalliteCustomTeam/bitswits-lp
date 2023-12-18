@@ -155,8 +155,8 @@
 .para {
   padding: 75px 0 50px;
   background-image: url(../public/images/lp-images/bg-image.png);
-  background-size: 34%;
-  background-position: center -100px;
+  background-size: 450px;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
