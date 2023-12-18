@@ -119,7 +119,7 @@ const Provideservices = (props) => {
                                                 <Image src={item.img1} alt="bitswits" />
                                             </div>
                                             <div>
-                                                <h3 className="font_20 newfycolr font-bold pb-2 pt-3">{item.titl3}</h3>
+                                                <h3 className="font_20 newfycolr font-bold pb-2 pt-3 mb-0">{item.titl3}</h3>
                                                 <p className={`${styles.create} fontsfregular font_15 linehight_1 white`}>{item.para4}</p>
                                             </div>
                                         </div>
@@ -151,7 +151,7 @@ const Provideservices = (props) => {
                                             <Image src={item.img1} alt="bitswits" />
                                         </div>
                                         <div>
-                                            <h3 className="font_20 newfycolr font-bold pb-2">{item.titl3}</h3>
+                                            <h3 className="font_20 newfycolr font-bold pb-2 mb-0">{item.titl3}</h3>
                                             <p className={`${styles.create} fontsfregular font_15 linehight_1 white`}>{item.para4}</p>
                                         </div>
                                     </div>
