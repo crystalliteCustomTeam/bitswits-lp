@@ -5,20 +5,19 @@
   position: relative;
 }
 
-.mood{
+.mood {
   position: relative;
   z-index: 9;
-
 }
 
-.overlay{
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 9;
+.overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9;
 }
 
 .ctaForm {
@@ -299,6 +298,9 @@
   height: 100%;
   overflow: hidden;
 }
+
+/* ====================================== */
+
 @media (max-width: 768px) {
   .homeVideo {
     left: 0;
@@ -314,7 +316,6 @@
   .Lcontent {
     text-align: center;
     padding-top: 10px;
-
   }
 }
 
