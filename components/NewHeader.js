@@ -38,6 +38,8 @@ import NFT from "public/images/icons/nft.png";
 import blockchainIcon from "public/images/icons/blockchain.png";
 import AI from "public/images/icons/aiIcon.png";
 import Augment from "public/images/icons/augment.png";
+import blockServ from "public/images/icons/block-serv.png";
+import mblApp from "public/images/icons/mblApp.png";
 // newworkimages
 import travelimg from "public/headerbits/travel.png";
 import realestateimgg from "public/headerbits/realestate.png";
@@ -239,7 +241,7 @@ const HeaderNewDesign = () => {
                                 </h4>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={mblApp}
                                   className="img-fluid"
                                 />
                               </div>
@@ -395,7 +397,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={IOS}
+                                  src={mblApp}
                                   className="img-fluid"
                                 />
                               </div>
@@ -464,6 +466,21 @@ const HeaderNewDesign = () => {
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                                 href="/react-native-mobile-development"
                                 text="React Native App Development"
+                              />
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
+                                  src={Cross}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <ActiveLink
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                                href="/cross-platform-app-development"
+                                text="Cross Platform App Development"
                               />
                             </li>
                           </ul>
@@ -560,7 +577,7 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
-                                  src={blockchainIcon}
+                                  src={blockServ}
                                   className="img-fluid"
                                 />
                               </div>
@@ -1240,10 +1257,10 @@ const HeaderNewDesign = () => {
                         onClick={() => fun2("tab1")}
                         href="#">
                         <div className={styles.polo1}>
-                          <h4>TRAVEL APP</h4>
+                          <h4>FITNESS APP</h4>
                           <Image
                             alt="bitswits"
-                            src={travelimg}
+                            src={fitnowimg}
                             className="img-fluid"
                           />
                         </div>
@@ -1252,20 +1269,6 @@ const HeaderNewDesign = () => {
                       <div className={`${activeTab2 == "tab2" ? styles.active2 : ""
                         }`}
                         onClick={() => fun2("tab2")}
-                        href="#">
-                        <div className={styles.polo1}>
-                          <h4>REAL ESTATE APP</h4>
-                          <Image
-                            alt="bitswits"
-                            src={realestateimgg}
-                            className="img-fluid"
-                          />
-                        </div>
-                      </div>
-
-                      <div className={`${activeTab2 == "tab3" ? styles.active2 : ""
-                        }`}
-                        onClick={() => fun2("tab3")}
                         href="#">
                         <div className={styles.polo1}>
                           <h4>ECOMMERCE APP</h4>
@@ -1277,15 +1280,30 @@ const HeaderNewDesign = () => {
                         </div>
                       </div>
 
-                      <div className={`${activeTab2 == "tab4" ? styles.active2 : ""
+                      <div className={`${activeTab2 == "tab3" ? styles.active2 : ""
                         }`}
-                        onClick={() => fun2("tab4")}
+                        onClick={() => fun2("tab3")}
                         href="#">
                         <div className={styles.polo1}>
                           <h4>SOCIAL MEDIA APP</h4>
                           <Image
                             alt="bitswits"
                             src={scribeimg}
+                            className="img-fluid"
+                          />
+                        </div>
+                      </div>
+
+
+                      <div className={`${activeTab2 == "tab4" ? styles.active2 : ""
+                        }`}
+                        onClick={() => fun2("tab4")}
+                        href="#">
+                        <div className={styles.polo1}>
+                          <h4>HIRING APP</h4>
+                          <Image
+                            alt="bitswits"
+                            src={readyappimg}
                             className="img-fluid"
                           />
                         </div>
@@ -1324,10 +1342,10 @@ const HeaderNewDesign = () => {
                         onClick={() => fun2("tab7")}
                         href="#">
                         <div className={styles.polo1}>
-                          <h4>HANDYMAN APP</h4>
+                          <h4>MUSIC APP</h4>
                           <Image
                             alt="bitswits"
-                            src={homeconnctimg}
+                            src={beatsimg}
                             className="img-fluid"
                           />
                         </div>
@@ -1338,10 +1356,10 @@ const HeaderNewDesign = () => {
                         onClick={() => fun2("tab8")}
                         href="#">
                         <div className={styles.polo1}>
-                          <h4>MUSIC APP</h4>
+                          <h4>TRAVEL APP</h4>
                           <Image
                             alt="bitswits"
-                            src={beatsimg}
+                            src={travelimg}
                             className="img-fluid"
                           />
                         </div>
@@ -1366,10 +1384,10 @@ const HeaderNewDesign = () => {
                         onClick={() => fun2("tab10")}
                         href="#">
                         <div className={styles.polo1}>
-                          <h4>HEALTH CARE APP</h4>
+                          <h4>REAL ESTATE APP</h4>
                           <Image
                             alt="bitswits"
-                            src={healthimg}
+                            src={realestateimgg}
                             className="img-fluid"
                           />
                         </div>
@@ -1380,10 +1398,10 @@ const HeaderNewDesign = () => {
                         onClick={() => fun2("tab11")}
                         href="#">
                         <div className={styles.polo1}>
-                          <h4>RIDE APP</h4>
+                          <h4>HANDYMAN APP</h4>
                           <Image
                             alt="bitswits"
-                            src={riderimg}
+                            src={homeconnctimg}
                             className="img-fluid"
                           />
                         </div>
@@ -1394,10 +1412,10 @@ const HeaderNewDesign = () => {
                         onClick={() => fun2("tab12")}
                         href="#">
                         <div className={styles.polo1}>
-                          <h4>FITNESS APP</h4>
+                          <h4>HEALTH CARE APP</h4>
                           <Image
                             alt="bitswits"
-                            src={fitnowimg}
+                            src={healthimg}
                             className="img-fluid"
                           />
                         </div>
@@ -1408,10 +1426,10 @@ const HeaderNewDesign = () => {
                         onClick={() => fun2("tab13")}
                         href="#">
                         <div className={styles.polo1}>
-                          <h4>HIRING APP</h4>
+                          <h4>RIDE APP</h4>
                           <Image
                             alt="bitswits"
-                            src={readyappimg}
+                            src={riderimg}
                             className="img-fluid"
                           />
                         </div>
@@ -1422,11 +1440,11 @@ const HeaderNewDesign = () => {
                       <div>
                         {activeTab2 == "tab1" && (
                           <div className={styles.caseTabs}>
-                            <Image alt="bitswits" src={travel} className="img-fluid" />
-                            <h5>Travel App</h5>
-                            <p>Tourista is your premium travel app, simplifying every aspect of your journeys.</p>
+                            <Image alt="bitswits" src={fitnow} className="img-fluid" />
+                            <h5>Fitness App</h5>
+                            <p>Fitnow is the most effective fitness app available, a product of hard work and creativity. We've made the process easy: select your workout, establish your goals, and work for them under the direction of renowned fitness experts. It's a simple, easy way to achieve your fitness goals.</p>
                             <div>
-                              <ActiveLink href="/travel-app-development-case-study" text="Read More"
+                              <ActiveLink href="/fitness-app-development-case-study" text="Read More"
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                               />
                               <RiArrowDropRightLine
@@ -1437,24 +1455,9 @@ const HeaderNewDesign = () => {
                         )}
                         {activeTab2 == "tab2" && (
                           <div className={styles.caseTabs}>
-                            <Image alt="bitswits" src={estate} className="img-fluid" />
-                            <h5>Real Estate App</h5>
-                            <p>Dream Home, a real estate app designed to make your property search a breeze.</p>
-                            <div>
-                              <ActiveLink href="/real-estate-app-development-case-study" text="Read More"
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                              />
-                              <RiArrowDropRightLine
-                                className={styles.train}
-                              />
-                            </div>
-                          </div>
-                        )}
-                        {activeTab2 == "tab3" && (
-                          <div className={styles.caseTabs}>
                             <Image alt="bitswits" src={ecommerce} className="img-fluid" />
                             <h5>Clothing Marketplace App</h5>
-                            <p>Wisu Clothing Marketplace App is your one-stop destination for fashion enthusiasts.</p>
+                            <p>Wisu Clothing Marketplace App is your one-stop destination for fashion enthusiasts. This sleek and intuitive platform connects you to an extensive array of clothing, offering both top brands and independent designers. Wisu's smart recommendation system ensures that your style preferences are catered to ensuring confident fashion choices.</p>
                             <div>
                               <ActiveLink href="/clothing-marketplace-app-development-case-study" text="Read More"
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
@@ -1465,13 +1468,28 @@ const HeaderNewDesign = () => {
                             </div>
                           </div>
                         )}
-                        {activeTab2 == "tab4" && (
+                        {activeTab2 == "tab3" && (
                           <div className={styles.caseTabs}>
                             <Image alt="bitswits" src={scribe} className="img-fluid" />
                             <h5>Social Networking App</h5>
-                            <p>Soul Scribe is a social networking app that works as a digital diary.</p>
+                            <p>Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories.</p>
                             <div>
                               <ActiveLink href="/social-app-development-case-study" text="Read More"
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                              />
+                              <RiArrowDropRightLine
+                                className={styles.train}
+                              />
+                            </div>
+                          </div>
+                        )}
+                        {activeTab2 == "tab4" && (
+                          <div className={styles.caseTabs}>
+                            <Image alt="bitswits" src={ready} className="img-fluid" />
+                            <h5>Hiring App</h5>
+                            <p>Ready App is the ultimate mobile solution for drivers and HR professionals. For drivers, it offers a platform to list themselves and gain visibility, while HRs can effortlessly find and hire the right talent. With features like secure messaging, custom matching, and real-time updates, Ready App streamlines the recruitment process, making it efficient and effective for both drivers and HRs, all within a secure and diverse community.</p>
+                            <div>
+                              <ActiveLink href="/hiring-app-development-case-study" text="Read More"
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                               />
                               <RiArrowDropRightLine
@@ -1484,7 +1502,7 @@ const HeaderNewDesign = () => {
                           <div className={styles.caseTabs}>
                             <Image alt="bitswits" src={greepe} className="img-fluid" />
                             <h5>Automobile Repair App</h5>
-                            <p>Grease Monkey is your automotive innovation platform that provides a thorough answer to all your car repair needs.</p>
+                            <p>Grease Monkey is your automotive innovation platform that provides a thorough answer to all your car repair needs. From services and prices to locations and client reviews, we help you make informed decisions for your vehicle.</p>
                             <div>
                               <ActiveLink href="/automobile-repair-app-development-case-study" text="Read More"
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
@@ -1499,7 +1517,7 @@ const HeaderNewDesign = () => {
                           <div className={styles.caseTabs}>
                             <Image alt="bitswits" src={crave} className="img-fluid" />
                             <h5>Food Delivery App</h5>
-                            <p>Crave Courier, a BitsWits creation, is a food delivery app. It streamlines the process: select from local eateries</p>
+                            <p>Crave Courier, a BitsWits creation, is a food delivery app. It streamlines the process: select from local eateries, place your order, and savor restaurant-quality dishes brought straight to you. A convenient, fuss-free solution for your dining desires.</p>
                             <div>
                               <ActiveLink href="/food-delivery-app-development-case-study" text="Read More"
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
@@ -1512,11 +1530,11 @@ const HeaderNewDesign = () => {
                         )}
                         {activeTab2 == "tab7" && (
                           <div className={styles.caseTabs}>
-                            <Image alt="bitswits" src={home} className="img-fluid" />
-                            <h5>Handyman App</h5>
-                            <p>HomePro Connect is an on-demand handyman services application that connects users with skilled professionals at any time and in any location.</p>
+                            <Image alt="bitswits" src={beats} className="img-fluid" />
+                            <h5>Music App</h5>
+                            <p>Beats, a music app, showcases music albums, lets users collaborate with other application users, and brings together a community of music enthusiasts, all within our vibrant and supportive platform.</p>
                             <div>
-                              <ActiveLink href="/handyman-on-demand-app-development-case-study" text="Read More"
+                              <ActiveLink href="/music-app-development-case-study" text="Read More"
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                               />
                               <RiArrowDropRightLine
@@ -1527,11 +1545,11 @@ const HeaderNewDesign = () => {
                         )}
                         {activeTab2 == "tab8" && (
                           <div className={styles.caseTabs}>
-                            <Image alt="bitswits" src={beats} className="img-fluid" />
-                            <h5>Music App</h5>
-                            <p>Beats, a music app, showcases music albums, lets users collaborate with other application users, and brings together a community of music enthusiasts,</p>
+                            <Image alt="bitswits" src={travel} className="img-fluid" />
+                            <h5>Travel App</h5>
+                            <p>Tourista is your premium travel app, simplifying every aspect of your journeys. From trip planning and interactive maps to local insights and seamless booking integration, Tourista has you covered.</p>
                             <div>
-                              <ActiveLink href="/music-app-development-case-study" text="Read More"
+                              <ActiveLink href="/travel-app-development-case-study" text="Read More"
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                               />
                               <RiArrowDropRightLine
@@ -1544,7 +1562,7 @@ const HeaderNewDesign = () => {
                           <div className={styles.caseTabs}>
                             <Image alt="bitswits" src={sponserd} className="img-fluid" />
                             <h5>Marketing Partnership App</h5>
-                            <p>Sponsor'D is a platform that connects brands, businesses, and creators for mutually beneficial collaborations.</p>
+                            <p>Sponsor'D is a platform that connects brands, businesses, and creators for mutually beneficial collaborations. Our main goal is to reinvent influencer marketing and foster healthy collaborations.</p>
                             <div>
                               <ActiveLink href="/marketing-partnership-app-development-case-study" text="Read More"
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
@@ -1557,11 +1575,11 @@ const HeaderNewDesign = () => {
                         )}
                         {activeTab2 == "tab10" && (
                           <div className={styles.caseTabs}>
-                            <Image alt="bitswits" src={health} className="img-fluid" />
-                            <h5>Health App</h5>
-                            <p>Health Care, an innovative app designed to empower individuals to take control of their health and well-being.</p>
+                            <Image alt="bitswits" src={estate} className="img-fluid" />
+                            <h5>Real Estate App</h5>
+                            <p>Dream Home, a real estate app designed to make your property search a breeze. If you're looking for your dream home, this user-friendly app offers a seamless and efficient experience. With a sleek interface, powerful search filters, and a vast database of listings, Dream Home helps you find the perfect property in no time.</p>
                             <div>
-                              <ActiveLink href="/healthcare-app-development-case-study" text="Read More"
+                              <ActiveLink href="/real-estate-app-development-case-study" text="Read More"
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                               />
                               <RiArrowDropRightLine
@@ -1572,11 +1590,11 @@ const HeaderNewDesign = () => {
                         )}
                         {activeTab2 == "tab11" && (
                           <div className={styles.caseTabs}>
-                            <Image alt="bitswits" src={rider} className="img-fluid" />
-                            <h5>Ride App</h5>
-                            <p>Ride Me is your trusted ride-sharing app, designed for effortless daily commuting.</p>
+                            <Image alt="bitswits" src={home} className="img-fluid" />
+                            <h5>Handyman App</h5>
+                            <p>HomePro Connect is an on-demand handyman services application that connects users with skilled professionals at any time and in any location. With HomePro Connect, users can bid farewell to the stress of locating reliable assistance for commercial and home maintenance tasks.</p>
                             <div>
-                              <ActiveLink href="/ride-app-development-case-study" text="Read More"
+                              <ActiveLink href="/handyman-on-demand-app-development-case-study" text="Read More"
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                               />
                               <RiArrowDropRightLine
@@ -1587,11 +1605,11 @@ const HeaderNewDesign = () => {
                         )}
                         {activeTab2 == "tab12" && (
                           <div className={styles.caseTabs}>
-                            <Image alt="bitswits" src={fitnow} className="img-fluid" />
-                            <h5>Fitness App</h5>
-                            <p>Fitnow is the most effective fitness app available, a product of hard work and creativity.</p>
+                            <Image alt="bitswits" src={health} className="img-fluid" />
+                            <h5>Health App</h5>
+                            <p>Health Care, an innovative app designed to empower individuals to take control of their health and well-being. This innovative mobile application offers a user-friendly platform for tracking, managing, and optimizing your health, all in one place. Health Care, your path to a healthier you start here.</p>
                             <div>
-                              <ActiveLink href="/fitness-app-development-case-study" text="Read More"
+                              <ActiveLink href="/healthcare-app-development-case-study" text="Read More"
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                               />
                               <RiArrowDropRightLine
@@ -1602,11 +1620,11 @@ const HeaderNewDesign = () => {
                         )}
                         {activeTab2 == "tab13" && (
                           <div className={styles.caseTabs}>
-                            <Image alt="bitswits" src={ready} className="img-fluid" />
-                            <h5>Hiring App</h5>
-                            <p>Ready App is the ultimate mobile solution for drivers and HR professionals. For drivers, it offers a platform to list themselves and gain visibility,</p>
+                            <Image alt="bitswits" src={rider} className="img-fluid" />
+                            <h5>Ride App</h5>
+                            <p>Ride Me is your trusted ride-sharing app, designed for effortless daily commuting. Whether it's work, exploration, or a quick ride, Ride Me has your back. With a focus on safety, reliability, and clear pricing, Ride Me offers a smooth transportation experience.</p>
                             <div>
-                              <ActiveLink href="/hiring-app-development-case-study" text="Read More"
+                              <ActiveLink href="/ride-app-development-case-study" text="Read More"
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                               />
                               <RiArrowDropRightLine
@@ -1615,81 +1633,6 @@ const HeaderNewDesign = () => {
                             </div>
                           </div>
                         )}
-                      </div>
-                      <div className={`${styles.polo} ${styles.polo3}`}>
-                        <div>
-                          <h3 className="white font-bold letterspacefy font18">
-                            Contact Us
-                          </h3>
-                          <div className={styles.fill}>
-                            <div>
-                              <BsFillEnvelopeFill
-                                size={15}
-                                className={styles.email}
-                              />
-                            </div>
-                            <div>
-                              <Link
-                                className="font15 font-medium white fontf"
-                                href="mailto:info@bitswits.co"
-                              >
-                                info@bitswits.com
-                              </Link>
-                            </div>
-                          </div>
-                          <div className={styles.fill}>
-                            <div>
-                              <BsFillTelephoneFill
-                                size={15}
-                                className={styles.email}
-                              />
-                            </div>
-                            <div>
-                              <Link
-                                className="font15 font-medium white fontf"
-                                href="tel:+1 312 379 5987"
-                              >
-                                +1 312 379 5987
-                              </Link>
-                            </div>
-                          </div>
-                          <div className={styles.fill}>
-                            <div>
-                              <BsFillTelephoneFill
-                                size={15}
-                                className={styles.email}
-                              />
-                            </div>
-                            <div>
-                              <Link
-                                className="font15 font-medium white fontf"
-                                href="tel:+18335006007"
-                              >
-                                +1 833 500 6007
-                              </Link>
-                            </div>
-                          </div>
-                          <div className={styles.fill}>
-                            <div className="mt-1">
-                              <Link
-                                className="font15 font-medium white fontf"
-                                href="#"
-                              >
-                                Read More{" "}
-                                <RiArrowDropRightLine
-                                  className={styles.train}
-                                />
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                        <div>
-                          <Image
-                            alt="bitswits"
-                            src={contact}
-                            className="img-fluid"
-                          />
-                        </div>
                       </div>
                     </Col>
 

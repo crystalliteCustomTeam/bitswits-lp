@@ -778,30 +778,30 @@
 /* ============================================ */
 
 .active2 {
-  background: #570e44;
+  background: #be46d0;
   border-radius: 7px;
 }
 
 .lptow2 {
-  background: #570e44;
+  background: #be46d0;
 }
 
 .active2 .polo {
-  background-color: #570e44;
+  background-color: #be46d0;
 }
 .active2 .polo1 {
-  background-color: #570e44;
+  background-color: #be46d0;
 }
 
 .polo1:hover {
-  background: #570e44;
+  background: #be46d0;
   border-radius: 7px;
 }
 
 .menupostblog2 {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 .caseTabs {
@@ -813,15 +813,16 @@
 }
 
 .caseTabs img {
-  width: 50%;
+  width: 75%;
   margin: 0 auto 10px;
 }
 
 .caseTabs h5 {
   margin-bottom: 0;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   letter-spacing: 1px;
+  margin-top: 20px;
 }
 
 .caseTabs p {
@@ -831,19 +832,20 @@
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 1;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  text-align: justify;
 }
 
 .caseTabs a {
   font-size: 16px;
-  color: #570e44;
+  color: #be46d0;
   font-weight: 700;
   letter-spacing: 0.5px;
 }
 
 .caseTabs .train {
-  color: #570e44;
+  color: #be46d0;
 }
 
 /* ============================================ */

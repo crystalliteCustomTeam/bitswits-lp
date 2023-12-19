@@ -39,13 +39,13 @@ const ContactBox = () => {
                                         <div className="locBox">
                                             <div className={styles.locTxt}>
                                                 <h2 className="font30 font-bold white mb-3 text-center">USA</h2>
-                                                <h3 className="font16 font-bold white mb-0 text-center">DELAWARE</h3>
+                                                <h3 className="font16 font-bold newfycolr mb-0 text-center">DELAWARE</h3>
                                                 <p className="font13 font-medium white mb-1 text-center">
                                                     8 The Green STE 300, Dover DE 19901.
                                                 </p>
                                                 <Link className='white text-center' href='tel:+18335006007'>+1 833 500 6007</Link>
 
-                                                <h3 className="font16 font-bold white mb-0 mt-3 text-center">HOUSTON</h3>
+                                                <h3 className="font16 font-bold newfycolr mb-0 mt-3 text-center">HOUSTON</h3>
                                                 <p className="font13 font-medium white mb-1 text-center">
                                                     Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100 Houston, TX 77056
                                                 </p>
@@ -58,7 +58,7 @@ const ContactBox = () => {
                                         <div className="locBox">
                                             <div className={styles.locTxt}>
                                                 <h2 className="font30 font-bold white mb-3 text-center">Middle East</h2>
-                                                <h3 className="font16 font-bold white mb-0 text-center">SHARJAH</h3>
+                                                <h3 className="font16 font-bold newfycolr mb-0 text-center">SHARJAH</h3>
                                                 <p className="font15 font-medium white mb-1 text-center">
                                                     Office #101, 32 Street, Al Mujarrah, Sharjah
                                                 </p>
@@ -72,7 +72,7 @@ const ContactBox = () => {
                                         <div className="locBox">
                                             <div className={styles.locTxt}>
                                                 <h2 className="font30 font-bold white mb-3 text-center">Asia</h2>
-                                                <h3 className="font16 font-bold white mb-0 text-center">MALAYSIA</h3>
+                                                <h3 className="font16 font-bold newfycolr mb-0 text-center">MALAYSIA</h3>
                                                 <p className="font13 font-medium white text-center">
                                                     Office 13 A - Main Office Tower - Financial Park , Labuan , Malaysia
                                                 </p>
@@ -81,25 +81,25 @@ const ContactBox = () => {
                                                     <Image src={asia1} alt='Location' className='img-fluid mb-5' />
                                                 </div>
 
-                                                <h3 className="font16 font-bold white mb-0 text-center">PAKISTAN</h3>
+                                                <h3 className="font16 font-bold newfycolr mb-0 text-center">PAKISTAN</h3>
                                                 <p className="font13 font-medium white text-center mb-1">
                                                     12th Floor Caesar's Tower, Karachi, Pakistan
                                                 </p>
                                                 <Link className='white text-center' href='tel:+923468280101'>+92 346 828 0101</Link>
-                                            </div>
-                                            <div className={`${styles.locImg} ${styles.asiaImg}`}>
-                                                <Image src={asia2} alt='Location' className='img-fluid' />
+                                                <div className={`${styles.locImg} ${styles.asiaImg}`}>
+                                                    <Image src={asia2} alt='Location' className='img-fluid' />
+                                                </div>
                                             </div>
                                         </div>
                                     </Slider>
                                 </div>
                             </Col>
                             <Col lg={6}>
-                                <h2 className="font40 font-bold white">Say Hello!</h2>
+                                <h2 className="font40 font-bold newfycolr">Say Hello!</h2>
                                 <p className="font16 font-medium white">
                                     Let’s make headlines together! We’re excited to collaborate with you on your fantastic project.
                                 </p>
-                                <h3 className="font30 font-bold f-s mb-2 white">
+                                <h3 className="font30 font-bold f-s mb-2 newfycolr">
                                     For Work Inquiry
                                 </h3>
                                 <p className="font14 font-medium white mb-4">
@@ -127,7 +127,7 @@ const ContactBox = () => {
                                         </Col>
                                         <Col>
                                             <div className={styles.notic}>
-                                                <p className='white font16'>We take your privacy seriously. <br /> Read our <span className='font-bold'> <Link className='white' href='/privacy-policy'>Privacy Policy</Link> .</span></p>
+                                                <p className='white font16'>We take your privacy seriously. <br /> Read our <span className='font-bold'> <Link className='newfycolr' href='/privacy-policy'>Privacy Policy</Link> .</span></p>
                                                 <button id="savebtns" type="submit" className={styles.bttns1}>Submit</button>
                                             </div>
                                         </Col>
