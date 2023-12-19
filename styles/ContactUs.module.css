@@ -171,7 +171,7 @@
 
 @media screen and (max-width: 1799px) {
   .line1::before {
-    left: 18.5%;
+    left: 20.5%;
   }
 
   .line2::before {
@@ -179,7 +179,7 @@
   }
 
   .line3::before {
-    left: 77%;
+    left: 75%;
   }
 }
 
@@ -193,7 +193,7 @@
   }
 
   .line3::before {
-    left: 78%;
+    left: 78.5%;
   }
 }
 
@@ -221,13 +221,13 @@
   }
 
   .line3::before {
-    left: 82%;
+    left: 81%;
   }
 }
 
 @media screen and (max-width: 1299px) {
   .line1::before {
-    left: 10%;
+    left: 9.5%;
   }
 
   .line2::before {
