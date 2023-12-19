@@ -16,7 +16,7 @@ const NewBanner = () => {
                 <Container>
 
                     <Row>
-                        <Col xl={12}>
+                        <Col lg={10} className='mx-auto'>
                             <div className={styles.content}>
                                 <h3 className={`${styles.develop} text-center f-60 font-bold`}>About Us</h3>
                                 <p className='white center mb-0'>For the past decades, BitsWits is creating smooth user experiences and app designs that drive profitability for the businesses nationwide.

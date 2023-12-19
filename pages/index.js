@@ -297,15 +297,12 @@ export default function Home() {
             <Technologieswe />
             <Nothing Nothing="nothingLphomefy" />
 
-
             {isSliderActive ? (
                 <NewMaintain
                 />
             ) : (
                 <ServicesMaintainmobile severcedata={severcedata} />
             )}
-
-
 
             <Globallplp6 />
             <LpChoose transform="transform" />

@@ -115,8 +115,8 @@ export default function gamedevelopmentcompany() {
         ]
 
     };
- 
-   
+
+
 
     const severcedata = [
         {
@@ -214,9 +214,9 @@ export default function gamedevelopmentcompany() {
                 <>
                     <NewMaintain
                         subtitle='Services'
-                        title1new  = {<>
-                        Our Mobile App Development <br></br> Services And Solution
-                        
+                        title1new={<>
+                            Our Mobile App Development <br></br> Services And Solution
+
                         </>}
                     />
                 </>
@@ -228,10 +228,6 @@ export default function gamedevelopmentcompany() {
             <Wework
                 wework='wework'
             />
-
-            <Technologieslp />
-
-            <Globallp />
 
             <Startups
                 startups='startups'
@@ -255,6 +251,10 @@ export default function gamedevelopmentcompany() {
 
                 slide='slide2'
             />
+
+            <Technologieslp />
+
+            <Globallp />
 
             <Transformideas
                 transform='transform'
