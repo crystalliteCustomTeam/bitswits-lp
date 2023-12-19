@@ -159,7 +159,7 @@ const SmartTech = (props) => {
                                 <Col lg={12} className={styles.newsize}>
                                     <p className="font_30 fontsfheavy white mb-0 mt-2">{props.sec1title}</p>
                                 </Col>
-                                <Slider {...awardslogo} className="pt-4">
+                                <Slider {...awardslogo} className="pt-sm-4">
 
                                     {props.sec.map((item, index) => (
                                         <Col lg={4}>
@@ -240,9 +240,6 @@ const SmartTech = (props) => {
 
                                     </Col>
                                 ))}
-
-
-
                             </>
 
                         }

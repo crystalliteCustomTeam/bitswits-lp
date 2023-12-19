@@ -36,7 +36,7 @@ import mbestgloba13 from 'public/moniter/3.png'
 import mbestgloba14 from 'public/moniter/4.png'
 import mbestgloba15 from 'public/moniter/5.png'
 import mbestgloba16 from 'public/moniter/6.png'
-import peo from 'public/servnew/peo.png'
+import peo from 'public/servnew/peo.png'  
 
 import chatbots1 from '/public/servnew/customweb/1.png'
 import chatbots2 from '/public/servnew/customweb/2.png'
@@ -132,7 +132,6 @@ export default function customwebdevelopmentservices() {
             text : 'Start Your Project Within 48 HoursWe Foster Long-Term Relationships Over 22+ Years in Service to Our Customers', 
           },
         ]}
-
 
       />
 
@@ -265,13 +264,6 @@ export default function customwebdevelopmentservices() {
         desc={`We meet the demands of your business by executing our strategically planned processes for delivering top-of-the-line Custom <br/> Websites & Applications.`}
         img5={<> <Image src={banImg1} alt="BitsWits" className="img-fluid mt-4 mt-lg-5" /> </>}
       />
-
-
-
-
-
-
-
 
       <SmartTech
         assignClass='providecustom'
