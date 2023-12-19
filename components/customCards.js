@@ -6,8 +6,8 @@ import Image from "next/image";
 const customCards = (props) => {
   return (
     <>
-      <section className={styles.datapost}>
-        <Container className={styles.appios}>
+      <section className={`${styles.datapost} ${styles[props.assignClass]}`}>
+        <Container>
           <Row className="gx-3 gy-3">
             <Col sm={12}>
               <p className="font_30 fontsfheavy newfycolr text-center mb-0">{props.subtitle}</p>

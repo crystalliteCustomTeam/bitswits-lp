@@ -43,6 +43,10 @@
   background-color: #000;
 }
 
+.notSame {
+  padding: 80px 0;
+}
+
 .formsbanner .forminput::placeholder {
   color: #9f9f9f;
   font-family: "Montserrat", sans-serif;
@@ -134,7 +138,7 @@
 }
 
 .appios {
-  padding: 80px 40px;
+  padding: 30px 40px;
 }
 
 .keyFrame {
@@ -197,6 +201,10 @@
   font-size: 28px;
   color: #fff;
   text-align: center;
+}
+
+.biCard {
+  padding-bottom: 80px;
 }
 
 /* =========================================== */

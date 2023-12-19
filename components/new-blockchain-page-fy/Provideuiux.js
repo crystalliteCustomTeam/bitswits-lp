@@ -75,17 +75,10 @@ const Provideservices = (props) => {
       <section className={`${styles[props.assignClass]}`}>
         <Container>
           <Row className="gx-5 align-items-center">
-            <Col lg={12}>
-              {props.title ? props.title : ""}
-              {props.bigtitle ? props.bigtitle : ""}
-              {props.para ? props.para : ""}
-            </Col>
-
-            <Col lg={5}>
+            <Col lg={6}>
               <div
-                className={`${styles.video} ${styles[props.rowclas]} ${
-                  styles[props.rowClass]
-                } ${styles[props.particalAfter]}`}
+                className={`${styles.video} ${styles[props.rowclas]} ${styles[props.rowClass]
+                  } ${styles[props.particalAfter]}`}
               >
                 {props.video ? props.video : ""}
               </div>
@@ -117,19 +110,17 @@ const Provideservices = (props) => {
               </>
             ) : (
               <Col
-                lg={7}
-                className={`${styles[props.rowclas]} ${
-                  styles[props.newrowbussiness]
-                }`}
+                lg={6}
+                className={`${styles[props.rowclas]} ${styles[props.newrowbussiness]
+                  }`}
               >
                 {props.title2 ? props.title2 : ""}
                 {props.para2 ? props.para2 : ""}
 
                 {props.sec.map((item, index) => (
                   <div
-                    className={`${styles.blocknew} ${
-                      styles[props.bottomPadding]
-                    }`}
+                    className={`${styles.blocknew} ${styles[props.bottomPadding]
+                      }`}
                     key={index}
                   >
                     <div>

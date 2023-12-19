@@ -778,23 +778,23 @@
 /* ============================================ */
 
 .active2 {
-  background: #be46d0;
+  background: #f32f5e;
   border-radius: 7px;
 }
 
 .lptow2 {
-  background: #be46d0;
+  background: #f32f5e;
 }
 
 .active2 .polo {
-  background-color: #be46d0;
+  background-color: #f32f5e;
 }
 .active2 .polo1 {
-  background-color: #be46d0;
+  background-color: #f32f5e;
 }
 
 .polo1:hover {
-  background: #be46d0;
+  background: #f32f5e;
   border-radius: 7px;
 }
 
@@ -839,13 +839,13 @@
 
 .caseTabs a {
   font-size: 16px;
-  color: #be46d0;
+  color: #f32f5e;
   font-weight: 700;
   letter-spacing: 0.5px;
 }
 
 .caseTabs .train {
-  color: #be46d0;
+  color: #f32f5e;
 }
 
 /* ============================================ */

@@ -16,19 +16,17 @@ const NewMaintain = (props) => {
         <>
             <section className={styles.newHomeBg}>
                 <Container>
-                {props.subtitle &&
-                <h3 className={`font24 white font-bold text-center mb-0 mb-sm-2 ling15`}>
-                  {props.subtitle}
-                </h3>
-              }
+                    {props.subtitle &&
+                        <h3 className={`font24 white font-bold text-center mb-0 mb-sm-2 ling15`}>
+                            {props.subtitle}
+                        </h3>
+                    }
 
-              {props.title1new &&
-                <h2 className="text-white font50 f-700 text-center mb-0 mb-sm-2">
-                  {props.title1new}
-                </h2>
-              }
-
-                    
+                    {props.title1new &&
+                        <h2 className="text-white font50 f-700 text-center mb-0 mb-sm-2">
+                            {props.title1new}
+                        </h2>
+                    }
 
                     <Row className="g-3">
                         <Col lg={12}>

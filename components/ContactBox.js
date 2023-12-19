@@ -8,10 +8,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //
-import usa from '../public/images/contact/usa.png'
-import asia1 from '../public/images/contact/asia1.png'
-import asia2 from '../public/images/contact/asia2.png'
-import middleEast from '../public/images/contact/middle-east.png'
+import malaysia from '../public/images/contact/malaysia.png'
+import pakistan from '../public/images/contact/pakistan.png'
+import delaware from '../public/images/contact/delaware.png'
+import houston from '../public/images/contact/houston.png'
+import Sharjah from '../public/images/contact/sharjah.png'
 
 
 const ContactBox = () => {
@@ -38,21 +39,24 @@ const ContactBox = () => {
                                     <Slider {...contactSlider} className='contactSlider'>
                                         <div className="locBox">
                                             <div className={styles.locTxt}>
-                                                <h2 className="font30 font-bold white mb-3 text-center">USA</h2>
+                                                <h2 className="font30 font-bold white mb-3 text-center">United States</h2>
                                                 <h3 className="font16 font-bold newfycolr mb-0 text-center">DELAWARE</h3>
                                                 <p className="font13 font-medium white mb-1 text-center">
                                                     8 The Green STE 300, Dover DE 19901.
                                                 </p>
-                                                <Link className='white text-center' href='tel:+18335006007'>+1 833 500 6007</Link>
+                                                <Link className='font14 white text-center mb-3' href='tel:+18335006007'>+1 833 500 6007</Link>
+                                                <div className={`${styles.locImg} ${styles.asiaImg}`}>
+                                                    <Image src={delaware} alt='Location' className='img-fluid mb-3' />
+                                                </div>
 
                                                 <h3 className="font16 font-bold newfycolr mb-0 mt-3 text-center">HOUSTON</h3>
                                                 <p className="font13 font-medium white mb-1 text-center">
                                                     Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100 Houston, TX 77056
                                                 </p>
-                                                <Link className='white text-center' href='tel:+17135657656'>+1 713 565 7656</Link>
-                                            </div>
-                                            <div className={styles.locImg}>
-                                                <Image src={usa} alt='Location' className='img-fluid' />
+                                                <Link className='font14 white text-center mb-3' href='tel:+17135657656'>+1 713 565 7656</Link>
+                                                <div className={`${styles.locImg} ${styles.asiaImg}`}>
+                                                    <Image src={houston} alt='Location' className='img-fluid' />
+                                                </div>
                                             </div>
                                         </div>
                                         <div className="locBox">
@@ -62,11 +66,10 @@ const ContactBox = () => {
                                                 <p className="font15 font-medium white mb-1 text-center">
                                                     Office #101, 32 Street, Al Mujarrah, Sharjah
                                                 </p>
-                                                <Link className='white text-center' href='tel:+971555031266'>+971 555 031266</Link>
-                                                <Link className='white text-center' href='tel:+971551659060'>+971 551 659060</Link>
+                                                <Link className='font14 white text-center' href='tel:+971555031266'>+971 555 031266</Link>
                                             </div>
                                             <div className={styles.locImg}>
-                                                <Image src={middleEast} alt='Location' className='img-fluid' />
+                                                <Image src={Sharjah} alt='Location' className='img-fluid' />
                                             </div>
                                         </div>
                                         <div className="locBox">
@@ -78,16 +81,16 @@ const ContactBox = () => {
                                                 </p>
 
                                                 <div className={`${styles.locImg} ${styles.asiaImg}`}>
-                                                    <Image src={asia1} alt='Location' className='img-fluid mb-5' />
+                                                    <Image src={malaysia} alt='Location' className='img-fluid mb-5' />
                                                 </div>
 
                                                 <h3 className="font16 font-bold newfycolr mb-0 text-center">PAKISTAN</h3>
                                                 <p className="font13 font-medium white text-center mb-1">
                                                     12th Floor Caesar's Tower, Karachi, Pakistan
                                                 </p>
-                                                <Link className='white text-center' href='tel:+923468280101'>+92 346 828 0101</Link>
+                                                <Link className='font14 white text-center' href='tel:+923468280101'>+92 346 828 0101</Link>
                                                 <div className={`${styles.locImg} ${styles.asiaImg}`}>
-                                                    <Image src={asia2} alt='Location' className='img-fluid' />
+                                                    <Image src={pakistan} alt='Location' className='img-fluid' />
                                                 </div>
                                             </div>
                                         </div>

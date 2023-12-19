@@ -20,8 +20,8 @@ const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const HomeBannerSliderlp = React.lazy(() =>
   import("@/components/HomeBannerSliderlp")
 );
-const Provideservices = React.lazy(() =>
-  import("@/components/new-blockchain-page-fy/Provideservices")
+const Smarteruiux = React.lazy(() =>
+  import("@/components/new-blockchain-page-fy/Smarteruiux")
 );
 const Provideuiux = React.lazy(() =>
   import("@/components/new-blockchain-page-fy/Provideuiux")
@@ -78,7 +78,9 @@ const bestgloba16 = await import("../public/ui-ux-page/icon6.png");
 const poe = await import("../public/ui-ux-page/work1.png");
 const poe2 = await import("../public/ui-ux-page/work2.png");
 
+
 export default function UiUxDesign() {
+
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -193,7 +195,7 @@ export default function UiUxDesign() {
 
       <Nothing Nothing="nothingLp6" />
 
-      <Provideservices
+      <Smarteruiux
         assignClass="providebussiness"
         bottomPadding="bottomPadding"
         rowclas="newrowbussiness"
@@ -243,7 +245,7 @@ export default function UiUxDesign() {
       />
 
       <Provideuiux
-        assignClass="providebussiness"
+        assignClass="provideuiux"
         bottomPadding="bottomPadding"
         rowclas="newrowbussiness"
         sec={[

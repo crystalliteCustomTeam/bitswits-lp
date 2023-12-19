@@ -25,28 +25,28 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //
 const customios = await import(
-  "../public/newHomePage/images/mobileimages/newMaintain1.png"
+    "../public/newHomePage/images/mobileimages/newMaintain1.png"
 );
 const iphoneapp = await import(
-  "../public/newHomePage/images/mobileimages/newMaintain2.png"
+    "../public/newHomePage/images/mobileimages/newMaintain2.png"
 );
 const applewatch = await import(
-  "../public/newHomePage/images/mobileimages/newMaintain3.png"
+    "../public/newHomePage/images/mobileimages/newMaintain3.png"
 );
 const appletvappdevelopment = await import(
-  "../public/newHomePage/images/mobileimages/newMaintain4.png"
+    "../public/newHomePage/images/mobileimages/newMaintain4.png"
 );
 const iphoneappdesigning = await import(
-  "../public/newHomePage/images/mobileimages/newMaintain5.png"
+    "../public/newHomePage/images/mobileimages/newMaintain5.png"
 );
 const hybridiphone = await import(
-  "../public/newHomePage/images/mobileimages/newMaintain6.png"
+    "../public/newHomePage/images/mobileimages/newMaintain6.png"
 );
 const appSeven = await import(
-  "../public/newHomePage/images/mobileimages/newMaintain7.png"
+    "../public/newHomePage/images/mobileimages/newMaintain7.png"
 );
 const appEight = await import(
-  "../public/newHomePage/images/mobileimages/newMaintain8.png"
+    "../public/newHomePage/images/mobileimages/newMaintain8.png"
 );
 
 
@@ -120,72 +120,72 @@ export default function Home() {
         {
             classlayout: {
                 newclass: "homeclass",
-              },
-          heading: {
-            title2: "Services",
-            text: (
-              <>
-                Maintaining digital quality with our collection of customizable services
-              </>
-            ),
-          },
-          serdata: [
-            {
-              title: "Mobile App Development",
-              text: "We develop custom mobile apps from initial consultation to deployment, driving business growth across various industries.",
-              appclass: "app",
-              imgservice: customios,
             },
-            {
-              title: (
-                <>
-                  {" "}
-                  Game <br /> Development{" "}
-                </>
-              ),
-              text: "Hire our game development company to captivate your audience and transport them to thrilling virtual worlds.",
-              appclass: "app1",
-              imgservice: iphoneapp,
+            heading: {
+                title2: "Services",
+                text: (
+                    <>
+                        Maintaining digital quality with our collection of customizable services
+                    </>
+                ),
             },
-            {
-              title: "Blockchain Development",
-              text: "We specialize in developing solutions that fuels enterprise growth and efficiency through blockchain technology.",
-              appclass: "app2",
-              imgservice: applewatch,
-            },
-            {
-              title: "Artificial Intelligence (Ai)",
-              text: "Hire BitsWits as your trusted ally for AI development, and experience the revolution of your project through Artificial Intelligence that raises its potential.",
-              appclass: "app3",
-              imgservice: appletvappdevelopment,
-            },
-            {
-              title: "Web App Development",
-              text: " Our top app developers excel in web app development, showcasing expert skills to ensure client satisfaction and punctual project delivery.",
-              appclass: "app4",
-              imgservice: iphoneappdesigning,
-            },
-            {
-              title: "UI/UX App Design",
-              text: "Our team comprises professional responsive app designers who develop prototypes aimed at guiding users to meaningful interactions and achieving impactful user experiences.",
-              appclass: "app5",
-              imgservice: hybridiphone,
-            },
-            {
-              title: "AR/VR",
-              text: "BitsWits serves as your AR/VR portal. We specialize in creating imaginative concepts into compelling digital realities that captivate, entertain, and inspire your audience.",
-              appclass: "app6",
-              imgservice: appSeven,
-            },
-            {
-              title: "Internet of Things",
-              text: "We lead in IoT innovation delivering smart, connected solutions drive automation, efficiency, and connectivity across industries.",
-              appclass: "app7",
-              imgservice: appEight
-            },
-          ],
+            serdata: [
+                {
+                    title: "Mobile App Development",
+                    text: "We develop custom mobile apps from initial consultation to deployment, driving business growth across various industries.",
+                    appclass: "app",
+                    imgservice: customios,
+                },
+                {
+                    title: (
+                        <>
+                            {" "}
+                            Game <br /> Development{" "}
+                        </>
+                    ),
+                    text: "Hire our game development company to captivate your audience and transport them to thrilling virtual worlds.",
+                    appclass: "app1",
+                    imgservice: iphoneapp,
+                },
+                {
+                    title: "Blockchain Development",
+                    text: "We specialize in developing solutions that fuels enterprise growth and efficiency through blockchain technology.",
+                    appclass: "app2",
+                    imgservice: applewatch,
+                },
+                {
+                    title: "Artificial Intelligence (Ai)",
+                    text: "Hire BitsWits as your trusted ally for AI development, and experience the revolution of your project through Artificial Intelligence that raises its potential.",
+                    appclass: "app3",
+                    imgservice: appletvappdevelopment,
+                },
+                {
+                    title: "Web App Development",
+                    text: " Our top app developers excel in web app development, showcasing expert skills to ensure client satisfaction and punctual project delivery.",
+                    appclass: "app4",
+                    imgservice: iphoneappdesigning,
+                },
+                {
+                    title: "UI/UX App Design",
+                    text: "Our team comprises professional responsive app designers who develop prototypes aimed at guiding users to meaningful interactions and achieving impactful user experiences.",
+                    appclass: "app5",
+                    imgservice: hybridiphone,
+                },
+                {
+                    title: "AR/VR",
+                    text: "BitsWits serves as your AR/VR portal. We specialize in creating imaginative concepts into compelling digital realities that captivate, entertain, and inspire your audience.",
+                    appclass: "app6",
+                    imgservice: appSeven,
+                },
+                {
+                    title: "Internet of Things",
+                    text: "We lead in IoT innovation delivering smart, connected solutions drive automation, efficiency, and connectivity across industries.",
+                    appclass: "app7",
+                    imgservice: appEight
+                },
+            ],
         },
-      ];
+    ];
 
     return (
         <>
@@ -198,7 +198,7 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="images/icons/favicon.png" />
             </Head>
-            
+
             <NewIndex2Banner />
             <section>
                 <div className={`${styles.awardsFold}`}>
@@ -299,6 +299,18 @@ export default function Home() {
 
             {isSliderActive ? (
                 <NewMaintain
+                    title1={<> Delivering Excellence Daily </>}
+                    title2={<> Trusted Development Company For Tech Solutions </>}
+                    text={
+                        <>
+                            {" "}
+                            We, at BitsWits, are dedicated to being innovative and making our
+                            clients happy.
+                            <br />
+                            We specialize in customizing services for digital business
+                            evolution and bring the following services to the table…
+                        </>
+                    }
                 />
             ) : (
                 <ServicesMaintainmobile severcedata={severcedata} />

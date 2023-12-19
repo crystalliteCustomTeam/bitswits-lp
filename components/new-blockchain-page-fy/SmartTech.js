@@ -178,10 +178,10 @@ const SmartTech = (props) => {
                                     ))}
                                 </Slider>
                                 <Col lg={12} className={styles.newsize}>
-                                        <p className="font_30 fontsfheavy white mb-3 mt-3">{props.sec2title}</p>
-                                    </Col>
+                                    <p className="font_30 fontsfheavy white mb-3 mt-3">{props.sec2title}</p>
+                                </Col>
                                 <Slider {...awardslogo1} className="pt-4">
-                                  
+
                                     {props.sec2.map((item, index) => (
                                         <Col lg={4}>
 

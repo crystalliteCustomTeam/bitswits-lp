@@ -34,12 +34,16 @@ const ServiceBanner = (props) => {
                 </Link>
               </div>
               <div className={`${styles.banImg}`}>
-                <Image
-                  quality={75}
-                  alt="BitsWits"
-                  src={props.BannerImage}
-                  className={`img-fluid`}
-                />
+                {props.BannerImage ? (
+                  <Image
+                    quality={75}
+                    alt="BitsWits"
+                    src={props.BannerImage}
+                    className={`img-fluid`}
+                  />
+                ) : null}
+
+                {props.video ? props.video : null}
               </div>
             </Col>
           </Row>
