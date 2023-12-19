@@ -164,8 +164,7 @@ export default function mobileApplication() {
       <ServicesPortfolio
         title={<> Showcasing Our <span className="newfycolr">Creative Vision</span> </>}
       />
-      <div className="status2">
-        <Newsuccess
+      <Newsuccess
           subtitle="Ready For Success?"
           maintitle="Brace Yourself for What Happens Next"
           successSteps={
@@ -194,7 +193,6 @@ export default function mobileApplication() {
             ]
           }
         />
-      </div>
       <Technologieswe />
       <Globallplp6 />
       <Partnerships />

@@ -210,14 +210,14 @@
 }
 
 .app7 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../../public/newHomePage/images/newMaintain10.png);
+  background-image: url(../../public/newHomePage/images/newMaintain9a.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 50px;
-  /* padding-bottom: 20px; */
   height: 531px;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .app7 .appImage {

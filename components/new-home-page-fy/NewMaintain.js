@@ -146,12 +146,6 @@ const NewMaintain = (props) => {
                         </Col>
                         <Col sm={6} lg={4}>
                             <div className={styles.app7}>
-                                <Image
-                                    quality={75}
-                                    alt="BitsWits"
-                                    src={cardNine}
-                                    className={`${styles.appImage}`}
-                                />
                                 <div className={styles.mblApp7}>
                                     <h3 className="text-white newservefy font-bold text-center">
                                         Internet of Things
