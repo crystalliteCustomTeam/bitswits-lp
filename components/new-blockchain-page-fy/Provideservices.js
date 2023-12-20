@@ -85,9 +85,14 @@ const Provideservices = (props) => {
               <>
                 {props.title2 ? props.title2 : ""}
                 {props.para2 ? props.para2 : ""}
-                <Slider {...awardslogo} className="pt-4">
+                <Slider {...awardslogo} className="pt-sm-4 pt-2">
                   {props.sec.map((item, index) => (
-                    <div className={styles.blocknew} key={index}>
+                    <div
+                      className={`${styles.blocknew} ${
+                        styles[props.bottomPadding]
+                      }`}
+                      key={index}
+                    >
                       <div>
                         <Image src={item.img1} alt="bitswits" />
                       </div>
@@ -142,8 +147,10 @@ const Provideservices = (props) => {
 
             <Col lg={5}>
               <div
-                className={`${styles.video} ${styles[props.rowclas]} ${styles[props.rowClass]} ${styles[props.particalAfter]}`}
-              > 
+                className={`${styles.video} ${styles[props.rowclas]} ${
+                  styles[props.rowClass]
+                } ${styles[props.particalAfter]}`}
+              >
                 {props.video ? props.video : ""}
               </div>
             </Col>
