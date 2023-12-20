@@ -17,9 +17,9 @@ const Formnewlpnewhome = React.lazy(() => import('@/components/Formnewlpnewhome'
 
 export default function Home() {
 
-    useEffect(() => {
-        const locoScroll = new LocomotiveScroll();
-    }, []);
+    // useEffect(() => {
+    //     const locoScroll = new LocomotiveScroll();
+    // }, []);
 
 
     return (
@@ -32,7 +32,7 @@ export default function Home() {
 
             </Head>
 
-            <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+            {/* <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script> */}
 
             <Appmaking />
             <Homeslider />

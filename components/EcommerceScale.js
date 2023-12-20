@@ -25,7 +25,7 @@ const EcommerceScale = () => {
                             </div>
                         </Col>
 
-                        <Col lg={12}>
+                        <Col lg={12} className='pt-5'>
                             <p className='grdiant font16 font-bold text-center mb-0'>SCHEDULE A FREE CONSULTATION</p>
                             <h2 className='font36 font-bold text-center text-black mb-3 text-white'>Adapt To Constantly Evolving Digital Trends with A Complimentary 30-Minute App Strategy Session.Claim Your Spot Now & Talk to An App Expert!</h2>
 

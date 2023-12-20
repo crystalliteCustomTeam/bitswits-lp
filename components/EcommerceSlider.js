@@ -25,7 +25,7 @@ const EcommerceSlider = () => {
         dots: false,
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 4000,
         pauseOnHover: false,
         cssEase: 'linear',
         slidesToShow: 5,
@@ -49,7 +49,7 @@ const EcommerceSlider = () => {
     return (
         <>
             <section className={styles.slider}>
-                <Row>
+                <Row className='ecommerceslide'>
                     <Col lg={12}>
 
                         <Slider {...Ecommerceslider} className="">

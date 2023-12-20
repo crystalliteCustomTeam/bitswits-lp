@@ -38,7 +38,7 @@ const EcommerceService = () => {
                                 </Link>
                             </div>
                         </Col>
-                        <Col xxl={7} className='gap-y-2 mt-4 mt-lg-0'>
+                        <Col xl={7} className='gap-y-2 mt-4 mt-lg-0'>
                             <Row className={styles.lists}>
                                 <Col sm={6} lg={3}>
                                     <div className={styles.box}>
@@ -105,7 +105,7 @@ const EcommerceService = () => {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col xxl={5}>
+                        <Col xl={5}>
                             <div className={styles.circleBox}>
                                 <h4 className='grdiant font70 font-bold text-center'>
                                     1200+

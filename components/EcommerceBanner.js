@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 //images
-import Logo from 'public/ecommerce/ecommercelogo.svg'
+import logo from '../public/images/icons/footerlogo.png'
 import checkImage from 'public/ecommerce/w-check.svg'
 import Email from 'public/ecommerce/email.svg'
 import Phone from 'public/ecommerce/b-phone.svg'
@@ -60,7 +60,7 @@ const EcommerceBanner = () => {
                 <Row>
                     <Col lg={6} xl={8} className='p-0'>
                         <div className={styles.bannerbg}>
-                            <Image src={Logo} alt='Logo' className={styles.logo} />
+                            <Image src={logo} alt='Logo' className={`${styles.logo} img-fluid w-25`} />
 
                             <div className={styles.content}>
                                 <h1 className='font-50 text-white font-bold uppercase anton'>Top Ecommerce App <br />
