@@ -1,3 +1,7 @@
+.toge {
+  margin-top: -100px;
+}
+
 .newHomeBg {
   padding-top: 100px;
   background-color: black;
@@ -9,7 +13,7 @@
   left: 0;
   right: 0;
   margin: 0 auto;
-  top: -60px;
+  top: -80px;
 
 }
 
@@ -17,28 +21,30 @@
   position: relative;
 }
 
-.posting{
+.posting {
   position: relative;
   top: -120px;
 }
 
-.btncall{
+.btncall {
   text-align: center;
   position: absolute;
-  bottom: -323px;
+  bottom: unset;
   display: flex;
   flex-direction: column;
+  left: 0;
   gap: 11px;
+  margin-top: 105px;
 }
 
-.btncall h4{
+.btncall h4 {
   font-size: 30px;
   font-weight: bold;
   color: #F32F53;
 
 }
 
-.call{
+.call {
   width: 245px;
   display: flex;
   margin: 0 auto;
@@ -51,7 +57,7 @@
   font-weight: 700;
 }
 
-.chat{
+.chat {
   width: 145px;
   display: flex;
   margin: 0 auto;
@@ -66,22 +72,52 @@
 }
 
 
-@media screen and (min-width: 1400px) { 
+@media screen and (min-width: 1400px) {
 
   .newHomeBg {
     padding-top: 150px;
     background-color: black;
-}
+  }
 
 
 }
 
-@media screen and (min-width: 1900px) { 
+@media screen and (min-width: 1900px) {
 
   .newHomeBg {
     padding-top: 230px;
     background-color: black;
+  }
+
+
 }
 
+@media screen and (max-width: 991px) {
+  .btncall h4 {
+    font-size: 21px;
+  }
 
+
+}
+
+@media screen and (max-width: 767px) {
+  .btncall {
+    gap: 0px;
+  }
+
+
+}
+
+@media screen and (max-width: 480px) {
+  .flip img {
+    position: unset;
+    display: none
+  }
+  .call {
+    color: #ffffff;
+}
+.btncall {
+
+  margin-top: unset;
+}
 }

@@ -93,3 +93,11 @@
 
 
 }
+
+@media screen and (max-width: 1200px) {
+  .nomad::after {
+    display: none;
+  }
+
+
+}

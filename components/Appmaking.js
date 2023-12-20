@@ -25,7 +25,7 @@ const Appmaking = () => {
         <>
             <section className={styles.appmaking} id='technofair'>
                 <Container>
-                    <Row className={`${styles.platform} gx-5`}>
+                    <Row className={`${styles.platform} gx-5 gy-3`}>
                         <Col xl={10}>
                             <h2 class="white f-20 f-700 center">TECHNOLOGIES</h2>
                             <h3 class="white f-40 f-700 center">Best App Making Technologies</h3>

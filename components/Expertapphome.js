@@ -22,7 +22,7 @@ export default function Expertapphome(props) {
         {/* <Htmlfile /> */}
             <section className={styles[props.expertapp]}>
                 <Container>
-                    <Row className='align-items-center g-2'>
+                    <Row className='align-items-center g-2 pt-5'>
 
                         <Col lg={12} >
                             <h3 className='white f-20 f-700 center' data-scroll data-scroll-speed="0.2">SERVICES</h3>

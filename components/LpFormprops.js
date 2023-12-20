@@ -63,10 +63,7 @@ const LpFormprops = (props) => {
                                             <h4 className="fontgilroybold white font_15">{item.title}</h4>
                                             <p className="font_13 white fontsfregular linehight_2 mb-0">{item.text}</p>
                                         </div>
-
                                     </div>
-
-
                                 </Col>
                             ))}
                         </Row>

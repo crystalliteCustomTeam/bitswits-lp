@@ -44,7 +44,7 @@
   margin-bottom: 2%;
   color: #fff;
   padding: 20px;
-  border: 1px solid #707070;
+  border: 1px solid #f32f53;
 }
 
 .bannerContact textarea {
@@ -57,7 +57,7 @@
   margin-bottom: 2%;
   color: #fff;
   padding: 20px;
-  border: 1px solid #707070;
+  border: 1px solid #f32f53;
   resize: none;
 }
 
@@ -68,7 +68,8 @@
 }
 
 .bannerContact ::placeholder {
-  color: #707070;
+  color: #ababab;
+  letter-spacing: 1px;
 }
 
 .socialicons {
@@ -90,7 +91,7 @@
 }
 
 .bttns1 {
-  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  background-color: #f32f53;
   width: 250px;
   height: 45px;
   display: flex;
@@ -104,7 +105,7 @@
   font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  border: 2px solid #fff;
+  border: 0;
 }
 
 .line1,
@@ -127,7 +128,7 @@
 .line2::before {
   content: "Middle East";
   position: absolute;
-  left: 45%;
+  left: 46%;
   top: -78px;
   color: #fff;
   font-size: 15px;
@@ -170,15 +171,15 @@
 
 @media screen and (max-width: 1799px) {
   .line1::before {
-    left: 18.5%;
+    left: 20.5%;
   }
 
   .line2::before {
-    left: 44%;
+    left: 45%;
   }
 
   .line3::before {
-    left: 77%;
+    left: 75%;
   }
 }
 
@@ -188,11 +189,11 @@
   }
 
   .line2::before {
-    left: 43.6%;
+    left: 44.5%;
   }
 
   .line3::before {
-    left: 78%;
+    left: 78.5%;
   }
 }
 
@@ -216,21 +217,21 @@
   }
 
   .line2::before {
-    left: 43%;
+    left: 44%;
   }
 
   .line3::before {
-    left: 82%;
+    left: 81%;
   }
 }
 
 @media screen and (max-width: 1299px) {
   .line1::before {
-    left: 10%;
+    left: 9.5%;
   }
 
   .line2::before {
-    left: 42%;
+    left: 43%;
   }
 
   .line3::before {

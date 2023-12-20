@@ -45,3 +45,13 @@
   background-color: #F32F53;
   transition: all 1s ease-out;
 }
+
+@media screen and (max-width: 480px) { 
+
+  .expertapp {
+    background-color: black;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+}

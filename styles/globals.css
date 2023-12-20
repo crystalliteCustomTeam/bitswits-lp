@@ -3,9 +3,11 @@
   --white: #fff;
   --primary: #f32f53;
   --mry: #f32f53;
-  --gradient: linear-gradient(90deg,
-      rgba(116, 25, 227, 0.5) 0%,
-      rgba(243, 47, 92, 0.5) 100%);
+  --gradient: linear-gradient(
+    90deg,
+    rgba(116, 25, 227, 0.5) 0%,
+    rgba(243, 47, 92, 0.5) 100%
+  );
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
@@ -166,16 +168,13 @@ div {
   font-family: "Gilroy-SemiBold", sans-serif;
 }
 
-
 .fontsfheavy {
-  font-family: 'SF-Pro-Display-Heavy', sans-serif;
+  font-family: "SF-Pro-Display-Heavy", sans-serif;
 }
 
 .fontsfregular {
-  font-family: 'SF-Pro-Display-Regular', sans-serif;
+  font-family: "SF-Pro-Display-Regular", sans-serif;
 }
-
-
 
 /* fontweight */
 
@@ -501,7 +500,7 @@ div {
 }
 
 .font_55 {
-  font-size: 52px
+  font-size: 52px;
 }
 
 .font_17 {
@@ -714,7 +713,7 @@ a {
 
 .bgtext::before {
   position: absolute;
-  content: '';
+  content: "";
   background-image: url(../public/newiconimg/bg-image.png);
   background-position: center 450px;
   background-size: 100%;
@@ -785,6 +784,13 @@ a {
   background-color: #000;
 }
 
+
+.ecommerceslide .slick-slide img {
+  display: block;
+  width: 95%;
+  border: 2px solid #ed017b;
+  border-radius: 25px;
+}
 /* ======Btns====== */
 
 .bttns1 {
@@ -1329,13 +1335,18 @@ a {
 .contactSlider .slick-dots li {
   width: 140px;
   height: 35px;
-  border: 2px solid #707070;
+  border: 0;
   border-radius: 5px;
 }
 
 .contactSlider .slick-dots li button {
   width: 100%;
   height: 100%;
+  padding: 2px;
+  background: #f32f53;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
 }
 
 .usapost .slick-dots {
@@ -1614,7 +1625,6 @@ input::-webkit-inner-spin-button {
 .maxwidthweb {
   max-width: 820px;
 }
-
 
 .industxt .accordion-item {
   margin: 10px 0;
@@ -1999,7 +2009,6 @@ input::-webkit-inner-spin-button {
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 1700px) {
-  
   .providecustomweb::before {
     background-position: center 11%;
     background-size: 55%;
@@ -2009,7 +2018,6 @@ input::-webkit-inner-spin-button {
     top: 0;
     background-repeat: no-repeat;
   }
-
 }
 
 @media screen and (max-width: 1920px) {
@@ -2138,7 +2146,6 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 1399px) {
-
   .maxwidthweb {
     max-width: 715px;
   }
@@ -2234,14 +2241,13 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 991px) {
-
   .bgtext {
     position: unset;
   }
 
   .bgtext::before {
     position: unset;
-    content: '';
+    content: "";
     background-image: none;
     background-position: center 450px;
     background-size: 100%;
@@ -2252,7 +2258,6 @@ input::-webkit-inner-spin-button {
     margin: 0 auto;
     background-repeat: no-repeat;
   }
-
 
   .thanksgiving .modal-content {
     height: 100%;

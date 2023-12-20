@@ -27,6 +27,7 @@ import styleThree from "@/styles/Globallp.module.css";
 import Partnerships from "@/components/Partnerships";
 import Formnewlp from "@/components/Formnewlp";
 
+
 //images
 const BannerImage = await import(
   "@/public/bussinessintelligence/bussiness-intelligence.png"
@@ -170,6 +171,7 @@ import js9 from "public/bussinessintelligence/custom9.png";
 import { useState } from "react";
 import { useEffect } from "react";
 import Image from "next/image";
+import BICards from "@/components/BICards";
 
 const ServicesMaintainmobile = React.lazy(() =>
   import("@/components/ServicesMaintainmobile")
@@ -325,6 +327,10 @@ export default function mobileApplication() {
 
       <HomeBannerSlider />
 
+      <LpForm addresClass="iosclass"
+        heading={`As Business Intelligence (BI) developers push the boundaries of technology to automate crucial business decisions, enterprises neglecting investment risk falling behind their more modern competitors. We specialize in proficiently programming and implementing BI solutions for market forecasting, trend analysis, and operations optimization. `}
+      />
+
       <Nothing Nothing="nothingLp6" />
 
       <Provideservices
@@ -381,7 +387,7 @@ export default function mobileApplication() {
         }
       />
 
-      <CustomCards
+      <BICards
         flexRow="displayFlex"
         data={[
           {
@@ -465,6 +471,7 @@ export default function mobileApplication() {
       />
 
       <CustomCards
+        assignClass='notSame'
         flexRow="displayFlex"
         subtitle="Blockchain Development Services"
         title={
@@ -577,7 +584,7 @@ export default function mobileApplication() {
         video={<Image src={customWeb} className="img-fluid" alt="bitswits" />}
       />
 
-      <CustomCards
+      <BICards
         flexRow="displayFlex"
         data={[
           {

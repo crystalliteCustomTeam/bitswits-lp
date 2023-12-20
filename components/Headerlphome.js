@@ -42,6 +42,12 @@ const Headerlphome = () => {
                 <section>
                     <div class="container">
                         <div class={styles.positionrelative}>
+                           
+                            <div class="toasNotificationGoogle" data-scroll data-scroll-speed="0.1">
+                                <div class="innerborder">
+                                <Image src={logo22} alt='BitsWits' className='img-fluid mt-2' />
+                                </div>
+                            </div>
                             <div class={styles.toasNotification} data-scroll data-scroll-speed="0.1">
                                 <div class={styles.innerborder} >
                                     <div class="text-uppercase font-12 me-3" id="toasNotification1">
@@ -55,18 +61,8 @@ const Headerlphome = () => {
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="toasNotificationGoogle" data-scroll data-scroll-speed="0.1">
-                                <div class="innerborder">
-                                    <div class="text-uppercase font-12 me-3">
-                                        <Link href="javascript:;" class="text-white font-18" data-bs-toggle="modal" data-bs-target="#ourWebModal">
-                                            <Image src={pipe} width="300px" alt="BitsWits" />
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
-                        <Image src={logo22} alt='BitsWits' className='img-fluid mt-2' />
+                        
 
                         <ul className={styles.newpond}>
                            <a href='#home' > <li className={show == 'tab1' ? styles.new : ''} onClick={() => fun1('tab1')}><Image alt='BitsWits' src={new1} /></li> </a>
