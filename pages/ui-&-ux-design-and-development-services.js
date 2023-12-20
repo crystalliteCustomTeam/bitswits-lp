@@ -1,19 +1,13 @@
 import Head from "next/head";
 import React from "react";
 import { useState, useEffect } from "react";
+import Image from "next/image";
+
 //components
 const ServicesBanner = React.lazy(() =>
-  import("@/components/new-blockchain-page-fy/BlockchainBanner")
-);
-const ServicesMaintain = React.lazy(() =>
-  import("@/components/ServicesMaintain")
+  import("@/components/uiuxdesigndevelopment/UIUXBanner")
 );
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
-const ServicesPortfolio = React.lazy(() =>
-  import("@/components/ServicesPortfolio")
-);
-const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
-const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
@@ -21,53 +15,25 @@ const HomeBannerSliderlp = React.lazy(() =>
   import("@/components/HomeBannerSliderlp")
 );
 const Smarteruiux = React.lazy(() =>
-  import("@/components/new-blockchain-page-fy/Smarteruiux")
+  import("@/components/uiuxdesigndevelopment/Smarteruiux")
 );
 const Provideuiux = React.lazy(() =>
-  import("@/components/new-blockchain-page-fy/Provideuiux")
+  import("@/components/uiuxdesigndevelopment/Provideuiux")
 );
-const WeworkLp = React.lazy(() =>
-  import("@/components/new-home-page-fy/WeworkLphome")
-);
-const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
 const ProjectProcess = React.lazy(() =>
   import("@/components/ProjectProcessLp6")
 );
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
-const LpChoose = React.lazy(() => import("@/components/LpChoose"));
 const LpForm = React.lazy(() => import("@/components/LpForm6"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const People = React.lazy(() => import("@/components/People"));
-const ServicesMaintainmobile = React.lazy(() =>
-  import("@/components/ServicesMaintainmobile")
-);
-//images
-const BannerImage = await import("@/public/ui-ux-page/banner-img.png");
-// css //
-import styles from "@/styles/LpChoose.module.css";
-import Image from "next/image";
-import UIUXTechnology from "@/components/new-blockchain-page-fy/UIUXTechnologies";
-//
-const customios = await import(
-  "../public/images/iosappdevelopment/customios.png"
-);
-const iphoneapp = await import(
-  "../public/images/iosappdevelopment/iphoneapp.png"
-);
-const applewatch = await import(
-  "../public/images/iosappdevelopment/applewatch.png"
-);
-const appletvappdevelopment = await import(
-  "../public/images/iosappdevelopment/appletvappdevelopment.png"
-);
-const iphoneappdesigning = await import(
-  "../public/images/iosappdevelopment/iphoneappdesigning.png"
-);
-const hybridiphone = await import(
-  "../public/images/iosappdevelopment/hybridiphone.png"
+const UIUXTechnology = React.lazy(() =>
+  import("@/components/uiuxdesigndevelopment/UIUXTechnologies")
 );
 
+//images
+const BannerImage = await import("@/public/ui-ux-page/banner-img.png");
 const banImg1 = await import("../public/servnew/customweb/imgfold.png");
 const bestgloba11 = await import("../public/ui-ux-page/icon1.png");
 const bestgloba12 = await import("../public/ui-ux-page/icon2.png");
@@ -78,89 +44,7 @@ const bestgloba16 = await import("../public/ui-ux-page/icon6.png");
 const poe = await import("../public/ui-ux-page/work1.png");
 const poe2 = await import("../public/ui-ux-page/work2.png");
 
-
 export default function UiUxDesign() {
-
-  const [isSliderActive, setIsSliderActive] = useState(true);
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 1201) {
-        setIsSliderActive(false);
-      } else {
-        setIsSliderActive(true);
-      }
-    };
-
-    handleResize();
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
-  const severcedata = [
-    {
-      classlayout: {
-        newclass: "iosclass",
-      },
-      heading: {
-        subtitle: "iOS App Development Services",
-        title1: "Craft Incredible Apps",
-        title2: "Hire an iOS App Developer",
-        text: `As a premier iOS app development company, our iOS developers create
-            eye-catching and user-friendly iPhone and iPad apps that capture
-            attention immediately. To develop customized applications that are
-            appropriate for Apple devices, our professional iOS developers and
-            designers make use of the newest iOS capabilities.`,
-      },
-      serdata: [
-        {
-          title: "Custom iOS App Development",
-          text: "Our custom iOS app development solutions got you covered when it comes to developing your iOS app. From the initial idea to the final design and development stages, we provide customized iOS app solutions tailored to your needs.",
-          appclass: "app",
-          imgservice: customios,
-        },
-        {
-          title: (
-            <>
-              {" "}
-              iPhone App <br /> Development{" "}
-            </>
-          ),
-          text: "We turn app ideas into reality with fast and efficient iPhone app development services. No idea is too complex or ambitious for us. We help you take your idea from concept to launch in no time.",
-          appclass: "app1",
-          imgservice: iphoneapp,
-        },
-        {
-          title: "Apple Watch Development",
-          text: "Our team of expert iOS developers create exceptional Apple Watch apps that flawlessly blend with advanced technology and coding standards. We prioritize maximizing battery efficiency and exceeding user expectations with superb performance.",
-          appclass: "app2",
-          imgservice: applewatch,
-        },
-        {
-          title: "Apple TV App Development",
-          text: "Our team specializes in developing custom apps for Apple TV with impeccable design and performance. We also offer iPhone compatibility consultations. Let's turn your app ideas into reality!",
-          appclass: "app3",
-          imgservice: appletvappdevelopment,
-        },
-        {
-          title: "iPhone App Designing",
-          text: "Our team creates custom iPhone apps to streamline workflow processes, improve customer engagement, and enhance their experience with innovative and intuitive designs.",
-          appclass: "app4",
-          imgservice: iphoneappdesigning,
-        },
-        {
-          title: "Hybrid iPhone App Development",
-          text: "Boost your business with our hybrid iPhone app development services. Run your applications seamlessly across platforms to increase productivity and efficiency. Contact us now to learn more.",
-          appclass: "app5",
-          imgservice: hybridiphone,
-        },
-      ],
-    },
-  ];
-
   return (
     <>
       <Head>
@@ -288,9 +172,9 @@ export default function UiUxDesign() {
         }
       />
 
-      <UIUXTechnology addresClass="tech" />
-
       <Justbuildit assignClass="justforpop" />
+
+      <UIUXTechnology addresClass="tech" />
 
       <Globallplp6 bannerClass="newclassglobe" />
 
