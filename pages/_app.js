@@ -79,7 +79,6 @@ export default function App({ Component, pageProps }) {
     router.pathname == "/hybrid-developer" ||
     router.pathname == "/native-developer" ||
     router.pathname == "/mobile-developer" ||
-    router.pathname == "/supersale" ||
     router.pathname == "/top-ecommerce-app-development-company" ||
     router.pathname == "/mobile-app-development-company-lp" ||
     router.pathname == "/mobile-app-development-services-landing-page-final" ||

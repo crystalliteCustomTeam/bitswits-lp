@@ -34,6 +34,7 @@ export default function Everyone() {
                         </Col>
                     </Row>
 
+
                     <Row className={styles.point}>
                         <Col xl={6}>
 
