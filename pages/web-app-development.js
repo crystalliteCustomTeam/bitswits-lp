@@ -127,7 +127,8 @@ export default function gamedevelopmentcompany() {
             no time.{" "}
           </>
         }
-        BannerImage={BannerImage}
+        // BannerImage={BannerImage}
+        video = {<video autoPlay muted src='../../bannerVideos/webapp.mp4' className="w-75" ></video>}
         assignClass="web"
       />
 

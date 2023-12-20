@@ -14,7 +14,8 @@
   background-position: 45% 12%;
   background-repeat: no-repeat;
   background-size: inherit;
-
+  position: relative;
+  z-index: 10;
 }
 
 .gameBlckChain {

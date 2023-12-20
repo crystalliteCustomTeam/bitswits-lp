@@ -245,7 +245,8 @@ export default function gamedevelopmentcompany() {
             can develop and deploy one single app for both Android and iOS!{" "}
           </>
         }
-        BannerImage={BannerImage}
+        // BannerImage={BannerImage}
+        video = {<video autoPlay muted src='../../bannerVideos/cross.mp4' className="w-75" ></video>}
       />
 
       <People People="people" />

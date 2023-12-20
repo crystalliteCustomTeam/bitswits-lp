@@ -42,9 +42,9 @@ const Justbuildit = () => {
     return (
         <>
 
-            <section className={ router.pathname == '/mobile-application-duplicate' ? styles.slide1 : styles.slide }>
+            <section className={router.pathname == '/mobile-application-duplicate' ? styles.slide1 : styles.slide}>
 
-                
+
 
 
 

@@ -225,7 +225,8 @@ export default function HybridMobile() {
             expertise and technology to turn your ideas into amazing apps.{" "}
           </>
         }
-        BannerImage={BannerImage}
+        // BannerImage={BannerImage}
+        video = {<video autoPlay muted src='../../bannerVideos/flutter.mp4' className="w-75" ></video>}
         assignClass="flutter"
       />
 
