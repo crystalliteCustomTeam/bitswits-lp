@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
@@ -25,6 +25,11 @@ const ContactBox = () => {
         slidesToScroll: 1,
     };
 
+    const [activeTab, setActiveTab] = useState("tab1");
+    function loc(tabs1) {
+        setActiveTab(tabs1);
+    }
+
     return (
         <>
             <section className={styles.bannerContact}>
@@ -33,6 +38,94 @@ const ContactBox = () => {
                         <Row className='align-items-center cntctRow'>
                             <Col lg={6}>
                                 <div className={styles.locSlider}>
+
+                                    <div className={styles.tabsBtns}>
+                                        <div className={`${styles.tabsBtn} ${activeTab == "tab1" ? styles.active : ""}`}
+                                            onClick={() => loc("tab1")}
+                                            href="#">
+                                            USA
+                                        </div>
+                                        <div className={`${styles.tabsBtn} ${activeTab == "tab2" ? styles.active : ""}`}
+                                            onClick={() => loc("tab2")}
+                                            href="#">
+                                            Middle East
+                                        </div>
+                                        <div className={`${styles.tabsBtn} ${activeTab == "tab3" ? styles.active : ""}`}
+                                            onClick={() => loc("tab3")}
+                                            href="#">
+                                            ASIA
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        {activeTab == "tab1" && (
+                                            <div className="locBox">
+                                                <div className={styles.locTxt}>
+                                                    <h2 className="font30 font-bold white mb-3 text-center">United States</h2>
+                                                    <h3 className="font16 font-bold newfycolr mb-0 text-center">DELAWARE</h3>
+                                                    <p className="font13 font-medium white mb-1 text-center">
+                                                        8 The Green STE 300, Dover DE 19901.
+                                                    </p>
+                                                    <Link className='font14 white text-center mb-3' href='tel:+18335006007'>+1 833 500 6007</Link>
+                                                    <div className={`${styles.locImg} ${styles.asiaImg}`}>
+                                                        <Image src={delaware} alt='Location' className='img-fluid mb-4' />
+                                                    </div>
+
+                                                    <h3 className="font16 font-bold newfycolr mb-0 text-center">HOUSTON</h3>
+                                                    <p className="font13 font-medium white mb-1 text-center">
+                                                        Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100 Houston, TX 77056
+                                                    </p>
+                                                    <Link className='font14 white text-center mb-3' href='tel:+17135657656'>+1 713 565 7656</Link>
+                                                    <div className={`${styles.locImg} ${styles.asiaImg}`}>
+                                                        <Image src={houston} alt='Location' className='img-fluid' />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        )}
+                                        {activeTab == "tab2" && (
+                                            <div className="locBox">
+                                                <div className={styles.locTxt}>
+                                                    <h2 className="font30 font-bold white mb-3 text-center">Middle East</h2>
+                                                    <h3 className="font16 font-bold newfycolr mb-0 text-center">SHARJAH</h3>
+                                                    <p className="font15 font-medium white mb-1 text-center">
+                                                        Office #101, 32 Street, Al Mujarrah, Sharjah
+                                                    </p>
+                                                    <Link className='font14 white text-center' href='tel:+971555031266'>+971 555 031266</Link>
+                                                </div>
+                                                <div className={styles.locImg}>
+                                                    <Image src={Sharjah} alt='Location' className='img-fluid mt-4' />
+                                                </div>
+                                            </div>
+                                        )} 
+                                        {activeTab == "tab3" && (
+                                            <div className="locBox">
+                                                <div className={styles.locTxt}>
+                                                    <h2 className="font30 font-bold white mb-3 text-center">Asia</h2>
+                                                    <h3 className="font16 font-bold newfycolr mb-0 text-center">MALAYSIA</h3>
+                                                    <p className="font13 font-medium white text-center">
+                                                        Office 13 A - Main Office Tower - Financial Park , Labuan , Malaysia
+                                                    </p>
+
+                                                    <div className={`${styles.locImg} ${styles.asiaImg}`}>
+                                                        <Image src={malaysia} alt='Location' className='img-fluid mb-4' />
+                                                    </div>
+
+                                                    <h3 className="font16 font-bold newfycolr mb-0 text-center">PAKISTAN</h3>
+                                                    <p className="font13 font-medium white text-center mb-1">
+                                                        12th Floor Caesar's Tower, Karachi, Pakistan
+                                                    </p>
+                                                    <Link className='font14 white text-center' href='tel:+923468280101'>+92 346 828 0101</Link>
+                                                    <div className={`${styles.locImg} ${styles.asiaImg}`}>
+                                                        <Image src={pakistan} alt='Location' className='img-fluid' />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        )}
+                                    </div>
+                                </div>
+
+
+                                {/* <div className={styles.locSlider}>
                                     <div className={styles.line1}></div>
                                     <div className={styles.line2}></div>
                                     <div className={styles.line3}></div>
@@ -95,7 +188,7 @@ const ContactBox = () => {
                                             </div>
                                         </div>
                                     </Slider>
-                                </div>
+                                </div> */}
                             </Col>
                             <Col lg={6}>
                                 <h2 className="font40 font-bold newfycolr">Say Hello!</h2>

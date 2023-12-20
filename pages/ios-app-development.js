@@ -166,7 +166,7 @@ export default function gamedevelopmentcompany() {
           </>
         }
         // BannerImage={BannerImage}
-        video = {<video autoPlay loop muted src='../../bannerVideos/ios.mp4' className="w-50" ></video>}
+        video = {<video autoPlay muted src='../../bannerVideos/ios.mp4' className="w-50" ></video>}
       />
 
       <People People="people" />

@@ -13,7 +13,7 @@
   background-color: #000;
   opacity: 0.9;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  padding: 120px 30px 30px;
+  padding: 50px 30px;
 }
 
 .locTxt {
@@ -163,8 +163,42 @@
   margin-top: 12px;
 }
 
+.locImg{
+  text-align: center;
+}
+
 .asiaImg img {
-  width: 400px !important;
+  width: 60%;
+}
+
+/* ============================= */
+
+.tabsBtns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.tabsBtn {
+  height: 45px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid #f32f53;
+  cursor: pointer;
+}
+
+.tabsBtn:hover,
+.active {
+  background-color: #f32f53;
 }
 
 /* ============================= */
