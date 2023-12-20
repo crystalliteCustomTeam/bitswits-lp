@@ -164,7 +164,9 @@ export default function blockchaindevelopmentservices() {
         />
       </div>
 
-      <Justbuildit />
+      <Justbuildit
+      assignClass="justforpop"
+      />
 
       <Globallplp6
         bannerClass='newclassglobe'

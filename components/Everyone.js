@@ -34,7 +34,8 @@ export default function Everyone() {
                         </Col>
                     </Row>
 
-                    <Row className={styles.point}>
+
+                    {/* <Row className={styles.point}>
                         <Col xl={6}>
 
                             <div>
@@ -54,7 +55,7 @@ export default function Everyone() {
                             <h4> Márcio Cyrillo, Executive Director at CI&T</h4>
                         </Col>
 
-                    </Row>
+                    </Row> */}
 
                 </Container>
 

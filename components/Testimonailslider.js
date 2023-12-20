@@ -35,8 +35,8 @@ export default function Testimonailslider() {
                 <Container>
                     <Row class={styles.posting}>
                         <Col xl={12}>
-                            <h3>Testimonials</h3>
-                            <p>Rave Reviews from Our  Valued Clients </p>
+                            <h3 className='f-50 f-700 black center'>Testimonials</h3>
+                            <p className='black font16 f-500 center'>Rave Reviews from Our  Valued Clients </p>
                         </Col>
                     </Row>
                     <Slider {...clientsthink} className={`${styles.clintSlider} clintSlider1`}>

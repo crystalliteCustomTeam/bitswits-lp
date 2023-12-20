@@ -784,6 +784,13 @@ a {
   background-color: #000;
 }
 
+
+.ecommerceslide .slick-slide img {
+  display: block;
+  width: 95%;
+  border: 2px solid #ed017b;
+  border-radius: 25px;
+}
 /* ======Btns====== */
 
 .bttns1 {

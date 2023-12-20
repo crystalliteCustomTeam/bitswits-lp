@@ -201,6 +201,10 @@
     padding-bottom: 0;
   }
 
+  .newrowbussiness {
+    margin-top: 0px;
+  }
+
   .blocknew {
     display: flex;
     gap: 25px;

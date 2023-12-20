@@ -104,7 +104,7 @@ const Intelligence = (props) => {
 
                                 <Slider {...awardslogo} className="pt-4">
                                     <div className={styles.blocknew}>
-                                        <div>
+                                        <div className="mb-4">
                                             <Image src={bestgloba11} alt="bitswits" />
                                         </div>
                                         <div>
@@ -113,7 +113,7 @@ const Intelligence = (props) => {
                                         </div>
                                     </div>
                                     <div className={styles.blocknew}>
-                                        <div>
+                                    <div className="mb-4">
                                             <Image src={bestgloba12} alt="bitswits" />
                                         </div>
                                         <div>
@@ -122,7 +122,7 @@ const Intelligence = (props) => {
                                         </div>
                                     </div>
                                     <div className={styles.blocknew}>
-                                        <div>
+                                    <div className="mb-4">
                                             <Image src={bestgloba13} alt="bitswits" />
                                         </div>
                                         <div>
