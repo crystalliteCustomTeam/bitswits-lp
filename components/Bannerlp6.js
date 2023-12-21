@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from "@/styles/bannerlp6.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from "@/styles/bannerlp6.module.css";
 //
 import LpCarousel from '@/components/LpCarousel';
 

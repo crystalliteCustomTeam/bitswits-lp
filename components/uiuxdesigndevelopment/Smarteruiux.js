@@ -1,15 +1,15 @@
-import React from "react";
-import Link from "next/link";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./SmartUIUX.module.css";
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { useState } from "react";
-import { useEffect } from "react";
+
 
 const Provideservices = (props) => {
+
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -108,18 +108,16 @@ const Provideservices = (props) => {
             ) : (
               <Col
                 lg={6}
-                className={`${styles[props.rowclas]} ${
-                  styles[props.newrowbussiness]
-                }`}
+                className={`${styles[props.rowclas]} ${styles[props.newrowbussiness]
+                  }`}
               >
                 {props.title2 ? props.title2 : ""}
                 {props.para2 ? props.para2 : ""}
 
                 {props.sec.map((item, index) => (
                   <div
-                    className={`${styles.blocknew} ${
-                      styles[props.bottomPadding]
-                    }`}
+                    className={`${styles.blocknew} ${styles[props.bottomPadding]
+                      }`}
                     key={index}
                   >
                     <div>
@@ -142,9 +140,8 @@ const Provideservices = (props) => {
 
             <Col lg={6}>
               <div
-                className={`${styles.video} ${styles[props.rowclas]} ${
-                  styles[props.rowClass]
-                } ${styles[props.particalAfter]}`}
+                className={`${styles.video} ${styles[props.rowclas]} ${styles[props.rowClass]
+                  } ${styles[props.particalAfter]}`}
               >
                 {props.video ? props.video : ""}
               </div>

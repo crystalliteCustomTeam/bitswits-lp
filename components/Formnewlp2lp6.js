@@ -1,15 +1,9 @@
 import React from 'react'
-import styles from "@/styles/Formnewlp2lp6.module.css";
-import Link from 'next/link'
-import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
-import bestglobal1 from '../public/images/bestglobal/1.png'
+import styles from "@/styles/Formnewlp2lp6.module.css";
 
 
 const Formnewlp2lp6 = () => {
-
-
-
 
     return (
         <>

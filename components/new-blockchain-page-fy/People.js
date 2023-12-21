@@ -2,8 +2,6 @@ import React from 'react'
 import styles from './People.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Image from 'next/image'
-import Link from 'next/link'
-
 //images
 import banImg1 from '/public/images/people/people.png'
 import star from '/public/images/people/star.png'
@@ -12,10 +10,6 @@ import star2 from '/public/images/people/2.png'
 
 
 const People = (props) => {
-
-
-
-
 
     return (
         <>
@@ -48,11 +42,6 @@ const People = (props) => {
                     </div>
                 </Container>
             </section>
-
-
-
-
-
         </>
     )
 }

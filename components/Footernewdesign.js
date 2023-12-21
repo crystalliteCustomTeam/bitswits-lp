@@ -11,9 +11,8 @@ import icon5 from '../public/images/footerimage/5.png'
 import mail from '../public/images/footerimage/email.png'
 import call from '../public/images/footerimage/call.png'
 
+
 const Footernewdesign = () => {
-
-
 
   return (
     <>
@@ -99,7 +98,7 @@ const Footernewdesign = () => {
                   <h3 class="text-white font-bold font-22">Useful Links</h3>
                 </div>
                 <ul>
-                <li><Link href="javascript:;">Contact Us</Link></li>
+                  <li><Link href="javascript:;">Contact Us</Link></li>
                   <li><Link href="javascript:;">About Us</Link></li>
                   <li><Link href="javascript:;">Works</Link></li>
                   <li><Link href="javascript:;">Testimonials</Link></li>
@@ -107,13 +106,13 @@ const Footernewdesign = () => {
                   <li><Link href="javascript:;">Terms & Conditions</Link></li>
 
                 </ul>
-               
+
               </div>
               <div class="col-xl-2 col-lg-2">
                 <div class={` ${styles.foottitle} mb-3 pb-3 `}>
                   <h3 class="text-white font-bold font-22">Contact</h3>
                 </div>
-               <p class={styles.more}>To learn more about our service offerings and industry expertise or to have a Consulting professional contact you directly, please fill out the form below or submit an email & contact number.</p>
+                <p class={styles.more}>To learn more about our service offerings and industry expertise or to have a Consulting professional contact you directly, please fill out the form below or submit an email & contact number.</p>
                 <ul class="contacts my-links">
                   <li class="mb-1 color-s">
                     <Link href="mailto:info@BitsWits.co">
@@ -183,7 +182,7 @@ const Footernewdesign = () => {
                 <div class={styles.termsMain}>
                   <ul class={styles.termsCondition}>
                     <li><Link href="https://BitsWits.co/terms-and-conditions/" class="text-white font-bold">Terms of Use . </Link></li>
-                  
+
                     <li><Link href="https://BitsWits.co/privacy-policy/" class="text-white font-bold"> Privacy
                       Policy</Link></li>
                   </ul>

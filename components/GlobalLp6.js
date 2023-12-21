@@ -7,16 +7,15 @@ import bestglobal1 from "../public/images/bestglobal/1.png";
 import bestglobal2 from "../public/images/bestglobal/2.png";
 import bestglobal3 from "../public/images/bestglobal/3.png";
 import bestgloba4 from "../public/images/bestglobal/4.png";
-
 import bestglobal5 from "../public/images/bestglobal/5.png";
 import bestglobal6 from "../public/images/bestglobal/6.png";
 import bestglobal7 from "../public/images/bestglobal/7.png";
 import bestgloba8 from "../public/images/bestglobal/8.png";
-
 import bestglobal9 from "../public/images/bestglobal/9.png";
 import bestglobal10 from "../public/images/bestglobal/10.png";
 import bestglobal11 from "../public/images/bestglobal/11.png";
 import bestgloba12 from "../public/images/bestglobal/12.png";
+
 
 const Globallp6 = (props) => {
   return (

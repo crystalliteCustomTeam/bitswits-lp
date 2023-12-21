@@ -132,7 +132,7 @@ const Footerlp = () => {
                   </Col>
                   <Col md={6}>
                     <ul className='p-0'>
-                    <li><Link href="/hybrid-mobile-apps-development">Hybrid Mobile Apps Development</Link></li>
+                      <li><Link href="/hybrid-mobile-apps-development">Hybrid Mobile Apps Development</Link></li>
                       <li><Link href="/cross-platform-app-development">Cross Platform App Development</Link></li>
                       <li><Link href="/web-app-development">Web App Development</Link></li>
                       <li><Link href="/augmented-reality-apps-development-company">Augmented Reality Apps Development</Link></li>

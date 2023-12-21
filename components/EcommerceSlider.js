@@ -1,22 +1,16 @@
-
+import React, { useEffect, useRef } from 'react';
 import { Col, Row } from 'react-bootstrap';
-import Image from 'next/image';
 import styles from "@/styles/EcommerceSlider.module.css";
+//
 import SwiperCore, { Navigation, Autoplay } from 'swiper/core';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
-import React, { useEffect, useRef } from 'react';
 // Import images
-
-
 SwiperCore.use([Navigation, Autoplay]);
 
+
 const EcommerceSlider = () => {
-
-
-
-
 
     const slides = [
         { img1fold: '../../ecommerce/1.webp' },
@@ -26,17 +20,15 @@ const EcommerceSlider = () => {
         { img1fold: '../../ecommerce/5.webp' },
         { img1fold: '../../ecommerce/6.webp' },
         { img1fold: '../../ecommerce/7.webp' },
-    
+
         { img1fold: '../../ecommerce/2.webp' },
         { img1fold: '../../ecommerce/3.webp' },
         { img1fold: '../../ecommerce/4.webp' },
         { img1fold: '../../ecommerce/5.webp' },
         { img1fold: '../../ecommerce/6.webp' },
         { img1fold: '../../ecommerce/7.webp' },
-
     ];
 
- 
 
     const swiperElRef = useRef(null);
 
@@ -49,12 +41,10 @@ const EcommerceSlider = () => {
                 delay: 5000,
             },
         });
-        // Remove the 'previous-sibling' class from all elements with the class 'swiper-slide'
         document.querySelectorAll('.swiper-slide').forEach((element) => {
             element.classList.remove('previous-sibling');
         });
 
-        // Add the 'previous-sibling' class to the immediate previous sibling's previous sibling of the active slide
         const activeSlide = mySwiper.slides[mySwiper.activeIndex];
         const prevSibling = activeSlide.previousElementSibling;
 
@@ -65,12 +55,10 @@ const EcommerceSlider = () => {
             }
         }
         mySwiper.on('slideChange', () => {
-            // Remove the 'previous-sibling' class from all elements with the class 'swiper-slide'
             document.querySelectorAll('.swiper-slide').forEach((element) => {
                 element.classList.remove('previous-sibling');
             });
 
-            // Add the 'previous-sibling' class to the immediate previous sibling's previous sibling of the active slide
             const activeSlide = mySwiper.slides[mySwiper.activeIndex];
             const prevSibling = activeSlide.previousElementSibling;
 
@@ -82,21 +70,17 @@ const EcommerceSlider = () => {
             }
         });
 
-        // Clean up when the component is unmounted
         return () => {
             mySwiper.destroy();
         };
     }, []);
 
 
-
-
-
     return (
         <section className={styles.slider}>
             <Row className='ecommerceslide'>
                 <Col lg={12}>
-                 
+
 
                     <div className="swiper-container" ref={swiperElRef}>
                         <div className="swiper-wrapper">

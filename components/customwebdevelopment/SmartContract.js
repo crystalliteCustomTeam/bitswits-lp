@@ -1,22 +1,12 @@
-import React from "react";
-import Link from "next/link";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./SmartContract.module.css";
-
-import bestgloba11 from '../../public/moniter/1.png'
-import bestgloba12 from '../../public/moniter/2.png'
-import bestgloba13 from '../../public/moniter/3.png'
-import bestgloba14 from '../../public/moniter/4.png'
-import bestgloba15 from '../../public/moniter/5.png'
-import bestgloba16 from '../../public/moniter/6.png'
-import videopic from '../../public/servnew/videopic.png'
-
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { useState } from "react";
-import { useEffect } from "react";
+
 
 const SmartContract = (props) => {
 

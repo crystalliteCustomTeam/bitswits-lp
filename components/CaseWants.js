@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from '@/styles/CaseWants.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/CaseWants.module.css'
 //
 import tick from '../public/images/case-studies/tick.png'
 

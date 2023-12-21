@@ -1,17 +1,16 @@
 import React from 'react'
-import styles from "@/styles/bannerlp2.module.css";
+import Link from 'next/link';
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from "@/styles/bannerlp2.module.css";
+//
 import BannerImage from "@/public/images/lpmobile2/img2.png"
-import Link from 'next/link';
 import banImg1 from '../public/images/people/people.png'
 import star from '../public/images/people/star2.png'
 import star1 from '../public/images/people/1.png'
 import star2 from '../public/images/people/2.png'
 
 const Bannerlp2 = (props) => {
-
-
 
     return (
         <>

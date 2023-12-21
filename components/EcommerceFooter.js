@@ -1,9 +1,8 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
-import styles from '@/styles/EcommerFooter.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-
+import { Col, Container, Row } from 'react-bootstrap'
+import styles from '@/styles/EcommerFooter.module.css'
 //
 import Award from 'public/ecommerce/award.svg'
 import Envelop from 'public/ecommerce/envelop.svg'

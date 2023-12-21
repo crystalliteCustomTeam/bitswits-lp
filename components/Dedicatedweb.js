@@ -1,14 +1,15 @@
 import React from 'react'
-import styles from '../styles/Dedicatedweb.module.css'
-import { Container, Row, Col } from 'react-bootstrap';
+import Link from 'next/link';
 import Image from 'next/image';
+import { Container, Row, Col } from 'react-bootstrap';
+import styles from '../styles/Dedicatedweb.module.css'
+//
 import right1 from '../public/images/unlocking/1.png'
 import right2 from '../public/images/unlocking/2.png'
 import right3 from '../public/images/unlocking/3.png'
 import right4 from '../public/images/unlocking/4.png'
 import right5 from '../public/images/unlocking/5.png'
 import right6 from '../public/images/unlocking/6.png'
-import Link from 'next/link';
 
 
 const Dedicated = () => {

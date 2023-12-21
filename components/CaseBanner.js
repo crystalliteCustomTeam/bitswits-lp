@@ -1,7 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from '@/styles/CaseBanner.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/CaseBanner.module.css'
+
 
 const CaseBanner = (props) => {
     return (

@@ -1,18 +1,14 @@
-import React from "react";
-import Link from "next/link";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./SmartTech.module.css";
-
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { useState } from "react";
-import { useEffect } from "react";
+
 
 const SmartTech = (props) => {
-
-
 
     const [isSliderActive, setIsSliderActive] = useState(true);
     useEffect(() => {

@@ -1,8 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
-import styles from "@/styles/Expertapphome.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
-
+import styles from "@/styles/Expertapphome.module.css";
 //images
 import banImg1 from '../public/images/expert/1.png'
 import banImg2 from '../public/images/expert/2.png'
@@ -14,12 +13,10 @@ import banImg6 from '../public/images/expert/6.png'
 
 export default function Expertapphome(props) {
 
-
-
     return (
         <>
 
-        {/* <Htmlfile /> */}
+            {/* <Htmlfile /> */}
             <section className={styles[props.expertapp]}>
                 <Container>
                     <Row className='align-items-center g-2 pt-5'>
@@ -89,7 +86,6 @@ export default function Expertapphome(props) {
                                     <Image alt='BitsWits' src={banImg5} className='img-fluid' />
                                 </div>
                             </div>
-
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app} data-scroll data-scroll-speed="0.8">
@@ -101,14 +97,9 @@ export default function Expertapphome(props) {
                                     <Image alt='BitsWits' src={banImg6} className='img-fluid' />
                                 </div>
                             </div>
-
                         </Col>
-                      
-
                     </Row>
-
                 </Container>
-
             </section>
         </>
     )

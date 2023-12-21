@@ -1,9 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
-import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./Technology.module.css";
-
 //Images
 const icon1 = await import("@/public/ui-ux-page/tech1.png");
 const icon2 = await import("@/public/ui-ux-page/tech2.png");
@@ -18,7 +16,9 @@ const database6 = await import("@/public/ui-ux-page/tech10.png");
 const database7 = await import("@/public/ui-ux-page/tech11.png");
 const database8 = await import("@/public/ui-ux-page/tech12.png");
 
+
 const UIUXTechnology = (props) => {
+
   const [activeTab1, setActiveTab1] = useState("tab1");
   function fun1(tabs1) {
     setActiveTab1(tabs1);

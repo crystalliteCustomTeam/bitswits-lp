@@ -3,7 +3,9 @@ import { useRouter } from "next/router";
 import React from "react";
 import styles from "@/styles/NewHeader.module.css";
 
+
 const ActiveLink = ({ href, text, className = "", handle }) => {
+  
   const router = useRouter();
   const currentRoute = router.pathname;
   return (
