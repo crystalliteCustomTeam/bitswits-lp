@@ -13,7 +13,8 @@ import logo4 from '../public/images/lpheader/4.png'
 import logo5 from '../public/images/lpheader/5.png'
 import star from '../public/images/lpheader/star.png'
 import pipe from '../public/images/lpheader/pipe.png'
-import logo22 from '../public/images/lpheader/logo22.png'
+import logo22 from '../public/images/icons/footerlogo.png'
+
 
 
 
@@ -40,12 +41,12 @@ const Headerlphome = () => {
 
             <header class={styles.bannerhome} id='home'>
                 <section>
-                    <div class="container">
+                    <div class="container pt-4">
                         <div class={styles.positionrelative}>
                            
                             <div class="toasNotificationGoogle" data-scroll data-scroll-speed="0.1">
                                 <div class="innerborder">
-                                <Image src={logo22} alt='BitsWits' className='img-fluid mt-2' />
+                                <Image src={logo22} alt='BitsWits' className='img-fluid mt-2 w-25' />
                                 </div>
                             </div>
                             <div class={styles.toasNotification} data-scroll data-scroll-speed="0.1">

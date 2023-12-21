@@ -1,86 +1,124 @@
-import React from 'react'
-import { Col, Row } from 'react-bootstrap'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from 'react-slick';
+
+import { Col, Row } from 'react-bootstrap';
 import Image from 'next/image';
 import styles from "@/styles/EcommerceSlider.module.css";
+import SwiperCore, { Navigation, Autoplay } from 'swiper/core';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/autoplay';
+import React, { useEffect, useRef } from 'react';
+// Import images
 
 
-///
-
-import banImg1 from '../public/ecommerce/1.webp'
-import banImg2 from '../public/ecommerce/2.webp'
-import banImg3 from '../public/ecommerce/3.webp'
-import banImg4 from '../public/ecommerce/4.webp'
-import banImg5 from '../public/ecommerce/5.webp'
-import banImg6 from '../public/ecommerce/6.webp'
-import banImg7 from '../public/ecommerce/7.webp'
-
-
+SwiperCore.use([Navigation, Autoplay]);
 
 const EcommerceSlider = () => {
 
-    var Ecommerceslider = {
-        dots: false,
-        arrows: false,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        pauseOnHover: false,
-        cssEase: 'linear',
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 991,
-                settings: {
-                    slidesToShow: 3,
-                }
+
+
+
+
+    const slides = [
+        { img1fold: '../../ecommerce/1.webp' },
+        { img1fold: '../../ecommerce/2.webp' },
+        { img1fold: '../../ecommerce/3.webp' },
+        { img1fold: '../../ecommerce/4.webp' },
+        { img1fold: '../../ecommerce/5.webp' },
+        { img1fold: '../../ecommerce/6.webp' },
+        { img1fold: '../../ecommerce/7.webp' },
+    
+        { img1fold: '../../ecommerce/2.webp' },
+        { img1fold: '../../ecommerce/3.webp' },
+        { img1fold: '../../ecommerce/4.webp' },
+        { img1fold: '../../ecommerce/5.webp' },
+        { img1fold: '../../ecommerce/6.webp' },
+        { img1fold: '../../ecommerce/7.webp' },
+
+    ];
+
+ 
+
+    const swiperElRef = useRef(null);
+
+    useEffect(() => {
+        const mySwiper = new SwiperCore(swiperElRef.current, {
+            slidesPerView: 7,
+            centeredSlides: true,
+            loop: true,
+            autoplay: {
+                delay: 5000,
             },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
+        });
+        // Remove the 'previous-sibling' class from all elements with the class 'swiper-slide'
+        document.querySelectorAll('.swiper-slide').forEach((element) => {
+            element.classList.remove('previous-sibling');
+        });
+
+        // Add the 'previous-sibling' class to the immediate previous sibling's previous sibling of the active slide
+        const activeSlide = mySwiper.slides[mySwiper.activeIndex];
+        const prevSibling = activeSlide.previousElementSibling;
+
+        if (prevSibling && prevSibling.classList.contains('swiper-slide')) {
+            const prevPrevSibling = prevSibling.previousElementSibling;
+            if (prevPrevSibling && prevPrevSibling.classList.contains('swiper-slide')) {
+                prevPrevSibling.classList.add('previous-sibling');
+            }
+        }
+        mySwiper.on('slideChange', () => {
+            // Remove the 'previous-sibling' class from all elements with the class 'swiper-slide'
+            document.querySelectorAll('.swiper-slide').forEach((element) => {
+                element.classList.remove('previous-sibling');
+            });
+
+            // Add the 'previous-sibling' class to the immediate previous sibling's previous sibling of the active slide
+            const activeSlide = mySwiper.slides[mySwiper.activeIndex];
+            const prevSibling = activeSlide.previousElementSibling;
+
+            if (prevSibling && prevSibling.classList.contains('swiper-slide')) {
+                const prevPrevSibling = prevSibling.previousElementSibling;
+                if (prevPrevSibling && prevPrevSibling.classList.contains('swiper-slide')) {
+                    prevPrevSibling.classList.add('previous-sibling');
                 }
             }
-        ]
-    };
+        });
+
+        // Clean up when the component is unmounted
+        return () => {
+            mySwiper.destroy();
+        };
+    }, []);
+
+
+
+
 
     return (
-        <>
-            <section className={styles.slider}>
-                <Row className='ecommerceslide'>
-                    <Col lg={12}>
+        <section className={styles.slider}>
+            <Row className='ecommerceslide'>
+                <Col lg={12}>
+                 
 
-                        <Slider {...Ecommerceslider} className="">
-                            <div className="">
-                                <Image alt="BitsWits" src={banImg1} className="mx-auto img-fluid" />
-                            </div>
-                            <div className="">
-                                <Image alt="BitsWits" src={banImg2} className="mx-auto img-fluid" />
-                            </div>
-                            <div className="">
-                                <Image alt="BitsWits" src={banImg3} className="mx-auto img-fluid" />
-                            </div>
-                            <div className="">
-                                <Image alt="BitsWits" src={banImg4} className="mx-auto img-fluid" />
-                            </div>
-                            <div className="">
-                                <Image alt="BitsWits" src={banImg5} className="mx-auto img-fluid" />
-                            </div>
-                            <div className="">
-                                <Image alt="BitsWits" src={banImg6} className="mx-auto img-fluid" />
-                            </div>
-                            <div className="">
-                                <Image alt="BitsWits" src={banImg7} className="mx-auto img-fluid" />
-                            </div>
-                        </Slider>
+                    <div className="swiper-container" ref={swiperElRef}>
+                        <div className="swiper-wrapper">
+                            {
+                                slides?.map((e, i) => (
+                                    <div className="swiper-slide" key={i}>
+                                        <div className={styles.post}>
+                                            <img
+                                                src={e.img1fold}
+                                                alt='bitswits'
 
-                    </Col>
-                </Row>
-            </section>
-        </>
-    )
-}
+                                            />
+                                        </div>
+                                    </div>
+                                ))
+                            }
+                        </div>
+                    </div>
+                </Col>
+            </Row>
+        </section>
+    );
+};
 
-export default EcommerceSlider
+export default EcommerceSlider;
