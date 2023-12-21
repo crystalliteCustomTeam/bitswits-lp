@@ -3,20 +3,20 @@ import Image from "next/image";
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./Technology.module.css";
-//
-import icon1 from "../../public/ui-ux-page/tech1.png";
-import icon2 from "../../public/ui-ux-page/tech2.png";
-import icon3 from "../../public/ui-ux-page/tech3.png";
-import icon4 from "../../public/ui-ux-page/tech4.png";
-//
-import database1 from "/public/ui-ux-page/tech5.png";
-import database2 from "/public/ui-ux-page/tech6.png";
-import database3 from "/public/ui-ux-page/tech7.png";
-import database4 from "/public/ui-ux-page/tech8.png";
-import database5 from "/public/ui-ux-page/tech9.png";
-import database6 from "/public/ui-ux-page/tech10.png";
-import database7 from "/public/ui-ux-page/tech11.png";
-import database8 from "/public/ui-ux-page/tech12.png";
+
+//Images
+const icon1 = await import("@/public/ui-ux-page/tech1.png");
+const icon2 = await import("@/public/ui-ux-page/tech2.png");
+const icon3 = await import("@/public/ui-ux-page/tech3.png");
+const icon4 = await import("@/public/ui-ux-page/tech4.png");
+const database1 = await import("@/public/ui-ux-page/tech5.png");
+const database2 = await import("@/public/ui-ux-page/tech6.png");
+const database3 = await import("@/public/ui-ux-page/tech7.png");
+const database4 = await import("@/public/ui-ux-page/tech8.png");
+const database5 = await import("@/public/ui-ux-page/tech9.png");
+const database6 = await import("@/public/ui-ux-page/tech10.png");
+const database7 = await import("@/public/ui-ux-page/tech11.png");
+const database8 = await import("@/public/ui-ux-page/tech12.png");
 
 const UIUXTechnology = (props) => {
   const [activeTab1, setActiveTab1] = useState("tab1");

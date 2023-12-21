@@ -12,8 +12,6 @@ import { useEffect } from "react";
 
 const SmartTech = (props) => {
 
-
-
     const [isSliderActive, setIsSliderActive] = useState(true);
     useEffect(() => {
         const handleResize = () => {
@@ -142,8 +140,6 @@ const SmartTech = (props) => {
                                 :
                                 ''
                             }
-
-
                         </Col>
 
                         {isSliderActive ?
@@ -152,7 +148,6 @@ const SmartTech = (props) => {
                                     <p className="font_30 fontsfheavy white mb-0 mt-2">{props.sec1title}</p>
                                 </Col>
                                 <Slider {...awardslogo} className="pt-sm-4">
-
                                     {props.sec.map((item, index) => (
                                         <Col lg={4}>
 
@@ -183,17 +178,13 @@ const SmartTech = (props) => {
                                                     <h4 className="fontgilroybold white font_15">{item.title3}</h4>
                                                     <p className="font_13 white fontsfregular linehight_2 mb-0">{item.para4}</p>
                                                 </div>
-
                                             </div>
-
-
                                         </Col>
                                     ))}
                                 </Slider>
 
                             </>
                             :
-
                             <>
                                 <Col lg={12}>
                                     <p className="font_30 fontsfheavy white mb-0 mt-2">{props.sec1title}</p>
@@ -233,7 +224,6 @@ const SmartTech = (props) => {
                                     </Col>
                                 ))}
                             </>
-
                         }
                     </Row>
                 </Container>
