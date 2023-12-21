@@ -2,23 +2,18 @@ import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
 import { Col, Row, Container } from 'react-bootstrap';
-// import Container from 'react-bootstrap/Container';
-import style from '@/styles/blockchain/Banner.module.css';
-import ele from '@/public/blockchain/images/element2.svg';
-import icontill from '@/public/blockchain/images/icontill.svg';
 import CountUp from 'react-countup';
+import style from '@/styles/blockchain/Banner.module.css';
+//
+import { FaComment, FaGlobe } from "react-icons/fa";
+//
 import phone from '@/public/blockchain/images/phone.png';
-import { FaComment } from "react-icons/fa";
-import { FaGlobe } from "react-icons/fa";
+
 
 function Banners() {
 
     return (
         <>
-
-
-
-
             <div className='HomeBanner'>
                 <div className={style.overlay}></div>
                 <div className='homeVideo'>
@@ -39,50 +34,7 @@ function Banners() {
                             </div>
                         </Col>
                         <Col lg={1}></Col>
-                        <Col lg={5}>
-                            {/* <div className='position-relative'>
-                            <div className={style.FormHo}></div>
-                            <form className={`${style.ctaForm} mt-5`}>
-                                <h3 className='font-30 fw-900 text-center mb-5 text-white'> Contact us </h3>
-                                <Row className='px-4'>
-                                    <Col lg={6} className=" pb-4"> 
-                                            <label htmlFor="name"> Name *</label>
-                                            <input className='form-control' type="text" placeholder="Type Name" required />
-                                    </Col>
-                                    <Col lg={6} className=" pb-4"> 
-                                            <label htmlFor="phone">Phone *</label>
-                                            <input  className='form-control' type="text" placeholder="(000) 000-000" required />
-                                    </Col>
-                                </Row>
-                                <Row className='px-4'>
-                                    <Col lg={6} className=" pb-4"> 
-                                            <label htmlFor="email">Email  *</label>
-                                            <input  className='form-control' type="email" placeholder="Type Your Email" required />
-                                    </Col>
-                                    <Col lg={6} className=" pb-4"> 
-                                            <label htmlFor="web">Your Website *</label>
-                                            <input  className='form-control' type="text" placeholder="Type Your Website"  />
-                                    </Col>
-                                </Row>
-                                <Row className='px-4'>
-                                    <Col lg={12} className=" pb-4"> 
-                                        <div>
-                                            <textarea type="textarea" placeholder="Type Your Message"  >
-                                            </textarea>
-                                        </div>
-                                    </Col>
-                                </Row>
-                                <Row className='px-4'>
-                                    <Col lg={12} className=" mt-4"> 
-                                       
-                                            <button className={style.btnprimary}>Submit</button>
-                                        
-                                    </Col>
-                                </Row>
-                            </form>
-                            <div className={style.FormHoo}></div>
-                        </div> */}
-                        </Col>
+                        <Col lg={5}></Col>
                     </Row>
                     <div className='d-none d-lg-block d-md-block d-sm-none zindx'>
                         <Row className='pb-0 mb-0 align-items-end'>

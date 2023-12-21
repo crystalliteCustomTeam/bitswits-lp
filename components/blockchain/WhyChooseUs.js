@@ -1,10 +1,9 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap';
-import style from '@/styles/blockchain/WhychooseUs.module.css';
 import Image from 'next/image';
-import Link from 'next/link';
-// import posters from '@/public/blockchain/images/poster.png';
-import phone from '@/public/blockchain/images/phone.png';
+import { Container, Row, Col } from 'react-bootstrap';
+import Slider from "react-slick";
+import style from '@/styles/blockchain/WhychooseUs.module.css';
+// 
 import icon1 from '@/public/blockchain/images/why/icon-1.png';
 import icon2 from '@/public/blockchain/images/why/icon-2.png';
 import icon3 from '@/public/blockchain/images/why/icon-3.png';
@@ -14,7 +13,7 @@ import icon6 from '@/public/blockchain/images/why/icon-6.png';
 import icon7 from '@/public/blockchain/images/why/icon-7.png';
 import icon8 from '@/public/blockchain/images/why/icon-8.png';
 import icon9 from '@/public/blockchain/images/why/icon-9.png';
-import Slider from "react-slick";
+
 
 const WhyChooseUs = (props) => {
 
