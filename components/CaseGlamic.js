@@ -1,8 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import styles from "@/styles/CaseGlamic.module.css";
 import { Container, Row, Col } from "react-bootstrap";
+import styles from "@/styles/CaseGlamic.module.css";
+
 
 const CaseGlamic = (props) => {
   return (

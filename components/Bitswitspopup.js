@@ -1,12 +1,11 @@
-import React from 'react'
-import styles from '@/styles/Bitswitspopup.module.css'
+import React, { useState } from 'react'
 import Link from 'next/link'
 import axios from "axios";
-import { useState } from "react";
 import Router from 'next/router'
+import styles from '@/styles/Bitswitspopup.module.css'
+
 
 const Freequote = (props) => {
-
 
   const [score, setScore] = useState('Submit');
 
@@ -38,7 +37,6 @@ const Freequote = (props) => {
   }
 
 
-
   return (
     <>
 
@@ -68,14 +66,9 @@ const Freequote = (props) => {
             <Link className={styles.freehomenumer} href="tel:(213) 289 3888">(213) 289 3888</Link>
           </div>
 
-
           : ''}
 
-
-
       </div>
-
-
     </>
   )
 }

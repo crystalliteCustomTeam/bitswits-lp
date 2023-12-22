@@ -20,7 +20,7 @@ const Counter = ({ stopNumber }) => {
     };
   }, [stopNumber]);
 
-  return  <> {count}
+  return <> {count}
   </>;
 };
 

@@ -15,7 +15,7 @@ const Formnewlp = () => {
                             <h2 className='newchoose fontf fw700 white mb-3 text-center'>
                                 Start Your Mobile App Development <br /> Journey with Us?
                             </h2>
-                            <p className='font16 font-normal white text-center mb-0'>Excited to turn your app concept into reality? Get in touch for a detailed consultation. We're keen to explore your project and demonstrate how our <br/> assistance can make a difference. Choosing Bitswits means partnering with a team dedicated to your app's success</p>
+                            <p className='font16 font-normal white text-center mb-0'>Excited to turn your app concept into reality? Get in touch for a detailed consultation. We're keen to explore your project and demonstrate how our <br /> assistance can make a difference. Choosing Bitswits means partnering with a team dedicated to your app's success</p>
                         </Col>
 
                         <Col xl={6}>
@@ -36,7 +36,7 @@ const Formnewlp = () => {
                                 <input type='email' name='email' required className='form-control mt-3' placeholder="Enter your Email"></input>
                                 <textarea placeholder='Comment' className='form-control mt-3'></textarea>
                                 <input type='submit' name='submit' className={styles.value} placeholder="Submit"></input>
-                               
+
                             </form>
                         </Col>
                     </Row>

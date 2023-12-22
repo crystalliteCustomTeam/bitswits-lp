@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '@/styles/Contact2.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/Contact2.module.css'
 //
 import img1 from '../public/images/agencylogos/agency-logo1.png'
 import img2 from '../public/images/agencylogos/agency-logo2.png'

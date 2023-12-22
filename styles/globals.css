@@ -3,11 +3,9 @@
   --white: #fff;
   --primary: #f32f53;
   --mry: #f32f53;
-  --gradient: linear-gradient(
-    90deg,
-    rgba(116, 25, 227, 0.5) 0%,
-    rgba(243, 47, 92, 0.5) 100%
-  );
+  --gradient: linear-gradient(90deg,
+      rgba(116, 25, 227, 0.5) 0%,
+      rgba(243, 47, 92, 0.5) 100%);
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
@@ -791,6 +789,7 @@ a {
   border: 2px solid #ed017b;
   border-radius: 25px;
 }
+
 /* ======Btns====== */
 
 .bttns1 {
@@ -1285,10 +1284,43 @@ a {
 
 /* =============Other Sliders============== */
 
+
+
 .caseSlider .slick-track {
   display: flex;
   gap: 20px;
 }
+
+.swiper-slide.swiper-slide-prev {
+  transform: translateY(8%) translateX(-20%) scale(0.8);
+}
+
+.swiper-slide.swiper-slide-next {
+  transform: translateY(8%) translateX(0%) scale(0.8);
+}
+
+
+
+.swiper-slide.swiper-slide-active {
+  transform: translateY(0) translateX(-11%) scale(.9);
+  margin-top: 17px;
+}
+
+.swiper-slide.swiper-slide-next+.swiper-slide {
+  transform: translateY(13.5%) translateX(2%) scale(.7);
+}
+
+.swiper-slide.previous-sibling {
+  transform: translateY(13.5%) translateX(-20%) scale(.7);
+}
+
+.swiper-slide {
+  transform: translateY(18.5%) translateX(-9%) scale(.6);
+}
+
+
+
+
 
 .tabs .form-select {
   background-size: 30px;
@@ -1457,7 +1489,7 @@ input::-webkit-inner-spin-button {
   margin-bottom: 0.5%;
 }
 
-.swiper {
+/* .swiper {
   width: 100%;
   height: 100%;
 }
@@ -1484,18 +1516,18 @@ input::-webkit-inner-spin-button {
 .swiper-button-next:focus,
 .swiper-button-prev:focus {
   outline: none;
-}
+} */
 
 .card.testimonialscard {
   background-color: unset;
   border: unset;
 }
 
-.swiper-horizontal {
+/* .swiper-horizontal {
   touch-action: unset;
   padding-top: 5% !important;
   padding-bottom: 5% !important;
-}
+} */
 
 .lt0 {
   width: 125px !important;

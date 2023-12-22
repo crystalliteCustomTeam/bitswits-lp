@@ -1,15 +1,9 @@
 import React from 'react'
-import styles from "@/styles/Formnewlp2.module.css";
-import Link from 'next/link'
-import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
-import bestglobal1 from '../public/images/bestglobal/1.png'
+import styles from "@/styles/Formnewlp2.module.css";
 
 
 const Formnewlp = () => {
-
-
-
 
     return (
         <>
@@ -32,7 +26,7 @@ const Formnewlp = () => {
                                 <input type='text' name='first' required className='form-control  mt-3' placeholder="Last Name"></input>
                                 <input type='number' name='phone' required className='form-control mt-3' placeholder="Enter your Phone No"></input>
                                 <input type='email' name='email' required className='form-control mt-3' placeholder="Enter your Email"></input>
-                                <textarea  placeholder='Comment' className='form-control mt-3'></textarea>
+                                <textarea placeholder='Comment' className='form-control mt-3'></textarea>
                                 <input type='submit' name='submit' className={styles.value} placeholder="Submit"></input>
                                 <p className='font12 white fw300 center mt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                             </form>

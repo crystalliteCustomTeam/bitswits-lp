@@ -175,7 +175,7 @@
 .post::after {
   position: absolute;
   background-image: url(../public/images/logoservices/shap1.png);
-  bottom: -283px;
+  bottom: -186px;
   height: 40%;
   content: "";
   background-position: center;

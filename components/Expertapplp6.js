@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
@@ -10,13 +10,12 @@ import banImg3 from '../public/images/expert/3.png'
 import banImg4 from '../public/images/expert/4.png'
 import banImg5 from '../public/images/expert/5.png'
 import banImg6 from '../public/images/expert/6.png'
+//
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
-import { useEffect } from 'react';
-import { useState } from 'react';
+
 
 export default function Expertapplp6(props) {
-
 
     var phoneSlider = {
         dots: false,
@@ -27,7 +26,6 @@ export default function Expertapplp6(props) {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-
     };
 
 
@@ -147,14 +145,14 @@ export default function Expertapplp6(props) {
                                     </div>
 
                                 </Col>
-                               
+
                             </Slider>
 
                             <Col lg={12} className='mt-4'>
-                                    <div className={styles.offer}>
-                                        <Link className={styles.connect} href='#'>Your App, Our Expertise -  Let's Connect </Link>
-                                    </div>
-                                </Col>
+                                <div className={styles.offer}>
+                                    <Link className={styles.connect} href='#'>Your App, Our Expertise -  Let's Connect </Link>
+                                </div>
+                            </Col>
 
                         </>
 

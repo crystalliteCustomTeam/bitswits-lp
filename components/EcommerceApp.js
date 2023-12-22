@@ -1,9 +1,7 @@
 import React from 'react'
+import Link from 'next/link'
 import { Col, Container, Row } from 'react-bootstrap'
 import styles from '@/styles/ecommerceapp.module.css'
-import Link from 'next/link'
-
-///
 
 
 const EcommerceApp = () => {

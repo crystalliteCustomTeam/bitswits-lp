@@ -1,22 +1,20 @@
 import React from 'react'
-import styles from "@/styles/bannerlpfianl.module.css";
 import Image from 'next/image';
-import { Container, Row, Col } from 'react-bootstrap'
-import BannerImage from "@/public/images/lpmobile2/img2.png"
 import Link from 'next/link';
+import { Container, Row, Col } from 'react-bootstrap'
+import styles from "@/styles/bannerlpfianl.module.css";
+//
 import banImg1 from '../public/images/people/people.png'
 import star from '../public/images/mobilelpfinal/star.png'
 import clutch from '../public/images/mobilelpfinal/clutch.png'
 import star1 from '../public/images/people/1.png'
 import star2 from '../public/images/people/2.png'
-
 import usa from "@/public/images/mobilelpfinal/usa.png"
 import dubai from "@/public/images/mobilelpfinal/dubai.png"
 import asia from "@/public/images/mobilelpfinal/asia.png"
 
+
 const Bannerlpfinal = (props) => {
-
-
 
     return (
         <>
@@ -37,27 +35,27 @@ const Bannerlpfinal = (props) => {
                                 </div>
                             </div>
                             <div className={styles.comple}>
-                                <Image  quality={95} alt='BitsWits' src={banImg1} className={`${styles.newone} img-fluid w-25`} />
+                                <Image quality={95} alt='BitsWits' src={banImg1} className={`${styles.newone} img-fluid w-25`} />
 
                                 <div className={styles.comple1}>
-                                    <Image  quality={95} alt='BitsWits' src={star} className='img-fluid' />
+                                    <Image quality={95} alt='BitsWits' src={star} className='img-fluid' />
                                     <p className='mb-0'> <span className='fw700'>4.9 out of 5</span> <span className={styles.rating}>(review rating) <br></br>
-Over 1,200+ reviews 
+                                        Over 1,200+ reviews
                                         Over 1,200+ reviews</span> </p>
                                 </div>
-                                <Image  quality={95} alt='BitsWits' src={clutch} className='img-fluid' />
+                                <Image quality={95} alt='BitsWits' src={clutch} className='img-fluid' />
                             </div>
 
                             <div className={styles.posty}>
                                 <div className={styles.comple3}>
-                                    <Image  quality={95} alt='BitsWits' src={star2} className='img-fluid' />
+                                    <Image quality={95} alt='BitsWits' src={star2} className='img-fluid' />
                                     <div className={styles.comple5}>
                                         <p className='mb-0'>US TOP 3 BEST RATED</p>
                                         <p className='mb-0 fw700'>App & Software Development Company</p>
                                     </div>
                                 </div>
                                 <div className={styles.comple3}>
-                                    <Image  quality={95} alt='BitsWits' src={star1} className='img-fluid' />
+                                    <Image quality={95} alt='BitsWits' src={star1} className='img-fluid' />
                                     <div className={styles.comple5}>
                                         <p className='mb-0'>HIGH PERFORMER</p>
                                         <p className='mb-0 fw700'>Top App Development Company</p>
@@ -87,15 +85,15 @@ Over 1,200+ reviews
                                 </div>
                                 <div className={styles.ouroff}>
                                     <span>
-                                        <Image  quality={95} alt='BitsWits' src={usa} className='img-fluid' />
+                                        <Image quality={95} alt='BitsWits' src={usa} className='img-fluid' />
                                         <p>USA</p>
                                     </span>
                                     <span>
-                                        <Image  quality={95} alt='BitsWits' src={dubai} className='img-fluid' />
+                                        <Image quality={95} alt='BitsWits' src={dubai} className='img-fluid' />
                                         <p>MIDDLE EAST</p>
                                     </span>
                                     <span>
-                                        <Image  quality={95} alt='BitsWits' src={asia} className='img-fluid' />
+                                        <Image quality={95} alt='BitsWits' src={asia} className='img-fluid' />
                                         <p>ASIA</p>
                                     </span>
                                 </div>

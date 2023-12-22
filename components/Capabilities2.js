@@ -16,8 +16,8 @@ import team5 from '../public/newHomePageImages/5.png'
 import team6 from '../public/newHomePageImages/6.png'
 import close from '../public/newHomePageImages/close.png'
 
-const Capabilities = () => {
 
+const Capabilities = () => {
 
     var awardslogo = {
         dots: true,
@@ -28,9 +28,7 @@ const Capabilities = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-
     };
-
 
 
     return (
@@ -53,16 +51,12 @@ const Capabilities = () => {
 
                         <div className={styles.connsct}>
                             <Row className={` mt-5 mb-5`}>
-
-
                                 <Col lg={2}><div className={styles.line1}></div></Col>
                                 <Col lg={2}><div className={styles.line2}></div></Col>
                                 <Col lg={2}><div className={styles.line3}></div></Col>
                                 <Col lg={2}><div className={styles.line4}></div></Col>
                                 <Col lg={2}><div className={styles.line5}></div></Col>
                                 <Col lg={2}><div className={styles.line6}></div></Col>
-
-
                             </Row>
                         </div>
                         <Slider {...awardslogo} className={` ${styles.nextalign1} prohome mt-4 mb-4`}>

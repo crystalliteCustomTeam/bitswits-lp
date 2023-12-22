@@ -1,17 +1,11 @@
-import React from 'react'
-import styles from '@/styles/Freequote.module.css'
-import { useState } from "react";
+import React, { useState } from "react";
 import Form from 'react-bootstrap/Form';
 import Link from 'next/link';
 import axios from "axios";
-// import Router from 'next/router';
+import styles from '@/styles/Freequote.module.css'
+
 
 const Freequote = () => {
-
-
-
-
-  // submitform
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -28,8 +22,8 @@ const Freequote = () => {
       Name: e.target.first.value,
       Email: e.target.email.value,
       Phone: e.target.phone.value,
-      
-   
+
+
     }
     const JSONdata = JSON.stringify(data)
     axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
@@ -37,16 +31,7 @@ const Freequote = () => {
         console.log(response.data);
         alert('thankyou for Submitting a from');
       });
-    // const { pathname } = Router
-    //   if (pathname == pathname) {
-    //       Router.push('/search-engine-optimization')
-    //   }
   }
-
-
-
-
-  //checkboxes
 
 
   const [checkboxes, setCheckboxes] = useState([]);
@@ -78,12 +63,6 @@ const Freequote = () => {
 
     setError('');
   };
-
-
-
-
-
-
 
 
   // usestates
@@ -147,8 +126,6 @@ const Freequote = () => {
 
 
 
-
-
   // game6 function
 
   function game6(e) {
@@ -164,8 +141,6 @@ const Freequote = () => {
       gameapp1(true);
     }
   }
-
-
 
 
   // game7 function
@@ -190,8 +165,6 @@ const Freequote = () => {
   }
 
 
-
-
   // game8 function
 
   function game8(e) {
@@ -209,8 +182,6 @@ const Freequote = () => {
       gameapp7(false);
     }
   }
-
-
 
 
   // game9 function
@@ -233,10 +204,6 @@ const Freequote = () => {
   }
 
 
-
-
-
-
   // game10 function
 
   function game10() {
@@ -257,10 +224,6 @@ const Freequote = () => {
       gameapp7(false);
     }
   }
-
-
-
-
 
 
   // game11 function
@@ -306,10 +269,6 @@ const Freequote = () => {
   }
 
 
-
-
-
-
   // game12 function
 
   function game12() {
@@ -332,12 +291,6 @@ const Freequote = () => {
     }
 
   }
-
-
-
-
-
-
 
 
   // backbuttonfunction
@@ -496,9 +449,9 @@ const Freequote = () => {
               />
 
               <br></br>
-            
 
-<input type='text' name='name' onChange={flow} value={input1value}  className={styles.name3} placeholder='Other'></input>
+
+              <input type='text' name='name' onChange={flow} value={input1value} className={styles.name3} placeholder='Other'></input>
 
               <div >
                 <Link className={styles.raop} onClick={game6} href='#'>Continue</Link>
@@ -648,143 +601,10 @@ const Freequote = () => {
 
               </div>
 
-              {/* <div>
-                  <h3 className='center mb-4'>How do you plan on monetising <br></br> the app?</h3>
-
-                  <Form.Check
-                    type='checkbox'
-                    id='checkbox'
-                    label='Cost to download'
-                    value='Cost to download'
-                  />
-
-                  <Form.Check
-                    type='checkbox'
-                    id='iOS'
-                    label='In-app advertising'
-                    value='In-app advertising'
-                  />
-                  <Form.Check
-                    type='checkbox'
-                    id='checkbox'
-                    label='In-app purchases'
-                    value='In-app purchases'
-                  />
-                  <Form.Check
-                    type='checkbox'
-                    id='checkbox'
-                    label='Sponsorships'
-                    value='Sponsorships'
-                  />
-                  <Form.Check
-                    type='checkbox'
-                    id='checkbox'
-                    label='Subscription'
-                    value='Subscription'
-                  />
-                  <Form.Check
-                    type='checkbox'
-                    id='checkbox'
-                    label='I will not be monetising the app'
-                    value='I will not be monetising the app'
-                  />
-                  <Form.Check
-                    type='checkbox'
-                    id='checkbox'
-                    label='I need guidance from the pro'
-                    value='I need guidance from the pro'
-                  />
-
-
-
-                  <Form.Check
-                    type='checkbox'
-                    label=''
-                    value='Other'
-                  />
-
-                  <input type="text" className={styles.name3} name="name3" placeholder='Other' />
-
-                  <div className={styles.ther}>
-                <Link className={styles.back} onClick={back1} href='#'>Back</Link>
-                <Link className={styles.raop} onClick={game13} href='#'>Continue</Link>
-              </div>
-
-                </div> */}
             </div>
             :
             ''
           }
-
-
-          {/* {gameshow8 ?
-            <div className="mb-3 proisting">
-
-
-              <div>
-                <h3 className='center mb-4'>How do you plan on monetising <br></br> the app?</h3>
-
-                <Form.Check
-                  type='checkbox'
-                  id='checkbox'
-                  label='Cost to download'
-                  value='Cost to download'
-                />
-
-                <Form.Check
-                  type='checkbox'
-                  id='iOS'
-                  label='In-app advertising'
-                  value='In-app advertising'
-                />
-                <Form.Check
-                  type='checkbox'
-                  id='checkbox'
-                  label='In-app purchases'
-                  value='In-app purchases'
-                />
-                <Form.Check
-                  type='checkbox'
-                  id='checkbox'
-                  label='Sponsorships'
-                  value='Sponsorships'
-                />
-                <Form.Check
-                  type='checkbox'
-                  id='checkbox'
-                  label='Subscription'
-                  value='Subscription'
-                />
-                <Form.Check
-                  type='checkbox'
-                  id='checkbox'
-                  label='I will not be monetising the app'
-                  value='I will not be monetising the app'
-                />
-                <Form.Check
-                  type='checkbox'
-                  id='checkbox'
-                  label='I need guidance from the pro'
-                  value='I need guidance from the pro'
-                />
-
-
-
-                <br></br>
-
-                <input type="text" className={styles.name3} name="name3" placeholder='Other' />
-
-                <div className={styles.ther}>
-                  <Link className={styles.back} onClick={back1} href='#'>Back</Link>
-                  <Link className={styles.raop} onClick={game1} href='#'>Continue</Link>
-                </div>
-
-              </div>
-            </div>
-            :
-            ''
-          } */}
-
 
           {gameshow3 ?
             <div className="mb-3 proisting">
@@ -919,7 +739,7 @@ const Freequote = () => {
                 onChange={handleOptionChange3}
               />
 
-              
+
               <br></br>
               <input type="text" className={styles.name3} name="name3" placeholder='Other' />
 
@@ -997,7 +817,7 @@ const Freequote = () => {
                     onChange={handleOptionChange4}
                   />
 
-<br></br>
+                  <br></br>
                   <input type="text" className={styles.name3} name="name3" placeholder='Other' />
                 </div>
 
@@ -1073,7 +893,7 @@ const Freequote = () => {
                     onChange={handleOptionChange5}
                   />
 
-                <br></br>
+                  <br></br>
                   <input type="text" className={styles.name3} name="name3" placeholder='Other' />
                 </div>
 
@@ -1117,8 +937,8 @@ const Freequote = () => {
               />
 
 
-             
-          <br></br>
+
+              <br></br>
 
               <input type="text" className={styles.name3} name="name3" placeholder='Other' />
 

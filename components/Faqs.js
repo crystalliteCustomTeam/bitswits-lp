@@ -1,12 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../styles/Faqs.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
-// import Accordion from 'react-bootstrap/Accordion';
-import { useState } from 'react'
+import styles from '../styles/Faqs.module.css'
 //images
 import arrow from '../public/images/icons/arrow.webp'
+
 
 const Faqs = () => {
 
@@ -15,7 +14,7 @@ const Faqs = () => {
     const [faq3show, setfaq3] = useState(false);
     const [faq4show, setfaq4] = useState(false);
     const [faq5show, setfaq5] = useState(false);
-    const [faq6show, setfaq6] = useState(false); 
+    const [faq6show, setfaq6] = useState(false);
 
     function faq1() {
         setfaq1(!faq1show);
@@ -96,7 +95,7 @@ const Faqs = () => {
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
-                                                
+
                                             />
                                         </Link>
                                     </div>
@@ -122,7 +121,7 @@ const Faqs = () => {
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
-                                                
+
                                             />
                                         </Link>
                                     </div>
@@ -148,7 +147,7 @@ const Faqs = () => {
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
-                                                
+
                                             />
                                         </Link>
                                     </div>
@@ -173,7 +172,7 @@ const Faqs = () => {
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
-                                                
+
                                             />
                                         </Link>
                                     </div>
@@ -200,7 +199,7 @@ const Faqs = () => {
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
-                                                
+
                                             />
                                         </Link>
                                     </div>
@@ -228,7 +227,7 @@ const Faqs = () => {
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
-                                                
+
                                             />
                                         </Link>
                                     </div>

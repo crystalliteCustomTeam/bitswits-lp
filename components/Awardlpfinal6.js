@@ -1,14 +1,12 @@
 import React from 'react'
-import Link from 'next/link'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Footerlpform6.module.css'
-
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //images
-import icon from '../public/images/footer/icon.png'
 import icon1 from '../public/images/awards/award1.png'
 import icon2 from '../public/images/awards/award2.png'
 import icon3 from '../public/images/awards/award3.png'
@@ -20,7 +18,7 @@ import icon8 from '../public/images/awards/award8.png'
 import icon9 from '../public/images/awards/award9.png'
 import icon10 from '../public/images/awards/award10.png'
 import icon11 from '../public/images/awards/award11.png'
-import apple from '../public/images/apple/apple.svg'
+
 
 const Awardlpfinal6 = () => {
 

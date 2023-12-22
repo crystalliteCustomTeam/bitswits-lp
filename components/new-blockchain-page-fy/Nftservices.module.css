@@ -1,57 +1,51 @@
 .provideserv {
-    background-color: black;
-    padding-top: 80px;
-    padding-bottom: 80px;
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .blocknew {
-    display: flex;
-    gap: 25px;
+  display: flex;
+  gap: 25px;
 }
 
 .create {
-    width: 500px;
+  width: 500px;
 }
 
 .intlong {
-    position: absolute;
-    right: 0;
+  position: absolute;
+  right: 0;
 }
 
 .intlong img {
-    position: relative;
+  position: relative;
 }
 
 @media screen and (max-width: 1280px) {
-
-    .intlong {
-        position: unset;
-        right: auto;
-    }
+  .intlong {
+    position: unset;
+    right: auto;
+  }
 }
-
 
 @media screen and (max-width: 991px) {
-    
-    .provideserv{
-        background-color: black;
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
+  .provideserv {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 @media screen and (max-width: 767px) {
-
-    .create {
-        width: auto;
-    }
-    
+  .create {
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    
-    .provideserv{
-        background-color: black;
-        padding-top: 25px;
-        padding-bottom: 25px;
-    }
+  .provideserv {
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
 }

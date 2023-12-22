@@ -1,8 +1,9 @@
 import React from 'react'
+import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap';
 import style from '@/styles/blockchain/Standing.module.css';
-import Image from 'next/image';
-import Link from 'next/link';
+import Slider from "react-slick";
+//
 import ecommerce from '@/public/blockchain/images/ecommerce.png';
 import Banking from '@/public/blockchain/images/Banking.png';
 import health from '@/public/blockchain/images/health.png';
@@ -10,8 +11,7 @@ import supply from '@/public/blockchain/images/supply.png'
 import realestate from '@/public/blockchain/images/realestate.png'
 import retail from '@/public/blockchain/images/retail.png'
 import FullView from '@/public/blockchain/images/FullView.png'
-// import supplychain from '@/public/blockchain/images/supplychain.png'
-import Slider from "react-slick";
+
 
 const Standing = (props) => {
 

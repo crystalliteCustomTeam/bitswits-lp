@@ -2,3 +2,7 @@
     padding: 40px 0 150px;
     background: #000;
 }
+.post img {
+    border: 2px solid #ed017b;
+    border-radius: 20px;
+}

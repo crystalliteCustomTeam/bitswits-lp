@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import Link from 'next/link';
 import Image from 'next/image'
-import styles from '@/styles/Footerlp.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
+import styles from '@/styles/Footerlp.module.css'
 //images
 import call from '../public/images/icons/phone-icon.webp'
 import mail from '../public/images/icons/email-icon.webp'
@@ -65,7 +65,7 @@ const Footerlp = () => {
 
   return (
     <>
-    
+
       <footer className={styles.footer}>
         <Container>
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link';
 import Image from 'next/image';
 import styles from "./Startups.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
@@ -8,9 +7,6 @@ import startups from '/public/images/startups/startups.png'
 
 
 export default function StartupsLp6(props) {
-
-
-
     return (
         <>
             <section className={styles[props.startups]}>

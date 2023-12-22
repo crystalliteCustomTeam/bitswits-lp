@@ -1,20 +1,15 @@
 import React from 'react'
-import styles from "@/styles/Creative.module.css";
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
-import Link from 'next/link'
+import styles from "@/styles/Creative.module.css";
+//
 import BannerImage from "@/public/images/projectprocess/nopot.png"
-
-
 
 
 const Creative = () => {
 
-
-
     return (
         <>
-
             <section className={styles.newHomeBg}>
 
                 <Container class={styles.posting}>
@@ -35,8 +30,6 @@ const Creative = () => {
                         </div>
                     </Row>
                 </Container>
-
-
             </section>
         </>
     )

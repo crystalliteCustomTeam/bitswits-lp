@@ -1,8 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
-import styles from '@/styles/Capabilities3d.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/Capabilities3d.module.css'
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -19,7 +20,6 @@ import icon9 from '../public/CapablitiesImgs/3Dgame/icon9.png'
 
 const Capabilities3d = () => {
 
-
     var awardslogo = {
         dots: true,
         arrows: false,
@@ -31,11 +31,8 @@ const Capabilities3d = () => {
         slidesToScroll: 1,
     };
 
-
-
     return (
         <>
-
             <section className={styles.home}>
                 <Container className='qtechcap'>
                     <Row className={styles.posttext}>

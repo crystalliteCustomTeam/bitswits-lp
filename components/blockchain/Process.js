@@ -1,18 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import style from '@/styles/blockchain/Process.module.css';
-import Image from 'next/image';
-import Link from 'next/link';
-// import Ethereum from '../public/images/Ethereum.png';
-// import Polygon from '../public/images/Polygon.png';
-// import Binance from '../public/images/binance.png';
-// import Hyperledger from '../public/images/hyperledger.png';
-// import Corda from '../public/images/Corda.png';
-// import Substrate from '../public/images/Substrate.png';
-// import Avalanche from '../public/images/Avalanche.png';
-// import Polkadot from '../public/images/Polkadot.png';
-// import Ethereum from '../public/images/Ethereum.png';
-// import NearProtocol from '../public/images/NearProtocol.png';
 import Slider from "react-slick";
 
 
