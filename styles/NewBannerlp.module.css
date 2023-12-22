@@ -62,12 +62,12 @@
   background-color: black;
 }
 
-.homePage{
+.homePage {
   margin-top: -50px;
 }
 
 @media screen and (max-width: 768px) {
-  .slideTrack{
+  .slideTrack {
     width: calc(80px * 20);
   }
 
@@ -84,7 +84,6 @@
     }
   }
 }
-
 
 @media screen and (max-width: 1600px) {
   .newHomeBg {
@@ -130,7 +129,7 @@
     margin-top: 0px;
   }
 
-  .homePage{
+  .homePage {
     margin-top: -50px;
   }
 }

@@ -10,7 +10,6 @@
 .newHomeBg {
   padding: 50px 0 0px;
   background: #000;
-  /* background-image: url(../public/newHomePageImages/bg1.png); */
   background-position: 45% 12%;
   background-repeat: no-repeat;
   background-size: inherit;
@@ -20,7 +19,6 @@
 
 .gameBlckChain {
   background: #000;
-  /* background-image: url(../public/blockchaindevelopment/images/blockchainbanner-bg.png); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,11 +142,6 @@
   text-align: center;
 }
 
-/* .hybrid .banImg,
-.flutter .banImg {
-  margin-top: 0;
-} */
-
 .custom .banImg,
 .mobile .banImg,
 .react .banImg {
@@ -158,10 +151,6 @@
 .gameApp .banImg {
   padding-bottom: 30px;
 }
-
-/* .game2d .banImg {
-  padding-bottom: 50px;
-} */
 
 .game3d .banImg {
   margin-top: -10px;
@@ -521,11 +510,9 @@
     margin-top: 0;
   }
 
-  
   .banImg {
     margin-top: 3rem;
   }
-  
 
   .just {
     font-size: 18px;

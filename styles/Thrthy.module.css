@@ -7,7 +7,7 @@
 .hook a {
   width: 207px;
   height: 57px;
-  background-color: #F32F53;
+  background-color: #f32f53;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,13 +23,12 @@
   margin-top: 2%;
 }
 
-.jis a:hover{
-  background-color: #F32F53;
+.jis a:hover {
+  background-color: #f32f53;
   color: white;
 }
 
 .nomad::after {
-
   position: absolute;
   background-image: url(../public/images/projectprocess/done.png);
   bottom: 0;
@@ -41,22 +40,14 @@
   right: 0;
   margin: 0 auto;
   background-repeat: no-repeat;
-
-
 }
-
 
 @media screen and (min-width: 1900px) {
-
-
-
-
   .hook {
     background-color: black;
     padding-bottom: 565px;
     position: relative;
   }
-
 
   .nomad::after {
     position: absolute;
@@ -71,22 +62,14 @@
     margin: 0 auto;
     background-repeat: no-repeat;
   }
-
-
 }
 
-
 @media screen and (min-width: 1400px) {
-
-
-
-
   .hook {
     background-color: black;
     padding-bottom: 565px;
     position: relative;
   }
-
 
   .nomad::after {
     position: absolute;
@@ -101,6 +84,4 @@
     margin: 0 auto;
     background-repeat: no-repeat;
   }
-
-
 }

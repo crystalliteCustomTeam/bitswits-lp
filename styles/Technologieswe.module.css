@@ -8,15 +8,14 @@
   padding-bottom: 80px;
 }
 
-  .UIUXTechnology {
-    background-image: url(../public/ui-ux-page/bg-image.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.UIUXTechnology {
+  background-image: url(../public/ui-ux-page/bg-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .work {
-  /* font-size: 60px; */
   text-align: center;
   color: white;
   font-weight: bold;

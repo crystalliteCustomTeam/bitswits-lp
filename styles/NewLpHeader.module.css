@@ -24,7 +24,6 @@
   height: 100%;
   display: flex;
   align-items: center;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 20px 0px 15px; */
 }
 
 .menu {
@@ -68,12 +67,12 @@
   width: 0%;
   height: 2px;
   background-color: #f15aab;
-  transition: all .7s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 .befLink:hover::before {
   width: 100%;
-  transition: all .7s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 .megaList1 .megaMenu1,
@@ -423,7 +422,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-
   .megaMenu1,
   .megaMenu2,
   .megaMenu3,
@@ -469,7 +467,6 @@
 }
 
 @media screen and (max-width: 991px) {
-
   .navBar {
     position: unset;
   }
@@ -482,7 +479,6 @@
     margin: 6px auto;
     transition: 0.5s ease-in-out;
   }
-
 
   .menu li a {
     padding: 0 12px;

@@ -5,7 +5,6 @@
 }
 
 .newHomeBg h1 {
-  /* max-width: 990px; */
   margin: 0 auto;
 }
 
@@ -45,7 +44,6 @@
 .app4,
 .app5 {
   display: flex;
-  /* flex-direction: column; */
   flex-direction: column-reverse;
   gap: 40px;
   padding: 0 40px;
@@ -151,13 +149,9 @@
 
 .app7 {
   border-radius: 15px;
-  /*1*/
   border: 4px solid;
-  /*2*/
   border-image: linear-gradient(#f32f53, #f32fc2, #4a78ef) 10;
-  -webkit-mask:
-        /*4*/ linear-gradient(#fff 0 0) padding-box,
-    linear-gradient(#fff 0 0);
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   padding-top: 50px;
   padding-bottom: 20px;
   height: 460px;
@@ -196,14 +190,9 @@
 
 .app6 {
   border-radius: 15px;
-  /*1*/
   border: 10px solid transparent;
-  /*2*/
   background: linear-gradient(#f32f53, #f32fc2, #4a78ef) border-box;
-  /*3*/
-  -webkit-mask:
-        /*4*/ linear-gradient(#fff 0 0) padding-box,
-    linear-gradient(#fff 0 0);
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   padding-top: 50px;
   padding-bottom: 20px;
   height: 465px;

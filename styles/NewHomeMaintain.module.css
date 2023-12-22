@@ -70,7 +70,6 @@
 .app4,
 .app5 {
   display: flex;
-  /* flex-direction: column; */
   flex-direction: column-reverse;
   gap: 40px;
   padding: 0 40px;
@@ -78,7 +77,6 @@
 
 .app7 {
   display: flex;
-  /* flex-direction: column; */
   flex-direction: column-reverse;
   gap: 40px;
 }
@@ -114,16 +112,12 @@
   margin: 0 auto;
   text-align: center;
   color: #fff;
-  /* height: 65px; */
   overflow: auto;
 }
 
 .app2 {
   border-radius: 30px;
-  /*1*/
   background-color: transparent;
-  /* padding-top: 50px;
-    padding-bottom: 20px; */
   height: 531px;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -205,7 +199,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 50px;
-  /* padding-bottom: 20px; */
   height: 531px;
 }
 
@@ -407,10 +400,6 @@
   .app6 {
     background-image: url(../public/newHomePage/images/mobileimages/newMaintain7.png);
   }
-
-  /* .app7{
-    background-image: url(../public/newHomePage/images/mobileimages/newMaintain8.png);
-  } */
 
   .pick {
     display: flex;

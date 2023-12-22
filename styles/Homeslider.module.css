@@ -1,17 +1,17 @@
-.peace{
+.peace {
   background-color: #f5f5ff;
   padding-top: 100px;
-
 }
 
-.slider, .view1sec{
-  background-color: #F5F5FF;
+.slider,
+.view1sec {
+  background-color: #f5f5ff;
 }
 
-.view{
+.view {
   width: 207px;
   height: 57px;
-  background-color: #F32F53;
+  background-color: #f32f53;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,16 +24,9 @@
   margin-top: 5%;
 }
 
-@media screen and (max-width: 1200px) { 
-
+@media screen and (max-width: 1200px) {
   .peace {
     background-color: unset;
     padding-top: 100px;
-}
-
-}
-
-@media screen and (max-width: 767px) {  
-
-
+  }
 }

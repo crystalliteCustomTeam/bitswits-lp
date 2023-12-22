@@ -104,7 +104,6 @@
 .app44,
 .app55 {
   display: flex;
-  /* flex-direction: column; */
   flex-direction: column-reverse;
   gap: 40px;
   padding: 0 40px;
@@ -112,7 +111,6 @@
 
 .app7 {
   display: flex;
-  /* flex-direction: column; */
   flex-direction: column-reverse;
   gap: 40px;
   justify-content: flex-end;
@@ -149,16 +147,12 @@
   margin: 0 auto;
   text-align: center;
   color: #fff;
-  /* height: 65px; */
   overflow: auto;
 }
 
 .app2 {
   border-radius: 30px;
-  /*1*/
   background-color: transparent;
-  /* padding-top: 50px;
-    padding-bottom: 20px; */
   height: 531px;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -237,7 +231,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 50px;
-  /* padding-bottom: 20px; */
   height: 531px;
 }
 

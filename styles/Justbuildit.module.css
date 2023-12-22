@@ -1,4 +1,4 @@
-.paddingBottom{
+.paddingBottom {
   padding-bottom: 150px !important;
 }
 
@@ -93,9 +93,8 @@
 }
 
 @media screen and (max-width: 767px) {
-
-  .justforpop{
-    padding-top: 50px!important;
+  .justforpop {
+    padding-top: 50px !important;
   }
 
   .slide {

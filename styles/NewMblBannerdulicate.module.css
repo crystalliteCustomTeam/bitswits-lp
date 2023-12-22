@@ -7,10 +7,9 @@
   background-size: contain;
 }
 
-.postnuture{
+.postnuture {
   margin-top: 12%;
 }
-
 
 .just {
   color: white;
@@ -246,8 +245,6 @@
 /* =========================================== */
 
 @media screen and (max-width: 1400px) {
- 
-
   .just {
     font-size: 16px;
     line-height: 26px;
@@ -306,8 +303,7 @@
 }
 
 @media screen and (max-width: 767px) {
-
-  .postnuture{
+  .postnuture {
     margin-top: 55%;
   }
 

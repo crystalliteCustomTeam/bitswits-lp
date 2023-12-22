@@ -13,24 +13,17 @@
   color: #f32f53;
 }
 
-/* .game2d {
-  padding: 100px 0 200px;
-} */
-
 .gameApp {
-  /* padding: 50px 0 250px; */
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
 .gameNft {
-  /* padding: 150px 0 200px; */
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
 .gameBlckChain {
-  /* padding: 200px 0 0; */
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -50,12 +43,6 @@
   font-weight: 600;
   margin-bottom: 0;
 }
-
-/* .home h2 {
-  background-image: linear-gradient(to right, #f32f53, #4a78ef);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
 
 .about {
   width: 230px;

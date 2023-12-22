@@ -4,33 +4,31 @@
   background-image: url(../public/images/case-studies/case-crave/banner-bg.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  
 }
 
-.postnuture{
+.postnuture {
   margin-top: 12%;
 }
 
-
-.formalign input{
+.formalign input {
   border: 2px solid #e83468;
-    width: 20%;
-    height: 50px;
-    padding: 0 10px;
-    font-size: 14px;
-    color: #000;
-    font-weight: 500;
+  width: 20%;
+  height: 50px;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
 }
-.formalign button{
+.formalign button {
   width: 15%;
-    border: inherit;
-    height: 51px;
-    padding: 0;
-    font-size: 16px;
-    font-weight: 700;
-    color: white;
-    background-color: #e83468;
-    letter-spacing: 1px;
+  border: inherit;
+  height: 51px;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color: #e83468;
+  letter-spacing: 1px;
 }
 
 .formalign {
@@ -43,7 +41,7 @@
 
 .just {
   color: white;
-  font-size: 20px!important;
+  font-size: 20px !important;
   line-height: 26px;
   width: fit-content;
   margin: 0 auto;
@@ -58,7 +56,6 @@
 }
 
 .develop {
-
   color: white;
   max-width: 95%;
   margin: 0 auto;
@@ -287,21 +284,19 @@
 
 /* =========================================== */
 
-
 @media screen and (max-width: 991px) {
-
   .just {
-    font-size: 15px!important;
+    font-size: 15px !important;
   }
-
 
   .formalign {
     justify-content: center;
     flex-direction: column;
-}
-.formalign input, .formalign button {
-  width: 50%;
-}
+  }
+  .formalign input,
+  .formalign button {
+    width: 50%;
+  }
 
   .just {
     font-size: 18px;
@@ -352,8 +347,7 @@
 }
 
 @media screen and (max-width: 767px) {
-
-  .postnuture{
+  .postnuture {
     margin-top: 55%;
   }
 
@@ -405,16 +399,13 @@
   }
 }
 
-
-
-@media screen and (max-width: 480px) { 
-
+@media screen and (max-width: 480px) {
   .just {
-    font-size: 13px!important;
-}
+    font-size: 13px !important;
+  }
 
-.formalign input, .formalign button {
-  width: 100%;
-}
-
+  .formalign input,
+  .formalign button {
+    width: 100%;
+  }
 }

@@ -34,7 +34,6 @@
   padding-left: 3%;
   padding-bottom: 5%;
   padding-right: 2%;
-  /* border-image: linear-gradient(90deg, #4a78ef, #f32fc2, #f32f53) 30; */
   border-width: 1px;
   border-style: solid;
   border-color: #707070;
@@ -42,7 +41,6 @@
 }
 
 .game h2 {
-  /* font-size: 50px; */
   font-weight: bold;
   color: white;
   line-height: 1.2;
@@ -62,7 +60,6 @@
 .tested img {
   position: absolute;
   max-width: 650px;
-  /* max-height: 650px; */
   bottom: -40px;
   z-index: 1;
 }

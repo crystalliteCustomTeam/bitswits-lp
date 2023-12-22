@@ -10,7 +10,7 @@
   background-size: contain;
 }
 
-.secImagebg{
+.secImagebg {
   margin-top: -95px;
 }
 
@@ -52,12 +52,10 @@
   display: block;
 }
 
-@media screen and (max-width: 1399px) { 
-
+@media screen and (max-width: 1399px) {
   .secImage {
     margin-top: 4%;
-}
-
+  }
 }
 @media screen and (max-width: 1200px) {
   .secImage {
@@ -65,7 +63,6 @@
     object-fit: contain;
     max-height: 400px;
   }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -86,5 +83,4 @@
   .newHomeBg {
     padding-bottom: 100px;
   }
-
 }

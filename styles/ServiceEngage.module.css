@@ -1,7 +1,3 @@
-/* .paddingTop {
-  padding-top: 150px !important;
-} */
-
 .engage {
   background-color: black;
   padding-top: 80px;
@@ -24,7 +20,6 @@
 }
 
 .forget h2 {
-  /* font-size: 50px; */
   font-weight: bold;
   color: white;
   text-align: center;

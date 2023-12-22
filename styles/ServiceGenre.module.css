@@ -97,7 +97,6 @@
 .gameApp .which::after {
   position: absolute;
   content: "";
-  /* background-image: url(../public/gameicon/light.png); */
   background-size: cover;
   background-repeat: no-repeat;
   width: 383px;
@@ -149,7 +148,6 @@
 }
 
 @media screen and (max-width: 767px) {
-
   .ourserve {
     padding-bottom: 0px;
   }
