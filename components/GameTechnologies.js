@@ -1,7 +1,8 @@
 import React from 'react'
-import styles from '@/styles/GameTechnologies.module.css'
-import { Container, Row, Col } from 'react-bootstrap'
 import Image from 'next/image'
+import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/GameTechnologies.module.css'
+//
 import icon1 from '../public/blockchaindevelopment/images/1.png'
 import icon2 from '../public/blockchaindevelopment/images/2.png'
 import icon3 from '../public/blockchaindevelopment/images/3.png'
@@ -10,6 +11,7 @@ import icon5 from '../public/blockchaindevelopment/images/5.png'
 import icon6 from '../public/blockchaindevelopment/images/6.png'
 import icon7 from '../public/blockchaindevelopment/images/7.png'
 import icon8 from '../public/blockchaindevelopment/images/8.png'
+
 
 const GameTechnologies = () => {
 

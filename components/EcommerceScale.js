@@ -1,12 +1,11 @@
 import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 import { Col, Container, Row } from 'react-bootstrap'
 import styles from '@/styles/Ecommerce.module.css'
-import Image from 'next/image'
-
 ///
 import Map from 'public/ecommerce/map.webp'
 import Mobile from 'public/ecommerce/mobiles.webp'
-import Link from 'next/link'
 
 
 const EcommerceScale = () => {

@@ -1,11 +1,12 @@
 import React from 'react'
-import { Button, Col, Container, Form, Row } from 'react-bootstrap'
 import Image from 'next/image'
+import Link from 'next/link';
+import { Button, Col, Container, Form, Row } from 'react-bootstrap'
 import styles from "@/styles/ecommercebanner.module.css";
+//
+import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-
 //images
 import logo from '../public/images/icons/footerlogo.png'
 import checkImage from 'public/ecommerce/w-check.svg'
@@ -24,8 +25,7 @@ import banImg5 from '../public/newHomePage/images/slider5.png'
 import banImg6 from '../public/newHomePage/images/slider6.png'
 import banImg7 from '../public/newHomePage/images/slider7.png'
 import banImg8 from '../public/newHomePage/images/slider8.png'
-import Slider from 'react-slick';
-import Link from 'next/link';
+
 
 const EcommerceBanner = () => {
 

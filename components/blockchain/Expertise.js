@@ -1,10 +1,9 @@
 import React from 'react'
+import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap';
 import style from '@/styles/blockchain/Expertise.module.css';
-import Image from 'next/image';
-import Link from 'next/link';
-import CTA from '@/components/blockchain/cta';
-// import Ethereum from '../public/images/Ethereum.png';
+import Slider from "react-slick";
+// 
 import Polygon from '@/public/blockchain/images/Polygon.png';
 import Binance from '@/public/blockchain/images/binance.png';
 import Hyperledger from '@/public/blockchain/images/hyperledger.png';
@@ -14,7 +13,7 @@ import Avalanche from '@/public/blockchain/images/Avalanche.png';
 import Polkadot from '@/public/blockchain/images/Polkadot.png';
 import Ethereum from '@/public/blockchain/images/Ethereum.png';
 import NearProtocol from '@/public/blockchain/images/NearProtocol.png';
-import Slider from "react-slick";
+
 
 const Expertise = (props) => {
 

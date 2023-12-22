@@ -10,6 +10,8 @@ import { RxCross2 } from 'react-icons/rx'
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
 import { BsFillEnvelopeFill } from 'react-icons/bs'
 import { BsFillTelephoneFill } from 'react-icons/bs'
+//
+import Bitswitspopup from '../components/Bitswitspopup'
 // images
 import logo from '../public/images/icons/footerlogo.png'
 import mbllogo from '../public/images/icons/footerlogo.png'
@@ -35,8 +37,6 @@ import ready from '../public/images/icons/ready.png'
 import scribe from '../public/images/icons/scribe.png'
 import sponsord from '../public/images/icons/sponsord.png'
 import newImg from '../public/images/1.jpg'
-//
-import Bitswitspopup from '../components/Bitswitspopup'
 
 
 const Header = () => {
@@ -177,12 +177,6 @@ const Header = () => {
                                                                             <span>Cross Platform App Development</span>
                                                                         </Link>
                                                                     </li>
-                                                                    {/* <li>
-                                                                        <Link onClick={handleMenu} href='/web-app-development'>
-                                                                            <FaAngleRight />
-                                                                            <span>Web App Development</span>
-                                                                        </Link>
-                                                                    </li> */}
                                                                 </ul>
                                                             </Col>
                                                         </Row>
@@ -231,7 +225,7 @@ const Header = () => {
                                                                             <span>Web App Development</span>
                                                                         </Link>
                                                                     </li>
-                                                                    
+
 
 
                                                                     <div className={`${styles.listHeading} ${styles.neuport}`}>
@@ -249,9 +243,9 @@ const Header = () => {
                                                                             <span>Blockchain Development</span>
                                                                         </Link>
                                                                     </li>
-                                                                    
 
-                                                                    
+
+
                                                                 </ul>
 
                                                             </Col>
@@ -314,24 +308,6 @@ const Header = () => {
                                                                                             <span>Blockchain Game Development</span>
                                                                                         </Link>
                                                                                     </li>
-                                                                                    {/* <li>
-                                                                                        <Link onClick={handleMenu} href='#'>
-                                                                                            <FaAngleRight />
-                                                                                            <span>Game Development</span>
-                                                                                        </Link>
-                                                                                    </li>
-                                                                                    <li>
-                                                                                        <Link onClick={handleMenu} href='#'>
-                                                                                            <FaAngleRight />
-                                                                                            <span>2D Art</span>
-                                                                                        </Link>
-                                                                                    </li>
-                                                                                    <li>
-                                                                                        <Link onClick={handleMenu} href='#'>
-                                                                                            <FaAngleRight />
-                                                                                            <span>3D Art</span>
-                                                                                        </Link>
-                                                                                    </li> */}
                                                                                 </ul>
                                                                             </Col>
                                                                         </Row>
@@ -613,7 +589,7 @@ const Header = () => {
                                     </Col>
                                     <Col lg={4}>
                                         <div className={styles.boxSpace}>
-                                        <div className={styles.workBox}>
+                                            <div className={styles.workBox}>
                                                 <Image alt="bitswits"
                                                     src={foods}
 

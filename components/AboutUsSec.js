@@ -2,7 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '@/styles/About.module.css'
-import { Container, Row, Col, Button } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -16,7 +17,6 @@ import phone6 from '../public/images/aboutslider/phone6.svg'
 import phone7 from '../public/images/aboutslider/phone7.svg'
 import phone8 from '../public/images/aboutslider/phone8.svg'
 import phone9 from '../public/images/aboutslider/phone9.svg'
-
 
 
 const AboutUsSec = () => {

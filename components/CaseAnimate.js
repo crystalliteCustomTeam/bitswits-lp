@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from '@/styles/CaseAnimate.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/CaseAnimate.module.css'
 
 
 const CaseAnimate = (props) => {

@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '@/styles/Appmaking.module.css'
 import { Row, Col, Container } from 'react-bootstrap'
+import styles from '@/styles/Appmaking.module.css'
 // images
 import logo1 from '../public/images/logoservices/1.png'
 import logo2 from '../public/images/logoservices/2.png'
@@ -13,14 +13,7 @@ import logo6 from '../public/images/logoservices/6.png'
 import line2345 from '../public/images/logoservices/line2345.png'
 
 
-
-
 const Appmaking = () => {
-
-
-
-
-
     return (
         <>
             <section className={styles.appmaking} id='technofair'>
@@ -60,7 +53,7 @@ const Appmaking = () => {
                                 <div class={`${styles.noroow2} ${styles.noroow1}`}>
                                     <Image alt='BitsWits' src={logo5} className='img-fluid' />
                                     <Image alt='BitsWits' src={logo6} className='img-fluid' />
-                                 
+
 
                                 </div>
                                 <h3 class="white font24 f-700 mt-4 mb-4">Native App Development</h3>
@@ -74,7 +67,7 @@ const Appmaking = () => {
                                     <li class="white mt-3 mb-5">Robust & Adaptable Mobile Application.</li>
                                 </ul>
                                 <div>
-                                <Link href='#' className={styles.live1}>Call Now: 111-2222-333</Link>
+                                    <Link href='#' className={styles.live1}>Call Now: 111-2222-333</Link>
                                 </div>
                             </div>
                         </Col>
@@ -84,9 +77,6 @@ const Appmaking = () => {
                 </Container>
                 <div class={styles.post}></div>
             </section>
-
-
-
         </>
     )
 }

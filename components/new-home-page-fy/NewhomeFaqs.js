@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { useState } from "react";
 import Image from 'next/image'
-import { useState } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from './NewhomeFaqs.module.css'
 //
@@ -166,7 +165,7 @@ const NewhomeFaqs = () => {
                         </Col>
                     </Row>
 
-                
+
                 </Container>
             </section>
         </>

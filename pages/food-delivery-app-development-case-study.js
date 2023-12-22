@@ -17,28 +17,22 @@ const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 //images
 const banLogo = await import('../public/images/case-studies/case-crave/banner-logo.png');
 const banImg = await import('../public/images/case-studies/case-crave/banner-img.png');
-//
 const slide1 = await import('../public/images/case-studies/case-crave/slide1.png');
 const slide2 = await import('../public/images/case-studies/case-crave/slide2.png');
 const slide3 = await import('../public/images/case-studies/case-crave/slide3.png');
 const slide4 = await import('../public/images/case-studies/case-crave/slide4.png');
-//
 const features = await import('../public/images/case-studies/case-crave/features.png');
 const faced = await import('../public/images/case-studies/case-crave/faced.png');
 const tackling = await import('../public/images/case-studies/case-crave/tackling.png');
-//
 const goalImg = await import('../public/images/case-studies/case-crave/goal.png');
-//
 const animiImg1 = await import('../public/images/case-studies/case-crave/animi1.png');
 const animiImg2 = await import('../public/images/case-studies/case-crave/animi2.png');
 const animiImg3 = await import('../public/images/case-studies/case-crave/animi3.png');
-//
 const service1 = await import('../public/images/case-studies/case-crave/service1.png');
 const service2 = await import('../public/images/case-studies/case-crave/service2.png');
 const service3 = await import('../public/images/case-studies/case-crave/service3.png');
 const service4 = await import('../public/images/case-studies/case-crave/service4.png');
 const service5 = await import('../public/images/case-studies/case-crave/service5.png');
-//
 const chosImg1 = await import('../public/images/lp-images/icon1.png');
 const chosImg2 = await import('../public/images/lp-images/icon2.png');
 const chosImg3 = await import('../public/images/lp-images/icon3.png');
@@ -49,23 +43,14 @@ const chosImg7 = await import('../public/images/lp-images/icon7.png');
 const chosImg8 = await import('../public/images/lp-images/icon8.png');
 const chosImg9 = await import('../public/images/lp-images/icon9.png');
 
-
-
 export default function FoodDelivery() {
-
   const [showComponent, setShowComponent] = useState(false);
-
-
   useEffect(() => {
     const timeout = setTimeout(() => {
       setShowComponent(true);
-
-    }, 1000); // Delay duration in milliseconds (e.g., 1000ms = 1 second)
-
+    }, 1000);
     return () => clearTimeout(timeout);
   }, []);
-
-
   return (
     <>
       <Head>
@@ -74,14 +59,12 @@ export default function FoodDelivery() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
       <Banner
         banLogo={banLogo}
         title={<> Explore Flavors and Savory at Your Fingertips! </>}
         banImg={banImg}
         bannerClass='cravecourier'
       />
-
       <CaseGlamic
         textArray1={[
           {
@@ -96,19 +79,16 @@ export default function FoodDelivery() {
             ]
           },
         ]}
-
         textArray2={[
           {
             title: <>Looking For Something Similar?</>,
             text: <>Our consultants are ready to hear your idea. Request a free consultation with our app experts and transform it into a digital reality.</>,
           },
         ]}
-
         slide1={slide1}
         slide2={slide2}
         slide3={slide3}
         slide4={slide4}
-
         textArray3={[
           {
             title: <>The <span>Starting</span> Point</>,
@@ -119,7 +99,6 @@ export default function FoodDelivery() {
           },
         ]}
       />
-
       <CaseWants
         sections1={[
           {
@@ -166,13 +145,11 @@ export default function FoodDelivery() {
         wantImg3={tackling}
         lastPara={<> BitsWits' proactive approach to problem solving and constant commitment to technology refinement played an important role in ensuring the efficiency and user satisfaction. Through our vigilant problem-solving mindset, we promptly sought solutions and made sure Crave Courier stands as a leading app in the food delivery industry. </>}
       />
-
       <CaseGoal
         golImg={goalImg}
         title={<> Start Your App Development Journey <br /> Effortlessly; Let <span>Bitswits Be Your <br /> Savior</span> With A Quick Tap! </>}
         goalClass='cravecourier'
       />
-
       <CaseOvercoming
         appData={[
           {
@@ -201,13 +178,11 @@ export default function FoodDelivery() {
           },
         ]}
       />
-
       <CaseAnimate
         animiImg1={animiImg1}
         animiImg2={animiImg2}
         animiImg3={animiImg3}
       />
-
       <CaseServices
         title={<> <span>Services:</span> For </>}
         point1={<> Native Mobile App Development </>}
@@ -219,7 +194,6 @@ export default function FoodDelivery() {
         service4={service4}
         service5={service5}
       />
-
       <CaseChoose
         title={<> <span>Why Trust <br /> BitsWits</span> with App <br /> Development? </>}
         text1={<> We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions. </>}
@@ -263,7 +237,6 @@ export default function FoodDelivery() {
           }
         ]}
       />
-
       <CaseGlobal />
       <CaseCapabilities />
       <Nothing Nothing="nothingCase" />

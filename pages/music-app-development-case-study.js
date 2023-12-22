@@ -17,28 +17,22 @@ const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 //images
 const banLogo = await import('../public/images/case-studies/case-beats/banner-logo.png');
 const banImg = await import('../public/images/case-studies/case-beats/banner-img.png');
-//
 const slide1 = await import('../public/images/case-studies/case-beats/slide1.png');
 const slide2 = await import('../public/images/case-studies/case-beats/slide2.png');
 const slide3 = await import('../public/images/case-studies/case-beats/slide3.png');
 const slide4 = await import('../public/images/case-studies/case-beats/slide4.png');
-//
 const features = await import('../public/images/case-studies/case-beats/features.png');
 const faced = await import('../public/images/case-studies/case-beats/faced.png');
 const tackling = await import('../public/images/case-studies/case-beats/tackling.png');
-//
 const goalImg = await import('../public/images/case-studies/case-beats/goal.png');
-//
 const animiImg1 = await import('../public/images/case-studies/case-beats/animi1.png');
 const animiImg2 = await import('../public/images/case-studies/case-beats/animi2.png');
 const animiImg3 = await import('../public/images/case-studies/case-beats/animi3.png');
-//
 const service1 = await import('../public/images/case-studies/case-beats/service1.png');
 const service2 = await import('../public/images/case-studies/case-beats/service2.png');
 const service3 = await import('../public/images/case-studies/case-beats/service3.png');
 const service4 = await import('../public/images/case-studies/case-beats/service4.png');
 const service5 = await import('../public/images/case-studies/case-beats/service5.png');
-//
 const chosImg1 = await import('../public/images/lp-images/icon1.png');
 const chosImg2 = await import('../public/images/lp-images/icon2.png');
 const chosImg3 = await import('../public/images/lp-images/icon3.png');
@@ -49,22 +43,14 @@ const chosImg7 = await import('../public/images/lp-images/icon7.png');
 const chosImg8 = await import('../public/images/lp-images/icon8.png');
 const chosImg9 = await import('../public/images/lp-images/icon9.png');
 
-
-
 export default function Beats() {
-
   const [showComponent, setShowComponent] = useState(false);
-
-
   useEffect(() => {
     const timeout = setTimeout(() => {
       setShowComponent(true);
-
-    }, 1000); // Delay duration in milliseconds (e.g., 1000ms = 1 second)
-
+    }, 1000);  
     return () => clearTimeout(timeout);
   }, []);
-
 
   return (
     <>
@@ -74,14 +60,12 @@ export default function Beats() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
       <Banner
         banLogo={banLogo}
         title={<> Play It Loud, Play It Proud </>}
         banImg={banImg}
         bannerClass='beats'
       />
-
       <CaseGlamic
         textArray1={[
           {
@@ -119,7 +103,6 @@ export default function Beats() {
           },
         ]}
       />
-
       <CaseWants
         sections1={[
           {
@@ -162,13 +145,11 @@ export default function Beats() {
         wantImg3={tackling}
         lastPara={<> BitsWits combined the best suitable tech stack and creative design for the app The result is a music mobile application that delivers an exceptional user experience and elevates the way people enjoy and create music. </>}
       />
-
       <CaseGoal
         golImg={goalImg}
         title={<> Take A <span>Step Toward</span> Your Beauty Goals <br /> From The Comfort Of Your Couch With <br /> Just A Few <span>Taps On Our App!</span> </>}
         goalClass='beats'
       />
-
       <CaseOvercoming
         appData={[
           {
@@ -197,13 +178,11 @@ export default function Beats() {
           },
         ]}
       />
-
       <CaseAnimate
         animiImg1={animiImg1}
         animiImg2={animiImg2}
         animiImg3={animiImg3}
       />
-
       <CaseServices
         title={<> <span>Services:</span> For </>}
         point1={<> Native Mobile App Development </>}
@@ -215,7 +194,6 @@ export default function Beats() {
         service4={service4}
         service5={service5}
       />
-
       <CaseChoose
         title={<> <span>Why Trust <br /> BitsWits</span> with App <br /> Development? </>}
         text1={<> We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions. </>}
@@ -259,7 +237,6 @@ export default function Beats() {
           }
         ]}
       />
-
       <CaseGlobal />
       <CaseCapabilities />
       <Nothing Nothing="nothingCase" />

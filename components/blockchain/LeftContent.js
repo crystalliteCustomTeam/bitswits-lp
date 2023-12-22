@@ -1,13 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import styles from '@/styles/blockchain/leftContent.module.css';
-import Image from 'next/image';
-import Link from 'next/link';
-// import blockchain from '../public/images/blockchain.mp4';
-import phone from '@/public/blockchain/images/phone.png';
+//
 import CTA from '@/components/blockchain/cta';
-// import ReactPlayer from "react-player/lazy";
-
 
 
 const LeftContent = (props) => {
@@ -34,14 +29,7 @@ const LeftContent = (props) => {
                         <Col lg={6}>
                             <div className={styles.image}>
                                 <div className='text-center'>
-
-                                    {/* <video autoplay muted loop className={`${styles.video} img-fluid`} width={500} height={500}>         
-        <source src='/images/blockchain.mp4' type="video/mp4"/>       
-    </video> */}
-
                                     <video className={`${styles.bgVideo} img-fluid`} width={500} autoPlay muted loop src="../../../blockchain/images/starlycoin.mp4" type="video/mp4"></video>
-
-
                                 </div>
                             </div>
                         </Col>

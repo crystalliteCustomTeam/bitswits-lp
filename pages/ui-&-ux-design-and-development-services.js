@@ -1,37 +1,22 @@
 import Head from "next/head";
-import React from "react";
-import { useState, useEffect } from "react";
+import React from "react"; 
 import Image from "next/image";
-
 //components
-const ServicesBanner = React.lazy(() =>
-  import("@/components/uiuxdesigndevelopment/UIUXBanner")
-);
+const ServicesBanner = React.lazy(() => import("@/components/uiuxdesigndevelopment/UIUXBanner"));
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
-const HomeBannerSliderlp = React.lazy(() =>
-  import("@/components/HomeBannerSliderlp")
-);
-const Smarteruiux = React.lazy(() =>
-  import("@/components/uiuxdesigndevelopment/Smarteruiux")
-);
-const Provideuiux = React.lazy(() =>
-  import("@/components/uiuxdesigndevelopment/Provideuiux")
-);
-const ProjectProcess = React.lazy(() =>
-  import("@/components/ProjectProcessLp6")
-);
+const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
+const Smarteruiux = React.lazy(() => import("@/components/uiuxdesigndevelopment/Smarteruiux"));
+const Provideuiux = React.lazy(() => import("@/components/uiuxdesigndevelopment/Provideuiux"));
+const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const LpForm = React.lazy(() => import("@/components/LpForm6"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const People = React.lazy(() => import("@/components/People"));
-const UIUXTechnology = React.lazy(() =>
-  import("@/components/uiuxdesigndevelopment/UIUXTechnologies")
-);
-
+const UIUXTechnology = React.lazy(() => import("@/components/uiuxdesigndevelopment/UIUXTechnologies"));
 //images
 const BannerImage = await import("@/public/ui-ux-page/banner-img.png");
 const banImg1 = await import("../public/servnew/customweb/imgfold.png");
@@ -56,7 +41,6 @@ export default function UiUxDesign() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
       <ServicesBanner
         assignClass="UIUX"
         subtitle="Our Award-Winning"
@@ -70,15 +54,10 @@ export default function UiUxDesign() {
         }
         BannerImage={BannerImage}
       />
-
       <People People="people" />
-
       <HomeBannerSliderlp />
-
       <LpForm addresClass="iosclass" />
-
       <Nothing Nothing="nothingLp6" />
-
       <Smarteruiux
         assignClass="providebussiness"
         bottomPadding="bottomPadding"
@@ -127,7 +106,6 @@ export default function UiUxDesign() {
         ]}
         video={<Image src={poe} className="img-fluid" alt="bitswits" />}
       />
-
       <Provideuiux
         assignClass="provideuiux"
         bottomPadding="bottomPadding"
@@ -154,7 +132,6 @@ export default function UiUxDesign() {
         ]}
         video={<Image src={poe2} className="img-fluid" alt="bitswits" />}
       />
-
       <ProjectProcess
         processclass="processLp6"
         subtitle="Web Development Process"
@@ -171,17 +148,11 @@ export default function UiUxDesign() {
           </>
         }
       />
-
       <Justbuildit assignClass="justforpop" />
-
       <UIUXTechnology addresClass="tech" />
-
       <Globallplp6 bannerClass="newclassglobe" />
-
       <Partnerships />
-
       <Formnewlp />
-
       <ServicesFaqs
         faqsData={[
           {

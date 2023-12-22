@@ -3,37 +3,22 @@ import Head from "next/head";
 import Image from "next/image";
 
 //Components
-const Banner = React.lazy(() =>
-  import("@/components/new-blockchain-page-fy/BlockchainBanner")
-);
-const Provideservices = React.lazy(() =>
-  import("@/components/customwebdevelopment/Provideservices")
-);
-const SmartContract = React.lazy(() =>
-  import("@/components/customwebdevelopment/SmartContract")
-);
-const SmartTech = React.lazy(() =>
-  import("@/components/customwebdevelopment/SmartTech")
-);
-const Technology = React.lazy(() =>
-  import("@/components/customwebdevelopment/Technology")
-);
+const Banner = React.lazy(() => import("@/components/new-blockchain-page-fy/BlockchainBanner"));
+const Provideservices = React.lazy(() => import("@/components/customwebdevelopment/Provideservices"));
+const SmartContract = React.lazy(() => import("@/components/customwebdevelopment/SmartContract"));
+const SmartTech = React.lazy(() => import("@/components/customwebdevelopment/SmartTech"));
+const Technology = React.lazy(() => import("@/components/customwebdevelopment/Technology"));
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
-const HomeBannerSliderlp = React.lazy(() =>
-  import("@/components/HomeBannerSliderlp")
-);
+const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
 const LpForm = React.lazy(() => import("@/components/LpFormprops"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const People = React.lazy(() => import("@/components/People"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
-const ProjectProcess = React.lazy(() =>
-  import("@/components/ProjectProcessLp6props")
-);
-
+const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6props"));
 // Images
 const BannerImage = await import("@/public/customwebapp/mobile.png");
 const bestgloba11 = await import("/public/servnew/custom/1.png");
@@ -84,7 +69,6 @@ export default function customwebdevelopmentservices() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
       <Banner
         assignClass="customweb"
         subtitle="Our Award-Winning"
@@ -92,11 +76,8 @@ export default function customwebdevelopmentservices() {
         text={<>We’ve Got Experienced Website Developers</>}
         BannerImage={BannerImage}
       />
-
       <People People="people" />
-
       <HomeBannerSliderlp />
-
       <LpForm
         addresClass="iosclass"
         heading={`Bitswits pioneers web development innovation, crafting cutting-edge solutions that redefine the digital landscape. Our dedicated team turns your vision into a global powerhouse, prioritizing your success in the online realm. Join us for a transformative journey where technology meets excellence, and your digital presence reaches new heights. `}
@@ -123,9 +104,7 @@ export default function customwebdevelopmentservices() {
           },
         ]}
       />
-
       <Nothing Nothing="nothingLp6" />
-
       <Provideservices
         assignClass="providecustom"
         rowclas="newrowcustom"
@@ -185,7 +164,6 @@ export default function customwebdevelopmentservices() {
         ]}
         video={<Image src={peo} className="img-fluid" alt="bitswits" />}
       />
-
       <SmartContract
         assignClass="providecustom"
         title={
@@ -265,7 +243,6 @@ export default function customwebdevelopmentservices() {
           },
         ]}
       />
-
       <Provideservices
         assignClass="providecustomweb"
         title={
@@ -306,7 +283,6 @@ export default function customwebdevelopmentservices() {
         ]}
         video={<Image src={web} className="img-fluid" alt="bitswits" />}
       />
-
       <ProjectProcess
         processclass="processLp6"
         subtitle="Web Development Process"
@@ -323,7 +299,6 @@ export default function customwebdevelopmentservices() {
           </>
         }
       />
-
       <SmartTech
         assignClass="providecustom"
         title={
@@ -420,17 +395,11 @@ export default function customwebdevelopmentservices() {
           },
         ]}
       />
-
       <Justbuildit assignClass="justforpop" />
-
       <Technology addresClass="tech" /> 
-
       <Globallplp6 bannerClass="newclassglobe" />
-
       <Partnerships />
-
       <Formnewlp />
-
       <ServicesFaqs
         faqsData={[
           {

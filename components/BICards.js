@@ -1,7 +1,8 @@
 import React from "react";
-import styles from "@/styles/LpForm.module.css";
-import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
+import { Col, Container, Row } from "react-bootstrap";
+import styles from "@/styles/LpForm.module.css";
+
 
 const BICards = (props) => {
   return (

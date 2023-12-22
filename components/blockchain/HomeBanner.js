@@ -1,17 +1,12 @@
-// import Image from 'next/image';
 import React from 'react';
-// import Link from 'next/link';
 import { Col, Row } from 'react-bootstrap';
-// import Container from 'react-bootstrap/Container';
 import style from '@/styles/HomeBanner.module.css'
+
 
 function HomeBanner() {
 
     return (
         <>
-
-            {/* <div className={style.HomeBanner}> */}
-
             <div className={style.HomeBanner}>
                 <Row>
                     <Col lg={6}>

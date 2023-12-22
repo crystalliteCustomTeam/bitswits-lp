@@ -5,10 +5,6 @@ import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/AboutExpertapp.module.css";
 //images
 import icon11 from '../public/newHomePageImages/done.png'
-//
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 
 
 const appFeatures = [
@@ -32,7 +28,6 @@ const appFeatures = [
 
 
 export default function AboutExpertapp(props) {
-
 
     const mblSlider = {
         dots: false,

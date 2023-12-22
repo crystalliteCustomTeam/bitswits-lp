@@ -1,6 +1,4 @@
-import React from 'react'
-import { useState } from 'react';
-import { useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "./Industry.module.css";
@@ -23,9 +21,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
-
 const Industry = (props) => {
-
 
     const [isSliderActive, setIsSliderActive] = useState(true);
     useEffect(() => {

@@ -1,10 +1,10 @@
 import React from 'react'
+import Image from 'next/image'
 import { Col, Container, Row } from 'react-bootstrap'
 import styles from '@/styles/EcommerceExperience.module.css'
-
 ///
 import ExperienceOne from 'public/ecommerce/experience1.svg'
-import Image from 'next/image'
+
 
 const EcommerceExperience = () => {
     return (

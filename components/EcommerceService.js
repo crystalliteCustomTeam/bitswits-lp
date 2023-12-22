@@ -1,10 +1,8 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
-import styles from '@/styles/EcommerceService.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-
-
+import { Col, Container, Row } from 'react-bootstrap'
+import styles from '@/styles/EcommerceService.module.css'
 ////
 import service1 from 'public/ecommerce/service1.svg'
 import service2 from 'public/ecommerce/service2.svg'

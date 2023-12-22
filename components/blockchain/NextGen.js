@@ -1,20 +1,15 @@
 import React from 'react'
+import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap';
 import style from '@/styles/blockchain/Revolution.module.css';
-import Image from 'next/image';
-import Link from 'next/link';
+//
 import CTA from '../../components/blockchain/cta';
-// import posters from '../public/images/poster.svg';
-// import phone from '../public/images/phone.svg';
-// import blockchain from '../public/images/blockchain.png';
-// import appdev from '../public/images/app-dev.png'
-// import technology from '../public/images/technology.png'
-// import bitcoin from '../public/images/bitcoin.png'
-// import nft from '../public/images/nft.png'
-// import vid from '../public/images/video.mp4'
+//
 import poster from '@/public/blockchain/images/cube.png'
 
+
 const NextGen = (props) => {
+
     return (
         <>
             <section className={style.secPad}>

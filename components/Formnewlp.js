@@ -36,7 +36,7 @@ const Formnewlp = () => {
                                 <input type='email' name='email' required className='form-control mt-3' placeholder="Enter your Email"></input>
                                 <textarea placeholder='Comment' className='form-control mt-3'></textarea>
                                 <input type='submit' name='submit' className={styles.value} placeholder="Submit"></input>
-                               
+
                             </form>
                         </Col>
                     </Row>

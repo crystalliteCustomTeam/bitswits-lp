@@ -15,7 +15,6 @@
 .newHomeBg {
   padding: 70px 0 0px;
   background: #000;
-  /* background-image: url(../public/newHomePageImages/bg1.png); */
   background-position: 45% 12%;
   background-repeat: no-repeat;
   background-size: inherit;
@@ -167,10 +166,6 @@
 .gameApp .banImg {
   padding-bottom: 30px;
 }
-
-/* .game2d .banImg {
-    padding-bottom: 50px;
-  } */
 
 .game3d .banImg {
   margin-top: -10px;

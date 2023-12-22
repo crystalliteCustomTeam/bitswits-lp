@@ -1,45 +1,24 @@
 import React from "react";
 import Head from "next/head";
-
 // Components
-const Banner = React.lazy(() =>
-  import("@/components/new-blockchain-page-fy/BlockchainBanner")
-);
-const Provideservices = React.lazy(() =>
-  import("@/components/new-blockchain-page-fy/Provideservices")
-);
-const Intelligence = React.lazy(() =>
-  import("@/components/new-blockchain-page-fy/Intelligence")
-);
-const SmartContract = React.lazy(() =>
-  import("@/components/new-blockchain-page-fy/SmartContract")
-);
-const CustomBlockchainSolutions = React.lazy(() =>
-  import("@/components/new-blockchain-page-fy/CustomBlockchainSolutions")
-);
-const Hand = React.lazy(() =>
-  import("@/components/new-blockchain-page-fy/Hand")
-);
-const Nftservices = React.lazy(() =>
-  import("@/components/new-blockchain-page-fy/Nftservices")
-);
-const Technology = React.lazy(() =>
-  import("@/components/new-blockchain-page-fy/Technology")
-);
+const Banner = React.lazy(() => import("@/components/new-blockchain-page-fy/BlockchainBanner"));
+const Provideservices = React.lazy(() => import("@/components/new-blockchain-page-fy/Provideservices"));
+const Intelligence = React.lazy(() => import("@/components/new-blockchain-page-fy/Intelligence"));
+const SmartContract = React.lazy(() => import("@/components/new-blockchain-page-fy/SmartContract"));
+const CustomBlockchainSolutions = React.lazy(() => import("@/components/new-blockchain-page-fy/CustomBlockchainSolutions"));
+const Hand = React.lazy(() => import("@/components/new-blockchain-page-fy/Hand"));
+const Nftservices = React.lazy(() => import("@/components/new-blockchain-page-fy/Nftservices"));
+const Technology = React.lazy(() => import("@/components/new-blockchain-page-fy/Technology"));
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
-const HomeBannerSliderlp = React.lazy(() =>
-  import("@/components/HomeBannerSliderlp")
-);
+const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
 const LpForm = React.lazy(() => import("@/components/LpFormprops"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const People = React.lazy(() => import("@/components/People"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
-
-
 // Images
 const BannerImage = await import("@/public/blockchainfynew/banner.png");
 const bestgloba11 = await import("/public/servnew/1.png");
@@ -51,7 +30,6 @@ const mbestgloba13 = await import("/public/moniter/3.png");
 const mbestgloba14 = await import("/public/moniter/4.png");
 const mbestgloba15 = await import("/public/moniter/5.png");
 const mbestgloba16 = await import("/public/moniter/6.png");
-
 export default function blockchaindevelopmentservices() {
   return (
     <>
@@ -64,7 +42,6 @@ export default function blockchaindevelopmentservices() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
       <Banner
         assignClass="awardpost"
         subtitle="Our Award-Winning"
@@ -78,18 +55,13 @@ export default function blockchaindevelopmentservices() {
         }
         BannerImage={BannerImage}
       />
-
       <People People="people" />
-
       <HomeBannerSliderlp />
-
       <LpForm
         addresClass="iosclass"
         heading={`At Bitswits, we're pioneers in blockchain innovation. Our dedicated team crafts cutting-edge solutions that redefine the digital landscape. From smart contracts to decentralized apps, we turn your vision into a global powerhouse. Join us for a transformative journey where technology meets excellence, and your success in the blockchain realm is our priority.`}
       />
-
       <Nothing Nothing="nothingLp6" />
-
       <Provideservices
         assignClass="provideserv"
         title={
@@ -155,7 +127,6 @@ export default function blockchaindevelopmentservices() {
           ></video>
         }
       />
-
       <SmartContract
         assignClass="provideserv"
         title={
@@ -217,27 +188,17 @@ export default function blockchaindevelopmentservices() {
           },
         ]}
       />
-
       <Intelligence assignClass="provideserv" />
-
       <Hand assignClass="provideserv" />
-
       <CustomBlockchainSolutions assignClass="provideserv" />
-
       <div className="bgtext">
         <Nftservices assignClass="provideserv" />
       </div>
-
       <Justbuildit assignClass="justforpop" />
-
       <Technology addresClass="tech" />
-
       <Globallplp6 bannerClass="newclassglobe" />
-
       <Partnerships />
-
       <Formnewlp />
-
       <ServicesFaqs
         faqsData={[
           {

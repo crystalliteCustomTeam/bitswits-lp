@@ -1,24 +1,19 @@
-import React from "react";
-import Link from "next/link";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./Intelligence.module.css";
-
+//
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+//
 import bestgloba11 from '../../public/newpostlongserve/1.png'
 import bestgloba12 from '../../public/newpostlongserve/2.png'
 import bestgloba13 from '../../public/newpostlongserve/3.png'
 import videopic from '../../public/newpostlongserve/mobile.png'
 
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { useState } from "react";
-import { useEffect } from "react";
-
 
 const Intelligence = (props) => {
-
-
 
     const [isSliderActive, setIsSliderActive] = useState(true);
     useEffect(() => {
@@ -113,7 +108,7 @@ const Intelligence = (props) => {
                                         </div>
                                     </div>
                                     <div className={styles.blocknew}>
-                                    <div className="mb-4">
+                                        <div className="mb-4">
                                             <Image src={bestgloba12} alt="bitswits" />
                                         </div>
                                         <div>
@@ -122,7 +117,7 @@ const Intelligence = (props) => {
                                         </div>
                                     </div>
                                     <div className={styles.blocknew}>
-                                    <div className="mb-4">
+                                        <div className="mb-4">
                                             <Image src={bestgloba13} alt="bitswits" />
                                         </div>
                                         <div>

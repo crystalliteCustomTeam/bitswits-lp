@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '@/styles/ClientsThink2.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/ClientsThink2.module.css'
 import Slider from 'react-slick'
 //images
 import slideImg1 from '../public/images/clients/client1.png'
@@ -11,6 +11,7 @@ import slideImg3 from '../public/images/clients/client3.png'
 import slideImg4 from '../public/images/clients/client4.png'
 import slideImg5 from '../public/images/clients/client5.png'
 import slidebefore from '../public/images/clients/stars.png'
+
 
 function ClientsThink() {
 
@@ -47,11 +48,6 @@ function ClientsThink() {
                                 Feedback From <span className='grdiant'>Our Valued Clients!</span>
                             </h2>
                         </Col>
-                        {/* <Col lg={3}>
-                            <Link className={`${styles.bttns1} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
-                                View All
-                            </Link>
-                        </Col> */}
                         <Col lg={12}>
                             <div className='mt-5'>
                                 <Slider {...clientsthink} className={`${styles.clintSlider} clintSlider`}>

@@ -1,78 +1,43 @@
-import Formnewlp from "@/components/Formnewlp";
-import Globallp6 from "@/components/GlobalLp6";
-import HomeBannerSlider from "@/components/HomeBannerSliderlp";
-import Justbuildit from "@/components/Justbuildit";
-import LpChoose from "@/components/LpChoose";
-import LpForm from "@/components/LpForm6";
-import Technologieswe from "@/components/NewMblTechnologiesWe";
-import Nothing from "@/components/Nothing";
-import Partnerships from "@/components/Partnerships";
-import People from "@/components/People";
 import Head from "next/head";
 import React from "react";
+import { useState } from "react";
+import { useEffect } from "react";
 //components
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
-const ServicesAdvantage = React.lazy(() =>
-  import("@/components/ServicesAdvantage")
-);
+const ServicesAdvantage = React.lazy(() => import("@/components/ServicesAdvantage"));
 const ServiceTarget = React.lazy(() => import("@/components/ServiceTarget"));
-const ServicesMaintain = React.lazy(() =>
-  import("@/components/ServicesMaintain")
-);
-const NewAddress = React.lazy(() => import("@/components/NewAddress"));
-const ServiceExperience = React.lazy(() =>
-  import("@/components/ServiceExperience")
-);
-const ServiceSolutions = React.lazy(() =>
-  import("@/components/ServiceSolutions")
-);
+const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
+const ServiceExperience = React.lazy(() => import("@/components/ServiceExperience"));
+const ServiceSolutions = React.lazy(() => import("@/components/ServiceSolutions"));
 const ServiceGenre = React.lazy(() => import("@/components/ServiceGenre"));
 const Capabilities3d = React.lazy(() => import("@/components/3dCapabilities"));
 const ServiceEngage = React.lazy(() => import("@/components/ServiceEngage"));
-const NewHomeAbout = React.lazy(() => import("@/components/NewHomePageAbout"));
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
-const Technologieswe2dgame = React.lazy(() =>
-  import("@/components/Technologieswe2dgame")
-);
-const NewHomeGlobal = React.lazy(() => import("@/components/NewHomeGlobal"));
-const NewHomeSlider = React.lazy(() => import("@/components/NewHomeSlider"));
-const Homenextproject = React.lazy(() =>
-  import("@/components/Homenextproject")
-);
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
+const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
+const Globallp6 = React.lazy(() => import("@/components/GlobalLp6"));
+const HomeBannerSlider = React.lazy(() => import("@/components/HomeBannerSliderlp"));
+const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
+const LpChoose = React.lazy(() => import("@/components/LpChoose"));
+const LpForm = React.lazy(() => import("@/components/LpForm"));
+const Technologieswe = React.lazy(() => import("@/components/NewMblTechnologiesWe"));
+const Nothing = React.lazy(() => import("@/components/Nothing"));
+const Partnerships = React.lazy(() => import("@/components/Partnerships"));
+const People = React.lazy(() => import("@/components/People"));
+
 //images
-const BannerImage = await import(
-  "@/public/3d-game-development/images/bannerImage.png"
-);
-const AdvantageOne = await import(
-  "../public/3d-game-development/images/advantage1.png"
-);
-const Solution = await import(
-  "../public/3d-game-development/images/solution.png"
-);
-const gameicon1 = await import(
-  "@/public/3d-game-development/images/gameicon1.png"
-);
-const gameicon2 = await import(
-  "@/public/3d-game-development/images/gameicon2.png"
-);
-const gameicon3 = await import(
-  "@/public/3d-game-development/images/gameicon3.png"
-);
+const BannerImage = await import("@/public/3d-game-development/images/bannerImage.png");
+const AdvantageOne = await import("../public/3d-game-development/images/advantage1.png");
+const Solution = await import("../public/3d-game-development/images/solution.png");
+const gameicon1 = await import("@/public/3d-game-development/images/gameicon1.png");
+const gameicon2 = await import("@/public/3d-game-development/images/gameicon2.png");
+const gameicon3 = await import("@/public/3d-game-development/images/gameicon3.png");
 const main = await import("@/public/3d-game-development/images/engagemain.png");
-const engIcon1 = await import(
-  "@/public/3d-game-development/images/engage1.png"
-);
-const engIcon2 = await import(
-  "@/public/3d-game-development/images/engage2.png"
-);
-const engIcon3 = await import(
-  "@/public/3d-game-development/images/engage3.png"
-);
-const engIcon4 = await import(
-  "@/public/3d-game-development/images/engage4.png"
-);
+const engIcon1 = await import("@/public/3d-game-development/images/engage1.png");
+const engIcon2 = await import("@/public/3d-game-development/images/engage2.png");
+const engIcon3 = await import("@/public/3d-game-development/images/engage3.png");
+const engIcon4 = await import("@/public/3d-game-development/images/engage4.png");
 const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
 const customios = await import("/public/3dapp/3dgameconceptart.png");
 const iphoneapp = await import("/public/3dapp/3dwebandappdevelopment.png");
@@ -81,12 +46,7 @@ const appletvappdevelopment = await import("/public/3dapp/3dgameappintegration.p
 const iphoneappdesigning = await import("/public/3dapp/3dimaginingart.png");
 const hybridiphone = await import("/public/3dapp/supportandmaintenance.png");
 
-import { useState } from "react";
-import { useEffect } from "react";
-
 const mobileApplication = () => {
-
-
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -160,10 +120,6 @@ const mobileApplication = () => {
       ],
     },
   ];
-
-
-
-
   return (
     <>
       <Head>
@@ -175,34 +131,26 @@ const mobileApplication = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
       <ServicesBanner
         assignClass="game3d"
         subtitle="AWARDED #1 GAME APP DEVELOPMENT COMPANY"
         title={
           <>
-            {" "}
-            Experience The Roller Coaster Of <br /> The Gaming World With Us!{" "}
+            Experience The Roller Coaster Of <br /> The Gaming World With Us!
           </>
         }
         text={
           <>
-            {" "}
             We deliver great results, on time and on budget. Contact us to start
-            talking about your project today!{" "}
+            talking about your project today!
           </>
         }
         BannerImage={BannerImage}
       />
-
       <People People="people" />
-
       <HomeBannerSlider />
-
       <LpForm />
-
       <Nothing Nothing="nothingLp6" />
-
       <ServicesAdvantage
         subTitle="Bounties"
         title={
@@ -222,7 +170,6 @@ const mobileApplication = () => {
         content6="It allows game developers to create a realistic world for gamers to explore. The improved graphics and rendering capabilities of 3D engines make the game look more pragmatic and believable."
         AdvantageOne={AdvantageOne}
       />
-
       <ServiceTarget
         subTitle="Features Of Our Development Endeavors"
         title={
@@ -248,8 +195,6 @@ const mobileApplication = () => {
         heading3="We Utilize Cutting-Edge Mobile Gaming Technologies!!!"
         content3="BitsWits collar the intricacies of mobile gaming technology and help develop a strategy for success. We use cutting-edge software, languages, and frameworks; you can enjoy superior graphics and sound that bring every battle, mission, or quest to life. Our innovative network protocols will keep your game running smoothly with low latency and excellent responsiveness."
       />
-
-
       {isSliderActive ? (
         <ServicesMaintain
           assignClass="game3d"
@@ -330,18 +275,13 @@ const mobileApplication = () => {
       ) : (
         <ServicesMaintainmobile severcedata={severcedata} />
       )}
-
-
       <LpChoose transform="transform" />
-
       <ServiceExperience />
-
       <ServiceSolutions
         title="Create Engaging Worlds with Our 3D Game Development Studio!"
         text="BitsWits creates highly interactive and immersive 3D games that take players on an unforgettable journey into a thrilling world of realism. Our services feature designing complex characters, environments, objects, and textures, animating scenes, creating realistic physics for game objects to interact with each other, and integrating user controls and interfaces. From designing and developing 3D models to producing and integrating game logic, we provide end-to-end solutions for creating cutting-edge gaming experiences."
         Solution={Solution}
       />
-
       <ServiceGenre
         subTitle="OUR SERVICES ARE WHERE INNOVATION MEETS PLAY"
         title="What Genre Of Games Do We Create?"
@@ -363,9 +303,7 @@ const mobileApplication = () => {
           },
         ]}
       />
-
       <Capabilities3d />
-
       <ServiceEngage
         subTitle="HIRE THE BEST; FORGET THE REST!"
         title="Why Engage BitsWits As Your Game Development Studio?"
@@ -383,149 +321,6 @@ const mobileApplication = () => {
         text4="BitsWits employs a rigorous quality assurance process to ensure that every game created meets the highest standards of excellence. This helps to guarantee an exciting and bug-free gaming experience for all players."
         engIcon4={engIcon4}
       />
-
-      {/* <NewAddress /> */}
-
-      {/* <NewHomeAbout
-        title="Our Client’s Feedback Has Been"
-        subtitle="Nothing Short Of Amazing!"
-        addClass="game3d"
-      />
-      <Newsuccess
-        subtitle="Ready For Success?"
-        maintitle="Brace Yourself for What Happens Next"
-        successSteps={[
-          {
-            number: "01",
-            title: "Talk To Our Experts",
-            text: "Contact us without obligation by email or phone and secure your free consultation.",
-            buttonText: "Connect Now!",
-            link: "#",
-          },
-          {
-            number: "02",
-            title: "Get A Quote",
-            text: "Get an exact cost breakdown structure of your app.",
-            buttonText: "Chat Now!",
-            link: "#",
-          },
-          {
-            number: "03",
-            title: "Build An MVP",
-            text: "Start your app development journey with no-obligation consultation via email and phone.",
-            buttonText: "Call Now!",
-            link: "#",
-          },
-        ]}
-      />
-      <Technologieswe2dgame />
-      <NewHomeGlobal assignClass="game3d" />
-      <NewHomeSlider />
-      <Homenextproject title="Brace yourself for an App-venture!" />
-      <ServicesFaqs
-        faqsData={[
-          {
-            question: "What is 3D game development?",
-            answer: (
-              <>
-                {" "}
-                3D game development involves creating interactive games that
-                exist within a three-dimensional space, allowing for depth and
-                perspective in gameplay. It uses 3D models, textures, and
-                animations to create realistic environments and characters.{" "}
-              </>
-            ),
-          },
-          {
-            question:
-              "What programming languages are commonly used for 3D game development?",
-            answer: (
-              <>
-                {" "}
-                Commonly used programming languages for 3D game development
-                include C++, C#, Python, and Java. Game engines like Unity and
-                Unreal Engine provide support for these languages and streamline
-                the development process.{" "}
-              </>
-            ),
-          },
-          {
-            question:
-              "What are some popular tools and engines for 3D game development?",
-            answer: (
-              <>
-                {" "}
-                1. Popular tools and engines for 3D game development
-                include:Unity <br />
-                <br />
-                2. Unreal Engine <br />
-                <br />
-                3. Blender (for 3D modeling and animation) <br />
-                <br />
-                4. Autodesk Maya (for 3D modeling and animation) <br />
-                <br />
-                5. 3ds Max (for 3D modeling and animation) <br />
-                <br />
-                ZBrush (for sculpting and texturing){" "}
-              </>
-            ),
-          },
-          {
-            question:
-              "How do I handle 3D modeling and animation in game development?",
-            answer: (
-              <>
-                {" "}
-                3D modeling involves creating the objects, characters, and
-                environments in the game, while animation involves giving
-                movement and behavior to those models. This is typically done
-                using specialized software tools like Blender, Maya, or 3ds Max.{" "}
-              </>
-            ),
-          },
-          {
-            question:
-              "What is the process for implementing physics in a 3D game?",
-            answer: (
-              <>
-                {" "}
-                Physics in 3D games involves simulating real-world physical
-                interactions, such as gravity, collisions, and forces. Game
-                engines like Unity and Unreal Engine provide built-in physics
-                engines that handle these interactions, allowing developers to
-                define properties and behaviors for game objects.{" "}
-              </>
-            ),
-          },
-          {
-            question:
-              "What are some important considerations for optimizing performance in 3D games?",
-            answer: (
-              <>
-                {" "}
-                1. Optimizing performance in 3D games is crucial for smooth
-                gameplay. Considerations include:Level of Detail (LOD): Use
-                lower-polygon models for objects that are farther away from the
-                camera.
-                <br />
-                <br />
-                2. Occlusion Culling: Hide objects that are not currently
-                visible to the camera.
-                <br />
-                <br />
-                3. Texture Compression: Use compressed textures to save memory
-                and improve loading times.
-                <br />
-                <br />
-                Efficient Rendering: Utilize techniques like frustum culling to
-                only render objects within the camera's view.{" "}
-              </>
-            ),
-          },
-        ]}
-      />
-      <HomeLocation /> */}
-
       <Newsuccess
         assignClass="spacing"
         subtitle="Ready For Success?"
@@ -554,15 +349,10 @@ const mobileApplication = () => {
           },
         ]}
       />
-
       <Technologieswe />
-
       <Justbuildit />
-
       <Globallp6 />
       <Partnerships />
-
-      {/* <NewFaqslp /> */}
       <Formnewlp />
       <ServicesFaqs
         faqsData={[

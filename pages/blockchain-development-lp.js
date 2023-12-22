@@ -35,37 +35,30 @@ export default function Home() {
   const title = (
     <span className="">
       <span className="d-block f18">
-        {" "}
         Transform <span className="f18 grdiant">Your Business</span> Idea Into
         Reality with
       </span>
       <span className="newchoose fw700 grdiant">
-        {" "}
-        <br></br> Blockchain Software Development Company{" "}
-      </span>{" "}
+        <br></br> Blockchain Software Development Company
+      </span>
     </span>
   );
-
   const hireTile = (
-    <span className="f18 fw700">
-      {" "}
+    <span className="f18 fw700"> 
       Hire <span className="f18 fw700 grdiant">Blockchain</span> Development
     </span>
   );
   const hireSubTile = (
     <span className="newchoose fw700"> Firm To Upscale Your Business </span>
   );
-
   const revTile11 = (
-    <span className="f18 fw700">
-      {" "}
+    <span className="f18 fw700"> 
       Empower <span className="f18 fw700 grdiant">Your Business</span> with
     </span>
   );
   const revSubTile = (
-    <span className="newchoose fw700 grdiant">
-      {" "}
-      Revolutionary Blockchain App Development Services{" "}
+    <span className="newchoose fw700 grdiant"> 
+      Revolutionary Blockchain App Development Services
     </span>
   );
   const revpara = (
@@ -78,17 +71,14 @@ export default function Home() {
       and profits.
     </span>
   );
-
   const NextTtitle1 = (
-    <span className="f18 fw700">
-      {" "}
+    <span className="f18 fw700"> 
       Empower <span className="f18 fw700 grdiant">Your Business</span> with
     </span>
   );
   const Nextsub = (
-    <span className="newchoose fw700 grdiant">
-      {" "}
-      Next Generational Blockchain Solution{" "}
+    <span className="newchoose fw700 grdiant"> 
+      Next Generational Blockchain Solution 
     </span>
   );
   const NextPara = (
@@ -97,14 +87,11 @@ export default function Home() {
       web3 industry to transform your business.
     </span>
   );
-
   const NextTtitle2 = (
-    <span className="newchoose fw700">
-      {" "}
-      Let’s Build <span className="grdiant">A Secure,</span> Transparent,{" "}
-      <span className="">And</span> Decentralized{" "}
-      <span className="grdiant">
-        {" "}
+    <span className="newchoose fw700"> 
+      Let’s Build <span className="grdiant">A Secure,</span> Transparent, 
+      <span className="">And</span> Decentralized 
+      <span className="grdiant"> 
         Future <br /> Together
       </span>
     </span>
@@ -115,8 +102,6 @@ export default function Home() {
       requirements and get a free quote.
     </span>
   );
-  const Image = "../public/images/poster.png";
-
   const exTitle = (
     <span className="newchoose fw700">
       Our <span className="">Expertise </span> In{" "}
@@ -130,7 +115,6 @@ export default function Home() {
       quality.
     </span>
   );
-
   const whyTitle = (
     <span className="newchoose">
       Why <span className="grdiant">Choose</span> Blocktech Brew{" "}
@@ -155,7 +139,6 @@ export default function Home() {
       we offer end-to-end blockchain development services under one roof.
     </span>
   );
-
   return (
     <>
       <Head>
@@ -166,9 +149,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Banners />
-
         <Logoslide />
-
         <LeftContent
           title={title}
           text={text}
@@ -178,15 +159,12 @@ export default function Home() {
           image={typeofbooks}
           whychooseclass="marketyourbook"
         />
-
         <Blockchain hireTile={hireTile} text={text} hireSubTile={hireSubTile} />
-
         <Revolution
           revTile1={revTile11}
           revSubTile1={revSubTile}
           revpara={revpara}
         />
-
         <NextGen
           nextTtitle1={NextTtitle1}
           nextsub={Nextsub}
@@ -194,26 +172,20 @@ export default function Home() {
           poster="true"
           poster1=""
         />
-
         <Standing />
-
         <NextGen
           nextTtitle1={NextTtitle2}
           nextPara={NextPara2}
           poster1="true"
           poster=""
         />
-
         <Expertise exTitle={exTitle} exPara={exPara} />
-
         <Process />
-
         <WhyChooseUs
           whyTitle={whyTitle}
           whySubTitle={whySubTitle}
           whyPara={whyPara}
         />
-
         <Contact newBg="newBgSpc" />
       </main>
     </>

@@ -1,15 +1,13 @@
 import React from 'react'
-import styles from "@/styles/Formnewlpnewhome.module.css";
 import Link from 'next/link'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from "@/styles/Formnewlpnewhome.module.css";
+//
 import badgelogo from '../public/images/footerimage/badgelogo.svg'
 
 
 const Formnewlpnewhome = () => {
-
-
-
 
     return (
         <>

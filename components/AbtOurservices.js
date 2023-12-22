@@ -1,10 +1,10 @@
-import React from 'react'
-import { useState } from 'react'
-import Image from 'next/image';
-import styles from '@/styles/Ourservices.module.css'
-import { Container, Row, Col } from 'react-bootstrap'
+import React, { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image';
+import { Container, Row, Col } from 'react-bootstrap'
 import Accordion from 'react-bootstrap/Accordion';
+import styles from '@/styles/Ourservices.module.css'
+//
 import icon1 from '../public/images/icons/driven.png'
 import icon2 from '../public/images/icons/perspective.png'
 import icon3 from '../public/images/icons/challenge.png'

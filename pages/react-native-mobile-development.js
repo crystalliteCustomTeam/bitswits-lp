@@ -1,86 +1,36 @@
 import Head from "next/head";
 import React from "react";
+import { useState } from "react";
+import { useEffect } from "react";
 //components
-const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
-const NewHomeAbout = React.lazy(() => import("@/components/NewHomePageAbout"));
-const ServicesMaintain = React.lazy(() =>
-  import("@/components/ServicesMaintain")
-);
-const NewAddress = React.lazy(() => import("@/components/NewAddress"));
-const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
-const ServicesWho = React.lazy(() => import("@/components/ServicesWho"));
-const ServicesWhat = React.lazy(() => import("@/components/ServicesWhat"));
-const ServisesWhy = React.lazy(() => import("@/components/ServisesWhy"));
-const ServicesPortfolio = React.lazy(() =>
-  import("@/components/ServicesPortfolio")
-);
-const Capabilities = React.lazy(() => import("@/components/Capabilities"));
+const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner")); 
+const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain")); 
+const Justbuildit = React.lazy(() => import("@/components/Justbuildit")); 
+const ServicesPortfolio = React.lazy(() => import("@/components/ServicesPortfolio")); 
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
-const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
-const NewHomeGlobal = React.lazy(() => import("@/components/NewHomeGlobal"));
-const NewHomeSlider = React.lazy(() => import("@/components/NewHomeSlider"));
-const Homenextproject = React.lazy(() =>
-  import("@/components/Homenextproject")
-);
+const Technologieswe = React.lazy(() => import("@/components/Technologieswe")); 
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
-//images
-const BannerImage = await import(
-  "@/public/reactnativedevelopment/banner_image.png"
-);
-const WhoImage = await import("@/public/reactnativedevelopment/who_image.png");
-const WhatImage = await import(
-  "@/public/reactnativedevelopment/what_Image.png"
-);
-//icons
-const icon23 = await import("../public/images/fynative/1.png");
-const icon24 = await import("../public/images/fynative/2.png");
-const icon25 = await import("../public/images/fynative/3.png");
-const icon26 = await import("../public/images/fynative/4.png");
-const icon27 = await import("../public/images/fynative/5.png");
-const icon28 = await import("../public/images/fynative/6.png");
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
-
 const People = React.lazy(() => import("@/components/People"));
-const HomeBannerSliderlp = React.lazy(() =>
-  import("@/components/HomeBannerSliderlp")
-);
+const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
 const LpChoose = React.lazy(() => import("@/components/LpChoose"));
 const LpForm = React.lazy(() => import("@/components/LpForm6"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
-const ProjectProcess = React.lazy(() =>
-  import("@/components/ProjectProcessLp6")
-);
-
-const customios = await import(
-  "../public/images/reactnativeappdevelopment/reactnativemobileappdevelopmentservices.png"
-);
-const iphoneapp = await import(
-  "../public/images/reactnativeappdevelopment/expertreactnativecodedevelopmentservices.png"
-);
-const applewatch = await import(
-  "../public/images/reactnativeappdevelopment/expertreactnativeappmaintenanceservices.png"
-);
-const appletvappdevelopment = await import(
-  "../public/images/reactnativeappdevelopment/hybridmobileappwithreactnative.png"
-);
-const iphoneappdesigning = await import(
-  "../public/images/reactnativeappdevelopment/customreactplugindevelopmentforapps.png"
-);
-const hybridiphone = await import(
-  "../public/images/reactnativeappdevelopment/customreactnativeuiuxdesignforapps.png"
-);
-
-const ServicesMaintainmobile = React.lazy(() =>
-  import("@/components/ServicesMaintainmobile")
-);
-
-import { useState } from "react";
-import { useEffect } from "react";
+const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
+const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
+//images
+const BannerImage = await import("@/public/reactnativedevelopment/banner_image.png"); 
+const customios = await import("../public/images/reactnativeappdevelopment/reactnativemobileappdevelopmentservices.png");
+const iphoneapp = await import("../public/images/reactnativeappdevelopment/expertreactnativecodedevelopmentservices.png");
+const applewatch = await import("../public/images/reactnativeappdevelopment/expertreactnativeappmaintenanceservices.png");
+const appletvappdevelopment = await import("../public/images/reactnativeappdevelopment/hybridmobileappwithreactnative.png");
+const iphoneappdesigning = await import("../public/images/reactnativeappdevelopment/customreactplugindevelopmentforapps.png");
+const hybridiphone = await import("../public/images/reactnativeappdevelopment/customreactnativeuiuxdesignforapps.png");
 
 export default function ReactNativeMobile() {
   const [isSliderActive, setIsSliderActive] = useState(true);
@@ -101,7 +51,6 @@ export default function ReactNativeMobile() {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
   const severcedata = [
     {
       classlayout: {
@@ -152,7 +101,6 @@ export default function ReactNativeMobile() {
       ],
     },
   ];
-
   return (
     <>
       <Head>
@@ -213,35 +161,25 @@ export default function ReactNativeMobile() {
         <meta name="ICBM" content="39.78373, -100.445882" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
       <ServicesBanner
         subtitle="BitsWits Is Your One-Stop Shop For"
         title={<> React Native App Development </>}
         text={
           <>
-            {" "}
             With our React Native experts, you can effortlessly create powerful,
             engaging mobile applications that perform optimally across multiple
             platforms. Our developers focus on leveraging the best of both
             worlds - the SPEED and AGILITY of native development with the
-            flexibility.{" "}
+            flexibility.
           </>
         }
         BannerImage={BannerImage}
         assignClass="react"
       />
       <People People="people" />
-
       <HomeBannerSliderlp />
-
       <LpForm addresClass="iosclass" />
-
       <Nothing Nothing="nothingLp6" />
-      {/* <NewHomeAbout
-                title="Our Client’s Feedback Has Been"
-                subtitle="Nothing Short Of Amazing!"
-            /> */}
-
       {isSliderActive ? (
         <ServicesMaintain
           assignClass="react"
@@ -261,11 +199,10 @@ export default function ReactNativeMobile() {
               title: <> Expert React Native Code Development Services </>,
               text: (
                 <>
-                  {" "}
                   Our React Native code development services ensure your app is
                   developed with clean, efficient, and high-quality code. Our
                   experienced developers ensure that your app's performance is
-                  optimized for performance and scalability.{" "}
+                  optimized for performance and scalability.
                 </>
               ),
               appclass: "app1",
@@ -287,17 +224,15 @@ export default function ReactNativeMobile() {
             {
               title: (
                 <>
-                  {" "}
-                  Custom React Plugin <br /> Development for Apps{" "}
+                  Custom React Plugin <br /> Development for Apps
                 </>
               ),
               text: (
                 <>
-                  {" "}
                   Our React Native plugin development services allow you to
                   integrate custom features into your app. We create customized
                   plugins that enhance your app's functionality and provide a
-                  unique user experience.{" "}
+                  unique user experience.
                 </>
               ),
               appclass: "app4",
@@ -305,8 +240,7 @@ export default function ReactNativeMobile() {
             {
               title: (
                 <>
-                  {" "}
-                  Custom React Native UI/UX <br /> Design for Apps{" "}
+                  Custom React Native UI/UX <br /> Design for Apps
                 </>
               ),
               text: "Our React Native UI/UX design services ensures your app has an intuitive, user-friendly interface with stunning visuals. We create customized designs for your app that look great and provide a seamless user experience.",
@@ -321,13 +255,8 @@ export default function ReactNativeMobile() {
       ) : (
         <ServicesMaintainmobile severcedata={severcedata} />
       )}
-
-      {/* <NewAddress /> */}
-
       <WeworkLp wework="weworkLp6" />
-
       <StartupsLp startups="startups" />
-
       <ProjectProcess
         processclass="processLp6"
         title="Explore Our React Native App Development Journey"
@@ -336,35 +265,17 @@ export default function ReactNativeMobile() {
   transparent and collaborative, ensuring your vision comes to life
   exactly as you imagined."
       />
-
       <Justbuildit />
-
-      {/* <ServicesWho
-                subtitle="Who we are."
-                title="We build greater futures through innovation and collective knowledge."
-                text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
-                WhoImage={WhoImage}
-            />
-            <ServicesWhat
-                subtitle="What we do."
-                title="BitsWits transforms businesses through technology."
-                text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
-                WhatImage={WhatImage}
-            /> */}
-
       <LpChoose transform="transform" />
-
       <ServicesPortfolio
         title={
           <>
-            {" "}
             Showcasing Our <span className="newfycolr">
               Creative Vision
-            </span>{" "}
+            </span>
           </>
         }
       />
-      {/* <Capabilities /> */}
       <Newsuccess
         assignClass="spacing"
         subtitle="Ready For Success?"
@@ -394,13 +305,6 @@ export default function ReactNativeMobile() {
         ]}
       />
       <Technologieswe />
-
-      {/* <NewHomeGlobal />
-            <NewHomeSlider />
-            <Homenextproject
-                title="Brace yourself for an App-venture!"
-            /> */}
-
       <Globallplp6 />
       <Partnerships />
       <Formnewlp />
@@ -410,7 +314,6 @@ export default function ReactNativeMobile() {
             question: "Is React Native good for mobile app development?",
             answer: (
               <>
-                {" "}
                 React Native is one of the most popular and widely used
                 frameworks for developing mobile apps. It provides a great
                 platform for creating natively rendered, high-performance mobile
@@ -422,7 +325,7 @@ export default function ReactNativeMobile() {
                 code once and deploy across multiple platforms, access to native
                 device features, and scalability for larger projects. All in
                 all, React Native app development agency is an excellent choice
-                for developing mobile apps.{" "}
+                for developing mobile apps.
               </>
             ),
           },
@@ -431,7 +334,6 @@ export default function ReactNativeMobile() {
               "How do you create a simple mobile app using React Native?",
             answer: (
               <>
-                {" "}
                 Creating a simple mobile app using React Native is incredibly
                 easy. With its intuitive user interface, you can get started in
                 no time! All you need to do is:
@@ -465,7 +367,7 @@ export default function ReactNativeMobile() {
                 the iOS App Store and Google Play Store. With React Native,
                 creating a simple mobile app is as easy as pie. Get started
                 today and create React app in no time! Hire react native app
-                developer to achieve business excellence.{" "}
+                developer to achieve business excellence.
               </>
             ),
           },
@@ -473,7 +375,6 @@ export default function ReactNativeMobile() {
             question: "Can we convert React web app to mobile app?",
             answer: (
               <>
-                {" "}
                 The answer is YES! We can convert React web apps to mobile apps.
                 With a little know-how, you can turn your website into an app in
                 no time. Here at BitsWits, we are experts in taking websites and
@@ -484,7 +385,7 @@ export default function ReactNativeMobile() {
                 reliable, and user-friendly, so you can trust your website is in
                 good hands. Get in touch today and let BitsWits, the best React
                 Native development company turn your web React app into a mobile
-                masterpiece!{" "}
+                masterpiece!
               </>
             ),
           },
@@ -492,7 +393,6 @@ export default function ReactNativeMobile() {
             question: "How to make React app mobile friendly?",
             answer: (
               <>
-                {" "}
                 The answer is YES! We can convert React web apps to mobile apps.
                 With a little know-how, you can turn your website into an app in
                 no time. Here at BitsWits, we are experts in taking websites and
@@ -502,7 +402,7 @@ export default function ReactNativeMobile() {
                 experience. We use React Native to create apps that are fast,
                 reliable, and user-friendly, so you can trust your website is in
                 good hands. Get in touch today and let us turn your web React
-                app into a mobile masterpiece!{" "}
+                app into a mobile masterpiece!
               </>
             ),
           },
@@ -510,7 +410,6 @@ export default function ReactNativeMobile() {
             question: "What does a React Native app developer do?",
             answer: (
               <>
-                {" "}
                 A React Native app developer is an expert in creating apps that
                 can seamlessly run on both Android and iOS mobile platforms.
                 They take advantage of the flexibility of JavaScript to create
@@ -523,7 +422,7 @@ export default function ReactNativeMobile() {
                 appearance and functionality across different devices. In short,
                 a React Native app developer is responsible for designing,
                 building, and deploying dynamic applications that are optimized
-                for performance on both Android and iOS devices.{" "}
+                for performance on both Android and iOS devices.
               </>
             ),
           },
@@ -531,8 +430,7 @@ export default function ReactNativeMobile() {
             question:
               "Why is it necessary to hire React Native app developers for businesses?",
             answer: (
-              <>
-                {" "}
+              <> 
                 Hiring React Native app developers for businesses is a smart
                 decision considering the wide range of benefits it provides.
                 With React Native, businesses can create high-quality
@@ -548,7 +446,7 @@ export default function ReactNativeMobile() {
                 accommodate complex features, such as real-time updates, payment
                 systems, and more. The framework also allows developers to reuse
                 code for multiple platforms, ultimately saving both time and
-                money for businesses.{" "}
+                money for businesses. 
               </>
             ),
           },
@@ -556,8 +454,7 @@ export default function ReactNativeMobile() {
             question:
               "Why is BitsWits the perfect company for native app development services?",
             answer: (
-              <>
-                {" "}
+              <> 
                 BitsWits offers the best React Native app development services.
                 With our experienced team of developers, your project will be
                 completed quickly and efficiently. We are experts in developing
@@ -574,7 +471,7 @@ export default function ReactNativeMobile() {
                 encourages them to use your application frequently. We can help
                 you integrate features, design attractive interfaces, and
                 optimize your React Native iOS app for different devices. Hire
-                React JS application development expert now!{" "}
+                React JS application development expert now! 
               </>
             ),
           },

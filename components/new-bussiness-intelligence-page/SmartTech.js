@@ -1,14 +1,12 @@
-import React from "react";
-import Link from "next/link";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./SmartTech.module.css";
-
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { useState } from "react";
-import { useEffect } from "react";
+
 
 const SmartTech = (props) => {
 
@@ -198,10 +196,7 @@ const SmartTech = (props) => {
                                                 <h4 className="fontgilroybold white font_15">{item.title3}</h4>
                                                 <p className="font_13 white fontsfregular linehight_2 mb-0">{item.para4}</p>
                                             </div>
-
                                         </div>
-
-
                                     </Col>
                                 ))}
                                 <Col lg={12}>
@@ -217,10 +212,7 @@ const SmartTech = (props) => {
                                                 <h4 className="fontgilroybold white font_15">{item.title3}</h4>
                                                 <p className="font_13 white fontsfregular linehight_2 mb-0">{item.para4}</p>
                                             </div>
-
                                         </div>
-
-
                                     </Col>
                                 ))}
                             </>

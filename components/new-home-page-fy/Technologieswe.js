@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
-import { useState } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from './Technologieswe.module.css'
 //
@@ -56,7 +55,7 @@ const Technologieswe = (props) => {
 
     return (
         <>
-            <section className={`${styles.tech} ${styles[props.addresClass]}`}>  
+            <section className={`${styles.tech} ${styles[props.addresClass]}`}>
                 <Container>
                     <Row>
                         <Col xl={12}>

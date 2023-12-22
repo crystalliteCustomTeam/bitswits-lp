@@ -1,11 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import style from "@/styles/blockchain/Blockchain.module.css";
-import Image from "next/image";
-import Link from "next/link";
-// import posters from '../public/images/poster.png';
-import phone from "@/public/blockchain/images/phone.png";
+// 
 import Slider from "react-slick";
+
 
 const Blockchain = (props) => {
   let settings = {

@@ -32,6 +32,7 @@ import icon10 from '../public/images/awards/award10.png'
 import icon11 from '../public/images/awards/award11.png'
 import apple from '../public/images/apple/apple.svg'
 
+
 const Footer = () => {
 
   var awardslogo = {
@@ -80,7 +81,7 @@ const Footer = () => {
             <Col lg={12} className={styles.trstCol}>
               <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-4`}>
                 <div className={styles.strpImg}>
-                  <Image alt="BitsWits" src={icon1} width={118} height={118}  className="img-fluid" />
+                  <Image alt="BitsWits" src={icon1} width={118} height={118} className="img-fluid" />
                 </div>
                 <div className={styles.strpImg}>
                   <Image alt="BitsWits" src={icon2} width={118} height={118} className="img-fluid" />

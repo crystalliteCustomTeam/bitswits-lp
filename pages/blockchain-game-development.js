@@ -1,75 +1,40 @@
-import HomeBannerSlider from "@/components/HomeBannerSlider";
-import LpChoose from "@/components/LpChoose";
-import LpForm from "@/components/LpForm";
-import Nothing from "@/components/Nothing";
-import People from "@/components/People";
 import Head from "next/head";
 import React from "react";
-//components
-const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
-const ServicesAdvantage = React.lazy(() =>
-  import("@/components/ServicesAdvantage")
-);
-const ServicesMaintain = React.lazy(() =>
-  import("@/components/ServicesMaintain")
-);
-const NewAddress = React.lazy(() => import("@/components/NewAddress"));
-const ServiceSolutions = React.lazy(() =>
-  import("@/components/ServiceSolutions")
-);
-const GameCapabilities = React.lazy(() =>
-  import("@/components/GameCapabilities")
-);
-const ServiceEngage = React.lazy(() => import("@/components/ServiceEngage"));
-const NewHomeAbout = React.lazy(() => import("@/components/NewHomePageAbout"));
-const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
-const GameTechnologies = React.lazy(() =>
-  import("@/components/GameTechnologies")
-);
-const NewHomeGlobal = React.lazy(() => import("@/components/NewHomeGlobal"));
-const NewHomeSlider = React.lazy(() => import("@/components/NewHomeSlider"));
-const Homenextproject = React.lazy(() =>
-  import("@/components/Homenextproject")
-);
-const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
-const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
-import Justbuildit from "@/components/Justbuildit";
-import Globallp6 from "@/components/GlobalLp6";
-
+import { useState } from "react";
+import { useEffect } from "react";
 // css //
-import styles from "@/styles/ServiceSolutions.module.css";
-import style from "@/styles/NewMblSuccess.module.css";
 import styleTwo from "@/styles/Justbuildit.module.css";
 import styleThree from "@/styles/Globallp.module.css";
-import Partnerships from "@/components/Partnerships";
-import Formnewlp from "@/components/Formnewlp";
-
+//components
+const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
+const ServicesAdvantage = React.lazy(() => import("@/components/ServicesAdvantage"));
+const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
+const ServiceSolutions = React.lazy(() => import("@/components/ServiceSolutions"));
+const GameCapabilities = React.lazy(() => import("@/components/GameCapabilities"));
+const ServiceEngage = React.lazy(() => import("@/components/ServiceEngage"));
+const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
+const GameTechnologies = React.lazy(() => import("@/components/GameTechnologies"));
+const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
+const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
+const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
+const Globallp6 = React.lazy(() => import("@/components/GlobalLp6"));
+const Partnerships = React.lazy(() => import("@/components/Partnerships"));
+const HomeBannerSlider = React.lazy(() => import("@/components/HomeBannerSlider"));
+const LpChoose = React.lazy(() => import("@/components/LpChoose"));
+const LpForm = React.lazy(() => import("@/components/LpForm"));
+const Nothing = React.lazy(() => import("@/components/Nothing"));
+const People = React.lazy(() => import("@/components/People"));
+const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
+const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
 //images
-const BannerImage = await import(
-  "@/public/blockchaindevelopment/images/blockchainbanner.png"
-);
-const AdvantageOne = await import(
-  "../public/blockchaindevelopment/images/advantage1.png"
-);
-const Solution = await import(
-  "../public/blockchaindevelopment/images/solution.png"
-);
-const main = await import(
-  "@/public/blockchaindevelopment/images/engagecenter.png"
-);
-const engIcon1 = await import(
-  "@/public/blockchaindevelopment/images/engage1.png"
-);
-const engIcon2 = await import(
-  "@/public/blockchaindevelopment/images/engage2.png"
-);
-const engIcon3 = await import(
-  "@/public/blockchaindevelopment/images/engage3.png"
-);
-const engIcon4 = await import(
-  "@/public/blockchaindevelopment/images/engage4.png"
-);
-
+const BannerImage = await import("@/public/blockchaindevelopment/images/blockchainbanner.png");
+const AdvantageOne = await import("../public/blockchaindevelopment/images/advantage1.png");
+const Solution = await import("../public/blockchaindevelopment/images/solution.png");
+const main = await import("@/public/blockchaindevelopment/images/engagecenter.png");
+const engIcon1 = await import("@/public/blockchaindevelopment/images/engage1.png");
+const engIcon2 = await import("@/public/blockchaindevelopment/images/engage2.png");
+const engIcon3 = await import("@/public/blockchaindevelopment/images/engage3.png");
+const engIcon4 = await import("@/public/blockchaindevelopment/images/engage4.png");
 const customios = await import("../public/images/blockchainappdevelopment/ethereumdappgamedevelopment.png");
 const iphoneapp = await import("../public/images/blockchainappdevelopment/polygongamedevelopment.png");
 const applewatch = await import("../public/images/blockchainappdevelopment/solanablockchaindevelopment.png");
@@ -82,18 +47,9 @@ const reactnative = await import("../public/images/blockchainappdevelopment/cryp
 const flutter = await import("../public/images/blockchainappdevelopment/ingameassettokencreation.png");
 const python = await import("../public/images/blockchainappdevelopment/smartcontractdappgamedevelopment.png");
 
-import { useState } from "react";
-import { useEffect } from "react";
-
-const ServicesMaintainmobile = React.lazy(() => import('@/components/ServicesMaintainmobile'));
-
-
 export default function mobileApplication() {
-
-
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
-
     const handleResize = () => {
       if (window.innerWidth < 1201) {
         setIsSliderActive(false);
@@ -104,13 +60,12 @@ export default function mobileApplication() {
 
     handleResize();
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
-
 
   const severcedata = [
     {
@@ -129,7 +84,7 @@ export default function mobileApplication() {
           title: "Ethereum Dapp Game Development",
           text: "BitsWits specializes in creating innovative, high-quality Ethereum dapps for businesses and entrepreneurs. All thanks to our dedicated team of developers, we provide reliable solutions to help enterprises to increase their profits and maximize user engagement.",
           appclass: "app",
-          imgservice: customios
+          imgservice: customios,
         },
         {
           title: "Polygon Game Development",
@@ -138,7 +93,7 @@ export default function mobileApplication() {
           capabilities. From design and coding to animation, we create
           engaging games that push the boundaries of creativity.`,
           appclass: "app1",
-          imgservice: iphoneapp
+          imgservice: iphoneapp,
         },
         {
           title: "Solana Blockchain Development",
@@ -147,73 +102,71 @@ export default function mobileApplication() {
           powerful, high-volume games with a wide range of features – from
           fast-paced action to deep strategic play.`,
           appclass: "app2",
-          imgservice: applewatch
+          imgservice: applewatch,
         },
         {
           title: "EOS Dapp Game Development",
           text: "BitsWits offers comprehensive services for developing high-performance and secure blockchain games using the EOS platform. Get in touch to create engaging, user-friendly and intuitive dapps with unique features that help you stand out from the competition.",
           appclass: "app3",
-          imgservice: appletvappdevelopment
+          imgservice: appletvappdevelopment,
         },
         {
           title: "Metaverse Blockchain Game Development",
           text: "Using blockchain and cutting-edge technology, we deploy metaverse projects with features such as distributed storage and processing, zero-knowledge transactions, and non-fungible tokens (NFTs). Build next-generation titles with us!",
           appclass: "app4",
-          imgservice: iphoneappdesigning
+          imgservice: iphoneappdesigning,
         },
         {
           title: "NFT Blockchain Game Development",
-            text: "Utilizing blockchain technology, we create games that offer unprecedented levels of customization, security, and transparency. With no middlemen involved in transactions, you can now be sure that your digital games and assets are secure from any external interference.",
+          text: "Utilizing blockchain technology, we create games that offer unprecedented levels of customization, security, and transparency. With no middlemen involved in transactions, you can now be sure that your digital games and assets are secure from any external interference.",
           appclass: "app5",
-          imgservice: hybridiphone
+          imgservice: hybridiphone,
         },
         {
           title: "TRON Game Development",
-            text: `Boasting some of the best 3D graphics ever seen in a game, our
+          text: `Boasting some of the best 3D graphics ever seen in a game, our
             TRON games let you immerse yourself in a virtual world full of
             adventure, excitement, and action. With realistic animations and
             stunning sound effects, you'll feel like you're part of the
             action.`,
           appclass: "app5",
-          imgservice: react
+          imgservice: react,
         },
         {
           title: "BSC Game Development",
-            text: `BSC Game Development by BitsWits is a complete suite of game
+          text: `BSC Game Development by BitsWits is a complete suite of game
             development tools designed for professionals and enthusiasts
             alike. With its powerful engine, integrated asset library,
             intuitive interface, and comprehensive visual toolsets,
             developers can quickly bring their ideas to life.`,
           appclass: "app5",
-          imgservice: next
+          imgservice: next,
         },
         {
           title: "Crypto Gambling Games",
-            text: `Our team of experts is highly knowledgeable about blockchain
+          text: `Our team of experts is highly knowledgeable about blockchain
             technology and its applications in gaming, allowing us to
             develop cutting-edge, secure online casinos and betting
             platforms with an unparalleled level of safety, fairness, and
             security.`,
           appclass: "app5",
-          imgservice: reactnative
+          imgservice: reactnative,
         },
         {
           title: "In-Game Asset & Token Creation",
           text: "BitsWits specializes in providing bespoke in-game asset and token creation services. We offer various services tailored to suit your specific requirements: from creating 3D or 2D assets to programming custom tokenization systems and blockchain integration.",
           appclass: "app5",
-          imgservice: flutter
+          imgservice: flutter,
         },
         {
           title: "Smart Contract Dapp Game Development",
           text: "BitsWits provides comprehensive smart-contract solutions for games that operate on blockchain networks. Contact us to bring your notion of a modern and decentralized gaming experience into reality.",
           appclass: "app5",
-          imgservice: python
+          imgservice: python,
         },
       ],
     },
   ];
-
-
 
   return (
     <>
@@ -226,7 +179,6 @@ export default function mobileApplication() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
       <ServicesBanner
         assignClass="gameBlckChain"
         title={
@@ -247,15 +199,10 @@ export default function mobileApplication() {
         }
         BannerImage={BannerImage}
       />
-
       <People People="people" />
-
       <HomeBannerSlider />
-
       <LpForm />
-
       <Nothing Nothing="nothingLp6" />
-
       <ServicesAdvantage
         subTitle="Bounties"
         title={
@@ -302,9 +249,7 @@ export default function mobileApplication() {
         }
         AdvantageOne={AdvantageOne}
       />
-
-
-      {isSliderActive ?
+      {isSliderActive ? (
         <ServicesMaintain
           assignClass="gameBlckChain"
           subtitle="Our Services Are Where Innovation Meets Play"
@@ -313,10 +258,10 @@ export default function mobileApplication() {
             <>
               {" "}
               From creating multiplayer games to providing secure in-game asset
-              exchange options, BitsWits leverages blockchain technology for game
-              development.
-              <br /> Our services include creating next-generation games using the
-              latest technology and tools, such as Unity 3D engine for VR/AR
+              exchange options, BitsWits leverages blockchain technology for
+              game development.
+              <br /> Our services include creating next-generation games using
+              the latest technology and tools, such as Unity 3D engine for VR/AR
               gaming experiences,
               <br /> Augmented Reality (AR) support for games, low-latency
               gameplay features, HoloLens integration, and blockchain-backed
@@ -365,8 +310,8 @@ export default function mobileApplication() {
                   {" "}
                   Solana Blockchain game development is all the rage right now,
                   and BitsWits is leading the charge. We specialize in creating
-                  powerful, high-volume games with a wide range of features – from
-                  fast-paced action to deep strategic play.{" "}
+                  powerful, high-volume games with a wide range of features –
+                  from fast-paced action to deep strategic play.{" "}
                 </>
               ),
               appclass: "app2",
@@ -401,9 +346,9 @@ export default function mobileApplication() {
                   {" "}
                   Boasting some of the best 3D graphics ever seen in a game, our
                   TRON games let you immerse yourself in a virtual world full of
-                  adventure, excitement, and action. With realistic animations and
-                  stunning sound effects, you'll feel like you're part of the
-                  action.{" "}
+                  adventure, excitement, and action. With realistic animations
+                  and stunning sound effects, you'll feel like you're part of
+                  the action.{" "}
                 </>
               ),
               appclass: "app",
@@ -455,16 +400,10 @@ export default function mobileApplication() {
             },
           ]}
         />
-        :
-        <ServicesMaintainmobile
-          severcedata={severcedata}
-
-        />
-
-      }
-
+      ) : (
+        <ServicesMaintainmobile severcedata={severcedata} />
+      )}
       <LpChoose transform="transform" />
-
       <ServiceSolutions
         addClass="gameBlckChain"
         subTitle="Solutions"
@@ -472,9 +411,7 @@ export default function mobileApplication() {
         text="BitsWits is at the cutting edge of blockchain game development, offering a suite of products to help businesses create fully featured games with all the security and transparency benefits of distributed ledger technology."
         Solution={Solution}
       />
-
       <GameCapabilities />
-
       <ServiceEngage
         addClass="gameBlckChain"
         subTitle="Hire Top-Notch Blockchain Developers"
@@ -498,15 +435,6 @@ export default function mobileApplication() {
         text4="Our team of experienced developers has the capacity to craft custom blockchain games for any platform—from mobile, desktop, console, and web to virtual reality."
         engIcon4={engIcon4}
       />
-
-      {/* <NewAddress addresClass="address2d" /> */}
-
-      {/* <NewHomeAbout
-        title="Our Client’s Feedback Has Been"
-        subtitle="Nothing Short Of Amazing!"
-        addClass="game3d"
-      /> */}
-
       <Newsuccess
         assignClass="spacing2d"
         subtitle="Ready For Success?"
@@ -535,111 +463,10 @@ export default function mobileApplication() {
           },
         ]}
       />
-
       <GameTechnologies />
-
       <Justbuildit paddingBottom={styleTwo.paddingBottom} />
-
       <Globallp6 paddingTop={styleThree.paddingGlobal} />
-
       <Partnerships />
-
-      {/* <NewHomeSlider />
-      <Homenextproject title="Brace yourself for an App-venture!" />
-      <ServicesFaqs
-        faqsData={[
-          {
-            question: "What is blockchain game development?",
-            answer: (
-              <>
-                {" "}
-                Blockchain game development involves creating video games that
-                leverage blockchain technology for various purposes, including
-                asset ownership, secure transactions, and provably fair
-                gameplay.{" "}
-              </>
-            ),
-          },
-          {
-            question: "How does blockchain technology work in games?",
-            answer: (
-              <>
-                {" "}
-                In games, blockchain technology is used to create, manage, and
-                verify digital assets (such as in-game items, characters, or
-                currencies) as non-fungible tokens (NFTs) or other types of
-                blockchain-based assets. These assets are stored on a
-                decentralized ledger, providing players with true ownership and
-                transparency.{" "}
-              </>
-            ),
-          },
-          {
-            question:
-              "What are the benefits of using blockchain in game development?",
-            answer: (
-              <>
-                {" "}
-                Using blockchain in game development offers benefits such
-                as:True ownership of in-game assets for players.
-                <br />
-                <br />
-                Immutable ownership records and transparency.
-                <br />
-                <br />
-                Interoperability, allowing assets to be used across different
-                games or platforms.
-                <br />
-                <br />
-                Enabling player-driven economies and marketplaces.{" "}
-              </>
-            ),
-          },
-          {
-            question:
-              "Which blockchain platforms are commonly used for blockchain game development?",
-            answer: (
-              <>
-                {" "}
-                Ethereum is one of the most widely used blockchain platforms for
-                creating blockchain-based games. Other platforms like Binance
-                Smart Chain, Flow, and Polygon (formerly Matic) are also gaining
-                popularity in the blockchain gaming space.{" "}
-              </>
-            ),
-          },
-          {
-            question:
-              "What is the role of smart contracts in blockchain game development?",
-            answer: (
-              <>
-                {" "}
-                Smart contracts are self-executing contracts with predefined
-                rules and conditions written in code. In blockchain games, smart
-                contracts handle functions like creating, transferring, and
-                verifying ownership of in-game assets, as well as managing
-                in-game transactions.{" "}
-              </>
-            ),
-          },
-          {
-            question:
-              "How can players interact with blockchain-based assets in a game?",
-            answer: (
-              <>
-                {" "}
-                Players interact with blockchain-based assets through digital
-                wallets that support the blockchain on which the assets are
-                created (e.g., Ethereum wallet for Ethereum-based assets). They
-                can buy, sell, trade, and use these assets within the game
-                ecosystem.{" "}
-              </>
-            ),
-          },
-        ]}
-      />
-      <HomeLocation /> */}
-
       <Formnewlp />
       <ServicesFaqs
         faqsData={[

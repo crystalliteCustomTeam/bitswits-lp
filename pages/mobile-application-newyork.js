@@ -22,7 +22,6 @@ const Partnerships = React.lazy(() => import('@/components/Partnerships'));
 //images
 const BannerImage = await import("@/public/newMobilePageImages/banner_image.png")
 
-
 export default function mobileApplication() {
   return (
     <>
@@ -31,16 +30,14 @@ export default function mobileApplication() {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="images/icons/favicon.png" />
-        <meta charset="UTF-8" />
-        {/* <!-- Title & Description --> */}
+        <meta charset="UTF-8" /> 
         <title>
           The Professional Mobile App Development Company - BitsWits.
         </title>
         <meta
           name="description"
           content="From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions."
-        />
-        {/* <!-- OG Tags --> */}
+        /> 
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta
@@ -54,12 +51,8 @@ export default function mobileApplication() {
         <meta
           property="og:site_name"
           content="The Professional Mobile App Development Company - BitsWits."
-        />
-        {/* <!-- Canonical --> */}
-        {/* <link rel="canonical" href="https://BitsWits.co/mobile-app-development-company/" /> */}
-        {/* <!-- Bing Master Verification  --> */}
-        <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
-        {/* <!-- Local Location Tags --> */}
+        /> 
+        <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" /> 
         <meta
           name="DC.title"
           content="mobile app development company, hire mobile app developers, mobile app development services"
@@ -75,8 +68,7 @@ export default function mobileApplication() {
         <meta name="geo.region" content="US-DE" />
         <meta name="geo.placename" content="Dover" />
         <meta name="geo.position" content="38.692045;-75.401331" />
-        <meta name="ICBM" content="38.692045, -75.401331" />
-        {/* <!-- Nationwide Location Tags --> */}
+        <meta name="ICBM" content="38.692045, -75.401331" /> 
         <meta
           name="DC.title"
           content="mobile app development company, hire mobile app developers, mobile app development services"
@@ -85,7 +77,6 @@ export default function mobileApplication() {
         <meta name="geo.position" content="39.78373;-100.445882" />
         <meta name="ICBM" content="39.78373, -100.445882" />
       </Head>
-
       <ServicesBanner
         subtitle="A TOP"
         title={<> Mobile App Development Company At Your Service </>}

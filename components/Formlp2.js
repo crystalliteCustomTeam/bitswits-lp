@@ -1,13 +1,9 @@
 import React from 'react'
-import styles from "@/styles/Formlp2.module.css";
-import Image from 'next/image';
 import { Container, Row } from 'react-bootstrap'
-import Link from 'next/link';
+import styles from "@/styles/Formlp2.module.css";
 
 
 const Formlp2 = () => {
-
-
 
     return (
         <>

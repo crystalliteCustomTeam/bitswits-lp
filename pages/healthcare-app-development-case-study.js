@@ -17,28 +17,22 @@ const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 //images
 const banLogo = await import('../public/images/case-studies/case-health/banner-logo.png');
 const banImg = await import('../public/images/case-studies/case-health/banner-img.png');
-//
 const slide1 = await import('../public/images/case-studies/case-health/slide1.png');
 const slide2 = await import('../public/images/case-studies/case-health/slide2.png');
 const slide3 = await import('../public/images/case-studies/case-health/slide3.png');
 const slide4 = await import('../public/images/case-studies/case-health/slide4.png');
-//
 const features = await import('../public/images/case-studies/case-health/features.png');
 const faced = await import('../public/images/case-studies/case-health/faced.png');
 const tackling = await import('../public/images/case-studies/case-health/tackling.png');
-//
 const goalImg = await import('../public/images/case-studies/case-health/goal.png');
-//
 const animiImg1 = await import('../public/images/case-studies/case-health/animi1.png');
 const animiImg2 = await import('../public/images/case-studies/case-health/animi2.png');
 const animiImg3 = await import('../public/images/case-studies/case-health/animi3.png');
-//
 const service1 = await import('../public/images/case-studies/case-health/service1.png');
 const service2 = await import('../public/images/case-studies/case-health/service2.png');
 const service3 = await import('../public/images/case-studies/case-health/service3.png');
 const service4 = await import('../public/images/case-studies/case-health/service4.png');
 const service5 = await import('../public/images/case-studies/case-health/service5.png');
-//
 const chosImg1 = await import('../public/images/lp-images/icon1.png');
 const chosImg2 = await import('../public/images/lp-images/icon2.png');
 const chosImg3 = await import('../public/images/lp-images/icon3.png');
@@ -49,22 +43,14 @@ const chosImg7 = await import('../public/images/lp-images/icon7.png');
 const chosImg8 = await import('../public/images/lp-images/icon8.png');
 const chosImg9 = await import('../public/images/lp-images/icon9.png');
 
-
-
 export default function HealthCare() {
-
   const [showComponent, setShowComponent] = useState(false);
-
-
   useEffect(() => {
     const timeout = setTimeout(() => {
       setShowComponent(true);
-
-    }, 1000); // Delay duration in milliseconds (e.g., 1000ms = 1 second)
-
+    }, 1000);
     return () => clearTimeout(timeout);
   }, []);
-
 
   return (
     <>
@@ -74,14 +60,12 @@ export default function HealthCare() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
       <Banner
         banLogo={banLogo}
         title={<> Empowering Health, One Click at a Time </>}
         banImg={banImg}
         bannerClass='healthcare'
       />
-
       <CaseGlamic
         textArray1={[
           {
@@ -96,21 +80,17 @@ export default function HealthCare() {
             ]
           },
         ]}
-
         textArray2={[
           {
             title: <>Looking For Something Similar?</>,
             text: <>Our consultants are ready to hear your idea. Request a free consultation with our app experts and transform it into a digital reality.</>,
           },
         ]}
-
         slide1={slide1}
         slide2={slide2}
         slide3={slide3}
         slide4={slide4}
-
         textArray3={[
-          
           {
             title: <>The <span>Starting</span> Point</>,
             text: [
@@ -121,7 +101,6 @@ export default function HealthCare() {
           },
         ]}
       />
-
       <CaseWants
         sections1={[
           {
@@ -168,13 +147,11 @@ export default function HealthCare() {
         wantImg3={tackling}
         lastPara={<> BitsWits, the development team behind Health Care, took on the challenge of creating a comprehensive healthcare app by meticulously addressing each obstacle. We focused on data security, interoperability, and user adoption to ensure a comprehensive healthcare app. With expert collaborations and a scalable infrastructure, we crafted Health Care- a secure, user-friendly, and medically accurate health companion. </>}
       />
-
       <CaseGoal
         golImg={goalImg}
         title={<> Start Your App Development Journey <br /> Effortlessly; Let <span>Bitswits Be Your <br /> Savior</span> With A Quick Tap! </>}
         goalClass='healthcare'
       />
-
       <CaseOvercoming
         appData={[
           {
@@ -203,13 +180,11 @@ export default function HealthCare() {
           },
         ]}
       />
-
       <CaseAnimate
         animiImg1={animiImg1}
         animiImg2={animiImg2}
         animiImg3={animiImg3}
       />
-
       <CaseServices
         title={<> <span>Services:</span> For </>}
         point1={<> Native Mobile App Development </>}
@@ -221,7 +196,6 @@ export default function HealthCare() {
         service4={service4}
         service5={service5}
       />
-
       <CaseChoose
         title={<> <span>Why Trust <br /> BitsWits</span> with App <br /> Development? </>}
         text1={<> We stand as the primary choice for mobile app development, exemplifying excellence in a dynamic field. Our team combines creativity and the most suitable tech stack to develop customized app solutions. </>}
@@ -265,7 +239,6 @@ export default function HealthCare() {
           }
         ]}
       />
-
       <CaseGlobal />
       <CaseCapabilities />
       <Nothing Nothing="nothingCase" />

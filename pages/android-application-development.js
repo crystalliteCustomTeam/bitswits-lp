@@ -1,71 +1,38 @@
 import Head from "next/head";
 import React from "react";
+import { useState } from "react";
+import { useEffect } from "react";
+// css //
+import styles from "@/styles/LpChoose.module.css";
 //components
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
-const ServicesMaintain = React.lazy(() =>
-  import("@/components/ServicesMaintain")
-);
+const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
-const ServisesWhy = React.lazy(() => import("@/components/ServisesWhy"));
-const ServicesPortfolio = React.lazy(() =>
-  import("@/components/ServicesPortfolio")
-);
+const ServicesPortfolio = React.lazy(() => import("@/components/ServicesPortfolio"));
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
 const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 const People = React.lazy(() => import("@/components/People"));
-const HomeBannerSliderlp = React.lazy(() =>
-  import("@/components/HomeBannerSliderlp")
-);
+const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
 const LpChoose = React.lazy(() => import("@/components/LpChoose"));
 const LpForm = React.lazy(() => import("@/components/LpForm6"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
-const ProjectProcess = React.lazy(() =>
-  import("@/components/ProjectProcessLp6")
-);
+const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
-const ServicesMaintainmobile = React.lazy(() =>
-  import("@/components/ServicesMaintainmobile")
-);
-import { useState } from "react";
-import { useEffect } from "react";
-
-// css //
-import styles from "@/styles/LpChoose.module.css";
-
+const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
 //images
 const BannerImage = await import("@/public/images/iosbanner/ios.png");
-//icons
-const icon23 = await import("../public/images/fyicons/10.png");
-const icon24 = await import("../public/images/fyicons/11.png");
-const icon25 = await import("../public/images/fyicons/12.png");
-const icon26 = await import("../public/images/fyicons/13.png");
-const icon27 = await import("../public/images/fyicons/14.png");
-const icon28 = await import("../public/images/fyicons/15.png");
-
-const customios = await import(
-  "../public/images/andriodappdevelopment/customandroidappdevelopment.png"
-);
-const iphoneapp = await import(
-  "../public/images/andriodappdevelopment/androidappintegration.png"
-);
-const applewatch = await import(
-  "../public/images/andriodappdevelopment/androidgamedevelopment.png"
-);
-const appletvappdevelopment = await import(
-  "../public/images/andriodappdevelopment/androidweardevelopment.png"
-);
-const iphoneappdesigning = await import(
-  "../public/images/andriodappdevelopment/enterpriseandroidapps.png"
-);
-const hybridiphone = await import(
-  "../public/images/andriodappdevelopment/androiduiuxdesign.png"
-);
+const customios = await import("../public/images/andriodappdevelopment/customandroidappdevelopment.png");
+const iphoneapp = await import("../public/images/andriodappdevelopment/androidappintegration.png");
+const applewatch = await import("../public/images/andriodappdevelopment/androidgamedevelopment.png");
+const appletvappdevelopment = await import("../public/images/andriodappdevelopment/androidweardevelopment.png");
+const iphoneappdesigning = await import("../public/images/andriodappdevelopment/enterpriseandroidapps.png");
+const hybridiphone = await import("../public/images/andriodappdevelopment/androiduiuxdesign.png");
 
 export default function gamedevelopmentcompany() {
   const [isSliderActive, setIsSliderActive] = useState(true);
@@ -86,7 +53,6 @@ export default function gamedevelopmentcompany() {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
   const severcedata = [
     {
       classlayout: {
@@ -137,7 +103,6 @@ export default function gamedevelopmentcompany() {
       ],
     },
   ];
-
   return (
     <>
       <Head>
@@ -149,7 +114,6 @@ export default function gamedevelopmentcompany() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
       <ServicesBanner
         subtitle="Revolutionizing & Creating A Smarter Future"
         title={<> Android App Development Company </>}
@@ -164,20 +128,10 @@ export default function gamedevelopmentcompany() {
         }
         BannerImage={BannerImage}
       />
-
       <People People="people" />
-
       <HomeBannerSliderlp />
-
       <LpForm addresClass="iosclass" />
-
       <Nothing Nothing="nothingLp6" />
-
-      {/* <NewHomeAbout
-                title="Our Client’s Feedback Has Been"
-                subtitle="Nothing Short Of Amazing!"
-            /> */}
-
       {isSliderActive ? (
         <ServicesMaintain
           assignClass="android"
@@ -247,12 +201,8 @@ export default function gamedevelopmentcompany() {
       ) : (
         <ServicesMaintainmobile severcedata={severcedata} />
       )}
-
-      {/* <NewAddress /> */}
       <WeworkLp wework="weworkLp6" />
-
       <StartupsLp startups="startups" />
-
       <ProjectProcess
         processclass="processLp6"
         title="Explore Our Andriod App Development Journey"
@@ -262,65 +212,7 @@ export default function gamedevelopmentcompany() {
   exactly as you imagined."
       />
       <Justbuildit />
-      {/* <ServicesWho
-                subtitle="Who we are."
-                title="We build greater futures through innovation and collective knowledge."
-                text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
-                WhoImage={WhoImage}
-            />
-            <ServicesWhat
-                subtitle="What we do."
-                title="BitsWits transforms businesses through technology."
-                text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
-                WhatImage={WhatImage}
-            /> */}
-
       <LpChoose transform="transform" marginTop={styles.marginTop} />
-
-      {/* <ServisesWhy
-        subtitle={
-          <>
-            {" "}
-            <h2 className="newfycolr font50 font-bold text-center">
-              Why Do You Require Our Andriod Applications?
-            </h2>{" "}
-          </>
-        }
-        sub2="Achieve a competitive edge, boost revenue, and engage customers effectively with an Android app. BitsWits excels in creating personalized, future-ready apps to expand your market reach."
-        whyData={[
-          {
-            icon: icon23,
-            title: "Extensive Audience Reach",
-            para: "Android is the most widely used mobile operating system globally, which means it can aid your business to reach potential customers globally.",
-          },
-          {
-            icon: icon24,
-            title: "Prominence in the App Store",
-            para: "Android apps have high discoverability in the Play Store due to its extensive user base, robust search algorithm, and easy downloading.",
-          },
-          {
-            icon: icon25,
-            title: "Flexible UI Design Features",
-            para: "Apps run smoothly on smartphones, tablets, mobile devices, and other devices due to Android's support for flexible UI design.",
-          },
-          {
-            icon: icon26,
-            title: "Feature Incorporation",
-            para: "Apps leverage Android's unique features like widgets, AI, and alerts. We ensure seamless integration, delivering the best user experience.",
-          },
-          {
-            icon: icon27,
-            title: "Brand Visibility and Recognition",
-            para: "Android app offers a direct and interactive channel for users to engage with your brand on their mobile devices.",
-          },
-          {
-            icon: icon28,
-            title: "Economical and Cost-Effective",
-            para: "Android apps can reach a wide audience without the need for expensive hardware or software, reducing development and distribution costs.",
-          },
-        ]}
-      /> */}
-
       <ServicesPortfolio
         title={
           <>
@@ -331,7 +223,6 @@ export default function gamedevelopmentcompany() {
           </>
         }
       />
-      {/* <Capabilities /> */}
       <Newsuccess
         assignClass="spacing"
         subtitle="Ready For Success?"
@@ -361,17 +252,9 @@ export default function gamedevelopmentcompany() {
         ]}
       />
       <Technologieswe addresClass="appdev" />
-      {/* <NewHomeGlobal />
-            <NewHomeSlider />
-            <Homenextproject
-                title="Brace yourself for an App-venture!"
-            /> */}
-
       <Globallplp6 />
       <Partnerships />
-
       <Formnewlp />
-
       <ServicesFaqs
         faqsData={[
           {

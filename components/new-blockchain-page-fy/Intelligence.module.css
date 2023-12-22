@@ -1,67 +1,61 @@
-.provideserv{
-    background-color: black;
-    padding-top: 80px;
-    padding-bottom: 80px;
+.provideserv {
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
-.blocknew{
-    display: flex;
-    gap: 25px;
+.blocknew {
+  display: flex;
+  gap: 25px;
 }
 .create {
-    width: 500px;
+  width: 500px;
 }
-.longimg{
-    position: relative;
-    width: 140%;
+.longimg {
+  position: relative;
+  width: 140%;
 }
-.longimg img{
+.longimg img {
+  position: absolute;
+  top: -53px;
+  right: 60px;
+}
+
+@media screen and (min-width: 1400px) {
+  .longimg img {
     position: absolute;
-    top: -53px;
-    right: 60px;
+    top: -50px;
+    right: 160px;
+    width: 83%;
+  }
 }
 
-@media screen and (min-width: 1400px) { 
+@media screen and (max-width: 991px) {
+  .provideserv {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 
-    .longimg img {
-        position: absolute;
-        top: -50px;
-        right: 160px;
-        width: 83%;
-    }
-
-
- }
-
-@media screen and (max-width: 991px) { 
-
-    .provideserv{
-   
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-
-
-    .longimg{
-        position: unset;
-        width: auto;
-    }
-    .longimg img{
-        position: unset;
-    }
-    .blocknew {
-        display: flex;
-        gap: 25px;
-        flex-direction: column;
-    }
-    .create {
-        width: auto;
-    }
+  .longimg {
+    position: unset;
+    width: auto;
+  }
+  .longimg img {
+    position: unset;
+  }
+  .blocknew {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+  }
+  .create {
+    width: auto;
+  }
 }
 
-@media screen and (max-width: 480px) { 
-    .provideserv{
-        background-color: black;
-        padding-top: 25px;
-        padding-bottom: 25px;
-    }
+@media screen and (max-width: 480px) {
+  .provideserv {
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
 }

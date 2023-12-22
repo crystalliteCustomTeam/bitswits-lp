@@ -2,83 +2,37 @@ import Head from "next/head";
 import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
+// css //
+import styles from "@/styles/LpChoose.module.css";
 //components
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
-const NewHomeAbout = React.lazy(() => import("@/components/NewHomePageAbout"));
 const Partnercross = React.lazy(() => import("@/components/Partnercross"));
-const ServicesMaintain = React.lazy(() =>
-  import("@/components/ServicesMaintain")
-);
-const NewAddress = React.lazy(() => import("@/components/NewAddress"));
+const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
-const ServicesWho = React.lazy(() => import("@/components/ServicesWho"));
-const ServicesWhat = React.lazy(() => import("@/components/ServicesWhat"));
-const ServisesWhy = React.lazy(() => import("@/components/ServisesWhy"));
-const ServicesPortfolio = React.lazy(() =>
-  import("@/components/ServicesPortfolio")
-);
-const Capabilities = React.lazy(() => import("@/components/Capabilities"));
+const ServicesPortfolio = React.lazy(() =>import("@/components/ServicesPortfolio"));
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
 const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
-const NewHomeGlobal = React.lazy(() => import("@/components/NewHomeGlobal"));
-const NewHomeSlider = React.lazy(() => import("@/components/NewHomeSlider"));
-const Homenextproject = React.lazy(() =>
-  import("@/components/Homenextproject")
-);
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
-//images
-const BannerImage = await import("@/public/images/cross/crossplatform.png");
-const WhoImage = await import("@/public/images/cross/who_image.png");
-const WhatImage = await import("@/public/images/cross/what_Image.png");
-//icons
-const icon23 = await import("../public/images/fyicons/19.png");
-const icon24 = await import("../public/images/fyicons/20.png");
-const icon25 = await import("../public/images/fyicons/21.png");
-const icon26 = await import("../public/images/fyicons/22.png");
-const icon27 = await import("../public/images/fyicons/23.png");
-const icon28 = await import("../public/images/fyicons/24.png");
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
-
 const People = React.lazy(() => import("@/components/People"));
-const HomeBannerSliderlp = React.lazy(() =>
-  import("@/components/HomeBannerSliderlp")
-);
+const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
 const LpChoose = React.lazy(() => import("@/components/LpChoose"));
 const LpForm = React.lazy(() => import("@/components/LpForm6"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
-const ProjectProcess = React.lazy(() =>
-  import("@/components/ProjectProcessLp6")
-);
-
-const ServicesMaintainmobile = React.lazy(() =>
-  import("@/components/ServicesMaintainmobile")
-);
-const customios = await import(
-  "../public/images/crossappdevelopement/customcrossplatformdevelopment.png"
-);
-const iphoneapp = await import(
-  "../public/images/crossappdevelopement/wearablecrossplatformapps.png"
-);
-const applewatch = await import(
-  "../public/images/crossappdevelopement/crossplatformuiuxdesignservices.png"
-);
-const appletvappdevelopment = await import(
-  "../public/images/crossappdevelopement/webbasedcrossplatformapps.png"
-);
-const iphoneappdesigning = await import(
-  "../public/images/crossappdevelopement/aiintegratedcrossplatformapps.png"
-);
-const hybridiphone = await import(
-  "../public/images/crossappdevelopement/crossplatformappsconsulting.png"
-);
-
-// css //
-import styles from "@/styles/LpChoose.module.css";
+const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
+const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
+//images
+const customios = await import("../public/images/crossappdevelopement/customcrossplatformdevelopment.png");
+const iphoneapp = await import("../public/images/crossappdevelopement/wearablecrossplatformapps.png");
+const applewatch = await import("../public/images/crossappdevelopement/crossplatformuiuxdesignservices.png");
+const appletvappdevelopment = await import("../public/images/crossappdevelopement/webbasedcrossplatformapps.png");
+const iphoneappdesigning = await import("../public/images/crossappdevelopement/aiintegratedcrossplatformapps.png");
+const hybridiphone = await import("../public/images/crossappdevelopement/crossplatformappsconsulting.png");
 
 export default function gamedevelopmentcompany() {
   const [isSliderActive, setIsSliderActive] = useState(true);
@@ -90,16 +44,12 @@ export default function gamedevelopmentcompany() {
         setIsSliderActive(true);
       }
     };
-
     handleResize();
-
     window.addEventListener("resize", handleResize);
-
     return () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
   const severcedata = [
     {
       classlayout: {
@@ -171,21 +121,18 @@ export default function gamedevelopmentcompany() {
       ],
     },
   ];
-
   return (
     <>
       <Head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8" />
-        {/* <!-- Title & Description --> */}
+        <meta charset="UTF-8" /> 
         <title>Leading Cross Platform App Development Company - BitsWits</title>
         <meta
           name="description"
           content="Want to launch your app on all platforms simultaneously? Our cross platform developers make it possible! We design, develop, and deploy apps that work seamlessly."
-        />
-        {/* <!-- OG Tags --> */}
+        /> 
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta
@@ -195,17 +142,12 @@ export default function gamedevelopmentcompany() {
         <meta
           property="og:description"
           content="Want to launch your app on all platforms simultaneously? Our cross platform developers make it possible! We design, develop, and deploy apps that work seamlessly."
-        />
-        {/* <meta property="og:url" content="https://BitsWits.co/cross-platform-app-development-company/" /> */}
+        /> 
         <meta
           property="og:site_name"
           content="Leading cross platform app development company - BitsWits"
-        />
-        {/* <!-- Canonical --> */}
-        {/* <link rel="canonical" href="https://BitsWits.co/cross-platform-app-development-company/" /> */}
-        {/* <!-- Bing Master Verification  --> */}
-        <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
-        {/* <!-- Local Location Tags --> */}
+        /> 
+        <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" /> 
         <meta
           name="DC.title"
           content="cross platform mobile app development company, cross platform app developers"
@@ -221,8 +163,7 @@ export default function gamedevelopmentcompany() {
         <meta name="geo.region" content="US-DE" />
         <meta name="geo.placename" content="Dover" />
         <meta name="geo.position" content="38.692045;-75.401331" />
-        <meta name="ICBM" content="38.692045, -75.401331" />
-        {/* <!-- Nationwide Location Tags --> */}
+        <meta name="ICBM" content="38.692045, -75.401331" /> 
         <meta
           name="DC.title"
           content="cross platform mobile app development company, cross platform app developers"
@@ -232,7 +173,6 @@ export default function gamedevelopmentcompany() {
         <meta name="ICBM" content="39.78373, -100.445882" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
       <ServicesBanner
         subtitle="Create The Future With Our"
         title={<> Cross-Platform App Development Services </>}
@@ -245,24 +185,13 @@ export default function gamedevelopmentcompany() {
             can develop and deploy one single app for both Android and iOS!{" "}
           </>
         }
-        // BannerImage={BannerImage}
         video = {<video autoPlay muted src='../../bannerVideos/cross.mp4' className="w-75" ></video>}
       />
-
       <People People="people" />
-
       <HomeBannerSliderlp />
-
       <LpForm addresClass="iosclass" />
-
       <Nothing Nothing="nothingLp6" />
-
-      {/* <NewHomeAbout
-        title="Our Client’s Feedback Has Been"
-        subtitle="Nothing Short Of Amazing!"
-      /> */}
       <Partnercross />
-
       {isSliderActive ? (
         <ServicesMaintain
           assignClass="cross"
@@ -338,13 +267,8 @@ export default function gamedevelopmentcompany() {
       ) : (
         <ServicesMaintainmobile severcedata={severcedata} />
       )}
-
-      {/* <NewAddress /> */}
-
       <WeworkLp wework="weworkLp6" />
-
       <StartupsLp startups="startups" />
-
       <ProjectProcess
         processclass="processLp6"
         title="Explore Our Cross-Platform App Development Journey"
@@ -354,22 +278,7 @@ export default function gamedevelopmentcompany() {
   exactly as you imagined."
       />
       <Justbuildit />
-      {/* <ServicesWho
-        assignClass="cross"
-        subtitle="Who we are."
-        title="We build greater futures through innovation and collective knowledge."
-        text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
-        WhoImage={WhoImage}
-      />
-      <ServicesWhat
-        subtitle="What we do."
-        title="BitsWits transforms businesses through technology."
-        text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
-        WhatImage={WhatImage}
-      /> */}
-
       <LpChoose transform="transform" marginTop={styles.marginTop} />
-
       <ServicesPortfolio
         title={
           <>
@@ -380,7 +289,6 @@ export default function gamedevelopmentcompany() {
           </>
         }
       />
-      {/* <Capabilities /> */}
       <Newsuccess
         assignClass="spacing"
         subtitle="Ready For Success?"
@@ -410,12 +318,6 @@ export default function gamedevelopmentcompany() {
         ]}
       />
       <Technologieswe addresClass="appdev" />
-      {/* <NewHomeGlobal />
-      <NewHomeSlider />
-      <Homenextproject
-        title="Brace yourself for an App-venture!"
-      /> */}
-
       <Globallplp6 />
       <Partnerships />
       <Formnewlp />
