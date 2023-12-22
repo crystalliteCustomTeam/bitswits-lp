@@ -189,10 +189,10 @@ const MySwiperComponent = () => {
           >
             {slides &&
               slides.map((testimonial, index) => (
-                <swiper-slide class='newfold' key={index}>
+                <swiper-slide class='newfold newtown' key={index}>
                   <div>
                     <div className="w-[90%] m-auto py-10">
-                      <div className="card testimonialscard">
+                      <div className="card">
                         <img quality={95}
                           src={testimonial.avatar}
                           alt='bitswits'

@@ -1341,7 +1341,10 @@ swiper-slide.swiper-slide-next + swiper-slide + swiper-slide + swiper-slide + sw
 
 } */
 
-
+.newtown .card{
+  border: unset;
+  background-color: unset;
+}
 
 swiper-slide {
   padding-bottom: 22px;
