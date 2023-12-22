@@ -1,16 +1,18 @@
 import React, { useEffect, useRef } from 'react';
-import SwiperCore, { Navigation, Autoplay } from 'swiper/core';
+import Link from 'next/link';
+import { Row, Col, Container } from 'react-bootstrap';
+import styles from "@/styles/Homeslider.module.css";
+//
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
-import Image from 'next/image';
-import styles from "@/styles/Homeslider.module.css";
-import { Row, Col, Container } from 'react-bootstrap';
-import Link from 'next/link';
+import SwiperCore, { Navigation, Autoplay } from 'swiper/core';
 
 SwiperCore.use([Navigation, Autoplay]);
 
+
 const MySwiperComponent = () => {
+
   const swiperElRef = useRef(null);
 
   useEffect(() => {
@@ -22,12 +24,10 @@ const MySwiperComponent = () => {
         delay: 5000,
       },
     });
-    // Remove the 'previous-sibling' class from all elements with the class 'swiper-slide'
     document.querySelectorAll('.swiper-slide').forEach((element) => {
       element.classList.remove('previous-sibling');
     });
 
-    // Add the 'previous-sibling' class to the immediate previous sibling's previous sibling of the active slide
     const activeSlide = mySwiper.slides[mySwiper.activeIndex];
     const prevSibling = activeSlide.previousElementSibling;
 
@@ -38,12 +38,10 @@ const MySwiperComponent = () => {
       }
     }
     mySwiper.on('slideChange', () => {
-      // Remove the 'previous-sibling' class from all elements with the class 'swiper-slide'
       document.querySelectorAll('.swiper-slide').forEach((element) => {
         element.classList.remove('previous-sibling');
       });
 
-      // Add the 'previous-sibling' class to the immediate previous sibling's previous sibling of the active slide
       const activeSlide = mySwiper.slides[mySwiper.activeIndex];
       const prevSibling = activeSlide.previousElementSibling;
 
@@ -55,7 +53,6 @@ const MySwiperComponent = () => {
       }
     });
 
-    // Clean up when the component is unmounted
     return () => {
       mySwiper.destroy();
     };

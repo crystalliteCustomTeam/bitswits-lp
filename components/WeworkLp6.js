@@ -1,14 +1,13 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Image from 'next/image';
-import styles from "@/styles/Wework.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from "@/styles/Wework.module.css";
 //images
 import startups1 from '../public/images/wework/01.png'
 import startups2 from '../public/images/wework/02.png'
 import startups3 from '../public/images/wework/03.png'
 import Slider from 'react-slick'
-import { useEffect } from 'react';
-import { useState } from 'react';
+
 
 export default function WeworkLp6(props) {
 

@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from '@/styles/Homenextproject.module.css'
-import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
+import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/Homenextproject.module.css'
 
 
 const Homenextproject = () => {

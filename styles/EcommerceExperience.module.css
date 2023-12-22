@@ -1,55 +1,53 @@
 .ExperienceSec {
-    background: #000;
-    padding: 100px 0;
-    padding-bottom: 200px;
+  background: #000;
+  padding: 100px 0;
+  padding-bottom: 200px;
 }
-.ExperienceSec h3{
-    font-size: 23px;
+.ExperienceSec h3 {
+  font-size: 23px;
 }
 .contentTwo {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .contentThree {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
 .contentFour {
-    margin-top: 530px;
+  margin-top: 530px;
 }
-.linpost h2{
-    line-height: 55px;
+.linpost h2 {
+  line-height: 55px;
 }
-
 
 @media screen and (min-width: 1280px) {
-    .contentThree {
-        margin-top: 180px;
-    }
+  .contentThree {
+    margin-top: 180px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .contentFour {
-        margin-top: 200px;
-    }
+  .contentFour {
+    margin-top: 200px;
+  }
 }
 
 @media screen and (max-width: 991px) {
-    .contentThree {
-        margin-top: 40px;
-    }
+  .contentThree {
+    margin-top: 40px;
+  }
 
-    .contentFour {
-        margin-top: 60px;
-    }
+  .contentFour {
+    margin-top: 60px;
+  }
 }
 
 @media screen and (min-width: 1400px) {
-    .contentThree {
-        margin-top: 207px;
-    }
-    .linpost h2 {
-        line-height: 58px;
-    }
-
+  .contentThree {
+    margin-top: 207px;
+  }
+  .linpost h2 {
+    line-height: 58px;
+  }
 }

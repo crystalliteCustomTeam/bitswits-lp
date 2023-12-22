@@ -5,10 +5,8 @@ import Image from "next/image";
 import { Row, Col } from "react-bootstrap";
 import styles from "@/styles/NewHeader.module.css";
 //
-import { FaAngleDown, FaAngleRight } from "react-icons/fa";
+import { FaAngleDown } from "react-icons/fa";
 import { RiArrowDropRightLine } from "react-icons/ri";
-import { BsFillEnvelopeFill } from "react-icons/bs";
-import { BsFillTelephoneFill } from "react-icons/bs";
 import { RxCross2 } from "react-icons/rx";
 //
 import ActiveLink from "./ActiveLink";
@@ -17,11 +15,8 @@ import Bitswitspopup from "../components/Bitswitspopup";
 // images
 import logo from "../public/images/icons/footerlogo.png";
 import icontwo from "../public/images/newfydemand/icontwo.svg";
-import about2 from "../public/images/icons/about.png";
 import call from "../public/images/icons/phone-icon.webp";
 import mail from "../public/images/icons/email-icon.webp";
-import company from "../public/images/icons/company.png";
-import ourbg from "../public/images/icons/ourbg.png";
 import mbllogo from "../public/images/icons/footerlogo.png";
 ///// New Images Import
 import IOS from "public/images/icons/ios.png";
@@ -54,7 +49,6 @@ import cruveimg from "public/headerbits/cruve.png";
 import homeconnctimg from "public/headerbits/homeconnct.png";
 import beatsimg from "public/headerbits/beats.png";
 import readyappimg from "public/headerbits/readyapp.png";
-import contact from "public/headerbits/contact.png";
 // 
 import travel from "../public/images/case-studies/case-travel/banner-img.png"
 import estate from "../public/images/case-studies/case-dreamhome/banner-img.png"
@@ -1134,110 +1128,6 @@ const HeaderNewDesign = () => {
                 </div>
               ) : null}
             </li>
-            {/* <li
-              onMouseEnter={() => funcom("active3")}
-              onMouseLeave={() => funcom2("secImage2")}
-              className={styles.product}
-            >
-              <Link href="#" className={styles.post}>
-                OUR COMPANY
-                <FaAngleDown />
-              </Link>
-
-              {isHovered3 == "active3" ? (
-                <div className={styles.megamenucom}>
-                  <Row>
-                    <Col lg={4}>
-                      <ul className={`${styles.glop} mb-0 mt-0`}>
-                        <div className={styles.listHeading}>
-                          <div className={styles.megaIcon}>
-                            <Image
-                              alt="bitswits"
-                              className="img-fluid"
-                              src={about2}
-                            />
-                          </div>
-                          <h5 className="font14 fontf font-semibold mb-0">
-                            ABOUT US
-                          </h5>
-                        </div>
-                        <div className={styles.california}>
-                          <Row>
-                            <Col md={12}>
-                              <p>
-                                Based in California, US, our company is driven
-                                by a relentless commitment to client
-                                satisfaction, fueled by our passion for
-                                technology innovation and business process
-                                expertise. Since our inception in 2002, we have
-                                experienced remarkable growth year after year,
-                                currently boasting a thriving in-house team of
-                                over 1,000 employees spread across various
-                                international locations.
-                              </p>
-                              <Link
-                                className={styles.download}
-                                onClick={opnen}
-                                href="#"
-                                download
-                              >
-                                <FaAngleRight className="white font14" />
-                                Download our E-brochure
-                              </Link>
-                            </Col>
-                          </Row>
-                        </div>
-                      </ul>
-                    </Col>
-
-                    <Col lg={2}>
-                      <ul className={`${styles.glop} mb-0 mt-0`}>
-                        <div className={styles.listHeading}>
-                          <div className={styles.megaIcon}>
-                            <Image
-                              alt="bitswits"
-                              className="img-fluid"
-                              src={company}
-                            />
-                          </div>
-                          <h5 className="font14 fontf font-semibold mb-0">
-                            COMPANY
-                          </h5>
-                        </div>
-
-                        <li>
-                          <button
-                            className={styles.aboutButton}
-                            onClick={() => router.push("/about-us")}
-                          >
-                            <FaAngleRight />
-                            <ActiveLink
-                              href="/about-us"
-                              text="About Us"
-                              handle={() => isToggleCloseMeg((prev) => !prev)}
-                            />
-                          </button>
-                        </li>
-                      </ul>
-                    </Col>
-
-                    <Col lg={6}>
-                      <div className={styles.glop}>
-                        <div className={styles.listImg}>
-                          <Image
-                            alt="bitswits"
-                            className="img-fluid"
-                            src={ourbg}
-                          />
-                        </div>
-                      </div>
-                    </Col>
-                  </Row>
-                </div>
-              ) : (
-                ""
-              )}
-            </li> */}
             <li
               onMouseEnter={() => funwork("active4")}
               onMouseLeave={() => funwork2("secImage2")}

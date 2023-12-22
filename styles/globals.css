@@ -3,9 +3,11 @@
   --white: #fff;
   --primary: #f32f53;
   --mry: #f32f53;
-  --gradient: linear-gradient(90deg,
-      rgba(116, 25, 227, 0.5) 0%,
-      rgba(243, 47, 92, 0.5) 100%);
+  --gradient: linear-gradient(
+    90deg,
+    rgba(116, 25, 227, 0.5) 0%,
+    rgba(243, 47, 92, 0.5) 100%
+  );
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
@@ -782,7 +784,6 @@ a {
   background-color: #000;
 }
 
-
 .ecommerceslide .slick-slide img {
   display: block;
   width: 95%;
@@ -1076,11 +1077,6 @@ a {
   height: 30px;
 }
 
-/* .cursor2::after {
-  content: '';
-  background-image: url(/images/ourservices/before.png) !important;
-}  */
-
 .bgpost {
   background: #f6fafd;
 }
@@ -1284,8 +1280,6 @@ a {
 
 /* =============Other Sliders============== */
 
-
-
 .caseSlider .slick-track {
   display: flex;
   gap: 20px;
@@ -1299,28 +1293,22 @@ a {
   transform: translateY(8%) translateX(0%) scale(0.8);
 }
 
-
-
 .swiper-slide.swiper-slide-active {
-  transform: translateY(0) translateX(-11%) scale(.9);
+  transform: translateY(0) translateX(-11%) scale(0.9);
   margin-top: 17px;
 }
 
-.swiper-slide.swiper-slide-next+.swiper-slide {
-  transform: translateY(13.5%) translateX(2%) scale(.7);
+.swiper-slide.swiper-slide-next + .swiper-slide {
+  transform: translateY(13.5%) translateX(2%) scale(0.7);
 }
 
 .swiper-slide.previous-sibling {
-  transform: translateY(13.5%) translateX(-20%) scale(.7);
+  transform: translateY(13.5%) translateX(-20%) scale(0.7);
 }
 
 .swiper-slide {
-  transform: translateY(18.5%) translateX(-9%) scale(.6);
+  transform: translateY(18.5%) translateX(-9%) scale(0.6);
 }
-
-
-
-
 
 .tabs .form-select {
   background-size: 30px;
@@ -1489,45 +1477,10 @@ input::-webkit-inner-spin-button {
   margin-bottom: 0.5%;
 }
 
-/* .swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-slide-active {
-  z-index: 1;
-}
-
-.swiper-slide-active .card {
-  transform: scale(1.2);
-}
-
-.swiper {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.swiper-button-next:focus,
-.swiper-button-prev:focus {
-  outline: none;
-} */
-
 .card.testimonialscard {
   background-color: unset;
   border: unset;
 }
-
-/* .swiper-horizontal {
-  touch-action: unset;
-  padding-top: 5% !important;
-  padding-bottom: 5% !important;
-} */
 
 .lt0 {
   width: 125px !important;
@@ -1844,25 +1797,6 @@ input::-webkit-inner-spin-button {
   cursor: pointer;
 }
 
-/* .ani {
-  animation: 0.7s ease-in-out forwards growDown;
-  transform-origin: top;
-} */
-
-/* @keyframes growDown {
-  0% {
-    transform: scaleY(0);
-  }
-
-  80% {
-    transform: scaleY(1.5);
-  }
-
-  100% {
-    transform: scaleY(1);
-  }
-} */
-
 .newwidth {
   max-width: 90%;
   text-align: justify;
@@ -1897,34 +1831,6 @@ input::-webkit-inner-spin-button {
   top: -100px;
   left: 0%;
 }
-
-/* .qtech ul li:nth-last-child(3) {
-  bottom: auto;
-  top: 75px;
-  left: 7.5%;
-}
-
-.qtech ul li:nth-last-child(2) {
-  bottom: auto;
-  top: 75px;
-  left: 9%;
-}
-
-.qtech ul li:nth-last-child(1) {
-  bottom: auto;
-  top: 75px;
-  left: 8.4%;
-}
-
-.qtech ul li:nth-last-child(4) {
-  bottom: auto;
-  top: 102px;
-  left: -61.5%;
-}
-
-.slick-dots li button {
-  width: 100%;
-} */
 
 .newfoldlp .slick-dots li button:before {
   font-family: "slick";
@@ -1970,7 +1876,6 @@ input::-webkit-inner-spin-button {
 .qtech .slick-dots li {
   width: 175px;
   height: 5px;
-  /* margin-left: 19px; */
 }
 
 .qtechcap .slick-dots li button:before {
@@ -3049,20 +2954,6 @@ button {
   display: block;
 }
 
-/* @keyframes growLeft {
-  0% {
-    transform: scaleX(0);
-  }
-
-  80% {
-    transform: scaleX(1.1);
-  }
-
-  100% {
-    transform: scaleX(1);
-  }
-} */
-
 .dropmap .accordion-item {
   border: unset;
   border-bottom: 1px solid #dee2e6;
@@ -3127,10 +3018,6 @@ button {
 .touch p {
   color: #7a719b !important;
 }
-
-/* .newfaqsgloble .touch {
-  box-shadow: #f32fc261 0 1px 30px 0;
-} */
 
 .touch div {
   border: unset;
@@ -3642,15 +3529,6 @@ button {
   .status2 {
     padding-top: 0px;
   }
-
-  /* .status {
-    padding-top: 150px;
-    background-color: black;
-  }*/
-
-  /* .status3 {
-    padding-bottom: 50px;
-  } */
 
   .qtechcap .prohome1 .slick-dots {
     visibility: hidden;

@@ -2,28 +2,20 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '@/styles/Headerlphome.module.css'
-import { Row, Col } from 'react-bootstrap'
 // images
 import logo from '../public/images/lpheader/logo.png'
-
 import logo1 from '../public/images/lpheader/1.png'
 import logo2 from '../public/images/lpheader/2.png'
 import logo3 from '../public/images/lpheader/3.png'
 import logo4 from '../public/images/lpheader/4.png'
 import logo5 from '../public/images/lpheader/5.png'
 import star from '../public/images/lpheader/star.png'
-import pipe from '../public/images/lpheader/pipe.png'
 import logo22 from '../public/images/icons/footerlogo.png'
-
-
-
-
 import new1 from '../public/images/lpheader/new1.png'
 import new2 from '../public/images/lpheader/new2.png'
 import new3 from '../public/images/lpheader/new3.png'
 import new4 from '../public/images/lpheader/new4.png'
 import new5 from '../public/images/lpheader/new5.png'
-
 
 
 const Headerlphome = () => {

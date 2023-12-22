@@ -46,10 +46,7 @@ const NewMblServices = () => {
                                         <h3 className='text-white font25 font-bold'>Flutter App Development</h3>
                                         <p className={`${styles.para1}`}>Our team of expert Flutter app developers at BitsWits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs. From ideation to deployment, we ensure a smooth and efficient development process.</p>
                                     </Col>
-                                    <Col xl={4}>
-
-                                        {/* <div id='artifical' ></div> */}
-                                    </Col>
+                                    <Col xl={4}></Col>
                                 </Row>
                             </div>
                         </Col>

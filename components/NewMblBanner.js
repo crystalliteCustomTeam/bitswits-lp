@@ -1,22 +1,21 @@
 import React from 'react'
-import styles from "@/styles/NewMblBanner.module.css";
+import Link from 'next/link'
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
-import Link from 'next/link'
-//
-import BannerImage from "@/public/newMobilePageImages/banner_image.png"
+import styles from "@/styles/NewMblBanner.module.css";
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+//
+import BannerImage from "@/public/newMobilePageImages/banner_image.png"
 import icon20 from '../public/newHomePageImages/nexticon/1.png'
 import icon30 from '../public/newHomePageImages/nexticon/2.png'
 import icon40 from '../public/newHomePageImages/nexticon/3.png'
 import icon50 from '../public/newHomePageImages/nexticon/5.png'
 import icon60 from '../public/newHomePageImages/nexticon/6.png'
 import icon70 from '../public/newHomePageImages/nexticon/7.png'
- import icon80 from '../public/newHomePageImages/nexticon/8.png'
+import icon80 from '../public/newHomePageImages/nexticon/8.png'
 
 
 
@@ -79,7 +78,7 @@ const NewHomeBanner = () => {
                         </Col>
                     </Row>
                 </Container>
-                 
+
                 <div>
                     <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-5`}>
 
@@ -104,7 +103,7 @@ const NewHomeBanner = () => {
                         <div className={`${styles.strpImg} ${styles.minImg}`}>
                             <Image alt="BitsWits" src={icon70} className="img-fluid w-25" />
                         </div>
-                      
+
                     </Slider>
                 </div>
             </section>

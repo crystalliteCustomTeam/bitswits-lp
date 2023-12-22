@@ -1,16 +1,18 @@
 import React from 'react'
 import Link from 'next/link'
-import styles from '@/styles/NewMblCapabilities.module.css'
+import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/NewMblCapabilities.module.css'
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+//
 import team1 from '../public/newMobilePageImages/discuss.png'
 import close from '../public/newMobilePageImages/mark.png'
-import Image from 'next/image';
+
 
 const Capabilities = () => {
-
 
     var awardslogo = {
         dots: true,
@@ -21,9 +23,7 @@ const Capabilities = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-
     };
-
 
 
     return (

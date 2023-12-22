@@ -1,13 +1,10 @@
 import React from 'react'
-import Image from 'next/image';
-import styles from "@/styles/NewMaintain6Lp.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from "@/styles/NewMaintain6Lp.module.css";
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-//
-import cardNine from '../public/newHomePage/images/newMaintain9.png'
 
 
 const NewMaintain6Lp = () => {
@@ -77,9 +74,7 @@ const NewMaintain6Lp = () => {
                                             </p>
                                         </div>
                                     </Col>
-                                    <Col xl={5}>
-                                        {/* <div id='artifical' ></div> */}
-                                    </Col>
+                                    <Col xl={5}></Col>
                                 </Row>
 
                             </div>

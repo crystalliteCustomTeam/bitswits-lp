@@ -1,10 +1,6 @@
 import React from 'react'
-import Image from 'next/image';
-import styles from "@/styles/NewHomeMaintainlp.module.css";
-
 import { Container, Row, Col } from 'react-bootstrap'
-//
-import cardNine from '../public/newHomePage/images/newMaintain9.png'
+import styles from "@/styles/NewHomeMaintainlp.module.css";
 
 
 const NewMaintainlp = () => {

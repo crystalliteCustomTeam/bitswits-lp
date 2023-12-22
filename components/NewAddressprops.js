@@ -1,14 +1,14 @@
 import React from 'react'
-import styles from "@/styles/Iosbanner.module.css";
+import Link from 'next/link'
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
-import Link from 'next/link'
+import styles from "@/styles/Iosbanner.module.css";
 //
 import icon11 from '../public/newMobilePageImages/city1.png'
 import icon12 from '../public/newMobilePageImages/city2.png'
 import icon14 from '../public/newMobilePageImages/city3.png'
-//
 import arrow from '../public/newlppage/arrow.png'
+
 
 const NewAddress = (props) => {
     return (

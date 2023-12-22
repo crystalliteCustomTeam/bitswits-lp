@@ -1,18 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '@/styles/Partnercross.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/Partnercross.module.css'
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //images
-import right from '../public/images/homebanner/right-arrow.webp'
-import laptop from '../public/images/partner/laptop.webp'
-import servicecard from '../public/images/partner/service-card.webp'
-
 import hybird from '../public/images/partnerpoiny/d-hybrid.webp'
 import native from '../public/images/partnerpoiny/d-native.webp'
+
 
 const Partnercross = () => {
 

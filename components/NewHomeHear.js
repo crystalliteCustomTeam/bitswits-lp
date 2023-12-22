@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from "@/styles/NewHomeHear.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from "@/styles/NewHomeHear.module.css";
 //
 import ButtonIcon from "@/public/newHomePageImages/hear-btn.png"
 

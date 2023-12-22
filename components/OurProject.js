@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '@/styles/OurProject.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/OurProject.module.css'
 import Slider from 'react-slick'
 //images
 import slideImg1 from '../public/images/workprojects/1.jpg'
@@ -48,14 +48,7 @@ const OurProject = () => {
                                 The Game Plan for <span className='grdiant'> Building Your App </span>
                             </h2>
                         </Col>
-                        {/* <Col lg={3}>
-                            <Link className={`${styles.bttns1} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
-                                Connect Now!
-                            </Link>
-                        </Col> */}
-
-
-
+                        
                         <Row>
                             <Col lg={2}><div className={styles.line1}></div></Col>
                             <Col lg={2}><div className={styles.line2}></div></Col>
@@ -66,10 +59,6 @@ const OurProject = () => {
                         </Row>
 
                         <Col lg={12}>
-                            {/* <div className={styles.line}></div> */}
-
-
-
                             <Slider {...projectslider} className={`${styles.newproject} newproject`}>
                                 <div className={styles.slideBox}>
                                     <Row>

@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from "@/styles/ServicesPortfolio.module.css";
 import { Container, Row, Col } from 'react-bootstrap';
-
+import styles from "@/styles/ServicesPortfolio.module.css";
+//
 import folio1 from "@/public/newMobilePageImages/portfolio/folio1.png";
 import folio2 from "@/public/newMobilePageImages/portfolio/folio2.png";
 import folio3 from "@/public/newMobilePageImages/portfolio/folio3.png";
@@ -19,7 +19,9 @@ import folio11 from "@/public/newMobilePageImages/portfolio/folio11.png";
 import folio12 from "@/public/newMobilePageImages/portfolio/folio12.png";
 import folio13 from "@/public/newMobilePageImages/portfolio/folio13.png";
 
+
 const ServicesPortfolio = (props) => {
+
     const [showAll, setShowAll] = useState(false);
     const isTab = useMediaQuery({ maxWidth: 991 });
     const isMobile = useMediaQuery({ maxWidth: 767 });

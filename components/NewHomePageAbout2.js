@@ -1,16 +1,14 @@
 import React from 'react'
-import styles from "@/styles/NewHomeAbout2.module.css";
+import { useState } from 'react';
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
-import Link from 'next/link'
+import styles from "@/styles/NewHomeAbout2.module.css";
 //
 import AboutImage from "@/public/newHomePageImages/about_image.png"
 import comma from "@/public/newHomePageImages/comma.png"
-import { useState } from 'react';
+
 
 const NewHomeAbout = () => {
-
-
 
     const [isHovered, setIsHovered] = useState('');
 
@@ -40,10 +38,8 @@ const NewHomeAbout = () => {
                             <h2 className='grdiant f-60 font-bold text-center'>Nothing Short Of Amazing!</h2>
 
 
-                            < div className={` ${styles.client} sec_image text-center`}>
+                            <div className={` ${styles.client} sec_image text-center`}>
                                 <Image quality={75} src={AboutImage} alt='Banner' className={styles.secImage} />
-
-
                                 <div onMouseEnter={() => fun1('active')}
                                     onMouseLeave={() => fun2('secImage1')} className={isHovered == 'active' ? styles.active : styles.secImage1}>
                                     <Image src={comma} alt='BitsWits' className='img-fluid' />
@@ -202,11 +198,7 @@ const NewHomeAbout = () => {
                                     <h4>"The rider app has made my daily commute so much easier. Booking a ride has never been more efficient. Thank you, BitsWits!" <Image src={comma} alt='BitsWits' className='img-fluid' /></h4>
                                     <h5 className='mt-4'>Diego V</h5>
                                 </div>
-
-
-                            </div >
-
-
+                            </div>
 
                             <div onMouseEnter={() => fun1('active')}
                                 onMouseLeave={() => fun2('secImage1')}
@@ -306,7 +298,7 @@ const NewHomeAbout = () => {
                     </Row>
 
                 </Container>
-            </section >
+            </section>
 
 
         </>

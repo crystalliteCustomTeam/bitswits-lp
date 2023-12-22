@@ -1,22 +1,15 @@
 import React from 'react'
-import styles from '@/styles/ProjectProcesslpfinal6.module.css'
-import { Container, Row, Col } from 'react-bootstrap'
 import Image from 'next/image'
-import Link from 'next/link'
-
+import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/ProjectProcesslpfinal6.module.css'
 //images
 import banImg1 from '../public/images/projectprocess/process.png'
 
 
 const ProjectProcesslpfinal6 = (props) => {
 
-
-
-
-
     return (
         <>
-
             <section className={styles[props.processclass]}>
                 <Container>
                     <Row>
@@ -29,11 +22,6 @@ const ProjectProcesslpfinal6 = (props) => {
                     </Row>
                 </Container>
             </section>
-
-
-
-
-
         </>
     )
 }

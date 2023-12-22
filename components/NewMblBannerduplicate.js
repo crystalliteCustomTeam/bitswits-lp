@@ -1,14 +1,13 @@
 import React from 'react'
-import styles from "@/styles/NewMblBannerdulicate.module.css";
+import Link from 'next/link'
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
-import Link from 'next/link'
+import styles from "@/styles/NewMblBannerdulicate.module.css";
 //
 import BannerImage from "@/public/andriodapplication/andriod.png"
 //
 import NewAddress2 from './NewAddress2';
 import HomeBannerSlider from './HomeBannerSlider';
-
 
 
 const NewHomeBanner = () => {

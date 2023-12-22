@@ -5,7 +5,6 @@
 
 .feature {
   padding: 30px;
-  /* margin: 20px 0px 20px; */
   margin: 20px auto;
 }
 
@@ -55,7 +54,6 @@
   -webkit-animation: flip 0.5s linear;
   perspective: 0px;
   transform-style: preserve-3d;
-  /* transform: rotateX(360deg) translatez(110px); */
 }
 
 @-webkit-keyframes flip {

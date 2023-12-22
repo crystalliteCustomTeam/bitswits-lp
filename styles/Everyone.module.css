@@ -1,11 +1,11 @@
 .hook {
   margin-top: -272px;
-  background-color: #F5F5FF;
+  background-color: #f5f5ff;
 }
 
 .dev {
   display: flex;
-  background-color: #1E1E1E;
+  background-color: #1e1e1e;
   border-radius: 50px;
   align-items: center;
   padding: 5%;
@@ -35,7 +35,7 @@
 .btnpost {
   width: 205px;
   height: 56px;
-  background-color: #F32F53;
+  background-color: #f32f53;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,7 +63,7 @@
 .btnpost {
   width: 205px;
   height: 56px;
-  background-color: #F32F53;
+  background-color: #f32f53;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,7 +73,7 @@
 }
 
 .what {
-  border: 2px solid #F32F53;
+  border: 2px solid #f32f53;
   border-radius: 30px;
   text-align: center;
   padding: 4%;
@@ -88,40 +88,30 @@
 }
 
 .what h4 {
-  color: #F32F53;
+  color: #f32f53;
   font-size: 20px;
   font-weight: 700;
 }
 
-
 @media screen and (min-width: 1400px) {
-
   .post {
     position: relative;
     width: 56%;
-}
+  }
 
   .point {
-   
     background-position: unset;
-}
-
+  }
 
   .hook {
     margin-top: -415px;
-    background-color: #F5F5FF;
+    background-color: #f5f5ff;
   }
-
-
 }
 
 @media screen and (min-width: 1900px) {
-
   .hook {
     margin-top: -415px;
-    background-color: #F5F5FF;
+    background-color: #f5f5ff;
   }
-
-
 }
-

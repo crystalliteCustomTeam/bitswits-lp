@@ -9,10 +9,10 @@
 .thriving h3 {
   font-size: 45px;
   line-height: 55px;
-  color: #F32F53;
+  color: #f32f53;
   font-weight: 700;
 }
-.thriving h3  span{
+.thriving h3 span {
   color: white;
 }
 .thriving p {
@@ -33,11 +33,9 @@
 }
 
 .welcome span {
-  color: #F32F53;
+  color: #f32f53;
   font-weight: 600;
 }
-
-
 
 .newpost {
   text-align: center;
@@ -59,14 +57,13 @@
     transform: translateY(-15px);
   }
 }
-@media screen and (max-width: 1920px) { 
-
+@media screen and (max-width: 1920px) {
   .donothing {
     position: relative;
   }
   .donothing::before {
     position: absolute;
-    content: '';
+    content: "";
     background-image: url(../public/images/mobilelpfinal/bgimage.png);
     width: 728px;
     height: 728px;
@@ -74,20 +71,15 @@
     left: 0;
     right: 0;
     margin: 0 auto;
-
   }
-
-
-  
 }
-@media screen and (max-width: 1440px) { 
-
+@media screen and (max-width: 1440px) {
   .donothing {
     position: relative;
   }
   .donothing::before {
     position: absolute;
-    content: '';
+    content: "";
     background-image: url(../public/images/mobilelpfinal/bgimage.png);
     width: 728px;
     height: 728px;
@@ -95,14 +87,10 @@
     left: 0;
     right: 0;
     margin: 0 auto;
-
   }
-  
 }
-
 
 @media screen and (max-width: 991px) {
-
   .donothing {
     background-image: unset;
     background-position: center center;
@@ -111,10 +99,8 @@
     padding-bottom: 0px;
     background-size: 57%;
   }
-
- }
+}
 @media screen and (max-width: 991px) {
-
   .imgfold {
     display: flex;
     justify-content: space-evenly;
@@ -122,28 +108,21 @@
     gap: 67px;
     flex-wrap: wrap;
   }
-
-
 }
 
-
 @media screen and (max-width: 767px) {
-
-
   .donothing::before {
     position: unset;
     background-image: unset;
-
-
   }
 
-  .welcome{
+  .welcome {
     font-size: 20px;
   }
 
   .thriving h3 {
     font-size: 30px;
-    color: #F32F53;
+    color: #f32f53;
     font-weight: 500;
   }
 
@@ -163,16 +142,12 @@
     flex-wrap: unset;
     justify-content: center;
   }
-
-
 }
 
 @media screen and (max-width: 480px) {
-
   .thriving h3 {
     font-size: 24px;
-    color: #F32F53;
+    color: #f32f53;
     font-weight: 500;
-}
-
+  }
 }

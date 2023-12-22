@@ -1,14 +1,13 @@
 import React from "react";
-import styles from "@/styles/People.module.css";
-import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
-import Link from "next/link";
-
+import { Container, Row, Col } from "react-bootstrap";
+import styles from "@/styles/People.module.css";
 //images
 import banImg1 from "../public/images/people/people.png";
 import star from "../public/images/people/star.png";
 import star1 from "../public/images/people/1.png";
 import star2 from "../public/images/people/2.png";
+
 
 const People = (props) => {
   return (

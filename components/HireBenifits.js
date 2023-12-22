@@ -2,8 +2,8 @@ import React from 'react'
 import { useState } from 'react';
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from '@/styles/HireBenifits.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/HireBenifits.module.css'
 //
 import { FaAngleDown } from 'react-icons/fa';
 

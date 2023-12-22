@@ -1,8 +1,9 @@
 import React from 'react'
-import styles from '@/styles/Technologieslp.module.css'
-import { Container, Row, Col } from 'react-bootstrap'
 import { useState } from 'react'
 import Image from 'next/image'
+import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/Technologieslp.module.css'
+//
 import icon1 from '../public/newHomePageImages/tech/1.png'
 import icon2 from '../public/newHomePageImages/tech/2.png'
 import icon3 from '../public/newHomePageImages/tech/3.png'
@@ -11,31 +12,29 @@ import icon5 from '../public/newHomePageImages/tech/5.png'
 import icon6 from '../public/newHomePageImages/tech/6.png'
 import icon7 from '../public/newHomePageImages/tech/7.png'
 import icon8 from '../public/newHomePageImages/tech/8.png'
-
+//
 import frontend1 from '../public/newHomePageImages/tech/frontend/1.png'
 import frontend2 from '../public/newHomePageImages/tech/frontend/2.png'
 import frontend3 from '../public/newHomePageImages/tech/frontend/3.png'
 import frontend4 from '../public/newHomePageImages/tech/frontend/4.png'
 import frontend5 from '../public/newHomePageImages/tech/frontend/5.png'
 import frontend6 from '../public/newHomePageImages/tech/frontend/6.png'
-
+//
 import database1 from '../public/newHomePageImages/tech/database/1.png'
 import database2 from '../public/newHomePageImages/tech/database/2.png'
 import database3 from '../public/newHomePageImages/tech/database/3.png'
 import database4 from '../public/newHomePageImages/tech/database/4.png'
 import database5 from '../public/newHomePageImages/tech/database/5.png'
 import database6 from '../public/newHomePageImages/tech/database/6.png'
-
-
+//
 import php1 from '../public/newHomePageImages/tech/php/1.png'
 import php2 from '../public/newHomePageImages/tech/php/2.png'
 import php3 from '../public/newHomePageImages/tech/php/3.png'
-
+//
 import cms1 from '../public/newHomePageImages/tech/cms/1.png'
 import cms2 from '../public/newHomePageImages/tech/cms/2.png'
 import cms3 from '../public/newHomePageImages/tech/cms/3.png'
-
-
+//
 import dev1 from '../public/newHomePageImages/tech/dev/1.png'
 import dev2 from '../public/newHomePageImages/tech/dev/2.png'
 import dev3 from '../public/newHomePageImages/tech/dev/3.png'
@@ -53,7 +52,6 @@ const Technologieslp = () => {
     function fun1(tabs1) {
         setActiveTab1(tabs1);
     }
-
 
     return (
         <>

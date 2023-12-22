@@ -1,9 +1,7 @@
 import React from "react";
-import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/ProjectProcess.module.css";
-//images
-import banImg1 from "../public/images/projectprocess/process.png";
+
 
 const ProjectProcessLp6props = (props) => {
   return (

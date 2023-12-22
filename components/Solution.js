@@ -1,16 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
-import styles from '@/styles/Solution.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/Solution.module.css'
 //
 import Solution from '../public/blockchaindevelopment/images/solution.png'
+
 
 const Solutions = () => {
 
   return (
     <>
-
       <section className={styles.home}>
         <Container className='qtech'>
           <Row className='align-items-center'>
@@ -27,9 +27,6 @@ const Solutions = () => {
           </Row>
         </Container>
       </section>
-
-
-
     </>
   )
 }

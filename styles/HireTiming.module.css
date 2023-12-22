@@ -4,7 +4,6 @@
 }
 
 .timing h2 {
-  /* font-size: 60px; */
   line-height: 70px;
   font-weight: 700;
   color: #fff;
@@ -78,7 +77,6 @@
   text-align: center;
 }
 
-
 /* ================================ */
 
 @media screen and (max-width: 991px) {
@@ -102,7 +100,7 @@
     height: 250px;
   }
 
-  .title{
+  .title {
     margin: 0 auto 10px;
   }
 
@@ -110,7 +108,6 @@
     font-size: 16px;
     font-weight: 300;
   }
-
 }
 
 @media screen and (max-width: 767px) {
@@ -119,20 +116,19 @@
     line-height: 40px;
   }
 
-  .timingBox{
+  .timingBox {
     margin-top: 20px;
   }
-  
+
   .timingBox h4 {
     font-size: 15px;
   }
 
-  .title{
+  .title {
     font-size: 16px;
   }
 
   .timing {
     padding: 0 0 50px;
   }
- 
 }

@@ -1,15 +1,14 @@
 import React from 'react'
+import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../styles/NewhomeFaqs.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
-// import Accordion from 'react-bootstrap/Accordion';
-import { useState } from 'react'
+import styles from '../styles/NewhomeFaqs.module.css'
 //images
-// import arrow from '../public/images/icons/arrow.webp'
 import arrow from '../public/newHomePageImages/pick.png'
 import close from '../public/newHomePageImages/close.png'
 import open from '../public/newHomePageImages/open.png'
+
 
 const NewhomeFaqs = (props) => {
 

@@ -1,10 +1,10 @@
 import React from 'react'
-import styles from "@/styles/NewHomeAbout.module.css";
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
-import Link from 'next/link'
+import styles from "@/styles/NewHomeAbout.module.css";
 //
 import AboutImage from "@/public/newHomePageImages/about_image.svg"
+
 
 const NewHomeAbout = () => {
 

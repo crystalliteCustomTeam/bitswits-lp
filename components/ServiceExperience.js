@@ -22,10 +22,8 @@ import var6 from '../public/3d-game-development/images/variation/06.png'
 import var7 from '../public/3d-game-development/images/variation/07.png'
 import var8 from '../public/3d-game-development/images/variation/08.png'
 import var9 from '../public/3d-game-development/images/variation/09.png'
-import var10 from '../public/3d-game-development/images/variation/10.png'
 import var11 from '../public/3d-game-development/images/variation/11.png'
 import var12 from '../public/3d-game-development/images/variation/12.png'
-
 
 
 const ServiceExperience = () => {

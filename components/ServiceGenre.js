@@ -31,8 +31,6 @@ const ServiceGenre = (props) => {
                     </Row>
                 </Container>
             </section>
-
-
         </>
     )
 }

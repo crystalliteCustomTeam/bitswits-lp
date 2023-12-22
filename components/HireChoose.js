@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from '@/styles/HireChoose.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/HireChoose.module.css'
 //
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';

@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import Link from 'next/link';
 import Image from 'next/image'
-import styles from '@/styles/NewLpFooter.module.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import styles from '@/styles/NewLpFooter.module.css'
 //images
 import call from '../public/newlppage/phone-icon.webp'
 import mail from '../public/newlppage/email-icon.webp'
@@ -12,7 +12,6 @@ import inta from '../public/newlppage/insta-icon.webp'
 import tweet from '../public/newlppage/twitter-icon.webp'
 import linkedin from '../public/newlppage/linkedin-icon.webp'
 import youtube from '../public/newlppage/youtube-icon.webp'
-//
 
 
 const Footerlp = () => {

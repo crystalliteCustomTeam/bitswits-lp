@@ -1,9 +1,8 @@
 import React from 'react'
+import Link from 'next/link';
 import Image from 'next/image';
-import styles from "@/styles/Transformideaslp6.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
-
-
+import styles from "@/styles/Transformideaslp6.module.css";
 //images
 import banImg1 from '../public/images/lp-images/icon1.png'
 import banImg2 from '../public/images/lp-images/icon2.png'
@@ -14,17 +13,12 @@ import banImg6 from '../public/images/lp-images/icon6.png'
 import banImg7 from '../public/images/lp-images/icon7.png'
 import banImg8 from '../public/images/lp-images/icon8.png'
 import banImg9 from '../public/images/lp-images/icon9.png'
-import "slick-carousel/slick/slick-theme.css";
+//
 import Slider from 'react-slick';
-import { useEffect } from 'react';
-import { useState } from 'react';
-
-import Link from 'next/link';
+import "slick-carousel/slick/slick-theme.css";
 
 
 export default function Transformideaslp6(props) {
-
-
 
     var phoneSlider = {
         dots: false,
@@ -122,18 +116,18 @@ export default function Transformideaslp6(props) {
 
                             <Slider {...phoneSlider} className='mt-5 text-center' >
 
-                               
 
-                                    {items.map((item, index) => (
 
-                                        <div className={styles.post}>
-                                            <Image alt='BitsWits' src={item.image} className='img-fluid mb-3 m-auto pt-5' />
-                                            <p>{item.text}</p>
-                                        </div>
+                                {items.map((item, index) => (
 
-                                    ))}
+                                    <div className={styles.post}>
+                                        <Image alt='BitsWits' src={item.image} className='img-fluid mb-3 m-auto pt-5' />
+                                        <p>{item.text}</p>
+                                    </div>
 
-                               
+                                ))}
+
+
 
 
 

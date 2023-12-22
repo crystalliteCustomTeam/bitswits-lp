@@ -45,7 +45,9 @@ import dev7 from "../public/newHomePageImages/tech/dev/7.png";
 import dev8 from "../public/newHomePageImages/tech/dev/8.png";
 import dev9 from "../public/newHomePageImages/tech/dev/9.png";
 
+
 const Technologieswe = (props) => {
+  
   const [activeTab1, setActiveTab1] = useState("tab1");
   function fun1(tabs1) {
     setActiveTab1(tabs1);

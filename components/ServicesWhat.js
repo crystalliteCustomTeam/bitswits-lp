@@ -1,8 +1,8 @@
 import React from 'react'
-import Image from 'next/image';
 import Link from 'next/link';
-import styles from "@/styles/ServicesWhat.module.css";
+import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from "@/styles/ServicesWhat.module.css";
 //
 import ButtonIcon from "@/public/newHomePageImages/home_btn.png"
 

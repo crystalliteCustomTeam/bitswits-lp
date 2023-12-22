@@ -1,13 +1,10 @@
 import React from 'react'
-import Image from 'next/image';
-import styles from "@/styles/Nothinglp2.module.css";
-import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link';
-
+import Image from 'next/image';
+import { Container, Row, Col } from 'react-bootstrap'
+import styles from "@/styles/Nothinglp2.module.css";
 //images
 import banImg1 from '../public/images/nothing/map.png'
-
-//
 import news1 from '/public/images/nothing/1.png'
 import news2 from '/public/images/nothing/1.png'
 import news3 from '/public/images/nothing/1.png'
@@ -18,7 +15,6 @@ import verified from '/public/newHomePage/images/pageLp6/verified.png'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 
 
 export default function Nothinglp2(props) {

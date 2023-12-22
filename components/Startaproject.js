@@ -1,16 +1,11 @@
 import React from 'react'
-import styles from "@/styles/Startaproject.module.css";
-import Link from 'next/link'
 import Image from 'next/image'
-import { Container, Row, Col } from 'react-bootstrap'
+import styles from "@/styles/Startaproject.module.css";
+//
 import badgelogo from '../public/images/startaproject/till.png'
 
 
 const Startaproject = () => {
-
-
-
-
     return (
         <>
             <section class={styles.still}>

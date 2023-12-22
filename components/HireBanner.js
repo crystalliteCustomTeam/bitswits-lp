@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '@/styles/HireBanner.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/HireBanner.module.css'
 
 
 const HireBanner = (props) => {

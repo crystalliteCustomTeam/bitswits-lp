@@ -1,31 +1,28 @@
 import React from 'react'
-import styles from "@/styles/NewMblGlobal.module.css";
-import Link from 'next/link'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from "@/styles/NewMblGlobal.module.css";
+//
 import team1 from '../public/images/bestglobal/global.png'
-
 import bestglobal1 from '../public/images/bestglobal/1.png'
 import bestglobal2 from '../public/images/bestglobal/2.png'
 import bestglobal3 from '../public/images/bestglobal/3.png'
 import bestgloba4 from '../public/images/bestglobal/4.png'
-
 import bestglobal5 from '../public/images/bestglobal/5.png'
 import bestglobal6 from '../public/images/bestglobal/6.png'
 import bestglobal7 from '../public/images/bestglobal/7.png'
 import bestgloba8 from '../public/images/bestglobal/8.png'
-
 import bestglobal9 from '../public/images/bestglobal/9.png'
 import bestglobal10 from '../public/images/bestglobal/10.png'
 import bestglobal11 from '../public/images/bestglobal/11.png'
 import bestgloba12 from '../public/images/bestglobal/12.png'
-
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const Newglobal = () => {
 
+const Newglobal = () => {
 
     let lctonSlider = {
         dots: true,
@@ -38,9 +35,6 @@ const Newglobal = () => {
         slidesToScroll: 1,
     };
 
-
-
-
     return (
         <>
 
@@ -52,15 +46,12 @@ const Newglobal = () => {
                             <h3 className='f45 font-bold white'>World-Renowned</h3>
                             <h2 className={styles.success}>Brands Trust Us</h2>
 
-
                             <div className={styles.postpoint}>
                                 <div>
                                     <Image quality={75} src={bestglobal1} className='img-fluid' alt='BitsWits' />
                                     <Image quality={75} src={bestglobal2} className='img-fluid' alt='BitsWits' />
                                     <Image quality={75} src={bestglobal3} className='img-fluid' alt='BitsWits' />
                                     <Image quality={75} src={bestgloba4} className='img-fluid' alt='BitsWits' />
-
-
                                 </div>
 
                                 <div className={styles.pont}>
@@ -68,17 +59,13 @@ const Newglobal = () => {
                                     <Image quality={75} src={bestglobal6} className='img-fluid' alt='BitsWits' />
                                     <Image quality={75} src={bestglobal7} className='img-fluid' alt='BitsWits' />
                                     <Image quality={75} src={bestgloba8} className='img-fluid' alt='BitsWits' />
-
-
                                 </div>
 
-                                <div >
+                                <div>
                                     <Image quality={75} src={bestglobal9} className='img-fluid' alt='BitsWits' />
                                     <Image quality={75} src={bestglobal10} className='img-fluid' alt='BitsWits' />
                                     <Image quality={75} src={bestglobal11} className='img-fluid' alt='BitsWits' />
                                     <Image quality={75} src={bestgloba12} className='img-fluid' alt='BitsWits' />
-
-
                                 </div>
                             </div>
 
@@ -95,33 +82,16 @@ const Newglobal = () => {
                                 <Image quality={75} src={bestglobal10} className='img-fluid' alt='BitsWits' />
                                 <Image quality={75} src={bestglobal11} className='img-fluid' alt='BitsWits' />
                                 <Image quality={75} src={bestgloba12} className='img-fluid' alt='BitsWits' />
-
-
-
                             </Slider>
-
                         </Col>
                         <Col xl={3}>
                             <div className={styles.pipe}>
-
                                 <Image quality={75} src={team1} className='img-fluid' alt='BitsWits' />
-
                             </div>
                         </Col>
                     </Row>
-
-
                 </Container>
-
-
             </section>
-
-
-
-
-
-
-
         </>
     )
 }

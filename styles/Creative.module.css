@@ -5,7 +5,6 @@
 .newHomeBg {
   padding-top: 100px;
   background-color: black;
-
 }
 
 .flip img {
@@ -14,7 +13,6 @@
   right: 0;
   margin: 0 auto;
   top: -80px;
-
 }
 
 .flip {
@@ -40,8 +38,7 @@
 .btncall h4 {
   font-size: 30px;
   font-weight: bold;
-  color: #F32F53;
-
+  color: #f32f53;
 }
 
 .call {
@@ -53,7 +50,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  color: #261D4A;
+  color: #261d4a;
   font-weight: 700;
 }
 
@@ -71,53 +68,41 @@
   font-weight: 700;
 }
 
-
 @media screen and (min-width: 1400px) {
-
   .newHomeBg {
     padding-top: 150px;
     background-color: black;
   }
-
-
 }
 
 @media screen and (min-width: 1900px) {
-
   .newHomeBg {
     padding-top: 230px;
     background-color: black;
   }
-
-
 }
 
 @media screen and (max-width: 991px) {
   .btncall h4 {
     font-size: 21px;
   }
-
-
 }
 
 @media screen and (max-width: 767px) {
   .btncall {
     gap: 0px;
   }
-
-
 }
 
 @media screen and (max-width: 480px) {
   .flip img {
     position: unset;
-    display: none
+    display: none;
   }
   .call {
     color: #ffffff;
-}
-.btncall {
-
-  margin-top: unset;
-}
+  }
+  .btncall {
+    margin-top: unset;
+  }
 }

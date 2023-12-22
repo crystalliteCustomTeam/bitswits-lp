@@ -8,9 +8,6 @@ import startups from '../public/images/startups/startups.png'
 
 
 export default function StartupsLp6(props) {
-
-
-
     return (
         <>
             <section className={styles[props.startups]}>

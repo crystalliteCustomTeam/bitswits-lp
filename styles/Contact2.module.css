@@ -64,7 +64,7 @@
 .socialIcn img:hover {
   filter: brightness(0);
 }
-.cntcTxt p{
+.cntcTxt p {
   color: white;
 }
 .cntcForm form label {
@@ -97,7 +97,7 @@
   color: white;
 }
 
-.cntcForm form select option{
+.cntcForm form select option {
   color: black;
 }
 

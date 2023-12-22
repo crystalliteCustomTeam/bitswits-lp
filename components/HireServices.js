@@ -1,8 +1,8 @@
 import React from 'react'
-import styles from "@/styles/HireServices.module.css";
+import Link from 'next/link'
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
-import Link from 'next/link'
+import styles from "@/styles/HireServices.module.css";
 //
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';

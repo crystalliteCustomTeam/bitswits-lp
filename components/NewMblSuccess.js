@@ -9,7 +9,6 @@ import team1 from '../public/newMobilePageImages/bg-f.png'
 
 const Newsuccess = (props) => {
 
-
     return (
         <>
 

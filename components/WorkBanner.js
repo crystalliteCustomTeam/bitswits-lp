@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import styles from '@/styles/WorkBanner.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/WorkBanner.module.css'
 
 
 const WorkBanner = () => {

@@ -16,8 +16,6 @@
   width: 100%;
   background-position: 50% 100%;
   transition: all 1s;
-
-  /* margin: 20px; */
 }
 .feature:hover {
   background-image: url(../../public/blockchain/images/rev.png);
@@ -118,7 +116,6 @@
   -webkit-animation: flip 0.5s linear;
   perspective: 0px;
   transform-style: preserve-3d;
-  /* transform: rotateX(360deg) translatez(110px); */
 }
 @-webkit-keyframes flip {
   from {

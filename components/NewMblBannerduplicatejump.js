@@ -1,15 +1,9 @@
 import React from 'react'
-import styles from "@/styles/NewMblBannerdulicatejump.module.css";
-import Image from 'next/image';
-import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
+import { Container, Row, Col } from 'react-bootstrap'
+import styles from "@/styles/NewMblBannerdulicatejump.module.css";
 //
-import BannerImage from "@/public/andriodapplication/andriod.png"
-//
-import NewAddress2 from './NewAddress2';
-import HomeBannerSlider from './HomeBannerSlider';
 import Justbuilditjump from './Justbuilditjump';
-
 
 
 const NewHomeBanner = () => {
@@ -45,16 +39,6 @@ const NewHomeBanner = () => {
                     </Row>
                 </Container>
                 <Justbuilditjump />
-
-
-
-
-                {/* <div className={styles.postnuture}>
-                    <HomeBannerSlider />
-                </div>
-                <div className={`${styles.bannerform} blkgrdiant pt-4 pt-lg-5 pb-lg-3 pb-4`}>
-                    <NewAddress2 />
-                </div> */}
             </section>
         </>
     )

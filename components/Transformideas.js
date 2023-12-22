@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import Link from 'next/link';
 import Image from 'next/image';
-import styles from "@/styles/Transformideas.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
-
+import styles from "@/styles/Transformideas.module.css";
 //images
 import banImg1 from '../public/images/transformidead/1.png'
 import banImg2 from '../public/images/transformidead/2.png'
@@ -11,12 +11,11 @@ import banImg4 from '../public/images/transformidead/4.png'
 import banImg5 from '../public/images/transformidead/5.png'
 import banImg6 from '../public/images/transformidead/6.png'
 import arow from '../public/images/transformidead/arow.png'
-import Link from 'next/link';
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { useState } from 'react';
-import { useEffect } from 'react';
+
 
 export default function Transform(props) {
 
@@ -102,48 +101,48 @@ export default function Transform(props) {
                             </div>
                             <Slider {...awardslogo} >
 
-                              
-                                 
-                                        <div className={styles.post}>
-                                            <Image alt='BitsWits' src={banImg1} className='img-fluid mb-3' />
-                                            <h3>12+</h3>
-                                            <p>Years <br></br>
-                                                Experience</p>
-                                        </div>
-                                        <div className={styles.post}>
-                                            <Image alt='BitsWits' src={banImg2} className='img-fluid mb-3' />
-                                            <h3>250+</h3>
-                                            <p>Talented  <br></br>
-                                                Squad</p>
-                                        </div>
-                                        <div className={styles.post}>
-                                            <Image alt='BitsWits' src={banImg3} className='img-fluid mb-3' />
-                                            <h3>1200+</h3>
-                                            <p>Apps <br></br>
-                                                Developed</p>
-                                        </div>
-                                   
-                                  
-                                        <div className={styles.post}>
-                                            <Image alt='BitsWits' src={banImg4} className='img-fluid mb-3' />
-                                            <h3>100%</h3>
-                                            <p>Projects <br></br>
-                                                Delivered</p>
-                                        </div>
-                                        <div className={styles.post}>
-                                            <Image alt='BitsWits' src={banImg5} className='img-fluid mb-3' />
-                                            <h3>50+</h3>
-                                            <p>Countries  <br></br>
-                                                Served</p>
-                                        </div>
-                                        <div className={styles.post}>
-                                            <Image alt='BitsWits' src={banImg6} className='img-fluid mb-3' />
-                                            <h3>100%</h3>
-                                            <p>Client <br></br>
-                                                Satisfaction</p>
-                                        </div>
-                                   
-                               
+
+
+                                <div className={styles.post}>
+                                    <Image alt='BitsWits' src={banImg1} className='img-fluid mb-3' />
+                                    <h3>12+</h3>
+                                    <p>Years <br></br>
+                                        Experience</p>
+                                </div>
+                                <div className={styles.post}>
+                                    <Image alt='BitsWits' src={banImg2} className='img-fluid mb-3' />
+                                    <h3>250+</h3>
+                                    <p>Talented  <br></br>
+                                        Squad</p>
+                                </div>
+                                <div className={styles.post}>
+                                    <Image alt='BitsWits' src={banImg3} className='img-fluid mb-3' />
+                                    <h3>1200+</h3>
+                                    <p>Apps <br></br>
+                                        Developed</p>
+                                </div>
+
+
+                                <div className={styles.post}>
+                                    <Image alt='BitsWits' src={banImg4} className='img-fluid mb-3' />
+                                    <h3>100%</h3>
+                                    <p>Projects <br></br>
+                                        Delivered</p>
+                                </div>
+                                <div className={styles.post}>
+                                    <Image alt='BitsWits' src={banImg5} className='img-fluid mb-3' />
+                                    <h3>50+</h3>
+                                    <p>Countries  <br></br>
+                                        Served</p>
+                                </div>
+                                <div className={styles.post}>
+                                    <Image alt='BitsWits' src={banImg6} className='img-fluid mb-3' />
+                                    <h3>100%</h3>
+                                    <p>Client <br></br>
+                                        Satisfaction</p>
+                                </div>
+
+
 
 
                             </Slider>

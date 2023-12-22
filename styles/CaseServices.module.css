@@ -12,7 +12,6 @@
 }
 
 .services h3 {
-  /* font-size: 50px; */
   line-height: 60px;
   font-weight: 700;
   color: #fff;
@@ -54,7 +53,7 @@
     width: 18%;
   }
 
-  .servImg .serImg3{
+  .servImg .serImg3 {
     width: 20%;
   }
 }

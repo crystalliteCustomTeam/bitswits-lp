@@ -1,12 +1,15 @@
 import React, { useState } from 'react'
+import { useRouter } from 'next/router';
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '@/styles/Headerlp.module.css'
 import { Row, Col } from 'react-bootstrap'
+import Modal from 'react-bootstrap/Modal';
+import styles from '@/styles/Headerlp.module.css'
+//
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
 import { BsFillEnvelopeFill } from 'react-icons/bs'
 import { BsFillTelephoneFill } from 'react-icons/bs'
-import { useRouter } from 'next/router';
+import { RxCross2 } from 'react-icons/rx'
 // images
 import logo from '../public/images/icons/footerlogo.png'
 import mbllogo from '../public/images/icons/footerlogo.png'
@@ -34,11 +37,7 @@ import sponsord from '../public/images/icons/sponsord.png'
 import newImg from '../public/images/1.jpg'
 import call from '../public/images/icons/phone-icon.webp'
 //
-import Modal from 'react-bootstrap/Modal';
-//
 import Bitswitspopup from '../components/Bitswitspopup'
-//
-import { RxCross2 } from 'react-icons/rx'
 
 
 const Header = () => {

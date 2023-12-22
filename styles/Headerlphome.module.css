@@ -5,7 +5,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 70px;
-
 }
 
 .xolpost h1 {
@@ -244,8 +243,7 @@
 }
 
 @media screen and (max-width: 991px) {
-
-  .piza button{
+  .piza button {
     height: 50px;
     margin-bottom: 4%;
   }
@@ -287,10 +285,10 @@
     padding-left: 25px;
     text-transform: capitalize;
   }
-  .trust h3::after{
+  .trust h3::after {
     display: none;
   }
-  .icons::after{
+  .icons::after {
     display: none;
   }
 }

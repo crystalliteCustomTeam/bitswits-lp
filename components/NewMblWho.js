@@ -1,9 +1,8 @@
 import React from 'react'
-import styles from "@/styles/NewMblWho.module.css";
+import Link from 'next/link'
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
-import Link from 'next/link'
-
+import styles from "@/styles/NewMblWho.module.css";
 //
 import WhoImage from "@/public/newMobilePageImages/who_image.png"
 import ButtonIcon from "@/public/newHomePageImages/home_btn.png"

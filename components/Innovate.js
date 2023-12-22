@@ -1,19 +1,19 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Innovate.module.css'
+//
 import icon20 from '../public/images/mobilelpfinal/layout.png'
-
 import layout1 from '../public/images/mobilelpfinal/1.png'
 import layout2 from '../public/images/mobilelpfinal/2.png'
 import layout3 from '../public/images/mobilelpfinal/3.png'
 import layout4 from '../public/images/mobilelpfinal/4.png'
 import layout5 from '../public/images/mobilelpfinal/5.png'
-import "slick-carousel/slick/slick-theme.css";
-import { useEffect } from 'react'
-import { useState } from 'react'
+//
 import Slider from 'react-slick'
+import "slick-carousel/slick/slick-theme.css";
+
 
 const Innovate = () => {
 

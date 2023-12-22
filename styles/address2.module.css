@@ -129,29 +129,6 @@
   margin-top: 0;
 }
 
-/* 
-.bannerform::before {
-  content: "";
-  position: absolute;
-  left: -15px;
-  bottom: -20px;
-  z-index: 1;
-  height: 50px;
-  width: 50px;
-  background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
-}
-
-.bannerform::after {
-  content: "";
-  position: absolute;
-  right: -50px;
-  bottom: -20px;
-  z-index: 1;
-  height: 50px;
-  width: 50px;
-  background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
-} */
-
 .discuss {
   justify-content: space-between;
   height: 75px;
@@ -317,8 +294,6 @@
   padding-bottom: 0px;
   padding-top: 150px;
 }
-
-
 
 /* =========================================== */
 

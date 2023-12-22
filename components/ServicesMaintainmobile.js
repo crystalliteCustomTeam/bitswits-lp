@@ -1,10 +1,12 @@
 import React from "react";
+import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/ServicesMaintainmobile.module.css";
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Image from "next/image";
+
 
 const ServicesMaintainmobile = ({ severcedata }) => {
 

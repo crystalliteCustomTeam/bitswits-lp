@@ -1,14 +1,11 @@
+import React, { useEffect, useState } from 'react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import React, { useEffect, useState } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/effect-coverflow';
-
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 
 const Homeslider2 = () => {
-
-
 
     const [slidesPerView, setSlidesPerView] = useState(3);
     useEffect(() => {
@@ -31,7 +28,7 @@ const Homeslider2 = () => {
 
 
         const handleResize = () => {
-            const isMobileView = window.innerWidth < 768; // Adjust the breakpoint as needed
+            const isMobileView = window.innerWidth < 768; 
             setSlidesPerView(isMobileView ? 1 : 5);
         }
         handleResize();
@@ -110,7 +107,6 @@ const Homeslider2 = () => {
                         </SwiperSlide>
                     ))}
                 </Swiper>
-                {/* <div className="swiper-pagination"></div> */}
             </div>
         </section>
     );

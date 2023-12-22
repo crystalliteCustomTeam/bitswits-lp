@@ -1,15 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../styles/NewhomeFaqs.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
-// import Accordion from 'react-bootstrap/Accordion';
-import { useState } from 'react'
+import styles from '../styles/NewhomeFaqs.module.css'
 //images
-// import arrow from '../public/images/icons/arrow.webp'
 import arrow from '../public/newHomePageImages/pick.png'
 import close from '../public/newHomePageImages/close.png'
 import open from '../public/newHomePageImages/open.png'
+
 
 const NewhomeFaqs = () => {
 
@@ -75,23 +73,23 @@ const NewhomeFaqs = () => {
         <>
             <section className={`${styles.faqs} newfaqsgloble`}>
                 <Container>
-                <Row>
+                    <Row>
                         <Col lg={2}>
                             <h2 className="white f-20 f-500 left mt-3">
-                            Blogs
+                                Blogs
                             </h2>
                         </Col>
                         <Col lg={6}>
                             <h2 className="white f-50 f-700 left">
-                            FAQs
+                                FAQs
                             </h2>
                         </Col>
                         <Col lg={4}>
-                        <Link className={styles.about} href="#">AlL Blogs</Link>
+                            <Link className={styles.about} href="#">AlL Blogs</Link>
                         </Col>
                     </Row>
                     <Row>
-                       
+
                         <Col lg={12}>
                             <div className={`${faq1show ? 'touch' : ''} mb-4 mb-lg-0`}>
                                 <div onClick={faq1} className={styles.heading}>
@@ -110,7 +108,7 @@ const NewhomeFaqs = () => {
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
-                                                
+
                                             />
                                         </Link>
                                     </div>
@@ -136,7 +134,7 @@ const NewhomeFaqs = () => {
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
-                                                
+
                                             />
                                         </Link>
                                     </div>
@@ -162,7 +160,7 @@ const NewhomeFaqs = () => {
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
-                                                
+
                                             />
                                         </Link>
                                     </div>
@@ -187,7 +185,7 @@ const NewhomeFaqs = () => {
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
-                                                
+
                                             />
                                         </Link>
                                     </div>
@@ -214,7 +212,7 @@ const NewhomeFaqs = () => {
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
-                                                
+
                                             />
                                         </Link>
                                     </div>
@@ -242,7 +240,7 @@ const NewhomeFaqs = () => {
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
 
-                                                
+
                                             />
                                         </Link>
                                     </div>

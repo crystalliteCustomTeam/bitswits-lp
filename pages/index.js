@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 // css
 import styles from "../styles/new-home-page-fy.module.css";
 //components
-const NewIndex2Banner = React.lazy(() => import("@/components/new-home-page-fy/NewIndex2Banner"));
+const NewIndexBanner = React.lazy(() => import("@/components/new-home-page-fy/NewIndexBanner"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const NewHomeWho = React.lazy(() => import("@/components/new-home-page-fy/NewHomeWho"));
 const NewHomeWhat = React.lazy(() => import("@/components/new-home-page-fy/NewHomeWhat"));
@@ -174,7 +174,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-      <NewIndex2Banner />
+      <NewIndexBanner />
       <section>
         <div className={`${styles.awardsFold}`}>
           <div className="container-fluid px-0">

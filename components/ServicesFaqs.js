@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
-// import styles from "../styles/ServicesFaqs.module.css";
 import styles from "../styles/NewhomeFaqslp.module.css";
 //
 import close from "../public/newHomePageImages/close.png";

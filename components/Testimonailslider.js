@@ -1,11 +1,8 @@
 import React from 'react'
 import Image from 'next/image';
-import styles from "@/styles/Testimonailslider.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from "@/styles/Testimonailslider.module.css";
 import Slider from 'react-slick'
-//images
-import banImg1 from '../public/images/projectprocess/phon.png'
-import Link from 'next/link';
 //images
 import slideImg1 from '../public/images/projectprocess/test1.png'
 import left from '../public/images/projectprocess/left.png'
@@ -13,7 +10,6 @@ import right from '../public/images/projectprocess/right.png'
 
 
 export default function Testimonailslider() {
-
 
     var clientsthink = {
         dots: false,
@@ -25,8 +21,6 @@ export default function Testimonailslider() {
         nextArrow: <Image src={right} alt='BitsWits' className='img-fluid' />,
         prevArrow: <Image src={left} alt='BitsWits' className='img-fluid' />
     };
-
-
 
     return (
         <>

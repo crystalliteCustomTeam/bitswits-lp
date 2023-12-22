@@ -1,11 +1,12 @@
 import React from 'react'
-import Image from 'next/image';
 import Link from 'next/link';
-import styles from "@/styles/NewMblWhat.module.css";
+import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from "@/styles/NewMblWhat.module.css";
 //
 import WhatImage from "@/public/newMobilePageImages/what_Image.png"
 import ButtonIcon from "@/public/newHomePageImages/home_btn.png"
+
 
 const NewHomeWhat = () => {
 

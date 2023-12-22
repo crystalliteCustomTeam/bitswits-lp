@@ -1,8 +1,8 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import styles from "@/styles/Nothing.module.css";
 import { Container, Row, Col } from "react-bootstrap";
+import styles from "@/styles/Nothing.module.css";
 //images
 import banImg1 from "../public/images/nothing/map.png";
 //
@@ -13,12 +13,12 @@ import news4 from "/public/images/nothing/1.png";
 import news5 from "/public/images/nothing/1.png";
 import verified from "/public/newHomePage/images/pageLp6/verified.png";
 //
-import { useEffect, useState } from "react";
 import { register } from "swiper/element/bundle";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/effect-coverflow";
 
+
 export default function Nothing(props) {
+
   const swiperRef = useRef(null);
   useEffect(() => {
     register();

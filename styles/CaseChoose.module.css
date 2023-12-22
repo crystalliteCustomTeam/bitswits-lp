@@ -87,7 +87,7 @@
 
   .walk p {
     font-size: 14px;
-    max-width: 530px; 
+    max-width: 530px;
   }
 }
 
@@ -125,7 +125,6 @@
 }
 
 @media screen and (max-width: 767px) {
-
   .caseChoose {
     padding-bottom: 50px;
   }

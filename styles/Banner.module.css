@@ -21,7 +21,6 @@
 
 .banner {
   background-color: #f3f2f5;
-  /* background-image: linear-gradient(135deg, #f8fdff, #fdf3f6 66%, #feebf0); */
   position: relative;
   overflow: hidden;
 }
@@ -31,12 +30,11 @@
   display: flex;
   flex-direction: column;
   gap: 0px;
-  margin-bottom: 6px!important;
+  margin-bottom: 6px !important;
 }
 
 .banner h1 {
-  /* padding-top: -25px; */
-  margin-top: -50px ;
+  margin-top: -50px;
 }
 
 .banner .banerTxt {
@@ -98,7 +96,6 @@
   background-color: transparent;
 }
 
-
 .bttns1:hover {
   transition: background-color 1s;
   color: #e83468;
@@ -119,7 +116,7 @@
   align-items: center;
 }
 
-.bttnsto img{
+.bttnsto img {
   filter: grayscale();
 }
 
@@ -402,14 +399,10 @@
   margin-left: 50px;
 }
 
-.startSlide img{
+.startSlide img {
   width: 80%;
   margin: 0 auto;
 }
-
-/* .startSlide .clutchImg{
-  width: 50%;
-} */
 
 /* ============================================= */
 
@@ -429,7 +422,6 @@
 }
 
 @media screen and (max-width: 1920px) {
-
   .bannerform {
     height: 100%;
   }
@@ -457,11 +449,6 @@
   .sharjah {
     justify-content: space-between;
   }
-
-  /* .banner h1 {
-    font-size: 95px;
-    line-height: 95px;
-  } */
 
   .formsbanner .forminput {
     height: 40px;
@@ -516,12 +503,6 @@
 
   .discuss {
     height: 55px;
-  }
-
-  .banner h1 {
-    /* margin-top: 20px; */
-    /* font-size: 70px;
-    line-height: 75px; */
   }
 
   .bannerimg img {
@@ -591,13 +572,7 @@
     height: auto;
   }
 
-  /* .banner h1 {
-    font-size: 50px;
-    line-height: 55px;
-  } */
-
   .bannerform {
-
     width: 400px;
   }
 
@@ -613,11 +588,9 @@
 }
 
 @media screen and (max-width: 1199px) {
-
-
   .call p {
     font-size: 11px;
-}
+  }
 
   .alignment p {
     font-size: 10px;
@@ -632,11 +605,6 @@
   .discuss a {
     font-size: 11px;
   }
-
-  /* .banner h1 {
-    font-size: 40px;
-    line-height: 50px;
-  } */
 
   .sharjah a {
     font-size: 6px;
@@ -668,11 +636,6 @@
     background-color: #f6f1ff;
     height: auto;
   }
-
-  /* .banner h1 {
-    font-size: 65px;
-    line-height: 75px;
-  } */
 
   .bannerimg img {
     position: unset;
@@ -713,19 +676,9 @@
   .take p {
     font-size: 14px;
   }
-
-  /* .banner h1 {
-    font-size: 44px;
-    line-height: 54px;
-  } */
 }
 
 @media screen and (max-width: 480px) {
-  /* .banner h1 {
-    font-size: 30px;
-    line-height: 35px;
-  } */
-
   .read {
     display: none;
   }

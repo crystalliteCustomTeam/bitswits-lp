@@ -44,9 +44,7 @@
 .feature:hover .feature h4 {
   color: var(--mry);
 }
-.feature:hover {
-  /* transform: rotateX(160deg) translatez(0px); */
-}
+
 .feature:hover {
   animation: 1s rotate linear infinite;
 }

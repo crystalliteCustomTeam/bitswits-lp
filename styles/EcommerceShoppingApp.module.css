@@ -1,15 +1,10 @@
 .shoppingApp {
-    padding: 0 0 130px;
-    background: #000;
+  padding: 0 0 130px;
+  background: #000;
 }
 
-/* .BtnBrightness {
-    filter: brightness(0);
-} */
-
-
 @media screen and (max-width: 767px) {
-    .shoppingApp {
-        padding: 0 0 50px;
-    }
+  .shoppingApp {
+    padding: 0 0 50px;
+  }
 }

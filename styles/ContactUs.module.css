@@ -163,7 +163,7 @@
   margin-top: 12px;
 }
 
-.locImg{
+.locImg {
   text-align: center;
 }
 
@@ -203,112 +203,15 @@
 
 /* ============================= */
 
-@media screen and (max-width: 1799px) {
-  .line1::before {
-    left: 20.5%;
-  }
-
-  .line2::before {
-    left: 45%;
-  }
-
-  .line3::before {
-    left: 75%;
-  }
-}
-
-@media screen and (max-width: 1599px) {
-  .line1::before {
-    left: 16.5%;
-  }
-
-  .line2::before {
-    left: 44.5%;
-  }
-
-  .line3::before {
-    left: 78.5%;
-  }
-}
-
-@media screen and (max-width: 1440px) {
-  .line1::before {
-    left: 14.5%;
-  }
-
-  .line2::before {
-    left: 43.5%;
-  }
-
-  .line3::before {
-    left: 80%;
-  }
-}
-
-@media screen and (max-width: 1399px) {
-  .line1::before {
-    left: 12.5%;
-  }
-
-  .line2::before {
-    left: 44%;
-  }
-
-  .line3::before {
-    left: 81%;
-  }
-}
-
-@media screen and (max-width: 1299px) {
-  .line1::before {
-    left: 9.5%;
-  }
-
-  .line2::before {
-    left: 43%;
-  }
-
-  .line3::before {
-    left: 84%;
-  }
-}
-
 @media screen and (max-width: 991px) {
   .bannerContact {
     background-image: unset;
-  }
-
-  .line1::before {
-    left: 15.5%;
-  }
-
-  .line2::before {
-    left: 43.2%;
-  }
-
-  .line3::before {
-    left: 79.5%;
   }
 
   .contactCard {
     background-color: #000;
     opacity: 0.9;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-
-  .line1::after {
-    top: -20px;
-  }
-
-  .line2::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: #707070;
-    color: #707070;
-    left: 0;
-    top: 650px;
   }
 }
 
@@ -323,25 +226,6 @@
 
   .bttns1 {
     width: 100%;
-  }
-
-  .line1::before {
-    left: 20%;
-    top: -108px;
-  }
-
-  .line2::before {
-    left: 60%;
-    top: -108px;
-  }
-
-  .line3::before {
-    left: 45%;
-    top: -62px;
-  }
-
-  .line2::after {
-    top: 460px;
   }
 
   .locSlider {

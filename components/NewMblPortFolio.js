@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from "@/styles/NewMblPortFolio.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from "@/styles/NewMblPortFolio.module.css";
 //
 import folio1 from "@/public/newMobilePageImages/portfolio/folio1.png"
 import folio2 from "@/public/newMobilePageImages/portfolio/folio2.png"
@@ -12,10 +12,7 @@ import folio5 from "@/public/newMobilePageImages/portfolio/folio5.png"
 import folio6 from "@/public/newMobilePageImages/portfolio/folio6.png"
 
 
-
 const NewMblPortFolio = () => {
-
-
 
     return (
         <>
@@ -86,12 +83,8 @@ const NewMblPortFolio = () => {
                             </div>
                         </Col>
                     </Row>
-
                 </Container>
-
             </section>
-
-
         </>
     )
 }

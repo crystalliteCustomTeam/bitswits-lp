@@ -12,12 +12,10 @@
   border-left: 0;
   border-right: 0;
 }
-.inqBtn img {  
-
+.inqBtn img {
   filter: brightness(15.5);
-
 }
-.inqBtn .befLink{
+.inqBtn .befLink {
   letter-spacing: 1px;
   font-size: 16px;
   font-weight: 500;
@@ -44,7 +42,6 @@
   height: 100%;
   display: flex;
   align-items: center;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 20px 0px 15px; */
 }
 
 .menu {
@@ -386,7 +383,7 @@
 .inqBtn a {
   color: #fff !important;
   transition: all 0.5s ease-in-out;
-  background-color: #F32F53;
+  background-color: #f32f53;
 }
 
 .menu .inqBtn a:hover {
@@ -478,10 +475,6 @@
   .megaMenu3 {
     height: 70vh;
   }
-
-  /* .megaMenu4 {
-    height: 70vh;
-  } */
 }
 
 @media screen and (max-width: 1280px) {

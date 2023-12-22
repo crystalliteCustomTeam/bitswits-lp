@@ -1,11 +1,10 @@
 "use client"
 
 import Link from 'next/link'
+import Image from 'next/image';
 import React, { useEffect, useState } from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
-import Image from 'next/image';
 import styles from "@/styles/NewPopup.module.css";
-
 ///
 import Logo from 'public/images/logom12.png'
 import CloseImage from 'public/images/close-btn.svg'

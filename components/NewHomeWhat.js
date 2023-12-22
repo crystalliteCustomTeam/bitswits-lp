@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from "@/styles/NewHomeWhat.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from "@/styles/NewHomeWhat.module.css";
 //
 import ButtonIcon from "@/public/shark/home_btn.png"
-import WhatImage from "@/public/newHomePageImages/what_Image.png"
+
 
 const NewHomeWhat = () => {
 
@@ -32,10 +32,6 @@ const NewHomeWhat = () => {
                         </Col>
                     </Row>
                 </Container>
-
-                <div className='sec_image text-center pt-5'>
-                    {/* <Image quality={75} alt='BitsWits' src={WhatImage} className={styles.secImage} /> */}
-                </div>
 
                 <div className="mixColor2"></div>
 

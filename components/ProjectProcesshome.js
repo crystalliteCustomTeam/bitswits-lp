@@ -1,22 +1,15 @@
 import React from 'react'
-import styles from '@/styles/ProjectProcesshome.module.css'
-import { Container, Row, Col } from 'react-bootstrap'
 import Image from 'next/image'
-import Link from 'next/link'
-
+import { Container, Row, Col } from 'react-bootstrap'
+import styles from '@/styles/ProjectProcesshome.module.css'
 //images
 import banImg1 from '../public/images/projectprocess/process.svg'
 
 
 const ProjectProcesshome = (props) => {
 
-
-
-
-
     return (
         <>
-
             <section className={styles[props.processclass]}>
                 <Container>
                     <Row>
@@ -30,11 +23,6 @@ const ProjectProcesshome = (props) => {
                 </Container>
                 <div className={styles.nomad}></div>
             </section>
-
-
-
-
-
         </>
     )
 }

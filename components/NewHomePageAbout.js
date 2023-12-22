@@ -1,15 +1,14 @@
 import React from 'react'
-import styles from "@/styles/NewHomeAbout.module.css";
 import Image from 'next/image';
+import { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from "@/styles/NewHomeAbout.module.css";
 //
 import AboutImage from "@/public/newHomePageImages/about_image.png"
 import comma from "@/public/newHomePageImages/comma.png"
-import { useState } from 'react';
+
 
 const NewHomeAbout = (props) => {
-
-
 
     const [isHovered, setIsHovered] = useState('');
 
@@ -23,8 +22,6 @@ const NewHomeAbout = (props) => {
         setIsHovered(vale1);
 
     }
-
-
 
     return (
         <>

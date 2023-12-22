@@ -7,7 +7,7 @@
   padding-bottom: 4%;
 }
 
-.project h2{
+.project h2 {
   font-size: 60px;
 }
 
@@ -175,41 +175,6 @@
 .startup1 {
   position: relative;
 }
-
-/* .startup1::before {
-  content: "";
-  position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
-  width: 2%;
-  height: 100%;
-  opacity: 1;
-  z-index: 1;
-  display: block;
-  background-image: linear-gradient(
-    92deg,
-    rgba(242, 166, 59, 0),
-    #272727 59%,
-    #272727
-  );
-}
-
-.startup1::after {
-  content: "";
-  position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: auto;
-  width: 2%;
-  height: 100%;
-  opacity: 1;
-  z-index: 1;
-  display: block;
-  background-image: linear-gradient(90deg, #272727, rgba(255, 255, 255, 0));
-} */
 
 .startup1 img {
   margin: 0 auto;

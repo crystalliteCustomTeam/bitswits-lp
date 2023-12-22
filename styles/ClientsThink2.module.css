@@ -56,7 +56,7 @@
   font-size: 15px;
   font-family: "Montserrat";
 }
-.sliderli li span{
+.sliderli li span {
   color: #fff;
 }
 .bttns1 {
@@ -88,44 +88,32 @@
 /* ===============Media Queries================ */
 
 @media screen and (min-width: 1920px) {
-
-
   .slideImg img {
     width: 100%;
     height: 418px;
   }
-
- }
+}
 @media screen and (min-width: 1440px) {
-
-
   .slideCntnt img {
     margin-bottom: 10px;
   }
   .slideCntnt h5 {
     margin-top: 20px !important;
   }
-
-
 }
 
-@media screen and (max-width: 1200px) { 
-
+@media screen and (max-width: 1200px) {
   .sliderli li {
     padding: 5px 20px;
   }
-
-
- }
+}
 @media screen and (max-width: 991px) {
-
   .slideCntnt .hight {
     font-size: 17px;
     height: auto;
     overflow-x: unset;
     overflow-y: unset;
   }
-
 
   .ourClients {
     display: none;
@@ -149,7 +137,6 @@
 
   .slideImg img {
     width: 100%;
-   
   }
 
   .bttns1 {

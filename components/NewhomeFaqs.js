@@ -5,7 +5,6 @@ import { useState } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '../styles/NewhomeFaqs.module.css'
 //
-import arrow from '../public/newHomePageImages/pick.png'
 import close from '../public/newHomePageImages/close.png'
 import open from '../public/newHomePageImages/open.png'
 

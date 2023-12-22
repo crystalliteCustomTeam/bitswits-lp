@@ -1,15 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Row, Col } from "react-bootstrap";
+import Modal from "react-bootstrap/Modal";
 import styles from "@/styles/Headerproduct.module.css";
-
+//
+import { BsFillEnvelopeFill } from "react-icons/bs";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { RxCross2 } from "react-icons/rx";
 // images
 import logo from "../public/images/icons/footerlogo.png";
-import dsicon from "../public/images/newfydemand/ds-icon.svg";
 import icontwo from "../public/images/newfydemand/icontwo.svg";
-import hiring1 from "../public/images/newfydemand/hiring1.svg";
-import hiring2 from "../public/images/newfydemand/hiring2.svg";
 import security from "../public/images/newfydemand/security.png";
 import alcohol from "../public/images/newfydemand/alcohol.png";
 import construction from "../public/images/newfydemand/construction.png";
@@ -20,8 +21,7 @@ import securitygear from "../public/images/newfydemand/security-gear.png";
 import securityjobs from "../public/images/newfydemand/security-jobs.png";
 import gamehead from "../public/images/newfydemand/gamehead.png";
 import blockchainhead from "../public/images/newfydemand/blockchainhead.png";
-
-import web from "../public/images/icons/web.png";
+//
 import about from "../public/images/newfydemand/about.svg";
 import about2 from "../public/images/icons/about.png";
 import employers from "../public/images/newfydemand/employers.svg";
@@ -30,32 +30,21 @@ import faqs from "../public/images/newfydemand/faqs.svg";
 import help from "../public/images/newfydemand/help.svg";
 import call from "../public/images/icons/phone-icon.webp";
 import mail from "../public/images/icons/email-icon.webp";
-import hosting from "../public/images/icons/hosting.png";
-import cctvicon from "../public/images/newfydemand/cctv-icon.svg";
-import guardicon from "../public/images/newfydemand/guard-icon.svg";
-import topdsicon from "../public/images/newfydemand/top-ds-icon.svg";
-import topsgicon from "../public/images/newfydemand/top-sg-icon.svg";
-import aplhicon from "../public/images/newfydemand/aplh-icon.svg";
-import cscsicon from "../public/images/newfydemand/cscs-icon.svg";
-import games from "../public/images/icons/games.png";
+//
 import { RiArrowDropRightLine } from "react-icons/ri";
 import { IoLogoFacebook } from "react-icons/io5";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
-import { FaArrowRight } from "react-icons/fa";
-import Accordion from "react-bootstrap/Accordion";
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
-import apps from "../public/images/icons/apps.png";
-import newImg from "../public/images/1.jpg";
+//
 import company from "../public/images/icons/company.png";
 import ourbg from "../public/images/icons/ourbg.png";
 import estate from "../public/images/icons/estate.png";
 import travel from "../public/images/icons/travel.png";
 import health from "../public/images/icons/health.png";
 import foods from "../public/images/icons/foods.png";
-import backarrow from "../public/images/icons/back-arrow.webp";
 import music from "../public/images/icons/music.png";
 import ride from "../public/images/icons/ride.png";
 import wisu from "../public/images/icons/wisu.png";
@@ -65,13 +54,10 @@ import homeconnect from "../public/images/icons/homeconnect.png";
 import ready from "../public/images/icons/ready.png";
 import scribe from "../public/images/icons/scribe.png";
 import sponsord from "../public/images/icons/sponsord.png";
-import { BsFillEnvelopeFill } from "react-icons/bs";
-import { BsFillTelephoneFill } from "react-icons/bs";
-import Modal from "react-bootstrap/Modal";
-import Bitswitspopup from "../components/Bitswitspopup";
-import { RxCross2 } from "react-icons/rx";
 import mbllogo from "../public/images/icons/footerlogo.png";
-import { useEffect } from "react";
+//
+import Bitswitspopup from "../components/Bitswitspopup";
+
 
 const Header = () => {
   const [isSliderActive, setIsSliderActive] = useState(true);
@@ -511,348 +497,6 @@ const Header = () => {
                 </div>
               ) : null}
             </li>
-
-            {/* <li onMouseEnter={() => fun1('active')}
-                            onMouseLeave={() => fun2('secImage1')}
-                            className={styles.product}><Link className={styles.post} href='#'>Courses
-                                <FaAngleDown />
-                            </Link>
-
-                            {isHovered == 'active' ?
-
-                                <div className={styles.megamenu}>
-                                    <Row>
-                                        <Col lg={3} className={`${styles.menupost} ${styles.newspace}`}>
-                                            <div>
-                                                <h4 className={styles.course}>CATEGORIES</h4>
-                                            </div>
-                                            <div className={styles.hire}>
-                                                <Link href='#' className={styles.polo}>
-                                                    <h4>Security</h4>
-                                                    <Image alt="bitswits"   src={security} className='img-fluid' />
-                                                </Link>
-                                                <Link href='#' className={styles.polo}>
-                                                    <h4>Alcohol</h4>
-                                                    <Image alt="bitswits"   src={alcohol} className='img-fluid' />
-                                                </Link>
-                                            </div>
-                                            <div className={styles.hire}>
-                                                <Link href='#' className={styles.polo}>
-                                                    <h4>Construction</h4>
-                                                    <Image alt="bitswits"   src={construction} className='img-fluid' />
-                                                </Link>
-                                                <Link href='#' className={styles.polo}>
-                                                    <h4>Health & <br></br>
-                                                        Safety</h4>
-                                                    <Image alt="bitswits"   src={healthsafety} className='img-fluid' />
-                                                </Link>
-                                            </div>
-                                            <div className={styles.hire}>
-                                                <Link href='#' className={styles.polo}>
-                                                    <h4>E-Learning</h4>
-                                                    <Image alt="bitswits"   src={elearning} className='img-fluid' />
-                                                </Link>
-
-                                            </div>
-                                        </Col>
-                                        <Col lg={3} className={`${styles.menupost} ${styles.menupostblog}`}>
-                                            <div>
-                                                <h4 className={styles.course}>POPULAR COURSES</h4>
-                                            </div>
-                                            <div>
-
-                                                <ul className={styles.mega}>
-                                                    <li className={styles.imgpost}>
-                                                        <div className={styles.dsicon}>
-                                                            <Image alt="bitswits"   src={dsicon} className='img-fluid' />
-                                                        </div>
-                                                        <Link href="#">SIA Door Supervisor Training </Link> </li>
-                                                    <li className={styles.imgpost}>
-                                                        <div className={styles.dsicon}>
-                                                            <Image alt="bitswits"   src={guardicon} guardicon className='img-fluid' />
-                                                        </div>
-                                                        <Link href="#">SIA Security Guard Training </Link> </li>
-                                                    <li className={styles.imgpost}>
-                                                        <div className={styles.dsicon}>
-                                                            <Image alt="bitswits"   src={cctvicon} className='img-fluid' />
-                                                        </div>
-                                                        <Link href="#">SIA CCTV Training </Link> </li>
-                                                    <li className={styles.imgpost}>
-                                                        <div className={styles.dsicon}>
-                                                            <Image alt="bitswits"   src={topdsicon} className='img-fluid' />
-                                                        </div>
-                                                        <Link href="#">Top-up Training for Door Supervisors </Link> </li>
-                                                    <li className={styles.imgpost}>
-                                                        <div className={styles.dsicon}>
-                                                            <Image alt="bitswits"   src={topsgicon} className='img-fluid' />
-                                                        </div>
-                                                        <Link href="#">Top-up Training for Security Guards </Link> </li>
-                                                    <li className={styles.imgpost}>
-                                                        <div className={styles.dsicon}>
-                                                            <Image alt="bitswits"   src={aplhicon} className='img-fluid' />
-                                                        </div>
-                                                        <Link href="#">Personal Licence Training </Link> </li>
-                                                    <li className={styles.imgpost}>
-                                                        <div className={styles.dsicon}>
-                                                            <Image alt="bitswits"   src={cscsicon} className='img-fluid' />
-                                                        </div>
-                                                        <Link href="#">CSCS Green Card Labourer Course </Link> </li>
-
-                                                    <li className={`${styles.imgpost} mt-5`}>
-                                                        <Link className={styles.explore} href="#">Explore all popular courses </Link>
-                                                        <div className={styles.dsicon1}>
-                                                            <FaArrowRight />
-                                                        </div>
-                                                    </li>
-
-
-                                                </ul>
-                                            </div>
-                                        </Col>
-                                        <Col lg={3}>
-                                            <div>
-                                                <h4 className={styles.course}>ALL COURSES</h4>
-                                            </div>
-
-                                            <div className='dropmap'>
-                                                <ul className={styles.offpost}>
-                                                    <li><Link href='#'>Security</Link></li>
-                                                    <li><Link href='#'>Health and Safety</Link></li>
-                                                    <li><Link href='#'>Alcohol </Link></li>
-                                                    <li><Link href='#'>Construction </Link></li>
-                                                </ul>
-                                            </div>
-                                        </Col>
-                                        <Col lg={3}>
-                                            <div className={styles.lptow}>
-                                                <div className={styles.newbits}>
-                                                    <div>
-                                                        <h6>Train Now, <br></br>  <span className={styles.pay}>Pay Later</span> </h6>
-                                                        <p>Book now and pay in instalments</p>
-                                                        <Link href='#'>Learn more <RiArrowDropRightLine className={styles.train12} /> </Link>
-                                                    </div>
-                                                    <div>
-                                                        <Image alt="bitswits"   src={icontwo} className='img-fluid' />
-                                                    </div>
-                                                </div>
-                                                <div className={styles.proper}>
-                                                    <h4>FOR BUSINESS CUSTOMERS</h4>
-                                                    <h3>HIRING & <br></br> TRAINING</h3>
-                                                    <p>The complete solution for training and hiring, purpose-built for security employers</p>
-                                                    <Image alt="bitswits"   src={hiring1} className='img-fluid' />
-                                                    <Image alt="bitswits"   src={hiring2} className='img-fluid' />
-                                                    <Link href='#' className={`${styles.newyork} pb-3`}>
-                                                        Learn More <RiArrowDropRightLine className={styles.train} />
-                                                    </Link>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-                                :
-                                ''
-                            }
-                        </li> */}
-
-            {/* <li onMouseEnter={() => funserve('active2')}
-                            onMouseLeave={() => funserve2('secImage2')}
-                            className={styles.product}
-                        >
-                            <Link href='#' className={styles.post}>
-                                SERVICES
-                                <FaAngleDown />
-                            </Link>
-
-                            {isHovered2 == 'active2' ?
-
-                                <div className={styles.megamenuserve}>
-                                    <Row>
-                                        <Col lg={3}>
-
-                                            <ul className={`${styles.glop} mb-0 mt-0`}>
-
-                                                <div className={styles.listHeading}>
-                                                    <div className={styles.megaIcon}>
-                                                        <Image alt="bitswits"    className='img-fluid'
-                                                            src={apps} />
-                                                    </div>
-                                                    <h5 className='font14 fontf font-semibold mb-0'>APP</h5>
-                                                </div>
-
-                                                <li>
-                                                    <Link href='/ios-app-development'>
-                                                        <FaAngleRight />
-                                                        <span>iOS App Development</span>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href='/mobile-application'>
-                                                        <FaAngleRight />
-                                                        <span>Mobile App Development</span>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href='/android-application-development'>
-                                                        <FaAngleRight />
-                                                        <span>Android App Development</span>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href='/flutter-mobile-development'>
-                                                        <FaAngleRight />
-                                                        <span>Flutter App Development</span>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href='/react-native-mobile-development'>
-                                                        <FaAngleRight />
-                                                        <span>React Native App Development</span>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href='hybrid-mobile-apps-development'>
-                                                        <FaAngleRight />
-                                                        <span>Hybird Mobile App Development</span>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href='/cross-platform-app-development'>
-                                                        <FaAngleRight />
-                                                        <span>Cross Platform App Development</span>
-                                                    </Link>
-                                                </li>
-
-                                            </ul>
-
-
-
-                                        </Col>
-                                        <Col lg={3}>
-
-                                            <ul className={`${styles.glop} mb-0 mt-0`}>
-
-                                                <div className={styles.listHeading}>
-                                                    <div className={styles.megaIcon}>
-                                                        <Image alt="bitswits"    className='img-fluid'
-                                                            src={web}
-                                                        />
-                                                    </div>
-                                                    <h5 className='font14 fontf font-semibold mb-0'>APP</h5>
-                                                </div>
-
-                                                <li>
-                                                    <Link href='/augmented-reality-apps-development-company'>
-                                                        <FaAngleRight />
-                                                        <span>Augmented Reality App Development</span>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href='/custom-mobile-development'>
-                                                        <FaAngleRight />
-                                                        <span>Custom Mobile Development</span>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href='/artificial-intelligence-development-company'>
-                                                        <FaAngleRight />
-                                                        <span>Artificial Intelligence</span>
-                                                    </Link>
-                                                </li>
-
-                                                <li>
-                                                    <Link href='/web-app-development'>
-                                                        <FaAngleRight />
-                                                        <span>Web App Development</span>
-                                                    </Link>
-                                                </li>
-
-
-
-                                                <div className={`${styles.listHeading} ${styles.neuport}`}>
-                                                    <div className={styles.megaIcon}>
-                                                        <Image alt="bitswits"    className='img-fluid'
-                                                            src={hosting}
-                                                        />
-                                                    </div>
-                                                    <h5 className='font14 fontf font-semibold mb-0'>BLOCKCHAIN</h5>
-                                                </div>
-
-                                                <li>
-                                                    <Link href="/blockchain-development-lp">
-                                                        <FaAngleRight />
-                                                        <span>Blockchain Development</span>
-                                                    </Link>
-                                                </li>
-
-
-
-                                            </ul>
-
-                                        </Col>
-
-                                        <Col lg={3}>
-                                            <ul className={`${styles.glop} mb-0 mt-0`}>
-
-                                                <div className={styles.listHeading}>
-                                                    <div className={styles.megaIcon}>
-                                                        <Image alt="bitswits"    className='img-fluid'
-                                                            src={games}
-                                                        />
-                                                    </div>
-                                                    <h5 className='font14 fontf font-semibold mb-0'>GAME</h5>
-                                                </div>
-
-
-
-                                                <li>
-                                                    <Link href='/game-application-development'>
-                                                        <FaAngleRight />
-                                                        <span>Game App Development</span>
-                                                    </Link>
-                                                </li>
-
-                                                <li>
-                                                    <Link href='/2d-game-development-company'>
-                                                        <FaAngleRight />
-                                                        <span>2D Game Development</span>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href='/3d-game-development-company'>
-                                                        <FaAngleRight />
-                                                        <span>3D Game Development</span>
-                                                    </Link>
-                                                </li>
-
-                                                <li>
-                                                    <Link href='/nft-game-development'>
-                                                        <FaAngleRight />
-                                                        <span>Nft Game Development</span>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href='/blockchain-game-development'>
-                                                        <FaAngleRight />
-                                                        <span>Blockchain Game Development</span>
-                                                    </Link>
-                                                </li>
-
-                                            </ul>
-                                        </Col>
-                                        <Col lg={3}>
-                                            <ul className={`${styles.glop} mb-0 mt-0`}>
-                                                <li className={styles.devgame}>
-                                                    <Image    quality={75} src={newImg} alt='BitsWits' className='img-fluid' />
-                                                </li>
-                                            </ul>
-                                        </Col>
-                                    </Row>
-                                </div>
-                                :
-                                ''
-                            }
-
-                        </li> */}
             <li
               onMouseEnter={() => funcom("active3")}
               onMouseLeave={() => funcom2("secImage2")}

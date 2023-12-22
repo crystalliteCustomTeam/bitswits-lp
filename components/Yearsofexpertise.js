@@ -1,14 +1,15 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Yearsofexpertise.module.css'
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+//
 import Counter from './Counter';
 
+
 const Yearsofexpertise = (props) => {
-
-
 
     var awardslogo = {
         dots: true,
@@ -76,9 +77,7 @@ const Yearsofexpertise = (props) => {
                     </Row>
                 </Container>
 
-
                 <Container className={styles.mobile}>
-
                     <Slider {...awardslogo} className={` ${styles.allbest} usapost pt-3 mb-5`}>
                         <div>
                             <h3 className='font75 grdiant font-bold fontf'><Counter stopNumber={21} /></h3>
@@ -100,14 +99,9 @@ const Yearsofexpertise = (props) => {
                             <h4 className='font25 fontf white font-extrabold texttran'>Projects <br></br> Delivered</h4>
                             <p className='font15 fontf white font-medium'>See examples our work </p>
                         </div>
-
-
-
                     </Slider>
-
                 </Container>
             </section>
-
         </>
     )
 }

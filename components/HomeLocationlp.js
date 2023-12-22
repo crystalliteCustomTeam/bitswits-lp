@@ -1,13 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../styles/HomeLocationlp.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import styles from '../styles/HomeLocationlp.module.css'
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 ///
 import LocationWorld from '../public/newHomePage/images/locationWorld.png'
+
 
 const HomeLocationlp = () => {
 
@@ -25,11 +27,6 @@ const HomeLocationlp = () => {
     return (
         <>
             <section className={styles.locations}>
-                {/* <div className={styles.mapVideo}>
-                    <div className={`${styles.map} h-100`}>
-                        <video autoPlay muted className='w-100' loop src="/video.mp4" type="video/mp4"></video>
-                    </div>
-                </div> */}
                 <div className={styles.upside}>
                     <Container>
                         <Row>

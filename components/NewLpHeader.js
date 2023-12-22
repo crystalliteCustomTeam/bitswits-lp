@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '@/styles/NewLpHeader.module.css'
+import { Router, useRouter } from 'next/router';
 import { Row, Col } from 'react-bootstrap'
+import styles from '@/styles/NewLpHeader.module.css'
+//
 import { FaAngleDown, FaAngleRight, FaPhoneAlt, FaUserAlt } from "react-icons/fa";
 import { BsFillEnvelopeFill } from 'react-icons/bs'
 import { BsFillTelephoneFill } from 'react-icons/bs'
-import { Router, useRouter } from 'next/router';
 // images
 import logo from '../public/newlppage/logo.png'
 import mbllogo from '../public/images/icons/footerlogo.png'
@@ -32,7 +33,6 @@ import newImg from '../public/images/1.jpg'
 
 
 const Header = () => {
-
 
     const [show, setShow] = useState(false);
 

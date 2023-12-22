@@ -1,18 +1,12 @@
 import React from 'react'
 import Image from 'next/image';
-import styles from "@/styles/Startups.module.css";
 import { Container, Row, Col } from 'react-bootstrap'
-
+import styles from "@/styles/Startups.module.css";
 //images
 import startups from '../public/images/startups/startups.png'
 
-import Link from 'next/link';
-
 
 export default function Startups(props) {
-
-
-
     return (
         <>
             <section className={styles[props.startups]}>

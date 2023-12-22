@@ -3,7 +3,7 @@
   background-color: black;
 }
 
-.newHomeBg h2{
+.newHomeBg h2 {
   font-size: 60px;
   line-height: 70px;
   font-weight: 700;
@@ -30,7 +30,6 @@
 }
 
 @media (max-width: 1200px) {
-
   .fill h3 {
     font-size: 16px;
   }
@@ -38,25 +37,20 @@
   .fill {
     gap: 10px;
   }
-
 }
 
 @media (max-width: 991px) {
-
   .fill h3 {
     font-size: 13px;
   }
- 
+
   .fill {
     gap: 10px;
   }
-
 }
 @media (max-width: 767px) {
-
-  .fill{
+  .fill {
     flex-direction: column;
     gap: 45px;
   }
-
 }

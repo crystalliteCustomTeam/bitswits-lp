@@ -1,21 +1,19 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/Hurdles.module.css";
 //
 import secImg from '../public/images/lp-images/hurdles.png'
-
 import secImg1 from '../public/images/lp-images/1.png'
 import secImg2 from '../public/images/lp-images/2.png'
 import secImg3 from '../public/images/lp-images/3.png'
 import secImg4 from '../public/images/lp-images/4.png'
 import secImg5 from '../public/images/lp-images/5.png'
-
-import "slick-carousel/slick/slick-theme.css";
+//
 import Slider from 'react-slick';
-import { useEffect } from 'react';
-import { useState } from 'react';
+import "slick-carousel/slick/slick-theme.css";
+
 
 const Hurdles = () => {
 

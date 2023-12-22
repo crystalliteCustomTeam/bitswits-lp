@@ -1,8 +1,7 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import Link from 'next/link';
 import Image from 'next/image';
 import styles from "@/styles/Thrthy.module.css";
-import { Container, Row, Col } from 'react-bootstrap'
-
 //images
 import banImg1 from '../public/images/logohome/1.svg'
 import banImg2 from '../public/images/logohome/2.svg'
@@ -13,7 +12,6 @@ import banImg6 from '../public/images/logohome/6.svg'
 import banImg7 from '../public/images/logohome/7.svg'
 import banImg8 from '../public/images/logohome/8.svg'
 import banImg9 from '../public/images/logohome/9.svg'
-
 import banImg10 from '../public/images/logohome/10.svg'
 import banImg11 from '../public/images/logohome/11.svg'
 import banImg12 from '../public/images/logohome/12.svg'
@@ -23,14 +21,10 @@ import banImg15 from '../public/images/logohome/15.svg'
 import banImg16 from '../public/images/logohome/16.svg'
 import banImg17 from '../public/images/logohome/17.svg'
 import banImg18 from '../public/images/logohome/18.svg'
-import { useState } from 'react';
-import { useEffect } from 'react';
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-
-import Link from 'next/link';
 
 
 export default function Thrthy() {
