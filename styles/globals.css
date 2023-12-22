@@ -1291,32 +1291,124 @@ a {
   gap: 20px;
 }
 
-.swiper-slide.swiper-slide-prev {
-  transform: translateY(8%) translateX(-20%) scale(0.8);
+swiper-slide.swiper-slide-prev {
+  transform: translateY(18%) translateX(-43%) scale(.6);
+
 }
 
-.swiper-slide.swiper-slide-next {
-  transform: translateY(8%) translateX(0%) scale(0.8);
+swiper-slide.swiper-slide-next {
+  transform: translateY(13%) translateX(-49%) scale(0.7);
+
+}
+
+swiper-slide.swiper-slide-active {
+  transform: translateY(18%) translateX(-43%) scale(.6);
+
+}
+
+swiper-slide.swiper-slide-next + swiper-slide {
+  transform: translateY(8.5%) translateX(-43%) scale(.8);
+
+}
+swiper-slide.swiper-slide-next + swiper-slide + swiper-slide {
+  transform: translateY(3.5%) translateX(-32%) scale(.9);
+
+}
+swiper-slide.swiper-slide-next + swiper-slide + swiper-slide + swiper-slide {
+  transform: translateY(-0.2%) translateX(-10%) scale(.99);
+
+}
+swiper-slide.swiper-slide-next + swiper-slide + swiper-slide + swiper-slide + swiper-slide {
+  transform: translateY(3.5%) translateX(13%) scale(.9);
+
+}
+swiper-slide.swiper-slide-next + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide {
+  transform: translateY(8.5%) translateX(27%) scale(.8);
+
+}
+
+swiper-slide.swiper-slide-next + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide {
+  transform: translateY(13%) translateX(35%) scale(0.7);
+
+}
+swiper-slide.swiper-slide-next + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide {
+  transform: translateY(16%) translateX(37%) scale(0.6);
+
+}
+
+swiper-slide.swiper-slide-next + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide {
+  transform: translateY(16%) translateX(37%) scale(0.6);
+
+}
+
+/* swiper-slide.swiper-slide-next + swiper-slide + swiper-slide + swiper-slide {
+  transform: translateY(-16.2%) translateX(-10%) scale(1.3);
+  padding-top: 100px;
+}
+swiper-slide.swiper-slide-next + swiper-slide + swiper-slide {
+  transform: translateY(19.5%) translateX(-43%) scale(1.2);
+}
+swiper-slide.swiper-slide-next + swiper-slide {
+  transform: translateY(23.5%) translateX(-64%) scale(1.1);
+}
+swiper-slide.swiper-slide-next {
+  transform: translateY(28%) translateX(-76%) scale(1);
+}
+swiper-slide.swiper-slide-prev {
+  transform: translateY(36%) translateX(-72%) scale(.8);
+}
+swiper-slide.swiper-slide-active {
+  transform: translateY(36%) translateX(-72%) scale(.8);
+}
+swiper-slide.swiper-slide-next + swiper-slide + swiper-slide + swiper-slide + swiper-slide {
+  transform: translateY(19.5%) translateX(22%) scale(1.2);
+}
+swiper-slide.swiper-slide-next + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide {
+  transform: translateY(24.5%) translateX(43%) scale(1.1);
+}
+swiper-slide.swiper-slide-next + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide {
+  transform: translateY(28%) translateX(54%) scale(1);
+}
+swiper-slide.swiper-slide-next + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide {
+  transform: translateY(37%) translateX(52%) scale(.8);
+}
+
+swiper-slide.swiper-slide-next + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide + swiper-slide {
+  transform: translateY(37%) translateX(52%) scale(.8);
+}
+.card.testimonialscard {
+  background-color: unset;
+  border: unset;
+  padding-top: 10px;
+  padding-bottom: 10px;
+} */
+/* .swiper {
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+} */
+
+/* swiper-slide img{
+  border: 2px solid #ed017b;
+  border-radius: 20px;
+} */
+.testimonialscard img{
+  border: 2px solid #ed017b;
+  border-radius: 25px;
 }
 
 
-
-.swiper-slide.swiper-slide-active {
-  transform: translateY(0) translateX(-11%) scale(.9);
-  margin-top: 17px;
-}
-
-.swiper-slide.swiper-slide-next+.swiper-slide {
-  transform: translateY(13.5%) translateX(2%) scale(.7);
-}
-
-.swiper-slide.previous-sibling {
+/* swiper-slide.previous-sibling {
   transform: translateY(13.5%) translateX(-20%) scale(.7);
-}
+} */
 
-.swiper-slide {
+/* [aria-label='6 / 13'] {
+  display: none;
+} */
+
+/* swiper-slide {
   transform: translateY(18.5%) translateX(-9%) scale(.6);
-}
+} */
 
 
 
