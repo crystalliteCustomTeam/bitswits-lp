@@ -7,6 +7,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 import { register } from "swiper/element/bundle";
+import SwiperCore, { Navigation, Autoplay } from 'swiper/core';
+
 SwiperCore.use([Navigation, Autoplay]);
 
 
@@ -27,14 +29,10 @@ const MySwiperComponent = () => {
         }
       `,
       ],
-
     };
-
     Object.assign(swiperElRef.current, params);
     swiperElRef.current.initialize();
-
   }, []);
-
   const slides = [
     {
       avatar: "images/logoservices/loop/1.webp",
@@ -79,11 +77,8 @@ const MySwiperComponent = () => {
       avatar: "images/logoservices/loop/7.webp",
     },
   ];
-
   return (
-
     <>
-
       <section className={`${styles.peace} newbird`}>
         <Container>
           <Row>
@@ -104,8 +99,6 @@ const MySwiperComponent = () => {
             centered-slides="false"
             autoplay-delay="3000"
             loop="true"
-
-
           >
             {slides &&
               slides.map((testimonial, index) => (
@@ -116,19 +109,15 @@ const MySwiperComponent = () => {
                         <img quality={95}
                           src={testimonial.avatar}
                           alt='bitswits'
-
                         />
-
                       </div>
                     </div>
                   </div>
                 </swiper-slide>
               ))}
           </swiper-container>
-
         </div>
       </section>
-
       <section className={styles.view1sec}>
         <Container>
           <Row>
@@ -143,5 +132,4 @@ const MySwiperComponent = () => {
     </>
   );
 };
-
 export default MySwiperComponent;
