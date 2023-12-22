@@ -6,67 +6,11 @@ import styles from "@/styles/Homeslider.module.css";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
-import Image from 'next/image';
-import styles from "@/styles/Homeslider.module.css";
-import { Row, Col, Container } from 'react-bootstrap';
-import Link from 'next/link';
 import { register } from "swiper/element/bundle";
 SwiperCore.use([Navigation, Autoplay]);
 
 
 const MySwiperComponent = () => {
-
-
-
-  // const swiperElRef = useRef(null);
-
-  // useEffect(() => {
-  //   const mySwiper = new SwiperCore(swiperElRef.current, {
-  //     slidesPerView: 7,
-  //     centeredSlides: true,
-  //     loop: true,
-  //     autoplay: {
-  //       delay: 5000,
-  //     },
-  //   });
-  //   // Remove the 'previous-sibling' class from all elements with the class 'swiper-slide'
-  //   document.querySelectorAll('.swiper-slide').forEach((element) => {
-  //     element.classList.remove('previous-sibling');
-  //   });
-
-  //   // Add the 'previous-sibling' class to the immediate previous sibling's previous sibling of the active slide
-  //   const activeSlide = mySwiper.slides[mySwiper.activeIndex];
-  //   const prevSibling = activeSlide.previousElementSibling;
-
-  //   if (prevSibling && prevSibling.classList.contains('swiper-slide')) {
-  //     const prevPrevSibling = prevSibling.previousElementSibling;
-  //     if (prevPrevSibling && prevPrevSibling.classList.contains('swiper-slide')) {
-  //       prevPrevSibling.classList.add('previous-sibling');
-  //     }
-  //   }
-  //   mySwiper.on('slideChange', () => {
-  //     // Remove the 'previous-sibling' class from all elements with the class 'swiper-slide'
-  //     document.querySelectorAll('.swiper-slide').forEach((element) => {
-  //       element.classList.remove('previous-sibling');
-  //     });
-
-  //     // Add the 'previous-sibling' class to the immediate previous sibling's previous sibling of the active slide
-  //     const activeSlide = mySwiper.slides[mySwiper.activeIndex];
-  //     const prevSibling = activeSlide.previousElementSibling;
-
-  //     if (prevSibling && prevSibling.classList.contains('swiper-slide')) {
-  //       const prevPrevSibling = prevSibling.previousElementSibling;
-  //       if (prevPrevSibling && prevPrevSibling.classList.contains('swiper-slide')) {
-  //         prevPrevSibling.classList.add('previous-sibling');
-  //       }
-  //     }
-  //   });
-
-  //   // Clean up when the component is unmounted
-  //   return () => {
-  //     mySwiper.destroy();
-  //   };
-  // }, []);
 
   const swiperElRef = useRef(null);
   useEffect(() => {
@@ -83,19 +27,11 @@ const MySwiperComponent = () => {
         }
       `,
       ],
-     
+
     };
-
-
 
     Object.assign(swiperElRef.current, params);
     swiperElRef.current.initialize();
-
-
-
-
-
-
 
   }, []);
 
@@ -148,8 +84,6 @@ const MySwiperComponent = () => {
 
     <>
 
-
-
       <section className={`${styles.peace} newbird`}>
         <Container>
           <Row>
@@ -164,24 +98,6 @@ const MySwiperComponent = () => {
           </Row>
         </Container>
         <div className={styles.slider}>
-
-          {/* <div className="swiper-container" ref={swiperElRef}>
-            <div className="swiper-wrapper">
-              {
-                slides?.map((e, i) => (
-                  <div className="swiper-slide" key={i}>
-                    <div>
-                      <img
-                        src={e.avatar}
-                        alt='bitswits'
-
-                      />
-                    </div>
-                  </div>
-                ))
-              }
-            </div>
-          </div> */}
           <swiper-container
             init={false}
             ref={swiperElRef}
