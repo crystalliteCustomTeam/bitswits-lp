@@ -1,138 +1,49 @@
 import Head from "next/head";
 import React from "react";
+import Image from "next/image";
 import { useState } from "react";
 import { useEffect } from "react";
-import Image from "next/image";
 
 //components
-const Banner = React.lazy(() =>
-  import(
-    "@/components/new-bussiness-intelligence-page/BussinessIntelligenceBanner"
-  )
-);
-const Provideservices = React.lazy(() =>
-  import("@/components/new-bussiness-intelligence-page/Provideservices")
-);
+const Banner = React.lazy(() => import("@/components/new-bussiness-intelligence-page/BussinessIntelligenceBanner"));
+const Provideservices = React.lazy(() => import("@/components/new-bussiness-intelligence-page/Provideservices"));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 const LpForm = React.lazy(() => import("@/components/LpFormprops"));
 const CustomCards = React.lazy(() => import("@/components/customCards"));
-const SmartTech = React.lazy(() =>
-  import("@/components//new-bussiness-intelligence-page/SmartTech")
-);
+const SmartTech = React.lazy(() => import("@/components//new-bussiness-intelligence-page/SmartTech"));
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
-const HomeBannerSlider = React.lazy(() =>
-  import("@/components/HomeBannerSlider")
-);
+const HomeBannerSlider = React.lazy(() => import("@/components/HomeBannerSlider"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const People = React.lazy(() => import("@/components/People"));
 const BICards = React.lazy(() => import("@/components/BICards"));
 
 //images
-const BannerImage = await import(
-  "@/public/bussinessintelligence/bussiness-intelligence.png"
-);
-
-const customios = await import(
-  "../public/images/blockchainappdevelopment/ethereumdappgamedevelopment.png"
-);
-const iphoneapp = await import(
-  "../public/images/blockchainappdevelopment/polygongamedevelopment.png"
-);
-const applewatch = await import(
-  "../public/images/blockchainappdevelopment/solanablockchaindevelopment.png"
-);
-const appletvappdevelopment = await import(
-  "../public/images/blockchainappdevelopment/eosdappgamedevelopment.png"
-);
-const iphoneappdesigning = await import(
-  "../public/images/blockchainappdevelopment/metaverseblockchaingamedevelopment.png"
-);
-const hybridiphone = await import(
-  "../public/images/blockchainappdevelopment/nftblockchaingamedevelopment.png"
-);
-const react = await import(
-  "../public/images/blockchainappdevelopment/trongamedevelopment.png"
-);
-const next = await import(
-  "../public/images/blockchainappdevelopment/bscgamedevelopment.png"
-);
-const reactnative = await import(
-  "../public/images/blockchainappdevelopment/cryptogamblinggames.png"
-);
-const flutter = await import(
-  "../public/images/blockchainappdevelopment/ingameassettokencreation.png"
-);
-const python = await import(
-  "../public/images/blockchainappdevelopment/smartcontractdappgamedevelopment.png"
-);
-const bestgloba11 = await import(
-  "../public/bussinessintelligence/bussinessicon1.png"
-);
-const bestgloba12 = await import(
-  "../public/bussinessintelligence/bussinessicon2.png"
-);
-const bestgloba13 = await import(
-  "../public/bussinessintelligence/bussinessicon3.png"
-);
-const user1 = await import(
-  "../public/bussinessintelligence/bussinessicon13.png"
-);
-const user2 = await import(
-  "../public/bussinessintelligence/bussinessicon14.png"
-);
-const user3 = await import(
-  "../public/bussinessintelligence/bussinessicon15.png"
-);
-const user4 = await import(
-  "../public/bussinessintelligence/bussinessicon16.png"
-);
-const user5 = await import(
-  "../public/bussinessintelligence/bussinessicon17.png"
-);
-const user6 = await import(
-  "../public/bussinessintelligence/bussinessicon18.png"
-);
-const user7 = await import(
-  "../public/bussinessintelligence/bussinessicon22.png"
-);
-const user8 = await import(
-  "../public/bussinessintelligence/bussinessicon23.png"
-);
-const user9 = await import(
-  "../public/bussinessintelligence/bussinessicon24.png"
-);
-const user10 = await import(
-  "../public/bussinessintelligence/bussinessicon25.png"
-);
-const user11 = await import(
-  "../public/bussinessintelligence/bussinessicon26.png"
-);
-const user12 = await import(
-  "../public/bussinessintelligence/bussinessicon27.png"
-);
-
-const chatbots1 = await import(
-  "../public/bussinessintelligence/bussinessicon10.png"
-);
-const chatbots2 = await import(
-  "../public/bussinessintelligence/bussinessicon11.png"
-);
-const chatbots3 = await import(
-  "../public/bussinessintelligence/bussinessicon12.png"
-);
-const chatbots4 = await import(
-  "../public/bussinessintelligence/bussinessicon19.png"
-);
-const chatbots5 = await import(
-  "../public/bussinessintelligence/bussinessicon20.png"
-);
-const chatbots6 = await import(
-  "../public/bussinessintelligence/bussinessicon21.png"
-);
+const BannerImage = await import("@/public/bussinessintelligence/bussiness-intelligence.png");
+const bestgloba11 = await import("../public/bussinessintelligence/bussinessicon1.png");
+const bestgloba12 = await import("../public/bussinessintelligence/bussinessicon2.png");
+const bestgloba13 = await import("../public/bussinessintelligence/bussinessicon3.png");
+const user1 = await import("../public/bussinessintelligence/bussinessicon13.png");
+const user2 = await import("../public/bussinessintelligence/bussinessicon14.png");
+const user3 = await import("../public/bussinessintelligence/bussinessicon15.png");
+const user4 = await import("../public/bussinessintelligence/bussinessicon16.png");
+const user5 = await import("../public/bussinessintelligence/bussinessicon17.png");
+const user6 = await import("../public/bussinessintelligence/bussinessicon18.png");
+const user7 = await import("../public/bussinessintelligence/bussinessicon22.png");
+const user8 = await import("../public/bussinessintelligence/bussinessicon23.png");
+const user9 = await import("../public/bussinessintelligence/bussinessicon24.png");
+const user10 = await import("../public/bussinessintelligence/bussinessicon25.png");
+const user11 = await import("../public/bussinessintelligence/bussinessicon26.png");
+const user12 = await import("../public/bussinessintelligence/bussinessicon27.png");
+const chatbots1 = await import("../public/bussinessintelligence/bussinessicon10.png");
+const chatbots2 = await import("../public/bussinessintelligence/bussinessicon11.png");
+const chatbots3 = await import("../public/bussinessintelligence/bussinessicon12.png");
+const chatbots4 = await import("../public/bussinessintelligence/bussinessicon19.png");
+const chatbots5 = await import("../public/bussinessintelligence/bussinessicon20.png");
+const chatbots6 = await import("../public/bussinessintelligence/bussinessicon21.png");
 const web = await import("../public/bussinessintelligence/custom-cluod.png");
 const customWeb = await import("../public/bussinessintelligence/custom.png");
 const js1 = await import("../public/bussinessintelligence/custom1.png");
@@ -155,11 +66,8 @@ export default function mobileApplication() {
         setIsSliderActive(true);
       }
     };
-
     handleResize();
-
     window.addEventListener("resize", handleResize);
-
     return () => {
       window.removeEventListener("resize", handleResize);
     };
@@ -167,7 +75,9 @@ export default function mobileApplication() {
   return (
     <>
       <Head>
-        <title>Top Bussiness Intelligence Software Development - BitsWits</title>
+        <title>
+          Top Bussiness Intelligence Software Development - BitsWits
+        </title>
         <meta
           name="description"
           content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life."
@@ -175,7 +85,6 @@ export default function mobileApplication() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
       <Banner
         assignClass="bussiness"
         subtitle="Our Award-Winning"
@@ -188,18 +97,13 @@ export default function mobileApplication() {
         }
         BannerImage={BannerImage}
       />
-
       <People People="people" />
-
       <HomeBannerSlider />
-
       <LpForm
         addresClass="iosclass"
         heading={`As Business Intelligence (BI) developers push the boundaries of technology to automate crucial business decisions, enterprises neglecting investment risk falling behind their more modern competitors. We specialize in proficiently programming and implementing BI solutions for market forecasting, trend analysis, and operations optimization. `}
       />
-
       <Nothing Nothing="nothingLp6" />
-
       <Provideservices
         assignClass="providebussiness"
         bottomPadding="bottomPadding"
@@ -253,7 +157,6 @@ export default function mobileApplication() {
           ></video>
         }
       />
-
       <BICards
         flexRow="displayFlex"
         data={[
@@ -274,7 +177,6 @@ export default function mobileApplication() {
           },
         ]}
       />
-
       <Provideservices
         assignClass="providebussiness"
         bottomPadding="bottomPadding"
@@ -336,7 +238,6 @@ export default function mobileApplication() {
         ]}
         video={<Image src={web} className="img-fluid" alt="bitswits" />}
       />
-
       <CustomCards
         assignClass="notSame"
         flexRow="displayFlex"
@@ -386,7 +287,6 @@ export default function mobileApplication() {
           },
         ]}
       />
-
       <Provideservices
         assignClass="providebussiness"
         bottomPadding="bottomPaddingTwo"
@@ -450,7 +350,6 @@ export default function mobileApplication() {
         ]}
         video={<Image src={customWeb} className="img-fluid" alt="bitswits" />}
       />
-
       <BICards
         flexRow="displayFlex"
         data={[
@@ -486,7 +385,6 @@ export default function mobileApplication() {
           },
         ]}
       />
-
       <SmartTech
         assignClass="providecustom"
         title={
@@ -572,15 +470,10 @@ export default function mobileApplication() {
         sec2title=""
         sec2={[]}
       />
-
       <Justbuildit assignClass="justforpop" />
-
       <Globallplp6 bannerClass="newclassglobe" />
-
       <Partnerships />
-
       <Formnewlp />
-
       <ServicesFaqs
         faqsData={[
           {

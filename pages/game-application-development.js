@@ -1,40 +1,33 @@
-import { useState } from "react";
-import { useEffect } from "react";
-import HomeBannerSlider from "@/components/HomeBannerSlider";
-import LpForm from "@/components/LpForm";
-import Nothing from "@/components/Nothing";
-import People from "@/components/People";
-import LpChoose from "@/components/LpChoose";
-import Partnerships from "@/components/Partnerships";
-import Globallp6 from "@/components/GlobalLp6";
-import Justbuildit from "@/components/Justbuildit";
-// import Technologieswe from "@/components/NewMblTechnologiesWe";
-const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
-import Formnewlp from "@/components/Formnewlp";
 import Head from "next/head";
 import React from "react";
+import { useState } from "react";
+import { useEffect } from "react";
+// style
+import styles from "@/styles/ServicesAdvantage.module.css";
 //components
+const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
-const ServicesAdvantage = React.lazy(() =>
-  import("@/components/ServicesAdvantage")
-);
+const ServicesAdvantage = React.lazy(() => import("@/components/ServicesAdvantage"));
 const ServiceTarget = React.lazy(() => import("@/components/ServiceTarget"));
-const ServicesMaintain = React.lazy(() =>
-  import("@/components/ServicesMaintain")
-);
-const ServiceSolutions = React.lazy(() =>
-  import("@/components/ServiceSolutions")
-);
+const ServicesMaintain = React.lazy(() =>import("@/components/ServicesMaintain"));
+const ServiceSolutions = React.lazy(() =>import("@/components/ServiceSolutions"));
 const ServiceGenre = React.lazy(() => import("@/components/ServiceGenre"));
 const ServiceEngage = React.lazy(() => import("@/components/ServiceEngage"));
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
-// );
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
+const HomeBannerSlider = React.lazy(() => import("@/components/HomeBannerSlider"));
+const LpForm = React.lazy(() => import("@/components/LpForm"));
+const Nothing = React.lazy(() => import("@/components/Nothing"));
+const People = React.lazy(() => import("@/components/People"));
+const LpChoose = React.lazy(() => import("@/components/LpChoose"));
+const Partnerships = React.lazy(() => import("@/components/Partnerships"));
+const Globallp6 = React.lazy(() => import("@/components/GlobalLp6"));
+const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
+const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
+const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
 //images
-const BannerImage = await import(
-  "@/public/newMobilePageImages/gameappbanner.png"
-);
+const BannerImage = await import("@/public/newMobilePageImages/gameappbanner.png");
 const AdvantageOne = await import("../public/newHomePageImages/lady.png");
 const Solution = await import("../public/newHomePageImages/playgame.png");
 const gameicon1 = await import("@/public/gameicon/1.png");
@@ -45,36 +38,14 @@ const engIcon1 = await import("@/public/shark/shark.png");
 const engIcon2 = await import("@/public/shark/shark2.png");
 const engIcon3 = await import("@/public/shark/shark3.png");
 const engIcon4 = await import("@/public/shark/shark4.png");
-
-import styles from "@/styles/ServicesAdvantage.module.css";
-
-const customios = await import(
-  "../public/images/gameappdevelopement/unity3dgames.png"
-);
-const iphoneapp = await import(
-  "../public/images/gameappdevelopement/virtualrealitygames.png"
-);
-const applewatch = await import(
-  "../public/images/gameappdevelopement/3dgamedevelopment.png"
-);
-const appletvappdevelopment = await import(
-  "../public/images/gameappdevelopement/unrealgamedevelopment.png"
-);
-const iphoneappdesigning = await import(
-  "../public/images/gameappdevelopement/argamedevelopment.png"
-);
-const hybridiphone = await import(
-  "../public/images/gameappdevelopement/mrgamedevelopment.png"
-);
-const react = await import(
-  "../public/images/gameappdevelopement/crossplatformgamedevelopment.png"
-);
-const reactnative = await import(
-  "../public/images/gameappdevelopement/buildboxgamedevelopment.png"
-);
-const ServicesMaintainmobile = React.lazy(() =>
-  import("@/components/ServicesMaintainmobile")
-);
+const customios = await import("../public/images/gameappdevelopement/unity3dgames.png");
+const iphoneapp = await import("../public/images/gameappdevelopement/virtualrealitygames.png");
+const applewatch = await import("../public/images/gameappdevelopement/3dgamedevelopment.png");
+const appletvappdevelopment = await import("../public/images/gameappdevelopement/unrealgamedevelopment.png");
+const iphoneappdesigning = await import("../public/images/gameappdevelopement/argamedevelopment.png");
+const hybridiphone = await import("../public/images/gameappdevelopement/mrgamedevelopment.png");
+const react = await import("../public/images/gameappdevelopement/crossplatformgamedevelopment.png");
+const reactnative = await import("../public/images/gameappdevelopement/buildboxgamedevelopment.png");
 
 export default function Gameapplicationdevelopment() {
   const [isSliderActive, setIsSliderActive] = useState(true);
@@ -95,7 +66,6 @@ export default function Gameapplicationdevelopment() {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
   const severcedata = [
     {
       classlayout: {
@@ -187,7 +157,6 @@ export default function Gameapplicationdevelopment() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
       <ServicesBanner
         assignClass="gameApp"
         subtitle="AWARDED #1 GAME APP DEVELOPMENT COMPANY"
@@ -199,15 +168,10 @@ export default function Gameapplicationdevelopment() {
         }
         BannerImage={BannerImage}
       />
-
       <People People="people" />
-
       <HomeBannerSlider />
-
       <LpForm />
-
       <Nothing Nothing="nothingLp6" />
-
       <ServicesAdvantage
         title={
           <>
@@ -246,7 +210,6 @@ export default function Gameapplicationdevelopment() {
         AdvantageOne={AdvantageOne}
         css={styles.maxWidth}
       />
-
       <ServiceTarget
         addClass="gameApp"
         subTitle="Features Of Our Development Endeavors"
@@ -273,7 +236,6 @@ export default function Gameapplicationdevelopment() {
         heading3="We Utilize Cutting-Edge Mobile Gaming Technologies!!!"
         content3="BitsWits collar the intricacies of mobile gaming technology and help develop a strategy for success. We use cutting-edge software, languages, and frameworks; you can enjoy superior graphics and sound that bring every battle, mission, or quest to life. Our innovative network protocols will keep your game running smoothly with low latency and excellent responsiveness."
       />
-
       {isSliderActive ? (
         <ServicesMaintain
           assignClass="gameApp"
@@ -408,14 +370,12 @@ export default function Gameapplicationdevelopment() {
         <ServicesMaintainmobile severcedata={severcedata} />
       )}
       <LpChoose transform="transform" />
-
       <ServiceSolutions
         addClass="gameApp"
         title="Leverage Our Proficiency in Mobile Game Development Today"
         text="Our team brings a wealth of expertise to the table. We celebrate a team of experts in game design, programming, and art direction, ensuring your vision for a video game comes to life with precision and accuracy."
         Solution={Solution}
       />
-
       <ServiceGenre
         addClass="gameApp"
         subTitle="OUR SERVICES ARE WHERE INNOVATION MEETS PLAY"
@@ -438,7 +398,6 @@ export default function Gameapplicationdevelopment() {
           },
         ]}
       />
-
       <ServiceEngage
         subTitle="HIRE THE BEST; FORGET THE REST!"
         title="Why Engage BitsWits As Your Game Development Studio?"
@@ -456,7 +415,6 @@ export default function Gameapplicationdevelopment() {
         text4="We offer competitive prices for our services, meaning you get a great game at an even better price. Plus, if you're not 100% satisfied with the final product, we offer a full refund so you can be sure that your money is being well spent. There is one thing for sure at BitsWits, your hard-earned money won't go down the drain."
         engIcon4={engIcon4}
       />
-
       <Newsuccess
         assignClass="spacing"
         subtitle="Ready For Success?"
@@ -485,15 +443,10 @@ export default function Gameapplicationdevelopment() {
           },
         ]}
       />
-
       <Technologieswe />
-
       <Justbuildit />
-
       <Globallp6 />
       <Partnerships />
-
-      {/* <NewFaqslp /> */}
       <Formnewlp />
       <ServicesFaqs
         faqsData={[

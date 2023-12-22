@@ -2,11 +2,12 @@ import Head from "next/head";
 import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
+// css //
+import styles from "@/styles/LpChoose.module.css";
 //components
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
 const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
-const ServisesWhy = React.lazy(() => import("@/components/ServisesWhy"));
 const ServicesPortfolio = React.lazy(() => import("@/components/ServicesPortfolio"));
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
 const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
@@ -25,42 +26,14 @@ const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const People = React.lazy(() => import("@/components/People"));
 const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
 //images
-const BannerImage = await import("@/public/andriodapplication/andriod.png");
-//icons
-const icon23 = await import("../public/images/fyios/1.png");
-const icon24 = await import("../public/images/fyios/2.png");
-const icon25 = await import("../public/images/fyios/3.png");
-const icon26 = await import("../public/images/fyios/4.png");
-const icon27 = await import("../public/images/fyios/5.png");
-const icon28 = await import("../public/images/fyios/6.png");
-// css //
-import styles from "@/styles/LpChoose.module.css";
-import style from '@/styles/Technologieswe.module.css'
-
-
-const customios = await import(
-  "../public/images/iosappdevelopment/customios.png"
-);
-const iphoneapp = await import(
-  "../public/images/iosappdevelopment/iphoneapp.png"
-);
-const applewatch = await import(
-  "../public/images/iosappdevelopment/applewatch.png"
-);
-const appletvappdevelopment = await import(
-  "../public/images/iosappdevelopment/appletvappdevelopment.png"
-);
-const iphoneappdesigning = await import(
-  "../public/images/iosappdevelopment/iphoneappdesigning.png"
-);
-const hybridiphone = await import(
-  "../public/images/iosappdevelopment/hybridiphone.png"
-);
-
+const customios = await import("../public/images/iosappdevelopment/customios.png");
+const iphoneapp = await import("../public/images/iosappdevelopment/iphoneapp.png");
+const applewatch = await import("../public/images/iosappdevelopment/applewatch.png");
+const appletvappdevelopment = await import("../public/images/iosappdevelopment/appletvappdevelopment.png");
+const iphoneappdesigning = await import("../public/images/iosappdevelopment/iphoneappdesigning.png");
+const hybridiphone = await import("../public/images/iosappdevelopment/hybridiphone.png");
 
 export default function gamedevelopmentcompany() {
-
-  
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -70,16 +43,13 @@ export default function gamedevelopmentcompany() {
         setIsSliderActive(true);
       }
     };
-
     handleResize();
-
     window.addEventListener("resize", handleResize);
 
     return () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
   const severcedata = [
     {
       classlayout: {
@@ -140,7 +110,6 @@ export default function gamedevelopmentcompany() {
       ],
     },
   ];
-
   return (
     <>
       <Head>
@@ -152,36 +121,30 @@ export default function gamedevelopmentcompany() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
       <ServicesBanner
         subtitle="Reimagine Possibilities With"
         title={<> Our iOS App Development Company </>}
         text={
           <>
-            {" "}
             Our iOS development team works with you to determine the ideal
             features, design, and user experience that will make your app a
             success. We also take care of all the technical details, including
-            testing and security measures.{" "}
+            testing and security measures. 
           </>
         }
-        // BannerImage={BannerImage}
-        video = {<video autoPlay muted src='../../bannerVideos/ios.mp4' className="w-50" ></video>}
+        video={
+          <video
+            autoPlay
+            muted
+            src="../../bannerVideos/ios.mp4"
+            className="w-50"
+          ></video>
+        }
       />
-
       <People People="people" />
-
       <HomeBannerSliderlp />
-
       <LpForm addresClass="iosclass" />
-
       <Nothing Nothing="nothingLp6" />
-
-      {/* <NewHomeAbout
-                title="Our Client’s Feedback Has Been"
-                subtitle="Nothing Short Of Amazing!"
-            /> */}
-
       {isSliderActive ? (
         <ServicesMaintain
           assignClass="ios"
@@ -190,14 +153,13 @@ export default function gamedevelopmentcompany() {
           title2={<> Hire an iOS App Developer! </>}
           text={
             <>
-              {" "}
               As a premier iOS app development company, our iOS developers
               create eye-catching and user-friendly iPhone and iPad apps that
               capture <br className="d-lg-block d-none" />
               attention immediately. To develop customized applications that are
-              appropriate for Apple devices, our professional iOS developers and{" "}
+              appropriate for Apple devices, our professional iOS developers and 
               <br className="d-lg-block d-none" />
-              designers make use of the newest iOS capabilities.{" "}
+              designers make use of the newest iOS capabilities. 
             </>
           }
           appContent={[]}
@@ -250,13 +212,8 @@ export default function gamedevelopmentcompany() {
       ) : (
         <ServicesMaintainmobile severcedata={severcedata} />
       )}
-
-      {/* <NewAddress /> */}
-
       <WeworkLp wework="weworkLpnewhomefy" />
-
       <StartupsLp startups="startups" />
-
       <ProjectProcess
         processclass="processLp6"
         title="Explore Our iOS App Development Journey"
@@ -265,90 +222,17 @@ export default function gamedevelopmentcompany() {
         transparent and collaborative, ensuring your vision comes to life
         exactly as you imagined."
       />
-
       <Justbuildit />
-      {/* <ServicesWho
-                subtitle="Who we are."
-                title="We build greater futures through innovation and collective knowledge."
-                text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
-                WhoImage={WhoImage}
-            />
-            <ServicesWhat
-                subtitle="What we do."
-                title="BitsWits transforms businesses through technology."
-                text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
-                WhatImage={WhatImage}
-            /> */}
-
       <LpChoose transform="transform" marginTop={styles.marginTop} />
-
-      {/* <ServisesWhy
-        // title={
-        //   <>
-        //     {" "}
-        //     <h4 className="font20 font-bold text-white text-center">
-        //       Why Choose Us
-        //     </h4>{" "}
-        //   </>
-        // }
-        subtitle={
-          <>
-            {" "}
-            <h2 className="newfycolr font50 font-bold text-center">
-              Why Do You Require Our iOS Applications?
-            </h2>{" "}
-          </>
-        }
-        sub2="Building your mobile app acts like a technological asset that improves the services of your business, attracting more customers, boosting its success, and letting you shape the trajectory of your business."
-        whyData={[
-          {
-            icon: icon23,
-            title: "Stunning and Intuitive Designs",
-            para: "Our iOS developers craft pixel-perfect iOS apps with beautiful and latest designs for Apple devices.",
-          },
-          {
-            icon: icon24,
-            title: "Expert Development",
-            para: "Expert iOS developers at BitsWits know about Swift and Xcode and utilize the latest iOS features for perfect user experiences.",
-          },
-          {
-            icon: icon25,
-            title: "High Performing Apps",
-            para: "We build powerful and high-performing iOS applications that are stable, smooth, and fast.",
-          },
-          {
-            icon: icon26,
-            title: "Apple Guidelines Compliance",
-            para: "For optimal App Store optimization, our iOS developers stick to Apple's strict interface rules and standards of excellence.",
-          },
-          {
-            icon: icon27,
-            title: (
-              <>
-                {" "}
-                Continuous <br /> Support{" "}
-              </>
-            ),
-            para: "We provide on-going support and maintenance to keep your applications updated with high-quality services.",
-          },
-          {
-            icon: icon28,
-            title: "Open Communication",
-            para: "Our iOS developers ensure open dialogues and total transparency throughout the development process.",
-          },
-        ]}
-      /> */}
       <ServicesPortfolio
         title={
           <>
-            {" "}
             Showcasing Our <span className="newfycolr">
               Creative Vision
-            </span>{" "}
+            </span>
           </>
         }
-      />
-      {/* <Capabilities /> */}
+      /> 
       <Newsuccess
         assignClass="spacing"
         subtitle="Ready For Success?"
@@ -377,18 +261,9 @@ export default function gamedevelopmentcompany() {
           },
         ]}
       />
-
       <Technologieswe addresClass="appdev" />
-      {/* <NewHomeGlobal />
-            <NewHomeSlider />
-            <Homenextproject
-                title="Brace yourself for an App-venture!"
-            /> */}
-
       <Globallplp6 />
-      <Partnerships />
-
-      {/* <NewFaqslp /> */}
+      <Partnerships /> 
       <Formnewlp />
       <ServicesFaqs
         faqsData={[
@@ -396,8 +271,7 @@ export default function gamedevelopmentcompany() {
             question:
               "What are the stages and costs involved in iOS app development?",
             answer: (
-              <>
-                {" "}
+              <> 
                 iOS development is a complex process that requires careful
                 planning and budgeting. The stages of iOS development involve
                 concepts to launch. The first stage is concept creation, which
@@ -407,15 +281,14 @@ export default function gamedevelopmentcompany() {
                 feel of an app. After that, the development stage begins, where
                 coding and testing take place. Finally, the launch stage
                 involves ensuring the app is compliant with Apple standards and
-                distributing it through either the App Store or other means.{" "}
+                distributing it through either the App Store or other means. 
               </>
             ),
           },
           {
             question: "What are the types of iOS development?",
             answer: (
-              <>
-                {" "}
+              <> 
                 iOS development is an incredibly versatile field. Whether you're
                 creating a brand-new app, tweaking an existing one, or
                 developing a mobile-friendly website, there are several
@@ -454,7 +327,7 @@ export default function gamedevelopmentcompany() {
                 well-designed and optimized app can help your business stand out
                 from the competition. With the right iOS and android app
                 developer such as BitsWits, you can create an amazing user
-                experience that will keep customers coming back for more.{" "}
+                experience that will keep customers coming back for more. 
               </>
             ),
           },
@@ -462,8 +335,7 @@ export default function gamedevelopmentcompany() {
             question:
               "Why you should consider investing in iOS app development?",
             answer: (
-              <>
-                {" "}
+              <> 
                 Investing in iOS app development company is a great way to
                 ensure that your business stands out from the competition.
                 Here’s how:
@@ -498,7 +370,7 @@ export default function gamedevelopmentcompany() {
                 <br />
                 <br />
                 Overall, investing in iOS app development company is a smart
-                decision that can benefit your business in numerous ways.{" "}
+                decision that can benefit your business in numerous ways. 
               </>
             ),
           },
@@ -506,8 +378,7 @@ export default function gamedevelopmentcompany() {
             question:
               "What are the programming language(s) for iOS development?",
             answer: (
-              <>
-                {" "}
+              <> 
                 The best programming language for iOS development depends on the
                 app you want to create. If you’re just starting, consider
                 learning Swift—Apple’s modern and intuitive coding language. It
@@ -519,15 +390,14 @@ export default function gamedevelopmentcompany() {
                 written apps in this language, it might be a good option to
                 stick with it. Both languages are supported by Apple, so the
                 decision ultimately comes down to personal preference and what's
-                most comfortable for you.{" "}
+                most comfortable for you. 
               </>
             ),
           },
           {
             question: "What is Swift iOS app development?",
             answer: (
-              <>
-                {" "}
+              <> 
                 Swift iOS App Development is the process of creating, coding,
                 and designing mobile applications for Apple's iOS operating
                 system. With Swift being an open-source language, it allows
@@ -538,15 +408,14 @@ export default function gamedevelopmentcompany() {
                 innovative and reliable way to build their app, Swift is a
                 perfect choice. From simple games to complex enterprise
                 solutions – whatever you need, iOS App Development with hire
-                swift developers has you covered!{" "}
+                swift developers has you covered! 
               </>
             ),
           },
           {
             question: "What are iOS app development services?",
             answer: (
-              <>
-                {" "}
+              <> 
                 iOS app development company help businesses create custom,
                 engaging, and user-friendly applications for Apple's iOS
                 platform. With their experienced professionals, they provide
@@ -556,7 +425,7 @@ export default function gamedevelopmentcompany() {
                 developing apps for both the App Store and enterprise solutions.
                 Whether you need an app to increase customer engagement or
                 expand your market reach, iOS app development company will help
-                take your business to the next level.{" "}
+                take your business to the next level. 
               </>
             ),
           },

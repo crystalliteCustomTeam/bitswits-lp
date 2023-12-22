@@ -1,41 +1,29 @@
-import Formnewlp from "@/components/Formnewlp";
-import Globallp6 from "@/components/GlobalLp6";
-import HomeBannerSlider from "@/components/HomeBannerSliderlp";
-import LpChoose from "@/components/LpChoose";
-import LpForm from "@/components/LpForm";
-import Technologieswe from "@/components/NewMblTechnologiesWe";
-import Nothing from "@/components/Nothing";
-import Partnerships from "@/components/Partnerships";
-import People from "@/components/People";
 import Head from "next/head";
 import React from "react";
+import { useState } from "react";
+import { useEffect } from "react";
+
 //components
+const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
+const Globallp6 = React.lazy(() => import("@/components/GlobalLp6"));
+const HomeBannerSlider = React.lazy(() => import("@/components/HomeBannerSliderlp"));
+const LpChoose = React.lazy(() => import("@/components/LpChoose"));
+const LpForm = React.lazy(() => import("@/components/LpForm"));
+const Technologieswe = React.lazy(() => import("@/components/NewMblTechnologiesWe"));
+const Nothing = React.lazy(() => import("@/components/Nothing"));
+const Partnerships = React.lazy(() => import("@/components/Partnerships"));
+const People = React.lazy(() => import("@/components/People"));
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
-const ServicesAdvantage = React.lazy(() =>
-  import("@/components/ServicesAdvantage")
-);
-const ServicesMaintain = React.lazy(() =>
-  import("@/components/ServicesMaintain")
-);
-const NewAddress = React.lazy(() => import("@/components/NewAddress"));
-const ServiceSolutions = React.lazy(() =>
-  import("@/components/ServiceSolutions")
-);
+const ServicesAdvantage = React.lazy(() => import("@/components/ServicesAdvantage"));
+const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
+const ServiceSolutions = React.lazy(() => import("@/components/ServiceSolutions"));
 const ServiceGenre = React.lazy(() => import("@/components/ServiceGenre"));
 const Capabilities2d = React.lazy(() => import("@/components/Capabilities2d"));
 const ServiceEngage = React.lazy(() => import("@/components/ServiceEngage"));
-const NewHomeAbout = React.lazy(() => import("@/components/NewHomePageAbout"));
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
-const Technologieswe2dgame = React.lazy(() =>
-  import("@/components/Technologieswe2dgame")
-);
-const NewHomeGlobal = React.lazy(() => import("@/components/NewHomeGlobal"));
-const NewHomeSlider = React.lazy(() => import("@/components/NewHomeSlider"));
-const Homenextproject = React.lazy(() =>
-  import("@/components/Homenextproject")
-);
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
+const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
 //images
 const BannerImage = await import("@/public/images/game2dbanner/bann.png");
 const AdvantageOne = await import("../public/newHomePageImages/run.png");
@@ -48,8 +36,6 @@ const engIcon1 = await import("@/public/shark/shark1.png");
 const engIcon2 = await import("@/public/shark/shrk12.png");
 const engIcon3 = await import("@/public/shark/shrk13.png");
 const engIcon4 = await import("@/public/shark/2322.png");
-
-const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
 const customios = await import("/public/2dgame/2dconceptartanddesign.png");
 const iphoneapp = await import("/public/2dgame/singleplayergames.png");
 const applewatch = await import("/public/2dgame/gameappintegration.png");
@@ -57,14 +43,7 @@ const appletvappdevelopment = await import("/public/2dgame/multiplayergames.png"
 const iphoneappdesigning = await import("/public/2dgame/uigraphics.png");
 const hybridiphone = await import("/public/2dgame/storyboarding.png");
 
-import { useState } from "react";
-import { useEffect } from "react";
-
-
 export default function gamedevelopmentcompany() {
-
-
-
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -93,19 +72,17 @@ export default function gamedevelopmentcompany() {
         subtitle: "Our Services Are Where Innovation Meets Play",
         title1: `What You May Expect When
         Committing To Us?`,
-
       },
       serdata: [
-
         {
           title: <> 2D Concept Art and Design </>,
-            text: "2D Concept Art and Design is an art form that combines creative design with technical know-how. Our team of experienced artists is well-versed in various techniques, including digital painting, 3D modeling, and animation. From character concept artwork to product designs, environments, and storyboards, we provide complete professional service for our clients.",
+          text: "2D Concept Art and Design is an art form that combines creative design with technical know-how. Our team of experienced artists is well-versed in various techniques, including digital painting, 3D modeling, and animation. From character concept artwork to product designs, environments, and storyboards, we provide complete professional service for our clients.",
           appclass: "app",
           appclass: "app1",
           imgservice: customios,
         },
         {
-          title: (<> Single Player Games</>),
+          title: <> Single Player Games</>,
           text: `Our team is well versed in various technologies such as C++,
           Unity, Unreal Engine, HTML5, and more to provide a seamless
           single-player gaming experience across different platforms.
@@ -118,7 +95,7 @@ export default function gamedevelopmentcompany() {
           imgservice: iphoneapp,
         },
         {
-          title: 'Game App Integration',
+          title: "Game App Integration",
           text: `Our integration services offer a range of features across
           platforms, including multiplayer mode, leaderboard integration,
           in-app purchases, analytics, and more. Our streamlined
@@ -137,7 +114,7 @@ export default function gamedevelopmentcompany() {
         },
         {
           title: "UI/UX Graphics",
-            text: "Our UI/UX Graphics services greatly enhance the player experience, making it more immersive and enjoyable. We focus on creating engaging visuals through color palette selection, typography choice, and iconography, as well as developing an easy-to-navigate layout to keep your players engaged with the game.",
+          text: "Our UI/UX Graphics services greatly enhance the player experience, making it more immersive and enjoyable. We focus on creating engaging visuals through color palette selection, typography choice, and iconography, as well as developing an easy-to-navigate layout to keep your players engaged with the game.",
           appclass: "app5",
           imgservice: iphoneappdesigning,
         },
@@ -151,8 +128,6 @@ export default function gamedevelopmentcompany() {
     },
   ];
 
-
-
   return (
     <>
       <Head>
@@ -164,7 +139,6 @@ export default function gamedevelopmentcompany() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
       <ServicesBanner
         assignClass="game2d"
         subtitle="Best In Animation, Graphics, & Design - Your Own"
@@ -181,15 +155,10 @@ export default function gamedevelopmentcompany() {
         }
         BannerImage={BannerImage}
       />
-
       <People People="people" />
-
       <HomeBannerSlider />
-
       <LpForm />
-
       <Nothing Nothing="nothingLp6" />
-
       <ServicesAdvantage
         title={
           <> Attractive/Creative Opportunities 2D Game Development Offers </>
@@ -216,7 +185,6 @@ export default function gamedevelopmentcompany() {
         }
         AdvantageOne={AdvantageOne}
       />
-
       {isSliderActive ? (
         <ServicesMaintain
           assignClass="game2d"
@@ -267,12 +235,13 @@ export default function gamedevelopmentcompany() {
                 <>
                   {" "}
                   Our integration services offer a range of features across
-                  platforms, including multiplayer mode, leaderboard integration,
-                  in-app purchases, analytics, and more. Our streamlined
-                  integration process ensures your game runs smoothly while
-                  maintaining high-security standards. Whether it's connecting
-                  your game app with existing APIs or creating custom solutions,
-                  we guarantee that our solutions are robust and secure.{" "}
+                  platforms, including multiplayer mode, leaderboard
+                  integration, in-app purchases, analytics, and more. Our
+                  streamlined integration process ensures your game runs
+                  smoothly while maintaining high-security standards. Whether
+                  it's connecting your game app with existing APIs or creating
+                  custom solutions, we guarantee that our solutions are robust
+                  and secure.{" "}
                 </>
               ),
               appclass: "app2",
@@ -305,10 +274,7 @@ export default function gamedevelopmentcompany() {
       ) : (
         <ServicesMaintainmobile severcedata={severcedata} />
       )}
-
-
       <LpChoose transform="transform" />
-
       <ServiceSolutions
         addClass="game2d"
         subTitle="The Best Game Developer In Town"
@@ -316,7 +282,6 @@ export default function gamedevelopmentcompany() {
         text="Our 2D game developers use a combination of vibrant colors, intuitive controls, and engaging storylines to create something truly unique and always captivating. Our 2D game development services include concept creation, level design, character design, animation, asset integration, dynamic UI/UX design, programming, and debugging"
         Solution={Solution}
       />
-
       <ServiceGenre
         subTitle="OUR SERVICES ARE WHERE INNOVATION MEETS PLAY"
         title="What Genre Of Games Do We Create?"
@@ -338,9 +303,7 @@ export default function gamedevelopmentcompany() {
           },
         ]}
       />
-
       <Capabilities2d />
-
       <ServiceEngage
         addClass="game2d"
         title="Compelling Reasons To Enlist Our 2D Game Development Company"
@@ -358,7 +321,6 @@ export default function gamedevelopmentcompany() {
         text4="We are also proud to offer exclusive client services, including game beta testing and post-release support. We guarantee a smooth launch for your game and ensure your players have the best experience possible."
         engIcon4={engIcon4}
       />
-
       <Newsuccess
         assignClass="spacing"
         subtitle="Ready For Success?"
@@ -387,13 +349,9 @@ export default function gamedevelopmentcompany() {
           },
         ]}
       />
-
       <Technologieswe />
-
       <Globallp6 />
       <Partnerships />
-
-      {/* <NewFaqslp /> */}
       <Formnewlp />
       <ServicesFaqs
         faqsData={[

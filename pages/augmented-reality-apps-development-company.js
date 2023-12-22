@@ -1,14 +1,12 @@
 import Head from "next/head";
 import React from "react";
+import { useState } from "react";
+import { useEffect } from "react";
 //components
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
-const ServicesMaintain = React.lazy(() =>
-  import("@/components/ServicesMaintain")
-);
+const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
-const ServicesPortfolio = React.lazy(() =>
-  import("@/components/ServicesPortfolio")
-);
+const ServicesPortfolio = React.lazy(() => import("@/components/ServicesPortfolio"));
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
 const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
@@ -17,44 +15,21 @@ const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const People = React.lazy(() => import("@/components/People"));
-const HomeBannerSliderlp = React.lazy(() =>
-  import("@/components/HomeBannerSliderlp")
-);
+const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
 const LpChoose = React.lazy(() => import("@/components/LpChoose"));
 const LpForm = React.lazy(() => import("@/components/LpForm6"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
-// const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
 const WeworkLp = React.lazy(() => import("@/components/new-home-page-fy/WeworkLphome"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
-const ProjectProcess = React.lazy(() =>
-  import("@/components/ProjectProcessLp6")
-);
+const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
 //images
-const BannerImage = await import(
-  "@/public/images/augmentapp/Augmentebanner.png"
-);
-
-const ServicesMaintainmobile = React.lazy(() =>
-  import("@/components/ServicesMaintainmobile")
-);
-const customios = await import(
-  "../public/images/augmentreality/2d3dandisometricgamesdevelopment.png"
-);
-const iphoneapp = await import(
-  "../public/images/augmentreality/interactive3dvisuallearningforeducationwithartechnology.png"
-);
-const applewatch = await import(
-  "../public/images/augmentreality/arpoweredtravelexperiencesforthemodernexplorer.png"
-);
-const appletvappdevelopment = await import(
-  "../public/images/augmentreality/designinsightandmanufacturingdigitalmodelswithar.png"
-);
-const iphoneappdesigning = await import(
-  "../public/images/augmentreality/3dvisualpresentationforproductlaunchthroughar.png"
-);
-
-import { useState } from "react";
-import { useEffect } from "react";
+const BannerImage = await import("@/public/images/augmentapp/Augmentebanner.png");
+const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
+const customios = await import("../public/images/augmentreality/2d3dandisometricgamesdevelopment.png");
+const iphoneapp = await import("../public/images/augmentreality/interactive3dvisuallearningforeducationwithartechnology.png");
+const applewatch = await import("../public/images/augmentreality/arpoweredtravelexperiencesforthemodernexplorer.png");
+const appletvappdevelopment = await import("../public/images/augmentreality/designinsightandmanufacturingdigitalmodelswithar.png");
+const iphoneappdesigning = await import("../public/images/augmentreality/3dvisualpresentationforproductlaunchthroughar.png");
 
 export default function augmentedrealityappsdevelopment() {
   const [isSliderActive, setIsSliderActive] = useState(true);
@@ -66,16 +41,12 @@ export default function augmentedrealityappsdevelopment() {
         setIsSliderActive(true);
       }
     };
-
     handleResize();
-
     window.addEventListener("resize", handleResize);
-
     return () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
   const severcedata = [
     {
       classlayout: {
@@ -140,7 +111,6 @@ export default function augmentedrealityappsdevelopment() {
       ],
     },
   ];
-
   return (
     <>
       <Head>
@@ -152,7 +122,6 @@ export default function augmentedrealityappsdevelopment() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
       <ServicesBanner
         subtitle="Empower Your Business with"
         title={<> Top Augmented Reality App Development Company </>}
@@ -166,20 +135,10 @@ export default function augmentedrealityappsdevelopment() {
         }
         BannerImage={BannerImage}
       />
-
       <People People="people" />
-
       <HomeBannerSliderlp />
-
       <LpForm addresClass="iosclass" />
-
       <Nothing Nothing="nothingLp6" />
-
-      {/* <NewHomeAbout
-                title='Clients Love Our AR Solutions'
-                subtitle='Hear It from Them'
-            /> */}
-
       {isSliderActive ? (
         <ServicesMaintain
           assignClass="augmented"
@@ -268,13 +227,8 @@ export default function augmentedrealityappsdevelopment() {
       ) : (
         <ServicesMaintainmobile severcedata={severcedata} />
       )}
-
-      {/* <NewAddress /> */}
-
       <WeworkLp wework="weworkLpnewhomefy" />
-
       <StartupsLp startups="startups" />
-
       <ProjectProcess
         processclass="processLp6"
         title="Explore Our Augmented Reality App Development Journey"
@@ -283,23 +237,8 @@ export default function augmentedrealityappsdevelopment() {
   transparent and collaborative, ensuring your vision comes to life
   exactly as you imagined."
       />
-
       <Justbuildit />
-      {/* <ServicesWho
-                subtitle="Who we are."
-                title="We build greater futures through innovation and collective knowledge."
-                text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
-                WhoImage={WhoImage}
-            />
-            <ServicesWhat
-                subtitle="What we do."
-                title="BitsWits transforms businesses through technology."
-                text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
-                WhatImage={WhatImage}
-            /> */}
-
       <LpChoose transform="hybirf" />
-
       <ServicesPortfolio
         title={
           <>
@@ -310,7 +249,6 @@ export default function augmentedrealityappsdevelopment() {
           </>
         }
       />
-      {/* <Capabilities /> */}
       <Newsuccess
         assignClass="spacing"
         subtitle="Ready For Success?"
@@ -350,12 +288,6 @@ export default function augmentedrealityappsdevelopment() {
         ]}
       />
       <Technologieswe />
-      {/* <NewHomeGlobal />
-            <NewHomeSlider />
-            <Homenextproject
-                title="Experience AR Brilliance With BitsWits"
-            /> */}
-
       <Globallplp6 />
       <Partnerships />
       <Formnewlp />
@@ -383,7 +315,6 @@ export default function augmentedrealityappsdevelopment() {
               </>
             ),
           },
-
           {
             question:
               "What hardware or devices are required for end-users to access AR experiences developed by BitsWits?",

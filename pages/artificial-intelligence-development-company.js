@@ -1,14 +1,12 @@
 import Head from "next/head";
 import React from "react";
+import { useState } from "react";
+import { useEffect } from "react";
 //components
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
-const ServicesMaintain = React.lazy(() =>
-  import("@/components/ServicesMaintain")
-);
+const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
-const ServicesPortfolio = React.lazy(() =>
-  import("@/components/ServicesPortfolio")
-);
+const ServicesPortfolio = React.lazy(() => import("@/components/ServicesPortfolio"));
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
 const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
@@ -17,38 +15,22 @@ const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const People = React.lazy(() => import("@/components/People"));
-const HomeBannerSliderlp = React.lazy(() =>
-  import("@/components/HomeBannerSliderlp")
-);
-// const LpChoose = React.lazy(() => import("@/components/LpChoose"));
+const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
 const LpChoose = React.lazy(() => import("@/components/LpChoose"));
 const LpForm = React.lazy(() => import("@/components/LpForm6"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
-// const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
 const WeworkLp = React.lazy(() => import("@/components/new-home-page-fy/WeworkLphome"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
-const ProjectProcess = React.lazy(() =>
-  import("@/components/ProjectProcessLp6")
-);
-const ServicesMaintainmobile = React.lazy(() =>
-  import("@/components/ServicesMaintainmobile")
-);
+const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
+const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
 //images
 const BannerImage = await import("@/public/images/iosbanner/ai.png");
-
 const customios = await import("/public/artificalai/smartsystems.png");
 const iphoneapp = await import("/public/artificalai/gesturerecognition.png");
 const applewatch = await import("/public/artificalai/facialrecognition.png");
-const appletvappdevelopment = await import(
-  "/public/artificalai/locationtracking.png"
-);
-const iphoneappdesigning = await import(
-  "/public/artificalai/motionsensing.png"
-);
+const appletvappdevelopment = await import("/public/artificalai/locationtracking.png");
+const iphoneappdesigning = await import("/public/artificalai/motionsensing.png");
 const hybridiphone = await import("/public/artificalai/webconferencing.png");
-
-import { useState } from "react";
-import { useEffect } from "react";
 
 export default function gamedevelopmentcompany() {
   const [isSliderActive, setIsSliderActive] = useState(true);
@@ -69,7 +51,6 @@ export default function gamedevelopmentcompany() {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
   const severcedata = [
     {
       classlayout: {
@@ -137,7 +118,6 @@ export default function gamedevelopmentcompany() {
       ],
     },
   ];
-
   return (
     <>
       <Head>
@@ -149,7 +129,6 @@ export default function gamedevelopmentcompany() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-
       <ServicesBanner
         subtitle="BitsWits is a Home to All Your Demands Regarding"
         title={<> Artificial Intelligence Development and Advancement </>}
@@ -165,20 +144,10 @@ export default function gamedevelopmentcompany() {
         BannerImage={BannerImage}
         assignClass="ai"
       />
-
       <People People="people" />
-
       <HomeBannerSliderlp />
-
       <LpForm addresClass="iosclass" />
-
       <Nothing Nothing="nothingLp6" />
-
-      {/* <NewHomeAbout
-                title="Clients Love Our AI Solutions"
-                subtitle="Hear It from Them"
-            /> */}
-
       {isSliderActive ? (
         <ServicesMaintain
           assignClass="ai"
@@ -247,13 +216,8 @@ export default function gamedevelopmentcompany() {
       ) : (
         <ServicesMaintainmobile severcedata={severcedata} />
       )}
-
-      {/* <NewAddress /> */}
-
       <WeworkLp wework="weworkLpnewhomefy" />
-
       <StartupsLp startups="startups" />
-
       <ProjectProcess
         processclass="processLp6"
         title="Explore Our Artificial Intelligence App Development Journey"
@@ -264,21 +228,7 @@ export default function gamedevelopmentcompany() {
       />
 
       <Justbuildit />
-      {/* <ServicesWho
-                subtitle="Who we are."
-                title="We build greater futures through innovation and collective knowledge."
-                text="BitsWits is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 10+ years."
-                WhoImage={WhoImage}
-            />
-            <ServicesWhat
-                subtitle="What we do."
-                title="BitsWits transforms businesses through technology."
-                text="We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise."
-                WhatImage={WhatImage}
-            /> */}
-
       <LpChoose transform="transform" />
-
       <ServicesPortfolio
         title={
           <>
@@ -289,7 +239,6 @@ export default function gamedevelopmentcompany() {
           </>
         }
       />
-      {/* <Capabilities /> */}
       <Newsuccess
         assignClass="spacing"
         subtitle="Ready for Success?"
@@ -328,15 +277,7 @@ export default function gamedevelopmentcompany() {
           },
         ]}
       />
-
       <Technologieswe />
-
-      {/* <NewHomeGlobal />
-            <NewHomeSlider />
-            <Homenextproject
-                title="Get Smart With Artificial Intelligence"
-            /> */}
-
       <Globallplp6 />
       <Partnerships />
       <Formnewlp />
