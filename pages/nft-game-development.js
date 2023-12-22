@@ -9,17 +9,22 @@ import styleTwo from "@/styles/Justbuildit.module.css";
 //components
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
+const People = React.lazy(() => import("@/components/People"));
+const LpForm = React.lazy(() => import("@/components/LpForm"));
+const Nothing = React.lazy(() => import("@/components/Nothing"));
+const LpChoose = React.lazy(() => import("@/components/LpChoose"));
+const HomeBannerSlider = React.lazy(() => import("@/components/HomeBannerSlider"));
 const Globallp6 = React.lazy(() => import("@/components/GlobalLp6"));
 const Technologieswe = React.lazy(() => import("@/components/NewMblTechnologiesWe"));
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
 const ServicesAdvantage = React.lazy(() => import("@/components/ServicesAdvantage"));
-const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain")); 
+const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
 const ServiceSolutions = React.lazy(() => import("@/components/ServiceSolutions"));
 const ServiceGenre = React.lazy(() => import("@/components/ServiceGenre"));
 const Capabilitiesnft = React.lazy(() => import("@/components/Capabilitiesnft"));
-const ServiceEngage = React.lazy(() => import("@/components/ServiceEngage")); 
-const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess")); 
+const ServiceEngage = React.lazy(() => import("@/components/ServiceEngage"));
+const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
@@ -304,11 +309,11 @@ export default function gamedevelopmentcompany() {
             {
               title: <> Make Connections </>,
               text: (
-                <> 
+                <>
                   Play-to-Earn NFT games are a great way to connect with other
                   players and enjoy the gaming experience together. Connecting
                   with others helps build an online community and fosters
-                  collaboration and friendship. 
+                  collaboration and friendship.
                 </>
               ),
               appclass: "app1",
@@ -317,12 +322,12 @@ export default function gamedevelopmentcompany() {
             {
               title: <> Compete for Rewards </>,
               text: (
-                <> 
+                <>
                   Competing in these games allows you to compete for rewards or
                   tokens, which can be used to purchase additional items,
                   upgrade your character, and even purchase real-world products!
                   With the challenge of competition comes great rewards! With
-                  Play-to-Earn NFT games, you can truly have it all! 
+                  Play-to-Earn NFT games, you can truly have it all!
                 </>
               ),
               appclass: "app2",
@@ -345,8 +350,8 @@ export default function gamedevelopmentcompany() {
       <ServiceGenre
         subTitle="Services"
         title={
-          <> 
-            Unstoppable Fun: <br /> NFT Game Development Services 
+          <>
+            Unstoppable Fun: <br /> NFT Game Development Services
           </>
         }
         sections={[
@@ -372,8 +377,8 @@ export default function gamedevelopmentcompany() {
         addClass="gameNft"
         subTitle="Hire Developers"
         title={
-          <> 
-            Ready to Unleash Your NFT Gaming <br /> Potential? Choose BitsWits! 
+          <>
+            Ready to Unleash Your NFT Gaming <br /> Potential? Choose BitsWits!
           </>
         }
         main={main}
@@ -568,14 +573,14 @@ export default function gamedevelopmentcompany() {
                 innovative and reliable way to build their app, Swift is a
                 perfect choice. From simple games to complex enterprise
                 solutions – whatever you need, iOS App Development with hire
-                swift developers has you covered! 
+                swift developers has you covered!
               </>
             ),
           },
           {
             question: "What are iOS app development services?",
             answer: (
-              <> 
+              <>
                 iOS app development company help businesses create custom,
                 engaging, and user-friendly applications for Apple's iOS
                 platform. With their experienced professionals, they provide
@@ -585,7 +590,7 @@ export default function gamedevelopmentcompany() {
                 developing apps for both the App Store and enterprise solutions.
                 Whether you need an app to increase customer engagement or
                 expand your market reach, iOS app development company will help
-                take your business to the next level. 
+                take your business to the next level.
               </>
             ),
           },
