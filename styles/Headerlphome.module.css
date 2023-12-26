@@ -258,6 +258,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .toasNotification{
+    display: none;
+  }
+  
   .newpond {
     position: fixed;
     margin: 0;
@@ -268,6 +272,11 @@
 }
 
 @media screen and (max-width: 480px) {
+  .foldp{
+    min-width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
   .positionrelative {
     flex-direction: column;
   }

@@ -93,6 +93,7 @@
   font-weight: 700;
 }
 
+
 @media screen and (min-width: 1400px) {
   .post {
     position: relative;
@@ -113,5 +114,30 @@
   .hook {
     margin-top: -415px;
     background-color: #f5f5ff;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hook {
+    margin-top: 0px;
+    padding-top: 100px;
+   
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dev {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .post img {
+    position: unset;
+    margin-top: 45px;
+  }
+
+  .eve {
+    width: unset;
+    padding-top: 8%;
   }
 }

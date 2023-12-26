@@ -38,7 +38,7 @@ const Headerlphome = () => {
                            
                             <div class="toasNotificationGoogle" data-scroll data-scroll-speed="0.1">
                                 <div class="innerborder">
-                                <Image src={logo22} alt='BitsWits' className='img-fluid mt-2 w-25' />
+                                <Image src={logo22} alt='BitsWits' className={`${styles.foldp} img-fluid mt-2 w-25`} />
                                 </div>
                             </div>
                             <div class={styles.toasNotification} data-scroll data-scroll-speed="0.1">

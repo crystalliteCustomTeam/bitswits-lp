@@ -1,15 +1,18 @@
 .still {
   background-color: black;
 }
+
 .start {
   position: relative;
 }
+
 .gulop {
   background-color: black;
   position: relative;
   top: -100px;
   border-radius: 25px;
 }
+
 .startproject {
   position: absolute;
   right: unset;
@@ -21,6 +24,7 @@
   color: #f32f53;
   font-size: 23px;
 }
+
 .gulop h4 {
   font-weight: bold;
   font-size: 28px;
@@ -37,6 +41,7 @@
   color: black;
   border-radius: 10px;
 }
+
 .live {
   width: 136px;
   height: 43px;
@@ -52,4 +57,38 @@
 .home {
   display: flex;
   gap: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .startproject {
+    position: unset;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+
+  }
+
+  .gulop h4 {
+    line-height: 38px;
+    font-weight: bold;
+    font-size: 28px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .number,
+  .live {
+    width: 100%;
+  }
+
+  .home {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+  }
 }

@@ -29,4 +29,12 @@
     background-color: unset;
     padding-top: 100px;
   }
+  
+}
+@media screen and (max-width: 991px) {
+  .peace {
+    background-color: #f5f5ff;
+    padding-top: 100px;
+  }
+
 }

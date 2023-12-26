@@ -16,6 +16,7 @@
   gap: 10px;
   transition: all 1s ease-out;
 }
+
 .app p {
   margin-bottom: 0;
 }
@@ -23,6 +24,7 @@
 .copy {
   width: 91%;
 }
+
 .connect {
   width: 436px;
   height: 45px;
@@ -33,6 +35,7 @@
   color: white;
   font-weight: bold;
 }
+
 .offer {
   display: flex;
   justify-content: center;
@@ -42,6 +45,15 @@
 .app:hover {
   background-color: #f32f53;
   transition: all 1s ease-out;
+}
+
+@media screen and (max-width: 1200px) {
+
+
+
+  .app {
+    display: flex !important;
+  }
 }
 
 @media screen and (max-width: 480px) {

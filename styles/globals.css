@@ -2494,6 +2494,12 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 767px) {
+
+  .homvibes swiper-slide.swiper-slide-next + swiper-slide + swiper-slide + swiper-slide {
+    transform: translateY(-28.2%) translateX(-10%) scale(1.3);
+
+  }
+
   .f-80 {
     font-size: 30px;
   }
@@ -2613,6 +2619,15 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 480px) {
+
+  .homvibes swiper-slide.swiper-slide-next + swiper-slide + swiper-slide + swiper-slide {
+    transform: translateY(-40.2%) translateX(-10%) scale(1.3);
+ 
+
+  }
+  swiper-slide{
+    padding-top: unset;
+  }
   .font70 {
     font-size: 50px;
   }
