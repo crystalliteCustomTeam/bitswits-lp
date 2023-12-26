@@ -56,7 +56,7 @@ const EcommerceSlider = () => {
 
 
     return (
-        <section className={styles.slider}>
+        <section className={`${styles.slider} homvibes`}>
             <Row className='ecommerceslide'>
                 <Col lg={12}>
                     <swiper-container

@@ -1288,36 +1288,36 @@ a {
   background-color: unset;
 }
 
-swiper-slide {
+.homvibes swiper-slide {
   padding-bottom: 22px;
 }
 
-swiper-slide.swiper-slide-next + swiper-slide + swiper-slide + swiper-slide {
+.homvibes swiper-slide.swiper-slide-next + swiper-slide + swiper-slide + swiper-slide {
   transform: translateY(-13.2%) translateX(-10%) scale(1.3);
   padding-top: 100px;
 }
 
-swiper-slide.swiper-slide-next + swiper-slide + swiper-slide {
+.homvibes swiper-slide.swiper-slide-next + swiper-slide + swiper-slide {
   transform: translateY(19.5%) translateX(-43%) scale(1.2);
 }
 
-swiper-slide.swiper-slide-next + swiper-slide {
+.homvibes swiper-slide.swiper-slide-next + swiper-slide {
   transform: translateY(23.5%) translateX(-64%) scale(1.1);
 }
 
-swiper-slide.swiper-slide-next {
+.homvibes swiper-slide.swiper-slide-next {
   transform: translateY(28%) translateX(-76%) scale(1);
 }
 
-swiper-slide.swiper-slide-prev {
+.homvibes swiper-slide.swiper-slide-prev {
   transform: translateY(36%) translateX(-72%) scale(0.8);
 }
 
-swiper-slide.swiper-slide-active {
+.homvibes swiper-slide.swiper-slide-active {
   transform: translateY(36%) translateX(-72%) scale(0.8);
 }
 
-swiper-slide.swiper-slide-next
+.homvibes swiper-slide.swiper-slide-next
   + swiper-slide
   + swiper-slide
   + swiper-slide
@@ -1325,7 +1325,7 @@ swiper-slide.swiper-slide-next
   transform: translateY(19.5%) translateX(22%) scale(1.2);
 }
 
-swiper-slide.swiper-slide-next
+.homvibes swiper-slide.swiper-slide-next
   + swiper-slide
   + swiper-slide
   + swiper-slide
@@ -1334,7 +1334,7 @@ swiper-slide.swiper-slide-next
   transform: translateY(24.5%) translateX(43%) scale(1.1);
 }
 
-swiper-slide.swiper-slide-next
+.homvibes swiper-slide.swiper-slide-next
   + swiper-slide
   + swiper-slide
   + swiper-slide
@@ -1344,7 +1344,7 @@ swiper-slide.swiper-slide-next
   transform: translateY(28%) translateX(54%) scale(1);
 }
 
-swiper-slide.swiper-slide-next
+.homvibes swiper-slide.swiper-slide-next
   + swiper-slide
   + swiper-slide
   + swiper-slide
@@ -1355,7 +1355,7 @@ swiper-slide.swiper-slide-next
   transform: translateY(37%) translateX(52%) scale(0.8);
 }
 
-swiper-slide.swiper-slide-next
+.homvibes swiper-slide.swiper-slide-next
   + swiper-slide
   + swiper-slide
   + swiper-slide
