@@ -210,3 +210,10 @@
   }
 
  }
+ @media screen and (max-width: 480px) { 
+  .live1 {
+    width: 100%!important;
+
+  }
+
+ }
