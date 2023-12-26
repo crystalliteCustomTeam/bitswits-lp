@@ -103,6 +103,14 @@
 }
 
 @media screen and (max-width: 767px) {
+
+
+  .ecommerceSec {
+    padding: 90px 0;
+    background: #000;
+    padding-top: 0;
+  }
+
   .flexCard {
     display: hidden !important;
   }
@@ -110,4 +118,26 @@
   .expendCard {
     width: 100%;
   }
+}
+
+
+
+@media screen and (max-width: 480px) { 
+
+  .ecommerceSec h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  }
+  .expendCard p{
+    max-width: 100%;
+  }
+  .expendCard h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .BigCommerce img{
+    
+  }
+
 }

@@ -116,6 +116,17 @@
 }
 
 @media screen and (max-width: 991px) {
+
+  .circleBox::before {
+    display: none;
+
+  }
+
+  .circleBox {
+    margin-top: 10%;
+
+  }
+
   .Services::before {
     background-image: none;
   }
@@ -129,8 +140,10 @@
 }
 
 @media screen and (max-width: 767px) {
+
+
   .circleBox {
-    margin-top: 100px;
+    margin-top: 5%;
   }
 
   .circleBox::before {
@@ -154,6 +167,15 @@
   }
 
   .Services {
-    padding-top: 50px;
+    padding-top: 0px;
   }
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .Services h2 {
+    line-height: 1.3;
+  }
+
 }

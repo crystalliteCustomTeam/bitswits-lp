@@ -3,9 +3,11 @@
   padding: 100px 0;
   padding-bottom: 200px;
 }
+
 .ExperienceSec h3 {
   font-size: 23px;
 }
+
 .contentTwo {
   margin-top: 50px;
 }
@@ -17,6 +19,7 @@
 .contentFour {
   margin-top: 530px;
 }
+
 .linpost h2 {
   line-height: 55px;
 }
@@ -34,6 +37,11 @@
 }
 
 @media screen and (max-width: 991px) {
+  .ExperienceSec {
+    background: #000;
+    padding: 50px 0;
+    padding-bottom: 0px;
+  }
   .contentThree {
     margin-top: 40px;
   }
@@ -43,10 +51,24 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .ExperienceSec {
+    background: #000;
+    padding: 50px 0;
+    padding-bottom: 0px;
+  }
+
+  .ExperienceSec h3 {
+    padding-top: 30px!important;
+    padding-bottom: 10px;
+  }
+}
+
 @media screen and (min-width: 1400px) {
   .contentThree {
     margin-top: 207px;
   }
+
   .linpost h2 {
     line-height: 58px;
   }
