@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter } from 'next/router';
@@ -80,15 +80,34 @@ const Header = () => {
     const currentRoute = router.pathname;
     const path = currentRoute
 
+    const [isImageLoaded, setImageLoaded] = useState(false);
+    useEffect(() => {
+        const handleLoad = () => {
+            setTimeout(() => {
+                setImageLoaded(true);
+            }, 5000);
+        };
+
+        window.addEventListener('load', handleLoad);
+
+        return () => {
+            window.removeEventListener('load', handleLoad);
+        };
+    }, []);
+
 
     return (
         <>
             <header className={path ? `${styles.header}` : `${styles.header} header`}>
                 <div className={styles.navLogo}>
                     <Link href="/">
-                        <Image alt="bitswits" className='img-fluid'
-                            src={logo}
-                        />
+                        {isImageLoaded && (
+                            <Image
+                                alt="bitswits"
+                                className='img-fluid'
+                                src={logo}
+                            />
+                        )}
                     </Link>
                 </div>
                 <nav className={styles.navBar}>
