@@ -13,7 +13,7 @@ import { BsFillTelephoneFill } from 'react-icons/bs'
 //
 import Bitswitspopup from '../components/Bitswitspopup'
 // images
-import logo from '../public/images/icons/footerlogo.png'
+import logo from '../public/images/icons/footerlogo.webp'
 import mbllogo from '../public/images/icons/footerlogo.png'
 import apps from '../public/images/icons/apps.png'
 import games from '../public/images/icons/games.png'

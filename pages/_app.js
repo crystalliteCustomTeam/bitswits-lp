@@ -7,11 +7,11 @@ import "@/styles/globals.css";
 import Header from "@/components/Header";
 import NewHeaderDesign from "@/components/NewHeader";
 import Headerlp from "@/components/Headerlp";
+import Headerlphome from "@/components/Headerlphome";
 import Footernewfy from "@/components/Footernewfydesign";
 import Footernewlp1 from "@/components/Footernewlp1";
 import Footernewlp from "@/components/Footernewlp";
 import Footernewdesign from "@/components/Footernewdesign";
-import Headerlphome from "@/components/Headerlphome";
 import EcommerceBanner from "@/components/EcommerceBanner";
 import EcommerceFooter from "@/components/EcommerceFooter";
 import Cursor from "@/components/Cursor";
@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
   // =======================================
   const [imagesLoaded, setImagesLoaded] = useState(false);
   useEffect(() => {
-    const delay = 6000;
+    const delay = 5000;
     const timeoutId = setTimeout(() => {
       setImagesLoaded(true);
     }, delay);
@@ -95,12 +95,6 @@ export default function App({ Component, pageProps }) {
   // =======================================
   const newecommercepage =
     router.pathname == "/top-ecommerce-app-development-company";
-  // =======================================
-  const mobileapplicationheader =
-    router.pathname == "/mobile-application-header";
-  // =======================================
-
-  const NewHeader = router.pathname == "/header-new";
   // =======================================
 
   return (

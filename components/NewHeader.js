@@ -13,7 +13,7 @@ import ActiveLink from "./ActiveLink";
 import Modal from "react-bootstrap/Modal";
 import Bitswitspopup from "../components/Bitswitspopup";
 // images
-import logo from "../public/images/icons/footerlogo.png";
+import logo from "../public/images/icons/footerlogo.webp";
 import icontwo from "../public/images/newfydemand/icontwo.svg";
 import call from "../public/images/icons/phone-icon.webp";
 import mail from "../public/images/icons/email-icon.webp";
@@ -181,7 +181,7 @@ const HeaderNewDesign = () => {
       <header className={styles.headernew}>
         <div className={styles.logo}>
           <Link href="/">
-            <Image alt="bitswits" src={logo} className="img-fluid" />
+            <Image alt="bitswits" loading="lazy" src={logo} className="img-fluid" />
           </Link>
         </div>
         <nav>
