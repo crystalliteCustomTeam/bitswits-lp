@@ -19,6 +19,7 @@ import Loader from "@/components/Loader";
 
 
 export default function App({ Component, pageProps }) {
+  
   const router = useRouter();
   // =======================================
   const [imagesLoaded, setImagesLoaded] = useState(false);
