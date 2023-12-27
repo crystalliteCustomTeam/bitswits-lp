@@ -1,8 +1,5 @@
 import Head from "next/head";
-import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
-
+import React, { useState, useEffect } from "react";
 //components
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const Globallp6 = React.lazy(() => import("@/components/GlobalLp6"));
@@ -43,7 +40,9 @@ const appletvappdevelopment = await import("/public/2dgame/multiplayergames.png"
 const iphoneappdesigning = await import("/public/2dgame/uigraphics.png");
 const hybridiphone = await import("/public/2dgame/storyboarding.png");
 
+
 export default function gamedevelopmentcompany() {
+
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -139,18 +138,18 @@ export default function gamedevelopmentcompany() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <ServicesBanner
         assignClass="game2d"
         subtitle="Best In Animation, Graphics, & Design - Your Own"
         title={<> 2D Game Development Company! </>}
         text={
           <>
-            {" "}
             From classic platformers to immersive RPGs, our 2D games will have
             your target market addicted in no time. We specialize in crafting
             highly detailed and interactive worlds, characters, and stories that
             will capture your imagination and keep your prospects hooked for
-            hours on end.{" "}
+            hours on end.
           </>
         }
         BannerImage={BannerImage}
@@ -176,11 +175,10 @@ export default function gamedevelopmentcompany() {
         title6="Easier Maintenance"
         content6={
           <>
-            {" "}
             Since 2D games can be updated without major overhauls, businesses
             don't have to worry about the constant maintenance and bug fixes of
             2D game development. This allows for faster iteration cycles and
-            easier deployment of new content.{" "}
+            easier deployment of new content.
           </>
         }
         AdvantageOne={AdvantageOne}
@@ -191,8 +189,8 @@ export default function gamedevelopmentcompany() {
           subtitle="Our Services Are Where Innovation Meets Play"
           title0={
             <>
-              {" "}
-              What You May Expect When <br /> Committing To Us?{" "}
+
+              What You May Expect When <br /> Committing To Us?
             </>
           }
           appContent={[]}
@@ -205,13 +203,13 @@ export default function gamedevelopmentcompany() {
             {
               title: (
                 <>
-                  {" "}
-                  Single Player <br /> Games{" "}
+    
+                  Single Player <br /> Games
                 </>
               ),
               text: (
                 <>
-                  {" "}
+    
                   Our team is well versed in various technologies such as C++,
                   Unity, Unreal Engine, HTML5, and more to provide a seamless
                   single-player gaming experience across different platforms.
@@ -219,7 +217,7 @@ export default function gamedevelopmentcompany() {
                   controls, and perfect performance in our games so players can
                   enjoy their experience without frustration. Whether you're
                   looking for a complex 2D game or an old-school classic
-                  side-scroller, our 2D game developers can make it happen.{" "}
+                  side-scroller, our 2D game developers can make it happen.
                 </>
               ),
               appclass: "app1",
@@ -227,13 +225,13 @@ export default function gamedevelopmentcompany() {
             {
               title: (
                 <>
-                  {" "}
-                  Game App <br /> Integration{" "}
+    
+                  Game App <br /> Integration
                 </>
               ),
               text: (
                 <>
-                  {" "}
+    
                   Our integration services offer a range of features across
                   platforms, including multiplayer mode, leaderboard
                   integration, in-app purchases, analytics, and more. Our
@@ -241,7 +239,7 @@ export default function gamedevelopmentcompany() {
                   smoothly while maintaining high-security standards. Whether
                   it's connecting your game app with existing APIs or creating
                   custom solutions, we guarantee that our solutions are robust
-                  and secure.{" "}
+                  and secure.
                 </>
               ),
               appclass: "app2",
@@ -360,7 +358,7 @@ export default function gamedevelopmentcompany() {
               "What are the stages and costs involved in iOS app development?",
             answer: (
               <>
-                {" "}
+  
                 iOS development is a complex process that requires careful
                 planning and budgeting. The stages of iOS development involve
                 concepts to launch. The first stage is concept creation, which
@@ -370,7 +368,7 @@ export default function gamedevelopmentcompany() {
                 feel of an app. After that, the development stage begins, where
                 coding and testing take place. Finally, the launch stage
                 involves ensuring the app is compliant with Apple standards and
-                distributing it through either the App Store or other means.{" "}
+                distributing it through either the App Store or other means.
               </>
             ),
           },
@@ -378,7 +376,7 @@ export default function gamedevelopmentcompany() {
             question: "What are the types of iOS development?",
             answer: (
               <>
-                {" "}
+  
                 iOS development is an incredibly versatile field. Whether you're
                 creating a brand-new app, tweaking an existing one, or
                 developing a mobile-friendly website, there are several
@@ -417,7 +415,7 @@ export default function gamedevelopmentcompany() {
                 well-designed and optimized app can help your business stand out
                 from the competition. With the right iOS and android app
                 developer such as BitsWits, you can create an amazing user
-                experience that will keep customers coming back for more.{" "}
+                experience that will keep customers coming back for more.
               </>
             ),
           },
@@ -426,7 +424,7 @@ export default function gamedevelopmentcompany() {
               "Why you should consider investing in iOS app development?",
             answer: (
               <>
-                {" "}
+  
                 Investing in iOS app development company is a great way to
                 ensure that your business stands out from the competition.
                 Here’s how:
@@ -461,7 +459,7 @@ export default function gamedevelopmentcompany() {
                 <br />
                 <br />
                 Overall, investing in iOS app development company is a smart
-                decision that can benefit your business in numerous ways.{" "}
+                decision that can benefit your business in numerous ways.
               </>
             ),
           },
@@ -470,7 +468,7 @@ export default function gamedevelopmentcompany() {
               "What are the programming language(s) for iOS development?",
             answer: (
               <>
-                {" "}
+  
                 The best programming language for iOS development depends on the
                 app you want to create. If you’re just starting, consider
                 learning Swift—Apple’s modern and intuitive coding language. It
@@ -482,7 +480,7 @@ export default function gamedevelopmentcompany() {
                 written apps in this language, it might be a good option to
                 stick with it. Both languages are supported by Apple, so the
                 decision ultimately comes down to personal preference and what's
-                most comfortable for you.{" "}
+                most comfortable for you.
               </>
             ),
           },
@@ -490,7 +488,7 @@ export default function gamedevelopmentcompany() {
             question: "What is Swift iOS app development?",
             answer: (
               <>
-                {" "}
+  
                 Swift iOS App Development is the process of creating, coding,
                 and designing mobile applications for Apple's iOS operating
                 system. With Swift being an open-source language, it allows
@@ -501,7 +499,7 @@ export default function gamedevelopmentcompany() {
                 innovative and reliable way to build their app, Swift is a
                 perfect choice. From simple games to complex enterprise
                 solutions – whatever you need, iOS App Development with hire
-                swift developers has you covered!{" "}
+                swift developers has you covered!
               </>
             ),
           },
@@ -509,7 +507,7 @@ export default function gamedevelopmentcompany() {
             question: "What are iOS app development services?",
             answer: (
               <>
-                {" "}
+  
                 iOS app development company help businesses create custom,
                 engaging, and user-friendly applications for Apple's iOS
                 platform. With their experienced professionals, they provide
@@ -519,7 +517,7 @@ export default function gamedevelopmentcompany() {
                 developing apps for both the App Store and enterprise solutions.
                 Whether you need an app to increase customer engagement or
                 expand your market reach, iOS app development company will help
-                take your business to the next level.{" "}
+                take your business to the next level.
               </>
             ),
           },

@@ -30,7 +30,10 @@ const mbestgloba13 = await import("/public/moniter/3.png");
 const mbestgloba14 = await import("/public/moniter/4.png");
 const mbestgloba15 = await import("/public/moniter/5.png");
 const mbestgloba16 = await import("/public/moniter/6.png");
+
+
 export default function blockchaindevelopmentservices() {
+
   return (
     <>
       <Head>
@@ -42,6 +45,7 @@ export default function blockchaindevelopmentservices() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+      
       <Banner
         assignClass="awardpost"
         subtitle="Our Award-Winning"

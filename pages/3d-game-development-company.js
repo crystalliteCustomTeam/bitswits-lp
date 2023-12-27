@@ -1,7 +1,5 @@
 import Head from "next/head";
-import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 //components
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
 const ServicesAdvantage = React.lazy(() => import("@/components/ServicesAdvantage"));
@@ -25,7 +23,6 @@ const Technologieswe = React.lazy(() => import("@/components/NewMblTechnologiesW
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const People = React.lazy(() => import("@/components/People"));
-
 //images
 const BannerImage = await import("@/public/3d-game-development/images/bannerImage.png");
 const AdvantageOne = await import("../public/3d-game-development/images/advantage1.png");
@@ -46,7 +43,9 @@ const appletvappdevelopment = await import("/public/3dapp/3dgameappintegration.p
 const iphoneappdesigning = await import("/public/3dapp/3dimaginingart.png");
 const hybridiphone = await import("/public/3dapp/supportandmaintenance.png");
 
+
 const mobileApplication = () => {
+
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -79,7 +78,7 @@ const mobileApplication = () => {
 
       },
       serdata: [
-       
+
         {
           title: (<>3D Game Concept Art </>),
           text: "Our design and 3D game development team have extensive experience crafting vibrant and immersive artwork for various gaming applications. From characters and environmental designs to UI/UX, we can help define the visual identity of any game.",
@@ -120,6 +119,7 @@ const mobileApplication = () => {
       ],
     },
   ];
+
   return (
     <>
       <Head>
@@ -131,6 +131,7 @@ const mobileApplication = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <ServicesBanner
         assignClass="game3d"
         subtitle="AWARDED #1 GAME APP DEVELOPMENT COMPANY"
@@ -174,18 +175,16 @@ const mobileApplication = () => {
         subTitle="Features Of Our Development Endeavors"
         title={
           <>
-            {" "}
-            Invigorate Your Target Audience <br /> With Dynamic Gameplay{" "}
+            Invigorate Your Target Audience <br /> With Dynamic Gameplay
           </>
         }
         text={
           <>
-            {" "}
             It's time to develop compelling storylines and rich characters with
             BitsWits; after all, don't you want to create an immersive
             experience? <br></br> We use the latest technologies and
             cutting-edge visuals to enable players to interact intuitively,
-            whether playing on a PC, console, or mobile device.{" "}
+            whether playing on a PC, console, or mobile device.
           </>
         }
         heading1="We Ideate, Design, and Construct Expressive Games!!!"
@@ -201,17 +200,17 @@ const mobileApplication = () => {
           subtitle="The Work We Undertake"
           title0={
             <>
-              {" "}
-              The Genres Of <span>Games</span> We Develop{" "}
+
+              The Genres Of <span>Games</span> We Develop
             </>
           }
           text={
             <>
-              {" "}
+
               We are famous for creating immersive game experiences with engaging
-              storylines, stunning visuals, and innovative gameplay mechanics.{" "}
+              storylines, stunning visuals, and innovative gameplay mechanics.
               <br />
-              Here's an exciting rundown of what we bring to the table.{" "}
+              Here's an exciting rundown of what we bring to the table.
             </>
           }
           appContent={[]}
@@ -219,8 +218,8 @@ const mobileApplication = () => {
             {
               title: (
                 <>
-                  {" "}
-                  3D Game <br /> Concept Art{" "}
+    
+                  3D Game <br /> Concept Art
                 </>
               ),
               text: "Our design and 3D game development team have extensive experience crafting vibrant and immersive artwork for various gaming applications. From characters and environmental designs to UI/UX, we can help define the visual identity of any game.",
@@ -229,8 +228,8 @@ const mobileApplication = () => {
             {
               title: (
                 <>
-                  {" "}
-                  3D Web and App <br /> Development{" "}
+    
+                  3D Web and App <br /> Development
                 </>
               ),
               text: "BitsWits offers world-class solutions for both web and mobile platforms. We specialized in creating stunning 3D apps with modern technologies such as Augmented Reality, Virtual Reality, 3D Modeling and Animation, WebGL, HTML5/CSS3, etc.",
@@ -239,8 +238,8 @@ const mobileApplication = () => {
             {
               title: (
                 <>
-                  {" "}
-                  Advanced <br /> 3D Videos{" "}
+    
+                  Advanced <br /> 3D Videos
                 </>
               ),
               text: "With our state-of-the-art technology, we can turn your ideas into fully rendered 3D game videos with stunning visuals. Our services range from custom-created 3D game videos to motion capture animation.",
@@ -361,7 +360,7 @@ const mobileApplication = () => {
               "What are the stages and costs involved in iOS app development?",
             answer: (
               <>
-                {" "}
+  
                 iOS development is a complex process that requires careful
                 planning and budgeting. The stages of iOS development involve
                 concepts to launch. The first stage is concept creation, which
@@ -371,7 +370,7 @@ const mobileApplication = () => {
                 feel of an app. After that, the development stage begins, where
                 coding and testing take place. Finally, the launch stage
                 involves ensuring the app is compliant with Apple standards and
-                distributing it through either the App Store or other means.{" "}
+                distributing it through either the App Store or other means.
               </>
             ),
           },
@@ -379,7 +378,7 @@ const mobileApplication = () => {
             question: "What are the types of iOS development?",
             answer: (
               <>
-                {" "}
+  
                 iOS development is an incredibly versatile field. Whether you're
                 creating a brand-new app, tweaking an existing one, or
                 developing a mobile-friendly website, there are several
@@ -418,7 +417,7 @@ const mobileApplication = () => {
                 well-designed and optimized app can help your business stand out
                 from the competition. With the right iOS and android app
                 developer such as BitsWits, you can create an amazing user
-                experience that will keep customers coming back for more.{" "}
+                experience that will keep customers coming back for more.
               </>
             ),
           },
@@ -427,7 +426,7 @@ const mobileApplication = () => {
               "Why you should consider investing in iOS app development?",
             answer: (
               <>
-                {" "}
+  
                 Investing in iOS app development company is a great way to
                 ensure that your business stands out from the competition.
                 Here’s how:
@@ -462,7 +461,7 @@ const mobileApplication = () => {
                 <br />
                 <br />
                 Overall, investing in iOS app development company is a smart
-                decision that can benefit your business in numerous ways.{" "}
+                decision that can benefit your business in numerous ways.
               </>
             ),
           },
@@ -471,7 +470,7 @@ const mobileApplication = () => {
               "What are the programming language(s) for iOS development?",
             answer: (
               <>
-                {" "}
+  
                 The best programming language for iOS development depends on the
                 app you want to create. If you’re just starting, consider
                 learning Swift—Apple’s modern and intuitive coding language. It
@@ -483,7 +482,7 @@ const mobileApplication = () => {
                 written apps in this language, it might be a good option to
                 stick with it. Both languages are supported by Apple, so the
                 decision ultimately comes down to personal preference and what's
-                most comfortable for you.{" "}
+                most comfortable for you.
               </>
             ),
           },
@@ -491,7 +490,7 @@ const mobileApplication = () => {
             question: "What is Swift iOS app development?",
             answer: (
               <>
-                {" "}
+  
                 Swift iOS App Development is the process of creating, coding,
                 and designing mobile applications for Apple's iOS operating
                 system. With Swift being an open-source language, it allows
@@ -502,7 +501,7 @@ const mobileApplication = () => {
                 innovative and reliable way to build their app, Swift is a
                 perfect choice. From simple games to complex enterprise
                 solutions – whatever you need, iOS App Development with hire
-                swift developers has you covered!{" "}
+                swift developers has you covered!
               </>
             ),
           },
@@ -510,7 +509,7 @@ const mobileApplication = () => {
             question: "What are iOS app development services?",
             answer: (
               <>
-                {" "}
+  
                 iOS app development company help businesses create custom,
                 engaging, and user-friendly applications for Apple's iOS
                 platform. With their experienced professionals, they provide
@@ -520,7 +519,7 @@ const mobileApplication = () => {
                 developing apps for both the App Store and enterprise solutions.
                 Whether you need an app to increase customer engagement or
                 expand your market reach, iOS app development company will help
-                take your business to the next level.{" "}
+                take your business to the next level.
               </>
             ),
           },

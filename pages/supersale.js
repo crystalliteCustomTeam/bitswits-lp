@@ -13,6 +13,7 @@ const Newfaqshome = React.lazy(() => import("@/components/Newfaqshome"));
 const Startaproject = React.lazy(() => import("@/components/Startaproject"));
 const Formnewlpnewhome = React.lazy(() => import("@/components/Formnewlpnewhome"));
 
+
 export default function Home() { 
   return (
     <>
@@ -25,6 +26,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+      
       <Appmaking />
       <Homeslider />
       <ProjectProcesshome processclass="process" />

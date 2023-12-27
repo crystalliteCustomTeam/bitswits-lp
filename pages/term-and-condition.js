@@ -2,6 +2,7 @@ import Head from "next/head";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
+
 export default function privacypolicy() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function privacypolicy() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+      
       <section className="bg-black pt-5 pb-md-5 pb-0">
         <Container>
           <Row>

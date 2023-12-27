@@ -22,7 +22,9 @@ const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const NewFaqslp = React.lazy(() => import("@/components/NewFaqslp"));
 const HomeLocationlp = React.lazy(() => import("@/components/HomeLocationlp"));
 
+
 export default function SocialMediaApp() {
+
   return (
     <>
       <Head>
@@ -34,6 +36,7 @@ export default function SocialMediaApp() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <SocialLpBanner newHomeBgprops="newHomeBg" />
       <People People="people" />
       <HomeBannerSliderlp />

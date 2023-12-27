@@ -43,7 +43,9 @@ const chosImg7 = await import('../public/images/lp-images/icon7.png');
 const chosImg8 = await import('../public/images/lp-images/icon8.png');
 const chosImg9 = await import('../public/images/lp-images/icon9.png');
 
+
 export default function FoodDelivery() {
+
   const [showComponent, setShowComponent] = useState(false);
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -51,6 +53,7 @@ export default function FoodDelivery() {
     }, 1000);
     return () => clearTimeout(timeout);
   }, []);
+  
   return (
     <>
       <Head>
@@ -59,6 +62,7 @@ export default function FoodDelivery() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <Banner
         banLogo={banLogo}
         title={<> Explore Flavors and Savory at Your Fingertips! </>}

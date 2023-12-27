@@ -11,7 +11,9 @@ const Homenextproject = React.lazy(() => import("@/components/Homenextproject"))
 const Faqs = React.lazy(() => import("@/components/NewhomeFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 
+
 export default function OurWork() {
+
   const [showComponent, setShowComponent] = useState(false);
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -19,6 +21,7 @@ export default function OurWork() {
     }, 1000);
     return () => clearTimeout(timeout);
   }, []);
+
   return (
     <>
       <Head>
@@ -27,6 +30,7 @@ export default function OurWork() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <WorkBanner />
       <WorkBody />
       <NewHomeGlobal />

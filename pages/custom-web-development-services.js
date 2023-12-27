@@ -1,7 +1,6 @@
 import React from "react";
 import Head from "next/head";
 import Image from "next/image";
-
 //Components
 const Banner = React.lazy(() => import("@/components/new-blockchain-page-fy/BlockchainBanner"));
 const Provideservices = React.lazy(() => import("@/components/customwebdevelopment/Provideservices"));
@@ -57,7 +56,9 @@ const msbestgloba17 = await import("../public/moniter1/7.png");
 const msbestgloba18 = await import("../public/moniter1/8.png");
 const msbestgloba19 = await import("../public/moniter1/9.png");
 
+
 export default function customwebdevelopmentservices() {
+
   return (
     <>
       <Head>
@@ -69,6 +70,7 @@ export default function customwebdevelopmentservices() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <Banner
         assignClass="customweb"
         subtitle="Our Award-Winning"
@@ -122,7 +124,7 @@ export default function customwebdevelopmentservices() {
         para={
           <p className="font_17 white fontsfregular pt-2 pb-2">
             Our website development services at Chetu can create your dream
-            website. We design engaging and user-friendly websites that <br />{" "}
+            website. We design engaging and user-friendly websites that <br />
             improve the customer experience, we work with you to understand your
             business goals and preferences. From simple blogs to <br /> complex
             e-commerce platforms, we are dedicated to delivering high-quality
@@ -180,7 +182,7 @@ export default function customwebdevelopmentservices() {
         para={
           <p className="linehight_2 font_17 white fontsfregular font-regular pt-1  center">
             Our Full-Stack Web Developers have the programming expertise and
-            industry-specific experience to build, integrate, and customize{" "}
+            industry-specific experience to build, integrate, and customize
             <br /> your website or application to align perfectly with your
             vision.
           </p>
@@ -264,7 +266,7 @@ export default function customwebdevelopmentservices() {
             businesses' unique needs. From chatbots and virtual assistants to
             predictive analytics and content optimization, our AI software
             developers helps businesses stay ahead of the curve and deliver
-            exceptional user experiences.{" "}
+            exceptional user experiences.
           </p>
         }
         sec={[
@@ -290,12 +292,11 @@ export default function customwebdevelopmentservices() {
         desc={`We meet the demands of your business by executing our strategically planned processes for delivering top-of-the-line Custom <br/> Websites & Applications.`}
         img5={
           <>
-            {" "}
             <Image
               src={banImg1}
               alt="BitsWits"
               className="img-fluid mt-4 mt-lg-5"
-            />{" "}
+            />
           </>
         }
       />
@@ -306,7 +307,7 @@ export default function customwebdevelopmentservices() {
         }
         bigtitle={
           <h2 className="newchoose letterspace_1 font-bold white center">
-            Full-Stack Technology{" "}
+            Full-Stack Technology
           </h2>
         }
         para={

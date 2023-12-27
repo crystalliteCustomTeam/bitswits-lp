@@ -25,7 +25,9 @@ const benif4 = await import("../public/images/hire-page/benifit-icon4.png");
 const benif5 = await import("../public/images/hire-page/benifit-icon5.png");
 const benif6 = await import("../public/images/hire-page/benifit-icon6.png");
 
+
 export default function NativeDeveloper() {
+  
   const [showComponent, setShowComponent] = useState(false);
   useEffect(() => {
     const timeout = setTimeout(() => {

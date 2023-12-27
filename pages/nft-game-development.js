@@ -1,7 +1,5 @@
 import Head from "next/head";
-import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 // css
 import styles from "@/styles/ServiceEngage.module.css";
 import style from "@/styles/Globallp.module.css";
@@ -50,7 +48,9 @@ const flutter = await import("/public/nftapp/showoffyourskills.png");
 const pythone = await import("/public/nftapp/makeconnections.png");
 const html = await import("/public/nftapp/competeforrewards.png");
 
+
 export default function gamedevelopmentcompany() {
+
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -156,6 +156,7 @@ export default function gamedevelopmentcompany() {
       ],
     },
   ];
+
   return (
     <>
       <Head>
@@ -167,6 +168,7 @@ export default function gamedevelopmentcompany() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <ServicesBanner
         assignClass="gameNft"
         title={

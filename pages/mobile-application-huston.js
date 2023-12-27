@@ -22,6 +22,7 @@ const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 //images
 const BannerImage = await import("@/public/newMobilePageImages/banner_image.png");
 
+
 export default function mobileApplication() {
   return (
     <>
@@ -30,14 +31,14 @@ export default function mobileApplication() {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="images/icons/favicon.png" />
-        <meta charset="UTF-8" /> 
+        <meta charset="UTF-8" />
         <title>
           The Professional Mobile App Development Company - BitsWits.
         </title>
         <meta
           name="description"
           content="From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions."
-        /> 
+        />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta
@@ -51,8 +52,8 @@ export default function mobileApplication() {
         <meta
           property="og:site_name"
           content="The Professional Mobile App Development Company - BitsWits."
-        /> 
-        <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" /> 
+        />
+        <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
         <meta
           name="DC.title"
           content="mobile app development company, hire mobile app developers, mobile app development services"
@@ -68,7 +69,7 @@ export default function mobileApplication() {
         <meta name="geo.region" content="US-DE" />
         <meta name="geo.placename" content="Dover" />
         <meta name="geo.position" content="38.692045;-75.401331" />
-        <meta name="ICBM" content="38.692045, -75.401331" /> 
+        <meta name="ICBM" content="38.692045, -75.401331" />
         <meta
           name="DC.title"
           content="mobile app development company, hire mobile app developers, mobile app development services"
@@ -77,13 +78,14 @@ export default function mobileApplication() {
         <meta name="geo.position" content="39.78373;-100.445882" />
         <meta name="ICBM" content="39.78373, -100.445882" />
       </Head>
+
       <ServicesBanner
         subtitle="A TOP"
         title={<> Mobile App Development Company At Your Service </>}
         text={
-          <> 
+          <>
             We deliver great results, on time and on budget. Contact us to start
-            talking about your project today! 
+            talking about your project today!
           </>
         }
         BannerImage={BannerImage}
@@ -97,9 +99,8 @@ export default function mobileApplication() {
         assignClass="mobile"
         title1={
           <>
-            {" "}
             Maintaining digital quality with our collection of customizable
-            services{" "}
+            services
           </>
         }
         appContent={[]}
@@ -117,8 +118,7 @@ export default function mobileApplication() {
           {
             title: (
               <>
-                {" "}
-                Web App <br /> Development{" "}
+                Web App <br /> Development
               </>
             ),
             text: "We offer end-to-end web app development services. Our team of skilled web app developers utilize the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today!",
@@ -137,12 +137,11 @@ export default function mobileApplication() {
             title: "React Native App Development",
             text: (
               <>
-                {" "}
                 Our React Native app developers specialize in creating
                 top-notch, performance-oriented native mobile apps for Android
                 and iOS platforms. We follow a robust development process and
                 utilize the latest technologies to deliver customized solutions
-                that meet our clients' business objectives.{" "}
+                that meet our clients' business objectives.
               </>
             ),
             appclass: "app4",
@@ -171,10 +170,10 @@ export default function mobileApplication() {
       <LpChoose transform="transform" />
       <ServicesPortfolio
         title={
-          <> 
+          <>
             Showcasing Our <span className="newfycolr">
               Creative Vision
-            </span> 
+            </span>
           </>
         }
       />
@@ -214,7 +213,7 @@ export default function mobileApplication() {
           {
             question: "What is mobile application development?",
             answer: (
-              <>  
+              <>
                 Mobile application development creates software applications
                 that run on mobile devices and other connected devices, such as
                 wearables, automotive systems, cameras, and more. It requires
@@ -222,19 +221,19 @@ export default function mobileApplication() {
                 maintenance to create innovative user experiences across
                 multiple platforms. With that being said, businesses hire mobile
                 app developers to stay ahead of the competition and deliver
-                market-leading products to their customers. 
+                market-leading products to their customers.
               </>
             ),
           },
           {
             question: "Does BitsWits offer hybrid and native app development?",
             answer: (
-              <> 
+              <>
                 BitsWits has a team of the best mobile app developers expert in
                 providing customized development solutions, whether Hybrid or
                 Native mobile application development is required. Our
                 developers always come up with creative and innovative app ideas
-                that are best in your interest. 
+                that are best in your interest.
               </>
             ),
           },
@@ -242,50 +241,50 @@ export default function mobileApplication() {
             question:
               "Why choose BitsWits as a mobile app development company?",
             answer: (
-              <> 
+              <>
                 BitsWits is a top mobile app development company due to its
                 decent clientele, commitment to excellence, and innovative
                 mobile app development solutions. We enjoy the top spot in the
                 application development industry with affordable packages and
-                professional services. 
+                professional services.
               </>
             ),
           },
           {
             question: "Is there any customer support available?",
             answer: (
-              <> 
+              <>
                 Yes, BitsWits offers 24/7 incredible customer support, even
                 post-mobile apps development USA. We do not let our customers
                 hang in the middle with any query that may bring trouble to
-                them. 
+                them.
               </>
             ),
           },
           {
             question: "How to choose a mobile app development company?",
             answer: (
-              <> 
+              <>
                 Checking client portfolios, communicating your requirements
                 clearly, and considering the development cost will help you
                 choose the best mobile app development agency. BitsWits
                 practices open communication so that the solution to your query
                 is answered adequately to provide you with the utmost
-                satisfaction. 
+                satisfaction.
               </>
             ),
           },
           {
             question: "What industries does BitsWits cater to?",
             answer: (
-              <> 
+              <>
                 At BitsWits, we specialize in developing innovative and
                 efficient mobile applications for various industries across the
                 United States. We offer customized mobile solutions from
                 e-commerce to healthcare and gaming to meet each client's
                 specific requirements and business. We are a mobile application
                 development company dedicated to creating apps that cater to
-                each client's unique needs. 
+                each client's unique needs.
               </>
             ),
           },

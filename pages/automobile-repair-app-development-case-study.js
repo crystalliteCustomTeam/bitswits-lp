@@ -43,15 +43,18 @@ const chosImg7 = await import("../public/images/lp-images/icon7.png");
 const chosImg8 = await import("../public/images/lp-images/icon8.png");
 const chosImg9 = await import("../public/images/lp-images/icon9.png");
 
+
 export default function GreaceMonkey() {
+
   const [showComponent, setShowComponent] = useState(false);
   useEffect(() => {
     const timeout = setTimeout(() => {
       setShowComponent(true);
-    }, 1000); 
+    }, 1000);
 
     return () => clearTimeout(timeout);
   }, []);
+
   return (
     <>
       <Head>
@@ -60,6 +63,7 @@ export default function GreaceMonkey() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <Banner
         banLogo={banLogo}
         title={<> Revive and Drive: Our Repairs Thrive! </>}
@@ -136,10 +140,10 @@ export default function GreaceMonkey() {
           {
             title: (
               <>
-                {" "}
+  
                 Wheel Deal: Grease <br /> Monkey’s <span>
                   Key Features
-                </span>{" "}
+                </span>
               </>
             ),
             textArray: [
@@ -160,8 +164,8 @@ export default function GreaceMonkey() {
           {
             title: (
               <>
-                {" "}
-                Challenges <span>We Faced</span>{" "}
+  
+                Challenges <span>We Faced</span>
               </>
             ),
             textArray: [
@@ -178,8 +182,8 @@ export default function GreaceMonkey() {
           {
             title: (
               <>
-                {" "}
-                Trouble <span>Tackling</span>{" "}
+  
+                Trouble <span>Tackling</span>
               </>
             ),
             textArray: [
@@ -194,13 +198,12 @@ export default function GreaceMonkey() {
         wantImg3={tackling}
         lastPara={
           <>
-            {" "}
             BitsWits' proactive approach to problem solving and constant
             commitment to technology refinement played an important role in
             ensuring the efficiency and user satisfaction. Through our vigilant
             problem-solving mindset, we promptly sought solutions and made sure
             Grease Monkey stands as a leading app in the automobile repair
-            industry.{" "}
+            industry.
           </>
         }
       />
@@ -208,12 +211,11 @@ export default function GreaceMonkey() {
         golImg={goalImg}
         title={
           <>
-            {" "}
-            Start Your App Development Journey <br /> Effortlessly; Let{" "}
+            Start Your App Development Journey <br /> Effortlessly; Let
             <span>
               Bitswits Be Your <br /> Savior
-            </span>{" "}
-            With A Quick Tap!{" "}
+            </span>
+            With A Quick Tap!
           </>
         }
         goalClass="graceMonkey"
@@ -223,8 +225,8 @@ export default function GreaceMonkey() {
           {
             title: (
               <>
-                {" "}
-                Overcoming <br /> Development Challenges{" "}
+  
+                Overcoming <br /> Development Challenges
               </>
             ),
             description:
@@ -233,27 +235,27 @@ export default function GreaceMonkey() {
           {
             title: (
               <>
-                {" "}
-                Hybrid <br /> Development Excellence{" "}
+  
+                Hybrid <br /> Development Excellence
               </>
             ),
             description: (
               <>
-                {" "}
+  
                 Our approach to app development is anything but
                 one-size-fits-all. With a hybrid approach, we strike a balance
                 between predictability and adaptability. For projects with
                 clearly defined timeframes, we employ a waterfall approach to
                 meet the deadlines. This helps us meet the compliance
-                requirements and regulatory standards.{" "}
+                requirements and regulatory standards.
               </>
             ),
           },
           {
             title: (
               <>
-                {" "}
-                On-Time Delivery - <br /> Every Time{" "}
+  
+                On-Time Delivery - <br /> Every Time
               </>
             ),
             description:
@@ -262,27 +264,27 @@ export default function GreaceMonkey() {
           {
             title: (
               <>
-                {" "}
-                Erasing <br /> Time-zone Barriers{" "}
+  
+                Erasing <br /> Time-zone Barriers
               </>
             ),
             description: (
               <>
-                {" "}
+  
                 Our project managers are trained to remain considerate about
                 time-zone differences, they take into account clients'
                 availability and preferences. We prioritize cultural
                 sensitivity, our developers made a system that shows clients'
                 active hours along with their current location in google maps,
-                and holidays around the globe.{" "}
+                and holidays around the globe.
               </>
             ),
           },
           {
             title: (
               <>
-                {" "}
-                Efficient <br /> Communication{" "}
+  
+                Efficient <br /> Communication
               </>
             ),
             description:
@@ -291,18 +293,18 @@ export default function GreaceMonkey() {
           {
             title: (
               <>
-                {" "}
-                Addressing <br /> Payment Disputes{" "}
+  
+                Addressing <br /> Payment Disputes
               </>
             ),
             description: (
               <>
-                {" "}
+  
                 At BitsWits, we rely on the Stripe payment method for all
                 transactions. We've developed an automated dispute resolution
                 portal to efficiently manage payment issues. Our portal also
                 provides clear visibility into the different stages of reported
-                payment disputes and their current statuses.{" "}
+                payment disputes and their current statuses.
               </>
             ),
           },
@@ -316,8 +318,7 @@ export default function GreaceMonkey() {
       <CaseServices
         title={
           <>
-            {" "}
-            <span>Services:</span> For{" "}
+            <span>Services:</span> For
           </>
         }
         point1={<> Native Mobile App Development </>}
@@ -332,28 +333,25 @@ export default function GreaceMonkey() {
       <CaseChoose
         title={
           <>
-            {" "}
             <span>
               Why Trust <br /> BitsWits
-            </span>{" "}
-            with App <br /> Development?{" "}
+            </span>
+            with App <br /> Development?
           </>
         }
         text1={
           <>
-            {" "}
             We stand as the primary choice for mobile app development,
             exemplifying excellence in a dynamic field. Our team combines
             creativity and the most suitable tech stack to develop customized
-            app solutions.{" "}
+            app solutions.
           </>
         }
         text2={
           <>
-            {" "}
             Our track record of delivering on time and within budget, coupled
             with a commitment to staying ahead of industry trends, sets us apart
-            as the best partner for mobile app development.{" "}
+            as the best partner for mobile app development.
           </>
         }
         items={[
@@ -361,8 +359,8 @@ export default function GreaceMonkey() {
             image: chosImg1,
             text: (
               <>
-                {" "}
-                Experienced <br /> Professionals{" "}
+  
+                Experienced <br /> Professionals
               </>
             ),
           },
@@ -370,8 +368,8 @@ export default function GreaceMonkey() {
             image: chosImg2,
             text: (
               <>
-                {" "}
-                On-Time <br /> Delivery{" "}
+  
+                On-Time <br /> Delivery
               </>
             ),
           },
@@ -379,8 +377,8 @@ export default function GreaceMonkey() {
             image: chosImg3,
             text: (
               <>
-                {" "}
-                Cost-Effective <br /> Solutions{" "}
+  
+                Cost-Effective <br /> Solutions
               </>
             ),
           },
@@ -388,8 +386,8 @@ export default function GreaceMonkey() {
             image: chosImg4,
             text: (
               <>
-                {" "}
-                Scalable and <br /> Secure Apps{" "}
+  
+                Scalable and <br /> Secure Apps
               </>
             ),
           },
@@ -397,8 +395,8 @@ export default function GreaceMonkey() {
             image: chosImg5,
             text: (
               <>
-                {" "}
-                User-Centric <br /> Design{" "}
+  
+                User-Centric <br /> Design
               </>
             ),
           },
@@ -406,8 +404,8 @@ export default function GreaceMonkey() {
             image: chosImg6,
             text: (
               <>
-                {" "}
-                Customized <br /> Development{" "}
+  
+                Customized <br /> Development
               </>
             ),
           },
@@ -415,8 +413,8 @@ export default function GreaceMonkey() {
             image: chosImg7,
             text: (
               <>
-                {" "}
-                Error-Free <br /> Delivery{" "}
+  
+                Error-Free <br /> Delivery
               </>
             ),
           },
@@ -424,8 +422,8 @@ export default function GreaceMonkey() {
             image: chosImg8,
             text: (
               <>
-                {" "}
-                Transparent <br /> Communication{" "}
+  
+                Transparent <br /> Communication
               </>
             ),
           },
@@ -433,8 +431,8 @@ export default function GreaceMonkey() {
             image: chosImg9,
             text: (
               <>
-                {" "}
-                Support and <br /> Maintenance{" "}
+  
+                Support and <br /> Maintenance
               </>
             ),
           },

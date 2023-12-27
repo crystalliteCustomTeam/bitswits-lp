@@ -1,7 +1,5 @@
 import Head from "next/head";
-import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 // style
 import styles from "@/styles/ServicesAdvantage.module.css";
 //components
@@ -47,7 +45,9 @@ const hybridiphone = await import("../public/images/gameappdevelopement/mrgamede
 const react = await import("../public/images/gameappdevelopement/crossplatformgamedevelopment.png");
 const reactnative = await import("../public/images/gameappdevelopement/buildboxgamedevelopment.png");
 
+
 export default function Gameapplicationdevelopment() {
+
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -162,8 +162,7 @@ export default function Gameapplicationdevelopment() {
         subtitle="AWARDED #1 GAME APP DEVELOPMENT COMPANY"
         title={
           <>
-            {" "}
-            Experience The Roller Coaster Of <br /> The Gaming World With Us!{" "}
+            Experience The Roller Coaster Of <br /> The Gaming World With Us!
           </>
         }
         BannerImage={BannerImage}
@@ -175,8 +174,7 @@ export default function Gameapplicationdevelopment() {
       <ServicesAdvantage
         title={
           <>
-            {" "}
-            Bullet-Proof Game <br /> Development Action Plan{" "}
+            Bullet-Proof Game <br /> Development Action Plan
           </>
         }
         text="Custom Development Roadmap For Games That Brings Fame"
@@ -189,11 +187,10 @@ export default function Gameapplicationdevelopment() {
         title4="Finalization"
         content4={
           <>
-            {" "}
             Once we have tested your game, it's time to finalize by adding any
             last-minute features or tweaks we think are necessary. Also, now's
             the perfect time to start marketing your game! Let's get people
-            excited about it before launch day, so they can't wait to play.{" "}
+            excited about it before launch day, so they can't wait to play.
           </>
         }
         title5="Development"
@@ -201,10 +198,9 @@ export default function Gameapplicationdevelopment() {
         title6="Launch"
         content6={
           <>
-            {" "}
             Now that your game is finished and tested, it's time to let the
             world know about it. Finally, launch your game and watch as people
-            flock to play it!{" "}
+            flock to play it!
           </>
         }
         AdvantageOne={AdvantageOne}
@@ -215,18 +211,16 @@ export default function Gameapplicationdevelopment() {
         subTitle="Features Of Our Development Endeavors"
         title={
           <>
-            {" "}
-            Invigorate Your Target Audience <br /> With Dynamic Gameplay{" "}
+            Invigorate Your Target Audience <br /> With Dynamic Gameplay
           </>
         }
         text={
           <>
-            {" "}
             It's time to develop compelling storylines and rich characters with
             BitsWits; after all, don't you want to create an immersive
             experience? <br></br> We use the latest technologies and
             cutting-edge visuals to enable players to interact intuitively,
-            whether playing on a PC, console, or mobile device.{" "}
+            whether playing on a PC, console, or mobile device.
           </>
         }
         heading1="We Ideate, Design, and Construct Expressive Games!!!"
@@ -242,17 +236,17 @@ export default function Gameapplicationdevelopment() {
           subtitle="The Work We Undertake"
           title0={
             <>
-              {" "}
-              The Genres Of <span className="">Games</span> We Develop{" "}
+
+              The Genres Of <span className="">Games</span> We Develop
             </>
           }
           text={
             <>
-              {" "}
+
               We are famous for creating immersive game experiences with
               engaging storylines, stunning visuals, and innovative gameplay
               mechanics. <br />
-              Here's an exciting rundown of what we bring to the table.{" "}
+              Here's an exciting rundown of what we bring to the table.
             </>
           }
           appContent={[]}
@@ -260,18 +254,18 @@ export default function Gameapplicationdevelopment() {
             {
               title: (
                 <>
-                  {" "}
-                  Unity 3D <br /> Games{" "}
+    
+                  Unity 3D <br /> Games
                 </>
               ),
               text: (
                 <>
-                  {" "}
+    
                   We work with Unity 3D technology to foster unforgettable
                   gaming experiences that push the boundaries of what's
                   possible. Whether you want an action-packed shooter or a more
                   peaceful puzzle title, we can ensure your game is a success
-                  and tends to become a revenue-generating machine!{" "}
+                  and tends to become a revenue-generating machine!
                 </>
               ),
               appclass: "app",
@@ -279,19 +273,19 @@ export default function Gameapplicationdevelopment() {
             {
               title: (
                 <>
-                  {" "}
-                  Virtual Reality <br /> Games{" "}
+    
+                  Virtual Reality <br /> Games
                 </>
               ),
               text: (
                 <>
-                  {" "}
+    
                   Producing immersive and mind-blowing virtual reality
                   experiences for gamers and businesses alike. Our games are
                   designed with the player's experience in mind and feature
                   intuitive controls, immersive soundscapes, and realistic
                   visuals that transport players into another world. Get ready
-                  to hook your gamers and urge them to return for more!{" "}
+                  to hook your gamers and urge them to return for more!
                 </>
               ),
               appclass: "app1",
@@ -299,13 +293,13 @@ export default function Gameapplicationdevelopment() {
             {
               title: (
                 <>
-                  {" "}
-                  3D Game <br /> Development{" "}
+    
+                  3D Game <br /> Development
                 </>
               ),
               text: (
                 <>
-                  {" "}
+    
                   BitsWits masters the art of creating stunning 3D games,
                   harnessing the power of cutting-edge technology and
                   state-of-the-art tools. We know that a successful 3D game
@@ -313,7 +307,7 @@ export default function Gameapplicationdevelopment() {
                   compelling gameplay experience. Hence, we ensure games that
                   are balanced, entertaining, and mesmerizing for players of all
                   ages! Believe it or not, we are the perfect place to get your
-                  next gaming project off the ground!{" "}
+                  next gaming project off the ground!
                 </>
               ),
               appclass: "app2",
@@ -344,7 +338,7 @@ export default function Gameapplicationdevelopment() {
               text: (
                 <>
                   BitsWits capitalizes on the latest technologies to develop
-                  games that look and run seamlessly{" "}
+                  games that look and run seamlessly
                   <br className="d-lg-block d-none" /> on all devices and
                   gadgets. We share the experience in a slew of genres, i.e.,
                   casual, RPG, FPS,
@@ -455,7 +449,7 @@ export default function Gameapplicationdevelopment() {
               "What are the stages and costs involved in iOS app development?",
             answer: (
               <>
-                {" "}
+  
                 iOS development is a complex process that requires careful
                 planning and budgeting. The stages of iOS development involve
                 concepts to launch. The first stage is concept creation, which
@@ -465,7 +459,7 @@ export default function Gameapplicationdevelopment() {
                 feel of an app. After that, the development stage begins, where
                 coding and testing take place. Finally, the launch stage
                 involves ensuring the app is compliant with Apple standards and
-                distributing it through either the App Store or other means.{" "}
+                distributing it through either the App Store or other means.
               </>
             ),
           },
@@ -473,7 +467,7 @@ export default function Gameapplicationdevelopment() {
             question: "What are the types of iOS development?",
             answer: (
               <>
-                {" "}
+  
                 iOS development is an incredibly versatile field. Whether you're
                 creating a brand-new app, tweaking an existing one, or
                 developing a mobile-friendly website, there are several
@@ -512,7 +506,7 @@ export default function Gameapplicationdevelopment() {
                 well-designed and optimized app can help your business stand out
                 from the competition. With the right iOS and android app
                 developer such as BitsWits, you can create an amazing user
-                experience that will keep customers coming back for more.{" "}
+                experience that will keep customers coming back for more.
               </>
             ),
           },
@@ -521,7 +515,7 @@ export default function Gameapplicationdevelopment() {
               "Why you should consider investing in iOS app development?",
             answer: (
               <>
-                {" "}
+  
                 Investing in iOS app development company is a great way to
                 ensure that your business stands out from the competition.
                 Here’s how:
@@ -556,7 +550,7 @@ export default function Gameapplicationdevelopment() {
                 <br />
                 <br />
                 Overall, investing in iOS app development company is a smart
-                decision that can benefit your business in numerous ways.{" "}
+                decision that can benefit your business in numerous ways.
               </>
             ),
           },
@@ -565,7 +559,7 @@ export default function Gameapplicationdevelopment() {
               "What are the programming language(s) for iOS development?",
             answer: (
               <>
-                {" "}
+  
                 The best programming language for iOS development depends on the
                 app you want to create. If you’re just starting, consider
                 learning Swift—Apple’s modern and intuitive coding language. It
@@ -577,7 +571,7 @@ export default function Gameapplicationdevelopment() {
                 written apps in this language, it might be a good option to
                 stick with it. Both languages are supported by Apple, so the
                 decision ultimately comes down to personal preference and what's
-                most comfortable for you.{" "}
+                most comfortable for you.
               </>
             ),
           },
@@ -585,7 +579,7 @@ export default function Gameapplicationdevelopment() {
             question: "What is Swift iOS app development?",
             answer: (
               <>
-                {" "}
+  
                 Swift iOS App Development is the process of creating, coding,
                 and designing mobile applications for Apple's iOS operating
                 system. With Swift being an open-source language, it allows
@@ -596,7 +590,7 @@ export default function Gameapplicationdevelopment() {
                 innovative and reliable way to build their app, Swift is a
                 perfect choice. From simple games to complex enterprise
                 solutions – whatever you need, iOS App Development with hire
-                swift developers has you covered!{" "}
+                swift developers has you covered!
               </>
             ),
           },
@@ -604,7 +598,7 @@ export default function Gameapplicationdevelopment() {
             question: "What are iOS app development services?",
             answer: (
               <>
-                {" "}
+  
                 iOS app development company help businesses create custom,
                 engaging, and user-friendly applications for Apple's iOS
                 platform. With their experienced professionals, they provide
@@ -614,7 +608,7 @@ export default function Gameapplicationdevelopment() {
                 developing apps for both the App Store and enterprise solutions.
                 Whether you need an app to increase customer engagement or
                 expand your market reach, iOS app development company will help
-                take your business to the next level.{" "}
+                take your business to the next level.
               </>
             ),
           },

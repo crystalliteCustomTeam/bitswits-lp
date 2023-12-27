@@ -24,7 +24,10 @@ const benif3 = await import("../public/images/hire-page/benifit-icon3.png");
 const benif4 = await import("../public/images/hire-page/benifit-icon4.png");
 const benif5 = await import("../public/images/hire-page/benifit-icon5.png");
 const benif6 = await import("../public/images/hire-page/benifit-icon6.png");
+
+
 export default function AndroidDeveloper() {
+
   const [showComponent, setShowComponent] = useState(false);
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -33,6 +36,7 @@ export default function AndroidDeveloper() {
 
     return () => clearTimeout(timeout);
   }, []);
+
   return (
     <>
       <Head>
@@ -41,14 +45,14 @@ export default function AndroidDeveloper() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+      
       <Banner
         subtitle={<> Hire </>}
         title={<> Hire Android App Developers </>}
         para={
           <>
-            {" "}
             We deliver great results, on time and on budget. Contact usto start
-            talking about your project today!{" "}
+            talking about your project today!
           </>
         }
         banImg={banImg}
@@ -166,7 +170,7 @@ export default function AndroidDeveloper() {
           {
             title: (
               <>
-                Benefits to Hire Remote <br /> <span> Android Developer</span>{" "}
+                Benefits to Hire Remote <br /> <span> Android Developer</span>
               </>
             ),
           },
@@ -299,8 +303,8 @@ export default function AndroidDeveloper() {
           {
             title: (
               <>
-                Why should you Hire <br /> <span> Android Developer</span>{" "}
-                Online?{" "}
+                Why should you Hire <br /> <span> Android Developer</span>
+                Online?
               </>
             ),
           },
@@ -310,8 +314,8 @@ export default function AndroidDeveloper() {
             number: "01",
             title: (
               <>
-                {" "}
-                Happy <br /> Coders{" "}
+  
+                Happy <br /> Coders
               </>
             ),
             description:
@@ -321,8 +325,8 @@ export default function AndroidDeveloper() {
             number: "02",
             title: (
               <>
-                {" "}
-                Your Ideas <br /> Are Secret{" "}
+  
+                Your Ideas <br /> Are Secret
               </>
             ),
             description:
@@ -332,8 +336,8 @@ export default function AndroidDeveloper() {
             number: "03",
             title: (
               <>
-                {" "}
-                You Owns <br /> The Code{" "}
+  
+                You Owns <br /> The Code
               </>
             ),
             description:
@@ -343,8 +347,8 @@ export default function AndroidDeveloper() {
             number: "04",
             title: (
               <>
-                {" "}
-                We’re Always <br /> Open For You{" "}
+  
+                We’re Always <br /> Open For You
               </>
             ),
             description:
@@ -354,8 +358,8 @@ export default function AndroidDeveloper() {
             number: "05",
             title: (
               <>
-                {" "}
-                Happy <br /> Coders{" "}
+  
+                Happy <br /> Coders
               </>
             ),
             description:
@@ -365,8 +369,8 @@ export default function AndroidDeveloper() {
             number: "06",
             title: (
               <>
-                {" "}
-                No Invisible <br /> Charges{" "}
+  
+                No Invisible <br /> Charges
               </>
             ),
             description:
@@ -376,8 +380,8 @@ export default function AndroidDeveloper() {
             number: "07",
             title: (
               <>
-                {" "}
-                Keep An Eye <br /> On Your Project{" "}
+  
+                Keep An Eye <br /> On Your Project
               </>
             ),
             description:
@@ -387,8 +391,8 @@ export default function AndroidDeveloper() {
             number: "08",
             title: (
               <>
-                {" "}
-                Secure <br /> Alert{" "}
+  
+                Secure <br /> Alert
               </>
             ),
             description:
@@ -398,8 +402,8 @@ export default function AndroidDeveloper() {
             number: "09",
             title: (
               <>
-                {" "}
-                Rocket Speed <br /> Delivery{" "}
+  
+                Rocket Speed <br /> Delivery
               </>
             ),
             description:
@@ -409,8 +413,8 @@ export default function AndroidDeveloper() {
             number: "10",
             title: (
               <>
-                {" "}
-                Bug-Free <br /> Solution{" "}
+  
+                Bug-Free <br /> Solution
               </>
             ),
             description:
@@ -420,8 +424,8 @@ export default function AndroidDeveloper() {
             number: "11",
             title: (
               <>
-                {" "}
-                Scale <br /> The Team{" "}
+  
+                Scale <br /> The Team
               </>
             ),
             description:
@@ -431,8 +435,8 @@ export default function AndroidDeveloper() {
             number: "12",
             title: (
               <>
-                {" "}
-                We’re <br /> With You{" "}
+  
+                We’re <br /> With You
               </>
             ),
             description:

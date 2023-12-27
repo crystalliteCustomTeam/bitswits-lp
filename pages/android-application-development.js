@@ -1,7 +1,5 @@
 import Head from "next/head";
-import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 // css //
 import styles from "@/styles/LpChoose.module.css";
 //components
@@ -34,7 +32,9 @@ const appletvappdevelopment = await import("../public/images/andriodappdevelopme
 const iphoneappdesigning = await import("../public/images/andriodappdevelopment/enterpriseandroidapps.png");
 const hybridiphone = await import("../public/images/andriodappdevelopment/androiduiuxdesign.png");
 
+
 export default function gamedevelopmentcompany() {
+
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -103,6 +103,7 @@ export default function gamedevelopmentcompany() {
       ],
     },
   ];
+
   return (
     <>
       <Head>
@@ -114,16 +115,16 @@ export default function gamedevelopmentcompany() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+      
       <ServicesBanner
         subtitle="Revolutionizing & Creating A Smarter Future"
         title={<> Android App Development Company </>}
         text={
           <>
-            {" "}
             At BitsWits, we specialize in creating custom-crafted Android
             applications that meet our customer's needs. Our android app
             development team firmly believes that no two businesses are the
-            same, and neither should their apps be.{" "}
+            same, and neither should their apps be.
           </>
         }
         BannerImage={BannerImage}
@@ -148,8 +149,8 @@ export default function gamedevelopmentcompany() {
             {
               title: (
                 <>
-                  {" "}
-                  Android App <br /> Integration{" "}
+    
+                  Android App <br /> Integration
                 </>
               ),
               text: "Need help integrating your Android app with other software systems and APIs? Look no further. Our expert Android development team is here to assist you in streamlining the process, ensuring your users have a seamless experience with enhanced functionality. Let us help take your app to the next level.",
@@ -158,8 +159,8 @@ export default function gamedevelopmentcompany() {
             {
               title: (
                 <>
-                  {" "}
-                  Android Game <br /> Development{" "}
+    
+                  Android Game <br /> Development
                 </>
               ),
               text: "Do you plan to produce an exceptional Android mobile game that will captivate your audience? Worry no more, as our team of Android game developers can provide you with the best assistance in developing exciting and irresistible games that will keep your users hooked and always craving more.",
@@ -178,11 +179,11 @@ export default function gamedevelopmentcompany() {
               title: "Enterprise Android Apps",
               text: (
                 <>
-                  {" "}
+    
                   We can help streamline your business operations with our
                   enterprise Android app development services. Our solutions
                   cover all aspects, from employee communication and data
-                  management to workflow optimization. Contact us to learn more.{" "}
+                  management to workflow optimization. Contact us to learn more.
                 </>
               ),
               appclass: "app4",
@@ -216,10 +217,9 @@ export default function gamedevelopmentcompany() {
       <ServicesPortfolio
         title={
           <>
-            {" "}
             Showcasing Our <span className="newfycolr">
               Creative Vision
-            </span>{" "}
+            </span>
           </>
         }
       />
@@ -261,7 +261,7 @@ export default function gamedevelopmentcompany() {
             question: "What is best language for Android app development?",
             answer: (
               <>
-                {" "}
+  
                 Android app development is a complex process that requires a
                 deep understanding of the best language for it. Java has been
                 the traditional go-to language for the android mobile app
@@ -269,7 +269,7 @@ export default function gamedevelopmentcompany() {
                 considering. Kotlin and C++ are both languages that have become
                 popular in recent years. They offer different levels of
                 performance and abstraction, so you can choose the language
-                which best suits your app's needs.{" "}
+                which best suits your app's needs.
               </>
             ),
           },
@@ -277,7 +277,7 @@ export default function gamedevelopmentcompany() {
             question: "What is Android development?",
             answer: (
               <>
-                {" "}
+  
                 Mobile app development android is the process of creating mobile
                 applications for Android devices. It involves writing code in
                 Java and Kotlin, integrating APIs, designing apps with a great
@@ -291,7 +291,7 @@ export default function gamedevelopmentcompany() {
                 potential to revolutionize the way we use mobile devices today.
                 So, get ready to take full advantage of this amazing platform
                 and join the world of Android development now with BitsWits! We
-                are experts in serving you in android and iOS app development.{" "}
+                are experts in serving you in android and iOS app development.
               </>
             ),
           },
@@ -299,7 +299,7 @@ export default function gamedevelopmentcompany() {
             question: "How much does it cost to develop an Android app?",
             answer: (
               <>
-                {" "}
+  
                 Designing an Android app can be a complex and expensive process.
                 But there is no one-size-fits-all answer to the question, "How
                 much does it cost to design an Android app?” The price of
@@ -311,7 +311,7 @@ export default function gamedevelopmentcompany() {
                 applications for Android includes labor costs, design expenses,
                 hosting fees, and other costs associated with releasing the app
                 in Google Play Store. Professional teams may charge up to [Our
-                Own Bundle Cost], depending on their experience and skill set.{" "}
+                Own Bundle Cost], depending on their experience and skill set.
               </>
             ),
           },
@@ -319,7 +319,7 @@ export default function gamedevelopmentcompany() {
             question: "Who is a Google Android app developer?",
             answer: (
               <>
-                {" "}
+  
                 Google Android app developer is a one-stop shop for developing
                 and launching Android apps. From creating an app concept to
                 distributing it on Google Play, this team of expert developers
@@ -329,7 +329,7 @@ export default function gamedevelopmentcompany() {
                 the skills to make it happen. Whatever your needs are, the
                 Google Android app developer is here to help you get started and
                 guide you every step of the way. Don't just dream it; code it!
-                Make your app dreams a reality today with BitsWits.{" "}
+                Make your app dreams a reality today with BitsWits.
               </>
             ),
           },
@@ -337,7 +337,7 @@ export default function gamedevelopmentcompany() {
             question: "What is Android app development using Python?",
             answer: (
               <>
-                {" "}
+  
                 Android app development using Python is the process of creating
                 native Android applications with the popular coding language
                 Python. This open-source programming language allows you to
@@ -354,7 +354,7 @@ export default function gamedevelopmentcompany() {
                 develop a cutting-edge Android app, it is an excellent choice
                 for python android app development. With its flexibility and
                 power, you can ask for android app developer for hire and create
-                innovative apps that will bring your ideas to life!{" "}
+                innovative apps that will bring your ideas to life!
               </>
             ),
           },
@@ -362,7 +362,7 @@ export default function gamedevelopmentcompany() {
             question: "How much does it cost to hire an app developer?",
             answer: (
               <>
-                {" "}
+  
                 Hiring an app developer to create a great user experience for
                 your business can be costly, but it doesn't have to break the
                 bank. The android app development cost varies widely and depends
@@ -375,7 +375,7 @@ export default function gamedevelopmentcompany() {
                 built efficiently and effectively while saving you time and
                 money in the long run. So, if you're looking to create a great
                 user experience with an app, you'll need to hire dedicated
-                android app developer like BitsWits.{" "}
+                android app developer like BitsWits.
               </>
             ),
           },

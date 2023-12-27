@@ -1,7 +1,5 @@
 import Head from "next/head";
-import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 //components
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
 const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
@@ -32,7 +30,9 @@ const appletvappdevelopment = await import("/public/artificalai/locationtracking
 const iphoneappdesigning = await import("/public/artificalai/motionsensing.png");
 const hybridiphone = await import("/public/artificalai/webconferencing.png");
 
+
 export default function gamedevelopmentcompany() {
+
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -73,11 +73,11 @@ export default function gamedevelopmentcompany() {
           title: <> Gesture Recognition </>,
           text: (
             <>
-              {" "}
+
               BitsWits specializes in creating technology that can recognize and
               respond to your movements. Our systems understand gestures like
               hand waves or nods, allowing you to control devices effortlessly
-              through simple motions.{" "}
+              through simple motions.
             </>
           ),
           appclass: "app1",
@@ -99,11 +99,11 @@ export default function gamedevelopmentcompany() {
           title: <> Motion Sensing </>,
           text: (
             <>
-              {" "}
+
               we merge AI algorithms with motion sensors, enabling
               high-precision motion detection. Our model training and
               optimization ensure smooth integration for real-time and reliable
-              motion sensing capabilities.{" "}
+              motion sensing capabilities.
             </>
           ),
           appclass: "app4",
@@ -118,6 +118,7 @@ export default function gamedevelopmentcompany() {
       ],
     },
   ];
+
   return (
     <>
       <Head>
@@ -129,16 +130,16 @@ export default function gamedevelopmentcompany() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <ServicesBanner
         subtitle="BitsWits is a Home to All Your Demands Regarding"
         title={<> Artificial Intelligence Development and Advancement </>}
         text={
           <>
-            {" "}
             BitsWits welcomes you to the one-stop destination for innovative
             mobile applications development with artificial intelligence. Our
             skilled developers and designers provide forward-thinking solutions
-            for all your AI development and integration requirements.{" "}
+            for all your AI development and integration requirements.
           </>
         }
         BannerImage={BannerImage}
@@ -166,11 +167,11 @@ export default function gamedevelopmentcompany() {
               title: <> Gesture Recognition </>,
               text: (
                 <>
-                  {" "}
+
                   BitsWits specializes in creating technology that can recognize
                   and respond to your movements. Our systems understand gestures
                   like hand waves or nods, allowing you to control devices
-                  effortlessly through simple motions.{" "}
+                  effortlessly through simple motions.
                 </>
               ),
               appclass: "app1",
@@ -193,11 +194,11 @@ export default function gamedevelopmentcompany() {
               title: <> Motion Sensing </>,
               text: (
                 <>
-                  {" "}
+
                   we merge AI algorithms with motion sensors, enabling
                   high-precision motion detection. Our model training and
                   optimization ensure smooth integration for real-time and
-                  reliable motion sensing capabilities.{" "}
+                  reliable motion sensing capabilities.
                 </>
               ),
               appclass: "app4",
@@ -232,10 +233,9 @@ export default function gamedevelopmentcompany() {
       <ServicesPortfolio
         title={
           <>
-            {" "}
             Showcasing Our <span className="newfycolr">
               Creative Vision
-            </span>{" "}
+            </span>
           </>
         }
       />
@@ -244,8 +244,7 @@ export default function gamedevelopmentcompany() {
         subtitle="Ready for Success?"
         maintitle={
           <>
-            {" "}
-            Accelerate Your Growth With <br /> AI Solutions{" "}
+            Accelerate Your Growth With <br /> AI Solutions
           </>
         }
         successSteps={[
@@ -260,8 +259,8 @@ export default function gamedevelopmentcompany() {
             number: "02",
             title: (
               <>
-                {" "}
-                Request a <br /> Quote{" "}
+
+                Request a <br /> Quote
               </>
             ),
             text: "Get a detailed cost breakdown for your app development project.",
@@ -287,9 +286,9 @@ export default function gamedevelopmentcompany() {
             question: "What AI services does BitsWits offer?",
             answer: (
               <>
-                {" "}
+
                 BitsWits provides AI consulting, custom AI solutions
-                development, and AI integration services.{" "}
+                development, and AI integration services.
               </>
             ),
           },
@@ -298,9 +297,9 @@ export default function gamedevelopmentcompany() {
               "How long does AI development with BitsWits usually take?",
             answer: (
               <>
-                {" "}
+
                 The timeline depends on the project's complexity but typically
-                ranges from a few months to a year.{" "}
+                ranges from a few months to a year.
               </>
             ),
           },
@@ -309,9 +308,9 @@ export default function gamedevelopmentcompany() {
               "What kind of support does BitsWits offer post-deployment?",
             answer: (
               <>
-                {" "}
+
                 BitsWits provides ongoing support and maintenance to ensure the
-                smooth functioning and optimal performance of AI solutions.{" "}
+                smooth functioning and optimal performance of AI solutions.
               </>
             ),
           },
@@ -320,10 +319,10 @@ export default function gamedevelopmentcompany() {
               "What industries does BitsWits specialize in for AI development?",
             answer: (
               <>
-                {" "}
+
                 BitsWits has extensive experience in providing AI solutions for
                 industries such as healthcare, finance, retail, and
-                manufacturing, among others.{" "}
+                manufacturing, among others.
               </>
             ),
           },
@@ -332,9 +331,9 @@ export default function gamedevelopmentcompany() {
               "Does BitsWits offer AI maintenance services after the project is completed?",
             answer: (
               <>
-                {" "}
+
                 Yes, BitsWits provides ongoing AI maintenance services,
-                including updates and optimizations for continued performance.{" "}
+                including updates and optimizations for continued performance.
               </>
             ),
           },
@@ -343,10 +342,10 @@ export default function gamedevelopmentcompany() {
               "Can BitsWits help in the integration of AI-driven analytics for data insights?",
             answer: (
               <>
-                {" "}
+
                 Absolutely, BitsWits specializes in integrating AI-driven
                 analytics to provide valuable data insights for informed
-                decision-making and improved business strategies.{" "}
+                decision-making and improved business strategies.
               </>
             ),
           },

@@ -15,7 +15,9 @@ import Contact from "@/components/Contact";
 //
 import typeofbooks from "@/public/blockchain/images/logo-1.png";
 
+
 export default function Home() {
+
   const text = (
     <span>
       Join hands with the best blockchain app development company to build
@@ -139,6 +141,7 @@ export default function Home() {
       we offer end-to-end blockchain development services under one roof.
     </span>
   );
+
   return (
     <>
       <Head>
@@ -147,6 +150,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+      
       <main className={styles.main}>
         <Banners />
         <Logoslide />

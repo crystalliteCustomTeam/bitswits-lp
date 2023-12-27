@@ -5,6 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 // CSS
 import styles from "@/styles/Newhomeanner.module.css";
 
+
 export default function ThankYou() {
   return (
     <>
@@ -17,6 +18,7 @@ export default function ThankYou() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <main>
         <section className={styles.thankYou}>
           <Container>

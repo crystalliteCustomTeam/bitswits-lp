@@ -43,14 +43,17 @@ const chosImg7 = await import("../public/images/lp-images/icon7.png");
 const chosImg8 = await import("../public/images/lp-images/icon8.png");
 const chosImg9 = await import("../public/images/lp-images/icon9.png");
 
+
 export default function SoulScribe() {
+
   const [showComponent, setShowComponent] = useState(false);
   useEffect(() => {
     const timeout = setTimeout(() => {
       setShowComponent(true);
-    }, 1000);  
+    }, 1000);
     return () => clearTimeout(timeout);
   }, []);
+
   return (
     <>
       <Head>
@@ -59,6 +62,7 @@ export default function SoulScribe() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <Banner
         banLogo={banLogo}
         title={<> Share, Reflect, and Let Your Soul Shine. </>}
@@ -134,9 +138,9 @@ export default function SoulScribe() {
         sections1={[
           {
             title: (
-              <> 
-                Soulful Features: Building <br /> Bonds and 
-                <span>Memories</span> 
+              <>
+                Soulful Features: Building <br /> Bonds and
+                <span>Memories</span>
               </>
             ),
             textArray: [
@@ -155,10 +159,10 @@ export default function SoulScribe() {
         sections2={[
           {
             title: (
-              <> 
+              <>
                 A Closer Look at Project <br /> Challenges <span>
                   We Faced
-                </span> 
+                </span>
               </>
             ),
             textArray: [
@@ -174,8 +178,8 @@ export default function SoulScribe() {
         sections3={[
           {
             title: (
-              <> 
-                Trouble <span>Tackling</span> 
+              <>
+                Trouble <span>Tackling</span>
               </>
             ),
             textArray: [
@@ -189,12 +193,12 @@ export default function SoulScribe() {
         ]}
         wantImg3={tackling}
         lastPara={
-          <> 
+          <>
             With a proactive approach, Soul Scribe is dedicated to providing a
             smooth and enjoyable user experience, making sure that our software
             continues to be the preferred choice for social networking and
             personal journaling, allowing users to create, connect, and
-            celebrate their most beloved recollections. 
+            celebrate their most beloved recollections.
           </>
         }
       />
@@ -202,12 +206,12 @@ export default function SoulScribe() {
       <CaseGoal
         golImg={goalImg}
         title={
-          <> 
-            Start Your App Development Journey <br /> Effortlessly; Let 
+          <>
+            Start Your App Development Journey <br /> Effortlessly; Let
             <span>
               Bitswits Be Your <br /> Savior
-            </span> 
-            With A Quick Tap! 
+            </span>
+            With A Quick Tap!
           </>
         }
         goalClass="soulscribe"
@@ -217,8 +221,8 @@ export default function SoulScribe() {
         appData={[
           {
             title: (
-              <> 
-                Overcoming <br /> Development Challenges 
+              <>
+                Overcoming <br /> Development Challenges
               </>
             ),
             description:
@@ -226,25 +230,25 @@ export default function SoulScribe() {
           },
           {
             title: (
-              <> 
-                Hybrid <br /> Development Excellence 
+              <>
+                Hybrid <br /> Development Excellence
               </>
             ),
             description: (
-              <> 
+              <>
                 Our approach to app development is anything but
                 one-size-fits-all. With a hybrid approach, we strike a balance
                 between predictability and adaptability. For projects with
                 clearly defined timeframes, we employ a waterfall approach to
                 meet the deadlines. This helps us meet the compliance
-                requirements and regulatory standards. 
+                requirements and regulatory standards.
               </>
             ),
           },
           {
             title: (
-              <> 
-                On-Time Delivery - <br /> Every Time 
+              <>
+                On-Time Delivery - <br /> Every Time
               </>
             ),
             description:
@@ -252,25 +256,25 @@ export default function SoulScribe() {
           },
           {
             title: (
-              <> 
-                Erasing <br /> Time-zone Barriers 
+              <>
+                Erasing <br /> Time-zone Barriers
               </>
             ),
             description: (
-              <> 
+              <>
                 Our project managers are trained to remain considerate about
                 time-zone differences, they take into account clients'
                 availability and preferences. We prioritize cultural
                 sensitivity, our developers made a system that shows clients'
                 active hours along with their current location in google maps,
-                and holidays around the globe. 
+                and holidays around the globe.
               </>
             ),
           },
           {
             title: (
-              <> 
-                Efficient <br /> Communication 
+              <>
+                Efficient <br /> Communication
               </>
             ),
             description:
@@ -278,17 +282,17 @@ export default function SoulScribe() {
           },
           {
             title: (
-              <> 
-                Addressing <br /> Payment Disputes 
+              <>
+                Addressing <br /> Payment Disputes
               </>
             ),
             description: (
-              <> 
+              <>
                 At BitsWits, we rely on the Stripe payment method for all
                 transactions. We've developed an automated dispute resolution
                 portal to efficiently manage payment issues. Our portal also
                 provides clear visibility into the different stages of reported
-                payment disputes and their current statuses. 
+                payment disputes and their current statuses.
               </>
             ),
           },
@@ -301,8 +305,8 @@ export default function SoulScribe() {
       />
       <CaseServices
         title={
-          <> 
-            <span>Services:</span> For 
+          <>
+            <span>Services:</span> For
           </>
         }
         point1={<> Native Mobile App Development </>}
@@ -316,98 +320,98 @@ export default function SoulScribe() {
       />
       <CaseChoose
         title={
-          <> 
+          <>
             <span>
               Why Trust <br /> BitsWits
-            </span> 
-            with App <br /> Development? 
+            </span>
+            with App <br /> Development?
           </>
         }
         text1={
-          <> 
+          <>
             We stand as the primary choice for mobile app development,
             exemplifying excellence in a dynamic field. Our team combines
             creativity and the most suitable tech stack to develop customized
-            app solutions. 
+            app solutions.
           </>
         }
         text2={
-          <> 
+          <>
             Our track record of delivering on time and within budget, coupled
             with a commitment to staying ahead of industry trends, sets us apart
-            as the best partner for mobile app development. 
+            as the best partner for mobile app development.
           </>
         }
         items={[
           {
             image: chosImg1,
             text: (
-              <> 
-                Experienced <br /> Professionals 
+              <>
+                Experienced <br /> Professionals
               </>
             ),
           },
           {
             image: chosImg2,
             text: (
-              <> 
-                On-Time <br /> Delivery 
+              <>
+                On-Time <br /> Delivery
               </>
             ),
           },
           {
             image: chosImg3,
             text: (
-              <> 
-                Cost-Effective <br /> Solutions 
+              <>
+                Cost-Effective <br /> Solutions
               </>
             ),
           },
           {
             image: chosImg4,
             text: (
-              <> 
-                Scalable and <br /> Secure Apps 
+              <>
+                Scalable and <br /> Secure Apps
               </>
             ),
           },
           {
             image: chosImg5,
             text: (
-              <> 
-                User-Centric <br /> Design 
+              <>
+                User-Centric <br /> Design
               </>
             ),
           },
           {
             image: chosImg6,
             text: (
-              <> 
-                Customized <br /> Development 
+              <>
+                Customized <br /> Development
               </>
             ),
           },
           {
             image: chosImg7,
             text: (
-              <> 
-                Error-Free <br /> Delivery 
+              <>
+                Error-Free <br /> Delivery
               </>
             ),
           },
           {
             image: chosImg8,
             text: (
-              <> 
-                Transparent <br /> Communication 
+              <>
+                Transparent <br /> Communication
               </>
             ),
           },
           {
             image: chosImg9,
             text: (
-              <> 
-                Support and <br /> Maintenance 
+              <>
+                Support and <br /> Maintenance
               </>
             ),
           },

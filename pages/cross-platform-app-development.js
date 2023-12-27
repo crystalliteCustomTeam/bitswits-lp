@@ -1,7 +1,5 @@
 import Head from "next/head";
-import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 // css //
 import styles from "@/styles/LpChoose.module.css";
 //components
@@ -9,7 +7,7 @@ const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
 const Partnercross = React.lazy(() => import("@/components/Partnercross"));
 const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
-const ServicesPortfolio = React.lazy(() =>import("@/components/ServicesPortfolio"));
+const ServicesPortfolio = React.lazy(() => import("@/components/ServicesPortfolio"));
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
 const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
@@ -34,7 +32,9 @@ const appletvappdevelopment = await import("../public/images/crossappdevelopemen
 const iphoneappdesigning = await import("../public/images/crossappdevelopement/aiintegratedcrossplatformapps.png");
 const hybridiphone = await import("../public/images/crossappdevelopement/crossplatformappsconsulting.png");
 
+
 export default function gamedevelopmentcompany() {
+
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -121,58 +121,39 @@ export default function gamedevelopmentcompany() {
       ],
     },
   ];
+
   return (
     <>
       <Head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8" /> 
+        <meta charset="UTF-8" />
         <title>Leading Cross Platform App Development Company - BitsWits</title>
-        <meta
-          name="description"
-          content="Want to launch your app on all platforms simultaneously? Our cross platform developers make it possible! We design, develop, and deploy apps that work seamlessly."
-        /> 
+        <meta name="description" content="Want to launch your app on all platforms simultaneously? Our cross platform developers make it possible! We design, develop, and deploy apps that work seamlessly." />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Leading Cross Platform App Development Company - BitsWits"
-        />
-        <meta
-          property="og:description"
-          content="Want to launch your app on all platforms simultaneously? Our cross platform developers make it possible! We design, develop, and deploy apps that work seamlessly."
-        /> 
-        <meta
-          property="og:site_name"
-          content="Leading cross platform app development company - BitsWits"
-        /> 
-        <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" /> 
-        <meta
-          name="DC.title"
-          content="cross platform mobile app development company, cross platform app developers"
-        />
+        <meta property="og:title" content="Leading Cross Platform App Development Company - BitsWits" />
+        <meta property="og:description" content="Want to launch your app on all platforms simultaneously? Our cross platform developers make it possible! We design, develop, and deploy apps that work seamlessly." />
+        <meta property="og:site_name" content="Leading cross platform app development company - BitsWits" />
+        <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
+        <meta name="DC.title" content="cross platform mobile app development company, cross platform app developers" />
         <meta name="geo.region" content="US-CA" />
         <meta name="geo.placename" content="Los Angeles" />
         <meta name="geo.position" content="36.701463;-118.755997" />
         <meta name="ICBM" content="36.701463, -118.755997" />
-        <meta
-          name="DC.title"
-          content="cross platform mobile app development company, cross platform app developers"
-        />
+        <meta name="DC.title" content="cross platform mobile app development company, cross platform app developers" />
         <meta name="geo.region" content="US-DE" />
         <meta name="geo.placename" content="Dover" />
         <meta name="geo.position" content="38.692045;-75.401331" />
-        <meta name="ICBM" content="38.692045, -75.401331" /> 
-        <meta
-          name="DC.title"
-          content="cross platform mobile app development company, cross platform app developers"
-        />
+        <meta name="ICBM" content="38.692045, -75.401331" />
+        <meta name="DC.title" content="cross platform mobile app development company, cross platform app developers" />
         <meta name="geo.region" content="US" />
         <meta name="geo.position" content="39.78373;-100.445882" />
         <meta name="ICBM" content="39.78373, -100.445882" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+      
       <ServicesBanner
         subtitle="Create The Future With Our"
         title={<> Cross-Platform App Development Services </>}
@@ -185,7 +166,7 @@ export default function gamedevelopmentcompany() {
             can develop and deploy one single app for both Android and iOS!{" "}
           </>
         }
-        video = {<video autoPlay muted src='../../bannerVideos/cross.mp4' className="w-75" ></video>}
+        video={<video autoPlay muted src='../../bannerVideos/cross.mp4' className="w-75" ></video>}
       />
       <People People="people" />
       <HomeBannerSliderlp />

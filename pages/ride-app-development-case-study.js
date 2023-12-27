@@ -43,14 +43,16 @@ const chosImg7 = await import("../public/images/lp-images/icon7.png");
 const chosImg8 = await import("../public/images/lp-images/icon8.png");
 const chosImg9 = await import("../public/images/lp-images/icon9.png");
 
+
 export default function RideMe() {
   const [showComponent, setShowComponent] = useState(false);
   useEffect(() => {
     const timeout = setTimeout(() => {
       setShowComponent(true);
-    }, 1000);  
+    }, 1000);
     return () => clearTimeout(timeout);
   }, []);
+
   return (
     <>
       <Head>
@@ -59,6 +61,7 @@ export default function RideMe() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <Banner
         banLogo={banLogo}
         title={<> Taking You Where You Need to Be </>}
@@ -202,12 +205,12 @@ export default function RideMe() {
       <CaseGoal
         golImg={goalImg}
         title={
-          <> 
-            Start Your App Development Journey <br /> Effortlessly; Let 
+          <>
+            Start Your App Development Journey <br /> Effortlessly; Let
             <span>
               Bitswits Be Your <br /> Savior
-            </span> 
-            With A Quick Tap! 
+            </span>
+            With A Quick Tap!
           </>
         }
         goalClass="rideme"

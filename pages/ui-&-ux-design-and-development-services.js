@@ -29,6 +29,7 @@ const bestgloba16 = await import("../public/ui-ux-page/icon6.png");
 const poe = await import("../public/ui-ux-page/work1.png");
 const poe2 = await import("../public/ui-ux-page/work2.png");
 
+
 export default function UiUxDesign() {
   return (
     <>
@@ -41,6 +42,7 @@ export default function UiUxDesign() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+      
       <ServicesBanner
         assignClass="UIUX"
         subtitle="Our Award-Winning"

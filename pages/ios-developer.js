@@ -29,7 +29,9 @@ const benif8 = await import("../public/images/hire-page/benifit-icon8.png");
 const benif9 = await import("../public/images/hire-page/benifit-icon9.png");
 const benif10 = await import("../public/images/hire-page/benifit-icon10.png");
 
+
 export default function IosDeveloper() {
+
   const [showComponent, setShowComponent] = useState(false);
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -37,6 +39,7 @@ export default function IosDeveloper() {
     }, 1000);
     return () => clearTimeout(timeout);
   }, []);
+
   return (
     <>
       <Head>
@@ -45,6 +48,7 @@ export default function IosDeveloper() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+      
       <Banner
         subtitle={<> Hire </>}
         title={<> Hire iOS App Developers </>}

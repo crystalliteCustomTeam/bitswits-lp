@@ -20,14 +20,14 @@ const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const People = React.lazy(() => import("@/components/People"));
 const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
-
 //images
 const BannerImage = await import("@/public/custommobiledevelopment/banner_image.png");
 
+
 export default function CustomMobile() {
+
   return (
-    <>
-      <Head>
+    <>  <Head>
         <title>Custom Mobile App Development Company - BitsWits</title>
         <meta
           name="description"
@@ -36,16 +36,17 @@ export default function CustomMobile() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <ServicesBanner
         subtitle="BitsWits Is Your One-Stop Shop For"
         title={<> Custom Mobile Application Development for Businesses </>}
         text={
           <>
-            {" "}
+
             BitsWits is your ultimate destination for custom mobile application
             development for businesses. We provide comprehensive solutions for
             companies seeking tailored mobile apps to boost their operations and
-            customer engagement{" "}
+            customer engagement
           </>
         }
         BannerImage={BannerImage}
@@ -65,8 +66,7 @@ export default function CustomMobile() {
           {
             title: (
               <>
-                {" "}
-                App <br /> Design{" "}
+                App <br /> Design
               </>
             ),
             text: "Create an exceptional app with an attractive design, intuitive interface, and convenient user experience.",
@@ -75,15 +75,13 @@ export default function CustomMobile() {
           {
             title: (
               <>
-                {" "}
-                Android App <br /> Development{" "}
+                Android App <br /> Development
               </>
             ),
             text: (
               <>
-                {" "}
                 Develop high-performing, scalable and native looking apps for
-                Android devices with Kotlin and Java.{" "}
+                Android devices with Kotlin and Java.
               </>
             ),
             appclass: "app1",
@@ -91,8 +89,7 @@ export default function CustomMobile() {
           {
             title: (
               <>
-                {" "}
-                iOS App <br /> Development{" "}
+                iOS App <br /> Development
               </>
             ),
             text: "Make intuitive mobile apps with rich functionality for Apple mobile devices with Swift and Objective-C.",
@@ -110,15 +107,13 @@ export default function CustomMobile() {
           {
             title: (
               <>
-                {" "}
-                Mobile Server-Side <br /> Development{" "}
+                Mobile Server-Side <br /> Development
               </>
             ),
             text: (
               <>
-                {" "}
                 Setup cloud or hardware infrastructure for app execution,
-                components coordination, and API integrations.{" "}
+                components coordination, and API integrations.
               </>
             ),
             appclass: "app4",
@@ -126,8 +121,7 @@ export default function CustomMobile() {
           {
             title: (
               <>
-                {" "}
-                Legacy Application <br /> Modernization{" "}
+                Legacy Application <br /> Modernization
               </>
             ),
             text: "Improve performance and throughput, upgrade UX/UI, and add new features to existing mobile apps.",
@@ -153,8 +147,7 @@ export default function CustomMobile() {
       <LpChoose transform="hybirf" />
       <ServicesPortfolio
         title={
-          <>
-            Showcasing Our <span className="newfycolr">
+          <>        Showcasing Our <span className="newfycolr">
               Creative Vision
             </span>
           </>
@@ -200,11 +193,10 @@ export default function CustomMobile() {
             question: "What is a custom mobile application?",
             answer: (
               <>
-                {" "}
                 A custom mobile application is a software program developed
                 specifically for a particular business or organization to meet
                 its unique requirements. It is tailored to address specific
-                needs and goals.{" "}
+                needs and goals.
               </>
             ),
           },
@@ -213,11 +205,10 @@ export default function CustomMobile() {
               "Why should a business consider developing a custom mobile app?",
             answer: (
               <>
-                {" "}
                 Custom apps can provide tailored solutions, streamline business
                 processes, enhance user experience, and offer a competitive
                 advantage. They can be designed to meet specific business goals
-                and requirements.{" "}
+                and requirements.
               </>
             ),
           },
@@ -226,12 +217,11 @@ export default function CustomMobile() {
               "How does custom app development differ from using off-the-shelf solutions?",
             answer: (
               <>
-                {" "}
                 Off-the-shelf solutions are pre-built applications designed for
                 a wide audience, while custom apps are built from scratch to
                 address specific business needs. Custom apps offer more
                 flexibility and can be precisely tailored to the organization's
-                requirements.{" "}
+                requirements.
               </>
             ),
           },
@@ -240,12 +230,11 @@ export default function CustomMobile() {
               "What technologies are commonly used in custom mobile app development?",
             answer: (
               <>
-                {" "}
                 The choice of technologies depends on the platform and specific
                 requirements, but commonly used technologies include Swift and
                 Objective-C for iOS, Java and Kotlin for Android, and frameworks
                 like React Native, Flutter, or Xamarin for cross-platform
-                development.{" "}
+                development.
               </>
             ),
           },
@@ -253,11 +242,10 @@ export default function CustomMobile() {
             question: "How long does it take to develop a custom mobile app?",
             answer: (
               <>
-                {" "}
                 The development time varies depending on the complexity of the
                 app, features, and the development approach. Simple apps may
                 take a few weeks, while more complex ones could take several
-                months.{" "}
+                months.
               </>
             ),
           },
@@ -266,11 +254,10 @@ export default function CustomMobile() {
               "What is the typical cost of developing a custom mobile app?",
             answer: (
               <>
-                {" "}
                 The cost varies significantly based on factors such as features,
                 complexity, platform(s), and development time. It's essential to
                 discuss requirements with a development team to get an accurate
-                estimate.{" "}
+                estimate.
               </>
             ),
           },

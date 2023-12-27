@@ -1,7 +1,6 @@
 import Head from "next/head";
-import React from "react";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 // slick slider
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -33,7 +32,10 @@ const iphoneappdesigning = await import("../public/newHomePage/images/mobileimag
 const hybridiphone = await import("../public/newHomePage/images/mobileimages/newMaintain6.png");
 const appSeven = await import("../public/newHomePage/images/mobileimages/newMaintain7.png");
 const appEight = await import("../public/newHomePage/images/mobileimages/newMaintain8.png");
+
+
 export default function Home() {
+
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -49,6 +51,7 @@ export default function Home() {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
   // slider 
   var awardslogo = {
     dots: false,
@@ -90,6 +93,7 @@ export default function Home() {
       },
     ],
   };
+
   // Maintain Data
   const severcedata = [
     {
@@ -163,10 +167,11 @@ export default function Home() {
     },
   ];
 
+
   return (
     <>
       <Head>
-      <meta charset="UTF-8" />
+        <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* Title & Description */}
@@ -184,7 +189,7 @@ export default function Home() {
         {/* Favicon */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-      
+
       <NewIndexBanner />
       <section>
         <div className={`${styles.awardsFold}`}>

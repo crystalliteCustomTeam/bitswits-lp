@@ -3,6 +3,7 @@ import React from "react";
 //Components
 const ContactBox = React.lazy(() => import("@/components/ContactBox"));
 
+
 export default function ContactUs() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function ContactUs() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <ContactBox />
     </>
   );

@@ -1,7 +1,5 @@
 import Head from "next/head";
-import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 // slick slider
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -34,7 +32,9 @@ const hybridiphone = await import("../public/newHomePage/images/mobileimages/new
 const appSeven = await import("../public/newHomePage/images/mobileimages/newMaintain7.png");
 const appEight = await import("../public/newHomePage/images/mobileimages/newMaintain8.png");
 
+
 export default function gamedevelopmentcompany() {
+
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -174,6 +174,7 @@ export default function gamedevelopmentcompany() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+      
       <Bannerlp2 newHomeBgprops="newHomeBg" />
       <Formlp2 />
       <Nothinglp2 Nothing="nothing1" />

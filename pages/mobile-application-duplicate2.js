@@ -21,6 +21,7 @@ const icon26 = await import("../public/images/fymobile/4.png");
 const icon27 = await import("../public/images/fymobile/5.png");
 const icon28 = await import("../public/images/fymobile/6.png");
 
+
 export default function mobileApplication() {
   return (
     <>
@@ -76,6 +77,7 @@ export default function mobileApplication() {
         <meta name="geo.position" content="39.78373;-100.445882" />
         <meta name="ICBM" content="39.78373, -100.445882" />
       </Head>
+      
       <NewMblBannerduplicatejump />
       <Awards />
       <NewHomeAbout />

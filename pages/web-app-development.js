@@ -1,9 +1,9 @@
 import Head from "next/head";
 import React from "react";
 //components
-const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner")); 
-const Dedicatedweb = React.lazy(() => import("@/components/Dedicatedweb")); 
-const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));  
+const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
+const Dedicatedweb = React.lazy(() => import("@/components/Dedicatedweb"));
+const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
 const ServicesPortfolio = React.lazy(() => import("@/components/ServicesPortfolio"));
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
 const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
@@ -20,6 +20,7 @@ const Nothing = React.lazy(() => import("@/components/Nothing"));
 const WeworkLp = React.lazy(() => import("@/components/new-home-page-fy/WeworkLphome"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
 const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
+
 
 export default function gamedevelopmentcompany() {
   return (
@@ -82,18 +83,19 @@ export default function gamedevelopmentcompany() {
         <meta name="ICBM" content="39.78373, -100.445882" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <ServicesBanner
         subtitle="Top-Notch Web App Development Company"
         title={<> Where Imagination Meets Creativity </>}
         text={
-          <> 
+          <>
             BitsWits is a future-forward, human-centered, and client-focused web
             development company that revolutionizes the way businesses appear on
             the online paradigm. We build dynamic, multi-purpose, secure, and
             highly-performing websites that help brands gain online traction in
-            no time. 
+            no time.
           </>
-        } 
+        }
         video={
           <video
             autoPlay

@@ -22,6 +22,7 @@ const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const NewFaqslp = React.lazy(() => import("@/components/NewFaqslp"));
 const HomeLocationlp = React.lazy(() => import("@/components/HomeLocationlp"));
 
+
 export default function gamedevelopmentcompany() {
   return (
     <>
@@ -34,6 +35,7 @@ export default function gamedevelopmentcompany() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+      
       <Bannerlp6
         subtitle={
           <> 

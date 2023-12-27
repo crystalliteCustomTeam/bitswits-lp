@@ -1,14 +1,12 @@
 import Head from "next/head";
-import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 //components
-const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner")); 
-const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain")); 
-const Justbuildit = React.lazy(() => import("@/components/Justbuildit")); 
-const ServicesPortfolio = React.lazy(() => import("@/components/ServicesPortfolio")); 
+const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
+const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
+const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
+const ServicesPortfolio = React.lazy(() => import("@/components/ServicesPortfolio"));
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
-const Technologieswe = React.lazy(() => import("@/components/Technologieswe")); 
+const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
@@ -24,13 +22,15 @@ const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
 const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
 const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
 //images
-const BannerImage = await import("@/public/hybridmbldevelopment/banner_image.png"); 
+const BannerImage = await import("@/public/hybridmbldevelopment/banner_image.png");
 const customios = await import("../public/images/hybirdappdevelopement/flutter.png");
 const iphoneapp = await import("../public/images/hybirdappdevelopement/react.png");
 const applewatch = await import("../public/images/hybirdappdevelopement/ionic.png");
 const appletvappdevelopment = await import("../public/images/hybirdappdevelopement/xamarin.png");
 
+
 export default function HybridMobile() {
+
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -68,10 +68,10 @@ export default function HybridMobile() {
           title: <> React </>,
           text: (
             <>
-              {" "}
+
               React is a popular framework for hybrid mobile app development
               that allows you to build mobile applications for both Android and
-              iOS using a single codebase.{" "}
+              iOS using a single codebase.
             </>
           ),
           appclass: "app1",
@@ -92,26 +92,26 @@ export default function HybridMobile() {
       ],
     },
   ];
+
   return (
-    <>
-      <Head>
-        <title>Hybrid Mobile App Development Company - BitsWits</title>
-        <meta
-          name="description"
-          content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life."
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="images/icons/favicon.png" />
-      </Head>
+    <>  <Head>
+      <title>Hybrid Mobile App Development Company - BitsWits</title>
+      <meta
+        name="description"
+        content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life."
+      />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" href="images/icons/favicon.png" />
+    </Head>
+
       <ServicesBanner
         title={<> Hybrid Mobile App Development Company In USA </>}
         text={
           <>
-            {" "}
             BitsWits is the go-to hub for all your hybrid mobile app development
             needs in the USA. We are a leading technology company that excels in
             creating cost-effective and efficient hybrid mobile applications for
-            businesses.{" "}
+            businesses.
           </>
         }
         BannerImage={BannerImage}
@@ -136,10 +136,9 @@ export default function HybridMobile() {
               title: <> React </>,
               text: (
                 <>
-                  {" "}
                   React is a popular framework for hybrid mobile app development
                   that allows you to build mobile applications for both Android
-                  and iOS using a single codebase.{" "}
+                  and iOS using a single codebase.
                 </>
               ),
               appclass: "app1",
@@ -180,11 +179,9 @@ export default function HybridMobile() {
       <LpChoose transform="hybirf" />
       <ServicesPortfolio
         title={
-          <>
-            {" "}
-            Showcasing Our <span className="newfycolr">
-              Creative Vision
-            </span>{" "}
+          <>        Showcasing Our <span className="newfycolr">
+            Creative Vision
+          </span>
           </>
         }
       />
@@ -228,11 +225,11 @@ export default function HybridMobile() {
             question: "What is a hybrid mobile app?",
             answer: (
               <>
-                {" "}
+
                 A hybrid mobile app is a type of mobile application that
                 combines elements of both native and web applications. It is
                 built using web technologies (HTML, CSS, and JavaScript) and
-                wrapped in a native container for distribution.{" "}
+                wrapped in a native container for distribution.
               </>
             ),
           },
@@ -241,7 +238,7 @@ export default function HybridMobile() {
               "What are the advantages of hybrid mobile app development?",
             answer: (
               <>
-                {" "}
+
                 1. Cost-effective development. <br />
                 <br />
                 2. Cross-platform compatibility. <br />
@@ -250,7 +247,7 @@ export default function HybridMobile() {
                 <br />
                 4. Access to device features through plugins. <br />
                 <br />
-                5. Single codebase for multiple platforms.{" "}
+                5. Single codebase for multiple platforms.
               </>
             ),
           },
@@ -259,9 +256,9 @@ export default function HybridMobile() {
               "Which frameworks are commonly used for hybrid mobile app development?",
             answer: (
               <>
-                {" "}
+
                 Ionic, React Native, Xamarin, PhoneGap (Cordova), and Flutter
-                are popular frameworks for hybrid mobile app development.{" "}
+                are popular frameworks for hybrid mobile app development.
               </>
             ),
           },
@@ -269,11 +266,11 @@ export default function HybridMobile() {
             question: "How does a hybrid app differ from a native app?",
             answer: (
               <>
-                {" "}
+
                 Native apps are developed for a specific platform (iOS or
                 Android) using platform-specific languages (Swift/Obj-C for iOS,
                 Java/Kotlin for Android), while hybrid apps use web technologies
-                and can run on multiple platforms.{" "}
+                and can run on multiple platforms.
               </>
             ),
           },
@@ -281,11 +278,11 @@ export default function HybridMobile() {
             question: "Are hybrid apps as performant as native apps?",
             answer: (
               <>
-                {" "}
+
                 Hybrid apps might not perform as well as native apps in certain
                 scenarios, especially for graphics-intensive or complex
                 applications. However, advancements in hybrid frameworks have
-                improved performance significantly.{" "}
+                improved performance significantly.
               </>
             ),
           },
@@ -293,10 +290,10 @@ export default function HybridMobile() {
             question: "What is the role of WebView in hybrid app development?",
             answer: (
               <>
-                {" "}
+
                 WebView is a component that allows displaying web content within
                 a native app. In hybrid development, the WebView is used to
-                render the user interface of the application.{" "}
+                render the user interface of the application.
               </>
             ),
           },

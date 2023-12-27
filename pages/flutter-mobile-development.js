@@ -1,7 +1,5 @@
 import Head from "next/head";
-import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 //components
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
 const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
@@ -31,7 +29,9 @@ const appletvappdevelopment = await import("../public/images/flutterappdeveloper
 const iphoneappdesigning = await import("../public/images/flutterappdeveloper/testingqualityassurance.png");
 const hybridiphone = await import("../public/images/flutterappdeveloper/maintenancesupportservices.png");
 
+
 export default function HybridMobile() {
+
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -99,6 +99,7 @@ export default function HybridMobile() {
       ],
     },
   ];
+
   return (
     <>
       <Head>
@@ -159,18 +160,18 @@ export default function HybridMobile() {
         <meta name="ICBM" content="39.78373, -100.445882" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <ServicesBanner
         title={<> Flutter Mobile Apps Development Company </>}
         text={
           <>
-            {" "}
             BitsWits is an expert Flutter app development agency with years of
             experience creating innovative, powerful apps for businesses of all
             sizes. From startups to established corporate entities, we have the
-            expertise and technology to turn your ideas into amazing apps.{" "}
+            expertise and technology to turn your ideas into amazing apps.
           </>
         }
-        video = {<video autoPlay muted src='../../bannerVideos/flutter.mp4' className="w-75" ></video>}
+        video={<video autoPlay muted src='../../bannerVideos/flutter.mp4' className="w-75" ></video>}
         assignClass="flutter"
       />
       <People People="people" />
@@ -188,11 +189,11 @@ export default function HybridMobile() {
               title: "Dart Application Development Services",
               text: (
                 <>
-                  {" "}
+    
                   Our Dart application development services create efficient and
                   powerful hybrid apps using the latest libraries to modernize
                   your native apps. We'll help your app stand out and succeed
-                  with seamless solutions exceeding expectations.{" "}
+                  with seamless solutions exceeding expectations.
                 </>
               ),
               appclass: "app",
@@ -201,13 +202,13 @@ export default function HybridMobile() {
               title: <> Flutter Cross-Platform App Development </>,
               text: (
                 <>
-                  {" "}
+    
                   As a leading Flutter app development company, our expertise
                   lies in developing innovative Flutter apps and provide
                   solutions that extend your app's potential reach, driving your
                   business growth to new heights. Hire us, and experience the
                   difference of our exceptional Flutter app development
-                  services.{" "}
+                  services.
                 </>
               ),
               appclass: "app1",
@@ -229,17 +230,17 @@ export default function HybridMobile() {
             {
               title: (
                 <>
-                  {" "}
-                  Testing & Quality <br /> Assurance{" "}
+    
+                  Testing & Quality <br /> Assurance
                 </>
               ),
               text: (
                 <>
-                  {" "}
+    
                   Our Flutter mobile app developers, quality analysts, and
                   testers, collaborate seamlessly to ensure your app is free of
                   bugs during development. We guarantee you a dependable,
-                  top-notch final product that meets your expectations.{" "}
+                  top-notch final product that meets your expectations.
                 </>
               ),
               appclass: "app4",
@@ -247,8 +248,8 @@ export default function HybridMobile() {
             {
               title: (
                 <>
-                  {" "}
-                  Maintenance & Support <br /> Services{" "}
+    
+                  Maintenance & Support <br /> Services
                 </>
               ),
               text: "BitsWits offers maintenance and support services to keep your Flutter applications running smoothly after launch. Our experts provide top-notch services to ensure your applications remain in excellent condition for a long term, giving you peace of mind and ensuring the success of your business.",
@@ -278,10 +279,9 @@ export default function HybridMobile() {
       <ServicesPortfolio
         title={
           <>
-            {" "}
             Showcasing Our <span className="newfycolr">
               Creative Vision
-            </span>{" "}
+            </span>
           </>
         }
       />
@@ -323,7 +323,7 @@ export default function HybridMobile() {
             question: "How much does Flutter app development cost?",
             answer: (
               <>
-                {" "}
+  
                 Flutter mobile app development is an increasingly popular and
                 cost-effective way to develop mobile applications. Developing
                 with Flutter is faster, easier, and produces more reliable
@@ -333,7 +333,7 @@ export default function HybridMobile() {
                 want to include. Generally speaking, simple applications with
                 basic functionality can cost anywhere from $[Our Basic Package]
                 - $[Our Premium Package], while more complex applications can
-                range up to $[Our Basic Package] or more.{" "}
+                range up to $[Our Basic Package] or more.
               </>
             ),
           },
@@ -341,7 +341,7 @@ export default function HybridMobile() {
             question: "What is Flutter app development?",
             answer: (
               <>
-                {" "}
+  
                 Flutter mobile app development is a powerful software
                 development kit (SDK) created by Google. It allows developers to
                 quickly create beautiful, high-performance mobile applications
@@ -350,7 +350,7 @@ export default function HybridMobile() {
                 have access to a wide range of powerful features such as
                 hardware acceleration, advanced UI elements, and animation
                 capabilities. Flutter apps run smoothly on both platforms
-                because of their highly optimized codebase.{" "}
+                because of their highly optimized codebase.
               </>
             ),
           },
@@ -358,7 +358,7 @@ export default function HybridMobile() {
             question: "Why should I choose Flutter for app development?",
             answer: (
               <>
-                {" "}
+  
                 Flutter app development is the ideal choice because it offers a
                 wide range of advantages. It is an open-source framework that
                 simplifies mobile app creation, giving flutter developers more
@@ -366,7 +366,7 @@ export default function HybridMobile() {
                 faster. You should choose Flutter app development because it
                 allows for the rapid development of high-performance apps with
                 expressive and flexible UI, using minimal effort, time, and
-                code.{" "}
+                code.
               </>
             ),
           },
@@ -374,7 +374,7 @@ export default function HybridMobile() {
             question: "Is Flutter good for mobile app development?",
             answer: (
               <>
-                {" "}
+  
                 Flutter is a great choice for mobile app development. It is an
                 open-source UI toolkit created by Google to help developers
                 build beautiful and engaging apps quickly and efficiently.
@@ -383,7 +383,7 @@ export default function HybridMobile() {
                 hot reloading, extensive libraries of widgets, and its own
                 rendering engine, Flutter can help you create beautiful mobile
                 apps faster than ever before. These are some of the most
-                prominent reasons why Flutter is better for app development.{" "}
+                prominent reasons why Flutter is better for app development.
               </>
             ),
           },
@@ -391,7 +391,7 @@ export default function HybridMobile() {
             question: "What are some of the advantages of Flutter?",
             answer: (
               <>
-                {" "}
+  
                 The Flutter framework is quickly becoming one of the most
                 popular development tools around. It's easy to see why, as it
                 offers developers many advantages over traditional app
@@ -440,7 +440,7 @@ export default function HybridMobile() {
                 In short, Flutter application development is the ultimate choice
                 for app development because it offers an easy-to-use interface
                 and powerful features that make developing apps faster and
-                simpler.{" "}
+                simpler.
               </>
             ),
           },
@@ -448,7 +448,7 @@ export default function HybridMobile() {
             question: "What does Flutter Firebase do?",
             answer: (
               <>
-                {" "}
+  
                 Flutter Firebase is a mobile development platform that combines
                 the power of Flutter, Google's UI toolkit for building beautiful
                 apps, with the robustness and scalability of Firebase. It offers
@@ -460,7 +460,7 @@ export default function HybridMobile() {
                 enabling a smooth user experience. It also allows you to build
                 complex data structures without having to write complicated
                 code, making it perfect for quickly prototyping ideas and
-                building highly-functional applications.{" "}
+                building highly-functional applications.
               </>
             ),
           },

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React from "react";
-
+//
 const NewBannerabout = React.lazy(() => import("@/components/NewBannerabout"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const AboutIntro = React.lazy(() => import("@/components/AboutIntro"));
@@ -9,7 +9,9 @@ const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6")
 const Homenextproject = React.lazy(() => import("@/components/Homenextproject"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 
+
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -21,6 +23,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <NewBannerabout />
       <AboutIntro />
       <Nothing Nothing="nothingLphomefy" />

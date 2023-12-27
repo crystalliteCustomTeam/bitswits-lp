@@ -1,7 +1,5 @@
 import Head from "next/head";
-import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 // css //
 import styles from "@/styles/LpChoose.module.css";
 //components
@@ -33,7 +31,9 @@ const appletvappdevelopment = await import("../public/images/iosappdevelopment/a
 const iphoneappdesigning = await import("../public/images/iosappdevelopment/iphoneappdesigning.png");
 const hybridiphone = await import("../public/images/iosappdevelopment/hybridiphone.png");
 
+
 export default function gamedevelopmentcompany() {
+
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -110,6 +110,7 @@ export default function gamedevelopmentcompany() {
       ],
     },
   ];
+  
   return (
     <>
       <Head>

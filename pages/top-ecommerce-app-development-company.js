@@ -18,7 +18,9 @@ const EcommerceApp = React.lazy(() => import("@/components/EcommerceApp"));
 const EcommerceExperience = React.lazy(() => import("@/components/EcommerceExperience"));
 const EcommerceScale = React.lazy(() => import("@/components/EcommerceScale"));
 
+
 const Ecommerce = () => {
+
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -87,6 +89,7 @@ const Ecommerce = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <section>
         <div className={`${styles.awardsFold}`}>
           <div className="container-fluid px-0">

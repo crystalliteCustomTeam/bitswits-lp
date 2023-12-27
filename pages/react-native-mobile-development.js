@@ -1,14 +1,12 @@
 import Head from "next/head";
-import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 //components
-const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner")); 
-const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain")); 
-const Justbuildit = React.lazy(() => import("@/components/Justbuildit")); 
-const ServicesPortfolio = React.lazy(() => import("@/components/ServicesPortfolio")); 
+const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
+const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
+const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
+const ServicesPortfolio = React.lazy(() => import("@/components/ServicesPortfolio"));
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
-const Technologieswe = React.lazy(() => import("@/components/Technologieswe")); 
+const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
@@ -24,7 +22,7 @@ const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
 const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
 const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
 //images
-const BannerImage = await import("@/public/reactnativedevelopment/banner_image.png"); 
+const BannerImage = await import("@/public/reactnativedevelopment/banner_image.png");
 const customios = await import("../public/images/reactnativeappdevelopment/reactnativemobileappdevelopmentservices.png");
 const iphoneapp = await import("../public/images/reactnativeappdevelopment/expertreactnativecodedevelopmentservices.png");
 const applewatch = await import("../public/images/reactnativeappdevelopment/expertreactnativeappmaintenanceservices.png");
@@ -32,7 +30,9 @@ const appletvappdevelopment = await import("../public/images/reactnativeappdevel
 const iphoneappdesigning = await import("../public/images/reactnativeappdevelopment/customreactplugindevelopmentforapps.png");
 const hybridiphone = await import("../public/images/reactnativeappdevelopment/customreactnativeuiuxdesignforapps.png");
 
+
 export default function ReactNativeMobile() {
+
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -101,6 +101,7 @@ export default function ReactNativeMobile() {
       ],
     },
   ];
+
   return (
     <>
       <Head>
@@ -161,6 +162,7 @@ export default function ReactNativeMobile() {
         <meta name="ICBM" content="39.78373, -100.445882" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <ServicesBanner
         subtitle="BitsWits Is Your One-Stop Shop For"
         title={<> React Native App Development </>}
@@ -430,7 +432,7 @@ export default function ReactNativeMobile() {
             question:
               "Why is it necessary to hire React Native app developers for businesses?",
             answer: (
-              <> 
+              <>
                 Hiring React Native app developers for businesses is a smart
                 decision considering the wide range of benefits it provides.
                 With React Native, businesses can create high-quality
@@ -446,7 +448,7 @@ export default function ReactNativeMobile() {
                 accommodate complex features, such as real-time updates, payment
                 systems, and more. The framework also allows developers to reuse
                 code for multiple platforms, ultimately saving both time and
-                money for businesses. 
+                money for businesses.
               </>
             ),
           },
@@ -454,7 +456,7 @@ export default function ReactNativeMobile() {
             question:
               "Why is BitsWits the perfect company for native app development services?",
             answer: (
-              <> 
+              <>
                 BitsWits offers the best React Native app development services.
                 With our experienced team of developers, your project will be
                 completed quickly and efficiently. We are experts in developing
@@ -471,7 +473,7 @@ export default function ReactNativeMobile() {
                 encourages them to use your application frequently. We can help
                 you integrate features, design attractive interfaces, and
                 optimize your React Native iOS app for different devices. Hire
-                React JS application development expert now! 
+                React JS application development expert now!
               </>
             ),
           },

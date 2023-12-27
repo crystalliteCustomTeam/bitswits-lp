@@ -1,7 +1,6 @@
 import Head from "next/head";
 import React from "react";
 import Link from "next/link";
-
 // css
 import styles from "@/styles/bannerlp.module.css";
 import stylesjust from "@/styles/Justbuilditlp.module.css";
@@ -23,7 +22,9 @@ const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const NewFaqslp = React.lazy(() => import("@/components/NewFaqslp"));
 const HomeLocationlp = React.lazy(() => import("@/components/HomeLocationlp"));
 
+
 export default function gamedevelopmentcompany() {
+  
   return (
     <>
       <Head>

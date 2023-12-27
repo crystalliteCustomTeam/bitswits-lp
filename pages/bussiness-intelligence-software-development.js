@@ -1,9 +1,6 @@
 import Head from "next/head";
-import React from "react";
 import Image from "next/image";
-import { useState } from "react";
-import { useEffect } from "react";
-
+import React, { useState, useEffect } from "react";
 //components
 const Banner = React.lazy(() => import("@/components/new-bussiness-intelligence-page/BussinessIntelligenceBanner"));
 const Provideservices = React.lazy(() => import("@/components/new-bussiness-intelligence-page/Provideservices"));
@@ -20,7 +17,6 @@ const HomeBannerSlider = React.lazy(() => import("@/components/HomeBannerSlider"
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const People = React.lazy(() => import("@/components/People"));
 const BICards = React.lazy(() => import("@/components/BICards"));
-
 //images
 const BannerImage = await import("@/public/bussinessintelligence/bussiness-intelligence.png");
 const bestgloba11 = await import("../public/bussinessintelligence/bussinessicon1.png");
@@ -56,7 +52,9 @@ const js7 = await import("../public/bussinessintelligence/custom7.png");
 const js8 = await import("../public/bussinessintelligence/custom8.png");
 const js9 = await import("../public/bussinessintelligence/custom9.png");
 
+
 export default function mobileApplication() {
+
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -72,6 +70,7 @@ export default function mobileApplication() {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
   return (
     <>
       <Head>
@@ -85,6 +84,7 @@ export default function mobileApplication() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <Banner
         assignClass="bussiness"
         subtitle="Our Award-Winning"

@@ -15,7 +15,9 @@ const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 //images
 const banImg = await import("../public/images/hire-page/mobile/mbl.png");
 
+
 export default function MobileDeveloper() {
+
   const [showComponent, setShowComponent] = useState(false);
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -33,6 +35,7 @@ export default function MobileDeveloper() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+      
       <Banner
         subtitle={<> Hire </>}
         title={<> Hire Mobile App Developer </>}

@@ -17,6 +17,7 @@ const NewFaqslp = React.lazy(() => import("@/components/NewFaqslp"));
 const HomeLocationlp = React.lazy(() => import("@/components/HomeLocationlp"));
 const Expertapplp6 = React.lazy(() => import("@/components/Expertapplp6"));
 
+
 export default function gamedevelopmentcompany() {
   return (
     <>
@@ -29,6 +30,7 @@ export default function gamedevelopmentcompany() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+      
       <Bannerlpfinal newHomeBgprops="newHomeBg" />
       <Awardsrecognition />
       <Nothinglp2 Nothing="lp6final" />
