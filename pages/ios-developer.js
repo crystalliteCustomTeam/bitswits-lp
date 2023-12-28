@@ -88,7 +88,7 @@ export default function IosDeveloper() {
                 at. Nullam commodo mi tincidunt nulla facilisis, a interdum nibh
                 suscipit. Sed at ornare nunc.
               </>,
-            ],
+            ], 
           },
         ]}
         contentArray={[

@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 // css
 import styles from "@/styles/ServiceEngage.module.css";
 import style from "@/styles/Globallp.module.css";
-import styleTwo from "@/styles/Justbuildit.module.css";
+import styleTwo from "@/styles/Justbuildit.module.css"; 
 //components
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));

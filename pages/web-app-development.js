@@ -21,7 +21,7 @@ const WeworkLp = React.lazy(() => import("@/components/new-home-page-fy/WeworkLp
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
 const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
 
-
+ 
 export default function gamedevelopmentcompany() {
   return (
     <>

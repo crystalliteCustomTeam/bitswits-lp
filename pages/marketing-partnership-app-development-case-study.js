@@ -73,7 +73,7 @@ export default function Sponsord() {
         textArray1={[
           {
             title: (
-              <>
+              <> 
                 Marketing <span>Partnership App</span>
               </>
             ),

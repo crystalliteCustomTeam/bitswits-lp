@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function privacypolicy() {
   return (
-    <>
+    <> 
       <Head>
         <title>privacy policy - BitsWits</title>
         <meta

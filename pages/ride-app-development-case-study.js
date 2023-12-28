@@ -52,7 +52,7 @@ export default function RideMe() {
     }, 1000);
     return () => clearTimeout(timeout);
   }, []);
-
+ 
   return (
     <>
       <Head>

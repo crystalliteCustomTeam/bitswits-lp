@@ -115,7 +115,7 @@ export default function gamedevelopmentcompany() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-      
+
       <ServicesBanner
         subtitle="Revolutionizing & Creating A Smarter Future"
         title={<> Android App Development Company </>}
@@ -127,7 +127,14 @@ export default function gamedevelopmentcompany() {
             same, and neither should their apps be.
           </>
         }
-        BannerImage={BannerImage}
+        video={
+          <video
+            autoPlay
+            muted
+            src="../../bannerVideos/andriod.mp4"
+            className="w-50"
+          ></video>
+        }
       />
       <People People="people" />
       <HomeBannerSliderlp />
@@ -149,7 +156,7 @@ export default function gamedevelopmentcompany() {
             {
               title: (
                 <>
-    
+
                   Android App <br /> Integration
                 </>
               ),
@@ -159,7 +166,7 @@ export default function gamedevelopmentcompany() {
             {
               title: (
                 <>
-    
+
                   Android Game <br /> Development
                 </>
               ),
@@ -179,7 +186,7 @@ export default function gamedevelopmentcompany() {
               title: "Enterprise Android Apps",
               text: (
                 <>
-    
+
                   We can help streamline your business operations with our
                   enterprise Android app development services. Our solutions
                   cover all aspects, from employee communication and data
@@ -261,7 +268,7 @@ export default function gamedevelopmentcompany() {
             question: "What is best language for Android app development?",
             answer: (
               <>
-  
+
                 Android app development is a complex process that requires a
                 deep understanding of the best language for it. Java has been
                 the traditional go-to language for the android mobile app
@@ -277,7 +284,7 @@ export default function gamedevelopmentcompany() {
             question: "What is Android development?",
             answer: (
               <>
-  
+
                 Mobile app development android is the process of creating mobile
                 applications for Android devices. It involves writing code in
                 Java and Kotlin, integrating APIs, designing apps with a great
@@ -299,7 +306,7 @@ export default function gamedevelopmentcompany() {
             question: "How much does it cost to develop an Android app?",
             answer: (
               <>
-  
+
                 Designing an Android app can be a complex and expensive process.
                 But there is no one-size-fits-all answer to the question, "How
                 much does it cost to design an Android app?” The price of
@@ -319,7 +326,7 @@ export default function gamedevelopmentcompany() {
             question: "Who is a Google Android app developer?",
             answer: (
               <>
-  
+
                 Google Android app developer is a one-stop shop for developing
                 and launching Android apps. From creating an app concept to
                 distributing it on Google Play, this team of expert developers
@@ -337,7 +344,7 @@ export default function gamedevelopmentcompany() {
             question: "What is Android app development using Python?",
             answer: (
               <>
-  
+
                 Android app development using Python is the process of creating
                 native Android applications with the popular coding language
                 Python. This open-source programming language allows you to
@@ -362,7 +369,7 @@ export default function gamedevelopmentcompany() {
             question: "How much does it cost to hire an app developer?",
             answer: (
               <>
-  
+
                 Hiring an app developer to create a great user experience for
                 your business can be costly, but it doesn't have to break the
                 bank. The android app development cost varies widely and depends

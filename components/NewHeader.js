@@ -330,7 +330,7 @@ const HeaderNewDesign = () => {
                             >
                               <div className={styles.polo}>
                                 <h4>
-                                  Augmented <br /> Reality{" "}
+                                  Bussiness <br /> Intelligence{" "}
                                 </h4>
                                 <Image
                                   alt="bitswits"
@@ -667,6 +667,21 @@ const HeaderNewDesign = () => {
                               <div className={styles.dsicon}>
                                 <Image
                                   alt="bitswits"
+                                  src={Augment}
+                                  className="img-fluid"
+                                />
+                              </div>
+                              <ActiveLink
+                                handle={() => isToggleCloseMeg((prev) => !prev)}
+                                href="/augmented-reality-apps-development-company"
+                                text=" Augmented Reality App Development"
+                              />
+                            </li>
+                            <hr />
+                            <li className={styles.imgpost}>
+                              <div className={styles.dsicon}>
+                                <Image
+                                  alt="bitswits"
                                   src={blockchainIcon}
                                   className="img-fluid"
                                 />
@@ -705,21 +720,6 @@ const HeaderNewDesign = () => {
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                                 href="/cross-platform-app-development"
                                 text="Cross Platform App Development"
-                              />
-                            </li>
-                            <hr />
-                            <li className={styles.imgpost}>
-                              <div className={styles.dsicon}>
-                                <Image
-                                  alt="bitswits"
-                                  src={Augment}
-                                  className="img-fluid"
-                                />
-                              </div>
-                              <ActiveLink
-                                handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/augmented-reality-apps-development-company"
-                                text=" Augmented Reality App Development"
                               />
                             </li>
                           </ul>
@@ -820,8 +820,8 @@ const HeaderNewDesign = () => {
                               </div>
                               <ActiveLink
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/augmented-reality-apps-development-company"
-                                text="Augmented Reality App Development"
+                                href="/bussiness-intelligence-software-development"
+                                text="Bussiness Intelligence Software Development"
                               />
                             </li>
                             <hr />
@@ -901,7 +901,7 @@ const HeaderNewDesign = () => {
                               </div>
                               <ActiveLink
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/web-app-development"
+                                href="/custom-web-development-services"
                                 text="Web Development"
                               />
                             </li>
@@ -981,8 +981,8 @@ const HeaderNewDesign = () => {
                                 />
                               </div>
                               <ActiveLink
-                                href="/mobile-application"
-                                text="Mobile App Development"
+                                href="/ui-&-ux-design-and-development-services"
+                                text="UI & UX Design And Development "
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                               />
                             </li>

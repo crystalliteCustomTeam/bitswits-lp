@@ -272,7 +272,7 @@ export default function mobileApplication() {
                 is answered adequately to provide you with the utmost
                 satisfaction.
               </>
-            ),
+            ), 
           },
           {
             question: "What industries does BitsWits cater to?",

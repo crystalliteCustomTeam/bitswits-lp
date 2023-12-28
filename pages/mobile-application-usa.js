@@ -273,7 +273,7 @@ export default function mobileApplication() {
                 satisfaction.
               </>
             ),
-          },
+          }, 
           {
             question: "What industries does BitsWits cater to?",
             answer: (

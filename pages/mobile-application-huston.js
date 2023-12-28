@@ -274,7 +274,7 @@ export default function mobileApplication() {
               </>
             ),
           },
-          {
+          { 
             question: "What industries does BitsWits cater to?",
             answer: (
               <>

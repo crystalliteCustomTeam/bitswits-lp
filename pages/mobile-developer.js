@@ -47,7 +47,7 @@ export default function MobileDeveloper() {
         }
         banImg={banImg}
         bannerClass="mbl"
-      />
+      /> 
       <NewAddress />
       <HireLogoSlider />
       <NewHomeAbout addClass="mblHire" />

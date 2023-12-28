@@ -11,7 +11,7 @@ const Homenextproject = React.lazy(() => import("@/components/Homenextproject"))
 const Faqs = React.lazy(() => import("@/components/NewhomeFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 
-
+ 
 export default function OurWork() {
 
   const [showComponent, setShowComponent] = useState(false);

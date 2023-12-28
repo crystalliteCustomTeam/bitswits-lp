@@ -11,7 +11,7 @@ const CaseServices = React.lazy(() => import('@/components/CaseServices'));
 const CaseChoose = React.lazy(() => import('@/components/CaseChoose'));
 const CaseGlobal = React.lazy(() => import('@/components/CaseGlobal'));
 const CaseCapabilities = React.lazy(() => import('@/components/CaseCapabilities'));
-const Technologieswe = React.lazy(() => import('@/components/Technologieswe'));
+const Technologieswe = React.lazy(() => import('@/components/Technologieswe')); 
 const Nothing = React.lazy(() => import('@/components/Nothing'));
 const HomeLocation = React.lazy(() => import('@/components/HomeLocation'));
 //images

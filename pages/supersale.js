@@ -12,7 +12,7 @@ const Testimonailslider = React.lazy(() => import("@/components/Testimonailslide
 const Newfaqshome = React.lazy(() => import("@/components/Newfaqshome"));
 const Startaproject = React.lazy(() => import("@/components/Startaproject"));
 const Formnewlpnewhome = React.lazy(() => import("@/components/Formnewlpnewhome"));
-
+ 
 
 export default function Home() { 
   return (

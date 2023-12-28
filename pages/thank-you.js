@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 // CSS
 import styles from "@/styles/Newhomeanner.module.css";
-
+ 
 
 export default function ThankYou() {
   return (

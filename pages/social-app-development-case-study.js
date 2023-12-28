@@ -42,7 +42,7 @@ const chosImg6 = await import("../public/images/lp-images/icon6.png");
 const chosImg7 = await import("../public/images/lp-images/icon7.png");
 const chosImg8 = await import("../public/images/lp-images/icon8.png");
 const chosImg9 = await import("../public/images/lp-images/icon9.png");
-
+ 
 
 export default function SoulScribe() {
 

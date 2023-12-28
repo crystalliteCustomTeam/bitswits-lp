@@ -68,7 +68,7 @@ export default function RealState() {
         title={<> our Dream Home, One Tap Away </>}
         banImg={banImg}
         bannerClass="dreamhome"
-      />
+      /> 
       <CaseGlamic
         textArray1={[
           {

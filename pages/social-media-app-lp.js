@@ -21,7 +21,7 @@ const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const NewFaqslp = React.lazy(() => import("@/components/NewFaqslp"));
 const HomeLocationlp = React.lazy(() => import("@/components/HomeLocationlp"));
-
+ 
 
 export default function SocialMediaApp() {
 

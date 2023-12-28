@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React, { useState, useEffect } from "react";
-//components
+//components 
 const Banner = React.lazy(() => import("@/components/CaseBanner"));
 const CaseGlamic = React.lazy(() => import("@/components/CaseGlamic"));
 const CaseWants = React.lazy(() => import("@/components/CaseWants"));

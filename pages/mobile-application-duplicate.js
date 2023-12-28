@@ -94,7 +94,7 @@ export default function mobileApplication() {
           <>
             <h4 className="font20 font-bold text-white text-center">
               Why BitsWits?
-            </h4>
+            </h4> 
           </>
         }
         subtitle={

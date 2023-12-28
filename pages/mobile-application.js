@@ -22,7 +22,7 @@ const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 //images
 const BannerImage = await import("@/public/newMobilePageImages/banner_image.png");
 
-
+ 
 export default function mobileApplication() {
   return (
     <>
