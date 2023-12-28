@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
-import styles from '@/styles/Capabilities3d.module.css'
+import styles from '@/styles/Capabilities2d.module.css'
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";

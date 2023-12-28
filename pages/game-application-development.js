@@ -15,7 +15,7 @@ const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
 const ServicesFaqs = React.lazy(() => import("@/components/ServicesFaqs"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 const HomeBannerSlider = React.lazy(() => import("@/components/HomeBannerSlider"));
-const LpForm = React.lazy(() => import("@/components/LpForm"));
+const LpForm = React.lazy(() => import("@/components/LpFormprops"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const People = React.lazy(() => import("@/components/People"));
 const LpChoose = React.lazy(() => import("@/components/LpChoose"));
@@ -169,7 +169,10 @@ export default function Gameapplicationdevelopment() {
       />
       <People People="people" />
       <HomeBannerSlider />
-      <LpForm />
+      <LpForm
+        addresClass="iosclass"
+        heading={`Welcome to Bitswits, your gateway to exceptional gaming experiences! As a premier game development company, we specialize in turning imaginative concepts into stunning gaming experiences. Our team of mobile game developers is not just skilled; they're innovators dedicated to pushing the boundaries of what games can be. With our renowned game development services, we offer more than development; we offer a partnership focused on elevating your game to an art form. Choose Bitswits to bring your gaming vision to life and captivate players worldwide.`}
+      />
       <Nothing Nothing="nothingLp6" />
       <ServiceGenre
         addClass="gameApp"

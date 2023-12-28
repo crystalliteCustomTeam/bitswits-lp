@@ -196,20 +196,17 @@ export default function gamedevelopmentcompany() {
           appContent={[]}
           appContent1={[
             {
-              title: <> 2D Concept Art and Design </>,
+              title: <> 2D Concept <br /> Art and Design </>,
               text: "2D Concept Art and Design is an art form that combines creative design with technical know-how. Our team of experienced artists is well-versed in various techniques, including digital painting, 3D modeling, and animation. From character concept artwork to product designs, environments, and storyboards, we provide complete professional service for our clients.",
               appclass: "app",
             },
             {
               title: (
-                <>
-    
-                  Single Player <br /> Games
-                </>
+                <> Single Player <br /> Games </>
               ),
               text: (
                 <>
-    
+
                   Our team is well versed in various technologies such as C++,
                   Unity, Unreal Engine, HTML5, and more to provide a seamless
                   single-player gaming experience across different platforms.
@@ -224,14 +221,11 @@ export default function gamedevelopmentcompany() {
             },
             {
               title: (
-                <>
-    
-                  Game App <br /> Integration
-                </>
+                <> Game App <br /> Integration </>
               ),
               text: (
                 <>
-    
+
                   Our integration services offer a range of features across
                   platforms, including multiplayer mode, leaderboard
                   integration, in-app purchases, analytics, and more. Our
@@ -285,17 +279,17 @@ export default function gamedevelopmentcompany() {
         title="What Genre Of Games Do We Create?"
         sections={[
           {
-            title: <> iOS 2D Game Development </>,
+            title: <> iOS 2D <br /> Game Development </>,
             text: "We offer top-notch iOS 2D game development services that combine top-of-the-line technology and creative designs. BitsWits is a master at creating visually compelling games with captivating storylines, vibrant characters, and intense levels. From conceptualization to design and launch, our team ensures you get a complete gaming experience that stands out from the crowd.",
             gameicon: gameicon1,
           },
           {
-            title: <> Android 2D Game Development </>,
+            title: <> Android 2D <br /> Game Development </>,
             text: "BitsWits is the go-to destination for all your Android 2D game development needs. From creating solid and user-friendly architecture to stunning visuals and fast loading times, we ensure the outcome is exceptional. With our expertise in Java language and open-source platforms like Unity 2D & Unreal Engine, we provide high-end services for game development, design & testing.",
             gameicon: gameicon2,
           },
           {
-            title: <> 2D Games For Consoles And PCs </>,
+            title: <> 2D Games <br /> For Consoles And PCs </>,
             text: "BitsWits provides the best 2D games for PCs and consoles. With our expansive library of titles, you can get your hands on classic console and arcade games and explore new worlds full of adventure, excitement, and challenge. We create intricate storylines with captivating characters that draw players in from start to finish. We also work closely with our partners to develop world-class titles for platforms such as Xbox, PlayStation, Nintendo Switch, and Windows PC.",
             gameicon: gameicon3,
           },
@@ -358,7 +352,7 @@ export default function gamedevelopmentcompany() {
               "What are the stages and costs involved in iOS app development?",
             answer: (
               <>
-  
+
                 iOS development is a complex process that requires careful
                 planning and budgeting. The stages of iOS development involve
                 concepts to launch. The first stage is concept creation, which
@@ -376,7 +370,7 @@ export default function gamedevelopmentcompany() {
             question: "What are the types of iOS development?",
             answer: (
               <>
-  
+
                 iOS development is an incredibly versatile field. Whether you're
                 creating a brand-new app, tweaking an existing one, or
                 developing a mobile-friendly website, there are several
@@ -424,7 +418,7 @@ export default function gamedevelopmentcompany() {
               "Why you should consider investing in iOS app development?",
             answer: (
               <>
-  
+
                 Investing in iOS app development company is a great way to
                 ensure that your business stands out from the competition.
                 Here’s how:
@@ -468,7 +462,7 @@ export default function gamedevelopmentcompany() {
               "What are the programming language(s) for iOS development?",
             answer: (
               <>
-  
+
                 The best programming language for iOS development depends on the
                 app you want to create. If you’re just starting, consider
                 learning Swift—Apple’s modern and intuitive coding language. It
@@ -488,7 +482,7 @@ export default function gamedevelopmentcompany() {
             question: "What is Swift iOS app development?",
             answer: (
               <>
-  
+
                 Swift iOS App Development is the process of creating, coding,
                 and designing mobile applications for Apple's iOS operating
                 system. With Swift being an open-source language, it allows
@@ -507,7 +501,7 @@ export default function gamedevelopmentcompany() {
             question: "What are iOS app development services?",
             answer: (
               <>
-  
+
                 iOS app development company help businesses create custom,
                 engaging, and user-friendly applications for Apple's iOS
                 platform. With their experienced professionals, they provide
