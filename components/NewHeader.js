@@ -1075,18 +1075,12 @@ const HeaderNewDesign = () => {
                           </div>
                         </div>
                         <div className={styles.proper}>
-                          <h4>FOR BUSINESS CUSTOMERS</h4>
+                          <h4>Development Excellence with Bitswits</h4>
                           <h3>
-                            HIRING & TRAINING
+                            On Time, Within Budget
                           </h3>
                           <p>
-                            Welcome to Bitswits, where app creation meets
-                            innovation. Whether it's 'Creating an App,' 'Making
-                            an App,' or diving into 'iOS' or 'Android
-                            Application' development, we're your team. Let's
-                            turn your vision into reality with our leading-edge
-                            app development expertise. Our Client’s Feedback Has
-                            Been
+                            At Bitswits, we bridge your ideas with the real world, turning visions into vivid experiences. Innovation drives us, whether it's through mobile apps or blockchain technology, and we're committed to keeping you ahead. Our deep understanding of technology isn't just our craft; it's our passion, powering every unique solution we create for you. At Bitswits, we don't just build solutions; we craft a future where our success is intertwined with yours.
                           </p>
                         </div>
                         <div className={styles.slaes}>
@@ -1551,18 +1545,12 @@ const HeaderNewDesign = () => {
                           </div>
                         </div>
                         <div className={styles.proper}>
-                          <h4>FOR BUSINESS CUSTOMERS</h4>
+                          <h4>Development Excellence with Bitswits</h4>
                           <h3>
-                            HIRING & TRAINING
+                            On Time, Within Budget
                           </h3>
                           <p>
-                            Welcome to Bitswits, where app creation meets
-                            innovation. Whether it's 'Creating an App,' 'Making
-                            an App,' or diving into 'iOS' or 'Android
-                            Application' development, we're your team. Let's
-                            turn your vision into reality with our leading-edge
-                            app development expertise. Our Client’s Feedback Has
-                            Been
+                            At Bitswits, we bridge your ideas with the real world, turning visions into vivid experiences. Innovation drives us, whether it's through mobile apps or blockchain technology, and we're committed to keeping you ahead. Our deep understanding of technology isn't just our craft; it's our passion, powering every unique solution we create for you. At Bitswits, we don't just build solutions; we craft a future where our success is intertwined with yours.
                           </p>
                         </div>
                         <div className={styles.slaes}>

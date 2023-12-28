@@ -18,10 +18,8 @@ const HomeBannerSlider = React.lazy(() => import("@/components/HomeBannerSlider"
 const LpForm = React.lazy(() => import("@/components/LpFormprops"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const People = React.lazy(() => import("@/components/People"));
-const LpChoose = React.lazy(() => import("@/components/LpChoose"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const Globallp6 = React.lazy(() => import("@/components/GlobalLp6"));
-const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
 //images
@@ -384,9 +382,6 @@ export default function Gameapplicationdevelopment() {
         heading3="We Utilize Cutting-Edge Mobile Gaming Technologies!!!"
         content3="BitsWits collar the intricacies of mobile gaming technology and help develop a strategy for success. We use cutting-edge software, languages, and frameworks; you can enjoy superior graphics and sound that bring every battle, mission, or quest to life. Our innovative network protocols will keep your game running smoothly with low latency and excellent responsiveness."
       />
-
-      {/* <LpChoose transform="transform" /> */}
-
       <ServiceSolutions
         addClass="gameApp"
         title="Leverage Our Proficiency in Mobile Game Development Today"
@@ -439,7 +434,6 @@ export default function Gameapplicationdevelopment() {
         ]}
       />
       <Technologieswe />
-      {/* <Justbuildit /> */}
       <Globallp6 />
       <Partnerships />
       <Formnewlp />

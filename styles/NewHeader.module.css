@@ -557,12 +557,12 @@
   height: 105px;
   position: relative;
   background-color: #242429;
-
   flex: 0 0 32%;
   margin-bottom: 10px;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
 }
+
 .polo1 {
   display: flex;
   border-radius: 7px;
@@ -831,7 +831,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   text-align: justify;
 }
