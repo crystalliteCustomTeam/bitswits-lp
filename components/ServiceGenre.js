@@ -13,7 +13,7 @@ const ServiceGenre = (props) => {
                 <Container>
                     <Row className={styles.which}>
                         <Col xl={12}>
-                            <p className='text-center font20 font-bold'>{props.subTitle}</p>
+                            <p className='text-center font24 font-bold'>{props.subTitle}</p>
                             <h3 className='text-white text-center newchoose font-bold'>{props.title}</h3>
                         </Col>
                     </Row>

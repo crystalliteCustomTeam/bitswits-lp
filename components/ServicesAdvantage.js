@@ -11,10 +11,10 @@ const ServicesAdvantage = (props) => {
                 <section className={styles.creative}>
                     <Container>
                         <Row className={styles.game}>
-                            <Col lg={6}>
-                                <p className='font16 font-bold mb-0'>{props.subTitle}</p>
+                            <Col lg={12}>
+                                <p className='font24 font-bold text-center mb-0'>{props.subTitle}</p>
                                 <h2 className='newchoose'>{props.title}</h2>
-                                <h3 className='mb-5'>{props.text}</h3>
+                                <h3>{props.text}</h3>
                             </Col>
                         </Row>
 
@@ -55,7 +55,7 @@ const ServicesAdvantage = (props) => {
                             </Col>
                             <Col xl={6}>
                                 <div className={styles.tested}>
-                                    <Image quality={75} src={props.AdvantageOne} alt='BitsWits' className={props.css}/>
+                                    <Image quality={75} src={props.AdvantageOne} alt='BitsWits' className={`${props.css} img-fluid`} />
                                 </div>
                             </Col>
                         </Row>

@@ -7,8 +7,8 @@ const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
 const ServicesAdvantage = React.lazy(() => import("@/components/ServicesAdvantage"));
 const ServiceTarget = React.lazy(() => import("@/components/ServiceTarget"));
-const ServicesMaintain = React.lazy(() =>import("@/components/ServicesMaintain"));
-const ServiceSolutions = React.lazy(() =>import("@/components/ServiceSolutions"));
+const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
+const ServiceSolutions = React.lazy(() => import("@/components/ServiceSolutions"));
 const ServiceGenre = React.lazy(() => import("@/components/ServiceGenre"));
 const ServiceEngage = React.lazy(() => import("@/components/ServiceEngage"));
 const Newsuccess = React.lazy(() => import("@/components/NewMblSuccess"));
@@ -181,79 +181,20 @@ export default function Gameapplicationdevelopment() {
         sections={[
           {
             title: <> 2D Game Development </>,
-            text: "BitsWits ensure your vision is realized in an exciting, compelling 2D form from concept to completion. We specialize in pixel art and animations, level designs, scripting and effects, UI/UX design, audio production, and integration. Whether a simple arcade game, a complex platformer, puzzle-solving adventures, or an adventure-filled RPG, our team can design and develop the perfect game for you. Contact us today to bring your ideas to tangible reality!!!",
+            text: "Bitswits, a premier 2D game development company, transforms your vision into captivating 2D games. Specializing in comprehensive 2D game development services, we craft everything from pixel art to immersive RPGs. Trust us to bring your 2D game dreams to life with precision and creativity. Start your journey with us today.",
             gameicon: gameicon1,
           },
           {
             title: <> 3D Game Development </>,
-            text: "At BitsWits, we help you build 3D games that captivate your audience. Our experienced developers share an in-depth understanding of the latest technologies and techniques, i.e., Maya, 3ds Max, and whatnot, to ensure games that look and play like no other. By incorporating rendering techniques and advanced physics into each game, we simply help your project succeed in the fierce gaming competition! Connect with us to roll out a game never played before!",
+            text: "Enter a new era of gaming with Bitswits, your trusted 3D game development company. Our 3D game development services focus on creating rich, interactive worlds that enthrall and engage. With a team of skilled 3D game developers, we're dedicated to pushing boundaries and bringing your most ambitious projects to life—partner with us for unparalleled 3D experiences that captivate from every angle.",
             gameicon: gameicon2,
           },
           {
             title: <> NFT Game Development </>,
-            text: "BitsWits proudly shares its ability to create innovative and secure NFT games that give players control over their gaming assets, allowing them to be creative and have more ownership of the content they create in-game. By leveraging the power of DLT, we commit to high-quality, secure code that offers seamless UI with minimal latency. We disrupt every genre with our creative potential, from action, adventure, and strategy to simulations. Give us a try, and let us help you enter the crypto sphere with confidence!!!",
+            text: "BitsWits is an NFT game development company that offers innovative and secure NFT game development services for players who want more control over their gaming assets. Our team of skilled NFT game developers leverages the power of DLT to create high-quality, secure code that offers seamless UI with minimal latency.  Give us a try today!",
             gameicon: gameicon3,
           },
         ]}
-      />
-      <ServicesAdvantage
-        title={
-          <>
-            Bullet-Proof Game <br /> Development Action Plan
-          </>
-        }
-        text="Custom Development Roadmap For Games That Brings Fame"
-        title1="Ideation"
-        content1="We get our creative juices flowing by brainstorming ideas and concepts for your game. We work together to figure out what kind of game you want to create, the story behind it, and how you want players to interact with it."
-        title2="Testing"
-        content2="Before launching your game, we ensure it works properly by testing it thoroughly. This includes running the game on different platforms and devices to ensure everything runs smoothly."
-        title3="Design"
-        content3="We create a blueprint for your new game. This follows through designing all elements, from characters and levels to user interface features and environment settings. We ponder how each part fits together to work well in harmony."
-        title4="Finalization"
-        content4={
-          <>
-            Once we have tested your game, it's time to finalize by adding any
-            last-minute features or tweaks we think are necessary. Also, now's
-            the perfect time to start marketing your game! Let's get people
-            excited about it before launch day, so they can't wait to play.
-          </>
-        }
-        title5="Development"
-        content5="The development phase is where the real magic happens. Our experienced developers will bring your project to life by coding it and creating the graphics that you have designed."
-        title6="Launch"
-        content6={
-          <>
-            Now that your game is finished and tested, it's time to let the
-            world know about it. Finally, launch your game and watch as people
-            flock to play it!
-          </>
-        }
-        AdvantageOne={AdvantageOne}
-        css={styles.maxWidth}
-      />
-      <ServiceTarget
-        addClass="gameApp"
-        subTitle="Features Of Our Development Endeavors"
-        title={
-          <>
-            Invigorate Your Target Audience <br /> With Dynamic Gameplay
-          </>
-        }
-        text={
-          <>
-            It's time to develop compelling storylines and rich characters with
-            BitsWits; after all, don't you want to create an immersive
-            experience? <br></br> We use the latest technologies and
-            cutting-edge visuals to enable players to interact intuitively,
-            whether playing on a PC, console, or mobile device.
-          </>
-        }
-        heading1="We Ideate, Design, and Construct Expressive Games!!!"
-        content1="BitsWits bring your visions into gaming reality following a structured and mindful approach. Our ideation process starts by exploring potential themes and genres to create an ideal design concept. We then move on to planning out the game's structure and detailing the game design document. Once the plan is locked in, we move on to building the game prototype. Our team works in tandem to create the basic visuals and gameplay for the game with all features intact. The end result is nothing short of amazing - a game that best aligns with the interests and goals of the client and functions seamlessly!"
-        heading2="We Design Flawless, Captivating User Interfaces And Experiences!!!"
-        content2="BitsWits shares a renowned name in developing top-class UI/UX processes that glues gamers to the screen for stretched hours. Our in-depth analysis of user behavior helps us create the perfect interface for each game, ensuring that no two experiences are the same. Our industry-trained game developers develop UI/UX optimized for maximum engagement and satiation."
-        heading3="We Utilize Cutting-Edge Mobile Gaming Technologies!!!"
-        content3="BitsWits collar the intricacies of mobile gaming technology and help develop a strategy for success. We use cutting-edge software, languages, and frameworks; you can enjoy superior graphics and sound that bring every battle, mission, or quest to life. Our innovative network protocols will keep your game running smoothly with low latency and excellent responsiveness."
       />
       {isSliderActive ? (
         <ServicesMaintain
@@ -279,13 +220,13 @@ export default function Gameapplicationdevelopment() {
             {
               title: (
                 <>
-    
+
                   Unity 3D <br /> Games
                 </>
               ),
               text: (
                 <>
-    
+
                   We work with Unity 3D technology to foster unforgettable
                   gaming experiences that push the boundaries of what's
                   possible. Whether you want an action-packed shooter or a more
@@ -298,13 +239,13 @@ export default function Gameapplicationdevelopment() {
             {
               title: (
                 <>
-    
+
                   Virtual Reality <br /> Games
                 </>
               ),
               text: (
                 <>
-    
+
                   Producing immersive and mind-blowing virtual reality
                   experiences for gamers and businesses alike. Our games are
                   designed with the player's experience in mind and feature
@@ -318,13 +259,13 @@ export default function Gameapplicationdevelopment() {
             {
               title: (
                 <>
-    
+
                   3D Game <br /> Development
                 </>
               ),
               text: (
                 <>
-    
+
                   BitsWits masters the art of creating stunning 3D games,
                   harnessing the power of cutting-edge technology and
                   state-of-the-art tools. We know that a successful 3D game
@@ -388,14 +329,70 @@ export default function Gameapplicationdevelopment() {
       ) : (
         <ServicesMaintainmobile severcedata={severcedata} />
       )}
+      <ServicesAdvantage
+        subTitle={<> Bullet-Proof Game </>}
+        title={<> Development Action Plan </>}
+        title1="Ideation"
+        content1="We get our creative juices flowing by brainstorming ideas and concepts for your game. We work together to figure out what kind of game you want to create, the story behind it, and how you want players to interact with it."
+        title2="Testing"
+        content2="Before launching your game, we ensure it works properly by testing it thoroughly. This includes running the game on different platforms and devices to ensure everything runs smoothly."
+        title3="Design"
+        content3="We create a blueprint for your new game. This follows through designing all elements, from characters and levels to user interface features and environment settings. We ponder how each part fits together to work well in harmony."
+        title4="Finalization"
+        content4={
+          <>
+            Once we have tested your game, it's time to finalize by adding any
+            last-minute features or tweaks we think are necessary. Also, now's
+            the perfect time to start marketing your game! Let's get people
+            excited about it before launch day, so they can't wait to play.
+          </>
+        }
+        title5="Development"
+        content5="The development phase is where the real magic happens. Our experienced developers will bring your project to life by coding it and creating the graphics that you have designed."
+        title6="Launch"
+        content6={
+          <>
+            Now that your game is finished and tested, it's time to let the
+            world know about it. Finally, launch your game and watch as people
+            flock to play it!
+          </>
+        }
+        AdvantageOne={AdvantageOne}
+        css={styles.maxWidth}
+      />
+      <ServiceTarget
+        addClass="gameApp"
+        subTitle="Features Of Our Development Endeavors"
+        title={
+          <>
+            Invigorate Your Target Audience <br /> With Dynamic Gameplay
+          </>
+        }
+        text={
+          <>
+            It's time to develop compelling storylines and rich characters with
+            BitsWits; after all, don't you want to create an immersive
+            experience? <br></br> We use the latest technologies and
+            cutting-edge visuals to enable players to interact intuitively,
+            whether playing on a PC, console, or mobile device.
+          </>
+        }
+        heading1="We Ideate, Design, and Construct Expressive Games!!!"
+        content1="BitsWits bring your visions into gaming reality following a structured and mindful approach. Our ideation process starts by exploring potential themes and genres to create an ideal design concept. We then move on to planning out the game's structure and detailing the game design document. Once the plan is locked in, we move on to building the game prototype. Our team works in tandem to create the basic visuals and gameplay for the game with all features intact. The end result is nothing short of amazing - a game that best aligns with the interests and goals of the client and functions seamlessly!"
+        heading2="We Design Flawless, Captivating User Interfaces And Experiences!!!"
+        content2="BitsWits shares a renowned name in developing top-class UI/UX processes that glues gamers to the screen for stretched hours. Our in-depth analysis of user behavior helps us create the perfect interface for each game, ensuring that no two experiences are the same. Our industry-trained game developers develop UI/UX optimized for maximum engagement and satiation."
+        heading3="We Utilize Cutting-Edge Mobile Gaming Technologies!!!"
+        content3="BitsWits collar the intricacies of mobile gaming technology and help develop a strategy for success. We use cutting-edge software, languages, and frameworks; you can enjoy superior graphics and sound that bring every battle, mission, or quest to life. Our innovative network protocols will keep your game running smoothly with low latency and excellent responsiveness."
+      />
+
       {/* <LpChoose transform="transform" /> */}
+
       <ServiceSolutions
         addClass="gameApp"
         title="Leverage Our Proficiency in Mobile Game Development Today"
         text="Our team brings a wealth of expertise to the table. We celebrate a team of experts in game design, programming, and art direction, ensuring your vision for a video game comes to life with precision and accuracy."
         Solution={Solution}
       />
-     
       <ServiceEngage
         subTitle="HIRE THE BEST; FORGET THE REST!"
         title="Why Engage BitsWits As Your Game Development Studio?"
@@ -442,7 +439,7 @@ export default function Gameapplicationdevelopment() {
         ]}
       />
       <Technologieswe />
-      <Justbuildit />
+      {/* <Justbuildit /> */}
       <Globallp6 />
       <Partnerships />
       <Formnewlp />
@@ -453,7 +450,7 @@ export default function Gameapplicationdevelopment() {
               "What are the stages and costs involved in iOS app development?",
             answer: (
               <>
-  
+
                 iOS development is a complex process that requires careful
                 planning and budgeting. The stages of iOS development involve
                 concepts to launch. The first stage is concept creation, which
@@ -471,7 +468,7 @@ export default function Gameapplicationdevelopment() {
             question: "What are the types of iOS development?",
             answer: (
               <>
-  
+
                 iOS development is an incredibly versatile field. Whether you're
                 creating a brand-new app, tweaking an existing one, or
                 developing a mobile-friendly website, there are several
@@ -519,7 +516,7 @@ export default function Gameapplicationdevelopment() {
               "Why you should consider investing in iOS app development?",
             answer: (
               <>
-  
+
                 Investing in iOS app development company is a great way to
                 ensure that your business stands out from the competition.
                 Here’s how:
@@ -563,7 +560,7 @@ export default function Gameapplicationdevelopment() {
               "What are the programming language(s) for iOS development?",
             answer: (
               <>
-  
+
                 The best programming language for iOS development depends on the
                 app you want to create. If you’re just starting, consider
                 learning Swift—Apple’s modern and intuitive coding language. It
@@ -583,7 +580,7 @@ export default function Gameapplicationdevelopment() {
             question: "What is Swift iOS app development?",
             answer: (
               <>
-  
+
                 Swift iOS App Development is the process of creating, coding,
                 and designing mobile applications for Apple's iOS operating
                 system. With Swift being an open-source language, it allows
@@ -602,7 +599,7 @@ export default function Gameapplicationdevelopment() {
             question: "What are iOS app development services?",
             answer: (
               <>
-  
+
                 iOS app development company help businesses create custom,
                 engaging, and user-friendly applications for Apple's iOS
                 platform. With their experienced professionals, they provide
