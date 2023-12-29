@@ -21,7 +21,7 @@ const Startaproject = () => {
 
                                    <div class={styles.home}>
                                    <a href="tel:18335006007" class={styles.number}>Call Now: (833) 500-6007</a>
-                                    <a href="#" class={styles.live}>Start Iive
+                                    <a href="javascript:$zopim.livechat.window.show();" class={styles.live}>Start Iive
                                         Chat</a>
                                    </div>
                                 </div>

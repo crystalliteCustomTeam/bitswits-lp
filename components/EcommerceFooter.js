@@ -143,19 +143,19 @@ const EcommerceFooter = () => {
                                     <Link href="javascrtipt:;" className='font12 lightgrey'>Contact Us</Link>
                                 </li>
                                 <li className='mb-2'>
-                                    <Link href="mailto:;" className='font12 lightgrey'>
+                                    <Link href="mailto:info@BitsWits.co" className='font12 lightgrey'>
                                         <Image src={Envelop} alt='Envelope' />
                                         <span className='font12 lightgrey ms-2'>Contact Email</span>
                                     </Link>
                                 </li>
                                 <li className='mb-2'>
-                                    <Link href="tel:;" className='font12 lightgrey'>
+                                    <Link href="tel:+1 312 379 5987" className='font12 lightgrey'>
                                         <Image src={Phone} alt='Phone' className='mb-2' />
                                         <span className='font12 lightgrey ms-2'>+1 312 379 5987</span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="tel:;" className='font12 lightgrey'>
+                                    <Link href="tel:+18335006007" className='font12 lightgrey'>
                                         <Image src={Phone} alt='Phone' className='mb-2' />
                                         <span className='font12 lightgrey ms-2'>+1 833 500 6007</span>
                                     </Link>

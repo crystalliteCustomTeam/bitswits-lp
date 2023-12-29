@@ -93,7 +93,7 @@ const Innovate = () => {
                                 <h3 className={styles.build}>We Get It and We've Got Solutions</h3>
                             </div>
                             <div>
-                                <Link className={styles.expert} href='#'>Talk To An Expert</Link>
+                                <Link className={styles.expert} href='javascript:$zopim.livechat.window.show();'>Talk To An Expert</Link>
                             </div>
 
                         </Col>
