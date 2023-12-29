@@ -1095,7 +1095,7 @@ const HeaderNewDesign = () => {
                             </Link>
                           </p>
                           <p className="pb-0 mb-0">
-                            <Link href="#">
+                            <Link href="javascript:$zopim.livechat.window.show();">
                               <Image
                                 alt="bitswits"
                                 className="img-fluid"
@@ -1554,7 +1554,7 @@ const HeaderNewDesign = () => {
                             </Link>
                           </p>
                           <p className="pb-0 mb-0">
-                            <Link href="#">
+                            <Link href="javascript:$zopim.livechat.window.show();">
                               <Image
                                 alt="bitswits"
                                 className="img-fluid"

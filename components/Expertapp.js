@@ -144,7 +144,7 @@ export default function Expertapp(props) {
                         </Col>
                         <Col lg={12}>
                             <div className={styles.offer}>
-                                <Link className={styles.connect} href='#'>Your App, Our Expertise -  Let's Connect </Link>
+                                <Link className={styles.connect} href='javascript:$zopim.livechat.window.show();'>Your App, Our Expertise -  Let's Connect </Link>
                             </div>
                         </Col>
                     </Row>

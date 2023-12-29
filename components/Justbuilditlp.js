@@ -48,8 +48,8 @@ const Justbuildit = (props) => {
                             {props.para}
 
                             <div className={styles.pont}>
-                                <Link className={styles.about1} href="#">Book A Call</Link>
-                                <Link className={styles.about} href="#">Live Chat</Link>
+                                <Link className={styles.about1} href="tel:13123795987">Book A Call</Link>
+                                <Link className={styles.about} href="javascript:$zopim.livechat.window.show();">Live Chat</Link>
                             </div>
                         </Col>
                     </Row>

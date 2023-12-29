@@ -30,7 +30,7 @@ const ServiceBanner = (props) => {
                   BOOK A CALL
                 </Link>
 
-                <Link className={styles.about} href="tel:+18335006007">
+                <Link className={styles.about} href="javascript:$zopim.livechat.window.show();">
                   LET'S CONNECT
                 </Link>
               </div>

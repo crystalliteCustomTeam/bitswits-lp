@@ -21,8 +21,17 @@ import call from "@/public/images/fixed/call.webp"
 import Link from "next/link";
 import Image from "next/image";
 import { BsX } from "react-icons/bs";
+import Zendesk, { ZendeskAPI } from "../pages/zendex";
+const ZENDESK_KEY = "325da280-f4f0-4c80-997f-ea4de45eb2f1";
+
 
 export default function App({ Component, pageProps }) {
+
+
+  const handleLoaded = () => {
+    zE('webWidget:on', 'open', function () {
+    });
+  };
 
   const router = useRouter();
   // =======================================
@@ -146,10 +155,10 @@ export default function App({ Component, pageProps }) {
               <span className="close" onClick={() => loc()}>
                 {isHovered ?
 
-              <BsX />
-              :
-              'Get In Touch'
-            }
+                  <BsX />
+                  :
+                  'Get In Touch'
+                }
 
               </span>
               <form id="leadPopupForm" className="popup-form" data-hs-cf-bound="true">
@@ -205,6 +214,10 @@ export default function App({ Component, pageProps }) {
       ) : (
         <Footernewfy />
       )}
+
+      <div>
+        <Zendesk defer zendeskKey={ZENDESK_KEY} onLoaded={handleLoaded} />
+      </div>
     </>
   );
 }

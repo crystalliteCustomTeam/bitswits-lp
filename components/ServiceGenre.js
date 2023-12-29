@@ -24,7 +24,7 @@ const ServiceGenre = (props) => {
                                     <Image quality={75} alt='BitsWits' src={section.gameicon} className='img-fluid' />
                                     <h3>{section.title}</h3>
                                     <p>{section.text}</p>
-                                    <Link href='#'>LET's CONNECT</Link>
+                                    <Link href='javascript:$zopim.livechat.window.show();'>LET's CONNECT</Link>
                                 </div>
                             </Col>
                         ))}

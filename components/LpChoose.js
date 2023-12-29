@@ -154,7 +154,7 @@ const LpChoose = (props) => {
                 Every app we develop undergoes thorough quality checks to ensure{" "}
                 <span>IT'S NOT JUST GOOD, BUT GREAT</span>.
               </p>
-              <Link href="#" className={styles.dus}>
+              <Link href="javascript:$zopim.livechat.window.show();" className={styles.dus}>
                 Choose Expertise, Choose Bitswits – Let's Get Started
               </Link>
             </Col>

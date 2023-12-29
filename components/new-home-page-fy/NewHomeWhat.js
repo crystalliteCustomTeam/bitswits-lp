@@ -24,7 +24,7 @@ const NewHomeWhat = () => {
                                     Through Technological Excellence.</p>
                                 <p className={`${styles.width} fonthomereg`}>At Bitswits, we blend pioneering IT services and consulting with over a decade of expertise, helping businesses around the globe achieve their transformative goals.</p>
                                 <div className={styles.sec_btn}>
-                                    <Link href='javascript:;' className={`${styles.btn_txt} font-extrabold`}>
+                                    <Link href='javascript:$zopim.livechat.window.show();' className={`${styles.btn_txt} font-extrabold`}>
                                         Get To Know Us
                                     </Link>
                                 </div>
