@@ -20,6 +20,7 @@ import tel from "@/public/images/fixed/tel.webp"
 import call from "@/public/images/fixed/call.webp"
 import Link from "next/link";
 import Image from "next/image";
+import { BsX } from "react-icons/bs";
 
 export default function App({ Component, pageProps }) {
 
@@ -136,9 +137,9 @@ export default function App({ Component, pageProps }) {
           <span className="close" onClick={() => loc()}>
             {isHovered  ?
 
-              'x'
+              <BsX />
               :
-              ' Get In Touch'
+              'Get In Touch'
             }
 
           </span>
