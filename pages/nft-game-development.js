@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 // css
 import styles from "@/styles/ServiceEngage.module.css";
 import style from "@/styles/Globallp.module.css";
-import styleTwo from "@/styles/Justbuildit.module.css"; 
+import styleTwo from "@/styles/Justbuildit.module.css";
 //components
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
@@ -13,7 +13,6 @@ const Nothing = React.lazy(() => import("@/components/Nothing"));
 const LpChoose = React.lazy(() => import("@/components/LpChoose"));
 const HomeBannerSlider = React.lazy(() => import("@/components/HomeBannerSlider"));
 const Globallp6 = React.lazy(() => import("@/components/GlobalLp6"));
-const Technologieswe = React.lazy(() => import("@/components/NewMblTechnologiesWe"));
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
 const ServicesAdvantage = React.lazy(() => import("@/components/ServicesAdvantage"));
@@ -350,6 +349,7 @@ export default function gamedevelopmentcompany() {
         Solution={Solution}
       />
       <ServiceGenre
+        addClass="gameNft"
         subTitle="Services"
         title={
           <>
@@ -358,17 +358,17 @@ export default function gamedevelopmentcompany() {
         }
         sections={[
           {
-            title: <> NFT Game Concept Design </>,
+            title: <> NFT Game <br /> Concept Design </>,
             text: "We specialize in crafting engaging and entertaining NFT experiences through our unique approach to concept design and game mechanics. BitsWits is simply bridging the gap between concept and reality.",
             gameicon: gameicon1,
           },
           {
-            title: <> Play-to-Earn Game Development </>,
+            title: <> Play-to-Earn <br /> Game Development </>,
             text: "With our Play-to-Earn NFT games, you can create a unique game that rewards players with valuable digital tokens as they progress through levels or missions. It’s a great way to monetize your gaming experience and earn money while playing video games.",
             gameicon: gameicon2,
           },
           {
-            title: <> Custom NFT Game Development </>,
+            title: <> Custom NFT <br /> Game Development </>,
             text: "We use our cutting-edge technology and industry-leading expertise to create high-quality non-fungible tokens that allow you to offer exclusive gaming experiences like no other. We specialize in building custom NFT games that are fun and engaging and provide a truly memorable gaming experience.",
             gameicon: gameicon3,
           },
@@ -427,7 +427,6 @@ export default function gamedevelopmentcompany() {
           },
         ]}
       />
-      <Technologieswe />
       <Justbuildit paddingBottom={styleTwo.paddingBottom} />
       <Globallp6 paddingTop={style.paddingTop} />
       <Partnerships />

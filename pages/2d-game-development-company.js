@@ -6,7 +6,7 @@ const Globallp6 = React.lazy(() => import("@/components/GlobalLp6"));
 const HomeBannerSlider = React.lazy(() => import("@/components/HomeBannerSliderlp"));
 const LpChoose = React.lazy(() => import("@/components/LpChoose"));
 const LpForm = React.lazy(() => import("@/components/LpForm"));
-const Technologieswe = React.lazy(() => import("@/components/NewMblTechnologiesWe"));
+const TechnologiesGames = React.lazy(() => import("@/components/TechnologiesGames"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const People = React.lazy(() => import("@/components/People"));
@@ -29,16 +29,29 @@ const gameicon1 = await import("@/public/gameicon/ios2d.png");
 const gameicon2 = await import("@/public/gameicon/andriodgame.png");
 const gameicon3 = await import("@/public/gameicon/cons.png");
 const main = await import("@/public/shark/don.png");
-const engIcon1 = await import("@/public/shark/shark1.png");
-const engIcon2 = await import("@/public/shark/shrk12.png");
-const engIcon3 = await import("@/public/shark/shrk13.png");
-const engIcon4 = await import("@/public/shark/2322.png");
+const engIcon1 = await import("@/public/shark/2d-shark1.png");
+const engIcon2 = await import("@/public/shark/2d-shark2.png");
+const engIcon3 = await import("@/public/shark/2d-shark3.png");
+const engIcon4 = await import("@/public/shark/2d-shark4.png");
 const customios = await import("/public/2dgame/2dconceptartanddesign.png");
 const iphoneapp = await import("/public/2dgame/singleplayergames.png");
 const applewatch = await import("/public/2dgame/gameappintegration.png");
 const appletvappdevelopment = await import("/public/2dgame/multiplayergames.png");
 const iphoneappdesigning = await import("/public/2dgame/uigraphics.png");
 const hybridiphone = await import("/public/2dgame/storyboarding.png");
+//
+const techIcon1 = await import("../public/gametech/2d/icon1.png");
+const techIcon2 = await import("../public/gametech/2d/icon2.png");
+const techIcon3 = await import("../public/gametech/2d/icon3.png");
+const techIcon4 = await import("../public/gametech/2d/icon4.png");
+const techIcon5 = await import("../public/gametech/2d/icon5.png");
+const techIcon6 = await import("../public/gametech/2d/icon6.png");
+const techIcon7 = await import("../public/gametech/2d/icon7.png");
+const techIcon8 = await import("../public/gametech/2d/icon8.png");
+const techIcon9 = await import("../public/gametech/2d/icon9.png");
+const techIcon10 = await import("../public/gametech/2d/icon10.png");
+const techIcon11 = await import("../public/gametech/2d/icon11.png");
+const techIcon12 = await import("../public/gametech/2d/icon12.png");
 
 
 export default function gamedevelopmentcompany() {
@@ -341,7 +354,23 @@ export default function gamedevelopmentcompany() {
           },
         ]}
       />
-      <Technologieswe />
+      <TechnologiesGames
+        title={<>  2D Game Development </>}
+        platforms={[
+          { icon: techIcon1, label: 'HTML 5' },
+          { icon: techIcon2, label: 'Unity 2D' },
+          { icon: techIcon3, label: 'Unreal Engine' },
+          { icon: techIcon4, label: 'Android SDK' },
+          { icon: techIcon5, label: 'CryEngine' },
+          { icon: techIcon6, label: 'Game Maker Studio 2' },
+          { icon: techIcon7, label: 'Corona SDK' },
+          { icon: techIcon8, label: 'AppGameKit' },
+          { icon: techIcon9, label: 'SpriteKit' },
+          { icon: techIcon10, label: 'Godot Engine' },
+          { icon: techIcon11, label: 'Cocos 2D' },
+          { icon: techIcon12, label: 'Amazon Lumberyard' }
+        ]}
+      />
       <Globallp6 />
       <Partnerships />
       <Formnewlp />

@@ -77,7 +77,7 @@ const Headerlphome = () => {
                                             <h4 class="font-25 font-bold color-p" data-scroll data-scroll-speed="0.3">Elevate Your Mobile App
                                                 Experience With
                                             </h4>
-                                            <h1 class="font-60 font-bold text-gradient gradient1" data-scroll data-scroll-speed="0.3">Top Mobile App Development
+                                            <h1 class="font-60 font-bold text-gradient gradient1" data-scroll data-scroll-speed="0.3">Top Mobile App Developers
                                             </h1>
                                             <p class=""> Let us help you bring your vision to life and take your
                                                 business to

@@ -55,7 +55,7 @@ export default function App({ Component, pageProps }) {
     router.pathname == "/mobile-application-los-angeles" ||
     router.pathname == "/mobile-application-duplicate" ||
     router.pathname == "/mobile-application-duplicate2" ||
-    router.pathname == "/mobile-app-development-company-lp" ||
+    router.pathname == "/top-mobile-app-development-company" ||
     router.pathname == "/mobile-app-development-company-lp2" ||
     router.pathname == "/game-application-development" ||
     router.pathname == "/nft-game-development" ||
@@ -81,18 +81,18 @@ export default function App({ Component, pageProps }) {
     router.pathname == "/native-developer" ||
     router.pathname == "/mobile-developer" ||
     router.pathname == "/top-ecommerce-app-development-company" ||
-    router.pathname == "/mobile-app-development-company-lp" ||
-    router.pathname == "/mobile-app-development-services-landing-page-final" ||
-    router.pathname == "/mobile-app-development-company-lp6";
+    router.pathname == "/top-mobile-app-development-company" ||
+    router.pathname == "/mobile-app-development-services" ||
+    router.pathname == "/create-a-mobile-app";
   // =======================================
   const mblLp1 =
-    router.pathname == "/mobile-app-development-company-lp" ||
-    router.pathname == "/mobile-app-development-services-landing-page-final" ||
-    router.pathname == "/mobile-app-development-company-lp6";
+    router.pathname == "/top-mobile-app-development-company" ||
+    router.pathname == "/mobile-app-development-services" ||
+    router.pathname == "/create-a-mobile-app";
   // =======================================
   const newlps = router.pathname == "/mobile-app-development-company-lp2";
   // =======================================
-  const newhomepage = router.pathname == "/supersale";
+  const newhomepage = router.pathname == "/top-mobile-app-developers";
   // =======================================
   const newecommercepage =
     router.pathname == "/top-ecommerce-app-development-company";

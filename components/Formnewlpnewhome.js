@@ -32,7 +32,7 @@ const Formnewlpnewhome = () => {
                                 <input type='email' name='email' required className='form-control mt-3' placeholder="Enter your Email"></input>
                                 <textarea placeholder='Comment' className='form-control mt-3'></textarea>
                                 <input type='submit' name='submit' className={styles.value} placeholder="Submit"></input>
-                                <p className='font12 white fw300 center mt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                <p className='font12 white fw300 center mt-3'>We will handle your data in accordance with our <Link className='newfycolr' href="/privacy-policy">Privacy Policy</Link></p>
                             </form>
 
                         </Col>

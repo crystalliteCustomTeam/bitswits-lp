@@ -14,7 +14,7 @@ const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const People = React.lazy(() => import("@/components/People"));
 const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
-const LpChoose = React.lazy(() => import("@/components/LpChoose")); 
+const LpChoose = React.lazy(() => import("@/components/LpChoose"));
 const LpForm = React.lazy(() => import("@/components/LpForm6"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
@@ -175,7 +175,14 @@ export default function ReactNativeMobile() {
             flexibility.
           </>
         }
-        BannerImage={BannerImage}
+        video={
+          <video
+            autoPlay
+            muted
+            src="../../bannerVideos/react.mp4"
+            className="w-50"
+          ></video>
+        }
         assignClass="react"
       />
       <People People="people" />

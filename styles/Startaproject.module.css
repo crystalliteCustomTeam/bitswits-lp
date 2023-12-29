@@ -1,5 +1,6 @@
 .still {
-  background-color: black;
+  background-color: #000;
+  margin-top: -250px;
 }
 
 .start {
@@ -7,10 +8,11 @@
 }
 
 .gulop {
-  background-color: black;
+  background-color: #f32f53;
   position: relative;
   top: -100px;
   border-radius: 25px;
+  padding: 30px 0;
 }
 
 .startproject {
@@ -21,13 +23,14 @@
 }
 
 .gulop h3 {
-  color: #f32f53;
+  color: #fff;
   font-size: 23px;
 }
 
 .gulop h4 {
   font-weight: bold;
   font-size: 28px;
+  margin-bottom: 20px;
 }
 
 .number {
@@ -45,13 +48,14 @@
 .live {
   width: 136px;
   height: 43px;
-  background-color: #f32f53;
+  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 13px;
   color: white;
   border-radius: 10px;
+  border: 1px solid #fff;
 }
 
 .home {
@@ -60,13 +64,11 @@
 }
 
 @media screen and (max-width: 1200px) {
-
   .startproject {
     position: unset;
     margin-top: 50px;
     width: 100%;
     height: auto;
-
   }
 
   .gulop h4 {
@@ -76,11 +78,9 @@
     padding-top: 10px;
     padding-bottom: 15px;
   }
-
 }
 
 @media screen and (max-width: 480px) {
-
   .number,
   .live {
     width: 100%;

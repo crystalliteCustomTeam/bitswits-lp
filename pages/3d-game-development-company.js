@@ -19,7 +19,7 @@ const HomeBannerSlider = React.lazy(() => import("@/components/HomeBannerSliderl
 const Justbuildit = React.lazy(() => import("@/components/Justbuildit"));
 const LpChoose = React.lazy(() => import("@/components/LpChoose"));
 const LpForm = React.lazy(() => import("@/components/LpForm"));
-const Technologieswe = React.lazy(() => import("@/components/NewMblTechnologiesWe"));
+const TechnologiesGames = React.lazy(() => import("@/components/TechnologiesGames"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const People = React.lazy(() => import("@/components/People"));
@@ -42,6 +42,9 @@ const applewatch = await import("/public/3dapp/advanced3dvideos.png");
 const appletvappdevelopment = await import("/public/3dapp/3dgameappintegration.png");
 const iphoneappdesigning = await import("/public/3dapp/3dimaginingart.png");
 const hybridiphone = await import("/public/3dapp/supportandmaintenance.png");
+//
+const techIcon1 = await import("../public/gametech/2d/icon1.png");
+const techIcon2 = await import("../public/gametech/2d/icon2.png");
 
 
 const mobileApplication = () => {
@@ -218,7 +221,7 @@ const mobileApplication = () => {
             {
               title: (
                 <>
-    
+
                   3D Game <br /> Concept Art
                 </>
               ),
@@ -228,7 +231,7 @@ const mobileApplication = () => {
             {
               title: (
                 <>
-    
+
                   3D Web and App <br /> Development
                 </>
               ),
@@ -238,7 +241,7 @@ const mobileApplication = () => {
             {
               title: (
                 <>
-    
+
                   Advanced <br /> 3D Videos
                 </>
               ),
@@ -282,6 +285,7 @@ const mobileApplication = () => {
         Solution={Solution}
       />
       <ServiceGenre
+        addClass="game3d"
         subTitle="OUR SERVICES ARE WHERE INNOVATION MEETS PLAY"
         title="What Genre Of Games Do We Create?"
         sections={[
@@ -348,7 +352,13 @@ const mobileApplication = () => {
           },
         ]}
       />
-      <Technologieswe />
+      <TechnologiesGames
+        title={<>  3D Game Development </>}
+        platforms={[
+          { icon: techIcon1, label: 'python' },
+          { icon: techIcon2, label: 'Unity' }
+        ]}
+      />
       <Justbuildit />
       <Globallp6 />
       <Partnerships />
@@ -360,7 +370,7 @@ const mobileApplication = () => {
               "What are the stages and costs involved in iOS app development?",
             answer: (
               <>
-  
+
                 iOS development is a complex process that requires careful
                 planning and budgeting. The stages of iOS development involve
                 concepts to launch. The first stage is concept creation, which
@@ -378,7 +388,7 @@ const mobileApplication = () => {
             question: "What are the types of iOS development?",
             answer: (
               <>
-  
+
                 iOS development is an incredibly versatile field. Whether you're
                 creating a brand-new app, tweaking an existing one, or
                 developing a mobile-friendly website, there are several
@@ -426,7 +436,7 @@ const mobileApplication = () => {
               "Why you should consider investing in iOS app development?",
             answer: (
               <>
-  
+
                 Investing in iOS app development company is a great way to
                 ensure that your business stands out from the competition.
                 Here’s how:
@@ -470,7 +480,7 @@ const mobileApplication = () => {
               "What are the programming language(s) for iOS development?",
             answer: (
               <>
-  
+
                 The best programming language for iOS development depends on the
                 app you want to create. If you’re just starting, consider
                 learning Swift—Apple’s modern and intuitive coding language. It
@@ -490,7 +500,7 @@ const mobileApplication = () => {
             question: "What is Swift iOS app development?",
             answer: (
               <>
-  
+
                 Swift iOS App Development is the process of creating, coding,
                 and designing mobile applications for Apple's iOS operating
                 system. With Swift being an open-source language, it allows
@@ -509,7 +519,7 @@ const mobileApplication = () => {
             question: "What are iOS app development services?",
             answer: (
               <>
-  
+
                 iOS app development company help businesses create custom,
                 engaging, and user-friendly applications for Apple's iOS
                 platform. With their experienced professionals, they provide

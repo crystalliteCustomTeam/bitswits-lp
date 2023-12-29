@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 // style
 import styles from "@/styles/ServicesAdvantage.module.css";
 //components
-const Technologieswe = React.lazy(() => import("@/components/Technologieswe"));
+const TechnologiesGames = React.lazy(() => import("@/components/TechnologiesGames"));
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
 const ServicesAdvantage = React.lazy(() => import("@/components/ServicesAdvantage"));
 const ServiceTarget = React.lazy(() => import("@/components/ServiceTarget"));
@@ -30,10 +30,10 @@ const gameicon1 = await import("@/public/gameicon/1.png");
 const gameicon2 = await import("@/public/gameicon/2.png");
 const gameicon3 = await import("@/public/gameicon/3.png");
 const main = await import("@/public/shark/main.png");
-const engIcon1 = await import("@/public/shark/shark.png");
-const engIcon2 = await import("@/public/shark/shark2.png");
-const engIcon3 = await import("@/public/shark/shark3.png");
-const engIcon4 = await import("@/public/shark/shark4.png");
+const engIcon1 = await import("@/public/shark/game-shark1.png");
+const engIcon2 = await import("@/public/shark/game-shark2.png");
+const engIcon3 = await import("@/public/shark/game-shark3.png");
+const engIcon4 = await import("@/public/shark/game-shark4.png");
 const customios = await import("../public/images/gameappdevelopement/unity3dgames.png");
 const iphoneapp = await import("../public/images/gameappdevelopement/virtualrealitygames.png");
 const applewatch = await import("../public/images/gameappdevelopement/3dgamedevelopment.png");
@@ -42,6 +42,13 @@ const iphoneappdesigning = await import("../public/images/gameappdevelopement/ar
 const hybridiphone = await import("../public/images/gameappdevelopement/mrgamedevelopment.png");
 const react = await import("../public/images/gameappdevelopement/crossplatformgamedevelopment.png");
 const reactnative = await import("../public/images/gameappdevelopement/buildboxgamedevelopment.png");
+//
+const techIcon1 = await import("../public/gametech/game/icon1.png");
+const techIcon2 = await import("../public/gametech/game/icon2.png");
+const techIcon3 = await import("../public/gametech/game/icon3.png");
+const techIcon4 = await import("../public/gametech/game/icon4.png");
+const techIcon5 = await import("../public/gametech/game/icon5.png");
+const techIcon6 = await import("../public/gametech/game/icon6.png");
 
 
 export default function Gameapplicationdevelopment() {
@@ -433,7 +440,17 @@ export default function Gameapplicationdevelopment() {
           },
         ]}
       />
-      <Technologieswe />
+      <TechnologiesGames
+        title={<>  Game Development </>}
+        platforms={[
+          { icon: techIcon1, label: 'HTML 5' },
+          { icon: techIcon2, label: 'Unity' },
+          { icon: techIcon3, label: 'Unreal Engine' },
+          { icon: techIcon4, label: 'Photon' },
+          { icon: techIcon5, label: 'Cocos 2D' },
+          { icon: techIcon6, label: 'Smartfox Server' },
+        ]}
+      />
       <Globallp6 />
       <Partnerships />
       <Formnewlp />

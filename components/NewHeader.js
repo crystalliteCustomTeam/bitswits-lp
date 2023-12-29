@@ -14,9 +14,10 @@ import Modal from "react-bootstrap/Modal";
 import Bitswitspopup from "../components/Bitswitspopup";
 // images
 import logo from "../public/images/icons/footerlogo.webp";
-import icontwo from "../public/images/newfydemand/icontwo.svg";
-import call from "../public/images/icons/phone-icon.webp";
-import mail from "../public/images/icons/email-icon.webp";
+import discount from "../public/headerbits/discount.jpg";
+import cta1 from "../public/headerbits/cta1.png";
+import cta2 from "../public/headerbits/cta2.png";
+import cta3 from "../public/headerbits/cta3.png";
 import mbllogo from "../public/images/icons/footerlogo.png";
 ///// New Images Import
 import IOS from "public/images/icons/ios.png";
@@ -396,7 +397,7 @@ const HeaderNewDesign = () => {
                                 />
                               </div>
                               <ActiveLink
-                                href="/mobile-application"
+                                href="/top-mobile-app-development-company"
                                 text="Mobile App Development"
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
                               />
@@ -1053,26 +1054,11 @@ const HeaderNewDesign = () => {
                     <Col lg={4} className={`${styles.newset}`}>
                       <div className={styles.lptow}>
                         <div className={styles.newbits}>
-                          <div>
-                            <h6>
-                              Train Now, <br></br>{" "}
-                              <span className={styles.pay}>Pay Later</span>{" "}
-                            </h6>
-                            <p>Book now and pay in instalments</p>
-                            <Link href="#">
-                              Learn more{" "}
-                              <RiArrowDropRightLine
-                                className={styles.train12}
-                              />{" "}
-                            </Link>
-                          </div>
-                          <div>
-                            <Image
-                              alt="bitswits"
-                              src={icontwo}
-                              className="img-fluid"
-                            />
-                          </div>
+                          <Image
+                            alt="bitswits"
+                            src={discount}
+                            className="img-fluid"
+                          />
                         </div>
                         <div className={styles.proper}>
                           <h4>Development Excellence with Bitswits</h4>
@@ -1085,23 +1071,22 @@ const HeaderNewDesign = () => {
                         </div>
                         <div className={styles.slaes}>
                           <p className="pb-0 mb-0">
-                            {" "}
-                            <Link href="tel:18335006007">
+                            <Link href="tel:+1 833 500 6007">
                               <Image
                                 alt="bitswits"
                                 className="img-fluid"
-                                src={call}
+                                src={cta1}
                                 loading="lazy"
                               />
-                              <span className="number">+1 833 500 6007</span>
+                              <span className="number">BOOK A CALL</span>
                             </Link>
                           </p>
-                          <p>
-                            <Link href="mailto:info@BitsWits.co">
+                          <p className="pb-0 mb-0">
+                            <Link href="mailto:info@BitsWits.co" className={styles.saleEmail}>
                               <Image
                                 alt="bitswits"
                                 className="img-fluid"
-                                src={mail}
+                                src={cta2}
                                 loading="lazy"
                               />
                               <span className="email f-uppercase">
@@ -1109,10 +1094,17 @@ const HeaderNewDesign = () => {
                               </span>
                             </Link>
                           </p>
-                          <p className="mb-0 pb-3">
-                            <Link href="#" className={styles.newyork}>
-                              Learn More{" "}
-                              <RiArrowDropRightLine className={styles.train} />
+                          <p className="pb-0 mb-0">
+                            <Link href="#">
+                              <Image
+                                alt="bitswits"
+                                className="img-fluid"
+                                src={cta3}
+                                loading="lazy"
+                              />
+                              <span className="email f-uppercase">
+                                Lets Chat
+                              </span>
                             </Link>
                           </p>
                         </div>
@@ -1319,7 +1311,6 @@ const HeaderNewDesign = () => {
                         </div>
                       </div>
                     </Col>
-
                     <Col lg={4} className={`${styles.menupostblog1} ${styles.menupostblog2} pt-4`}>
                       <div>
                         {activeTab2 == "tab1" && (
@@ -1519,59 +1510,42 @@ const HeaderNewDesign = () => {
                         )}
                       </div>
                     </Col>
-
                     <Col lg={4} className={`${styles.newset}`}>
                       <div className={`${styles.lptow} ${styles.lptow2}`}>
                         <div className={styles.newbits}>
-                          <div>
-                            <h6>
-                              Train Now, <br></br>{" "}
-                              <span className={styles.pay}>Pay Later</span>{" "}
-                            </h6>
-                            <p>Book now and pay in instalments</p>
-                            <Link href="#">
-                              Learn more{" "}
-                              <RiArrowDropRightLine
-                                className={styles.train12}
-                              />{" "}
-                            </Link>
-                          </div>
-                          <div>
-                            <Image
-                              alt="bitswits"
-                              src={icontwo}
-                              className="img-fluid"
-                            />
-                          </div>
+                          <Image
+                            alt="bitswits"
+                            src={discount}
+                            className="img-fluid"
+                          />
                         </div>
                         <div className={styles.proper}>
-                          <h4>Development Excellence with Bitswits</h4>
+                          <h4>Crafting Success with Bitswits</h4>
                           <h3>
-                            On Time, Within Budget
+                            Your Vision, Our Expertise
                           </h3>
                           <p>
-                            At Bitswits, we bridge your ideas with the real world, turning visions into vivid experiences. Innovation drives us, whether it's through mobile apps or blockchain technology, and we're committed to keeping you ahead. Our deep understanding of technology isn't just our craft; it's our passion, powering every unique solution we create for you. At Bitswits, we don't just build solutions; we craft a future where our success is intertwined with yours.
+                            At Bitswits, we place your project at the center of our world. Our team approaches each endeavor with a deep respect for your vision, combining it with our extensive expertise to turn ambitious ideas into tangible successes. We understand that behind every project is a dream, a goal, and a unique set of challenges, and we're committed to honoring that with the highest level of skill, care, and dedication. Here, your project isn't just another task—it's a mission fueled by our passion to see you thrive.
                           </p>
                         </div>
                         <div className={styles.slaes}>
                           <p className="pb-0 mb-0">
-                            {" "}
-                            <Link href="tel:18335006007">
+                            <Link href="tel:+1 833 500 6007">
                               <Image
                                 alt="bitswits"
                                 className="img-fluid"
-                                src={call}
+                                src={cta1}
                                 loading="lazy"
                               />
-                              <span className="number">+1 833 500 6007</span>
+                              <span className="number">BOOK A CALL</span>
                             </Link>
                           </p>
-                          <p>
-                            <Link href="mailto:info@BitsWits.co">
+                          <p className="pb-0 mb-0">
+                            <Link href="mailto:info@BitsWits.co" className={styles.saleEmail}>
                               <Image
                                 alt="bitswits"
                                 className="img-fluid"
-                                src={mail}
+                                src={cta2}
                                 loading="lazy"
                               />
                               <span className="email f-uppercase">
@@ -1579,10 +1553,17 @@ const HeaderNewDesign = () => {
                               </span>
                             </Link>
                           </p>
-                          <p className="mb-0 pb-3">
-                            <Link href="#" className={styles.newyork}>
-                              Learn More{" "}
-                              <RiArrowDropRightLine className={styles.train} />
+                          <p className="pb-0 mb-0">
+                            <Link href="#">
+                              <Image
+                                alt="bitswits"
+                                className="img-fluid"
+                                src={cta3}
+                                loading="lazy"
+                              />
+                              <span className="email f-uppercase">
+                                Lets Chat
+                              </span>
                             </Link>
                           </p>
                         </div>

@@ -414,9 +414,8 @@
   display: flex;
   align-items: center;
   background-color: #333;
-  margin: 25px;
+  margin: 20px 22px;
   border-radius: 5px;
-  padding: 15px;
   margin-top: 0;
 }
 
@@ -448,11 +447,32 @@
 .slaes {
   margin: 25px;
   margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.slaes img {
+  width: 50px;
+  height: 40px;
+}
+
+.saleEmail img {
+  width: 60px;
+  height: 45px;
 }
 
 .slaes a {
   color: white;
+  font-size: 14px;
   font-weight: 600;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 20px;
 }
 
 .proper h4 {
@@ -462,13 +482,13 @@
 }
 
 .proper p {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 500;
   color: white;
 }
 
 .proper h3 {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 800;
   color: white;
 }

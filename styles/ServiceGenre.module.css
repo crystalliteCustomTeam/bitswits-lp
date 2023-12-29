@@ -63,13 +63,23 @@
 .bod img {
   height: 250px;
   object-fit: contain;
+  margin: 0 auto;
 }
 
 .gameApp .bod img {
-  height: 250px;
   width: 200px;
-  margin: 0 auto;
-  object-fit: contain;
+  height: 250px;
+}
+
+.game3d .bod img {
+  width: 120px;
+  height: 180px;
+}
+
+.gameNft .bod img {
+  width: 100px;
+  height: 150px;
+  margin-bottom: 30px;
 }
 
 .bod p {

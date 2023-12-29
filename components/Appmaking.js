@@ -108,7 +108,7 @@ const Appmaking = () => {
                                         <li class="white mt-3">Cost-Effective Single Codebase Solution.</li>
                                     </ul>
 
-                                    <Link href='#' className={styles.live}>Start <br></br> Live</Link>
+                                    <Link href='#' className={styles.live}>Start <br /> Live Chat</Link>
 
                                 </div>
 
@@ -157,7 +157,7 @@ const Appmaking = () => {
                                             <li class="white mt-3">Cost-Effective Single Codebase Solution.</li>
                                         </ul>
 
-                                        <Link href='#' className={styles.live}>Start <br></br> Live</Link>
+                                        <Link href='#' className={styles.live}>Start <br /> Live Chat</Link>
 
                                     </div>
                                 </Col>

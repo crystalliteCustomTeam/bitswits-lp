@@ -26,7 +26,7 @@ const Bannerlpfinal = (props) => {
                     <Row className={`${styles.alignpost} gx-5`}>
                         <Col xl={7}>
                             <div className={` ${styles.conform} ${styles.oppp}`}>
-                                <h4 className='font-bold white f-25'>Mobile App Development Services</h4>
+                                <h1 className='font-bold white f-25'>Mobile App Development Services</h1>
                                 <h2 className='white font50 f-700'>We Don't Just <span className={styles.corpost}>Create Apps</span>, We <span className={styles.corpost}>Create Experiences</span> </h2>
                                 <p className='font16 white fw400 mt-4 mb-lg-5'>Transform your idea into a remarkable app with Bitswits Mobile app development services. Our creative and efficient development process caters to both native and cross-platform needs, ensuring your app makes a lasting impact.</p>
                                 <div className={styles.careatapp}>

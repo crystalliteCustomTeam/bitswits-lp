@@ -15,16 +15,16 @@
 .hook {
   background-color: black;
   position: relative;
-  background-image: url(../public/images/projectprocess/remain.png);
+  background-image: url(../public/images/projectprocess/remain1.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 1373px;
+  height: 1380px;
   padding-top: 9%;
 }
 
 .clintSlider img {
-  width: 65%;
+  width: 40%;
 }
 
 .clintSlider h3 {
@@ -54,7 +54,7 @@
 
 .clintSlider img {
   display: block;
-  margin: 0 auto;
+  margin: 55px auto;
 }
 
 .clintSlider p {

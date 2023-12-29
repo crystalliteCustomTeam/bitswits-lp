@@ -131,7 +131,7 @@ export default function gamedevelopmentcompany() {
           <video
             autoPlay
             muted
-            src="../../bannerVideos/andriod.mp4"
+            src="../../bannerVideos/android.mp4"
             className="w-50"
           ></video>
         }
