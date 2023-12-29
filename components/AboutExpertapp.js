@@ -75,7 +75,7 @@ export default function AboutExpertapp(props) {
 
                         <Col lg={12}>
                             <div className={styles.offer}>
-                                <Link className={styles.connect} href='#'>CONSULT WITH OUR TEAM!</Link>
+                                <Link className={styles.connect} href='javascript:$zopim.livechat.window.show();'>CONSULT WITH OUR TEAM!</Link>
                             </div>
                         </Col>
                     </Row>

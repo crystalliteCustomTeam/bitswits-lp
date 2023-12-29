@@ -253,7 +253,7 @@ export default function gamedevelopmentcompany() {
             title: "Consult Our Specialists",
             text: "Reach out to our specialists without any hesitation via email or call to attain a free consultation.",
             buttonText: "Connect Now!",
-            link: "#",
+            link: "javascript:$zopim.livechat.window.show();",
           },
           {
             number: "02",
@@ -265,14 +265,14 @@ export default function gamedevelopmentcompany() {
             ),
             text: "Get a detailed cost breakdown for your app development project.",
             buttonText: "Chat Now!",
-            link: "#",
+            link: "javascript:$zopim.livechat.window.show();",
           },
           {
             number: "03",
             title: "Build An MVP",
             text: "Start your app development journey with no-obligation consultation via email and phone.",
             buttonText: "Call Now!",
-            link: "#",
+            link: "tel:13123795987",
           },
         ]}
       />

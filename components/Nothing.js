@@ -353,7 +353,7 @@ export default function Nothing(props) {
                   </swiper-slide>
                 </swiper-container>
                 <div className="mt-4 mt-md-5">
-                  <Link href="#" className={styles.btnpost}>
+                  <Link href="javascript:$zopim.livechat.window.show();" className={styles.btnpost}>
                     Begin Your Success Story : Connect Now
                   </Link>
                 </div>

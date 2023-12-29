@@ -65,7 +65,7 @@ export default function gamedevelopmentcompany() {
         btn2={
           <>
             <div className={styles.pont}>
-              <Link className={styles.about} href="tel:+18335006007">
+              <Link className={styles.about} href="javascript:$zopim.livechat.window.show();">
                 Transform Your App Idea Into A Success Story - Today Is The Day
                 To Start!
               </Link>
