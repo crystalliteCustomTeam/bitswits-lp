@@ -358,20 +358,10 @@ export default function Home() {
                 <span>2 Weeks Ago</span>
                 <p><Image src={facebookstar} alt="google" width="110" height="20" /> Bitswits flexibility and willingness to work quickly despite all issues resulted in a successful product upon the first review. They produced good work, and the end product has positive reviews and no major crashes.</p>
               </div>
+           
             </div><div className="childs">
               <div className="col newpostimg">
                 <div className="avatarName iavp3" >
-                  M
-                </div>
-              </div>
-              <div className="col">
-                <h5>Matthew Berwick</h5>
-                <span>6 Months Ago</span>
-                <p><Image src={facebookstar} alt="google" width="110" height="20" /> Users have reviewed the app positively. Bitswits was responsive and provided excellent support. Their follow-up is particularly noteworthy.</p>
-              </div>
-            </div><div className="childs">
-              <div className="col newpostimg">
-                <div className="avatarName iavp4" >
                   S
                 </div>
               </div>
@@ -382,7 +372,7 @@ export default function Home() {
               </div>
             </div><div className="childs">
               <div className="col newpostimg">
-                <div className="avatarName iavp5">
+                <div className="avatarName iavp4">
                   M
                 </div>
               </div>
@@ -393,7 +383,7 @@ export default function Home() {
               </div>
             </div><div className="childs">
               <div className="col newpostimg">
-                <div className="avatarName iavp6" >
+                <div className="avatarName iavp5" >
                   R
                 </div>
               </div>
@@ -404,7 +394,7 @@ export default function Home() {
               </div>
             </div><div className="childs">
               <div className="col newpostimg">
-                <div className="avatarName iavp7" >
+                <div className="avatarName iavp6" >
                   P
                 </div>
               </div>
@@ -415,7 +405,7 @@ export default function Home() {
               </div>
             </div><div className="childs">
               <div className="col newpostimg">
-                <div className="avatarName iavp8" >
+                <div className="avatarName iavp7" >
                   S
                 </div>
               </div>
@@ -426,7 +416,7 @@ export default function Home() {
               </div>
             </div><div className="childs">
               <div className="col newpostimg">
-                <div className="avatarName iavp9" >
+                <div className="avatarName iavp8" >
                 E
                 </div>
               </div>
@@ -437,7 +427,7 @@ export default function Home() {
               </div>
             </div><div className="childs">
               <div className="col newpostimg">
-                <div className="avatarName iavp10" >
+                <div className="avatarName iavp9" >
                   A
                 </div>
               </div>
@@ -448,7 +438,7 @@ export default function Home() {
               </div>
             </div><div className="childs">
               <div className="col newpostimg">
-                <div className="avatarName iavp11">
+                <div className="avatarName iavp10">
                   O
                 </div>
               </div>
@@ -459,7 +449,7 @@ export default function Home() {
               </div>
             </div><div className="childs">
               <div className="col newpostimg">
-                <div className="avatarName iavp12" >
+                <div className="avatarName iavp11" >
                   B
                 </div>
               </div>
@@ -470,7 +460,7 @@ export default function Home() {
               </div>
             </div><div className="childs">
               <div className="col newpostimg">
-                <div className="avatarName iavp13" >
+                <div className="avatarName iavp12" >
                   C
                 </div>
               </div>
@@ -481,7 +471,7 @@ export default function Home() {
               </div>
             </div><div className="childs">
               <div className="col newpostimg">
-                <div className="avatarName iavp14" >
+                <div className="avatarName iavp13" >
                   E
                 </div>
               </div>
@@ -492,7 +482,7 @@ export default function Home() {
               </div>
             </div><div className="childs">
               <div className="col newpostimg">
-                <div className="avatarName iavp15" >
+                <div className="avatarName iavp14" >
                   S
                 </div>
               </div>
@@ -503,7 +493,7 @@ export default function Home() {
               </div>
             </div><div className="childs">
               <div className="col newpostimg">
-                <div className="avatarName iavp16">
+                <div className="avatarName iavp15">
                   J
                 </div>
               </div>
@@ -514,7 +504,7 @@ export default function Home() {
               </div>
             </div><div className="childs">
               <div className="col newpostimg">
-                <div className="avatarName iavp17">
+                <div className="avatarName iavp16">
                   C
                 </div>
               </div>
