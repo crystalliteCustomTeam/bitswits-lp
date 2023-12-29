@@ -2397,15 +2397,22 @@ input::-webkit-inner-spin-button {
   background-color: #fff;
 }
 
-#bomp .iavp1{
-  background-color: #e6eed3;
-}
-#bomp .iavp2{
-  background-color: #490ad2;
-}
-#bomp .iavp3{
-  background-color: #b286d6;
-}
+#bomp .iavp1{ background-color:#e6eed3; }
+#bomp .iavp2{ background-color:#490ad2; }
+#bomp .iavp3{ background-color:#b286d6; }
+#bomp .iavp4{ background-color:#f703d0; }
+#bomp .iavp5{ background-color:#8bf057; }
+#bomp .iavp6{ background-color:#e31f2f; }
+#bomp .iavp7{ background-color:#c735b0; }
+#bomp .iavp8{ background-color:#7d0d3b; }
+#bomp .iavp9{ background-color:#133281; }
+#bomp .iavp10{ background-color:#31fbae; }
+#bomp .iavp11{ background-color:#b74234; }
+#bomp .iavp12{ background-color:#edbe15; }
+#bomp .iavp13{ background-color:#6551cc; }
+#bomp .iavp14{ background-color:#d0585a; }
+#bomp .iavp15{ background-color:#dacd56; }
+#bomp .iavp16{ background-color:#21f884; }
 /* ===============Media Queries================ */
 
 @media screen and (max-width: 1700px) {
