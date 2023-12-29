@@ -18,6 +18,7 @@ import googlereview from '../public/images/fixed/google-review.svg'
 import facebookreview from '../public/images/fixed/facebook-review.svg'
 import facebookstar from '../public/images/fixed/facebook-star.svg'
 import powerdmeta from '../public/images/fixed/powerd-meta.webp'
+import newpower from '../public/images/fixed/newpower.png'
 
 import { useState } from "react";
 
@@ -78,26 +79,26 @@ export default function Home() {
       <div className="reviewsWidgetnew">
         <div className="google box" onClick={opnen}>
           <div className="col">
-            <img src="https://bitswits.co/supersale/src/media/google-review.svg" alt="google" />
+            <Image src={googlereview} alt="google" />
           </div>
           <div className="col newyorklong1">
             <h5>Google Rating</h5>
             <div>
               <span>5.0</span>
-              <img src="https://bitswits.co/supersale/src/media/google-star.svg" alt="google" width="110" height="20" />
+              <Image src={googlestar} alt="google" width="110" height="20" />
             </div>
             <p>Based on 17 reviews</p>
           </div>
         </div>
         <div className="facebook box" onClick={opnen1}>
           <div className="col">
-            <img src="https://bitswits.co/supersale/src/media/facebook-review.svg" alt="facebook" width="48" height="48" />
+            <Image src={facebookreview} alt="facebook" width="48" height="48" />
           </div>
           <div className="col newyorklong1">
             <h5>Facebook Rating</h5>
             <div>
               <span>5.0</span>
-              <img src="https://bitswits.co/supersale/src/media/facebook-star.svg" alt="facebook" width="110" height="20" />
+              <Image src={facebookstar} alt="facebook" width="110" height="20" />
             </div>
             <p>Based on 16 reviews</p>
           </div>
@@ -313,7 +314,7 @@ export default function Home() {
             </div></div>
 
           <div className="footer">
-            <img src="https://precisionwindowtinting.com.au/wp-content/plugins/business-reviews-bundle/assets/img/powered_by_google_on_white.png" alt="powered by Google" width="144" height="18" title="powered by Google" />
+            <Image src={newpower} alt="powered by Google" width="144" height="18" title="powered by Google" />
           </div>
         </div>
       }

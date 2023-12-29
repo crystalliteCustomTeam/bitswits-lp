@@ -3027,6 +3027,10 @@ input::-webkit-inner-spin-button {
 
 @media screen and (max-width: 480px) {
 
+  .newtownfy, .openForm{
+    display: none;
+  }
+
   .homvibes swiper-slide.swiper-slide-next+swiper-slide+swiper-slide+swiper-slide {
     transform: translateY(-40.2%) translateX(-10%) scale(1.3);
 
