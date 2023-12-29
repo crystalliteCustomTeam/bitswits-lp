@@ -20,6 +20,7 @@ import tel from "@/public/images/fixed/tel.webp"
 import call from "@/public/images/fixed/call.webp"
 import Link from "next/link";
 import Image from "next/image";
+import { BsX } from "react-icons/bs";
 
 export default function App({ Component, pageProps }) {
 
@@ -145,10 +146,10 @@ export default function App({ Component, pageProps }) {
               <span className="close" onClick={() => loc()}>
                 {isHovered ?
 
-                  'x'
-                  :
-                  ' Get In Touch'
-                }
+              <BsX />
+              :
+              'Get In Touch'
+            }
 
               </span>
               <form id="leadPopupForm" className="popup-form" data-hs-cf-bound="true">
