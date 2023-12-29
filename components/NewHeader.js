@@ -1071,7 +1071,7 @@ const HeaderNewDesign = () => {
                         </div>
                         <div className={styles.slaes}>
                           <p className="pb-0 mb-0">
-                            <Link href="tel:+1 833 500 6007">
+                            <Link href="tel:+18335006007">
                               <Image
                                 alt="bitswits"
                                 className="img-fluid"
@@ -1530,7 +1530,7 @@ const HeaderNewDesign = () => {
                         </div>
                         <div className={styles.slaes}>
                           <p className="pb-0 mb-0">
-                            <Link href="tel:+1 833 500 6007">
+                            <Link href="tel:+18335006007">
                               <Image
                                 alt="bitswits"
                                 className="img-fluid"

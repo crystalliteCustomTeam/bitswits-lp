@@ -135,7 +135,7 @@ export default function App({ Component, pageProps }) {
               <span className="icon">
                 <Image width="30" height="30" alt="bitswits" className="img-fluid" src={tel} loading="lazy" />
                 <div className="txtBody">
-                  <Link href="#">Chat Now</Link>
+                  <Link href="javascript:$zopim.livechat.window.show();">Chat Now</Link>
                 </div>
               </span>
             </div>

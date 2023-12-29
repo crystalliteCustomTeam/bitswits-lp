@@ -49,7 +49,7 @@ const NewAddress = (props) => {
                                 <h4 className='font28 grdiant2 font-bold'> {props.ready} </h4>
                                 <h5 className='font20 font-bold text-white'> {props.titl} </h5>
                                 <div className={styles.menu}>
-                                    <Link className={`${styles.book} ${styles.book2}`} href="#">
+                                    <Link className={`${styles.book} ${styles.book2}`} href="javascript:$zopim.livechat.window.show();">
                                    {props.btnp}
                                         <Image alt="BitsWits" src={arrow} className='img-fluid ms-2' />
                                     </Link>

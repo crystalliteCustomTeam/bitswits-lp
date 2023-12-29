@@ -43,7 +43,7 @@ const Capabilities = () => {
                         <Col xl={12}>
                             <div className={styles.build}>
                                 <h2>Our App Development Blueprint</h2>
-                                <Link className={styles.about} href="#">Connect Now!</Link>
+                                <Link className={styles.about} href="javascript:$zopim.livechat.window.show();">Connect Now!</Link>
                             </div>
                         </Col>
                     </Row>

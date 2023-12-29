@@ -436,7 +436,7 @@ export default function Gameapplicationdevelopment() {
             title: "Build An MVP",
             text: "Start your app development journey with no-obligation consultation via email and phone.",
             buttonText: "Call Now!",
-            link: "tel:13123795987",
+            link: "tel:+18335006007",
           },
         ]}
       />

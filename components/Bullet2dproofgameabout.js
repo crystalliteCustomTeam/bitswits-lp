@@ -55,7 +55,7 @@ const Bullet2dproofgame = () => {
                                         <p>At BitsWits, problems and complications aren’t problems but opportunities to grow and learn. Our mobile app development company and its team understand what failure is. We tend to find innovative solutions and deliver positive outcomes when dealing with any issue.</p>
                                     </div>
                                     <div className={styles.gredient1}>
-                                        <Link href="#">CONSULT WITH OUR TEAM!</Link>
+                                        <Link href="tel:+18335006007">CONSULT WITH OUR TEAM!</Link>
                                     </div>
                                 </div>
                             </Col>

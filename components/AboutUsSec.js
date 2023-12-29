@@ -66,7 +66,7 @@ const AboutUsSec = () => {
 
                         </Col>
                         <Col lg={3}>
-                            <Link className={`${styles.bttns1} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="#">
+                            <Link className={`${styles.bttns1} mt-3 mt-lg-0 mb-4 mb-lg-0`} href="tel:+18335006007">
                                 CALL NOW!
                             </Link>
                         </Col>
