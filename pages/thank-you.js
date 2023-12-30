@@ -20,8 +20,22 @@ export default function ThankYou() {
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 
+      {/* <Script>
+        {`gtag('event', 'conversion', {'send_to': 'AW-11114809734/O9snCOO5m5EYEIaT-rMp'});`}
+        </Script> */}
+
+
+      {/* Google tag (gtag.js) */}
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11114809734"></Script>
       <Script>
-        {`gtag('event', 'conversion', { 'send_to': 'AW-11114809734/O9snCOO5m5EYEIaT-rMp'});`}
+        {`window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-11114809734')`};
+      </Script>
+      {/* <!-- Event snippet for Website lead conversion page --> */}
+      <Script>
+        {`gtag('event', 'conversion', {'send_to': 'AW-11114809734/O9snCOO5m5EYEIaT-rMp'});`}
       </Script>
 
       <main>
