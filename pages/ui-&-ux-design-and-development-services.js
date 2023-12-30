@@ -41,6 +41,7 @@ export default function UiUxDesign() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
+        <meta name="robots" content="noindex" />
       </Head>
       
       <ServicesBanner
