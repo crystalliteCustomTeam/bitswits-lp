@@ -153,17 +153,16 @@ const Header = () => {
                                                                         </div>
                                                                         <h5 className='font14 fontf font-semibold mb-0'>APP</h5>
                                                                     </div>
-
+                                                                    <li>
+                                                                        <Link onClick={handleMenu} href='/top-mobile-app-development-company'>
+                                                                            <FaAngleRight />
+                                                                            <span>Mobile App Development</span>
+                                                                        </Link>
+                                                                    </li>
                                                                     <li>
                                                                         <Link onClick={handleMenu} href='/ios-app-development'>
                                                                             <FaAngleRight />
                                                                             <span>iOS App Development</span>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={handleMenu} href='/mobile-application'>
-                                                                            <FaAngleRight />
-                                                                            <span>Mobile App Development</span>
                                                                         </Link>
                                                                     </li>
                                                                     <li>
