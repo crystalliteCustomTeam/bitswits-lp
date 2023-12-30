@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
+import Script from "next/script";
 import "bootstrap/dist/css/bootstrap.css";
 import "@/styles/globals.css";
 //
