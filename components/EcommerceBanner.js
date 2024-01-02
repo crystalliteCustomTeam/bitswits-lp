@@ -25,9 +25,99 @@ import banImg5 from '../public/newHomePage/images/slider5.png'
 import banImg6 from '../public/newHomePage/images/slider6.png'
 import banImg7 from '../public/newHomePage/images/slider7.png'
 import banImg8 from '../public/newHomePage/images/slider8.png'
+import { useState, useEffect } from 'react';
+import Axios from "axios";
+import { useRouter } from 'next/router';
 
 
 const EcommerceBanner = () => {
+
+    const [ip, setIP] = useState('');
+    //creating function to load ip address from the API
+    const getIPData = async () => {
+        const res = await Axios.get('https://geolocation-db.com/json/f2e84010-e1e9-11ed-b2f8-6b70106be3c8');
+        setIP(res.data);
+    }
+    useEffect(() => {
+        getIPData()
+    }, [])
+
+
+    const [score, setScore] = useState('Submit');
+
+
+    const router = useRouter();
+    const currentRoute = router.pathname;
+
+
+    const handleSubmit = async (e) => {
+
+        e.preventDefault()
+        var currentdate = new Date().toLocaleString() + ''
+
+        const data = {
+            name: e.target.name.value,
+            last: 'null',
+            email: e.target.email.value,
+            phone: e.target.phone.value,
+            comment: e.target.comment.value,
+            pageUrl: currentRoute,
+            IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+            currentdate: currentdate,
+        }
+
+        const JSONdata = JSON.stringify(data)
+
+        setScore('Sending Data');
+        console.log(JSONdata);
+
+
+        fetch('api/emailapi/route', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+            },
+            body: JSONdata
+        }).then((res) => {
+            console.log(`Response received ${res}`)
+            if (res.status === 200) {
+                console.log(`Response Successed ${res}`)
+            }
+        })
+
+
+
+        let headersList = {
+            "Accept": "*/*",
+            "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+            "Authorization": "Bearer ke2br2ubssi4l8mxswjjxohtd37nzexy042l2eer",
+            "Content-Type": "application/json"
+        }
+
+        let bodyContent = JSON.stringify({
+            "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+            "Brand": "Bitswits",
+            "Page": `${currentRoute}`,
+            "Date": currentdate,
+            "Time": currentdate,
+            "JSON": JSONdata,
+
+        });
+
+        await fetch("https://sheetdb.io/api/v1/1ownp6p7a9xpi", {
+            method: "POST",
+            body: bodyContent,
+            headers: headersList
+        });
+        const { pathname } = router;
+        if (pathname == pathname) {
+            window.location.href = '/thank-you';
+        }
+
+    }
+
+
 
     var bannerslider = {
         dots: false,
@@ -153,15 +243,15 @@ const EcommerceBanner = () => {
                                 <Link href="tel:;" className='ms-2 text-white font-medium'>+1 833 500 6007</Link>
 
                             </p>
-                            <Form className={styles.forms}>
+                            <Form className={styles.forms} onSubmit={handleSubmit}>
                                 <h5 className='text-white font-bold font-28 text-center mb-3'>Make An Obligation-Free Enquiry</h5>
-                                <input type='text' className='mb-3' placeholder="Hi, what's your name?*" required />
-                                <input type='text' className='mb-3' placeholder="What's your email address?" required />
-                                <input type='tel' className='mb-3' placeholder="Your contact number" required />
-                                <textarea rows={5} placeholder='Please include any notes or specific questions here'></textarea>
+                                <input type='text' minLength="4" required name='name' className='mb-3' placeholder="Hi, what's your name?*"  />
+                                <input type='text' required name='email' className='mb-3' placeholder="What's your email address?"  />
+                                <input type="tel" required minLength="10" maxLength="13" pattern="[0-9]*" name='phone' className='mb-3' placeholder="Your contact number" />
+                                <textarea rows={5} required name='comment' placeholder='Please include any notes or specific questions here'></textarea>
                                 <div className='d-flex align-items-center justify-content-between pt-3'>
                                     <span className='text-white font-medium font11'>We takes your privacy seriously. Read our <Link href="javascript:;" className='text-white d-block font-bold'>Privacy Notice.</Link> </span>
-                                    <Button type='submit' className={`text-white bg-black rounded-2 ${styles.secBtn}`}>ENQUIRE NOW</Button>
+                                    <Button value={score} type='submit' className={`text-white bg-black rounded-2 ${styles.secBtn}`}>ENQUIRE NOW</Button>
                                 </div>
                                 <h5 className='text-white font-bold font-28 text-center mt-4 mb-4'>OUR OFFICES</h5>
                                 <Row>

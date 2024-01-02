@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+
 import Image from 'next/image'
 import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
@@ -9,7 +9,9 @@ import pakistan from '../public/images/contact/pakistan.png'
 import delaware from '../public/images/contact/delaware.png'
 import houston from '../public/images/contact/houston.png'
 import Sharjah from '../public/images/contact/sharjah.png'
-
+import { useState, useEffect } from 'react';
+import Axios from "axios";
+import { useRouter } from 'next/router';
 
 const ContactBox = () => {
 
@@ -17,6 +19,93 @@ const ContactBox = () => {
     function loc(tabs1) {
         setActiveTab(tabs1);
     }
+
+
+    const [ip, setIP] = useState('');
+    //creating function to load ip address from the API
+    const getIPData = async () => {
+        const res = await Axios.get('https://geolocation-db.com/json/f2e84010-e1e9-11ed-b2f8-6b70106be3c8');
+        setIP(res.data);
+    }
+    useEffect(() => {
+        getIPData()
+    }, [])
+
+
+    const [score, setScore] = useState('Submit');
+
+
+    const router = useRouter();
+    const currentRoute = router.pathname;
+
+
+    const handleSubmit = async (e) => {
+
+        e.preventDefault()
+        var currentdate = new Date().toLocaleString() + ''
+
+        const data = {
+            name: e.target.name.value,
+            last: e.target.last.value,
+            email: e.target.email.value,
+            phone: e.target.phone.value,
+            comment: e.target.comment.value,
+            pageUrl: currentRoute,
+            IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+            currentdate: currentdate,
+        }
+
+        const JSONdata = JSON.stringify(data)
+
+        setScore('Sending Data');
+        console.log(JSONdata);
+
+
+        fetch('api/emailapi/route', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+            },
+            body: JSONdata
+        }).then((res) => {
+            console.log(`Response received ${res}`)
+            if (res.status === 200) {
+                console.log(`Response Successed ${res}`)
+            }
+        })
+
+
+
+        let headersList = {
+            "Accept": "*/*",
+            "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+            "Authorization": "Bearer ke2br2ubssi4l8mxswjjxohtd37nzexy042l2eer",
+            "Content-Type": "application/json"
+        }
+
+        let bodyContent = JSON.stringify({
+            "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+            "Brand": "Bitswits",
+            "Page": `${currentRoute}`,
+            "Date": currentdate,
+            "Time": currentdate,
+            "JSON": JSONdata,
+
+        });
+
+        await fetch("https://sheetdb.io/api/v1/1ownp6p7a9xpi", {
+            method: "POST",
+            body: bodyContent,
+            headers: headersList
+        });
+        const { pathname } = router;
+        if (pathname == pathname) {
+            window.location.href = '/thank-you';
+        }
+
+    }
+
 
     return (
         <>
@@ -126,27 +215,27 @@ const ContactBox = () => {
 
                                 </p>
 
-                                <form id="contactusform1" >
+                                <form id="contactusform1" onSubmit={handleSubmit}>
                                     <Row className='gy-3'>
                                         <Col lg={6}>
-                                            <input type="text" className="" name="name" id="name" placeholder="Full Name" required="" />
+                                            <input type="text"   name="name" id="name" placeholder="Full Name" required />
                                         </Col>
                                         <Col lg={6}>
-                                            <input type="text" name="email" id="email" placeholder="Last Name" required="" />
+                                            <input type="text" name="last"  placeholder="Last Name" required />
                                         </Col>
                                         <Col lg={6}>
-                                            <input type="phone" name="phone" id="phone" placeholder="Phone" required="" minLength="7" maxlength="15" onkeypress="return /[0-9]/i.test(event.key)" />
+                                            <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name="phone" id="phone" placeholder="Phone" required />
                                         </Col>
                                         <Col lg={6}>
-                                            <input type="email" name="email" id="email" placeholder="Email Address" required="" />
+                                            <input type="email" name="email"  placeholder="Email Address" required />
                                         </Col>
                                         <Col lg={12}>
-                                            <textarea type="textarea" className="" name="comments" id="comments" placeholder="Comments" required="" />
+                                            <textarea type="textarea"  name="comment" id="comments" placeholder="Comments" required />
                                         </Col>
                                         <Col>
                                             <div className={styles.notic}>
                                                 <p className='white font16'>We take your privacy seriously. <br /> Read our <span className='font-bold'> <Link className='newfycolr' href='/privacy-policy'>Privacy Policy</Link> .</span></p>
-                                                <button id="savebtns" type="submit" className={styles.bttns1}>Submit</button>
+                                                <button value={score} id="savebtns" type="submit" className={styles.bttns1}>Submit</button>
                                             </div>
                                         </Col>
                                     </Row>

@@ -1,6 +1,8 @@
 .conform {
   background-color: black;
   padding: 80px 0;
+  z-index: 99;
+  position: relative;
 }
 
 .formalign input {

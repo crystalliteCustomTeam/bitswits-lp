@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '@/styles/Headerlphome.module.css'
@@ -16,6 +16,9 @@ import new2 from '../public/images/lpheader/new2.png'
 import new3 from '../public/images/lpheader/new3.png'
 import new4 from '../public/images/lpheader/new4.png'
 import new5 from '../public/images/lpheader/new5.png'
+import { useState, useEffect } from 'react';
+import Axios from "axios";
+import { useRouter } from 'next/router';
 
 
 const Headerlphome = () => {
@@ -25,6 +28,91 @@ const Headerlphome = () => {
 
     function fun1(tab){
         setShow(tab);
+    }
+
+    const [ip, setIP] = useState('');
+    //creating function to load ip address from the API
+    const getIPData = async () => {
+        const res = await Axios.get('https://geolocation-db.com/json/f2e84010-e1e9-11ed-b2f8-6b70106be3c8');
+        setIP(res.data);
+    }
+    useEffect(() => {
+        getIPData()
+    }, [])
+
+
+    const [score, setScore] = useState('Submit');
+
+
+    const router = useRouter();
+    const currentRoute = router.pathname;
+
+
+    const handleSubmit = async (e) => {
+
+        e.preventDefault()
+        var currentdate = new Date().toLocaleString() + ''
+
+        const data = {
+            name: e.target.name.value,
+            last: e.target.last.value,
+            email: e.target.email.value,
+            phone: e.target.phone.value,
+            comment: e.target.comment.value,
+            pageUrl: currentRoute,
+            IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+            currentdate: currentdate,
+        }
+
+        const JSONdata = JSON.stringify(data)
+
+        setScore('Sending Data');
+        console.log(JSONdata);
+
+
+        fetch('api/emailapi/route', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+            },
+            body: JSONdata
+        }).then((res) => {
+            console.log(`Response received ${res}`)
+            if (res.status === 200) {
+                console.log(`Response Successed ${res}`)
+            }
+        })
+
+
+
+        let headersList = {
+            "Accept": "*/*",
+            "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+            "Authorization": "Bearer ke2br2ubssi4l8mxswjjxohtd37nzexy042l2eer",
+            "Content-Type": "application/json"
+        }
+
+        let bodyContent = JSON.stringify({
+            "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+            "Brand": "Bitswits",
+            "Page": `${currentRoute}`,
+            "Date": currentdate,
+            "Time": currentdate,
+            "JSON": JSONdata,
+
+        });
+
+        await fetch("https://sheetdb.io/api/v1/1ownp6p7a9xpi", {
+            method: "POST",
+            body: bodyContent,
+            headers: headersList
+        });
+        const { pathname } = router;
+        if (pathname == pathname) {
+            window.location.href = '/thank-you';
+        }
+
     }
 
 
@@ -93,26 +181,26 @@ const Headerlphome = () => {
                             <div class="row justify-content-center align-content-center align-items-center">
                                 <div class="col-lg-11 col-xl-11">
                                     <div class="header-form">
-                                        <form class={` ${styles.piza} px-lg-5`} role="form">
+                                        <form class={` ${styles.piza} px-lg-5`} role="form" onSubmit={handleSubmit}>
                                             <div class="row pl-0">
                                                 <div class="form-group  col-xl-4 col-lg-4  mb-3">
-                                                    <input type="text" id="fname" name="name" placeholder="First Name" class="form-control" required="" />
+                                                    <input type="text" minLength="4" id="fname" name="name" placeholder="First Name" class="form-control" required />
                                                 </div>
                                                 <div class="form-group  col-xl-4 col-lg-4  mb-3">
-                                                    <input type="text" id="fname" name="name" placeholder="Last Name" class="form-control" required="" />
+                                                    <input type="text" id="fname" name="last" placeholder="Last Name" class="form-control" required />
                                                 </div>
                                                 <div class="form-group col-xl-4 col-lg-4  mb-3">
-                                                    <input type="phone" id="phone" name="phone" maxlength="15" placeholder="Phone Number" class="form-control" onkeypress="return /[0-9]/i.test(event.key)" required="" />
+                                                    <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" id="phone" name="phone" placeholder="Phone Number" class="form-control" required />
                                                 </div>
                                                 <div class="form-group  col-xl-4 col-lg-4  mb-3">
-                                                    <input type="email" id="email" name="email" placeholder="Email Address" class="form-control" required="" />
+                                                    <input type="email" id="email" name="email" placeholder="Email Address" class="form-control" required />
                                                 </div>
 
                                                 <div class="form-group col-xl-4 col-lg-4 mb-3">
-                                                    <textarea type="text" id="message" name="message" placeholder="Comment" class="form-control" required=""></textarea>
+                                                    <textarea type="text" id="message" name="comment" placeholder="Comment" class="form-control" required></textarea>
                                                 </div>
                                                 <div class="form-group  col-xl-4 col-lg-4  ">
-                                                    <button type="submit" name="saves1" id="butact2" class="">Submit</button>
+                                                    <button value={score} type="submit" name="saves1" id="butact2" class="">{score}</button>
                                                 </div>
                                             </div>
                                         </form>

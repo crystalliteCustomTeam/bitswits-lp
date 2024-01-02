@@ -1,38 +1,96 @@
-import React, { useState } from 'react'
+
 import Link from 'next/link'
 import axios from "axios";
 import Router from 'next/router'
 import styles from '@/styles/Bitswitspopup.module.css'
+import { useState, useEffect } from 'react';
+import Axios from "axios";
+import { useRouter } from 'next/router';
 
 
 const Freequote = (props) => {
 
+  const [ip, setIP] = useState('');
+  //creating function to load ip address from the API
+  const getIPData = async () => {
+      const res = await Axios.get('https://geolocation-db.com/json/f2e84010-e1e9-11ed-b2f8-6b70106be3c8');
+      setIP(res.data);
+  }
+  useEffect(() => {
+      getIPData()
+  }, [])
+
+
   const [score, setScore] = useState('Submit');
 
+
+  const router = useRouter();
+  const currentRoute = router.pathname;
+
+
   const handleSubmit = async (e) => {
-    e.preventDefault()
 
-    const data = {
-      first: e.target.first.value,
-      email: e.target.email.value,
-      phone: e.target.phone.value,
-      message: e.target.message.value,
-    }
+      e.preventDefault()
+      var currentdate = new Date().toLocaleString() + ''
 
-    const JSONdata = JSON.stringify(data)
+      const data = {
+          name: e.target.first.value,
+          email: e.target.email.value,
+          phone: e.target.phone.value,
+          comment: e.target.message.value,
+          pageUrl: currentRoute,
+          IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+          currentdate: currentdate,
+      }
 
-    setScore('Wating For Send Data');
+      const JSONdata = JSON.stringify(data)
 
-    axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
-      .then((response) => {
-        setScore('Thank You');
-        console.log(response.data);
+      setScore('Sending Data');
+      console.log(JSONdata);
+
+
+      fetch('api/emailapi/route', {
+          method: 'POST',
+          headers: {
+              'Accept': 'application/json, text/plain, */*',
+              'Content-Type': 'application/json'
+          },
+          body: JSONdata
+      }).then((res) => {
+          console.log(`Response received ${res}`)
+          if (res.status === 200) {
+              console.log(`Response Successed ${res}`)
+          }
+      })
+
+
+
+      let headersList = {
+          "Accept": "*/*",
+          "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+          "Authorization": "Bearer ke2br2ubssi4l8mxswjjxohtd37nzexy042l2eer",
+          "Content-Type": "application/json"
+      }
+
+      let bodyContent = JSON.stringify({
+          "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+          "Brand": "Bitswits",
+          "Page": `${currentRoute}`,
+          "Date": currentdate,
+          "Time": currentdate,
+          "JSON": JSONdata,
+
       });
 
-    const { pathname } = Router
-    if (pathname == pathname) {
-      Router.push('/thank-you')
-    }
+      await fetch("https://sheetdb.io/api/v1/1ownp6p7a9xpi", {
+          method: "POST",
+          body: bodyContent,
+          headers: headersList
+      });
+      const { pathname } = router;
+      if (pathname == pathname) {
+          window.location.href = '/thank-you';
+      }
 
   }
 
@@ -51,7 +109,7 @@ const Freequote = (props) => {
           <input type="email" className={styles.formfree} required name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Type Email Address" />
 
           <label className={styles.label}>Phone *</label>
-          <input type="number" className={styles.formfree} required name="phone" placeholder="123-456-7890" />
+          <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" className={styles.formfree} required name="phone" placeholder="123-456-7890" />
 
           <label className={styles.label}>Message *</label>
           <textarea className={styles.formfree} required name="message" rows="2" placeholder="Type Your Message Here"></textarea>

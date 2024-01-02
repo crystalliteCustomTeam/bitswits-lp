@@ -12,9 +12,98 @@ import star2 from '../public/images/people/2.png'
 import usa from "@/public/images/mobilelpfinal/usa.png"
 import dubai from "@/public/images/mobilelpfinal/dubai.png"
 import asia from "@/public/images/mobilelpfinal/asia.png"
+import { useState, useEffect } from 'react';
+import Axios from "axios";
+import { useRouter } from 'next/router';
 
 
 const Bannerlpfinal = (props) => {
+
+
+    const [ip, setIP] = useState('');
+    //creating function to load ip address from the API
+    const getIPData = async () => {
+        const res = await Axios.get('https://geolocation-db.com/json/f2e84010-e1e9-11ed-b2f8-6b70106be3c8');
+        setIP(res.data);
+    }
+    useEffect(() => {
+        getIPData()
+    }, [])
+
+
+    const [score, setScore] = useState('ENQUIRE NOW');
+
+
+    const router = useRouter();
+    const currentRoute = router.pathname;
+
+
+    const handleSubmit = async (e) => {
+
+        e.preventDefault()
+        var currentdate = new Date().toLocaleString() + ''
+
+        const data = {
+            name: e.target.first.value,
+            last: 'null',
+            email: e.target.email.value,
+            phone: e.target.phone.value,
+            comment: e.target.message.value,
+            pageUrl: currentRoute,
+            IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+            currentdate: currentdate,
+        }
+
+        const JSONdata = JSON.stringify(data)
+
+        setScore('Sending Data');
+        console.log(JSONdata);
+
+
+        fetch('api/emailapi/route', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+            },
+            body: JSONdata
+        }).then((res) => {
+            console.log(`Response received ${res}`)
+            if (res.status === 200) {
+                console.log(`Response Successed ${res}`)
+            }
+        })
+
+
+
+        let headersList = {
+            "Accept": "*/*",
+            "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+            "Authorization": "Bearer ke2br2ubssi4l8mxswjjxohtd37nzexy042l2eer",
+            "Content-Type": "application/json"
+        }
+
+        let bodyContent = JSON.stringify({
+            "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+            "Brand": "Bitswits",
+            "Page": `${currentRoute}`,
+            "Date": currentdate,
+            "Time": currentdate,
+            "JSON": JSONdata,
+
+        });
+
+        await fetch("https://sheetdb.io/api/v1/1ownp6p7a9xpi", {
+            method: "POST",
+            body: bodyContent,
+            headers: headersList
+        });
+        const { pathname } = router;
+        if (pathname == pathname) {
+            window.location.href = '/thank-you';
+        }
+
+    }
 
     return (
         <>
@@ -66,19 +155,19 @@ const Bannerlpfinal = (props) => {
 
                         </Col>
                         <Col xl={5}>
-                            <form className={styles.your}>
+                            <form className={styles.your} onSubmit={handleSubmit}>
                                 <h3 className='white fw500'>Transform Your App Idea Into A Success Story</h3>
                                 <h2 className='mb-3 fw500 white'>Today Is The Day To Start!</h2>
-                                <input type='text' name='first' required className={styles.newform} placeholder="Your Name*"></input>
-                                <input type='email' name='first' required className={styles.newform} placeholder="Your Email*"></input>
-                                <input type='number' name='phone' required className={styles.newform} placeholder="Your Phone Number*"></input>
-                                <textarea placeholder='Message*' className={styles.newformtext}></textarea>
+                                <input type='text' minLength="4" name='first' required className={styles.newform} placeholder="Your Name*"></input>
+                                <input type='email' name='email' required className={styles.newform} placeholder="Your Email*"></input>
+                                <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name='phone' required className={styles.newform} placeholder="Your Phone Number*"></input>
+                                <textarea placeholder='Message*' required name='message' className={styles.newformtext}></textarea>
                                 <div className={styles.takesread}>
                                     <p>
                                         We takes yout privacy seriously. Read our
                                         Privacy Notice.
                                     </p>
-                                    <input type='submit' name='submit' className={styles.value} placeholder="Submit" value='ENQUIRE NOW'></input>
+                                    <input type='submit' name='submit' className={styles.value} placeholder="Submit" value={score}></input>
                                 </div>
                                 <div>
                                     <h4 className='font20 white fw800 center mt-2'>OUR OFFICES</h4>
