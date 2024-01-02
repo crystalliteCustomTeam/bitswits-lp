@@ -108,7 +108,7 @@ const Appmaking = () => {
                                         <li class="white mt-3">Cost-Effective Single Codebase Solution.</li>
                                     </ul>
 
-                                    <Link href='#' className={styles.live}>Start <br /> Live Chat</Link>
+                                    <Link href='javascript:$zopim.livechat.window.show();' className={styles.live}>Start <br /> Live Chat</Link>
 
                                 </div>
 
@@ -130,7 +130,7 @@ const Appmaking = () => {
                                         <li class="white mt-3 mb-5">Robust & Adaptable Mobile Application.</li>
                                     </ul>
                                     <div>
-                                        <Link href='#' className={styles.live1}>Call Now: 111-2222-333</Link>
+                                        <Link href='tel:+18335006007' className={styles.live1}>Call Now: 111-2222-333</Link>
                                     </div>
                                 </div>
 
@@ -157,7 +157,7 @@ const Appmaking = () => {
                                             <li class="white mt-3">Cost-Effective Single Codebase Solution.</li>
                                         </ul>
 
-                                        <Link href='#' className={styles.live}>Start <br /> Live Chat</Link>
+                                        <Link href='javascript:$zopim.livechat.window.show();' className={styles.live}>Start <br /> Live Chat</Link>
 
                                     </div>
                                 </Col>
@@ -180,7 +180,7 @@ const Appmaking = () => {
                                             <li class="white mt-3 mb-5">Robust & Adaptable Mobile Application.</li>
                                         </ul>
                                         <div>
-                                            <Link href='#' className={styles.live1}>Call Now: 111-2222-333</Link>
+                                            <Link href='tel:+18335006007' className={styles.live1}>Call Now: 111-2222-333</Link>
                                         </div>
                                     </div>
                                 </Col>

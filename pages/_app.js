@@ -1,6 +1,7 @@
-import React from "react";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import Head from "next/head";
+import Script from "next/script";
 import "bootstrap/dist/css/bootstrap.css";
 import "@/styles/globals.css";
 //
@@ -16,24 +17,19 @@ import EcommerceBanner from "@/components/EcommerceBanner";
 import EcommerceFooter from "@/components/EcommerceFooter";
 import Cursor from "@/components/Cursor";
 import Loader from "@/components/Loader";
-import tel from "@/public/images/fixed/tel.webp"
-import call from "@/public/images/fixed/call.webp"
-import Link from "next/link";
-import Image from "next/image";
-import { BsX } from "react-icons/bs";
+import Skicky from "@/components/Skicky";
 import Zendesk, { ZendeskAPI } from "../pages/zendex";
 const ZENDESK_KEY = "325da280-f4f0-4c80-997f-ea4de45eb2f1";
 
 
 export default function App({ Component, pageProps }) {
 
-
+  const router = useRouter();
+  // =======================================
   const handleLoaded = () => {
     zE('webWidget:on', 'open', function () {
     });
   };
-
-  const router = useRouter();
   // =======================================
   const [imagesLoaded, setImagesLoaded] = useState(false);
   useEffect(() => {
@@ -110,80 +106,48 @@ export default function App({ Component, pageProps }) {
   const newecommercepage =
     router.pathname == "/top-ecommerce-app-development-company";
   // =======================================
-
-  const [isHovered, setIsHovered] = useState(false);
-
-  function loc() {
-    setIsHovered((prev) => !prev);
-  }
-
   const superecommer = router.pathname == "/top-mobile-app-developers" ||
     router.pathname == "/top-ecommerce-app-development-company";
-
+  // =======================================
 
 
   return (
     <>
 
+
+      <Head>
+        {/* Google Search Console Code */}
+        <meta name="google-site-verification" content="jg7nSxeneqpzOKNtVKXDQRVGjThDC6_7zGXI8wAXqkY" />
+      </Head>
+
+      {imagesLoaded &&
+        <>
+          {/* Google Analytics Code */}
+          <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-T8JYHWL639"></Script>
+          <Script strategy="lazyOnload">
+            {` window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-T8JYHWL639');
+        `}
+          </Script>
+          {/* GTM Code */}
+          <Script strategy="lazyOnload">
+            {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-T2JSP4C');
+              ;
+        `}
+          </Script>
+        </>
+      }
+
       {superecommer ?
         ''
         :
-
-        <>
-          <div className="newtownfy">
-            <div className="chat">
-              <span className="icon">
-                <Image width="30" height="30" alt="bitswits" className="img-fluid" src={tel} loading="lazy" />
-                <div className="txtBody">
-                  <Link href="#">Chat Now</Link>
-                </div>
-              </span>
-            </div>
-            <div className="call">
-              <span className="icon">
-                <Image width="30" height="30" alt="bitswits" className="img-fluid" src={call} loading="lazy" />
-                <div className="txtBody">
-                  <Link href="tel:13123795987">1 - 312 379 5987</Link>
-                </div>
-              </span>
-            </div>
-          </div>
-
-
-          <div className={isHovered ? 'openForm active' : 'openForm'}>
-            <div className="wrapper">
-              <span className="close" onClick={() => loc()}>
-                {isHovered ?
-
-                  <BsX />
-                  :
-                  'Get In Touch'
-                }
-
-              </span>
-              <form id="leadPopupForm" className="popup-form" data-hs-cf-bound="true">
-                <div className="inputGroup">
-                  <h3 className="f-20 center fw800">Get A Free Quote Now!</h3>
-                </div>
-                <div className="inputGroup">
-                  <input name="name" type="text" placeholder="Full Name*" required="" />
-                </div>
-                <div className="inputGroup">
-                  <input name="email" type="email" placeholder="Email Address*" required="" />
-                </div>
-                <div className="inputGroup">
-                  <input type="phone" required="" minlength="7" maxlength="15" name="phone" placeholder="Phone No*" onkeypress="return /[0-9]/i.test(event.key)" />
-                </div>
-                <div className="inputGroup">
-                  <textarea name="comments" placeholder="Let Us know Time And Date To Call You."></textarea>
-                </div>
-                <button type="submit">Submit</button>
-              </form>
-            </div>
-          </div>
-        </>
-
-
+        <Skicky />
       }
 
       {newlps ? (
@@ -215,9 +179,12 @@ export default function App({ Component, pageProps }) {
         <Footernewfy />
       )}
 
-      <div>
-        <Zendesk defer zendeskKey={ZENDESK_KEY} onLoaded={handleLoaded} />
-      </div>
+      {imagesLoaded &&
+        <div>
+          <Zendesk defer zendeskKey={ZENDESK_KEY} onLoaded={handleLoaded} />
+        </div>
+      }
+
     </>
   );
 }

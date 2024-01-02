@@ -74,9 +74,9 @@
 }
 
 .expendCard a:last-child {
-  background-color: var(--b-color);
+  background-color: transparent;
   color: var(--w-color);
-  border: inherit;
+  border: 1px solid #fff;
   border-radius: 5px;
 }
 

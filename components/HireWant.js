@@ -77,7 +77,7 @@ const HireWant = (props) => {
                                                     <p>Monthly</p>
                                                 </div>
                                             </div>
-                                            <Link href="#">
+                                            <Link href="javascript:$zopim.livechat.window.show();">
                                                 <span>Hire Now</span>
                                                 <Image src={arrow} alt="BitsWits" className={`img-fluid`} />
                                             </Link>
@@ -107,7 +107,7 @@ const HireWant = (props) => {
                                                         <p>Monthly</p>
                                                     </div>
                                                 </div>
-                                                <Link href="#">
+                                                <Link href="javascript:$zopim.livechat.window.show();">
                                                     <span>Hire Now</span>
                                                     <Image src={arrow} alt="BitsWits" className="img-fluid" />
                                                 </Link>

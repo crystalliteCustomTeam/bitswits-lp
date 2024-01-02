@@ -36,6 +36,15 @@ const appEight = await import("../public/newHomePage/images/mobileimages/newMain
 
 export default function Home() {
 
+  const [imagesLoaded, setImagesLoaded] = useState(false);
+  useEffect(() => {
+    const delay = 7000;
+    const timeoutId = setTimeout(() => {
+      setImagesLoaded(true);
+    }, delay);
+    return () => clearTimeout(timeoutId);
+  }, []);
+  // ===================================
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
@@ -189,6 +198,12 @@ export default function Home() {
         {/* Favicon */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
+      {/* googletagmanager */}
+      {imagesLoaded &&
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2JSP4C"
+          height="0" width="0" className="d-none"></iframe></noscript>
+      }
 
       <NewIndexBanner />
       <section>

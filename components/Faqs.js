@@ -90,7 +90,7 @@ const Faqs = () => {
                                         Mobile application development creates software applications that run on mobile devices and other connected devices, such as wearables, automotive systems, cameras, and more. It requires skill sets in design, development, testing, deployment, and maintenance to create innovative user experiences across multiple platforms. With that being said, businesses hire mobile app developers to stay ahead of the competition and deliver market-leading products to their customers.
                                     </p>
                                     <div className="mt-2">
-                                        <Link href="#">
+                                        <Link href="javascript:$zopim.livechat.window.show();">
                                             Let's Start
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
@@ -116,7 +116,7 @@ const Faqs = () => {
                                         always come up with creative and innovative app ideas that are best in your interest.
                                     </p>
                                     <div className="mt-2">
-                                        <Link href="#">
+                                        <Link href="javascript:$zopim.livechat.window.show();">
                                             Let's Start
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
@@ -142,7 +142,7 @@ const Faqs = () => {
                                         application development industry with affordable packages and professional services.
                                     </p>
                                     <div className="mt-2">
-                                        <Link href="#">
+                                        <Link href="javascript:$zopim.livechat.window.show();">
                                             Let's Start
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
@@ -167,7 +167,7 @@ const Faqs = () => {
                                         do not let our customers hang in the middle with any query that may bring trouble to them.
                                     </p>
                                     <div className="mt-2">
-                                        <Link href="#">
+                                        <Link href="javascript:$zopim.livechat.window.show();">
                                             Let's Start
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
@@ -194,7 +194,7 @@ const Faqs = () => {
                                         the utmost satisfaction.
                                     </p>
                                     <div className="mt-2">
-                                        <Link href="#">
+                                        <Link href="javascript:$zopim.livechat.window.show();">
                                             Let's Start
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}
@@ -222,7 +222,7 @@ const Faqs = () => {
                                         needs.
                                     </p>
                                     <div className="mt-2">
-                                        <Link href="#">
+                                        <Link href="javascript:$zopim.livechat.window.show();">
                                             Let's Start
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={arrow}

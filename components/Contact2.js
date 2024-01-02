@@ -193,7 +193,7 @@ const Contact = (props) => {
                                             <div className={styles.formPara}>
                                                 <p>
                                                     By submitting this form, you agree to our
-                                                    <Link className={styles.link} href="#"> privacy policy </Link> <br />
+                                                    <Link className={styles.link} href="/privacy-policy"> privacy policy </Link> <br />
                                                     and allow us to contact you via email
                                                 </p>
                                             </div>

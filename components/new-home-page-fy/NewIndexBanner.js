@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "@/styles/NewIndexBanner.module.css";
@@ -14,23 +14,35 @@ const itemData = [
 ];
 
 const NewIndex2Banner = () => {
+
     const sliderRef = React.useRef(null);
 
     const activate = (e) => {
-        const items = sliderRef.current.querySelectorAll(".item");
+        const items = sliderRef.current.querySelectorAll('.item');
 
-        if (e.target.matches(".next")) {
+        if (e.target.matches('.next')) {
             sliderRef.current.append(items[0].cloneNode(true));
             sliderRef.current.append(items[0]);
             items[0].remove();
         }
 
-        if (e.target.matches(".prev")) {
+        if (e.target.matches('.prev')) {
             sliderRef.current.prepend(items[items.length - 1].cloneNode(true));
             sliderRef.current.prepend(items[items.length - 1]);
             items[items.length - 1].remove();
         }
     };
+
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            const nextButton = document.querySelector('.next');
+            nextButton.click();
+        }, 5000);
+
+        return () => {
+            clearInterval(intervalId);
+        };
+    }, []);
 
     return (
         <>

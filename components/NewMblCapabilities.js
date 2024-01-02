@@ -39,7 +39,7 @@ const Capabilities = () => {
                             <div className={styles.build}>
                                 <h2>Mobile Application Development <br />
                                     Company For Everyone Out There</h2>
-                                <Link className={styles.about} href="#">Connect Now!</Link>
+                                <Link className={styles.about} href="javascript:$zopim.livechat.window.show();">Connect Now!</Link>
                             </div>
                         </Col>
                     </Row>
