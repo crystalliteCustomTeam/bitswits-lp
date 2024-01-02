@@ -111,13 +111,28 @@ export default function App({ Component, pageProps }) {
   // =======================================
 
 
+
+  const sluginer = useRouter().asPath;
+
+
+  const weblink = "https://www.bitswits.co";
+
+
+
+
+
+
+  const newcol = weblink + sluginer;
+
+
   return (
     <>
 
 
       <Head>
         {/* Google Search Console Code */}
-        <meta name="google-site-verification" content="jg7nSxeneqpzOKNtVKXDQRVGjThDC6_7zGXI8wAXqkY" />
+        <meta name="google-site-verification" content="Qt-497Wghx553U3hqDw6wV8NvilpVp8WK4_5W3rf_a0" />
+        <link rel="canonical" href={newcol} />
       </Head>
 
       {imagesLoaded &&
