@@ -115,7 +115,7 @@ export default function App({ Component, pageProps }) {
   const sluginer = useRouter().asPath;
 
 
-  const weblink = "https://www.bitswits.co/";
+  const weblink = "https://www.bitswits.co";
 
 
 
