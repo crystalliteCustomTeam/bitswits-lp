@@ -2141,11 +2141,11 @@ input::-webkit-inner-spin-button {
 }
 .openForm .wrapper form .inputGroup input::placeholder{
   font-size: 12px;
-  color: #000!important;
+  color: grey!important;
 }
 .openForm .wrapper form .inputGroup textarea::placeholder{
   font-size: 12px;
-  color: #000;
+  color: grey;
 }
 .openForm .wrapper form .inputGroup textarea {
   padding: 0.5rem;
