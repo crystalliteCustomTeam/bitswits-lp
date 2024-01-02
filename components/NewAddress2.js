@@ -8,9 +8,108 @@ import icon11 from '../public/newMobilePageImages/city1.png'
 import icon12 from '../public/newMobilePageImages/city2.png'
 import icon14 from '../public/newMobilePageImages/city3.png'
 import arrow from '../public/newlppage/arrow.png'
+import { useState, useEffect } from 'react';
+import Axios from "axios";
+import { useRouter } from 'next/router';
+
 
 
 const NewAddress = () => {
+
+
+    const [ip, setIP] = useState('');
+    //creating function to load ip address from the API
+    const getIPData = async () => {
+        const res = await Axios.get('https://geolocation-db.com/json/f2e84010-e1e9-11ed-b2f8-6b70106be3c8');
+        setIP(res.data);
+    }
+    useEffect(() => {
+        getIPData()
+    }, [])
+
+
+    const [score, setScore] = useState('Submit Now');
+
+
+    const router = useRouter();
+    const currentRoute = router.pathname;
+      useEffect(() => {
+        const pagenewurl = window.location.href;
+        console.log(pagenewurl);
+      }, []);
+  
+
+
+    const handleSubmit = async (e) => {
+
+ 
+
+        e.preventDefault()
+        var currentdate = new Date().toLocaleString() + ''
+
+        const data = {
+            name: e.target.name.value,
+            last: 'null',
+            email: e.target.email.value,
+            phone: e.target.phone.value,
+            comment: e.target.message.value,
+            pageUrl: pagenewurl,
+            IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+            currentdate: currentdate,
+        }
+
+        const JSONdata = JSON.stringify(data)
+
+        setScore('Sending Data');
+        console.log(JSONdata);
+
+
+        fetch('api/emailapi/route', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+            },
+            body: JSONdata
+        }).then((res) => {
+            console.log(`Response received ${res}`)
+            if (res.status === 200) {
+                console.log(`Response Successed ${res}`)
+            }
+        })
+
+
+
+        let headersList = {
+            "Accept": "*/*",
+            "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+            "Authorization": "Bearer ke2br2ubssi4l8mxswjjxohtd37nzexy042l2eer",
+            "Content-Type": "application/json"
+        }
+
+        let bodyContent = JSON.stringify({
+            "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+            "Brand": "Bitswits",
+            "Page": `${currentRoute}`,
+            "Date": currentdate,
+            "Time": currentdate,
+            "JSON": JSONdata,
+
+        });
+
+        await fetch("https://sheetdb.io/api/v1/1ownp6p7a9xpi", {
+            method: "POST",
+            body: bodyContent,
+            headers: headersList
+        });
+        const { pathname } = router;
+        if (pathname == pathname) {
+            window.location.href = '/thank-you';
+        }
+
+    }
+
+
     return (
         <>
             <Container className={styles.appios}>
@@ -37,24 +136,24 @@ const NewAddress = () => {
 
                     <Col lg={9}>
                         <div className={styles.make}>
-                            <form className={styles.formsbanner}>
+                            <form className={styles.formsbanner} onSubmit={handleSubmit}>
                                 <Row className='star gx-3'>
                                     <Col lg={5} className='demono2'>
                                         <div>
-                                            <input type='text' className={styles.forminput} placeholder='Your Name' />
-                                            <input type='email' className={styles.forminput} placeholder='Email Address' />
-                                            <input type='number' className={styles.forminput} placeholder='Phone Number' />
-                                            <textarea className={`${styles.formarea} d-block d-lg-none`} placeholder='How can we help you?' ></textarea>
+                                            <input type='text' required name='name' className={styles.forminput} placeholder='Your Name' />
+                                            <input type='email' required name='email' className={styles.forminput} placeholder='Email Address' />
+                                            <input type="tel" required minLength="10" maxLength="13" pattern="[0-9]*" name='phone' className={styles.forminput} placeholder='Phone Number' />
+                                            <textarea name='message'  className={`${styles.formarea} d-block d-lg-none`} placeholder='How can we help you?' ></textarea>
                                             <div className={`${styles.take} d-flex`}>
                                                 <p className='font12 font-semibold fontf m-0'>We take your privacy seriously. Read our <span>Privacy</span></p>
                                             </div>
-                                            <input type='Submit' className={`${styles.notice} d-block d-lg-none my-3`} />
+                                            <input type='Submit' value={score} className={`${styles.notice} d-block d-lg-none my-3`} />
                                         </div>
                                     </Col>
                                     <Col lg={5} className='d-none d-lg-block demono2'>
                                         <div>
-                                            <textarea className={styles.formarea} placeholder='How can we help you?' ></textarea>
-                                            <input type='Submit' className={styles.notice} />
+                                        <textarea  name='message' className={styles.formarea} placeholder='How can we help you?' ></textarea>
+                                            <input type='Submit' value={score} className={styles.notice} />
                                         </div>
                                     </Col>
 

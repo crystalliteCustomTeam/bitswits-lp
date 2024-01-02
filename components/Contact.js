@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+
 import Link from 'next/link'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
@@ -8,36 +8,58 @@ import img1 from '../public/images/agencylogos/agency-logo1.png'
 import img2 from '../public/images/agencylogos/agency-logo2.png'
 import img3 from '../public/images/agencylogos/agency-logo3.png'
 import img4 from '../public/images/agencylogos/agency-logo4.png'
-
+import { useState, useEffect } from 'react';
+import Axios from "axios";
+import { useRouter } from 'next/router';
 
 const Contact = (props) => {
+    const [ip, setIP] = useState('');
+    //creating function to load ip address from the API
+    const getIPData = async () => {
+        const res = await Axios.get('https://geolocation-db.com/json/f2e84010-e1e9-11ed-b2f8-6b70106be3c8');
+        setIP(res.data);
+    }
+    useEffect(() => {
+        getIPData()
+    }, [])
+
 
     const [score, setScore] = useState('Time to Book The Call');
 
-    const handleSubmit = async (event) => {
 
-        event.preventDefault()
+    const router = useRouter();
+    const currentRoute = router.pathname;
+      useEffect(() => {
+        const pagenewurl = window.location.href;
+        console.log(pagenewurl);
+      }, []);
 
+    const handleSubmit = async (e) => {
+
+        e.preventDefault()
+        var currentdate = new Date().toLocaleString() + ''
 
         const data = {
-            firstName: event.target.fname.value,
-            lastName: event.target.lname.value,
-            email: event.target.email.value,
-            phone: event.target.phone.value,
-            message: event.target.message.value,
+            firstName: e.target.fname.value,
+            lastName: e.target.lname.value,
+            email: e.target.email.value,
+            company: e.target.company.value,
+            service: e.target.service.value,
+            source: e.target.source.value,
+            budget: e.target.budget.value,
+            message: e.target.message.value,
+            pageUrl: pagenewurl,
+            IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+            currentdate: currentdate,
         }
 
         const JSONdata = JSON.stringify(data)
 
-        setScore('Wating For Send Data');
+        setScore('Sending Data');
+        console.log(JSONdata);
 
-        // axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
-        //   .then((response) => {
-        //     setScore('Thank You');
-        //     console.log(response.data);
-        //   });
 
-        fetch('/api/email', {
+        fetch('api/contactapp/route', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
@@ -45,17 +67,40 @@ const Contact = (props) => {
             },
             body: JSONdata
         }).then((res) => {
-            console.log('Response received')
+            console.log(`Response received ${res}`)
             if (res.status === 200) {
-                console.log('Response succeeded!')
+                console.log(`Response Successed ${res}`)
             }
         })
 
 
-        // const { pathname } = Router
-        // if (pathname == pathname) {
-        //     Router.push('/thank-you')
-        // }
+
+        let headersList = {
+            "Accept": "*/*",
+            "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+            "Authorization": "Bearer ke2br2ubssi4l8mxswjjxohtd37nzexy042l2eer",
+            "Content-Type": "application/json"
+        }
+
+        let bodyContent = JSON.stringify({
+            "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+            "Brand": "Bitswits",
+            "Page": `${currentRoute}`,
+            "Date": currentdate,
+            "Time": currentdate,
+            "JSON": JSONdata,
+
+        });
+
+        await fetch("https://sheetdb.io/api/v1/1ownp6p7a9xpi", {
+            method: "POST",
+            body: bodyContent,
+            headers: headersList
+        });
+        const { pathname } = router;
+        if (pathname == pathname) {
+            window.location.href = '/thank-you';
+        }
 
     }
 
@@ -89,7 +134,7 @@ const Contact = (props) => {
                         </Col>
                         <Col lg={7}>
                             <div className={`${styles.cntcForm} mt-5 mt-lg-0`}>
-                                <form onSubmit={handleSubmit}>
+                            <form onSubmit={handleSubmit}>
                                     <Row>
                                         <Col lg={6}>
                                             <div className='mb-4'>
@@ -121,8 +166,8 @@ const Contact = (props) => {
                                         <Col lg={6}>
                                             <div className='mb-4'>
                                                 <label className='form-label'>Company Size</label>
-                                                <select id="company" name="Company" data-name="Company" className={styles.wSelect} required >
-                                                    <option value="0">Company Size</option>
+                                                <select id="company" name="company" data-name="Company" className={styles.wSelect} required >
+                                                    <option value="">Company Size</option>
                                                     <option value="1">Only 1</option>
                                                     <option value="2-10">2-10</option>
                                                     <option value="10-20">10-20</option>
@@ -168,7 +213,7 @@ const Contact = (props) => {
                                                     <span className={styles.imp}>*</span>
                                                 </label>
                                                 <select id="budget" name="budget" data-name="Budget" className={styles.wSelect} required>
-                                                    <option value="0">What is your budget for this project?</option>
+                                                    <option value="">What is your budget for this project?</option>
                                                     <option value="Under $20,000">Under $20,000</option>
                                                     <option value="$20.000-$50,000">$20.000-$50,000</option>
                                                     <option value="$50,000-$100,000">$50,000-$100,000</option>
@@ -181,7 +226,7 @@ const Contact = (props) => {
                                         <Col lg={12}>
                                             <div className='mb-4'>
                                                 <label className='form-label'>About Your Project</label>
-                                                <textarea id="message" name="message" maxLength="5000" data-name="Message" placeholder="Tell us about your project goals &amp; timeline in a snapshot. Please include any necessary links about your project." className="form-field text-area w-input"></textarea>
+                                                <textarea id="message" name="message" maxLength="5000" required data-name="Message" placeholder="Tell us about your project goals &amp; timeline in a snapshot. Please include any necessary links about your project." className="form-field text-area w-input"></textarea>
                                             </div>
                                         </Col>
                                         <Col lg={12}>

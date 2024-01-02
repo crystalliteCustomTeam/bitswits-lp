@@ -12,6 +12,9 @@ import HomeBannerSlider from './HomeBannerSlider';
 
 const NewHomeBanner = () => {
 
+
+    
+
     return (
         <>
             <section className={styles.newHomeBg}>

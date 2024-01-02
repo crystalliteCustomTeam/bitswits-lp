@@ -26,6 +26,10 @@ const LpFormprops = (props) => {
 
     const router = useRouter();
     const currentRoute = router.pathname;
+      useEffect(() => {
+        const pagenewurl = window.location.href;
+        console.log(pagenewurl);
+      }, []);
 
 
     const handleSubmit = async (e) => {
@@ -39,7 +43,7 @@ const LpFormprops = (props) => {
             email: e.target.email.value,
             phone: e.target.phone.value,
             comment: 'null',
-            pageUrl: currentRoute,
+            pageUrl: pagenewurl,
             IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
             currentdate: currentdate,
         }

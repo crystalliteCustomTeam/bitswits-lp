@@ -92,7 +92,9 @@
   line-height: 1.4;
   display: block;
 }
-
+.cntcForm form select option {
+  color: black;
+}
 .cntcForm form textarea {
   height: 120px;
   min-height: 52px;

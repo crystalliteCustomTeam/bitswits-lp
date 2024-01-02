@@ -25,12 +25,15 @@ const Contact = (props) => {
     }, [])
 
 
-    const [score, setScore] = useState('Submit');
+    const [score, setScore] = useState('Time to Book The Call');
 
 
     const router = useRouter();
     const currentRoute = router.pathname;
-
+      useEffect(() => {
+        const pagenewurl = window.location.href;
+        console.log(pagenewurl);
+      }, []);
 
     const handleSubmit = async (e) => {
 
@@ -46,7 +49,7 @@ const Contact = (props) => {
             source: e.target.source.value,
             budget: e.target.budget.value,
             message: e.target.message.value,
-            pageUrl: currentRoute,
+            pageUrl: pagenewurl,
             IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
             currentdate: currentdate,
         }
