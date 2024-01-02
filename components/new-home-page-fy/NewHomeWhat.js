@@ -28,7 +28,6 @@ const NewHomeWhat = () => {
                                         Get To Know Us
                                     </Link>
                                 </div>
-
                             </Col>
                         </Row>
                     </Container>

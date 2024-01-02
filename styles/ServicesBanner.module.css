@@ -143,7 +143,7 @@
 }
 
 .custom .banImg,
-.mobile .banImg{
+.mobile .banImg {
   margin-top: -40px;
 }
 
@@ -403,7 +403,8 @@
   }
 
   .banImg {
-    margin-top: 5rem;
+    display: none;
+    margin-top: 0;
   }
 
   .just {
