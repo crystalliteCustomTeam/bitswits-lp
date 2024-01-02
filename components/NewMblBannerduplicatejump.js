@@ -27,9 +27,11 @@ const NewHomeBanner = () => {
 
     const router = useRouter();
     const currentRoute = router.pathname;
+     const [pagenewurl, setPagenewurl] = useState('');
       useEffect(() => {
         const pagenewurl = window.location.href;
         console.log(pagenewurl);
+        setPagenewurl(pagenewurl);
       }, []);
 
     const handleSubmit = async (e) => {
