@@ -50,7 +50,8 @@ const NewAddress = (props) => {
             last: 'null',
             email: e.target.email.value,
             phone: e.target.phone.value,
-            comment: 'null',
+            comment: e.target.comment.value,
+            comment1: e.target.comment1.value,
             pageUrl: pagenewurl,
             IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
             currentdate: currentdate,
@@ -62,7 +63,7 @@ const NewAddress = (props) => {
         console.log(JSONdata);
 
 
-        fetch('api/emailapi/route', {
+        fetch('api/sideform/route', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
@@ -130,7 +131,7 @@ const NewAddress = (props) => {
                                         </Col>
                                         <Col lg={6} className='d-none d-lg-block'>
                                             <div>
-                                                <textarea  name='comment' required className={styles.formarea} placeholder='How can we help you?' ></textarea>
+                                                <textarea  name='comment1' required className={styles.formarea} placeholder='How can we help you?' ></textarea>
                                                 <input type='Submit' value={score} className={styles.notice} />
                                             </div>
                                         </Col>
