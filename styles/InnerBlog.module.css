@@ -1,12 +1,12 @@
 .innerBlog {
   padding: 50px 0;
   overflow: hidden;
-  font-family: "Montserrat", sans-serif;
+  background-color: #000;
 }
 
 .contentHeading {
   padding-bottom: 20px;
-  border-bottom: 1px solid #b8b8b8;
+  border-bottom: 1px solid #fff;
 }
 
 .detailDate {
@@ -16,27 +16,29 @@
 }
 
 .detailDate span {
-  color: #222;
+  color: #fff;
   font-size: 16px;
   font-weight: 600;
 }
 
 .contentHeading h1 {
-  color: #000;
+  color: #fff;
   font-size: 35px;
   line-height: 45px;
   font-weight: 700;
   margin-bottom: 0px;
 }
 
+.contentHeading h6{
+  color: #fff;
+}
+
 .contentBody a {
-  color: #000;
+  color: #fff;
 }
 
 .contentBody a:hover {
-  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #f32f5e;
 }
 
 .contentBody p,
@@ -48,9 +50,10 @@
 .contentBody h3,
 .contentBody h4,
 .contentBody h5 {
-  color: #000;
+  color: #fff;
   font-weight: 700;
   margin: 30px 0 15px;
+  letter-spacing: 1px;
 }
 
 .contentBody h2 {
@@ -70,7 +73,7 @@
 .contentBody ul li,
 .contentBody ol li,
 .contentBody p {
-  color: #000;
+  color: #fff;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -90,7 +93,7 @@
   display: block;
   position: absolute;
   border-radius: 100%;
-  background: linear-gradient(to right, #f32f5e, #4a78ef);
+  background-color: #f32f5e;
 }
 
 .ctaBtn {
@@ -123,17 +126,19 @@
   align-items: flex-end;
   justify-content: center;
   padding-bottom: 40px;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  border-radius: 10px;
 }
 
 .platForm .subTitle {
-  color: #5e5c5c;
+  color: #fff;
   font-size: 13px;
   font-weight: 700;
   margin-bottom: 8px;
 }
 
 .platForm .title {
-  color: #000;
+  color: #fff;
   font-size: 30px;
   font-weight: 600;
   line-height: 35px;
@@ -142,46 +147,10 @@
 }
 
 .platForm .para {
-  color: #000;
+  color: #fff;
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 0;
-}
-
-.newsLetter {
-  border: 1px solid #a8a8a8;
-  padding: 30px 20px;
-}
-
-.newsLetter h4 {
-  color: #000;
-  font-size: 14px;
-  font-weight: 700;
-  margin-bottom: 0px;
-}
-
-.newsLetter h5 {
-  color: #000;
-  margin-top: 10px;
-  font-size: 30px;
-  font-weight: 600;
-}
-
-.newsLetter form input {
-  border: 0;
-  width: 100%;
-  color: #000;
-  padding: 10px 0;
-  font-size: 12px;
-  font-weight: 600;
-  border-radius: 0;
-  letter-spacing: 1px;
-  border-bottom: 1px solid;
-}
-
-.newsLetter form ::placeholder {
-  color: #a8a8a8;
-  font-weight: 700;
 }
 
 .arrowBtn {
@@ -191,15 +160,8 @@
   display: flex;
   align-items: center;
   text-align: left;
-  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.newsLetter .arrowBtn {
-  border: 0;
-  font-size: 15px;
-  background-color: #fff;
+  background-color: #000;
+  color: #fff;
 }
 
 .arrowBtn > span {
@@ -214,6 +176,7 @@
 .arrowBtn > img {
   display: inline-block;
   margin: unset;
+  filter: invert(1);
 }
 
 /* ============================================= */

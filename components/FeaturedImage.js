@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import styles from '@/styles/BlogListBody.module.css'
 
 
 export default function FeaturedImage({ post }) {
@@ -11,8 +12,8 @@ export default function FeaturedImage({ post }) {
     }
 
     return (
-        <Link href={`/blog/${post.slug}`} >
-            <Image quality={75} src={defaultFeaturedImage} width="350" height="300" alt={post.title} className="img-fluid" />
+        <Link href={`/blog/${post.slug}`}>
+            <Image quality={75} src={defaultFeaturedImage} width="350" height="300" alt={post.title} className={`${styles.banImg} img-fluid`} />
         </Link>
     )
 }
