@@ -111,6 +111,13 @@
   text-transform: capitalize;
 }
 
+.platForm .para {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
 .arrowBtn {
   font-size: 18px;
   font-weight: 800;
