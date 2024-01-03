@@ -306,15 +306,44 @@
   }
 
   .forget {
-    margin-bottom: 25%;
+    margin-bottom: 2%;
   }
 
   .forget h2 {
     font-size: 40px;
   }
 
+  .longline::before {
+    width: 100%;
+    height: 220px;
+  }
+
+  .longline1::before {
+    width: 100%;
+    height: 220px;
+  }
+
+  .bring,
+  .bring1 {
+    top: 50px;
+    padding: 0 20px;
+    left: 0;
+  }
+
+  .bring1 {
+    left: 0;
+  }
+
+  .longline {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 15%;
+  }
+
   .longline1 {
-    margin-bottom: 32%;
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 15%;
   }
 }
 
@@ -332,10 +361,6 @@
     margin-top: 4px;
   }
 
-  .forget {
-    margin-bottom: 40%;
-  }
-
   .forget h3 {
     font-size: 15px;
   }
@@ -348,30 +373,6 @@
 
   .cont p {
     font-size: 13px;
-  }
-
-  .longline::before,
-  .longline2::before,
-  .longline3::before {
-    width: 100%;
-    height: 375px;
-  }
-
-  .longline {
-    width: 100%;
-    padding-right: 20px;
-    margin-bottom: 80%;
-  }
-
-  .longline2 {
-    width: 100%;
-    padding-right: 20px;
-    margin-bottom: 90%;
-  }
-
-  .longline3 {
-    width: 100%;
-    margin-bottom: 95%;
   }
 
   .longline3::before {
@@ -391,181 +392,12 @@
     top: -130px;
   }
 
+  .longline {
+    margin-bottom: 25%;
+  }
+
   .longline1 {
-    width: 100%;
-    padding-right: 20px;
-    margin-bottom: 50%;
+    margin-bottom: 25%;
   }
 
-  /* ============================== */
-
-  .game2d .forget {
-    margin-bottom: 20%;
-  }
-
-  .game2d .longline {
-    width: 100%;
-    padding-right: 20px;
-    margin-bottom: 75%;
-  }
-
-  .game2d .longline::before {
-    height: 400px;
-  }
-
-  .game2d .longline2 {
-    width: 100%;
-    padding-right: 20px;
-    margin-bottom: 15%;
-    height: 315px;
-  }
-
-  .game2d .longline2::before {
-    height: 310px;
-  }
-
-  .game2d .longline3 {
-    width: 100%;
-    margin-bottom: 70%;
-  }
-
-  .game2d .expertise img {
-    top: -50px;
-    right: -30px;
-  }
-
-  .game2d .longline2 .expertise img {
-    top: -70px;
-    left: 0;
-  }
-
-  .game2d .expertise1 img {
-    top: -40px;
-    right: -55px;
-  }
-
-  .game2d .longline1 .expertise1 img {
-    top: -100px;
-    left: 0px;
-  }
-
-  /* ============================== */
-
-  .gameNft .forget {
-    margin-bottom: 20%;
-  }
-
-  .gameNft .longline {
-    width: 100%;
-    padding-right: 20px;
-    margin-bottom: 75%;
-  }
-
-  .gameNft .longline::before {
-    height: 400px;
-  }
-
-  .gameNft .longline2 {
-    width: 100%;
-    padding-right: 20px;
-    margin-bottom: 15%;
-    height: 315px;
-  }
-
-  .gameNft .longline2::before {
-    height: 325px;
-  }
-
-  .gameNft .longline3 {
-    width: 100%;
-    margin-bottom: 80%;
-  }
-
-  .gameNft .longline3::before {
-    height: 425px;
-  }
-
-  .gameNft .expertise img {
-    top: -50px;
-    right: -30px;
-  }
-
-  .gameNft .longline2 .expertise img {
-    top: -70px;
-    left: 0;
-  }
-
-  .gameNft .expertise1 img {
-    top: -40px;
-    right: -55px;
-  }
-
-  .gameNft .longline1 .expertise1 img {
-    top: -100px;
-    left: -5px;
-  }
-
-  /* ============================== */
-
-  .gameBlckChain .forget {
-    margin-bottom: 20%;
-  }
-
-  .gameBlckChain .bring {
-    top: 165px;
-  }
-
-  .gameBlckChain .longline {
-    width: 100%;
-    padding-right: 20px;
-    margin-bottom: 85%;
-  }
-
-  .gameBlckChain .longline::before {
-    height: 350px;
-  }
-
-  .gameBlckChain .longline2 {
-    width: 100%;
-    padding-right: 20px;
-    margin-bottom: 15%;
-    height: 315px;
-  }
-
-  .gameBlckChain .longline2::before {
-    height: 300px;
-  }
-
-  .gameBlckChain .longline2 .bring {
-    top: 130px;
-  }
-
-  .gameBlckChain .longline2 .expertise img {
-    top: -110px;
-    left: -25px;
-  }
-
-  .gameBlckChain .longline3 {
-    width: 100%;
-    margin-bottom: 80%;
-  }
-
-  .gameBlckChain .longline3::before {
-    height: 310px;
-  }
-
-  .gameBlckChain .expertise img {
-    top: -50px;
-    right: -30px;
-  }
-
-  .gameBlckChain .expertise1 img {
-    top: -70px;
-    right: -55px;
-  }
-
-  .gameBlckChain .longline1 .expertise1 img {
-    top: -70px;
-    left: -10px;
-  }
 }

@@ -2,12 +2,29 @@ import React from 'react'
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/ServicesAdvantage.module.css";
+//
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 const ServicesAdvantage = (props) => {
+
+    var awardslogo = {
+        dots: false,
+        arrows: false,
+        loop: true,
+        autoplay: true,
+        infinite: true,
+        adaptiveHeight: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
+
     return (
         <>
-            <div className={styles.creative2}>
+            <div className={`${styles.creative2} ${styles[props.assignClass]}`}>
                 <section className={styles.creative}>
                     <Container>
                         <Row className={styles.game}>
@@ -18,7 +35,7 @@ const ServicesAdvantage = (props) => {
                             </Col>
                         </Row>
 
-                        <Row className={styles.boy}>
+                        <Row className={`${styles.boy} d-none d-lg-flex`}>
                             <Col xl={6}>
                                 <div className={styles.dscool}>
                                     <div>
@@ -59,6 +76,52 @@ const ServicesAdvantage = (props) => {
                                 </div>
                             </Col>
                         </Row>
+                        {/* ====================== */}
+                        <div className={`${styles.boy} d-block d-lg-none`}>
+                            <Slider {...awardslogo} className={` ${styles.nextalign1}`}>
+                                <div className={styles.dscool}>
+                                    <div>
+                                        <h3>{props.title1}</h3>
+                                        <p>{props.content1}</p>
+                                    </div>
+                                </div>
+
+                                <div className={styles.dscool}>
+                                    <div>
+                                        <h3>{props.title2}</h3>
+                                        <p>{props.content2}</p>
+                                    </div>
+                                </div>
+
+                                <div className={styles.dscool}>
+                                    <div>
+                                        <h3>{props.title3}</h3>
+                                        <p>{props.content3}</p>
+                                    </div>
+                                </div>
+
+                                <div className={styles.dscool}>
+                                    <div>
+                                        <h3>{props.title4}</h3>
+                                        <p>{props.content4}</p>
+                                    </div>
+                                </div>
+
+                                <div className={styles.dscool}>
+                                    <div>
+                                        <h3>{props.title5}</h3>
+                                        <p>{props.content5}</p>
+                                    </div>
+                                </div>
+
+                                <div className={styles.dscool}>
+                                    <div>
+                                        <h3>{props.title6}</h3>
+                                        <p>{props.content6}</p>
+                                    </div>
+                                </div>
+                            </Slider>
+                        </div>
                     </Container>
                 </section>
             </div>

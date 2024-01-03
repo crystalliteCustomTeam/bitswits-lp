@@ -138,6 +138,10 @@
   .happens {
     padding: 0 0 80px;
   }
+
+  .spacing2d{
+    padding-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {

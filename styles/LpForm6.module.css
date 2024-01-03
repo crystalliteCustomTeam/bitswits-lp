@@ -225,12 +225,12 @@
   .about {
     font-size: 12px;
   }
-
+  
   .appios {
-    max-width: 370px;
-    min-width: 400px;
+    max-width: 100%;
+    min-width: unset;
     padding-left: 20px;
-    padding-right: 30px;
+    padding-right: 20px;
     padding-top: 50px;
   }
 

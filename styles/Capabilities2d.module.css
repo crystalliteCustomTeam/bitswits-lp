@@ -604,15 +604,15 @@
   }
 
   .home {
-    padding-top: 80px;
+    padding: 50px 0 20px;
+  }
+
+  .high {
+    margin-top: 5%;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .high {
-    margin-top: 15%;
-  }
-
   .home {
     text-align: center;
   }
@@ -643,7 +643,7 @@
 
   .home {
     background-color: black;
-    padding-top: 50px;
+    padding: 50px 0 0;
   }
 }
 

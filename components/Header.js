@@ -618,9 +618,6 @@ const Header = () => {
                                 Contact
                             </Link>
                         </li>
-                        <li className={`${styles.navList} ${styles.inqBtn}`} onClick={modal}>
-                            <Link href='#' className={styles.befLink}>GET A QUOTE</Link>
-                        </li>
                         <li>
                             <div className={styles.mbInq}>
                                 <div className={`${styles.ourWork} ${styles.cntct}`}>
