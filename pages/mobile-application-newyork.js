@@ -1,5 +1,5 @@
 import Head from "next/head";
-import React from "react";
+import React, { useEffect, useState } from "react";
 //components
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
 const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
@@ -13,17 +13,95 @@ const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSlide
 const LpChoose = React.lazy(() => import("@/components/LpChoose"));
 const LpForm = React.lazy(() => import("@/components/LpForm6"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
-const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
+const WeworkLp = React.lazy(() => import("@/components/new-home-page-fy/WeworkLphome"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
 const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
 const Formnewlp = React.lazy(() => import("@/components/Formnewlp"));
 const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
+const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
 //images
 const BannerImage = await import("@/public/newMobilePageImages/banner_image.png");
+const ios = await import("../public/images/mobileApp/ios.png");
+const android = await import("../public/images/mobileApp/android.png");
+const web = await import("../public/images/mobileApp/web.png");
+const flutter = await import("../public/images/mobileApp/flutter.png");
+const react = await import("../public/images/mobileApp/react.png");
+const cross = await import("../public/images/mobileApp/cross.png");
 
 
 export default function mobileApplication() {
+
+  const [isSliderActive, setIsSliderActive] = useState(true);
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 1201) {
+        setIsSliderActive(false);
+      } else {
+        setIsSliderActive(true);
+      }
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const severcedata = [
+    {
+      classlayout: {
+        newclass: "iosclass",
+      },
+      heading: {
+        title1: (<> Maintaining digital quality with our collection of customizable services </>)
+      },
+      serdata: [
+        {
+          title: (<> iOS Application <br /> Development </>),
+          text: "We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design, agile development methodologies, and the latest tools and frameworks. Our experienced iOS developers deliver innovative and customized apps!",
+          appclass: "app",
+          imgservice: ios,
+        },
+        {
+          title: (<> Android Application <br /> Development </>),
+          text: "We take Android app development to the next level by following a comprehensive approach, from ideation to launch. Our experienced developers use the latest technologies to create customized and scalable Android apps that exceed client expectations.",
+          appclass: "app1",
+          imgservice: android,
+        },
+        {
+          title: (<> Web App <br /> Development </>),
+          text: "We offer end-to-end web app development services. Our team of skilled web app developers utilize the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today!",
+          appclass: "app2",
+          imgservice: web,
+        },
+        {
+          title: "Flutter App Development",
+          text: "Our team of expert Flutter app developers at BitsWits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs. From ideation to deployment, we ensure a smooth and efficient development process.",
+          appclass: "app3",
+          imgservice: flutter,
+        },
+        {
+          title: "React Native App Development",
+          text: (<> Our React Native app developers specialize in creating
+            top-notch, performance-oriented native mobile apps for Android
+            and iOS platforms. We follow a robust development process and
+            utilize the latest technologies to deliver customized solutions
+            that meet our clients' business objectives. </>),
+          appclass: "app4",
+          imgservice: react,
+        },
+        {
+          title: "Cross Platform App Development",
+          text: "We prioritize creating seamless user experiences in cross-platform app development. Our expert team uses cutting-edge tools and frameworks to build high-quality apps that work flawlessly across multiple platforms, ensuring maximum reach and engagement for your business.",
+          appclass: "app5",
+          imgservice: cross,
+        },
+      ],
+    },
+  ];
+
   return (
     <>
       <Head>
@@ -95,69 +173,64 @@ export default function mobileApplication() {
       <HomeBannerSliderlp />
       <LpForm addresClass="iosclass" />
       <Nothing Nothing="nothingLp6" />
-      <ServicesMaintain
-        assignClass="mobile"
-        title1={
-          <>
-            Maintaining digital quality with our collection of customizable
-            services
-          </>
-        }
-        appContent={[]}
-        appContent1={[
-          {
-            title: "iOS Application Development",
-            text: "We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design, agile development methodologies, and the latest tools and frameworks. Our experienced iOS developers deliver innovative and customized apps!",
-            appclass: "app",
-          },
-          {
-            title: "Android Application Development",
-            text: "We take Android app development to the next level by following a comprehensive approach, from ideation to launch. Our experienced developers use the latest technologies to create customized and scalable Android apps that exceed client expectations.",
-            appclass: "app1",
-          },
-          {
-            title: (
-              <>
-                Web App <br /> Development
-              </>
-            ),
-            text: "We offer end-to-end web app development services. Our team of skilled web app developers utilize the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today!",
-            appclass: "app2",
-          },
-        ]}
-        appContent2={[
-          {
-            title: "Flutter App Development",
-            text: "Our team of expert Flutter app developers at BitsWits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs. From ideation to deployment, we ensure a smooth and efficient development process.",
-            appclass: "app3",
-          },
-        ]}
-        appContent3={[
-          {
-            title: "React Native App Development",
-            text: (
-              <>
-                Our React Native app developers specialize in creating
-                top-notch, performance-oriented native mobile apps for Android
-                and iOS platforms. We follow a robust development process and
-                utilize the latest technologies to deliver customized solutions
-                that meet our clients' business objectives.
-              </>
-            ),
-            appclass: "app4",
-          },
-          {
-            title: "Cross Platform App Development",
-            text: "We prioritize creating seamless user experiences in cross-platform app development. Our expert team uses cutting-edge tools and frameworks to build high-quality apps that work flawlessly across multiple platforms, ensuring maximum reach and engagement for your business.",
-            appclass: "app5",
-          },
-        ]}
-        appContent4={[]}
-        appContent5={[]}
-        appContent6={[]}
-        appContent7={[]}
-      />
-      <WeworkLp wework="weworkLp6" />
+      {isSliderActive ? (
+        <ServicesMaintain
+          assignClass="mobile"
+          title1={<> Maintaining digital quality with our collection of customizable services </>}
+          appContent={[]}
+          appContent1={[
+            {
+              title: (<> iOS Application <br /> Development </>),
+              text: "We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design, agile development methodologies, and the latest tools and frameworks. Our experienced iOS developers deliver innovative and customized apps!",
+              appclass: "app",
+            },
+            {
+              title: (<> Android Application <br /> Development </>),
+              text: "We take Android app development to the next level by following a comprehensive approach, from ideation to launch. Our experienced developers use the latest technologies to create customized and scalable Android apps that exceed client expectations.",
+              appclass: "app1",
+            },
+            {
+              title: (<> Web App <br /> Development </>),
+              text: "We offer end-to-end web app development services. Our team of skilled web app developers utilize the latest technologies to create scalable and secure web applications that cater to your business needs. Hire our web app developers today!",
+              appclass: "app2",
+            },
+          ]}
+          appContent2={[
+            {
+              title: "Flutter App Development",
+              text: "Our team of expert Flutter app developers at BitsWits use the latest tools and techniques to build cross-platform mobile apps tailored to your business needs. From ideation to deployment, we ensure a smooth and efficient development process.",
+              appclass: "app3",
+            },
+          ]}
+          appContent3={[
+            {
+              title: "React Native App Development",
+              text: (
+                <>
+                  Our React Native app developers specialize in creating
+                  top-notch, performance-oriented native mobile apps for Android
+                  and iOS platforms. We follow a robust development process and
+                  utilize the latest technologies to deliver customized solutions
+                  that meet our clients' business objectives.
+                </>
+              ),
+              appclass: "app4",
+            },
+            {
+              title: "Cross Platform App Development",
+              text: "We prioritize creating seamless user experiences in cross-platform app development. Our expert team uses cutting-edge tools and frameworks to build high-quality apps that work flawlessly across multiple platforms, ensuring maximum reach and engagement for your business.",
+              appclass: "app5",
+            },
+          ]}
+          appContent4={[]}
+          appContent5={[]}
+          appContent6={[]}
+          appContent7={[]}
+        />
+      ) : (
+        <ServicesMaintainmobile severcedata={severcedata} />
+      )}
+      <WeworkLp wework="weworkLpnewhomefy" />
       <StartupsLp startups="startups" />
       <ProjectProcess
         processclass="processLp6"
@@ -178,6 +251,7 @@ export default function mobileApplication() {
         }
       />
       <Newsuccess
+        assignClass="spacing"
         subtitle="Ready For Success?"
         maintitle="Brace Yourself for What Happens Next"
         successSteps={[
@@ -186,21 +260,21 @@ export default function mobileApplication() {
             title: "Talk To Our Experts",
             text: "Contact us without obligation by email or phone and secure your free consultation.",
             buttonText: "Connect Now!",
-            link: "#",
+            link: "javascript:$zopim.livechat.window.show();",
           },
           {
             number: "02",
             title: "Get A Quote",
             text: "Get an exact cost breakdown structure of your app.",
             buttonText: "Chat Now!",
-            link: "#",
+            link: "javascript:$zopim.livechat.window.show();",
           },
           {
             number: "03",
             title: "Build An MVP",
-            text: "Contact us without obligation by email or phone and secure your free consultation.",
+            text: "Start your app development journey with no-obligation consultation via email and phone.",
             buttonText: "Call Now!",
-            link: "#",
+            link: "tel:+18335006007",
           },
         ]}
       />
@@ -272,7 +346,7 @@ export default function mobileApplication() {
                 is answered adequately to provide you with the utmost
                 satisfaction.
               </>
-            ), 
+            ),
           },
           {
             question: "What industries does BitsWits cater to?",

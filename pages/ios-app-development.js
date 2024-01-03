@@ -50,6 +50,7 @@ export default function gamedevelopmentcompany() {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+  
   const severcedata = [
     {
       classlayout: {
