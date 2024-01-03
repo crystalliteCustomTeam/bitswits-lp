@@ -10,11 +10,8 @@ const BlogListing = () => {
             <section className={styles.blogListBody}>
                 <Container>
                     <Row className='justify-content-between'>
-                        <Col lg={2}>
-                            <h5 className='font20 fontf font-semibold mt-1 letterspace black'>Bolgs</h5>
-                        </Col>
-                        <Col lg={7}>
-                            <h2 className='font65 black fontf font-bold line60 black'>Insight</h2>
+                        <Col lg={12}>
+                            <h1>Our Recent Blogs </h1>
                         </Col>
                     </Row>
                 </Container>

@@ -47,7 +47,7 @@ import dev9 from "../public/newHomePageImages/tech/dev/9.png";
 
 
 const Technologieswe = (props) => {
-  
+
   const [activeTab1, setActiveTab1] = useState("tab1");
   function fun1(tabs1) {
     setActiveTab1(tabs1);
@@ -56,9 +56,8 @@ const Technologieswe = (props) => {
   return (
     <>
       <section
-        className={`${styles.tech} ${styles[props.addresClass]} ${
-          props.paddingBottom
-        }`}
+        className={`${styles.tech} ${styles[props.addresClass]} ${props.paddingBottom
+          }`}
       >
         <Container>
           <Row>

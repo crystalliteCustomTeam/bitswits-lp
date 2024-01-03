@@ -106,14 +106,11 @@
     padding: 0px;
     padding-top: 50px;
     padding-bottom: 50px;
-    height: unset;
+    height: 35vh;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .newHomeOvrly a {
-    display: none;
-  }
   .wid {
     display: none;
   }
