@@ -110,25 +110,14 @@ export default function App({ Component, pageProps }) {
     router.pathname == "/top-ecommerce-app-development-company";
   // =======================================
 
-
-
   const sluginer = useRouter().asPath;
-
 
   const weblink = "https://www.bitswits.co";
 
-
-
-
-
-
   const newcol = weblink + sluginer;
-
 
   return (
     <>
-
-
       <Head>
         {/* Google Search Console Code */}
         <meta name="google-site-verification" content="Qt-497Wghx553U3hqDw6wV8NvilpVp8WK4_5W3rf_a0" />
@@ -199,7 +188,6 @@ export default function App({ Component, pageProps }) {
           <Zendesk defer zendeskKey={ZENDESK_KEY} onLoaded={handleLoaded} />
         </div>
       }
-
     </>
   );
 }

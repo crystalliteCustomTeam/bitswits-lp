@@ -20,9 +20,8 @@ const NewHomeWhat = () => {
                         <Row>
                             <Col lg={12}>
                                 <h2 className={`text-white fontpink100 font-bold ${styles.textPink}`}>What we do</h2>
-                                <p className={`fontwhite40 font-bold text-white`}>Shaping a Smarter Tomorrow <br />
-                                    Through Technological Excellence.</p>
-                                <p className={`${styles.width} fonthomereg`}>At Bitswits, we blend pioneering IT services and consulting with over a decade of expertise, helping businesses around the globe achieve their transformative goals.</p>
+                                <p className={`fontwhite40 font-bold text-white`}>BitsWits transforms businesses <br /> through technology.</p>
+                                <p className={`${styles.width} fonthomereg`}>We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise.</p>
                                 <div className={styles.sec_btn}>
                                     <Link href='javascript:$zopim.livechat.window.show();' className={`${styles.btn_txt} font-extrabold`}>
                                         Get To Know Us
