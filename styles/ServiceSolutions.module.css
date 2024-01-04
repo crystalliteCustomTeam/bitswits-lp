@@ -60,7 +60,7 @@
 
 @media screen and (max-width: 991px) {
   .home {
-    padding-top: 80px;
+    padding-top: 0px;
     padding-bottom: 80px;
   }
 
@@ -85,7 +85,18 @@
 
 @media screen and (max-width: 767px) {
   .gameApp {
-    padding-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+
+  .game2d,
+  .gameNft,
+  .gameBlckChain {
+    padding: 0;
+  }
+
+  .game3d {
+    padding-top: 50px;
     padding-bottom: 0px;
   }
 }

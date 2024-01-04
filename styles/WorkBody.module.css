@@ -179,6 +179,10 @@
     padding: 0;
   }
 
+  .workBg.beats{
+    padding-bottom: 70px;
+  }
+
   .workImg {
     margin-left: 0;
     margin-right: 0;

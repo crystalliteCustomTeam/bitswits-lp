@@ -365,85 +365,6 @@ const Header = () => {
                                 </Row>
                             </div>
                         </li>
-                        <li className={`${styles.megaList2} ${styles.navList}`} onClick={handleMegaMenu2}>
-                            <Link href='#' className={`${styles.megaLink} ${styles.befLink}`}>
-                                OUR COMPANY
-                                <FaAngleDown />
-                            </Link>
-                            <div className={megamenu2 ? `${styles.megaMenu2} ${styles.opnMenu2}` : `${styles.megaMenu2}`}>
-                                <div className={styles.backArrow}>
-                                    <Image alt="bitswits"
-                                        src={backarrow}
-
-                                    />
-                                </div>
-                                <Row className={`${styles.megaRow} mt-4 mt-lg-0`}>
-
-                                    <Col lg={4}>
-                                        <div className={styles.listMain}>
-                                            <div className={styles.listBody}>
-                                                <ul className='mb-0 mt-0'>
-                                                    <div className={styles.listHeading}>
-                                                        <div className={styles.megaIcon}>
-                                                            <Image alt="bitswits" className='img-fluid'
-                                                                src={about}
-                                                            />
-                                                        </div>
-                                                        <h5 className='font14 fontf font-semibold mb-0'>ABOUT US</h5>
-                                                    </div>
-                                                    <div className={styles.listBody}>
-                                                        <Row>
-                                                            <Col md={12}>
-                                                                <p>Based in California, US, our company is driven by a relentless commitment to client satisfaction, fueled by our passion for technology innovation and business process expertise. Since our inception in 2002, we have experienced remarkable growth year after year, currently boasting a thriving in-house team of over 1,000 employees spread across various international locations.</p>
-                                                                <Link className={styles.download} onClick={opnen} href='#' download><FaAngleRight className='white font14' />Download our E-brochure</Link>
-                                                            </Col>
-                                                        </Row>
-                                                    </div>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col lg={2}>
-                                        <div className={styles.listMain}>
-
-                                            <div className={styles.listBody}>
-                                                <Row>
-                                                    <Col md={12}>
-                                                        <ul className='mb-0 mt-0'>
-
-                                                            <div className={styles.listHeading}>
-                                                                <div className={styles.megaIcon}>
-                                                                    <Image alt="bitswits" className='img-fluid'
-                                                                        src={company}
-                                                                    />
-                                                                </div>
-                                                                <h5 className='font14 fontf font-semibold mb-0'>COMPANY</h5>
-                                                            </div>
-
-                                                            <li>
-                                                                <Link onClick={handleMenu} href='/about-us'>
-                                                                    <FaAngleRight />
-                                                                    <span>About Us</span>
-                                                                </Link>
-                                                            </li>
-                                                        </ul>
-                                                    </Col>
-                                                </Row>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col lg={6}>
-                                        <div className={styles.listMain}>
-                                            <div className={styles.listImg}>
-                                                <Image alt="bitswits" className='img-fluid'
-                                                    src={ourbg}
-                                                />
-                                            </div>
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </li>
                         <li className={`${styles.megaList4} ${styles.navList}`} onClick={handleMegaMenu4}>
                             <Link href='/our-work' className={`${styles.megaLink} ${styles.befLink}`}>
                                 OUR WORK
@@ -696,9 +617,6 @@ const Header = () => {
                             <Link href='/contact-us' className={`${styles.megaLink} ${styles.befLink}`}>
                                 Contact
                             </Link>
-                        </li>
-                        <li className={`${styles.navList} ${styles.inqBtn}`} onClick={modal}>
-                            <Link href='#' className={styles.befLink}>GET A QUOTE</Link>
                         </li>
                         <li>
                             <div className={styles.mbInq}>

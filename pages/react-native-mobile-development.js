@@ -17,7 +17,7 @@ const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSlide
 const LpChoose = React.lazy(() => import("@/components/LpChoose"));
 const LpForm = React.lazy(() => import("@/components/LpForm6"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
-const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
+const WeworkLp = React.lazy(() => import("@/components/new-home-page-fy/WeworkLphome"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
 const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
 const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
@@ -264,7 +264,7 @@ export default function ReactNativeMobile() {
       ) : (
         <ServicesMaintainmobile severcedata={severcedata} />
       )}
-      <WeworkLp wework="weworkLp6" />
+      <WeworkLp wework="weworkLpnewhomefy" />
       <StartupsLp startups="startups" />
       <ProjectProcess
         processclass="processLp6"

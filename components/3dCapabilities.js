@@ -66,7 +66,7 @@ const Capabilities3d = () => {
 
                             </Row>
                         </div>
-                        <Slider {...awardslogo} className={` ${styles.nextalign1} prohome prohome1 mt-4 mb-4`}>
+                        <Slider {...awardslogo} className={` ${styles.nextalign1} prohome prohome1 mt-4 mb-0 mb-md-4`}>
 
                             <div className={styles.high}>
                                 <Row>

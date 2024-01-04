@@ -10,7 +10,7 @@ const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSlide
 const LpForm6 = React.lazy(() => import("@/components/LpForm6"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const NewMaintain6Lp = React.lazy(() => import("@/components/NewMaintain6Lp"));
-const WeworkLp = React.lazy(() => import("@/components/WeworkLp6"));
+const WeworkLp = React.lazy(() => import("@/components/new-home-page-fy/WeworkLphome"));
 const StartupsLp = React.lazy(() => import("@/components/StartupsLp6"));
 const ProjectProcess = React.lazy(() => import("@/components/ProjectProcessLp6"));
 const LpChoose = React.lazy(() => import("@/components/LpChoose"));
@@ -68,7 +68,7 @@ export default function gamedevelopmentcompany() {
       <LpForm6 />
       <Nothing Nothing="nothingLp6" />
       <NewMaintain6Lp />
-      <WeworkLp wework="weworkLp6" />
+      <WeworkLp wework="weworkLpnewhomefy" />
       <StartupsLp startups="startups" />
       <ProjectProcess
         processclass="processLp6"

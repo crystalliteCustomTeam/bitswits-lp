@@ -127,6 +127,14 @@
     padding-bottom: 50px;
     padding-top: 50px;
   }
+
+  .gameApp{
+    padding-top: 0;
+  }
+
+  .game2d{
+    padding: 0 0 80px;
+  }
 }
 
 @media screen and (max-width: 767px) {
