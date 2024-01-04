@@ -53,7 +53,7 @@ export default function gamedevelopmentcompany() {
           content="Advanced Web App Development Company - BitsWits"
         />
         {/* <!-- Canonical --> */}
-        {/* <link rel="canonical" href="https://BitsWits.co/web-app-development-company/" /> */}
+      
         {/* <!-- Bing Master Verification  --> */}
         <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
         {/* <!-- Local Location Tags --> */}

@@ -32,7 +32,7 @@ export default function Home() {
         <meta property="og:url" content="https://bitswits.co/" />
         <meta property="og:site_name" content="Top Mobile App Developer: Crafting Superior Apps for Success" />
         {/* Canonical */}
-        <link rel="canonical" href="https://bitswits.co/" />
+        
         {/* Favicon */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>

@@ -41,7 +41,7 @@ export default function gamedevelopmentcompany() {
         <meta property="og:url" content="https://bitswits.co/" />
         <meta property="og:site_name" content="Create a Mobile App | Custom Solutions from Concept to Launch" />
         {/* Canonical */}
-        <link rel="canonical" href="https://bitswits.co/" />
+        
         {/* Favicon */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>

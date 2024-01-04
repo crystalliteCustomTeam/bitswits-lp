@@ -42,7 +42,7 @@ export default function SocialMediaApp() {
         <meta property="og:url" content="https://bitswits.co/" />
         <meta property="og:site_name" content="Social Media App Development Experts | Bitswits.co" />
         {/* Canonical */}
-        <link rel="canonical" href="https://bitswits.co/" />
+        
         {/* Favicon */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
