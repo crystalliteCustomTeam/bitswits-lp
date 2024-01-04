@@ -124,8 +124,8 @@ export default function App({ Component, pageProps }) {
         <link rel="canonical" href={newcol} />
       </Head>
 
-      {imagesLoaded &&
-        <>
+ 
+        
           {/* Google Analytics Code */}
           <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-T8JYHWL639"></Script>
           <Script strategy="lazyOnload">
@@ -145,8 +145,8 @@ export default function App({ Component, pageProps }) {
               ;
         `}
           </Script>
-        </>
-      }
+       
+      
 
       {superecommer ?
         ''
