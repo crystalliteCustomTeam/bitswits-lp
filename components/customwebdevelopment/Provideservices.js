@@ -32,7 +32,6 @@ const Provideservices = (props) => {
   var awardslogo = {
     dots: false,
     arrows: false,
-    autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [

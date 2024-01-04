@@ -142,7 +142,7 @@
   text-align: center;
 }
 
-.custom .banImg,
+
 .mobile .banImg {
   margin-top: -40px;
 }
@@ -162,6 +162,11 @@
 
 .gameBlckChain .banImg {
   padding-bottom: 10px;
+}
+
+.custom .banImg{
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 /* =================== */

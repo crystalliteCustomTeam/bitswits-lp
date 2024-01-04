@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from 'react'
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/ServiceEngage.module.css";
@@ -9,6 +9,22 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 const ServiceEngage = (props) => {
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 992);
+    };
+
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   var awardslogo = {
     dots: false,
@@ -37,107 +53,109 @@ const ServiceEngage = (props) => {
             </Col>
           </Row>
 
-          <Row className={` ${styles.cont} gx-3 d-none d-lg-flex`}>
-            <Col xl={4}>
-              <div className={styles.longline}>
-                <div className={styles.expertise}>
+          {isMobile ? (
+            <div className={`${styles.cont}`}>
+              <Slider {...awardslogo} className={` ${styles.nextalign1}`}>
+                <div className={styles.longline}>
+                  <div className={styles.bring}>
+                    <h3>{props.heading1}</h3>
+                    <p>{props.text1}</p>
+                  </div>
+                </div>
+                <div className={styles.longline1}>
+                  <div className={styles.bring1}>
+                    <h3>{props.heading3}</h3>
+                    <p>{props.text3}</p>
+                  </div>
+                </div>
+                <div className={`${styles.longline}`}>
+                  <div className={styles.bring}>
+                    <h3>{props.heading2}</h3>
+                    <p>{props.text2}</p>
+                  </div>
+                </div>
+                <div className={`${styles.longline1}`}>
+                  <div className={styles.bring1}>
+                    <h3>{props.heading4}</h3>
+                    <p>{props.text4}</p>
+                  </div>
+                </div>
+              </Slider>
+            </div>
+          ) : (
+            <Row className={` ${styles.cont} gx-3`}>
+              <Col xl={4}>
+                <div className={styles.longline}>
+                  <div className={styles.expertise}>
+                    <Image
+                      alt="BitsWits"
+                      quality={80}
+                      src={props.engIcon1}
+                      className="img-fluid"
+                    />
+                  </div>
+                  <div className={styles.bring}>
+                    <h3>{props.heading1}</h3>
+                    <p>{props.text1}</p>
+                  </div>
+                </div>
+                <div className={styles.longline2}>
+                  <div className={styles.expertise}>
+                    <Image
+                      alt="BitsWits"
+                      quality={80}
+                      src={props.engIcon3}
+                      className="img-fluid"
+                    />
+                  </div>
+                  <div className={styles.bring}>
+                    <h3>{props.heading3}</h3>
+                    <p>{props.text3}</p>
+                  </div>
+                </div>
+              </Col>
+              <Col xl={4}>
+                <div className={`${styles.offers} ${props.css}`}>
                   <Image
                     alt="BitsWits"
                     quality={80}
-                    src={props.engIcon1}
-                    className="img-fluid"
+                    src={props.main}
+                    className={`img-fluid  `}
                   />
                 </div>
-                <div className={styles.bring}>
-                  <h3>{props.heading1}</h3>
-                  <p>{props.text1}</p>
+              </Col>
+              <Col xl={4}>
+                <div className={`${styles.longline3}`}>
+                  <div className={styles.expertise1}>
+                    <Image
+                      alt="BitsWits"
+                      quality={80}
+                      src={props.engIcon2}
+                      className="img-fluid"
+                    />
+                  </div>
+                  <div className={styles.bring1}>
+                    <h3>{props.heading2}</h3>
+                    <p>{props.text2}</p>
+                  </div>
                 </div>
-              </div>
-              <div className={styles.longline2}>
-                <div className={styles.expertise}>
-                  <Image
-                    alt="BitsWits"
-                    quality={80}
-                    src={props.engIcon3}
-                    className="img-fluid"
-                  />
+                <div className={`${styles.longline1}`}>
+                  <div className={styles.expertise1}>
+                    <Image
+                      alt="BitsWits"
+                      quality={80}
+                      src={props.engIcon4}
+                      className="img-fluid"
+                    />
+                  </div>
+                  <div className={styles.bring1}>
+                    <h3>{props.heading4}</h3>
+                    <p>{props.text4}</p>
+                  </div>
                 </div>
-                <div className={styles.bring}>
-                  <h3>{props.heading3}</h3>
-                  <p>{props.text3}</p>
-                </div>
-              </div>
-            </Col>
-            <Col xl={4}>
-              <div className={`${styles.offers} ${props.css}`}>
-                <Image
-                  alt="BitsWits"
-                  quality={80}
-                  src={props.main}
-                  className={`img-fluid  `}
-                />
-              </div>
-            </Col>
-            <Col xl={4}>
-              <div className={`${styles.longline3}`}>
-                <div className={styles.expertise1}>
-                  <Image
-                    alt="BitsWits"
-                    quality={80}
-                    src={props.engIcon2}
-                    className="img-fluid"
-                  />
-                </div>
-                <div className={styles.bring1}>
-                  <h3>{props.heading2}</h3>
-                  <p>{props.text2}</p>
-                </div>
-              </div>
-              <div className={`${styles.longline1}`}>
-                <div className={styles.expertise1}>
-                  <Image
-                    alt="BitsWits"
-                    quality={80}
-                    src={props.engIcon4}
-                    className="img-fluid"
-                  />
-                </div>
-                <div className={styles.bring1}>
-                  <h3>{props.heading4}</h3>
-                  <p>{props.text4}</p>
-                </div>
-              </div>
-            </Col>
-          </Row>
-          {/* =========================== */}
-          <div className={`${styles.cont} d-block d-lg-none`}>
-            <Slider {...awardslogo} className={` ${styles.nextalign1}`}>
-              <div className={styles.longline}>
-                <div className={styles.bring}>
-                  <h3>{props.heading1}</h3>
-                  <p>{props.text1}</p>
-                </div>
-              </div>
-              <div className={styles.longline1}>
-                <div className={styles.bring1}>
-                  <h3>{props.heading3}</h3>
-                  <p>{props.text3}</p>
-                </div>
-              </div>
-              <div className={`${styles.longline}`}>
-                <div className={styles.bring}>
-                  <h3>{props.heading2}</h3>
-                  <p>{props.text2}</p>
-                </div>
-              </div>
-              <div className={`${styles.longline1}`}>
-                <div className={styles.bring1}>
-                  <h3>{props.heading4}</h3>
-                  <p>{props.text4}</p>
-                </div>
-              </div>
-            </Slider>
-          </div>
+              </Col>
+            </Row>
+          )}
         </Container>
       </section>
     </>

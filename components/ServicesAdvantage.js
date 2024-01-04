@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/ServicesAdvantage.module.css";
@@ -9,6 +9,22 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 const ServicesAdvantage = (props) => {
+
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 992);
+        };
+
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
     var awardslogo = {
         dots: false,
@@ -35,93 +51,95 @@ const ServicesAdvantage = (props) => {
                             </Col>
                         </Row>
 
-                        <Row className={`${styles.boy} d-none d-lg-flex`}>
-                            <Col xl={6}>
-                                <div className={styles.dscool}>
-                                    <div>
-                                        <h3>{props.title1}</h3>
-                                        <p>{props.content1}</p>
+                        {isMobile ? (
+                            <div className={`${styles.boy}`}>
+                                <Slider {...awardslogo} className={` ${styles.nextalign1}`}>
+                                    <div className={styles.dscool}>
+                                        <div>
+                                            <h3>{props.title1}</h3>
+                                            <p>{props.content1}</p>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <h3>{props.title2}</h3>
-                                        <p>{props.content2}</p>
-                                    </div>
-                                </div>
 
-                                <div className={` ${styles.dscool} mt-3`}>
-                                    <div>
-                                        <h3>{props.title3}</h3>
-                                        <p>{props.content3}</p>
+                                    <div className={styles.dscool}>
+                                        <div>
+                                            <h3>{props.title2}</h3>
+                                            <p>{props.content2}</p>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <h3>{props.title4}</h3>
-                                        <p>{props.content4}</p>
-                                    </div>
-                                </div>
 
-                                <div className={` ${styles.dscool} mt-3`}>
-                                    <div>
-                                        <h3>{props.title5}</h3>
-                                        <p>{props.content5}</p>
+                                    <div className={styles.dscool}>
+                                        <div>
+                                            <h3>{props.title3}</h3>
+                                            <p>{props.content3}</p>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <h3>{props.title6}</h3>
-                                        <p>{props.content6}</p>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col xl={6}>
-                                <div className={styles.tested}>
-                                    <Image quality={75} src={props.AdvantageOne} alt='BitsWits' className={`${props.css} img-fluid`} />
-                                </div>
-                            </Col>
-                        </Row>
-                        {/* ====================== */}
-                        <div className={`${styles.boy} d-block d-lg-none`}>
-                            <Slider {...awardslogo} className={` ${styles.nextalign1}`}>
-                                <div className={styles.dscool}>
-                                    <div>
-                                        <h3>{props.title1}</h3>
-                                        <p>{props.content1}</p>
-                                    </div>
-                                </div>
 
-                                <div className={styles.dscool}>
-                                    <div>
-                                        <h3>{props.title2}</h3>
-                                        <p>{props.content2}</p>
+                                    <div className={styles.dscool}>
+                                        <div>
+                                            <h3>{props.title4}</h3>
+                                            <p>{props.content4}</p>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div className={styles.dscool}>
-                                    <div>
-                                        <h3>{props.title3}</h3>
-                                        <p>{props.content3}</p>
+                                    <div className={styles.dscool}>
+                                        <div>
+                                            <h3>{props.title5}</h3>
+                                            <p>{props.content5}</p>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div className={styles.dscool}>
-                                    <div>
-                                        <h3>{props.title4}</h3>
-                                        <p>{props.content4}</p>
+                                    <div className={styles.dscool}>
+                                        <div>
+                                            <h3>{props.title6}</h3>
+                                            <p>{props.content6}</p>
+                                        </div>
                                     </div>
-                                </div>
+                                </Slider>
+                            </div>
+                        ) : (
+                            <Row className={`${styles.boy}`}>
+                                <Col xl={6}>
+                                    <div className={styles.dscool}>
+                                        <div>
+                                            <h3>{props.title1}</h3>
+                                            <p>{props.content1}</p>
+                                        </div>
+                                        <div>
+                                            <h3>{props.title2}</h3>
+                                            <p>{props.content2}</p>
+                                        </div>
+                                    </div>
 
-                                <div className={styles.dscool}>
-                                    <div>
-                                        <h3>{props.title5}</h3>
-                                        <p>{props.content5}</p>
+                                    <div className={` ${styles.dscool} mt-3`}>
+                                        <div>
+                                            <h3>{props.title3}</h3>
+                                            <p>{props.content3}</p>
+                                        </div>
+                                        <div>
+                                            <h3>{props.title4}</h3>
+                                            <p>{props.content4}</p>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div className={styles.dscool}>
-                                    <div>
-                                        <h3>{props.title6}</h3>
-                                        <p>{props.content6}</p>
+                                    <div className={` ${styles.dscool} mt-3`}>
+                                        <div>
+                                            <h3>{props.title5}</h3>
+                                            <p>{props.content5}</p>
+                                        </div>
+                                        <div>
+                                            <h3>{props.title6}</h3>
+                                            <p>{props.content6}</p>
+                                        </div>
                                     </div>
-                                </div>
-                            </Slider>
-                        </div>
+                                </Col>
+                                <Col xl={6}>
+                                    <div className={styles.tested}>
+                                        <Image quality={75} src={props.AdvantageOne} alt='BitsWits' className={`${props.css} img-fluid`} />
+                                    </div>
+                                </Col>
+                            </Row>
+                        )}
                     </Container>
                 </section>
             </div>

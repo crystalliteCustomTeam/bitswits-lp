@@ -118,7 +118,7 @@ const Contact = (props) => {
                                     LET’S <span className='grdiant'>TALK ABOUT YOUR</span> PROJECTS
                                 </h2>
                                 <p className='font18 fontf mb-2 mb-sm-4'>Have a project idea? Tell us more about the details and we'll get back to you within 24 hours</p>
-                                <Row className='g-5 mt-0 mt-sm-3'>
+                                <Row className='g-5 mt-0 mt-sm-3 d-none d-lg-flex'>
                                     <Col md={6} className='mt-2 mt-sm-4'>
                                         <Image quality={75} src={img1} className='img-fluid' alt='BitsWits' />
                                     </Col>
@@ -130,6 +130,21 @@ const Contact = (props) => {
                                     </Col>
                                     <Col md={6} className='mt-2 mt-sm-4'>
                                         <Image quality={75} src={img4} className='img-fluid' alt='BitsWits' />
+                                    </Col>
+                                </Row>
+                                {/* ========================= */}
+                                <Row className='g-5 mt-0 mt-sm-3 d-flex d-lg-none'>
+                                    <Col md={6} className='mt-2 mt-sm-4 col-6'>
+                                        <Image quality={75} src={img1} className='img-fluid w-75 m-auto d-block' alt='BitsWits' />
+                                    </Col>
+                                    <Col md={6} className='mt-2 mt-sm-4 col-6'>
+                                        <Image quality={75} src={img2} className='img-fluid w-75 m-auto d-block' alt='BitsWits' />
+                                    </Col>
+                                    <Col md={6} className='mt-2 mt-sm-4 col-6'>
+                                        <Image quality={75} src={img3} className='img-fluid w-75 m-auto d-block' alt='BitsWits' />
+                                    </Col>
+                                    <Col md={6} className='mt-2 mt-sm-4 col-6'>
+                                        <Image quality={75} src={img4} className='img-fluid w-75 m-auto d-block' alt='BitsWits' />
                                     </Col>
                                 </Row>
                             </div>

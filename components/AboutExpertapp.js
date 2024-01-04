@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/AboutExpertapp.module.css";
+//
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 //images
 import icon11 from '../public/newHomePageImages/done.png'
 
@@ -29,6 +33,22 @@ const appFeatures = [
 
 export default function AboutExpertapp(props) {
 
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 992);
+        };
+
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     const mblSlider = {
         dots: false,
         arrows: false,
@@ -41,7 +61,6 @@ export default function AboutExpertapp(props) {
         adaptiveHeight: true,
     };
 
-
     return (
         <>
             <section className={styles[props.expertapp]}>
@@ -53,18 +72,33 @@ export default function AboutExpertapp(props) {
                         </Col>
 
                         <Col xl={8}>
-                            <Row className='gy-3'>
-                                {appFeatures.map((feature, index) => (
-                                    <Col lg={6} key={index}>
-                                        <div className={styles.app}>
-                                            <div className={styles.copy}>
-                                                <h3 className='font20 white fw700'>{feature.title}</h3>
-                                                <p className='font15.5 white fw400'>{feature.description}</p>
+                            {isMobile ? (
+                                <Slider {...mblSlider} className={` ${styles.nextalign1}`}>
+                                    {appFeatures.map((feature, index) => (
+                                        <div key={index}>
+                                            <div className={styles.app}>
+                                                <div className={styles.copy}>
+                                                    <h3 className='font20 white fw700'>{feature.title}</h3>
+                                                    <p className='font15.5 white fw400'>{feature.description}</p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </Col>
-                                ))}
-                            </Row>
+                                    ))}
+                                </Slider>
+                            ) : (
+                                <Row className='gy-3'>
+                                    {appFeatures.map((feature, index) => (
+                                        <Col lg={6} key={index}>
+                                            <div className={styles.app}>
+                                                <div className={styles.copy}>
+                                                    <h3 className='font20 white fw700'>{feature.title}</h3>
+                                                    <p className='font15.5 white fw400'>{feature.description}</p>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                    ))}
+                                </Row>
+                            )}
                         </Col>
 
                         <Col xl={4}>

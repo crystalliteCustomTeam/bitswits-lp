@@ -101,8 +101,7 @@ const SmartContract = (props) => {
                         </Col>
 
                         {isSliderActive ?
-
-                            <Slider {...awardslogo} className="pt-4">
+                            <Slider {...awardslogo} className="pt-4 mt-0">
                                 {props.sec.map((item, index) => (
                                     <Col lg={4}>
 
@@ -137,7 +136,6 @@ const SmartContract = (props) => {
                                     </Col>
                                 ))}
                             </>
-
                         }
                     </Row>
                 </Container>

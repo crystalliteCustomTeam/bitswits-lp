@@ -171,17 +171,18 @@ export default function HybridMobile() {
         processclass="processLp6"
         title="Explore Our Hybird App Development Journey"
         desc="We believe in efficiency without compromising quality. Our
-  streamlined process for app development is <br /> designed to be
-  transparent and collaborative, ensuring your vision comes to life
-  exactly as you imagined."
+              streamlined process for app development is <br /> designed to be
+              transparent and collaborative, ensuring your vision comes to life
+              exactly as you imagined."
       />
       <Justbuildit />
-      <LpChoose transform="hybirf" />
+      <LpChoose transform="transform" />
       <ServicesPortfolio
         title={
-          <>        Showcasing Our <span className="newfycolr">
-            Creative Vision
-          </span>
+          <>
+            Showcasing Our <span className="newfycolr">
+              Creative Vision
+            </span>
           </>
         }
       />
@@ -213,9 +214,7 @@ export default function HybridMobile() {
           },
         ]}
       />
-      <section className="spacingtb1">
-        <Technologieswe />
-      </section>
+      <Technologieswe />
       <Globallplp6 />
       <Partnerships />
       <Formnewlp />

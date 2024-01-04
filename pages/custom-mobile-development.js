@@ -1,5 +1,5 @@
 import Head from "next/head";
-import React from "react";
+import React, { useEffect, useState } from "react";
 //components
 const ServicesBanner = React.lazy(() => import("@/components/ServicesBanner"));
 const ServicesMaintain = React.lazy(() => import("@/components/ServicesMaintain"));
@@ -20,19 +20,93 @@ const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const Partnerships = React.lazy(() => import("@/components/Partnerships"));
 const People = React.lazy(() => import("@/components/People"));
 const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
+const ServicesMaintainmobile = React.lazy(() => import("@/components/ServicesMaintainmobile"));
 //images
 const BannerImage = await import("@/public/custommobiledevelopment/banner_image.png");
+const app = await import("../public/images/customMblApp/app.png");
+const android = await import("../public/images/customMblApp/android.png");
+const ios = await import("../public/images/customMblApp/ios.png");
+const cross = await import("../public/images/customMblApp/cross.png");
+const mobile = await import("../public/images/customMblApp/mobile.png");
+const legacy = await import("../public/images/customMblApp/legacy.png");
 
 
 export default function CustomMobile() {
 
+  const [isSliderActive, setIsSliderActive] = useState(true);
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 1201) {
+        setIsSliderActive(false);
+      } else {
+        setIsSliderActive(true);
+      }
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const severcedata = [
+    {
+      classlayout: {
+        newclass: "iosclass",
+      },
+      heading: {
+        subtitle: (<> Go Beyond Expectations With </>),
+        title: (<> Custom Mobile Application </>),
+        title1: (<> Development Services </>),
+      },
+      serdata: [
+        {
+          title: (<> App <br /> Design </>),
+          text: "Create an exceptional app with an attractive design, intuitive interface, and convenient user experience.",
+          appclass: "app",
+          imgservice: app,
+        },
+        {
+          title: (<> Android App <br /> Development </>),
+          text: (<> Develop high-performing, scalable and native looking apps for Android devices with Kotlin and Java. </>),
+          appclass: "app1",
+          imgservice: android,
+        },
+        {
+          title: (<> iOS App <br /> Development </>),
+          text: "Make intuitive mobile apps with rich functionality for Apple mobile devices with Swift and Objective-C.",
+          appclass: "app2",
+          imgservice: ios,
+        },
+        {
+          title: "Cross-Platform Mobile Development",
+          text: "Build an app that runs across multiple platforms using the same codebase with Flutter or React Native.",
+          appclass: "app3",
+          imgservice: cross,
+        },
+        {
+          title: (<> Mobile Server-Side <br /> Development </>),
+          text: (<> Setup cloud or hardware infrastructure for app execution, components coordination, and API integrations. </>),
+          appclass: "app4",
+          imgservice: mobile,
+        },
+        {
+          title: (<> Legacy Application <br /> Modernization </>),
+          text: "Improve performance and throughput, upgrade UX/UI, and add new features to existing mobile apps.",
+          appclass: "app5",
+          imgservice: legacy,
+        },
+      ],
+    },
+  ];
+
   return (
-    <>  <Head>
+
+    <>
+      <Head>
         <title>Custom Mobile App Development Company | Custom Mobile App Developers</title>
-        <meta
-          name="description"
-          content="Looking for a reliable custom mobile app development company? Our team of expert custom app developers specializes in creating customized mobile applications."
-        />
+        <meta name="description" content="Looking for a reliable custom mobile app development company? Our team of expert custom app developers specializes in creating customized mobile applications." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
@@ -56,98 +130,73 @@ export default function CustomMobile() {
       <HomeBannerSliderlp />
       <LpForm addresClass="iosclass" />
       <Nothing Nothing="nothingLp6" />
-      <ServicesMaintain
-        assignClass="customApp"
-        subtitle={<> Go Beyond Expectations With </>}
-        title={<> Custom Mobile Application </>}
-        title1={<> Development Services </>}
-        appContent={[]}
-        appContent1={[
-          {
-            title: (
-              <>
-                App <br /> Design
-              </>
-            ),
-            text: "Create an exceptional app with an attractive design, intuitive interface, and convenient user experience.",
-            appclass: "app",
-          },
-          {
-            title: (
-              <>
-                Android App <br /> Development
-              </>
-            ),
-            text: (
-              <>
-                Develop high-performing, scalable and native looking apps for
-                Android devices with Kotlin and Java.
-              </>
-            ),
-            appclass: "app1",
-          },
-          {
-            title: (
-              <>
-                iOS App <br /> Development
-              </>
-            ),
-            text: "Make intuitive mobile apps with rich functionality for Apple mobile devices with Swift and Objective-C.",
-            appclass: "app2",
-          },
-        ]}
-        appContent2={[
-          {
-            title: "Cross-Platform Mobile Development",
-            text: "Build an app that runs across multiple platforms using the same codebase with Flutter or React Native.",
-            appclass: "app3",
-          },
-        ]}
-        appContent3={[
-          {
-            title: (
-              <>
-                Mobile Server-Side <br /> Development
-              </>
-            ),
-            text: (
-              <>
-                Setup cloud or hardware infrastructure for app execution,
-                components coordination, and API integrations.
-              </>
-            ),
-            appclass: "app4",
-          },
-          {
-            title: (
-              <>
-                Legacy Application <br /> Modernization
-              </>
-            ),
-            text: "Improve performance and throughput, upgrade UX/UI, and add new features to existing mobile apps.",
-            appclass: "app5",
-          },
-        ]}
-        appContent4={[]}
-        appContent5={[]}
-        appContent6={[]}
-        appContent7={[]}
-      />
+      {isSliderActive ? (
+        <ServicesMaintain
+          assignClass="customApp"
+          subtitle={<> Go Beyond Expectations With </>}
+          title={<> Custom Mobile Application </>}
+          title1={<> Development Services </>}
+          appContent={[]}
+          appContent1={[
+            {
+              title: (<> App <br /> Design </>),
+              text: "Create an exceptional app with an attractive design, intuitive interface, and convenient user experience.",
+              appclass: "app",
+            },
+            {
+              title: (<> Android App <br /> Development </>),
+              text: (<> Develop high-performing, scalable and native looking apps for Android devices with Kotlin and Java. </>),
+              appclass: "app1",
+            },
+            {
+              title: (<> iOS App <br /> Development </>),
+              text: "Make intuitive mobile apps with rich functionality for Apple mobile devices with Swift and Objective-C.",
+              appclass: "app2",
+            },
+          ]}
+          appContent2={[
+            {
+              title: "Cross-Platform Mobile Development",
+              text: "Build an app that runs across multiple platforms using the same codebase with Flutter or React Native.",
+              appclass: "app3",
+            },
+          ]}
+          appContent3={[
+            {
+              title: (<> Mobile Server-Side <br /> Development </>),
+              text: (<> Setup cloud or hardware infrastructure for app execution, components coordination, and API integrations. </>),
+              appclass: "app4",
+            },
+            {
+              title: (<> Legacy Application <br /> Modernization </>),
+              text: "Improve performance and throughput, upgrade UX/UI, and add new features to existing mobile apps.",
+              appclass: "app5",
+            },
+          ]}
+          appContent4={[]}
+          appContent5={[]}
+          appContent6={[]}
+          appContent7={[]}
+        />
+      ) : (
+        <ServicesMaintainmobile severcedata={severcedata} />
+      )}
       <WeworkLp wework="weworkLpnewhomefy" />
       <StartupsLp startups="startups" />
       <ProjectProcess
         processclass="processLp6"
         title="Explore Our Custom Mobile Development Journey"
         desc="We believe in efficiency without compromising quality. Our
-  streamlined process for app development is <br /> designed to be
-  transparent and collaborative, ensuring your vision comes to life
-  exactly as you imagined."
+              streamlined process for app development is <br /> designed to be
+              transparent and collaborative, ensuring your vision comes to life
+              exactly as you imagined."
       />
       <Justbuildit />
-      <LpChoose transform="hybirf" />
+      <LpChoose transform="transform" />
       <ServicesPortfolio
         title={
-          <>        Showcasing Our <span className="newfycolr">
+          <>
+            Showcasing Our <span className="newfycolr">
               Creative Vision
             </span>
           </>
@@ -181,9 +230,7 @@ export default function CustomMobile() {
           },
         ]}
       />
-      <section className="spacingtb1">
-        <Technologieswe />
-      </section>
+      <Technologieswe />
       <Globallplp6 />
       <Partnerships />
       <Formnewlp />

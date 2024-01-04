@@ -128,11 +128,11 @@
     padding-top: 50px;
   }
 
-  .gameApp{
+  .gameApp {
     padding-top: 0;
   }
 
-  .game2d{
+  .game2d {
     padding: 0 0 80px;
   }
 }
@@ -151,6 +151,10 @@
   .creative2 {
     padding-bottom: 0px;
     padding-top: 50px;
+  }
+
+  .gameApp {
+    padding-top: 0;
   }
 }
 

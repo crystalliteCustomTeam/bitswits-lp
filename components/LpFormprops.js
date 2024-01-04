@@ -1,14 +1,46 @@
-import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image';
-import { Container, Row, Col } from 'react-bootstrap'
-import styles from "@/styles/LpForm.module.css";
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Axios from "axios";
+import Image from 'next/image';
 import { useRouter } from 'next/router';
+import { Container, Row, Col } from 'react-bootstrap'
+//
+import styles from "@/styles/LpForm.module.css";
+//
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 const LpFormprops = (props) => {
+
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 992);
+        };
+
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+    var awardslogo = {
+        dots: false,
+        arrows: false,
+        loop: true,
+        autoplay: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
+
+    // =====================================
 
     const [ip, setIP] = useState('');
     //creating function to load ip address from the API
@@ -26,12 +58,12 @@ const LpFormprops = (props) => {
 
     const router = useRouter();
     const currentRoute = router.pathname;
-     const [pagenewurl, setPagenewurl] = useState('');
-      useEffect(() => {
+    const [pagenewurl, setPagenewurl] = useState('');
+    useEffect(() => {
         const pagenewurl = window.location.href;
         console.log(pagenewurl);
         setPagenewurl(pagenewurl);
-      }, []);
+    }, []);
 
 
     const handleSubmit = async (e) => {
@@ -145,20 +177,35 @@ const LpFormprops = (props) => {
 
                 <section className={styles.datapost}>
                     <Container className={styles.appios}>
-                        <Row className='gx-3 gy-3'>
-                            {props.data.map((item, index) => (
-                                <Col lg={3}>
-
-                                    <div className={styles.deve} key={index}>
-                                        <Image src={item.img2} className="img-fluid" alt="bitswits" />
-                                        <div>
-                                            <h4 className="fontgilroybold white font_15">{item.title}</h4>
-                                            <p className="font_13 white fontsfregular linehight_2 mb-0">{item.text}</p>
+                        {isMobile ? (
+                            <Slider {...awardslogo} className={` ${styles.nextalign1}`}>
+                                {props.data.map((item, index) => (
+                                    <div className='mt-5'> 
+                                        <div className={styles.deve} key={index}>
+                                            <Image src={item.img2} className="img-fluid" alt="bitswits" />
+                                            <div>
+                                                <h4 className="fontgilroybold white font_15">{item.title}</h4>
+                                                <p className="font_13 white fontsfregular linehight_2 mb-0">{item.text}</p>
+                                            </div>
                                         </div>
                                     </div>
-                                </Col>
-                            ))}
-                        </Row>
+                                ))}
+                            </Slider>
+                        ) : (
+                            <Row className='gx-3 gy-3'>
+                                {props.data.map((item, index) => (
+                                    <Col lg={3}>
+                                        <div className={styles.deve} key={index}>
+                                            <Image src={item.img2} className="img-fluid" alt="bitswits" />
+                                            <div>
+                                                <h4 className="fontgilroybold white font_15">{item.title}</h4>
+                                                <p className="font_13 white fontsfregular linehight_2 mb-0">{item.text}</p>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                ))}
+                            </Row>
+                        )}
                     </Container>
                 </section>
                 :

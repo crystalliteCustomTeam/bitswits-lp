@@ -170,7 +170,7 @@ export default function App({ Component, pageProps }) {
 
       {mouse && <Cursor />}
 
-      {imagesLoaded ? <Component {...pageProps} /> : <Loader />}
+      <Component {...pageProps} />
 
       {newlps ? (
         <Footernewlp />

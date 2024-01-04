@@ -231,19 +231,18 @@ export default function augmentedrealityappsdevelopment() {
         processclass="processLp6"
         title="Explore Our Augmented Reality App Development Journey"
         desc="We believe in efficiency without compromising quality. Our
-  streamlined process for app development is <br /> designed to be
-  transparent and collaborative, ensuring your vision comes to life
-  exactly as you imagined."
+              streamlined process for app development is <br /> designed to be
+              transparent and collaborative, ensuring your vision comes to life
+              exactly as you imagined."
       />
       <Justbuildit />
-      <LpChoose transform="hybirf" />
+      <LpChoose transform="transform" />
       <ServicesPortfolio
         title={
           <>
-            {" "}
             Showcasing Our <span className="newfycolr">
               Creative Vision
-            </span>{" "}
+            </span>
           </>
         }
       />

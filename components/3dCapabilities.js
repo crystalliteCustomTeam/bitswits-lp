@@ -63,7 +63,6 @@ const Capabilities3d = () => {
                                 <Col lg={2}><div className={`${styles.line7} line3d`}></div></Col>
                                 <Col lg={2}><div className={`${styles.line8} line3d`}></div></Col>
                                 <Col lg={2}><div className={`${styles.line9} line3d`}></div></Col>
-
                             </Row>
                         </div>
                         <Slider {...awardslogo} className={` ${styles.nextalign1} prohome prohome1 mt-4 mb-0 mb-md-4`}>
@@ -75,8 +74,6 @@ const Capabilities3d = () => {
                                             <Image quality={75} src={icon1} alt='BitsWits' className='img-fluid' />
                                         </div>
                                     </Col>
-
-
                                 </Row>
                             </div>
 
@@ -87,8 +84,6 @@ const Capabilities3d = () => {
                                             <Image quality={75} src={icon2} alt='BitsWits' className='img-fluid' />
                                         </div>
                                     </Col>
-
-
                                 </Row>
                             </div>
 
@@ -99,8 +94,6 @@ const Capabilities3d = () => {
                                             <Image quality={75} src={icon3} alt='BitsWits' className='img-fluid' />
                                         </div>
                                     </Col>
-
-
                                 </Row>
                             </div>
 
@@ -111,12 +104,8 @@ const Capabilities3d = () => {
                                             <Image quality={75} src={icon4} alt='BitsWits' className='img-fluid' />
                                         </div>
                                     </Col>
-
-
                                 </Row>
                             </div>
-
-
 
                             <div className={styles.high}>
                                 <Row>
@@ -125,8 +114,6 @@ const Capabilities3d = () => {
                                             <Image quality={75} src={icon5} alt='BitsWits' className='img-fluid' />
                                         </div>
                                     </Col>
-
-
                                 </Row>
                             </div>
 
@@ -137,8 +124,6 @@ const Capabilities3d = () => {
                                             <Image quality={75} src={icon6} alt='BitsWits' className='img-fluid' />
                                         </div>
                                     </Col>
-
-
                                 </Row>
                             </div>
 
@@ -149,8 +134,6 @@ const Capabilities3d = () => {
                                             <Image quality={75} src={icon7} alt='BitsWits' className='img-fluid' />
                                         </div>
                                     </Col>
-
-
                                 </Row>
                             </div>
 
@@ -161,8 +144,6 @@ const Capabilities3d = () => {
                                             <Image quality={75} src={icon8} alt='BitsWits' className='img-fluid' />
                                         </div>
                                     </Col>
-
-
                                 </Row>
                             </div>
 
@@ -173,8 +154,6 @@ const Capabilities3d = () => {
                                             <Image quality={75} src={icon9} alt='BitsWits' className='img-fluid' />
                                         </div>
                                     </Col>
-
-
                                 </Row>
                             </div>
 
