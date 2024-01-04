@@ -109,10 +109,10 @@ export default function ReactNativeMobile() {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8" />
-        <title>Visionary React Native App Development Company - BitsWits</title>
+        <title>React Native Mobile App Development Company | React Native App Developers</title>
         <meta
           name="description"
-          content="Want a team of experienced React Native App Developers? We've got them! Whether you're a start-up or an established business, our developers are equipped."
+          content="BitsWits is a professional React Native app development company in USA, providing top-quality and cutting-edge solutions with our experienced team of React Native app developers."
         />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
@@ -122,7 +122,7 @@ export default function ReactNativeMobile() {
         />
         <meta
           property="og:description"
-          content="Want a team of experienced React Native App Developers? We've got them! Whether you're a start-up or an established business, our developers are equipped."
+          content="BitsWits is a professional React Native app development company in USA, providing top-quality and cutting-edge solutions with our experienced team of React Native app developers."
         />
         <meta
           property="og:url"

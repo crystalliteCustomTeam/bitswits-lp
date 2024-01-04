@@ -144,10 +144,10 @@ export default function gamedevelopmentcompany() {
   return (
     <>
       <Head>
-        <title>Top Mobile App Development Company - BitsWits</title>
+        <title>2D Game Development Company | 2D Game Developers</title>
         <meta
           name="description"
-          content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life."
+          content="Take your gaming experience to the next level with our award-winning 2D game developers! We craft innovative games with superior graphics, sounds, and controls."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />

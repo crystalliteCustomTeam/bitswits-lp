@@ -184,8 +184,8 @@ export default function Home() {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* Title & Description */}
-        <title>Top Mobile App Development Company - Bitswits</title>
-        <meta name="description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+        <title>App Development Company | Professional App Developers</title>
+        <meta name="description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
         {/* OG Tags */}
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />

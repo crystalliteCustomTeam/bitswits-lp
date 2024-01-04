@@ -170,10 +170,10 @@ export default function mobileApplication() {
   return (
     <>
       <Head>
-        <title>Top Mobile App Development Company - BitsWits</title>
+        <title>Blockchain Games Development Company | Blockchain game developers</title>
         <meta
           name="description"
-          content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life."
+          content="Get your blockchain gaming projects off the ground with our team of experienced blockchain game developers. Connect with the top blockchain game development company today!"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />

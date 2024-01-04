@@ -22,15 +22,15 @@ export default function Home() {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* Title & Description */}
-        <title>Top Mobile App Developer: Crafting Superior Apps for Success</title>
-        <meta name="description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+        <title>Top Mobile Application Developers | Top mobile app developers</title>
+        <meta name="description" content="From ideation to launch, our top mobile app developers provides end-to-end services that ensure your app is a success." />
         {/* OG Tags */}
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Top Mobile App Developer: Crafting Superior Apps for Success" />
-        <meta property="og:description" content="Apps that simplify your life, one click at a time, Bitswits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+        <meta property="og:title" content="Top Mobile Application Developers | Top mobile app developers" />
+        <meta property="og:description" content="From ideation to launch, our top mobile app developers provides end-to-end services that ensure your app is a success." />
         <meta property="og:url" content="https://bitswits.co/" />
-        <meta property="og:site_name" content="Top Mobile App Developer: Crafting Superior Apps for Success" />
+        <meta property="og:site_name" content="Top Mobile Application Developers | Top mobile app developers" />
         {/* Canonical */}
         
         {/* Favicon */}

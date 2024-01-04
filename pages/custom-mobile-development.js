@@ -28,10 +28,10 @@ export default function CustomMobile() {
 
   return (
     <>  <Head>
-        <title>Custom Mobile App Development Company - BitsWits</title>
+        <title>Custom Mobile App Development Company | Custom Mobile App Developers</title>
         <meta
           name="description"
-          content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life."
+          content="Looking for a reliable custom mobile app development company? Our team of expert custom app developers specializes in creating customized mobile applications."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />

@@ -112,10 +112,10 @@ export default function augmentedrealityappsdevelopment() {
   return (
     <>
       <Head>
-        <title>Top Mobile App Development Company - BitsWits</title>
+        <title>Augmented Reality Apps Development Company | AR App Developers</title>
         <meta
           name="description"
-          content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life."
+          content="Our augmented reality apps development company is your one-stop shop for creating immersive AR experiences. We have a team of expert AR app developers to bring your ideas to life."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />

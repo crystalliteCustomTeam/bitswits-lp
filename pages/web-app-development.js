@@ -31,26 +31,26 @@ export default function gamedevelopmentcompany() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8" />
         {/* <!-- Title & Description --> */}
-        <title>Advanced Web App Development Company - BitsWits</title>
+        <title>Top-Rated Web App Development Company | Web App Developers</title>
         <meta
           name="description"
-          content="Want to stand out in the crowded web app marketplace? Our web application developers provide bespoke solutions that cater to your unique business needs."
+          content="Looking for a top-rated web app development company? Our team of skilled web app developers specializes in crafting high-quality and customized web applications."
         />
         {/* <!-- OG Tags --> */}
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Advanced Web App Development Company - BitsWits"
+          content="Top-Rated Web App Development Company | Web App Developers"
         />
         <meta
           property="og:description"
-          content="Want to stand out in the crowded web app marketplace? Our web application developers provide bespoke solutions that cater to your unique business needs."
+          content="Looking for a top-rated web app development company? Our team of skilled web app developers specializes in crafting high-quality and customized web applications."
         />
         {/* <meta property="og:url" content="https://BitsWits.co/web-app-development-company/" /> */}
         <meta
           property="og:site_name"
-          content="Advanced Web App Development Company - BitsWits"
+          content="Top-Rated Web App Development Company | Web App Developers"
         />
         {/* <!-- Canonical --> */}
       

@@ -32,13 +32,13 @@ export default function gamedevelopmentcompany() {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* Title & Description */}
-        <title>Top Mobile App Development Company | Bitswits</title>
-        <meta name="description" content="US top mobile app development Company Bitswits. Since 2012, we build more than 1000+ apps for both Android & iOS." />
+        <title>Top Mobile App Development Company | Top Mobile App Developers</title>
+        <meta name="description" content="BitsWits, A top mobile app development company is your go-to destination for top mobile app developers who can help you transform your ideas into extraordinary mobile experiences" />
         {/* OG Tags */}
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Top Mobile App Development Company | Bitswits" />
-        <meta property="og:description" content="US top mobile app development Company Bitswits. Since 2012, we build more than 1000+ apps for both Android & iOS." />
+        <meta property="og:description" content="BitsWits, A top mobile app development company is your go-to destination for top mobile app developers who can help you transform your ideas into extraordinary mobile experiences" />
         <meta property="og:url" content="https://bitswits.co/" />
         <meta property="og:site_name" content="Top Mobile App Development Company | Bitswits" />
         {/* Canonical */}

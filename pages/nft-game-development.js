@@ -158,10 +158,10 @@ export default function gamedevelopmentcompany() {
   return (
     <>
       <Head>
-        <title>Top Mobile App Development Company - BitsWits</title>
+        <title>NFT Game Development Company | NFT Game Developers</title>
         <meta
           name="description"
-          content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life."
+          content="Looking for a top-tier NFT game development company? Our NFT game developers at BitsWits, have the expertise to create games that engage players on every level."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />

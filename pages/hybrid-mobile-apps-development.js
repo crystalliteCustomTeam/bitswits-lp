@@ -95,10 +95,10 @@ export default function HybridMobile() {
 
   return (
     <>  <Head>
-      <title>Hybrid Mobile App Development Company - BitsWits</title>
+      <title>Hybrid Mobile Apps Development Company | Hybrid App Developers</title>
       <meta
         name="description"
-        content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life."
+        content="Hire the best Hybrid app developers at BitsWits, specializing in innovative solutions and technology for all devices."
       />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="images/icons/favicon.png" />

@@ -107,10 +107,10 @@ export default function HybridMobile() {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8" />
-        <title>Trusted Flutter App Development Company - BitsWits!</title>
+        <title>Flutter Apps Development Company | Flutter App Developers </title>
         <meta
           name="description"
-          content="Don't settle for mediocre apps! Our flutter app developers deliver cutting-edge solutions that are designed to make a lasting impression on your users."
+          content="Hire the best Flutter app developers to create high-quality and seamless mobile applications. BitsWits is a leading Flutter app development company in USA. "
         />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />

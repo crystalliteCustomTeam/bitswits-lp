@@ -126,10 +126,10 @@ const mobileApplication = () => {
   return (
     <>
       <Head>
-        <title>Top Mobile App Development Company - BitsWits</title>
+        <title>3D Games Development Company | 3D Games Developers</title>
         <meta
           name="description"
-          content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life."
+          content="Bring your game to life with graphics and gameplay. Our 3D game application developers specialize in crafting games that offer a realistic experience."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/icons/favicon.png" />
