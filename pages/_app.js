@@ -109,23 +109,22 @@ export default function App({ Component, pageProps }) {
   const superecommer = router.pathname == "/top-mobile-app-developers" ||
     router.pathname == "/top-ecommerce-app-development-company";
   // =======================================
-
   const sluginer = useRouter().asPath;
-
   const weblink = "https://www.bitswits.co";
-
   const newcol = weblink + sluginer;
+  // =======================================
 
   return (
     <>
       <Head>
         {/* Google Search Console Code */}
         <meta name="google-site-verification" content="Qt-497Wghx553U3hqDw6wV8NvilpVp8WK4_5W3rf_a0" />
+        <meta name='dmca-site-verification' content='Z05ObW9WMWo4VTlQL0VpdEJuTzU0UT090' />
         <link rel="canonical" href={newcol} />
       </Head>
 
- 
-        
+      {imagesLoaded &&
+        <>
           {/* Google Analytics Code */}
           <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-T8JYHWL639"></Script>
           <Script strategy="lazyOnload">
@@ -133,20 +132,21 @@ export default function App({ Component, pageProps }) {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', 'G-T8JYHWL639');
-        `}
+            `}
           </Script>
+
           {/* GTM Code */}
-          <Script strategy="lazyOnload">
+          <Script Script strategy="lazyOnload">
             {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
               j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
               })(window,document,'script','dataLayer','GTM-T2JSP4C');
               ;
-        `}
+            `}
           </Script>
-       
-      
+        </>
+      }
 
       {superecommer ?
         ''
@@ -165,7 +165,8 @@ export default function App({ Component, pageProps }) {
           <NewHeaderDesign />
           <Header />
         </>
-      )}
+      )
+      }
 
       {mouse && <Cursor />}
 
@@ -181,7 +182,8 @@ export default function App({ Component, pageProps }) {
         <EcommerceFooter />
       ) : (
         <Footernewfy />
-      )}
+      )
+      }
 
       {imagesLoaded &&
         <div>

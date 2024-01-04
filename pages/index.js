@@ -193,8 +193,6 @@ export default function Home() {
         <meta property="og:description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
         <meta property="og:url" content="https://bitswits.co/" />
         <meta property="og:site_name" content="Top Mobile App Development Company - Bitswits" />
-        {/* Canonical */}
-        
         {/* Favicon */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
