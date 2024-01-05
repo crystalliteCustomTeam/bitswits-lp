@@ -37,22 +37,22 @@ const EcommerceFooter = () => {
                                             <Link href="javascrtipt:;" className='font12 lightgrey'>iPhone App Development</Link>
                                         </li>
                                         <li>
-                                            <Link href="javascrtipt:;" className='font12 lightgrey'>Cross Platform App Development</Link>
+                                            <Link href="/cross-platform-app-development" className='font12 lightgrey'>Cross Platform App Development</Link>
                                         </li>
                                         <li>
-                                            <Link href="javascrtipt:;" className='font12 lightgrey'>Android App Development</Link>
+                                            <Link href="/android-application-development" className='font12 lightgrey'>Android App Development</Link>
                                         </li>
                                         <li>
-                                            <Link href="javascrtipt:;" className='font12 lightgrey'>React Native App Development</Link>
+                                            <Link href="/react-native-mobile-development" className='font12 lightgrey'>React Native App Development</Link>
                                         </li>
                                         <li>
-                                            <Link href="javascrtipt:;" className='font12 lightgrey'>Flutter App Development</Link>
+                                            <Link href="/flutter-mobile-development" className='font12 lightgrey'>Flutter App Development</Link>
                                         </li>
                                         <li>
                                             <Link href="javascrtipt:;" className='font12 lightgrey'>Wearable App Development</Link>
                                         </li>
                                         <li>
-                                            <Link href="javascrtipt:;" className='font12 lightgrey'>UI / UX App Design</Link>
+                                            <Link href="/ui-&-ux-design-and-development-services" className='font12 lightgrey'>UI / UX App Design</Link>
                                         </li>
                                     </ul>
                                 </Col>
@@ -62,22 +62,22 @@ const EcommerceFooter = () => {
                                             <Link href="javascrtipt:;" className='font12 lightgrey'>Mobile App Development USA</Link>
                                         </li>
                                         <li>
-                                            <Link href="javascrtipt:;" className='font12 lightgrey'>Mobile App Development</Link>
+                                            <Link href="/mobile-application" className='font12 lightgrey'>Mobile App Development</Link>
                                         </li>
                                         <li>
-                                            <Link href="javascrtipt:;" className='font12 lightgrey'>Web App Development</Link>
+                                            <Link href="/web-app-development" className='font12 lightgrey'>Web App Development</Link>
                                         </li>
                                         <li>
-                                            <Link href="javascrtipt:;" className='font12 lightgrey'>Game Development</Link>
+                                            <Link href="/game-application-development" className='font12 lightgrey'>Game Development</Link>
                                         </li>
                                         <li>
-                                            <Link href="javascrtipt:;" className='font12 lightgrey'>2D Game Development</Link>
+                                            <Link href="/2d-game-development-company" className='font12 lightgrey'>2D Game Development</Link>
                                         </li>
                                         <li>
-                                            <Link href="javascrtipt:;" className='font12 lightgrey'>3D Game Development</Link>
+                                            <Link href="/3d-game-development-company" className='font12 lightgrey'>3D Game Development</Link>
                                         </li>
                                         <li>
-                                            <Link href="javascrtipt:;" className='font12 lightgrey'>Blockchain Game Development</Link>
+                                            <Link href="/blockchain-game-development" className='font12 lightgrey'>Blockchain Game Development</Link>
                                         </li>
                                     </ul>
                                 </Col>
@@ -95,7 +95,7 @@ const EcommerceFooter = () => {
                                             <Link href="javascrtipt:;" className='font12 lightgrey'>Taxi App Solution</Link>
                                         </li>
                                         <li>
-                                            <Link href="javascrtipt:;" className='font12 lightgrey'>Food Delivering App Solutions</Link>
+                                            <Link href="/food-delivery-app-development-case-study" className='font12 lightgrey'>Food Delivering App Solutions</Link>
                                         </li>
                                         <li>
                                             <Link href="javascrtipt:;" className='font12 lightgrey'>Elearning App Solutions</Link>
@@ -104,7 +104,7 @@ const EcommerceFooter = () => {
                                             <Link href="javascrtipt:;" className='font12 lightgrey'>Lifestyle App Development</Link>
                                         </li>
                                         <li>
-                                            <Link href="javascrtipt:;" className='font12 lightgrey'>Healthcare App Development</Link>
+                                            <Link href="/healthcare-app-development-case-study" className='font12 lightgrey'>Healthcare App Development</Link>
                                         </li>
                                         <li>
                                             <Link href="javascrtipt:;" className='font12 lightgrey'>On Demand eWallet App Solutions</Link>
@@ -120,7 +120,7 @@ const EcommerceFooter = () => {
                                             <Link href="javascrtipt:;" className='font12 lightgrey'>Grocery Delivery App Development</Link>
                                         </li>
                                         <li>
-                                            <Link href="javascrtipt:;" className='font12 lightgrey'>Live Streaming App Development</Link>
+                                            <Link href="/music-app-development-case-study" className='font12 lightgrey'>Live Streaming App Development</Link>
                                         </li>
                                     </ul>
                                 </Col>
@@ -131,16 +131,16 @@ const EcommerceFooter = () => {
                             <h5 className={`text-white font18 font-bold pb-2 ${styles.borderbottom}`}>Useful Links</h5>
                             <ul>
                                 <li>
-                                    <Link href="javascrtipt:;" className='font12 lightgrey'>About Us</Link>
+                                    <Link href="/about-us" className='font12 lightgrey'>About Us</Link>
                                 </li>
                                 <li>
-                                    <Link href="javascrtipt:;" className='font12 lightgrey'>Works</Link>
+                                    <Link href="/our-work" className='font12 lightgrey'>Works</Link>
                                 </li>
                                 <li>
                                     <Link href="javascrtipt:;" className='font12 lightgrey'>Testimonials</Link>
                                 </li>
                                 <li>
-                                    <Link href="javascrtipt:;" className='font12 lightgrey'>Contact Us</Link>
+                                    <Link href="/contact-us" className='font12 lightgrey'>Contact Us</Link>
                                 </li>
                                 <li className='mb-2'>
                                     <Link href="mailto:info@BitsWits.co" className='font12 lightgrey'>
@@ -168,18 +168,18 @@ const EcommerceFooter = () => {
                             <p className={`mb-0 font15   font-bold ${styles.borderRight}`}>Official Channels</p>
 
                             <div className='d-flex align-items-center gap-2'>
-                                <Image alt='Icons' src={LinkedIn} />
-                                <Image alt='Icons' src={Twitter} />
-                                <Image alt='Icons' src={Youtube} />
-                                <Image alt='Icons' src={Instagram} />
-                                <Image alt='Icons' src={Pinterest} />
+                                <Link href='https://www.linkedin.com/company/officialBitsWits'><Image alt='Icons' src={LinkedIn} /> </Link>
+                                <Link href='https://twitter.com/BitsWits_/'><Image alt='Icons' src={Twitter} /> </Link>
+                                <Link href='https://www.youtube.com/@officialBitsWits'><Image alt='Icons' src={Youtube} /> </Link>
+                                <Link href='https://www.instagram.com/officialBitsWits/'><Image alt='Icons' src={Instagram} /> </Link>
+                                <Link href='#'><Image alt='Icons' src={Pinterest} /> </Link>
                             </div>
 
                         </div>
                         <div className='d-flex align-items-center gap-2 justify-content-center pt-4 sm:pt-0'>
-                            <Link href="javascript:;" className='font12 lightgrey'>Terms of Use.
+                            <Link href="/term-and-condition" className='font12 lightgrey'>Terms of Use.
                             </Link>
-                            <Link href="javascript:;" className='font12 lightgrey'>Privacy Policy.
+                            <Link href="/privacy-policy" className='font12 lightgrey'>Privacy Policy.
                             </Link>
                         </div>
                     </div>

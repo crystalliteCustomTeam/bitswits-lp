@@ -149,13 +149,15 @@ const EcommerceBanner = () => {
         ]
     };
 
+ 
+
     return (
         <>
             <section className={styles.EcommerceBanner}>
                 <Row>
                     <Col lg={6} xl={8} className='p-0'>
                         <div className={styles.bannerbg}>
-                            <Image src={logo} alt='Logo' className={`${styles.logo} img-fluid w-25`} />
+                        <Link href='/'>  <Image src={logo}  alt='Logo' className={`${styles.logo} img-fluid w-25`} /> </Link>
 
                             <div className={styles.content}>
                                 <h1 className='font-50 text-white font-bold uppercase anton'>Top Ecommerce App <br />
