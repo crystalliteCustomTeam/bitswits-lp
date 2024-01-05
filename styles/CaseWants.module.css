@@ -70,6 +70,11 @@
   .midRow {
     flex-direction: column-reverse;
   }
+
+  .lastPara {
+    margin-top: 40px;
+    padding: 20px;
+  }
 }
 
 /* ========================================== */

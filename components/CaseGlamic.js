@@ -21,7 +21,7 @@ const CaseGlamic = (props) => {
                 </div>
               ))}
             </Col>
-            <Col lg={12} className="pt-2 pt-lg-4">
+            <Col lg={12} className="pt-2 pt-lg-4 mb-4 mb-lg-0">
               {props.textArray2.map((item, index) => (
                 <div className={styles.right} key={index}>
                   <Row className="align-items-center justify-content-between">
@@ -38,7 +38,52 @@ const CaseGlamic = (props) => {
                 </div>
               ))}
             </Col>
-            <Col lg={12}>
+            {/* {isMobile ? (
+              <Slider {...awardslogo} className={` ${styles.nextalign1}`}>
+                <div className={styles.SecImg}>
+                  <Image quality={90} src={props.slide1} alt="BitsWits" className={`img-fluid`} />
+                </div>
+                <div className={styles.SecImg}>
+                  <Image quality={90} src={props.slide2} alt="BitsWits" className={`img-fluid`} />
+                </div>
+                <div className={styles.SecImg}>
+                  <Image quality={90} src={props.slide3} alt="BitsWits" className={`img-fluid`} />
+                </div>
+                <div className={styles.SecImg}>
+                  <Image quality={90} src={props.slide4} alt="BitsWits" className={`img-fluid`} />
+                </div>
+              </Slider>
+            ) : (
+              <Col lg={12}>
+                <div className={styles.SecImg}>
+                  <Image
+                    quality={90}
+                    src={props.slide1}
+                    alt="BitsWits"
+                    className={`img-fluid`}
+                  />
+                  <Image
+                    quality={90}
+                    src={props.slide2}
+                    alt="BitsWits"
+                    className={`img-fluid`}
+                  />
+                  <Image
+                    quality={90}
+                    src={props.slide3}
+                    alt="BitsWits"
+                    className={`img-fluid`}
+                  />
+                  <Image
+                    quality={90}
+                    src={props.slide4}
+                    alt="BitsWits"
+                    className={`img-fluid`}
+                  />
+                </div>
+              </Col>
+            )} */}
+            <Col lg={12} className="d-none d-lg-block">
               <div className={styles.SecImg}>
                 <Image
                   quality={90}

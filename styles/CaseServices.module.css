@@ -72,6 +72,11 @@
   .servImg {
     flex-wrap: wrap;
   }
+
+  .servImg img {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 /* ========================================== */
