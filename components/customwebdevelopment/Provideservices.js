@@ -13,7 +13,7 @@ const Provideservices = (props) => {
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth > 480) {
+      if (window.innerWidth > 992) {
         setIsSliderActive(false);
       } else {
         setIsSliderActive(true);
@@ -32,41 +32,13 @@ const Provideservices = (props) => {
   var awardslogo = {
     dots: false,
     arrows: false,
-    slidesToShow: 3,
+    loop: true,
+    autoplay: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
     slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 991,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+    adaptiveHeight: true
   };
 
   return (
@@ -84,7 +56,7 @@ const Provideservices = (props) => {
               <>
                 {props.title2 ? props.title2 : ""}
                 {props.para2 ? props.para2 : ""}
-                <Slider {...awardslogo} className="pt-sm-4 pt-2">
+                <Slider {...awardslogo} className="pt-sm-4 pt-2 mb-4">
                   {props.sec.map((item, index) => (
                     <div
                       className={`${styles.blocknew} ${styles[props.bottomPadding]

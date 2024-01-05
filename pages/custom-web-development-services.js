@@ -397,8 +397,8 @@ export default function customwebdevelopmentservices() {
           },
         ]}
       />
-      <Justbuildit assignClass="justforpop" />
       <Technology addresClass="tech" /> 
+      <Justbuildit assignClass="justforpop" />
       <Globallplp6 bannerClass="newclassglobe" />
       <Partnerships />
       <Formnewlp />

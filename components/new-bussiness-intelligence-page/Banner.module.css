@@ -530,6 +530,17 @@
   .gameBlckChain .banImg {
     padding-bottom: 0px;
   }
+
+  .bussiness{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+
+  .bussiness .banImg img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {

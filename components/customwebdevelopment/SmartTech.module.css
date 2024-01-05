@@ -65,9 +65,7 @@
     padding-bottom: 40px;
   }
   .providecustom {
-    background-color: black;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 0 0 30px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -80,8 +78,6 @@
     padding-bottom: 25px;
   }
   .providecustom {
-    background-color: black;
-    padding-top: 0px;
-    padding-bottom: 25px;
+    padding: 0;
   }
 }

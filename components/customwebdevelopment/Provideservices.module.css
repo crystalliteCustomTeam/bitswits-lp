@@ -183,7 +183,7 @@
   }
   .providecustom {
     background-color: black;
-    padding-top: 40px;
+    padding-top: 0;
     padding-bottom: 40px;
   }
 
@@ -200,6 +200,7 @@
   .blocknew {
     padding: 0 10px;
   }
+  
 }
 @media screen and (max-width: 767px) {
   .providebussiness {

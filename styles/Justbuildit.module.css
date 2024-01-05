@@ -90,13 +90,14 @@
     padding-top: 0;
     padding-bottom: 80px;
   }
+
+  .justforpop {
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-  .justforpop {
-    padding-top: 50px !important;
-  }
-
   .slide {
     padding-top: 0px;
     padding-bottom: 50px;
@@ -108,6 +109,11 @@
 
   .develop {
     font-size: 25px;
+  }
+
+  .justforpop {
+    padding-top: 50px;
+    padding-bottom: 0;
   }
 }
 

@@ -180,7 +180,7 @@ const LpFormprops = (props) => {
                         {isMobile ? (
                             <Slider {...awardslogo} className={` ${styles.nextalign1}`}>
                                 {props.data.map((item, index) => (
-                                    <div className='mt-5'> 
+                                    <div className='mt-5 mt-md-0'> 
                                         <div className={styles.deve} key={index}>
                                             <Image src={item.img2} className="img-fluid" alt="bitswits" />
                                             <div>

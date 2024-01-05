@@ -70,13 +70,14 @@
   .flod img {
     position: unset;
   }
+
+  .deve1 {
+    display: flex !important;
+    align-items: flex-start;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  .deve1 {
-    display: flex !important;
-    align-items: center;
-  }
   .deve2 {
     display: flex;
     align-items: center;

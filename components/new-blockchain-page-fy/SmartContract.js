@@ -13,7 +13,7 @@ const SmartContract = (props) => {
     const [isSliderActive, setIsSliderActive] = useState(true);
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth > 480) {
+            if (window.innerWidth > 992) {
                 setIsSliderActive(false);
             } else {
                 setIsSliderActive(true);
@@ -32,47 +32,16 @@ const SmartContract = (props) => {
     var awardslogo = {
         dots: false,
         arrows: false,
+        loop: true,
         autoplay: true,
-        slidesToShow: 3,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
         slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                    infinite: true,
-
-                }
-            },
-            {
-                breakpoint: 991,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
-            }
-        ]
-
+        adaptiveHeight: true
     }
+
+
     return (
         <>
             <section className={`${styles[props.assignClass]}`}>
@@ -100,7 +69,7 @@ const SmartContract = (props) => {
 
                         {isSliderActive ?
 
-                            <Slider {...awardslogo} className="pt-4">
+                            <Slider {...awardslogo} className="pt-4 mt-0">
                                 {props.sec.map((item, index) => (
                                     <Col lg={4}>
 

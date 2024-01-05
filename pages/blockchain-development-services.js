@@ -199,8 +199,8 @@ export default function blockchaindevelopmentservices() {
       <div className="bgtext">
         <Nftservices assignClass="provideserv" />
       </div>
-      <Justbuildit assignClass="justforpop" />
       <Technology addresClass="tech" />
+      <Justbuildit assignClass="justforpop" />
       <Globallplp6 bannerClass="newclassglobe" />
       <Partnerships />
       <Formnewlp />

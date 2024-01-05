@@ -15,7 +15,7 @@ const SmartContract = (props) => {
     const [isSliderActive, setIsSliderActive] = useState(true);
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth > 480) {
+            if (window.innerWidth > 992) {
                 setIsSliderActive(false);
             } else {
                 setIsSliderActive(true);
@@ -41,40 +41,16 @@ const SmartContract = (props) => {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                    infinite: true,
-
-                }
-            },
-            {
-                breakpoint: 991,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
+                    infinite: true,
+
                 }
             }
         ]
-
     }
+
+    
     return (
         <>
             <section className={`${styles[props.assignClass]}`}>

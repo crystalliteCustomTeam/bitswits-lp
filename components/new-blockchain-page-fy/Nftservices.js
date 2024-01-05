@@ -16,7 +16,7 @@ const Nftservices = (props) => {
     const [isSliderActive, setIsSliderActive] = useState(true);
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth > 480) {
+            if (window.innerWidth > 992) {
                 setIsSliderActive(false);
             } else {
                 setIsSliderActive(true);
@@ -35,47 +35,16 @@ const Nftservices = (props) => {
     var awardslogo = {
         dots: false,
         arrows: false,
+        loop: true,
         autoplay: true,
-        slidesToShow: 3,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
         slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                    infinite: true,
-
-                }
-            },
-            {
-                breakpoint: 991,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
-            }
-        ]
-
+        adaptiveHeight: true
     }
+
+
     return (
         <>
             <section className={`${styles[props.assignClass]}`}>
@@ -89,7 +58,7 @@ const Nftservices = (props) => {
 
                         {isSliderActive ?
 
-                            <Slider {...awardslogo} className="pt-4">
+                            <Slider {...awardslogo} className="pt-4 mt-0">
                                 <div className={styles.blocknew}>
 
                                     <div>
@@ -97,14 +66,14 @@ const Nftservices = (props) => {
                                         <p className={`${styles.create} fontsfregular font_15 linehight_1 white`}>We create blockchain security software that identifies and addresses the fundamental elements of a cross-industry standard for shared and distributed ledgers while transforming how businesses conduct transactions globally.</p>
                                     </div>
                                 </div>
-                                <div className={`${styles.blocknew} pt-4`}>
+                                <div className={`${styles.blocknew}`}>
 
                                     <div>
                                         <h3 className="font_20 newfycolr font-bold">Advanced NFT Functionality</h3>
                                         <p className={`${styles.create} fontsfregular font_15 linehight_1 white`}>Create an NFT Marketplace where cryptocurrency investors can access real-time data about the cost, payment methods, and the length of the auction during which bidding is allowed as well as the trading history. Our NFT developers create showcases of the top NFT’s being traded on your platform using custom categorization systems including trading volume, average price, and number of NFT investors.</p>
                                     </div>
                                 </div>
-                                <div className={`${styles.blocknew} pt-4`}>
+                                <div className={`${styles.blocknew}`}>
 
                                     <div>
                                         <h3 className="font_20 newfycolr font-bold ">Opensea SDK</h3>

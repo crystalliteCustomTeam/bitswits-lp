@@ -191,6 +191,19 @@
     margin-top: 20px !important;
     margin-bottom: 20px;
   }
+
+  .blocknew {
+    padding: 0 10px;
+  }
+
+  .video {
+    margin: 10px 0 15px;
+  }
+
+  .providebussiness .video img {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
 }
 @media screen and (max-width: 767px) {
   .providebussiness {

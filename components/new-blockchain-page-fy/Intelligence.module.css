@@ -46,9 +46,11 @@
     display: flex;
     gap: 25px;
     flex-direction: column;
+    padding: 0 10px;
   }
   .create {
-    width: auto;
+    width: unset;
+    text-align: justify;
   }
 }
 
