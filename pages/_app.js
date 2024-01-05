@@ -18,6 +18,8 @@ import EcommerceFooter from "@/components/EcommerceFooter";
 import Cursor from "@/components/Cursor";
 import Loader from "@/components/Loader";
 import Skicky from "@/components/Skicky";
+import Pixel from "@/components/Pixel";
+import Pixel2 from "@/components/Pixel2";
 import Zendesk, { ZendeskAPI } from "../pages/zendex";
 const ZENDESK_KEY = "325da280-f4f0-4c80-997f-ea4de45eb2f1";
 
@@ -145,6 +147,11 @@ export default function App({ Component, pageProps }) {
               ;
             `}
           </Script>
+
+          <Zendesk defer zendeskKey={ZENDESK_KEY} onLoaded={handleLoaded} />
+
+          <Pixel />
+          <Pixel2 />
         </>
       }
 
@@ -183,12 +190,6 @@ export default function App({ Component, pageProps }) {
       ) : (
         <Footernewfy />
       )
-      }
-
-      {imagesLoaded &&
-        <div>
-          <Zendesk defer zendeskKey={ZENDESK_KEY} onLoaded={handleLoaded} />
-        </div>
       }
     </>
   );
