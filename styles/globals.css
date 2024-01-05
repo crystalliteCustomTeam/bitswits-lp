@@ -3126,7 +3126,9 @@ input::-webkit-inner-spin-button {
 
 @media screen and (max-width: 480px) {
 
-
+  .reviewsSidebar{
+    width: 100%;
+  }
   .reviewsSidebar .header{
     width: 100%;
   }
