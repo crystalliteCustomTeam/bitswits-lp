@@ -3125,6 +3125,12 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 480px) {
+
+
+  .reviewsSidebar .header{
+    width: 100%;
+  }
+
   .newtownfy,
   .openForm {
     display: none;

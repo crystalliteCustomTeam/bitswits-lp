@@ -80,6 +80,17 @@
   }
 }
 
+@media screen and (max-width: 991px) { 
+
+  .gulop {
+    top: 0px;
+  }
+  .still {
+    background-color: #000;
+    margin-top: 0px;
+  }
+
+}
 @media screen and (max-width: 480px) {
   .number,
   .live {

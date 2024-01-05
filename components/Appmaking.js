@@ -37,7 +37,7 @@ const Appmaking = () => {
     var awardslogo = {
         dots: false,
         arrows: false,
-        autoplay: true,
+        autoplay: false,
         slidesToShow: 1,
         slidesToScroll: 1,
         responsive: [
