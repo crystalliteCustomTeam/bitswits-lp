@@ -10,7 +10,6 @@ import NewHeaderDesign from "@/components/NewHeader";
 import Headerlp from "@/components/Headerlp";
 import Headerlphome from "@/components/Headerlphome";
 import Footernewfy from "@/components/Footernewfydesign";
-import Footernewlp1 from "@/components/Footernewlp1";
 import Footernewlp from "@/components/Footernewlp";
 import Footernewdesign from "@/components/Footernewdesign";
 import EcommerceBanner from "@/components/EcommerceBanner";
@@ -20,6 +19,8 @@ import Loader from "@/components/Loader";
 import Skicky from "@/components/Skicky";
 import Pixel from "@/components/Pixel";
 import Pixel2 from "@/components/Pixel2";
+import MetaData from "@/components/MetaData";
+//
 import Zendesk, { ZendeskAPI } from "../pages/zendex";
 const ZENDESK_KEY = "325da280-f4f0-4c80-997f-ea4de45eb2f1";
 
@@ -96,11 +97,6 @@ export default function App({ Component, pageProps }) {
     router.pathname == "/mobile-app-development-services" ||
     router.pathname == "/create-a-mobile-app";
   // =======================================
-  const mblLp1 =
-    router.pathname == "/top-mobile-app-development-company" ||
-    router.pathname == "/mobile-app-development-services" ||
-    router.pathname == "/create-a-mobile-app";
-  // =======================================
   const newlps = router.pathname == "/mobile-app-development-company-lp2";
   // =======================================
   const newhomepage = router.pathname == "/top-mobile-app-developers";
@@ -116,6 +112,7 @@ export default function App({ Component, pageProps }) {
   const newcol = weblink + sluginer;
   // =======================================
 
+
   return (
     <>
       <Head>
@@ -124,6 +121,8 @@ export default function App({ Component, pageProps }) {
         <meta name='dmca-site-verification' content='Z05ObW9WMWo4VTlQL0VpdEJuTzU0UT090' />
         <link rel="canonical" href={newcol} />
       </Head>
+
+      <MetaData />
 
       {imagesLoaded &&
         <>
@@ -181,8 +180,6 @@ export default function App({ Component, pageProps }) {
 
       {newlps ? (
         <Footernewlp />
-      ) : mblLp1 ? (
-        <Footernewlp1 />
       ) : newhomepage ? (
         <Footernewdesign />
       ) : newecommercepage ? (

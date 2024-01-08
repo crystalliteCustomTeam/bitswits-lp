@@ -155,14 +155,13 @@ export default function Gameapplicationdevelopment() {
   return (
     <>
       <Head>
-        <title>Game Application Development Company | Hire Top Game Developers</title>
-        <meta
-          name="description"
-          content="Embark on a gaming journey like no other with BitsWits, a premium game application development company, executed by a team of skilled game"
-        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <ServicesBanner
         assignClass="gameApp"
         subtitle="AWARDED #1 GAME APP DEVELOPMENT COMPANY"

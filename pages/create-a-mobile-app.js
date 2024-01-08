@@ -30,19 +30,7 @@ export default function gamedevelopmentcompany() {
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* Title & Description */}
-        <title>Create a Mobile App | Custom Solutions from Concept to Launch</title>
-        <meta name="description" content="Create a Mobile App with Bitswits. Where Innovation Meets Excellence | Bitswits.co" />
-        {/* OG Tags */}
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Create a Mobile App | Custom Solutions from Concept to Launch" />
-        <meta property="og:description" content="Create a Mobile App with Bitswits. Where Innovation Meets Excellence | Bitswits.co" />
-        <meta property="og:url" content="https://bitswits.co/" />
-        <meta property="og:site_name" content="Create a Mobile App | Custom Solutions from Concept to Launch" />
-        {/* Canonical */}
-        
-        {/* Favicon */}
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 

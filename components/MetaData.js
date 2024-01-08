@@ -1,0 +1,794 @@
+import React from 'react'
+import Head from "next/head";
+import { useRouter } from 'next/router';
+
+
+const MetaData = () => {
+
+    const router = useRouter();
+    const PagePath = router.asPath;
+
+    return (
+        <>
+            {PagePath === '/' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">App Development Company | Professional App Developers</title>
+                    <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="App Development Company | Professional App Developers" />
+                    <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="App Development Company | Professional App Developers" />
+                </Head>
+            ) : PagePath === '/about-us' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">App Development Company | Professional App Developers</title>
+                    <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="App Development Company | Professional App Developers" />
+                    <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="App Development Company | Professional App Developers" />
+                </Head>
+            ) : PagePath === '/contact-us' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">App Development Company | Professional App Developers</title>
+                    <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="App Development Company | Professional App Developers" />
+                    <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="App Development Company | Professional App Developers" />
+                </Head>
+            ) : PagePath === '/our-work' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">App Development Company | Professional App Developers</title>
+                    <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="App Development Company | Professional App Developers" />
+                    <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="App Development Company | Professional App Developers" />
+                </Head>
+            ) : PagePath === '/privacy-policy' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Privacy Policy - BitsWits</title>
+                    <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Privacy Policy - BitsWits" />
+                    <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Privacy Policy - BitsWits" />
+                </Head>
+            ) : PagePath === '/term-and-condition' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Terms & Conditions - BitsWits</title>
+                    <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Terms & Conditions - BitsWits" />
+                    <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Terms & Conditions - BitsWits" />
+                </Head>
+            ) : PagePath === '/thank-you' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">App Development Company | Professional App Developers</title>
+                    <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="App Development Company | Professional App Developers" />
+                    <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="App Development Company | Professional App Developers" />
+                </Head>
+            ) : PagePath === '/ios-app-development' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">IOS App Development Company | Top IOS developers</title>
+                    <meta name="description" content='Looking for a top iOS app development company? Our team of expert IOS app developers at BitsWits, can turn your ideas into reality. Contact us to discuss your project today.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="IOS App Development Company | Top IOS developers" />
+                    <meta property="og:description" content="Looking for a top iOS app development company? Our team of expert IOS app developers at BitsWits, can turn your ideas into reality. Contact us to discuss your project today." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="IOS App Development Company | Top IOS developers" />
+                </Head>
+            ) : PagePath === '/mobile-application' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">The Professional Mobile App Development Company - BitsWits.</title>
+                    <meta name="description" content='From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="The Professional Mobile App Development Company - BitsWits." />
+                    <meta property="og:description" content="From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="The Professional Mobile App Development Company - BitsWits." />
+                </Head>
+            ) : PagePath === '/android-application-development' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Android Apps Development Company | Android App Developers</title>
+                    <meta name="description" content='Looking for a reliable Android Apps Development company? Hire skilled Android App Developers to create high-quality, user-friendly mobile applications for your business needs.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Android Apps Development Company | Android App Developers" />
+                    <meta property="og:description" content="Looking for a reliable Android Apps Development company? Hire skilled Android App Developers to create high-quality, user-friendly mobile applications for your business needs." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Android Apps Development Company | Android App Developers" />
+                </Head>
+            ) : PagePath === '/flutter-mobile-development' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Flutter Apps Development Company | Flutter App Developers</title>
+                    <meta name="description" content='Hire the best Flutter app developers to create high-quality and seamless mobile applications. BitsWits is a leading Flutter app development company in USA.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Flutter Apps Development Company | Flutter App Developers" />
+                    <meta property="og:description" content="Hire the best Flutter app developers to create high-quality and seamless mobile applications. BitsWits is a leading Flutter app development company in USA." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Flutter Apps Development Company | Flutter App Developers" />
+                </Head>
+            ) : PagePath === '/react-native-mobile-development' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">React Native Mobile App Development Company | React Native App Developers</title>
+                    <meta name="description" content='BitsWits is a professional React Native app development company in USA, providing top-quality and cutting-edge solutions with our experienced team of React Native app developers.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="React Native Mobile App Development Company | React Native App Developers" />
+                    <meta property="og:description" content="BitsWits is a professional React Native app development company in USA, providing top-quality and cutting-edge solutions with our experienced team of React Native app developers." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="React Native Mobile App Development Company | React Native App Developers" />
+                </Head>
+            ) : PagePath === '/hybrid-mobile-apps-development' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Hybrid Mobile Apps Development Company | Hybrid App Developers</title>
+                    <meta name="description" content='Hire the best Hybrid app developers at BitsWits, specializing in innovative solutions and technology for all devices.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Hybrid Mobile Apps Development Company | Hybrid App Developers" />
+                    <meta property="og:description" content="Hire the best Hybrid app developers at BitsWits, specializing in innovative solutions and technology for all devices." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Hybrid Mobile Apps Development Company | Hybrid App Developers" />
+                </Head>
+            ) : PagePath === '/cross-platform-app-development' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Cross Platform App Development Company | Cross Platform App Developers</title>
+                    <meta name="description" content='Discover how BitsWits, a leading Cross Platform app development company, helps businesses build high-quality cross platform apps to reach users across iOS, Android, and web.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Cross Platform App Development Company | Cross Platform App Developers" />
+                    <meta property="og:description" content="Discover how BitsWits, a leading Cross Platform app development company, helps businesses build high-quality cross platform apps to reach users across iOS, Android, and web." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Cross Platform App Development Company | Cross Platform App Developers" />
+                </Head>
+            ) : PagePath === '/augmented-reality-apps-development-company' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Augmented Reality Apps Development Company | AR App Developers</title>
+                    <meta name="description" content='Our augmented reality apps development company is your one-stop shop for creating immersive AR experiences. We have a team of expert AR app developers to bring your ideas to life.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Augmented Reality Apps Development Company | AR App Developers" />
+                    <meta property="og:description" content="Our augmented reality apps development company is your one-stop shop for creating immersive AR experiences. We have a team of expert AR app developers to bring your ideas to life." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Augmented Reality Apps Development Company | AR App Developers" />
+                </Head>
+            ) : PagePath === '/custom-mobile-development' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Custom Mobile App Development Company | Custom Mobile App Developers</title>
+                    <meta name="description" content='Looking for a reliable custom mobile app development company? Our team of expert custom app developers specializes in creating customized mobile applications.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Custom Mobile App Development Company | Custom Mobile App Developers" />
+                    <meta property="og:description" content="Looking for a reliable custom mobile app development company? Our team of expert custom app developers specializes in creating customized mobile applications." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Custom Mobile App Development Company | Custom Mobile App Developers" />
+                </Head>
+            ) : PagePath === '/artificial-intelligence-development-company' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Artificial Intelligence Development Company | AI Developers</title>
+                    <meta name="description" content='Embrace the future of technology with our Artificial Intelligence development company, delivering intelligent solutions to drive your business forward.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Artificial Intelligence Development Company | AI Developers" />
+                    <meta property="og:description" content="Embrace the future of technology with our Artificial Intelligence development company, delivering intelligent solutions to drive your business forward." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Artificial Intelligence Development Company | AI Developers" />
+                </Head>
+            ) : PagePath === '/web-app-development' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Top-Rated Web App Development Company | Web App Developers</title>
+                    <meta name="description" content='Looking for a top-rated web app development company? Our team of skilled web app developers specializes in crafting high-quality and customized web applications.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Top-Rated Web App Development Company | Web App Developers" />
+                    <meta property="og:description" content="Looking for a top-rated web app development company? Our team of skilled web app developers specializes in crafting high-quality and customized web applications." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Top-Rated Web App Development Company | Web App Developers" />
+                </Head>
+            ) : PagePath === '/blockchain-development-services' ? (
+                <Head>
+                    <meta name="robots" content="noindex" />
+                    {/* Title & Description */}
+                    <title key="title">Blockchain Development Services - BitsWits</title>
+                    <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Blockchain Development Services - BitsWits" />
+                    <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Blockchain Development Services - BitsWits" />
+                </Head>
+            ) : PagePath === '/custom-web-development-services' ? (
+                <Head>
+                    <meta name="robots" content="noindex" />
+                    {/* Title & Description */}
+                    <title key="title">Custom Web Development - BitsWits</title>
+                    <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Custom Web Development - BitsWits" />
+                    <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Custom Web Development - BitsWits" />
+                </Head>
+            ) : PagePath === '/bussiness-intelligence-software-development' ? (
+                <Head>
+                    <meta name="robots" content="noindex" />
+                    {/* Title & Description */}
+                    <title key="title">Top Bussiness Intelligence Software Development - BitsWits</title>
+                    <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Top Bussiness Intelligence Software Development - BitsWits" />
+                    <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Top Bussiness Intelligence Software Development - BitsWits" />
+                </Head>
+            ) : PagePath === '/ui-&-ux-design-and-development-services' ? (
+                <Head>
+                    <meta name="robots" content="noindex" />
+                    {/* Title & Description */}
+                    <title key="title">UI & UX Design And Development Services | BitsWits</title>
+                    <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="UI & UX Design And Development Services | BitsWits" />
+                    <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="UI & UX Design And Development Services | BitsWits" />
+                </Head>
+            ) : PagePath === '/game-application-development' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Game Application Development Company | Hire Top Game Developers</title>
+                    <meta name="description" content='Embark on a gaming journey like no other with BitsWits, a premium game application development company, executed by a team of skilled game' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Game Application Development Company | Hire Top Game Developers" />
+                    <meta property="og:description" content="Embark on a gaming journey like no other with BitsWits, a premium game application development company, executed by a team of skilled game" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Game Application Development Company | Hire Top Game Developers" />
+                </Head>
+            ) : PagePath === '/2d-game-development-company' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">2D Game Development Company | 2D Game Developers</title>
+                    <meta name="description" content='Take your gaming experience to the next level with our award-winning 2D game developers! We craft innovative games with superior graphics, sounds, and controls.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="2D Game Development Company | 2D Game Developers" />
+                    <meta property="og:description" content="Take your gaming experience to the next level with our award-winning 2D game developers! We craft innovative games with superior graphics, sounds, and controls." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="2D Game Development Company | 2D Game Developers" />
+                </Head>
+            ) : PagePath === '/3d-game-development-company' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">3D Games Development Company | 3D Games Developers</title>
+                    <meta name="description" content='Bring your game to life with graphics and gameplay. Our 3D game application developers specialize in crafting games that offer a realistic experience.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="3D Games Development Company | 3D Games Developers" />
+                    <meta property="og:description" content="Bring your game to life with graphics and gameplay. Our 3D game application developers specialize in crafting games that offer a realistic experience." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="3D Games Development Company | 3D Games Developers" />
+                </Head>
+            ) : PagePath === '/nft-game-development' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">NFT Game Development Company | NFT Game Developers</title>
+                    <meta name="description" content='Looking for a top-tier NFT game development company? Our NFT game developers at BitsWits, have the expertise to create games that engage players on every level.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="NFT Game Development Company | NFT Game Developers" />
+                    <meta property="og:description" content="Looking for a top-tier NFT game development company? Our NFT game developers at BitsWits, have the expertise to create games that engage players on every level." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="NFT Game Development Company | NFT Game Developers" />
+                </Head>
+            ) : PagePath === '/blockchain-game-development' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Blockchain Games Development Company | Blockchain game developers</title>
+                    <meta name="description" content='Get your blockchain gaming projects off the ground with our team of experienced blockchain game developers. Connect with the top blockchain game development company today!' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Blockchain Games Development Company | Blockchain game developers" />
+                    <meta property="og:description" content="Get your blockchain gaming projects off the ground with our team of experienced blockchain game developers. Connect with the top blockchain game development company today!" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Blockchain Games Development Company | Blockchain game developers" />
+                </Head>
+            ) : PagePath === '/mobile-application-duplicate' ? (
+                <Head>
+                    <meta name="robots" content="noindex" />
+                    {/* Title & Description */}
+                    <title key="title">The Professional Mobile App Development Company - BitsWits.</title>
+                    <meta name="description" content='From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="The Professional Mobile App Development Company - BitsWits." />
+                    <meta property="og:description" content="From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="The Professional Mobile App Development Company - BitsWits." />
+                </Head>
+            ) : PagePath === '/mobile-application-duplicate2' ? (
+                <Head>
+                    <meta name="robots" content="noindex" />
+                    {/* Title & Description */}
+                    <title key="title">The Professional Mobile App Development Company - BitsWits.</title>
+                    <meta name="description" content='From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="The Professional Mobile App Development Company - BitsWits." />
+                    <meta property="og:description" content="From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="The Professional Mobile App Development Company - BitsWits." />
+                </Head>
+            ) : PagePath === '/top-mobile-app-development-company' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Top Mobile App Development Company | Top Mobile App Developers</title>
+                    <meta name="description" content='BitsWits, A top mobile app development company is your go-to destination for top mobile app developers who can help you transform your ideas into extraordinary mobile experiences' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Top Mobile App Development Company | Top Mobile App Developers" />
+                    <meta property="og:description" content="BitsWits, A top mobile app development company is your go-to destination for top mobile app developers who can help you transform your ideas into extraordinary mobile experiences" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Top Mobile App Development Company | Top Mobile App Developers" />
+                </Head>
+            ) : PagePath === '/mobile-app-development-company-lp2' ? (
+                <Head>
+                    <meta name="robots" content="noindex" />
+                    {/* Title & Description */}
+                    <title key="title">Top Mobile App Development Company - BitsWits</title>
+                    <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Top Mobile App Development Company - BitsWits" />
+                    <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Top Mobile App Development Company - BitsWits" />
+                </Head>
+            ) : PagePath === '/create-a-mobile-app' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Create a Mobile App | Custom Solutions from Concept to Launch</title>
+                    <meta name="description" content='Create a Mobile App with Bitswits. Where Innovation Meets Excellence | Bitswits.co' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Create a Mobile App | Custom Solutions from Concept to Launch" />
+                    <meta property="og:description" content="Create a Mobile App with Bitswits. Where Innovation Meets Excellence | Bitswits.co" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Create a Mobile App | Custom Solutions from Concept to Launch" />
+                </Head>
+            ) : PagePath === '/mobile-app-development-services' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Mobile Application Development Services | Apps Development Services</title>
+                    <meta name="description" content='Ignite your brand`s success with our unparalleled mobile application development services, delivering transformative apps that propel your business to new heights.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Mobile Application Development Services | Apps Development Services" />
+                    <meta property="og:description" content="Ignite your brand`s success with our unparalleled mobile application development services, delivering transformative apps that propel your business to new heights." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Mobile Application Development Services | Apps Development Services" />
+                </Head>
+            ) : PagePath === '/top-mobile-app-developers' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Top Mobile Application Developers | Top mobile app developers</title>
+                    <meta name="description" content='From ideation to launch, our top mobile app developers provides end-to-end services that ensure your app is a success.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Top Mobile Application Developers | Top mobile app developers" />
+                    <meta property="og:description" content="From ideation to launch, our top mobile app developers provides end-to-end services that ensure your app is a success." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Top Mobile Application Developers | Top mobile app developers" />
+                </Head>
+            ) : PagePath === '/top-ecommerce-app-development-company' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Top Ecommerce App Development Company - BitsWits</title>
+                    <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Top Ecommerce App Development Company - BitsWits" />
+                    <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Top Ecommerce App Development Company - BitsWits" />
+                </Head>
+            ) : PagePath === '/social-media-app-development' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Social Media App Development Company | Social Media App Developers</title>
+                    <meta name="description" content='Experience the epitome of social media innovation with our top-notch app development company, delivering exceptional results for businesses worldwide.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Social Media App Development Company | Social Media App Developers" />
+                    <meta property="og:description" content="Experience the epitome of social media innovation with our top-notch app development company, delivering exceptional results for businesses worldwide." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Social Media App Development Company | Social Media App Developers" />
+                </Head>
+            ) : PagePath === '/blockchain-development-lp' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Blockchain Development Company | Blockchain Developers</title>
+                    <meta name="description" content='Experience the pinnacle of excellence with our distinguished Blockchain Development Company, as our proficient Blockchain Developers revolutionize the digital landscape.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Blockchain Development Company | Blockchain Developers" />
+                    <meta property="og:description" content="Experience the pinnacle of excellence with our distinguished Blockchain Development Company, as our proficient Blockchain Developers revolutionize the digital landscape." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Blockchain Development Company | Blockchain Developers" />
+                </Head>
+            ) : PagePath === '/travel-app-development-case-study' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">BitsWits</title>
+                    <meta name="description" content='Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="BitsWits" />
+                    <meta property="og:description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="BitsWits" />
+                </Head>
+            ) : PagePath === '/real-estate-app-development-case-study' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">BitsWits</title>
+                    <meta name="description" content='Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="BitsWits" />
+                    <meta property="og:description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="BitsWits" />
+                </Head>
+            ) : PagePath === '/clothing-marketplace-app-development-case-study' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">BitsWits</title>
+                    <meta name="description" content='Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="BitsWits" />
+                    <meta property="og:description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="BitsWits" />
+                </Head>
+            ) : PagePath === '/social-app-development-case-study' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">BitsWits</title>
+                    <meta name="description" content='Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="BitsWits" />
+                    <meta property="og:description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="BitsWits" />
+                </Head>
+            ) : PagePath === '/automobile-repair-app-development-case-study' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">BitsWits</title>
+                    <meta name="description" content='Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="BitsWits" />
+                    <meta property="og:description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="BitsWits" />
+                </Head>
+            ) : PagePath === '/marketing-partnership-app-development-case-study' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">BitsWits</title>
+                    <meta name="description" content='Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="BitsWits" />
+                    <meta property="og:description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="BitsWits" />
+                </Head>
+            ) : PagePath === '/healthcare-app-development-case-study' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">BitsWits</title>
+                    <meta name="description" content='Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="BitsWits" />
+                    <meta property="og:description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="BitsWits" />
+                </Head>
+            ) : PagePath === '/ride-app-development-case-study' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">BitsWits</title>
+                    <meta name="description" content='Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="BitsWits" />
+                    <meta property="og:description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="BitsWits" />
+                </Head>
+            ) : PagePath === '/fitness-app-development-case-study' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">BitsWits</title>
+                    <meta name="description" content='Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="BitsWits" />
+                    <meta property="og:description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="BitsWits" />
+                </Head>
+            ) : PagePath === '/hiring-app-development-case-study' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">BitsWits</title>
+                    <meta name="description" content='Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="BitsWits" />
+                    <meta property="og:description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="BitsWits" />
+                </Head>
+            ) : PagePath === '/food-delivery-app-development-case-study' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">BitsWits</title>
+                    <meta name="description" content='Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="BitsWits" />
+                    <meta property="og:description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="BitsWits" />
+                </Head>
+            ) : PagePath === '/handyman-on-demand-app-development-case-study' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">BitsWits</title>
+                    <meta name="description" content='Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="BitsWits" />
+                    <meta property="og:description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="BitsWits" />
+                </Head>
+            ) : PagePath === '/music-app-development-case-study' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">BitsWits</title>
+                    <meta name="description" content='Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="BitsWits" />
+                    <meta property="og:description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="BitsWits" />
+                </Head>
+            ) : PagePath === '/mobile-application-usa' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">The Professional Mobile App Development Company USA - BitsWits.</title>
+                    <meta name="description" content='From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="The Professional Mobile App Development Company USA - BitsWits." />
+                    <meta property="og:description" content="From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="The Professional Mobile App Development Company USA - BitsWits." />
+                </Head>
+            ) : PagePath === '/mobile-application-huston' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">The Professional Mobile App Development Company Huston - BitsWits.</title>
+                    <meta name="description" content='From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="The Professional Mobile App Development Company Huston - BitsWits." />
+                    <meta property="og:description" content="From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="The Professional Mobile App Development Company Huston - BitsWits." />
+                </Head>
+            ) : PagePath === '/mobile-application-newyork' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">The Professional Mobile App Development Company NewYork - BitsWits.</title>
+                    <meta name="description" content='From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="The Professional Mobile App Development Company NewYork - BitsWits." />
+                    <meta property="og:description" content="From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="The Professional Mobile App Development Company NewYork - BitsWits." />
+                </Head>
+            ) : PagePath === '/mobile-application-los-angeles' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">The Professional Mobile App Development Company Los-Angeles - BitsWits.</title>
+                    <meta name="description" content='From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions.' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="The Professional Mobile App Development Company Los-Angeles - BitsWits." />
+                    <meta property="og:description" content="From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="The Professional Mobile App Development Company Los-Angeles - BitsWits." />
+                </Head>
+            ) : PagePath === '/mobile-developer' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Hire A Professional Mobile App Developers</title>
+                    <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Hire A Professional Mobile App Developers" />
+                    <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Hire A Professional Mobile App Developers" />
+                </Head>
+            ) : PagePath === '/ios-developer' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Hire A Professional iOS App Developers</title>
+                    <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Hire A Professional iOS App Developers" />
+                    <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Hire A Professional iOS App Developers" />
+                </Head>
+            ) : PagePath === '/hybrid-developer' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Hire A Professional Hybrid App Developers</title>
+                    <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Hire A Professional Hybrid App Developers" />
+                    <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Hire A Professional Hybrid App Developers" />
+                </Head>
+            ) : PagePath === '/native-developer' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Hire A Professional Native App Developers</title>
+                    <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Hire A Professional Native App Developers" />
+                    <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Hire A Professional Native App Developers" />
+                </Head>
+            ) : PagePath === '/android-developer' ? (
+                <Head>
+                    {/* Title & Description */}
+                    <title key="title">Hire A Professional Android App Developers</title>
+                    <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
+                    {/* OG Tags */}
+                    <meta property="og:title" content="Hire A Professional Android App Developers" />
+                    <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:url" content="https://bitswits.co/" />
+                    <meta property="og:site_name" content="Hire A Professional Android App Developers" />
+                </Head>
+            )
+                : null
+            }
+        </>
+    )
+}
+
+export default MetaData

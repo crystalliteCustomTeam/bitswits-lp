@@ -94,15 +94,14 @@ export default function HybridMobile() {
   ];
 
   return (
-    <>  <Head>
-      <title>Hybrid Mobile Apps Development Company | Hybrid App Developers</title>
-      <meta
-        name="description"
-        content="Hire the best Hybrid app developers at BitsWits, specializing in innovative solutions and technology for all devices."
-      />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" href="images/icons/favicon.png" />
-    </Head>
+    <>
+      <Head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Meta Tags & OG Tags Added Through Route */}
+        <link rel="icon" href="images/icons/favicon.png" />
+      </Head>
 
       <ServicesBanner
         title={<> Hybrid Mobile App Development Company In USA </>}

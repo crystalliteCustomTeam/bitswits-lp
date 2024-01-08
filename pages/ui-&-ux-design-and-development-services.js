@@ -1,5 +1,5 @@
 import Head from "next/head";
-import React from "react"; 
+import React from "react";
 import Image from "next/image";
 //components
 const ServicesBanner = React.lazy(() => import("@/components/uiuxdesigndevelopment/UIUXBanner"));
@@ -28,22 +28,19 @@ const bestgloba15 = await import("../public/ui-ux-page/icon5.png");
 const bestgloba16 = await import("../public/ui-ux-page/icon6.png");
 const poe = await import("../public/ui-ux-page/work1.png");
 const poe2 = await import("../public/ui-ux-page/work2.png");
- 
+
 
 export default function UiUxDesign() {
   return (
     <>
       <Head>
-        <title>Top Mobile App Development Company - BitsWits</title>
-        <meta
-          name="description"
-          content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life."
-        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
-        <meta name="robots" content="noindex" />
       </Head>
-      
+
       <ServicesBanner
         assignClass="UIUX"
         subtitle="Our Award-Winning"

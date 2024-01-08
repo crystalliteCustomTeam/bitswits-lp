@@ -33,54 +33,9 @@ export default function mobileApplication() {
       <Head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
-        <meta charset="UTF-8" />
-        <title>
-          The Professional Mobile App Development Company - BitsWits.
-        </title>
-        <meta
-          name="description"
-          content="From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions."
-        />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="The Professional Mobile App Development Company - BitsWits."
-        />
-        <meta
-          property="og:description"
-          content="From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions."
-        />
-        <meta
-          property="og:site_name"
-          content="The Professional Mobile App Development Company - BitsWits."
-        />
-        <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
-        <meta
-          name="DC.title"
-          content="mobile app development company, hire mobile app developers, mobile app development services"
-        />
-        <meta name="geo.region" content="US-CA" />
-        <meta name="geo.placename" content="Los Angeles" />
-        <meta name="geo.position" content="36.701463;-118.755997" />
-        <meta name="ICBM" content="36.701463, -118.755997" />
-        <meta
-          name="DC.title"
-          content="mobile app development company, hire mobile app developers, mobile app development services"
-        />
-        <meta name="geo.region" content="US-DE" />
-        <meta name="geo.placename" content="Dover" />
-        <meta name="geo.position" content="38.692045;-75.401331" />
-        <meta name="ICBM" content="38.692045, -75.401331" />
-        <meta
-          name="DC.title"
-          content="mobile app development company, hire mobile app developers, mobile app development services"
-        />
-        <meta name="geo.region" content="US" />
-        <meta name="geo.position" content="39.78373;-100.445882" />
-        <meta name="ICBM" content="39.78373, -100.445882" />
       </Head>
 
       <NewMblBannerduplicate />
@@ -94,7 +49,7 @@ export default function mobileApplication() {
           <>
             <h4 className="font20 font-bold text-white text-center">
               Why BitsWits?
-            </h4> 
+            </h4>
           </>
         }
         subtitle={

@@ -107,12 +107,10 @@ export default function gamedevelopmentcompany() {
   return (
     <>
       <Head>
-        <title>Android Apps Development Company | Android App Developers</title>
-        <meta
-          name="description"
-          content="Looking for a reliable Android Apps Development company? Hire skilled Android App Developers to create high-quality, user-friendly mobile applications for your business needs."
-        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 

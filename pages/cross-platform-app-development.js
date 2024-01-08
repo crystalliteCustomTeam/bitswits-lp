@@ -127,33 +127,11 @@ export default function gamedevelopmentcompany() {
       <Head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8" />
-        <title>Cross Platform App Development Company | Cross Platform App Developers</title>
-        <meta name="description" content="Discover how BitsWits, a leading Cross Platform app development company, helps businesses build high-quality cross platform apps to reach users across iOS, Android, and web." />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Leading Cross Platform App Development Company - BitsWits" />
-        <meta property="og:description" content="Discover how BitsWits, a leading Cross Platform app development company, helps businesses build high-quality cross platform apps to reach users across iOS, Android, and web." />
-        <meta property="og:site_name" content="Leading cross platform app development company - BitsWits" />
-        <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
-        <meta name="DC.title" content="cross platform mobile app development company, cross platform app developers" />
-        <meta name="geo.region" content="US-CA" />
-        <meta name="geo.placename" content="Los Angeles" />
-        <meta name="geo.position" content="36.701463;-118.755997" />
-        <meta name="ICBM" content="36.701463, -118.755997" />
-        <meta name="DC.title" content="cross platform mobile app development company, cross platform app developers" />
-        <meta name="geo.region" content="US-DE" />
-        <meta name="geo.placename" content="Dover" />
-        <meta name="geo.position" content="38.692045;-75.401331" />
-        <meta name="ICBM" content="38.692045, -75.401331" />
-        <meta name="DC.title" content="cross platform mobile app development company, cross platform app developers" />
-        <meta name="geo.region" content="US" />
-        <meta name="geo.position" content="39.78373;-100.445882" />
-        <meta name="ICBM" content="39.78373, -100.445882" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-      
+
       <ServicesBanner
         subtitle="Create The Future With Our"
         title={<> Cross-Platform App Development Services </>}

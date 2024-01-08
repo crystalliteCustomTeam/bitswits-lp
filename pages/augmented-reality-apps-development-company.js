@@ -112,14 +112,13 @@ export default function augmentedrealityappsdevelopment() {
   return (
     <>
       <Head>
-        <title>Augmented Reality Apps Development Company | AR App Developers</title>
-        <meta
-          name="description"
-          content="Our augmented reality apps development company is your one-stop shop for creating immersive AR experiences. We have a team of expert AR app developers to bring your ideas to life."
-        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+
       <ServicesBanner
         subtitle="Empower Your Business with"
         title={<> Top Augmented Reality App Development Company </>}

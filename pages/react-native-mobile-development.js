@@ -107,59 +107,8 @@ export default function ReactNativeMobile() {
       <Head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8" />
-        <title>React Native Mobile App Development Company | React Native App Developers</title>
-        <meta
-          name="description"
-          content="BitsWits is a professional React Native app development company in USA, providing top-quality and cutting-edge solutions with our experienced team of React Native app developers."
-        />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Visionary React Native App Development Company - BitsWits"
-        />
-        <meta
-          property="og:description"
-          content="BitsWits is a professional React Native app development company in USA, providing top-quality and cutting-edge solutions with our experienced team of React Native app developers."
-        />
-        <meta
-          property="og:url"
-          content="https://BitsWits.co/react-native-app-development-company/"
-        />
-        <meta
-          property="og:site_name"
-          content="Visionary React Native App Development Company - BitsWits"
-        />
-        <link
-          rel="canonical"
-          href="https://BitsWits.co/react-native-app-development-company/"
-        />
-        <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
-        <meta
-          name="DC.title"
-          content="react native app development company, react native mobile app developers, react native app developer"
-        />
-        <meta name="geo.region" content="US-CA" />
-        <meta name="geo.placename" content="Los Angeles" />
-        <meta name="geo.position" content="36.701463;-118.755997" />
-        <meta name="ICBM" content="36.701463, -118.755997" />
-        <meta
-          name="DC.title"
-          content="react native app development company, react native mobile app developers, react native app developer"
-        />
-        <meta name="geo.region" content="US-DE" />
-        <meta name="geo.placename" content="Dover" />
-        <meta name="geo.position" content="38.692045;-75.401331" />
-        <meta name="ICBM" content="38.692045, -75.401331" />
-        <meta
-          name="DC.title"
-          content="react native app development company, react native mobile app developers, react native app developer"
-        />
-        <meta name="geo.region" content="US" />
-        <meta name="geo.position" content="39.78373;-100.445882" />
-        <meta name="ICBM" content="39.78373, -100.445882" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 

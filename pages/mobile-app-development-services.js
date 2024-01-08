@@ -25,19 +25,7 @@ export default function gamedevelopmentcompany() {
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* Title & Description */}
-        <title>Mobile Application Development Services | Apps Development Services</title>
-        <meta name="description" content="Ignite your brand's success with our unparalleled mobile application development services, delivering transformative apps that propel your business to new heights." />
-        {/* OG Tags */}
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Premium Mobile App Development Services | Transform Your Idea Into Reality" />
-        <meta property="og:description" content="Ignite your brand's success with our unparalleled mobile application development services, delivering transformative apps that propel your business to new heights." />
-        <meta property="og:url" content="https://bitswits.co/" />
-        <meta property="og:site_name" content="Premium Mobile App Development Services | Transform Your Idea Into Reality" />
-        {/* Canonical */}
-        
-        {/* Favicon */}
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 

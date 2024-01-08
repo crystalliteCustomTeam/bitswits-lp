@@ -126,12 +126,10 @@ const mobileApplication = () => {
   return (
     <>
       <Head>
-        <title>3D Games Development Company | 3D Games Developers</title>
-        <meta
-          name="description"
-          content="Bring your game to life with graphics and gameplay. Our 3D game application developers specialize in crafting games that offer a realistic experience."
-        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 

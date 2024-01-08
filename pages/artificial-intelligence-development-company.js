@@ -122,12 +122,10 @@ export default function gamedevelopmentcompany() {
   return (
     <>
       <Head>
-        <title>Artificial Intelligence Development Company | AI Developers</title>
-        <meta
-          name="description"
-          content="Embrace the future of technology with our Artificial Intelligence development company, delivering intelligent solutions to drive your business forward."
-        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 

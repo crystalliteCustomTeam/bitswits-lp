@@ -183,17 +183,7 @@ export default function Home() {
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* Title & Description */}
-        <title>App Development Company | Professional App Developers</title>
-        <meta name="description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
-        {/* OG Tags */}
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Top Mobile App Development Company - Bitswits" />
-        <meta property="og:description" content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life." />
-        <meta property="og:url" content="https://bitswits.co/" />
-        <meta property="og:site_name" content="Top Mobile App Development Company - Bitswits" />
-        {/* Favicon */}
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 

@@ -31,19 +31,7 @@ export default function SocialMediaApp() {
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* Title & Description */}
-        <title>Social Media App Development Company | Social Media App Developers</title>
-        <meta name="description" content="Experience the epitome of social media innovation with our top-notch app development company, delivering exceptional results for businesses worldwide." />
-        {/* OG Tags */}
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Social Media App Development Experts | Bitswits.co" />
-        <meta property="og:description" content="Experience the epitome of social media innovation with our top-notch app development company, delivering exceptional results for businesses worldwide." />
-        <meta property="og:url" content="https://bitswits.co/" />
-        <meta property="og:site_name" content="Social Media App Development Experts | Bitswits.co" />
-        {/* Canonical */}
-        
-        {/* Favicon */}
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 

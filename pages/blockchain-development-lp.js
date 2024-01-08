@@ -46,7 +46,7 @@ export default function Home() {
     </span>
   );
   const hireTile = (
-    <span className="f18 fw700"> 
+    <span className="f18 fw700">
       Hire <span className="f18 fw700 grdiant">Blockchain</span> Development
     </span>
   );
@@ -54,12 +54,12 @@ export default function Home() {
     <span className="newchoose fw700"> Firm To Upscale Your Business </span>
   );
   const revTile11 = (
-    <span className="f18 fw700"> 
+    <span className="f18 fw700">
       Empower <span className="f18 fw700 grdiant">Your Business</span> with
     </span>
   );
   const revSubTile = (
-    <span className="newchoose fw700 grdiant"> 
+    <span className="newchoose fw700 grdiant">
       Revolutionary Blockchain App Development Services
     </span>
   );
@@ -74,13 +74,13 @@ export default function Home() {
     </span>
   );
   const NextTtitle1 = (
-    <span className="f18 fw700"> 
+    <span className="f18 fw700">
       Empower <span className="f18 fw700 grdiant">Your Business</span> with
     </span>
   );
   const Nextsub = (
-    <span className="newchoose fw700 grdiant"> 
-      Next Generational Blockchain Solution 
+    <span className="newchoose fw700 grdiant">
+      Next Generational Blockchain Solution
     </span>
   );
   const NextPara = (
@@ -90,10 +90,10 @@ export default function Home() {
     </span>
   );
   const NextTtitle2 = (
-    <span className="newchoose fw700"> 
-      Let’s Build <span className="grdiant">A Secure,</span> Transparent, 
-      <span className="">And</span> Decentralized 
-      <span className="grdiant"> 
+    <span className="newchoose fw700">
+      Let’s Build <span className="grdiant">A Secure,</span> Transparent,
+      <span className="">And</span> Decentralized
+      <span className="grdiant">
         Future <br /> Together
       </span>
     </span>
@@ -145,12 +145,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Blockchain Development Company | Blockchain Developers</title>
-        <meta name="description" content="Experience the pinnacle of excellence with our distinguished Blockchain Development Company, as our proficient Blockchain Developers revolutionize the digital landscape." />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-      
+
       <main className={styles.main}>
         <Banners />
         <Logoslide />

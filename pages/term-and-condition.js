@@ -2,20 +2,18 @@ import Head from "next/head";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
- 
+
 export default function privacypolicy() {
   return (
     <>
       <Head>
-        <title>Terms & Conditions - BitsWits</title>
-        <meta
-          name="description"
-          content="Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life."
-        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
-      
+
       <section className="bg-black pt-5 pb-md-5 pb-0">
         <Container>
           <Row>

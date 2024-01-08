@@ -105,59 +105,8 @@ export default function HybridMobile() {
       <Head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8" />
-        <title>Flutter Apps Development Company | Flutter App Developers </title>
-        <meta
-          name="description"
-          content="Hire the best Flutter app developers to create high-quality and seamless mobile applications. BitsWits is a leading Flutter app development company in USA. "
-        />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Trusted Flutter App Development Company - BitsWits!"
-        />
-        <meta
-          property="og:description"
-          content="Don't settle for mediocre apps! Our flutter app developers deliver cutting-edge solutions that are designed to make a lasting impression on your users."
-        />
-        {/* <meta
-          property="og:url"
-          content="https://BitsWits.co/flutter-app-development-company/"
-        /> */}
-        <meta
-          property="og:site_name"
-          content="Trusted Flutter App Development Company - BitsWits!"
-        />
-        {/* <link
-          rel="canonical"
-          href="https://BitsWits.co/flutter-app-development-company/"
-        /> */}
-        <meta name="msvalidate.01" content="7BBFFA763CEB48CAC0828E22D44DD12B" />
-        <meta
-          name="DC.title"
-          content="flutter app development company, flutter app developers, hire flutter app developers"
-        />
-        <meta name="geo.region" content="US-CA" />
-        <meta name="geo.placename" content="Los Angeles" />
-        <meta name="geo.position" content="36.701463;-118.755997" />
-        <meta name="ICBM" content="36.701463, -118.755997" />
-        <meta
-          name="DC.title"
-          content="flutter app development company, flutter app developers, hire flutter app developers"
-        />
-        <meta name="geo.region" content="US-DE" />
-        <meta name="geo.placename" content="Dover" />
-        <meta name="geo.position" content="38.692045;-75.401331" />
-        <meta name="ICBM" content="38.692045, -75.401331" />
-        <meta
-          name="DC.title"
-          content="flutter app development company, flutter app developers, hire flutter app developers"
-        />
-        <meta name="geo.region" content="US" />
-        <meta name="geo.position" content="39.78373;-100.445882" />
-        <meta name="ICBM" content="39.78373, -100.445882" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 
@@ -189,7 +138,7 @@ export default function HybridMobile() {
               title: "Dart Application Development Services",
               text: (
                 <>
-    
+
                   Our Dart application development services create efficient and
                   powerful hybrid apps using the latest libraries to modernize
                   your native apps. We'll help your app stand out and succeed
@@ -202,7 +151,7 @@ export default function HybridMobile() {
               title: <> Flutter Cross-Platform App Development </>,
               text: (
                 <>
-    
+
                   As a leading Flutter app development company, our expertise
                   lies in developing innovative Flutter apps and provide
                   solutions that extend your app's potential reach, driving your
@@ -230,13 +179,13 @@ export default function HybridMobile() {
             {
               title: (
                 <>
-    
+
                   Testing & Quality <br /> Assurance
                 </>
               ),
               text: (
                 <>
-    
+
                   Our Flutter mobile app developers, quality analysts, and
                   testers, collaborate seamlessly to ensure your app is free of
                   bugs during development. We guarantee you a dependable,
@@ -248,7 +197,7 @@ export default function HybridMobile() {
             {
               title: (
                 <>
-    
+
                   Maintenance & Support <br /> Services
                 </>
               ),
@@ -323,7 +272,7 @@ export default function HybridMobile() {
             question: "How much does Flutter app development cost?",
             answer: (
               <>
-  
+
                 Flutter mobile app development is an increasingly popular and
                 cost-effective way to develop mobile applications. Developing
                 with Flutter is faster, easier, and produces more reliable
@@ -341,7 +290,7 @@ export default function HybridMobile() {
             question: "What is Flutter app development?",
             answer: (
               <>
-  
+
                 Flutter mobile app development is a powerful software
                 development kit (SDK) created by Google. It allows developers to
                 quickly create beautiful, high-performance mobile applications
@@ -358,7 +307,7 @@ export default function HybridMobile() {
             question: "Why should I choose Flutter for app development?",
             answer: (
               <>
-  
+
                 Flutter app development is the ideal choice because it offers a
                 wide range of advantages. It is an open-source framework that
                 simplifies mobile app creation, giving flutter developers more
@@ -374,7 +323,7 @@ export default function HybridMobile() {
             question: "Is Flutter good for mobile app development?",
             answer: (
               <>
-  
+
                 Flutter is a great choice for mobile app development. It is an
                 open-source UI toolkit created by Google to help developers
                 build beautiful and engaging apps quickly and efficiently.
@@ -391,7 +340,7 @@ export default function HybridMobile() {
             question: "What are some of the advantages of Flutter?",
             answer: (
               <>
-  
+
                 The Flutter framework is quickly becoming one of the most
                 popular development tools around. It's easy to see why, as it
                 offers developers many advantages over traditional app
@@ -448,7 +397,7 @@ export default function HybridMobile() {
             question: "What does Flutter Firebase do?",
             answer: (
               <>
-  
+
                 Flutter Firebase is a mobile development platform that combines
                 the power of Flutter, Google's UI toolkit for building beautiful
                 apps, with the robustness and scalability of Firebase. It offers

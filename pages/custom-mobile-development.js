@@ -105,9 +105,10 @@ export default function CustomMobile() {
 
     <>
       <Head>
-        <title>Custom Mobile App Development Company | Custom Mobile App Developers</title>
-        <meta name="description" content="Looking for a reliable custom mobile app development company? Our team of expert custom app developers specializes in creating customized mobile applications." />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 

@@ -170,12 +170,10 @@ export default function mobileApplication() {
   return (
     <>
       <Head>
-        <title>Blockchain Games Development Company | Blockchain game developers</title>
-        <meta
-          name="description"
-          content="Get your blockchain gaming projects off the ground with our team of experienced blockchain game developers. Connect with the top blockchain game development company today!"
-        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 

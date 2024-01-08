@@ -158,12 +158,10 @@ export default function gamedevelopmentcompany() {
   return (
     <>
       <Head>
-        <title>NFT Game Development Company | NFT Game Developers</title>
-        <meta
-          name="description"
-          content="Looking for a top-tier NFT game development company? Our NFT game developers at BitsWits, have the expertise to create games that engage players on every level."
-        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 

@@ -144,12 +144,10 @@ export default function gamedevelopmentcompany() {
   return (
     <>
       <Head>
-        <title>2D Game Development Company | 2D Game Developers</title>
-        <meta
-          name="description"
-          content="Take your gaming experience to the next level with our award-winning 2D game developers! We craft innovative games with superior graphics, sounds, and controls."
-        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
 
@@ -173,7 +171,7 @@ export default function gamedevelopmentcompany() {
       <LpForm />
       <Nothing Nothing="nothingLp6" />
       <ServicesAdvantage
-      assignClass="game2d"
+        assignClass="game2d"
         title={
           <> Attractive/Creative Opportunities 2D Game Development Offers </>
         }

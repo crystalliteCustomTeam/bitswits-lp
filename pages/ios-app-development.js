@@ -115,14 +115,13 @@ export default function gamedevelopmentcompany() {
   return (
     <>
       <Head>
-        <title>IOS App Development Company | Top IOS developers</title>
-        <meta
-          name="description"
-          content="Looking for a top iOS app development company? Our team of expert IOS app developers at BitsWits, can turn your ideas into reality. Contact us to discuss your project today."
-        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Meta Tags & OG Tags Added Through Route */}
         <link rel="icon" href="images/icons/favicon.png" />
       </Head>
+      
       <ServicesBanner
         subtitle="Reimagine Possibilities With"
         title={<> Our iOS App Development Company </>}

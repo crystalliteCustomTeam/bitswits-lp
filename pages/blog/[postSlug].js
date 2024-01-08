@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Link from 'next/link'
 import Image from "next/image";
+import Router, { useRouter } from "next/router";
+import { useState } from 'react';
 import styles from '@/styles/InnerBlog.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 //
@@ -45,19 +47,28 @@ export async function getStaticPaths() {
 
 export default function Post({ postData, featuredImageUrl }) {
 
+    const router = useRouter();
+    const BlogPath = router.asPath;
+
     return (
         <>
-            <Head>
-                <title key="title">{postData.title}</title>
-                <meta name="description" content={postData.metaDesc} key="metadesc" />
-                <meta property="og:title" content={postData.opengraphTitle} />
-                <meta key="og-description" property="og:description" content={postData.metaDesc} />
-                <meta property="og:url" content={postData.opengraphUrl} />
-                <meta property="og:type" content={postData.opengraphType} />
-                <meta property="og:locale" content="en_IN" />
-                <meta property="og:site_name" content={postData.opengraphSiteName} />
-                <link rel="icon" href="/images/icons/favicon.png" />
-            </Head>
+            <>
+                {BlogPath === '/blog-slug' ?
+                    (
+                        <Head>
+                            <title key="title">{postData.title}</title>
+                            <meta name="description" content={postData.metaDesc} key="metadesc" />
+                            <meta property="og:title" content={postData.opengraphTitle} />
+                            <meta key="og-description" property="og:description" content={postData.metaDesc} />
+                            <meta property="og:type" content={postData.opengraphType} />
+                            <meta property="og:locale" content="en_IN" />
+                            <meta property="og:url" content={postData.opengraphUrl} />
+                            <meta property="og:site_name" content={postData.opengraphSiteName} />
+                            <link rel="icon" href="/images/icons/favicon.png" />
+                        </Head>
+                    ) : null
+                }
+            </>
 
             <section className={styles.innerBlog}>
                 <Container>
