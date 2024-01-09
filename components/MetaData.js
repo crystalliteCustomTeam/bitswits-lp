@@ -304,10 +304,10 @@ const MetaData = () => {
                 <Head>
                     {/* Title & Description */}
                     <title key="title">Game Application Development Company | Hire Top Game Developers</title>
-                    <meta name="description" content='Embark on a gaming journey like no other with BitsWits, a premium game application development company, executed by a team of skilled game' key="metadesc" />
+                    <meta name="description" content='Embark on a gaming journey like no other with BitsWits, a premium game application development company, executed by a team of skilled game developers' key="metadesc" />
                     {/* OG Tags */}
                     <meta property="og:title" content="Game Application Development Company | Hire Top Game Developers" />
-                    <meta property="og:description" content="Embark on a gaming journey like no other with BitsWits, a premium game application development company, executed by a team of skilled game" />
+                    <meta property="og:description" content="Embark on a gaming journey like no other with BitsWits, a premium game application development company, executed by a team of skilled game developers" />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:url" content="https://bitswits.co/" />
@@ -437,10 +437,10 @@ const MetaData = () => {
                 <Head>
                     {/* Title & Description */}
                     <title key="title">Mobile Application Development Services | Apps Development Services</title>
-                    <meta name="description" content='Ignite your brand`s success with our unparalleled mobile application development services, delivering transformative apps that propel your business to new heights.' key="metadesc" />
+                    <meta name="description" content="Ignite your brand's success with our unparalleled mobile application development services, delivering transformative apps that propel your business to new heights." key="metadesc" />
                     {/* OG Tags */}
                     <meta property="og:title" content="Mobile Application Development Services | Apps Development Services" />
-                    <meta property="og:description" content="Ignite your brand`s success with our unparalleled mobile application development services, delivering transformative apps that propel your business to new heights." />
+                    <meta property="og:description" content="Ignite your brand's success with our unparalleled mobile application development services, delivering transformative apps that propel your business to new heights." />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:url" content="https://bitswits.co/" />
