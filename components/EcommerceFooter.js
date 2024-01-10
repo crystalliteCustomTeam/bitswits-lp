@@ -186,7 +186,7 @@ const EcommerceFooter = () => {
                 </Container>
             </section>
             <section className={`${styles.copyright} ${styles.official} d-flex align-items-center justify-content-center`}>
-                <p className='text-white font14 font-medium mb-0 me-2'>Copyright © 2023 BitsWits.</p>
+                <p className='text-white font14 font-medium mb-0 me-2'>Copyright © 2024 BitsWits.</p>
                 <Link href="javascript:;" className='text-white font13 font-medium'>Brand Of Bhaoo Incorporation Company</Link>
             </section>
         </>

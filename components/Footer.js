@@ -255,7 +255,7 @@ const Footer = () => {
 
           <Row className={styles.policy}>
             <Col lg={6}>
-              <p className='font15 font-medium white fontf'>Copyright © 2023 BitsWits. | Brand Of Bhaoo Incorporation Company</p>
+              <p className='font15 font-medium white fontf'>Copyright © 2024 BitsWits. | Brand Of Bhaoo Incorporation Company</p>
             </Col>
             <Col lg={6}>
               {/* <p className='font15 font-medium white fontf right'> <Link className='white' href="#">Terms of Use</Link>  | <Link className='white' href="#">Privacy Policy</Link></p> */}

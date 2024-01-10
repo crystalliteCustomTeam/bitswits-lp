@@ -272,19 +272,19 @@ const MetaData = () => {
                     <meta property="og:url" content="https://bitswits.co/" />
                     <meta property="og:site_name" content="Custom Web Development - BitsWits" />
                 </Head>
-            ) : PagePath === '/bussiness-intelligence-software-development' ? (
+            ) : PagePath === '/business-intelligence-software-development' ? (
                 <Head>
                     <meta name="robots" content="noindex" />
                     {/* Title & Description */}
-                    <title key="title">Top Bussiness Intelligence Software Development - BitsWits</title>
+                    <title key="title">Top Business Intelligence Software Development - BitsWits</title>
                     <meta name="description" content='BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications' key="metadesc" />
                     {/* OG Tags */}
-                    <meta property="og:title" content="Top Bussiness Intelligence Software Development - BitsWits" />
+                    <meta property="og:title" content="Top Business Intelligence Software Development - BitsWits" />
                     <meta property="og:description" content="BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications" />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:url" content="https://bitswits.co/" />
-                    <meta property="og:site_name" content="Top Bussiness Intelligence Software Development - BitsWits" />
+                    <meta property="og:site_name" content="Top Business Intelligence Software Development - BitsWits" />
                 </Head>
             ) : PagePath === '/ui-&-ux-design-and-development-services' ? (
                 <Head>

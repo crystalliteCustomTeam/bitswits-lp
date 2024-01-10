@@ -331,7 +331,7 @@ const HeaderNewDesign = () => {
                             >
                               <div className={styles.polo}>
                                 <h4>
-                                  Bussiness <br /> Intelligence{" "}
+                                  Business <br /> Intelligence{" "}
                                 </h4>
                                 <Image
                                   alt="bitswits"
@@ -821,8 +821,8 @@ const HeaderNewDesign = () => {
                               </div>
                               <ActiveLink
                                 handle={() => isToggleCloseMeg((prev) => !prev)}
-                                href="/bussiness-intelligence-software-development"
-                                text="Bussiness Intelligence Software Development"
+                                href="/business-intelligence-software-development"
+                                text="Business Intelligence Software Development"
                               />
                             </li>
                             <hr />

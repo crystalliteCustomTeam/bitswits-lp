@@ -196,7 +196,7 @@ const Footernewdesign = () => {
             <div class="row justify-content-center align-items-center text-center">
               <div class="col-md-12 col-lg-12 col-xl-12">
                 <p class="font-15 text-white mb-0">
-                  Copyright © 2023 BitsWits. All Rights Reserved.
+                  Copyright © 2024 BitsWits. All Rights Reserved.
                 </p>
               </div>
 
