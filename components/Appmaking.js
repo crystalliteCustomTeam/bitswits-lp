@@ -82,52 +82,52 @@ const Appmaking = () => {
                 <Container>
                     <Row className={`${styles.platform} gx-5 gy-3`}>
                         <Col xl={10}>
-                            <h2 class="white f-20 f-700 center">TECHNOLOGIES</h2>
-                            <h3 class="white f-40 f-700 center">Best App Making Technologies</h3>
-                            <p class="white font16 f-400 center mb-5">BitsWits turns inventive ideas into groundbreaking mobile apps! Our award-winning app developers know hybrid and native technologies, so your project is in good hands. With us, your project will be a success from start to finish!</p>
+                            <h2 className="white f-20 f-700 center">TECHNOLOGIES</h2>
+                            <h3 className="white f-40 f-700 center">Best App Making Technologies</h3>
+                            <p className="white font16 f-400 center mb-5">BitsWits turns inventive ideas into groundbreaking mobile apps! Our award-winning app developers know hybrid and native technologies, so your project is in good hands. With us, your project will be a success from start to finish!</p>
                         </Col>
                         {isSliderActive ?
                             <Slider {...awardslogo} className={` ${styles.startup1}  startposition mt-4`}>
 
-                                <div class={styles.native} data-scroll data-scroll-speed="0.4">
-                                    <div class={styles.noroow}>
+                                <div className={styles.native} data-scroll data-scroll-speed="0.4">
+                                    <div className={styles.noroow}>
                                         <Image alt='BitsWits' src={logo1} className='img-fluid' />
                                         <Image alt='BitsWits' src={logo2} className='img-fluid' />
                                         <Image alt='BitsWits' src={logo3} className='img-fluid' />
                                         <Image alt='BitsWits' src={logo4} className='img-fluid' />
 
                                     </div>
-                                    <h3 class="white font24 f-700 mt-4 mb-4">Hybrid App Development</h3>
+                                    <h3 className="white font24 f-700 mt-4 mb-4">Hybrid App Development</h3>
 
                                     <Image alt='BitsWits' src={line2345} className='img-fluid' />
 
-                                    <ul class={styles.dev}>
-                                        <li class="white mt-3">Cross-platform Compatibility.</li>
-                                        <li class="white mt-3">Accelerated Development Cycle.</li>
-                                        <li class="white mt-3">Customizable UI/UX Design.</li>
-                                        <li class="white mt-3">Cost-Effective Single Codebase Solution.</li>
+                                    <ul className={styles.dev}>
+                                        <li className="white mt-3">Cross-platform Compatibility.</li>
+                                        <li className="white mt-3">Accelerated Development Cycle.</li>
+                                        <li className="white mt-3">Customizable UI/UX Design.</li>
+                                        <li className="white mt-3">Cost-Effective Single Codebase Solution.</li>
                                     </ul>
 
                                     <Link href='javascript:$zopim.livechat.window.show();' className={styles.live}>Start <br /> Live Chat</Link>
 
                                 </div>
 
-                                <div class={styles.native2} data-scroll data-scroll-speed="0.4">
-                                    <div class={`${styles.noroow2} ${styles.noroow1}`}>
+                                <div className={styles.native2} data-scroll data-scroll-speed="0.4">
+                                    <div className={`${styles.noroow2} ${styles.noroow1}`}>
                                         <Image alt='BitsWits' src={logo5} className='img-fluid' />
                                         <Image alt='BitsWits' src={logo6} className='img-fluid' />
 
 
                                     </div>
-                                    <h3 class="white font24 f-700 mt-4 mb-4">Native App Development</h3>
+                                    <h3 className="white font24 f-700 mt-4 mb-4">Native App Development</h3>
 
                                     <Image alt='BitsWits' src={line2345} className='img-fluid' />
 
-                                    <ul class={styles.dev}>
-                                        <li class="white mt-3">High Performance Platform-Optimization.</li>
-                                        <li class="white mt-3">Access To Device Features & Integration.</li>
-                                        <li class="white mt-3">Customized UI/UX Application Design.</li>
-                                        <li class="white mt-3 mb-5">Robust & Adaptable Mobile Application.</li>
+                                    <ul className={styles.dev}>
+                                        <li className="white mt-3">High Performance Platform-Optimization.</li>
+                                        <li className="white mt-3">Access To Device Features & Integration.</li>
+                                        <li className="white mt-3">Customized UI/UX Application Design.</li>
+                                        <li className="white mt-3 mb-5">Robust & Adaptable Mobile Application.</li>
                                     </ul>
                                     <div>
                                         <Link href='tel:+18335006007' className={styles.live1}>Call Now: 111-2222-333</Link>
@@ -138,23 +138,23 @@ const Appmaking = () => {
                             :
                             <>
                                 <Col xl={5}>
-                                    <div class={styles.native} data-scroll data-scroll-speed="0.4">
-                                        <div class={styles.noroow}>
+                                    <div className={styles.native} data-scroll data-scroll-speed="0.4">
+                                        <div className={styles.noroow}>
                                             <Image alt='BitsWits' src={logo1} className='img-fluid' />
                                             <Image alt='BitsWits' src={logo2} className='img-fluid' />
                                             <Image alt='BitsWits' src={logo3} className='img-fluid' />
                                             <Image alt='BitsWits' src={logo4} className='img-fluid' />
 
                                         </div>
-                                        <h3 class="white font24 f-700 mt-4 mb-4">Hybrid App Development</h3>
+                                        <h3 className="white font24 f-700 mt-4 mb-4">Hybrid App Development</h3>
 
                                         <Image alt='BitsWits' src={line2345} className='img-fluid' />
 
-                                        <ul class={styles.dev}>
-                                            <li class="white mt-3">Cross-platform Compatibility.</li>
-                                            <li class="white mt-3">Accelerated Development Cycle.</li>
-                                            <li class="white mt-3">Customizable UI/UX Design.</li>
-                                            <li class="white mt-3">Cost-Effective Single Codebase Solution.</li>
+                                        <ul className={styles.dev}>
+                                            <li className="white mt-3">Cross-platform Compatibility.</li>
+                                            <li className="white mt-3">Accelerated Development Cycle.</li>
+                                            <li className="white mt-3">Customizable UI/UX Design.</li>
+                                            <li className="white mt-3">Cost-Effective Single Codebase Solution.</li>
                                         </ul>
 
                                         <Link href='javascript:$zopim.livechat.window.show();' className={styles.live}>Start <br /> Live Chat</Link>
@@ -162,22 +162,22 @@ const Appmaking = () => {
                                     </div>
                                 </Col>
                                 <Col xl={5}>
-                                    <div class={styles.native2} data-scroll data-scroll-speed="0.4">
-                                        <div class={`${styles.noroow2} ${styles.noroow1}`}>
+                                    <div className={styles.native2} data-scroll data-scroll-speed="0.4">
+                                        <div className={`${styles.noroow2} ${styles.noroow1}`}>
                                             <Image alt='BitsWits' src={logo5} className='img-fluid' />
                                             <Image alt='BitsWits' src={logo6} className='img-fluid' />
 
 
                                         </div>
-                                        <h3 class="white font24 f-700 mt-4 mb-4">Native App Development</h3>
+                                        <h3 className="white font24 f-700 mt-4 mb-4">Native App Development</h3>
 
                                         <Image alt='BitsWits' src={line2345} className='img-fluid' />
 
-                                        <ul class={styles.dev}>
-                                            <li class="white mt-3">High Performance Platform-Optimization.</li>
-                                            <li class="white mt-3">Access To Device Features & Integration.</li>
-                                            <li class="white mt-3">Customized UI/UX Application Design.</li>
-                                            <li class="white mt-3 mb-5">Robust & Adaptable Mobile Application.</li>
+                                        <ul className={styles.dev}>
+                                            <li className="white mt-3">High Performance Platform-Optimization.</li>
+                                            <li className="white mt-3">Access To Device Features & Integration.</li>
+                                            <li className="white mt-3">Customized UI/UX Application Design.</li>
+                                            <li className="white mt-3 mb-5">Robust & Adaptable Mobile Application.</li>
                                         </ul>
                                         <div>
                                             <Link href='tel:+18335006007' className={styles.live1}>Call Now: 111-2222-333</Link>
@@ -191,7 +191,7 @@ const Appmaking = () => {
                     </Row>
 
                 </Container>
-                <div class={styles.post}></div>
+                <div className={styles.post}></div>
             </section>
         </>
     )

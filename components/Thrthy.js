@@ -96,14 +96,14 @@ export default function Thrthy() {
 
     return (
         <>
-            <section class={styles.hook} id='third'>
-                <div class="container">
-                    <div class="row justify-content-center align-items-center mb-4">
-                        <div class="col-lg-10  col-xl-10 text-center mt-5">
+            <section className={styles.hook} id='third'>
+                <div className="container">
+                    <div className="row justify-content-center align-items-center mb-4">
+                        <div className="col-lg-10  col-xl-10 text-center mt-5">
 
-                            <h2 class="f-50 f-700 white" data-scroll data-scroll-speed="0.1">Third Party Ecommerce App <br></br>  CRM for Mobile
+                            <h2 className="f-50 f-700 white" data-scroll data-scroll-speed="0.1">Third Party Ecommerce App <br></br>  CRM for Mobile
                             </h2>
-                            <p class="text-white" data-scroll data-scroll-speed="0.2">Our team is the embodiment of excellence when it comes to API integration and custom programming, solidifying our reputation as an industry leader. We're proud of what we can achieve with these core competencies! So, Don't Navigate the Intricacies of Optimization Alone! - Let us be your trusted IT partner for all your needs!</p>
+                            <p className="text-white" data-scroll data-scroll-speed="0.2">Our team is the embodiment of excellence when it comes to API integration and custom programming, solidifying our reputation as an industry leader. We're proud of what we can achieve with these core competencies! So, Don't Navigate the Intricacies of Optimization Alone! - Let us be your trusted IT partner for all your needs!</p>
 
                         </div>
 
@@ -113,129 +113,129 @@ export default function Thrthy() {
                             ?
                             <Slider {...awardslogo} >
 
-                                <div class="col-lg-1 m-2">
-                                    <Image src={banImg1} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="col-lg-1 m-2">
+                                    <Image src={banImg1} width="79" height="78" className="" alt="BitsWits " />
                                 </div>
-                                <div class="col-lg-1  m-2">
-                                    <Image src={banImg2} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="col-lg-1  m-2">
+                                    <Image src={banImg2} width="79" height="78" className="" alt="BitsWits " />
                                 </div>
-                                <div class="col-lg-1  m-2">
-                                    <Image src={banImg3} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="col-lg-1  m-2">
+                                    <Image src={banImg3} width="79" height="78" className="" alt="BitsWits " />
                                 </div>
-                                <div class="col-lg-1  m-2">
-                                    <Image src={banImg4} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="col-lg-1  m-2">
+                                    <Image src={banImg4} width="79" height="78" className="" alt="BitsWits " />
                                 </div>
-                                <div class="col-lg-1  m-2">
-                                    <Image src={banImg5} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="col-lg-1  m-2">
+                                    <Image src={banImg5} width="79" height="78" className="" alt="BitsWits " />
                                 </div>
-                                <div class="col-lg-1  m-2">
-                                    <Image src={banImg6} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="col-lg-1  m-2">
+                                    <Image src={banImg6} width="79" height="78" className="" alt="BitsWits " />
                                 </div>
-                                <div class="col-lg-1  m-2">
-                                    <Image src={banImg7} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="col-lg-1  m-2">
+                                    <Image src={banImg7} width="79" height="78" className="" alt="BitsWits " />
                                 </div>
-                                <div class="col-lg-1  m-2">
-                                    <Image src={banImg8} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="col-lg-1  m-2">
+                                    <Image src={banImg8} width="79" height="78" className="" alt="BitsWits " />
                                 </div>
-                                <div class="col-lg-1  m-2">
-                                    <Image src={banImg9} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="col-lg-1  m-2">
+                                    <Image src={banImg9} width="79" height="78" className="" alt="BitsWits " />
                                 </div>
 
-                                <div class="col-lg-1 m-2">
-                                    <Image src={banImg10} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="col-lg-1 m-2">
+                                    <Image src={banImg10} width="79" height="78" className="" alt="BitsWits " />
                                 </div>
-                                <div class="col-lg-1  m-2">
-                                    <Image src={banImg11} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="col-lg-1  m-2">
+                                    <Image src={banImg11} width="79" height="78" className="" alt="BitsWits " />
                                 </div>
-                                <div class="col-lg-1  m-2">
-                                    <Image src={banImg12} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="col-lg-1  m-2">
+                                    <Image src={banImg12} width="79" height="78" className="" alt="BitsWits " />
                                 </div>
-                                <div class="col-lg-1  m-2">
-                                    <Image src={banImg13} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="col-lg-1  m-2">
+                                    <Image src={banImg13} width="79" height="78" className="" alt="BitsWits " />
                                 </div>
-                                <div class="col-lg-1  m-2">
-                                    <Image src={banImg14} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="col-lg-1  m-2">
+                                    <Image src={banImg14} width="79" height="78" className="" alt="BitsWits " />
                                 </div>
-                                <div class="col-lg-1  m-2">
-                                    <Image src={banImg15} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="col-lg-1  m-2">
+                                    <Image src={banImg15} width="79" height="78" className="" alt="BitsWits " />
                                 </div>
-                                <div class="col-lg-1  m-2">
-                                    <Image src={banImg16} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="col-lg-1  m-2">
+                                    <Image src={banImg16} width="79" height="78" className="" alt="BitsWits " />
                                 </div>
-                                <div class="col-lg-1  m-2">
-                                    <Image src={banImg17} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="col-lg-1  m-2">
+                                    <Image src={banImg17} width="79" height="78" className="" alt="BitsWits " />
                                 </div>
-                                <div class="col-lg-1  m-2">
-                                    <Image src={banImg18} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="col-lg-1  m-2">
+                                    <Image src={banImg18} width="79" height="78" className="" alt="BitsWits " />
                                 </div>
 
                             </Slider>
                             :
 
                             <>
-                                <div class="row thirdPartySlider justify-content-center align-items-center" data-scroll data-scroll-speed="0.1">
-                                    <div class="col-lg-1 m-2">
-                                        <Image src={banImg1} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="row thirdPartySlider justify-content-center align-items-center" data-scroll data-scroll-speed="0.1">
+                                    <div className="col-lg-1 m-2">
+                                        <Image src={banImg1} width="79" height="78" className="" alt="BitsWits " />
                                     </div>
-                                    <div class="col-lg-1  m-2">
-                                        <Image src={banImg2} width="79" height="78" class="" alt="BitsWits " />
+                                    <div className="col-lg-1  m-2">
+                                        <Image src={banImg2} width="79" height="78" className="" alt="BitsWits " />
                                     </div>
-                                    <div class="col-lg-1  m-2">
-                                        <Image src={banImg3} width="79" height="78" class="" alt="BitsWits " />
+                                    <div className="col-lg-1  m-2">
+                                        <Image src={banImg3} width="79" height="78" className="" alt="BitsWits " />
                                     </div>
-                                    <div class="col-lg-1  m-2">
-                                        <Image src={banImg4} width="79" height="78" class="" alt="BitsWits " />
+                                    <div className="col-lg-1  m-2">
+                                        <Image src={banImg4} width="79" height="78" className="" alt="BitsWits " />
                                     </div>
-                                    <div class="col-lg-1  m-2">
-                                        <Image src={banImg5} width="79" height="78" class="" alt="BitsWits " />
+                                    <div className="col-lg-1  m-2">
+                                        <Image src={banImg5} width="79" height="78" className="" alt="BitsWits " />
                                     </div>
-                                    <div class="col-lg-1  m-2">
-                                        <Image src={banImg6} width="79" height="78" class="" alt="BitsWits " />
+                                    <div className="col-lg-1  m-2">
+                                        <Image src={banImg6} width="79" height="78" className="" alt="BitsWits " />
                                     </div>
-                                    <div class="col-lg-1  m-2">
-                                        <Image src={banImg7} width="79" height="78" class="" alt="BitsWits " />
+                                    <div className="col-lg-1  m-2">
+                                        <Image src={banImg7} width="79" height="78" className="" alt="BitsWits " />
                                     </div>
-                                    <div class="col-lg-1  m-2">
-                                        <Image src={banImg8} width="79" height="78" class="" alt="BitsWits " />
+                                    <div className="col-lg-1  m-2">
+                                        <Image src={banImg8} width="79" height="78" className="" alt="BitsWits " />
                                     </div>
-                                    <div class="col-lg-1  m-2">
-                                        <Image src={banImg9} width="79" height="78" class="" alt="BitsWits " />
+                                    <div className="col-lg-1  m-2">
+                                        <Image src={banImg9} width="79" height="78" className="" alt="BitsWits " />
                                     </div>
                                 </div>
-                                <div class="row thirdPartySlider justify-content-center align-items-center" data-scroll data-scroll-speed="0.1">
-                                    <div class="col-lg-1 m-2">
-                                        <Image src={banImg10} width="79" height="78" class="" alt="BitsWits " />
+                                <div className="row thirdPartySlider justify-content-center align-items-center" data-scroll data-scroll-speed="0.1">
+                                    <div className="col-lg-1 m-2">
+                                        <Image src={banImg10} width="79" height="78" className="" alt="BitsWits " />
                                     </div>
-                                    <div class="col-lg-1  m-2">
-                                        <Image src={banImg11} width="79" height="78" class="" alt="BitsWits " />
+                                    <div className="col-lg-1  m-2">
+                                        <Image src={banImg11} width="79" height="78" className="" alt="BitsWits " />
                                     </div>
-                                    <div class="col-lg-1  m-2">
-                                        <Image src={banImg12} width="79" height="78" class="" alt="BitsWits " />
+                                    <div className="col-lg-1  m-2">
+                                        <Image src={banImg12} width="79" height="78" className="" alt="BitsWits " />
                                     </div>
-                                    <div class="col-lg-1  m-2">
-                                        <Image src={banImg13} width="79" height="78" class="" alt="BitsWits " />
+                                    <div className="col-lg-1  m-2">
+                                        <Image src={banImg13} width="79" height="78" className="" alt="BitsWits " />
                                     </div>
-                                    <div class="col-lg-1  m-2">
-                                        <Image src={banImg14} width="79" height="78" class="" alt="BitsWits " />
+                                    <div className="col-lg-1  m-2">
+                                        <Image src={banImg14} width="79" height="78" className="" alt="BitsWits " />
                                     </div>
-                                    <div class="col-lg-1  m-2">
-                                        <Image src={banImg15} width="79" height="78" class="" alt="BitsWits " />
+                                    <div className="col-lg-1  m-2">
+                                        <Image src={banImg15} width="79" height="78" className="" alt="BitsWits " />
                                     </div>
-                                    <div class="col-lg-1  m-2">
-                                        <Image src={banImg16} width="79" height="78" class="" alt="BitsWits " />
+                                    <div className="col-lg-1  m-2">
+                                        <Image src={banImg16} width="79" height="78" className="" alt="BitsWits " />
                                     </div>
-                                    <div class="col-lg-1  m-2">
-                                        <Image src={banImg17} width="79" height="78" class="" alt="BitsWits " />
+                                    <div className="col-lg-1  m-2">
+                                        <Image src={banImg17} width="79" height="78" className="" alt="BitsWits " />
                                     </div>
-                                    <div class="col-lg-1  m-2">
-                                        <Image src={banImg18} width="79" height="78" class="" alt="BitsWits " />
+                                    <div className="col-lg-1  m-2">
+                                        <Image src={banImg18} width="79" height="78" className="" alt="BitsWits " />
                                     </div>
                                 </div>
                             </>
                         }
 
-                        <div class={styles.jis}>
-                            <Link href="javascript:$zopim.livechat.window.show();" class="btn discussbtn"> Let's Discuss</Link>
+                        <div className={styles.jis}>
+                            <Link href="javascript:$zopim.livechat.window.show();" className="btn discussbtn"> Let's Discuss</Link>
                         </div>
                     </div>
                 </div>

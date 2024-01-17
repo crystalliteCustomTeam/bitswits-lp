@@ -26,10 +26,10 @@ export default function Testimonailslider() {
 
     return (
         <>
-            <section class={styles.hook} id='testihook'>
+            <section className={styles.hook} id='testihook'>
                 <div className={styles.first}></div>
                 <Container>
-                    <Row class={styles.posting}>
+                    <Row className={styles.posting}>
                         <Col xl={12}>
                             <h3 className='f-50 f-700 black center'>Testimonials</h3>
                             <p className='black font16 f-500 center'>Rave Reviews from Our  Valued Clients </p>

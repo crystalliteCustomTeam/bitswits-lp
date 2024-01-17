@@ -108,10 +108,10 @@ const NewHomeBanner = () => {
                         <Col xl={12}>
                             <p className={`${styles.just} ${styles.just2} text-center f30 font-regular mb-2 mb-lg-0`}>
 
-                                <span>America's Leading <Link class="text-white" href="#">Digital Marketing Company</Link></span>
+                                <span>America's Leading <Link className="text-white" href="#">Digital Marketing Company</Link></span>
 
                             </p>
-                            <Link class="text-white" href="#">
+                            <Link className="text-white" href="#">
                                 <h3 className={`${styles.develop} text-center f-45 font-bold mt-3 mb-4`}>
                                     Ready. Steady and BitsWits With Our Class-apart Digital Marketing Services!
                                 </h3>
@@ -124,7 +124,7 @@ const NewHomeBanner = () => {
                                 <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" id="phone" name="phone" placeholder="(000) 000-0000" required />
                                 <input type="email" placeholder="Type Your Email" id="email" name="email" required />
                                 <input type="url" placeholder="Type Your Website" id="message" name="website" required />
-                                <button type="submit" name="saves1" id="butact1" class="primary-btn">{score}</button>
+                                <button type="submit" name="saves1" id="butact1" className="primary-btn">{score}</button>
                             </form>
 
                         </Col>

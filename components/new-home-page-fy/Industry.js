@@ -94,7 +94,7 @@ const Industry = (props) => {
                 <Container>
                     <Row>
                         <Col xl={12}>
-                            <h2 class="fontpink100 font-bold newfycolr text-center">Industry We Serve</h2>
+                            <h2 className="fontpink100 font-bold newfycolr text-center">Industry We Serve</h2>
                             <p className='text-center industyfont text-white mt-4'>No matter what your niche is, we will help build mobile apps for your business. Choose our <br /> best application development company for building apps in any business vertical.</p>
                             <p className={`${styles.reveal} text-white mt-4 mt-md-5 font25 fw700 mb-3`}> <span className='newfycolr fw600'>Select Your Industry.</span> Discover Our Impact.</p>
                         </Col>

@@ -8,27 +8,27 @@ import badgelogo from '../public/images/startaproject/till.png'
 const Startaproject = () => {
     return (
         <>
-            <section class={styles.still}>
-                <div class={` ${styles.gulop}  container `}>
-                    <div class="border-r-30 bg-s1 p-5 marginmr">
-                        <div class="row">
-                            <div class="col-lg-6 col-xl-6 ">
-                                <div class="card-body bg-s1">
-                                    <h3 class=" font-regular">Start a Project?</h3>
-                                    <h4 class="font-26 text-white font-bold">Looking For Expert Guidance On
+            <section className={styles.still}>
+                <div className={` ${styles.gulop}  container `}>
+                    <div className="border-r-30 bg-s1 p-5 marginmr">
+                        <div className="row">
+                            <div className="col-lg-6 col-xl-6 ">
+                                <div className="card-body bg-s1">
+                                    <h3 className=" font-regular">Start a Project?</h3>
+                                    <h4 className="font-26 text-white font-bold">Looking For Expert Guidance On
                                         Your Mobile App Development 
                                         Project?</h4>
 
-                                   <div class={styles.home}>
-                                   <a href="tel:18335006007" class={styles.number}>Call Now: (833) 500-6007</a>
-                                    <a href="javascript:$zopim.livechat.window.show();" class={styles.live}>Start Iive
+                                   <div className={styles.home}>
+                                   <a href="tel:18335006007" className={styles.number}>Call Now: (833) 500-6007</a>
+                                    <a href="javascript:$zopim.livechat.window.show();" className={styles.live}>Start Iive
                                         Chat</a>
                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-xl-6 ">
-                                <div class={styles.start}>
-                                    <Image src={badgelogo} width="554" height="358" class={styles.startproject} alt="BitsWits" />
+                            <div className="col-lg-6 col-xl-6 ">
+                                <div className={styles.start}>
+                                    <Image src={badgelogo} width="554" height="358" className={styles.startproject} alt="BitsWits" />
                                 </div>
                             </div>
                         </div>

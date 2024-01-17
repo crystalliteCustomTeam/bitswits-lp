@@ -132,11 +132,11 @@ const Formnewlpnewhome = () => {
                         </Col>
 
                     </Row>
-                    <div class={styles.ipsun}>
+                    <div className={styles.ipsun}>
                         <Image src={badgelogo} alt='BitsWits' className='img-fluid' />
                     </div>
-                    <div class={styles.appli}>
-                        <p class="mb-0">No#1 Top Application Development Company</p>
+                    <div className={styles.appli}>
+                        <p className="mb-0">No#1 Top Application Development Company</p>
                     </div>
                 </Container>
             </section>

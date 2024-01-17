@@ -83,10 +83,10 @@ const MySwiperComponent = () => {
         <Container>
           <Row>
             <Col xl={12}>
-              <h3 class="black f-20 f-700 center mb-4">
+              <h3 className="black f-20 f-700 center mb-4">
                 SOME OF THE GLIMPSES OF OUR RECENT CONQUESTS!
               </h3>
-              <h2 class="black f-40 f-700 center mb-5">
+              <h2 className="black f-40 f-700 center mb-5">
                 We Love Transfoming Product ideas into <br></br> Digital Reality{" "}
               </h2>
             </Col>
@@ -102,7 +102,7 @@ const MySwiperComponent = () => {
           >
             {slides &&
               slides.map((testimonial, index) => (
-                <swiper-slide class='newfold newtown' key={index}>
+                <swiper-slide className='newfold newtown' key={index}>
                   <div>
                     <div className="w-[90%] m-auto py-10">
                       <div className="card">

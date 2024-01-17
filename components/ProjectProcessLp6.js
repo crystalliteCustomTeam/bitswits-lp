@@ -19,7 +19,7 @@ const ProjectProcessLp6 = (props) => {
 
               <div
                 dangerouslySetInnerHTML={{
-                  __html: `<p class='white font16 f-400 center'>
+                  __html: `<p className='white font16 f-400 center'>
                 ${props.desc}
               </p>`,
                 }}

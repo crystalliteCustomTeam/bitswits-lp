@@ -11,16 +11,16 @@ export default function Everyone() {
 
     return (
         <>
-            <section class={styles.hook}>
+            <section className={styles.hook}>
                 <Container>
                     <Row className='justify-content-center'>
                         <Col xl={10}>
                             <div className={styles.dev}>
                                 <div className={styles.eve}>
-                                    <h2 class="f-30  f-600 white">Mobile Application Development Company <br></br>
+                                    <h2 className="f-30  f-600 white">Mobile Application Development Company <br></br>
                                         <span className='fw800'>For Everyone Out There</span> </h2>
                                     <p>BitsWits provides mobile app development service in the USA for every industry with innovation and efficiency. We create customized mobile solutions for various industries, from e-commerce to the healthcare or gaming industry. Our skilled app developers are determined to come up with mobile apps that meet the unique needs of every client and their business.</p>
-                                    <Link class={styles.btnpost} href='javascript:$zopim.livechat.window.show();'>Let's Discuss</Link>
+                                    <Link className={styles.btnpost} href='javascript:$zopim.livechat.window.show();'>Let's Discuss</Link>
 
                                 </div>
                                 <div className={styles.post}>
