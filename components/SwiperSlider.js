@@ -38,7 +38,7 @@ const SwiperSlider = () => {
       pagination: {
         clickable: true,
         renderBullet: function (index, className) {
-          return '<span className="' + className + '">' + (index + 1) + "</span>";
+          return '<span class="' + className + '">' + (index + 1) + "</span>";
         },
       },
       paginationType: "progressbar",
