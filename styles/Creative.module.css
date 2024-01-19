@@ -95,6 +95,14 @@
 }
 
 @media screen and (max-width: 480px) {
+.toge h2{
+  color: white;
+}
+  .posting {
+    top: 0px;
+    padding-top: 100px;
+}
+
   .flip img {
     position: unset;
     display: none;
