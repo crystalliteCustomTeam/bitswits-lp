@@ -17,11 +17,11 @@ const ProjectProcessLp6 = (props) => {
               </h3>
               <h2 className="white newchoose f-700 center">{props.title}</h2>
 
-              <div
+              <p className='white font16 f-400 center'
                 dangerouslySetInnerHTML={{
                   __html: `<p class='white font16 f-400 center'>
                 ${props.desc}
-              </p>`,
+              `,
                 }}
               />
               <Image src={banImg1} alt="BitsWits" className="img-fluid mt-4 mt-lg-5" />
