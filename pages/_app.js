@@ -163,10 +163,12 @@ export default function App({ Component, pageProps }) {
               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
               j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-T2JSP4C');
-              ;
+              })(window,document,'script','dataLayer','GTM-TFH5JWNF');
             `}
           </Script>
+
+          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFH5JWNF"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           <Zendesk defer zendeskKey={ZENDESK_KEY} onLoaded={handleLoaded} />
 
