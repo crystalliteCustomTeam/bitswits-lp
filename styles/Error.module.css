@@ -1,6 +1,7 @@
 .error{
-    padding-top: 230px;
-    padding-bottom: 90px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .btn404{
@@ -20,13 +21,7 @@
     color: #fff;
 }
 
-@media (max-width:991px)  {
-    .error{
-        padding-top: 90px;
-        padding-bottom: 90px;
-    }
 
-}
 
 
 @media (max-width:480px)  {
