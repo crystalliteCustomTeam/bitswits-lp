@@ -128,6 +128,22 @@ export default function App({ Component, pageProps }) {
     "universe_domain": "googleapis.com"
 }
 
+
+
+// this code is for 301 redirection
+
+// useEffect(() => {
+
+  
+//   if(window.location.href == 'http://localhost:3000/mobile-app-design-company' ){
+//     router.push('/top-mobile-app-development-company');
+//   }
+//   else if (window.location.href == 'http://localhost:3000/wearable-app-development-company' ){
+//     router.push('/flutter-mobile-development');
+//   }
+// });
+
+
   return (
     <>
       <Head>
