@@ -888,7 +888,7 @@ const MetaData = () => {
                     <meta property="og:url" content="https://bitswits.co/" />
                     <meta property="og:site_name" content="Hire A Professional Android App Developers" />
                 </Head>
-            ) : PagePath === '/5-mistakes-to-avoid-when-hiring-a-top-mobile-app-development-company' ? (
+            ) : PagePath === '/blog/5-mistakes-to-avoid-when-hiring-a-top-mobile-app-development-company' ? (
                 <Head>
                     <title>5 Mistakes to Avoid When Hiring a Top Mobile App Development Company</title>
                     <meta name="DC.title" content="mobile app development company, best mobile app development company, top mobile app development company," />
@@ -902,7 +902,7 @@ const MetaData = () => {
                     />
 
                 </Head>
-            ) : PagePath === '/5-must-have-development-skills-for-a-mobile-app-developer' ? (
+            ) : PagePath === '/blog/5-must-have-development-skills-for-a-mobile-app-developer' ? (
                 <Head>
                     <title>5 Must-Have Development Skills For a Mobile App Developer</title>
                     <meta name="DC.title" content="mobile app developers, mobile app developer, top mobile app developers," />
@@ -917,7 +917,7 @@ const MetaData = () => {
                     />
 
                 </Head>
-            ) : PagePath === '/a-comprehensive-guide-on-how-to-choose-the-right-mobile-app-development-company' ? (
+            ) : PagePath === '/blog/a-comprehensive-guide-on-how-to-choose-the-right-mobile-app-development-company' ? (
                 <Head>
                     <title>A Comprehensive Guide on How to Choose the Right Mobile App Development Company</title>
                     <meta name="DC.title" content="mobile app development company, best mobile app development company, top mobile app development company," />
@@ -933,7 +933,7 @@ const MetaData = () => {
                     />
 
                 </Head>
-            ) : PagePath === '/7-factors-affecting-mobile-app-development-cost' ? (
+            ) : PagePath === '/blog/7-factors-affecting-mobile-app-development-cost' ? (
                 <Head>
                     <title>7 Factors Affecting Mobile App Development Cost</title>
                   <meta name="DC.title" content="mobile app development company, best mobile app development company, top mobile app development company," />
