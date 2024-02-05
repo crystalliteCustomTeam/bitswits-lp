@@ -8,6 +8,110 @@ const MetaData = () => {
     const router = useRouter();
     const PagePath = router.asPath;
 
+
+    const schemacon = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bitswits.co/5-mistakes-to-avoid-when-hiring-mobile-app-development-company/"
+        },
+        "headline": "5 Mistakes to Avoid When Hiring a Top Mobile App Development Company",
+        "description": "mobile app development company, top mobile app development company, best mobile app development company, professional mobile app development company, reliable mobile app development company, trusted mobile app development company, mobile app development,",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "BitsWits",
+          "url": "https://www.bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "mobile app development company, top mobile app development company, best mobile app development company, professional mobile app development company, reliable mobile app development company, trusted mobile app development company, mobile app development,",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": ""
+      }
+      const schemacon1 = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bitswits.co/5-must-have-skills-for-mobile-app-developers/"
+        },
+        "headline": "5 Must-Have Development Skills For Mobile App Developers",
+        "description": "mobile app developer, top mobile app developer, best mobile app developers, professional mobile app developers, mobile app developer",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "BitsWits",
+          "url": "https://www.bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "mobile app developer, top mobile app developer, best mobile app developers, professional mobile app developers, mobile app developer",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": ""
+      }
+      const schemacon2 = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://bitswits.co/a-guide-to-choosing-the-right-mobile-app-development-company/"
+        },
+        "headline": "Mobile App Development Company",
+        "description": "mobile app development company, best mobile app development company, top mobile app development company, leading mobile app development company, trusted mobile app development company, professional mobile app development company",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "mobile app development company, best mobile app development company, top mobile app development company, leading mobile app development company, trusted mobile app development company, professional mobile app development company",
+          "url": "https://bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "mobile app development company, best mobile app development company, top mobile app development company, leading mobile app development company, trusted mobile app development company, professional mobile app development company",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": "2023-08-17",
+        "dateModified": "2023-08-17"
+      }
+      const schemacon3 = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bitswits.co/7-factors-affecting-mobile-app-development-cost/"
+        },
+        "headline": "7 Factors Affecting Mobile App Development Cost By A Top Mobile App Development Company",
+        "description": "mobile app development company, top mobile app development company, best mobile app development company, professional mobile app development company, reliable mobile app development company, trusted mobile app development company, mobile app development,",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "BitsWits",
+          "url": "https://www.bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "mobile app development company, top mobile app development company, best mobile app development company, professional mobile app development company, reliable mobile app development company, trusted mobile app development company, mobile app development,",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": ""
+      }
+
+      
     return (
         <>
             {PagePath === '/' ? (
@@ -783,6 +887,64 @@ const MetaData = () => {
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:url" content="https://bitswits.co/" />
                     <meta property="og:site_name" content="Hire A Professional Android App Developers" />
+                </Head>
+            ) : PagePath === '/5-mistakes-to-avoid-when-hiring-a-top-mobile-app-development-company' ? (
+                <Head>
+                    <meta name="DC.title" content="mobile app development company, best mobile app development company, top mobile app development company," />
+                    <meta name="geo.region" content="US" />
+                    <meta name="geo.position" content="39.78373;-100.445882" />
+                    <meta name="ICBM" content="39.78373, -100.445882" />
+
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemacon) }}
+                    />
+
+                </Head>
+            ) : PagePath === '/5-must-have-development-skills-for-a-mobile-app-developer' ? (
+                <Head>
+                    <meta name="DC.title" content="mobile app developers, mobile app developer, top mobile app developers," />
+                    <meta name="geo.region" content="US" />
+                    <meta name="geo.position" content="39.78373;-100.445882" />
+                    <meta name="ICBM" content="39.78373, -100.445882" />
+
+
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemacon1) }}
+                    />
+
+                </Head>
+            ) : PagePath === '/a-comprehensive-guide-on-how-to-choose-the-right-mobile-app-development-company' ? (
+                <Head>
+                    <meta name="DC.title" content="mobile app development company, best mobile app development company, top mobile app development company," />
+                    <meta name="geo.region" content="US" />
+                    <meta name="geo.position" content="39.78373;-100.445882" />
+                    <meta name="ICBM" content="39.78373, -100.445882" />
+
+
+
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemacon2) }}
+                    />
+
+                </Head>
+            ) : PagePath === '/7-factors-affecting-mobile-app-development-cost' ? (
+                <Head>
+                  <meta name="DC.title" content="mobile app development company, best mobile app development company, top mobile app development company," />
+                  <meta name="geo.region" content="US" />
+                  <meta name="geo.position" content="39.78373;-100.445882" />
+                  <meta name="ICBM" content="39.78373, -100.445882" />
+
+
+
+
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemacon3) }}
+                    />
+
                 </Head>
             )
                 : null
