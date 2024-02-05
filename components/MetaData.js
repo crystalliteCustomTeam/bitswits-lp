@@ -890,6 +890,7 @@ const MetaData = () => {
                 </Head>
             ) : PagePath === '/5-mistakes-to-avoid-when-hiring-a-top-mobile-app-development-company' ? (
                 <Head>
+                    <title>5 Mistakes to Avoid When Hiring a Top Mobile App Development Company</title>
                     <meta name="DC.title" content="mobile app development company, best mobile app development company, top mobile app development company," />
                     <meta name="geo.region" content="US" />
                     <meta name="geo.position" content="39.78373;-100.445882" />
@@ -903,6 +904,7 @@ const MetaData = () => {
                 </Head>
             ) : PagePath === '/5-must-have-development-skills-for-a-mobile-app-developer' ? (
                 <Head>
+                    <title>5 Must-Have Development Skills For a Mobile App Developer</title>
                     <meta name="DC.title" content="mobile app developers, mobile app developer, top mobile app developers," />
                     <meta name="geo.region" content="US" />
                     <meta name="geo.position" content="39.78373;-100.445882" />
@@ -917,6 +919,7 @@ const MetaData = () => {
                 </Head>
             ) : PagePath === '/a-comprehensive-guide-on-how-to-choose-the-right-mobile-app-development-company' ? (
                 <Head>
+                    <title>A Comprehensive Guide on How to Choose the Right Mobile App Development Company</title>
                     <meta name="DC.title" content="mobile app development company, best mobile app development company, top mobile app development company," />
                     <meta name="geo.region" content="US" />
                     <meta name="geo.position" content="39.78373;-100.445882" />
@@ -932,6 +935,7 @@ const MetaData = () => {
                 </Head>
             ) : PagePath === '/7-factors-affecting-mobile-app-development-cost' ? (
                 <Head>
+                    <title>7 Factors Affecting Mobile App Development Cost</title>
                   <meta name="DC.title" content="mobile app development company, best mobile app development company, top mobile app development company," />
                   <meta name="geo.region" content="US" />
                   <meta name="geo.position" content="39.78373;-100.445882" />
