@@ -86,7 +86,7 @@ export default function Post({ postData, featuredImageUrl }) {
                                     </h6>
                                 </div>
                                 <div className="mt-4">
-                                    <Image quality={75} src={featuredImageUrl} alt="BitsWits" width={736} height={450} />
+                                    <Image quality={75} src={featuredImageUrl} alt="BitsWits" className="img-fluid" width={736} height={450} />
                                 </div>
                                 <div className={`${styles.contentBody} mt-4`}
                                     dangerouslySetInnerHTML={{ __html: postData.content }}>

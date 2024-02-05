@@ -4062,6 +4062,13 @@ button {
   }
 }
 
+.wp-image-86 {
+  width: unset!important;
+  height: unset!important;
+  margin: 0 auto;
+  display: block;
+}
+
 /* =================Media Queries=================== */
 
 @media screen and (max-width: 1440px) {
