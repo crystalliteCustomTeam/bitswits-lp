@@ -890,7 +890,8 @@ const MetaData = () => {
                 </Head>
             ) : PagePath === '/blog/5-mistakes-to-avoid-when-hiring-a-top-mobile-app-development-company' ? (
                 <Head>
-                    <title>5 Mistakes to Avoid When Hiring a Top Mobile App Development Company</title>
+                    <title>Mistakes To Avoid When Hiring a Mobile App Development Company</title>
+                    <meta name="description" content='If you are looking for a mobile app development company, read about the 5 common mistakes businesses make when they hire a development company to create an app.' key="metadesc" />
                     <meta name="DC.title" content="mobile app development company, best mobile app development company, top mobile app development company," />
                     <meta name="geo.region" content="US" />
                     <meta name="geo.position" content="39.78373;-100.445882" />
@@ -904,7 +905,8 @@ const MetaData = () => {
                 </Head>
             ) : PagePath === '/blog/5-must-have-development-skills-for-a-mobile-app-developer' ? (
                 <Head>
-                    <title>5 Must-Have Development Skills For a Mobile App Developer</title>
+                    <title>5 Must-Have Skills for a Mobile App Developer</title>
+                    <meta name="description" content='Mobile app developers should possess certain skills that make them stand out from the rest. Here are 5 must-have skills that an app developer needs to consider.' key="metadesc" />
                     <meta name="DC.title" content="mobile app developers, mobile app developer, top mobile app developers," />
                     <meta name="geo.region" content="US" />
                     <meta name="geo.position" content="39.78373;-100.445882" />
@@ -919,7 +921,8 @@ const MetaData = () => {
                 </Head>
             ) : PagePath === '/blog/a-comprehensive-guide-on-how-to-choose-the-right-mobile-app-development-company' ? (
                 <Head>
-                    <title>A Comprehensive Guide on How to Choose the Right Mobile App Development Company</title>
+                    <title>A Guide to Choosing The Right Mobile App Development Company</title>
+                    <meta name="description" content='What to Consider in a Mobile App Development Company? Read and find out what you need to know about choosing the right mobile app company for your business.' key="metadesc" />
                     <meta name="DC.title" content="mobile app development company, best mobile app development company, top mobile app development company," />
                     <meta name="geo.region" content="US" />
                     <meta name="geo.position" content="39.78373;-100.445882" />
@@ -936,6 +939,7 @@ const MetaData = () => {
             ) : PagePath === '/blog/7-factors-affecting-mobile-app-development-cost' ? (
                 <Head>
                     <title>7 Factors Affecting Mobile App Development Cost</title>
+                    <meta name="description" content='There are numerous factors impacting the development cost of your mobile app. We have listed 7 factors that affect the cost of app development for your business. Read more!' key="metadesc" />
                   <meta name="DC.title" content="mobile app development company, best mobile app development company, top mobile app development company," />
                   <meta name="geo.region" content="US" />
                   <meta name="geo.position" content="39.78373;-100.445882" />
