@@ -98,7 +98,7 @@ export default function App({ Component, pageProps }) {
     router.pathname == "/mobile-app-development-services" ||
     router.pathname == "/create-a-mobile-app";
   // =======================================
-  const newlps = router.pathname == "/mobile-app-development-company-lp2";
+  const newlps = router.pathname == "/mobile-app-development-company-lp2" || router.pathname == "/mobile-app-development-company-dubai";
   // =======================================
   const newhomepage = router.pathname == "/top-mobile-app-developers";
   // =======================================
