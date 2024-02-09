@@ -65,7 +65,10 @@
   text-align: center;
   margin-bottom: 0;
 }
-
+.work{
+  position: relative;
+    right: 60px;
+}
 @media screen and (max-width: 1400px) {
   .transform {
     background-image: url(../public/newHomePage/images/bg-image.png);
@@ -118,6 +121,11 @@
 }
 
 @media screen and (max-width: 991px) {
+
+  .work{
+    position: relative;
+      right: unset;
+  }
   .transform {
     padding-top: 0px;
     padding-bottom: 80px;

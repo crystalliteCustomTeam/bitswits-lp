@@ -211,7 +211,10 @@ padding-bottom: 75px;
   }
 
   .mobile {
-    background-color: #ffffff;
+    background-color: #161515;
     opacity: 1;
+  }
+  .mobile p{
+    color: white;
   }
 }

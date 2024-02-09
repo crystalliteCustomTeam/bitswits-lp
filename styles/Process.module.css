@@ -80,7 +80,19 @@
   right: 8%;
   top: 45%;
 }
+@media screen and (min-width: 1400px) { 
 
+  .solved::before {
+    position: absolute;
+    content: '';
+    background-color: white;
+    width: 7px;
+    height: 7px;
+    border-radius: 50px;
+    left: 12%;
+    top: 45%;
+}
+ }
 @media screen and (max-width: 991px) { 
 
   .solved::before{

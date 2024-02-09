@@ -39,7 +39,7 @@ To Grow With Us</h3>
               </Link>
               </div>
             </Col>
-            <Col lg={6}>
+            <Col lg={6} className={styles.work}>
 
              <Image className="img-fluid" src={ship} />
 
