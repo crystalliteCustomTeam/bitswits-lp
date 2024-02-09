@@ -151,6 +151,11 @@
 }
 
 @media screen and (max-width: 1200px) { 
+
+  .faqs::after {
+  display: none;
+  }
+
 .mostimg img{
   display: none;
 }
