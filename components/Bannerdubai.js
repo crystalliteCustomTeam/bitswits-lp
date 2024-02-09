@@ -139,6 +139,8 @@ Consultation</h3>
                                 <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name='phone' required className='form-control mt-2' placeholder="Phone Number"></input>
                                 <input type='email' name='email' required className='form-control mt-2' placeholder="Email Address"></input>
                                 <textarea placeholder='Description' name='comment' className='form-control mt-2'></textarea>
+                                <input type="checkbox" className={styles.vehicle1} name="vehicle1" value="Bike" />
+                                <label for="vehicle1">Share Non Disclosure Agreement</label><br/>
                                 <input type='submit' value={score} name='submit' className={styles.value} placeholder="Submit"></input>
 
                             </form>

@@ -408,6 +408,22 @@
   backdrop-filter: blur(123px);
   padding-left: 0px;
 }
+.your .vehicle1  {
+  height: unset!important;
+  border: unset!important;
+  background-color: unset!important;
+  border-radius: unset!important;
+  color: white;
+  backdrop-filter: unset!important;
+  padding-right:unset!important;
+  margin-top: 6%!important;
+
+}
+.your label{
+  padding-left: 8px;
+  color: white;
+  font-size: 14px;
+}
 .your input::placeholder {
   color: #D1D1D1;
   font-size: 12px;

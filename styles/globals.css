@@ -909,7 +909,12 @@ a {
   outline: 0;
   box-shadow: unset;
 }
-
+.class1 .newfoldpost{
+ border-bottom: unset!important;
+}
+.class2 .newfoldpost{
+  border-bottom: unset!important;
+}
 /* =========================== */
 
 .faqsLp .accordion-button {

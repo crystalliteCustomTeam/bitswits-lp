@@ -11,7 +11,7 @@ const Bannerdubai = React.lazy(() => import("@/components/Bannerdubai"));
 const HomeLocation = React.lazy(() => import("@/components/HomeLocation"));
 const People = React.lazy(() => import("@/components/People"));
 const HomeBannerSliderlp = React.lazy(() => import("@/components/HomeBannerSliderlp"));
-const LpForm = React.lazy(() => import("@/components/LpFormprops"));
+const LpForm = React.lazy(() => import("@/components/LpFormpropsdubai"));
 const Nothing = React.lazy(() => import("@/components/Nothing"));
 const Expertappdubai = React.lazy(() => import("@/components/Expertappdubai"));
 const Technologieslp = React.lazy(() => import("@/components/Technologieslp"));
@@ -20,6 +20,16 @@ const Globallplp6 = React.lazy(() => import("@/components/Globallplp6"));
 const Formnewlpdubai = React.lazy(() => import("@/components/Formnewlpdubai"));
 const ServicesFaqsdubai = React.lazy(() => import("@/components/ServicesFaqsdubai"));
 const Tale  = React.lazy(() => import("@/components/Tale"));
+const Technologieslpdubai  = React.lazy(() => import("@/components/Technologieslpdubai"));
+const LpChoosedubai  = React.lazy(() => import("@/components/LpChoosedubai"));
+const LpChoosedubaitower  = React.lazy(() => import("@/components/LpChoosedubaitower"));
+const LpChoosedubaiship  = React.lazy(() => import("@/components/LpChoosedubaiship"));
+const Nextproject2dubai  = React.lazy(() => import("@/components/Nextproject2dubai"));
+const Succes  = React.lazy(() => import("@/components/Succes"));
+const Experiance  = React.lazy(() => import("@/components/Experiance"));
+const Transformative  = React.lazy(() => import("@/components/Transformative"));
+const ServicesFaqsdubaimobile  = React.lazy(() => import("@/components/ServicesFaqsdubaimobile"));
+const Process  = React.lazy(() => import("@/components/Process"));
 
 
 //Images
@@ -31,6 +41,8 @@ const iphoneappdesigning = await import("../public/newHomePage/images/mobileimag
 const hybridiphone = await import("../public/newHomePage/images/mobileimages/newMaintain6.png");
 const appSeven = await import("../public/newHomePage/images/mobileimages/newMaintain7.png");
 const appEight = await import("../public/newHomePage/images/mobileimages/newMaintain8.png");
+
+const appEight1 = await import("../public/dubailp/faqs/andriod.png");
 
 
 export default function gamedevelopmentcompany() {
@@ -181,13 +193,102 @@ export default function gamedevelopmentcompany() {
         heading={`Bitswits transforms Dubai's mobile app development with high-end innovation. Redefining conventional processes, we leverage data-driven expertise for business success. We aim to bring ingenious mobile applications to Dubai's thriving market, igniting disruption for a transformative development journey.`}
       />
         <Nothing Nothing="nothingLphomefy" />
+
+
+        <ServicesFaqsdubaimobile
+
+faqsData={[
+  {
+    question:"Android App Development In Dubai",
+    ques2:"Bitswits' Android mobile app development in Duba",
+    answer: (
+      <> 
+     Bitswits' Android mobile app development in Dubai is a result-centric process, bringing intuitive and experience-driven Android applications to life. As a prominent mobile app development company in Dubai, we aim to live up to our name and work to ensure that we remain at the top of the list of mobile app development companies in Dubai. Leveraging Android, an open-source platform, and combining it with the skills and expertise of our Android app development team in Dubai, we tap into the very core of Android apps and build revolutionary functionalities, features, and experiences that yield amazing results and help businesses achieve their objectives. Our mobile app development company in Dubai knows that the industry is becoming increasingly complex and competitive, with an application being published to the Google Play Store every now and then. Therefore, Bitswits' app developers in Dubai take the strategic route to develop best-in-class mobile applications that make an impact on the market.
+      </>
+    ),
+    imggodd:appEight1,
+    hiteclass:"class1",
+  },
+  {
+    question: "How much time is required to build a mobile application?",
+    ques2:"Develop an iPhone Application ",
+    answer: (
+      <> 
+       It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+      </>
+    ),
+    imggodd:appEight1,
+    hiteclass:"class2",
+  },
+  {
+    question:
+      "How much does it cost to create an app in Dubai?",
+      ques2:"Develop Your Flutter Mobile Application ",
+    answer: (
+      <> 
+       It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+      </>
+    ),
+    imggodd:appEight1,
+    hiteclass:"class3",
+  },
+  {
+    question:
+      "What is a mobile app support service, and does Bitswits offer it?",
+      ques2:"Develop Your PWA Application ",
+    answer: (
+      <> 
+      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+      </>
+    ),
+    imggodd:appEight1,
+    hiteclass:"class4",
+  },
+ 
+]}
+
+/>
+
+
+<Process
+ tale= "tale"
+/>
+
         <Tale
         tale= "tale"
         />
 
-        <Expertappdubai expertapp="expertapp" />
+
+
+        <Technologieslpdubai />
+
+   
+       
+        <LpChoosedubai
+        transform="transformlp"
+        />
       
-    
+       
+        <Nextproject2dubai
+        />
+       <Succes
+        tale= "tale"
+        />
+       <Experiance
+        tale= "tale"
+        />
+      <LpChoosedubaitower
+        transform="transformlp"
+        />
+ <Transformative
+        tale= "tale"
+        />
+
+<LpChoosedubaiship
+        transform="transformlp"
+        />
+
+             <Expertappdubai expertapp="expertapp" />
       <Technologieslp />
       <Justbuilditlp
         title={
@@ -205,6 +306,7 @@ export default function gamedevelopmentcompany() {
         slide="slide1lp"
       />
       <Globallplp6 />
+      
      
       <Formnewlpdubai />
       <ServicesFaqsdubai

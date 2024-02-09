@@ -4,12 +4,12 @@ import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/Expertappdubai.module.css";
 //images
-import banImg1 from '../public/images/expert/1.png'
-import banImg2 from '../public/images/expert/2.png'
-import banImg3 from '../public/images/expert/3.png'
-import banImg4 from '../public/images/expert/4.png'
-import banImg5 from '../public/images/expert/5.png'
-import banImg6 from '../public/images/expert/6.png'
+import banImg1 from '../public/dubailp/services/1.png'
+import banImg2 from '../public/dubailp/services/2.png'
+import banImg3 from '../public/dubailp/services/3.png'
+import banImg4 from '../public/dubailp/services/4.png'
+import banImg5 from '../public/dubailp/services/5.png'
+import banImg6 from '../public/dubailp/services/6.png'
 //
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
