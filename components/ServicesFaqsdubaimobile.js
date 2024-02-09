@@ -41,8 +41,8 @@ const ServicesFaqsdubaimobile = (props) => {
                     <Row>
                         <Col lg={12}>
                             {props.faqsData.map((faq, index) => (
-                                <div key={index} className={`${faqStates[index] ? "touchFaq" : ""} mb-4 mb-lg-0`}>
-                                    <div className={isClassAdded && faq.hiteclass }>
+                                <div key={index} className={`${faqStates[index] ? "touchFaq activefapost" : ""} mb-4 mb-lg-0`}>
+                                    <div>
                                     <div onClick={() => toggleFaq(index)} className={ `${styles.heading} newfoldpost p-3`}>
                                         <h3>
                                             {faq.question} {faqStates[index] ? <Image quality={75} src={open} className="img-fluid" alt="Bitswits" /> : <Image quality={75} src={close} className="img-fluid" alt="Bitswits" />}
@@ -53,7 +53,7 @@ const ServicesFaqsdubaimobile = (props) => {
                                     <div className={faqStates[index] ? `d-block ${styles.mostimg}` : "d-none"}>
                                         <div>
                                         <p>{faq.answer}</p>
-                                        <Link href="#">Develop An Android Mobile Application</Link>
+                                        <Link href="javascript:$zopim.livechat.window.show();">Develop An Android Mobile Application</Link>
                                         </div>
                                         <Image className="img-fluid" src={faq.imggodd} />
                                     </div>

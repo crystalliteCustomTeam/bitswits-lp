@@ -6,6 +6,11 @@ import styles from '@/styles/Technologieslpdubai.module.css'
 import Link from 'next/link'
 //
 import icon1 from '../public/dubailp/technology/1.png'
+import icon2 from '../public/dubailp/technology/2.png'
+import icon3 from '../public/dubailp/technology/3.png'
+import icon4 from '../public/dubailp/technology/4.png'
+import icon5 from '../public/dubailp/technology/5.png'
+import icon6 from '../public/dubailp/technology/6.png'
 // import icon2 from '../public/dubailp/technology/2.png'
 // import icon3 from '../public/dubailp/technology/3.png'
 // import icon4 from '../public/dubailp/technology/4.png'
@@ -98,7 +103,7 @@ const Technologieslpdubai = () => {
                                         <h3 className={styles.stook}>Mobile App Development</h3>
                                         <p>Build and scale your business with Bitswits mobile app developer in Dubai that offer remarkable iOS app development and Android app development
 in Dubai.</p>
-<Link className={styles.buld} href="#">Talk To Our Experts</Link>
+<Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                     </Col>
                                     <Col lg={5}>
 <Image className='img-fluid' src={icon1} />
@@ -120,13 +125,12 @@ in Dubai.</p>
 
 <Row className={`gy-5 ${styles.colpont}`}>
                                     <Col lg={6}>
-                                        <h3 className={styles.stook}>Mobile App Development</h3>
-                                        <p>Build and scale your business with Bitswits mobile app developer in Dubai that offer remarkable iOS app development and Android app development
-in Dubai.</p>
-<Link className={styles.buld} href="#">Talk To Our Experts</Link>
+                                        <h3 className={styles.stook}>Native App Development</h3>
+                                        <p>Develop platform-specific mobile applications and make an impact on the market while gradually capturing market share.</p>
+<Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                     </Col>
                                     <Col lg={5}>
-<Image className='img-fluid' src={icon1} />
+<Image className='img-fluid' src={icon2} />
                                     </Col>
                                  </Row>
 
@@ -142,13 +146,13 @@ in Dubai.</p>
 
 <Row className={`gy-5 ${styles.colpont}`}>
                                     <Col lg={6}>
-                                        <h3 className={styles.stook}>Mobile App Development</h3>
-                                        <p>Build and scale your business with Bitswits mobile app developer in Dubai that offer remarkable iOS app development and Android app development
-in Dubai.</p>
-<Link className={styles.buld} href="#">Talk To Our Experts</Link>
+                                        <h3 className={styles.stook}>
+                                        Hybrid App Development</h3>
+                                        <p>Get Hybrid or cross-platform app development with TekRevol’s app developers in UAE to build and deploy apps on multiple platforms – ensuring uniformity and a high-end user-experience.</p>
+<Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                     </Col>
                                     <Col lg={5}>
-<Image className='img-fluid' src={icon1} />
+<Image className='img-fluid' src={icon3} />
                                     </Col>
                                  </Row>
 
@@ -166,13 +170,12 @@ in Dubai.</p>
 
 <Row className={`gy-5 ${styles.colpont}`}>
                                     <Col lg={6}>
-                                        <h3 className={styles.stook}>Mobile App Development</h3>
-                                        <p>Build and scale your business with Bitswits mobile app developer in Dubai that offer remarkable iOS app development and Android app development
-in Dubai.</p>
-<Link className={styles.buld} href="#">Talk To Our Experts</Link>
+                                        <h3 className={styles.stook}>Product Strategy Development</h3>
+                                        <p>Strategic insights from TekRevol's expert app development consultant ensure the success of your product long before it hits the market.</p>
+<Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                     </Col>
                                     <Col lg={5}>
-<Image className='img-fluid' src={icon1} />
+<Image className='img-fluid' src={icon4} />
                                     </Col>
                                  </Row>
 
@@ -188,13 +191,12 @@ in Dubai.</p>
 
 <Row className={`gy-5 ${styles.colpont}`}>
                                     <Col lg={6}>
-                                        <h3 className={styles.stook}>Mobile App Development</h3>
-                                        <p>Build and scale your business with Bitswits mobile app developer in Dubai that offer remarkable iOS app development and Android app development
-in Dubai.</p>
-<Link className={styles.buld} href="#">Talk To Our Experts</Link>
+                                        <h3 className={styles.stook}>E-Commerce App Development</h3>
+                                        <p>Get an impeccable design iterated and refined by our marketing experts, along with unprecedented functionality that generates more sales and conversions with our e-commerce apps.</p>
+<Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                     </Col>
                                     <Col lg={5}>
-<Image className='img-fluid' src={icon1} />
+<Image className='img-fluid' src={icon5} />
                                     </Col>
                                  </Row>
 
@@ -209,13 +211,12 @@ in Dubai.</p>
 
 <Row className={`gy-5 ${styles.colpont}`}>
                                     <Col lg={6}>
-                                        <h3 className={styles.stook}>Mobile App Development</h3>
-                                        <p>Build and scale your business with Bitswits mobile app developer in Dubai that offer remarkable iOS app development and Android app development
-in Dubai.</p>
-<Link className={styles.buld} href="#">Talk To Our Experts</Link>
+                                        <h3 className={styles.stook}>B2B App Development</h3>
+                                        <p>Always business is always human to human (H2H); TekRevol's business apps are meant to streamline an organization's internal processes, i.e., communication, interactions, and more.</p>
+<Link className={styles.buld} href="javascript:$zopim.livechat.window.show();">Talk To Our Experts</Link>
                                     </Col>
                                     <Col lg={5}>
-<Image className='img-fluid' src={icon1} />
+<Image className='img-fluid' src={icon6} />
                                     </Col>
                                  </Row>
 

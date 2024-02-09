@@ -87,14 +87,14 @@ padding-bottom: 75px;
 }
 
 .mobile:hover {
-  background-color: white;
+
   color: black;
   transition: 1s ease;
   transform: scale(1.1);
   cursor: pointer;
 }
 .mobile:hover p,.mobile:hover h3 {
-  color: black;
+  color: white;
 }
 
 .newfol img{

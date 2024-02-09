@@ -94,7 +94,7 @@ App Development Company</h2>
                             <div className={styles.dumpost}>
                                 <h4>Bliss Travel</h4>
                                 <p>Equitrip is a digital platform for horse owners, horse transportation companies, and other...</p>
-                                <Link href="#">View Full Casestudy <Image className="img-fluid" src={arrow} /> </Link>
+                                <Link href="/travel-app-development-case-study">View Full Casestudy <Image className="img-fluid" src={arrow} /> </Link>
                             </div>
                     </div>
                     </Col>
@@ -104,9 +104,9 @@ App Development Company</h2>
                             <Image className="img-fluid" src={scr5} /> 
                             </div>
                             <div className={styles.dumpost1}>
-                                <h4 >Soul Sound</h4>
-                                <p>Soul Sound, the world's most distinguished music and audio platform, allows people to explore...</p>
-                                <Link href="#">View Full Casestudy <Image className="img-fluid" src={arrow2} /> </Link>
+                                <h4 >Music App</h4>
+                                <p>Music App, the world's most distinguished music and audio platform, allows people to explore...</p>
+                                <Link href="/music-app-development-case-study">View Full Casestudy <Image className="img-fluid" src={arrow2} /> </Link>
                             </div>
                     </div>
                         </Col>
@@ -118,7 +118,7 @@ App Development Company</h2>
                             <div className={styles.dumpost}>
                                 <h4>Find Food</h4>
                                 <p>The increasing inclination towards technology has changed almost every facet of life...Succes</p>
-                                <Link href="#">View Full Casestudy <Image className="img-fluid" src={arrow} /> </Link>
+                                <Link href="/food-delivery-app-development-case-study">View Full Casestudy <Image className="img-fluid" src={arrow} /> </Link>
                             </div>
                     </div>
                         </Col>
@@ -146,8 +146,8 @@ App Development Company</h2>
                             <Image className="img-fluid" src={scr5} /> 
                             </div>
                             <div className={styles.dumpost1}>
-                                <h4 >Soul Sound</h4>
-                                <p>Soul Sound, the world's most distinguished music and audio platform, allows people to explore...</p>
+                                <h4 >Music App</h4>
+                                <p>Music App, the world's most distinguished music and audio platform, allows people to explore...</p>
                                 <Link href="#">View Full Casestudy <Image className="img-fluid" src={arrow2} /> </Link>
                             </div>
                     </div>

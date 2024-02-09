@@ -43,6 +43,10 @@ const appSeven = await import("../public/newHomePage/images/mobileimages/newMain
 const appEight = await import("../public/newHomePage/images/mobileimages/newMaintain8.png");
 
 const appEight1 = await import("../public/dubailp/faqs/andriod.png");
+const appEight2 = await import("../public/dubailp/faqs/2.png");
+const appEight3 = await import("../public/dubailp/faqs/3.png");
+const appEight4 = await import("../public/dubailp/faqs/4.png");
+
 
 
 export default function gamedevelopmentcompany() {
@@ -210,38 +214,38 @@ faqsData={[
     hiteclass:"class1",
   },
   {
-    question: "How much time is required to build a mobile application?",
+    question: "Iphone App Development In Dubai",
     ques2:"Develop an iPhone Application ",
     answer: (
       <> 
        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
       </>
     ),
-    imggodd:appEight1,
+    imggodd:appEight2,
     hiteclass:"class2",
   },
   {
     question:
-      "How much does it cost to create an app in Dubai?",
+      "Flutter App Development In Dubai",
       ques2:"Develop Your Flutter Mobile Application ",
     answer: (
       <> 
        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
       </>
     ),
-    imggodd:appEight1,
+    imggodd:appEight3,
     hiteclass:"class3",
   },
   {
     question:
-      "What is a mobile app support service, and does Bitswits offer it?",
+      "PWA App Development In Dubai",
       ques2:"Develop Your PWA Application ",
     answer: (
       <> 
       It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
       </>
     ),
-    imggodd:appEight1,
+    imggodd:appEight4,
     hiteclass:"class4",
   },
  

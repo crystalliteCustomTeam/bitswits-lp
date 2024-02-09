@@ -70,7 +70,7 @@ const Nextproject2dubai = () => {
                         <Col lg={8}>
                             <h2 className='fontf font-bold white font55'>Awards & Recognitions </h2>
                             <p className='font16 font-normal white'>Our dedication and hardwork has consistently garnered acknowledgment by different platforms. We are proud to have received numerous awards and accolades, highlighting our expertise in creating innovative and top-notch android apps.</p>
-                            <Link className={styles.project} href="#">Check Reviews</Link>
+                            <Link className={styles.project} href="#newtown">Check Reviews</Link>
                         </Col>
                         <Col lg={3}>
                            <Image className={`img-fluid ${styles.newfing}`} src={number} />

@@ -112,7 +112,7 @@ export default function Nothing(props) {
 
   return (
     <>
-      <section className={styles[props.Nothing]}>
+      <section className={styles[props.Nothing]} id="newtown">
         <Container className="newfoldlp">
           <Row className="  align-items-center">
             <Col lg={12}>

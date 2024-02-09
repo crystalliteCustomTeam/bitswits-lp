@@ -909,11 +909,13 @@ a {
   outline: 0;
   box-shadow: unset;
 }
-.class1 .newfoldpost{
+.activefapost .newfoldpost{
  border-bottom: unset!important;
+ border-bottom-left-radius: unset!important;
+ border-bottom-right-radius: unset!important;
 }
-.class2 .newfoldpost{
-  border-bottom: unset!important;
+.activefapost .newfoldpost p{
+  display: none;
 }
 /* =========================== */
 
@@ -1111,6 +1113,14 @@ a {
 
 .newproject .slick-dots li.slick-active button:before {
   background-color: #4a78ef;
+}
+.activefapost{
+  position: relative;
+}
+.activefapost .d-block img{
+  position: absolute;
+  top: -38px;
+  right: 80px;
 }
 
 /* ======================================== */
@@ -3131,6 +3141,9 @@ input::-webkit-inner-spin-button {
 
 @media screen and (max-width: 480px) {
 
+
+
+
   .reviewsSidebar{
     width: 100%;
   }
@@ -4074,6 +4087,10 @@ button {
   display: block;
 }
 
+.activefapost .newfoldpost{
+  background-color: unset;
+}
+
 /* =================Media Queries=================== */
 
 @media screen and (max-width: 1440px) {
@@ -4100,6 +4117,13 @@ button {
 }
 
 @media screen and (max-width: 991px) {
+
+  .activefapost .newfoldpost{
+    border: unset!important;
+  }
+  .activefapost .d-block{
+    border: unset!important;
+  }
   .cntctRow {
     row-gap: 90px;
   }

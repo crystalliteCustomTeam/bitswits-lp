@@ -1,8 +1,21 @@
+.faqs::after {
+  position: absolute;
+  content: '';
+  width: 90%;
+  height: 100%;
+  background-image: url(/_next/static/media/bg-image.7e56972e.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  bottom: -200px;
+  right: 0;
+}
+
 .faqs {
 
   background-color: black;
   padding-top: 80px;
   padding-bottom: 80px;
+  position: relative;
 }
 
 .plus {
@@ -95,9 +108,7 @@
   
 }
 
-.faqs a:hover {
-  color: var(--p-color);
-}
+
 .mostimg{
   display: flex!important;
   gap: 40px;
@@ -107,7 +118,7 @@
   width: 15%!important;
 }
 .mostimg p{
-  max-width: 850px;
+  max-width: 750px;
 }
 .mostimg a{
   width: fit-content;
@@ -122,11 +133,45 @@
   padding-left: 50px;
   padding-right: 50px;
   font-size: 14px;
+  margin-bottom: 100px;
 }
 
 /* =================Media Queries=================== */
+@media screen and (min-width: 1400px) {
 
+  .mostimg p {
+    max-width: 890px;
+}
+
+  .mostimg a{
+
+    margin-bottom: 150px;
+  }
+  
+}
+
+@media screen and (max-width: 1200px) { 
+.mostimg img{
+  display: none;
+}
+.mostimg a{
+
+  margin-bottom: auto;
+}
+}
 @media screen and (max-width: 991px) {
+
+  .mostimg a {
+
+    font-size: 13px;
+}
+
+  .mostimg {
+    display: unset!important;
+    gap: 40px;
+    justify-content: space-between;
+}
+
   .faqs {
     padding: 0 0 80px;
   }
@@ -147,6 +192,17 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .faqs h3 {
+    font-size: 20px;
+}
+
+  .comfort h2 {
+    text-align: left!important;
+    margin-bottom: 0%;
+    margin-top: 5%;
+}
+
   .comfort h2 {
     text-align: center;
     margin-bottom: 0%;

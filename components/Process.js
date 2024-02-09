@@ -128,14 +128,35 @@ Though standardized, our mobile application process includes various stages or s
                                     <Col xl={12}>
                                         <div className={styles.solved}>04</div>
                                         <div className={styles.deter}>
-                                            <h3 className="white fw800">Design Phase</h3>
-                                            <p className="white">The design phase is the part where an initial design (Screens, UI/UX, Visuals, Aesthetics, Etc.) is created and sent to the concerned individual for approval. Meetings can also be scheduled to review the design of the mobile application.</p>
-                                            <p className="white mt-3 mb-3">Any suggestions, feedback, or recommendations are recorded during this process, and corrections are made before moving on to the next phase, which is development. Like any other app development phase, this phase also includes various stages, i.e.:</p>
+                                            <h3 className="white fw800">Development Phase</h3>
+                                            <p className="white mb-3">In the development phase, our app developers in Dubai create the functionality of the product. If the product is cross-platform, we start with developing your Android app first because Android apps are comparatively easier to build, test and deploy. Once the development of both your iOS and Android app ends, the apps are moved to the initial testing stage, where experienced app developers in Dubai test your applications for performance and functionality. The following are some aspects that go hand in hand with the development of your mobile app's development:</p>
+                                            
                                             <ul className={styles.newlong}>
-                                                <li> Designing Sketches</li>
-                                                <li> Wireframing</li>
-                                                <li>Design Mock-ups</li>
-                                                <li>  Prototyping & Designing</li>
+                                            <li>Custom Application Development</li>
+    <li>Integrating Latest Technologies</li>
+    <li>Ensuring Robustness Scalability</li>
+    <li>Completing Source Codes IP Rights</li>
+                                            </ul>
+                                           
+                                        </div>
+                                    </Col>
+                                  
+                                </Row>
+                            </div>
+
+                            <div className={styles.high}>
+                                <Row>
+                                    <Col xl={12}>
+                                        <div className={styles.solved}>05</div>
+                                        <div className={styles.deter}>
+                                            <h3 className="white fw800">Feedback & Iterations</h3>
+                                            <p className="white mb-3">The feedback and reiterations phase involves presenting the mobile application to the client to receive valuable feedback. The app is only presented once it is tested for functionality and performance, and since we're the pioneering app development company in Dubai, we ensure that the presented application hits the 70% approval mark while the rest is changed as per the client's direction.</p>
+                                            
+                                            <ul className={styles.newlong}>
+                                            <li>Custom Application Development</li>
+    <li>Integrating Latest Technologies</li>
+    <li>Ensuring Robustness Scalability</li>
+    <li>Completing Source Codes IP Rights</li>
                                             </ul>
                                            
                                         </div>
