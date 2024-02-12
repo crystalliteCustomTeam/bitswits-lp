@@ -110,8 +110,133 @@ const MetaData = () => {
         },
         "datePublished": ""
       }
+      const schematrands = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bitswits.co/7-trends-adopted-by-leading-mobile-app-development-companies/"
+        },
+        "headline": "7 Trends Adopted by Leading Mobile App Development Companies",
+        "description": "mobile app development companies, top mobile app development company, best mobile app development companies, professional mobile app development company, reliable mobile app development company, trusted mobile app development company, mobile app development",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "mobile app development companies, top mobile app development company, best mobile app development companies, professional mobile app development company, reliable mobile app development company, trusted mobile app development company, mobile app development",
+          "url": "https://www.bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "mobile app development companies, top mobile app development company, best mobile app development companies, professional mobile app development company, reliable mobile app development company, trusted mobile app development company, mobile app development",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": ""
+      }
+      const schematrands1 = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bitswits.co/choosing-the-right-technologies-for-top-mobile-app-development/"
+        },
+        "headline": "Choosing the Right Technologies for Mobile App Development",
+        "description": "mobile app development companies, top mobile app development company, best mobile app development companies, professional mobile app development company, reliable mobile app development company, trusted mobile app development company, mobile app development",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "mobile app development companies, top mobile app development company, best mobile app development companies, professional mobile app development company, reliable mobile app development company, trusted mobile app development company, mobile app development",
+          "url": "https://www.bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "mobile app development companies, top mobile app development company, best mobile app development companies, professional mobile app development company, reliable mobile app development company, trusted mobile app development company, mobile app development",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": ""
+      }
 
       
+      const schematrands2 = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bitswits.co/key-features-of-a-successful-mobile-app/"
+        },
+        "headline": "Key Features of a Mobile App: A Guide For Mobile App Development in 2024",
+        "description": "mobile app development, top mobile app development company, best mobile app development companies, professional mobile app development, reliable mobile app development company, trusted mobile app development company, mobile app development",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "mobile app development, top mobile app development company, best mobile app development companies, professional mobile app development, reliable mobile app development company, trusted mobile app development company, mobile app development",
+          "url": "https://www.bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "mobile app development, top mobile app development company, best mobile app development companies, professional mobile app development, reliable mobile app development company, trusted mobile app development company, mobile app development",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": ""
+      }
+      const schematrands3 = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bitswits.co/role-of-artificial-intelligence-in-mobile-app-development/"
+        },
+        "headline": "The Role of Artificial Intelligence (AI) in Mobile App Development",
+        "description": "mobile app development, top mobile app development company, best mobile app development companies, professional mobile app development, reliable mobile app development company, trusted mobile app development company, mobile app development",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "mobile app development, top mobile app development company, best mobile app development companies, professional mobile app development, reliable mobile app development company, trusted mobile app development company, mobile app development",
+          "url": "https://www.bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "mobile app development, top mobile app development company, best mobile app development companies, professional mobile app development, reliable mobile app development company, trusted mobile app development company, mobile app development",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": ""
+      }
+      const schematrands4 = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bitswits.co/mobile-app-development-lifecycle/"
+        },
+        "headline": "What Does The Top Mobile App Development Lifecycle Look Like?",
+        "description": "mobile app development, top mobile app development company, best mobile app development companies, professional mobile app development, reliable mobile app development company, trusted mobile app development company, mobile app development",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "mobile app development, top mobile app development company, best mobile app development companies, professional mobile app development, reliable mobile app development company, trusted mobile app development company, mobile app development",
+          "url": "https://www.bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "mobile app development, top mobile app development company, best mobile app development companies, professional mobile app development, reliable mobile app development company, trusted mobile app development company, mobile app development",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": ""
+      }
     return (
         <>
             {PagePath === '/' ? (
@@ -951,6 +1076,84 @@ const MetaData = () => {
                     <script
                         type="application/ld+json"
                         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemacon3) }}
+                    />
+
+                </Head>
+            ) : PagePath === '/blog/7-trends-adopted-by-leading-mobile-app-development-companies' ? (
+                <Head>
+                    <title>7 Trends Adopted by Leading Mobile App Development Companies</title>
+                    <meta name="description" content='Stay informed and adapt to these mobile app development trends to provide innovative solutions to your users and remain competitive in the ever-changing mobile app development industry.' key="metadesc" />
+                    <meta name="DC.title" content="mobile app development, best mobile app development company, top mobile app development company," />
+                    <meta name="geo.region" content="US" />
+                    <meta name="geo.position" content="39.78373;-100.445882" />
+                    <meta name="ICBM" content="39.78373, -100.445882" />
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schematrands) }}
+                    />
+
+                </Head>
+            ) : PagePath === '/blog/choosing-the-right-technologies-for-mobile-app-development' ? (
+                <Head>
+                    <title>Choosing the Right Technologies for Mobile App Development</title>
+                    <meta name="description" content='Choosing the right technologies for mobile app development is important for the success of your project. Explore the most popular technologies to help you create a successful mobile app.' key="metadesc" />
+                    
+                    <meta name="DC.title" content="mobile app development, best mobile app development company, top mobile app development company," />
+                    <meta name="geo.region" content="US" />
+                    <meta name="geo.position" content="39.78373;-100.445882" />
+                    <meta name="ICBM" content="39.78373, -100.445882" />
+
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schematrands1) }}
+                    />
+
+                </Head>
+            ) : PagePath === '/blog/key-features-of-a-mobile-app-a-guide-for-mobile-app-development-in-2024' ? (
+                <Head>
+                    <title>Key Features of a Successful Mobile App: A Guide</title>
+                    <meta name="description" content="If you're planning to develop a mobile app in 2024, it's important to understand the key features that will make your app successful. Here are some of the things you should know about mobile app development." key="metadesc" />
+                    
+                    <meta name="DC.title" content="mobile app development, best mobile app development company, top mobile app development company," />
+                    <meta name="geo.region" content="US" />
+                    <meta name="geo.position" content="39.78373;-100.445882" />
+                    <meta name="ICBM" content="39.78373, -100.445882" />
+
+
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schematrands2) }}
+                    />
+
+                </Head>
+            ) : PagePath === '/blog/the-role-of-artificial-intelligence-ai-in-mobile-app-development' ? (
+                <Head>
+                    <title>The Role of Artificial Intelligence in Mobile App Development</title>
+                    <meta name="description" content="Artificial intelligence has become the new trend in the mobile app development industry. Here is the role that AI plays in building a successful mobile app." key="metadesc" />
+                    <meta name="DC.title" content="mobile app development, best mobile app development company, top mobile app development company," />
+                    <meta name="geo.region" content="US" />
+                    <meta name="geo.position" content="39.78373;-100.445882" />
+                    <meta name="ICBM" content="39.78373, -100.445882" />
+
+
+
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schematrands3) }}
+                    />
+
+                </Head>
+            ) : PagePath === '/blog/what-does-the-top-mobile-app-development-lifecycle-look-like' ? (
+                <Head>
+                    <title>What Does The Top Mobile App Development Lifecycle Look Like?</title>
+                    <meta name="description" content="The mobile app development lifecycle is a process that involves various stages from idea conception to app deployment. Discover the best practices for successful mobile app development." key="metadesc" />
+                    <meta name="DC.title" content="mobile app development, best mobile app development company, top mobile app development company," />
+                    <meta name="geo.region" content="US" />
+                    <meta name="geo.position" content="39.78373;-100.445882" />
+                    <meta name="ICBM" content="39.78373, -100.445882" />
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schematrands4) }}
                     />
 
                 </Head>
