@@ -44,11 +44,15 @@
 .fold img{
   height: 450px;
   border-radius: 15px;
+  object-fit: cover;
+  object-position: center center;
 }
 .fold1 img{
   height: 350px;
   border-radius: 15px;
   height: 450px;
+  object-fit: cover;
+  object-position: center center;
   
 }
 .fold:hover, .fold1:hover{

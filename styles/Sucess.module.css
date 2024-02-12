@@ -75,8 +75,18 @@
   color: black;
   font-size: 17px;
 }
+@media screen and (min-width: 1400px) { 
 
+  .super p{
+    max-width:1150px;
+  }
+
+}
 @media screen and (max-width: 991px) {
+
+  .startup1 div{
+    margin: 2px;
+  }
 
   .tale{
     background-color: black;

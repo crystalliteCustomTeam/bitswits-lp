@@ -1118,9 +1118,10 @@ a {
   position: relative;
 }
 .activefapost .d-block img{
-  position: absolute;
-  top: -38px;
+  position: relative;
   right: 80px;
+  margin-top: -4%;
+  margin-bottom: 2%;
 }
 
 /* ======================================== */

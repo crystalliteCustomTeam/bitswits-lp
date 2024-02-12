@@ -97,6 +97,11 @@ background-repeat: no-repeat;
   .active:before {
     bottom: -112%;
   }
+  .york p{
+    padding-left: 70px;
+    padding-right: 70px;
+  
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -170,9 +175,15 @@ background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 480px) {
+
+  
   .analpost div {
     color: #707070;
     font-size: 11px;
     cursor: pointer;
   }
+  .work {
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
 }

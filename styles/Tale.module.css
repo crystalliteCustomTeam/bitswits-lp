@@ -31,9 +31,20 @@
   }
  }
 @media screen and (max-width: 767px) {
+
+
   .tale{
     background-color: black;
     padding-top: 0px;
     padding-bottom: 25px;
   }
+
+ }
+ @media screen and (max-width: 480px) {
+
+  .startup1 div{
+    margin: 1%;
+  }
+ 
+
  }

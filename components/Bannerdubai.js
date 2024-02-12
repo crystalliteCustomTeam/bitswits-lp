@@ -30,7 +30,18 @@ const Bannerdubai = (props) => {
 
     const [score, setScore] = useState('Submit');
 
-
+    const [checkboxes, setCheckboxes] = useState([]);
+    const handleOptionChange3 = (e) => {
+      const { value, checked } = e.target;
+  
+      if (checked) {
+        setCheckboxes([...checkboxes, value]);
+      } else {
+        setCheckboxes(checkboxes.filter((checkbox) => checkbox !== value));
+      }
+  
+      
+    };
     const router = useRouter();
     const currentRoute = router.pathname;
 
@@ -53,6 +64,7 @@ const Bannerdubai = (props) => {
             email: e.target.email.value,
             phone: e.target.phone.value,
             comment: e.target.comment.value,
+            checkboxesdata:checkboxes,
             pageUrl: pagenewurl,
             IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
             currentdate: currentdate,
@@ -64,7 +76,7 @@ const Bannerdubai = (props) => {
         console.log(JSONdata);
 
 
-        fetch('api/emailapi/route', {
+        fetch('api/emailapidubai/route', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
@@ -131,18 +143,15 @@ Company Dubai</h2>
                         </Col>
                         <Col xl={4}>
                         <form className={styles.your} onSubmit={handleSubmit}>
-                        
-                                <h3 className='f-60 mb-4 white fw700'>Book a Free <br></br>
-Consultation</h3>
+                                <h3 className='f-60 mb-4 white fw700'>Book a Free <br></br>Consultation</h3>
                                 <input type='text' minLength="4" name='first' required className='form-control' placeholder="First Name"></input>
                                 <input type='text' name='last' minLength="4" required className='form-control  mt-2' placeholder="Last Name"></input>
                                 <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name='phone' required className='form-control mt-2' placeholder="Phone Number"></input>
                                 <input type='email' name='email' required className='form-control mt-2' placeholder="Email Address"></input>
                                 <textarea placeholder='Description' name='comment' className='form-control mt-2'></textarea>
-                                <input type="checkbox" className={styles.vehicle1} name="vehicle1" value="Bike" />
-                                <label for="vehicle1">Share Non Disclosure Agreement</label><br/>
+                                <input className={styles.vehicle1} type='checkbox' name='vehicle1' checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
+                                <label className='form-check-label' htmlFor='flexCheckDefault'> Share Non Disclosure Agreement</label>
                                 <input type='submit' value={score} name='submit' className={styles.value} placeholder="Submit"></input>
-
                             </form>
                         </Col>
                     </Row>

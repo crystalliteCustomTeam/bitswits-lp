@@ -133,7 +133,7 @@
   padding-left: 50px;
   padding-right: 50px;
   font-size: 14px;
-  margin-bottom: 100px;
+ 
 }
 .comfort p{
   padding-right: 140px;
@@ -143,12 +143,10 @@
 
   .mostimg p {
     max-width: 890px;
+    font-size: 19px;
 }
 
-  .mostimg a{
 
-    margin-bottom: 150px;
-  }
   
 }
 
@@ -204,10 +202,19 @@
 
 @media screen and (max-width: 480px) {
 
-  .faqs h3 {
-    font-size: 20px;
+  
+  .mostimg a {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
 }
 
+  .faqs h3 {
+    font-size: 17px;
+}
+.faqs p{
+  text-align: left;
+}
   .comfort h2 {
     text-align: left!important;
     margin-bottom: 0%;
@@ -223,4 +230,7 @@
     margin-right: auto;
     margin-bottom: 5%;
   }
+  .faqs {
+    padding: 0 0 0px;
+}
 }
