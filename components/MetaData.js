@@ -1093,7 +1093,7 @@ const MetaData = () => {
                     />
 
                 </Head>
-            ) : PagePath === '/blog/choosing-the-right-technologies-for-mobile-app-development' ? (
+            ) : PagePath === '/blog/choosing-the-right-technologies-for-top-mobile-app-development' ? (
                 <Head>
                     <title>Choosing the Right Technologies for Mobile App Development</title>
                     <meta name="description" content='Choosing the right technologies for mobile app development is important for the success of your project. Explore the most popular technologies to help you create a successful mobile app.' key="metadesc" />
@@ -1109,7 +1109,7 @@ const MetaData = () => {
                     />
 
                 </Head>
-            ) : PagePath === '/blog/key-features-of-a-mobile-app-a-guide-for-mobile-app-development-in-2024' ? (
+            ) : PagePath === '/blog/key-features-of-a-successful-mobile-app' ? (
                 <Head>
                     <title>Key Features of a Successful Mobile App: A Guide</title>
                     <meta name="description" content="If you're planning to develop a mobile app in 2024, it's important to understand the key features that will make your app successful. Here are some of the things you should know about mobile app development." key="metadesc" />
@@ -1126,7 +1126,7 @@ const MetaData = () => {
                     />
 
                 </Head>
-            ) : PagePath === '/blog/the-role-of-artificial-intelligence-ai-in-mobile-app-development' ? (
+            ) : PagePath === '/blog/the-role-of-artificial-intelligence-in-mobile-app-development' ? (
                 <Head>
                     <title>The Role of Artificial Intelligence in Mobile App Development</title>
                     <meta name="description" content="Artificial intelligence has become the new trend in the mobile app development industry. Here is the role that AI plays in building a successful mobile app." key="metadesc" />
@@ -1143,7 +1143,7 @@ const MetaData = () => {
                     />
 
                 </Head>
-            ) : PagePath === '/blog/what-does-the-top-mobile-app-development-lifecycle-look-like' ? (
+            ) : PagePath === '/blog/mobile-app-development-lifecycle' ? (
                 <Head>
                     <title>What Does The Top Mobile App Development Lifecycle Look Like?</title>
                     <meta name="description" content="The mobile app development lifecycle is a process that involves various stages from idea conception to app deployment. Discover the best practices for successful mobile app development." key="metadesc" />

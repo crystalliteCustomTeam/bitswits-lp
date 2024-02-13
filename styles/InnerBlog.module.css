@@ -40,10 +40,7 @@
 .contentBody a:hover {
   color: #f32f5e;
 }
-.contentBody img {
-  width: 100%;
-  height: auto;
-}
+
 .contentBody p,
 .contentBody li {
   margin-bottom: 14px;
