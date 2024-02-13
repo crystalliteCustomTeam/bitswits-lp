@@ -9,8 +9,8 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { getPostSlugs, getSinglePost } from "@/lib/posts";
 import Date from "@/components/Date";
 //
-import arrow from '../../public/images/blogBanners/right-arrow.webp'
-import logo from '../../public/images/icons/favicon.png'
+import arrow from '/public/images/blogBanners/right-arrow.webp'
+import logo from '/public/images/icons/favicon.png'
 
 
 export async function getStaticProps({ params }) {

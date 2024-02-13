@@ -54,7 +54,7 @@ export default function BlogHome({ allPosts }) {
                                                 <Col md={7}>
                                                     <div className={styles.cardCntnt}>
                                                         <h4 className={`${styles.blogTitle} mb-0`}>
-                                                            <Link href={`/blog/${post.slug}`}>
+                                                            <Link href={`/${post.slug}`}>
                                                                 {post.title}
                                                             </Link>
                                                         </h4>
