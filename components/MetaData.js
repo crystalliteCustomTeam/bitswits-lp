@@ -1013,7 +1013,7 @@ const MetaData = () => {
                     <meta property="og:url" content="https://bitswits.co/" />
                     <meta property="og:site_name" content="Hire A Professional Android App Developers" />
                 </Head>
-            ) : PagePath === '/blog/5-mistakes-to-avoid-when-hiring-a-top-mobile-app-development-company' ? (
+            ) : PagePath === '/5-mistakes-to-avoid-when-hiring-a-top-mobile-app-development-company' ? (
                 <Head>
                     <title>Mistakes To Avoid When Hiring a Mobile App Development Company</title>
                     <meta name="description" content='If you are looking for a mobile app development company, read about the 5 common mistakes businesses make when they hire a development company to create an app.' key="metadesc" />
@@ -1028,7 +1028,7 @@ const MetaData = () => {
                     />
 
                 </Head>
-            ) : PagePath === '/blog/5-must-have-development-skills-for-a-mobile-app-developer' ? (
+            ) : PagePath === '/5-must-have-development-skills-for-a-mobile-app-developer' ? (
                 <Head>
                     <title>5 Must-Have Skills for a Mobile App Developer</title>
                     <meta name="description" content='Mobile app developers should possess certain skills that make them stand out from the rest. Here are 5 must-have skills that an app developer needs to consider.' key="metadesc" />
@@ -1044,7 +1044,7 @@ const MetaData = () => {
                     />
 
                 </Head>
-            ) : PagePath === '/blog/a-comprehensive-guide-on-how-to-choose-the-right-mobile-app-development-company' ? (
+            ) : PagePath === '/a-comprehensive-guide-on-how-to-choose-the-right-mobile-app-development-company' ? (
                 <Head>
                     <title>A Guide to Choosing The Right Mobile App Development Company</title>
                     <meta name="description" content='What to Consider in a Mobile App Development Company? Read and find out what you need to know about choosing the right mobile app company for your business.' key="metadesc" />
@@ -1061,7 +1061,7 @@ const MetaData = () => {
                     />
 
                 </Head>
-            ) : PagePath === '/blog/7-factors-affecting-mobile-app-development-cost' ? (
+            ) : PagePath === '/7-factors-affecting-mobile-app-development-cost' ? (
                 <Head>
                     <title>7 Factors Affecting Mobile App Development Cost</title>
                     <meta name="description" content='There are numerous factors impacting the development cost of your mobile app. We have listed 7 factors that affect the cost of app development for your business. Read more!' key="metadesc" />
@@ -1079,7 +1079,7 @@ const MetaData = () => {
                     />
 
                 </Head>
-            ) : PagePath === '/blog/7-trends-adopted-by-leading-mobile-app-development-companies' ? (
+            ) : PagePath === '/7-trends-adopted-by-leading-mobile-app-development-companies' ? (
                 <Head>
                     <title>7 Trends Adopted by Leading Mobile App Development Companies</title>
                     <meta name="description" content='Stay informed and adapt to these mobile app development trends to provide innovative solutions to your users and remain competitive in the ever-changing mobile app development industry.' key="metadesc" />
@@ -1093,7 +1093,7 @@ const MetaData = () => {
                     />
 
                 </Head>
-            ) : PagePath === '/blog/choosing-the-right-technologies-for-top-mobile-app-development' ? (
+            ) : PagePath === '/choosing-the-right-technologies-for-top-mobile-app-development' ? (
                 <Head>
                     <title>Choosing the Right Technologies for Mobile App Development</title>
                     <meta name="description" content='Choosing the right technologies for mobile app development is important for the success of your project. Explore the most popular technologies to help you create a successful mobile app.' key="metadesc" />
@@ -1109,7 +1109,7 @@ const MetaData = () => {
                     />
 
                 </Head>
-            ) : PagePath === '/blog/key-features-of-a-successful-mobile-app' ? (
+            ) : PagePath === '/key-features-of-a-successful-mobile-app' ? (
                 <Head>
                     <title>Key Features of a Successful Mobile App: A Guide</title>
                     <meta name="description" content="If you're planning to develop a mobile app in 2024, it's important to understand the key features that will make your app successful. Here are some of the things you should know about mobile app development." key="metadesc" />
@@ -1126,7 +1126,7 @@ const MetaData = () => {
                     />
 
                 </Head>
-            ) : PagePath === '/blog/the-role-of-artificial-intelligence-in-mobile-app-development' ? (
+            ) : PagePath === '/the-role-of-artificial-intelligence-in-mobile-app-development' ? (
                 <Head>
                     <title>The Role of Artificial Intelligence in Mobile App Development</title>
                     <meta name="description" content="Artificial intelligence has become the new trend in the mobile app development industry. Here is the role that AI plays in building a successful mobile app." key="metadesc" />
@@ -1143,7 +1143,7 @@ const MetaData = () => {
                     />
 
                 </Head>
-            ) : PagePath === '/blog/mobile-app-development-lifecycle' ? (
+            ) : PagePath === '/mobile-app-development-lifecycle' ? (
                 <Head>
                     <title>What Does The Top Mobile App Development Lifecycle Look Like?</title>
                     <meta name="description" content="The mobile app development lifecycle is a process that involves various stages from idea conception to app deployment. Discover the best practices for successful mobile app development." key="metadesc" />
