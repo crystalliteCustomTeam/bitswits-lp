@@ -19,32 +19,32 @@ import 'slick-carousel/slick/slick-theme.css';
 const appData = [
     {
         title: 'Blockchain',
-        description: 'Bitswits app developers in Dubai are capable of building blockchain-powered mobile apps that provide optimal protection for your data.',
+        description: 'At BitsWits, we implement cutting-edge blockchain solutions to safeguard your data. Our advanced encryption techniques and robust security protocols ensure that your information remains invulnerable to cyber threats and unauthorized access, providing you with peace of mind and regulatory compliance.',
         imageSrc: banImg1,
     },
     {
-        title: 'IoT',
-        description: 'Harnessing the power of Internet-of-things technology, we build a connected infrastructure of devices that exchange data and communicate to improve business operations.',
+        title: 'IoT (Internet of Things)',
+        description: 'We empower your business by connecting and managing devices through our IoT solutions. By optimizing device interactions, we enhance your operational efficiency and provide you with real-time insights into your processes, enabling informed decision-making and improved performance.',
         imageSrc: banImg2,
     },
     {
-        title: 'AI/ML',
-        description: 'Blending artificial intelligence and machine learning, Bitswits creates applications that automate certain processes and tasks, saving businesses a lot of time and cost while ensuring efficiency.',
+        title: 'AI/ML (Artificial Intelligence/Machine Learning)',
+        description: 'Our AI/ML solutions are tailored to your specific requirements. We automate tasks, facilitate data-driven decision-making, and enhance overall efficiency by integrating AI and ML technologies into your processes, allowing you to stay competitive and agile in your industry.',
         imageSrc: banImg3,
     },
     {
-        title: 'AR/VR',
-        description: 'Our app development company in Dubai builds AR/VR applications that maximize the percentage of conversions while ensuring innovation.',
+        title: 'AR/VR (Augmented Reality/Virtual Reality)',
+        description: 'BitsWits redefines customer engagement through immersive AR/VR applications. We create experiences that captivate your audience, drive conversions, and establish your brand as an innovator, leaving a lasting impression on your customers.',
         imageSrc: banImg4,
     },
     {
         title: 'Cloud Computing',
-        description: ( <> If you're in search of more security, scalability, and performance, then Bitswits cloud computing solution can help you move forward by connecting your mobile strategy to the cloud. </> ),
+        description: (<> Leveraging the cloud's power, we optimize your operations. Our cloud solutions enhance security, scalability, and performance, ensuring uninterrupted operations at any scale. With BitsWits, you can focus on your core business while we take care of your cloud infrastructure.</>),
         imageSrc: banImg5,
     },
     {
         title: 'Staff Augmentation',
-        description: ( <> Get remarkable talent working on your project and scale up your team when it's required and scale down whenever you want with Bitswits staff augmentation solution. </> ),
+        description: (<> We offer flexible staffing solutions, allowing you to scale your team up or down as needed. With BitsWits, you have access to a pool of skilled professionals, ensuring that you always have the right talent to drive your projects forward, no matter the size or complexity. </>),
         imageSrc: banImg6,
     },
 ];
@@ -72,9 +72,11 @@ export default function Expertappdubai(props) {
                 <Container>
                     <Row className='align-items-center g-2 d-none d-lg-flex'>
                         <Col lg={12} >
-                           
-                            <h2 className='white font50 f-700 center mb-5'>Advanced Technology Solutions for <br></br> Entrepreneurs & Businesses </h2>
-                           
+
+                            <h2 className='white font50 f-700 center mb-5'>Cutting-edge technology Solutions by  <br></br> Mobile Application Developers in Dubai</h2>
+
+                            <p className="font16 font-normal white text-center mb-5">BitsWits, a leading mobile application development company in Dubai, offers a comprehensive range of cutting-edge <br /> technology solutions to empower entrepreneurs and businesses. Our diverse toolkit includes:</p>
+
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app}>
@@ -82,69 +84,69 @@ export default function Expertappdubai(props) {
                                     <Image alt='BitsWits' src={banImg1} className='img-fluid' />
                                     <h3 className=' white fw700'>Blockchain</h3>
                                 </div>
-                                <p className=' white fw400 m-0'>Bitswits app developers in Dubai are capable of building blockchain-powered mobile apps that provide optimal protection for your data. </p>
+                                <p className=' white fw400 m-0'>At BitsWits, we implement cutting-edge blockchain solutions to safeguard your data. Our advanced encryption techniques and robust security protocols ensure that your information remains invulnerable to cyber threats and unauthorized access, providing you with peace of mind and regulatory compliance.</p>
                             </div>
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app}>
                                 <div className={styles.copy}>
-                                <Image alt='BitsWits' src={banImg2} className='img-fluid' />
-                                    <h3 className=' white fw700'>IoT</h3>
-                                    
+                                    <Image alt='BitsWits' src={banImg2} className='img-fluid' />
+                                    <h3 className=' white fw700'>IoT (Internet of Things)</h3>
+
                                 </div>
-                                <p className=' white fw400 m-0'>Harnessing the power of Internet-of-things technology, we build a connected infrastructure of devices that exchange data and communicate to improve business operations. </p>
+                                <p className=' white fw400 m-0'>We empower your business by connecting and managing devices through our IoT solutions. By optimizing device interactions, we enhance your operational efficiency and provide you with real-time insights into your processes, enabling informed decision-making and improved performance.</p>
                             </div>
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app}>
                                 <div className={styles.copy}>
-                                <Image alt='BitsWits' src={banImg3} className='img-fluid' />
-                                    <h3 className=' white fw700'>AI/ML</h3>
-                                    
+                                    <Image alt='BitsWits' src={banImg3} className='img-fluid' />
+                                    <h3 className=' white fw700'>AI/ML (Artificial Intelligence/Machine Learning)</h3>
+
                                 </div>
-                                <p className=' white fw400 m-0'>Blending artificial intelligence and machine learning, Bitswits creates applications that automate certain processes and tasks, saving businesses a lot of time and cost while ensuring efficiency. </p>
+                                <p className=' white fw400 m-0'>Our AI/ML solutions are tailored to your specific requirements. We automate tasks, facilitate data-driven decision-making, and enhance overall efficiency by integrating AI and ML technologies into your processes, allowing you to stay competitive and agile in your industry.</p>
                             </div>
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app}>
                                 <div className={styles.copy}>
-                                <Image alt='BitsWits' src={banImg4} className='img-fluid' />
-                                    <h3 className=' white fw700'>AR/VR</h3>
-                                    
+                                    <Image alt='BitsWits' src={banImg4} className='img-fluid' />
+                                    <h3 className=' white fw700'>AR/VR (Augmented Reality/Virtual Reality)</h3>
+
                                 </div>
-                                <p className=' white fw400 m-0'>Our app development company in Dubai builds AR/VR applications that maximize the percentage of conversions while ensuring innovation.</p>
+                                <p className=' white fw400 m-0'>BitsWits redefines customer engagement through immersive AR/VR applications. We create experiences that captivate your audience, drive conversions, and establish your brand as an innovator, leaving a lasting impression on your customers.</p>
                             </div>
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app}>
                                 <div className={styles.copy}>
-                                <Image alt='BitsWits' src={banImg5} className='img-fluid' />
+                                    <Image alt='BitsWits' src={banImg5} className='img-fluid' />
                                     <h3 className=' white fw700'>Cloud Computing</h3>
-                                   
+
                                 </div>
-                                <p className=' white fw400 m-0'>If you're in search of more security, scalability, and performance, then Bitswits cloud computing solution can help you move forward by connecting your mobile strategy to the cloud.</p>
+                                <p className=' white fw400 m-0'>Leveraging the cloud's power, we optimize your operations. Our cloud solutions enhance security, scalability, and performance, ensuring uninterrupted operations at any scale. With BitsWits, you can focus on your core business while we take care of your cloud infrastructure.</p>
                             </div>
                         </Col>
                         <Col lg={4}>
                             <div className={styles.app}>
                                 <div className={styles.copy}>
-                                <Image alt='BitsWits' src={banImg6} className='img-fluid' />
+                                    <Image alt='BitsWits' src={banImg6} className='img-fluid' />
                                     <h3 className=' white fw700'>Staff Augmentation</h3>
-                                  
+
                                 </div>
-                                <p className=' white fw400 m-0'>Get remarkable talent working on your project and scale up your team when it's required and scale down whenever you want with Bitswits staff augmentation solution.</p>
+                                <p className=' white fw400 m-0'>We offer flexible staffing solutions, allowing you to scale your team up or down as needed. With BitsWits, you have access to a pool of skilled professionals, ensuring that you always have the right talent to drive your projects forward, no matter the size or complexity.</p>
                             </div>
                         </Col>
-                       
+
                     </Row>
 
                     {/* For Mobile */}
                     <Row className='gy-5 d-block d-lg-none'>
 
                         <Col lg={12} >
-                           
-                        <h2 className='white font50 f-700 center mb-5'>Advanced Technology Solutions for <br></br> Entrepreneurs & Businesses </h2>
-                           
+
+                            <h2 className='white font50 f-700 center mb-5'>Advanced Technology Solutions for <br></br> Entrepreneurs & Businesses </h2>
+
                         </Col>
                         <Slider {...mblSlider} className={`mblSlider ${styles.mblSlider}`}>
                             {appData.map((app, index) => (

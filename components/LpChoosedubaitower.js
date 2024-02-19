@@ -19,9 +19,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
-
-
 const LpChoosedubaitower = (props) => {
 
   return (
@@ -30,24 +27,24 @@ const LpChoosedubaitower = (props) => {
         <Container>
           <Row className="align-items-center gy-lg-5 gy-4">
             <Col lg={6} className={styles.walk}>
-              <h3 className="white newchoose font-bold f-700">Bitswits Digital Footprint in Dubai</h3>
-              
+              <h3 className="white newchoose font-bold f-700">BitsWits: Leading the Way as a Mobile Application Development Company in Dubai for Digital Transformation Solutions</h3>
+
               <p>
-              Bitswits award-winning presence globally and in Dubai speaks volumes about the company and what we believe in as an organization. Extending our reach to the MENA region and having plans for moving beyond, we aim to build high-value and problem-solving digital products for businesses that ensure sustainable growth, scalability and success in the highly competitive market of Dubai.
+                BitsWits has earned recognition both locally and globally for its remarkable achievements. We are now expanding our influence beyond Dubai, reaching out to the MENA region and beyond. Our mission is clear: to create valuable digital products that not only solve business problems but also ensure growth, scalability, and resounding success in Dubai's dynamic market.
               </p>
               <p>
-              Bringing our expert team of certified software engineers, product developers, Q/A Engineers and business strategists to the region, the company leadership guarantees an environment composed of tech-driven and experience-led digital solutions that will empower the entrepreneurial culture of Dubai.
+                At BitsWits, we are bringing an exceptional team of certified software engineers, product developers, Q&A engineers, and business strategists to the region. We promise a tech-driven environment that thrives on experience-led digital solutions, further nurturing Dubai's entrepreneurial culture.
               </p>
-             <p>In addition, against the COVID-19 pandemic, businesses observed a devastating setback that drove several companies out of business. Bitswits digital transformation suite consists of all the digital assets businesses need to unlock opportunities, plan strategically to tackle global uncertainties and keep their industries and business models afloat.</p>
+              <p>BitsWits has developed a comprehensive digital transformation suite, encompassing all the necessary digital tools that businesses need to navigate uncertain times, plan strategically, and maintain the resilience of their industries and business models. With BitsWits, your digital transformation is in expert hands, ready to conquer challenges and secure success.</p>
               <Link href="javascript:$zopim.livechat.window.show();" className={styles.dus}>
-              Let’s Get Started
+                Let’s Get Started
               </Link>
             </Col>
             <Col lg={6}>
-             <Image className="img-fluid" src={towe} />
+              <Image className="img-fluid" src={towe} />
             </Col>
 
-          
+
           </Row>
         </Container>
       </section>

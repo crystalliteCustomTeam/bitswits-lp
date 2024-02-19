@@ -1,4 +1,3 @@
-
 .transformlp {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -7,7 +6,7 @@
 
 
 .dus {
-  width: 300px;
+  width: max-content;
   height: 45px;
   background-color: #f32f53;
   display: flex;
@@ -17,7 +16,7 @@
   font-size: 16px;
   font-weight: 600;
   border-radius: 10px;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 
 .cart {
@@ -65,10 +64,12 @@
   text-align: center;
   margin-bottom: 0;
 }
-.work{
+
+.work {
   position: relative;
-    right: 60px;
+  right: 60px;
 }
+
 @media screen and (max-width: 1400px) {
   .transform {
     background-image: url(../public/newHomePage/images/bg-image.png);
@@ -77,6 +78,7 @@
     background-position: 374px center;
     background-color: black;
   }
+
   .hybirf {
     background-image: url(../public/newHomePage/images/bg-image.png);
     background-repeat: no-repeat;
@@ -104,6 +106,7 @@
     background-position: 550px center;
     background-color: black;
   }
+
   .hybirf {
     background-image: url(../public/newHomePage/images/bg-image.png);
     background-repeat: no-repeat;
@@ -122,19 +125,22 @@
 
 @media screen and (max-width: 991px) {
 
-  .work{
+  .work {
     position: relative;
-      right: unset;
+    right: unset;
   }
+
   .transform {
     padding-top: 0px;
     padding-bottom: 80px;
     background-image: none;
   }
+
   .transformlp {
     padding: 0 0 80px;
     background-image: none;
   }
+
   .hybirf {
     padding-top: 50px;
     padding-bottom: 0px;
@@ -164,6 +170,7 @@
   .transformlp {
     padding: 0 0 50px;
   }
+
   .walk h2 {
     font-size: 25px;
     line-height: 35px;

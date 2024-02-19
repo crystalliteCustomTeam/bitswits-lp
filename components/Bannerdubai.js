@@ -15,8 +15,6 @@ import { useRouter } from 'next/router';
 
 const Bannerdubai = (props) => {
 
-
-
     const [ip, setIP] = useState('');
     //creating function to load ip address from the API
     const getIPData = async () => {
@@ -27,34 +25,31 @@ const Bannerdubai = (props) => {
         getIPData()
     }, [])
 
-
     const [score, setScore] = useState('Submit');
 
     const [checkboxes, setCheckboxes] = useState([]);
     const handleOptionChange3 = (e) => {
-      const { value, checked } = e.target;
-  
-      if (checked) {
-        setCheckboxes([...checkboxes, value]);
-      } else {
-        setCheckboxes(checkboxes.filter((checkbox) => checkbox !== value));
-      }
-  
-      
+        const { value, checked } = e.target;
+
+        if (checked) {
+            setCheckboxes([...checkboxes, value]);
+        } else {
+            setCheckboxes(checkboxes.filter((checkbox) => checkbox !== value));
+        }
+
+
     };
     const router = useRouter();
     const currentRoute = router.pathname;
 
     const [pagenewurl, setPagenewurl] = useState('');
-      useEffect(() => {
+    useEffect(() => {
         const pagenewurl = window.location.href;
         console.log(pagenewurl);
         setPagenewurl(pagenewurl);
-      }, []);
-      
+    }, []);
 
     const handleSubmit = async (e) => {
-
         e.preventDefault()
         var currentdate = new Date().toLocaleString() + ''
 
@@ -64,7 +59,7 @@ const Bannerdubai = (props) => {
             email: e.target.email.value,
             phone: e.target.phone.value,
             comment: e.target.comment.value,
-            checkboxesdata:checkboxes,
+            checkboxesdata: checkboxes,
             pageUrl: pagenewurl,
             IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
             currentdate: currentdate,
@@ -74,7 +69,6 @@ const Bannerdubai = (props) => {
 
         setScore('Sending Data');
         console.log(JSONdata);
-
 
         fetch('api/emailapidubai/route', {
             method: 'POST',
@@ -89,8 +83,6 @@ const Bannerdubai = (props) => {
                 console.log(`Response Successed ${res}`)
             }
         })
-
-
 
         let headersList = {
             "Accept": "*/*",
@@ -118,31 +110,24 @@ const Bannerdubai = (props) => {
         if (pathname == pathname) {
             window.location.href = '/thank-you';
         }
-
     }
 
     return (
         <>
 
             <section className={styles[props.newHomeBgprops]} >
-
                 <Container className={` ${styles.conform}`}>
-
                     <Row className={`g-5 ${styles.applost}`}>
                         <Col xl={6}>
                             <div className={styles.oppp}>
-                                <h2 className='f-60 white fw700 mb-4'>Mobile App Development
-Company Dubai</h2>
-                                <p className='font16 white fw500 mt-3 mb-lg-4'>Bitswits is revolutionizing mobile app development in Dubai, driving disruption to elevate the conventional process. Our approach promises a cutting-edge experience, ensuring success for businesses. Leveraging data-driven expertise, we redefine the landscape, delivering ingenious mobile applications to thrive in Dubai's lucrative market.</p>
+                                <h1 className='f-60 white fw700 mb-4'>Leading Mobile App Development Company in Dubai</h1>
+                                <p className='font16 white fw400 mt-3 mb-lg-4 letterspace_1'>Are you looking for a Dubai-based app development company that truly understands the power of innovation and data-driven strategies? Look no further than <strong>BitsWits</strong>! Based in Dubai, we are a leading app development company that excels in designing growth-driven applications for both startups and established brands. We have a knack for transforming digital presences into strategic assets that pave the way for business success. Our dedicated team of developers is unwavering in their commitment to delivering top-notch, innovative apps. When achieving excellence in app development, <strong>BitsWits</strong> unquestionably stands out as the ultimate choice.</p>
+                                <p className='font16 white fw400 mt-3 mb-lg-4 letterspace_1'>Hire us for mobile app development excellence in Dubai and ensure your success!</p>
                                 <Link href='javascript:$zopim.livechat.window.show();' className={styles.deliver}>Let’s Discuss Your Project</Link>
                             </div>
-                          
-
-                    
-
                         </Col>
                         <Col xl={4}>
-                        <form className={styles.your} onSubmit={handleSubmit}>
+                            <form className={styles.your} onSubmit={handleSubmit}>
                                 <h3 className='f-60 mb-4 white fw700'>Book a Free <br></br>Consultation</h3>
                                 <input type='text' minLength="4" name='first' required className='form-control' placeholder="First Name"></input>
                                 <input type='text' name='last' minLength="4" required className='form-control  mt-2' placeholder="Last Name"></input>

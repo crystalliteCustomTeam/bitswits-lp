@@ -26,7 +26,7 @@ const Process = (props) => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        
+
         responsive: [
             {
                 breakpoint: 1024,
@@ -54,117 +54,185 @@ const Process = (props) => {
                 <Container>
                     <Row>
                         <Col xl={12}>
-                        <h2 className="white font50 f-700 center mb-3">The Process Our Mobile App Development <br></br> Company in Dubai Leverages </h2>
-                        <p className="font16 font-normal white text-center mb-3">The app development process that Bitswits follows to build remarkable mobile applications is always evolving and changing. Our objective is to keep complexity out of the app development in the UAE process to ensure that our clients completely understand what we're doing, when we're doing it, and how we'll do it.</p>
-                        <p className="font16 font-normal white text-center mb-5">
-Though standardized, our mobile application process includes various stages or sprints that are integrated together to create mobile applications capable of withstanding the test of time and high competition.</p>
+                            <h2 className="white font50 f-700 center mb-3">Our Dynamic Mobile App Development Process</h2>
+                            <p className="font16 font-normal white text-center mb-3">BitsWits simplifies UAE mobile app development by providing transparency and comprehensible processes, adapting to changing technology and user preferences, and ensuring clients have a clear understanding of project timelines and methodologies.</p>
+                            <p className="font16 font-normal white text-center mb-5">
+                                Our process comprises several key stages, ensuring a seamless journey from project scoping to launch and deployment:</p>
                         </Col>
                     </Row>
 
-                 
                     <Slider {...awardslogo} className={` ${styles.nextalign1} prohome mt-4 mb-4`}>
-                            <div className={styles.high}>
-                                <Row>
-                                    <Col xl={12}>
-                                        <div className={styles.solved}>01</div>
-                                        <div className={styles.deter}>
-                                            <h3 className="white fw800">Project Scoping</h3>
-                                            <p className="white">Our app developers in Dubai connect with our clients to understand their requirements. This scoping session is also being overlooked by our technical consultants, who are tasked to identify and streamline the best technologies, development methodology, and other factors that are critical to the success of your mobile application:</p>
-                                            <p className="white mt-3 mb-3">Requirement Analysis. Here's what the phase includes:</p>
-                                            <ul className={styles.newlong}>
-                                                <li>Market Research</li>
-                                                <li>Streamlining Technologies</li>
-                                                <li>Feasibility Study</li>
-                                                <li>Competitor Analysis</li>
-                                                <li>Scope Assessment</li>
-                                            </ul>
-                                           
-                                        </div>
-                                    </Col>
-                                  
-                                </Row>
-                            </div>
-                            <div className={styles.high}>
-                                <Row>
-                                    <Col xl={12}>
-                                        <div className={styles.solved}>02</div>
-                                        <div className={styles.deter}>
-                                            <h3 className="white fw800">Strategic Planning</h3>
-                                            <p className="white">Once the requirements are understood by our mobile app developers in UAE, a strategic plan is developed right after the initial scoping, brainstorming, conceptualization, pre-development prep, and other processes are completed.</p>
-                                            <p className="white mt-3 mb-3">This strategic plan describes the best app development approach that our app development company in Dubai will take and the time that will be required to develop your application. In a nutshell, here's what you can expect in this phase:</p>
-                                            <ul className={styles.newlong}>
-                                                <li>Identifying Product's Objective</li>
-                                                <li>TAM Finalization</li>
-                                                <li>Product Development & Designing</li>
-                                                <li>Product Delivery & Launch</li>
-                                            </ul>
-                                        </div>
-                                    </Col>
-                                  
-                                </Row>
-                            </div>
-                            <div className={styles.high}>
-                                <Row>
-                                    <Col xl={12}>
-                                        <div className={styles.solved}>03</div>
-                                        <div className={styles.deter}>
-                                            <h3 className="white fw800">Design Phase</h3>
-                                            <p className="white">The design phase is the part where an initial design (Screens, UI/UX, Visuals, Aesthetics, Etc.) is created and sent to the concerned individual for approval. Meetings can also be scheduled to review the design of the mobile application.</p>
-                                            <p className="white mt-3 mb-3">Any suggestions, feedback, or recommendations are recorded during this process, and corrections are made before moving on to the next phase, which is development. Like any other app development phase, this phase also includes various stages, i.e.:</p>
-                                            <ul className={styles.newlong}>
-                                                <li> Designing Sketches</li>
-                                                <li> Wireframing</li>
-                                                <li>Design Mock-ups</li>
-                                                <li>  Prototyping & Designing</li>
-                                            </ul>
-                                           
-                                        </div>
-                                    </Col>
-                                  
-                                </Row>
-                            </div>
-                            <div className={styles.high}>
-                                <Row>
-                                    <Col xl={12}>
-                                        <div className={styles.solved}>04</div>
-                                        <div className={styles.deter}>
-                                            <h3 className="white fw800">Development Phase</h3>
-                                            <p className="white mb-3">In the development phase, our app developers in Dubai create the functionality of the product. If the product is cross-platform, we start with developing your Android app first because Android apps are comparatively easier to build, test and deploy. Once the development of both your iOS and Android app ends, the apps are moved to the initial testing stage, where experienced app developers in Dubai test your applications for performance and functionality. The following are some aspects that go hand in hand with the development of your mobile app's development:</p>
-                                            
-                                            <ul className={styles.newlong}>
-                                            <li>Custom Application Development</li>
-    <li>Integrating Latest Technologies</li>
-    <li>Ensuring Robustness Scalability</li>
-    <li>Completing Source Codes IP Rights</li>
-                                            </ul>
-                                           
-                                        </div>
-                                    </Col>
-                                  
-                                </Row>
-                            </div>
+                        <div className={styles.high}>
+                            <Row>
+                                <Col xl={12}>
+                                    <div className={styles.solved}>01</div>
+                                    <div className={styles.deter}>
+                                        <h3 className="white fw800">Project Scoping</h3>
+                                        <p className="white">We begin by understanding your requirements, conducting market research, and analyzing the competition to define the project scope.</p>
+                                        {/* <p className="white mt-3 mb-3">Requirement Analysis. Here's what the phase includes:</p>
+                                        <ul className={styles.newlong}>
+                                            <li>Market Research</li>
+                                            <li>Streamlining Technologies</li>
+                                            <li>Feasibility Study</li>
+                                            <li>Competitor Analysis</li>
+                                            <li>Scope Assessment</li>
+                                        </ul> */}
 
-                            <div className={styles.high}>
-                                <Row>
-                                    <Col xl={12}>
-                                        <div className={styles.solved}>05</div>
-                                        <div className={styles.deter}>
-                                            <h3 className="white fw800">Feedback & Iterations</h3>
-                                            <p className="white mb-3">The feedback and reiterations phase involves presenting the mobile application to the client to receive valuable feedback. The app is only presented once it is tested for functionality and performance, and since we're the pioneering app development company in Dubai, we ensure that the presented application hits the 70% approval mark while the rest is changed as per the client's direction.</p>
-                                            
-                                            <ul className={styles.newlong}>
+                                    </div>
+                                </Col>
+
+                            </Row>
+                        </div>
+                        <div className={styles.high}>
+                            <Row>
+                                <Col xl={12}>
+                                    <div className={styles.solved}>02</div>
+                                    <div className={styles.deter}>
+                                        <h3 className="white fw800">Strategic Planning</h3>
+                                        <p className="white">After requirements analysis, we create a strategic plan outlining the development approach, timeline, and objectives.</p>
+                                        {/* <p className="white mt-3 mb-3">This strategic plan describes the best app development approach that our app development company in Dubai will take and the time that will be required to develop your application. In a nutshell, here's what you can expect in this phase:</p>
+                                        <ul className={styles.newlong}>
+                                            <li>Identifying Product's Objective</li>
+                                            <li>TAM Finalization</li>
+                                            <li>Product Development & Designing</li>
+                                            <li>Product Delivery & Launch</li>
+                                        </ul> */}
+                                    </div>
+                                </Col>
+
+                            </Row>
+                        </div>
+                        <div className={styles.high}>
+                            <Row>
+                                <Col xl={12}>
+                                    <div className={styles.solved}>03</div>
+                                    <div className={styles.deter}>
+                                        <h3 className="white fw800">Design Phase</h3>
+                                        <p className="white">Our expert designers craft the initial app design, including UI/UX, visuals, and aesthetics, with room for client feedback.</p>
+                                        {/* <p className="white mt-3 mb-3">Any suggestions, feedback, or recommendations are recorded during this process, and corrections are made before moving on to the next phase, which is development. Like any other app development phase, this phase also includes various stages, i.e.:</p>
+                                        <ul className={styles.newlong}>
+                                            <li> Designing Sketches</li>
+                                            <li> Wireframing</li>
+                                            <li>Design Mock-ups</li>
+                                            <li>  Prototyping & Designing</li>
+                                        </ul> */}
+                                    </div>
+                                </Col>
+
+                            </Row>
+                        </div>
+                        <div className={styles.high}>
+                            <Row>
+                                <Col xl={12}>
+                                    <div className={styles.solved}>04</div>
+                                    <div className={styles.deter}>
+                                        <h3 className="white fw800">Development Phase</h3>
+                                        <p className="white mb-3">Our skilled developers start building the app, beginning with the Android version and moving to iOS while ensuring custom development, integration of the latest technologies, robustness, and scalability.</p>
+                                        {/* 
+                                        <ul className={styles.newlong}>
                                             <li>Custom Application Development</li>
-    <li>Integrating Latest Technologies</li>
-    <li>Ensuring Robustness Scalability</li>
-    <li>Completing Source Codes IP Rights</li>
-                                            </ul>
-                                           
-                                        </div>
-                                    </Col>
-                                  
-                                </Row>
-                            </div>
-                        </Slider>
+                                            <li>Integrating Latest Technologies</li>
+                                            <li>Ensuring Robustness Scalability</li>
+                                            <li>Completing Source Codes IP Rights</li>
+                                        </ul> */}
+
+                                    </div>
+                                </Col>
+
+                            </Row>
+                        </div>
+                        <div className={styles.high}>
+                            <Row>
+                                <Col xl={12}>
+                                    <div className={styles.solved}>05</div>
+                                    <div className={styles.deter}>
+                                        <h3 className="white fw800">Feedback & Iterations</h3>
+                                        <p className="white mb-3">Our Mobile app development company in Dubai presents the app to clients for feedback and iterates on it until it reaches a 70% approval mark.</p>
+                                        {/* <ul className={styles.newlong}>
+                                            <li>Custom Application Development</li>
+                                            <li>Integrating Latest Technologies</li>
+                                            <li>Ensuring Robustness Scalability</li>
+                                            <li>Completing Source Codes IP Rights</li>
+                                        </ul> */}
+                                    </div>
+                                </Col>
+
+                            </Row>
+                        </div>
+                        <div className={styles.high}>
+                            <Row>
+                                <Col xl={12}>
+                                    <div className={styles.solved}>06</div>
+                                    <div className={styles.deter}>
+                                        <h3 className="white fw800">Incorporating Content</h3>
+                                        <p className="white mb-3">Clients provide content to be incorporated into the app, aligning it with the design for an enhanced user experience.</p>
+                                        {/* <ul className={styles.newlong}>
+                                            <li>Custom Application Development</li>
+                                            <li>Integrating Latest Technologies</li>
+                                            <li>Ensuring Robustness Scalability</li>
+                                            <li>Completing Source Codes IP Rights</li>
+                                        </ul> */}
+                                    </div>
+                                </Col>
+
+                            </Row>
+                        </div>
+                        <div className={styles.high}>
+                            <Row>
+                                <Col xl={12}>
+                                    <div className={styles.solved}>07</div>
+                                    <div className={styles.deter}>
+                                        <h3 className="white fw800">Quality Assurance Phase</h3>
+                                        <p className="white mb-3">Our QA engineers thoroughly test the app for usability, performance, functionality, and more, ensuring the highest quality standards.</p>
+                                        {/* <ul className={styles.newlong}>
+                                            <li>Custom Application Development</li>
+                                            <li>Integrating Latest Technologies</li>
+                                            <li>Ensuring Robustness Scalability</li>
+                                            <li>Completing Source Codes IP Rights</li>
+                                        </ul> */}
+                                    </div>
+                                </Col>
+
+                            </Row>
+                        </div>
+                        <div className={styles.high}>
+                            <Row>
+                                <Col xl={12}>
+                                    <div className={styles.solved}>08</div>
+                                    <div className={styles.deter}>
+                                        <h3 className="white fw800">Launch & Deployment</h3>
+                                        <p className="white mb-3">Upon client approval, our Mobile app development company in Dubai submits the app to the respective app stores for publishing and launch.</p>
+                                        {/* <ul className={styles.newlong}>
+                                            <li>Custom Application Development</li>
+                                            <li>Integrating Latest Technologies</li>
+                                            <li>Ensuring Robustness Scalability</li>
+                                            <li>Completing Source Codes IP Rights</li>
+                                        </ul> */}
+                                    </div>
+                                </Col>
+
+                            </Row>
+                        </div>
+                        <div className={styles.high}>
+                            <Row>
+                                <Col xl={12}>
+                                    <div className={styles.solved}>09</div>
+                                    <div className={styles.deter}>
+                                        <h3 className="white fw800">Ongoing Support</h3>
+                                        <p className="white mb-3">Post-launch, we offer ongoing support and updates to keep the app up-to-date and optimize its presence.</p>
+                                        <p className="white mb-3">Our mobile app development process combines industry expertise with a client-centric approach, ensuring the creation of user-friendly, high-quality applications that make an impact in today's dynamic market.</p>
+                                        {/* <ul className={styles.newlong}>
+                                            <li>Custom Application Development</li>
+                                            <li>Integrating Latest Technologies</li>
+                                            <li>Ensuring Robustness Scalability</li>
+                                            <li>Completing Source Codes IP Rights</li>
+                                        </ul> */}
+                                    </div>
+                                </Col>
+
+                            </Row>
+                        </div>
+                    </Slider>
                 </Container>
             </section>
         </>

@@ -31,21 +31,17 @@ const LpChoosedubaiship = (props) => {
           <Row className="align-items-center gy-lg-5 gy-4">
             <Col lg={6} className={styles.walk}>
               <h3 className="white newchoose font-bold f-700">We're Growing In Dubai & We Want Your Business
-To Grow With Us</h3>
-              
-<div className="mt-4">
-              <Link href="javascript:$zopim.livechat.window.show();" className={styles.dus}>
-              Let's Work On Your App Together
-              </Link>
+                To Grow With Us</h3>
+
+              <div className="mt-4">
+                <Link href="javascript:$zopim.livechat.window.show();" className={styles.dus}>
+                  Join Us on the Journey to Growth in Dubai!
+                </Link>
               </div>
             </Col>
             <Col lg={6} className={styles.work}>
-
-             <Image className="img-fluid" src={ship} />
-
+              <Image className="img-fluid" src={ship} />
             </Col>
-
-          
           </Row>
         </Container>
       </section>

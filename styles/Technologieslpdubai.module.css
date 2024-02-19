@@ -18,33 +18,38 @@
   padding-bottom: 2%;
   margin-top: 5%;
   justify-content: space-between;
-  
+
 }
-.tech{
+
+.tech {
   position: relative;
 
 }
-.tech::after{
-position: absolute;
-content: '';
-width: 90%;
-height: 100%;
-background-image: url(../public/newHomePage/images/bg-image.png);
-background-repeat: no-repeat;
- background-position: center;
- bottom: -250px;
- right: -400px;
+
+.tech::after {
+  position: absolute;
+  content: '';
+  width: 90%;
+  height: 100%;
+  background-image: url(../public/newHomePage/images/bg-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  bottom: -250px;
+  right: -400px;
 }
+
 .analpost .new1 {
   font-size: 16px;
   cursor: pointer;
   color: white;
   opacity: .5;
 }
-.analpost div{
+
+.analpost div {
   padding-left: 30px;
   padding-right: 50px;
 }
+
 .analpost .active {
   color: white;
 }
@@ -65,31 +70,34 @@ background-repeat: no-repeat;
   margin: 0 auto;
 }
 
-.stook{
+.stook {
   color: white;
   font-weight: 700;
   font-size: 35px;
 }
-.colpont{
+
+.colpont {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .newyork p {
   font-size: 16px;
   color: white;
 }
 
-.buld{
-  width: 220px;
-    height: 45px;
-    background-color: #f32f53;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    border-radius: 10px;
-    font-weight: bold;
+.buld {
+  width: max-content;
+  padding: 20px;
+  height: 45px;
+  background-color: #f32f53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
 }
 
 
@@ -97,10 +105,11 @@ background-repeat: no-repeat;
   .active:before {
     bottom: -112%;
   }
-  .york p{
+
+  .york p {
     padding-left: 70px;
     padding-right: 70px;
-  
+
   }
 }
 
@@ -122,6 +131,7 @@ background-repeat: no-repeat;
     background-color: #000;
     border: 1px solid #909090;
   }
+
   .active::before {
     bottom: -67%;
   }
@@ -176,14 +186,15 @@ background-repeat: no-repeat;
 
 @media screen and (max-width: 480px) {
 
-  
+
   .analpost div {
     color: #707070;
     font-size: 11px;
     cursor: pointer;
   }
+
   .work {
     margin-top: 5%;
     padding-bottom: 5%;
-}
+  }
 }

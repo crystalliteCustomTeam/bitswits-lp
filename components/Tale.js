@@ -15,142 +15,142 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Tale = (props) => {
 
-    const [isSliderActive, setIsSliderActive] = useState(true);
-    useEffect(() => {
-      const handleResize = () => {
-        if (window.innerWidth < 1201) {
-          setIsSliderActive(false);
-        } else {
-          setIsSliderActive(true);
-        }
-      };
-      handleResize();
-      window.addEventListener("resize", handleResize);
-      return () => {
-        window.removeEventListener("resize", handleResize);
-      };
-    }, []);
-  
-    // slider 
-    var awardslogo = {
-      dots: false,
-      arrows: false,
-      autoplay: true,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            infinite: true,
-          },
-        },
-        {
-          breakpoint: 991,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            infinite: true,
-          },
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            infinite: true,
-          },
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-          },
-        },
-      ],
+  const [isSliderActive, setIsSliderActive] = useState(true);
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 1201) {
+        setIsSliderActive(false);
+      } else {
+        setIsSliderActive(true);
+      }
     };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
-    return (
-        <>
-            <section className={`${styles[props.tale]}`}>
-                <Container>
-                    <Row>
-                        <Col xl={12}>
-                        <h2 className="white font50 f-700 center mb-3">A Tale of Partnershipping with Top <br></br> Brands in Dubai </h2>
-                        <p className="font16 font-normal white text-center mb-5">Credibility and trustworthiness supervene when you partner with some of the top brands in the UAE, and that’s precisely what Bitswits did. We partnered with businesses, conveyed our message and belief in delivering digital products on the promise of quality and had a fantastic portfolio of successfully delivered mobile applications and other digital products.</p>
-                        </Col>
-                    </Row>
+  // slider 
+  var awardslogo = {
+    dots: false,
+    arrows: false,
+    autoplay: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
+  return (
+    <>
+      <section className={`${styles[props.tale]}`}>
+        <Container>
+          <Row>
+            <Col xl={12}>
+              <h2 className="white font50 f-700 center mb-3">Harnessing Trust and Credibility: Mobile App <br /> Development Solutions in Dubai</h2>
+              <p className="font16 font-normal white text-center mb-5">BitsWits, a Dubai-based technology company, has established strong partnerships with top brands, focusing on delivering quality digital products. Our client-centric approach ensures products reflect clients' values and brand identity. Our success stories are a testament to dedication, meticulous planning, innovative thinking, and teamwork. BitsWits continues to foster strong partnerships and strive to shape a brighter digital future with clients.</p>
+            </Col>
+          </Row>
 
 
-                    {isSliderActive ?
+          {isSliderActive ?
 
-                   <>
-                    <Row>
-                    <Col xl={4} className={styles.post}>
-                    <div> <Image className="img-fluid" src={scr1} /> </div>
-                    </Col>
-                    <Col xl={4} className={styles.post}>
-                    <div> <Image className="img-fluid" src={scr2} /></div>
-                    </Col>
-                    <Col xl={4}  className={styles.post}>
-                    <div> <Image className="img-fluid" src={scr3} /></div>
-                    </Col>
-                     
-                       
-                    </Row>
-                    <Row>
-                    <Col xl={4} className={styles.post}>
-                    <div> <Image className="img-fluid" src={scr4} /> </div>
-                    </Col>
-                    <Col xl={4} className={styles.post}>
-                    <div> <Image className="img-fluid" src={scr5} /></div>
-                        </Col>
-                        <Col xl={4} className={styles.post}>
-                        <div> <Image className="img-fluid" src={scr6} /></div>
-                        </Col>
-                    </Row>
-                   </>
+            <>
+              <Row>
+                <Col xl={4} className={styles.post}>
+                  <div> <Image className="img-fluid" src={scr1} /> </div>
+                </Col>
+                <Col xl={4} className={styles.post}>
+                  <div> <Image className="img-fluid" src={scr2} /></div>
+                </Col>
+                <Col xl={4} className={styles.post}>
+                  <div> <Image className="img-fluid" src={scr3} /></div>
+                </Col>
 
-                    :
 
-                    <Slider
-                  {...awardslogo}
-                  className={` ${styles.startup1}  startposition text-center`}
-                >
+              </Row>
+              <Row>
+                <Col xl={4} className={styles.post}>
+                  <div> <Image className="img-fluid" src={scr4} /> </div>
+                </Col>
+                <Col xl={4} className={styles.post}>
+                  <div> <Image className="img-fluid" src={scr5} /></div>
+                </Col>
+                <Col xl={4} className={styles.post}>
+                  <div> <Image className="img-fluid" src={scr6} /></div>
+                </Col>
+              </Row>
+            </>
 
-                   
-                    <div> <Image className="img-fluid d-block m-auto" src={scr1} /> </div>
-                    
-                   
-                    <div> <Image className="img-fluid" src={scr2} /></div>
-                    
-                   
-                    <div> <Image className="img-fluid" src={scr3} /></div>
-                    
-                     
-                       
-                    
-                   
-                    <div> <Image className="img-fluid" src={scr4} /> </div>
-                    
-                   
-                    <div> <Image className="img-fluid" src={scr5} /></div>
-                        
-                       
-                        <div> <Image className="img-fluid" src={scr6} /></div>
-                        
-           
+            :
 
-                </Slider>
+            <Slider
+              {...awardslogo}
+              className={` ${styles.startup1}  startposition text-center`}
+            >
 
-}
-                </Container>
-            </section>
-        </>
-    )
+
+              <div> <Image className="img-fluid d-block m-auto" src={scr1} /> </div>
+
+
+              <div> <Image className="img-fluid" src={scr2} /></div>
+
+
+              <div> <Image className="img-fluid" src={scr3} /></div>
+
+
+
+
+
+              <div> <Image className="img-fluid" src={scr4} /> </div>
+
+
+              <div> <Image className="img-fluid" src={scr5} /></div>
+
+
+              <div> <Image className="img-fluid" src={scr6} /></div>
+
+
+
+            </Slider>
+
+          }
+        </Container>
+      </section>
+    </>
+  )
 }
 
 export default Tale
