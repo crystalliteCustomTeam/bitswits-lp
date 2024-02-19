@@ -104,6 +104,8 @@ export default function App({ Component, pageProps }) {
   // =======================================
   const newecommercepage =
     router.pathname == "/top-ecommerce-app-development-company";
+  const meetup =
+    router.pathname == "/meet-our-team-lp";
   // =======================================
   const superecommer = router.pathname == "/top-mobile-app-developers" ||
     router.pathname == "/top-ecommerce-app-development-company";
@@ -203,6 +205,8 @@ export default function App({ Component, pageProps }) {
         <Headerlp />
       ) : newhomepage ? (
         <Headerlphome />
+      ) : meetup ? (
+        ""
       ) : newecommercepage ? (
         <EcommerceBanner />
       ) : (
@@ -210,7 +214,7 @@ export default function App({ Component, pageProps }) {
           <NewHeaderDesign />
           <Header />
         </>
-      )
+      ) 
       }
 
       {mouse && <Cursor />}
@@ -223,9 +227,12 @@ export default function App({ Component, pageProps }) {
         <Footernewdesign />
       ) : newecommercepage ? (
         <EcommerceFooter />
+      ) : meetup ? (
+        ""
       ) : (
         <Footernewfy />
-      )
+      ) 
+      
       }
     </>
   );
