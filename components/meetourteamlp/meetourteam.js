@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image'
 import { Card, Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Meeteam.module.css'
@@ -13,31 +13,34 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const meetourteamlp = () => {
-  let MeetOurTeamSlider = {
+  let meetOurTeamSlider = {
     dots: false,
     arrows: false,
     autoplay: true,
-    infinite: true,
+    loop: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
     responsive: [
       {
-        breakpoint: 992,
+        breakpoint: 991,
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 2,
         }
       },
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
         }
       },
       {
         breakpoint: 575,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1,
         }
       }
     ]
@@ -79,6 +82,28 @@ const meetourteamlp = () => {
       phone: "0321-8280391",
     },
   ]
+
+  const [isLargeScreen, setIsLargeScreen] = useState(true);
+
+  const updateScreenSize = () => {
+    setIsLargeScreen(window.innerWidth >= 991); // Change the breakpoint to 992 pixels
+  };
+
+  useEffect(() => {
+    updateScreenSize();
+
+    const handleResize = () => {
+      updateScreenSize();
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      // Clean up the event listener
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <>
       <section className={`${styles.meetteam} meetteam`}>
@@ -92,9 +117,9 @@ const meetourteamlp = () => {
             </Col>
           </Row>
           <Row className='justify-content-around mt-5'>
-            {meetteam?.map((e, i) => (
-              <Col lg={2}>
-                <div key={i} className={`${styles.flipBox} ${styles.hoverEffect}`}>
+            {isLargeScreen && meetteam?.map((e, i) => (
+              <Col lg={2} key={i}>
+                <div className={`${styles.flipBox} ${styles.hoverEffect}`}>
                   <div className={styles.flipBoxInner}>
                     <div className={styles.flipBoxFront}>
                       <Image src={e.teamMember} quality={100} alt="Bitwits Meet Our Team" className='img-fluid' />
@@ -111,6 +136,31 @@ const meetourteamlp = () => {
                 </div>
               </Col>
             ))}
+
+            
+              {!isLargeScreen && meetteam?.map((e, i) => (
+                <Col md={4} sm={12} xs={12} key={i} className='py-1'>
+                  <div className={`${styles.flipBox} ${styles.hoverEffect}`}>
+                    <div className={styles.flipBoxInner}>
+                      <div className={styles.flipBoxFront}>
+                        <Image src={e.teamMember} quality={100} alt="Bitwits Meet Our Team" className='img-fluid d-inline' />
+                        <h4 dangerouslySetInnerHTML={{ __html: e.name }} />
+                        <p>{e.position}</p>
+                      </div>
+                      <div className={styles.flipBoxBack}>
+                        <h4 dangerouslySetInnerHTML={{ __html: e.name }} />
+                        <p>{e.position}</p>
+                        <p>{e.email}</p>
+                        <p>{e.phone}</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </Col>
+              ))}
+            
+
+
 
           </Row>
         </Container>

@@ -101,3 +101,85 @@
 .hoverEffect {
     /* Add hover effect styles here */
 }
+@media (min-width:768px) and (max-width:991px) {
+    .logo {
+        margin-top: 15%;
+        width: 30%;
+        height: auto
+    }
+    .meetteam {
+        height: 140vh;
+    }
+    .flipBox {
+        perspective: 1000px;
+        position: relative;
+        width: 100%;
+        height: 450px;
+        padding: 0px 0 250px;
+    }
+    .meetteam.slick-slide img {
+        display: inline !important;
+    }
+    .meetteam h1 {
+        font-size: 45px;
+        margin-top:5%;
+    }
+    
+    .meetteam h4 {
+        font-size: 20px;
+    }
+    .flipBoxBack {
+        border: 2px solid #d82e59;
+        height: 450px;
+    }
+    .flipBoxBack p {
+        color: #fff;
+        font-size: 20px;
+        text-transform: lowercase;
+        padding-top: 0;
+        font-weight: 600;
+        font-family: "Poppins";
+        letter-spacing: 1px
+    }
+}
+@media (min-width:300px) and (max-width:767px) {
+    .logo {
+        margin-top: 5%;
+        width: 30%;
+        height: auto
+    }
+    .meetteam {
+        height: 300vh;
+    }
+    .flipBox {
+        perspective: 1000px;
+        position: relative;
+        width: 100%;
+        height: 450px;
+        padding: 0 0 250px;
+    }
+    .meetteam.slick-slide img {
+        display: inline !important;
+    }
+    .meetteam h1 {
+        font-size: 40px;
+        margin-top:0%;
+    }
+    
+    .meetteam h4 {
+        font-size: 20px;
+    }
+    .flipBoxBack {
+        border: 2px solid #d82e59;
+        height: 450px;
+    }
+    .flipBoxBack p {
+        color: #fff;
+        font-size: 20px;
+        text-transform: lowercase;
+        padding-top: 0;
+        font-weight: 600;
+        font-family: "Poppins";
+        letter-spacing: 1px
+    }
+}

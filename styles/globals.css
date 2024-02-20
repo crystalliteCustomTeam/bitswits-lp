@@ -4465,3 +4465,9 @@ button {
         width: 20%;
     }
 }
+@media (min-width:768px) and (max-width: 991px) {
+  .meetteam .col-lg-2 {
+      width: 40%;
+      margin-top: 50px;
+  }
+}
