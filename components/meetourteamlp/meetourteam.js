@@ -53,22 +53,30 @@ const meetourteamlp = () => {
     {
       teamMember: Farhan,
       name: "Farhan <br/> Feroz Ali",
-      position: "President"
+      position: "President",
+      email: "Farhan@bitswits.co",
+      phone: "0321-8280391",
     },
     {
       teamMember: FY,
       name: "Faisal Qadeer <br/> Yousufi",
-      position: "Founder & CEO"
+      position: "Founder & CEO",
+      email: "FY@bitswits.co",
+      phone: "0321-8280391",
     },
     {
       teamMember: MI,
       name: "Muhammad <br/> Imran",
-      position: "Co-Founder"
+      position: "Co-Founder",
+      email: "MI@bitswits.co",
+      phone: "0321-8280391",
     },
     {
       teamMember: Gavin,
       name: "Gavin <br/> Fernandes",
-      position: "Vice President"
+      position: "Vice President",
+      email: "Gavin@bitswits.co",
+      phone: "0321-8280391",
     },
   ]
   return (
@@ -83,7 +91,7 @@ const meetourteamlp = () => {
               <h1>Tap to connect</h1>
             </Col>
           </Row>
-          <Row className='justify-content-around mt-4'>
+          <Row className='justify-content-around mt-5'>
             {meetteam?.map((e, i) => (
               <Col lg={2}>
                 <div key={i} className={`${styles.flipBox} ${styles.hoverEffect}`}>
