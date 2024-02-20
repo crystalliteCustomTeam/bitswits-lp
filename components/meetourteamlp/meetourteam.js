@@ -150,8 +150,8 @@ const meetourteamlp = () => {
                       <div className={styles.flipBoxBack}>
                         <h4 dangerouslySetInnerHTML={{ __html: e.name }} />
                         <p>{e.position}</p>
-                        <p>{e.email}</p>
-                        <p>{e.phone}</p>
+                        <p><a href="mailto:{e.email}">{e.email}</a></p>
+                      <p><a href="tel:{e.phone}">{e.phone}</a></p>
                       </div>
                     </div>
                   </div>
