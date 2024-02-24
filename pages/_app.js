@@ -114,6 +114,8 @@ export default function App({ Component, pageProps }) {
   const weblink = "https://www.bitswits.co";
   const newcol = weblink + sluginer;
   // =======================================
+  const meetOurTeam = router.pathname == "/meet-our-team";
+  // =======================================
 
 
   const indexingapi = {
@@ -128,22 +130,22 @@ export default function App({ Component, pageProps }) {
     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bitswits-api-service-account%40bitswits-412709.iam.gserviceaccount.com",
     "universe_domain": "googleapis.com"
-}
+  }
 
 
 
-// this code is for 301 redirection
+  // this code is for 301 redirection
 
-// useEffect(() => {
+  // useEffect(() => {
 
-  
-//   if(window.location.href == 'http://localhost:3000/mobile-app-design-company' ){
-//     router.push('/top-mobile-app-development-company');
-//   }
-//   else if (window.location.href == 'http://localhost:3000/wearable-app-development-company' ){
-//     router.push('/flutter-mobile-development');
-//   }
-// });
+
+  //   if(window.location.href == 'http://localhost:3000/mobile-app-design-company' ){
+  //     router.push('/top-mobile-app-development-company');
+  //   }
+  //   else if (window.location.href == 'http://localhost:3000/wearable-app-development-company' ){
+  //     router.push('/flutter-mobile-development');
+  //   }
+  // });
 
 
   return (
@@ -154,10 +156,9 @@ export default function App({ Component, pageProps }) {
         <meta name='dmca-site-verification' content='Z05ObW9WMWo4VTlQL0VpdEJuTzU0UT090' />
         <link rel="canonical" href={newcol} />
         <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(indexingapi) }}
-         />
-
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(indexingapi) }}
+        />
       </Head>
 
       <MetaData />
@@ -186,7 +187,7 @@ export default function App({ Component, pageProps }) {
           </Script>
 
           <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFH5JWNF"
-          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           <Zendesk defer zendeskKey={ZENDESK_KEY} onLoaded={handleLoaded} />
 
@@ -211,10 +212,10 @@ export default function App({ Component, pageProps }) {
         <EcommerceBanner />
       ) : (
         <>
-          <NewHeaderDesign />
-          <Header />
+          {meetOurTeam ? null : <NewHeaderDesign />}
+          {meetOurTeam ? null : <Header />}
         </>
-      ) 
+      )
       }
 
       {mouse && <Cursor />}
@@ -230,9 +231,8 @@ export default function App({ Component, pageProps }) {
       ) : meetup ? (
         ""
       ) : (
-        <Footernewfy />
-      ) 
-      
+        <> {meetOurTeam ? null : <Footernewfy />} </>
+      )
       }
     </>
   );

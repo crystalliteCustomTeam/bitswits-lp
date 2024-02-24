@@ -1,85 +1,51 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image'
-import { Card, Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Meeteam.module.css'
+//
 import logo from '../../public/images/icons/footerlogo.webp'
-import Isam from '/public/meetourteam/Isaam.png'
-import Farhan from '/public/meetourteam/Farhan.png'
-import FY from '/public/meetourteam/FY.png'
-import MI from '/public/meetourteam/Mi.png'
-import Gavin from '/public/meetourteam/Gavin.png'
-import Slider from 'react-slick'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import Neal from '/public/meetourteam/Neal.png'
+import Gavin from '/public/meetourteam/Gevin.png'
+import Austin from '/public/meetourteam/Austin.png'
 
 const meetourteamlp = () => {
-  let meetOurTeamSlider = {
-    dots: false,
-    arrows: false,
-    autoplay: true,
-    loop: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    responsive: [
-      {
-        breakpoint: 991,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        }
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        }
-      },
-      {
-        breakpoint: 575,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        }
-      }
-    ]
-  };
+
   let meetteam = [
     {
-      teamMember: Isam,
-      name: "Isam <br/> Rashid",
-      position: "Sales Manager",
-      email: "Isam@bitswits.co",
-      phone: "0321-8280391",
+      id: "Neal",
+      teamMember: Neal,
+      name: "Neal <br/> Kenneth",
+      position: "Client Engagement",
+      email: "neal.kenneth@bitswits.co",
+      href1: "mailto:neal.kenneth@bitswits.co",
+      phone1: "+1-302-216-8228",
+      href2: "tel:+1-302-216-8228",
+      phone2: "+92-320-8869696",
+      href3: "tel:+92-320-8869696",
     },
     {
-      teamMember: Farhan,
-      name: "Farhan <br/> Feroz Ali",
-      position: "President",
-      email: "Farhan@bitswits.co",
-      phone: "0321-8280391",
-    },
-    {
-      teamMember: FY,
-      name: "Faisal Qadeer <br/> Yousufi",
-      position: "Founder & CEO",
-      email: "FY@bitswits.co",
-      phone: "0321-8280391",
-    },
-    {
-      teamMember: MI,
-      name: "Muhammad <br/> Imran",
-      position: "Co-Founder",
-      email: "MI@bitswits.co",
-      phone: "0321-8280391",
-    },
-    {
+      id: "Gavin",
       teamMember: Gavin,
       name: "Gavin <br/> Fernandes",
       position: "Vice President",
-      email: "Gavin@bitswits.co",
-      phone: "0321-8280391",
+      email: "gavin@bitswits.co",
+      href1: "mailto:gavin@bitswits.co",
+      phone1: "+1-302-216-8231",
+      href2: "tel:+1-302-216-8231",
+      phone2: "+92-321-8920913",
+      href3: "tel:+92-321-8920913",
+    },
+    {
+      id: "Austin",
+      teamMember: Austin,
+      name: "Austin <br/> Patrick",
+      position: "Client Relations",
+      email: "austin.patrick@bitwits.co",
+      href1: "mailto:austin.patrick@bitwits.co",
+      phone1: "+1-302-312-8230",
+      href2: "tel:+1-302-312-8230",
+      phone2: "+92-334-3932952",
+      href3: "tel:+92-334-3932952",
     },
   ]
 
@@ -116,10 +82,10 @@ const meetourteamlp = () => {
               <h1>Tap to connect</h1>
             </Col>
           </Row>
-          <Row className='justify-content-around mt-5'>
+          <Row className='justify-content-center gap-5 mt-4'>
             {isLargeScreen && meetteam?.map((e, i) => (
-              <Col lg={2} key={i}>
-                <div className={`${styles.flipBox} ${styles.hoverEffect}`}>
+              <Col lg={3} key={i}>
+                <div id={e.id} className={`${styles.flipBox} ${styles.hoverEffect}`}>
                   <div className={styles.flipBoxInner}>
                     <div className={styles.flipBoxFront}>
                       <Image src={e.teamMember} quality={100} alt="Bitwits Meet Our Team" className='img-fluid' />
@@ -128,40 +94,37 @@ const meetourteamlp = () => {
                     </div>
                     <div className={styles.flipBoxBack}>
                       <h4 dangerouslySetInnerHTML={{ __html: e.name }} />
-                      <p>{e.position}</p>
-                      <p><a href="mailto:{e.email}">{e.email}</a></p>
-                      <p><a href="tel:{e.phone}">{e.phone}</a></p>
+                      <p className={styles.position}>{e.position}</p>
+                      <p><a className='text-white' href={e.href1}>{e.email}</a></p>
+                      <p><a className='text-white' href={e.href2}>{e.phone1}</a></p>
+                      <p><a className='text-white' href={e.href3}>{e.phone2}</a></p>
                     </div>
                   </div>
                 </div>
               </Col>
             ))}
 
-            
-              {!isLargeScreen && meetteam?.map((e, i) => (
-                <Col md={4} sm={12} xs={12} key={i} className='py-1'>
-                  <div className={`${styles.flipBox} ${styles.hoverEffect}`}>
-                    <div className={styles.flipBoxInner}>
-                      <div className={styles.flipBoxFront}>
-                        <Image src={e.teamMember} quality={100} alt="Bitwits Meet Our Team" className='img-fluid d-inline' />
-                        <h4 dangerouslySetInnerHTML={{ __html: e.name }} />
-                        <p>{e.position}</p>
-                      </div>
-                      <div className={styles.flipBoxBack}>
-                        <h4 dangerouslySetInnerHTML={{ __html: e.name }} />
-                        <p>{e.position}</p>
-                        <p><a href="mailto:{e.email}">{e.email}</a></p>
-                      <p><a href="tel:{e.phone}">{e.phone}</a></p>
-                      </div>
+            {!isLargeScreen && meetteam?.map((e, i) => (
+              <Col md={12} key={i} className='py-1'>
+                <div id={e.id} className={`${styles.flipBox} ${styles.hoverEffect}`}>
+                  <div className={styles.flipBoxInner}>
+                    <div className={styles.flipBoxFront}>
+                      <Image src={e.teamMember} quality={100} alt="Bitwits Meet Our Team" className='img-fluid d-inline' />
+                      <h4 dangerouslySetInnerHTML={{ __html: e.name }} />
+                      <p>{e.position}</p>
+                    </div>
+                    <div className={styles.flipBoxBack}>
+                      <h4 dangerouslySetInnerHTML={{ __html: e.name }} />
+                      <p className={styles.position}>{e.position}</p>
+                      <p><a className='text-white' href={e.href1}>{e.email}</a></p>
+                      <p><a className='text-white' href={e.href2}>{e.phone1}</a></p>
+                      <p><a className='text-white' href={e.href3}>{e.phone2}</a></p>
                     </div>
                   </div>
+                </div>
 
-                </Col>
-              ))}
-            
-
-
-
+              </Col>
+            ))}
           </Row>
         </Container>
       </section>
