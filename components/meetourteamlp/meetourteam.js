@@ -98,10 +98,12 @@ const meetourteamlp = () => {
                     </div>
                     <div className={styles.flipBoxBack}>
                       <h4 dangerouslySetInnerHTML={{ __html: e.name }} />
-                      <p className={styles.position}>{e.position}</p>
-                      <p><a className='text-white' href={e.href1}>{e.email}</a></p>
                       <p><a className='text-white' href={e.href2}>{e.phone1}</a></p>
                       <p><a className='text-white' href={e.href3}>{e.phone2}</a></p>
+                      <p><a className='text-white' href={e.href1}>{e.email}</a></p>
+                      <p className={styles.position}>{e.position}</p>
+                    
+                  
                       
                     </div>
                   </div>
@@ -120,10 +122,12 @@ const meetourteamlp = () => {
                     </div>
                     <div className={styles.flipBoxBack}>
                       <h4 dangerouslySetInnerHTML={{ __html: e.name }} />
-                      <p className={styles.position}>{e.position}</p>
-                      <p><a className='text-white' href={e.href1}>{e.email}</a></p>
                       <p><a className='text-white' href={e.href2}>{e.phone1}</a></p>
                       <p><a className='text-white' href={e.href3}>{e.phone2}</a></p>
+                      <p><a className='text-white' href={e.href1}>{e.email}</a></p>
+                      <p className={styles.position}>{e.position}</p>
+                      
+                  
                     </div>
                   </div>
                 </div>
