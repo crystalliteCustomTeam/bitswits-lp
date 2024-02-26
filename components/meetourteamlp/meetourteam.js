@@ -29,7 +29,7 @@ const meetourteamlp = () => {
       id: "Neal",
       teamMember: Neal,
       name: "Neal <br/> Kenneth",
-      position: "AVP-Product Strategy & Client Engagement",
+      position: "Assistant Vice President",
       email: "neal.kenneth@bitswits.co",
       href1: "mailto:neal.kenneth@bitswits.co",
       phone1: "+1-302-216-8228",
