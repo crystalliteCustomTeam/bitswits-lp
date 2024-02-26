@@ -7,22 +7,12 @@ import logo from '../../public/images/icons/footerlogo.webp'
 import Neal from '/public/meetourteam/Neal.png'
 import Gavin from '/public/meetourteam/Gevin.png'
 import Austin from '/public/meetourteam/Austin.png'
+import { AiFillLinkedin } from 'react-icons/ai'
+import Link from 'next/link';
 
 const meetourteamlp = () => {
 
   let meetteam = [
-    {
-      id: "Neal",
-      teamMember: Neal,
-      name: "Neal <br/> Kenneth",
-      position: "Client Engagement",
-      email: "neal.kenneth@bitswits.co",
-      href1: "mailto:neal.kenneth@bitswits.co",
-      phone1: "+1-302-216-8228",
-      href2: "tel:+1-302-216-8228",
-      phone2: "+92-320-8869696",
-      href3: "tel:+92-320-8869696",
-    },
     {
       id: "Gavin",
       teamMember: Gavin,
@@ -36,16 +26,30 @@ const meetourteamlp = () => {
       href3: "tel:+92-321-8920913",
     },
     {
+      id: "Neal",
+      teamMember: Neal,
+      name: "Neal <br/> Kenneth",
+      position: "AVP-Product Strategy & Client Engagement",
+      email: "neal.kenneth@bitswits.co",
+      href1: "mailto:neal.kenneth@bitswits.co",
+      phone1: "+1-302-216-8228",
+      href2: "tel:+1-302-216-8228",
+      phone2: "+92-320-8869696",
+      href3: "tel:+92-320-8869696",
+    },
+   
+    {
       id: "Austin",
       teamMember: Austin,
       name: "Austin <br/> Patrick",
-      position: "Client Relations",
+      position: "Sr.Manager-Client  Relations",
       email: "austin.patrick@bitwits.co",
       href1: "mailto:austin.patrick@bitwits.co",
       phone1: "+1-302-312-8230",
       href2: "tel:+1-302-312-8230",
       phone2: "+92-334-3932952",
       href3: "tel:+92-334-3932952",
+      
     },
   ]
 
@@ -98,6 +102,7 @@ const meetourteamlp = () => {
                       <p><a className='text-white' href={e.href1}>{e.email}</a></p>
                       <p><a className='text-white' href={e.href2}>{e.phone1}</a></p>
                       <p><a className='text-white' href={e.href3}>{e.phone2}</a></p>
+                      
                     </div>
                   </div>
                 </div>

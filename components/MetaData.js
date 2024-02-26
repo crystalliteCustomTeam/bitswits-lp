@@ -1161,6 +1161,10 @@ const MetaData = () => {
                 <Head>
                     <title>Mobile App Development Company Dubai</title>
                 </Head>
+            ) : PagePath === '/meet-our-team' ? (
+                <Head>
+                    <title>Meet Our Team</title>
+                </Head>
             )
                 : null
             }
