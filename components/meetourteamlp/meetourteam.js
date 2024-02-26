@@ -42,7 +42,7 @@ const meetourteamlp = () => {
       id: "Austin",
       teamMember: Austin,
       name: "Austin <br/> Patrick",
-      position: "Sr.Manager-Client  Relations",
+      position: "Sr.Manager",
       email: "austin.patrick@bitwits.co",
       href1: "mailto:austin.patrick@bitwits.co",
       phone1: "+1-302-312-8230",
