@@ -1000,7 +1000,10 @@ a {
 }
 
 /* =============Custom Cursor============== */
-
+.size-large {
+  width: 100%;
+  height: auto;
+}
 .cursor {
   position: fixed;
   width: 400px;
