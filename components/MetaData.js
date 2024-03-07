@@ -237,6 +237,81 @@ const MetaData = () => {
         },
         "datePublished": ""
       }
+      const schemagame = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bitswits.co/8-design-principles-2d-game-developers-follow/"
+        },
+        "headline": "8 Design Principles 2D Game Developers Follow to Create Captivating Gameplay",
+        "description": "2d game development, 2d game development company, 2d game development services, 2d games development company, 2d game developers, top 2d game developer",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "2d game development, 2d game development company, 2d game development services, 2d games development company, 2d game developers, top 2d game developer",
+          "url": "https://www.bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "2d game development, 2d game development company, 2d game development services, 2d games development company, 2d game developers, top 2d game developer",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": ""
+      }
+      const schemacommon = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bitswits.co/9-common-challenges-faced-by-2d-game-developers/"
+        },
+        "headline": "9 Common Challenges Faced by 2D Game Developers and How to Overcome Them",
+        "description": "2d game development, 2d game development company, 2d game development services, 2d games development company, 2d game developers, top 2d game developer",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "2d game development, 2d game development company, 2d game development services, 2d games development company, 2d game developers, top 2d game developer",
+          "url": "https://www.bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "2d game development, 2d game development company, 2d game development services, 2d games development company, 2d game developers, top 2d game developer",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": ""
+      }
+      const schematesting = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bitswits.co/2d-games-development-strategies/"
+        },
+        "headline": "2d Games Development Strategies by a 2D Game Development Company for Bug-Free Games",
+        "description": "2d game development, 2d game development company, 2d game development services, 2d games development company, 2d game developers, top 2d game developer",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "2d game development, 2d game development company, 2d game development services, 2d games development company, 2d game developers, top 2d game developer",
+          "url": "https://www.bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "2d game development, 2d game development company, 2d game development services, 2d games development company, 2d game developers, top 2d game developer",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": ""
+      }
     return (
         <>
             {PagePath === '/' ? (
@@ -1165,8 +1240,51 @@ const MetaData = () => {
                 <Head>
                     <title>Meet Our Team</title>
                 </Head>
-            )
-                : null
+            ) : PagePath === '/8-design-principles-2d-game-developers-follow' ? (
+                <Head>
+                    <title>8 Design Principles Top 2D Game Developers Follow </title>
+                    <meta name="description" content="The design of 2D games determine if users would love the game or not. Here are eight design principles 2D game developers follow to create a great user experience." key="metadesc" />
+                    <meta name="DC.title" content="2d game development, 2d game development company, 2d game developers, top 2d game developer" />
+                    <meta name="geo.region" content="US" />
+                    <meta name="geo.position" content="39.78373;-100.445882" />
+                    <meta name="ICBM" content="39.78373, -100.445882" />
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemagame) }}
+                    />
+
+                </Head>
+            ) : PagePath === '/9-common-challenges-faced-by-2d-game-developers' ? (
+                <Head>
+                    <title>9 Common Challenges Faced by 2D Game Developers  </title>
+                    <meta name="description" content="Discover the 9 common challenges that 2D game developers face while developing a 2D game. Learn how to overcome these challenges with various strategies." key="metadesc" />
+                    <meta name="DC.title" content="2d game development, 2d game development company, 2d game developers, top 2d game developer" />
+                <meta name="geo.region" content="US" />
+                <meta name="geo.position" content="39.78373;-100.445882" />
+                <meta name="ICBM" content="39.78373, -100.445882" />
+
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemacommon) }}
+                    />
+
+                </Head>
+            ): PagePath === '/2d-games-development-strategies' ? (
+                <Head>
+                    <title>7 Strategies By 2D Game Development Company For Bug-Free Games  </title>
+                    <meta name="description" content="Discover the different testing and maintenance strategies utilized by a 2D game development company to ensure a smooth gaming experience." key="metadesc" />
+                    <meta name="DC.title" content="2d game development, 2d game development company, 2d game developers, top 2d game developer" />
+                    <meta name="geo.region" content="US" />
+                    <meta name="geo.position" content="39.78373;-100.445882" />
+                    <meta name="ICBM" content="39.78373, -100.445882" />
+
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schematesting) }}
+                    />
+
+                </Head>
+            ): null
             }
         </>
     )
