@@ -191,6 +191,10 @@ const Footerlp = () => {
                   <li>
                     <Link href="/term-and-condition">Terms & Conditions</Link>
                   </li>
+                  <li>
+                    <Link href="/blog">Blogs</Link>
+                  </li>
+                
                 </ul>
                 <ul className={`${styles.contacts} ${styles.myLinks} p-0`}>
                   <li className="mb-2">
