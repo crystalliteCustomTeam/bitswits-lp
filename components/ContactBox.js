@@ -207,7 +207,7 @@ const ContactBox = () => {
                                 </div>
                             </Col>
                             <Col lg={6}>
-                                <h2 className="font40 font-bold newfycolr">Say Hello!</h2>
+                                <h1 className="font40 font-bold newfycolr">Say Hello!</h1>
                                 <p className="font16 font-medium white">
                                     Let’s make headlines together! We’re excited to collaborate with you on your fantastic project.
                                 </p>

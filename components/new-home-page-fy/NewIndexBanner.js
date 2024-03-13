@@ -51,13 +51,13 @@ const NewIndex2Banner = () => {
                     <li className={`${styles.item} item ${styles.item2}`}>
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
-                                <p className={`${styles.just} font-heavy font30 mb-0`}>
+                                <h2 className={`${styles.just} font-heavy font30 mb-0`}>
                                     Blockchain App Development Experts
-                                </p>
-                                <h1 className={`${styles.develop} font55home letterspacefy font-bold mt-sm-2 mt-0 `}>
+                                </h2>
+                                <h2 className={`${styles.develop} font55home letterspacefy font-bold mt-sm-2 mt-0 `}>
                                     Secure, Smart Blockchain Solutions. Building The Future, Block
                                     By Block.
-                                </h1>
+                                </h2>
                                 <p className=" font-regular text-white font16 mt-sm-3 mt-1 mb-0 mb-sm-2">
                                     Lead the blockchain revolution with our expertly developed
                                     apps, offering unmatched security and innovation. Choose us
@@ -74,13 +74,13 @@ const NewIndex2Banner = () => {
                     <li className={`${styles.item} item ${styles.item1}`}>
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
-                                <p className={`${styles.just} font-heavy font30 mb-lg-0`}>
+                                <h1 className={`${styles.just} font-heavy font30 mb-lg-0`}>
                                     Top Mobile App Development Company
-                                </p>
-                                <h1 className={`${styles.develop} font55home letterspacefy font-bold mt-2`}>
+                                </h1>
+                                <h2 className={`${styles.develop} font55home letterspacefy font-bold mt-2`}>
                                     Turning Challenges Into Opportunities With Expert App
                                     Development
-                                </h1>
+                                </h2>
                                 <p className=" font-regular text-white font16 mt-3">
                                     We blend art and technology to create mobile apps that are as
                                     user-friendly as they are innovative. Elevate your presence in
@@ -98,12 +98,12 @@ const NewIndex2Banner = () => {
                     <li className={`${styles.item} item ${styles.item3}`}>
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
-                                <p className={`${styles.just} font-heavy font30 mb-lg-0`}>
+                                <h2 className={`${styles.just} font-heavy font30 mb-lg-0`}>
                                     Top-Rated Game Development Company
-                                </p>
-                                <h1 className={`${styles.develop} font55home letterspacefy font-bold mt-2`}>
+                                </h2>
+                                <h2 className={`${styles.develop} font55home letterspacefy font-bold mt-2`}>
                                     Where Exceptional Apps Are Just The Beginning.
-                                </h1>
+                                </h2>
                                 <p className=" font-regular text-white font16 mt-3">
                                     As a top-rated mobile app development company, Bitswits excels
                                     in transforming ideas into engaging, high-performance apps.
@@ -122,12 +122,12 @@ const NewIndex2Banner = () => {
                     <li className={`${styles.item} item ${styles.item4}`}>
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
-                                <p className={`${styles.just} font-heavy font30 mb-lg-0`}>
+                                <h2 className={`${styles.just} font-heavy font30 mb-lg-0`}>
                                     Top Artificial Intelligence Development Company
-                                </p>
-                                <h1 className={`${styles.develop} font55home letterspacefy font-bold mt-2`}>
+                                </h2>
+                                <h2 className={`${styles.develop} font55home letterspacefy font-bold mt-2`}>
                                     Where Artificial Intelligence Meets Real-World Innovation
-                                </h1>
+                                </h2>
                                 <p className=" font-regular text-white font16 mt-3">
                                     We turn artificial intelligence into real business results,
                                     building AI apps that are as clever as they are effective.
@@ -143,12 +143,12 @@ const NewIndex2Banner = () => {
                     <li className={`${styles.item} item ${styles.item5}`}>
                         {itemData.map((item, index) => (
                             <div key={index} className={styles.content}>
-                                <p className={`${styles.just} font-heavy font30 mb-lg-0`}>
+                                <h2 className={`${styles.just} font-heavy font30 mb-lg-0`}>
                                     Custom Software Development Solutions
-                                </p>
-                                <h1 className={`${styles.develop} font55home letterspacefy font-bold mt-2`}>
+                                </h2>
+                                <h2 className={`${styles.develop} font55home letterspacefy font-bold mt-2`}>
                                     Tailored Software Solutions For Unique Business Needs
-                                </h1>
+                                </h2>
                                 <p className=" font-regular text-white font16 mt-3">
                                     Your business is unique, and your software should be too. We
                                     create custom software solutions that fit perfectly with your

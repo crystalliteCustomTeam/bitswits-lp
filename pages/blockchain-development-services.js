@@ -67,9 +67,9 @@ export default function blockchaindevelopmentservices() {
       <Provideservices
         assignClass="provideserv"
         title={
-          <h3 className="font_30 fontsfheavy newfycolr">
+          <h2 className="font_30 fontsfheavy newfycolr">
             Blockchain Development Services
-          </h3>
+          </h2>
         }
         bigtitle={
           <h2 className="newchoose letterspace_1 font-bold white">
@@ -85,9 +85,9 @@ export default function blockchaindevelopmentservices() {
           </p>
         }
         title2={
-          <h3 className="font_30 font-bold newfycolr">
+          <h2 className="font_30 font-bold newfycolr">
             Blockchain Technology Development
-          </h3>
+          </h2>
         }
         para2={
           <p className="font_15 linehight_1 white fontsfregular pt-2">
@@ -132,9 +132,9 @@ export default function blockchaindevelopmentservices() {
       <SmartContract
         assignClass="provideserv"
         title={
-          <h3 className="font_30 fontsfheavy newfycolr center">
+          <h2 className="font_30 fontsfheavy newfycolr center">
             Blockchain Development Services
-          </h3>
+          </h2>
         }
         bigtitle={
           <h2 className="newchoose letterspace_1 font-bold white center">

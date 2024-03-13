@@ -52,7 +52,7 @@ const Intelligence = (props) => {
                 <Container>
                     <Row className="gx-5">
                         <Col lg={12}>
-                            <h3 className="font_30 fontsfheavy newfycolr">Custom Blockchain Applications</h3>
+                            <h2 className="font_30 fontsfheavy newfycolr">Custom Blockchain Applications</h2>
                             <h2 className="newchoose letterspace_1 font-bold white">We Build Custom Blockchain Applications</h2>
                             <p className="font_17 white fontsfregular pt-2 pb-2">Bitswits designs and integrates custom Blockchain Applications into existing enterprise systems for businesses to leverage a safe, <br /> secure environment for diverse business transactions.</p>
                         </Col>

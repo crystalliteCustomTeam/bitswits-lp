@@ -12,16 +12,16 @@ const ServiceBanner = (props) => {
         <Container>
           <Row>
             <Col xl={12}>
-              <p
+              <h1
                 className={`${styles.just} font28 font-medium text-center mb-0 line35`}
               >
                 {props.subtitle}
-              </p>
-              <h1
+              </h1>
+              <h2
                 className={`${styles.develop} text-center font55home font-bold mb-2`}
               >
                 {props.title}
-              </h1>
+              </h2>
               <p className={`font16 white center mb-3 ${styles.bannerText}`}>
                 {props.text}
               </p>

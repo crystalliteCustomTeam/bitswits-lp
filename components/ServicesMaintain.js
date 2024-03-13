@@ -14,9 +14,9 @@ const ServicesMaintain = (props) => {
         <Container>
           <Row className="g-3">
             <Col lg={12} className="mx-auto mb-4">
-              <h3 className={`font24 font-bold text-center mb-2 ling15`}>
+              <h2 className={`font24 newfycolr font-bold text-center mb-2 ling15`}>
                 {props.subtitle}
-              </h3>
+              </h2>
               <h2 className="text-white newchoose f-700 text-center mb-2">
                 {props.title0}
                 <span className="newfycolr font50 f-700 text-center d-block mb-2">
