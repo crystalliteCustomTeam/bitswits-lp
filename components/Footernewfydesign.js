@@ -182,9 +182,7 @@ const Footerlp = () => {
                   <li>
                     <Link href="/our-work">Works</Link>
                   </li>
-                  <li>
-                    <Link href="#">Testimonials</Link>
-                  </li>
+              
                   <li>
                     <Link href="/privacy-policy">Privacy Policy</Link>
                   </li>
