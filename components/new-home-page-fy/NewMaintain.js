@@ -27,9 +27,9 @@ const NewMaintain = (props) => {
                             <h3 className={` f-30 font-bold text-center mb-0 newfycolr`}>
                                 {props.title1}
                             </h3>
-                            <h1 className="text-white font50  f-700  text-center">
+                            <h2 className="text-white font50  f-700  text-center">
                                 {props.title2}
-                            </h1>
+                            </h2>
                             <p className="m-0 text-white text-center pb-4">{props.text}</p>
                         </Col>
                         <Col sm={6} lg={4}>

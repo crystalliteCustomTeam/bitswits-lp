@@ -204,12 +204,12 @@ export default function Home() {
                 >
                   Endorsements on different Platforms
                 </p>
-                <h1
+                <h2
                   className={`fontawards font-bold mb-3 mb-lg-0 ${styles.textPink}`}
                 >
                   Awards & <br />
                   Recognition
-                </h1>
+                </h2>
               </div>
               {isSliderActive ? (
                 <div className={`${styles.appdev} col-7`}>
