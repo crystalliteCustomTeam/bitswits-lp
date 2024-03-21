@@ -221,6 +221,8 @@ export default function App({ Component, pageProps }) {
         ""
       ) : newecommercepage ? (
         <EcommerceBanner />
+      ) : dubai ? (
+        ""
       ) : (
         <>
           {meetOurTeam ? null : <NewHeaderDesign />}
@@ -234,7 +236,14 @@ export default function App({ Component, pageProps }) {
 
 
       {dubai ?
-    (imagesLoaded2 ? <Component {...pageProps} /> : "")
+    (imagesLoaded2 ?
+     <>
+      <NewHeaderDesign />
+      <Header />
+      <Component {...pageProps} />
+      <Footernewfy />
+     </>
+      : "")
     : 
     (imagesLoaded ? <Component {...pageProps} /> : <Loader />)
   }
@@ -245,7 +254,9 @@ export default function App({ Component, pageProps }) {
         <Footernewdesign />
       ) : newecommercepage ? (
         <EcommerceFooter />
-      ) : meetup ? (
+      ): dubai ? (
+        ""
+      )  : meetup ? (
         ""
       ) : (
         <> {meetOurTeam ? null : <Footernewfy />} </>
