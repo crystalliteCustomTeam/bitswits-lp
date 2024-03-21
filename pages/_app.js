@@ -43,6 +43,16 @@ export default function App({ Component, pageProps }) {
     }, delay);
     return () => clearTimeout(timeoutId);
   }, []);
+
+
+  const [imagesLoaded2, setImagesLoaded2] = useState(false);
+  useEffect(() => {
+    const delay = 0;
+    const timeoutId = setTimeout(() => {
+      setImagesLoaded2(true);
+    }, delay);
+    return () => clearTimeout(timeoutId);
+  }, []);
   // =======================================
   const mouse =
     router.pathname == "/" ||
@@ -117,6 +127,7 @@ export default function App({ Component, pageProps }) {
   const meetOurTeam = router.pathname == "/meet-our-team";
   // =======================================
 
+  const dubai = router.pathname == "/mobile-app-development-company-dubai";
 
   const indexingapi = {
     "type": "service_account",
@@ -220,7 +231,13 @@ export default function App({ Component, pageProps }) {
 
       {mouse && <Cursor />}
 
-      {imagesLoaded ? <Component {...pageProps} /> : <Loader />}
+
+
+      {dubai ?
+    (imagesLoaded2 ? <Component {...pageProps} /> : "")
+    : 
+    (imagesLoaded ? <Component {...pageProps} /> : <Loader />)
+  }
 
       {newlps ? (
         <Footernewlp />
