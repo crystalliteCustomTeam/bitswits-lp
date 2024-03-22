@@ -236,17 +236,17 @@ export default function App({ Component, pageProps }) {
 
 
       {dubai ?
-    (imagesLoaded2 ?
-     <>
-      <NewHeaderDesign />
-      <Header />
-      <Component {...pageProps} />
-      <Footernewfy />
-     </>
-      : "")
-    : 
-    (imagesLoaded ? <Component {...pageProps} /> : <Loader />)
-  }
+        (imagesLoaded2 ?
+          <>
+            <NewHeaderDesign />
+            <Header />
+            <Component {...pageProps} />
+            <Footernewfy />
+          </>
+          : "")
+        :
+        (imagesLoaded ? <Component {...pageProps} /> : <Loader />)
+      }
 
       {newlps ? (
         <Footernewlp />
@@ -254,9 +254,9 @@ export default function App({ Component, pageProps }) {
         <Footernewdesign />
       ) : newecommercepage ? (
         <EcommerceFooter />
-      ): dubai ? (
+      ) : dubai ? (
         ""
-      )  : meetup ? (
+      ) : meetup ? (
         ""
       ) : (
         <> {meetOurTeam ? null : <Footernewfy />} </>
