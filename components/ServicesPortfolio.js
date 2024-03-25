@@ -54,7 +54,7 @@ const ServicesPortfolio = (props) => {
                 <Container>
                     <Row className="g-3">
                         <Col lg={12}>
-                            <h1 className="text-white newchoose f-700 text-center pb-sm-4">{props.title}</h1>
+                            <h2 className="text-white newchoose f-700 text-center pb-sm-4">{props.title}</h2>
                         </Col>
                         {visibleItems.map((item) => (
                             <Col lg={4} md={6} key={item.id}>

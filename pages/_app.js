@@ -43,6 +43,16 @@ export default function App({ Component, pageProps }) {
     }, delay);
     return () => clearTimeout(timeoutId);
   }, []);
+
+
+  const [imagesLoaded2, setImagesLoaded2] = useState(false);
+  useEffect(() => {
+    const delay = 0;
+    const timeoutId = setTimeout(() => {
+      setImagesLoaded2(true);
+    }, delay);
+    return () => clearTimeout(timeoutId);
+  }, []);
   // =======================================
   const mouse =
     router.pathname == "/" ||
@@ -104,6 +114,8 @@ export default function App({ Component, pageProps }) {
   // =======================================
   const newecommercepage =
     router.pathname == "/top-ecommerce-app-development-company";
+  const meetup =
+    router.pathname == "/meet-our-team-lp";
   // =======================================
   const superecommer = router.pathname == "/top-mobile-app-developers" ||
     router.pathname == "/top-ecommerce-app-development-company";
@@ -112,7 +124,10 @@ export default function App({ Component, pageProps }) {
   const weblink = "https://www.bitswits.co";
   const newcol = weblink + sluginer;
   // =======================================
+  const meetOurTeam = router.pathname == "/meet-our-team";
+  // =======================================
 
+  const dubai = router.pathname == "/mobile-app-development-company-dubai";
 
   const indexingapi = {
     "type": "service_account",
@@ -126,22 +141,22 @@ export default function App({ Component, pageProps }) {
     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bitswits-api-service-account%40bitswits-412709.iam.gserviceaccount.com",
     "universe_domain": "googleapis.com"
-}
+  }
 
 
 
-// this code is for 301 redirection
+  // this code is for 301 redirection
 
-// useEffect(() => {
+  // useEffect(() => {
 
-  
-//   if(window.location.href == 'http://localhost:3000/mobile-app-design-company' ){
-//     router.push('/top-mobile-app-development-company');
-//   }
-//   else if (window.location.href == 'http://localhost:3000/wearable-app-development-company' ){
-//     router.push('/flutter-mobile-development');
-//   }
-// });
+
+  //   if(window.location.href == 'http://localhost:3000/mobile-app-design-company' ){
+  //     router.push('/top-mobile-app-development-company');
+  //   }
+  //   else if (window.location.href == 'http://localhost:3000/wearable-app-development-company' ){
+  //     router.push('/flutter-mobile-development');
+  //   }
+  // });
 
 
   return (
@@ -152,10 +167,9 @@ export default function App({ Component, pageProps }) {
         <meta name='dmca-site-verification' content='Z05ObW9WMWo4VTlQL0VpdEJuTzU0UT090' />
         <link rel="canonical" href={newcol} />
         <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(indexingapi) }}
-         />
-
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(indexingapi) }}
+        />
       </Head>
 
       <MetaData />
@@ -184,7 +198,7 @@ export default function App({ Component, pageProps }) {
           </Script>
 
           <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFH5JWNF"
-          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           <Zendesk defer zendeskKey={ZENDESK_KEY} onLoaded={handleLoaded} />
 
@@ -203,19 +217,36 @@ export default function App({ Component, pageProps }) {
         <Headerlp />
       ) : newhomepage ? (
         <Headerlphome />
+      ) : meetup ? (
+        ""
       ) : newecommercepage ? (
         <EcommerceBanner />
+      ) : dubai ? (
+        ""
       ) : (
         <>
-          <NewHeaderDesign />
-          <Header />
+          {meetOurTeam ? null : <NewHeaderDesign />}
+          {meetOurTeam ? null : <Header />}
         </>
       )
       }
 
       {mouse && <Cursor />}
 
-      {imagesLoaded ? <Component {...pageProps} /> : <Loader />}
+
+
+      {dubai ?
+        (imagesLoaded2 ?
+          <>
+            <NewHeaderDesign />
+            <Header />
+            <Component {...pageProps} />
+            <Footernewfy />
+          </>
+          : "")
+        :
+        (imagesLoaded ? <Component {...pageProps} /> : <Loader />)
+      }
 
       {newlps ? (
         <Footernewlp />
@@ -223,8 +254,12 @@ export default function App({ Component, pageProps }) {
         <Footernewdesign />
       ) : newecommercepage ? (
         <EcommerceFooter />
+      ) : dubai ? (
+        ""
+      ) : meetup ? (
+        ""
       ) : (
-        <Footernewfy />
+        <> {meetOurTeam ? null : <Footernewfy />} </>
       )
       }
     </>

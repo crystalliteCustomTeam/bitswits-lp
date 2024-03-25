@@ -237,6 +237,181 @@ const MetaData = () => {
         },
         "datePublished": ""
       }
+      const schemagame = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bitswits.co/8-design-principles-2d-game-developers-follow/"
+        },
+        "headline": "8 Design Principles 2D Game Developers Follow to Create Captivating Gameplay",
+        "description": "2d game development, 2d game development company, 2d game development services, 2d games development company, 2d game developers, top 2d game developer",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "2d game development, 2d game development company, 2d game development services, 2d games development company, 2d game developers, top 2d game developer",
+          "url": "https://www.bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "2d game development, 2d game development company, 2d game development services, 2d games development company, 2d game developers, top 2d game developer",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": ""
+      }
+      const schemacommon = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bitswits.co/9-common-challenges-faced-by-2d-game-developers/"
+        },
+        "headline": "9 Common Challenges Faced by 2D Game Developers and How to Overcome Them",
+        "description": "2d game development, 2d game development company, 2d game development services, 2d games development company, 2d game developers, top 2d game developer",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "2d game development, 2d game development company, 2d game development services, 2d games development company, 2d game developers, top 2d game developer",
+          "url": "https://www.bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "2d game development, 2d game development company, 2d game development services, 2d games development company, 2d game developers, top 2d game developer",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": ""
+      }
+      const schematesting = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bitswits.co/2d-games-development-strategies/"
+        },
+        "headline": "2d Games Development Strategies by a 2D Game Development Company for Bug-Free Games",
+        "description": "2d game development, 2d game development company, 2d game development services, 2d games development company, 2d game developers, top 2d game developer",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "2d game development, 2d game development company, 2d game development services, 2d games development company, 2d game developers, top 2d game developer",
+          "url": "https://www.bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "2d game development, 2d game development company, 2d game development services, 2d games development company, 2d game developers, top 2d game developer",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": ""
+      }
+      const schemamyths = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bitswits.co/7-mobile-app-development-myths/"
+        },
+        "headline": "7 Common Mobile App Development Myths",
+        "description": "mobile app development, top mobile app development company, mobile app development company, mobile app development services, mobile app developers, top mobile app developers",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "BitsWits",
+          "url": "https://www.bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "BitsWits",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": ""
+      }
+      const schemaplatform = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bitswits.co/the-ultimate-guide-to-cross-platform-mobile-app-development/"
+        },
+        "headline": "Cross-Platform Mobile App Development - An Ultimate Guide",
+        "description": "cross-platform mobile app development, cross platform app development, cross-platform app development company, cross-platform app development services, cross-platform mobile app developers, cross-platform app developers",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "BitsWits",
+          "url": "https://www.bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "BitsWits",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": ""
+      }
+      const schemaimpact = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bitswits.co/impact-of-metaverse-on-mobile-app-development/"
+        },
+        "headline": "The Impact of the Metaverse on Mobile App Development",
+        "description": "mobile app development, top mobile app development company, mobile app development company, mobile app development services, mobile app developers, top mobile app developers",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "BitsWits",
+          "url": "https://www.bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "BitsWits",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": ""
+      }
+      const schemacross = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bitswits.co/best-practices-for-cross-platform-mobile-app-development/"
+        },
+        "headline": "The Best Practices for Cross-Platform App Development",
+        "description": "cross-platform mobile app development, cross platform app development, cross-platform app development company, cross-platform app development services, cross-platform mobile app developers, cross-platform app developers",
+        "image": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp",  
+        "author": {
+          "@type": "Organization",
+          "name": "BitsWits",
+          "url": "https://www.bitswits.co/"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "BitsWits",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bitswits.co/_next/static/media/footerlogo.6d359c19.webp"
+          }
+        },
+        "datePublished": ""
+      }
     return (
         <>
             {PagePath === '/' ? (
@@ -1161,8 +1336,125 @@ const MetaData = () => {
                 <Head>
                     <title>Mobile App Development Company Dubai</title>
                 </Head>
-            )
-                : null
+            ) : PagePath === '/meet-our-team' ? (
+                <Head>
+                    <title>Meet Our Team</title>
+                </Head>
+            ) : PagePath === '/8-design-principles-2d-game-developers-follow' ? (
+                <Head>
+                    <title>8 Design Principles Top 2D Game Developers Follow </title>
+                    <meta name="description" content="The design of 2D games determine if users would love the game or not. Here are eight design principles 2D game developers follow to create a great user experience." key="metadesc" />
+                    <meta name="DC.title" content="2d game development, 2d game development company, 2d game developers, top 2d game developer" />
+                    <meta name="geo.region" content="US" />
+                    <meta name="geo.position" content="39.78373;-100.445882" />
+                    <meta name="ICBM" content="39.78373, -100.445882" />
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemagame) }}
+                    />
+
+                </Head>
+            ) : PagePath === '/9-common-challenges-faced-by-2d-game-developers' ? (
+                <Head>
+                    <title>9 Common Challenges Faced by 2D Game Developers  </title>
+                    <meta name="description" content="Discover the 9 common challenges that 2D game developers face while developing a 2D game. Learn how to overcome these challenges with various strategies." key="metadesc" />
+                    <meta name="DC.title" content="2d game development, 2d game development company, 2d game developers, top 2d game developer" />
+                <meta name="geo.region" content="US" />
+                <meta name="geo.position" content="39.78373;-100.445882" />
+                <meta name="ICBM" content="39.78373, -100.445882" />
+
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemacommon) }}
+                    />
+
+                </Head>
+            ): PagePath === '/2d-games-development-strategies' ? (
+                <Head>
+                    <title>7 Strategies By 2D Game Development Company For Bug-Free Games  </title>
+                    <meta name="description" content="Discover the different testing and maintenance strategies utilized by a 2D game development company to ensure a smooth gaming experience." key="metadesc" />
+                    <meta name="DC.title" content="2d game development, 2d game development company, 2d game developers, top 2d game developer" />
+                    <meta name="geo.region" content="US" />
+                    <meta name="geo.position" content="39.78373;-100.445882" />
+                    <meta name="ICBM" content="39.78373, -100.445882" />
+
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schematesting) }}
+                    />
+
+                </Head>
+            ):  PagePath === '/7-mobile-app-development-myths' ? (
+                <Head>
+                    <title>7 Common Mobile App Development Myths   </title>
+                    <meta name="description" content="With the increase in mobile apps, there are a lot of myths that are circulating. Here are some of the most common myths about mobile app development you should know." key="metadesc" />
+                    <meta name="DC.title" content="mobile app development, best mobile app development company, top mobile app development company," />
+                    <meta name="geo.region" content="US" />
+                    <meta name="geo.position" content="39.78373;-100.445882" />
+                    <meta name="ICBM" content="39.78373, -100.445882" />
+
+
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemamyths) }}
+                    />
+
+                </Head>
+            ):  PagePath === '/the-ultimate-guide-to-cross-platform-mobile-app-development' ? (
+                <Head>
+                    <title>The Ultimate Guide To Cross-Platform Mobile App Development   </title>
+                    <meta name="description" content="Cross-platform helps in developing mobile apps across multiple platforms. Read on to learn more about the Cross-platform mobile app development process." key="metadesc" />
+                    <meta name="DC.title" content="cross-platform mobile app development, cross-platform app development company, cross-platform mobile app development company" />
+                    <meta name="geo.region" content="US" />
+                    <meta name="geo.position" content="39.78373;-100.445882" />
+                    <meta name="ICBM" content="39.78373, -100.445882" />
+
+
+
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaplatform) }}
+                    />
+
+                </Head>
+            ): PagePath === '/impact-of-metaverse-on-mobile-app-development' ? (
+                <Head>
+                    <title>The Impact of the Metaverse on Mobile App Development</title>
+                    <meta name="description" content="Discover the transformative potential of the Metaverse on Mobile App Development. Explore the current trends, future predictions, and possibilities." key="metadesc" />
+                    <meta name="DC.title" content="mobile app development, best mobile app development company, top mobile app development company," />
+                    <meta name="geo.region" content="US" />
+                    <meta name="geo.position" content="39.78373;-100.445882" />
+                    <meta name="ICBM" content="39.78373, -100.445882" />
+
+
+
+
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaimpact) }}
+                    />
+
+                </Head>
+            ): PagePath === '/best-practices-for-cross-platform-mobile-app-development' ? (
+                <Head>
+                    <title>The Best Practices for Cross-Platform Mobile App Development</title>
+                    <meta name="description" content="Discover the latest trends and best practices that can help you create cross-platform mobile apps that are reliable, performant, and user-friendly." key="metadesc" />
+                    <meta name="DC.title" content="cross-platform mobile app development, cross-platform app development company, cross-platform mobile app development company" />
+                    <meta name="geo.region" content="US" />
+                    <meta name="geo.position" content="39.78373;-100.445882" />
+                    <meta name="ICBM" content="39.78373, -100.445882" />
+
+
+
+
+
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemacross) }}
+                    />
+
+                </Head>
+            ): null
             }
         </>
     )

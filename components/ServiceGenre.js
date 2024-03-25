@@ -45,7 +45,7 @@ const ServiceGenre = (props) => {
                     <Row className={styles.which}>
                         <Col xl={12}>
                             <p className='text-center font24 font-bold'>{props.subTitle}</p>
-                            <h3 className='text-white text-center newchoose font-bold'>{props.title}</h3>
+                            <h2 className='text-white text-center newchoose font-bold'>{props.title}</h2>
                         </Col>
                     </Row>
 
@@ -70,7 +70,7 @@ const ServiceGenre = (props) => {
                                 <Col xl={4} className={styles.compelling}>
                                     <div key={index} className={styles.bod}>
                                         <Image quality={75} alt='BitsWits' src={section.gameicon} className='img-fluid' />
-                                        <h3>{section.title}</h3>
+                                        <h2 className='text-white text-center font-bold'>{section.title}</h2>
                                         <p>{section.text}</p>
                                         <Link href='javascript:$zopim.livechat.window.show();'>LET's CONNECT</Link>
                                     </div>

@@ -109,9 +109,9 @@ export default function customwebdevelopmentservices() {
         assignClass="providecustom"
         rowclas="newrowcustom"
         title={
-          <h3 className="font_30 fontsfheavy newfycolr">
+          <h2 className="font_30 fontsfheavy newfycolr">
             Blockchain Development Services
-          </h3>
+          </h2>
         }
         bigtitle={
           <h2 className="newchoose letterspace_1 font-bold white">
@@ -167,9 +167,9 @@ export default function customwebdevelopmentservices() {
       <SmartContract
         assignClass="providecustom"
         title={
-          <h3 className="font_30 fontsfheavy newfycolr center">
+          <h2 className="font_30 fontsfheavy newfycolr center">
             Web Design and Development Company
-          </h3>
+          </h2>
         }
         bigtitle={
           <h2 className="newchoose letterspace_1 font-bold white center">
@@ -246,9 +246,9 @@ export default function customwebdevelopmentservices() {
       <Provideservices
         assignClass="providecustomweb"
         title={
-          <h3 className="font_30 fontsfheavy newfycolr">
+          <h2 className="font_30 fontsfheavy newfycolr">
             Web Development Services
-          </h3>
+          </h2>
         }
         bigtitle={
           <h2 className="newchoose letterspace_1 font-bold white">
