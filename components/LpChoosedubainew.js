@@ -13,7 +13,7 @@ import banImg6 from "../public/images/lp-images/icon6.png";
 import banImg7 from "../public/images/lp-images/icon7.png";
 import banImg8 from "../public/images/lp-images/icon8.png";
 import banImg9 from "../public/images/lp-images/icon9.png";
-import layoff from "../public/dubailp/layoff.png";
+import layoff from "../public/dubailp/layoff.webp";
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";

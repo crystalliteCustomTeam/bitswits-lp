@@ -4,9 +4,7 @@ import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/Sound.module.css";
 //
-import ban1 from "@/public/newdubai/ban1.png"
-import ban2 from "@/public/newdubai/ban2.png"
-import ban3 from "@/public/newdubai/ban3.png"
+
 
 
 const Sound = () => {

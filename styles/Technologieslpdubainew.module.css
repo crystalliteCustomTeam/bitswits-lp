@@ -87,7 +87,7 @@
 
 @media screen and (min-width: 1400px) {
   .active:before {
-    bottom: -112%;
+    bottom: -54%;
   }
   .york p{
     padding-left: 70px;

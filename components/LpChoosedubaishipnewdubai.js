@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/LpChoosedubaishipnewdubai.module.css";
 //images
 
-import ship from "../public/newdubai/ship.png";
+import ship from "../public/newdubai/ship.webp";
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";

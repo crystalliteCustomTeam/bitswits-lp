@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/Globalmap.module.css";
 //images
 
-import map from "../public/newdubai/map.png";
+import map from "../public/newdubai/map.webp";
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
