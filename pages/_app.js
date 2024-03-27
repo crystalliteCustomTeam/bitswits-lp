@@ -126,9 +126,10 @@ export default function App({ Component, pageProps }) {
   // =======================================
   const meetOurTeam = router.pathname == "/meet-our-team";
   // =======================================
-
-  const dubai = router.pathname == "/mobile-app-development-company-dubai";
-
+  const dubai =
+    router.pathname == "/mobile-app-development-company-dubai" ||
+    router.pathname == "/new-mobile-app-development-company-dubai";
+  // =======================================
   const indexingapi = {
     "type": "service_account",
     "project_id": "bitswits-412709",
@@ -142,22 +143,6 @@ export default function App({ Component, pageProps }) {
     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bitswits-api-service-account%40bitswits-412709.iam.gserviceaccount.com",
     "universe_domain": "googleapis.com"
   }
-
-
-
-  // this code is for 301 redirection
-
-  // useEffect(() => {
-
-
-  //   if(window.location.href == 'http://localhost:3000/mobile-app-design-company' ){
-  //     router.push('/top-mobile-app-development-company');
-  //   }
-  //   else if (window.location.href == 'http://localhost:3000/wearable-app-development-company' ){
-  //     router.push('/flutter-mobile-development');
-  //   }
-  // });
-
 
   return (
     <>
