@@ -1,6 +1,6 @@
-.ourBlogs{
-    padding-top: 50px;
-    padding-bottom: 100px;
+.ourBlogs {
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .blogBox {
@@ -22,4 +22,38 @@
   border-radius: 8px;
   background-color: #f32f53;
   font-size: 18px;
+}
+
+.blogBox h4{
+  font-size: 20px;
+}
+
+.blogBox p{
+  font-size: 16px;
+}
+
+@media screen and (max-width: 991px) {
+  .ourBlogs {
+    padding-top: 0;
+    padding-bottom: 50px;
+  }
+
+  .blogBox h4{
+    font-size: 16px;
+  }
+
+  .blogBox p{
+    height: 75px;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ourBlogs {
+    padding-top: 50px;
+  }
+
+  .blogBox h4{
+    font-size: 18px;
+  }
 }

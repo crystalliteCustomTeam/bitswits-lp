@@ -9,23 +9,23 @@ const Latestblog = (props) => {
         <>
             <section className={styles.ourBlogs}>
                 <Container>
-                    <Row className='gy-5'>
+                    <Row className='gy-4 gy-lg-5'>
                         <Col lg={12}>
                             <h4 className='font40 black f-700 center'>Our Latest Blog Posts</h4>
                         </Col>
                         {props.blogBox.map((blog, index) => (
-                            <Col lg={4}>
-                                <div key={index} className={`${styles.blogBox} d-flex flex-column gap-4 pb-5`}>
+                            <Col md={4}>
+                                <div key={index} className={`${styles.blogBox} d-flex flex-column gap-2 gap-lg-4 pb-3 pb-lg-5`}>
                                     <Image loading='lazy' src={blog.img} alt='BitsWits' className='img-fluid mb-2' />
                                     <div className='px-3'>
-                                        <h4 className='font20 black f-700'>{blog.title}</h4>
-                                        <p className='font16 fw400 m-0'>{blog.content}</p>
+                                        <h4 className='black f-700'>{blog.title}</h4>
+                                        <p className='fw400 m-0'>{blog.content}</p>
                                     </div>
                                 </div>
                             </Col>
                         ))}
                         <Col lg={12}>
-                            <Link href="/blog" className={styles.blogBtn}>View All</Link>
+                            <Link href="/blog" className={`${styles.blogBtn} mt-3 mt-lg-0`}>View All</Link>
                         </Col>
                     </Row>
                 </Container>
