@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
-import styles from '@/styles/Technologieslpdubai.module.css'
+import styles from '@/styles/Technologieslpdubainew.module.css'
 import Link from 'next/link'
 //
 import icon1 from '../public/dubailp/technology/1.png'
@@ -65,9 +65,9 @@ const Technologieslpdubai = () => {
                 <Container>
                     <Row>
                         <Col xl={12} className={styles.york}>
-                            <h2 className={styles.work}>Rev-Up App Development in Dubai with <br></br> Bitswits All-Encompassing Services </h2>
-                            <p className='font16 font-normal white text-center'>We've helped businesses cross the chasm with our data-driven approach toward app development, and we've brought the same passion for disruption and growth to UAE. Having expertise and first-hand experience in multiple tangents of mobile app development in Dubai, our mobile apps development company rev up your growth engine by building new revenue streams allowing you to rethink possibilities and ensure long-term growth. We know that the Dubai mobile app development market has gained traction mainly due to the tourism and business economy that Dubai has built over the years.</p> 
-                            <p className='font16 font-normal white text-center'>Our list of satisfied clients and businesses empowered is growing rapidly. We've worked with businesses and entrepreneurs coming from all walks of life, and we aim to continue empowering businesses with advanced mobile applications. Speaker of empowering businesses, here are other services that our app developers in Dubai are offering:</p>
+                            <h2 className={styles.work}>Rev-Up App Development in Dubai with  Bitswits All- <br></br>Encompassing Services </h2>
+                            <p className='font16 font-normal black text-center'>We've helped businesses cross the chasm with our data-driven approach toward app development, and we've brought the same passion for disruption and growth to UAE. Having expertise and first-hand experience in multiple tangents of mobile app development in Dubai, our mobile apps development company rev up your growth engine by building new revenue streams allowing you to rethink possibilities and ensure long-term growth. We know that the Dubai mobile app development market has gained traction mainly due to the tourism and business economy that Dubai has built over the years.</p> 
+                            <p className='font16 font-normal black text-center'>Our list of satisfied clients and businesses empowered is growing rapidly. We've worked with businesses and entrepreneurs coming from all walks of life, and we aim to continue empowering businesses with advanced mobile applications. Speaker of empowering businesses, here are other services that our app developers in Dubai are offering:</p>
                         </Col>
                         <Col xl={12} className='mb-5 d-none d-lg-block'>
                             <div className={styles.analpost}>
