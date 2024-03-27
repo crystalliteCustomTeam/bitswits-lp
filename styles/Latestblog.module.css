@@ -1,0 +1,25 @@
+.ourBlogs{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.blogBox {
+  border: 0;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.blogBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  height: 45px;
+  color: #fff;
+  margin: 0 auto;
+  padding: 0 60px;
+  width: max-content;
+  border-radius: 8px;
+  background-color: #f32f53;
+  font-size: 18px;
+}
