@@ -21,7 +21,7 @@ const Sound = () => {
      <Row>
         <Col lg={12}>
             <h2 className={styles.match}> <span>Sound</span> Like A Match?</h2>
-            <Link href="#" className={styles.caht}>Let's Chat</Link>
+            <Link href="javascript:$zopim.livechat.window.show();" className={styles.caht}>Let's Chat</Link>
         </Col>
      </Row>
 

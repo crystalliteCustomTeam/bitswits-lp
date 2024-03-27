@@ -19,7 +19,7 @@ const Delivered = () => {
         <Col lg={12}>
             <h2>We've Delivered 100+ Mobile Applications To Clients Worldwide!</h2>
             <p>Your app idea can be the next game-changer! Do you wish to be on that list?</p>
-            <Link href="#">Book A Consultation Now!</Link>
+            <Link href="javascript:$zopim.livechat.window.show();">Book A Consultation Now!</Link>
             
         </Col>
      </Row>
