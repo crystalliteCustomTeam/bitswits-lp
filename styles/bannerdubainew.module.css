@@ -1,13 +1,23 @@
+.newpound{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 85px;
+}
+.newpound h4{
+  font-size: 15px;
+  margin-bottom: 0;
+}
 .newHomeBg {
   padding-top: 80px;
   padding-bottom: 80px;
   background: #000;
-  background-image: url(../public/dubailp/banner.png);
+  background-image: url(../public/newdubai/banner.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .conform .applost{
-  align-items: center;
   justify-content: space-between;
 }
 .comple {
@@ -61,7 +71,7 @@
   align-items: center;
   justify-content: center;
   color: white;
-  border-radius: 10px;
+  border-radius: 3px;
   font-weight: bold;
 }
 
@@ -388,24 +398,21 @@
 
 
 .your {
-  border: 3px solid #f32f53;
+  border: 1px solid #7A7A7A;
   border-radius: 20px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
-  backdrop-filter: blur(9px);
-  background-color: #00000066;
-  box-shadow: rgb(235 51 91 / 43%) 0px 7px 29px 
+  background-color: black;
 }
 
 .your input {
   height: 45px;
-  border: 1px solid #f52674;
-  background-color: #ffffff0d;
+  border: 1px solid #7A7A7A;
+  background-color: black;
   border-radius: 9px;
   color: white;
-  backdrop-filter: blur(123px);
   padding-left: 0px;
 }
 .your .vehicle1  {
@@ -432,11 +439,10 @@
 
 .your textarea {
   height: 80px;
-  border: 1px solid #f52674;
-  background-color: #ffffff0d;
+  border: 1px solid #7A7A7A;
+  background-color: black;
   border-radius: 9px;
   color: white;
-  backdrop-filter: blur(123px);
   padding-left: 0px;
 }
 .your textarea::placeholder {
@@ -450,7 +456,7 @@
   background-color: #F32F53;
   width: 40%;
   border: unset;
-  border-radius: 5px;
+  border-radius: 3px;
   color: white;
   font-weight: bold;
   margin-top: 4%;
@@ -744,9 +750,15 @@
 
 @media screen and (max-width: 480px) {
 
+  .newpound {
+    margin-bottom: 35px;
+}
 
+  .newpound {
+    flex-wrap: wrap;
+}
 
-
+  
   .conform h2 {
     font-size: calc(25px + 0.390625vw);
     line-height: 32px;

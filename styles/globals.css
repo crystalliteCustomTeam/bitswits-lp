@@ -821,6 +821,19 @@ a {
 
 /* scrollbar */
 
+.newscoolr::-webkit-scrollbar{
+  display: none;
+}
+.newfinfler{
+
+  direction: rtl;
+}
+.newfinfler::-webkit-scrollbar-track {
+  background: white;
+}
+.newfinfler::-webkit-scrollbar {
+  width: 6px;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 3px;
@@ -913,6 +926,7 @@ a {
  border-bottom: unset!important;
  border-bottom-left-radius: unset!important;
  border-bottom-right-radius: unset!important;
+ background-color: unset;
 }
 .activefapost .newfoldpost p{
   display: none;
@@ -1125,6 +1139,13 @@ a {
   right: 80px;
   margin-top: -4%;
   margin-bottom: 2%;
+}
+.newlevel .activefapost .d-block img{
+  position: relative;
+  right: 20px;
+  margin-top: -4%;
+  margin-bottom: 0;
+  bottom: -15px;
 }
 
 /* ======================================== */
@@ -2780,6 +2801,11 @@ input::-webkit-inner-spin-button {
 /* ========================= */
 
 @media screen and (max-width: 991px) {
+
+  .newlevel .activefapost .newfoldpost{
+    border: unset!important;
+  }
+
   .bgtext {
     position: unset;
   }
@@ -3028,6 +3054,12 @@ input::-webkit-inner-spin-button {
   .f-80 {
     font-size: 30px;
   }
+ 
+  .newlevel .activefapost .newfoldpost {
+    background-color: unset;
+    border: 2px solid #d82a4a!important;
+
+}
 
   .font100 {
     font-size: 60px;
@@ -4006,6 +4038,14 @@ button {
   place-items: center;
   overflow: hidden;
 }
+.newtude .slider {
+  height: auto;
+  position: relative;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
 
 /*  IMPORTANT CODE BELOW */
 
@@ -4020,6 +4060,14 @@ button {
   width: 160px;
   height: 60px;
 
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.newtude .slide {
+  width: auto;
+  height: auto;
   display: grid;
   place-items: center;
   transition: 0.5s;
@@ -4091,8 +4139,13 @@ button {
   display: block;
 }
 
-.activefapost .newfoldpost{
+.newlevel .activefapost .newfoldpost {
   background-color: unset;
+  border: 2px solid #d82a4a!important;
+  border-bottom: unset!important;
+  padding-bottom: 0 !important;
+  border-top-left-radius: 20px!important;
+  border-top-right-radius: 20px!important;
 }
 
 /* =================Media Queries=================== */
