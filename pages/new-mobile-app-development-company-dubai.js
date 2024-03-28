@@ -22,6 +22,7 @@ const Globalmap = React.lazy(() => import("@/components/Globalmap"));
 const Transformativedubai = React.lazy(() => import("@/components/Transformativedubai"));
 const Brand = React.lazy(() => import("@/components/Brand"));
 const Latestblog = React.lazy(() => import("@/components/Latestblog"));
+const Bussiness = React.lazy(() => import("@/components/Bussiness"));
 //Images
 const appEight1 = await import("../public/newdubai/slider/soul.png");
 const appEight2 = await import("../public/dubailp/faqs/2.png");
@@ -112,6 +113,7 @@ export default function gamedevelopmentcompany() {
         ]}
       />
       <Processpro />
+      <Bussiness />
       <Whowearenew />
       <Sound />
       <Delivered />
