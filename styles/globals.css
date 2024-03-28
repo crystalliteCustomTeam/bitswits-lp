@@ -821,6 +821,19 @@ a {
 
 /* scrollbar */
 
+.newscoolr::-webkit-scrollbar{
+  display: none;
+}
+.newfinfler{
+
+  direction: rtl;
+}
+.newfinfler::-webkit-scrollbar-track {
+  background: white;
+}
+.newfinfler::-webkit-scrollbar {
+  width: 6px;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 3px;

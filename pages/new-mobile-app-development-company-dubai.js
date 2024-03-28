@@ -23,6 +23,7 @@ const Transformativedubai = React.lazy(() => import("@/components/Transformative
 const Brand = React.lazy(() => import("@/components/Brand"));
 const Latestblog = React.lazy(() => import("@/components/Latestblog"));
 const Bussiness = React.lazy(() => import("@/components/Bussiness"));
+const Houtondubai = React.lazy(() => import("@/components/Houtondubai"));
 //Images
 const appEight1 = await import("../public/newdubai/slider/soul.png");
 const appEight2 = await import("../public/dubailp/faqs/2.png");
@@ -144,6 +145,7 @@ export default function gamedevelopmentcompany() {
       <Globallplp6dubai />
       <Globalmap />
       <Brand />
+      <Houtondubai />
       <Faqdubai
         faqsData={[
           {
@@ -185,7 +187,7 @@ export default function gamedevelopmentcompany() {
         ]}
       />
       <Latestblog blogBox={blogBox} />
-      <HomeLocation />
+    
     </>
   );
 }

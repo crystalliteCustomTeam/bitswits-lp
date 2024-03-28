@@ -8,9 +8,11 @@ import "@/styles/globals.css";
 //
 import Header from "@/components/Header";
 import NewHeaderDesign from "@/components/NewHeader";
+import NewHeaderdubai from "@/components/NewHeaderdubai";
 import Headerlp from "@/components/Headerlp";
 import Headerlphome from "@/components/Headerlphome";
 import Footernewfy from "@/components/Footernewfydesign";
+import Footernewfydesigndebai from "@/components/Footernewfydesigndebai";
 import Footernewlp from "@/components/Footernewlp";
 import Footernewdesign from "@/components/Footernewdesign";
 import EcommerceBanner from "@/components/EcommerceBanner";
@@ -223,9 +225,11 @@ export default function App({ Component, pageProps }) {
       {dubai ?
         (imagesLoaded2 ?
           <>
+            {/* <NewHeaderdubai /> */}
             <NewHeaderDesign />
             <Header />
             <Component {...pageProps} />
+            {/* <Footernewfydesigndebai /> */}
             <Footernewfy />
           </>
           : "")
