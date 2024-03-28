@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
-import styles from "../styles/NewhomeFaqslpdubainew.module.css";
+import styles from "../styles/Faqsdubia.module.css";
 //
-import close from "../public/newHomePageImages/close.png";
+import close from "../public/newdubai/close.png";
 import open from "../public/newdubai/do.png";
 
 
-const ServicesFaqsdubaimobile = (props) => {
+const Faqdubai = (props) => {
 
     const [faqStates, setFaqStates] = useState(Array(props.faqsData.length).fill(false));
 
@@ -32,11 +32,12 @@ const ServicesFaqsdubaimobile = (props) => {
                    
                     <Row>
                         <Col lg={12}>
+                        <h4 class="font40 black f-700 center pb-5">FAQs</h4>
                             {props.faqsData.map((faq, index) => (
                                 <div key={index} className={`${faqStates[index] ? "touchFaq activefapost" : ""} mb-4 mb-lg-0`}>
                                     <div>
                                     <div onClick={() => toggleFaq(index)} className={ `${styles.heading} newfoldpost p-3`}>
-                                        <h3 className={`${faqStates[index] ? "black" : "white"} `}>
+                                        <h3 className={`${faqStates[index] ? "black" : "black"} `}>
                                             {faq.question} {faqStates[index] ? <Image quality={75} src={open} className="img-fluid" alt="Bitswits" /> : <Image quality={75} src={close} className="img-fluid" alt="Bitswits" />}
                                         </h3>
                                         
@@ -61,4 +62,4 @@ const ServicesFaqsdubaimobile = (props) => {
     );
 };
 
-export default ServicesFaqsdubaimobile;
+export default Faqdubai;

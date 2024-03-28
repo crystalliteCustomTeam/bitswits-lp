@@ -113,6 +113,17 @@ font-family: 'SF-Pro-Display';
     }
 
     @media screen and (max-width: 480px) {
+
+
+      .travel h3 {
+        font-size: 25px;
+    }
+    .travel2 h3 {
+      font-size: 25px;
+  }
+  .travel3 h3 {
+    font-size: 25px;
+}
       .android h2 {
      
         font-size: 25px;

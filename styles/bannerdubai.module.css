@@ -743,6 +743,10 @@
 }
 
 @media screen and (max-width: 480px) {
+
+
+
+
   .conform h2 {
     font-size: calc(25px + 0.390625vw);
     line-height: 32px;

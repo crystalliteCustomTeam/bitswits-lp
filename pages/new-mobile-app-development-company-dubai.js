@@ -14,11 +14,14 @@ const Expertappdubaiadvanced = React.lazy(() => import("@/components/Expertappdu
 const Justbuilditlpdubai = React.lazy(() => import("@/components/Justbuilditlpdubai"));
 const Globallplp6dubai = React.lazy(() => import("@/components/Globallplp6dubai"));
 const ServicesFaqsdubaimobilenew = React.lazy(() => import("@/components/ServicesFaqsdubaimobilenew"));
+const Faqdubai = React.lazy(() => import("@/components/Faqdubai"));
 const Technologieslpdubainew = React.lazy(() => import("@/components/Technologieslpdubainew"));
 const LpChoosedubainew = React.lazy(() => import("@/components/LpChoosedubainew"));
 const LpChoosedubaishipnewdubai = React.lazy(() => import("@/components/LpChoosedubaishipnewdubai"));
 const Globalmap = React.lazy(() => import("@/components/Globalmap"));
-import Latestblog from "@/components/Latestblog";
+const Transformativedubai = React.lazy(() => import("@/components/Transformativedubai"));
+const Brand = React.lazy(() => import("@/components/Brand"));
+const Latestblog = React.lazy(() => import("@/components/Latestblog"));
 //Images
 const appEight1 = await import("../public/newdubai/slider/soul.png");
 const appEight2 = await import("../public/dubailp/faqs/2.png");
@@ -116,6 +119,7 @@ export default function gamedevelopmentcompany() {
       <LpChoosedubainew
         transform="transformlp"
       />
+      <Transformativedubai />
       <LpChoosedubaishipnewdubai
         transform="transformlp"
       />
@@ -137,7 +141,8 @@ export default function gamedevelopmentcompany() {
       />
       <Globallplp6dubai />
       <Globalmap />
-      <ServicesFaqsdubaimobilenew
+      <Brand />
+      <Faqdubai
         faqsData={[
           {
             question:
